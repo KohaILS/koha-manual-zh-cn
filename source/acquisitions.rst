@@ -926,7 +926,7 @@ Canceling an order
 
        **Note**
        
-       Whilst it is possible to re-open your basket, cancel one or more orders and re-close the basket, this is not recommended. This procedure will update the 'basket closed' date, which in turn will cause your 'late order' caclulations to be incorrect. Instead, follow the procedure below.
+       Whilst it is possible to re-open your basket, cancel one or more orders and re-close the basket, this is not recommended. This procedure will update the 'basket closed' date, which in turn will cause your 'late order' calculations to be incorrect. Instead, follow the procedure below.
 
 To cancel an order:
 

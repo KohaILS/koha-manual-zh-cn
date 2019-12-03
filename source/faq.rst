@@ -742,7 +742,7 @@ run.
 
 There is a specific syntax that Koha will understand as 'ask for values
 when running the report'. The syntax is <<Question to
-ask\[|type]>>.
+ask\[\|type]>>.
 
 -  The << and >> are just delimiters. You must put << at the beginning
    and >> at the end of your parameter

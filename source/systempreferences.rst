@@ -3583,8 +3583,7 @@ Values:
 Description:
 
 -  The library can choose which of these actions or all of these actions, does an 
-item gets automatically returned from the patron's account or not. 
-
+   item gets automatically returned from the patron's account or not.
 
 .. _maxoutstanding-label:
 
@@ -4096,7 +4095,7 @@ Example:
    December to accommodate for the two closed days.
 
 The calendar is defined on a branch by branch basis. To learn more about
-the calendar, check out the ^:ref:`Calendar & Holidays <calendar-label>`^
+the calendar, check out the :ref:`Calendar & Holidays <calendar-label>`
 section of this manual.
 
 .. _usetransportcostmatrix-label:
@@ -4958,13 +4957,13 @@ Asks: Mark a hold as problematic if it has been waiting for more than
 
 Description:
 
--  This preference (based on calendar days, not the :ref:`Koha holiday
-   calendar <calendar-label>`) puts an expiration date on an item a
+-  This preference (based on calendar days, not the
+   :ref:`Koha holiday calendar <calendar-label>`) puts an expiration date on an item a
    patron has on hold. After this expiration date the staff will have
    the option to release the unclaimed hold which then may be returned
    to the library shelf or issued to the next patron on the item's hold
    list. Items that are 'expired' by this preference are moved to the
-   'Holds Over' tab on the ^:ref:`Holds Awaiting Pickup <holds-awaiting-pickup-label>`^
+   'Holds Over' tab on the :ref:`Holds Awaiting Pickup <holds-awaiting-pickup-label>`
    report.
 
 .. _reservesneedreturns-label:
@@ -5766,7 +5765,7 @@ Description:
 
 -  This preference is used to enable Koha's ILL module which is used to manage ILL requests.
 
-.. _illmodule-label:
+.. _illmodulecopyrightclearance-label:
 
 ILLModuleCopyrightClearance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -6793,8 +6792,7 @@ Description:
     **Important**
 
     If this is set to 'show' you will need to enter a value in the
-    ^:ref:`LibraryThingForLibrariesID`^
-    system preference.
+    :ref:`LibraryThingForLibrariesID` system preference.
 
 .. _librarythingforlibrariesid-label:
 
@@ -8852,7 +8850,7 @@ Asks: Include the following HTML in the header of all pages in the OPAC
 
     **Note**
 
-    Edit ^:ref:`LibraryName`^ if you'd like to edit the
+    Edit :ref:`LibraryName` if you'd like to edit the
     contents of the <title> tag
 
 Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
@@ -11942,8 +11940,8 @@ as well, individual fields in that form will be ignored.
 
     **Note**
 
-    See the :ref:`database schema (borrowers table) <http://schema.koha-
-    community.org/>`_ to know the field names.
+    See the :ref:`database schema (borrowers table) <http://schema.koha-community.org/>`
+    to know the field names.
 
     **Note**
     If either :ref:`PatronQuickAddFields` or :ref:`BorrowerMandatoryField`
@@ -13989,7 +13987,7 @@ Web services
 *Get there:* More > Administration > Global system preferences > Web
 services
 
-.. _ils-di-label:
+.. _ils-di-system-preferences-label:
 
 ILS-DI
 ~~~~~~~~~~~~~~~~~~~~~~~~

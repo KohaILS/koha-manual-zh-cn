@@ -571,9 +571,6 @@ sudo vi koha-conf.xml
 	</mapping>
 
 	</ldapserver>
-    
-::
-
 
 5 Save and exit the koha-conf.xml file
 
@@ -646,12 +643,7 @@ Example of the LDAP configurations:
 
  </ldapserver>
 
-::
-
-
-
 The values in the mapping area are not always the same, and it depends on what is in your organisations LDAP database. For example some organisations do not use <userid> instead each user is only identified by the <email> field and so no <userid> is written.
-
 
 **Troubleshooting LDAP**
 
