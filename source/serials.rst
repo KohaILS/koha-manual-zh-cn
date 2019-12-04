@@ -80,33 +80,33 @@ The form that appears will ask for either an authorized value or a MARC
 field to populate the field with
 
 -  Name: enter the name of the field
-   
--  Authorized value category: you can use :ref:`authorized values <authorized-values-label>` 
-   to fill in this field. 
 
--  MARC field: enter a MARC field that will be used to fill in this new 
+-  Authorized value category: you can use :ref:`authorized values <authorized-values-label>`
+   to fill in this field.
+
+-  MARC field: enter a MARC field that will be used to fill in this new
    field
 
       **Note**
 
       You can only choose one of the two options.
 
-      If you choose the authorized value option, you will be able to 
-      fill in the new field upon the :ref:`creation <add-a-subscription-label>` 
+      If you choose the authorized value option, you will be able to
+      fill in the new field upon the :ref:`creation <add-a-subscription-label>`
       or :ref:`modification <edit-subscription-label>` of the subscription.
 
-      If you choose the MARC option, the field will be automatically 
-      populated with the corresponding record's value for this MARC 
+      If you choose the MARC option, the field will be automatically
+      populated with the corresponding record's value for this MARC
       field.
 
       **Important**
 
-      If you choose the MARC field, make sure you enter it in this 
+      If you choose the MARC field, make sure you enter it in this
       format: field$subfield
 
       For example: 515$a
 
--  Searchable: check this box if you want to be able to search your 
+-  Searchable: check this box if you want to be able to search your
    subscriptions using this field
 
 |image1272|
@@ -116,47 +116,47 @@ field to populate the field with
 You might want to track which department you're ordering this serial for
 
 -  In the 'Name' field, enter 'Department'
-   
--  In the 'Authorized value category' field, choose DEPARTMENT 
-   
+
+-  In the 'Authorized value category' field, choose DEPARTMENT
+
 -  Check the 'Searchable' box
-   
+
 |image1273|
 
-When you are adding a subscription, the field will be in the 'Additional 
+When you are adding a subscription, the field will be in the 'Additional
 fields' section with its authorized values drop-down menu.
 
 |image1274|
 
-When you view the subscription, the field will appear under 'Additional 
+When you view the subscription, the field will appear under 'Additional
 fields'.
 
 |image1275|
 
-Because we made the field searchable, it will also be in the serials 
+Because we made the field searchable, it will also be in the serials
 subscription search.
 
 |image1276|
 
 **Example 2:** Additional field using MARC field
 
-This is particularly useful if you want to view bibliographic 
-information in the subscription detail page. In this example, we will 
+This is particularly useful if you want to view bibliographic
+information in the subscription detail page. In this example, we will
 add the 521$a field, which is, in MARC21, the target audience note.
 
 - In the 'Name' field, enter 'Target audience'
-  
+
 - In the 'MARC field' field, enter '521$a'
-  
+
 |image1379|
 
       **Note**
 
-      You will not be able to edit this field from the subscription 
-      form. If you need to add or change the value in this field, 
+      You will not be able to edit this field from the subscription
+      form. If you need to add or change the value in this field,
       you must go through the :ref:`cataloging module <cataloging-label>`.
 
-When you view the subscription, the field and the information from the 
+When you view the subscription, the field and the information from the
 bibliographic record will appear under 'Additional fields'.
 
 |image1380|
@@ -243,8 +243,7 @@ record the form will include the bib info).
 
 -  The 'Grace period' is the number of days before an issue is
    automatically moved from 'Expected' status to 'Late'.
-   This mechanism requires that the :ref:`SerialsUpdate.pl cron job
-   <serials-update-label>` is set up to run regularly.
+   This mechanism requires that the :ref:`SerialsUpdate.pl cron job <serials-update-label>` is set up to run regularly.
 
 -  The Staff and OPAC display options allow you to control how many
    issues appear by default on bibliographic records in the Staff Client
@@ -369,34 +368,34 @@ Click 'Save subscription' to save the information you have entered.
 Edit a subscription
 -----------------------------------
 
-To edit a subscription, click on 'Edit' and 'Edit subscription' from the 
-subscription page. This will take you back to the same form as the one 
+To edit a subscription, click on 'Edit' and 'Edit subscription' from the
+subscription page. This will take you back to the same form as the one
 used when :ref:`creating a new subscription <add-a-subscription-label>`.
 
 |image1376|
 
-You can also batch edit subscriptions. To do so, search for the subscriptions 
-you want to change. In the results, check the boxes next to the subscriptions 
+You can also batch edit subscriptions. To do so, search for the subscriptions
+you want to change. In the results, check the boxes next to the subscriptions
 to edit. The link 'Edit selected serials' will appear.
 
 |image1377|
 
-From there, you can change: 
+From there, you can change:
 
 -  the vendor
-   
+
 -  the shelving location
-   
+
 -  the library
-   
+
 -  the item type
-   
+
 -  the public note
-   
+
 -  the nonpublic note
-   
+
 -  whether or not to create an item when receiving an issue
-   
+
 -  the expiration date
 
 |image1378|
@@ -404,7 +403,6 @@ From there, you can change:
       **Note**
 
       Leave the field unchanged to keep the original values.
-
 
 .. _receive-issues-label:
 
@@ -633,11 +631,11 @@ further or renew it in one click.
 
 |image774|
 
-If there is more than one subscription, you can check the boxes and 
-click on 'Renew selected subscriptions' to renew all the serials. 
-The serials will be renewed for the same amount of time as their previous 
-subscription (i.e. if the last subscription for that serial lasted one 
-year, the serial will be renewed for one year; if the last subscription 
+If there is more than one subscription, you can check the boxes and
+click on 'Renew selected subscriptions' to renew all the serials.
+The serials will be renewed for the same amount of time as their previous
+subscription (i.e. if the last subscription for that serial lasted one
+year, the serial will be renewed for one year; if the last subscription
 was for 16 issues, it will be renewed for another 16 issues).
 
 |image1356|

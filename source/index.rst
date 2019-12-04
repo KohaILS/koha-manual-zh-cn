@@ -8,7 +8,6 @@ Koha 18.11 Manual (en)
 .. toctree::
    :maxdepth: 2
 
-
    intro
    installation
    systempreferences
@@ -37,5 +36,3 @@ Koha 18.11 Manual (en)
    links
    faq
    license
-
-  

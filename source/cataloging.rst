@@ -14,7 +14,7 @@ able to add or remove fields and subfields so your frameworks must be
 ready before you start cataloging.
 
 You can also use OCLC Connexion to send records directly in to Koha. For
-more information on that please review the :ref:`OCLC Connexion Gateway` 
+more information on that please review the :ref:`OCLC Connexion Gateway`
 setup Appendix.
 
 -  *Get there:* More > Cataloging
@@ -27,8 +27,8 @@ Bibliographic records
 In Koha the bibliographic record contains the main information related
 to the material. This includes things like the title, author, ISBN, etc.
 This information is stored in Koha in Marc (different flavors of Marc
-are supported in Koha). Once this information is saved, :ref:`item records 
-<item-records-label>` can be attached.
+are supported in Koha). Once this information is saved,
+:ref:`item records <item-records-label>` can be attached.
 
 .. _adding-records-label:
 
@@ -51,9 +51,7 @@ basic editor
 If you would like to catalog a record using a blank template in the
 advanced editor
 
--  Enable the
-   :ref:`EnableAdvancedCatalogingEditor`
-   preference
+-  Enable the :ref:`EnableAdvancedCatalogingEditor` preference
 
 -  Click the 'Advanced editor' button
 
@@ -76,7 +74,7 @@ library in the editor you last used (basic or advanced)
    -  Search targets can be altered by using the :ref:`Z39.50
       Admin <z39.50/sru-servers-label>` area.
 
-   -  From the results' 'Action' button you can view the MARC or Card 
+   -  From the results' 'Action' button you can view the MARC or Card
       view for the record or choose to import it into Koha
 
       |image629|
@@ -477,7 +475,7 @@ options.
 Editing records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To edit a record you can click the 'Actions' button and choose 'Edit biblio' 
+To edit a record you can click the 'Actions' button and choose 'Edit biblio'
 from the search results on the cataloging search page
 
 |image659|
@@ -574,8 +572,8 @@ on the detail display.
 
     **Note**
 
-    If the file is a PDF, it will be opened directly in the user's browser 
-    whereas if the file is an image or another type of file, the user will 
+    If the file is a PDF, it will be opened directly in the user's browser
+    whereas if the file is an image or another type of file, the user will
     be prompted to download it.
 
 .. _merging-records-label:
@@ -757,10 +755,8 @@ record display.
 
 |image680|
 
-If you have
-:ref:`SpineLabelShowPrintOnBibDetails`
-set to 'Display' then there will also be a link to print a quick spine
-label next to each item.
+If you have :ref:`SpineLabelShowPrintOnBibDetails` set to 'Display' then there
+will also be a link to print a quick spine label next to each item.
 
 |image681|
 
@@ -803,8 +799,7 @@ Items can be edited in several ways.
    tool <batch-item-modification-label>` where you can edit all of the items on
    this record as a batch.
 
--  You can also enable
-   :ref:`StaffDetailItemSelection` to have
+-  You can also enable :ref:`StaffDetailItemSelection` to have
    checkboxes appear to the left of each item on the detail display. You
    can then check off the items you would like to edit and click 'Modify
    selected items' at the top of the list.
@@ -931,8 +926,7 @@ If you know that all of the items attached to your record are not
 currently checked out you can use the 'Delete all items' option under
 the 'Edit menu' and it will remove all items from the record.
 
-You can also enable
-:ref:`StaffDetailItemSelection` to have
+You can also enable :ref:`StaffDetailItemSelection` to have
 checkboxes appear to the left of each item on the detail display. You
 can then check off the items you would like to delete and click 'Delete
 selected items' at the top of the list.

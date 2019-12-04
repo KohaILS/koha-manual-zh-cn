@@ -82,17 +82,17 @@ The vendor add form is broken into three pieces
 
    -  None of these fields are required, they should only be entered if
       you want to keep track of your contact's information within Koha
-      
+
         -  Primary acquisitions contact: check this box if this person is your primary contact regarding acquisitions from this vendor
-        
+
         -  Primary serials contact: check this box if this person is your primary contact regarding serial acquisitions from this vendor
-        
+
         -  Contact when ordering? check this box if you want to be able to send your orders by email directly to this person
-        
+
         -  Contact about late orders? check this box if you want to be able to send your acquisitions claims by email directly to this person
-        
+
         -  Contact about late issues? check this box if you want to be able to send your serials claims by email directly to this person
-        
+
    -  You can add more than one contact per vendor by clicking on the 'Add another contact' button
 
 -  The final section is for billing information
@@ -196,12 +196,12 @@ suggestions via the staff client either for the library or :ref:`on the
 patron's behalf <purchase-suggestions-label>` from their record. Depending on
 your settings in the :ref:`suggestion` system
 preference, patrons may also be able to make purchase suggestions via
-the OPAC. 
+the OPAC.
 
     **Note**
 
-    You need to be logged in as a staff member with the 
-    suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>` 
+    You need to be logged in as a staff member with the
+    suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>`
     in order to view and work with purchase suggestions.
 
 When a suggestion is waiting for library review, it will
@@ -361,8 +361,8 @@ about the order:
 
 -  If you're ordering standing items (items which arrive regularly) then
    you will want to check the 'Orders are standing' box for this basket.
-   
-   -  Note that any one basket cannot contain both firm and standing orders.   
+
+   -  Note that any one basket cannot contain both firm and standing orders.
 
 If you have :ref:`added contracts <add-a-contract-label>` to the vendor
 you're ordering from, you will also have an option to choose which
@@ -446,7 +446,7 @@ adding items to the order.
       necessary details about the item you are ordering.
 
       **Note**
-      
+
       If the default form does not have catalog details fields necessary to
       place an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference
       which will allow the ACQ MARC framework to customize the display of fields
@@ -512,7 +512,7 @@ Order from a staged file
       |image1283|
 
    -  If no information is imported in the fund information from the MARC
-      with the :ref:`MarcFieldsToOrder` preference, 
+      with the :ref:`MarcFieldsToOrder` preference,
       the 'Default accounting details' tab can be used to
       apply values related to the accounting.
 
@@ -592,13 +592,13 @@ Accounting information.
    you enter this, hit tab and Koha will populate the rest of the cost
    fields below.
 
--  Retail price is the recommended retail price (RRP), the price set 
-   by the publisher or the manufacturer as a recommendation to booksellers. 
+-  Retail price is the recommended retail price (RRP), the price set
+   by the publisher or the manufacturer as a recommendation to booksellers.
 
--  Replacement cost is the price it will cost to replace the item. 
-   
+-  Replacement cost is the price it will cost to replace the item.
+
 -  Budgeted cost is the amount that will be removed from the 'spent' budget.
-   
+
 -  Total is the budgeted cost multiplied by the quantity of items ordered.
 
 -  If you added planning values when :ref:`creating the
@@ -858,8 +858,8 @@ invoice or 'Close' to note that the invoice is closed/paid for.
 
 |image853|
 
-In the Adjustments section, you can add adjustments to your invoices. 
-These adjustments can be for adjusting the price that is offset by rounding 
+In the Adjustments section, you can add adjustments to your invoices.
+These adjustments can be for adjusting the price that is offset by rounding
 or adding a credit to the invoice, for example.
 
 |image1371|
@@ -867,25 +867,25 @@ or adding a credit to the invoice, for example.
 -  Click on 'Add an adjustment'
 
 -  Enter the amount of the adjustment
-   
+
 -  Choose a reason, if needed
-   
+
        **Note**
 
-       The reasons are :ref:`authorized values<authorized-values-label>`. 
+       The reasons are :ref:`authorized values<authorized-values-label>`.
        Use the category ADJ\_REASON to add custom reasons for adjustments.
 
 -  Enter a note, if needed
-   
+
 -  Choose the fund from which the adjustment amount should be taken
-   
--  If 'Encumber while invoice open' is checked, the amount of the adjustment 
-   will be taken out of the fund immediately. If it isn't checked, the amount 
+
+-  If 'Encumber while invoice open' is checked, the amount of the adjustment
+   will be taken out of the fund immediately. If it isn't checked, the amount
    will be subtracted only when the invoice is closed.
 
 -  Click on 'Update adjustments' to save your adjustments
-   
-If you need to change the adjustment afterwards, you can do so in the table 
+
+If you need to change the adjustment afterwards, you can do so in the table
 and click on 'Update adjustments'.
 
 |image1372|
@@ -925,7 +925,7 @@ Canceling an order
 ------------------------------------
 
        **Note**
-       
+
        Whilst it is possible to re-open your basket, cancel one or more orders and re-close the basket, this is not recommended. This procedure will update the 'basket closed' date, which in turn will cause your 'late order' calculations to be incorrect. Instead, follow the procedure below.
 
 To cancel an order:

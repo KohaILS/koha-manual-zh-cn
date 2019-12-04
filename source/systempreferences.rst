@@ -338,9 +338,8 @@ Description:
 
     **Note**
 
-    This system preference is used when the cronjob purge_suggestions.pl is 
+    This system preference is used when the cronjob purge_suggestions.pl is
     active and called without a specific number of days.
-
 
 .. _uniqueitemfields-label:
 
@@ -444,7 +443,7 @@ Description:
    in one of them or after reaching a timeout.
 
        **Note**
-       
+
        The CAS server has to be set up to allow single logout for this to take
        effect, otherwise the behavior will remain unchanged
 
@@ -560,7 +559,6 @@ Values:
 
 GoogleOpenIDConnectDefaultBranch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 Asks: \_\_\_ Use this branchcode when automatically registering a Google
 Open ID patron.
@@ -752,7 +750,7 @@ Values:
 Description:
 
 -  This preference allows the system administrator to determine if users
-   will be able to set and see an item type icon in 
+   will be able to set and see an item type icon in
    the catalog on both the OPAC and the Staff Client. The images will
    display in both the OPAC and the Staff Client/Intranet. If images of
    item types are disabled, text labels for item types will still appear
@@ -2579,9 +2577,6 @@ Circulation
 *Get there:* More > Administration > Global System Preferences >
 Circulation
 
-
-
-
 .. _article-requests-sysprefs-label:
 
 Article Requests
@@ -2608,7 +2603,7 @@ Description:
 
 .. _articlerequestslinkcontrol-label:
 
-ArticleRequestsLinkControl 
+ArticleRequestsLinkControl
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Default: Use algorithm to show or hide
@@ -2620,13 +2615,13 @@ Values:
 -  Always show
 
 -  Use algorithm to show or hide
-   
+
 Description:
 
--  On the OPAC results page, either always show the 'Request article' link 
-   or check the branch, patron and item type combination to determine 
-   whether or not an article can be requested from this particular record 
-   before displaying the link. 
+-  On the OPAC results page, either always show the 'Request article' link
+   or check the branch, patron and item type combination to determine
+   whether or not an article can be requested from this particular record
+   before displaying the link.
 
 .. _articlerequestsmandatoryfields-label:
 
@@ -2729,7 +2724,6 @@ Description:
    for a record level request only. Choosing [Select all] indicates that all fields
    listed (Author, Chapters, Date, Issue, Pages, Title, Volume) must be completed before the article
    request can be placed.
-
 
 .. _batch-checkout-label:
 
@@ -2857,8 +2851,8 @@ HidePersonalPatronDetailOnCirculation
 
 Default: Don't
 
-Asks: \_\_\_ hide patrons phone number, email address, street address 
-and city in the circulation page 
+Asks: \_\_\_ hide patrons phone number, email address, street address
+and city in the circulation page
 
 Values:
 
@@ -2868,11 +2862,11 @@ Values:
 
 Description:
 
--  This preference controls the display of the patron's phone number, 
-   email address, and physical address from the left side of the screen 
-   (under their picture, if they have one). 
+-  This preference controls the display of the patron's phone number,
+   email address, and physical address from the left side of the screen
+   (under their picture, if they have one).
 
--  Set to 'Do' these informations will only be visible on the patron's 
+-  Set to 'Do' these informations will only be visible on the patron's
    detail page.
 
 .. _holdsautofill-label:
@@ -2887,17 +2881,17 @@ Asks: \_\_\_ automatically fill holds instead of asking the librarian.
 Values:
 
 -  Do
-   
+
 -  Don't
-   
+
 Description:
 
--  If set to 'Do', the holds confirmation pop-up will not appear upon checking 
+-  If set to 'Do', the holds confirmation pop-up will not appear upon checking
    in a reserved item.
 
 .. _holdsautofillprintslip-label:
 
-HoldsAutoFillPrintSlip 
+HoldsAutoFillPrintSlip
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Default: Don't
@@ -2909,14 +2903,14 @@ Values:
 -  Do
 
 -  Don't
-   
+
 Description:
 
--  If set to 'Do', the holds slip print pop-up will appear automatically 
+-  If set to 'Do', the holds slip print pop-up will appear automatically
    upon checking in a reserved item.
 
--  :ref:`HoldsAutoFill` must be set to 'do' for this preference to have any 
-   effect. 
+-  :ref:`HoldsAutoFill` must be set to 'do' for this preference to have any
+   effect.
 
 .. _updatenotforloanstatusoncheckin-label:
 
@@ -3582,7 +3576,7 @@ Values:
 
 Description:
 
--  The library can choose which of these actions or all of these actions, does an 
+-  The library can choose which of these actions or all of these actions, does an
    item gets automatically returned from the patron's account or not.
 
 .. _maxoutstanding-label:
@@ -4760,7 +4754,7 @@ Values:
 -  Allow
 
 -  Don't allow
-   
+
 .. _holdssplitqueue-label:
 
 HoldsSplitQueue
@@ -4773,20 +4767,20 @@ Asks: In the staff client, split the holds queue into separate tables by \_\_\_
 Values:
 
 -  pickup library
-   
--  pickup library & itemtype
-   
--  hold itemtype
-   
--  nothing
-   
-Description: 
 
--  This feature allows to separate holds by pickup library or itemtype in the 
-   holds page of a record (not in the global holds queue found on the circuation 
+-  pickup library & itemtype
+
+-  hold itemtype
+
+-  nothing
+
+Description:
+
+-  This feature allows to separate holds by pickup library or itemtype in the
+   holds page of a record (not in the global holds queue found on the circuation
    page).
 
--  When using the up and down arrows, the priorities will be changed only in 
+-  When using the up and down arrows, the priorities will be changed only in
    in the group the holds belongs to.
 
 .. _holdssplitqueuenumbering-label:
@@ -4803,14 +4797,14 @@ Values:
 -  the actual priority, which may be out of order
 
 -  'virtual' priorities, where each group is numbered separately
-   
+
 Description:
 
--  This system preference is only effective if :ref:`HoldsSplitQueue` is set to 
+-  This system preference is only effective if :ref:`HoldsSplitQueue` is set to
    any value except 'nothing'.
 
--  This system preference controls the priority numbering on the holds page 
-   of a record (not in the global holds queue found on the circulation page). 
+-  This system preference controls the priority numbering on the holds page
+   of a record (not in the global holds queue found on the circulation page).
 
 .. _localholdspriority,-localholdsprioritypatroncontrol,-localholdspriorityitemcontrol-label:
 
@@ -5151,14 +5145,14 @@ Description:
 UpdateItemWhenLostFromHoldList
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Update item's values when marked as lost from the hold to pull screen. 
+Asks: Update item's values when marked as lost from the hold to pull screen.
 
 Description:
 
--  This is a list of values to update an item when it is marked as lost from 
+-  This is a list of values to update an item when it is marked as lost from
    the holds to pull screen. For example, write "itemlost: 1" to set the items.
    itemlost value to 1 when the item is marked as lost. This will use the authorized
-   value 1 from the LOST authorized value list. 
+   value 1 from the LOST authorized value list.
 
 .. _housebound-module-label:
 
@@ -5773,7 +5767,6 @@ ILLModuleCopyrightClearance
 Asks: Adding text will enable the copyright clearance stage in request creation.
 The text you enter will be the text displayed.
 
-
 Self Checkout
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5987,7 +5980,7 @@ Self Checkin
 
 .. _selfcheckinmainuserblock-label:
 
-SelfCheckInMainUserBlock 
+SelfCheckInMainUserBlock
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Include the following HTML on the self check-in screen
@@ -5999,7 +5992,7 @@ Description:
 
 .. _selfscheckinmodule-label:
 
-SelfCheckInModule 
+SelfCheckInModule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Default: Don't enable
@@ -6029,7 +6022,7 @@ Asks: Reset the current self check-in screen after \_\_\_ seconds
 
 Description:
 
--  Enter the number of seconds after which you want the self check-in 
+-  Enter the number of seconds after which you want the self check-in
    screen to refresh and go back to the main page (for example, if a
    patron forgot to log out).
 
@@ -6052,15 +6045,14 @@ SelfCheckInUserJS
 
 Asks: Include the following JavaScript on all the self check-in screens
 
-Description: 
+Description:
 
 -  The JavaScript entered here will override any other JavaScript on
    the self check-in screens
-   
-   
+
 Stockrotation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
+
 .. _stockrotation module-label:
 
 StockRotation
@@ -6073,10 +6065,10 @@ Asks: \_\_\_ the stock rotation module
 Values:
 
 -  Disable
-   
+
 -  Enable
 
-Description: 
+Description:
 
 -  If set to 'Enable' then the stock rotation module will appear under Tools.
 
@@ -6113,7 +6105,7 @@ AdlibrisCoversEnabled
 
 Default: Don't show
 
-Asks: \_\_\_ cover images in OPAC results and detail listing from Swedish 
+Asks: \_\_\_ cover images in OPAC results and detail listing from Swedish
 retailer Adlibris.
 
 Values:
@@ -6339,7 +6331,6 @@ Description:
    all other cover image services must be disabled. If they are not
    disabled, they will prevent AmazonCoverImages from functioning
    properly.
-
 
 Babelthèque
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -6949,7 +6940,7 @@ Description:
 
 .. _manual-sysprefs-label:
 
-Manual 
+Manual
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _kohamanualbaseurl-label:
@@ -6963,18 +6954,18 @@ Asks: Location of the Koha manual \_\_\_
 
 Description:
 
--  You can specify the location of the Koha manual to use. This is the 
-   URL that will be used for the help pages when you click 'Help' at 
+-  You can specify the location of the Koha manual to use. This is the
+   URL that will be used for the help pages when you click 'Help' at
    the top right corner of the page.
 
--  By default, the Koha manual is used, but you can use this system 
+-  By default, the Koha manual is used, but you can use this system
    preference to substitute for your own help pages.
 
--  If the URL starts with '/', the value of :ref:`staffClientBaseURL` 
-   will be used as a prefix. 
+-  If the URL starts with '/', the value of :ref:`staffClientBaseURL`
+   will be used as a prefix.
 
--  Note that it will be suffixed by the version / the language / the 
-   format (/17.11/en/html) 
+-  Note that it will be suffixed by the version / the language / the
+   format (/17.11/en/html)
 
 .. _kohamanuallanguage-label:
 
@@ -6985,13 +6976,12 @@ Default: English
 
 Asks: Language of the online manual ­\_\_\_
 
-Description: 
+Description:
 
--  By default, the language of the Koha interface will be used 
-   as the manual language. However, if the manual is not translated 
-   in that language, this system preference specifies the fallback 
+-  By default, the language of the Koha interface will be used
+   as the manual language. However, if the manual is not translated
+   in that language, this system preference specifies the fallback
    language.
-
 
 .. _novelist-select-label:
 
@@ -7082,9 +7072,9 @@ Description:
 -  Without this value being set, Novelist features will be disabled on the staff
    client until a correct profile is obtained from Novelist and entered into
    the field.
-   
+
       **Note**
-      
+
       This value must be set independently of the OPAC profile for Novelist
 
 .. _novelistselectstaffview-label:
@@ -8127,8 +8117,8 @@ Values:
 -  Log
 
        **Note**
-       
-       Enabling this preference allows the tracking of cardnumber changes for patrons 
+
+       Enabling this preference allows the tracking of cardnumber changes for patrons
 
 .. _cataloguinglog-label:
 
@@ -8724,7 +8714,7 @@ Values:
 
    -  **Important**
 
-          Both :ref:`OPACXSLTDetailsDisplay` and 
+          Both :ref:`OPACXSLTDetailsDisplay` and
           :ref:`OPACXSLTResultsDisplay` need to
           have values in order for this preference to work.
 
@@ -8782,7 +8772,7 @@ Default:
 
     |image1192|
 
-Asks: Select export options that should be available from OPAC detail 
+Asks: Select export options that should be available from OPAC detail
 page: \_\_\_
 
 Description:
@@ -9030,7 +9020,6 @@ Description:
 
 Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
 
-
 .. _opacmaintenance-label:
 
 OpacMaintenance
@@ -9181,7 +9170,7 @@ Asks: Show the following HTML on the left hand column of the main page
 and patron account on the OPAC, after :ref:`OpacNav`, and before
 patron account links if available:
 
-Description: 
+Description:
 
 -  When a patron is logged in to their account they see a
    series of tabs to access their account information.
@@ -9199,7 +9188,7 @@ OpacNavRight
 Asks: Show the following HTML in the right hand column of the main page
 under the main login form.
 
-Description: 
+Description:
 
 -  HTML entered in this preference will appear on the right
    hand side of the OPAC under the log in form. If the log in form is not
@@ -11470,9 +11459,9 @@ Description:
     the database
     structure <http://schema.koha-community.org/tables/borrowers.html>`__
     associated with the borrowers table.
-    
+
     **Note**
-    
+
     If either :ref:`PatronQuickAddFields` or :ref:`BorrowerMandatoryField`
     (or both) is set, a button labeled "Quick add new patron" will be displayed
     in the "Patrons" toolbar.
@@ -11615,12 +11604,11 @@ Description:
    history.
 
 -  When the value is set to 'Unless overridden, do', this will check the
-   patron's circulation history unless the patron's :ref:`personal setting 
-   <add-a-new-patron>` or the :ref:`patron category setting <adding-a-patron-category>` 
-   specifically say not to.
-   
+   patron's circulation history unless the patron's
+   :ref:`personal setting <add-a-new-patron>` or the :ref:`patron category setting <adding-a-patron-category>` specifically say not to.
+
 -  Lastly, if the value is set to 'Unless overridden, do not',
-   Koha will not check circulation history unless the patron's :ref:`personal 
+   Koha will not check circulation history unless the patron's :ref:`personal
    setting <add-a-new-patron>` or the :ref:`patron category setting <adding-a-
    patron-category>` specifically say to check.
 
@@ -11951,12 +11939,10 @@ as well, individual fields in that form will be ignored.
     **Note**
 
     It is possible to add custom :ref:`patron attributes <patron-attribute-types-
-    label>` in the quick add form with the following syntax: patron_attr_N 
-    (for example patron_attr_2). The N refers to the id of the attribute and 
+    label>` in the quick add form with the following syntax: patron_attr_N
+    (for example patron_attr_2). The N refers to the id of the attribute and
     requires a bit of guesswork (normally it will be the order in which you
-    entered them in the :ref:`patron attribute types section of the administration 
-    module <patron-attribute-types-label>`).
-
+    entered them in the :ref:`patron attribute types section of the administration module <patron-attribute-types-label>`).
 
 .. _patronsperpage-label:
 
@@ -11979,7 +11965,7 @@ Default: Allow only superlibrarians
 
 Asks: \_\_\_ to access/change superlibrarian privileges. Note: A permitted user
       needs to have the 'permissions' flag (if no superlibrarian)
-      
+
 Values:
 
 -  Allow all permitted users
@@ -12135,7 +12121,7 @@ Values:
 -  Do
 
 -  Don't
-   
+
 .. _useemailreceipts-label:
 
 UseEmailReceipts
@@ -12148,19 +12134,19 @@ Asks: \_\_\_ email receipts to patrons for payments and writeoffs.
 Values:
 
 -  Don't send
-   
+
 -  Send
-   
+
 Description:
 
--  If set to 'Send', Koha will send emails to the patrons for each 
+-  If set to 'Send', Koha will send emails to the patrons for each
    payment or writeoff done in their account.
 
      **Note**
 
      -  The letters used are ACCOUNT\_PAYMENT and ACCOUNT\_WRITEOFF
-        
-     -  You can edit them in the :ref:`Notices and slips<notices-&-slips-label>` 
+
+     -  You can edit them in the :ref:`Notices and slips<notices-&-slips-label>`
         tool.
 
 .. _usedischarge-label:
@@ -13251,7 +13237,7 @@ Values:
 
    -  **Important**
 
-          Both :ref:`XSLTDetailsDisplay` and 
+          Both :ref:`XSLTDetailsDisplay` and
           :ref:`XSLTResultsDisplay` need to
           have values in order for this preference to work.
 
@@ -13509,7 +13495,7 @@ Asks: The staff client is located at \_\_\_
 
     **Important**
 
-    This should be a complete URL, starting with http:// or https://. 
+    This should be a complete URL, starting with http:// or https://.
     Do not include a trailing slash in the URL.
 
     **Note**
@@ -13542,7 +13528,7 @@ Asks: Show the following HTML on the staff client login page
 
 Description:
 
--  HTML entered in this field will appear above the login form 
+-  HTML entered in this field will appear above the login form
    of your staff client
 
 |image1345|
@@ -14021,7 +14007,7 @@ Asks: Allow IP addresses \_\_\_ to use the ILS-DI services (when enabled).
 
     **Important**
 
-    Leave the field blank to allow any IP address. 
+    Leave the field blank to allow any IP address.
 
 .. _idref-pref-label:
 
@@ -14201,7 +14187,7 @@ RESTdefaultPageSize
 
 Default: 20
 
-Asks: Set the default number of results returned by the REST API endpoints 
+Asks: Set the default number of results returned by the REST API endpoints
 to \_\_\_ per page.
 
 Description:
@@ -14210,20 +14196,20 @@ Description:
 
 .. _restoauth2clientcredentials-label:
 
-RESTOAuth2ClientCredentials 
+RESTOAuth2ClientCredentials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Default: Disable
 
-Asks: \_\_\_ the OAuth2 client credentials grant for the REST API. 
+Asks: \_\_\_ the OAuth2 client credentials grant for the REST API.
 
     **Note**
- 
-    Requires Net::OAuth2::AuthorizationServer installed. 
+
+    Requires Net::OAuth2::AuthorizationServer installed.
 
     **Important**
 
-    This system preference is experimental. 
+    This system preference is experimental.
 
 .. _reporting-label:
 

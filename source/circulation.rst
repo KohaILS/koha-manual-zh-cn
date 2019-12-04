@@ -1096,26 +1096,26 @@ message stating how late your items are.
     entered in the
     :ref:`TransfersMaxDaysWarning` system
     preference.
-    
+
 .. _article-requests-label:
 
 Article requests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Article requests are somewhat similar to holds, but are not requests 
-for an item to check out. Instead, article requests are requests for a 
-photocopy of a particular section of a book or an article from a serial 
-issue. This is very common in academic libraries where researchers may 
+Article requests are somewhat similar to holds, but are not requests
+for an item to check out. Instead, article requests are requests for a
+photocopy of a particular section of a book or an article from a serial
+issue. This is very common in academic libraries where researchers may
 request a copy of a single article found in a journal.
 
-First enable your system preference for :ref:`ArticleRequests`. 
+First enable your system preference for :ref:`ArticleRequests`.
 
 Set to 'Enable' patrons to place article requests.
 
-Next you will need to decide how your patrons will make requests, 
+Next you will need to decide how your patrons will make requests,
 either record only, item only, or both record and item level.
 
-You can set 3 different system preferences for mandatory fields to be filled 
+You can set 3 different system preferences for mandatory fields to be filled
 in depending on how your records are requested.
 
   - :ref:`ArticleRequestsMandatoryFields`: make the following fields
@@ -1128,34 +1128,34 @@ in depending on how your records are requested.
     following fields mandatory for records that are only record level
     requestable
 
-Next you will want to go into your circulation and fine rules matrix and 
+Next you will want to go into your circulation and fine rules matrix and
 select each rule that you want to allow requests.
 
-You can allow requests to be made at the record level, item level, 
-yes (which means both) and no (which means no article requests may 
+You can allow requests to be made at the record level, item level,
+yes (which means both) and no (which means no article requests may
 be placed).
 
 Now you can place requests on both the staff client and OPAC.
 
-Once the article request has been placed, staff will see new requests at 
-the bottom of the home page on the staff client. (In the same location 
+Once the article request has been placed, staff will see new requests at
+the bottom of the home page on the staff client. (In the same location
 as tags, comments and modifications).
 
 From there staff will be able to select requests to process.
 
-The first step would be for a staff member to process the request, that moves 
-the request to the processing tab and alerts other staff members that the 
-request is in process. On the actions column, click on the dropdown menu and 
+The first step would be for a staff member to process the request, that moves
+the request to the processing tab and alerts other staff members that the
+request is in process. On the actions column, click on the dropdown menu and
 select process request. This will move the request to the processing tab.
 
 Next staff will go to the shelf and make a copy of the requested article.
 
-Once that is complete, staff can print the Article request slip (this can be 
-customized in notices and slips) and staple or paper clip it to the article. 
+Once that is complete, staff can print the Article request slip (this can be
+customized in notices and slips) and staple or paper clip it to the article.
 In the actions column, you can select the dropdown and select print slip.
 
-Finally, staff will select the complete article request from the actions 
-dropdown menu which will send a notice to the patron who made the request 
+Finally, staff will select the complete article request from the actions
+dropdown menu which will send a notice to the patron who made the request
 letting them know the request is ready for pickup.
 
 This removes the article request from the processing tab.
@@ -1322,7 +1322,7 @@ Self checkout
 Koha comes with a very basic self checkout module. To enable this module
 you need to set the :ref:`WebBasedSelfCheck <webbasedselfcheck-label>` system
 preference to 'Enable.' To use this module you have to log in as a
-:ref:`staff member <add-a-staff-patron-label>` with :ref:`self\_check 
+:ref:`staff member <add-a-staff-patron-label>` with :ref:`self\_check
 permissions <patron-permissions-label>`.
 
     **Note**
@@ -1336,7 +1336,7 @@ the :ref:`OPACUserJS` system preference can add one.
 
 ::
 
-    $(document).ready(function(){ 
+    $(document).ready(function(){
         $("#login .btn").parent().after("<p><a href=\"http://YOUR_KOHA_OPAC_URL/cgi-bin/koha/sco/sco-main.pl\" target=\"_blank\">Self-Checkout</a></p>");
     });
 
@@ -1354,7 +1354,7 @@ You can also access this module by going to:
 http://YOUR\_KOHA\_OPAC\_URL/cgi-bin/koha/sco/sco-main.pl
 
 When on the self checkout page depending on your value in the
-:ref:`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference 
+:ref:`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference
 you will be asked to enter you cardnumber
 
 |image592|
@@ -1391,19 +1391,18 @@ patrons must go to the librarian for help in these situations.
 Self check-in
 ------------------------------------------------
 
-In order to use the self check-in module, you must first set the :ref:
-`SelfCheckInModule <selfscheckinmodule-label>` system preference to
+In order to use the self check-in module, you must first set the
+:ref: `SelfCheckInModule <selfscheckinmodule-label>` system preference to
 'Enable'.
 
-Then, you will have to :ref:`create a patron <add-a-staff-patron-label>` 
-with the :ref:`self\_checkin\_module permission
-<granular-self-check-permissions-label>`.
+Then, you will have to :ref:`create a patron <add-a-staff-patron-label>`
+with the :ref:`self\_checkin\_module permission <granular-self-check-permissions-label>`.
 
     **Note**
 
     Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this
     action so that you don't leave a real staff client logged into a
-    computer all day. You can give this patron only the aforementionned 
+    computer all day. You can give this patron only the aforementionned
     permission so it cannot be used for anything else.
 
 Once this is done, you can head over to the self check-in page:
@@ -1416,7 +1415,7 @@ patrons will be able to check-in their items themselves.
 
 |image1331|
 
-The patron will either scan the item's barcode, if the computer is 
+The patron will either scan the item's barcode, if the computer is
 attached to a barcode scanner, or type in their item's barcode in the box
 and click 'Add' or press enter.
 
@@ -1424,7 +1423,7 @@ and click 'Add' or press enter.
 
     Most barcode scanners will automatically hit return after scanning.
 
-Once they have scanned or entered all their items' barcodes, they can 
+Once they have scanned or entered all their items' barcodes, they can
 click on the 'Check-in' button to return all the items at once.
 
     **Important**
@@ -1434,8 +1433,8 @@ click on the 'Check-in' button to return all the items at once.
 
     **Important**
 
-    The self check-in module will not warn user if the item is late, if 
-    they have fines, if the item is on hold for someone else, or if they 
+    The self check-in module will not warn user if the item is late, if
+    they have fines, if the item is on hold for someone else, or if they
     have messages in their account.
 
 |image1332|
@@ -1447,21 +1446,19 @@ They can then click 'Finish' to return to the main self check-in page.
     **Note**
 
     If the patron doesn't click 'Finish', the screen will refresh after the
-    timeout period specified in the :ref:`SelfCheckInTimeout
-    <selfcheckintimeout-label>` system preference.
+    timeout period specified in the :ref:`SelfCheckInTimeout <selfcheckintimeout-label>` system preference.
 
     **Note**
 
-    Even if the patron doesn't click 'Finish' the item will still be checked 
+    Even if the patron doesn't click 'Finish' the item will still be checked
     in from their account.
 
-You can cutomize the look of your self check-in screens by using the 
+You can cutomize the look of your self check-in screens by using the
 :ref:`SelfCheckInUserCSS <selfcheckinusercss-label>` system preference or
 the :ref:`SelfCheckInUserJS <selfcheckinuserjs-label>` system preference.
 
 You can add content, like instructions on how to use the self check-in system
-for example, by using the :ref:`SelfCheckInMainUserBlock
-<selfcheckinmainuserblock-label>` system preference.
+for example, by using the :ref:`SelfCheckInMainUserBlock <selfcheckinmainuserblock-label>` system preference.
 
 Statistics about the transactions made through the self check-in module
 are logged into the action\_logs table in the Koha database. You can therefore

@@ -31,7 +31,6 @@ When visiting this page you are presented with a list of the libraries that have
 
 |image122|
 
-
 .. _adding-a-library-label:
 
 Adding a library
@@ -137,12 +136,12 @@ link to edit/alter details associated with the library in question.
 Library groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Library groups are used in searches to limit the search to a group of 
+Library groups are used in searches to limit the search to a group of
 libraries (for example in a neigbourhood).
 
 -  *Get there:* More > Administration > Basic Parameters > Library groups
 
-When visiting this page you are presented with a list of the groups 
+When visiting this page you are presented with a list of the groups
 that have already been added to the system.
 
 |image123|
@@ -156,11 +155,11 @@ Click the 'Add Group' button at the top of the screen
 
 |image129|
 
-- Give the group a title and a description. Only the title is mandatory 
-  as it will show up in the staff client and in the OPAC. The description 
+- Give the group a title and a description. Only the title is mandatory
+  as it will show up in the staff client and in the OPAC. The description
   is only used in this page to give an idea of what the group is used for.
 
-- You can limit staff from seeing other groups' patrons by checking the 
+- You can limit staff from seeing other groups' patrons by checking the
   box next to the 'Limit patron data access by group' option.
 
     **Note**
@@ -168,12 +167,12 @@ Click the 'Add Group' button at the top of the screen
     This can be overriden with the :ref:`user permission view_borrower_infos_
     from_any_libraries <patron-permissions-defined-label>`.
 
-- If you would like the group to show up in the library pulldown menu at the 
-  top of the OPAC (with :ref:`OpacAddMastheadLibraryPulldown` set to 'Add') 
-  and on the advanced search page you can check the 'Use for OPAC search 
+- If you would like the group to show up in the library pulldown menu at the
+  top of the OPAC (with :ref:`OpacAddMastheadLibraryPulldown` set to 'Add')
+  and on the advanced search page you can check the 'Use for OPAC search
   groups' box.
 
-- If you want the group to appear in the library pulldown in the staff 
+- If you want the group to appear in the library pulldown in the staff
   client advanced search, check the 'Use for staff search groups' box.
 
 |image131|
@@ -183,8 +182,8 @@ Click the 'Add Group' button at the top of the screen
 Adding a library to a group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Click on the 'Add library' button next to the group to add a library to 
-this group. You will be presented with a list of the libraries that are 
+Click on the 'Add library' button next to the group to add a library to
+this group. You will be presented with a list of the libraries that are
 not already in the group.
 
 |image133|
@@ -194,9 +193,9 @@ not already in the group.
 Adding a sub-group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If your system is very large, you can create sub-groups. Click on the 
-'Actions' button next to the group and select the 'Add a sub-group' 
-option. Fill in the title and the description (optional) of the sub-group. 
+If your system is very large, you can create sub-groups. Click on the
+'Actions' button next to the group and select the 'Add a sub-group'
+option. Fill in the title and the description (optional) of the sub-group.
 The features will be inherited from the parent group.
 
 |image1323|
@@ -206,7 +205,7 @@ The features will be inherited from the parent group.
 Deleting a group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To delete a group, click on the 'Actions' button next to the group and select 
+To delete a group, click on the 'Actions' button next to the group and select
 the 'Delete' option.
 
 |image1324|
@@ -238,7 +237,7 @@ top of the Item types page.
 
 |image135|
 
--  In the 'Item type' field, enter a short code for your item type (maximum 
+-  In the 'Item type' field, enter a short code for your item type (maximum
    of 10 characters)
 
 -  The description is the plain text definition of the item type (for
@@ -283,14 +282,13 @@ top of the Item types page.
           Do not enter symbols in this field, only numbers and decimal
           points (ex. $5.00 should be entered as 5 or 5.00)
 
--  You can add a default replacement cost for this type of item. If left 
-   blank, the replacement price of the item itself will be charged to the 
+-  You can add a default replacement cost for this type of item. If left
+   blank, the replacement price of the item itself will be charged to the
    user when the item is lost.
 
     -  **Important**
           Do not enter symbols in this field, only numbers and decimal
           points (ex. $5.00 should be entered as 5 or 5.00)
-
 
 - You can also add a processing fee that will be added to the replacement cost.
 
@@ -298,7 +296,6 @@ top of the Item types page.
 
           Do not enter symbols in this field, only numbers and decimal
           points (ex. $5.00 should be entered as 5 or 5.00)
-
 
 -  If you would like a message or alert to appear when items of this
    type are checked in you can enter that in the 'Checkin message' box
@@ -481,7 +478,7 @@ use, for instance 'Lost'.
 
 -  LOC
 
-   Shelving location (usually appears when adding or editing an item). LOC maps to 
+   Shelving location (usually appears when adding or editing an item). LOC maps to
    items.location in the Koha database.
 
    -  CART
@@ -550,7 +547,7 @@ use, for instance 'Lost'.
 
    -  Function codes (author, editor, collaborator, etc.) used in UNIMARC 7XX $4
       (French)
-      
+
 -  RELTERMS
 
    -  French terms of relations
@@ -599,9 +596,9 @@ use, for instance 'Lost'.
 
 -  SUGGEST\_STATUS
 
-   -  A list of additional custom status values for suggestions that can 
+   -  A list of additional custom status values for suggestions that can
       be used in addition to the default values.
-      
+
 -  STACK
 
    -  Shelving control number
@@ -609,7 +606,7 @@ use, for instance 'Lost'.
 -  TERM
 
    -  Terms to be used in `Course Reserves <#coursereserves>`__ module.
-      Enter Terms that will show in the drop down menu when setting up a Course 
+      Enter Terms that will show in the drop down menu when setting up a Course
       reserve.  (For example: Spring, Summer, Winter, Fall).
 
 -  WITHDRAWN
@@ -893,8 +890,7 @@ To add a new patron category click 'New category' at the top of the page
 -  You can decide if this patron category is blocked from performing
    actions in the OPAC if their card is expired using the next option.
    By default it will follow the rule set in the
-   :ref:`BlockExpiredPatronOpacActions`
-   preference
+   :ref:`BlockExpiredPatronOpacActions` preference
 
     |image1203|
 
@@ -905,9 +901,9 @@ To add a new patron category click 'New category' at the top of the page
 
     |image1204|
 
--  You can set the preference for checking the patron's circulation history 
-   when checking out an item. The default value for this is set in the 
-   :ref:`CheckPrevCheckout` system preference. This setting can be 
+-  You can set the preference for checking the patron's circulation history
+   when checking out an item. The default value for this is set in the
+   :ref:`CheckPrevCheckout` system preference. This setting can be
    overridden on a per-patron basis in their :ref:`individual file <add-a-new-patron>`.
 
 -  Finally you can assign advanced messaging preferences by default to a
@@ -963,8 +959,7 @@ first found in this order:
 
 -  default (all libraries), all patron types, all item types
 
-The :ref:`CircControl` and
-:ref:`HomeOrHoldingBranch` also come in to play when
+The :ref:`CircControl` and :ref:`HomeOrHoldingBranch` also come in to play when
 figuring out which circulation rule to follow.
 
 -  If CircControl is set to "the library you are logged in at" circulation
@@ -1278,9 +1273,9 @@ allowed 2 DVDs to equal the 12 total they're allowed.
 Default lost item fee refund on return policy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Here, you can specify the default policy for lost item fees on return. 
-This policy will apply to this library. This rule is to be used with the 
-:ref:`RefundLostOnReturnControl <refundlostonreturncontrol-label>` 
+Here, you can specify the default policy for lost item fees on return.
+This policy will apply to this library. This rule is to be used with the
+:ref:`RefundLostOnReturnControl <refundlostonreturncontrol-label>`
 system preference.
 
 .. _item-hold-policies-label:
@@ -2048,13 +2043,13 @@ The table shows all the database fields that can be mapped to MARC fields.
 
 |image201|
 
-To add a new mapping, click on the 'Add' button to the right of the 
+To add a new mapping, click on the 'Add' button to the right of the
 appropriate field.
 
 |image202|
 
-Write in the MARC field and subfield you would like to map, separated 
-by a comma, to this Koha field and click the 'OK' button. 
+Write in the MARC field and subfield you would like to map, separated
+by a comma, to this Koha field and click the 'OK' button.
 
     **Note**
 
@@ -2213,8 +2208,8 @@ Values that are pre-configured in Koha are:
 -  Generic
 
 Filing rules are mapped to :ref:`Classification
-sources <adding/editing-classification-sources-label>`. You can setup new 
-filing rules by using the 'New filing rule' button. To edit use the 'Edit' 
+sources <adding/editing-classification-sources-label>`. You can setup new
+filing rules by using the 'New filing rule' button. To edit use the 'Edit'
 button.
 
 When creating or editing:
@@ -3235,7 +3230,7 @@ top right of the page
 |image244|
 
        **Note**
-      
+
        Any tables with columns listed here have the option to export to Excel, export to CSV,
        copy, or print within the table header
 
