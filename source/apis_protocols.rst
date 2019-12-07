@@ -1,5 +1,7 @@
 .. include:: images.rst
 
+.. _other-apis-protocols-label:
+
 Other APIs and protocols
 =============================
 
@@ -426,15 +428,11 @@ Can’t connect to remote host when writing in the command telnet localhost <por
 
 3 solutions for this issue to try are:
 
-	1. Check the portnumber your writing in the above command is the port number written in the SIPconfig.xml file at the location indicated by the number 1.
-	i.e. in the below example because the portnumber is 6001 the correct command would be:
-	telnet localhost 6001
+	1. Check the portnumber your writing in the above command is the port number written in the SIPconfig.xml file at the location indicated by the number 1. i.e. in the below example because the portnumber is 6001 the correct command would be: telnet localhost 6001
 
-	2. Check if any userid is written more than once in the SIPconfig.xml file.
-	The userid (which is simply the username of the Koha user)  needs to be unique within the SIPconfig.xml file. If you have the same userid multiple times in your SIPconfig.xml file this will cause the connection to SIP2 to fail before you get a chance to authenticate.
+	2. Check if any userid is written more than once in the SIPconfig.xml file. The userid (which is simply the username of the Koha user) needs to be unique within the SIPconfig.xml file. If you have the same userid multiple times in your SIPconfig.xml file this will cause the connection to SIP2 to fail before you get a chance to authenticate.
 
-	3. Check the account defined in the SIPconfig.xml file also exists in the Koha database with the same username, password and has circulate permissions.
-	If you have dropped and recreated the Koha database after creating the patron account in the Koha staff interface and the SIPconfig.xml file then that patron account will not exist in the Koha database and so you will need to recreate them in the Koha staff interface.
+	3. Check the account defined in the SIPconfig.xml file also exists in the Koha database with the same username, password and has circulate permissions. If you have dropped and recreated the Koha database after creating the patron account in the Koha staff interface and the SIPconfig.xml file then that patron account will not exist in the Koha database and so you will need to recreate them in the Koha staff interface.
 
 To access the SIP2 logs in your Koha home directory navigate to the following directory:
 /var/log/koha/<instancename>

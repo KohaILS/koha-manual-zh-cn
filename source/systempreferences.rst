@@ -1,9 +1,9 @@
 .. include:: images.rst
 
+.. _global-system-preferences-label:
+
 Global system preferences
 =========================
-
-.. _global-system-preferences-label:
 
 Global system preferences control the way your Koha system works in
 general. Set these preferences before anything else in Koha.
@@ -54,7 +54,7 @@ follow they will all read USD for U.S. Dollars.
     highlighted terms. Consult with your system administrator for more
     information.
 
-.. _acquisitions-label:
+.. _acquisitions-system-preferences-label:
 
 Acquisitions
 ----------------------------
@@ -133,7 +133,9 @@ Description:
    you receive you will want to have those values revert back if reeipt
    is cancelled. This preference allows you to do that.
 
-`AcqItemSetSubfieldsWhenReceived`
+.. _acqitemsetsubfieldswhenreceived-label:
+
+AcqItemSetSubfieldsWhenReceived
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Upon receiving items, update their subfields if they were created
@@ -350,7 +352,7 @@ Default: barcode
 
 Asks:\_\_\_ (space-separated list of fields that should be unique for
 items, must be valid SQL fields of
-`items <http://schema.koha-community.org/tables/items.html>`__ table)
+`items <http://schema.koha-community.org/master/tables/items.html>`_ table)
 
 Description:
 
@@ -393,7 +395,7 @@ Default: pdfformat::layout2pages
 
 Asks: Use \_\_\_ when printing basket groups.
 
-.. _administration-label:
+.. _administration-system-preferences-label:
 
 Administration
 --------------------------------
@@ -658,7 +660,7 @@ Values:
 Description:
 
 -  This preference controls the default value in the branch pull down
-   found at the top of the :ref:`Notices & Slips` tool.
+   found at the top of the :ref:`Notices & slips` tool.
 
 .. _defaulttologgedinlibraryoverduetriggers-label:
 
@@ -1184,7 +1186,7 @@ Description:
     This preference depends on the `UsageStats <#usagestats>`__
     preference. Set that to 'Share' to share your information.
 
-.. _authorities-label:
+.. _authorities-system-preferences-label:
 
 Authorities
 ----------------------------
@@ -1192,7 +1194,7 @@ Authorities
 *Get there:* More > Administration > Global System Preferences >
 Authorities
 
-.. _general-label:
+.. _authoritiesgeneral-label:
 
 General
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1564,7 +1566,7 @@ Description:
    heading with an existing link will be ignored, even if the existing
    link is invalid or incorrect.
 
-.. _cataloging-label:
+.. _cataloging-system-preferences-label:
 
 Cataloging
 --------------------------
@@ -1611,7 +1613,7 @@ Default: --
 Asks: Separate multiple displayed authors, series or subjects with
 \_\_\_.
 
-.. _hide\_marc-label:
+.. _hide-marc-label:
 
 hide\_marc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1757,7 +1759,7 @@ Description:
    values as a comma separated list. For example to hide the local note
    and the bibliography note in MARC21 enter 504, 590.
 
-.. _opacsuppression,-opacsuppressionbyiprange,-opacsuppressionredirect,-and-opacsuppressionmessage-label:
+.. _opacsuppression-preferences-label:
 
 OpacSuppression, OpacSuppressionByIPRange, OpacSuppressionRedirect, and OpacSuppressionMessage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1832,9 +1834,9 @@ Description:
 
     |image1182|
 
-.. _separateholdings-&-separateholdingsbranch-label:
+.. _separateholdings-and-separateholdingsbranch-label:
 
-SeparateHoldings & SeparateHoldingsBranch
+SeparateHoldings and SeparateHoldingsBranch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SeparateHoldings default: Don't separate
@@ -2150,9 +2152,9 @@ Description:
 Record Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _alternateholdingsfield-&-alternateholdingsseparator-label:
+.. _alternateholdingsfield-and-alternateholdingsseparator-label:
 
-AlternateHoldingsField & AlternateHoldingsSeparator
+AlternateHoldingsField and AlternateHoldingsSeparator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Display MARC subfield \_\_\_ as holdings information for records
@@ -2259,7 +2261,7 @@ Description:
     This preference won't have any effect if your records are in
     UNIMARC.
 
-.. _item-level\_itypes-label:
+.. _item-level_itypes-label:
 
 item-level\_itypes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2489,12 +2491,12 @@ Default: fre
 Asks: Use the language (ISO 690-2) \_\_\_ as default language in the
 UNIMARC field 100 when creating a new record or in the field plugin.
 
-.. _z3950normalizeauthor-&-z3950authorauthfields-label:
+.. _z3950normalizeauthor-and-z3950authorauthfields-label:
 
-z3950NormalizeAuthor & z3950AuthorAuthFields
+z3950NormalizeAuthor and z3950AuthorAuthFields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Defaults: Don't copy & 701,702,700
+Defaults: Don't copy and 701,702,700
 
 Asks: \_\_\_ authors from the UNIMARC \_\_\_ tags (separated by commas)
 to the correct author tags when importing a record using Z39.50.
@@ -2569,7 +2571,7 @@ Values:
 
 -  Don't display
 
-.. _circulation-label:
+.. _circulation-system-preferences-label:
 
 Circulation
 ----------------------------
@@ -2817,7 +2819,7 @@ Values:
 Description:
 
 -  If this preference is set to "Do" and the :ref:`fines cron
-   job <fines-label>` is off then Koha will calculate fines only
+   job <cron-fines-label>` is off then Koha will calculate fines only
    when items are returned. If you have the fines cron job on and this
    preference set to "Do" then this preference will calculate fines
    based on the cron (usually run nightly) and then again when you check
@@ -3293,19 +3295,18 @@ Values:
 
 -  the library the item is from
 
-   -  The :ref:`circulation and fines policies <circulation-and-fine-rules-label>` will be
-      determined by the item's library where
-      :ref:`HomeOrHoldingBranch` chooses if item's
-      home library is used or holding library is used.
+   -  The :ref:`circulation and fines policies <circulation-and-fines-rules-label>`
+      will be determined by the item's library where :ref:`HomeOrHoldingBranch`
+      chooses if item's home library is used or holding library is used.
 
 -  the library the patron is from
 
-   -  The :ref:`circulation and fines policies <circulation-and-fine-rules-label>` will be
-      determined the patron's home library
+   -  The :ref:`circulation and fines policies <circulation-and-fines-rules-label>`
+      will be determined the patron's home library
 
 -  the library you are logged in at
 
-   -  The :ref:`circulation and fines policies <circulation-and-fine-rules-label>` will be
+   -  The :ref:`circulation and fines policies <circulation-and-fines-rules-label>` will be
       determined by the library that checked the item out to the patron
 
 .. _consideronsitecheckoutsasnormalcheckouts-label:
@@ -3330,7 +3331,7 @@ Description:
 -  This preference allows you to decide if checkouts that are
    :ref:`OnSiteCheckouts` are counted toward the total
    checkouts a patron can have. You can also set your :ref:`circulation and
-   fine rules <circulation-and-fine-rules-label>` to allow only a certain number of
+   fines rules <circulation-and-fines-rules-label>` to allow only a certain number of
    normal and OnSite checkouts.
 
 .. _defaultlongoverduechargevalue-label:
@@ -3346,13 +3347,13 @@ Description:
 -  Leave this field empty if you don't want to charge the user for lost
    items. If you want the user to be charged enter the `LOST authorized
    value <#lost>`__ you are using in the
-   :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-&-defaultlongoverduedays-label>`
+   :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>`
    preference. This preference is used when the :ref:`longoverdue cron
-   job <long-overdues-label>` is called without the --charge parameter.
+   job <cron-long-overdues-label>` is called without the --charge parameter.
 
-.. _defaultlongoverduelostvalue-&-defaultlongoverduedays-label:
+.. _defaultlongoverduelostvalue-and-defaultlongoverduedays-label:
 
-DefaultLongOverdueLostValue & DefaultLongOverdueDays
+DefaultLongOverdueLostValue and DefaultLongOverdueDays
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: By default, set the LOST value of an item to \_\_\_ when the item
@@ -3361,9 +3362,9 @@ has been overdue for more than \_\_\_ days.
 Description:
 
 -  These preferences are used when the :ref:`longoverdue cron
-   job <long-overdues-label>` is called without the --lost parameter. It
+   job <cron-long-overdues-label>` is called without the --lost parameter. It
    allows users to set the values of the :ref:`longoverdue
-   cron <long-overdues-label>` without having to edit the crontab.
+   cron <cron-long-overdues-label>` without having to edit the crontab.
    Setting the values to 1 and 30 for example will mark the item with
    the `LOST authorized value <#lost>`__ of 1 after the item is 30 days
    overdue.
@@ -3408,7 +3409,7 @@ Description:
 
    -  If :ref:`CircControl` is set to 'the library the item
       is from' then the :ref:`circulation and fines
-      policies <circulation-and-fine-rules-label>` will be determined by the item's
+      policies <circulation-and-fines-rules-label>` will be determined by the item's
       library where HomeOrHoldingBranch chooses if item's home library
       is used or holding library is used.
 
@@ -3444,12 +3445,12 @@ Description:
 
 -  This preference is used to manage automatically changing item
    locations from processing (PROC) to the book cart (CART). A :ref:`cron
-   job <in-processing/book-cart-label>` needs to be set to run at specified intervals
+   job <cron-in-processing-book-cart-label>` needs to be set to run at specified intervals
    to age items from CART to the permanent shelving location. (For
    example, an hourly cron entry of cart\_to\_shelf.pl --hours 3 where
    --hours is the amount of time an item should spend on the cart before
    aging to its permanent location.) More information can be found in
-   the :ref:`related chapter <in-processing-/-book-cart-locations-label>` in this manual.
+   the :ref:`related chapter <in-processing-book-cart-locations-label>` in this manual.
 
    -  **Note**
 
@@ -3852,7 +3853,7 @@ Description:
 -  If a patron has chosen to receive a check out notice in their
    messaging preferences and this preference is set to 'Send' then those
    patrons will also receive a notice when they renew materials. You
-   will want to set up a :ref:`new notice <adding-notices-&-slips-label>` with the code of
+   will want to set up a :ref:`new notice <adding-notices-and-slips-label>` with the code of
    RENEWAL (if you don't already have it) with custom text for renewing
    items.
 
@@ -3969,7 +3970,7 @@ Values:
 Description:
 
 -  More information can be found in the :ref:`related
-   chapter <in-processing-/-book-cart-locations-label>` in this manual.
+   chapter <in-processing-book-cart-locations-label>` in this manual.
 
 .. _staffsearchresultsdisplaybranch-label:
 
@@ -4020,12 +4021,12 @@ Description:
    has not been received. The warning will appear in the :ref:`Transfers to
    Receive <transfers-to-receive-label>` report.
 
-.. _usebranchtransferlimits-&-branchtransferlimitstype-label:
+.. _usebranchtransferlimits-and-branchtransferlimitstype-label:
 
-UseBranchTransferLimits & BranchTransferLimitsType
+UseBranchTransferLimits and BranchTransferLimitsType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Defaults: Don't enforce & collection code
+Defaults: Don't enforce and collection code
 
 Asks: \_\_\_ branch transfer limits based on \_\_\_
 
@@ -4123,7 +4124,7 @@ Description:
    determining whether the item can fulfill a hold using the Transport
    Cost Matrix.
 
-.. _course-reserves-label:
+.. _course-reserves-system-preferences-label:
 
 Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4182,7 +4183,7 @@ Description:
    ahead of time.
 
 The calendar is defined on a branch by branch basis. To learn more about
-the calendar, check out the ^:ref:`Calendar & Holidays <calendar-label>`
+the calendar, check out the :ref:`calendar <calendar-label>`
 section of this manual.
 
 .. _finesincludegraceperiod-label:
@@ -4578,7 +4579,7 @@ Description:
     the future with :ref:`AllowHoldDateInFuture`
     or :ref:`OPACAllowHoldDateInFuture`
 
-.. _decreaseloanhighholds,-decreaseloanhighholdsduration,-decreaseloanhighholdsvalue,-decreaseloanhighholdscontrol,-and-decreaseloanhighholdsignorestatuses-label:
+.. _decreaseloanhighholds-preferences-label:
 
 decreaseLoanHighHolds, decreaseLoanHighHoldsDuration, decreaseLoanHighHoldsValue, decreaseLoanHighHoldsControl, and decreaseLoanHighHoldsIgnoreStatuses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -4670,12 +4671,12 @@ Description:
     **Important**
 
     In order for this email to send you must have a
-    :ref:`notice <notices-&-slips-label>` template with the code of HOLDPLACED
+    :ref:`notice <notices-and-slips-label>` template with the code of HOLDPLACED
 
     **Important**
 
     This notice will only be sent if the :ref:`process\_message\_queue.pl
-    cronjob <message-queue-label>` being run periodically to send the
+    cron job <cron-message-queue-label>` being run periodically to send the
     messages.
 
 .. _excludeholidaysfrommaxpickupdelay-label:
@@ -4716,7 +4717,7 @@ Description:
    longer than the number of days specified in the
    :ref:`ReservesMaxPickUpDelay` system
    preference. Holds will only be cancelled if the :ref:`Expire Holds cron
-   job <expired-holds-label>` is runnning.
+   job <cron-expired-holds-label>` is runnning.
 
 .. _expirereservesmaxpickupdelaycharge-label:
 
@@ -4737,7 +4738,7 @@ Description:
    If you don't charge patrons for items that aren't picked up you can
    leave this set to the default which is 0. Holds will only be
    cancelled and charged if the :ref:`Expire Holds cron
-   job <expired-holds-label>` is running.
+   job <cron-expired-holds-label>` is running.
 
 .. _expirereservesonholidays-label:
 
@@ -4806,7 +4807,7 @@ Description:
 -  This system preference controls the priority numbering on the holds page
    of a record (not in the global holds queue found on the circulation page).
 
-.. _localholdspriority,-localholdsprioritypatroncontrol,-localholdspriorityitemcontrol-label:
+.. _localholdspriority-preferences-label:
 
 LocalHoldsPriority, LocalHoldsPriorityPatronControl, LocalHoldsPriorityItemControl
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -4986,9 +4987,9 @@ Description:
    that their item is 'Waiting' for them at their library and ready for
    check out.
 
-.. _staticholdsqueueweight,-holdsqueueskipclosed-&-randomizeholdsqueueweight-label:
+.. _holds-queue-system-preferences-label:
 
-StaticHoldsQueueWeight, HoldsQueueSkipClosed & RandomizeHoldsQueueWeight
+StaticHoldsQueueWeight, HoldsQueueSkipClosed and RandomizeHoldsQueueWeight
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 StaticHoldsQueueWeight Default: 0
@@ -5026,7 +5027,7 @@ Descriptions:
 
 -  These preferences control how the :ref:`Holds Queue
    report <holds-queue-label>` is generated using :ref:`a cron
-   job <holds-queue-label>`.
+   job <cron-holds-queue-label>`.
 
    If you do not want all of your libraries to participate in the
    on-shelf holds fulfillment process, you should list the the libraries
@@ -5312,8 +5313,8 @@ Values:
 Description:
 
 -  If this preference is set to open a quick slip
-   (:ref:`ISSUEQSLIP <existing-notices-&-slips-label>`) or open a slip
-   (:ref:`ISSUESLIP <existing-notices-&-slips-label>`) for printing it will eliminate the
+   (:ref:`ISSUEQSLIP <existing-notices-and-slips-label>`) or open a slip
+   (:ref:`ISSUESLIP <existing-notices-and-slips-label>`) for printing it will eliminate the
    need for the librarian to click the print button to generate a
    checkout receipt for the patron they're checking out to. If the
    preference is set to clear the screen then "checking out" an empty
@@ -5695,8 +5696,7 @@ Values:
        **Important**
 
        This increases server load significantly; if performance is a
-       concern, use the :ref:`cron job <track-total-checkouts-label>` to update the
-       total issues count instead.
+       concern, use the :ref:`cron job <cron-track-total-checkouts-label>` to update the total issues count instead.
 
 -  Do not
 
@@ -5706,7 +5706,7 @@ Description:
    that on the item record in the database. This information is not
    stored by default. Setting this preference to 'Do' will tell Koha to
    track that info everytime the item is checked out in real time.
-   Otherwise you could use the :ref:`cron job <track-total-checkouts-label>` to have
+   Otherwise you could use the :ref:`cron job <cron-track-total-checkouts-label>` to have
    Koha update that field nightly.
 
 .. _waitingnotifyatcheckin-label:
@@ -5767,6 +5767,8 @@ ILLModuleCopyrightClearance
 Asks: Adding text will enable the copyright clearance stage in request creation.
 The text you enter will be the text displayed.
 
+.. _self-checkout-system-preferences-label:
+
 Self Checkout
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5792,9 +5794,9 @@ Description:
    allowed to return items through your self check machines. By default
    Koha's self check interface is simply for checking items out.
 
-.. _autoselfcheckallowed-autoselfcheckid-&-autoselfcheckpass-label:
+.. _autoselfcheck-preferences-label:
 
-AutoSelfCheckAllowed, AutoSelfCheckID & AutoSelfCheckPass
+AutoSelfCheckAllowed, AutoSelfCheckID and AutoSelfCheckPass
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     **Important**
@@ -6050,10 +6052,12 @@ Description:
 -  The JavaScript entered here will override any other JavaScript on
    the self check-in screens
 
-Stockrotation
+.. _stock-rotation-system-preferences-label:
+
+Stock rotation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _stockrotation module-label:
+.. _stockrotation-module-label:
 
 StockRotation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -6072,13 +6076,13 @@ Description:
 
 -  If set to 'Enable' then the stock rotation module will appear under Tools.
 
-.. _enhanced-content-label:
+.. _enhanced-content-system-preferences-label:
 
-Enhanced Content
+Enhanced content
 ---------------------------------------
 
-*Get there:* More > Administration > Global System Preferences >
-Enhanced Content
+*Get there:* More > Administration > Global system preferences >
+Enhanced content
 
     **Important**
 
@@ -6162,14 +6166,14 @@ Description:
    for associated ISBNs and display an Editions tab on the details
    pages. Once this preference is enabled, the library must select one
    of the ISBN options (:ref:`ThingISBN` and/or
-   :ref:`XISBN`). This option is only for the Staff Client; the
-   :ref:`OPACFRBRizeEditions` option must be enabled
+   of the ISBN options (such as :ref:`ThingISBN`). This option is only for the Staff
+   Client - the :ref:`OPACFRBRizeEditions` option must be enabled
    to have the Editions tab appear on the OPAC.
 
     **Important**
 
     Requires that you turn on one or more of the ISBN services
-    (:ref:`ThingISBN` and/or :ref:`XISBN`)
+    (such as :ref:`ThingISBN`).
 
 .. _opacfrbrizeeditions-label:
 
@@ -6196,8 +6200,7 @@ Description:
    is set to "Show", the OPAC will query one or more ISBN web services
    for associated ISBNs and display an Editions tab on the details
    pages. Once this preference is enabled, the library must select one
-   of the ISBN options (:ref:`ThingISBN` and/or
-   :ref:`XISBN`). This option is only for the OPAC; the
+   of the ISBN options (such as :ref:`ThingISBN`). This option is only for the OPAC - the
    :ref:`FRBRizeEditions` option must be turned "On" to
    have the Editions tab appear on the Staff Client.
 
@@ -6216,9 +6219,9 @@ collection regardless of material type. Items will appear under an
     **Important**
 
     Requires that you turn on one or more of the ISBN services
-    (:ref:`ThingISBN` and/or :ref:`XISBN`)
+    (such as :ref:`ThingISBN`).
 
-.. _amazon-label:
+.. _amazon-system-preferences-label:
 
 Amazon
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -6332,6 +6335,8 @@ Description:
    disabled, they will prevent AmazonCoverImages from functioning
    properly.
 
+.. _babeltheque-system-preferences-label:
+
 Babelthèque
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -6367,7 +6372,7 @@ Values:
 
 -  Don't
 
-.. _babeltheque\_url\_js-label:
+.. _babeltheque-url-js-label:
 
 Babeltheque\_url\_js
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -6375,7 +6380,7 @@ Babeltheque\_url\_js
 Asks: \_\_\_ Defined the url for the Babelthèque javascript file (eg.
 http://www.babeltheque.com/bw\_XX.js)
 
-.. _babeltheque\_url\_update-label:
+.. _babeltheque-url-update-label:
 
 Babeltheque\_url\_update
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -6383,7 +6388,7 @@ Babeltheque\_url\_update
 Asks: \_\_\_ Defined the url for the Babelthèque update periodically
 (eq. http://www.babeltheque.com/.../file.csv.bz2).
 
-.. _baker-&-taylor-label:
+.. _baker-and-taylor-label:
 
 Baker & Taylor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -6411,7 +6416,7 @@ Description:
    this program, the library must first register and pay for the service
    with Baker & Taylor. Additional information about this and other
    services provided by Baker & Taylor is available at the Baker &
-   Taylor website, http://www.btol.com. The BakerTaylorBookstoreURL
+   Taylor website, https://www.baker-taylor.com/. The BakerTaylorBookstoreURL
    preference establishes the URL in order to link to the library's
    Baker & Taylor-backed online bookstore, if such a bookstore has been
    established. The default for this field is left blank; if no value is
@@ -6456,18 +6461,18 @@ Description:
    (book reviews, descriptions, cover images, etc.) in both the Staff
    Client and the OPAC. Libraries that wish to display Baker & Taylor
    content must first register and pay for this service with Baker &
-   Taylor (http://www.btol.com). If Baker & Taylor content is enabled be
+   Taylor (https://www.baker-taylor.com/). If Baker & Taylor content is enabled be
    sure to turn off other cover and review services to prevent
    interference.
 
     **Important**
 
-    To use this you will need to also set the :ref:`BakerTaylorUsername &
-    BakerTaylorPassword <bakertaylorusername-&-bakertaylorpassword-label>` system preferences
+    To use this you will need to also set the :ref:`BakerTaylorUsername and
+    BakerTaylorPassword <bakertaylorusername-and-bakertaylorpassword-label>` system preferences
 
-.. _bakertaylorusername-&-bakertaylorpassword-label:
+.. _bakertaylorusername-and-bakertaylorpassword-label:
 
-BakerTaylorUsername & BakerTaylorPassword
+BakerTaylorUsername and BakerTaylorPassword
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Access Baker and Taylor using username \_\_\_ and password \_\_\_
@@ -6484,7 +6489,7 @@ Descriptions:
    cover art, professional reviews, and summaries that is displayed
    along with Staff Client/OPAC search results. For more information on
    this service please see the Baker & Taylor website:
-   http://www.btol.com
+   https://www.baker-taylor.com/
 
     **Important**
 
@@ -6996,7 +7001,7 @@ to get your log in information to embed this content in the OPAC.
     Novelist Select does not include cover images for the search results
     and bibliographic detail pages. You can choose any other cover image
     service for this content or you can contract with Ebsco to get
-    access to the :ref:`Baker & Taylor Content Cafe <baker-&-taylor-label>` for
+    access to the :ref:`Baker & Taylor Content Cafe <baker-and-taylor-label>` for
     an added fee.
 
 .. _novelistselectenabled-label:
@@ -7017,17 +7022,16 @@ Values:
     **Important**
 
     Enabling this requires that you have entered in a user profile and
-    password in the :ref:`NovelistSelectProfile &
-    NovelistSelectPassword <novelistselectprofile-&-novelistselectpassword-label>` preferences
+    password in the :ref:`NovelistSelectProfile and NovelistSelectPassword` preferences
 
 Description:
 
 -  Novelist Select from Ebsco is a subscription service that can provide
    additional content in the OPAC.
 
-.. _novelistselectprofile-&-novelistselectpassword-label:
+.. _novelistselectprofile-and-novelistselectpassword-label:
 
-NovelistSelectProfile & NovelistSelectPassword
+NovelistSelectProfile and NovelistSelectPassword
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Access Novelist Select using user profile \_\_\_ and password
@@ -7355,9 +7359,9 @@ Description:
 
     You will need to get your client code directly from Syndetics.
 
-.. _syndeticscoverimages-&-syndeticscoverimagesize-label:
+.. _syndeticscoverimages-and-syndeticscoverimagesize-label:
 
-SyndeticsCoverImages & SyndeticsCoverImageSize
+SyndeticsCoverImages and SyndeticsCoverImageSize
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SyndeticsCoverImages Default: Don't show
@@ -8281,7 +8285,7 @@ Values:
 
 -  Log
 
-.. _opac-label:
+.. _opac-system-preferences-label:
 
 OPAC
 ---------------------
@@ -8510,9 +8514,9 @@ Values:
 
    |image63|
 
-.. _highlightownitemsonopac-&-highlightownitemsonopacwhich-label:
+.. _highlightownitemsonopac-label:
 
-HighlightOwnItemsOnOPAC & HighlightOwnItemsOnOPACWhich
+HighlightOwnItemsOnOPAC and HighlightOwnItemsOnOPACWhich
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 HighlightOwnItemsOnOPAC Default: Don't emphasize
@@ -8845,9 +8849,9 @@ Asks: Include the following HTML in the header of all pages in the OPAC
 
 Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
 
-.. _opachighlightedwords-&-nothighlightedwords-label:
+.. _opachighlightedwords-and-nothighlightedwords-label:
 
-OpacHighlightedWords & NotHighlightedWords
+OpacHighlightedWords and NotHighlightedWords
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OpacHighlightedWords Default: Don't highlight
@@ -9290,9 +9294,9 @@ OPAC, with the following HTML (leave blank to disable)
     {ISSN} and {AUTHOR} will be replaced with information from the
     displayed record.
 
-.. _opacseparateholdings-&-opacseparateholdingsbranch-label:
+.. _opacseparateholdings-and-opacseparateholdingsbranch-label:
 
-OpacSeparateHoldings & OpacSeparateHoldingsBranch
+OpacSeparateHoldings and OpacSeparateHoldingsBranch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OpacSeparateHoldings default: Don't separate
@@ -9813,7 +9817,7 @@ Values:
 
     **Important**
 
-    run the :ref:`authorities browser cron job <authorities-browser-label>` to
+    run the :ref:`authorities browser cron job <cron-authorities-browser-label>` to
     create the browser list
 
 .. _opacbrowseresults-label:
@@ -9860,7 +9864,7 @@ Values:
 
     **Important**
 
-    run the :ref:`authorities browser cron job <authorities-browser-label>` to
+    run the :ref:`authorities browser cron job <cron-authorities-browser-label>` to
     create the browser list
 
 .. _opacfinestab-label:
@@ -10336,9 +10340,9 @@ Payments
 These preferences will allow you control the tools you use to accept
 online payments from your patrons via the OPAC.
 
-.. _enablepaypalopacpayments-&-paypalsandboxmode-label:
+.. _enablepaypalopacpayments-and-paypalsandboxmode-label:
 
-EnablePayPalOpacPayments & PayPalSandboxMode
+EnablePayPalOpacPayments and PayPalSandboxMode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 EnablePayPalOpacPayments Default: Don't allow
@@ -10970,12 +10974,11 @@ Self Registration
 .. _patronselfmodificationborrowerunwantedfield-label:
 
 PatronSelfModificationBorrowerUnwantedField
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Default: password
 
-Asks: The following `database
-columns <http://schema.koha-community.org/tables/borrowers.html>`__ will
+Asks: The following `database columns <http://schema.koha-community.org/master/tables/borrowers.html>`_ will
 not appear on the patron self-modification screen: \_\_\_
 
 Description:
@@ -11018,7 +11021,7 @@ Description:
     Patrons registering via the OPAC will not need to be approved by a
     librarian. For this reason it is recommended that you set up a
     provisional :ref:`patron category <patron-categories-label>` with no :ref:`circulation
-    rights <circulation-and-fine-rules-label>`. That way patrons will have to come in to
+    rights <circulation-and-fines-rules-label>`. That way patrons will have to come in to
     the library to verify their identity before given circulation rights
     at the library. Once the patron confirms their identity the library
     staff can change the category to one with permissions to check items
@@ -11027,7 +11030,7 @@ Description:
 .. _patronselfregistrationadditionalinstructions-label:
 
 PatronSelfRegistrationAdditionalInstructions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Display the following additional instructions for patrons who self
 register via the OPAC ( HTML is allowed ):
@@ -11059,9 +11062,7 @@ Description:
 
     **Note**
 
-    For help with field names, ask your system administrator or `view
-    the database
-    structure <http://schema.koha-community.org/tables/borrowers.html>`__
+    For help with field names, ask your system administrator or `view the database structure <http://schema.koha-community.org/master/tables/borrowers.html>`_
     associated with the borrowers table.
 
     **Note**
@@ -11092,10 +11093,7 @@ Description:
 
     **Note**
 
-    For help with field names, ask your system administrator or `view
-    the database
-    structure <http://schema.koha-community.org/tables/borrowers.html>`__
-    associated with the borrowers table.
+    For help with field names, ask your system administrator or `view the database structure <http://schema.koha-community.org/master/tables/borrowers.html>`_ associated with the borrowers table.
 
 .. _patronselfregistrationdefaultcategory-label:
 
@@ -11115,7 +11113,7 @@ Description:
     Patrons registering via the OPAC will not need to be approved by a
     librarian. For this reason it is recommended that you set up a
     provisional :ref:`patron category <patron-categories-label>` with no :ref:`circulation
-    rights <circulation-and-fine-rules-label>`. That way patrons will have to come in to
+    rights <circulation-and-fines-rules-label>`. That way patrons will have to come in to
     the library to verify their identity before given circulation rights
     at the library. Once the patron confirms their identiy the library
     staff can change the category to one with permissions to check items
@@ -11157,7 +11155,7 @@ Asks: Delete patrons registered via the OPAC, but not yet verified after
 Description:
 
 -  This preference links to the :ref:`delete\_expired\_opac\_registrations.pl
-   cron job <unverified-registrations-label>`. If that cron is set to
+   cron job <cron-unverified-registrations-label>`. If that cron is set to
    run nightly it will clean up any registrations that have not been
    verified via email in the number of days entered on this preference.
    This is dependent on
@@ -11323,7 +11321,7 @@ Description:
    browser to take into consideration what shelving location the books
    belong to when populating the virtual shelf browser.
 
-.. _patrons-label:
+.. _patrons-system-preferences-label:
 
 Patrons
 --------------------------
@@ -11455,10 +11453,7 @@ Description:
 
     **Note**
 
-    For help with field names, ask your system administrator or `view
-    the database
-    structure <http://schema.koha-community.org/tables/borrowers.html>`__
-    associated with the borrowers table.
+    For help with field names, ask your system administrator or `view the database structure <http://schema.koha-community.org/master/tables/borrowers.html>`_ associated with the borrowers table.
 
     **Note**
 
@@ -11478,7 +11473,7 @@ Asks: Guarantors can be the following of those they guarantee \_\_\_
 Description:
 
 -  This preference enables the system administrator to define valid
-   relationships between a guarantor (usually a parent) & a guarantee
+   relationships between a guarantor (usually a parent) and a guarantee
    (usually a child). Defining values for this field does not make the
    guarantor field required when adding a guarantee type patron. This
    preference creates a drop down list identifying the relationship of
@@ -11552,10 +11547,7 @@ Description:
 
     **Note**
 
-    For help with field names, ask your system administrator or `view
-    the database
-    structure <http://schema.koha-community.org/tables/borrowers.html>`__
-    associated with the borrowers table.
+    For help with field names, ask your system administrator or `view the database structure <http://schema.koha-community.org/master/tables/borrowers.html>`_ associated with the borrowers table.
 
 .. _cardnumberlength-label:
 
@@ -11605,12 +11597,13 @@ Description:
 
 -  When the value is set to 'Unless overridden, do', this will check the
    patron's circulation history unless the patron's
-   :ref:`personal setting <add-a-new-patron>` or the :ref:`patron category setting <adding-a-patron-category>` specifically say not to.
+   :ref:`personal setting <add-a-new-patron-label>` or the :ref:`patron category setting <adding-a-patron-category-label>` specifically say not to.
 
 -  Lastly, if the value is set to 'Unless overridden, do not',
    Koha will not check circulation history unless the patron's :ref:`personal
-   setting <add-a-new-patron>` or the :ref:`patron category setting <adding-a-
-   patron-category>` specifically say to check.
+   setting <add-a-new-patron-label>` or the
+   :ref:`patron category setting <adding-a-patron-category-label>` specifically say
+   to check.
 
      **Note**
 
@@ -11830,8 +11823,8 @@ Description:
 -  This preference controls the default cap on fines accrued by the
    patron. Leaving this preference blank means that there is no cap on
    the amount of fines a patron can accrue. If you'd like, single item
-   caps can be specified in the :ref:`circulation rules
-   matrix <circulation-and-fine-rules-label>`.
+   caps can be specified in the
+   :ref:`circulation rules matrix <circulation-and-fines-rules-label>`.
 
 .. _membershipexpirydaysnotice-label:
 
@@ -11846,12 +11839,12 @@ Description:
 -  If you would like to notify patrons that their accounts are about to
    expire then you can enter a number of days before expiration in this
    preference. The notice text can be customized in the :ref:`Notices &
-   Slips <notices-&-slips-label>` tool.
+   slips <notices-and-slips-label>` tool.
 
     **Important**
 
     You will need to enable the :ref:`membership expiry cron
-    job <notify-patrons-of-expiration-label>` for this notice to send.
+    job <cron-notify-patrons-of-expiration-label>` for this notice to send.
 
 .. _minpasswordlength-label:
 
@@ -11928,8 +11921,7 @@ as well, individual fields in that form will be ignored.
 
     **Note**
 
-    See the :ref:`database schema (borrowers table) <http://schema.koha-community.org/>`
-    to know the field names.
+    See the `database schema (borrowers table) <http://schema.koha-community.org/>`_ to know the field names.
 
     **Note**
     If either :ref:`PatronQuickAddFields` or :ref:`BorrowerMandatoryField`
@@ -11938,8 +11930,8 @@ as well, individual fields in that form will be ignored.
 
     **Note**
 
-    It is possible to add custom :ref:`patron attributes <patron-attribute-types-
-    label>` in the quick add form with the following syntax: patron_attr_N
+    It is possible to add custom :ref:`patron attributes <patron-attribute-types-label>`
+    in the quick add form with the following syntax: patron_attr_N
     (for example patron_attr_2). The N refers to the id of the attribute and
     requires a bit of guesswork (normally it will be the order in which you
     entered them in the :ref:`patron attribute types section of the administration module <patron-attribute-types-label>`).
@@ -11991,7 +11983,7 @@ Description:
 
 -  If set to 'require' this system preference will require patron and staff passwords to contain at least one digit, one lowercase and one uppercase.
 
-.. _smssenddriver,-smssendusername,-and-smssendpassword-label:
+.. _smssenddriver-label:
 
 SMSSendDriver, SMSSendUsername, and SMSSendPassword
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -12146,7 +12138,7 @@ Description:
 
      -  The letters used are ACCOUNT\_PAYMENT and ACCOUNT\_WRITEOFF
 
-     -  You can edit them in the :ref:`Notices and slips<notices-&-slips-label>`
+     -  You can edit them in the :ref:`Notices & slips <notices-and-slips-label>`
         tool.
 
 .. _usedischarge-label:
@@ -12194,9 +12186,9 @@ Default: blank
 
 Asks: Block a patron's account if it reaches \_\_\_ failed login attempts.
 
-.. _norwegianpatrondbenable-&-norwegianpatrondbendpoint-label:
+.. _norwegianpatrondbenable-and-norwegianpatrondbendpoint-label:
 
-NorwegianPatronDBEnable & NorwegianPatronDBEndpoint
+NorwegianPatronDBEnable and NorwegianPatronDBEndpoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 NorwegianPatronDBEnable Default: Disable
@@ -12226,9 +12218,9 @@ Values:
 
 -  Don't
 
-.. _norwegianpatrondbusername-&-norwegianpatrondbpassword-label:
+.. _norwegianpatrondbusername-and-norwegianpatrondbpassword-label:
 
-NorwegianPatronDBUsername & NorwegianPatronDBPassword
+NorwegianPatronDBUsername and NorwegianPatronDBPassword
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Communicate with the Norwegian national patron database using the
@@ -12239,7 +12231,7 @@ Description:
 -  You can get these from "Base Bibliotek", which is maintained by the
    Norwegian National Library.
 
-.. _searching-label:
+.. _searchingsystem-preferences-label:
 
 Searching
 -------------------------------
@@ -12574,9 +12566,9 @@ Description:
 Results Display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _defaultsortfield-&-defaultsortorder-label:
+.. _defaultsortfield-and-defaultsortorder-label:
 
-defaultSortField & defaultSortOrder
+defaultSortField and defaultSortOrder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 defaultSortField Default: author
@@ -12760,7 +12752,7 @@ Asks: By default, show \_\_\_ results per page in the staff client.
 
 .. _opacdefaultsortfield-and-opacdefaultsortorder-label:
 
-OPACdefaultSortField & OPACdefaultSortOrder
+OPACdefaultSortField and OPACdefaultSortOrder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OPACdefaultSortField Default: relevance
@@ -13003,7 +12995,7 @@ Description:
    search by setting this preference to 'use.^ This will allow for more
    accurate results over doing a general keyword field search.
 
-.. _serials-label:
+.. _serials-system-preferences-label:
 
 Serials
 ---------------------------
@@ -13176,9 +13168,7 @@ Description:
    fields duplicated, using this preference you can list the fields that
    you don't want to be duplicated. These field names come from the
    subscription table in the Koha database. Learn what fields are in
-   that table on the `Koha DB
-   Schema <http://schema.koha-community.org/tables/subscription.html>`__
-   site.
+   that table on the `Koha DB Schema <http://schema.koha-community.org/master/tables/subscription.html>`_ site.
 
 .. _subscriptionhistory-label:
 
@@ -13313,7 +13303,7 @@ Values:
     See the :ref:`XSLT material type icons <material-type-cataloging-guide-label>`
     for more information on these icons.
 
-.. _intranet\_includes-label:
+.. _intranet-includes-label:
 
 intranet\_includes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -13848,7 +13838,7 @@ Values:
 
 -  Don't allow
 
-.. _tools-label:
+.. _tools-system-preferences-label:
 
 Tools
 -----------------------
@@ -13894,7 +13884,7 @@ Description:
    tool <batch-item-modification-label>` this preference will prevent the editing
    of more than the number entered here.
 
-.. _news-label:
+.. _news-system-preferences-label:
 
 News
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13934,7 +13924,7 @@ ImageLimit
 Asks: Limit the number of creator images stored in the database to
 \_\_\_ images.
 
-.. _reports-label:
+.. _reports-system-preferences-label:
 
 Reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13950,7 +13940,7 @@ Default: 20
 
 Asks: By default, show \_\_\_ reports on the Saved Reports page.
 
-.. _upload-label:
+.. _upload-system-preferences-label:
 
 Upload
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13965,7 +13955,7 @@ Default: blank
 Asks: Automatically delete temporary uploads older than \_\_\_ days in
 cleanup_database cron job.
 
-.. _web-services-label:
+.. _web-services-system-preferences-label:
 
 Web services
 -----------------------------------
@@ -13973,12 +13963,12 @@ Web services
 *Get there:* More > Administration > Global system preferences > Web
 services
 
-.. _ils-di-system-preferences-label:
+.. _webservices-ils-di-system-preferences-label:
 
 ILS-DI
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _ils-di-pref-label:
+.. _ils-di-system-preference-label:
 
 ILS-DI
 ^^^^^^^^^^^^^^^^^^^^
@@ -13993,7 +13983,7 @@ Values:
 
 -  Enable
 
-.. _ils-di:authorizedips-label:
+.. _ils-di-authorizedips-label:
 
 ILS-DI:AuthorizedIPs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -14060,7 +14050,7 @@ Description:
        The French Sudoc database should not be confused with the US
        Superintendent of Documents (SuDocs) Classification Scheme.
 
-.. _oai-pmh-label:
+.. _oai-pmh-system-preferences-label:
 
 OAI-PMH
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -14102,7 +14092,7 @@ Description:
 
 Learn more about OAI-PMH at: http://www.openarchives.org/pmh/
 
-.. _oai-pmh:archiveid-label:
+.. _oai-pmh-archiveid-label:
 
 OAI-PMH:archiveID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -14111,7 +14101,7 @@ Default: KOHA-OAI-TEST
 
 Asks: Identify records at this site with the prefix \_\_\_ :
 
-.. _oai-pmh:autoupdatesets-label:
+.. _oai-pmh-autoupdatesets-label:
 
 OAI-PMH:AutoUpdateSets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -14127,7 +14117,7 @@ Values:
 
 -  Enable
 
-.. _oai-pmh:conffile-label:
+.. _oai-pmh-conffile-label:
 
 OAI-PMH:ConfFile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -14141,7 +14131,7 @@ metadata formats and XSL file used to create them from marcxml records.
 For more information, see the :ref:`sample conf file <sample-oai-conf-file-label>`
 section.
 
-.. _oai-pmh:deletedrecord-label:
+.. _oai-pmh-deletedrecord-label:
 
 OAI-PMH:DeletedRecord
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -14158,7 +14148,7 @@ Values:
 
 -  might be emptied or truncated at some point (transient)
 
-.. _oai-pmh:maxcount-label:
+.. _oai-pmh-maxcount-label:
 
 OAI-PMH:MaxCount
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

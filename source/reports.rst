@@ -1,5 +1,7 @@
 .. include:: images.rst
 
+.. _reports-label:
+
 Reports
 =======
 
@@ -112,7 +114,7 @@ queries using SQL. To find reports written by other Koha users, visit
 the Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library.
 You can also find your database structure in
 /installer/data/mysql/kohastructure.sql or online at:
-`http://schema.koha-community.org <http://schema.koha-community.org/>`__.
+http://schema.koha-community.org
 
 To add your query, click the link to 'Create from SQL' on the main
 reports module or the 'New report' button at the top of the 'Saved
@@ -510,7 +512,7 @@ needs.
     -  For a single day, an example would be: 11/15/2009 to 11/16/2009
        to find what circulated on the 15th
 
-.. _tracking-in-house-use-label:
+.. _tracking-in-house-use-reports-label:
 
 Tracking in house use
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

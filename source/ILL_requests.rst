@@ -1,18 +1,20 @@
 .. include:: images.rst
 
+.. _ill-requests-label:
+
 ILL requests / Interlibrary loans
 ===================================
 
-The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources.  Patrons submit a request form via the OPAC for review and processing by library staff.  Alternatively staff can place requests themselves from the staff client.
+The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons submit a request form via the OPAC for review and processing by library staff. Alternatively staff can place requests themselves from the staff client.
 
-.. _setup-label:
+.. _setup-ill-requests-label:
 
 Set up
 -------------
 
 Before using the ILL requests module you will want to make sure that you have completed all of the set up.
 
-The ILL requests module can be configured for different types of requests and workflows known as backends.   Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends.  You will need to configure at least one backend.
+The ILL requests module can be configured for different types of requests and workflows known as backends.  Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend.
 
 Next, set your system preferences.
 
@@ -22,7 +24,7 @@ Next, set your system preferences.
 
 Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*.
 
-The ILL requests module uses system defined statuses.  You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`.
+The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`.
 
 .. _create-ILL-requests-label:
 
@@ -51,7 +53,7 @@ Create ILL requests
 
 -  Under the borrower options enter the library branch you would like the request to be sent to.
 
-Click on ‘Create’ and you will be shown a Request details summary page.  Click on the ‘Confirm request’ button and you will see the following confirmation message:
+Click on ‘Create’ and you will be shown a Request details summary page. Click on the ‘Confirm request’ button and you will see the following confirmation message:
 
 |image1389|
 
@@ -75,10 +77,10 @@ Click on the ‘Manage request’ button in the final column. Depending on the c
    -  place the request via email with a :ref:`partner library <place-request-with-partners-label>`
 -  Delete
 
-   -  fully delete the request.  Details of deleted requests are not retained in Koha.
+   -  fully delete the request. Details of deleted requests are not retained in Koha.
 -  Revert request
 
-   -  following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source.  The status reverts to ‘New’
+   -  following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’
 -  Mark completed
 
    -  used when the ILL request has been fulfilled.

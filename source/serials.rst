@@ -1,5 +1,7 @@
 .. include:: images.rst
 
+.. _serials-label:
+
 Serials
 =======
 
@@ -237,13 +239,13 @@ record the form will include the bib info).
    patrons who subscribe to updates on this serial via the OPAC.
 
    -  For this option to appear you need to make sure that you have a
-      Routing list notice set up in the :ref:`Notices Tool <notices-&-slips-label>`
+      Routing list notice set up in the :ref:`Notices Tool <notices-and-slips-label>`
 
 -  'Location' is for the shelving location
 
 -  The 'Grace period' is the number of days before an issue is
    automatically moved from 'Expected' status to 'Late'.
-   This mechanism requires that the :ref:`SerialsUpdate.pl cron job <serials-update-label>` is set up to run regularly.
+   This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly.
 
 -  The Staff and OPAC display options allow you to control how many
    issues appear by default on bibliographic records in the Staff Client
@@ -355,7 +357,7 @@ pattern information.
 
       |image749|
 
--  If you have added a :ref:`custom subscription field <custom-subscription-fields-label>`, it
+-  If you have added a :ref:`custom field <custom-subscription-fields-label>`, it
    will be editable above the buttons at the bottom of the screen
 
    |image1274|

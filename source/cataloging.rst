@@ -97,7 +97,7 @@ cataloging
 |image632|
 
 -  If you would rather not see the MARC tag numbers you can change the
-   value in your :ref:`hide\_marc <hide\_marc-label>` system preference or each
+   value in your :ref:`hide\_marc <hide-marc-label>` system preference or each
    user can check the box next to 'Show tags' found under 'Settings'.
 
 -  To expand a collapsed tag click on the tag description
@@ -106,7 +106,7 @@ cataloging
    question mark (?) to the right of each field number
 
    -  It is possible to change the source of the MARC documentation using the
-      :ref:`MARCFieldDocURL <marcfielddocurl-label>` system preference
+      :ref:`MARCFieldDocURL` system preference
 
    -  If you feel that this clutters the screen you can hide the
       question marks by unchecking the box next to the 'Show MARC tag
@@ -183,7 +183,7 @@ Advanced editor cataloging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In order to use the Advanced cataloging editor you need to enable the
-:ref:`EnableAdvancedCatalogingEditor <enableadvancedcatalogingeditor-label>`
+:ref:`EnableAdvancedCatalogingEditor`
 preference.
 
     **Note**
@@ -368,7 +368,7 @@ easier. The first thing you need to do is set the
 'Display' and the :ref:`UseControlNumber` preference to
 'Don't use.'
 
-After cataloging your analytic record (see :ref:`Adding
+After cataloging your analytic record (see :ref:`adding
 records <adding-records-label>` for more on creating records) click 'Edit' from
 the normal view and choose to 'Link to host item'
 
@@ -422,7 +422,7 @@ you need to do is set the
 display' and the :ref:`UseControlNumber` preference to
 'Use.'
 
-After cataloging your original record (see :ref:`Adding
+After cataloging your original record (see :ref:`adding
 records <adding-records-label>` for more on creating records) click 'New' from
 the normal view and choose to 'New child record.'
 
@@ -901,7 +901,7 @@ Simply enter the barcode for the item you want to move and click
 'Select'
 
 If you want to move all items to a new record creating only one
-bibliographic record you can use the :ref:`Merge Records
+bibliographic record you can use the :ref:`merge records
 tool <merging-bibliographic-records-via-lists-label>` instead.
 
 .. _deleting-items-label:
@@ -1058,7 +1058,7 @@ Once you've made the necessary edits, simply click 'Save' and
 all of the bib records linked to the authority with the new authority
 record's data. If dontmerge is set to "Don't" then Koha won't edit bib
 records when changes are made to authorities, rather, this is done later
-by the :ref:`merge\_authority.pl cronjob <update-authorities-label>`.
+by the :ref:`merge\_authority.pl cronjob <cron-update-authorities-label>`.
 
 To delete an authority record you first must make sure it's not linked
 to any bibliographic records. If it is not used by any bibliographic
