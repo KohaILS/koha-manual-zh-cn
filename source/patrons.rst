@@ -468,6 +468,21 @@ The renewal date of the patron account will be visible on the details tab.
 
 |image1392|
 
+.. _delete-patron-account-label:
+
+Delete Patron Account
+----------------------------------
+
+From the more drop-down, the patron account can be deleted. There will 
+be an alert if the patron has checkouts, holds or fines.  If a patron has 
+current checkouts, the deletion will not be possible. If a patron has 
+outstanding fines, the deletion will not be possible.  If a patron has existing
+holds on their account, the option to delete the patron is possible.  
+The hold will be cancelled and moved to the old reserves table. 
+
+|image1406|
+
+
 .. _managing-patron-self-edits-label:
 
 Managing patron self edits
