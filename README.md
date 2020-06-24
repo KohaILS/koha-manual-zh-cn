@@ -9,7 +9,9 @@ The manual is generated with Sphinx.
 Setup
 -----
 
-> sudo apt-get install python3-sphinx  python3-sphinxcontrib.spelling
+> sudo apt-get install make python3-sphinx python3-sphinxcontrib.spelling python3-pip
+>
+> sudo pip3 install sphinx_rtd_theme
 
 Outputing Docs
 --------------
