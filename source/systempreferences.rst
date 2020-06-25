@@ -89,7 +89,7 @@ Description:
 
 .. _finepaymentautopopup-label:
 
-FinePaymentAutoPopop
+FinePaymentAutoPopup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ automatically display a print dialog for a payment receipt when
@@ -105,7 +105,7 @@ Values:
 
 Description:
 
--  If activated, when :ref:`making a payment <pay/reverse-fines-label> in a
+-  If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a
    patron's account, a printing popup will be displayed automatically instead
    of having to click on the 'print' button.
 
