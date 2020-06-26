@@ -5515,34 +5515,6 @@ Description:
 -  Enabling this system preference allows staff to scan a patron barcode instead
    of an item barcode in the checkout box to switch patron records.
 
-.. _circautocompl-label:
-
-CircAutocompl
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Try
-
-Asks: \_\_\_ to automatically fill in the member when entering a patron
-search on the circulation screen.
-
-Description:
-
--  This preference is a binary setting which determines whether
-   auto-completion of fields is enabled or disabled for the circulation
-   input field. Setting it to "Try" would enable a staff member to begin
-   typing a name or other value into the field and have a menu pop up
-   with suggestions for completing it. Setting it to "Don't try" would
-   disable this feature. This preference can make staff members' jobs
-   easier or it could potentially slow down the page loading process.
-
-Values:
-
--  Don't try
-
--  Try
-
-   |image33|
-
 .. _circautoprintquickslip-label:
 
 CircAutoPrintQuickSlip
@@ -5793,6 +5765,37 @@ numReturnedItemsToShow
 Default: 20
 
 Asks : Show the \_\_\_ last returned items on the checkin screen.
+
+.. _patronautocomplete-label:
+
+PatronAutoComplete
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ to guess the patron being entered while typing a patron search 
+for circulation or patron search. Only returns the first 10 results at a time.
+
+Default: Try
+
+Values:
+
+-  Try
+
+-  Don't try
+
+Description:
+
+-  This system preference enables the auto-complete feature in the 
+   :ref:`patron search <patron-search-label>` in the Patrons and Circulation 
+   modules.
+
+-  Setting it to "Try" would enable a staff member to begin typing a name or 
+   other value into the field and have a menu pop up with suggestions for 
+   completing it. Setting it to "Don't try" would disable this feature. 
+
+-  This preference can make staff members' jobs easier or it could potentially 
+   slow down the page loading process.
+
+   |image33|
 
 .. _previousissuesdefaultsortorder-label:
 
