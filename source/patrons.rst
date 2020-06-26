@@ -95,8 +95,6 @@ Once there you can add a new patron.
 
 -  Next enter the contact information
 
-   |image1466|
-
    |image409|
 
    -  For contact information, note that the primary phone and email
