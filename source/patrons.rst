@@ -68,16 +68,6 @@ Once there you can add a new patron.
           <<borrowers.initials>>, <<borrowers.firstname>> instead of the
           full name (E, Nicole).
 
--  Next enter the contact information
-
-   |image409|
-
-   -  For contact information, note that the primary phone and email
-      addresses are the ones that appear on notices and slips printed
-      during circulation (receipts, transfer slips and hold slips). The
-      primary email is also the one that overdue notices and other
-      messages go to.
-
 -  If this patron is a child, you will be asked to attach the child
    patron to an adult patron
 
@@ -102,6 +92,16 @@ Once there you can add a new patron.
 
    -  If the guarantor is not a patron, you can still add their information in 
       the 'Contact' section.
+
+-  Next enter the contact information
+
+   |image409|
+
+   -  For contact information, note that the primary phone and email
+      addresses are the ones that appear on notices and slips printed
+      during circulation (receipts, transfer slips and hold slips). The
+      primary email is also the one that overdue notices and other
+      messages go to.
 
 -  Each patron can have an alternate contact
 
