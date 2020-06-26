@@ -1442,3 +1442,7 @@
 .. |image1465| image:: images/patrons/addGuarantor4.png
 .. |image1466| image:: images/patrons/addmainaddress.png
 .. |image1467| image:: images/opac/allowautorenewal.png
+.. |image1468| image:: images/patrons/deletepatronfines.png
+.. |image1469| image:: images/patrons/deletepatron.png
+.. |image1470| image:: images/patrons/deletepatroncheckout.png
+.. |image1471| image:: images/patrons/deletepatroncredit.png

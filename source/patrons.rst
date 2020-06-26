@@ -490,18 +490,33 @@ the charge in the patron's :ref:`accounting tab <fines-label>`.
 
 .. _delete-patron-account-label:
 
-Delete Patron Account
+Deleting a patron account
 ----------------------------------
 
-From the more drop-down, the patron account can be deleted. There will 
-be an alert if the patron has checkouts, holds or fines.  If a patron has 
-current checkouts, the deletion will not be possible. If a patron has 
-outstanding fines, the deletion will not be possible.  If a patron has existing
-holds on their account, the option to delete the patron is possible.  
-The hold will be cancelled and moved to the old reserves table. 
+From the 'More' drop-down, the patron account can be deleted. 
 
-|image1462|
+|image1469|
 
+There will be an alert if the patron has checkouts, holds, fines or credits. 
+
+-  If a patron has current checkouts, the deletion will not be possible. 
+
+   |image1470|
+
+-  If a patron has outstanding fines, the deletion will not be possible.
+
+   |image 1468|
+
+-  If a patron has unused credits, the option to delete the patron is possible 
+   but there will be a warning.
+
+   |image1471|
+
+-  If a patron has existing holds on their account, the option to delete the 
+   patron is possible. The hold will be cancelled and moved to the old reserves 
+   table. 
+
+   |image1462|
 
 .. _managing-patron-self-edits-label:
 
