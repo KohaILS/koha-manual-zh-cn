@@ -1472,15 +1472,14 @@ members have checked out.
 
 |image446|
 
-Fines & charges
+Charges
 '''''''''''''''''''''''''''''''''''''''''
 
-The Fines & charges tab will show for all patrons, even those who
-don't owe anything.
+The Charges tab will only show in the patron accounts that have unpaid amounts 
+or unused credits.
 
-If the patron does owe money to the library, the tab will show the
-total amount, without any details. To see the details, go to the
-:ref:`fines tabs <fines-label>`.
+The tab will show the total amount, without any details. To see the details, 
+go to the :ref:`accounting tab <fines-label>`.
 
 |image1360|
 
@@ -1613,25 +1612,36 @@ in their record indicating which club they are enrolled in, if any.
 
 .. _fines-label:
 
-Fines
+Accounting
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The patron's complete accounting history will appear on the Fines tab.
-Contrary to its name, the Fines tab does not just show fine data, it
-also shows membership fees, rental fees, reserve fees and any other
-charge you may have for patrons.
+The patron's complete accounting history will appear on the Accounting tab.
+The Accounting tab will show all types of charges and credits: overdue fines, 
+membership fees, rental fees, reserve fees and any other charge you may have 
+for patrons.
 
 |image450|
 
-The Accounts tab will show you the following columns:
+The Transactions tab will show you the following columns:
 
--  Date: the date the charge/payment was posted
+-  Date: the date the charge, payment or credit was posted
 
    -  In the case of fines this will be the last day that the fine was
       accrued
 
--  Description: a description of the charges including the due date for
+-  Account type: what type of charge, payment or credit it is
+
+-  Description of charges: a description of the charges including the due date for
    overdue items and a link to the item record where one is available
+
+-  Barcode: if the charge is linked to a particular item, the barcode is 
+   displayed
+
+-  Due date: if the charge is an overdue fine, the due date is displayed
+
+-  Checkin date: if the charge is an overdue fine, the checkin date is displayed
+
+-  Checkout date: if the charge is an overdue fine, the check out date is displayed
 
 -  Home library: if the charge is linked to a particular item the home library
    is displayed
@@ -1648,12 +1658,18 @@ The Accounts tab will show you the following columns:
 
 -  Actions column:
 
-   -  A link to print a receipt for that line item
+   -  A button to print a receipt for that line item
 
-   -  A link to show further details about the charge and any payments that
+   -  A button to show further details about the charge and any payments that
       have been made
 
-   -  A link to void (delete) the payment
+   -  A button to void (delete) the payment or credit
+
+   -  A button to pay charges with outstanding amounts
+
+   -  A button to issue a refund or payout
+
+   -  A button to apply a discount
 
 At the top of the table you can click the 'Filter paid transaction' to
 hide all completed transaction and above that you can use the search box
