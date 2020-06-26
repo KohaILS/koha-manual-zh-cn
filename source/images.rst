@@ -1446,3 +1446,4 @@
 .. |image1469| image:: images/patrons/deletepatron.png
 .. |image1470| image:: images/patrons/deletepatroncheckout.png
 .. |image1471| image:: images/patrons/deletepatroncredit.png
+.. |image1472| image:: images/admin/globalprefs/allowstafftosetvisibilityforguarantor.png
