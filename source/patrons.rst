@@ -920,15 +920,24 @@ Patron permissions defined
 
 -  Manage patrons fines and fees (updatecharges)
 
+   -  Discount debits for patrons (discount)
+
+      -  Grant the ability to apply discounts to charges
+
    -  Payout credits to patrons (payout)
 
-      -  Grants the ability to reimburse credits to patrons
+      -  Grant the ability to reimburse credits to patrons
+
+   -  Refund payments to patrons (refund)
+
+      -  Grant the ability to refund payments that patrons have already made to 
+         the library
 
    -  Remaining permissions for managing fines and fees (remaining\_permissions)
 
       -  Grant the ability to manage fines and fees other than the actions
-         described in the other subpermissions (paying out credits and writing
-         off fees)
+         described in the other subpermissions (dicounts, payouts, refunds and 
+         writeoffs)
 
    -  Write off fines and fees (writeoff)
 
@@ -1667,9 +1676,13 @@ The Transactions tab will show you the following columns:
 
    -  A button to pay charges with outstanding amounts
 
-   -  A button to issue a refund or payout
+   -  A button to issue a refund or payout (you need the 
+      :ref:`refund and payout permissions <patron-permissions-defined-label>` 
+      to see these buttons)
 
-   -  A button to apply a discount
+   -  A button to apply a discount (you need the 
+      :ref:`discount permission <patron-permissions-defined-label>` 
+      to see this button)
 
 At the top of the table you can click the 'Filter paid transaction' to
 hide all completed transaction and above that you can use the search box
@@ -1694,6 +1707,12 @@ job <cron-fines-label>` is running:
 
 -  Marking an item 'Lost' via the cataloging module will automatically
    charge the patron the replacement cost for that item
+
+-  Creating a patron in a :ref:`category <patron-categories-label>` 
+   with an enrollment fee.
+
+-  Renewing a patron account in a :ref:`category <patron-categories-label>` 
+   with an enrollment fee.
 
 .. _pay/reverse-fines-label:
 
