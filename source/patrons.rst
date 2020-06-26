@@ -480,6 +480,10 @@ The renewal date of the patron account will be visible on the details tab.
 
 |image1392|
 
+If the patron is in a :ref:`patron category <patron-categories-label>` with a 
+membership fee, the charge will also be added upon renewal. You can then manage 
+the charge in the patron's :ref:`accounting tab <fines-label>`.
+
 .. _delete-patron-account-label:
 
 Delete Patron Account
