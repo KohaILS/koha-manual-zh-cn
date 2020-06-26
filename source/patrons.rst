@@ -95,6 +95,8 @@ Once there you can add a new patron.
 
 -  Next enter the contact information
 
+   |image1466|
+
    |image409|
 
    -  For contact information, note that the primary phone and email
@@ -130,6 +132,11 @@ Once there you can add a new patron.
       beginning you can fix that here
 
    -  Sort 1 and 2 are used for statistical purposes within your library
+
+   -  'Allow auto-renewal of items' is used to control whether this patron 
+      wants to automatically renew their checkouts. This requires the 
+      :ref:`automatic_renewal cronjob <cron-automatic-renewal-label>` to run 
+      daily. 
 
    -  'Check for previous checkouts' is used to set the patron's personal preference
       regarding checking their circulation history to see if they have borrowed this

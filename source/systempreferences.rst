@@ -11828,6 +11828,29 @@ Patrons
 General
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _allowpatrontocontrolautorenewal-label:
+
+AllowPatronToControlAutoRenewal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks : \_\_\_ to allow/disallow auto-renewal for account. If allowed a patron 
+will be able to update their own account to allow/disallow auto-renewal 
+
+Default: Allow only staff
+
+Values:
+
+-  Allow only staff
+
+-  Allow patrons
+
+Description:
+
+-  If set to 'Allow patrons', patrons will be able to enable or disable 
+   automatic renewals from :ref:`their online account on the OPAC <your-summary-label>`.
+
+-  In all cases, staff is able to change this in the :ref:`patron's account <add-a-new-patron-label>`.
+
 .. _allowstafftosetcheckoutsvisibilityforguarantor-label:
 
 AllowStaffToSetCheckoutsVisibilityForGuarantor

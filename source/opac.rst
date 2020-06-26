@@ -784,11 +784,18 @@ Your summary
 From the 'your summary' tab, patrons will see all of the items they have
 checked out with the overdue items highlighted in red. If you have
 :ref:`OpacRenewalAllowed` set to 'Allow' then your
-patrons will be able to renew their books right from the OPAC. If you
-have HTML entered in the :ref:`OPACMySummaryHTML`
-preference then you will see that to the right of the 'Fines' column.
+patrons will be able to renew their books right from the OPAC. 
 
 |image1004|
+
+If :ref:`AllowPatronToControlAutoRenewal` is set to 'Allow patrons', patrons 
+will be able to choose whether or not they want their checkouts to be 
+renewed automatically.
+
+|image1467|
+
+If you have HTML entered in the :ref:`OPACMySummaryHTML`
+preference then you will see that to the right of the 'Fines' column.
 
 If your patrons would like to see the items barcodes on their list of
 checked out items you can set up a :ref:`patron
