@@ -237,6 +237,10 @@ have selected:
 
 |image419|
 
+If the patron's :ref:`category <patron-categories-label>` has an enrollment 
+fee, the fee will be charged to the patron's account when the account is 
+created. You can then manage the charge in the patron's :ref:`accounting tab <fines-label>`.
+
 .. _quick-add-patron-label:
 
 Quick add a patron
