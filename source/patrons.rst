@@ -81,22 +81,27 @@ Once there you can add a new patron.
 -  If this patron is a child, you will be asked to attach the child
    patron to an adult patron
 
+   **Note**
+   Guarantors can only be attached to patrons whose :ref:`category <patron-categories-label>` 
+   is of the 'Child', 'Professional' or 'Organization' type.
+
    |image410|
 
-   -  Click 'Set to patron' to search your system for an existing patron
+   -  Click 'Search to add' to search your system for an existing patron
 
-   -  If the Guarantor is not in the system, you can enter the first and
-      last name in the fields available
+      |image1463|
+
+   -  Click 'Select' to choose the patron
+
+      |image1464|
 
    -  The relationships are set using the
       :ref:`borrowerRelationship` system preference
 
--  If this patron is a professional, you will be asked to attach the
-   patron to an organizational patron
+      |image1465|
 
-   |image411|
-
-   -  Click 'Set to patron' to search your system for an existing patron
+   -  If the guarantor is not a patron, you can still add their information in 
+      the 'Contact' section.
 
 -  Each patron can have an alternate contact
 

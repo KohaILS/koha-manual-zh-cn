@@ -1438,3 +1438,6 @@
 .. |image1460| image:: images/tools/patronclubs/placeclubhold.png
 .. |image1461| image:: images/circ/patronagecategory.png
 .. |image1462| image:: images/patrons/delete_with_holds.png
+.. |image1463| image:: images/patrons/addGuarantor2.png
+.. |image1464| image:: images/patrons/addGuarantor3.png
+.. |image1465| image:: images/patrons/addGuarantor4.png
