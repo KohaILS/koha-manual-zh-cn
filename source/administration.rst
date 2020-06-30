@@ -2158,6 +2158,12 @@ sections - Basic constraints, Advanced constraints and Other options.
       -  the record cannot be saved unless you have a value assigned to this
          subfield.  A 'Required' flag will display as a prompt
 
+   -  Important
+
+      -  this indicates that a field is not mandatory, but important. If you 
+         try to save a record where an important field is empty, you will get 
+         a warning, but the record will still be saved. 
+
    -  Managed in tab
 
       -  defines the tab where the subfield is shown. All subfields of a
