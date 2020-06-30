@@ -2134,7 +2134,7 @@ sections - Basic constraints, Advanced constraints and Other options.
 
    -  Text for librarian
 
-      -  what appears before the subfield in the librarian interface
+      -  what appears before the subfield in the staff interface
 
    -  Text for OPAC
 
@@ -2160,8 +2160,6 @@ sections - Basic constraints, Advanced constraints and Other options.
 
 -  For each subfield you can set the following advanced constraint
    values
-
-   |image191|
 
    -  Default value
 
@@ -2231,8 +2229,6 @@ sections - Basic constraints, Advanced constraints and Other options.
          searched (245 if you're MARC21, 200 if you're UNIMARC).
 
 -  For each subfield you can set the following Other option values
-
-   |image193|
 
    -  Authorized value
 
