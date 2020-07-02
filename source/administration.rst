@@ -3592,13 +3592,13 @@ If you choose just the AuthorityFile you'll see just authorities.
 
 .. _column-settings-label:
 
-Column settings
+Table settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This administration area will help you hide or display columns on fixed
 tables throughout the staff client and OPAC.
 
--  *Get there:* Administration > Additional parameters > Column settings
+-  *Get there:* Administration > Additional parameters > Table settings
 
 |image239|
 
@@ -3625,8 +3625,8 @@ And hidden when you view the table.
 
 |image243|
 
-You can also toggle columns using the 'Show/hide columns' button in the
-top right of the page
+You can also toggle columns using the 'Columns' button at the
+top of the table
 
 |image244|
 
