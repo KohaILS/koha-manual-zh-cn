@@ -2717,15 +2717,15 @@ Define mappings
 
 Here you can define how a set will be build (what records will belong to
 this set) by defining mappings. Mappings are a list of conditions on
-record content. A record only need to match one condition to belong to
-the set.
+record content.
 
 -  Fill the fields 'Field', 'Subfield' and 'Value'. For example if you
    want to include in this set all records that have a 999$9 equal to
    'XXX'. Fill 'Field' with 999, 'Subfield' with 9 and 'Value' with XXX.
 
--  If you want to add another condition, click on 'OR' button and repeat
-   step 1.
+-  If you want to add another condition, click on 'Add' button and repeat
+   step 1. You can choose between 'and' or 'or' boolean operators to link 
+   your conditions.
 
 -  Click on 'Save'
 
