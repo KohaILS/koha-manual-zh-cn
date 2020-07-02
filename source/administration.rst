@@ -3508,6 +3508,7 @@ top right of the page
 | Acquisitions        | - Late orders                           |
 |                     | - Order search results                  |
 |                     | - Basket summary                        |
+|                     | - Suggestions                           |
 +---------------------+-----------------------------------------+
 | Administration      | - Patron categories                     |
 |                     | - Currencies                            |
