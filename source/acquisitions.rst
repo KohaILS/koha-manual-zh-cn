@@ -258,6 +258,17 @@ status and reason for your selection.
 
 |image799|
 
+Reasons for accepting and rejecting suggestions are defined by the
+`SUGGEST <#suggestauthorized>`__ authorized value.
+
+|image802|
+
+If you choose 'Others...' as your reason you will be prompted to enter
+your reason in a text box. Clicking 'Cancel' to the right of the box
+will bring back the pull down menu with authorized reasons.
+
+|image803|
+
 You can also change the item type of the suggestions by selecting them 
 and choosing the new item type in the 'Update item types with' drop down menu.
 
@@ -290,17 +301,6 @@ choose to accept or reject the suggestion on an individual basis.
 -  Choosing to mark a request as 'Pending' will move the request back to
    the 'Pending' tab.
 
-Reasons for accepting and rejecting suggestions are defined by the
-`SUGGEST <#suggestauthorized>`__ authorized value.
-
-|image802|
-
-If you choose 'Others...' as your reason you will be prompted to enter
-your reason in a text box. Clicking 'Cancel' to the right of the box
-will bring back the pull down menu with authorized reasons.
-
-|image803|
-
 You can also assign this suggestion to a fund.
 
 |image1280|
@@ -317,6 +317,14 @@ the OPAC and an :ref:`email notice <notices-and-slips-label>` will be sent to th
 using the template that matches the status you have chosen.
 
 |image804|
+
+Once the suggestion has completed the acquisitions process, it is possible to 
+archive it by clicking the small arrow next to the 'Edit' button and choosing 
+'Archive'. This will remove it from the search results. If you have a lot of 
+suggestions, and the page takes a long time to load, archiving old suggestions 
+will improve the performance.
+
+|image474|
 
 .. _placing-orders-label:
 

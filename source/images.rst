@@ -1446,3 +1446,4 @@
 .. |image1471| image:: images/patrons/deletepatroncredit.png
 .. |image1472| image:: images/admin/globalprefs/allowstafftosetvisibilityforguarantor.png
 .. |image1473| image:: images/acquisitions/suggestchangeitype.png
+.. |image1474| image:: images/acquisitions/suggestarchive.png
