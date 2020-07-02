@@ -1447,3 +1447,5 @@
 .. |image1472| image:: images/admin/globalprefs/allowstafftosetvisibilityforguarantor.png
 .. |image1473| image:: images/acquisitions/suggestchangeitype.png
 .. |image1474| image:: images/acquisitions/suggestarchive.png
+.. |image1475| image:: images/admin/accounting/credittypes.png
+.. |image1476| image:: images/admin/accounting/newcredittype.png

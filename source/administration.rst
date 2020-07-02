@@ -1928,6 +1928,133 @@ If you need to use an archived debit type again, simply click on the
 
 This will make it available again.
 
+.. _creit-types-label:
+
+Credit types
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  *Get there:* More > Administration > Accounting > Credit types
+
+This is where you define the manual credits you can give patrons.
+
+When you first get to the page, you will only see the credits that 
+are already defined in your system. 
+
+You can see the default system credit types by clicking "Show all credit types".
+
+|image1475|
+
+
+You can go back to seeing only the manual credit types by clicking "Filter 
+system credit types".
+
+.. _system-credit-types-label:
+
+System credit types
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Several credit types come installed with Koha. Most of them are 
+automatic credits that are added according to the policies you set up 
+elsewhere in Koha. They can not be deleted.
+
+-  CREDIT (Credit): this is used for :ref:`manual credits <creating-manual-credits-label>` 
+   to give to your patrons.
+
+-  DISCOUNT (A discount applied to a patrons fine): this is used to 
+   :ref:`discount fines and charges <pay/reverse-fines-label>`.
+
+-  FORGIVEN (Forgiven): this is used for :ref:`manual credits <creating-manual-credits-label>` 
+   to give to your patrons.
+
+-  LOST_FOUND (Lost item fee refund): this is used when a previously 
+   lost item is returned. If you refund the lost fees (see :ref:`Default 
+   lost item fee refund on return policy <item-fee-refund-on-return-label>`), 
+   this credit will be applied to refund the fee.
+
+-  PAYMENT (Payment): as the name states, this is used to indicate 
+   :ref:`fee payments <pay/reverse-fines-label>`.
+
+-  PURCHASE (Purchase): this is used when a payment is made through 
+   the :ref:`point of sale module<point-of-sale-label>`.
+
+-  REFUND (A refund applied to a patrons fine): this is used when 
+   :ref:`refunding the payment of a fine or charge <pay/reverse-fines-label>`.
+
+-  WRITEOFF (Writeoff): this is used when :ref:`writing off a fine or charge<pay/reverse-fines-label>`.
+
+.. _add-credit-type-label:
+
+Adding a new credit type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To add a new credit type:
+
+-  Click 'New credit type'
+
+   |image1476|
+
+   -  Enter a code (limited to 64 letters)
+
+   -  Write a description
+
+      This description will be used in the drop-down menu when adding 
+      a new credit to a patron's account as well as in their transaction 
+      history
+
+   -  If this credit type can be added manually by staff to a patron's 
+      account via the :ref:`manual credit <creating-manual-credits-label>`, 
+      check the 'Can be added manually?' check box
+
+   -  If this credit type is only to be used in specific branches, you can 
+      select the libraries in 'Libraries limitation'
+
+      **Note**
+
+      You can select more than one library by pressing the 'Ctrl' key 
+      while selecting.
+
+   -  Click 'Save'
+
+.. _edit-credit-type-label:
+
+Editing an existing credit type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can only modify the credit types you have added.
+
+To edit a credit type:
+
+-  Click the 'Edit' button to the right of the credit type
+
+-  Modify any field
+
+-  Click 'Save'
+
+.. _archive-credit-type-label:
+
+Archiving a credit type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If there is a credit type you don't need anymore, you can archive it. 
+
+  **Note**
+
+  There is no way to delete a credit type since they are used in the 
+  patron's accounting section.
+
+To archive a credit type, simply click the 'Archive' button to the 
+right of the credit type.
+
+.. _restore-credit-type-label:
+
+Restoring an archived credit type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you need to use an archived credit type again, simply click on the 
+'Restore' button to the right of the credit type.
+
+This will make it available again.
+
 .. _cashregisters-label:
 
 Cash registers
