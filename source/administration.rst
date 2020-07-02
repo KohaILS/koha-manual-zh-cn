@@ -1212,7 +1212,7 @@ item types to apply the rules to
       especially useful for libraries that don't offer the service of getting items
       placed on hold off the shelf for patrons.
 
--  You can also decide if patrons are allowed to place item specific
+-  Under 'OPAC item level hold' you can decide if patrons are allowed to place item specific
    holds on the item type in question. The options are:
 
    -  Allow: Will allow patrons the option to choose next available or
