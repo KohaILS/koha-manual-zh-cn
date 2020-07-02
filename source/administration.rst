@@ -1600,7 +1600,7 @@ these limits for.
 |image171|
 
 Transfer limits are set based on the collections codes you have applied
-via the :ref:`Authorized value <authorized-values-label>` administration area.
+via the :ref:`Authorized values <authorized-values-label>` administration area.
 
 |image172|
 
@@ -1608,13 +1608,13 @@ Collection codes will appear as tabs above the checkboxes:
 
 |image173|
 
-Check the boxes for the libraries that you accept checkins from for the
-item type you have selected at the top (in the example below - FIC)
+Check the boxes for the libraries you allow your items to be transferred to for the
+collection code you have selected at the top (in the example below - FIC)
 
 |image174|
 
-In the above example, Centerville library will allow patrons to return
-items from all libraries except Liberty and Franklin to their branch.
+In the above example, Centerville library will allow patrons from all libraries 
+except Liberty and Franklin to request items from their branch.
 
 .. _transport-cost-matrix-label:
 
