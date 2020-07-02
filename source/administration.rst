@@ -3230,6 +3230,8 @@ Add a Z39.50 target
       -  If this is left blank the targets will be in alphabetical
          order.
 
+   -  'Attributes' lets you define PQF attributes to be added to all queries.
+
    -  'Syntax' is the MARC flavor you use.
 
    -  'Encoding' tells the system how to read special characters.
