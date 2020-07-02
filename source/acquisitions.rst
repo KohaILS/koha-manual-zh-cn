@@ -254,10 +254,17 @@ clicking '[clear]' will clear all filters and show all suggestions.
 
 When reviewing 'Pending' suggestions you can choose to check the box
 next to the item(s) you want to approve/reject and then choose the
-status and reason for your selection. You can also choose to completely
-delete the suggestion by checking the 'Delete selected' box.
+status and reason for your selection.
 
 |image799|
+
+You can also change the item type of the suggestions by selecting them 
+and choosing the new item type in the 'Update item types with' drop down menu.
+
+|image1473|
+
+You can also choose to completely delete the selected suggestions by clicking 
+the 'Delete' button in the the 'Delete selected' box.
 
 Another option for libraries with long lists of suggestions is to
 approve or reject suggestions one by one by clicking on the title of the
