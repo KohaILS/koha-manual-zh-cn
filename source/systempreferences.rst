@@ -5962,6 +5962,26 @@ Description:
    Otherwise you could use the :ref:`cron job <cron-track-total-checkouts-label>` to have
    Koha update that field nightly.
 
+.. _usecirculationdesks-label:
+
+UseCirculationDesks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ circulation desks with circulation
+
+Default: Don't use
+
+Values:
+
+-  Don't use
+
+-  Use
+
+Description:
+
+-  This preference enables the ability to manage various circulation desks 
+   within a single library.
+
 .. _waitingnotifyatcheckin-label:
 
 WaitingNotifyAtCheckin

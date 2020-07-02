@@ -1449,3 +1449,5 @@
 .. |image1474| image:: images/acquisitions/suggestarchive.png
 .. |image1475| image:: images/admin/accounting/credittypes.png
 .. |image1476| image:: images/admin/accounting/newcredittype.png
+.. |image1477| image:: images/admin/basicparams/newdesk.png
+.. |image1478| image:: images/admin/basicparams/desks.png

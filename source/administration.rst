@@ -218,6 +218,56 @@ the 'Delete' option.
 
 |image1325|
 
+.. _circulation-desks-label:
+
+Circulation desks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Koha allows you to define several circulation desks within a single library.
+For example, if you have an adult circulation desk and a children's circulation 
+desk, or if you have a different desk for each floor or each department.
+
+Make sure to enable the :ref:`UseCirculationDesks` system preference to use this 
+fuctionality.
+
+-  *Get there:* More > Administration > Basic parameters > Desks
+
+.. _adding-circulation-desks:
+
+Adding circulation desks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To add a new circulation desk, click on the 'New desk' button at the top of the 
+page.
+
+|image1477|
+
+-  In the 'Desk' field, enter a name for your desk.
+
+-  Choose the library in which this desk is.
+
+-  Click 'Sumbit'.
+
+.. _editing-circulation-desks:
+
+Editing a circulation desk
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To edit an existing circulation desk, click on the 'Edit' button to the right 
+of the desk to modify.
+
+|image1478|
+
+From there, you can change the name and/or the library of the desk.
+
+.. _deleting-circulation-desks:
+
+Deleting a circulation desk
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To delete an existing circulation desk, click on the 'Delete' button to the 
+right of the desk to remove.
+
 .. _item-types-label:
 
 Item types
