@@ -3646,6 +3646,10 @@ top of the table
 +---------------------+-----------------------------------------+
 | Catalog             | - Acquisition details                   |
 |                     | - Checkout history                      |
+|                     | - Holdings/items                        |
+|                     | - Holdings/items from other libraries   |
+|                     |   (when :ref:`SeparateHoldings` is      |
+|                     |   enabled)                              |
 +---------------------+-----------------------------------------+
 | Cataloging          | - Z39.50 search results                 |
 |                     | - Item table above edit item form       |
