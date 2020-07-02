@@ -263,6 +263,11 @@ and choosing the new item type in the 'Update item types with' drop down menu.
 
 |image1473|
 
+You can also change the manager of the selected suggestions by clicking the 
+'Select manager' link and searching your user database. Note that only users 
+who have the 'superlibrarian' or the 'suggestions\_manage' permission will show 
+in the results. The new manager will receive the :ref:`NOTIFY\_MANAGER notice<existing-notices-and-slips-label>`.
+
 You can also choose to completely delete the selected suggestions by clicking 
 the 'Delete' button in the the 'Delete selected' box.
 

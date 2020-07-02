@@ -768,6 +768,11 @@ information in these notices. Here are some of what those notices do:
       :ref:`MembershipExpiryDaysNotice` set
       and the :ref:`related cron job <cron-notify-patrons-of-expiration-label>` set.
 
+-  NOTIFY\_MANAGER
+   
+   -  This notice is sent to a staff member when they are :ref:`assigned as manager of 
+      a suggestion <managing-purchase-suggestions-label>` in the acquisitions module.
+
 -  ODUE (Overdue notice)
 
    -  This notice is used to send overdue notices to patrons
