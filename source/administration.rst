@@ -3675,7 +3675,9 @@ top of the table
 |                     | - Stock rotation rotas                  |
 |                     | - Stock rotation items                  |
 +---------------------+-----------------------------------------+
-| OPAC                | - Holdings/items                        |
+| OPAC                | - Course reserves                       |
+|                     | - Courses                               |
+|                     | - Holdings/Items                        |
 |                     | - Serials issues on subscription tab    |
 +---------------------+-----------------------------------------+
 | Reports             | - Items lost                            |
