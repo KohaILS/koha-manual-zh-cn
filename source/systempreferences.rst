@@ -1219,12 +1219,19 @@ Description:
 .. _usagestatsgeolocation-label:
 
 UsageStatsGeolocation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Geolocation of the main library: \_\_\_ 
 
 Default: blank
 
-Asks: Geolocation of the main library: \_\_\_ Note that this value has no effect
-if the :ref:`UsageStats` systemp preference is set to "Don't share"
+Description:
+
+-  Note that this value has no effect if the :ref:`UsageStats` system 
+   preference is set to 'Don't share'.
+
+-  The information in this system preference is populated by the geolocation 
+   information on the :ref:`usage statistics administration page<share-your-usage-statistics-label>`.
 
 .. _usagestatslibrariesinfo-label:
 
@@ -8489,7 +8496,33 @@ Logs can then be viewed in the :ref:`Log Viewer` under Tools.
 .. _debugging-label:
 
 Debugging
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _dumpsearchquerytemplate-label:
+
+DumpSearchQueryTemplate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ dump search query as a template parameter.
+
+Default: Don't
+
+Value:
+
+-  Don't
+
+-  Do
+
+Description:
+
+-  This enhancement allows you to view the search query used by Zebra or 
+   Elastic Search, to help with troubleshooting.
+
+-  Make sure to enable :ref:`DumpTemplateVarsIntranet` and/or 
+   :ref:`DumpTemplateVarsOpac` otherwise this system preference will have no 
+   effect.
+
+-  The dumped query will be in the page source under 'search_query'.
 
 .. _dumptemplatevarsintranet-label:
 

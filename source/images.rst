@@ -1448,3 +1448,4 @@
 .. |image1476| image:: images/admin/accounting/newcredittype.png
 .. |image1477| image:: images/admin/basicparams/newdesk.png
 .. |image1478| image:: images/admin/basicparams/desks.png
+.. |image1479| image:: images/admin/additional/usagestatistics.png

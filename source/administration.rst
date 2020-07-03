@@ -3848,6 +3848,52 @@ enabled.
 
     |image1217|
 
+.. _share-your-usage-statistics-label:
+
+Share your usage statistics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can share your Koha usage statistics with the Hea community. Sharing your 
+usage statistics helps with the development of Koha as the community regularly 
+checks these statistics to make decisions.
+
+Note that statistics are anonymized and no patron information is shared.
+
+Worldwide statistics can be viewed at https://hea.koha-community.org/
+
+|image1479|
+
+-  Share my Koha usage statistics:
+
+   -  The default choice is 'Undecided', this make the message appear on the 
+      administration main page.
+
+   -  Choose 'yes' if you want to share your usage statistics
+
+   -  Choose 'no' if you don't want to share your statistics and you don't want 
+      to see the message on the administration page
+
+-  Your country: choose the country where your library is located
+
+-  Library name: enter your library's name
+
+-  Library type: choose your library's type
+
+-  Library URL: enter your library's Web site URL
+
+-  Last update: here your will see the last date when your data was uploaded 
+   to the Hea website
+
+-  Geolocation: use the map on the right to put the marker where your main 
+   library is situated. The coordinates will appear in the Geolocation field.
+
+-  Libraries information: if you have more than one branch, you can choose 'yes' 
+   here to put all your branches on the map
+
+-  See your public page: this is the URL to your information on the Hea website.
+
+Click 'Update your statistics usage' to save the information.
+
 .. _share-with-mana-kb-label:
 
 Share content with Mana KB
