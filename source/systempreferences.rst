@@ -3092,6 +3092,33 @@ Description:
 -  :ref:`HoldsAutoFill` must be set to 'do' for this preference to have any
    effect.
 
+.. _storelastborrower-label:
+
+StoreLastBorrower
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the last patron to return an item.
+
+Default: Don't store
+
+Values:
+
+-  Don't store
+
+-  Store
+
+Description:
+
+-  This preference allows you to store the last patron to borrow an item
+   even if the patron has chosen to have their reading history
+   anonymized.
+
+    **Note**
+
+    This setting is independent of
+    :ref:`opacreadinghistory` and/or
+    :ref:`AnonymousPatron`.
+
 .. _updateitemlocationincheckin-label:
 
 UpdateItemLocationOnCheckin
@@ -11387,33 +11414,6 @@ past.
 
     This data is stored in the system regardless of your choice, unless
     your patrons have chosen to never have their reading history kept.
-
-.. _storelastborrower-label:
-
-StoreLastBorrower
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't store
-
-Asks: \_\_\_ the last patron to return an item.
-
-Values:
-
--  Don't store
-
--  Store
-
-Description:
-
--  This preference allows you to store the last patron to borrow an item
-   even if the patron has chosen to have their reading history
-   anonymized.
-
-    **Note**
-
-    This setting is independent of
-    :ref:`opacreadinghistory` and/or
-    :ref:`AnonymousPatron`.
 
 .. _trackclicks-label:
 
