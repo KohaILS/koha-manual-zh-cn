@@ -13314,31 +13314,6 @@ Description:
     Talk to your system administrator when changing this preference to
     make sure that your system is set up properly for this to work.
 
-.. _usequeryparser-label:
-
-UseQueryParser
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Do not try
-
-Asks: \_\_\_ to use the QueryParser module for parsing queries.
-
-    **Note**
-
-    Enabling this will have no impact if you do not have QueryParser
-    installed, and everything will continue to work as usual.
-
-Values:
-
--  Do not try
-
--  Try
-
-Description:
-
--  This preference enables an experimental new query parser which opens
-   the door for a more expressive and more-effective search syntax.
-
 .. _results-display-label:
 
 Results Display
