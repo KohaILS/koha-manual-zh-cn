@@ -3212,14 +3212,13 @@ Description:
 
 .. _allowitemsonholdcheckout-label:
 
-AllowItemsOnHoldCheckout
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AllowItemsOnHoldCheckoutSIP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ checkouts of items reserved to someone else via SIP checkout 
+messages.
 
 Default: Don't allow
-
-Asks: \_\_\_ checkouts of items reserved to someone else. If allowed do
-not generate RESERVE\_WAITING and RESERVED warning. This allows self
-checkouts for those items.
 
 Values:
 
@@ -3229,16 +3228,17 @@ Values:
 
     **Important**
 
-    This system preference relates only to SIP based self checkout, not
+    This system preference relates only to SIP-based self-checkout, not
     Koha's web based self checkout.
 
 Description:
 
 -  When this preference is set to 'Allow' patrons will be able to use
    your external self check machine to check out a book to themselves
-   even if it's on hold for someone else. If you would like Koha to
-   prevent people from checking out books that are on hold for someone
-   else set this preference to "Don't allow."
+   even if it's on hold for someone else.
+
+-  If you would like Koha to prevent people from checking out books that are 
+   on hold for someone else set this preference to 'Don't allow'.
 
 .. _allowitemsonholdcheckoutsco-label:
 
