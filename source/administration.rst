@@ -289,30 +289,24 @@ top of the Item types page.
    -  Items marked 'Not for loan' will appear in the catalog, but cannot
       be checked out to patrons
 
--  For items that you charge a rental fee for, there are several ways that rental
-   fees can be charged to a patron by item type. A flat rental charge
-   (process fee) or a daily/hourly rental charge.
+-  For items that you charge a rental fee for, there are two ways that rental
+   fees can be charged to a patron by item type.  A flat rental charge
+   (process fee) or a daily rental charge.
 
     -  For items that a library would charge a flat rental charge (process fee)
        for, enter the total fee you charge in the ‘Rental charge’ field.
        This will charge the patron on checkout (and renewal).
 
     -  For items that a rental charge will be charged by the number of days
-       the item is checked out for, enter the daily fee in the 'Daily rental
-       charge'. This will be charged to the patron upon checkout -
+       the item is checked out for, enter the daily fee in the 'Daily Rental
+       Charge'. This will be charged to the patron upon checkout -
        the cost per day and how many days this item can be checked out to the
        patron. This daily rental charge will also be applied if/when a renewal
-       occurs. 
-
-       -  Check the 'Daily rentals use calendar', to exclude holidays from 
-          the the rental fee calculation.
+       occurs.
 
     -  For items that are loaned out hourly, enter the cost per hour in 'Hourly 
        rental charge'. Again, the total (hourly cost * number of hours loaned) 
        will be charged to the patron upon checkout and renewal.
-
-       -  Check the 'Hourly rentals use calendar', to exclude holidays from 
-          the the rental fee calculation.
 
  - Each amount will charge the patron on checkout.
 
