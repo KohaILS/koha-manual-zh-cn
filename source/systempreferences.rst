@@ -6983,6 +6983,75 @@ Description:
    appear as a playable video on the pages defined in
    :ref:`HTML5MediaEnabled`.
 
+.. _idreamlibraries-label:
+
+IDreamLibraries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`IDreamBooks.com <http://idreambooks.com/>`__ aggregates book reviews by
+critics to help you discover the very best of what's coming out each
+week. These preferences let you integrated content from
+`IDreamBooks.com <http://IDreamBooks.com>`__ in to your Koha OPAC.
+
+    **Note**
+
+    This is a new website and has limited content, so you may only see
+    these features on new popular titles until the database grows some
+    more.
+
+.. _idreambooksreadometer-label:
+
+IDreamBooksReadometer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Don't add
+
+Asks: \_\_\_ a "Readometer" that summarizes the reviews gathered by
+IDreamBooks.com to the OPAC details page.
+
+Values:
+
+-  Add
+
+   |image51|
+
+-  Don't add
+
+.. _idreambooksresults-label:
+
+IDreamBooksResults
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Don't add
+
+Asks: \_\_\_ the rating from IDreamBooks.com to OPAC search results.
+
+Values:
+
+-  Add
+
+   |image52|
+
+-  Don't add
+
+.. _idreambooksreviews-label:
+
+IDreamBooksReviews
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Don't add
+
+Asks: \_\_\_ a tab on the OPAC details with book reviews from critics
+aggregated by IDreamBooks.com.
+
+Values:
+
+-  Add
+
+   |image53|
+
+-  Don't add
+
 .. _librarything-label:
 
 LibraryThing
