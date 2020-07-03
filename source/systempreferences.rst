@@ -13133,6 +13133,45 @@ Description:
 
     Requires that :ref:`UseICU` set to 'Not using'
 
+.. _queryregexescapeoptions-label:
+
+QueryRegexEscapeOptions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ regular expressions within strings.
+
+Default: Escape
+
+Values:
+
+-  Don't escape
+
+-  Escape
+
+-  Unescaped escaped
+
+  **Important**
+
+  This system preference is used with Elasticsearch only. If you use Zebra as 
+  your :ref:`SearchEngine`, it will not change anything.
+
+Description:
+
+-  If 'Escape' is selected occurences of '/'' in search terms will be 
+   automatically escaped, and regular expressions interpreted as regular 
+   strings. In other words, regular expressions are disabled and search 
+   terms are search as-is (for example, 'an essential grammar / William Z. 
+   Shetter').
+
+-  If 'Unescape escaped' is selected this will allow writing regular 
+   expressions '\/like this\/'' while '/this/', 'or/this' will be escaped 
+   and interpreted as regular strings. In other words, use this option if you 
+   want to be able to use regular expressions in your search queries.
+
+-  If 'Don't escape' is selected, the default behavior of the Elasticsearch
+   search engine will be left unaltered. Several characters will be interpreted 
+   as being part of a regular expression, such as the forward slash (/). 
+
 .. _querystemming-label:
 
 QueryStemming
