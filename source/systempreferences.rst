@@ -62,6 +62,56 @@ Accounting
 *Get there:* More > Administration > Global system preferences >
 Acquisitions
 
+.. _accounting-features-prefs-label:
+
+Features
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _enablepointofsale-label:
+
+EnablePointOfSale
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the point of sale feature to allow anonymous transactions with the 
+accounting system.
+
+Default: Disable
+
+Values:
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  This system preference controls the :ref:`point of sale module <point-of-sale-label>`.
+
+  **Important**
+
+  If you enable this system preference, make sure to enable :ref:`UseCashRegisters` 
+  as well.
+
+.. _usecashregisters-label:
+
+UseCashRegisters
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ cash registers with the accounting system to track payments.
+
+Default: Don't use
+
+Values:
+
+-  Don't use
+
+-  Use
+
+Description:
+
+-  This preference enables the :ref:`cash registers <cashregisters-label>`
+   feature in the administration module.
+
 .. _accounting-policy-label:
 
 Policy
@@ -108,26 +158,6 @@ Description:
 -  If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a
    patron's account, a printing popup will be displayed automatically instead
    of having to click on the 'print' button.
-
-.. _usecashregisters-label:
-
-UseCashRegisters
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: \_\_\_ cash registers with the accounting system to track payments.
-
-Default: Don't use
-
-Values:
-
--  Don't use
-
--  Use
-
-Description:
-
--  This preference enables the :ref:`cash registers <cashregisters-label>`
-   feature in the administration module.
 
 .. _acquisitions-system-preferences-label:
 
