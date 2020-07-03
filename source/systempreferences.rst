@@ -159,6 +159,26 @@ Description:
    patron's account, a printing popup will be displayed automatically instead
    of having to click on the 'print' button.
 
+.. _roundfinesatpayment-label:
+
+RoundFinesAtPayment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ round fines to the nearest cent when collecting payments.
+
+Default: Don't
+
+Values:
+
+-  Don't
+
+-  Do
+
+Description:
+
+-  Enabling this preference allows paying fines of partial cents which may not 
+   be visible in the interface.
+
 .. _acquisitions-system-preferences-label:
 
 Acquisitions
