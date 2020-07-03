@@ -3969,11 +3969,11 @@ Values:
 .. _overduenoticecalendar-label:
 
 OverdueNoticeCalendar
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Ignore calendar
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ when working out the period for overdue notices
+
+Default: Ignore calendar
 
 Values:
 
@@ -4269,55 +4269,67 @@ BranchTransferLimitsType Description:
 useDaysMode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't include
+Asks: \_\_\_ when calculating the date due.
 
-Asks: Calculate the due date using \_\_\_.
+Default: Use the calendar to skip days the library is closed
 
 Values:
 
--  circulation rules only.
+-  Use the calendar to skip days the library is closed
 
--  the calendar to push the due date to the next open day.
+-  Use the calendar to push the due date to the next open day
 
--  the calendar to skip all days the library is closed.
+-  Ignore the calendar
 
--  the calendar to push the due date to the next open matching weekday
+-  Use the calendar to push the due date to the next open matching weekday
    for weekly loan periods, or the next open day otherwise (Note: This preference
    setting only works with loan periods in multiples of 7).
 
 Description:
 
 -  This preference controls how scheduled library closures affect the
-   due date of a material. The 'the calendar to skip all days the
-   library is closed' setting allows for a scheduled closure not to
-   count as a day in the loan period, the 'circulation rules only'
-   setting would not consider the scheduled closure at all, and 'the
-   calendar to push the due date to the next open day' would only effect
-   the due date if the day the item is due would fall specifically on
-   the day of closure.  The final option to use 'the calendar to push
-   the due date to the next open matching weekday for weekly loan periods, or the
-   next open day otherwise' allows libraries to accommodate patrons who may
-   only be able to visit the library on a certain day of the week, such as
-   part-time students or patrons who rely on public transport.
+   due date of a material.
+
+-  The 'Use the calendar to skip all days the library is closed' setting allows 
+   for a scheduled closure not to count as a day in the loan period. 
+
+-  The 'Ignore the calendar' setting would not consider the scheduled closure 
+   at all
+
+-  The 'Use the calendar to push the due date to the next open day' would only 
+   affect the due date if the day the item is due would fall specifically on
+   the day of closure.
+
+-  The final option, 'Use the calendar to push the due date to the next open 
+   matching weekday for weekly loan periods, or the next open day otherwise' 
+   allows libraries to accommodate patrons who may only be able to visit the 
+   library on a certain day of the week, such as part-time students or patrons 
+   who rely on public transport.
 
 Example:
 
 -  The library has put December 24th and 25th in as closures on the
    calendar. A book checked out by a patron has a due date of December
-   25th according to the circulation and fine rules. If this preference
-   is set to 'circulation rules only' then the item will remain due on
-   the 25th. If the preference is set to 'the calendar to push the due
-   date to the next open day' then the due date will be December 26th.
-   If the preference is set to 'the calendar to skip all days the
-   library is closed' then the due date will be pushed to the 27th of
-   December to accommodate for the two closed days.  If the preference is set
-   to 'the calendar to push the due date to the next open matching weekday
-   for weekly loan periods, or the next open day otherwise' the item would be
-   due back on January 1st.  If January 1st was also a closed day then
-   the item would be due back on the next available open day.
+   25th according to the circulation and fine rules.
+
+   -  If this preference is set to 'Ignore the calendar' then the item will 
+      remain due on the 25th.
+
+   -  If the preference is set to 'Use the calendar to push the due date to the 
+      next open day', then the due date will be December 26th.
+
+   -  If the preference is set to 'Usethe calendar to skip all days the library 
+      is closed' then the due date will be pushed to the 27th of December to 
+      accommodate for the two closed days.
+
+   -  If the preference is set to 'Use the calendar to push the due date to the 
+      next open matching weekday for weekly loan periods, or the next open day 
+      otherwise' the item would be due back on January 1st. If January 1st was 
+      also a closed day then the item would be due back on the next available 
+      open day.
 
 The calendar is defined on a branch by branch basis. To learn more about
-the calendar, check out the :ref:`Calendar & Holidays <calendar-label>`
+the calendar, check out the :ref:`Calendar<calendar-label>`
 section of this manual.
 
 .. _usetransportcostmatrix-label:
@@ -4386,28 +4398,35 @@ Fines Policy
 .. _finescalendar-label:
 
 finesCalendar
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: not including the days the library is closed
+Asks: \_\_\_ when calculating the period for fines.
 
-Asks: Calculate fines based on days overdue \_\_\_
+Default: Use the calendar
 
 Values:
 
--  directly
+-  Ignore the calendar
 
--  not including the days the library is closed
+-  Use the calendar
 
 Description:
 
 -  This preference will determine whether or not fines will be accrued
-   during instances when the library is closed. Examples include
-   holidays, library in-service days, etc. Choosing "not including the
-   days the library is closed" setting will enable Koha to access its
-   :ref:`Calendar` module and be considerate of dates when
-   the library is closed. To make use of this setting the administrator
-   must first access Koha's calendar and mark certain days as "holidays"
-   ahead of time.
+   on days where the library is closed. Examples include holidays, library 
+   in-service days, etc. 
+
+-  If set to 'Use the calendar', Koha will skip closed days when calculating 
+   the overdue fines.
+
+-  If set to 'Ignore the calendar', fines will be calculated directly, with 
+   no consideration of closed days.
+
+  **Important**
+
+  To make use of this setting your system administrator must first access 
+  Koha's :ref:calendar<calendar-label>` and mark closed days as 'holidays'
+  ahead of time.
 
 The calendar is defined on a branch by branch basis. To learn more about
 the calendar, check out the :ref:`calendar <calendar-label>`
@@ -4934,17 +4953,30 @@ Description:
 .. _excludeholidaysfrommaxpickupdelay-label:
 
 ExcludeHolidaysFromMaxPickUpDelay
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't allow
+Asks: \_\_\_ when calculating the period for reserves max pickup delay.
 
-Asks: \_\_\_ Closed days to be taken into account in reserves max pickup delay.
+Default: Ignore the calendar
 
 Values:
 
--  Don't allow
+-  Ignore the calendar
 
--  Allow
+-  Use the calendar
+
+Description:
+
+-  This system preference determines whether or not closed days in the 
+   :ref:`calendar<calendar-label>` are taken into account when calculating the 
+   time period for patrons to pick up their holds (see 
+   :ref:`ReservesMaxPickUpDelay`).
+
+-  If set to 'Ignore the calendar', the pickup delay will be calculated 
+   directly.
+
+-  If set to 'Use the calendar', holidays will be excluded from the pickup 
+   delay.
 
 .. _expirereservesmaxpickupdelay-label:
 
@@ -13497,11 +13529,48 @@ Description:
 .. _numsearchresults-label:
 
 numSearchResults
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: By default, show \_\_\_ results per page in the staff client.
 
 Default: 20
 
-Asks: By default, show \_\_\_ results per page in the staff client.
+Description: 
+
+-  This system preference allows you to choose the default number of results 
+   per page in search results in the staff interface.
+
+-  If you want users to be able to change that number, enable the 
+   :ref:`numSearchResultsDropdown` system preference.
+
+-  Use :ref:`OPACnumSearchResults` to define the default number of results per 
+   page in the OPAC.
+
+.. _numsearchresultsdropdown-label:
+
+numSearchResultsDropdown
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ results per page dropdown on staff client search results.
+
+Default: Don't show
+
+Values:
+
+-  Don't show
+
+-  Show
+
+Description:
+
+-  If set to 'Show' this system preference will make a drop down menu appear in 
+   the search results allowing the user to choose how many results they want to 
+   see per page.
+
+-  Use :ref:`numSearchResults` to determine what is the default value.
+
+-  Use :ref:`OPACnumSearchResultsDropdown` to define if the dropdown appears in 
+   the OPAC.
 
 .. _opacdefaultsortfield-and-opacdefaultsortorder-label:
 
@@ -13575,11 +13644,48 @@ Description:
 .. _opacnumsearchresults-label:
 
 OPACnumSearchResults
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: By default, show \_\_\_ results per page in the OPAC.
 
 Default: 20
 
-Asks: By default, show \_\_\_ results per page in the OPAC.
+Description: 
+
+-  This system preference allows you to choose the default number of results 
+   per page in search results in the OPAC.
+
+-  If you want users to be able to change that number, enable the 
+   :ref:`OPACnumSearchResultsDropdown` system preference.  
+
+-  Use :ref:`numSearchResults` to define the default number of results per 
+   page in the staff interface.
+
+.. _opacnumsearchresultsdropdown-label:
+
+OPACnumSearchResultsDropdown
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ results per page dropdown on OPAC search results.
+
+Default: Don't show
+
+Values:
+
+-  Don't show
+
+-  Show
+
+Description:
+
+-  If set to 'Show' this system preference will make a drop down menu appear in 
+   the search results allowing the user to choose how many results they want to 
+   see per page.
+
+-  Use :ref:`OPACnumSearchResults` to determine what is the default value.
+
+-  Use :ref:`numSearchResultsDropdown` to define if the dropdown appears in 
+   the staff interface.
 
 .. _searchwithisbnvariations-label:
 
