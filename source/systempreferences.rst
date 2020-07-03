@@ -12943,6 +12943,41 @@ Searching
 *Get there:* More > Administration > Global System Preferences >
 Searching
 
+.. _didyoumean-spellchecking-prefs-label:
+
+Did you mean / Spell checking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _libriskey-label:
+
+LibrisKey
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Swedish service for spellchecking. LIBRIS spellchecking API key \_\_\_ 
+
+Description:
+
+-  Use this system preference to enable the LIBRIS spellchecking service.
+
+-  You can obtain you API key at http://api.libris.kb.se/bibspell
+
+.. _librisurl-label:
+
+LibrisURL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: LIBRIS base URL \_\_\_
+
+Default: http://api.libris.kb.se/bibspell/
+
+Description:
+
+-  This system preference is used to set the base URL for the LIBRIS 
+   spellchecking service API
+
+-  The default value should be the right one. Make sure you only change it if 
+   you are sure it needs to be changed
+
 .. _searchingfeatures-label:
 
 Features
