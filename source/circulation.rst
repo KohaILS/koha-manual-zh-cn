@@ -1415,9 +1415,9 @@ The link will then appear at the bottom of the log in page:
 You can also access this module by going to:
 http://YOUR\_KOHA\_OPAC\_URL/cgi-bin/koha/sco/sco-main.pl
 
-When on the self checkout page depending on your value in the
+When on the self checkout page, depending on the value in your
 :ref:`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference
-you will be asked to enter you cardnumber
+you will be asked to enter your cardnumber
 
 |image592|
 
