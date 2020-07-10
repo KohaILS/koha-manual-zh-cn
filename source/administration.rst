@@ -1550,16 +1550,16 @@ type' button at the top of the page
 
           This setting cannot be changed after an attribute is defined
 
--  Check 'Allow password' to make it possible to associate a password
-   with this attribute.
-
 -  Check 'Display in OPAC' to display this attribute on a patron's
    details page in the OPAC.
+
+-  Check 'Editable in OPAC' to enable patrons to edit this information in 
+   the OPAC.
 
 -  Check 'Searchable' to make this attribute searchable in the staff
    patron search.
 
--  Check 'Display in check-out' to make this attribute visible in the
+-  Check 'Display in patron's brief information' to make this attribute visible in the
    patron's short detail display on the left of the checkout screen and
    other patron pages
 
