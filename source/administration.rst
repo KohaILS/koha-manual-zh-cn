@@ -808,6 +808,19 @@ add a value:
 
    |image147|
 
+.. _delete-authorized-values-label:
+
+Deleting authorized values
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To delete an authorized value, click on the 'Delete' button at the right of the 
+authorized value.
+
+Once there are no authorized values left in an authorized value category, you 
+can delete the category.
+
+|image1480|
+
 .. _patrons-and-circulation-label:
 
 Patrons and circulation

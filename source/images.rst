@@ -1449,3 +1449,4 @@
 .. |image1477| image:: images/admin/basicparams/newdesk.png
 .. |image1478| image:: images/admin/basicparams/desks.png
 .. |image1479| image:: images/admin/additional/usagestatistics.png
+.. |image1480| image:: images/admin/basicparams/deleteauthvaluecategory.png
