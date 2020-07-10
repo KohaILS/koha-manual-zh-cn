@@ -2988,12 +2988,12 @@ Description:
 .. _calculatefinesonreturn-label:
 
 CalculateFinesOnReturn
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Do
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ calculate and update overdue charges when an item is
 returned.
+
+Default: Do
 
 Values:
 
@@ -3015,6 +3015,11 @@ Description:
     **Important**
 
     If you are doing hourly loans then you should have this set to 'Do'.
+
+    **Important**
+
+    The :ref:`finesMode` system preference must be set to 'Calculate and charge' 
+    in order for this system preference to have any effect.
 
 .. _cumulativerestrictionperiods-label:
 
@@ -4544,24 +4549,27 @@ Description:
 .. _finesmode-label:
 
 finesMode
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Calculate (but only for mailing to the admin)
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Asks: \_\_\_ fines
+
+Default: Don't calculate
 
 Values:
 
--  Calculate (but only for mailing to the admin)
+-  Don't calculate
 
 -  Calculate and charge
 
--  Don't calculate
-
     **Important**
 
-    Requires that you have the fines cron job running
-    (misc/cronjobs/fines.pl)
+    If this system preference is set to 'Calculate and charge', you must either 
+    add the :ref:`fines cron job <cron-fines-label>` to your crontab, or enable 
+    :ref:`CalculateFinesOnReturn`
+
+    If the cronjobs/fines.pl cronjob is being run, accruing and final fines will 
+    be calculated when the cron runs and accruing fines will be finalized when 
+    an item is returned. If CalculateFinesOnReturn is enabled, final fines will 
+    be calculated when an item is returned.     
 
 .. _holdfeemode-label:
 
