@@ -14997,6 +14997,22 @@ Web services
 *Get there:* More > Administration > Global system preferences > Web
 services
 
+.. _webservices-general-system-preferences-label:
+
+General
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _accesscontrolalloworigin-label:
+
+AccessControlAllowOrigin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Set the Access-Control-Allow-Origin header to \_\_\_
+
+Description:
+
+-  This is the header used for OPAC reports SVC routes.
+
 .. _webservices-ils-di-system-preferences-label:
 
 ILS-DI
