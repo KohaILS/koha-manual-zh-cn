@@ -5976,18 +5976,28 @@ Description:
 .. _previousissuesdefaultsortorder-label:
 
 previousIssuesDefaultSortOrder
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: earliest to latest
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Sort previous checkouts on the circulation page from \_\_\_ due
 date.
+
+Default: earliest to latest
 
 Values:
 
 -  earliest to latest
 
 -  latest to earliest
+
+Description:
+
+-  This system preference controls how you want the previous checkouts to appear 
+   in the patron's :ref:`Checkout tab. <checking-items-out-label>`
+
+-  If you choose 'earliest to latest', the oldest checkout will be at the top.
+
+-  If you choose 'latest to earliest', the most recent checkout will be at the 
+   top.
 
 .. _recordlocaluseonreturn-label:
 
@@ -6095,18 +6105,28 @@ Description:
 .. _todaysissuesdefaultsortorder-label:
 
 todaysIssuesDefaultSortOrder
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: latest to earliest
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Sort today's checkouts on the circulation page from \_\_\_ due
 date.
+
+Default: latest to earliest
 
 Values:
 
 -  earliest to latest
 
 -  latest to earliest
+
+Description:
+
+-  This system preference controls how you want today's checkouts to appear 
+   in the patron's :ref:`Checkout tab. <checking-items-out-label>`
+
+-  If you choose 'earliest to latest', the oldest checkout will be at the top.
+
+-  If you choose 'latest to earliest', the most recent checkout will be at the 
+   top.
 
 .. _updatetotalissuesoncirc-label:
 
