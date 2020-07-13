@@ -15522,30 +15522,59 @@ Description:
 .. _rest-api-prefs-label:
 
 REST API
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _restbasicauth-label:
+
+RESTBasicAuth
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ Basic authentication for the REST API.
+
+Default: Disable
+
+Values:
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  If enabled, Basic authentication is enabled for the REST API.
 
 .. _restdefaultpagesize-label:
 
 RESTdefaultPageSize
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: 20
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Set the default number of results returned by the REST API endpoints
 to \_\_\_ per page.
 
+Default: 20
+
 Description:
 
--  This preference lets you choose the number of results per page you want
+-  This preference lets you choose the number of endpoint results per page
 
 .. _restoauth2clientcredentials-label:
 
 RESTOAuth2ClientCredentials
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the OAuth2 client credentials grant for the REST API.
 
 Default: Disable
 
-Asks: \_\_\_ the OAuth2 client credentials grant for the REST API.
+Values:
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  If enabled, the OAuth2 client credentials flow is enabled for the REST API.
 
     **Note**
 
@@ -15554,6 +15583,46 @@ Asks: \_\_\_ the OAuth2 client credentials grant for the REST API.
     **Important**
 
     This system preference is experimental.
+
+.. _restpublicanonymousrequests-label:
+
+RESTPublicAnonymousRequests
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ anonymous access to public routes (that don't require 
+authenticated access)
+
+Default: Enable
+
+Values:
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  If enabled, the API will allow anonymous access to public routes that don't 
+   require authenticated access.
+
+.. _restpublicapi-label:
+
+RESTPublicAPI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the \/public namespace of the API.
+
+Default: Enable
+
+Values: 
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  If enabled, the REST API will expose the \/public endpoints.
 
 .. _reporting-label:
 
