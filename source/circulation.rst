@@ -73,6 +73,12 @@ see the list of checkouts below the check out box.
 
 |image486|
 
+     **Note**
+
+     The :ref:`previousIssuesDefaultSortOrder` system preference controls 
+     in which order these previous checkouts appear (earliest to latest, 
+     or latest to earliest).
+
 At the top of the Check out screen is a box for you to type or scan the
 item's barcode into.
 
@@ -138,6 +144,12 @@ If you checked out an item for on site use you will see that highlighted
 in red in the checkout summary.
 
 |image488|
+
+     **Note**
+
+     The :ref:`todaysIssuesDefaultSortOrder` system preference controls in 
+     which order these new checkouts appear (earliest to latest, or latest 
+     to earliest).
 
 If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__
 preference, you will also see the option to export the patron's current
