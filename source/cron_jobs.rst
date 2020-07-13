@@ -406,36 +406,6 @@ expired before, last seen, category code, or library branch.
      -  -v|--verbose
         Verbose mode.
 
-.. _cron-unverified-registrations-label:
-
-Unverified registrations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Script path: misc/cronjobs/delete\_expired\_opac\_registrations.pl
-
-Does: deletes patron registrations that were submitted via the OPAC but
-not reviewed by the library within the number of days entered in the
-:ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay`
-preference.
-
-Frequency suggestion: nightly
-
-.. _cron-unconfirmed-registrations-label:
-
-Unconfirmed registrations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Script path: misc/cronjobs/delete\_unverified\_opac\_registrations.pl
-
-Does: deletes patron self registrations that were submitted via the OPAC
-but not confirmed via email within 24 hours. This is only necessary if
-you are requiring patrons to confirm their registrations via email with
-the
-:ref:`PatronSelfRegistrationVerifyByEmail`
-preference.
-
-Frequency suggestion: hourly
-
 .. _cron-anonymize-patron-data-label:
 
 Anonymize patron data
