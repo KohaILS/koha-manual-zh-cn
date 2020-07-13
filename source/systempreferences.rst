@@ -6314,218 +6314,8 @@ Description:
 
 -  Enter a number if a library would like to set a limit to the number of returns claims that the patron can have before showing a warning on the patron's screen.
 
-.. _self-checkout-system-preferences-label:
-
-Self Checkout
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. _allowselfcheckreturns-label:
-
-AllowSelfCheckReturns
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't allow
-
-Asks: \_\_\_ patrons to return items through web-based self checkout
-system.
-
-Values:
-
--  Allow
-
--  Don't allow
-
-Description:
-
--  This preference is used to determine if you want patrons to be
-   allowed to return items through your self check machines. By default
-   Koha's self check interface is simply for checking items out.
-
-.. _autoselfcheck-preferences-label:
-
-AutoSelfCheckAllowed, AutoSelfCheckID and AutoSelfCheckPass
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-    **Important**
-
-    Most libraries will want to leave this set to 'Don't allow.^ This
-    preference turns off the requirement to log into the self checkout
-    machine with a staff username and password by storing the username
-    and password for automatic login.
-
-AutoSelfCheckAllowed Default: Don't allow
-
-Asks: \_\_\_ the web-based self checkout system to automatically login
-with this staff login \_\_\_ and this password \_\_\_ .
-
-AutoSelfCheckAllowed Values:
-
--  Allow
-
--  Don't allow
-
-AutoSelfCheckID Value:
-
--  The username of a staff patron with 'circulate'
-   :ref:`permissions <patron-permissions-label>`.
-
-AutoSelfCheckPass Value:
-
--  The password of a staff patron with 'circulate'
-   :ref:`permissions <patron-permissions-label>`.
-
-.. _scomainuserblock-label:
-
-SCOMainUserBlock
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Include the following HTML on the web-based self checkout screen:
-
-Description:
-
--  The HTML entered in this preference will be used on the self chekcout screen.
-
-.. _scousercss-label:
-
-SCOUserCSS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Include the following CSS on all pages in the web-based self
-checkout
-
-Description:
-
--  The CSS entered in this preference will be used on all of your Koha
-   self checkout screens.
-
-.. _scouserjs-label:
-
-SCOUserJS
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Include the following JavaScript on all pages in the web-based
-self checkout
-
-Description:
-
--  The JavaScript entered in this preference will effect all of your
-   Koha self checkout screens.
-
-.. _selfcheckhelpmessage-label:
-
-SelfCheckHelpMessage
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Include the following HTML in the Help page of the web-based self
-checkout system
-
-Description:
-
--  Clicking the 'Help' link in the top right of the self checkout
-   interface opens up a three step process for using the self check
-   interface. Adding HTML to this system preference will print that
-   additional help text above what's already included.
-
-.. _selfcheckoutbylogin-label:
-
-SelfCheckoutByLogin
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Cardnumber
-
-Asks: Have patrons login into the web-based self checkout system with
-their \_\_\_
-
-Values:
-
--  Cardnumber
-
-   |image44|
-
--  Username and password
-
-   |image45|
-
-Description:
-
--  This preference lets you decide how your patrons will log in to the
-   self checkout machine. Barcode is the patron's card number and their
-   username and password is set using the opac/staff username and
-   password fields on the patron record.
-
-.. _selfcheckreceiptprompt-label:
-
-SelfCheckReceiptPrompt
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Show
-
-Asks: \_\_\_ the print receipt popup dialog when self checkout is
-finished.
-
-Values:
-
--  Don't show
-
--  Show
-
-Description:
-
--  This preference controls whether a prompt shows up on the web based
-   self check out when the patron clicks the 'Finish' button.
-
-.. _selfchecktimeout-label:
-
-SelfCheckTimeout
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: 120
-
-Asks: Time out the current patron's web-based self checkout system login
-after \_\_\_ seconds.
-
-Description:
-
--  After the machine is idle for the time entered in this preference the
-   self check out system will log out the current patron and return to
-   the starting screen.
-
-.. _showpatronimageinwebbasedselfcheck-label:
-
-ShowPatronImageInWebBasedSelfCheck
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't show
-
-Asks: \_\_\_ the patron's picture (if one has been added) when they use
-the web-based self checkout.
-
-Values:
-
--  Don't show
-
--  Show
-
-.. _webbasedselfcheck-label:
-
-WebBasedSelfCheck
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't enable
-
-Asks: \_\_\_ the web-based self checkout system.
-
-Values:
-
--  Don't enable
-
--  Enable
-
-Enabling this preference will allow access to the :ref:`self
-checkout <self-checkout-label>` module in Koha.
-
-Self Checkin
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Self check-in module (sci-main.pl)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _selfcheckinmainuserblock-label:
 
@@ -6598,6 +6388,243 @@ Description:
 
 -  The JavaScript entered here will override any other JavaScript on
    the self check-in screens
+
+.. _self-checkout-system-preferences-label:
+
+Self check-out module (sco-main.pl)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _scouserjs-label:
+
+SCOUserJS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Include the following JavaScript on all pages in the web-based self 
+checkout:
+
+Description:
+
+-  The JavaScript entered in this preference will affect all of your
+   Koha self check-out screens.
+
+.. _scomainuserblock-label:
+
+SCOMainUserBlock
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Include the following HTML on the web-based self checkout screen:
+
+Description:
+
+-  The HTML entered in this preference will be used on the main self check-out 
+   screen.
+
+.. _scousercss-label:
+
+SCOUserCSS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Include the following CSS on all pages in the web-based self checkout:
+
+Description:
+
+-  The CSS entered in this preference will be used on all of your Koha self 
+   check-out screens.
+
+.. _showpatronimageinwebbasedselfcheck-label:
+
+ShowPatronImageInWebBasedSelfCheck
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the patron's picture (if one has been added) when they use the 
+web-based self check-out.
+
+Default: Don't show
+
+Values:
+
+-  Don't show
+
+-  Show
+
+Description:
+
+-  If this system preference is set to 'Show', the patron will see their own 
+   picture when logging into the web-based self check-out module.
+
+.. _webbasedselfcheck-label:
+
+WebBasedSelfCheck
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the web-based self checkout system.
+
+Default: Don't enable
+
+Values:
+
+-  Don't enable
+
+-  Enable
+
+Description:
+
+-  Enabling this preference will allow access to the :ref:`self check-out 
+   <self-checkout-label>` module in Koha.
+
+-  Your self check-out module is available at: https://YOUR.OPAC.URL/cgi-bin/koha/
+   sco/sco-main.pl
+
+.. _selfcheckoutbylogin-label:
+
+SelfCheckoutByLogin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Have patrons login into the web-based self checkout system with
+their \_\_\_
+
+Default: Cardnumber
+
+Values:
+
+-  Cardnumber
+
+   |image44|
+
+-  Username and password
+
+   |image45|
+
+Description:
+
+-  This preference lets you decide how your patrons will log in to the
+   self checkout machine. Either the patron's card number (barcode) or their
+   username and password set using the opac/staff username and
+   password fields on the :ref:`patron record <add-a-new-patron-label>`.
+
+.. _selfchecktimeout-label:
+
+SelfCheckTimeout
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Time out the current patron's web-based self checkout system login
+after \_\_\_ seconds.
+
+Default: 120
+
+Description:
+
+-  After the machine is idle for the time entered in this preference the
+   self check out system will log out the current patron and return to
+   the starting screen.
+
+.. _scoallowcheckin-label:
+
+SCOAllowCheckin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ patrons to return items through web-based self checkout
+system.
+
+Default: Don't allow
+
+Values:
+
+-  Allow
+
+-  Don't allow
+
+Description:
+
+-  This preference is used to determine if you want patrons to be
+   allowed to return items through your self check machines. By default
+   Koha's self check-out interface is simply for checking items out.
+
+.. _selfcheckhelpmessage-label:
+
+SelfCheckHelpMessage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Include the following HTML in the Help page of the web-based self
+checkout system:
+
+Description:
+
+-  Clicking the 'Help' link in the top right of the self check-out
+   interface opens up a three step process for using the self check-out
+   module. Adding HTML to this system preference will show that
+   additional help text above what's already included.
+
+.. _autoselfcheck-preferences-label:
+
+AutoSelfCheckAllowed, AutoSelfCheckID and AutoSelfCheckPass
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    **Important**
+
+    Most libraries will want to leave this set to 'Don't allow'. This
+    preference turns off the requirement to log into the self checkout
+    machine with a staff username and password by storing the username
+    and password for automatic login.
+
+Asks: \_\_\_ the web-based self checkout system to automatically login
+with this staff login \_\_\_ and this password \_\_\_ .
+
+AutoSelfCheckAllowed default: Don't allow
+
+AutoSelfCheckAllowed values:
+
+-  Allow
+
+-  Don't allow
+
+AutoSelfCheckID value:
+
+-  The username of a staff patron with the 'self\_checkout\_module'
+   :ref:`permission <patron-permissions-defined-label>`.
+
+AutoSelfCheckPass value:
+
+-  The password of a staff patron with the 'self\_checkout\_module'
+   :ref:`permission <patron-permissions-defined-label>`.
+
+.. _selfcheckreceiptprompt-label:
+
+SelfCheckReceiptPrompt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the print receipt popup dialog when self checkout is finished.
+
+Default: Show
+
+Values:
+
+-  Don't show
+
+-  Show
+
+Description:
+
+-  This preference controls whether a prompt shows up on the web based
+   self check-out when the patron clicks the 'Finish' button.
+
+.. _selfcheckallowbyipranges-label:
+
+SelfCheckAllowByIPRanges
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_
+
+Description:
+
+-  This system preference is used to limit access to the self check-out module 
+   by IP ranges.
+
+-  Use ranges or simple IP addresses separated by spaces, like 
+   '192.168.1.1 192.168.0.0/24'.
+
+-  If you do not want to limit access by IP range, leave this system preference 
+   blank.
 
 .. _stock-rotation-system-preferences-label:
 
