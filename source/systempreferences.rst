@@ -8617,6 +8617,27 @@ Value:
 Logging
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _authfailurelog-label:
+
+AuthFailureLog
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ authentication failures
+
+Default: Don't log
+
+Values:
+
+-  Don't log
+
+-  Log
+
+Description:
+
+-  This system preference control whether or not Koha should log when a patron 
+   fails to successfully authenticate on the OPAC (or a staff member in the 
+   staff interface).
+
 .. _authoritieslog-label:
 
 AuthoritiesLog
