@@ -2944,17 +2944,17 @@ patron categories separated with a pipe ^\|^)
 
 .. _checkin-policy-label:
 
-Checkin Policy
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Checkin policy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _blockreturnoflostitems-label:
 
 BlockReturnOfLostItems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't block
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ returning of items that have been lost.
+
+Default: Don't block
 
 Values:
 
@@ -2970,11 +2970,11 @@ Description:
 .. _blockreturnofwithdrawnitems-label:
 
 BlockReturnOfWithdrawnItems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Block
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ returning of items that have been withdrawn.
+
+Default: Block
 
 Values:
 
@@ -3048,11 +3048,11 @@ Description:
 .. _cumulativerestrictionperiods-label:
 
 CumulativeRestrictionPeriods
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't cumulate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ the restriction periods.
+
+Default: Don't cumulate
 
 Values:
 
@@ -3060,15 +3060,28 @@ Values:
 
 -  Cumulate
 
+Description:
+
+-  This system preference controls whether or not restriction periods should be 
+   served concurrently or consecutively.
+
+-  If set to 'Don't cumulate', the patron will be restricted only for the 
+   longest period. (For example, if a patron has a restriction of 10 days and
+   another restriction of 15 days, they will be restricted for 15 days.)
+
+-  If set to 'Cumulate', the patron will be restricted for the sum of all the 
+   restriction period. (For example, if a patron has a restriction of 10 days 
+   and another restriction of 15 days, they will be restricted for 25 days.)
+
 .. _hidepersonalpatrondetailoncirculation-label:
 
 HidePersonalPatronDetailOnCirculation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ hide patrons phone number, email address, street address
 and city in the circulation page
+
+Default: Don't
 
 Values:
 
@@ -3088,11 +3101,11 @@ Description:
 .. _holdsautofill-label:
 
 HoldsAutoFill
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ automatically fill holds instead of asking the librarian.
+
+Default: Don't
 
 Values:
 
@@ -3108,11 +3121,11 @@ Description:
 .. _holdsautofillprintslip-label:
 
 HoldsAutoFillPrintSlip
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ automatically display the holds slip dialog for auto-filled holds.
+
+Default: Don't
 
 Values:
 
@@ -3127,6 +3140,21 @@ Description:
 
 -  :ref:`HoldsAutoFill` must be set to 'do' for this preference to have any
    effect.
+
+.. _skipholdtraponnotforloanvalue-label:
+
+SkipHoldTrapOnNotForLoanValue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Never trap items with 'not for loan' values of \_\_\_ to fill holds.
+
+Description:
+
+-  This system preference is used to completely exclude items with 'not for loan' 
+   values from filling holds.
+
+-  Enter :ref:`NOT\_LOAN authorized values <existing-values-label>` separated 
+   by pipes (\|).
 
 .. _storelastborrower-label:
 
@@ -3155,10 +3183,54 @@ Description:
     :ref:`opacreadinghistory` and/or
     :ref:`AnonymousPatron`.
 
+.. _transfersblockcirc-label:
+
+TransfersBlockCirc
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ staff from continuing to checkin items when a transfer is 
+triggered.
+
+Default: Block
+
+Values:
+
+-  Don't block
+
+-  Block
+
+Description:
+
+-  This system preference controls whether or not the transfer pop-up blocks
+   further checkins.
+
+.. _trapholdsonorder-label:
+
+TrapHoldsOnOrder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ items that are not for loan but holdable (notforlan < 0) to fill 
+holds.
+
+Default: Trap
+
+Values:
+
+-  Don't trap
+
+-  Trap
+
+Description: 
+
+-  This system preference controls whether or not items that have a 
+   :ref:`NOT_LOAN authorized value <existing-values-label>` smaller than 0 
+   (which means that the item can be put on hold, but not checked out), should 
+   be used to fill holds.
+
 .. _updateitemlocationincheckin-label:
 
 UpdateItemLocationOnCheckin
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: This is a list of value pairs. The first value is followed immediately
 by colon, space, then the second value.
@@ -3206,13 +3278,33 @@ Description:
 .. _updatenotforloanstatusoncheckin-label:
 
 UpdateNotForLoanStatusOnCheckin
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: This is a list of value pairs. When an item is checked in, if the
 not for loan value on the left matches the items not for loan value it
-will be updated to the right-hand value. E.g. ^-1: 0' will cause an item
-that was set to 'Ordered' to now be available for loan. Each pair of
-values should be on a separate line.
+will be updated to the right-hand value.
+
+Description:
+
+-  This system preference affects the item's 'not for loan' status
+   when the item is checked in (whether it was checked out or not).
+
+-  If the status value on the left of the colon (:) matches
+   the item's current status, it will be updated to match the status value
+   on the right of the colon (:).
+
+-  The values are the NOT\_LOAN :ref:`authorised values <existing-values-label>`.
+
+-  For example, '-1: 0' will cause an item that was set to 'Ordered' to now be 
+   available for loan
+
+  **Important**
+
+  -  Make sure there is NO space between the first value and the colon
+
+  -  Make sure there IS a space between the colon and the second value
+
+  -  Make sure each pair is on its own line
 
 .. _checkout-policy-label:
 
