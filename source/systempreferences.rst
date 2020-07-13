@@ -11167,6 +11167,21 @@ Asks: Limit patrons to \_\_\_ open suggestions. Leave empty for no limit.
 
     This setting does not affect anonymous suggestions.
 
+.. _maxtotalsuggestions-numberofsuggestionsdays-label:
+
+MaxTotalSuggestions and NumberOfSuggestionDays
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Number of total suggestions allowed \_\_\_ in \_\_\_ days.
+
+Description:
+
+-  This system preference is used to limit the number of suggestions a patron 
+   can make in a certain number of days.
+
+-  For example, if you want to limit patrons to 10 suggestions per week, enter 
+   10 and 7.
+
 .. _opacallowpubliclistcreation-label:
 
 OpacAllowPublicListCreation
