@@ -316,11 +316,14 @@ top of the Item types page.
 
    -  **Important**
 
-          To have your item type images appear in the OPAC you need to
-          set :ref:`noItemTypeImages` to 'Show'
+      If this option is not enabled, you can change the setting of the 
+      :ref:`noItemTypeImages` or :ref:`OPACNoItemTypeImages`.
+
+      To have your item type images appear in the OPAC you need to
+      set :ref:`OPACnoItemTypeImages` to 'Yes'
 
       -  *Get there:* More > Administration > Global system preferences
-         > :ref:`Administration <administration-system-preferences-label>`
+         > :ref:`OPAC <opac-system-preferences-label>`
 
 -  For items that you are suppressing from the OPAC you can hide their
    item type from being searched in the OPAC

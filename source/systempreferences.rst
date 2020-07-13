@@ -861,26 +861,28 @@ Description:
 .. _noitemtypeimages-label:
 
 noItemTypeImages
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Show
+Asks: Show itemtype icons in the staff interface: \_\_\_
 
-Asks: \_\_\_ itemtype icons in the catalog.
+Default: Yes
 
 Values:
 
--  Shows
+-  Yes
 
--  Don't show
+-  No
 
 Description:
 
--  This preference allows the system administrator to determine if users
-   will be able to set and see an item type icon in
-   the catalog on both the OPAC and the Staff Client. The images will
-   display in both the OPAC and the Staff Client/Intranet. If images of
-   item types are disabled, text labels for item types will still appear
-   in the OPAC and Staff Client.
+-  This preference allows the system administrator to determine if users will 
+   be able to set and see an item type icon in the catalog in the staff interface. 
+
+-  If images of item types are disabled, text labels for item types will still 
+   appear in the staff interface.
+
+-  The :ref:`OpacNoItemTypeImages` system preference is used to show or hide the 
+   itemtype images in the OPAC.
 
 .. _replytodefault-label:
 
@@ -9708,6 +9710,32 @@ Description:
    OpacNavBottom will just appear right below :ref:`OpacNav`.
 
 |image80|
+
+.. _opacnoitemtypeimages-label:
+
+OpacNoItemTypeImages
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Show itemtype icons in the OPAC: \_\_\_
+
+Default: Yes
+
+Values:
+
+-  Yes
+
+-  No
+
+Description: 
+
+-  This preference allows the system administrator to determine if users will 
+   be able to set and see an item type icon in the catalog in the staff interface. 
+
+-  If images of item types are disabled, text labels for item types will still 
+   appear in the staff interface.
+
+-  The :ref:`noItemTypeImages` system preference is used to show or hide the 
+   itemtype images in the staff interface.
 
 .. _opacnoresultsfound-label:
 
