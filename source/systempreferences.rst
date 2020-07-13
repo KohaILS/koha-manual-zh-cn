@@ -2987,6 +2987,28 @@ Description:
 -  This preference controls whether and item with a withdrawn status
    (952$0 in MARC21) can be checked in or not.
 
+.. _calculatefinesonbackdate-label:
+
+CalculateFinesOnBackdate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ calculate and update overdue charges when an item is returned with 
+a backdated return date.
+
+Default: Do
+
+Values:
+
+-  Do
+
+-  Don't
+
+Description:
+
+-  This system preference is similar to :ref:`CalculateFinesOnReturn` but is 
+   used when checkins are backdated either through the book drop mode or the 
+   specified return date (see :ref:`SpecifyReturnDate`).
+
 .. _calculatefinesonreturn-label:
 
 CalculateFinesOnReturn
