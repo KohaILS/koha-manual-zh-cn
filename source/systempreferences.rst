@@ -4141,6 +4141,58 @@ Asks: Include up to \_\_\_ item lines in a printed overdue notice.
     This preference only refers to the print notices, not those sent via
     email.
 
+.. _renewaccruingiteminopac-label:
+
+RenewAccruingItemInOpac
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: If a patron pays off all fines on an overdue item that is accruing fines 
+in the OPAC via a payment plugin, \_\_\_ the item automatically.
+
+Default: Don't renew
+
+Values:
+
+-  Don't renew
+
+-  Renew
+
+Description:
+
+-  This system preference allows you to control whether or not overdue items 
+   are renewed if the patron pays the fine online.
+
+     **Note**
+
+     If the :ref:`RenewalPeriodBase` system preference is set to 'due date', 
+     renewed items may still be overdue even after renewal.
+
+.. _renewaccruingitemwhenpaid-label:
+
+RenewAccruingItemWhenPaid
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: If a patron pays off all fines on an overdue item that is accruing fines 
+\_\_\_  the item automatically.
+
+Default: Don't renew
+
+Values:
+
+-  Don't renew
+
+-  Renew
+
+Description:
+
+-  This system preference allows you to control whether or not overdue items 
+   are renewed if the fine is paid in the staff interface.
+
+     **Note**
+
+     If the :ref:`RenewalPeriodBase` system preference is set to 'due date', 
+     renewed items may still be overdue even after renewal.
+
 .. _renewalperiodbase-label:
 
 RenewalPeriodBase
