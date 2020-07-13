@@ -11791,22 +11791,23 @@ Values:
 .. _patronselfregistrationexpiretemporaryaccountsdelay-label:
 
 PatronSelfRegistrationExpireTemporaryAccountsDelay
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Delete patrons still in the category indicated by 
+:ref:`PatronSelfRegistrationDefaultCategory` \_\_\_ days after account creation.
 
 Default: 0
 
-Asks: Delete patrons registered via the OPAC, but not yet verified after
-\_\_\_ days.
-
 Description:
 
--  This preference links to the :ref:`delete\_expired\_opac\_registrations.pl
-   cron job <cron-unverified-registrations-label>`. If that cron is set to
-   run nightly it will clean up any registrations that have not been
-   verified via email in the number of days entered on this preference.
-   This is dependent on
-   :ref:`PatronSelfRegistrationVerifyByEmail`
-   preference.
+-  This preference links to the 
+   :ref:`cleanup\_database cron job <cron-clean-up-database-label>`. If that 
+   cron is set to run nightly with the --del-exp-selfreg parameter, it will clean 
+   up any registrations that have not been verified via email in the number of 
+   days entered on this preference.
+
+-  This preference is dependent on the :ref:`PatronSelfRegistrationVerifyByEmail`
+   system preference.
 
 .. _patronselfregistrationlibrarylist-label:
 
