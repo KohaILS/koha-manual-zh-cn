@@ -9064,18 +9064,12 @@ Description:
 .. _displayopaciconsxslt-label:
 
 DisplayOPACiconsXSLT
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the format, audience, and material type icons and descriptions in
+XSLT MARC 21 results and detail pages in the OPAC.
 
 Default: Don't show
-
-Asks: On pages displayed with XSLT stylesheets on the OPAC, \_\_\_ icons
-for itemtype and authorized values.
-
-    **Important**
-
-    :ref:`OPACXSLTResultsDisplay` and/or
-    :ref:`OPACXSLTDetailsDisplay` must be set to
-    use an XSLT stylesheet for this to show (default or custom)
 
 Values:
 
@@ -9083,12 +9077,24 @@ Values:
 
 -  Show
 
+Description:
+
+-  This system preference is used to show or hide the format, audience and 
+   material type information pulled from the control fields of the MARC 21 
+   bibliographic record.
+
    |image62|
 
     **Note**
 
     See the :ref:`XSLT material type icons <material-type-cataloging-guide-label>`
     for more information on these icons.
+  
+    **Important**
+
+    This is only used in XSLT displays, so :ref:`OPACXSLTResultsDisplay` and/or 
+    :ref:`OPACXSLTDetailsDisplay` must be set to use an XSLT stylesheet for 
+    this to show (default or custom)
 
 .. _googleindictransliteration-label:
 
@@ -14410,18 +14416,12 @@ Description:
 .. _displayiconsxslt-label:
 
 DisplayIconsXSLT
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ the format, audience, and material type icons and descriptions in 
+XSLT MARC21 results and detail pages in the staff client.
 
 Default: Show
-
-Asks: \_\_\_ the format, audience, and material type icons in XSLT
-MARC21 results and detail pages in the staff client.
-
-    **Important**
-
-    :ref:`XSLTResultsDisplay` and/or
-    :ref:`XSLTDetailsDisplay` must be set to use an
-    XSLT stylesheet (default or custom) for these icons to show.
 
 Values:
 
@@ -14435,6 +14435,12 @@ Values:
 
     See the :ref:`XSLT material type icons <material-type-cataloging-guide-label>`
     for more information on these icons.
+
+    **Important**
+
+    This is only used in XSLT displays, so :ref:`XSLTResultsDisplay` and/or 
+    :ref:`XSLTDetailsDisplay` must be set to use an XSLT stylesheet for 
+    this to show (default or custom)
 
 .. _intranet-includes-label:
 
