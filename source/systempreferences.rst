@@ -3299,6 +3299,35 @@ Description:
    If set to 'Allow' staff will be warned that the patrons owes money,
    but it won't stop the staff from checking out to the patron.
 
+.. _allowitemsonholdcheckoutsco-label:
+
+AllowItemsOnHoldCheckoutSCO
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Don't allow
+
+Asks: \_\_\_ checkouts of items reserved to someone else in the SCO module.
+If allowed do not generate RESERVE_WAITING and RESERVED warning. This
+allows self checkouts for those items.
+
+Values:
+
+-  Allow
+
+-  Don't allow
+
+    **Important**
+
+    This system preference relates only to Koha's web based self checkout.
+
+Description:
+
+-  When this preference is set to 'Allow' patrons will be able to use
+   Koha's web based self checkout to check out a book to themselves
+   even if it's on hold for someone else. If you would like Koha to
+   prevent people from checking out books that are on hold for someone
+   else set this preference to "Don't allow".
+
 .. _allowitemsonholdcheckout-label:
 
 AllowItemsOnHoldCheckoutSIP
@@ -3328,35 +3357,6 @@ Description:
 
 -  If you would like Koha to prevent people from checking out books that are 
    on hold for someone else set this preference to 'Don't allow'.
-
-.. _allowitemsonholdcheckoutsco-label:
-
-AllowItemsOnHoldCheckoutSCO
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't allow
-
-Asks: \_\_\_ checkouts of items reserved to someone else in the SCO module.
-If allowed do not generate RESERVE_WAITING and RESERVED warning. This
-allows self checkouts for those items.
-
-Values:
-
--  Allow
-
--  Don't allow
-
-    **Important**
-
-    This system preference relates only to Koha's web based self checkout.
-
-Description:
-
--  When this preference is set to 'Allow' patrons will be able to use
-   Koha's web based self checkout to check out a book to themselves
-   even if it's on hold for someone else. If you would like Koha to
-   prevent people from checking out books that are on hold for someone
-   else set this preference to "Don't allow".
 
 .. _allowmultipleissuesonabiblio-label:
 
