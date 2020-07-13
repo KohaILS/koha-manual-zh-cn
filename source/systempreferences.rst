@@ -10690,47 +10690,6 @@ Values:
 
     Enabling this will break LDAP authentication.
 
-.. _opacpatrondetails-label:
-
-OPACPatronDetails
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Allow
-
-Asks: \_\_\_ patrons to notify the library of changes to their contact
-information from the OPAC.
-
-Values:
-
--  Allow
-
-   -  :ref:`opacuserlogin` needs to be set to 'allow'
-
--  Don't allow
-
-Description:
-
--  If patrons are allowed to notify the library of changes to their
-   account then staff will need to approve the changes via the staff
-   client. Notification of patron account requests will appear on the
-   dashaboard below the list of modules with other pending actions.
-
-   |image97|
-
-   Once you click the notification you will be presented with the
-   changes the patron would like to make to their account and from there
-   you can choose how to proceed.
-
-   |image98|
-
-       **Note**
-
-       You can control what fields patrons see and can modify via the
-       OPAC by setting the
-       :ref:`PatronSelfRegistrationBorrowerMandatoryField`
-       :ref:`PatronSelfRegistrationBorrowerUnwantedField`
-       preferences.
-
 .. _opacpatronimages-label:
 
 OPACpatronimages
@@ -11720,15 +11679,54 @@ Description:
 
 .. _self-registration-label:
 
-Self Registration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Self registration and modification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _opacpatrondetails-label:
+
+OPACPatronDetails
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ patrons to notify the library of changes to their contact
+information from the OPAC.
+
+Default: Allow
+
+Values:
+
+-  Allow
+
+   -  :ref:`opacuserlogin` needs to be set to 'allow'
+
+-  Don't allow
+
+Description:
+
+-  If patrons are allowed to notify the library of changes to their
+   account then staff will need to approve the changes via the staff
+   înterface. Notification of patron account requests will appear on the
+   dashaboard below the list of modules with other pending actions.
+
+   |image97|
+
+   Once you click the notification you will be presented with the
+   changes the patron would like to make to their account and from there
+   you can choose how to proceed.
+
+   |image98|
+
+       **Note**
+
+       You can control which fields patrons see and can modify via the
+       OPAC by setting the
+       :ref:`PatronSelfRegistrationBorrowerMandatoryField` and
+       :ref:`PatronSelfRegistrationBorrowerUnwantedField`
+       preferences.
 
 .. _patronselfmodificationborrowerunwantedfield-label:
 
 PatronSelfModificationBorrowerUnwantedField
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: password
 
 Asks: The following `database
 columns <http://schema.koha-community.org/master/tables/borrowers.html>`__ will
@@ -11736,7 +11734,7 @@ not appear on the patron self-modification screen: \_\_\_
 
 Description:
 
--  This preference allows you to define what fields patrons can edit if
+-  This preference allows you to define which fields patrons can edit if
    you're allowing them to update their personal information via the
    public catalog with the :ref:`OPACPatronDetails`
    preference.
@@ -11748,11 +11746,11 @@ Description:
 .. _patronselfregistration-label:
 
 PatronSelfRegistration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't allow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ library patrons to register an account via the OPAC.
+
+Default: Don't allow
 
 Values:
 
@@ -11798,10 +11796,10 @@ Description:
 PatronSelfRegistrationBorrowerMandatoryField
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: surname\|firstname
-
 Asks: The following database columns must be filled in on the patron
 entry screen: \_\_\_
+
+Default: surname\|firstname
 
 Description:
 
@@ -11830,9 +11828,7 @@ Description:
 .. _patronselfregistrationborrowerunwantedfield-label:
 
 PatronSelfRegistrationBorrowerUnwantedField
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: password
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: The following database columns will not appear on the patron entry
 screen: \_\_\_
@@ -11853,10 +11849,33 @@ Description:
     structure <http://schema.koha-community.org/master/tables/borrowers.html>`__
     associated with the borrowers table.
 
+.. _patronselfregistrationconfirmemail-label:
+
+PatronSelfRegistrationConfirmEmail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ users to confirm their email address by entering it twice.
+
+Default: Do not require
+
+Values:
+
+-  Do not require
+
+-  Require
+
+Description:
+
+-  If this preference is set to 'Require', users will have to enter their email 
+   address twice.
+
+-  Make sure to enable this system preference if 
+   :ref:`PatronSelfRegistrationVerifyByEmail` is enabled.
+
 .. _patronselfregistrationdefaultcategory-label:
 
 PatronSelfRegistrationDefaultCategory
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Use the patron category code \_\_\_ as the default patron category
 for patrons registered via the OPAC.
@@ -11884,21 +11903,28 @@ Description:
     There will be no errors on the page to explain this, so be sure to
     enter a valid patron category code.
 
+    This system preference is required by :ref:`PatronSelfRegistration`.
+
 .. _patronselfregistrationemailmustbeunique-label:
 
 PatronSelfRegistrationEmailMustBeUnique
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Do not consider
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ patron's email (borrowers.email) as unique on self registering.
 An email won't be accepted if it already exists in the database.
+
+Default: Do not consider
 
 Values:
 
 -  Do not consider
 
 -  Consider
+
+Description:
+
+-  If enabled, this system preference will prevent user from creating several 
+   accounts with the same email address.
 
 .. _patronselfregistrationexpiretemporaryaccountsdelay-label:
 
@@ -11924,21 +11950,27 @@ Description:
 .. _patronselfregistrationlibrarylist-label:
 
 PatronSelfRegistrationLibraryList
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: blank
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Enable the self registration for the following libraries: \_\_\_
 (separate branchcode with \|). If empty, all libraries will be listed.
 
+Description:
+
+-  If only some libraries in your system are accepting self-registrated patrons, 
+   enter the list of :ref:`codes <libraries-label>` here and separate each with 
+   a pipe (\|).
+
+-  If this system preference is left empty, all libraries will be listed.
+
 .. _patronselfregistrationprefillform-label:
 
 PatronSelfRegistrationPrefillForm
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Display and prefill
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ password and login form after a patron has self registered.
+
+Default: Display and prefill
 
 Values:
 
@@ -11946,15 +11978,20 @@ Values:
 
 -  Display and prefill
 
+Description:
+
+-  This system preference is used to prefill (or not) the login form on the 
+   OPAC after self registration, so the patron doesn't have to type in the 
+   information.
+
 .. _patronselfregistrationverifybyemail-label:
 
 PatronSelfRegistrationVerifyByEmail
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't require
+Asks: \_\_\_ that a self-registering patron verify themselves via email.
 
-Asks: \_\_\_ that a self-registering patron verify his or herself via
-email.
+Default: Don't require
 
 Values:
 
@@ -11976,6 +12013,13 @@ Description:
 
     If you're going to require that patrons verify their accounts via
     email then the email field will automatically be marked as required.
+
+    **Important**
+
+    If you require email verification, also set 
+    :ref:`PatronSelfRegistrationConfirmEmail` to 'Require' to prevent patrons
+    from entering an erroneous email address and never being able to confirm 
+    their account.
 
 .. _shelf-browser-label:
 
