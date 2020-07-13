@@ -8634,7 +8634,7 @@ Values:
 
 Description:
 
--  This system preference control whether or not Koha should log when a patron 
+-  This system preference controls whether or not Koha should log when a patron 
    fails to successfully authenticate on the OPAC (or a staff member in the 
    staff interface).
 
@@ -8652,6 +8652,27 @@ Values:
 -  Don't log
 
 -  Log
+
+.. _authsuccesslog-label:
+
+AuthSuccessLog
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ successful authentications 
+
+Default: Don't log
+
+Values:
+
+-  Don't log
+
+-  Log
+
+Description:
+
+-  This system preference controls whether or not Koha should log when a patron 
+   successfully authenticates on the OPAC (or a staff member in the staff 
+   interface)
 
 .. _borrowerslog-label:
 
