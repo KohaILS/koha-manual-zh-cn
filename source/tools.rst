@@ -1676,7 +1676,7 @@ a confirmation of your deletion.
 .. _batch-item-modification-label:
 
 Batch item modification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Catalog > Batch item modification
 
@@ -1704,7 +1704,7 @@ for the item.
 
     **Note**
 
-    To uncheck all items thar are currently checked out you can click
+    To uncheck all items that are currently checked out you can click
     the 'Clear on loan' link at the top of the form.
 
 Using the edit form you can choose which fields to make edits to. By
@@ -1713,6 +1713,11 @@ values in that field for the records you are modifying.
 
 |image295|
 
+You can also click the 'RegEx' link to change the text field to a regular 
+expression substitution. This is used to change only a part of a text string.
+
+|image1481|
+
 Once you have made you changes you will be presented with the resulting
 items.
 
@@ -1720,8 +1725,8 @@ items.
 
     **Note**
 
-    You can also edit items on one bib record in a batch by going to the
-    bib record and clicking Edit > Edit items in batch
+    You can also edit items on one bibliographic record in a batch by going to the
+    bibliographic record and clicking Edit > Edit items in batch
 
 |image297|
 
