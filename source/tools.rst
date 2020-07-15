@@ -2111,11 +2111,11 @@ will return the number of items updated and a list of problematic items.
 .. _label-creator-label:
 
 Label creator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Catalog > Label creator
 
-The label creator tool allow you to use layouts and templates which you
+The label creator tool allows you to use layouts and templates which you
 design to print a nearly unlimited variety of labels including barcodes.
 Here are some of the features of the label creator tool:
 
@@ -2142,7 +2142,7 @@ Here are some of the features of the label creator tool:
 .. _label-templates-label:
 
 Templates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  *Get there:* More > Tools > Label creator > Manage > Label templates
 
@@ -2150,13 +2150,13 @@ A template is based on the label/card stock you are using. This might be
 Avery 5160 for address labels, Gaylord 47-284 for spine labels or Avery
 28371 for your patron cards, just to give a couple of examples. These
 labels will include all of the information you will need for setting up
-a Koha, this information may be on the packaging, and if not it can
+in Koha. This information may be on the packaging, and if not it can
 usually be found on the vendor's website.
 
 .. _label-add-a-template-label:
 
 Add a template
-''''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 To add a new template, you want to click on the 'New' button at the top
 of the label creator page and choosing 'Label template'.
@@ -2168,16 +2168,16 @@ of labels or cards.
 
 |image319|
 
--  Template ID will be automatically generated after saving your
+-  'Template ID' will be automatically generated after saving your
    template, this is simply a system generated unique id
 
--  Template Code should be something you can use to identify your
+-  'Template code' should be something you can use to identify your
    template on a list of templates
 
--  You can use the template Description to add additional information
+-  You can use the 'Template description' to add additional information
    about the template
 
--  The Units pull down is used to define what measurement scale you're
+-  The 'Units' pull down is used to define what measurement scale you're
    going to be using for the template. This should probably match the
    unit of measurement used on the template description provided by the
    product vendor.
@@ -2187,10 +2187,56 @@ of labels or cards.
 -  The measurements, number of columns and number of rows can be found
    on the vendor product packaging or website.
 
+   -  Page height: height of the page
+
+   -  Page width: width of the page
+
+   -  Label width: width of the label
+
+      |image1485|
+
+   -  Label height: height of the label
+
+      |image1484|
+
+   -  Top page margin: height between the top of the page and the top of the 
+      first row of labels
+
+      |image1488|
+
+   -  Left page margin: width between the left side of the page and the left 
+      side of the first column of labels
+
+      |image1486|
+
+   -  Top text margin: height between the top of the label and the top of the 
+      first line of text
+
+      |image1489|
+
+   -  Left text margin: width between the left side of the label and the 
+      start of the text
+
+      |image1487|
+
    -  **Important**
 
           If you do not supply a left text margin in the template, a
           3/16" (13.5 point) left text margin will apply by default.
+
+   -  Number of columns: number of columns of labels in a page, or number of 
+      labels per row
+
+   -  Number of rows: number of rows of labels in a page, or number of labels 
+      per column
+
+   -  Gap between columns: width between two columns of labels
+
+      |image1482|
+
+   -  Gap between rows: height between two rows of labels
+
+      |image1483|
 
 -  A profile is a set of "adjustments" applied to a given template just
    prior to printing which compensates for anomalies unique and peculiar
@@ -2211,7 +2257,7 @@ After saving, your templates will appear on the 'Manage' area under
 .. _label-profiles-label:
 
 Profiles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  *Get there:* More > Tools > Label creator > Manage > Printer profiles
 
@@ -2230,7 +2276,7 @@ profile.
 .. _label-add-a-profile-label:
 
 Add a profile
-''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 To add a new profile, you want to click on the 'New' button at the top
 of the label creator tool and choose 'Printer profile'.
@@ -2242,19 +2288,19 @@ with your template.
 
 |image323|
 
--  The Printer Name and Paper Bin do not have to match your printer
+-  The 'Printer name' and 'Paper bin' do not have to match your printer
    exactly, they are for your reference so you can remember what printer
    you have set the profile for. So if you want to use the Printer model
    number in printer name or you can call it 'the printer on my desk'
 
--  Template will be filled in once you have chosen which template to
+-  'Template name' will be filled in once you have chosen which template to
    apply the profile to on the :ref:`template edit
    form <label-add-a-template-label>`
 
--  The Units pull down is used to define what measurement scale you're
+-  The 'Units' pull down is used to define what measurement scale you're
    going to be using for your profile.
 
-   |image324|
+   |image320|
 
 -  Offset describes what happens when the entire image is off center
    either vertically or horizontally and creep describes a condition
@@ -2280,7 +2326,7 @@ templates and choose to edit the template that this profile is for.
 .. _label-layouts-label:
 
 Layouts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  *Get there:* More > Tools > Label creator > Manage > Layouts
 
@@ -2289,7 +2335,7 @@ A layout is used to define the fields you want to appear on your labels.
 .. _label-add-a-layout-label:
 
 Add a layout
-''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 To add a new layout, you want to click on the 'New' button at the top of
 the Label creator tool and choose 'Layout'.
@@ -2337,7 +2383,7 @@ Using the form that appears you can decide what appears on your labels.
 
 -  The Bibliographic data to print includes any of the data fields that
    may be mapped to your MARC frameworks. You can choose from the preset
-   list of fields or you can click on 'List Fields' and enter your own
+   list of fields or you can click on 'List fields' and enter your own
    data. In 'List fields', you can specify MARC subfields as a
    4-character tag-subfield string, for example 254a for the title field. You
    can also enclose a whitespace-separated list of fields to concatenate
@@ -2360,26 +2406,33 @@ Using the form that appears you can decide what appears on your labels.
 -  Choose if you'd like Koha to try to split your call numbers (usually
    used on spine labels)
 
+       **Note**
+
+       Call number spltting rules are managed under :ref:`Administration > 
+       Classification sources <classification-sources-label>`.
+
 -  Choose your text settings such as alignment, font type and
    size. You can also italicize the title by checking the 'Oblique title' box.
 
 After saving, your layouts will appear on the 'Manage layouts' page.
 
+|image1490|
+
 .. _label-batches-label:
 
 Batches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  *Get there:* More > Tools > Label creator > Manage > Label batches
 
-Batches are made up of the barcodes you would like to print. Once in
+Batches are made up of the items for which you would like to print labels. Once in
 this tool you can search for the item records you would like to print
 out labels for.
 
 .. _label-add-a-batch-label:
 
 Add a batch
-''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Batches can be created in one of two ways. The first is to click the
 'Create label batch' link on the ':ref:`Staged MARC
@@ -2410,15 +2463,18 @@ items one by one by clicking the 'Add' link to the left of each item.
 
 |image333|
 
-Once you have added all of the items click the 'Done' button. The
-resulting page will list the items you have selected.
+Once you have added all of the items click the 'Done' button. Click again 
+on the 'Add item(s)' button to transfer the items from the barcode box to 
+the batch. The resulting page will list the items you have selected.
 
 |image334|
 
 To print your labels, click the 'Export full batch' button. To print
 only some of the labels, click the 'Export selected item(s)' button.
 Either way you will be presented with a confirmation screen where you
-can choose your template and layout.
+can choose your template and layout. If you're using a sheet of labels 
+that is not complete, you can enter the starting label (labels are 
+counted horizontally).
 
 |image335|
 
@@ -2427,8 +2483,43 @@ CSV.
 
 |image336|
 
-After saving your file, simply print to the blank labels you have in
+After saving your file, simply print on the blank labels you have in
 your library.
+
+.. _label-barcode-range-label:
+
+Barcode range
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  *Get there:* More > Tools > Label creator > New > Barcode range
+
+If you want to print your barcode labels in advance, before even cataloging 
+the items, you can choose to add a batch of a range of barcodes.
+
+Click 'New' and choose 'Barcode range' from the label creator tool.
+
+|image1491|
+
+Enter the starting and ending barcodes.
+
+     **Note**
+
+     The barcode range tool does not accept leading zeroes. If you enter 0001234 
+     the barcode that will be printed will be 1234.
+
+|image1492|
+
+Click 'Print range'.
+
+You will be presented with the confirmation screen where you can choose your 
+template and layout and enter the starting label if using an incomplete sheet 
+of labels.
+
+|image335|
+
+The only download option for barcode ranges is PDF.
+
+Save the file and print it on a blank sheet of labels.
 
 .. _quick-spine-label-creator-label:
 
