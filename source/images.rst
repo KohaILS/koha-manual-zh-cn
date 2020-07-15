@@ -1459,3 +1459,5 @@
 .. |image1488| image:: images/tools/labelcreator/toppagemargin.png
 .. |image1489| image:: images/tools/labelcreator/toptextmargin.png
 .. |image1490| image:: images/tools/labelcreator/layouts.png
+.. |image1491| image:: images/tools/labelcreator/newbarcoderange.png
+.. |image1492| image:: images/tools/labelcreator/barcoderange.png
