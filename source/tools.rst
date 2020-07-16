@@ -1487,7 +1487,7 @@ To either delete or anonymize patrons
 .. _batch-patron-modification-label:
 
 Batch patron modification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Patrons and circulation > Batch patron
    modification
@@ -1514,7 +1514,7 @@ will clear our the field values.
     it.
 
 If you have multiple patron attributes you can change them all by using
-the plus (+) sign to the right of the text box. This will allow you to
+the '+ New' link to the right of the text box. This will allow you to
 add another attribute value.
 
 |image282|
