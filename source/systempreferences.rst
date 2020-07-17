@@ -255,8 +255,8 @@ Description:
 -  This preference is used in conjunction with the
    :ref:`AcqItemSetSubfieldsWhenReceived`
    preference. If you have the system set to enter default values when
-   you receive you will want to have those values revert back if reeipt
-   is cancelled. This preference allows you to do that.
+   you receive you will want to have those values revert back if the
+   receipt is cancelled. This preference allows you to do that.
 
 .. _acqitemsetsubfieldswhenreceived-label:
 
