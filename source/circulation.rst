@@ -1065,7 +1065,7 @@ multiple libraries then all libraries with that item available will see
 the hold to pull until one library triggers the hold.
 
 If enabled, clicking the *Mark item as lost* button will mark item as lost and notify
-the requesting patron depending on the value of the :ref:`CanMarkHoldsAwaitingPickupAsLost`
+the requesting patron depending on the value of the :ref:`CanMarkHoldsToPullAsLost`
 system preference.
 
 |image578|
