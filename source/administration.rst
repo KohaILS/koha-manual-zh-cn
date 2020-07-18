@@ -2807,29 +2807,46 @@ To create a new matching rule :
 
    -  Match points are set up to determine what fields to match on
 
-   -  'Search index' can be found by looking at the ccl.properties file
-      on your system which tells the zebra indexing what data to search
-      for in the MARC data". Or you can review the index for standard
-      index names used. :ref:`Koha Search Indexes`
+   -  'Search index' can be found by looking at the index configuration
+      on your system. For Zebra you might find the right index names
+      in your ccl.properties file. You can also find useful information in
+      the :ref:`Koha Search Indexes` chapter of this manual.
 
    -  'Score' - The number of 'points' a match on this field is worth.
-      If the sum of each score is greater than the match threshold, the
-      incoming record is a match to the existing record
+      If the sum of each score is equal or greater than the match threshold, the
+      incoming record is a match to the existing record.
 
-   -  Enter the MARC tag you want to match on in the 'Tag' field
+   -  Enter the MARC tag you want to match on in the 'Tag' field.
 
    -  Enter the MARC tag subfield you want to match on in the
-      'Subfields' field
+      'Subfields' field. For matching on controlfields like 001 the subfields
+      input field can be left empty.
 
    -  'Offset' - For use with control fields, 001-009
 
    -  'Length' - For use with control fields, 001-009
 
-   -  Koha only has one 'Normalization rule' that removes extra
-      characters such as commas and semicolons. The value you enter in
-      this field is irrelevant to the normalization process.
+   -  There are currently several options for 'Normalization rules':
 
-   -  'Required match checks' - ??
+      - None - no normalization rule will be applied
+
+      - Remove spaces
+
+      - Uppercase
+
+      - Lowercase
+
+      - Legacy default - this option was added to maintain the behaviour
+        form before the other normalization rules became available.
+
+      - ISBN - using this option will improve matching on ISBN. If your
+        incoming records ISBN fields contain extra text, like
+        '9780670026623 (alk. paper)', they will still match correctly.
+
+   -  'Required match checks' - While match points work on the search
+      index, match checks work directly on the data and can be used
+      as the matching criteria instead of the match points or in addition
+      to them to confirm true matches.
 
 .. _sample-bibliographic-record-matching-rule-control-number-label:
 
@@ -2852,7 +2869,7 @@ Sample bibliographic record matching rule: Control number
 
 -  Search index: Control-number
 
--  Score: 101
+-  Score: 100
 
 -  Tag: 001
 
@@ -2861,13 +2878,13 @@ Sample bibliographic record matching rule: Control number
           this field is for the control number assigned by the
           organization creating, using, or distributing the record
 
--  Subfields: a
+-  Subfields: empty
 
 -  Offset: 0
 
 -  Length: 0
 
--  Normalization rule: Control-number
+-  Normalization rule: None
 
 -  Required match checks: none (remove the blank one)
 
