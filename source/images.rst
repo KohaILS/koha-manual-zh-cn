@@ -1461,3 +1461,4 @@
 .. |image1490| image:: images/tools/labelcreator/layouts.png
 .. |image1491| image:: images/tools/labelcreator/newbarcoderange.png
 .. |image1492| image:: images/tools/labelcreator/barcoderange.png
+.. |image1493| image:: images/tools/marcimport/format.png

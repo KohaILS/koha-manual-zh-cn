@@ -2925,7 +2925,7 @@ Once your template is saved you will be able to pick it when using the
 .. _stage-marc-records-for-import-label:
 
 Stage MARC records for import
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Catalog > Stage MARC records for import
 
@@ -2942,20 +2942,25 @@ steps. The first is to stage records for import.
 
    |image345|
 
-   -  Enter 'Comments about this file' to identify your upload when
+   -  'Comments about this file': enter comments to identify your upload when
       going to the ':ref:`Manage staged MARC records <staged-marc-record-management-label>`' tool
 
-   -  Tell Koha which type of file this is, bibliographic or authority
+   -  'Record type': tell Koha which type of file this is, bibliographic or 
+      authority
 
       |image346|
 
-   -  Choose the character encoding
+   -  'Character encoding': choose the character encoding of your file
 
       |image347|
 
-   -  Choose if you would like to use a :ref:`MARC modification
-      template <marc-modification-templates-label>` to alter the data you're about to
-      import
+   -  'Format': choose the MARC format of your file 
+
+      |image1493|
+
+   -  'Modify record using the following template': choose if you would like 
+      to use a :ref:`MARC modification template <marc-modification-templates-label>` 
+      to alter the data you're about to import
 
       |image348|
 
@@ -2963,8 +2968,13 @@ steps. The first is to stage records for import.
 
       |image349|
 
-      -  You can set up :ref:`record matching rules <record-matching-rules-label>`
-         through the administration area
+      -  'Record matching rule': choose which rules to use to check your 
+         catalog if these records already exsit.
+
+            **Note**
+
+            You can set up :ref:`record matching rules <record-matching-rules-label>` 
+            in the administration area
 
          |image350|
 
@@ -2974,23 +2984,52 @@ steps. The first is to stage records for import.
             :ref:`AggressiveMatchOnISBN`
             preference to 'Do' and then run your import again.
 
-   -  Next choose what to do with matching records if they are found
+   -  'Action if matching record found': choose what to do with matching 
+      records if they are found
 
-   -  Finally choose what to do with records that are unique
+      -  Replace existing record with incoming record: choose this if you are 
+         importing more complete records than the ones you currently have, or 
+         if you made some changes using an external tool (MarcEdit for example)
 
-   -  Next you can choose whether or not to import the item data found
-      in the MARC records (if the file you're loading is a bibliographic
-      file)
+      -  Add incoming record: this will keep the existing record and add the 
+         incoming record, so you may end up with duplicates
+
+      -  Ignore incoming record (its items may still be processed): choose this 
+         if you do not want to replace existing records
+
+   -  'Action if no match is found': choose what to do with records that are 
+      unique
+
+      -  Add incoming record: choose this if you wish to import records that 
+         are not already in your catalog (for example, for new titles)
+
+      -  Ignore incoming record: choose this if you don't want to import 
+         records that are not alreay in your catalogue (for example, if you're 
+         only replacing existing records and don't want to add anything)
+
+   -  'Check for embedded item record data?': choose whether or not to import 
+      the item data (field 952) found in the MARC records (if the file you're 
+      loading is a bibliographic file)
 
       |image351|
 
-      -  From here you can choose to always add items regardless of
-         matching status, add them only if a matching bib was found, add
-         items only if there was no matching bib record, replace items
-         if a matching bib was found (The match will look at the
-         itemnumbers and barcodes to match on for items. Itemnumbers
-         take precendence over barcodes), or Ignore items and not add
-         them.
+      -  Always add items: always add items regardless of matching status
+
+      -  Add items only if matching bib was found: this will only add items to 
+         existing records in your catalog
+
+      -  Add items only if no matching bib was found: this will only add items 
+         to the new records you're importing, not the ones that already exist
+
+      -  Replace items if a matching bib was found: the match will look at the
+         itemnumbers and barcodes to match on for items and will only replace 
+         existing items.
+
+           **Note**
+
+           Itemnumbers take precendence over barcodes
+
+      -  Ignore items: this will not add any items
 
 -  Click 'Stage for import'
 
@@ -2999,17 +3038,18 @@ steps. The first is to stage records for import.
    |image352|
 
 -  To complete the process continue to the :ref:`Manage staged MARC records
-   Tool <staged-marc-record-management-label>`
+   tool <staged-marc-record-management-label>` by clicking on the 'Manage 
+   staged records' button.
 
 .. _staged-marc-record-management-label:
 
 Staged MARC record management
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Catalog > Staged MARC record management
 
-Once you have :ref:`staged <stage-marc-records-for-import-label>` your records for import you can
-complete the import using this tool.
+Once you have :ref:`staged <stage-marc-records-for-import-label>` your records 
+for import you can complete the import using this tool.
 
 |image353|
 
@@ -3024,13 +3064,13 @@ complete the import using this tool.
 
    |image354|
 
--  Below the summary is the option to import the batch of bib records
+-  Below the summary is the option to import the batch of records
    using a specific framework
 
    |image355|
 
    -  Choosing a framework other than 'Default' isn't necessary, but
-      it's helpful for running reports and having the right bib level
+      it's helpful for running reports and having the right bibliographic level
       item type selected on import.
 
 -  Below the framework selection there will be a list of the records
@@ -3055,7 +3095,7 @@ complete the import using this tool.
 
    |image359|
 
--  Once your import is complete a link to the new bib records will
+-  Once your import is complete a link to the new records will
    appear to the right of each title that was imported
 
 -  You can also undo your import by clicking the 'Undo import into
