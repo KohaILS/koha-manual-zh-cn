@@ -1268,7 +1268,7 @@ Patron permissions defined
 
    -  Execute SQL reports (execute\_reports)
 
-      -  The ability to :ref:`run custom SQL reports <running-custom-reports-label>,
+      -  The ability to :ref:`run custom SQL reports <running-custom-reports-label>`,
          but not create or edit them
 
 -  Allow staff members to modify permissions for other staff members (staffaccess)
