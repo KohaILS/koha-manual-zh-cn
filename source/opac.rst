@@ -205,6 +205,8 @@ Below the search buttons you'll find the links to place a hold, print
 the record, save the record to your lists, add it to your cart or send to a 
 device (using a QR code).
 
+Another option that will appear on this right hand side bar (if a library is allowing purchase suggestions) is the ability to 'Suggest for Purchase'.  Clicking this link will bring the user to the Purchase Suggestion form to fill out.
+
 |image961|
 
 Clicking 'More searches' will show the list of libraries you entered in
