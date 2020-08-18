@@ -40,7 +40,7 @@ Making a sale
 -------------------------------------------------------------------------------
 
 When you first go in the point of sale module, the left side will show all the 
-items for sale. These are :ref:debit types <debit-types-label>` that were 
+items for sale. These are :ref:`debit types <debit-types-label>` that were
 marked as 'Can be sold'.
 
 On the right side is the current sale.
