@@ -1290,3 +1290,5 @@ Clicking any one of these links will open the purchase suggestion form.
 
 Once the form is submitted the data will be saved to the
 :ref:`Acquisitions <managing-purchase-suggestions-label>` module for the librarians to manage.
+
+If a purchase suggestion has been ordered through the Acquisitions Module, the patron's purchase suggestion title will be clickable and bring the patron directly to the ordered record in the OPAC.
