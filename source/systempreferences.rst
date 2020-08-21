@@ -9233,23 +9233,6 @@ Description:
     :ref:`OPACXSLTDetailsDisplay` must be set to use an XSLT stylesheet for 
     this to show (default or custom)
 
-.. _googleindictransliteration-label:
-
-GoogleIndicTransliteration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't show
-
-Asks: \_\_\_ GoogleIndicTransliteration on the OPAC.
-
-Values:
-
--  Don't show
-
--  Show
-
-  |image1188|
-
 .. _hidelostitems-label:
 
 hidelostitems

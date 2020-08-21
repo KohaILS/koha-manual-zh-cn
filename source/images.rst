@@ -1157,7 +1157,6 @@
 .. |image1185| image:: images/admin/globalprefs/SpecifyReturnDate.png
 .. |image1186| image:: images/admin/globalprefs/SpecifyReturnDate-no.png
 .. |image1187| image:: images/admin/globalprefs/OpenLibrarySearch.png
-.. |image1188| image:: images/admin/globalprefs/GoogleIndicTransliteration.png
 .. |image1190| image:: images/admin/globalprefs/OpacCustomSearch-default.png
 .. |image1191| image:: images/admin/globalprefs/OpacCustomSearch.png
 .. |image1192| image:: images/admin/globalprefs/OpacExportOptions.png
