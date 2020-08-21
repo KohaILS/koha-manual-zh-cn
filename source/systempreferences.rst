@@ -1404,13 +1404,25 @@ Description:
 .. _authoritymergelimit-label:
 
 AuthorityMergeLimit
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: When modifying an authority record, do not update attached bibliographic
+records if the number exceeds \_\_\_ records. (Above this limit, the 
+:ref:`merge_authority cron job<cron-update-authorities-label>` will update them.)
 
 Default: 50
 
-Asks: When modifying an authority record, do not update attached biblio
-records if the number exceeds \_\_\_ records. (Above this limit, the merge_authority
-cron job will merge them.)
+Description:
+
+-  This system preference determines the maximum number of bibliographic records 
+   that can be updated when an authority record changes.
+
+-  This helps prevent overusing resources if an authority record is linked to 
+   many bibliographic records.
+
+-  Make sure to enable the :ref:`merge_authority cron job<cron-update-authorities-label>` 
+   to catch the updates that wouldn't otherwise be transferred to bibliographic 
+   records.
 
 .. _authoritymergemode-label:
 
