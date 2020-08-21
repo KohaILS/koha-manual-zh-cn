@@ -505,7 +505,7 @@ There will be an alert if the patron has checkouts, holds, fines or credits.
 
 -  If a patron has outstanding fines, the deletion will not be possible.
 
-   |image 1468|
+   |image1468|
 
 -  If a patron has unused credits, the option to delete the patron is possible 
    but there will be a warning.
