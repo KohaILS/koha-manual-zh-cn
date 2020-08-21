@@ -1070,6 +1070,9 @@ system preference.
 
 |image578|
 
+You can choose which :ref:`LOST value<existing-values-label>` to set the 
+item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference.
+
 You can limit the results you see by using the Refine box on the left
 side of the page:
 

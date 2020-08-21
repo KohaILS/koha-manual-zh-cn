@@ -5045,11 +5045,11 @@ Description:
 .. _canmarkholdstopullaslost-label:
 
 CanMarkHoldsToPullAsLost
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Do not allow to mark items as lost
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ from the 'Holds to pull' screen
+
+Default: Do not allow to mark items as lost
 
 Values:
 
@@ -5698,7 +5698,7 @@ Description:
 .. _updateitemwhenlostfromholdlist-label:
 
 UpdateItemWhenLostFromHoldList
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Update item's values when marked as lost from the hold to pull screen.
 
@@ -5707,7 +5707,30 @@ Description:
 -  This is a list of values to update an item when it is marked as lost from
    the holds to pull screen. For example, write "itemlost: 1" to set the items.
    itemlost value to 1 when the item is marked as lost. This will use the authorized
-   value 1 from the LOST authorized value list.
+   value 1 from the :ref:`LOST authorized value list<existing-values-label>`.
+
+-  Examples of keywords:
+
+   -  itemlost: lost status, uses the 
+      :ref:`LOST authorized values list<existing-values-label>`
+
+   -  notforloan: not for loan status, uses the 
+      :ref:`NOT_LOAN authorized values list<existing-values-label>`
+
+   -  withdrawn: withdrawn status, uses the 
+      :ref:`WITHDRAWN authorized values list<existing-values-label>`
+
+   -  damaged: damaged status, uses the 
+      :ref:`DAMAGED authorized values list<existing-values-label>`
+
+   -  location: location code, uses the 
+      :ref:`LOC authorized values list<existing-values-label>`
+
+   -  ccode: collection code, uses the 
+      :ref:`CCODE authorized values list<existing-values-label>`
+
+-  This preference requires that the :ref:`CanMarkHoldsToPullAsLost` system
+   preference be set to either 'Allow' option
 
 .. _housebound-module-label:
 
