@@ -1770,12 +1770,35 @@ Description:
 .. _authorityseparator-label:
 
 AuthoritySeparator
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Separate main entry and subdivisions with \_\_\_.
 
 Default: --
 
-Asks: Separate multiple displayed authors, series or subjects with
-\_\_\_.
+Description:
+
+-  This system preference allows you to choose the character or characters that 
+   is used to separate the main entry and the subdivisions in authorities.
+
+   For example, -- will make authorities appear like this:
+
+   Cats--Fiction
+
+-  This is used for non-XSLT views only. Whether or not you use XSLT views is 
+  determined by the following system preferences:
+
+   -  :ref:`OPACXSLTDetailsDisplay`
+
+   -  :ref:`OPACXSLTListsDisplay`
+
+   -  :ref:`OPACXSLTResultsDisplay`
+
+   -  :ref:`XSLTDetailsDisplay`
+
+   -  :ref:`XSLTListsDisplay`
+
+   -  :ref:`XSLTResultsDisplay`
 
 .. _hide-marc-label:
 
