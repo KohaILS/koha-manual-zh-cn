@@ -2579,10 +2579,20 @@ Directory <http://www.collectionscanada.gc.ca/illcandir-bin/illsear/l=0/c=1>`__.
 .. _newitemsdefaultlocation-label:
 
 NewItemsDefaultLocation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: When items are created, give them the temporary location of \_\_\_
 (should be a location code, or blank to disable).
+
+Description:
+
+-  This allows you to set a specific location for all new items.
+
+-  Make sure to use location codes, from the 
+   :ref:`LOC authorized values list<existing-values-label>`
+
+-  You can use the :ref:`UpdateItemLocationOnCheckin` system preference along 
+   with this one to update the location upon checkin
 
 .. _prefillitem-label:
 
