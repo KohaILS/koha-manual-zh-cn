@@ -1895,9 +1895,9 @@ Example: '001,245ab,600' displays:
 
 -  all subfields of fields 600
 
-.. _notesblacklist-label:
+.. _notestohide-label:
 
-NotesBlacklist
+NotesToHide
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Don't show these \_\_\_ note fields in title notes separator (OPAC
