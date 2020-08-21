@@ -5075,6 +5075,9 @@ Description:
    as lost directly from the 'Holds to pull' list if they can't
    find the item on the shelf.
 
+-  The actual lost value that will be assigned to the item is defined in the 
+   :ref:`UpdateItemWhenLostFromHoldList` system preference.
+
 .. _canreservefromotherbranches-label:
 
 canreservefromotherbranches
