@@ -678,13 +678,6 @@ primary record will now CONTAIN the data you chose for it as well as all
 of the items/holdings from both bib records, and the second record will
 be deleted.
 
-    **Important**
-
-    It is important to rebuild your zebra index immediately after
-    merging records. If a search is performed for a record which has
-    been deleted Koha will present the patrons with an error in the
-    OPAC.
-
     **Note**
 
     If you would like you can also use the :ref:`Lists <lists-opac-label>` tool for
