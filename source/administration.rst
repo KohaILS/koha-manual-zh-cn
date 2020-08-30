@@ -2174,11 +2174,18 @@ sections - Basic constraints, Advanced constraints and Other options.
          over and over or the same value in a field often.
 
       -  **Note**
+    
+             There are several values that you can use here that will
+             be replaced automatically when a new record is created:
 
-             If you would like a field to fill in with today's date you
-             can use the YYYY MM DD syntax in the 'Default value'. For
-             example: a default of "Year:YYYY Month:MM Day:DD" (without
-             quotes) will print as "Year:2015 Month:11 Day:30"
+             -  <<YEAR>> - the current year, 4 digits
+             -  <<MM>> - the current month, 2 digits
+             -  <<DD>> - the current day of month, 2 digits
+             -  <<USER>> - the username of the currently logged in user
+
+             For example: a default of "Year:<<YYYY>> Month:<<MM>> Day:<<DD>>" 
+             (without quotes) will print the current date in the form of
+             "Year:2020 Month:08 Day:30"
 
    -  Visibility
 
