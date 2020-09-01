@@ -2427,36 +2427,39 @@ sections - Basic constraints, Advanced constraints and Other options.
 
    -  Link
 
-      -  If you enter a field/subfield here (200b), a link appears after
-         the subfield in the MARC Detail view. This view is present only
-         in the staff client, not the OPAC. If the librarian clicks on
-         the link, a search is done on the database for the
-         field/subfield with the same value. This can be used for 2 main
-         topics :
-
-         -  on a field like author (200f in UNIMARC), put 200f here, you
-            will be able to see all bib records with the same author.
-
-         -  on a field that is a link (4xx) to reach another bib record.
-            For example, put 011a in 464$x, will find the serials that
-            are with this ISSN.
-
-      -  **Warning**
-
-             This value should not change after data has been added to
-             your catalog. If you need to change this value you must ask
-             your system administrator to run
-             misc/batchRebuildBiblioTables.pl.
+      -  If you enter an index name here, a link appears after
+         the subfield in the MARC detail view in the staff interface.
+         If the librarian clicks on the link, a catalog search is done using
+         the index and the content of the subfield.
 
    -  Koha link
 
-      -  Koha is multi-MARC compliant. So, it does not know what the
-         245$a means, neither what 200$f (those 2 fields being both the
-         title in MARC21 and UNIMARC). So, in this list you can "map" a
-         MARC subfield to its meaning. Koha constantly maintains
-         consistency between a subfield and its meaning. When the user
-         wants to search on "title", this link is used to find what is
-         searched (245 if you're MARC21, 200 if you're UNIMARC).
+      -  This field is used to create a link between the MARC subfield
+         and a column in the items, biblioitems and biblio database
+         tables. Whenever a record is added or changed, this mapping
+         will be used to update the linked database column. The information
+         from the database columns is used as a way to quickly look up
+         important information without having to parse the full MARC record.
+         It is used for displaying information in a lot of pages and can
+         also be used in reports.
+
+         It is possible to map multiple MARC subfields to the same database
+         column. The first existing mapped subfield will be saved into the 
+         database. Usage example: For a MARC21 installaton with both RDA and AACR2 
+         records where some records store the publication data 
+         in 260 and others in 264 both fields can be mapped to the database
+         columns for publisher, publication date and publication year.
+
+         The mappings can be changed on this page or from the
+         :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>` page.
+
+      -  **Warning**
+
+             The Koha links should not be changed after data has been added to
+             your catalog. If you need to change or improve them, you must ask
+             your system administrator to run misc/batchRebuildBiblioTables.pl.
+             This will update the values in the database columns for all your
+             records.
 
 -  For each subfield you can set the following Other option values
 
