@@ -44,6 +44,23 @@ of their name. The checkout option appears in three main places:
 
    |image482|
 
+-  Check out option on the quick search bar on the circulation page
+
+   |image484|
+
+Those two options allow you to search for a patron either by card number, name, 
+user ID, email, etc. If you only have one result, Koha will automatically go 
+to the patron's file. If your search gives you more than one result, it will 
+ask you to choose which patron you want to check out to.
+
+|image1494|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: table_borrowers)
+
 -  Check out option on the patron record
 
    |image483|
@@ -53,9 +70,7 @@ of their name. The checkout option appears in three main places:
 
    |image1254|
 
--  Check out option on the quick search bar on the circulation page
 
-   |image484|
 
 .. _checking-items-out-label:
 
@@ -78,6 +93,12 @@ see the list of checkouts below the check out box.
      The :ref:`previousIssuesDefaultSortOrder` system preference controls 
      in which order these previous checkouts appear (earliest to latest, 
      or latest to earliest).
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: issues-table).
 
 At the top of the Check out screen is a box for you to type or scan the
 item's barcode into.
@@ -491,6 +512,12 @@ To check an item in scan the barcode for the item into the box provided.
 A summary of all items checked in will appear below the checkin box
 
 |image530|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: checkedintable).
 
 If you are checking items in that were put in the book drop while the
 library was closed you can check the 'Book drop mode' box before
@@ -1009,7 +1036,15 @@ Holds queue
 
 This report will show you all holds waiting to be pulled off the shelf at your library.
 
+.. this image needs to be changed, but I can't make my holds queue report work!
+
 |image577|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holds-table).
 
 To generate this report, you must have the :ref:`Build holds queue cron
 job <cron-holds-queue-report-label>` running. This cron job is a script that should
@@ -1052,7 +1087,7 @@ An alternative to static and randomized is using the
 :ref:`Tansport cost matrix <transport-cost-matrix-label>`.
 It takes precedence in controlling where holds are filled from and allows you
 to define the 'cost' of transport between any two libraries.
-To use the Transport cost matrix simply set your UseTransportCostMatrix preference to 'Use'.
+To use the Transport cost matrix simply set your :ref:`UseTransportCostMatrix` preference to 'Use'.
 
 .. _holds-to-pull-label:
 
@@ -1069,6 +1104,12 @@ the requesting patron depending on the value of the :ref:`CanMarkHoldsToPullAsLo
 system preference.
 
 |image578|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holds-to-pull).
 
 You can choose which :ref:`LOST value<existing-values-label>` to set the 
 item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference.
@@ -1088,6 +1129,12 @@ pick them up.
 
 |image580|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holdst).
+
 Items that have been on the hold shelf longer than you normally allow
 (based on the :ref:`ReservesMaxPickUpDelay`
 preference value) will appear on the 'Holds over' tab, they will not
@@ -1096,6 +1143,12 @@ job <cron-expired-holds-label>` to do that for you, but you can cancel all
 holds using the button at the top of the list.
 
 |image581|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holdso).
 
 .. _hold-ratios-label:
 
@@ -1109,6 +1162,12 @@ items per hold that has been placed. The report will tell you how many
 additional items need to be purchased to meet this quota.
 
 |image582|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holds-ratios).
 
 .. _transfers-to-receive-label:
 
@@ -1303,6 +1362,12 @@ Overdues
 This report will list all items that are overdue at your library.
 
 |image585|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: circ-overdues).
 
 The report can be filtered using the menu options found on the left of
 the report.

@@ -89,6 +89,12 @@ library in the basic or advanced editor
 
    |image629|
 
+        **Note**
+
+        -  You can customize the columns of this table in the 
+           :ref:`'Table settings'<column-settings-label>` section of the 
+           Administration module (table id: resultst).
+
    - If you don't find the title you need in your Z39.50 search
      results you can click the 'Try Another Search' button at the
      bottom left of your results
@@ -786,6 +792,12 @@ Below the add form there are 3 buttons for adding the item
 Your added items will appear above the add form once submitted
 
 |image679|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: Items Editor).
 
 Your items will also appear below the bibliographic details on the bib
 record display.

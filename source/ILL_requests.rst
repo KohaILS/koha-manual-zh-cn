@@ -74,6 +74,12 @@ advisable to make use of column visibility to view only the information you need
 The first half of the table displays data related to the ILL item itself
 such as title, volume, page numbers.
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: ill-requests).
+
 |image1436|
 
 The second half of the table displays data related to the request such as notes

@@ -462,6 +462,12 @@ will see an extra 'Acquisition details' tab in your subscription details.
 
 |image764|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: orders).
+
 .. _subscriptions-in-opac-label:
 
 Subscriptions in OPAC

@@ -1473,6 +1473,12 @@ The first tab shows the items the patron currently has checked out.
 
 |image445|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: issues-table).
+
 Relatives' checkouts
 ''''''''''''''''''''''''''''''''''''''''''
 
@@ -1631,6 +1637,12 @@ for patrons.
 
 |image450|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: account-fines).
+
 The Transactions tab will show you the following columns:
 
 -  Date: the date the charge, payment or credit was posted
@@ -1719,10 +1731,16 @@ job <cron-fines-label>` is running:
 Pay/Void fines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Each line item can be paid in full (or written off) using the 'Pay
-fines' tab.
+Each line item can be paid in full (or written off) using the 'Make a payment' 
+tab.
 
 |image451|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: pay-fines-table).
 
 -  Each line item can be paid in full, partially paid, or written off.
 
@@ -1923,6 +1941,12 @@ out items.
 
 |image464|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: checkouthistory-table).
+
 If you would like to export a list of barcodes for the items checked in
 today you can find that option under the More menu on the top right of
 the page.
@@ -1930,6 +1954,21 @@ the page.
 |image465|
 
 This will generate a text file with one barcode per line.
+
+.. _holds-history-label:
+
+Holds history
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The holds history tab shows all the holds the patron has made, with their status.
+
+|image1496|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holdshistory-table).
 
 .. _modification-log-label:
 
@@ -2296,3 +2335,15 @@ You can also browse through the patron records by clicking on the linked
 letters across the top.
 
 |image481|
+
+If your search only returns one result, you will be taken directly to the 
+patron's file. If your search returns more than one result, you will be given 
+a list from which to choose.
+
+|image1495|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: memberresultst).

@@ -43,9 +43,15 @@ When you first go in the point of sale module, the left side will show all the
 items for sale. These are :ref:`debit types <debit-types-label>` that were
 marked as 'Can be sold'.
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: invoices).
+
 On the right side is the current sale.
 
-image goes here
+|image1497|
 
 Click on the 'Add' button next to the items to add to the current sale.
 

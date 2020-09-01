@@ -70,6 +70,12 @@ and be searchable by any field in the course.
 
 |image730|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: courses page, course_reserves_table).
+
 .. _adding-reserve-materials-label:
 
 Adding Reserve Materials
@@ -78,7 +84,7 @@ Adding Reserve Materials
 Before adding reserve materials you will need at least one course to add
 them to. To add materials visit the Course Reserves module.
 
-|image731|
+|image730|
 
 Click on the title of the course you would like to add materials to.
 
@@ -101,6 +107,12 @@ After you are done scanning the barcodes to add to the course you can
 see them on the course page
 
 |image734|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: reserves page, course_reserves_table).
 
 You also have the possibility of adding several items at the same time.
 Click on 'Batch add reserves'.
@@ -125,8 +137,20 @@ have only one course you will just see the contents of that one course).
 
 |image736|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: course_reserves_table).
+
 You can search course reserves by any field (course number, course name,
 instructor name, department) that is visible in the list of courses.
 Clicking a course name will show you the details and reserve items.
 
 |image737|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: course-items-table).

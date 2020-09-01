@@ -64,6 +64,12 @@ Once you have all of the patrons you would like to add you can click the
 
 |image250|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: patron-list-table).
+
 .. _patron-clubs-label:
 
 Patron clubs
@@ -358,6 +364,12 @@ customized using the Notices & slips tool. The system comes with several
 predefined templates that will appear when you first visit this tool.
 
 |image258|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: lettert).
 
 Each notice can be edited, but only a few can be deleted, this is to
 prevent system errors should a message try to send without a template.
@@ -2660,6 +2672,12 @@ rotation plan.
 
 |image1381|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: stock_rotation).
+
 This tool utilises a cron job that must be configured to run on a daily basis.
 
 Editing rota details
@@ -2698,6 +2716,12 @@ Managing rota items - Tool view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image1384|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: stock_rotation_manage_items).
 
 Items can be added to a rota individually (by barcode) or in bulk (via the
 upload of a line delimited barcode file) on this page.
@@ -3504,6 +3528,12 @@ file for that query.
 
 A query for all logs related to the Circulation module produces a result
 |image386|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: logst).
 
 .. _news-label:
 

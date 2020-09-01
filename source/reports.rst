@@ -97,6 +97,12 @@ all other saved reports.
 
 |image889|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: table_reports).
+
 From here you can make edits, run the report, or schedule a time to have
 the report run. To find the report you created you can sort by any of
 the columns by clicking the on the column header (creation date is the
@@ -348,7 +354,13 @@ Edit custom reports
 Every report can be edited from the reports lists. To see the list of
 reports already stored in Koha, click 'Use saved.'
 
-|image896|
+|image889|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: table_reports).
 
 To find the report you'd like to edit you can sort by any of the columns
 by clicking the on the column header. You can also filter your results
@@ -708,6 +720,38 @@ This report will allow you to generate a list of items that have been
 marked as Lost within the system
 
 |image927|
+
+Once you have chosen parameters, you will see the corresponding list of items.
+
+|image1501|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: lostitems-table).
+
+.. _orders-by-fund-label:
+
+Orders by fund
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be able 
+to see all the items that were ordered in each fund.
+
+|image1499|
+
+Once you choose the fund you wish to view, you can export the results or view 
+them in the browser. If you choose to view them directly, you will be shown the 
+list of orders.
+
+|image1500|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: funds-table).
 
 .. _average-loan-time-label:
 

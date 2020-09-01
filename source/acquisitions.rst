@@ -220,6 +220,12 @@ the left of the Acquisitions page.
 
 |image796|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: suggestions).
+
 Your suggestions will be sorted into several tabs: Accepted, Pending,
 Checked, Ordered and/or Rejected. Each accepted or rejected suggestion
 will show the name of the librarian who managed the suggestion and the
@@ -708,7 +714,7 @@ Accounting information.
 
    -  **Important**
 
-          If the item is created upon orderinf, you will not be able to
+          If the item is created upon ordering, you will not be able to
           edit the quantity manually, you must click 'Add item' below
           the item form to add as many items as you're ordering.
 
@@ -772,6 +778,12 @@ After an item is added to the basket you will be presented with a basket
 summary.
 
 |image827|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: orders).
 
 From here, you can edit or remove the items that you have added.
 
@@ -1227,6 +1239,12 @@ late you will be presented with a list of these items.
 
 |image858|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: late_orders).
+
 To the right of each late title you will be see a checkbox. Check off
 the ones you want a claim letter sent to and click 'Claim order' at the
 bottom right of the list. This will automatically send an email to the
@@ -1267,6 +1285,12 @@ You can enter info in one or both fields and you can enter any part of
 the title and/or vendor name.
 
 |image863|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: histsearcht).
 
 Clicking the plus sign to the right of the Vendor search box will expand
 the search and allow you to search for additional fields.

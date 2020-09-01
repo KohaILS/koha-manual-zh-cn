@@ -175,10 +175,28 @@ In the tabs below the details you will find your holdings data
 
 |image955|
 
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: holdingst).
+
 Any notes (5xx fields) that have been cataloged will appear under 'Title
 notes'
 
 |image956|
+
+If the bibliographic record is linked to a subscription in the 
+:ref:`Serials module<serials-label>`, there will be a 'Subscriptions' tab 
+with the subscription and issues information.
+
+|image1498|
+
+     **Note**
+
+     -  You can customize the columns of this table in the 
+        :ref:`'Table settings'<column-settings-label>` section of the 
+        Administration module (table id: subscriptionst).
 
 If you're allowing comments they will appear in the next tab
 
