@@ -2265,7 +2265,7 @@ click 'MARC Structure' and then follow the instructions for :ref:`editing fields
 .. _add-fields-to-frameworks-label:
 
 Add fields to frameworks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If a framework doesn't contain a field that you require you may need to add it.
 To add a field to a framework click the 'New tag' button at the top of
@@ -2291,19 +2291,27 @@ Enter the information about your new tag:
 
 -  If this field is mandatory, check the 'Mandatory' box
 
+-  If this field is not mandatory but is important, check the 'Important' box
+
+   -  If the important field is not filled upon saving the record, there will 
+      be a warning, but the user will still be able to save the record
+
+-  You can enter default values for indicators in the 'First indicator default 
+   value' and 'Second indicator default value' field
+
 -  If you want this field to be a pull down with limited possible
    answers, choose which 'Authorized value' list you want to use
 
-When you're finished, click 'Save changes' and your new tag will be displayed in the
-framework field list
+When you're finished, click 'Save changes' and your new tag will be displayed 
+in the framework field list.
 
 |image188|
 
-To the right of the new field is a link to Actions and then 'Subfields', you will need to
-add subfields before this tag will appear in your MARC editor. The
-process of entering the settings for the new subfield is the same as
-those found in the :ref:`editing fields and subfields in frameworks <edit-framework-fields-and-subfields-label>`
-section of this manual
+To the right of the new field is the 'Actions' button which gives you access 
+to edit the subfields. You will need to add subfields to make this tag appear 
+in your MARC editor. The process of entering the settings for the new subfield 
+is the same as those found in the :ref:`editing fields and subfields in 
+frameworks <edit-framework-fields-and-subfields-label>` section of this manual.
 
 .. _edit-framework-fields-and-subfields-label:
 
