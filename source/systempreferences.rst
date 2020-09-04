@@ -9473,6 +9473,30 @@ Description:
 
     |image1191|
 
+
+.. _opacMoreSearches-label:
+
+OpacMoreSearches
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Add additional elements to the "More Searches" bar on the OPAC, 
+with the following HTML (leave blank to disable)
+
+Description:
+
+-  This preference allows you to add more links/searches under the search box at the
+   top of the OPAC.  By default (and depending on system preferences) there is a link for Advanced Search, 
+   Course reserves, Authority search, and Tag cloud.  Any new searches will be added to the left of the already 
+   present links.
+
+An example of the HTML that ould be added to this system preference:
+
+-   <a href="Koha-community.org">Koha Community</a>
+
+On the OPAC, this will display the text Koha Community and link to the Koha Community website.
+
+
+
 .. _opacdisplay856uasimage-label:
 
 OPACDisplay856uAsImage
