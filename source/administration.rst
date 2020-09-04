@@ -2301,6 +2301,10 @@ Enter the information about your new tag:
 
 -  If you want this field to be a pull down with limited possible
    answers, choose which 'Authorized value' list you want to use
+   
+   **Note**
+
+   The authorized value option at field level does not work.
 
 When you're finished, click 'Save changes' and your new tag will be displayed 
 in the framework field list.
@@ -2316,39 +2320,54 @@ frameworks <edit-framework-fields-and-subfields-label>` section of this manual.
 .. _edit-framework-fields-and-subfields-label:
 
 Edit framework fields and subfields
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Frameworks are made up of MARC fields (tags) and subfields. To make edits to a MARC **field** click on Actions then 'Edit'
-to the right of the field
+Frameworks are made up of MARC fields (tags) and subfields. 
+
+Edit a MARC field
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+To make edits to a MARC **field** click on Actions then 'Edit' to the right of 
+the field
 
 |image189|
 
 -  Each field has a tag (which is the MARC tag) that is uneditable
 
-   -  The 'Label for lib' is what will show in the staff client if you
-      have :ref:`advancedMARCeditor` set to display
-      labels
+-  The 'Label for lib' is what will show in the staff client if you have 
+   :ref:`advancedMARCeditor` set to display labels
 
-   -  The 'Label for OPAC' is what will show on the MARC view in the
-      OPAC
+-  The 'Label for OPAC' is what will show on the MARC view in the OPAC
 
-   -  If you check 'Repeatable' then the field will have an icon
-      next to it allowing you to add multiples of that tag
+-  If you check 'Repeatable' then the field will have an icon next to it 
+   allowing you to add multiples of that tag
 
-   -  If you check 'Mandatory' the record cannot be saved unless you
-      have a value assigned to tag.  A 'Required' flag will display as a prompt
+-  If you check 'Mandatory' the record cannot be saved unless the field has a 
+   value. A 'Required' flag will display as a prompt
 
-   -  If you add default values for indicators here these will be
-      pre-filled to save time when cataloguing but can still be edited if required
+-  If you check 'Important', the field will generate a warning if it is not 
+   filled, but unlike 'Mandatory', you will still be able to save your record 
+   nonetheless
 
-   -  'Authorized value' is where you define an :ref:`authorized
-      value <authorized-values-label>` pull down list for your catalogers
+-  If you add default values for indicators here these will be pre-filled to 
+   save time when cataloguing but can still be edited if required
 
-To edit the **subfields** associated with the tag, click Actions then 'Subfields' to the
-right of the tag on the framework field list.  Each subfield has its own tab which contains three
-sections - Basic constraints, Advanced constraints and Other options.
+-  'Authorized value' is where you define an :ref:`authorized value 
+   <authorized-values-label>` pull down list for your catalogers
 
--  For each subfield you can set the following basic constraint values
+   **Note**
+
+   The authorized value option at field level does not work.
+
+Edit a MARC subfield
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+To edit the **subfields** associated with the tag, click 'Actions' then 'Edit 
+subfields' to the right of the tag on the framework field list. Each subfield 
+has its own tab which contains three sections - Basic constraints, Advanced 
+constraints and Other options.
+
+-  For each subfield you can set the following basic constraint options
 
    |image190|
 
@@ -2388,8 +2407,14 @@ sections - Basic constraints, Advanced constraints and Other options.
          given field must be in the same tab or ignored. Ignore means
          that the subfield is not managed.
 
--  For each subfield you can set the following advanced constraint
-   values
+         **Important**
+
+         When :ref:`importing records<stage-marc-records-for-import-label>`, 
+         subfields that are managed in tab 'ignore' will be deleted. If you 
+         still wish to keep the subfields, but hide them, use the 'Visibility' 
+         options below.
+
+-  For each subfield you can set the following advanced constraint options
 
    -  Default value
 
@@ -2469,7 +2494,7 @@ sections - Basic constraints, Advanced constraints and Other options.
              This will update the values in the database columns for all your
              records.
 
--  For each subfield you can set the following Other option values
+-  For each subfield you can set the following Other options
 
    -  Authorized value
 
