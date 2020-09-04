@@ -256,9 +256,12 @@ You can download a blank CSV file with a header from the start page
 of the patron import tool that you can use as a template for your
 patron import. The header contains all fields that can be used with
 the patron import tool. You can delete fields and columns you don't need
-with the exception of a few mandatory ones.
+with the exception of a few mandatory ones. When overlaying, if your new .csv 
+includes blank columns, any existing values in patron records will be overwritten 
+with blanks. It is best to remove any blank columns in a .csv to ensure no existing data
+is removed.
 
-    **Important**
+ **Important**
 
     cardnumber, surname, and all fields you have
     defined in the :ref:`BorrowerMandatoryField`
