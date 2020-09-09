@@ -1754,11 +1754,17 @@ tab.
    -  The full amount of the fine will be populated for you in the
       "Collect from patron" box
 
+   -  There is a change feature included in this payment process. An option to   
+      specify how much money was collected when paying a fine, as well as defining how 
+      much was paid on the fine. If these numbers are different (i.e. more money was 
+      collected) a popup displaying the amount of change to be given will be displayed and  
+      require confirmation before proceeding
+
    -  If one or more values are defined under the PAYMENT\_TYPE authorized value
       category a dropdown selection box will be displayed to specify a custom
       payment type
 
-      |image452|
+      |image1501|
 
    -  If the :ref:`UseCashRegisters` system preference is enabled, you will
       have a choice of cash register in which to enter the transaction
