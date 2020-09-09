@@ -59,7 +59,10 @@ ask you to choose which patron you want to check out to.
 
      -  You can customize the columns of this table in the 
         :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: table_borrowers)
+        Administration module- Under Circulation Tab (table id: table_borrowers)
+     -  Check mark which columns to hide by default, uncheck columns that should display.
+
+   |image1502|
 
 -  Check out option on the patron record
 
