@@ -2794,12 +2794,18 @@ vendors/sources work with your MARC framework. The system essentially
 allows one to create a basic script using actions to Copy, Move, Add,
 Update and Delete fields.
 
-Start by adding a new template (a template can be made up of one or more
-actions) by entering a name and clicking 'Create template'.
+|image1501|
+
+Click on 'New template' (a template can be made up of one or more
+actions), enter a name and click 'Submit'. Optionally, you can decide 
+to copy an existing template by choosing the template to copy in the 
+'Duplicate a template' drop-down menu.
 
 |image338|
 
-Next you can add actions to the template by filling in the Action box.
+Next you can add actions to the template. Click on 'New action'. 
+A 'Add a new action' box will appear that you can use to specify what 
+exactly you want to do.
 For example if you're loading in a batch of files from your EBook vendor
 you might want to add the biblio item type of EBOOK to the 942$c.
 
@@ -2832,7 +2838,7 @@ number to the item record if it's not already there.
 -  Decide if you want to copy the first occurrence or all occurrence of
    the field
 
--  Enter the field 090 (or other biblio call number field) and subfield
+-  Enter the field 090 (or other bibliographic call number field) and subfield
    a to copy
 
 -  Enter the 952 field and o subfield to copy to
@@ -2935,17 +2941,23 @@ Actions can be moved around using the arrows to the left of them.
 
 |image341|
 
-Depending on your actions the order may be very important. For example
-you don't want to delete a field before you copy it to another field.
+Actions will be done in the order they appear. Depending on your actions 
+the order may be very important. For example you don't want to delete a field 
+before you copy it to another field. You can use the blue arrows to move 
+actions up or down the list.
 
-To add another template you can either start fresh or click the
-'Duplicate current template' checkbox to create a copy of an existing
-template to start with.
+-  The up arrow will move the action up one position
 
-|image342|
+-  The up arrow with a line at the top will move the action to the first position
+
+-  The down arrow with a line at the bottom will move the action to the last position
+
+-  The down arrow will move the action down one position
 
 Once your template is saved you will be able to pick it when using the
-:ref:`Stage MARC records for import` tool.
+:ref:`Stage MARC records for import <stage-marc-records-for-import-label>` tool 
+or when using the :ref:`batch record modification <batch-record-modification-label>` 
+tool.
 
 |image343|
 
