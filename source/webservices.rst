@@ -379,3 +379,39 @@ in a patron record.
 
 5. Clicking the Revoke button next to an API credential pair will render the
    specific credential pair inactive until reactivated
+
+
+
+Barcode image generator
+-----------------------------
+
+Koha provides a barcode image generator on both the staff interface and the public interface. Both require a user to be logged in to use the service, to prevent abuse by third parties.
+
+For example::
+    /cgi-bin/koha/svc/barcode?barcode=123456789&type=UPCE
+
+The URL above will generate a barcode image for the barcode "123456789", using the UPCE barcode format.
+
+The available barcode types are:
+* Code39
+* UPCE
+* UPCA
+* QRcode
+* NW7
+* Matrix2of5
+* ITF
+* Industrial2of5
+* IATA2of5
+* EAN8
+* EAN13
+* COOP2of5
+
+If no type is specified, Code39 will be used.
+
+By default, the barcode image will contain the text of the barcode as well. If this is not desired, the parameter "notext" may be passed to supress this behavior.
+
+For example::
+    /cgi-bin/koha/svc/barcode?barcode=123456789&notext=1
+will generate a barcode image 123456789 without the text "123456789" below it.
+
+This service can be used to embed barcode images into slips and notices printed from the browser, and to embed a patron cardnumber into the OPAC, among other possibilities.
