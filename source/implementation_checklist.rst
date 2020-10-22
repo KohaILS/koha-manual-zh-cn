@@ -8,7 +8,7 @@ Implementation checklist
 The following guide will walk you through the areas of Koha you need to
 look at in order to prepare to start using the system.
 
-It is not an exhaustive list of everything you need to do. Please consider your own library practices and what other checks you may need to do for your own libary and context.
+It is not an exhaustive list of everything you need to do. Please consider your own library practices and what other checks are necessary for your own libary and context.
 
 .. _data-migration-label:
 
@@ -29,13 +29,13 @@ bit for importing into Koha.
    codes into :ref:`Patron categories`
 
 -  Enter any additional patron information fields you use in your
-   library in the :ref:`Patron Aatributes <patron-attribute-types-label>`
+   library in the :ref:`Patron attributes <patron-attribute-types-label>`
 
    -  Requires that you first set the
       :ref:`ExtendedPatronAttributes` system
       preference if you have custom fields
 
--  Define all of your :ref:`Authorized Values`
+-  Define all of your :ref:`Authorized values`
 
    -  `Collection codes <#ccode>`__
 
@@ -865,4 +865,4 @@ your system live:
 
 -  Decide on URLs for your new Koha OPAC & Staff Client and arrange for these to be cut-over if using existing system URLs, or created if they are new URLs
 
--  Make sure that if you're hosting your own system you have a process in place to back-up your system data
+-  Make sure that if you're hosting your own system you have a process in place to back-up your system data.
