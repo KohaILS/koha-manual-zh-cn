@@ -3629,15 +3629,15 @@ person)
 
 .. _task-scheduler-label:
 
-Task Scheduler
+Task scheduler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  *Get there:* More > Tools > Additional Tools > Task Scheduler
+-  *Get there:* More > Tools > Additional tools > Task scheduler
 
 The task scheduler is a way to schedule reports to run whenever you
 want.
 
-To schedule a task, visit the Task Scheduler and fill in the form
+To schedule a task, visit the task scheduler and fill in the form
 
 |image392|
 
