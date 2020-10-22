@@ -2,15 +2,17 @@
 
 .. _implementation-checklist-label:
 
-Implementation Checklist
+Implementation checklist
 ========================
 
 The following guide will walk you through the areas of Koha you need to
 look at in order to prepare to start using the system.
 
+It is not an exhaustive list of everything you need to do. Please consider your own library practices and what other checks you may need to do for your own libary and context.
+
 .. _data-migration-label:
 
-Data Migration
+Data migration
 -----------------------------------
 
 Before you can start using Koha you'll need to have some data. This can
@@ -24,10 +26,10 @@ bit for importing into Koha.
 -  Define your list of :ref:`Item Types`
 
 -  Define your patron categories and enter the categories and their
-   codes into :ref:`Patron Categories`
+   codes into :ref:`Patron categories`
 
 -  Enter any additional patron information fields you use in your
-   library in the :ref:`Patron Attributes <patron-attribute-types-label>`
+   library in the :ref:`Patron Aatributes <patron-attribute-types-label>`
 
    -  Requires that you first set the
       :ref:`ExtendedPatronAttributes` system
@@ -87,16 +89,16 @@ bit for importing into Koha.
 
 .. _admin-configuration-label:
 
-Admin Configuration
+Admin configuration
 -----------------------------------
 
 Most of these preferences won't need to be changed to use your Koha
 system, but there are a few that you might want to customize.
 
--  If your library uses CAS Authentication, you'll want to set the
+-  If your library uses CAS authentication, you'll want to set the
    various :ref:`CAS system preferences <cas-authentication-label>`
 
--  Administration System Preferences
+-  Administration system preferences
 
    -  :ref:`KohaAdminEmailAddress` : This is the
       email address that will be used by the system in 'from' lines and
@@ -117,7 +119,7 @@ system, but there are a few that you might want to customize.
    -  :ref:`IndependentBranches` : Prevent
       librarians from editing content that belongs to other branches
 
--  Go through the :ref:`Log System Preferences <logs-label>` and decide which
+-  Go through the :ref:`Log system preferences <logs-label>` and decide which
    actions you want to keep track of in the logs
 
 -  Decide if you'd like to share your library's information with the
@@ -134,7 +136,7 @@ system, but there are a few that you might want to customize.
 
 .. _localization-configuration-label:
 
-Localization Configuration
+Localization configuration
 ------------------------------------------
 
 Koha is used worldwide and so you need to make sure you set your
@@ -171,7 +173,7 @@ rules and preferences for circulation.
 -  Enter the :ref:`days your library is closed <calendar-label>` for fines
    and due date calculations
 
--  Circulation System Preferences
+-  Circulation system preferences
 
    -  :ref:`CircControl` : Define whether circ rules are
       based on item's location, patron's location or transaction
@@ -306,7 +308,7 @@ rules and preferences for circulation.
 
 -  Customize your :ref:`Notices & slips`
 
--  Define your :ref:`Overdue Notice Triggers <overdue-notice/status-triggers-label>`
+-  Define your :ref:`Overdue notice triggers <overdue-notice/status-triggers-label>`
 
 -  Set up your :ref:`cron jobs <cron-jobs-label>`
 
@@ -340,7 +342,7 @@ rules and preferences for circulation.
 
 .. _patron-configuration-label:
 
-Patron Configuration
+Patron configuration
 ---------------------------------------
 
 You have already imported patron data from your old system, but there
@@ -351,7 +353,7 @@ accounts.
 
    -  Define :ref:`staff members access permissions <patron-permissions-label>`
 
--  Patron System Preferences
+-  Patron system preferences
 
    -  :ref:`autoMemberNum` : Decide if the patrons
       barcodes are auto-generated or if you enter them yourself
@@ -406,7 +408,7 @@ accounts.
 
 .. _cataloging-configuration-label:
 
-Cataloging Configuration
+Cataloging configuration
 ------------------------------------------
 
 Before you start cataloging in Koha you'll want to set up your
@@ -430,7 +432,7 @@ preferences and other rules.
 -  Set up the :ref:`Z39.50 targets <z39.50/sru-servers-label>` you want to search for
    cataloging (and acquisitions)
 
--  Cataloging System Preferences
+-  Cataloging system preferences
 
    -  :ref:`URLLinkText` : Enter text to display when 856
       fields do not have pre-defined labels
@@ -468,7 +470,7 @@ preferences and other rules.
 
 .. _authorities-configuration-label:
 
-Authorities Configuration
+Authorities configuration
 -----------------------------------------------
 
 Koha has the ability to keep track of your authority records and how
@@ -477,7 +479,7 @@ you should configure several preferences.
 
 -  Set :ref:`Authority Frameworks <authority-types-label>` aka templates
 
--  Authority System Preferences
+-  Authority system preferences
 
    -  :ref:`BiblioAddsAuthorities` : Decide if
       Koha creates authorities when cataloging
@@ -504,7 +506,7 @@ you should configure several preferences.
 
 .. _searching-configuration-label:
 
-Searching Configuration
+Searching configuration
 -------------------------------------------
 
 There are several system preferences related to searching, it is not
@@ -518,7 +520,7 @@ system preferences <searchingsystem-preferences-label>` tab.
    -  Decide how often your :ref:`system rebuilds the search
       index <cron-rebuild-index-label>` (4-10 min)
 
--  Searching System Preferences
+-  Searching system preferences
 
    -  :ref:`AdvancedSearchTypes` : Decide which
       authorized value fields you want patrons and staff to be able to
@@ -542,7 +544,7 @@ system preferences <searchingsystem-preferences-label>` tab.
 
 .. _opac-configuration-label:
 
-OPAC Configuration
+OPAC configuration
 ---------------------------------
 
 There are a lot of ways you can customize your OPAC in Koha.
@@ -560,7 +562,7 @@ There are a lot of ways you can customize your OPAC in Koha.
 -  Create a custom XSLT stylesheet to change the way search results and
    bib records appear in the OPAC
 
--  OPAC System preferences
+-  OPAC system preferences
 
    -  :ref:`OPACBaseURL` : Enter your library's url
 
@@ -691,7 +693,7 @@ There are a lot of ways you can customize your OPAC in Koha.
 
 .. _editable-opac-regions-label:
 
-Editable OPAC Regions
+Editable OPAC regions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Using the OPAC system preferences you can customize various regions, the
@@ -702,7 +704,7 @@ regions in the Bootstrap theme.
 
 .. _enhanced-content-configuration-label:
 
-Enhanced Content Configuration
+Enhanced content configuration
 -------------------------------------------------
 
 Koha allows you to pull in content from outside sources to enhance your
@@ -783,7 +785,7 @@ enhanced content system preferences.
 
 .. _acquisitions-configuration-label:
 
-Acquisitions Configuration
+Acquisitions configuration
 ----------------------------------------
 
 When using acquisitions in Koha you first need to define some defaults.
@@ -799,7 +801,7 @@ When using acquisitions in Koha you first need to define some defaults.
    you're going to enter item records at the time of ordering or
    receiving)
 
--  Acquisitions System preferences
+-  Acquisitions system preferences
 
    -  :ref:`AcqCreateItem` : Decide if an item record is
       created during acquisition
@@ -815,12 +817,12 @@ When using acquisitions in Koha you first need to define some defaults.
 
 .. _serials-configuration-label:
 
-Serials Configuration
+Serials configuration
 ---------------------------------------
 
 When you use serials there are a few options you can set before hand.
 
--  Serials System Preferences
+-  Serials system preferences
 
    -  :ref:`RenewSerialAddsSuggestion` :
       Decide if you want renewing serials to add a suggestion for easy
@@ -832,7 +834,7 @@ When you use serials there are a few options you can set before hand.
    -  :ref:`RoutingListAddReserves` : Decide if
       holds are placed on serials when there is a routing list in place
 
--  Cataloging System Preferences
+-  Cataloging system references
 
    -  :ref:`StaffSerialIssueDisplayCount` :
       Decide how many of the most recent issues to display in the staff
@@ -846,22 +848,21 @@ When you use serials there are a few options you can set before hand.
 
 .. _planning-for-go-live-label:
 
-Planning for Go-Live
+Planning for go-live
 -------------------------------------
 
 Once you have all of your settings ready, you need to prepare for making
 your system live:
 
--  Decide if you need training by an outside service or if your staff
+-  Decide if you need training by an outside service provider or if your staff
    can do the training themselves.
 
 -  Make sure that there is time for your staff to play with your test
    system and get comfortable with it
 
 -  If this is a migration, work with your previous company to extract
-   data right before you go live
+   data right before you go-live
 
--  Come up with URLs for your new Koha OPAC & Staff Client
+-  Decide on URLs for your new Koha OPAC & Staff Client and arrange for these to be cut-over if using existing system URLs, or created if they are new URLs
 
--  Make sure that if you're hosting your own system you have a backup
-   plan
+-  Make sure that if you're hosting your own system you have a process in place to back-up your system data
