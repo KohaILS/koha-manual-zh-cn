@@ -41,7 +41,7 @@ library. For a later date!
 
 .. _keyword-clouds-label:
 
-Keyword Clouds
+Keyword clouds
 -----------------------------------------
 
 In addition to the traditional tag cloud available in Koha, there is a
@@ -66,7 +66,7 @@ integrating them into navigation widgets or pages.
 
 .. _newest-titles-pulldown-label:
 
-Newest Titles Pulldown
+Newest titles pulldown
 ---------------------------------------------
 
 Often we want to add a way for our patrons to do searches for the newest
@@ -206,10 +206,10 @@ output:
 
 ::
 
-    /* JS for Koha CoverFlow Plugin
-     This JS was added automatically by installing the CoverFlow plugin
+    /* JS for Koha coverflow plugin
+     This JS was added automatically by installing the coverflow plugin
      Please do not modify */$(document).ready(function(){$.getScript("/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/jquery-flipster/src/js/jquery.flipster.min.js",function(data,textStatus,jqxhr){$("head").append("<link id='flipster-css' href='/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/jquery-flipster/src/css/jquery.flipster.min.css' type='text/css' rel='stylesheet' />");$('#coverflow').load("/coverflow.pl?id=42",function(){var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#coverflow').flipster({style:'coverflow',});});});});
-    /* End of JS for Koha CoverFlow Plugin */
+    /* End of JS for Koha coverflow plugin */
 
 Why do this? For speed! Rather than regenerating this code each and
 every time the page loads, we can generate it once, and use it over and
@@ -247,7 +247,7 @@ mobile platforms as well, and are even touch responsive!
 
 .. _cataloging-and-searching-by-color-label:
 
-Cataloging and Searching by Color
+Cataloging and searching by color
 ----------------------------------------------------
 
 One of the icon sets installed in Koha includes a series of colors. This
@@ -455,9 +455,9 @@ Editing the pages template
 
                [% IF ( page_test ) %]<div id="opacmainuserblock">[% page_test %]</div>[% END %]
 
-Remark: You may wish to disable your News block of these CMS style pages
+Remark: You may wish to disable your news block of these CMS style pages
 e.g. when you do not want it displayed on the CMS style pages or where
-the News block is long enough that it actually makes the 'page\_test'
+the news block is long enough that it actually makes the 'page\_test'
 include scroll outside the default viewport dimensions. In that case,
 remove the following code from your pages.tt template.
 
@@ -486,7 +486,7 @@ opac-main.pl.
 
 .. _bonus-points-label:
 
-Bonus Points
+Bonus points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Instead of using the address
@@ -510,15 +510,15 @@ instructions:
 
 .. _adding-pages-label:
 
-Adding Pages
+Adding pages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To add a new page you need to add a system preference under Local Use.
 
--  Get there: More > Administration > Global System Preferences > Local
-   Use
+-  Get there: More > Administration > Global system preferences > Local
+   use
 
--  Click 'New Preference'
+-  Click 'New preference'
 
 -  Enter in a description in the Explanation field
 
@@ -528,7 +528,7 @@ To add a new page you need to add a system preference under Local Use.
 
    |image1076|
 
--  Set the Variable Type to Textarea
+-  Set the Variable type to Textarea
 
 -  Set the Variable options to something like 20\|20 for 20 rows and 20
    columns
@@ -550,13 +550,13 @@ part you entered after 'page\_' in the Variable field.
 
 This process can be used to create recommended reading lists within
 Koha. So once the code changes have been made per the instructions on
-'Koha as a CMS' you go through the 'Adding a New Page' instructions
-above to great a page for 'Recommended Reading Lists'
+'Koha as a CMS' you go through the 'Adding a new page' instructions
+above to great a page for 'Recommended reading lists'
 
 |image1078|
 
 Next we need to create pages for our various classes (or categories). To
-do this, return to the 'Adding a New Page' section and create a
+do this, return to the 'Adding a new page' section and create a
 preference for the first class.
 
 |image1079|
@@ -569,7 +569,7 @@ the HTML to include a link to your newest page:
 
 .. _live-examples-label:
 
-**Live Examples**
+**Live examples**
 
 -  The Crawford Library at Dallas Christian College is using this method
    for their recommended reading lists: http://opac.dallas.edu/
