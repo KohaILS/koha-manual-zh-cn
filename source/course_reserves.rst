@@ -2,7 +2,7 @@
 
 .. _course-reserves-label:
 
-Course Reserves
+Course reserves
 ===============
 
 The course reserves module in Koha allows you to temporarily move items
@@ -11,10 +11,10 @@ they are being used for a specific course.
 
 .. _course-reserves-setup-label:
 
-Course Reserves Setup
+Course reserves setup
 ----------------------------------------
 
-Before using Course Reserves you will need to do some set up.
+Before using course reserves you will need to do some set up.
 
 First you will need to enable course reserves by setting the
 :ref:`UseCourseReserves` preference to 'Use'.
@@ -34,10 +34,10 @@ for your new item types (whether they be hourly or daily loans).
 
 .. _adding-courses-label:
 
-Adding Courses
+Adding courses
 -----------------------------------
 
-Once you have completed your set up for Course Reserves you can start
+Once you have completed your set up for course reserves you can start
 creating courses and adding titles to the reserve list.
 
 |image726|
@@ -47,7 +47,7 @@ the 'New course' button at the top left.
 
 |image727|
 
-Your new course will need a Department, Number and Name at the bare
+Your new course will need a department, number and name at the bare
 minimum. You can also add in additional details like course section
 number and term. To link an instructor to this course simply start
 typing their name and Koha will search your patron database to find you
@@ -78,7 +78,7 @@ and be searchable by any field in the course.
 
 .. _adding-reserve-materials-label:
 
-Adding Reserve Materials
+Adding reserve materials
 -------------------------------------------
 
 Before adding reserve materials you will need at least one course to add
@@ -124,11 +124,11 @@ item type, collection code, shelving location or holding library, if needed.
 
 .. _course-reserves-in-the-opac-label:
 
-Course Reserves in the OPAC
+Course reserves in the OPAC
 -----------------------------------------------------
 
-Once you have enabled Course Reserves and added courses you will see a
-link to Course Reserves below your search box in the OPAC.
+Once you have enabled course reserves and added courses you will see a
+link to course reserves below your search box in the OPAC.
 
 |image735|
 
