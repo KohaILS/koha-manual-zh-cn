@@ -2,12 +2,12 @@
 
 .. _koha-installation-process-label:
 
-Introduction to the Koha Installation Process
+Introduction to the Koha installation process
 ================================================
 
-This is the Koha Installation Manual
+This is the Koha installation manual.
 
-The Koha Library Management System installation process uses 2 tools:
+The Koha installation process uses 2 tools:
 
 * Web installer
 * Onboarding tool
@@ -20,9 +20,9 @@ The web installer sets up the database tables that store the all the data you wo
 
 The web installer starts with a login screen for you to enter the database administrator account credentials.
 
-The installer will then create the tables and fill the tables with data. The next step in the process is to set up a few mandatory first use settings, via the Onboarding tool.
+The installer will then create the tables and fill the tables with data. The next step in the process is to set up a few mandatory first use settings, via the onboarding tool.
 
-What is the Koha Onboarding tool?
+What is the Koha onboarding tool?
 _________________________________
 
 The onboarding tool makes sure you have at least one library, patron category, patron, item type and circulation rule before you start using Koha.
@@ -31,19 +31,19 @@ If you installed sample data for library, patron category, and/or item type then
 
 You will, however, always have to create a patron (to log into the staff interface at the end of the onboarding tool) and a circulation rule.
 
-Web Installer
+Web installer
 ====================
 
 Web installer login
 ________________________
 
-**Web Installer login**
+**Web installer login**
 
 This login screen is the first screen that appears when installing Koha.
 
    |image1152|
 
-   Web Installer login
+   Web installer login
 
 1. **Koha version name**: This will display whatever Koha version number you are installing.
 
@@ -56,7 +56,7 @@ This login screen is the first screen that appears when installing Koha.
 Language picker
 ___________________
 
-**Installer Start screen**
+**Installer start screen**
 
 This is the first screen of the web installer.
 
@@ -71,7 +71,7 @@ This is the first screen of the web installer.
 
 2. Click the *Continue to the next step* button to load the next stage of the web installer.
 
-Installer Perl Modules Installed
+Installer perl modules installed
 ___________________________________
 
 This screen tells you that the installer has all the dependencies it needs, to create the database in the next screen.
@@ -82,7 +82,7 @@ This screen tells you that the installer has all the dependencies it needs, to c
 
 Click on the *Continue to the next step* button to load the next stage of the web installer.
 
-Database Settings
+Database settings
 __________________________
 
 This screen informs you of the database settings and asks you to confirm them by clicking the *Continue to the next step* button.
@@ -94,12 +94,12 @@ This screen informs you of the database settings and asks you to confirm them by
 
 Database settings
 
-1. **Database Settings:** Check these database settings are correct.
+1. **Database settings:** Check these database settings are correct.
 2. Click the *Continue to the next step* button to confirm the database settings
 
 ----------------------------------------------------------------------------------------
 
-**Connection Established**
+**Connection established**
 
 After you click the *Next* button the database connection is confirmed:
 
@@ -173,13 +173,13 @@ _______________
 
 MARC21 setup
 
-1. **Default MARC21 Standard Authority Types:** An authority type is a template of an authority record (stores the search fields used to search an institutions catalog for an item). This option will install sample authority types.
+1. **Default MARC21 standard authority types:** An authority type is a template of an authority record (stores the search fields used to search an institutions catalog for an item). This option will install sample authority types.
 
 2. **Default MARC21 bibliographic framework:** Following on from the MARC21 selection in the previous screen selecting this checkbox (and the *Import* button) will actually setup the MARC21 bibliographic framework as the desired MARC flavour.
 
 3. **Selected matching rules for MARC21 bibliographic records:** The MARC21 matching rules are used to find all the information about specific bibliographic records using the authority type search values.
 
-4. **'FA', a 'Fast Add' minimal MARC21 framework suitable for ILL, or on the fly cataloging:** The FA MARC framework displays fewer fields, and allows for faster cataloguing on the fly. Select this checkbox to install this minimal framework.
+4. **'FA', a 'fast add' minimal MARC21 framework suitable for ILL, or on the fly cataloging:** The FA MARC framework displays fewer fields, and allows for faster cataloguing on the fly. Select this checkbox to install this minimal framework.
 
 5. **Sample MARC21 bibliographic frameworks for some common types of bibliographic material:** This installs the template you will use to create items.
 
@@ -187,7 +187,7 @@ MARC21 setup
 
 7. **Default classification sources and filling rules:** This will insert several common library classification sources such as dewey decimal.
 
-8. **Defines default message transports for email and sms:** This provides the option to the user of being able to change how the library contacts them. They can choose from the following: email address, printed message, sms, or phone call. Notices will not work without these.
+8. **Defines default message transports for email and SMS:** This provides the option to the user of being able to change how the library contacts them. They can choose from the following: email address, printed message, SMS, or phone call. Notices will not work without these.
 
 9. **Patron attributes:** This does not install any data, and it needs to be removed.
 
@@ -195,7 +195,7 @@ MARC21 setup
 
 11. **Sample notices:** This inserts sample notices into the database, meaning all you have to do is customize these sample notices before you use them. Creating these by hand can be very time consuming and error prone.
 
-12. **Defines default messages for the enhanced messaging configuration:** The enhanced messaging configuration lets the user choose what messages they receive from the institution. Selecting this will insert sample message types for the Due, Predue, and Advance notice message types.
+12. **Defines default messages for the enhanced messaging configuration:** The enhanced messaging configuration lets the user choose what messages they receive from the institution. Selecting this will insert sample message types for the due, predue, and advance notice message types.
 
 13. **Defines default message transports for sending item due messages and advance notice messages through email and SMS:** This inserts the SMS and email transport types. Mandatory if you want to send notices by email or SMS.
 
@@ -203,25 +203,25 @@ MARC21 setup
 
 15. **Some basic default authorised values for library locations, item lost status, etc. You can change these at any time after installation:** This installs authorised values, which filter user inputs, to make sure they match specified criteria before the library or other object is created.
 
-16. **CSV profiles:** Using Koha you can export items. The CSV profile defines how you want to export the item(s). CSV/Tab exports will not work without these.
+16. **CSV profiles:** Using Koha you can export items. The CSV profile defines how you want to export the item(s). CSV/tab exports will not work without these.
 
 17. **Coded values conforming to the Z39.71-2006 holdings statements for bibliographic items:** Not required to use Koha. A holding statement tells the user if the library has a specific item and where it is located. Selecting will install sample code values for items in the holding statements.
 
 18. **MARC code list for relators:** Not required to use Koha. A relator is a person who was involved in the development of the item (e.g. author). Selecting this will insert sample relator records into the database.
 
-19. **Some basic currencies with USA dollar as default for ACQ module:** Install US dollar, Great British Pound, Canadian Dollar and Euro currencies. Set the US dollar as the default acquisition currency. Not installing these will mean that a currency will need to be defined before Acquisitions can be used.
+19. **Some basic currencies with USA dollar as default for ACQ module:** Install US dollar, Great British Pound, Canadian Dollar and Euro currencies. Set the US dollar as the default acquisition currency. Not installing these will mean that a currency will need to be defined before acquisitions can be used.
 
 20. **Useful patron attribute types:** Not required to use Koha. Patrons have a barcode which identifies them. By clicking this checkbox you are making sure that this patron barcode is displayed on the patron summary screen.
 
-21. **Sample patron types and categories:** Not required to use Koha. Selecting this will install sample patron categories into the database. This will mean the Create patron category step in the onboarding tool is skipped.
+21. **Sample patron types and categories:** Not required to use Koha. Selecting this will install sample patron categories into the database. This will mean the create patron category step in the onboarding tool is skipped.
 
 22. **Sample label and patron card data:** Not required to use Koha, but recommended for most new installs. Selecting this will install sample data for labels and patron cards and will make it easier to create a labels and patron cards in the future.
 
 23. **Sample holidays: Sunday, Christmas, New Year’s** Not required to use Koha. Selecting this will insert sample repeatable public holidays (e.g. Christmas) into the database.
 
-24. **A set of default item types:** Not required for Koha. Selecting this will insert sample item type data into the database, meaning Create Item type step in the onboarding tool will be skipped.
+24. **A set of default item types:** Not required for Koha. Selecting this will insert sample item type data into the database, meaning the create item type step in the onboarding tool will be skipped.
 
-25. **Sample Libraries:** Not required for Koha. Selecting this will insert sample libraries into the database. Developers will often want this for demo or development purposes. Selecting this means the Create library step in the onboarding tool will be skipped.
+25. **Sample libraries:** Not required for Koha. Selecting this will insert sample libraries into the database. Developers will often want this for demo or development purposes. Selecting this means the create library step in the onboarding tool will be skipped.
 
 26. **Sample news items:** Not required for Koha. Selecting this will insert sample news items that are displayed on the OPAC (Online Public Access Catalog) and staff client into the database.
 
@@ -233,30 +233,30 @@ MARC21 setup
 
 30. Click the *Import* button to install the default and selected data values.
 
-Unimarc setup
+UNIMARC setup
 __________________________________
 
-There are only 2 data values in the Unimarc advanced setup which are unique:
+There are only two data values in the UNIMARC advanced setup which are unique:
 
-* Authority Structure for UNIMARC in English
+* Authority structure for UNIMARC in English
 * Default UNIMARC bibliographic framework in English
 
-.. note::  Optional values are the same for both Unimarc and MARC21, therefore their definition will not be repeated.
+.. note::  Optional values are the same for both UNIMARC and MARC21, therefore their definition will not be repeated.
 
 |image1175|
 
-Unimarc setup
+UNIMARC setup
 
-1. *Authority structure for UNIMARC in English:* Authority records store the search terms used to find items in the database. Unlike MARC21, when using Unimarc the authority structure needs to be compatible with Unimarc. Selecting this option makes it compatible.
+1. *Authority structure for UNIMARC in English:* Authority records store the search terms used to find items in the database. Unlike MARC21, when using UNIMARC the authority structure needs to be compatible with UNIMARC. Selecting this option makes it compatible.
 
-2. *Default UNIMARC bibliographic framework in English:* In the previous screen you clicked to use the Unimarc flavour, now by selecting this option you are confirming you want to use that framework.
+2. *Default UNIMARC bibliographic framework in English:* In the previous screen you clicked to use the UNIMARC flavour, now by selecting this option you are confirming you want to use that framework.
 
 3. Click the *Import* button to install the sample data
 
 Selected data added
 ____________________
 
-After you have clicked the *Import* button in either the MARC21 or UNIMARC setup screen this screen will appear. It shows you if the selected/default  data values were successfully inserted into the database.
+After you have clicked the *Import* button in either the MARC21 or UNIMARC setup screen this screen will appear. It shows you if the selected/default data values were successfully inserted into the database.
 
    |image1176|
 
@@ -264,7 +264,7 @@ After you have clicked the *Import* button in either the MARC21 or UNIMARC setup
 
 1. **Optional data added:** If you selected an optional data value then it will be displayed here. If you did not choose any optional data value then the **optional data added** title will not be displayed.
 
-2. **Mysql data added:** These data values will always be installed and consequently displayed on this screen.
+2. **MySQL data added:** These data values will always be installed and consequently displayed on this screen.
 
 3. **Mandatory data added:** Same as above.
 
@@ -299,7 +299,7 @@ A library in Koha is the digital representation of a "physical" place. More libr
 
 1. **Library code:** code consisting of up to 10 letters.
 2. **Name:** Official name of the library, as it is commonly known.
-3. **Create more libraries:** If more libraries are required, or changes need to be made to this freshly created library, go to Administration->Libraries and groups
+3. **Create more libraries:** If more libraries are required, or changes need to be made to this freshly created library, go to Administration -> Libraries and groups
 4. Click the *Submit* button to create a library.
 
 For example:
@@ -334,15 +334,15 @@ A patron category requires:
 
 3. **Description:** Sentence describing what the patron category is.
 
-4. *Overdue notice required* dropdown button: Set by default to 'No'. This specifies if you want the patron category to receive overdue notices.
+4. *Overdue notice required* dropdown button: Set by default to 'no'. This specifies if you want the patron category to receive overdue notices.
 
 5. **Category type:** This makes the category created a staff member.
 
-6. **Default privacy:** Set by default to 'Default'. The Default privacy controls the amount of time that the reading history of the patron is stored for.
+6. **Default privacy:** Set by default to 'default'. The Default privacy controls the amount of time that the reading history of the patron is stored for.
 
-7. **Enrolment period-In months:** This is the number of months that the patrons created from this patron category are enrolled for.
+7. **Enrolment period - in months:** This is the number of months that the patrons created from this patron category are enrolled for.
 
-8. **Enrolment period-Until date:** Select a date from the interactive datepicker calendar icon which appears when you click on this input box. The date you choose will be the enrolment end date for patrons created from this patron category.
+8. **Enrolment period - until date:** Select a date from the interactive datepicker calendar icon which appears when you click on this input box. The date you choose will be the enrolment end date for patrons created from this patron category.
 
 9. **Path to create patron category:** More patron categories can be created or altered by going to Administration -> Patron categories.
 
@@ -362,7 +362,7 @@ A superlibrarian patron user is required to log into the Koha staff interface, o
 You will need to input/select:
 
 * Surname
-* First Name
+* First name
 * Card number
 * Library
 * Patron category
@@ -376,7 +376,7 @@ You will need to input/select:
 1. **Patron category creation message:** This indicates that if the patron category was created successfully.
 2. **Surname:** Surname, or something descriptive
 3. **First name:** First name, or something descriptive
-4. **Card Number:** This number must be unique
+4. **Card number:** This number must be unique
 5. *Library* dropdown box: If a library has been created using this onboarding tool, it will be the only option. Otherwise select a random library from the sample libraries installed by the web installer.
 6. *Patron category* dropdown box: If a patron category was created using this onboarding tool, it will be the only option. Otherwise select the *Staff* patron category.
 7. **Superlibrarian permission:** This non-editable setting allows access to all librarian and web based Koha administration tasks in the staff interface. This user is the most powerful user in any Koha, so protect the credentials well.
@@ -384,8 +384,8 @@ You will need to input/select:
 9. **Password:** A password consisting of letters, numbers, and spaces only which is greater than 8 characters.
 10. **Confirm password:** Repeat the above password again
 11. Click the *Submit* button to create the patron account
-12. **Path to create patron:** Patron's can be created or altered by going to Patrons->New patron
-13. **Assign patron permissions:** After creating a patron go More->Set permissions to assign permissions.
+12. **Path to create patron:** Patron's can be created or altered by going to Patrons -> New patron
+13. **Assign patron permissions:** After creating a patron go More -> Set permissions to assign permissions.
 
 For example:
 
@@ -393,7 +393,7 @@ For example:
 
    Create a patron example
 
-Create a Item type
+Create an item type
 ______________________
 
 If you did not install sample item types in the web installer then this screen will be displayed.
@@ -421,9 +421,9 @@ For example:
 
    Create item type example
 
-.. note:: The regular expression filtering Item Type code input will only accept letters.
+.. note:: The regular expression filtering item type code input will only accept letters.
 
-Create a Circulation Rule
+Create a circulation rule
 ______________________________
 
 This screen will always be displayed no matter what sample data you installed with the web installer.
@@ -438,17 +438,17 @@ Here you are creating a rule which applies the pre-defined organisational decisi
   Numbers are the only valid input for all input fields in this form.
 
 1. **Item type creation message:** Indicates if the item type was created successfully
-2. *Library branch* dropdown box: This is the library (or libraries) you want to apply the circulation rule to. By default it is set to *All*, however you can select a singular library to apply the rule to from the dropdown box.
-3. *Patron categories* dropdown box: This is the patron categories you want to apply the circulation rule to. As with *Library branch* it is set to *All* by default but more options are avaliable.
-4. *Item type* dropdown box: This is the item types that you want the circulation rule to apply to. Again more options are avaliable than the default selected *All* option.
+2. *Library branch* dropdown box: This is the library (or libraries) you want to apply the circulation rule to. By default it is set to *all*, however you can select a singular library to apply the rule to from the dropdown box.
+3. *Patron categories* dropdown box: This is the patron categories you want to apply the circulation rule to. As with *library branch* it is set to *all* by default but more options are avaliable.
+4. *Item type* dropdown box: This is the item types that you want the circulation rule to apply to. Again more options are avaliable than the default selected *all* option.
 5. **Current checkouts allowed:** This is the number of items allowed from the selected library, for selected patron categories and of the selected item type. Set to 50 by default.
 6. **Loan period:** Number of days or hours that an item is allowed out for. Set to 14 by default.
-7. *Units* dropdown box: Set by default to *Days*, the unit selecting in this field is applied to the numerical values written into **Loan Period** and **Renewals Period**
-8. **Renewals Allowed:** Number of times a item can be renewed. Set to 10 by default.
-9. **Renewals Period:** Number of days or hours that a renewal lasts for. Set to 14 by default.
+7. *Units* dropdown box: Set by default to *aays*, the unit selecting in this field is applied to the numerical values written into **loan period** and **renewals period**
+8. **Renewals allowed:** Number of times a item can be renewed. Set to 10 by default.
+9. **Renewals period:** Number of days or hours that a renewal lasts for. Set to 14 by default.
 10. *On shelf holds allowed* dropdown box: If items can be held whilst they are on the shelf.
 11. **Path to create circulation rule:** Circulation rules can be created or altered by going to Administration -> Circulation and fines rules
-12. Click the *Submit* button to create the circulation rule.
+12. Click the *submit* button to create the circulation rule.
 
 Onboarding tool complete
 ____________________________
@@ -472,8 +472,8 @@ You have now finished using the onboarding tool and can log into the staff inter
 
 1. **Username:** Enter the username you created for the patron
 2. **Password:** Enter the password you created
-3. **Library:** This is the library staff interface you want to log into. The options are either: *My library* or the library you installed/created. Leaving the default selected option of *My library* is fine to log in with first time.
-4. Click the *Login* button to access the staff interface
+3. **Library:** This is the library staff interface you want to log into. The options are either: *my library* or the library you installed/created. Leaving the default selected option of *my library* is fine to log in with first time.
+4. Click the *login* button to access the staff interface
 
 For example:
 
