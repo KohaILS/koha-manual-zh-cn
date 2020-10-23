@@ -9866,25 +9866,6 @@ Descritpion:
    the :ref:`OpacMaintenance` preference is set to
    'Show.^
 
-.. _opacmainuserblock-label:
-
-OpacMainUserBlock
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Welcome to Koha... <hr>
-
-Asks: Show the following HTML in its own column on the main page of the
-OPAC
-
-Description:
-
--  HTML entered in this field will appear in the center of the main page
-   of your OPAC
-
-|image77|
-
-Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
-
 .. _opacmaxitemstodisplay-label:
 
 OpacMaxItemsToDisplay
