@@ -3288,31 +3288,26 @@ Additional Tools
 .. _calendar-label:
 
 Calendar
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  *Get there:* More > Tools > Additional Tools > Calendar
+-  *Get there:* More > Tools > Additional tools > Calendar
 
 Libraries can define library closings and holidays to be used when
-calculating due dates. You can make use of the Calendar by turning on
+calculating due dates. You can make use of the calendar by turning on
 the proper system preferences:
 
--  *Get there:*\ More > Administration > Global System Preferences >
-   Circulation > :ref:`useDaysMode`
+-  :ref:`useDaysMode`: Choose the method for calculating due date - either 
+   include days the library is closed in the calculation or don't include them
 
-   -  Choose the method for calculating due date - either include days
-      the library is closed in the calculation or don't include them.
-
--  *Get there:* More > Administration > Global System Preferences >
-   Circulation > :ref:`finescalendar <finescalendar-label>`
-
-   -  This will check the holiday calendar before charging fines
+-  :ref:`finescalendar`: This will check the holiday calendar before charging 
+   fines
 
 |image369|
 
 .. _adding-events-label:
 
-Adding Events
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding events
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Before adding events, choose the library you would like to apply the
 closings to. When adding events you will be asked if you would like to
@@ -3333,26 +3328,41 @@ apply the event to one branch or all branches. To add events, simply
    -  The day information will also be filled in automatically based on
       the date you clicked on the calendar
 
-   -  In the description enter the reason the library is closed
+      -  If this holiday extends on more than one day, enter the end date in 
+         'To date'
+
+   -  In the 'title' enter the name of the holiday or the reason for the 
+      closing
+
+   -  In the 'description' enter more information about this holiday
 
    -  Next you can choose if this event is a one time event or if it is
       repeatable.
 
-      -  If this is a one day holiday choose 'Holiday only on this day'
+      -  'Holiday only on this day': this is a one day holiday 
 
-      -  If this is a weekly closing (like a weekend day) then you can
-         choose 'Holiday repeated every same day of the week'
+      -  'Holiday repeated every same day of the week': this is a weekly 
+         closing (if you're closed every Sunday, for example)
 
-      -  If this is an annual holiday closing choose 'Holiday repeated
-         yearly on the same date'
+      -  'Holiday repeated yearly on the same date': this is an annual 
+         holiday closing (if you're closed on January 1st each year, for 
+         example) 
 
-      -  If the library is going to be closed for the week or a range of
-         time choose 'Holiday on a range' and enter a 'To Date' at the
-         top
+      -  'Holiday on a range': this is a holiday that extends on several 
+         days
 
-      -  If the library is going to be closed for a range of time each
-         year (such as summer holidays for schools) choose 'Holiday
-         repeated yearly on a range' and enter a 'To Date' at the top
+            **Note**
+
+            Make sure to enter a 'To Date' at the top if you choose 
+            'Holiday on a range'
+
+      -  'Holiday repeated yearly on a range': this is a holiday that extends 
+         on several days each year (such as summer holidays for schools) 
+
+            **Note**
+
+            Make sure to enter a 'To Date' at the top if you choose 'Holiday 
+            repeated yearly on a range'
 
    -  Finally decide if this event should be applied to all libraries or
       just the one you have originally selected
@@ -3370,8 +3380,8 @@ apply the event to one branch or all branches. To add events, simply
 
 .. _editing-events-label:
 
-Editing Events
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing events
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To edit events
 
@@ -3392,17 +3402,18 @@ To edit events
    |image374|
 
    -  In the form above you will note that there is now an option to
-      'Generate an exception for this repeated holiday,' choosing this
-      option will allow you to make it so that this date is not closed
-      even though the library is usually closed on this date.
+      'Generate an exception for this repeated holiday' and 'Generate exceptions 
+      on a range of dates' choosing one of these options will allow you to 
+      make it so that this date is not closed even though the library is 
+      usually closed on this date.
 
-      -  All actions require that you click 'Save' before the change
-         will be made.
+   -  All actions require that you click 'Save' before the change
+      will be made.
 
 .. _additional-help-label:
 
-Additional Help
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Additional help
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When adding or editing events you can get additional help by clicking on
 the question mark next to various different options on the form

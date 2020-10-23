@@ -366,11 +366,17 @@
 .. |image367| image:: images/tools/uploadlocalimg/uploadsummary.png
 .. |image368| image:: images/admin/globalprefs/AllowMultipleCovers.png
 .. |image369| image:: images/tools/calendar/calendar.png
+				:alt: View of the calendar
 .. |image370| image:: images/tools/calendar/calendaradd.png
+				:alt: Add new holiday form
 .. |image371| image:: images/tools/calendar/copyholidays.png
+				:alt: Drop down menu of all libraries from which to choose to which library to copy the holidays
 .. |image372| image:: images/tools/calendar/calendarsummary.png
+				:alt: View of the calendar page showing the calendar and all the programmed holidays
 .. |image373| image:: images/tools/calendar/calendaredit.png
+				:alt: Edit holiday form
 .. |image374| image:: images/tools/calendar/calendarexception.png
+				:alt: Edit holiday form with the option of generating exceptions for repeating holidays
 .. |image375| image:: images/tools/calendar/calendarhelp.png
 .. |image376| image:: images/tools/csvprofiles/addcsv.png
 				:alt: Add new CSV profile form
