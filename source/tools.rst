@@ -3412,7 +3412,7 @@ the question mark next to various different options on the form
 .. _csv-profiles-label:
 
 CSV profiles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Additional tools > CSV profiles
 
@@ -3422,31 +3422,54 @@ to export.
 .. _add-csv-profiles-label:
 
 Add CSV profiles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To add a CSV profile
 
--  Click 'CSV profiles' from the Tools menu
-
--  The 'Profile type' determines what type of fields you plan to use
-   (MARC or SQL) to define your profile
-
-   -  If you choose MARC then you will need to enter MARC fields
+-  Click on 'New CSV profile'
 
    |image376|
-
-   -  If you choose SQL then you will need to enter SQL database fields
-
-      |image377|
 
    -  The 'Profile name' will appear on the export pull down list when
       choosing 'Download' from your cart or list
 
       |image378|
 
+   -  The 'Profile type' determines what type of fields you plan to use
+      (MARC or SQL) to define your profile
+
+      -  If you choose MARC then you will need to enter MARC fields
+
+         |image1502|
+
+      -  If you choose SQL then you will need to enter SQL database fields
+
+         |image377|
+
+   -  The 'Usage' field is used to indicate what type of report this CSV 
+      profile is used with
+
+      -  'Export records' (only available with MARC profile type): this is 
+         used to export records from your cart or lists
+
+      -  'Late serial issues claims' (only available with SQL profile type):
+         this is used to :ref:`export late issues of serial subscriptions <claim-late-serials-label>`
+
+      -  'Export late orders' (only available with SQL profile type): this is 
+         used to :ref:`export late orders in the acquisitions module 
+         <claims-and-late-orders-label>`
+
+      -  'Basket export in acquisition' (only available with SQL profile 
+          type): this is used to :ref:`download records from acquisitions 
+          baskets <create-a-basket-label>`
+
+      -  'Export lost items in report' (only available with SQL profile 
+          type): this is used to export a CSV from the :ref:`lost items 
+          report <lost-items-label>`
+
    -  The 'Profile description' is for your own benefit, but will also
       appear in the OPAC when patrons download content, so make sure
-      it's clear to your patrons as well
+      it's clear for your patrons as well
 
    -  The 'CSV separator' is the character used to separate values and
       value groups
@@ -3472,25 +3495,30 @@ To add a CSV profile
    -  The 'Encoding' field lets you define the encoding used when saving
       the file
 
-   -  Finally format your CSV file using the 'Profile MARC' or 'Profile
-      SQL' field
+   -  The 'Only available on the staff interface' checkbox (only for MARC 
+      profile types) lets you limit this CSV profile to staff interface 
+      only, meaning patrons will not be able to use this profile to export 
+      their cart or lists from the OPAC
+
+   -  Finally format your CSV file using the 'Profile MARC fields' or 'Profile
+      SQL fields' box
 
       -  Define which fields or subfields you want to export, separated
-         by pipes. Example : 200\|210$a\|301 for MARC and
+         by pipes. Example : 200\|210$a\|301 for MARC or
          biblio.title\|biblio.author for SQL
 
       -  **Note**
 
              You can also use your own headers (instead of the ones from
-             Koha) by prefixing the field number with an header,
-             followed by the equal sign. Example : Personal
+             Koha) by prefixing the field number with a header,
+             followed by the equal sign. Example: Personal
              name=100\|title=245$a\|300
 
-   When you have entered in all of the information for you profile,
-   simply click 'Submit' and you will be presented with a confirmation
-   that your profile has been saved.
+When you have entered in all of the information for your profile,
+simply click 'Submit' and you will be presented with a confirmation
+that your profile has been saved.
 
-   |image380|
+|image380|
 
 .. _modify-csv-profiles-label:
 

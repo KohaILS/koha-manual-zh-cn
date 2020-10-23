@@ -373,10 +373,15 @@
 .. |image374| image:: images/tools/calendar/calendarexception.png
 .. |image375| image:: images/tools/calendar/calendarhelp.png
 .. |image376| image:: images/tools/csvprofiles/addcsv.png
+				:alt: Add new CSV profile form
 .. |image377| image:: images/tools/csvprofiles/addcsv-sql.png
+				:alt: Add new CSV profile form filled with SQL information
 .. |image378| image:: images/tools/csvprofiles/downloadcsv.png
+				:alt: View of the cart with the Download pull down menu open and "CSV - Record export" is selected
 .. |image379| image:: images/tools/csvprofiles/csvfieldsep.png
+				:alt: CSV file opened in a spreadsheet software where we can see the pipes separating subject headings when there are more than one
 .. |image380| image:: images/tools/csvprofiles/csvadded.png
+				:alt: Blue box with the confirmation message "CSV profile added successfully."
 .. |image381| image:: images/tools/csvprofiles/modifycsv.png
 .. |image382| image:: images/tools/csvprofiles/csvmodified.png
 .. |image383| image:: images/tools/csvprofiles/deletecsv.png
@@ -1484,3 +1489,5 @@
                :alt: Example of a report result of Orders by fund
 .. |image1501| image:: images/tools/marcmodtemplates/marcmodtemplates.png
                :alt: List of currently available MARC modification templates
+.. |image1502| image:: images/tools/csvprofiles/addcsv-marc.png
+				:alt: Add new CSV profile form filled with MARC information
