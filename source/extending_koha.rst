@@ -231,8 +231,8 @@ catalog for creating the coverflow widget. Koha::Cache is supported in
 order to make the widget load as quickly as possible!
 
 The final step is to put your selector element somewhere in your public
-catalog. In this example, I put the following in the system preference
-OpacMainUserBlock:
+catalog. In this example, I put the following in the display location
+OpacMainUserBlock (see :ref:`the news tool <news-label>`):
 
 ::
 

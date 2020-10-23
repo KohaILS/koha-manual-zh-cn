@@ -69,7 +69,6 @@
 .. |image72| image:: images/admin/globalprefs/favicon.png
 .. |image75| image:: images/admin/globalprefs/OpacKohaUrl.png
 .. |image76| image:: images/admin/globalprefs/opacmaintenance.png
-.. |image77| image:: images/admin/globalprefs/OpacMainUserBlock.png
 .. |image78| image:: images/admin/globalprefs/OPACMySummaryHTML.png
 .. |image79| image:: images/admin/globalprefs/OpacNav.png
 .. |image80| image:: images/admin/globalprefs/OpacNavBottom.png

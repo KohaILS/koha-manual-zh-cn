@@ -615,9 +615,6 @@ There are a lot of ways you can customize your OPAC in Koha.
    -  :ref:`opaccredits` : Enter HTML to appear at the
       bottom of every page in the OPAC
 
-   -  :ref:`OpacMainUserBlock` : Enter HTML that will
-      appear in the center of the main OPAC page
-
    -  :ref:`OpacNav` : Enter HTML that will appear to the left
       on the main OPAC page
 
