@@ -10919,6 +10919,37 @@ Description:
    'Search' at the bottom of the pop up. The default behavior is for
    Koha to search just the clicked author or subject.
 
+.. _opacreportproblem-label:
+
+OpacReportProblem
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ patrons to submit problem reports for OPAC pages to the library 
+or Koha administrator.
+
+Default: Allow
+
+Values:
+
+-  Don't allow
+
+-  Allow
+
+Description:
+
+-  This system preference controls the 'Report a problem' feature on the OPAC.
+
+-  This feature enables patrons to send problem reports from the OPAC.
+
+-  Problem reports are managed in the :ref:`OPAC problem reports <opac-problem-reports-tool>` 
+   tool
+
+      **Note**
+
+      This system preference requires that :ref:`KohaAdminEmailAddress` have a 
+      value.
+
+
 .. _opacresetpassword-label:
 
 OpacResetPassword

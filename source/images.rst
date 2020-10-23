@@ -378,6 +378,7 @@
 .. |image374| image:: images/tools/calendar/calendarexception.png
 				:alt: Edit holiday form with the option of generating exceptions for repeating holidays
 .. |image375| image:: images/tools/calendar/calendarhelp.png
+				:alt: Text under "Delete this holiday": "This will delete this holiday rule. If it is a repeatable holiday, this option checks for possible exceptions. If an exception exists, this option will remove the exception and set the date to a regular holiday."
 .. |image376| image:: images/tools/csvprofiles/addcsv.png
 				:alt: Add new CSV profile form
 .. |image377| image:: images/tools/csvprofiles/addcsv-sql.png
@@ -1497,3 +1498,5 @@
                :alt: List of currently available MARC modification templates
 .. |image1502| image:: images/tools/csvprofiles/addcsv-marc.png
 				:alt: Add new CSV profile form filled with MARC information
+.. |image1503| image:: images/tools/opacproblemreports/opacproblemreports.png
+				:alt: Table of problem reports submitted by patrons

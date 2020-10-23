@@ -3911,3 +3911,45 @@ file. In order to be able to access the tool, a staff patron requires the superl
 or access_files patron permission
 
 |image1340|
+
+.. _cashup-registers-tool:
+
+Cashup registers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  *Get there:* More > Tools > Additional tools > Cashup registers
+
+.. halp!
+
+.. _opac-problem-reports-tool:
+
+OPAC problem reports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  *Get there:* More > Tools > Additional tools > OPAC problem reports
+
+This tool is used to manage the problem reports sent by patrons via the OPAC.
+
+     **Note**
+
+     This tool only appears if you have enabled the :ref:`OPACReportProblem` 
+     system preference.
+
+From this tool, you will see all the problems that were reported by patrons on 
+the OPAC.
+
+|image1503|
+
+From the 'Actions' column, you can
+
+-  'Mark viewed': mark this problem report as viewed, this will change the 
+   status of the problem report to 'Viewed'
+
+-  'Mark closed': close this problem report, this will change the status of the 
+   problem report to 'Closed'
+
+-  'Mark new': mark this problem as new (i.e. not viewed), this will revert the 
+   status back to 'New'.
+
+You can also batch change statuses by checking the boxes next to the problem 
+reports you want to change and use the bottons at the top of the page.
