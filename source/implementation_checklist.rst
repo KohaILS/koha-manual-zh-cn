@@ -627,9 +627,6 @@ There are a lot of ways you can customize your OPAC in Koha.
    -  :ref:`OpacNavRight` : Enter HTML that will appear
       below the login box on the right
 
-   -  :ref:`opacheader` : Enter the HTML that will appear
-      above the search box on the OPAC
-
    -  :ref:`OPACNoResultsFound` : Enter the HTML that
       will appear when no results are found
 
@@ -694,10 +691,10 @@ There are a lot of ways you can customize your OPAC in Koha.
 .. _editable-opac-regions-label:
 
 Editable OPAC regions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using the OPAC system preferences you can customize various regions, the
-following graphic will define what preferences update each of the
+Using the :ref:`news tool <news-label>` you can customize various regions, the
+following graphic will define what display locations update each of the
 regions in the Bootstrap theme.
 
 |image1068|

@@ -9336,8 +9336,9 @@ Asks: Show \_\_\_ as the name of the library on the OPAC.
 
     **Note**
 
-    Edit :ref:`opacheader` if you'd like to add a library
-    name above your search box on the OPAC
+    Add a news item with the opacheader display location with the 
+    :ref:`news tool <news-label>` if you'd like to add a library name above 
+    your search box on the OPAC
 
 |image64|
 
@@ -9620,28 +9621,6 @@ Description:
    left blank) is the small 'K' in the Koha logo.
 
    |image72|
-
-.. _opacheader-label:
-
-opacheader
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Include the following HTML in the header of all pages in the OPAC
-
-|image73|
-
-    **Note**
-
-    This value will appear above the main content of your page
-
-|image74|
-
-    **Note**
-
-    Edit :ref:`LibraryName` if you'd like to edit the
-    contents of the <title> tag
-
-Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
 
 .. _opachighlightedwords-and-nothighlightedwords-label:
 
