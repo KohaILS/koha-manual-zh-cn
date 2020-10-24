@@ -9755,22 +9755,6 @@ Description:
 -  Defines where the shelving location should be displayed, under the
    home library, the holding library, or both, or in a separate column.
 
-.. _opaclogininstructions-label:
-
-OpacLoginInstructions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Show the following HTML on the OPAC login form when a patron is not logged in:
-
-Description:
-
--  HTML entered in this field will appear under the login form on the main page
-   of your OPAC, when the user is not logged in
-
-|image1344|
-
-Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
-
 .. _opacmaintenance-label:
 
 OpacMaintenance
