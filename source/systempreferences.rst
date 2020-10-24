@@ -9429,32 +9429,6 @@ Description:
 
 |image67|
 
-.. _opaccredits-label:
-
-opaccredits
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Include the following HTML in the footer of all pages in the OPAC:
-
-    **Note**
-
-    Click the 'Click to edit; link to enter HTML to appear at the bottom
-    of every page in the OPAC
-
-|image68|
-
-|image69|
-
-Description:
-
--  This setting is for credits that will appear at the bottom of your
-   OPAC pages. Credits traditionally encompass copyright information,
-   last date updated, hyperlinks or other information represented in an
-   HTML format. This is static information and any updates must be
-   entered manually.
-
-Learn more in the :ref:`OPAC editable regions <editable-opac-regions-label>` section.
-
 .. _opaccustomsearch-label:
 
 OpacCustomSearch

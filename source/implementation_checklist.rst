@@ -612,9 +612,6 @@ There are a lot of ways you can customize your OPAC in Koha.
    -  :ref:`LibraryName` : Enter your library name for
       display in the <title> tag and on the top of the OPAC
 
-   -  :ref:`opaccredits` : Enter HTML to appear at the
-      bottom of every page in the OPAC
-
    -  :ref:`OpacNav` : Enter HTML that will appear to the left
       on the main OPAC page
 
