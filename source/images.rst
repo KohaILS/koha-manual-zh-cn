@@ -1063,7 +1063,8 @@
 .. |image1065| image:: images/about/aboutserver.png
 .. |image1066| image:: images/about/aboutperlmodules.png
 .. |image1067| image:: images/about/systeminfo.jpg
-.. |image1068| image:: images/appendix-opac/opaccustomregions.jpg
+.. |image1068| image:: images/appendix-opac/opacregionsbootstrap.jpg
+				:alt: View of the main page of the OPAC with each customizable section highlighted
 .. |image1076| image:: images/appendix-cms/newpreference.png
 .. |image1077| image:: images/appendix-cms/newpref-settings.png
 .. |image1078| image:: images/appendix-cms/recommendedreading.png

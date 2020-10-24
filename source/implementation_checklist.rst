@@ -687,9 +687,9 @@ There are a lot of ways you can customize your OPAC in Koha.
 Editable OPAC regions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using the :ref:`news tool <news-label>` you can customize various regions, the
-following graphic will define what display locations update each of the
-regions in the Bootstrap theme.
+Using the :ref:`news tool <news-label>` you can customize various blocks of the 
+OPAC. The following graphic shows what each display locations updates in the 
+Bootstrap theme.
 
 |image1068|
 
