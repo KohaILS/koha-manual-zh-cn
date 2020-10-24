@@ -9429,25 +9429,6 @@ Description:
 
 |image67|
 
-.. _opaccustomsearch-label:
-
-OpacCustomSearch
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Replace the search box at the top of OPAC pages with the following
-HTML
-
-Description:
-
--  This preference allows you to replace the default search box at the
-   top of the OPAC :
-
-    |image1190|
-
-   with any HTML you would like :
-
-    |image1191|
-
 
 .. _opacMoreSearches-label:
 
