@@ -693,6 +693,8 @@ Bootstrap theme.
 
 |image1068|
 
+|image1069|
+
 .. _enhanced-content-configuration-label:
 
 Enhanced content configuration
