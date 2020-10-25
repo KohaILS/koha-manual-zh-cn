@@ -3768,8 +3768,6 @@ top of the table
 
 |image244|
 
-
-<<<<<<< Updated upstream
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Module              | Tables                                                                                           |
 +=====================+==================================================================================================+
@@ -3836,66 +3834,6 @@ top of the table
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Serials             | - :ref:`Acquisition details<subscriptions-in-staff-client-label>` (orders)                       |
 +---------------------+--------------------------------------------------------------------------------------------------+
-=======
-+---------------------+-----------------------------------------+
-| Module              | Tables                                  |
-+=====================+=========================================+
-| Acquisitions        | - Late orders                           |
-|                     | - Order search results                  |
-|                     | - Basket summary                        |
-|                     | - Suggestions                           |
-+---------------------+-----------------------------------------+
-| Administration      | - Patron categories                     |
-|                     | - Currencies                            |
-|                     | - Item types                            |
-|                     | - Libraries                             |
-+---------------------+-----------------------------------------+
-| Catalog             | - Acquisition details                   |
-|                     | - Checkout history                      |
-|                     | - Holdings/items                        |
-|                     | - Holdings/items from other libraries   |
-|                     |   (when :ref:`SeparateHoldings` is      |
-|                     |   enabled)                              |
-+---------------------+-----------------------------------------+
-| Cataloging          | - Z39.50 search results                 |
-|                     | - Item table above edit item form       |
-+---------------------+-----------------------------------------+
-| Circulation         | - Checkins                              |
-|                     | - Checkouts                             |
-|                     | - Holds to pull                         |
-|                     | - Holds queue                           |
-|                     | - Hold ratios                           |
-|                     | - Patron search results                 |
-|                     | - Overdues report                       |
-+---------------------+-----------------------------------------+
-| Course reserves     | - Courses                               |
-|                     | - Reserves                              |
-+---------------------+-----------------------------------------+
-| Interlibrary loans  | - Requests                              |
-+---------------------+-----------------------------------------+
-| Patrons             | - Holds history                         |
-|                     | - Details > Checkouts                   |
-|                     | - Accounting > Transactions             |
-|                     | - Accounting > Make a payment           |
-|                     | - Patron search results                 |
-|                     | - Patron checkout history               |
-|                     | - Patron lists                          |
-+---------------------+-----------------------------------------+
-| Tools               | - Notices and slips                     |
-|                     | - Stock rotation rotas                  |
-|                     | - Stock rotation items                  |
-+---------------------+-----------------------------------------+
-| OPAC                | - Course reserves                       |
-|                     | - Courses                               |
-|                     | - Holdings/Items                        |
-|                     | - Serials issues on subscription tab    |
-+---------------------+-----------------------------------------+
-| Reports             | - Items lost                            |
-|                     | - Saved SQL reports                     |
-+---------------------+-----------------------------------------+
-| Serials             | - Acquisition details                   |
-+---------------------+-----------------------------------------+
->>>>>>> Stashed changes
 
 **Note**
 
