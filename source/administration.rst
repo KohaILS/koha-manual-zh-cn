@@ -3776,63 +3776,63 @@ top of the table
 |                     | - :ref:`Order search results <acquisition-searches-label>` (histsearcht)                         |
 |                     | - :ref:`Suggestions <managing-purchase-suggestions-label>` (suggestions)                         |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Administration      | - :ref:`Currencies<currencies-and-exchange-rates-label>` (currency)                              |
-|                     | - :ref:`Item types<item-types-label>` (table_item_type)                                          |
-|                     | - :ref:`Patron categories<patron-categories-label>` (patron_categories)                          |
-|                     | - :ref:`Libraries<libraries-label>` (librairies)                                                 |
+| Administration      | - :ref:`Currencies <currencies-and-exchange-rates-label>` (currency)                             |
+|                     | - :ref:`Item types <item-types-label>` (table_item_type)                                         |
+|                     | - :ref:`Patron categories <patron-categories-label>` (patron\_categories)                        |
+|                     | - :ref:`Libraries <libraries-label>` (librairies)                                                |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Authorities         | There aren't any tables that can be configured from the                                          |
 |                     | Authorities module.                                                                              |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Catalog             | - Acquisition details (acquisitiondetails-table)                                                 |
 |                     | - Checkout history (checkoutshistory-table)                                                      |
-|                     | - Holdings/items (holdings_table)                                                                |
-|                     | - Holdings/items from other libraries (otherholdings_table)                                      |
+|                     | - Holdings/items (holdings\_table)                                                               |
+|                     | - Holdings/items from other libraries (otherholdings\_table)                                     |
 |                     |   (when :ref:`SeparateHoldings` is enabled)                                                      |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Cataloging          | - :ref:`Item table above edit item form<adding-items-label>` (Items Editor)                      |
-|                     | - :ref:`Z39.50 search results<adding-records-label>` (resultst)                                  |
+| Cataloging          | - :ref:`Item table above edit item form <adding-items-label>` (Items Editor)                     |
+|                     | - :ref:`Z39.50 search results <adding-records-label>` (resultst)                                 |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Circulation         | - :ref:`Holds to pull<holds-to-pull-label>` (holds-to-pull)                                      |
-|                     | - :ref:`Checkins<checking-items-in-label>` (checkedintable)                                      |
-|                     | - :ref:`Hold ratios<hold-ratios-label>` (holds-ratios)                                           |
-|                     | - :ref:`Checkouts<checking-items-out-label>` (issues-table)                                      |
-|                     | - :ref:`Patron search results<check-out-(issuing)-label>` (table_borrowers)                      |
-|                     | - :ref:`Holds awaiting pickup (holds waiting over X days)<holds-awaiting-pickup-label>` (holdso) |
-|                     | - :ref:`Holds awaiting pickup (holds waiting)<holds-awaiting-pickup-label>` (holdst)             |
-|                     | - :ref:`Overdues report<overdues-label>` (circ-overdues)                                         |
-|                     | - :ref:`Holds queue<holds-queue-label>` (holds-table)                                            |
+| Circulation         | - :ref:`Holds to pull <holds-to-pull-label>` (holds-to-pull)                                     |
+|                     | - :ref:`Checkins <checking-items-in-label>` (checkedintable)                                     |
+|                     | - :ref:`Hold ratios <hold-ratios-label>` (holds-ratios)                                          |
+|                     | - :ref:`Checkouts <checking-items-out-label>` (issues-table)                                     |
+|                     | - :ref:`Patron search results <check-out-(issuing)-label>` (table\_borrowers)                    |
+|                     | - :ref:`Holds awaiting pickup (holds waiting over X days) <holds-awaiting-pickup-label>` (holdso)|
+|                     | - :ref:`Holds awaiting pickup (holds waiting) <holds-awaiting-pickup-label>` (holdst)            |
+|                     | - :ref:`Overdues report <overdues-label>` (circ-overdues)                                        |
+|                     | - :ref:`Holds queue <holds-queue-label>` (holds-table)                                           |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Course reserves     | - :ref:`Courses<adding-courses-label>` (courses page, course_reserves_table)                     |
-|                     | - :ref:`Reserves<adding-reserve-materials-label>` (reserves page, course_reserves_table)         |
+| Course reserves     | - :ref:`Courses <adding-courses-label>` (courses page, course\_reserves\_table)                  |
+|                     | - :ref:`Reserves <adding-reserve-materials-label>` (reserves page, course\_reserves\_table)      |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Interlibrary loans  | - :ref:`Requests<viewing-ILL-requests-label>` (ill-requests)                                     |
+| Interlibrary loans  | - :ref:`Requests <viewing-ILL-requests-label>` (ill-requests)                                    |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Patrons             | - :ref:`Accounting > Make a payment<pay/reverse-fines-label>` (pay-fines-table)                  |
-|                     | - :ref:`Patron search results<patron-search-label>` (memberresultst)                             |
-|                     | - :ref:`Patron checkout history<circulation-history-label>` (checkouthistory-table)              |
-|                     | - :ref:`Holds history<holds-history-label>` (holdshistory-table)                                 |
-|                     | - :ref:`Patron lists<patron-lists-label>` (patron-list-table)                                    |
-|                     | - :ref:`Accounting > Transactions<fines-label>` (account-fines)                                  |
-|                     | - :ref:`Details > Checkouts<circulation-summary-label>` (issues-table)                           |
+| Patrons             | - :ref:`Accounting > Make a payment <pay/reverse-fines-label>` (pay-fines-table)                 |
+|                     | - :ref:`Patron search results <patron-search-label>` (memberresultst)                            |
+|                     | - :ref:`Patron checkout history <circulation-history-label>` (checkouthistory-table)             |
+|                     | - :ref:`Holds history <holds-history-label>` (holdshistory-table)                                |
+|                     | - :ref:`Patron lists <patron-lists-label>` (patron-list-table)                                   |
+|                     | - :ref:`Accounting > Transactions <fines-label>` (account-fines)                                 |
+|                     | - :ref:`Details > Checkouts <circulation-summary-label>` (issues-table)                          |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Point of sale       | - :ref:`Point of sale<making-a-sale-label>` (invoices)                                           |
+| Point of sale       | - :ref:`Point of sale <making-a-sale-label>` (invoices)                                          |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Tools               | - :ref:`Stock rotation rotas<stock-rotation-label>` (stock_rotation)                             |
-|                     | - :ref:`Stock rotation items<stock-rotation-label>` (stock_rotation_manage_items )               |
-|                     | - :ref:`Log viewer<log-viewer-label>` (logst)                                                    |
-|                     | - :ref:`Notices and slips<notices-and-slips-label>` (lettert)                                    |
+| Tools               | - :ref:`Stock rotation rotas <stock-rotation-label>` (stock\_rotation)                           |
+|                     | - :ref:`Stock rotation items <stock-rotation-label>` (stock\_rotation\_manage\_items)            |
+|                     | - :ref:`Log viewer <log-viewer-label>` (logst)                                                   |
+|                     | - :ref:`Notices and slips <notices-and-slips-label>` (lettert)                                   |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| OPAC                | - :ref:`Course reserves<course-reserves-in-the-opac-label>` (course-items-table)                 |
-|                     | - :ref:`Courses<course-reserves-in-the-opac-label>` (course_reserves_table)                      |
-|                     | - :ref:`Holdings/Items<bibliographic-record-label>` (holdingst)                                  |
-|                     | - :ref:`Serials issues on subscription tab<bibliographic-record-label>` (subscriptionst)         |
+| OPAC                | - :ref:`Course reserves <course-reserves-in-the-opac-label>` (course-items-table)                |
+|                     | - :ref:`Courses <course-reserves-in-the-opac-label>` (course\_reserves\_table)                   |
+|                     | - :ref:`Holdings/Items <bibliographic-record-label>` (holdingst)                                 |
+|                     | - :ref:`Serials issues on subscription tab <bibliographic-record-label>` (subscriptionst)        |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Reports             | - :ref:`Orders by fund<orders-by-fund-label>` (funds-table)                                      |
-|                     | - :ref:`Saved SQL reports<edit-custom-reports-label> (table_reports)                             |
-|                     | - :ref:`Items lost<lost-items-label>` (lostitems-table)                                          |
+| Reports             | - :ref:`Orders by fund <orders-by-fund-label>` (funds-table)                                     |
+|                     | - :ref:`Saved SQL reports <edit-custom-reports-label>` (table\_reports)                          |
+|                     | - :ref:`Items lost <lost-items-label>` (lostitems-table)                                         |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Serials             | - :ref:`Acquisition details<subscriptions-in-staff-client-label>` (orders)                       |
+| Serials             | - :ref:`Acquisition details <subscriptions-in-staff-client-label>` (orders)                      |
 +---------------------+--------------------------------------------------------------------------------------------------+
 
 **Note**
