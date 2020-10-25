@@ -3592,11 +3592,11 @@ A query for all logs related to the Circulation module produces a result
 .. _news-label:
 
 News
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Additional tools > News
 
-Koha's news module allows librarians to post news to the OPAC, staff
+Koha's news module allows librarians to post content and news to the OPAC, staff
 interface and circulation receipts.
 
 |image387|
