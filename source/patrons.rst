@@ -1645,7 +1645,6 @@ for patrons.
 
 |image450|
 
-<<<<<<< Updated upstream
      **Note**
 
      -  You can customize the columns of this table in the 
@@ -1654,10 +1653,6 @@ for patrons.
 
 The Transactions tab will show you the following columns:
 
-=======
-The Transactions tab will show you the following columns:
-
->>>>>>> Stashed changes
 -  Date: the date the charge, payment or credit was posted
 
    -  In the case of fines this will be the last day that the fine was
