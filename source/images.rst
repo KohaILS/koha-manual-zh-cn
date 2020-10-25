@@ -324,20 +324,13 @@
 .. |image338| image:: images/tools/marcmodtemplates/addtemplate.png
 				:alt: Form for creating a new template
 .. |image339| image:: images/tools/marcmodtemplates/ifexample.png
-				:alt: Add a new action form with the following options: Copy 
-				first field 090 a to field 952 o if field 952 o doesn't exist 
-				Description: Move call number to item record if there isn't 
-				one there already
+				:alt: Add a new action form with the following options: Copy first field 090 a to field 952 o if field 952 o doesn't exist Description: Move call number to item record if there isn't one there already
 .. |image340| image:: images/tools/marcmodtemplates/regexexample.png
-				:alt: Add a new action form with the following options: Copy 
-				and replace every field 020 c to field 020 c RegEx s/\$// if 
-				field 020 c matches m/^\$// RegEx Description: Remove $ 
-				(dollar sign) from 020$c fields
+				:alt: Add a new action form with the following options: Copy and replace every field 020 c to field 020 c RegEx s/\$// if field 020 c matches m/^\$// RegEx Description: Remove $ (dollar sign) from 020$c fields
 .. |image341| image:: images/tools/marcmodtemplates/viewactions.png
 				:alt: List of all actions in a template
 .. |image343| image:: images/tools/marcmodtemplates/templatechoice.png
-				:alt: Modify the record using the following template drop-down 
-				menu where the option Add Ebook item is being selected
+				:alt: Modify the record using the following template drop-down menu where the option Add Ebook item is being selected
 .. |image344| image:: images/tools/marcimport/stagemarc-pt1.png
 .. |image345| image:: images/tools/marcimport/stagemarc-pt2.png
 .. |image346| image:: images/tools/marcimport/recordtype.png
