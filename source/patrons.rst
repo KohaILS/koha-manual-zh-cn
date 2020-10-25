@@ -3,15 +3,15 @@
 .. _patrons-label:
 
 Patrons
-=======
+===============================================================================
 
-Before importing and/or adding patrons be sure to set up your :ref:`patron
-categories <patron-categories-label>`.
+Before importing or adding patrons be sure to set up your 
+:ref:`patron categories <patron-categories-label>`.
 
 .. _add-a-new-patron-label:
 
 Add a new patron
-------------------------------------
+-------------------------------------------------------------------------------
 
 Patrons are added by going to the 'Patrons' module.
 
@@ -24,19 +24,16 @@ Once there you can add a new patron.
    |image407|
 
 -  The fields that appear on the patron add form can be controlled by
-   editing the :ref:`BorrowerUnwantedField` system
-   preference.
+   editing the :ref:`BorrowerUnwantedField` system preference.
 
--  First enter the identifying information regarding your patron
+-  Required fields are defined in the :ref:`BorrowerMandatoryField` system
+   preference
+
+-  First, enter the identifying information regarding your patron
 
    |image408|
 
-   -  Required fields are defined in the
-      :ref:`BorrowerMandatoryField` system
-      preference
-
-   -  Salutation is populated by the
-      :ref:`BorrowersTitles` system preference
+   -  'Salutation' is populated by the :ref:`BorrowersTitles` system preference
 
    -  **Note**
 
@@ -69,7 +66,7 @@ Once there you can add a new patron.
           full name (E, Nicole).
 
 -  If this patron is a child, you will be asked to attach the child
-   patron to an adult patron
+   patron to an adult patron (guarantor)
 
    **Note**
    Guarantors can only be attached to patrons whose :ref:`category <patron-categories-label>` 
@@ -77,7 +74,8 @@ Once there you can add a new patron.
 
    |image410|
 
-   -  Click 'Search to add' to search your system for an existing patron
+   -  If the guarantor is a patron of the library, click 'Search to add' to 
+      search your system for an existing patron
 
       |image1463|
 
@@ -85,32 +83,45 @@ Once there you can add a new patron.
 
       |image1464|
 
-   -  The relationships are set using the
-      :ref:`borrowerRelationship` system preference
+   -  The relationships are set using the :ref:`borrowerRelationship` system 
+      preference
 
       |image1465|
 
-   -  If the guarantor is not a patron, you can still add their information in 
-      the 'Contact' section.
+           **Note**
 
--  Next enter the contact information
+           It is possible to add more than one guarantor to a patron account 
+           (both parents for example).
+
+   -  If the guarantor is not a patron, you can still add their information in 
+      the 'Non-patron guarantor' section.
+
+-  Next enter the main address and contact information
 
    |image1466|
 
+       **Note**
+
+       The street type is populated by the ROADTYPE 
+       :ref:`authorized values <existing-values-label>`
+
    |image409|
 
-   -  For contact information, note that the primary phone and email
-      addresses are the ones that appear on notices and slips printed
+   -  For contact information, note that the primary phone number and primary 
+      email address are the ones that appear on notices and slips printed
       during circulation (receipts, transfer slips and hold slips). The
       primary email is also the one that overdue notices and other
       messages go to.
 
--  Each patron can have an alternate contact
+-  You can also record an alternate address for each patron. This could be used 
+   in an academic setting to store the patron's home address for example.
+
+   |image411|
+
+-  Each patron can have an alternate contact. An alternate contact could be a 
+   parent or guardian, for example.
 
    |image412|
-
-   -  An alternate contact could be a parent or guardian. It can also be
-      used in academic settings to store the patron's home address.
 
 -  The library management section includes values that are used within
    the library
@@ -133,15 +144,19 @@ Once there you can add a new patron.
 
    -  Sort 1 and 2 are used for statistical purposes within your library
 
+      -  You can create drop-down menus for these fields by adding values 
+         in the Bsort1 and Bsort2 :ref:`authorized values categories <existing-values-label>`
+
    -  'Allow auto-renewal of items' is used to control whether this patron 
       wants to automatically renew their checkouts. This requires the 
       :ref:`automatic_renewal cronjob <cron-automatic-renewal-label>` to run 
       daily. 
 
-   -  'Check for previous checkouts' is used to set the patron's personal preference
-      regarding checking their circulation history to see if they have borrowed this
-      item in the past. This overrides the setting of the :ref:`patron category
-      <adding-a-patron-category-label>` and of the :ref:`CheckPrevCheckout` system preference.
+   -  'Check for previous checkouts' is used to set the patron's personal 
+      preference regarding checking their circulation history to see if they 
+      have borrowed This item in the past. This overrides the setting of the 
+      :ref:`patron category <adding-a-patron-category-label>` and of the 
+      :ref:`CheckPrevCheckout` system preference.
 
 -  Next, the library set-up section includes additional library settings
 
@@ -150,12 +165,17 @@ Once there you can add a new patron.
    -  The registration date will automatically be filled in with today's
       date
 
-   -  If your patron cards expire (based on your :ref:`patron category
-      settings <patron-categories-label>`) the expiry date will automatically be
-      calculated
+   -  The expiry date will automatically be calculated based on your 
+      :ref:`patron category settings <patron-categories-label>`
 
-   -  The OPAC note is a note for the patron - it will appear in the
-      OPAC on the patron's record
+   -  The OPAC note is a note for the patron, it will appear in the patron's 
+      online account on the OPAC
+
+      |image1504|
+
+      **Note**
+
+      See also :ref:`OPAC messages <opac-messages-label>`
 
    -  The Circulation note is meant solely for your library staff and
       will appear when the circulation staff goes to check an item out
@@ -163,48 +183,34 @@ Once there you can add a new patron.
 
       |image415|
 
-   -  The Staff/OPAC asks for the username and password to be used by
-      the patron (and/or staff member) to log into their account in the
-      OPAC and for staff to log in to the staff client.
+-  The 'OPAC/Staff interface login' section asks for the username and 
+   password to be used by the patron (or staff member) to log into their 
+   account in the OPAC and for staff to log in to the staff interface.
 
-      -  Staff will only be able to use this log in info to log in to
-         the staff client if they have the :ref:`necessary
-         permissions <patron-permissions-label>`.
+   -  Staff will only be able to use this login information to log in to
+      the staff interface if they have at least the 
+      :ref:`catalogue permission <patron-permissions-label>`.
 
--  If you have set :ref:`additional patron
-   attributes <patron-attribute-types-label>` up, these will appear next
+-  If you have enabled the housebound module (with the :ref:`HouseboundModule` 
+   system preference), you will be able to choose a 
+   :ref:`housebound role <housebound-patrons-label>` for this patron.
+
+   |image1509|
+
+-  If you have set :ref:`additional patron attributes <patron-attribute-types-label>` 
+   in the administration module, these will appear next
 
    |image416|
 
--  Finally, if you have
-   :ref:`EnhancedMessagingPreferences` set
-   to 'allow,' you can choose the messaging preferences for this patron.
+-  Finally, if you have the :ref:`EnhancedMessagingPreferences` system 
+   preference set to 'allow,' you can choose the messaging preferences for 
+   this patron.
 
    |image417|
 
-   -  These notices are:
-
-      -  Advanced notice: A notice in advance of the patron's items
-         being due (the patron can choose the number of days in advance)
-
-      -  Item checkout: A notice that lists all the of the items the
-         patron has just checked out and/or renewed, this is an
-         electronic form of the checkout receipt
-
-      -  Hold filled: A notice when you have confirmed the hold is
-         waiting for the patron
-
-      -  Item due: A notice on the day and item is due back at the
-         library
-
-      -  Item check-in: A notice that lists all the of the items the
-         patron has just checked in
-
-   -  Patrons can choose to receive their notices as a digest by
-      checking the 'Digest only?' box along with the delivery method. A
-      digest is a combination of all the messages of that type (so all
-      items due in 3 days in one email) in to one email instead of
-      multiple emails for each alert.
+   See the definition of each notice in the 
+   :ref:`advance notices and hold notices <advance-notices-and-hold-notices-label>`
+   section
 
    -  **Important**
 
@@ -213,7 +219,9 @@ Once there you can add a new patron.
 
    -  **Important**
 
-          These preference can be altered by the patron via the OPAC
+          These preference can be altered by the patron via the OPAC if the 
+          :ref:`EnhancedMessagingPreferencesOPAC` system preference is set to 
+          'show'
 
 -  Once finished, click 'Save'
 
@@ -1637,6 +1645,7 @@ for patrons.
 
 |image450|
 
+<<<<<<< Updated upstream
      **Note**
 
      -  You can customize the columns of this table in the 
@@ -1645,6 +1654,10 @@ for patrons.
 
 The Transactions tab will show you the following columns:
 
+=======
+The Transactions tab will show you the following columns:
+
+>>>>>>> Stashed changes
 -  Date: the date the charge, payment or credit was posted
 
    -  In the case of fines this will be the last day that the fine was
@@ -2353,3 +2366,157 @@ a list from which to choose.
      -  You can customize the columns of this table in the 
         :ref:`'Table settings'<column-settings-label>` section of the 
         Administration module (table id: memberresultst).
+
+.. _communication-with-patrons-label:
+
+Communicating with patrons
+-------------------------------------------------------------------------------
+
+Koha offers several options for communicating with patrons, some of which have 
+already been covered in this chapter.
+
+.. _opac-notes-label:
+
+OPAC notes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OPAC notes are added to the patron's file through the 
+:ref:`add patron form<add-a-new-patron-label>` or the 
+:ref:`edit patron form <editing-patrons-label>`, in the 'Library set-up' 
+section.
+
+|image414|
+
+They show up in the :ref:`'Your summary' section <your-summary-label>` of the 
+patron's online account in the OPAC.
+
+|image1504|
+
+In the staff interface, OPAC notes will be in the 'Library use' section of the 
+patron's file.
+
+|image429|
+
+.. _opac-messages-label:
+
+OPAC messages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OPAC messages are added to the patron's file using the 'Add message' button.
+
+|image427|
+
+To leave a message that the patron will be able to see in the OPAC, choose 
+"OPAC - Patron's name" in the 'Add a message for' field. Enter your message 
+in the box, or choose a predefined message in the drop-down menu.
+
+|image1505|
+
+     **Note**
+
+     Predefined messages are added in the BOR\_NOTES 
+     :ref:`authorized value category <existing-values-label>`
+
+Once saved, the patron will be able to see the message in the 
+:ref:`'Your summary' section <your-summary-label>` of their online account.
+The patron will also be able to see the date on which the message was added as 
+well as the name of the branch.
+
+|image1506|
+
+In the staff interface, OPAC messages are shown on the patron's detail page, 
+at the top of the page just under the row of action buttons.
+
+|image1507|
+
+It will also appear on the checkout page, to the right of the checkout box.
+
+|image1508|
+
+.. _advance-notices-and-hold-notices-label:
+
+Advance notices and hold notices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you have enabled the :ref:`EnhancedMessagingPreferences` system preference, 
+you cat set advance notices as well as hold notices when 
+:ref:`adding a new patron <add-a-new-patron-label>` or 
+:ref:`editing a patron <editing-patrons-label>`.
+
+If the :ref:`EnhancedMessagingPreferencesOPAC` system preference is set to 
+'show', patrons will be able to modify their messaging preferences in their 
+online account.
+
+|image417|
+
+-  Item due: A notice on the day and item is due back at the library
+
+   -  Customize this notice by editing the DUE or DUEDGST notices in the 
+      :ref:`Notices & slips tool <notices-and-slips-label>`
+
+-  Advance notice: A notice in advance of the patron's items being due (the 
+   patron can choose the number of days in advance)
+
+   -  Customize this notice by editing the PREDUE or PREDUEDGST notices 
+      in the :ref:`Notices & slips tool <notices-and-slips-label>`
+
+-  Hold filled: A notice when you have confirmed the hold is waiting for the 
+   patron
+
+   -  Customize this notice by editing the HOLD notice in the 
+      :ref:`Notices & slips tool <notices-and-slips-label>`
+
+-  Item check-in: A notice that lists all the of the items the patron has just 
+   checked in
+
+   -  Customize this notice by editing the CHECKIN notice in the 
+      :ref:`Notices & slips tool <notices-and-slips-label>`
+
+-  Item checkout: A notice that lists all the of the items the patron has just 
+   checked out and/or renewed, this is an electronic form of the checkout 
+   receipt
+
+   -  Customize this notice by editing the CHECKOUT notice in the 
+      :ref:`Notices & slips tool <notices-and-slips-label>`
+
+Patrons can choose to receive their notices as a digest by checking the 
+'Digest only' box along with the delivery method. A digest is a combination of 
+all the messages of that type (so all items due in 3 days in one email) in to 
+one email instead of multiple emails for each alert.
+
+The delivery methods currently supported are: 
+
+-  Email
+-  SMS (text messages)
+-  Automated phone call system
+-  Print
+
+To generate the advance notices (advance notice and item due), you need to run the 
+:ref:`advance\_notices.pl cronjob <cron-advanced-notice-label>`. Then, the 
+:ref:`process\_message\_queue.pl cronjob <cron-message-queue-label>` will send 
+the notices or the :ref:`gather\_print\_notices.pl cronjob <cron-print-hold-notices-label>` 
+will gather them in a nice file you can print out and send out via regular mail.
+
+.. _overdue-notices-label:
+
+Overdue notices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Overdue notices are managed in :ref:`Notices & slips <notices-and-slips-label>` 
+and when they are sent is managed in 
+:ref:`Overdue notice/status triggers <overdue-notice/status-triggers-label>`.
+
+Patrons cannot opt out of receiving overdue notices like they can other 
+notices (such as :ref:`advance notices or hold notices <advance-notices-and-hold-notices-label>`)
+
+To generate the overdue notices , you need to run the 
+:ref:`overdue\_notices.pl cronjob <cron-overdue-notice-label>`. Then, the 
+:ref:`process\_message\_queue.pl cronjob <cron-message-queue-label>` will send 
+the notices or the :ref:`gather\_print\_notices.pl cronjob <cron-print-hold-notices-label>` 
+will gather them in a nice file you can print out and send out via regular mail.
+
+.. _patron-emailer-label:
+
+Custom emails
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

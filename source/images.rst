@@ -177,8 +177,11 @@
 .. |image188| image:: images/admin/cataloging/subfieldslink.png
 .. |image189| image:: images/admin/cataloging/editfield.png
 .. |image190| image:: images/admin/cataloging/editsubfield.png
+				:alt: Subfield editing form
 .. |image192| image:: images/admin/cataloging/frameworkvisibility.png
+				:alt: CLose up of visibility options in the Advanced constraints
 .. |image194| image:: images/admin/cataloging/504auth.png
+				:alt: Example of a MARC framework where an authorised value was added in 504$a, this creates a drop-down menu in the editor
 .. |image195| image:: images/admin/cataloging/importexport.png
 .. |image196| image:: images/admin/cataloging/exportoptions.png
 .. |image197| image:: images/admin/cataloging/importexport.png
@@ -411,17 +414,30 @@
 .. |image405| image:: images/tools/qotd/confirmdelete.png
 .. |image406| image:: images/tools/qotd/importquotebuttons.png
 .. |image407| image:: images/patrons/newpatron.png
+				:alt: Drop down of patron categories when adding a new patron
 .. |image408| image:: images/patrons/addpatronform.png
+				:alt: 'Patron identity' section of the patron form
 .. |image409| image:: images/patrons/addcontact.png
 .. |image410| image:: images/patrons/addGuarantor.png
+				:alt: 'Patron guarantor' and 'Non-patron guarantor' sections of the patron form
+.. |image411| image:: images/patrons/addaltaddress.png
+				:alt: 'Alternate address' section of the patron form
 .. |image412| image:: images/patrons/addaltcontact.png
+				:alt: 'Altenate contact' section of the patron form
 .. |image413| image:: images/patrons/addlibmanagement.png
+				:alt: 'Library management' section of the patron form
 .. |image414| image:: images/patrons/addlibsetup.png
+				:alt: 'Library set-up' and 'OPAC/Staff login' sections of the patron form
 .. |image415| image:: images/patrons/circnote.png
+				:alt: Circulation note appearing in red to the right of the checkout box
 .. |image416| image:: images/patrons/addattributes.png
+				:alt: 'Additional attributes' section of the patron form
 .. |image417| image:: images/patrons/addpatronmsg.png
+				:alt: 'Patron messaging preferences' section of the patron form
 .. |image418| image:: images/patrons/duplicatewarn.png
+				:alt: 'Duplicate patron record' warning with options to view existing patron record, to edit existing record or to save as new record
 .. |image419| image:: images/patrons/patronagelimit.png
+				:alt: Warning 'The following fields are wrong. Please fix them. Patron's age is incorrect for their category. Ages allowed are 5-17.'
 .. |image420| image:: images/patrons/statspatcat.png
 .. |image421| image:: images/patrons/newinhouse.png
 .. |image422| image:: images/patrons/patronedit.png
@@ -430,8 +446,10 @@
 .. |image425| image:: images/patrons/addpatronimage.png
 .. |image426| image:: images/patrons/patronimage.png
 .. |image427| image:: images/patrons/patronedit.png
+				:alt: Row of action buttons at the top of the patron's detail page
 .. |image428| image:: images/patrons/patronpassword.png
 .. |image429| image:: images/patrons/patroneditsection.png
+				:alt: 'Library use' section of the patron's file
 .. |image430| image:: images/patrons/patronaddimage.png
 .. |image431| image:: images/patrons/patronflags.png
 .. |image432| image:: images/patrons/patronaddress.png
@@ -488,14 +506,23 @@
 .. |image483| image:: images/circ/checkoutpatron.png
 .. |image484| image:: images/circ/circquickbox.png
 .. |image485| image:: images/circ/checkingout-noshow.png
+				:alt: Checkout screen with checkouts hidden
 .. |image486| image:: images/circ/checkingout.png
+				:alt: Checkout screen with checkouts displayed
 .. |image487| image:: images/circ/checkoutsummary.png
+				:alt: Table of patron's current checkouts
 .. |image488| image:: images/circ/onsitecheckout.png
+				:alt: Section of the patron's current checkouts table showing only onsite checkouts
 .. |image489| image:: images/circ/exportcheckouts.png
+				:alt: Export checkouts options (Excel, CSV, copy or print)
 .. |image490| image:: images/circ/holdssummary.png
+				:alt: Table of patron's current holds
 .. |image491| image:: images/circ/patronnotes.png
+				:alt: Checkout box with notes and messages next to it
 .. |image492| image:: images/circ/holdwaiting.png
+				:alt: Checkout screen with a hold waiting message next to the checkout box
 .. |image493| image:: images/circ/circonholdings.png
+				:alt: Item table in a record detail page showing which items are checked out and to whom
 .. |image494| image:: images/circ/printslip.png
 .. |image495| image:: images/admin/globalprefs/DisplayClearScreenButton.png
 .. |image496| image:: images/circ/batchcheckoutwarn.png
@@ -1244,7 +1271,9 @@
 .. |image1253| image:: images/patrons/patronsearchfilters.png
 .. |image1254| image:: images/circ/batchcheckout.png
 .. |image1255| image:: images/circ/checkoutsettings.png
+				:alt: Checkout box with checkout settings section opened
 .. |image1256| image:: images/circ/allowonsitecheckout.png
+				:alt: Checkout box with checkout settings section opened and 'Automatic renewal' option selected
 .. |image1257| image:: images/circ/batchcheckoutscan.png
 .. |image1258| image:: images/circ/SpecifyReturnDate.png
 .. |image1259| image:: images/circ/AllowHoldItemTypeSelection.png
@@ -1451,9 +1480,13 @@
 .. |image1461| image:: images/circ/patronagecategory.png
 .. |image1462| image:: images/patrons/delete_with_holds.png
 .. |image1463| image:: images/patrons/addGuarantor2.png
+				:alt: Search for patron pop up window
 .. |image1464| image:: images/patrons/addGuarantor3.png
+				:alt: Lst of results from the patron search
 .. |image1465| image:: images/patrons/addGuarantor4.png
+				:alt: Patron guarantor section of the add new patron form with a patron selected as guarantor
 .. |image1466| image:: images/patrons/addmainaddress.png
+				:alt: Main address section of the add new patron form
 .. |image1467| image:: images/opac/allowautorenewal.png
 .. |image1468| image:: images/patrons/deletepatronfines.png
 .. |image1469| image:: images/patrons/deletepatron.png
@@ -1495,3 +1528,15 @@
 				:alt: Add new CSV profile form filled with MARC information
 .. |image1503| image:: images/tools/opacproblemreports/opacproblemreports.png
 				:alt: Table of problem reports submitted by patrons
+.. |image1504| image:: images/patrons/opacnote.png
+				:alt: 'Messages for you' box in the patron's online account with a note saying 'This is an OPAC note'
+.. |image1505| image:: images/patrons/opacmessage.png
+				:alt: Pop-up modal for 'Add message' with the option 'Add a message for OPAC - Patron's name' chosen
+.. |image1506| image:: images/patrons/opacmessage2.png
+				:alt: 'Messages for you' box in the patron's online account with a message saying "'This is an OPAC message' written on 10/24/2020 by Centerville"
+.. |image1507| image:: images/patrons/opacmessage3.png
+				:alt: OPAC message appearing in the patron's detail page in the staff interface just under the edit buttons
+.. |image1508| image:: images/patrons/opacmessage4.png
+				:alt: OPAC message appearing in the patron's checkout page to the right of the checkout box
+.. |image1509| image:: images/patrons/addhouseboundroles.png
+				:alt: 'Housebound roles' section of the patron form

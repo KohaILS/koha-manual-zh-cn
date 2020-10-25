@@ -513,11 +513,13 @@ use, for instance 'Lost'.
 
 -  Bsort1
 
-   -  Values that can be entered to fill in the patron's sort 1 field
+   -  Values that can be entered to fill in the 
+      :ref:`patron's sort 1 field <add-a-new-patron-label>`
 
 -  Bsort2
 
-   -  Values that can be entered to fill in the patron's sort 2 field
+   -  Values that can be entered to fill in the 
+      :ref:`patron's sort 2 field <add-a-new-patron-label>`
 
 -  CCODE
 
@@ -682,7 +684,8 @@ use, for instance 'Lost'.
 
 -  ROADTYPE
 
-   -  Road types to be used in patron addresses
+   -  Road types to be used in patron addresses ('street type' field in the 
+      :ref:`patron form <add-a-new-patron-label>`)
 
 -  SIP\_MEDIA\_TYPE
 
@@ -2371,41 +2374,32 @@ constraints and Other options.
 
    |image190|
 
-   -  Subfield code (this wouldn't usually be changed)
+   -  Subfield code: this is the MARC subfield code, this wouldn't normally be 
+      changed
 
-      -  The MARC subfield code
+   -  Text for librarian: what appears before the subfield in the staff 
+      interface
 
-   -  Text for librarian
-
-      -  what appears before the subfield in the staff interface
-
-   -  Text for OPAC
-
-      -  what appears before the field in the OPAC
+   -  Text for OPAC: what appears before the field in the OPAC
 
          -  If left empty, the text for librarian is used instead
 
-   -  Repeatable
+   -  Repeatable: the field will have an icon next to it allowing you to add
+      multiples of the subfield
 
-      -  the field will have an icon next to it allowing you to add
-         multiples of the subfield
+   -  Mandatory: the record cannot be saved unless you have a value assigned 
+      to this subfield. A 'Required' flag will display as a prompt
 
-   -  Mandatory
+   -  Important: this indicates that a field is not mandatory, but important. 
+      If you try to save a record where an important field is empty, you will 
+      get a warning, but the record will still be saved. 
 
-      -  the record cannot be saved unless you have a value assigned to this
-         subfield.  A 'Required' flag will display as a prompt
+   -  Managed in tab: defines the tab where the subfield is shown.
 
-   -  Important
+         **Important**
 
-      -  this indicates that a field is not mandatory, but important. If you 
-         try to save a record where an important field is empty, you will get 
-         a warning, but the record will still be saved. 
-
-   -  Managed in tab
-
-      -  defines the tab where the subfield is shown. All subfields of a
-         given field must be in the same tab or ignored. Ignore means
-         that the subfield is not managed.
+         All subfields of a given field must be in the same tab or ignored. 
+         Ignore means that the subfield is not managed.
 
          **Important**
 
@@ -2416,106 +2410,94 @@ constraints and Other options.
 
 -  For each subfield you can set the following advanced constraint options
 
-   -  Default value
+   -  Default value: defines what you want to appear in the field by default, 
+      this will be editable, but it saves time if you use the same text over 
+      and over or the same value in a field often.
 
-      -  defines what you want to appear in the field by default, this
-         will be editable, but it saves time if you use the same note
-         over and over or the same value in a field often.
-
-      -  **Note**
+      **Note**
     
-             There are several values that you can use here that will
-             be replaced automatically when a new record is created:
+      There are several values that you can use here that will be replaced 
+      automatically when a new record is created:
              
-             -  <<YEAR>> - the current year, 4 digits
-             -  <<YY>> - the current year, 2 digits
-             -  <<MM>> - the current month, 2 digits
-             -  <<DD>> - the current day of month, 2 digits
-             -  <<USER>> - the username of the currently logged in user
+      -  <<YEAR>> - the current year, 4 digits
+
+      -  <<YY>> - the current year, 2 digits
+
+      -  <<MM>> - the current month, 2 digits
+
+      -  <<DD>> - the current day of month, 2 digits
+
+      -  <<USER>> - the username of the currently logged in user
              
-             For example: a default of "Year:<<YYYY>> Month:<<MM>> Day:<<DD>>" 
-             (without quotes) will print the current date in the form of
-             "Year:2020 Month:08 Day:30"
+      For example: a default of "Year:<<YYYY>> Month:<<MM>> Day:<<DD>>" 
+      (without quotes) will print the current date in the form of
+      "Year:2020 Month:08 Day:30"
 
-   -  Visibility
+   -  Visibility: allows you to select from where this subfield is
+      visible/hidden, simply check the boxes where you would like the
+      field to show and uncheck the boxes where you would like it
+      hidden.
 
-      -  allows you to select from where this subfield is
-         visible/hidden, simply check the boxes where you would like the
-         field to show and uncheck the boxes where you would like it
-         hidden.
+      **Note**
 
-      -  **Note**
+      The Editor tickbox controls whether this subfield will display within
+      cataloguing editor for this framework. If you tick Collapsed the
+      subfield will be hidden in the editor but will be displayed if
+      the field label is clicked to expand all subfields
 
-             The Editor tickbox controls whether this subfield will display within
-             cataloguing editor for this framework.  If you tick Collapsed the
-             subfield will be hidden in the editor but will be displayed if
-             the field label is clicked to expand all subfields
+      |image192|
 
-         |image192|
+   -  Is a URL: if checked, it means that the subfield is a URL and can be
+      clicked
 
-   -  Is a URL
+   -  Link: if you enter an index name here, a link appears after
+      the subfield in the MARC detail view in the staff interface.
+      If the librarian clicks on the link, a catalog search is done using
+      the index and the content of the subfield.
 
-      -  if checked, it means that the subfield is a URL and can be
-         clicked
+   -  Koha link: this field is used to create a link between the MARC subfield
+      and a column in the items, biblioitems and biblio database
+      tables. Whenever a record is added or changed, this mapping
+      will be used to update the linked database column. The information
+      from the database columns is used as a way to quickly look up
+      important information without having to parse the full MARC record.
+      It is used for displaying information in a lot of pages and can
+      also be used in reports.
 
-   -  Link
+      It is possible to map multiple MARC subfields to the same database
+      column. The first existing mapped subfield will be saved into the 
+      database. Usage example: For a MARC21 installaton with both RDA and AACR2 
+      records where some records store the publication data 
+      in 260 and others in 264 both fields can be mapped to the database
+      columns for publisher, publication date and publication year.
 
-      -  If you enter an index name here, a link appears after
-         the subfield in the MARC detail view in the staff interface.
-         If the librarian clicks on the link, a catalog search is done using
-         the index and the content of the subfield.
+      The mappings can be changed on this page or from the
+      :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>` page.
 
-   -  Koha link
+      **Warning**
 
-      -  This field is used to create a link between the MARC subfield
-         and a column in the items, biblioitems and biblio database
-         tables. Whenever a record is added or changed, this mapping
-         will be used to update the linked database column. The information
-         from the database columns is used as a way to quickly look up
-         important information without having to parse the full MARC record.
-         It is used for displaying information in a lot of pages and can
-         also be used in reports.
+      The Koha links should not be changed after data has been added to
+      your catalog. If you need to change or improve them, you must ask
+      your system administrator to run misc/batchRebuildBiblioTables.pl.
+      This will update the values in the database columns for all your
+      records.
 
-         It is possible to map multiple MARC subfields to the same database
-         column. The first existing mapped subfield will be saved into the 
-         database. Usage example: For a MARC21 installaton with both RDA and AACR2 
-         records where some records store the publication data 
-         in 260 and others in 264 both fields can be mapped to the database
-         columns for publisher, publication date and publication year.
+-  For each subfield you can set the following Other option values
 
-         The mappings can be changed on this page or from the
-         :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>` page.
+   -  Authorized value: means the value cannot by typed, but must be
+      chosen from a pull down generated by the :ref:`authorized
+      value <authorized-values-label>` list
 
-      -  **Warning**
+      In the example above, the 504a field will show the MARC504
+      authorized values when cataloging
 
-             The Koha links should not be changed after data has been added to
-             your catalog. If you need to change or improve them, you must ask
-             your system administrator to run misc/batchRebuildBiblioTables.pl.
-             This will update the values in the database columns for all your
-             records.
+      |image194|
 
--  For each subfield you can set the following Other options
+   -  Thesaurus: means that the value is not free text, but must be searched in
+      the authority/thesaurus of the selected category
 
-   -  Authorized value
-
-      -  means the value cannot by typed, but must be
-         chosen from a pull down generated by the :ref:`authorized
-         value <authorized-values-label>` list
-
-      -  In the example above, the 504a field will show the MARC504
-         authorized values when cataloging
-
-         |image194|
-
-   -  Thesaurus
-
-      -  means that the value is not free text, but must be searched in
-         the authority/thesaurus of the selected category
-
-   -  Plugin
-
-      -  means the value is calculated or managed by a plugin. Plugins
-         can do almost anything.
+   -  Plugin: means the value is calculated or managed by a plugin. Plugins
+      can do almost anything.
 
       -  Examples:
 
@@ -3787,6 +3769,7 @@ top of the table
 |image244|
 
 
+<<<<<<< Updated upstream
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Module              | Tables                                                                                           |
 +=====================+==================================================================================================+
@@ -3853,6 +3836,66 @@ top of the table
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Serials             | - :ref:`Acquisition details<subscriptions-in-staff-client-label>` (orders)                       |
 +---------------------+--------------------------------------------------------------------------------------------------+
+=======
++---------------------+-----------------------------------------+
+| Module              | Tables                                  |
++=====================+=========================================+
+| Acquisitions        | - Late orders                           |
+|                     | - Order search results                  |
+|                     | - Basket summary                        |
+|                     | - Suggestions                           |
++---------------------+-----------------------------------------+
+| Administration      | - Patron categories                     |
+|                     | - Currencies                            |
+|                     | - Item types                            |
+|                     | - Libraries                             |
++---------------------+-----------------------------------------+
+| Catalog             | - Acquisition details                   |
+|                     | - Checkout history                      |
+|                     | - Holdings/items                        |
+|                     | - Holdings/items from other libraries   |
+|                     |   (when :ref:`SeparateHoldings` is      |
+|                     |   enabled)                              |
++---------------------+-----------------------------------------+
+| Cataloging          | - Z39.50 search results                 |
+|                     | - Item table above edit item form       |
++---------------------+-----------------------------------------+
+| Circulation         | - Checkins                              |
+|                     | - Checkouts                             |
+|                     | - Holds to pull                         |
+|                     | - Holds queue                           |
+|                     | - Hold ratios                           |
+|                     | - Patron search results                 |
+|                     | - Overdues report                       |
++---------------------+-----------------------------------------+
+| Course reserves     | - Courses                               |
+|                     | - Reserves                              |
++---------------------+-----------------------------------------+
+| Interlibrary loans  | - Requests                              |
++---------------------+-----------------------------------------+
+| Patrons             | - Holds history                         |
+|                     | - Details > Checkouts                   |
+|                     | - Accounting > Transactions             |
+|                     | - Accounting > Make a payment           |
+|                     | - Patron search results                 |
+|                     | - Patron checkout history               |
+|                     | - Patron lists                          |
++---------------------+-----------------------------------------+
+| Tools               | - Notices and slips                     |
+|                     | - Stock rotation rotas                  |
+|                     | - Stock rotation items                  |
++---------------------+-----------------------------------------+
+| OPAC                | - Course reserves                       |
+|                     | - Courses                               |
+|                     | - Holdings/Items                        |
+|                     | - Serials issues on subscription tab    |
++---------------------+-----------------------------------------+
+| Reports             | - Items lost                            |
+|                     | - Saved SQL reports                     |
++---------------------+-----------------------------------------+
+| Serials             | - Acquisition details                   |
++---------------------+-----------------------------------------+
+>>>>>>> Stashed changes
 
 **Note**
 

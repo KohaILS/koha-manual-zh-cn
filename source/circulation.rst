@@ -78,7 +78,7 @@ ask you to choose which patron you want to check out to.
 .. _checking-items-out-label:
 
 Checking items out
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To check an item out to a patron, first search for that patron using one
 of the many options listed above. You will then be presented with the
@@ -99,25 +99,24 @@ see the list of checkouts below the check out box.
 
      **Note**
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: issues-table).
+     You can customize the columns of this table in the 
+     :ref:`'Table settings'<column-settings-label>` section of the 
+     Administration module (table id: issues-table).
 
-At the top of the Check out screen is a box for you to type or scan the
+At the top of the check out screen is a box for you to type or scan the
 item's barcode into.
 
--  **Important**
+  **Important**
 
-       Many modern barcode scanners will send a 'return' to the browser,
-       making it so that the 'Check out' button is automatically clicked
+  Many modern barcode scanners will send a 'return' to the browser,
+  making it so that the 'Check out' button is automatically clicked
 
 -  If the barcode is not found you will be prompted to use fast
    cataloging to add the item. Learn more about :ref:`fast
    cataloging <fast-add-cataloging-label>` later in this manual.
 
--  If you have
-   :ref:`itemBarcodeFallbackSearch` set to
-   'Enable' then you can enter a keyword search in this box instead of
+-  If you have :ref:`itemBarcodeFallbackSearch` set to
+   'Enable', then you can enter a keyword search in this box instead of
    just a barcode (this will make it possible to check out using title
    and/or call number).
 
@@ -138,12 +137,11 @@ the default due date for the item.
 
 Below the box for the barcode you will see a checkbox for 'Automatic
 renewal'. This will allow this item to automatically renew if the
-:ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there are no
-holds on the item.
+:ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there 
+are no holds on the item.
 
-Next is an option to no decrease the loan length based on holds. This
-overrides the :ref:`decreaseLoanHighHolds <decreaseloanhighholds-preferences-label>`
-preference.
+Next is an option to not decrease the loan length based on holds. This
+overrides the :ref:`decreaseLoanHighHolds` system preference.
 
 If you're allowing the :ref:`checkout of items on site <onsitecheckouts-label>`
 to patrons (these are usually items that are not for loan that you would
@@ -155,7 +153,7 @@ your circulation options.
 
 At the bottom of the page there is a summary of the patron's current
 checked out items along with the due date (and time if the item is an
-hourly loan), items checked out today will appear at the top.
+hourly loan). Items checked out today will appear at the top.
 
     **Note**
 
@@ -175,27 +173,25 @@ in red in the checkout summary.
      which order these new checkouts appear (earliest to latest, or latest 
      to earliest).
 
-If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__
-preference, you will also see the option to export the patron's current
-checkout information using a CSV profile or ISO2709 (MARC21) format.
+The 'Export' button at the top of the table allows you to export the patron's 
+current checkouts in either Microsoft Excel or CSV format, or even copy or print 
+their checkouts.
 
 |image489|
 
 Also at the bottom of the page is the list of items the patron has on
-hold
+hold.
 
 |image490|
 
-From the holds list you can suspend or resume patrons holds using the
-options at the bottom of the list if you have the
-:ref:`SuspendHoldsIntranet` preference set to
-'allow.'
+If you have the :ref:`SuspendHoldsIntranet` system preference set to
+'allow', you can suspend or resume patrons holds using the options at the 
+bottom of the holds list .
 
     **Note**
 
-    If you have your
-    :ref:`AutoResumeSuspendedHolds` preference
-    set to "Don't allow" then you will not have the option to put an end
+    If you have your :ref:`AutoResumeSuspendedHolds` system preference
+    set to "Don't allow", you will not have the option to put an end
     date on the hold suspension
 
 If there are notes on the patron record these will appear to the right
@@ -203,13 +199,13 @@ of the checkout box
 
 |image491|
 
-If the patron has a hold waiting at the library that too will appear to
+If the patron has a hold waiting at the library, that too will appear to
 the right of the check out box making it easy for the circulation
-librarian to see that there is another item to give the patron
+staff to see that there is another item to give to the patron.
 
 |image492|
 
-The details of the checkouts will appear on the bib detail page in the
+The details of the checkouts will appear on the record detail page in the
 staff client as well.
 
 |image493|
