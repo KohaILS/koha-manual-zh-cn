@@ -26,7 +26,7 @@ your install.
 
 -  Restart your webserver
 
-Once set up is complete you will need to alter your
-:ref:`UseKohaPlugins` system preference. On the Tools
-page you will see the Tools Plugins and on the Reports page you will see
-the Reports Plugins.
+It is not longer necessary/possible to change :ref:`UseKohaPlugins` in 
+system preferences. 
+On the Tools page you will see the Tools Plugins and on the Reports page 
+you will see the Reports Plugins.
