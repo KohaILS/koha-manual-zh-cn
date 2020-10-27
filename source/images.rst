@@ -121,11 +121,17 @@
 .. |image132| image:: images/admin/basicparams/groupproperties.png
 .. |image133| image:: images/admin/basicparams/addlibrarytogroup.png
 .. |image134| image:: images/admin/basicparams/itemtypes.png
+				:alt: Item types table
 .. |image135| image:: images/admin/basicparams/additemtype.png
+				:alt: Add new item type form
 .. |image136| image:: images/admin/basicparams/itemtype-msgsetup.png
+				:alt: 'Checkin message' field in the new item type form
 .. |image137| image:: images/admin/basicparams/itemtype-msg.png
+				:alt: Checkin message 'This is a book' in a blue message box
 .. |image138| image:: images/admin/basicparams/itemtype-alert.png
+				:altL Checkin message 'Thid id a book' in a yellow message box
 .. |image139| image:: images/admin/basicparams/newitemtype.png
+				:alt: Item types table with the item type 'book'
 .. |image140| image:: images/admin/basicparams/nodeleteitemtype.png
 .. |image141| image:: images/admin/basicparams/bor_notes.png
 .. |image142| image:: images/admin/basicparams/report_group.png
@@ -1533,3 +1539,7 @@
 				:alt: OPAC message appearing in the patron's checkout page to the right of the checkout box
 .. |image1509| image:: images/patrons/addhouseboundroles.png
 				:alt: 'Housebound roles' section of the patron form
+.. |image1510| image:: images/admin/basicparams/parentitemtype.png
+				:alt: Item types DVD and Blu-ray, where DVD is the parent of Blu-ray
+.. |image1511| image:: images/admin/patroncirc/parentitemtypecircrule.png
+				:alt: Creating a circulation rule for a parent item type				

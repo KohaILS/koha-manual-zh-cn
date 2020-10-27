@@ -297,7 +297,7 @@ but can be used in any way that works for your library.
 .. _adding-item-types-label:
 
 Adding item types
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To add a new item type, simply click the 'New item type' button at the
 top of the Item types page.
@@ -307,13 +307,28 @@ top of the Item types page.
 -  In the 'Item type' field, enter a short code for your item type (maximum
    of 10 characters)
 
+-  The the 'Parent item type' field, you can choose an item type that will act 
+   as a parent category for this item type. You can then define 
+   :ref:`circulation rules <circulation-and-fines-rules-label>` based on those 
+   parent item types.
+
+   -  For example, you could have DVD and Blu-ray item types, and the DVD would 
+      be the parent of the Blu-ray item type.
+
+      |image1510|
+
+      You can then create a :ref:`circulation rule <circulation-and-fines-rules-label>` 
+      for either Blu-ray only or DVD and Blu-ray (DVD (All))
+
+      |image1511|
+
 -  The description is the plain text definition of the item type (for
    those with multiple languages installed you can translate the item
    type description in to all of those languages using the 'Translate in
    to other languages' link)
 
 -  Item types can be grouped together for searching at the same time.
-   For example you can put DVDs and Bluray in to a group called Movie
+   For example you can put DVDs and Blu-rays in to a group called Movie
    and then they can be searched together. These groups are defined in
    the ITEMTYPECAT :ref:`authorized value category <existing-values-label>`.
 
@@ -325,7 +340,7 @@ top of the Item types page.
 
    -  Or you can just have no image associated with the item type
 
-   -  **Important**
+      **Important**
 
       If this option is not enabled, you can change the setting of the 
       :ref:`noItemTypeImages` or :ref:`OPACNoItemTypeImages`.
@@ -378,70 +393,71 @@ top of the Item types page.
        -  Check the 'Hourly rentals use calendar', to exclude holidays from 
           the the rental fee calculation.
 
- - Each amount will charge the patron on checkout.
+    - Each amount will charge the patron on checkout.
 
-   -  **Important**
+      **Important**
 
-          Do not enter symbols in this field, only numbers and decimal
-          points (ex. $5.00 should be entered as 5 or 5.00)
+      Do not enter symbols in this field, only numbers and decimal
+      points (ex. $5.00 should be entered as 5 or 5.00)
 
 -  You can add a default replacement cost for this type of item. This is the
    amount that will be charged to the patron when lost if the item doesn't have 
    a replacement cost. If the item has a replacement cost, that is the amount 
    that will be charged to the patron.
 
-    -  **Important**
-          Do not enter symbols in this field, only numbers and decimal
-          points (ex. $5.00 should be entered as 5 or 5.00)
+    **Important**
+
+    Do not enter symbols in this field, only numbers and decimal
+    points (ex. $5.00 should be entered as 5 or 5.00)
 
 - You can also add a processing fee that will be added to the replacement cost.
 
-   -  **Important**
+  **Important**
 
-          Do not enter symbols in this field, only numbers and decimal
-          points (ex. $5.00 should be entered as 5 or 5.00)
+  Do not enter symbols in this field, only numbers and decimal
+  points (ex. $5.00 should be entered as 5 or 5.00)
 
 -  If you would like a message or alert to appear when items of this
    type are checked in you can enter that in the 'Checkin message' box
 
    |image136|
 
-   -  The Checkin message type can be a Message or an Alert. The only
-      difference between these two is the styling. By default a Message
+   -  The checkin message type can be a 'message' or an 'alert'. The only
+      difference between these two is the styling. By default a message
       is blue
 
       |image137|
 
-      and an Alert is yellow.
+      and an alert is yellow.
 
       |image138|
 
 -  Some SIP devices need you to use a SIP-specific media type instead of
-   Koha's item type (usually lockers and sorters need this media type),
-   if you use a device like this you'll want to enter the SIP media
+   Koha's item type (usually lockers and sorters need this media type).
+   If you use a device like this you'll want to enter the SIP media
    type.
 
--  If this item type is only to be used in certain libraries only, you can select 
+-  If this item type is only to be used in certain libraries, you can select 
    them here. Select 'All libraries' if this item type is used across the library 
    system.
 
-      **Note** 
+   **Note** 
 
-      If this is left blank, 'All libraries' is assumed.
+   If this is left blank, 'All libraries' is assumed.
 
-      **Note**
+   **Note**
 
-      To select more than one library, hold the 'Ctrl' key while selecting the 
-      libraries.
+   To select more than one library, hold the 'Ctrl' key while selecting the 
+   libraries.
 
-.. add description of 'Summary'
+.. add description of 'Summary', unless bug 17598 passes...
 
 -  When finished, click 'Save changes'
 
-   -  **Note**
+   **Note**
 
-          All fields, with the exception of the 'Item type' will be
-          editable from the Item types list
+   All fields, with the exception of the 'Item type' will be
+   editable from the item types list
 
 -  Your new item type will now appear on the list
 
