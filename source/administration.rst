@@ -1071,9 +1071,9 @@ To add a new patron category click 'New category' at the top of the page
 .. _circulation-and-fines-rules-label:
 
 Circulation and fines rules
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These rules define how your items are circulated, how/when fines are
+These rules define how your items are circulated, how and when fines are
 calculated and how holds are handled.
 
 -  *Get there:* More > Administration > Patrons and circulation >
@@ -1101,19 +1101,19 @@ first found in this order:
 The :ref:`CircControl` and :ref:`HomeOrHoldingBranch` also come in to play when
 figuring out which circulation rule to follow.
 
--  If CircControl is set to "the library you are logged in at" circulation
+-  If :ref:`CircControl` is set to "the library you are logged in at" circulation
    rules will be selected based on the library you are logged in at
 
--  If CircControl is set to "the library the patron is from" circulation rules
+-  If :ref:`CircControl` is set to "the library the patron is from" circulation rules
    will be selected based on the patron's library
 
--  If CircControl is set to "the library the item is from" circulation rules
+-  If :ref:`CircControl` is set to "the library the item is from" circulation rules
    will be selected based on the item's library where
-   HomeOrHoldingBranch chooses if item's home library is used or holding
+   :ref:`HomeOrHoldingBranch` chooses if the item's home library  or its holding
    library is used.
 
 -  If :ref:`IndependentBranches` is set to 'Prevent'
-   then the value of HomeOrHoldingBranch is used in figuring out if the
+   then the value of :ref:`HomeOrHoldingBranch` is used in figuring out if the
    item can be checked out. If the item's home library does not match
    the logged in library, the item cannot be checked out unless you are
    a :ref:`superlibrarian <patron-permissions-defined-label>`.
@@ -1130,12 +1130,12 @@ figuring out which circulation rule to follow.
 .. _defining-circulation-rules-label:
 
 Defining circulation rules
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Using the issuing rules matrix you can define rules that depend on
 patron category/item type combos. To set your rules, choose a library from the
-pull down (or 'Standard rules for all libraries' if you want to apply these rules to all
-branches):
+pull down (or 'Standard rules for all libraries' if you want to apply these rules 
+to all branches):
 
 |image156|
 
@@ -1148,17 +1148,36 @@ item types to apply the rules to
    to. If you leave this to 'All' it will apply to all patron categories
 
 -  Choose the item type you would like this rule to apply to. If you
-   leave this to 'All' it will apply to all item types
+   leave this to 'All' it will apply to all item types for this patron category
+
+   -  If an item type has a parent item type, the rule will be displayed as 
+      Parent -> Child. The number of current checkouts will be limited to either 
+      the maximum for the parent (including sibling types) or the specific type's
+      rule, whichever is less.
+
+      |image1512|
+
+      In the example above, there is a rule for the DVD item type with a 
+      maximum of 5 checkouts and a rule for Blu-ray, a child of DVD, with a 
+      maximum of 2 checkouts. A patron at this library will be able to check out 
+      a maximum of 2 Blu-rays in a total of 5 items of either DVD or Blu-ray 
+      types.
+
+      To summarize, a patron at this library would be able to take either :
+      -  0 Blu-ray and a maximum of 5 DVDs
+      -  1 Blu-ray and a maximum of 4 DVDs
+      -  2 Blu-ray and a maximum of 3 DVDs
 
 -  Add notes about your circulation rule into the notes field. This can
    be helpful to remember why and when something was last changed.
 
--  Limit the number of items a patron can have checked out at the same
-   time by entering a number in the 'Current checkouts allowed' field.
+-  Limit the number of items of this type a patron of this category can have 
+   checked out at the same time by entering a number in the 'Current checkouts 
+   allowed' field.
 
--  If you're allowing :ref:`OnSiteCheckouts` then you
-   may also want to set a limit on the number of items patron's can have
-   onsite.
+-  If you're allowing :ref:`on-site checkouts <onsitecheckouts-label>` then you
+   may also want to set a limit on the number of items of this type patrons of 
+   this category can have on-site.
 
    -  **Note**
 
@@ -1166,9 +1185,29 @@ item types to apply the rules to
           :ref:`ConsiderOnSiteCheckoutsAsNormalCheckouts`
           preference
 
--  Define the period of time an item can be checked out to a patron by
-   entering the number of units (days or hours) in the 'Loan period'
-   box.
+-  Define the period of time an item of this type can be checked out to a 
+   patron of this category by entering the number of units (days or hours) in 
+   the 'Loan period' box.
+
+-  Define if the loan period should include closed days or not in the 'Days 
+   mode' column. The option chosen here will override the :ref:`useDaysMode` 
+   system preference for this particular rule.
+
+   -  The 'Default' option will take the option defined in the 
+      :ref:`useDaysMode` system preference
+
+   -  Choose the 'Calendar' option if you want to use the calendar to skip the 
+      days when the library is closed
+
+   -  Choose the 'Datedue' option if you want to push the due date to the next 
+      open day
+
+   -  Choose the 'Days' option if you want to ignore the calendar and calculate 
+      the due date directly
+
+   -  Choose the 'Dayweek' option if you want to use the calendar to push the 
+      due date to the next open matching weekday for weekly loan periods, or 
+      the next open day otherwise
 
 -  Choose which unit of time, days or hours, that the loan period and
    fines will be calculated in in the 'Unit' column
@@ -1190,9 +1229,9 @@ item types to apply the rules to
 -  'Fine amount' should have the amount you would like to charge for
    overdue items.
 
-   -  **Important**
+   **Important**
 
-          Enter only numbers and decimal points (no currency symbols).
+   Enter only numbers and decimal points (no currency symbols).
 
 -  Enter the 'Fine charging interval' in the unit you set (ex. charge
    fines every 1 day, or every 2 hours). The :ref:`finesCalendar` system
@@ -1202,13 +1241,12 @@ item types to apply the rules to
 -  'When to charge' is most handy in libraries that have a fine charging
    interval of more than 1 day.
 
-   -  End of interval: Given a grace period of 2 days and a fine interval of 7 days,
-      the first fine will appear 7 days after the due date, it will
-      always take one fine interval (7 days), before the first fine
-      is charged.
+   -  End of interval: Given a grace period of 2 days and a fine interval of 7 
+      days, the first fine will appear 7 days after the due date, it will 
+      always take one fine interval (7 days), before the first fine is charged.
 
-   -  Start of interval: Given a grace period of 2 days and a fine interval of 7 days,
-      the first fine will appear 2 days after the due date and the
+   -  Start of interval: Given a grace period of 2 days and a fine interval of 
+      7 days, the first fine will appear 2 days after the due date and the
       second fine 7 days after the due date.
 
 -  The 'Fine grace period' is the period of time an item can be overdue
@@ -1216,40 +1254,44 @@ item types to apply the rules to
    system preference controls if the grace period will be included when
    calculating the fine or not.
 
-   -  **Important**
+   **Important**
 
-          This can only be set for the Day unit, not in Hours
+   This can only be set for the 'Day' unit, not in 'Hours'
 
 -  The 'Overdue fines cap' is the maximum fine per item for this patron
    and item type combination.
 
-   -  **Important**
+   **Important**
 
-          If this field is left blank then Koha will not put a limit on
-          the fines this item will accrue. A maximum fine amount can be
-          set using the :ref:`MaxFine` system preference.
+   If this field is left blank then Koha will not put a limit on the fines 
+   this item will accrue. A maximum fine amount for all overdues can be
+   set using the :ref:`MaxFine` system preference.
 
 -  If you would like to prevent overcharging patrons for a lost items,
    you can check the box under 'Cap fine at replacement price.' This
    will prevent the patron's fines from going above the replacement
    price on the item.
 
-   -  **Note**
+   **Note**
 
-          If the 'Overdue fines cap' is also set, the fine will be the
-          lesser of the two, if both apply to the given overdue
-          checkout.
+   If the 'Overdue fines cap' is also set, the fine will be the
+   lesser of the two, if both apply to the given overdue
+   checkout.
 
 -  If your library 'fines' patrons by suspending their account you can
    enter the number of days their fine should be suspended in the
    'Suspension in days' field.
 
-   -  **Important**
+   **Important**
 
-          This can only be set for the Day unit, not in Hours-
+   This can only be set for the 'Day' unit, not in 'Hours'
 
 -  You can also define the maximum number of days a patron will be
-   suspended in the 'Max suspension duration' setting-
+   suspended in the 'Max suspension duration' setting
+
+-  The 'Suspension charging interval' option is just like the 'Fin charging 
+   interval'. For example, you could 'fine' a patron one day suspension for 
+   every two days overdue.
 
 -  Next decide if the patron can renew this item type and if so, enter
    how many times they can renew it in the 'Renewals allowed' box.
@@ -1267,42 +1309,58 @@ item types to apply the rules to
       number in units (days/hours) entered in this box.
 
    -  To control this value on a more granular level please set the
-      :ref:`NoRenewalBeforePrecision`
-      preference.
+      :ref:`NoRenewalBeforePrecision` preference.
 
 -  You can enable automatic renewals for certain items/patrons if you'd
    like. This will renew automatically following your circulation rules
    unless there is a hold on the item.
 
-   -  **Important**
+   **Important**
 
-          You will need to enable the :ref:`automatic renewal cron
-          job <cron-automatic-renewal-label>` for this to work.
+   You will need to enable the 
+   :ref:`automatic renewal cron job <cron-automatic-renewal-label>` for this to 
+   work.
 
-   -  **Important**
+   **Important**
 
-          This feature needs to have the "no renewal before" column
-          filled in or it will auto renew everyday after the due date.
+   This feature needs to have the "no renewal before" column
+   filled in or it will auto renew every day after the due date.
 
--  If you are using automatic renewals, you can use the 'No automatic
-   renewals after' to limit the time a patron can have the item independent:
-   Example: Don't allow automatic renewals after a checkout period of 80 days.
+-  If you are using automatic renewals, you can use the 'No automatic renewals 
+   after' to limit the time a patron can have the item. For example: don't 
+   allow automatic renewals after a checkout period of 80 days.
 
 -  Similar to the hard due date setting, you can also stop automatic renwals
    after a specific date using the 'No automatic renwal after (hard limit)'
    setting.
 
--  If the patron can place holds on this item type, enter the total
-   numbers of items (of this type) that can be put on hold in the 'Holds
+-  If patrons of this category can place holds on items of this type, enter the 
+   total numbers of items (of this type) that can be put on hold in the 'Holds
    allowed' field.
+
+   -  Leave empty to have unlimited holds.
+
+   -  If you'd rather put a hold limit per patron category, independent of the 
+      item type, see the 
+      :ref:`default checkout and hold policy by patron category <default-checkouts-and-hold-by-category-label>` 
+      section below.
+
+   -  If you want to have a hard hold limit, independent of patron category and 
+      item type, for this particular library, see the
+      :ref:`Default checkout, hold, and return policy <default-checkouts-and-hold-policy-label>`
+      section below.
+
+   -  If you want to have a hard hold limit, independent of patron category, 
+      item type, and across all libraries, see the :ref:`maxreserves` system 
+      preference.
 
 -  You can also set a daily limit on the number of holds a patron can place.
 
 -  While the two settings before limit the holds that can be placed across
    various records, the next setting is used to limit the number of holds
    that can be placed on one record at the same time.
-   Example: For fiction books you might want to allow only one item to be placed
-   on hold at the same time by the same user. But for serials where items
+   For example, for fiction books you might want to allow only one item to be 
+   placed on hold at the same time by the same user. But for serials where items
    represent different issues more than one hold at the same time is fine.
 
 -  Next you can decide how the availability of items influences the ability
@@ -1317,11 +1375,11 @@ item types to apply the rules to
 
    -  If all unavailable: This will allow to place a hold as soon as all
       items on the record are checked out that could fill the hold. This is
-      especially useful for libraries that don't offer the service of getting items
-      placed on hold off the shelf for patrons.
+      especially useful for libraries that don't offer the service of getting 
+      items placed on hold off the shelf for patrons.
 
--  Under 'OPAC item level hold' you can decide if patrons are allowed to place item specific
-   holds on the item type in question. The options are:
+-  Under 'OPAC item level hold' you can decide if patrons are allowed to place 
+   item specific holds on the item type in question. The options are:
 
    -  Allow: Will allow patrons the option to choose next available or
       a specific item.
@@ -1330,26 +1388,54 @@ item types to apply the rules to
 
    -  Force: Will only allow patrons to choose a specific item.
 
--  If you want to allow patrons to be able to place article requests, you
+-  If you want to allow patrons of this category to be able to place article 
+   requests on items of this type, choose an option in the 'Article requests' 
+   column
 
-   -  **Important**
+   -  No: patrons of this category will not be able to place article requests 
+      on items of this type
 
-          If you want to use the article request functionality
-          you need to enable it using the :ref:`ArticleRequests` system
-          preference and configure the form using the other related preferences.
+   -  Yes: patrons of this category will be able to place article requests on 
+      items of this type, either on specific items (for example in the case of 
+      serial issues) or on entire records (for example in the case of 
+      monographs)
 
--  Finally, if you charge a `rental fee <#rentalcharge>`__ for the item
-   type and want to give a specific patron type a discount on that fee,
+   -  Record only: patrons of this category will be able to place article 
+      requests on records of this type, but not on specific items
+
+   -  Item only: patrons of this category will be able to place article 
+      requests on items of this type, but not on entire records
+
+   **Important**
+
+   If you want to use the article request functionality you need to enable it 
+   using the :ref:`ArticleRequests` system preference and configure the form 
+   using the other related preferences.
+
+-  Finally, if you :ref:`charge a rental fee for the item type <adding-item-types-label>` 
+   and want to give this specific patron category a discount on that fee,
    enter the percentage discount (without the % symbol) in the 'Rental
    discount' field
 
 When finished, click 'Save' to save your changes. To modify a rule,
-simply click the 'Edit' link at the beginning or at the end of the row
-and edit the values that appear filled in at the bottom of the form.
+simply click the 'Edit' button either at the beginning or at the end of the row.
+The row of the rule being edited will be highlighted in yellow and the values 
+will appear filled in at the bottom of the table. Edit the values at the bottom 
+and click save.
 
 |image158|
 
-If you would like to delete your rule, click the 'Delete' link at the beginning
+  **Note**
+
+  If, while editing a rule, you change either the patron category or the item 
+  type, it will create a new rule. You can do this to duplicate rules instead of 
+  creating new ones if the values are similar.
+
+Alternatively, you can create a rule with the same patron category and item type 
+and it will edit the existing one, as there can only be one rule per library-
+patron category-item type combination.
+
+If you would like to delete your rule, click the 'Delete' button at the beginning
 or at the end of the rule row.
 
 To save time you can clone rules from one library to another by choosing
@@ -1358,8 +1444,7 @@ all rules already configured for that library.
 
 |image159|
 
-After choosing to clone you will be presented with a confirmation
-message.
+After choosing to clone you will be presented with a confirmation message.
 
 |image160|
 
@@ -1432,7 +1517,7 @@ patrons in the library if no other option is set in the forms below.
 
 .. _default-checkouts-and-hold-by-category-label:
 
-Default checkout and hold policy by patron cateogry
+Default checkout and hold policy by patron category
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For this library, you can specify the maximum number of checkouts,

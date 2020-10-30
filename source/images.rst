@@ -149,10 +149,15 @@
 .. |image154| image:: images/admin/patroncirc/patroncatpulldown.png
 .. |image155| image:: images/admin/patroncirc/patcaterror.png
 .. |image156| image:: images/admin/patroncirc/selectissuinglibrary.png
+				:alt: 'Select a library' drop down menu
 .. |image157| image:: images/admin/patroncirc/addcircrule.png
+				:alt: Circulation rules table
 .. |image158| image:: images/admin/patroncirc/editcircfine.png
+				:alt: Circulation rules table where the rule being edited is highlighted and it is repeated at the bottom for editing
 .. |image159| image:: images/admin/patroncirc/clonerules.png
+				:alt: Drop-down menu 'Clone these rules to' next to the library selection
 .. |image160| image:: images/admin/patroncirc/rulescloned.png
+				:alt: Confirmation message that says 'The rules have been cloned.'
 .. |image161| image:: images/admin/patroncirc/defaultcheckholds.png
 .. |image162| image:: images/admin/patroncirc/checkoutsperpatron.png
 .. |image163| image:: images/admin/patroncirc/holdsperitem.png
@@ -1543,3 +1548,5 @@
 				:alt: Item types DVD and Blu-ray, where DVD is the parent of Blu-ray
 .. |image1511| image:: images/admin/patroncirc/parentitemtypecircrule.png
 				:alt: Creating a circulation rule for a parent item type				
+.. |image1512| image:: images/admin/patroncirc/parentchilditemtyperule.png			
+				:alt: Circulation rules table with a rule for DVDs for which the maximum is 5 checkouts and a rule for Blu-ray (child of DVD) for which the maximum is 2 checkouts
