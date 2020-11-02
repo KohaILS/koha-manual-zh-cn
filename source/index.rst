@@ -14,6 +14,7 @@ Author: The Koha Community
    administration
    tools
    patrons
+   cash_management
    circulation
    cataloging
    course_reserves
