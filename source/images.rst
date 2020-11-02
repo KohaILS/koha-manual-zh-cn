@@ -1562,3 +1562,5 @@
 				:alt: A quote of the day block under the news blocks on the main page of the staff interface
 .. |image1514| image:: images/tools/qotd/qotdeditor.png
 				:alt: Main page of the quote of the day editor
+.. |image1515| image:: images/cash-management/cashup_summary.png
+				:alt: A cashup summary view modal

@@ -78,6 +78,8 @@ Once a cashup has taken place, a summary of the transactions taken during that
 cashup period is available for display, and printing, via the `Summary` link 
 found next to the last cashup date on the register details page.
 
+|image1515|
+
 .. _point-of-sale-label:
 
 Point of sale
