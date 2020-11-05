@@ -1547,6 +1547,9 @@ Here, you can specify the default policy for lost item fees on return.
 This policy will apply to this library. This rule is to be used with the
 :ref:`RefundLostOnReturnControl` system preference.
 
+You can limit the number of days during which a lost item is refundable using 
+the :ref:`NoRefundOnLostReturnedItemsAge` system preference.
+
 .. _item-hold-policies-label:
 
 Default holds policy by item type

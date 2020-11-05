@@ -4801,6 +4801,23 @@ Values:
 
 -  only if all items are checked out and the record has at least one hold already.
 
+.. _norefundonlostreturneditemsage-label:
+
+NoRefundOnLostReturnedItemsAge
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Don't refund lost fees if a lost item is checked in more than \_\_\_ days 
+after it was marked lost. 
+
+Description:
+
+-  Enter a number of days after which lost items are not refunded.
+
+**Note**
+
+Set the refund policy in the :ref:`default lost item fee refund on return policy <item-fee-refund-on-return-label>` 
+rule in the :ref:`circulation and fines rules <circulation-and-fines-rules-label>`.
+
 .. _processingfeenote-label:
 
 ProcessingFeeNote
@@ -4811,12 +4828,12 @@ Asks: Set the text to be recorded in the column 'note', table 'accountlines' whe
 .. _refundlostonreturncontrol-label:
 
 RefundLostOnReturnControl
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: check-in library.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: If a lost item is returned, apply the refunding rules defined
 in the \_\_\_
+
+Default: check-in library.
 
 Values:
 
@@ -4825,6 +4842,16 @@ Values:
 -  item holding branch.
 
 -  item home branch.
+
+Description:
+
+-  This refers to the :ref:`default lost item fee refund on return policy <item-fee-refund-on-return-label>` 
+   rule in the :ref:`circulation and fines rules <circulation-and-fines-rules-label>`.
+
+**Note** 
+
+You can limit the number of days after which a lost item is not refunded using 
+the :ref:`NoRefundOnLostReturnedItemsAge` system preference.
 
 .. _suspensionscalendar-label:
 
