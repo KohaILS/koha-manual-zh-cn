@@ -67,6 +67,36 @@ Acquisitions
 Features
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _autocreditnumber-label:
+
+AutoCreditNumber
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_
+
+Default: Do not automatically generate credit numbers
+
+Values:
+
+-  Do not automatically generate credit numbers
+
+-  Automatically generate credit numbers in the form <year>-0001
+
+-  Automatically generate credit numbers in the form <branchcode>yyyymm0001
+
+-  Automatically generate credit numbers in the form 1, 2, 3
+
+Description:
+
+-  For auditing purposes, it might be necessary to attach a unique number to each
+   credit (payments, writeoffs, refunds, etc.). This system preference allows you 
+   to choose the format of this unique number.
+
+   **Important**
+
+   Automatic generation also has to be enabled for each 
+   :ref:`credit type <credit-types-label>`.
+
 .. _enablepointofsale-label:
 
 EnablePointOfSale
