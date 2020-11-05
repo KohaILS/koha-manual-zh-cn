@@ -11005,23 +11005,25 @@ Values:
 .. _quoteoftheday-label:
 
 QuoteOfTheDay
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Disable
+Asks: Show quote of the day in the \_\_\_ main page
 
-Asks: \_\_\_ Quote of the Day display on OPAC home page
+Default: (none)
 
 Values:
 
--  Disable
+-  [Select all]
 
--  Enable
+-  OPAC
+
+-  staff interface
 
 Description:
 
--  This feature will allow you to enter a series of quotes that will
-   then show on the OPAC homepage in random order. To add/edit quotes,
-   visit the :ref:`Quote of the Day editor <quote-of-the-day-(qotd)-editor-label>` under Tools.
+-  This system preference allows you to choose where the quotes from the 
+   :ref:`quote of the day editor <quote-of-the-day-(qotd)-editor-label>` tool 
+   will appear.
 
 .. _requestonopac-label:
 
