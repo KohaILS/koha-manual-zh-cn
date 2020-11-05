@@ -3186,6 +3186,26 @@ Description:
 -  :ref:`HoldsAutoFill` must be set to 'do' for this preference to have any
    effect.
 
+.. _holdsneedprocessingsip-label:
+
+HoldsNeedProcessingSIP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ holds automatically if matching item is returned via SIP protocol.
+
+Default: Fulfill
+
+Values:
+
+-  Fulfill
+
+-  Don't fulfill
+
+Description:
+
+-  This system preference controls whether or not holds are automatically filled 
+   by items returned via SIP (sorter, auto check-in stations, etc.)
+
 .. _skipholdtraponnotforloanvalue-label:
 
 SkipHoldTrapOnNotForLoanValue
