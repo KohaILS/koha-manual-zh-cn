@@ -1501,6 +1501,7 @@
 .. |image1474| image:: images/acquisitions/suggestarchive.png
 .. |image1475| image:: images/admin/accounting/credittypes.png
 .. |image1476| image:: images/admin/accounting/newcredittype.png
+				:alt: New credit type form
 .. |image1477| image:: images/admin/basicparams/newdesk.png
 .. |image1478| image:: images/admin/basicparams/desks.png
 .. |image1479| image:: images/admin/additional/usagestatistics.png

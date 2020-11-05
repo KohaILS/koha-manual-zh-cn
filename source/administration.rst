@@ -2124,7 +2124,7 @@ If you need to use an archived debit type again, simply click on the
 
 This will make it available again.
 
-.. _creit-types-label:
+.. _credit-types-label:
 
 Credit types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2200,6 +2200,10 @@ To add a new credit type:
    -  If this credit type can be added manually by staff to a patron's 
       account via the :ref:`manual credit <creating-manual-credits-label>`, 
       check the 'Can be added manually?' check box
+
+   -  If you need this credit type to be sequentially numbered, check the 
+      'Enable credit number'. The format of the number is defined in the 
+      :ref:`AutoCreditNumber` system preference.
 
    -  If this credit type is only to be used in specific branches, you can 
       select the libraries in 'Libraries limitation'
