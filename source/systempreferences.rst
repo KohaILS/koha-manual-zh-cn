@@ -15371,6 +15371,38 @@ Values:
 
 -  Staff client only
 
+.. _newstooleditor-label:
+
+NewsToolEditor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: By default edit news items with
+
+Default: a WYSIWYG editor (TinyMCE)
+
+Values:
+
+-  a text editor (CodeMirror)
+
+-  a WYSIWYG editor (TinyMCE)
+
+Description:
+
+-  This system preference allows you to choose which editor to use in the 
+   :ref:`news tool <news-label>`.
+
+-  A text editor will let you write HTML directly. Use this if you want more 
+   control over how your content will be displayed. 
+
+   **Note**
+
+   You can use CSS id's and classes in your HTML and format them with the 
+   :ref:`OPACUserCSS` system preference.
+
+-  A WYSIWYG (what you see is what you get) editor is a user-friendly editor 
+   with functions similar to word processing software. Use this if you are 
+   unfamiliar with HTML.
+
 .. _patron-cards-label:
 
 Patron Cards
