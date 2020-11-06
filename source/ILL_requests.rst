@@ -22,6 +22,10 @@ Next, set your system preferences.
 
 -  If you wish to include a copyright declaration in your ILL workflow you can this in the :ref:`ILLModuleCopyrightClearance` preference.
 
+-  If you allow requests to be made without staff mediation set the :ref:`ILLModuleUnmediated` preference to 'Enable'.  Not all backends can support this feature
+
+-  You can select which backends to make available on the OPAC in the :ref:`ILLOpacbackends` preference.
+
 Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*.
 
 The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`.
@@ -64,21 +68,16 @@ Click ‘Confirm request’ again to create your request.
 Viewing ILL requests
 ------------------------
 
-From the main ILL requests screen you can see all of your ILL requests. You
-can also click on the ‘View requests’ button at any time.
+From the main ILL requests screen you can view, filter and sort your ILL requests. You can
+can also click on the ‘List requests’ button at any time to return to this list.
 
 |image1435|
 
 There is a large amount of data available in the Requests table so it is
-advisable to make use of column visibility to view only the information you need.
+advisable to make use of :ref:`'Column settings'<column-settings-label>` section of the 
+Administration module (table id: ill-requests) to view only the information you need.
 The first half of the table displays data related to the ILL item itself
 such as title, volume, page numbers.
-
-     **Note**
-
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: ill-requests).
 
 |image1436|
 
@@ -95,13 +94,17 @@ status of the request you may see some or all of the following options:
 
 -  Edit request
 
-   -  you can edit the borrowernumber, biblionumber, branch and can add notes.
+   -  you can edit the borrowernumber, biblionumber, branch and can add notes.  If you have added custom
+      ILL statuses you can also edit these.   
 -  Confirm request
 
    -  place the request with a document supply service using a backend such as BLDSS.
 -  Place request with partners
 
    -  place the request via email with a :ref:`partner library <place-request-with-partners-label>`
+-  Switch provider
+
+   -  this allows you to move the request to a different provider (backend).
 -  Delete
 
    -  fully delete the request. Details of deleted requests are not retained in Koha.
@@ -118,11 +121,14 @@ status of the request you may see some or all of the following options:
       add or delete some or all of the request metadata.  For example, if the
       metdata has originated from a requestor using the FreeForm backend this
       may need to be edited, whereas metadata from an external recognised source
-      such as BLDSS should not.
+      such as BLDSS should not.     
 -  Display supplier metadata
 
    -  Displays any extra metadata that might have been provided by your ILL
       supplier that has not been included in the standard request fields.
+-  ILL request log
+
+   -  Displays a history of changes made to the request. 
 -  Comments
 
    -  It is possible to add comments to an ILL request and these can be used
@@ -134,7 +140,7 @@ status of the request you may see some or all of the following options:
 Request statuses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The full list of ILL statuses are:
+The full list of installed ILL statuses are:
 
 -  New request
 -  Requested
