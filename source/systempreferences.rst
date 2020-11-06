@@ -13185,6 +13185,22 @@ Description:
 -  If you would rather completely hide sections, without the possibility of 
    expanding them, enter the field names in :ref:`BorrowerUnwantedFields`.
 
+.. _patronduplicatematchingaddfields-label:
+
+PatronDuplicateMatchingAddFields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: The following database columns: \_\_\_ will be used to detect possible 
+duplicates when adding a new patron.
+
+Default: surname\|firstname\|dateofbirth
+
+Description:
+
+-  This system preference allows you to choose which fields will be used to 
+   detect duplicate patrons.
+
+
 .. _patronquickaddfields-label:
 
 PatronQuickAddFields
