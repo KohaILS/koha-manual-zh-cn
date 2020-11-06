@@ -3843,13 +3843,14 @@ Values:
 .. _consideronsitecheckoutsasnormalcheckouts-label:
 
 ConsiderOnSiteCheckoutsAsNormalCheckouts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ on-site checkouts as normal checkouts. If enabled, on-site 
+checkouts will count toward the checkout limit for regular checkouts. The 
+on-site limit will still apply for on-site checkouts. If disabled, both values 
+will be checked separately.
 
 Default: Consider
-
-Asks: \_\_\_ on-site checkouts as normal checkouts. If enabled, the
-number of checkouts allowed will be normal checkouts + on-site
-checkouts. If disabled, both values will be checked separately.
 
 Values:
 
@@ -3859,11 +3860,11 @@ Values:
 
 Description:
 
--  This preference allows you to decide if checkouts that are
-   :ref:`OnSiteCheckouts` are counted toward the total
-   checkouts a patron can have. You can also set your :ref:`circulation and
-   fines rules <circulation-and-fines-rules-label>` to allow only a certain number of
-   normal and OnSite checkouts.
+-  This preference allows you to decide if checkouts that are considered 
+   :ref:`on-site checkouts <onsitecheckouts-label>` are counted toward the total
+   checkouts a patron can have. You can also set your 
+   :ref:`circulation and fines rules <circulation-and-fines-rules-label>` to 
+   allow only a certain number of normal and on-site checkouts.
 
 .. _defaultlongoverduechargevalue-label:
 
