@@ -3370,6 +3370,11 @@ Description:
 
   -  Make sure each pair is on its own line
 
+-  If using PROC or CART, use the 
+   :ref:`cart\_to\_shelf cron job <cron-in-processing/book-cart-label>` to 
+   return the items to their permanent location after a determined number of 
+   hours.
+
 .. _updatenotforloanstatusoncheckin-label:
 
 UpdateNotForLoanStatusOnCheckin

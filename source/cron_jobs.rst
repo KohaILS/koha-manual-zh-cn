@@ -230,8 +230,7 @@ Frequency suggestion: nightly
 
     -  -o|--out 
 
-       -  ouput directory for logs (defaults to env or /tmp if the directory does 
-       not exist)
+       -  ouput directory for logs (defaults to env or /tmp if the directory does not exist)
 
     -  -v|--verbose
 
@@ -614,9 +613,8 @@ Script path: misc/cronjobs/cart\_to\_shelf.pl
 Does: updates all items with a location of CART to the item's permanent
 location.
 
-Required by: :ref:`NewItemsDefaultLocation`,
-:ref:`InProcessingToShelvingCart`, and
-:ref:`ReturnToShelvingCart` system preferences
+Required by: :ref:`NewItemsDefaultLocation`, and
+:ref:`UpdateItemLocationOnCheckin` system preferences
 
 Frequency suggestion: hourly
 
