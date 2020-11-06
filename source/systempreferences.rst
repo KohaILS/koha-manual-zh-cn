@@ -1816,7 +1816,7 @@ Description:
    Cats--Fiction
 
 -  This is used for non-XSLT views only. Whether or not you use XSLT views is 
-  determined by the following system preferences:
+   determined by the following system preferences:
 
    -  :ref:`OPACXSLTDetailsDisplay`
 
