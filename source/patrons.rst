@@ -232,11 +232,9 @@ warn you.
 
     **Note**
 
-    A duplicate patron is detected if first and last names match and
-    there is no date of birth populated or if first name, last name and
-    date of birth fields are all populated. If two patrons have matching
-    names, but one has a date of birth and the other does not they will
-    not match as duplicates.
+    See the :ref:`PatronDuplicateMatchingAddFIelds` system preference to see 
+    or change which fields are used to detect duplicate patrons. The default is 
+    the surname, the firstname and the date of birth.
 
 If you have set a minimum or upper age limit on the patron category and
 are requiring that the birth date be filled in, Koha will warn you if
