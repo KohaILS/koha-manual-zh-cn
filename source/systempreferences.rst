@@ -2248,11 +2248,6 @@ Description:
    pure number match is possible. If this preference is set to "Don't"
    then Koha will find a match only if the ISBN fields are identical.
 
-    **Important**
-
-    Note that this preference has no effect if
-    :ref:`UseQueryParser` is on.
-
 .. _aggressivematchonissn-label:
 
 AggressiveMatchOnISSN
@@ -2262,8 +2257,7 @@ Default: don't
 
 Asks: When matching on ISSN with the record import tool, \_\_\_ attempt
 to match aggressively by trying all variations of the ISSNs in the imported
-record as a phrase in the ISSN fields of already cataloged records. Note that
-this preference has no effect if :ref:`UseQueryParser` is on.
+record as a phrase in the ISSN fields of already cataloged records.
 
 .. _interface-label:
 
@@ -14234,11 +14228,6 @@ Descriptions:
    even if there are dashes or spaces in the field. So if you search for
    9781843345855 but the ISBN was cataloged as 978-1843345855 you'll
    still be able to find it if this preference is set to 'search'.
-
-    **Important**
-
-    This preference has no effect if
-    :ref:`UseQueryParser` is on
 
 .. _unimarcauthorsfacetsseparator-label:
 
