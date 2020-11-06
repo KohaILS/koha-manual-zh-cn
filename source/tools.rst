@@ -3601,7 +3601,7 @@ interface and circulation receipts.
 
 |image387|
 
-To add news to either the OPAC, the Staff Client or a circulation
+To add news to either the OPAC, the staff interface or a circulation
 receipt:
 
 -  Click 'New entry'
@@ -3622,21 +3622,50 @@ receipt:
          |image391|
 
          **Note**
-         This can be activated or deactivated in the :ref:`Notices & slips tool
-          <notices-and-slips-label>`
 
-      -  OPAC news: content will appear above the :ref:`OpacMainUserBlock`
+         This can be activated or deactivated in the 
+         :ref:`Notices & slips tool <notices-and-slips-label>`
 
-         |image389|
+      -  For each language your OPAC is available in, you can set up news or 
+         content blocks. 
 
-         Below the news in the OPAC there will be an RSS icon allowing you
-         to subscribe to library news
+         The following image shows where each block is displayed on the OPAC's 
+         main page
 
-         |image1241|
+         |image1068|
 
-      -  OpacNavRight: content will appear on the right side of the OPAC page
+         **Note** 
 
-         |image1448|
+         :ref:`OpacNav` and :ref:`OpacNavBottom` are system preferences and the 
+         :ref:`Quote of the day <quote-of-the-day-(qotd)-editor-label>` feature 
+         is found in the tools module. The rest of the customizable blocks are 
+         managed in the news tool.
+
+         -  OPAC news: content will appear in the top middle part of the OPAC 
+            page
+
+            -  Below the news in the OPAC there will be an RSS icon allowing you
+               and your users to subscribe to library news
+
+               |image1241|
+
+            -  You can allow your users to choose to see branch-specific news 
+               with the :ref:`OpacNewsLibrarySelect` system preference
+
+         -  OpacNavRight: content will appear on the right side of the OPAC page
+
+         -  opacheader: content will appear at the top of the OPAC page
+
+         -  OpacCustomSearch: content will replace the simple search bar at the 
+            top of the page
+
+         -  OpacMainUserBlock: content will appear in the middle of the OPAC's 
+            main page
+
+         -  opaccredits: content will appear at the bottom of the page
+
+         -  OpacLoginInstructions: content will appear under the login box on 
+            the OPAC's main page
 
    -  Choose the library this news item will show for
 
@@ -3657,8 +3686,13 @@ receipt:
    -  'Appear in position' lets you decide what order your news items
       appear in
 
-   -  The 'News' box allows for the use of HTML for formatting of your
-      news item
+   -  The 'News' box is the content of your news item
+
+      **Note**
+
+      You can choose which type of editor to use here (either a text editor or 
+      a WYSIWYG (what you see is what you get) editor) with the 
+      :ref:`NewsToolEditor` system preference.
 
 -  After filling in all of the fields, click 'Submit'
 
