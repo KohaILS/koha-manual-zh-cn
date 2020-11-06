@@ -405,17 +405,20 @@
 .. |image392| image:: images/tools/tasksched/taskscheduler.png
 .. |image393| image:: images/tools/tasksched/scheduledreports.png
 .. |image394| image:: images/tools/tasksched/savedreports.png
-.. |image395| image:: images/tools/qotd/quoteinopac.png
 .. |image396| image:: images/tools/qotd/quotebuttons.png
+				:alt: Add quote, delete quote(s), and import quotes buttons
 .. |image397| image:: images/tools/qotd/addquote.png
+				:alt: New line at the bottom of the quotes table to add a new quote
 .. |image398| image:: images/tools/qotd/editquote.png
-.. |image399| image:: images/tools/qotd/quotebuttons.png
+				:alt: Clicking on the source will make it into an editable text field
 .. |image400| image:: images/tools/qotd/importquotes.png
+				:alt: Quote uploader screen
 .. |image401| image:: images/tools/qotd/importedsummary.png
-.. |image402| image:: images/tools/qotd/editimported.png
+				:alt: Preview of the imported quotes
 .. |image403| image:: images/tools/qotd/selectfordelete.png
-.. |image404| image:: images/tools/qotd/importquotebuttons.png
+				:alt: Save quotes, delete quote(s), and cancel import buttons
 .. |image405| image:: images/tools/qotd/confirmdelete.png
+				:alt: Pop up modal with the text 'Are you sure you wish to delete quote(s) 2, 4, 6?'
 .. |image406| image:: images/tools/qotd/importquotebuttons.png
 .. |image407| image:: images/patrons/newpatron.png
 				:alt: Drop down of patron categories when adding a new patron
@@ -1551,3 +1554,7 @@
 				:alt: Creating a circulation rule for a parent item type				
 .. |image1512| image:: images/admin/patroncirc/parentchilditemtyperule.png			
 				:alt: Circulation rules table with a rule for DVDs for which the maximum is 5 checkouts and a rule for Blu-ray (child of DVD) for which the maximum is 2 checkouts
+.. |image1513| image:: images/tools/qotd/quotesinstaff.png
+				:alt: A quote of the day block under the news blocks on the main page of the staff interface
+.. |image1514| image:: images/tools/qotd/qotdeditor.png
+				:alt: Main page of the quote of the day editor
