@@ -13183,7 +13183,7 @@ Description:
    and staff will be able to expand them if needed.
 
 -  If you would rather completely hide sections, without the possibility of 
-   expanding them, enter the field names in :ref:`BorrowerUnwantedFields`.
+   expanding them, enter the field names in :ref:`BorrowerUnwantedField`.
 
 .. _patronduplicatematchingaddfields-label:
 
@@ -13422,7 +13422,7 @@ remove anonymized patron accounts after \_\_\_ days.
 Description:
 
 -  This system preference is used to purge accounts of patrons who have opted 
-   out/refused consent in the GDPR consent form (see :ref:`GDPR\_Policy`).
+   out/refused consent in the GDPR consent form (see :ref:`GDPR\_Policy <gdpr-policy-label>`).
 
 -  The first box is the number of days after which an opt-out patron's account 
    should be locked (equivalent of having entered the wrong password too many 
