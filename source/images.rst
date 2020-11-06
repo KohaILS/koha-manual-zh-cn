@@ -129,7 +129,7 @@
 .. |image137| image:: images/admin/basicparams/itemtype-msg.png
 				:alt: Checkin message 'This is a book' in a blue message box
 .. |image138| image:: images/admin/basicparams/itemtype-alert.png
-				:altL Checkin message 'Thid id a book' in a yellow message box
+				:alt: Checkin message 'This is a book' in a yellow message box
 .. |image139| image:: images/admin/basicparams/newitemtype.png
 				:alt: Item types table with the item type 'book'
 .. |image140| image:: images/admin/basicparams/nodeleteitemtype.png
