@@ -12310,7 +12310,7 @@ Description:
 Patrons
 -------------------------------------------------------------------------------
 
-*Get there:* More > Administration > Global System Preferences > Patrons
+*Get there:* More > Administration > Global system preferences > Patrons
 
 .. _patronsgeneral-label:
 
