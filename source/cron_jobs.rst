@@ -221,24 +221,30 @@ Frequency suggestion: nightly
 
     **PARAMETERS**
     -  -h|--help
-       get help message
+
+       -  get help message
 
     -  -l|--log
-       log the output to a file (optional if the -o parameter is given)
+
+       -  log the output to a file (optional if the -o parameter is given)
 
     -  -o|--out 
-       ouput directory for logs (defaults to env or /tmp if the directory does 
+
+       -  ouput directory for logs (defaults to env or /tmp if the directory does 
        not exist)
 
     -  -v|--verbose
-       verbose mode
+
+       -  verbose mode
 
     -  -m|--maxdays
-       how many days back of overdues to process
-       this can improve performance by simply the number of records that need 
-       to be processed. It can be safe to limit the overdues processed to those 
-       under X days overdues given that circulation policy often caps fines at 
-       a maximum after a number of days.
+
+       -  how many days back of overdues to process
+
+       -  this can improve performance by simply the number of records that need 
+          to be processed. It can be safe to limit the overdues processed to those 
+          under X days overdues given that circulation policy often caps fines at 
+          a maximum after a number of days.
 
 .. _cron-staticfines-label:
 
@@ -334,24 +340,30 @@ renewal with your :ref:`circulation and fines rules <circulation-and-fines-rules
 Frequency suggestion: nightly
 
     **Important**
+
     To run this properly, you must use the --confirm parameter, otherwise it 
     will only run in test mode
 
     **PARAMETERS**
     -  -h|--help
-       get help message
+
+       -  get help message
 
     -  --send-notices
-       sends the AUTO_RENEWALS notice to patrons if the automatic renewal has 
-       been done
+
+       -  sends the AUTO_RENEWALS notice to patrons if the automatic renewal has 
+          been done
 
     -  -v|--verbose
-       verbose mode
+
+       -  verbose mode
 
     -  -c|--confirm
-       without this parameter no changes will be made, the script will run in 
-       test mode
-       without this parameter, the script will default to verbose mode as well
+
+       -  without this parameter no changes will be made, the script will run in 
+          test mode
+
+       -  without this parameter, the script will default to verbose mode as well
 
 .. _cron-patrons-label:
 
@@ -889,118 +901,161 @@ See http://schema.koha-community.org/ for the Koha database schema.
 
     **PARAMETERS**
     -  --del-exp-selfreg
-       Delete expired self registration accounts (accounts that haven't been 
-       upgraded from the 'temporary' category) from the borrowers table.
-       The number of days for expiry is set in the ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` 
-       system preference.
-       The temporary patron category is set in the ref:`PatronSelfRegistrationDefaultCategory` 
-       system preference.
+
+       -  Delete expired self registration accounts (accounts that haven't been 
+          upgraded from the 'temporary' category) from the borrowers table.
+       
+       -  The number of days for expiry is set in the 
+          :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` system 
+          preference.
+
+       -  The temporary patron category is set in the 
+          :ref:`PatronSelfRegistrationDefaultCategory` system preference.
 
     -  --del-unv-selfreg DAYS 
-       Delete all unverified self registrations in borrower_modifications 
-       older than DAYS.
+
+       -  Delete all unverified self registrations in borrower_modifications 
+          older than DAYS.
 
     -  --deleted-catalog DAYS
-       Purge bibliographic records deleted more than DAYS days ago from tables 
-       deletedbiblio, deletedbiblio_metadata, deletedbiblioitems and deleteditems.
+       
+       -  Purge bibliographic records deleted more than DAYS days ago from tables 
+          deletedbiblio, deletedbiblio_metadata, deletedbiblioitems and deleteditems.
 
     -  --deleted-patrons DAYS
-       Purge patrons deleted more than DAYS days ago from the deletedborrowers 
-       table.
+       
+       -  Purge patrons deleted more than DAYS days ago from the deletedborrowers 
+          table.
 
     -  --fees DAYS
-       Purge entries in the accountlines table older than DAYS days, where the 
-       amountoutstanding is 0 or NULL.
-       In the case of --fees, DAYS must be greater than or equal to 1.
+       
+       -  Purge entries in the accountlines table older than DAYS days, where the 
+          amountoutstanding is 0 or NULL.
+
+       -  In the case of --fees, DAYS must be greater than or equal to 1.
 
     -  -h|--help
-       Get help message
+
+       -  Get help message
 
     -  --import DAYS
-       Purge entries from import tables older than DAYS days.
-       This includes import_batches, import_biblios, import_items, 
-       import_record_matches and import_records. 
-       In import_batches, the batches that are the result of Z39.50 searches 
-       are removed with the --z3950 parameter.
-       Defaults to 60 days if no days specified.
+       
+       -  Purge entries from import tables older than DAYS days.
+       
+       -  This includes import_batches, import_biblios, import_items, 
+          import_record_matches and import_records. 
+       
+       -  In import_batches, the batches that are the result of Z39.50 searches 
+          are removed with the --z3950 parameter.
+       
+       -  Defaults to 60 days if no days specified.
 
     -  --list-invites  DAYS
-       Purge (unaccepted) list share invites from the virtualshelfshares table 
-       older than DAYS days
-       Defaults to 14 days if no days specified.
+       
+       -  Purge (unaccepted) list share invites from the virtualshelfshares table 
+          older than DAYS days
+       
+       -  Defaults to 14 days if no days specified.
 
     -  --logs DAYS
-       Purge entries from the action_logs table older than DAYS days.
-       Defaults to 180 days if no days specified.
+       
+       -  Purge entries from the action_logs table older than DAYS days.
+       
+       -  Defaults to 180 days if no days specified.
 
     -  -m|--mail DAYS
-       Purge entries from the message_queue table that are older than DAYS days.
-       Defaults to 30 days if no days specified.
+       
+       -  Purge entries from the message_queue table that are older than DAYS days.
+       
+       -  Defaults to 30 days if no days specified.
 
     -  --merged
-       Purge completed entries from the need_merge_authorities table.
+       
+       -  Purge completed entries from the need_merge_authorities table.
 
     -  --oauth-tokens
-       Delete expired OAuth2 tokens
+       
+       -  Delete expired OAuth2 tokens
 
     -  --old-issues DAYS
-       Purge checkouts returned more than DAYS days ago from the old_issues 
-       table.
+       
+       -  Purge checkouts returned more than DAYS days ago from the old_issues 
+          table.
 
     -  --old-reserves DAYS
-       Purge holds more than DAYS old from the old_reserves table.
+       
+       -  Purge holds more than DAYS old from the old_reserves table.
 
     -  --restrictions DAYS
-       Purge patrons restrictions from the borrower_debarments table expired since more than DAYS days.
-       Defaults to 30 days if no days specified.
+       
+       -  Purge patrons restrictions from the borrower_debarments table expired since more than DAYS days.
+       
+       -  Defaults to 30 days if no days specified.
 
     -  --all-restrictions
-       Purge all expired patrons restrictions from the borrower_debarments table.
+       
+       -  Purge all expired patrons restrictions from the borrower_debarments table.
 
     -  --searchhistory DAYS
-       Purge entries from the search_history table older than DAYS days.
-       Defaults to 30 days if no days specified
+       
+       -  Purge entries from the search_history table older than DAYS days.
+       
+       -  Defaults to 30 days if no days specified
 
     -  --sessions
-       Purge the sessions table.
-       If you use this while users are logged into Koha, they will have to 
-       reconnect.
+       
+       -  Purge the sessions table.
+       
+       -  If you use this while users are logged into Koha, they will have to 
+          reconnect.
 
     -  --sessdays DAYS
-       Purge only sessions older than DAYS days.
+       
+       -  Purge only sessions older than DAYS days.
 
     -  --statistics DAYS
-       Purge entries from the statistics tables that are more than DAYS days 
-       old.
+       
+       -  Purge entries from the statistics tables that are more than DAYS days 
+          old.
 
     -  --temp-uploads
-       Delete temporary uploads from the uploaded_files table older than the 
-       number of days specified in the :ref:`UploadPurgeTemporaryFilesDays` 
-       system preference.
+       
+       -  Delete temporary uploads from the uploaded_files table older than the 
+          number of days specified in the :ref:`UploadPurgeTemporaryFilesDays` 
+          system preference.
 
     -  --temp-uploads-days DAYS
-       Override the :ref:`UploadPurgeTemporaryFilesDays` system preference value.
+       
+       -  Override the :ref:`UploadPurgeTemporaryFilesDays` system preference value.
 
     -  --transfers DAYS
-       Purge transfers completed more than DAYS days ago from the 
-       branchtransfers table.
+       
+       -  Purge transfers completed more than DAYS days ago from the 
+          branchtransfers table.
 
     -  --unique-holidays DAYS
-       Delete all unique holidays from the special_holidays table older than DAYS
+       
+       -  Delete all unique holidays from the special_holidays table older than DAYS
 
     -  --uploads-missing FLAG 
-       Delete upload records for missing files when FLAG is true, count them otherwise
+       
+       -  Delete upload records for missing files when FLAG is true, count them otherwise
 
     -  -v|--verbose
-       verbose mode
+       
+       -  verbose mode
 
     -  --zebraqueue DAYS
-       Purge completed zebraqueue entries older than DAYS days.
-       Defaults to 30 days if no days specified.
+       
+       -  Purge completed zebraqueue entries older than DAYS days.
+       
+       -  Defaults to 30 days if no days specified.
 
     -  --z3950
-       Purge records from import tables that are the result of Z39.50 searches.
-       To purge all other import information, see the --import parameter above.
+       
+       -  Purge records from import tables that are the result of Z39.50 searches.
+       
+       -  To purge all other import information, see the --import parameter above.
 
 .. _cron-share-usage-stats-label:
 
