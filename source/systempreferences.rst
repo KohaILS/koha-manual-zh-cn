@@ -10780,24 +10780,26 @@ Description:
 .. _opacitemlocation-label:
 
 OpacItemLocation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: call number only
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Show \_\_\_ for items on the OPAC search results.
 
+Default: library and call number
+
 Values:
 
--  call number only
+-  library and call number
 
--  collection code
+-  library, collection code, and call number
 
--  location
+-  only library
+
+-  library, location, and call number
 
 Description:
 
 -  This setting allows users of the OPAC results XSLT stylesheet to
-   choose to display collection code or location in addition to call
+   choose to display collection code or location in addition to library and call
    number.
 
 .. _opacnewslibraryselect-label:
