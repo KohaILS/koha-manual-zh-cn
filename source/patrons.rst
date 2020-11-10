@@ -1658,6 +1658,9 @@ The Transactions tab will show you the following columns:
 
 -  Account type: what type of charge, payment or credit it is
 
+   -  In cases where an account type may have an accompanying `status` it will be
+      displayed alongside the accounttype in brackets.
+
 -  Description of charges: a description of the charges including the due date for
    overdue items and a link to the item record where one is available
 
@@ -1683,28 +1686,71 @@ The Transactions tab will show you the following columns:
 
 -  Outstanding: the amount still due on charge
 
--  Actions column:
+-  Actions:
 
-   -  A button to print a receipt for that line item
-
-   -  A button to show further details about the charge and any payments that
-      have been made
-
-   -  A button to void (delete) the payment or credit
-
-   -  A button to pay charges with outstanding amounts
-
-   -  A button to issue a refund or payout (you need the 
-      :ref:`refund and payout permissions <patron-permissions-defined-label>` 
-      to see these buttons)
-
-   -  A button to apply a discount (you need the 
-      :ref:`discount permission <patron-permissions-defined-label>` 
-      to see this button)
+   - A selection of actions available to take upon the account line as detailed below
 
 At the top of the table you can click the 'Filter paid transaction' to
 hide all completed transaction and above that you can use the search box
 to find a specific charge or payment.
+
+.. _charging-fines/actions-label:
+
+Actions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Action buttons will be available for the different account lines depending on 
+the users available permissions and the account type and status.
+
+- A button to print a receipt for that line item
+
+- A button to show further details about the charge and any payments that have been made
+
+- A button to void (reverse) a payment/credit
+
+  - This button will only appear on a payment/credit line. Upon voiding the
+    line it will reverse the payment process restoring the amountoutstanding
+    for any debts/debits which the payment/credit may have previously been 
+    used to offset. This action is most commonly used to correct cases where
+    a payment was recorded but never actually recieved. The credit line will be
+    set to a zero amount and updated to `VOID`.
+
+- A button to cancel (remove) a charge/debit
+
+  - This button will only appear on a charge/debit line that has not already
+    had any payment/credits applied to it. Upon cancelling the line it will
+    be marked as 'Cancelled' and a `CANCELLATION` line will be added and offset 
+    against it. This action is most commonly used to correct cases where a 
+    charge was made mistakenly.
+
+- A button to pay against charges/debits with outstanding amounts
+
+  - This button will appear against any charge/debit with an outstanding 
+    amount.  The subsequent page can be used to pay or writeoff the line 
+    partially or in full with a `PAYMENT` or `WRITEOFF` line will being added.
+
+- A button to issue a payout of credit
+
+  - This button will appear against any credit line that has an amount 
+    outstanding and you have the :ref:`payout permission <patron-permissions-defined-label>`.
+    It allows the librarian to return outstanding credit to the patron and 
+    record the action with a `PAYOUT` line.
+
+- A button to issue a refund against a charge/debit
+
+  - This button will appear against any charge/debit line that has been paid or
+    partially paid and you have the :ref:`refund permission <patron-permissions-defined-label>`.
+    The subsequent modal dialogue will allow you to partially or fully refund 
+    the offset debt, either in `CASH` or by means of a credit added to the 
+    account.
+
+- A button to apply a discount to a charge/debit
+
+  - This button will appear against any charge/debit which has not already been
+    offset by a credit/payment and you have the 
+    :ref:`discount permission <patron-permissions-defined-label>`.
+    The subsequent modal dialogue will allow you to add a discount upon the 
+    charge.
 
 .. _charging-fines/fees-label:
 
