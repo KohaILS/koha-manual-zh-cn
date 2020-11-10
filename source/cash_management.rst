@@ -15,7 +15,7 @@ Cash registers
 -------------------------------------------------------------------------------
 
 Cash registers can be used to track transactions to a specific location in your
-library. This can be especially helpfull for detailing where cash has been taken
+library. This can be especially helpful for detailing where cash has been taken
 for payments and then when this cash is subsequently removed and taken to the 
 bank.
 
@@ -71,7 +71,7 @@ Clicking the `Record cashup` button will simply record the date and time that
 the action has taken place and is intended to allow the regular record of when 
 money is collected from the cash register and taken to the bank.
 
-Both of the above pages utilise the cashup record to limit the display of 
+Both of the above pages utilize the cashup record to limit the display of 
 transactions/summaries to only pertinent information, since the last cashup.
 
 Once a cashup has taken place, a summary of the transactions taken during that
@@ -85,7 +85,7 @@ found next to the last cashup date on the register details page.
 Point of sale
 -------------------------------------------------------------------------------
 
-Point of sale is a module designed for selling items to people who aren't 
+Point of sale is a module designed for selling items to people who are not 
 registered at the library or to make sales that do not need to be linked to a 
 patron account.
 
