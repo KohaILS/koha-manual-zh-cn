@@ -1758,7 +1758,8 @@ Charging fines/fees
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Most fees and fines will be charged automatically if the :ref:`fines cron
-job <cron-fines-label>` is running:
+job <cron-fines-label>` is running.  Fines will also be charged when an overdue item is checked
+in if the :ref:`CalculateFinesOnReturn` system preference is enabled. 
 
 -  Fines will be charged based on your :ref:`circulation and fines
    rules <circulation-and-fines-rules-label>`
@@ -1778,9 +1779,9 @@ job <cron-fines-label>` is running:
 -  Renewing a patron account in a :ref:`category <patron-categories-label>` 
    with an enrollment fee.
 
-.. _pay/reverse-fines-label:
+.. _pay-and-writeoff-fines-label:
 
-Pay/Void fines
+Pay and Writeoff fines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each line item can be paid in full (or written off) using the 'Make a payment' 
@@ -1816,7 +1817,7 @@ tab.
       category a dropdown selection box will be displayed to specify a custom
       payment type
 
-      |image1501|
+      |image452|
 
    -  If the :ref:`UseCashRegisters` system preference is enabled, you will
       have a choice of cash register in which to enter the transaction
@@ -1825,6 +1826,16 @@ tab.
 
    -  The fine will be removed from outstanding fines, and displayed as
       fully paid.
+ 
+   **Note**
+
+   - If the :ref:`FinePaymentAutoPopup` system preference is enabled a print dialogue window
+     will display.  If change was given for this trancaction the details will be included when 
+     using this system preference. 
+
+   - In addition to printing receipts you can enable email receipts for payment and writeoff transactions
+     with the :ref:`UseEmailReceipts` system preference.
+
 
 -  Pay a partial fine
 
@@ -1883,11 +1894,11 @@ tab.
 
 -  Writeoff selected fines
 
-    -  Check the selection boxes next to the fines you wish to pay, click "Writeoff selected".
+   -  Check the selection boxes next to the fines you wish to pay, click "Writeoff selected".
 
-    -  Click "Confirm".
+   -  Click "Confirm".
 
-    -  The fine will be removed from outstanding fines, and displayed as written off.
+   -  The fine will be removed from outstanding fines, and displayed as written off.
 
 -  Writeoff all fines
 
@@ -1895,22 +1906,21 @@ tab.
 
    -  All fines will be removed from outstanding fines, and displayed as written off.
 
+.. _void-payments-label:
 
--  If you accidentally mark and item as paid, you can reverse that line
-   item by clicking 'Void' to the right of the line
+Void payments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you accidentally mark and item as paid, you can reverse that line item 
+by clicking 'Void' to the right of the line
 
    |image457|
 
-   -  Once clicked a new line item will be added to the account showing
-      the payment as ‘Voided’.  The payment line is added back to
-      the Pay fines tab as an outstanding charge.
+-  Once clicked a new line item will be added to the account showing
+   the payment as ‘Voided’.  The payment line is added back to
+   the Pay fines tab as an outstanding charge.
 
-      |image458|
-
-      **Note**
-
-      - You can enable email receipts for payment and writeoff transactions
-        with the :ref:`UseEmailReceipts` system preference.
+   |image458|
 
 .. _creating-manual-invoices-label:
 
