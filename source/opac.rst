@@ -804,7 +804,12 @@ Your summary
 From the 'your summary' tab, patrons will see all of the items they have
 checked out with the overdue items highlighted in red. If you have
 :ref:`OpacRenewalAllowed` set to 'Allow' then your
-patrons will be able to renew their books right from the OPAC. 
+patrons will be able to renew their books right from the OPAC.  If the patron has charges
+exceeding the value set in :ref:`OPACFineNoRenewals` a note will display explaining that
+renewals cannot be made.
+
+A note will display if the patron cannot place holds due to their charges exceeding the 
+value set in the :ref:`maxoutstanding` system preference.
 
 |image1004|
 
