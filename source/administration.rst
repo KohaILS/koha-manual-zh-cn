@@ -2759,18 +2759,18 @@ the :ref:`MARC bibliographic frameworks` section of this manual.
 .. _classification-sources-label:
 
 Classification sources
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Source of classification or shelving scheme is an :ref:`Authorized
-values <authorized-values-label>` category that is mapped to field 952$2 and
-942$2 in Koha's MARC bibliographic frameworks and stored in the
-items.cn\_source field in the database.
+Source of classification or shelving scheme are mapped to field 952$2 and
+942$2 in Koha's :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>` 
+and stored in the items.cn\_source and biblioitems.cn\_source fields in the 
+database.
 
 -  *Get there:* More > Administration > Catalog > Classification sources
 
 |image207|
 
-Commonly used values of this field are:
+Commonly used classification sources are:
 
 -  ddc - Dewey Decimal Classification
 
@@ -2790,28 +2790,46 @@ installation, you would see other values too:
 .. _adding/editing-classification-sources-label:
 
 Adding/editing classification sources
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can add your own source of classification by using the 'New
-classification source' button. To edit use the 'Edit' button.
+You can add your own source of classification by using the 'New classification 
+source' button. To edit use the 'Edit' button.
 
 |image208|
 
 When creating or editing:
 
--  You will need to enter a code and a description.
+-  Enter a code. The code is limited to 10 characters and must be unique.
+
+.. Note::
+   The code is not editable once it has been created.
+
+-  Enter a description. The description is used in the drop-down lists in the 
+   cataloging module.
 
 -  Check the 'Source in use?' checkbox if you want the value to appear
-   in the drop down list for this category.
+   in the drop-down list for this category.
 
--  Select the appropriate :ref:`filing rule <classification-filing-rules-label>` from the drop down list.
+-  Select the appropriate :ref:`filing rule <classification-filing-rules-label>` 
+   from the drop-down list. 
+
+-  Select the appropriate :ref:`splitting rule <classification-splitting-rules-label>` 
+   from the drop-down list.
 
 .. _classification-filing-rules-label:
 
 Classification filing rules
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Filing rules determine the order in which items are placed on shelves.
+Filing rules determine the order in which items are placed on shelves. Filing 
+rules normalize call numbers in order for Koha to be able to compare them and 
+sort them in the right order.
+
+For example, a Dewey call number such as '636.8/07 SHAW' will become 
+'636_800000000000000_07_SHAW' in order to be sorted.
+
+The sorted call number is saved in the items.cn\_sort or biblioitems.cn\_sort 
+fields in the database
 
 Values that are pre-configured in Koha are:
 
@@ -2821,16 +2839,142 @@ Values that are pre-configured in Koha are:
 
 -  Generic
 
-Filing rules are mapped to :ref:`Classification
-sources <adding/editing-classification-sources-label>`. You can setup new
-filing rules by using the 'New filing rule' button. To edit use the 'Edit'
-button.
+Filing rules are mapped to 
+:ref:`Classification sources <adding/editing-classification-sources-label>`. 
+You can setup new filing rules by using the 'New filing rule' button. To edit, 
+use the 'Edit' button.
 
 When creating or editing:
 
--  Enter a code and a description
+-  Enter a code. The code is limited to 10 characters and must be unique.
+
+.. Note::
+   The code is not editable once it has been created.
+
+-  Enter a description. The description is used in the drop-down list when 
+   :ref:`creating or editing a classification source <adding/editing-classification-sources-label>`.
 
 -  Choose an appropriate filing routine - dewey, generic or lcc
+
+   -  The Dewey filing routine generates a sorted call number by following 
+      these rules:
+
+      -  Concatenates classification and item parts.
+
+      -  Converts to uppercase.
+
+      -  Removes any leading or trailing whitespaces, and forward slashes (\/)
+
+      -  Separates alphabetic prefix from the rest of the call number
+
+      -  Splits into tokens on whitespaces and periods.
+
+      -  Leaves first digit group as is.
+
+      -  Converts second digit group to 15-digit long group, padded on right 
+         with zeroes.
+
+      -  Converts each whitespace to an underscore.
+
+      -  Removes any remaining non-alphabetical, non-numeric, non-underscore 
+         characters.
+
+   -  The generic filing routine generates a sorted call number by following 
+      these rules:
+      
+      -  Concatenates classification and item parts.
+
+      -  Removes any leading or trailing whitespaces.
+
+      -  Converts each whitespace to an underscore.
+
+      -  Converts to uppercase.
+
+      -  Removes non-alphabetical, non-numeric, non-underscore characters.
+
+   -  The LCC filing routine generates a sorted call number by following 
+      these rules:
+
+.. I need help here, I can't read the code. CCLR 2020-12-08
+
+      -  
+
+      -  
+
+
+
+.. _classification-splitting-rules-label:
+
+Classification splitting rules
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Splitting rules determine how call numbers are split when printed on a spine 
+label.
+
+.. Note::
+   Splitting rules are only used if your :ref:`label layout <label-layouts-label>` 
+   specifies to split call numbers.
+
+For example, a Dewey call number such as '636.8/07 SHAW' will become 
+::
+  636.807
+  SHAW
+
+once printed on a spine label.
+
+Values that are pre-configured in Koha are:
+
+-  Dewey
+
+-  LCC
+
+-  Generic
+
+Splitting rules are mapped to 
+:ref:`Classification sources <adding/editing-classification-sources-label>`. 
+You can setup new splitting rules by using the 'New splitting rule' button. To 
+edit, use the 'Edit' button.
+
+When creating or editing:
+
+-  Enter a code. The code is limited to 10 characters and must be unique.
+
+.. Note::
+   The code is not editable once it has been created.
+
+-  Enter a description. The description is used in the drop-down list when 
+   :ref:`creating or editing a classification source <adding/editing-classification-sources-label>`.
+
+-  Choose an appropriate splitting routine - Dewey, Generic, LCC or RegEx
+
+   -  The Dewey splitting routine looks for the three digits and the decimal, 
+      puts it on one line with the other parts (Cutter, prefix, etc.) each on 
+      a separate line (generally split on spaces).
+
+   -  The Generic splitting routine splits on spaces.
+
+   -  The LCC splitting routine puts each component on a separate line.
+
+   -  The RegEx splitting routine allows you to create a custom splitting 
+      routine.
+
+      -  Some examples of RegEx splitting routines:
+
+         -  Split on spaces::
+
+             s/\s/\n/g         
+
+         -  Split on equal signs (=)::
+
+             s/(\s?=)/\n=/g
+
+         -  Split on forward slashes (\/)::
+
+             s/(\s?\/)/\n/g
+
+         -  Remove first split if call number starts with J or K::
+
+             s/^(J|K)\n/$1 /
 
 .. _record-matching-rules-label:
 

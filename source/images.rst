@@ -203,7 +203,9 @@
 .. |image202| image:: images/admin/cataloging/mapmarc.png
 .. |image206| image:: images/admin/cataloging/frameworktest.png
 .. |image207| image:: images/admin/cataloging/classsources.png
+				:alt: Classification sources, classification filing rules and classification splitting rules tables
 .. |image208| image:: images/admin/cataloging/addclasssource.png
+				:alt: Form to add a new classification source
 .. |image209| image:: images/admin/cataloging/newmatchrule.png
 .. |image210| image:: images/admin/cataloging/samplematchrule.png
 .. |image211| image:: images/admin/cataloging/removematchcheck.png
