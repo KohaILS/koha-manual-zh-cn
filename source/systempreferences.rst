@@ -15171,10 +15171,10 @@ Description:
 UseWYSIWYGinSystemPreferences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't show
-
 Asks: \_\_\_ WYSIWYG editor when editing certain HTML system
 preferences.
+
+Default: Don't show
 
 Values:
 
@@ -15186,7 +15186,7 @@ Values:
 
 Description:
 
--  This preference allows you to chang system preferences with HTML in
+-  This preference allows you to change system preferences with HTML in
    them to WYSIWYG editors instead of plain text boxes.
 
 .. _viewisbd-label:
