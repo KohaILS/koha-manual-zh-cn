@@ -1,324 +1,348 @@
-# Compendium of de.
+# German translations for Koha Manual package.
+# Copyright (C) 2018, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2019.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-de\n"
+"Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-15 19:31-0300\n"
-"PO-Revision-Date: 2018-05-15 19:49-0300\n"
-"Language-Team: Koha Translation Team \n"
+"POT-Creation-Date: 2019-12-02 01:15-0300\n"
+"PO-Revision-Date: 2020-12-02 10:45+0000\n"
+"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../../source/hardware.rst:4
-#, fuzzy
-msgid "Configuring Receipt Printers"
-msgstr "Löschen des Druckers bestätigen "
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1606905919.514016\n"
 
 #: ../../source/hardware.rst:6
-msgid ""
-"The following instructions are for specific receipt printers, but can "
-"probably be used to help with setup of other brands as well."
-msgstr ""
+msgid "Configuring Receipt Printers"
+msgstr "Quittungsdrucker konfigurieren"
 
-#: ../../source/hardware.rst:12
-msgid "For Epson TM-T88III (3) & TM-T88IV (4) Printers"
+#: ../../source/hardware.rst:8
+msgid "The following instructions are for specific receipt printers, but can probably be used to help with setup of other brands as well."
 msgstr ""
+"Die nachfolgenden Instruktionen beziehen sich auf bestimmte "
+"Quittungsdrucker, sind aber wahrscheinlich auch für andere Modelle von "
+"Nutzen."
 
-#: ../../source/hardware.rst:17
-msgid "In the Print Driver"
-msgstr ""
+#: ../../source/hardware.rst:14
+msgid "For Epson TM-T88III (3) and TM-T88IV (4) Printers"
+msgstr "Für die Drucker Epson TM-T88III (3) und TM-T88IV (4)"
 
 #: ../../source/hardware.rst:19
-msgid ""
-"For these instructions, we are using version 5,0,3,0 of the Epson TM-T88III "
-"print driver; the EPSON TM-T88IV version is ReceiptE4. Register at the "
-"`EpsonExpert Technical Resource Center website <https://www.epsonexpert.com/"
-"login>`__ to gain access to the drivers; go to Technical Resources, then "
-"choose the printer model from the Printers drop-down list."
-msgstr ""
+msgid "In the Print Driver"
+msgstr "Im Druckertreiber"
 
-#: ../../source/hardware.rst:26
-msgid ""
-"Click Start > Printers and Faxes > Right click the receipt printer > "
-"Properties:"
+#: ../../source/hardware.rst:21
+msgid "For these instructions, we are using version 5,0,3,0 of the Epson TM-T88III print driver; the EPSON TM-T88IV version is ReceiptE4. Register at the `EpsonExpert Technical Resource Center website <https://www.epsonexpert.com/login>`__ to gain access to the drivers; go to Technical Resources, then choose the printer model from the Printers drop-down list."
 msgstr ""
+"Für diese Anleitung verwenden wir Version 5,0,3,0 des Druckertreibers für "
+"Epson TM-T88III; die Version von EPSON TM-T88IV ist ReceiptE4. Registrieren "
+"Sie sich auf der `EpsonExpert Technical Resource Center Webseite "
+"<https://www.epsonexpert.com/login>`__ um Zugang zu den Treibern zu erhalten;"
+" Gehen sie auf \"Technical Resources\" und wählen Sie dann das Modell Ihres "
+"Druckers aus der Auswahlliste."
 
-#: ../../source/hardware.rst:29
+#: ../../source/hardware.rst:28
+msgid "Click Start > Printers and Faxes > Right click the receipt printer > Properties:"
+msgstr ""
+"Klicken Sie Start > Drucker und Faxgeräte > Rechtsklick auf den "
+"Quittungsdrucker > Eigenschaften:"
+
+#: ../../source/hardware.rst:31
 msgid "Advanced Tab, click Printing Defaults button"
-msgstr ""
-
-#: ../../source/hardware.rst:31 ../../source/hardware.rst:68
-msgid "Layout Tab: Paper size: Roll Paper 80 x 297mm"
-msgstr ""
+msgstr "Auf dem Reiter Erweitert, klicken Sie auf die Druckeinstellungen"
 
 #: ../../source/hardware.rst:33 ../../source/hardware.rst:70
+msgid "Layout Tab: Paper size: Roll Paper 80 x 297mm"
+msgstr "Reiter Layout: Papiergröße: Papierrolle 80 x 297mm"
+
+#: ../../source/hardware.rst:35 ../../source/hardware.rst:72
 msgid "TM-T88III: Layout Tab: Check Reduce Printing and Fit to Printable Width"
 msgstr ""
+"TM-T88III: Reiter Layout: Haken Sie Druck verkleinern und auf die druckbare "
+"Breite anpassen an"
 
-#: ../../source/hardware.rst:36
-msgid ""
-"TM-T88IV: Check Reduced Size Print; Click OK on the popup window that "
-"appears. Fit to Printable Width should be automatically selected."
+#: ../../source/hardware.rst:38
+msgid "TM-T88IV: Check Reduced Size Print; Click OK on the popup window that appears. Fit to Printable Width should be automatically selected."
 msgstr ""
+"TM-T88IV: Haken Sie den Option für die verkleinerte Druckgröße an. Klicken "
+"Sie OK in dem sich öffnenden Fenster. Anpassen auf die druckbare Breite "
+"sollte automatisch ausgewählt werden."
 
-#: ../../source/hardware.rst:39
+#: ../../source/hardware.rst:41
 msgid "OK your way out of there."
-msgstr ""
-
-#: ../../source/hardware.rst:44 ../../source/hardware.rst:114
-msgid "In Firefox"
-msgstr ""
+msgstr "Klicken Sie OK bis zum Ende des Dialogs."
 
 #: ../../source/hardware.rst:46 ../../source/hardware.rst:116
-msgid "Under File > Page Setup:"
-msgstr ""
+msgid "In Firefox"
+msgstr "In Firefox"
 
 #: ../../source/hardware.rst:48 ../../source/hardware.rst:118
-msgid "Shrink to fit page on Format & Options tab"
-msgstr ""
+msgid "Under File > Page Setup:"
+msgstr "Unter Datei > Seite einrichten:"
 
 #: ../../source/hardware.rst:50 ../../source/hardware.rst:120
-msgid ""
-"0,0,0,0 for Margins on Margins & Header/Footer Tab. This makes the receipts "
-"use all available space on the paper roll."
-msgstr ""
+msgid "Shrink to fit page on Format & Options tab"
+msgstr "Anpassen auf Seitengröße auf dem Reiter Format & Optionen"
 
-#: ../../source/hardware.rst:53 ../../source/hardware.rst:123
-msgid ""
-"Set all Headers/Footers to -blank-. This removes all of the gunk you might "
-"normally find on a print from Firefox, such as the URL, number of pages, etc."
+#: ../../source/hardware.rst:52 ../../source/hardware.rst:122
+msgid "0,0,0,0 for Margins on Margins & Header/Footer Tab. This makes the receipts use all available space on the paper roll."
 msgstr ""
+"0,0,0,0 für die Ränder auf dem Reiter für Ränder & Kopf-/Fußzeile. Dies "
+"sorgt dafür, dass für die Quittungen der verfügbare Platz auf der "
+"Papierrolle genutzt wird."
 
-#: ../../source/hardware.rst:57 ../../source/hardware.rst:127
-#: ../../source/hardware.rst:229
-#, fuzzy
-msgid "Click OK"
-msgstr "Klicken Sie auf 'Neu'"
+#: ../../source/hardware.rst:55 ../../source/hardware.rst:125
+msgid "Set all Headers/Footers to -blank-. This removes all of the gunk you might normally find on a print from Firefox, such as the URL, number of pages, etc."
+msgstr ""
+"Setzen Sie alle Einstellungen für die Kopf- & Fußzeilen auf leer. Dies "
+"entfernt die Texte, die normalerweise dort beim Ausdruck aus Firefox "
+"ausgegeben werden, wie die URL, Seitenangabe, etc."
 
 #: ../../source/hardware.rst:59 ../../source/hardware.rst:129
-msgid ""
-"Set the default printer settings in Firefox so you don't see a \"Print\" "
-"dialog:"
-msgstr ""
+#: ../../source/hardware.rst:231
+msgid "Click OK"
+msgstr "Klicken Sie auf OK"
 
-#: ../../source/hardware.rst:62 ../../source/hardware.rst:132
-msgid "Go to File > Print"
+#: ../../source/hardware.rst:61 ../../source/hardware.rst:131
+msgid "Set the default printer settings in Firefox so you don't see a \"Print\" dialog:"
 msgstr ""
+"Konfigurieren Sie Firefox so, dass Sie keinen Druckdialog angezeigt bekommen:"
 
 #: ../../source/hardware.rst:64 ../../source/hardware.rst:134
+msgid "Go to File > Print"
+msgstr "Gehen sie auf Datei > Drucken"
+
+#: ../../source/hardware.rst:66 ../../source/hardware.rst:136
 msgid "Set the Printer to the receipt printer."
-msgstr ""
+msgstr "Stellen Sie den Drucker auf den Quittungsdrucker ein."
 
-#: ../../source/hardware.rst:66
-#, fuzzy
+#: ../../source/hardware.rst:68
 msgid "Click the Advanced (or Properties) button"
-msgstr "Klicken Sie auf 'Summe bezahlen'"
+msgstr "Klicken Sie auf die Schaltfläche Erweitert (oder Einstellungen)"
 
-#: ../../source/hardware.rst:73
-msgid ""
-"TM-T88IV: Check Reduced Size Print; click OK on the popup window that "
-"appears. Fit to Printable Width should be automatically selected."
+#: ../../source/hardware.rst:75
+msgid "TM-T88IV: Check Reduced Size Print; click OK on the popup window that appears. Fit to Printable Width should be automatically selected."
 msgstr ""
+"TM-T88IV: Haken Sie den Option für die verkleinerte Druckgröße an. Klicken "
+"Sie OK in dem sich öffnenden Fenster. Anpassen auf die druckbare Breite "
+"sollte automatisch ausgewählt werden."
 
-#: ../../source/hardware.rst:76
+#: ../../source/hardware.rst:78
 msgid "OK your way out, go ahead and print whatever page you are on."
 msgstr ""
+"Klicken Sie OK bis zum Ende des Dialogs und drucken Sie anschließend die "
+"Seite, auf der Sie gerade sind."
 
-#: ../../source/hardware.rst:78 ../../source/hardware.rst:138
-msgid ""
-"Type about:config, in the address bar. Click \"I'll be careful, I promise!\" "
-"on the warning message."
+#: ../../source/hardware.rst:80 ../../source/hardware.rst:140
+msgid "Type about:config, in the address bar. Click \"I'll be careful, I promise!\" on the warning message."
 msgstr ""
+"Tippen Sie about:config in der Adresszeile. Versprechen Sie, vorsichtig zu "
+"sein, wenn die entsprechende Warnung angezeigt wird."
 
-#: ../../source/hardware.rst:81 ../../source/hardware.rst:141
+#: ../../source/hardware.rst:83 ../../source/hardware.rst:143
 msgid "Type, print.always in Filter."
-msgstr ""
+msgstr "Tippen Sie print.always in den Filter."
 
-#: ../../source/hardware.rst:83
+#: ../../source/hardware.rst:85
 msgid "Look for print.always\\_print\\_silent."
-msgstr ""
-
-#: ../../source/hardware.rst:85 ../../source/hardware.rst:145
-msgid "If the preference is there then set the value to true."
-msgstr ""
+msgstr "Suchen Sie nach print.always\\_print\\_silent."
 
 #: ../../source/hardware.rst:87 ../../source/hardware.rst:147
-msgid ""
-"If the preference is not there (and it shouldn't be in most browsers) you "
-"have to add the preference."
-msgstr ""
+msgid "If the preference is there then set the value to true."
+msgstr "Wenn der Parameter angezeigt wird, setzen Sie ihn auf true."
 
-#: ../../source/hardware.rst:90 ../../source/hardware.rst:150
+#: ../../source/hardware.rst:89 ../../source/hardware.rst:149
+msgid "If the preference is not there (and it shouldn't be in most browsers) you have to add the preference."
+msgstr ""
+"Wenn der Parameter nicht angezeigt wird (was in den meisten Browsern so sein "
+"sollte), muss der Parameter zunächst hinzugefügt werden."
+
+#: ../../source/hardware.rst:92 ../../source/hardware.rst:152
 msgid "Right click the preference area and select New > Boolean"
 msgstr ""
+"Machen Sie dazu einen Rechtsklick auf den Parameterbereich und wählen Sie "
+"Neu > Boolean"
 
-#: ../../source/hardware.rst:92
-msgid ""
-"Type print.always\\_print\\_silent in the dialog box and set the value to "
-"True. This sets the print settings in Firefox to always use the same "
-"settings and print without showing a dialog box."
+#: ../../source/hardware.rst:94
+msgid "Type print.always\\_print\\_silent in the dialog box and set the value to True. This sets the print settings in Firefox to always use the same settings and print without showing a dialog box."
 msgstr ""
-
-#: ../../source/hardware.rst:96 ../../source/hardware.rst:156
-#, fuzzy
-msgid "**Warning**"
-msgstr "Warnung"
+"Tippen Sie print.always\\_print\\_silent in das Feld im Dialog und setzen "
+"Sie den Wert auf True. Dies konfiguriert Firefox so, dass immer die gleichen "
+"Druckereinstellungen verwendet werden und der Druckdialog nicht mehr "
+"angezeigt wird."
 
 #: ../../source/hardware.rst:98 ../../source/hardware.rst:158
-msgid ""
-"Setting the print.always\\_print\\_silent setting in about:config DISABLES "
-"the ability to choose a printer in Firefox."
-msgstr ""
+msgid "**Warning**"
+msgstr "**Warnung**"
 
-#: ../../source/hardware.rst:104
-msgid "For Epson TM-T88II (2) Printers"
+#: ../../source/hardware.rst:100 ../../source/hardware.rst:160
+msgid "Setting the print.always\\_print\\_silent setting in about:config DISABLES the ability to choose a printer in Firefox."
 msgstr ""
+"Durch die Einstellung von print.always\\_print\\_silent in about:config wird "
+"die Auswahlmöglichkeit eines Druckers in Firefox deaktiviert."
 
 #: ../../source/hardware.rst:106
-msgid ""
-"Register at the `EpsonExpert Technical Resource Center website <https://www."
-"epsonexpert.com/login>`__ to gain access to the drivers; go to Technical "
-"Resources, then choose the printer model from the Printers drop-down list."
-msgstr ""
+msgid "For Epson TM-T88II (2) Printers"
+msgstr "Für Drucker vom Typ Epson TM-T88II (2)"
 
-#: ../../source/hardware.rst:136
+#: ../../source/hardware.rst:108
+msgid "Register at the `EpsonExpert Technical Resource Center website <https://www.epsonexpert.com/login>`__ to gain access to the drivers; go to Technical Resources, then choose the printer model from the Printers drop-down list."
+msgstr ""
+"Registrieren Sie sich für die `EpsonExpert Technical Resource Center "
+"Webseite <https://www.epsonexpert.com/login>`__ um Zugriff auf die Treiber "
+"zu erhalten. Gehen Sie auf Technical Resources und Wählen Sie dort Ihr "
+"Druckermodell aus der Auswahlliste."
+
+#: ../../source/hardware.rst:138
 msgid "Print whatever page you are on."
-msgstr ""
+msgstr "Drucken Sie die aktuell geöffnete Seite."
 
-#: ../../source/hardware.rst:143
+#: ../../source/hardware.rst:145
 msgid "Look for, print.always\\_print\\_silent."
-msgstr ""
+msgstr "Suchen Sie nach print.always\\_print\\_silent."
 
-#: ../../source/hardware.rst:152
-msgid ""
-"Type, print.always\\_print\\_silent in the dialog box and set the value to "
-"True. This sets the print settings in Firefox to always use the same "
-"settings and print without showing a dialog box."
+#: ../../source/hardware.rst:154
+msgid "Type, print.always\\_print\\_silent in the dialog box and set the value to True. This sets the print settings in Firefox to always use the same settings and print without showing a dialog box."
 msgstr ""
+"Tippen Sie print.always\\_print\\_silent in das Feld im Dialog und setzen "
+"Sie den Wert auf True. Dies konfiguriert Firefox so, dass immer die gleichen "
+"Druckereinstellungen verwendet werden und der Druckdialog nicht mehr "
+"angezeigt wird."
 
-#: ../../source/hardware.rst:164
+#: ../../source/hardware.rst:166
 msgid "For Star SP542 Printers"
-msgstr ""
-
-#: ../../source/hardware.rst:169
-#, fuzzy
-msgid "Installing the Printer"
-msgstr "Datensatz katalogisieren"
+msgstr "Für Drucker vom Typ Star SP542"
 
 #: ../../source/hardware.rst:171
-msgid ""
-"While the following comments are based on the Star SP542 receipt printer, "
-"they probably apply to all printers in the SP5xx series."
-msgstr ""
+msgid "Installing the Printer"
+msgstr "Installation des Druckers"
 
-#: ../../source/hardware.rst:174
-msgid ""
-"The Star SP542 receipt printer works well with Koha and **Firefox on Windows "
-"XP SP3**. This printer, with either the parallel or USB interface, is fairly "
-"easy to install and configure. You will need the following executable file "
-"which is available from numerous places on the Internet:"
+#: ../../source/hardware.rst:173
+msgid "While the following comments are based on the Star SP542 receipt printer, they probably apply to all printers in the SP5xx series."
 msgstr ""
+"Während die folgenden Hinweise auf dem Quittungsdrucker Star SP542 basieren, "
+"sind Sie voraussichtlich auch für andere Drucker in der SP5xx-Reihe "
+"anwendbar."
 
-#: ../../source/hardware.rst:180
-msgid "linemode\\_2k-xp\\_20030205.exe"
+#: ../../source/hardware.rst:176
+msgid "The Star SP542 receipt printer works well with Koha and **Firefox on Windows XP SP3**. This printer, with either the parallel or USB interface, is fairly easy to install and configure. You will need the following executable file which is available from numerous places on the Internet:"
 msgstr ""
+"Der Quittungsdrucker Star SP542 funktioniert gut mit Koha und **Firefox "
+"unter Windows XP SP3**. Dieser Drucker wird entweder über die Parallel- oder "
+"USB-Schnittstelle angeschlossen und ist relativ einfach zu installieren und "
+"zu konfigurieren. Wie benötigen dazu die folgende ausführbare Datei, die "
+"über verschiedene Webseiten heruntergeladen werden kann:"
 
 #: ../../source/hardware.rst:182
-msgid ""
-"This executable actually does all of the installation; you will not need to "
-"use the Microsoft Windows \"Add Printer\" program. We recommend that when "
-"installing, the option for the software monitor not be selected; we have "
-"experienced significant pauses and delays in printing with it. Instead, "
-"simply choose to install the receipt printer without the monitor."
-msgstr ""
+msgid "linemode\\_2k-xp\\_20030205.exe"
+msgstr "linemode\\_2k-xp\\_20030205.exe"
 
-#: ../../source/hardware.rst:189
-msgid ""
-"Additionally, the install program may not put the printer on the correct "
-"port, especially if using the USB interface. This is easily corrected by "
-"going to \"Start -> Printers and Faxes -> Properties for the SP542 printer -"
-"> Ports\", then check the appropriate port."
+#: ../../source/hardware.rst:184
+msgid "This executable actually does all of the installation; you will not need to use the Microsoft Windows \"Add Printer\" program. We recommend that when installing, the option for the software monitor not be selected; we have experienced significant pauses and delays in printing with it. Instead, simply choose to install the receipt printer without the monitor."
 msgstr ""
+"Dieses Programm übernimmt die komplette Installation; Sie müssen in diesem "
+"Fall nicht die Druckerkonfiguration unter Windows verwenden. Wir empfehlen, "
+"dass bei der Installation die Option für den Sofware Monitor nicht "
+"ausgewählt wird; Wir haben festgestellt, dass damit signifikante "
+"Verzögerungen beim Druck auftreten. Installieren Sie statt dessen den "
+"Quittungsdrucker ohne den Monitor."
 
-#: ../../source/hardware.rst:194
-msgid ""
-"A reboot may be required, even if not indicated by the installation software "
-"or the operating system."
+#: ../../source/hardware.rst:191
+msgid "Additionally, the install program may not put the printer on the correct port, especially if using the USB interface. This is easily corrected by going to \"Start -> Printers and Faxes -> Properties for the SP542 printer -> Ports\", then check the appropriate port."
 msgstr ""
+"Es kann sein, dass das Installationsprogramm den Drucker nicht auf dem "
+"korrekten Port installiert, insbesondere wenn der Anschluss über USB "
+"erfolgt. Dies kann unter \"Start > Drucker und Faxgeräte > Eigenschaften für "
+"den SP542-Drucker > Ports\" einfach durch Angabe des korrekten Ports "
+"korrigiert werden."
 
-#: ../../source/hardware.rst:197
-msgid ""
-"**Windows 7** users should refer to this page: http://www.starmicronics.com/"
-"supports/win7.aspx."
+#: ../../source/hardware.rst:196
+msgid "A reboot may be required, even if not indicated by the installation software or the operating system."
 msgstr ""
+"Ein Neustart kann erforderlich sein, auch wenn dies nicht von der "
+"Installationssoftware oder dem Betriebssystem explizit gefordert wird."
 
-#: ../../source/hardware.rst:203
-msgid "Configuring Firefox to Print to Receipt Printer"
+#: ../../source/hardware.rst:199
+msgid "**Windows 7** users should refer to this page: http://www.starmicronics.com/supports/win7.aspx."
 msgstr ""
+"**Windows 7**-Anwender sollten diese Seite verwenden: "
+"http://www.starmicronics.com/supports/win7.aspx."
 
 #: ../../source/hardware.rst:205
-msgid "Open File > Page Setup"
-msgstr ""
+msgid "Configuring Firefox to Print to Receipt Printer"
+msgstr "Firefox konfigurieren um auf dem Quittungsdrucker zu drucken"
 
 #: ../../source/hardware.rst:207
-msgid "Make all the headers and footers blank"
-msgstr ""
+msgid "Open File > Page Setup"
+msgstr "Öffnen Sie Datei > Seiten einrichten"
 
 #: ../../source/hardware.rst:209
-#, fuzzy
-msgid "Set the margins to 0 (zero)"
-msgstr "Alle Konten auf Null setzen"
+msgid "Make all the headers and footers blank"
+msgstr "Setzen Sie alle Kopf- und Fußzeilen auf leer"
 
 #: ../../source/hardware.rst:211
-msgid "In the address bar of Firefox, type about:config"
-msgstr ""
+msgid "Set the margins to 0 (zero)"
+msgstr "Setzen Sie die Ränder auf 0 (Null)"
 
 #: ../../source/hardware.rst:213
-msgid "Search for print.always\\_print\\_silent and double click it"
-msgstr ""
+msgid "In the address bar of Firefox, type about:config"
+msgstr "Tippen Sie about:config in die Adresszeile von Firefox"
 
 #: ../../source/hardware.rst:215
-#, fuzzy
-msgid "Change it from false to true"
-msgstr "Interne Notiz ändern"
+msgid "Search for print.always\\_print\\_silent and double click it"
+msgstr ""
+"Suchen Sie nach print.always\\_print\\_silent und machen Sie darauf einen "
+"Doppelklick"
 
 #: ../../source/hardware.rst:217
-msgid ""
-"This lets you skip the Print pop up box that comes up, as well as skipping "
-"the step where you have to click OK, automatically printing the right sized "
-"slip."
-msgstr ""
+msgid "Change it from false to true"
+msgstr "Ändern Sie den Wert von false auf true"
 
-#: ../../source/hardware.rst:221
-msgid "If print.always\\_print\\_silent does not come up"
+#: ../../source/hardware.rst:219
+msgid "This lets you skip the Print pop up box that comes up, as well as skipping the step where you have to click OK, automatically printing the right sized slip."
 msgstr ""
+"Dies sorgt dafür, dass der Druckdialog nicht mehr angezeigt wird und "
+"überspringt damit den Schritt, bei dem Sie noch einmal mit OK bestätigen "
+"müssten. Dadurch wird der Ausdruck der Quittung automatisch angestoßen."
 
 #: ../../source/hardware.rst:223
-msgid "Right click on a blank area of the preference window"
-msgstr ""
+msgid "If print.always\\_print\\_silent does not come up"
+msgstr "Wenn print.always\\_print\\_silent nicht angezeigt wird"
 
 #: ../../source/hardware.rst:225
-#, fuzzy
-msgid "Select new > Boolean"
-msgstr "Nichts auswählen"
+msgid "Right click on a blank area of the preference window"
+msgstr ""
+"Machen Sie einen Rechtsklick in den leeren Bereich des Konfigurationsfensters"
 
 #: ../../source/hardware.rst:227
+msgid "Select new > Boolean"
+msgstr "Wäehlen Sie Neu > Boolean aus"
+
+#: ../../source/hardware.rst:229
 msgid "Enter \"print.always\\_print\\_silent\" as the name (without quotes)"
 msgstr ""
-
-#: ../../source/hardware.rst:231
-#, fuzzy
-msgid "Select true for the value"
-msgstr "Art des Materials wählen"
+"Geben Sie \"print.always\\_print\\_silent\" als Namen an (ohne die "
+"Anführungszeichen)"
 
 #: ../../source/hardware.rst:233
-msgid "You may also want to check what is listed for print.print\\_printer"
-msgstr ""
+msgid "Select true for the value"
+msgstr "Wählen Sie true als Wert"
 
 #: ../../source/hardware.rst:235
-msgid ""
-"You may have to choose Generic/Text Only (or whatever your receipt printer "
-"might be named)"
+msgid "You may also want to check what is listed for print.print\\_printer"
 msgstr ""
+"Sie möchten eventuell auch noch einmal überprüfen, was unter print.print\\"
+"_printer angegeben ist"
+
+#: ../../source/hardware.rst:237
+msgid "You may have to choose Generic/Text Only (or whatever your receipt printer might be named)"
+msgstr ""
+"Es ist möglich, dass Sie Generisch/Nur Text (oder eine andere Bezeichnung "
+"für Ihren Quittungsdrucker) auswählen müssen"

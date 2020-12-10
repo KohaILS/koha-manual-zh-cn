@@ -1,0 +1,273 @@
+# Compendium of pt.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-pt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02 01:15-0300\n"
+"PO-Revision-Date: 2020-02-26 17:12+0000\n"
+"Last-Translator: vfernandes <vfernandes@keep.pt>\n"
+"Language-Team: Koha Translation Team\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1582737165.006441\n"
+
+#: ../../source/ILL_requests.rst:6
+msgid "ILL requests / Interlibrary loans"
+msgstr "Empréstimos inter-bibliotecas"
+
+#: ../../source/ILL_requests.rst:8
+msgid "The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons submit a request form via the OPAC for review and processing by library staff. Alternatively staff can place requests themselves from the staff client."
+msgstr "O módulo de pedidos de empréstimos inter-bibliotecas adiciona a capacidade de pedir e gerir empréstimos ou cópias de material de fontes externas. Os leitores podem submeter um novo pedido no OPAC para posterior revisão e processamento pelos técnicos. Em alternativa os técnicos podem adicionar novos pedidos no interface dos técnicos."
+
+#: ../../source/ILL_requests.rst:13
+msgid "Set up"
+msgstr "Configuração"
+
+#: ../../source/ILL_requests.rst:15
+msgid "Before using the ILL requests module you will want to make sure that you have completed all of the set up."
+msgstr "Antes de usar o módulo de pedidos de empréstimos inter-bibliotecas, tenha a certeza que completou toda a configuração do sistema."
+
+#: ../../source/ILL_requests.rst:17
+msgid "The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend."
+msgstr "O módulo de pedidos de empréstimos inter-bibliotecas pode ser configurado para diferentes tipos de pedidos e fluxos de trabalho conhecidos como backends. Os backends disponíveis atualmente estão documentados na wiki da comunidade do Koha https://wiki.koha-community.org/wiki/ILL_backends. Para utilizar o módulo necessita de configurar pelo menos um backend."
+
+#: ../../source/ILL_requests.rst:19
+msgid "Next, set your system preferences."
+msgstr "De seguida, defina as preferências de sistema."
+
+#: ../../source/ILL_requests.rst:21
+msgid "Set the :ref:`ILLModule` preference to ‘Enable’."
+msgstr "Defina a preferência :ref:`ILLModule` para 'Ativar'."
+
+#: ../../source/ILL_requests.rst:23
+msgid "If you wish to include a copyright declaration in your ILL workflow you can this in the :ref:`ILLModuleCopyrightClearance` preference."
+msgstr "Se desejar incluir uma declaração de direitos de autor no seu fluxo de trabalho pode usar a preferência de sistema :ref:`ILLModuleCopyrightClearance`."
+
+#: ../../source/ILL_requests.rst:25
+msgid "Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*."
+msgstr "Os técnicos da biblioteca responsáveis pelos pedidos de empréstimos inter-bibliotecas necessitam da seguinte permissão nas suas contas: *ill: Criar e modificar pedidos de empréstimos inter-bibliotecas*."
+
+#: ../../source/ILL_requests.rst:27
+msgid "The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`."
+msgstr "O módulo de pedidos de empréstimo inter-bibliotecas usam estados definidos pelo sistema. Podem adicionar novos estados para corresponder ao seu fluxo de trabalho no :ref:`valor autorizado <authorized-values-label>` ILLSTATUS."
+
+#: ../../source/ILL_requests.rst:32
+msgid "Create ILL requests"
+msgstr "Criar pedido de empréstimo inter-bibliotecas"
+
+#: ../../source/ILL_requests.rst:34
+msgid "*Get there:* More > ILL requests"
+msgstr "*Acesso:* Mais > Empréstimo inter-bibliotecas"
+
+#: ../../source/ILL_requests.rst:36
+msgid "|image1386|"
+msgstr "|image1386|"
+
+#: ../../source/ILL_requests.rst:38
+msgid "Choose ‘New ILL request’ and then Freeform."
+msgstr "Escolha 'Novo empréstimo inter-bibliotecas' e depois Freeform."
+
+#: ../../source/ILL_requests.rst:40
+msgid "**Note**"
+msgstr "**Nota**"
+
+#: ../../source/ILL_requests.rst:42
+msgid "The images shown here are for the FreeFrom backend only."
+msgstr "As imagens aqui mostradas são apenas para o backend FreeFrom."
+
+#: ../../source/ILL_requests.rst:44
+msgid "|image1387|"
+msgstr "|image1387|"
+
+#: ../../source/ILL_requests.rst:46
+msgid "Enter a Type: Book, Article, Journal, Other."
+msgstr "Introduza o tipo: Livro, Artigo, Revista, Outro."
+
+#: ../../source/ILL_requests.rst:48
+msgid "In the next two sections enter as much as information as you can including chapter/article/part if applicable."
+msgstr "Nas duas secções introduza o máximo de informação que consiga incluindo o capítulo/artigo/parte, se aplicável."
+
+#: ../../source/ILL_requests.rst:50
+msgid "|image1388|"
+msgstr "|image1388|"
+
+#: ../../source/ILL_requests.rst:52
+msgid "Add custom fields, for example if you wished to add a note."
+msgstr "Adicione campos personalizados, se por exemplo desejar adicionar uma nota."
+
+#: ../../source/ILL_requests.rst:54
+msgid "Under the borrower options enter the library branch you would like the request to be sent to."
+msgstr "Abaixo nas opções do leitor insira a biblioteca para a qual deseja que o pedido seja enviado."
+
+#: ../../source/ILL_requests.rst:56
+msgid "Click on ‘Create’ and you will be shown a Request details summary page. Click on the ‘Confirm request’ button and you will see the following confirmation message:"
+msgstr "Clique em 'Criar' e será apresentado um breve resumo dos detalhes do pedido. Clique no botão 'Confirmar pedido' e aparecerá a seguinte mensagem de confirmação:"
+
+#: ../../source/ILL_requests.rst:58
+msgid "|image1389|"
+msgstr "|image1389|"
+
+#: ../../source/ILL_requests.rst:60
+msgid "Click ‘Confirm request’ again to create your request."
+msgstr "Clique em 'Confirmar pedido' novamente para criar o pedido."
+
+#: ../../source/ILL_requests.rst:65
+msgid "Viewing ILL requests"
+msgstr "Ver pedidos de empréstimo inter-bibliotecas"
+
+#: ../../source/ILL_requests.rst:67
+msgid "From the main ILL requests screen you can see all of your ILL requests. You can also click on the ‘View requests’ button at any time."
+msgstr "A partir do interface principal dos pedidos de empréstimos inter-bibliotecas poderá ver todos os pedidos e os seus estados. Em alternativa pode clicar em 'Ver pedidos' a qualquer momento."
+
+#: ../../source/ILL_requests.rst:70
+msgid "|image1435|"
+msgstr "|image1435|"
+
+#: ../../source/ILL_requests.rst:72
+msgid "There is a large amount of data available in the Requests table so it is advisable to make use of column visibility to view only the information you need. The first half of the table displays data related to the ILL item itself such as title, volume, page numbers."
+msgstr "Existe uma quantidade enorme de dados disponíveis na tabela de Pedidos, por isso é aconselhável usar a visibilidade de colunas para ver apenas a informação que necessita. A primeira metade da tabela mostra os dados relacionados com o exemplar como o título, o volume e o número de páginas."
+
+#: ../../source/ILL_requests.rst:77
+msgid "|image1436|"
+msgstr "|image1436|"
+
+#: ../../source/ILL_requests.rst:79
+msgid "The second half of the table displays data related to the request such as notes and comments."
+msgstr "A segunda metade da tabela mostra os dados relacionados com o pedido como as notas e os comentários."
+
+#: ../../source/ILL_requests.rst:85
+msgid "Managing ILL requests"
+msgstr "Gerir pedidos de empréstimo inter-bibliotecas"
+
+#: ../../source/ILL_requests.rst:87
+msgid "Click on the ‘Manage request’ button in the final column. Depending on the current status of the request you may see some or all of the following options:"
+msgstr "Clique no botão 'Gerir pedido' na última coluna. Dependendo do estado do pedido poderá ver alguns ou todos dos seguintes botões:"
+
+#: ../../source/ILL_requests.rst:90
+msgid "Edit request"
+msgstr "Editar pedido"
+
+#: ../../source/ILL_requests.rst:92
+msgid "you can edit the borrowernumber, biblionumber, branch and can add notes."
+msgstr "pode editar o número de leitor, o número de registo, a biblioteca e pode adicionar notas."
+
+#: ../../source/ILL_requests.rst:93
+msgid "Confirm request"
+msgstr "Confirmar pedido"
+
+#: ../../source/ILL_requests.rst:95
+msgid "place the request with a document supply service using a backend such as BLDSS."
+msgstr "realiza o pedido com um serviço de disponibilização de documento usando um backend como o BLDSS."
+
+#: ../../source/ILL_requests.rst:96 ../../source/ILL_requests.rst:143
+msgid "Place request with partners"
+msgstr "Efetuar o pedido nas bibliotecas parceiras"
+
+#: ../../source/ILL_requests.rst:98
+msgid "place the request via email with a :ref:`partner library <place-request-with-partners-label>`"
+msgstr "efetuar o pedido via email para uma :ref:`biblioteca parceira <place-request-with-partners-label>`"
+
+#: ../../source/ILL_requests.rst:99
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../../source/ILL_requests.rst:101
+msgid "fully delete the request. Details of deleted requests are not retained in Koha."
+msgstr "elimina completamente o pedido. Os detalhes dos pedidos eliminados não são mantidos no Koha."
+
+#: ../../source/ILL_requests.rst:102
+msgid "Revert request"
+msgstr "Reverter pedido"
+
+#: ../../source/ILL_requests.rst:104
+msgid "following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’"
+msgstr "se o pedido estiver no estado 'Pedido' ou 'Pedido aos parceiros' os técnicos podem cancelar o pedido à fonte externa. O estado do pedido é revertido para 'Novo'"
+
+#: ../../source/ILL_requests.rst:106
+msgid "Mark completed"
+msgstr "Marcar como completo"
+
+#: ../../source/ILL_requests.rst:108
+msgid "used when the ILL request has been fulfilled."
+msgstr "usado quando o pedido está totalmente completo."
+
+#: ../../source/ILL_requests.rst:109
+msgid "Edit item metadata"
+msgstr "Editar metadados"
+
+#: ../../source/ILL_requests.rst:111
+msgid "Depending on the backend used for the request you may be able to edit, add or delete some or all of the request metadata.  For example, if the metdata has originated from a requestor using the FreeForm backend this may need to be edited, whereas metadata from an external recognised source such as BLDSS should not."
+msgstr "Dependendo do backend usado para o pedido poderá editar, adicionar ou eliminar alguns ou todos os metadados do pedido.  Por exemplo, se os metadados resultaram de um pedido ao backend FreeForm então podem ser editados, se os metadados são de uma fonte externa reconhecida como a BLDSS não podem ser editados."
+
+#: ../../source/ILL_requests.rst:116
+msgid "Display supplier metadata"
+msgstr "Mostrar metadados do fornecedor"
+
+#: ../../source/ILL_requests.rst:118
+msgid "Displays any extra metadata that might have been provided by your ILL supplier that has not been included in the standard request fields."
+msgstr "Mostra qualquer metadado extra que seja providenciado pelo fornecedor e que não seja incluído no campos do pedido por omissão."
+
+#: ../../source/ILL_requests.rst:120
+msgid "Comments"
+msgstr "Comentários"
+
+#: ../../source/ILL_requests.rst:122
+msgid "It is possible to add comments to an ILL request and these can be used by ILL staff to keep track of work undertaken. Comments are read only and are stored in chronological order. They display the borrower details and date of the comment. If present, the number of comments is displayed in the List requests view."
+msgstr "É possível adicionar comentários a um pedido de empréstimo inter-bibliotecas e estes podem ser usados pelos técnicos para manter o registo do trabalho efetuado. Os comentários são apenas de leitura e são registados por ordem cronológica. Mostram os detalhes do leitor e a data do comentário. Se existirem, o número de comentários é mostrado na vista de visualização dos pedidos."
+
+#: ../../source/ILL_requests.rst:129
+msgid "Request statuses"
+msgstr "Estados do pedido"
+
+#: ../../source/ILL_requests.rst:131
+msgid "The full list of ILL statuses are:"
+msgstr "A lista completa dos estados dos pedidos é a seguinte:"
+
+#: ../../source/ILL_requests.rst:133
+msgid "New request"
+msgstr "Novo pedido"
+
+#: ../../source/ILL_requests.rst:134
+msgid "Requested"
+msgstr "Pedido"
+
+#: ../../source/ILL_requests.rst:135
+msgid "Requested from partners"
+msgstr "Pedido aos parceiros"
+
+#: ../../source/ILL_requests.rst:136
+msgid "Request reverted"
+msgstr "Pedido revertido"
+
+#: ../../source/ILL_requests.rst:137
+msgid "Cancellation requested – a patron has requested cancellation from the OPAC."
+msgstr "Cancelamento pedido - um leitor pediu o cancelamento a partir do OPAC."
+
+#: ../../source/ILL_requests.rst:138
+msgid "Completed"
+msgstr "Completo"
+
+#: ../../source/ILL_requests.rst:145
+msgid "If you have a network of partner libraries which permit ILL requests you can manage this through Koha. First you need to create your partner library accounts:"
+msgstr "Se tem uma rede de bibliotecas parceiras que permitem pedidos de empréstimo inter-bibliotecas pode fazer essa gestão no Koha. Primeiro necessita de criar as contas para as bibliotecas parceiras:"
+
+#: ../../source/ILL_requests.rst:147
+msgid "You will need to set up a :ref:`patron category <patron-categories-label>` with the code ILLLIBS."
+msgstr "Necessita de configurar uma :ref:`categoria de leitor <patron-categories-label>` com o código ILLLIBS."
+
+#: ../../source/ILL_requests.rst:149
+msgid "You will need to create a patron account with this category for each partner library."
+msgstr "Necessita de criar uma conta de leitor com essa categoria para cada biblioteca parceira."
+
+#: ../../source/ILL_requests.rst:151
+msgid "Each library must have an email address as this will be the mechanism for sending the inter-library loan request."
+msgstr "Cada biblioteca deve ter um endereço de email válido, já que será esse o mecanismo para enviar os pedidos de empréstimos inter-bibliotecas."
+
+#: ../../source/ILL_requests.rst:153
+msgid "You can now use the 'Place request with partners' option when processing requests."
+msgstr "A partir deste ponto poderá usar a opção 'Efetuar o pedido nas bibliotecas parceiras' quando estiver a processar os pedidos."
+

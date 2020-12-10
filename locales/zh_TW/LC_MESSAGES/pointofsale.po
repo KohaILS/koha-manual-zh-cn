@@ -1,0 +1,89 @@
+# Chinese translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.05\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-01 21:22-0300\n"
+"PO-Revision-Date: 2020-11-23 09:03+0000\n"
+"Last-Translator: Atron Chen <atron@customer-support.com.tw>\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1606122219.818485\n"
+
+#: ../../source/pointofsale.rst:6
+msgid "Point of sale"
+msgstr "銷售點"
+
+#: ../../source/pointofsale.rst:8
+msgid "Point of sale is a module designed for selling items to people who aren't registered at the library or to make sales that do not need to be linked to a patron account."
+msgstr "銷售點是一個模組，用於將館藏出售給未在圖書館註冊的人或進行不需要連接到顧客帳戶的銷售。"
+
+#: ../../source/pointofsale.rst:12
+msgid "For example, you can sell used books or promotional items. These items can be sold to anyone and you don't need to link the sale to a particular patron."
+msgstr "例如，您可以出售舊書或促銷品。這些物品可以出售給任何人而且無需聯繫特定顧客以進行銷售。"
+
+#: ../../source/pointofsale.rst:15
+msgid "For invoices that need to be linked to a patron's account (like a lost item or new card fee), use :ref:`manual invoicing <creating-manual-invoices-label>`."
+msgstr ""
+"對於需要連接到顧客帳戶的發票（例如丟失的館藏或新卡費用），請使用 :ref:`人工發票<creating-manual-invoices-label>。"
+
+#: ../../source/pointofsale.rst:18
+msgid "*Get there:* More > Point of sale"
+msgstr "*到:*更多>銷售點"
+
+#: ../../source/pointofsale.rst:23
+msgid "Setup"
+msgstr "設定"
+
+#: ../../source/pointofsale.rst:25
+msgid "To enable the point of sale module, you must turn on the :ref:`EnablePointOfSale` system preference."
+msgstr "要啟用銷售點模組，必須打開 :ref:`EnablePointOfSale`系統偏好。"
+
+#: ../../source/pointofsale.rst:28
+msgid "If it's not already done, you must also enable the :ref:`UseCashRegisters` system preference."
+msgstr "如果尚未完成，則要啟用 :ref:`UseCashRegisters`系統偏好。"
+
+#: ../../source/pointofsale.rst:31
+msgid "Make sure you :ref:`configure your cash registers <cashregisters-label>` in the administration module."
+msgstr "確認有在管理模組近用 :ref:`配置現金列表<cashregisters-label>`"
+
+#: ../../source/pointofsale.rst:34
+msgid "Finally, you must add items that you will be selling in the :ref:`debit types <debit-types-label>` section of the administration module."
+msgstr "最後，必須在管理模組 :ref:`借方類型<debit-types-label>`中添加要出售的館藏"
+
+#: ../../source/pointofsale.rst:40
+msgid "Making a sale"
+msgstr "進行銷售"
+
+#: ../../source/pointofsale.rst:42
+msgid "When you first go in the point of sale module, the left side will show all the items for sale. These are :ref:debit types <debit-types-label>` that were marked as 'Can be sold'."
+msgstr "首次進入銷售點模組時，左側將顯示所有待售館藏。這些是標記為'可出售'的 :ref:借方類型<debit-types-label>`。"
+
+#: ../../source/pointofsale.rst:46
+msgid "On the right side is the current sale."
+msgstr "右側是目前的銷售。"
+
+#: ../../source/pointofsale.rst:48
+msgid "image goes here"
+msgstr "圖片在這裡"
+
+#: ../../source/pointofsale.rst:50
+msgid "Click on the 'Add' button next to the items to add to the current sale."
+msgstr "點擊館藏旁邊的'新增'按鈕以添加到當前銷售中。"
+
+#: ../../source/pointofsale.rst:52
+msgid "If you need to change the cost or the quantity, click on the amount on the right side and it will become an input box where you can enter the correct amount."
+msgstr "如果需要更改成本或數量，點擊右側的數量，它將變成一個輸入框，並可以在其中輸入正確的數量。"
+
+#: ../../source/pointofsale.rst:56
+msgid "|image1459|"
+msgstr "|image1459|"

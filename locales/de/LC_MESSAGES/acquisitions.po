@@ -1,2525 +1,1942 @@
-# Compendium of de.
+# German translations for Koha Manual package.
+# Copyright (C) 2018, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2019.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-de\n"
+"Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-15 19:31-0300\n"
-"PO-Revision-Date: 2018-05-15 19:49-0300\n"
-"Language-Team: Koha Translation Team \n"
+"POT-Creation-Date: 2020-06-01 21:22-0300\n"
+"PO-Revision-Date: 2020-12-08 12:46+0000\n"
+"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1607431573.085656\n"
 
-#: ../../source/acquisitions.rst:4
+#: ../../source/acquisitions.rst:6
 msgid "Acquisitions"
 msgstr "Erwerbung"
 
-#: ../../source/acquisitions.rst:6
-msgid ""
-"The Koha Acquisitions module provides a way for the library to record orders "
-"placed with vendors and manage purchase budgets."
-msgstr ""
-"Das Koha-Erwerbungsmodul ermöglicht es der Bibliothek, Bestellungen und "
-"Lieferanten sowie die Haushaltsmittel zu überwachen und zu verwalten."
+#: ../../source/acquisitions.rst:8
+msgid "The Koha Acquisitions module provides a way for the library to record orders placed with vendors and manage purchase budgets."
+msgstr "Das Koha-Erwerbungsmodul ermöglicht es der Bibliothek, Bestellungen und Lieferanten sowie die Haushaltsmittel zu überwachen und zu verwalten."
 
-#: ../../source/acquisitions.rst:9
-#, fuzzy
+#: ../../source/acquisitions.rst:11
 msgid "*Get there:* More > Acquisitions"
-msgstr "*Pfad in Koha:* Benutzer"
+msgstr "*Pfad in Koha:* Mehr > Erwerbung"
 
-#: ../../source/acquisitions.rst:14
+#: ../../source/acquisitions.rst:16
 msgid "Setup"
 msgstr "Konfiguration"
 
-#: ../../source/acquisitions.rst:16
-#, fuzzy
-msgid ""
-"Before using the Acquisitions Module you will want to make sure that you "
-"have completed all of the set up."
-msgstr ""
-"Vor der Nutzung des Erwerbungsmoduls, muss die Grundkofiguration "
-"abgeschlossen sein."
+#: ../../source/acquisitions.rst:18
+msgid "Before using the Acquisitions module you will want to make sure that you have completed all of the set up."
+msgstr "Vor der Nutzung des Erwerbungsmoduls, muss die Grundkofiguration abgeschlossen sein."
 
-#: ../../source/acquisitions.rst:19
-msgid ""
-"First, set your :ref:`Acquisitions System Preferences <acquisitions-label>` "
-"and :ref:`Acquisitions Administration <acquisitions-label>` to match your "
-"library's workflow. Before setting your :ref:`EDI Accounts` and :ref:"
-"`Library EANs` you will need to have :ref:`entered your vendors <add-a-"
-"vendor-label>`."
-msgstr ""
+#: ../../source/acquisitions.rst:21
+msgid "First, set your :ref:`acquisitions system preferences <acquisitions-system-preferences-label>` and :ref:`acquisitions administration <acquisitions-module-label>` to match your library's workflow. Before setting your :ref:`EDI accounts` and :ref:`library EANs` you will need to have :ref:`entered your vendors <add-a-vendor-label>`."
+msgstr "Konfigurieren Sie zunächst die :ref:`Systemparameter für die Erwerbung <acquisitions-system-preferences-label>` und die :ref:`Erwerbungsbereiche in der Administration <acquisitions-module-label>` um alles auf die Geschäftsgänge Ihrer Bibliothek abzustimmen. Bevor Sie :ref:`EDI-Konten <edi-accounts-label>` und :ref:`Bibliotheks-EANs <library-eans-label>` konfigurieren können, müssen Sie zunächst Ihre :ref:`Lieferanten anlegen <add-a-vendor-label>`."
 
-#: ../../source/acquisitions.rst:25
+#: ../../source/acquisitions.rst:26
 msgid "On the main acquisitions page you will see your library's funds listed."
-msgstr ""
+msgstr "Auf der Startseite der Erwerbung sehen Sie Ihre Konten aufgelistet."
 
-#: ../../source/acquisitions.rst:27
-#, fuzzy
+#: ../../source/acquisitions.rst:28
 msgid "|image781|"
-msgstr "|image471|"
+msgstr "|image781|"
 
-#: ../../source/acquisitions.rst:29 ../../source/acquisitions.rst:238
-#: ../../source/acquisitions.rst:320 ../../source/acquisitions.rst:332
-#: ../../source/acquisitions.rst:438 ../../source/acquisitions.rst:474
-#: ../../source/acquisitions.rst:778 ../../source/acquisitions.rst:887
-#: ../../source/acquisitions.rst:902
+#: ../../source/acquisitions.rst:30 ../../source/acquisitions.rst:201
+#: ../../source/acquisitions.rst:246 ../../source/acquisitions.rst:328
+#: ../../source/acquisitions.rst:340 ../../source/acquisitions.rst:486
+#: ../../source/acquisitions.rst:549 ../../source/acquisitions.rst:707
+#: ../../source/acquisitions.rst:932 ../../source/acquisitions.rst:1013
+#: ../../source/acquisitions.rst:1081 ../../source/acquisitions.rst:1129
+#: ../../source/acquisitions.rst:1200 ../../source/acquisitions.rst:1215
 msgid "**Note**"
 msgstr "**Hinweis**"
 
-#: ../../source/acquisitions.rst:31
-msgid ""
-"If the total line is confusing for the funds you have set up you can hide it "
-"by adding"
-msgstr ""
+#: ../../source/acquisitions.rst:32
+msgid "If the total line is confusing for the funds you have set up you can hide it by adding"
+msgstr "Wenn die Zeile Gesamt (Summen) verwirrend ist, können Sie sie ausblenden indem Sie"
 
-#: ../../source/acquisitions.rst:38
+#: ../../source/acquisitions.rst:39
 msgid "to the :ref:`IntranetUserCSS` preference."
-msgstr ""
+msgstr "diesen Eintrag in den Systemparameter :ref:`IntranetUserCSS` hinzufügen."
 
-#: ../../source/acquisitions.rst:40
-msgid ""
-"To see all active funds you can click the checkbox next to 'Show active and "
-"inactive' above the funds table."
-msgstr ""
+#: ../../source/acquisitions.rst:41
+msgid "To see all active funds you can click the checkbox next to 'Show active and inactive' above the funds table."
+msgstr "Um alle aktiven Etats angezeigt zu bekommen, klicken Sie auf den Reiter 'Aktive Etats' über der Etattabelle."
 
-#: ../../source/acquisitions.rst:43
-msgid ""
-"To see a history of all orders in a fund you can click on the linked amount "
-"and it will run a search for you."
-msgstr ""
+#: ../../source/acquisitions.rst:44
+msgid "To see a history of all orders in a fund you can click on the linked amount and it will run a search for you."
+msgstr "Um alle mit einem Konto verknüpften Bestellungen einzusehen können Sie einfach auf die verlinkte Summe des Kontos in der Spalte 'Gebunden' klicken."
 
-#: ../../source/acquisitions.rst:46
-#, fuzzy
+#: ../../source/acquisitions.rst:47
 msgid "|image782|"
-msgstr "|image472|"
+msgstr "|image782|"
 
-#: ../../source/acquisitions.rst:48
-msgid "Learn more in the :ref:`Budget/Fund Tracking` section of this manual."
-msgstr ""
+#: ../../source/acquisitions.rst:49
+msgid "Learn more in the :ref:`Budget/fund tracking` section of this manual."
+msgstr "Erfahren Sie mehr darüber im Bereich :ref:`Haushalts-/Kontenüberwachung` dieses Handbuchs."
 
-#: ../../source/acquisitions.rst:54
+#: ../../source/acquisitions.rst:55
 msgid "Vendors"
 msgstr "Lieferanten"
 
-#: ../../source/acquisitions.rst:56
-#, fuzzy
-msgid ""
-"Before any orders can be places you must first enter at least one vendor."
-msgstr ""
-"Bevor eine Bestellung gemacht werden kann, muss zuerst ein Lieferant "
-"angelegt oder ausgewählt werden."
+#: ../../source/acquisitions.rst:57
+msgid "Before any orders can be placed you must first enter at least one vendor."
+msgstr "Bevor eine Bestellung gemacht werden kann, muss zuerst ein Lieferant angelegt oder ausgewählt werden."
 
-#: ../../source/acquisitions.rst:62
-msgid "Add a Vendor"
-msgstr "Neuer Lieferant"
+#: ../../source/acquisitions.rst:63
+msgid "Add a vendor"
+msgstr "Neuer Lieferant hinzufügen"
 
-#: ../../source/acquisitions.rst:64
-#, fuzzy
-msgid "To add a vendor click the 'New Vendor' button on the Acquisitions page"
-msgstr ""
-"Klicken Sie auf 'Neuer Lieferant' auf der Startseite der Erwerbung um einen "
-"neuen Lieferanten anzulegen."
+#: ../../source/acquisitions.rst:65
+msgid "To add a vendor click the 'New vendor' button on the Acquisitions page"
+msgstr "Klicken Sie auf 'Neuer Lieferant' auf der Startseite der Erwerbung um einen neuen Lieferanten anzulegen"
 
-#: ../../source/acquisitions.rst:66
-#, fuzzy
+#: ../../source/acquisitions.rst:67
 msgid "|image783|"
-msgstr "|image473|"
+msgstr "|image783|"
 
-#: ../../source/acquisitions.rst:68
-#, fuzzy
+#: ../../source/acquisitions.rst:69
 msgid "The vendor add form is broken into three pieces"
-msgstr ""
-"Das Formular für die Erfassung von Lieferanten besteht aus drei Abschnitten."
+msgstr "Das Formular für die Erfassung von Lieferanten besteht aus drei Abschnitten"
 
-#: ../../source/acquisitions.rst:70
-#, fuzzy
-msgid "The first section is for basic information about the Vendor"
-msgstr "Der erste Abschnitt ist für Basisinformationen zum Lieferanten. "
+#: ../../source/acquisitions.rst:71
+msgid "The first section is for basic information about the vendor"
+msgstr "Der erste Abschnitt beinhaltet Basisinformationen zum Lieferanten"
 
-#: ../../source/acquisitions.rst:72
-#, fuzzy
+#: ../../source/acquisitions.rst:73
 msgid "|image784|"
-msgstr "|image474|"
+msgstr "|image784|"
 
-#: ../../source/acquisitions.rst:74
-#, fuzzy
-msgid ""
-"Of these fields, only the Vendor name is required, the rest of the "
-"information should be added to help with generating claim letters and "
-"invoices"
-msgstr ""
-"Von diesen Feldern ist nur der Lieferantenname obligatorisch. Der Rest der "
-"Informationen ist nur erforderlich, um das Erzeugen von Reklamationen und "
-"Rechnungen zu erleichtern."
+#: ../../source/acquisitions.rst:75
+msgid "Of these fields, only the vendor name is required, the rest of the information should be added to help with generating claim letters and invoices"
+msgstr "Von diesen Feldern ist nur der Lieferantenname obligatorisch. Der Rest der Informationen ist nur erforderlich, um das Erzeugen von Reklamationen und Rechnungen zu erleichtern"
 
-#: ../../source/acquisitions.rst:78
-#, fuzzy
-msgid ""
-"The second section is for information regarding your contact at the Vendor's "
-"office"
-msgstr ""
-"Der zweite Abschnitt enthält Kontaktinformationen bzw. den Ansprechpartner "
-"beim Lieferanten. "
+#: ../../source/acquisitions.rst:79
+msgid "The second section is for information regarding your contact at the vendor's office"
+msgstr "Der zweite Abschnitt enthält Kontaktinformationen bzw. den Ansprechpartner beim Lieferanten."
 
-#: ../../source/acquisitions.rst:81
-#, fuzzy
+#: ../../source/acquisitions.rst:82
 msgid "|image785|"
-msgstr "|image475|"
+msgstr "|image785|"
 
-#: ../../source/acquisitions.rst:83
-#, fuzzy
-msgid ""
-"None of these fields are required, they should only be entered if you want "
-"to keep track of your contact's information within Koha"
-msgstr ""
-"Diese Felder sind keine Pflichtfelder. Sie müssen nur ausgefüllt werden, "
-"wenn Sie diese Informationen in Koha verwalten möchten"
+#: ../../source/acquisitions.rst:84
+msgid "None of these fields are required, they should only be entered if you want to keep track of your contact's information within Koha"
+msgstr "Diese Felder sind keine Pflichtfelder. Sie müssen nur ausgefüllt werden, wenn Sie diese Informationen in Koha verwalten möchten"
 
-#: ../../source/acquisitions.rst:86
-msgid ""
-"Primary acquisitions contact: check this box if this person is your primary "
-"contact regarding acquisitions from this vendor"
-msgstr ""
+#: ../../source/acquisitions.rst:87
+msgid "Primary acquisitions contact: check this box if this person is your primary contact regarding acquisitions from this vendor"
+msgstr "Primärer Erwerbungskontakt: setzen Sie hier einen Haken in der Checkbox, wenn die Person ihr primärer Ansprechpartner ist bei diesem Lieferant"
 
-#: ../../source/acquisitions.rst:88
-msgid ""
-"Primary serials contact: check this box if this person is your primary "
-"contact regarding serial acquisitions from this vendor"
-msgstr ""
+#: ../../source/acquisitions.rst:89
+msgid "Primary serials contact: check this box if this person is your primary contact regarding serial acquisitions from this vendor"
+msgstr "Primärer Zeitschriftenkontakt: setzen Sie hier einen Haken in der Checkbox, wenn die Person ihr primärer Ansprechpartner für Zeitschriften ist"
 
-#: ../../source/acquisitions.rst:90
-msgid ""
-"Contact when ordering? check this box if you want to be able to send your "
-"orders by email directly to this person"
-msgstr ""
+#: ../../source/acquisitions.rst:91
+msgid "Contact when ordering? check this box if you want to be able to send your orders by email directly to this person"
+msgstr "Kontakt bei Bestellungen? Setzen Sie hier einen Haken in der Checkbox, wenn Ihre Bestellungen per Mail direkt an diesen Ansprechpartner gehen soll"
 
-#: ../../source/acquisitions.rst:92
-msgid ""
-"Contact about late orders? check this box if you want to be able to send "
-"your acquisitions claims by email directly to this person"
-msgstr ""
+#: ../../source/acquisitions.rst:93
+msgid "Contact about late orders? check this box if you want to be able to send your acquisitions claims by email directly to this person"
+msgstr "Kontakt für verspätete Bestellungen? Setzen Sie hier einen Haken in der Checkbox, wenn Ihre Liefermahnungen per Mail direkt an diesen Ansprechpartner gehen sollen"
 
-#: ../../source/acquisitions.rst:94
-msgid ""
-"Contact about late issues? check this box if you want to be able to send "
-"your serials claims by email directly to this person"
-msgstr ""
+#: ../../source/acquisitions.rst:95
+msgid "Contact about late issues? check this box if you want to be able to send your serials claims by email directly to this person"
+msgstr "Kontakt für verspätete Hefte? Setzen Sie hier einen Haken in der Checkbox, wenn Ihre Liefermahnungen für verspätete Hefte direkt an diesen Ansprechpartner gehen sollen"
 
-#: ../../source/acquisitions.rst:96
-#, fuzzy
-msgid ""
-"You can add more than one contact per vendor by clicking on the 'Add another "
-"contact' button"
-msgstr ""
-"Sie können Ihren Import auch rückgängig mahen, in dem Sie auf 'Übernahme in "
-"den Katalog rückgängig machen' klicken"
+#: ../../source/acquisitions.rst:97
+msgid "You can add more than one contact per vendor by clicking on the 'Add another contact' button"
+msgstr "Sie können pro Lieferant mehr als eine Kontaktperson hinzufügen indem Sie auf den Button 'Einen weiteren Kontakt hinzufügen' klicken"
 
-#: ../../source/acquisitions.rst:98
-#, fuzzy
+#: ../../source/acquisitions.rst:99
 msgid "The final section is for billing information"
-msgstr ""
-"Der letzte Abschnitt ist für die Information bezüglich Rechnungsstellung "
+msgstr "Der letzte Abschnitt bezieht sich auf Informationen zur Rechnungsstellung"
 
-#: ../../source/acquisitions.rst:100
-#, fuzzy
+#: ../../source/acquisitions.rst:101
 msgid "|image786|"
-msgstr "|image476|"
+msgstr "|image786|"
 
-#: ../../source/acquisitions.rst:102
-#, fuzzy
+#: ../../source/acquisitions.rst:103
 msgid "To be able to order from a vendor you must make them 'Active'"
-msgstr ""
-"Um bei einem Lieferanten bestellen zu können, müssen Sie diesen auf 'Aktiv' "
-"setzen."
+msgstr "Um bei einem Lieferanten bestellen zu können, müssen Sie diesen auf 'Aktiv' setzen"
 
-#: ../../source/acquisitions.rst:104
-#, fuzzy
-msgid "For List Prices and Invoice Prices choose the currency"
-msgstr "Währung für die Listenpreise und Lieferpreise auswählen. "
+#: ../../source/acquisitions.rst:105
+msgid "For list prices and invoice prices choose the currency"
+msgstr "Währung für die Listenpreise und Lieferpreise auswählen"
 
-#: ../../source/acquisitions.rst:106
-#, fuzzy
-msgid ""
-"Currencies are assigned in the :ref:`Currencies & Exchange Rates <currencies-"
-"and-exchange-rates-label>` admin area"
-msgstr ""
-"Währungen werden unter Währungen &amp; Wechselkurse in der Administration "
-"konfiguriert."
+#: ../../source/acquisitions.rst:107
+msgid "Currencies are assigned in the :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` admin area"
+msgstr "Währungen werden unter :ref:`Währungen und Wechselkurse <currencies-and-exchange-rates-label>` in der Administration konfiguriert."
 
 #: ../../source/acquisitions.rst:109
-#, fuzzy
-msgid "If your library is charged tax mark your Tax Number as registered"
-msgstr ""
-"Ist Ihre Bibliothek Mehrwertsteuerpflichtig, geben Sie die entsprechende "
-"Nummer ein."
+msgid "If your library is charged tax mark your tax number as registered"
+msgstr "Ist Ihre Bibliothek mehrwertsteuerpflichtig, geben Sie die entsprechende Nummer ein"
 
 #: ../../source/acquisitions.rst:111
-#, fuzzy
 msgid "Note if you list prices and/or invoice prices include tax"
-msgstr ""
-"Hinweis: wenn Listenpreise und/oder Rechnungspreise angegeben werden, Steuer "
-"miteinberechnen."
+msgstr "Hinweis: wenn Listenpreise und/oder Rechnungspreise angegeben werden, Steuer miteinberechnen"
 
 #: ../../source/acquisitions.rst:113
-#, fuzzy
-msgid ""
-"If the vendor offers a consistent blank discount, enter that in the "
-"'Discount' field"
-msgstr ""
-"Wenn der Lieferant immer einen gewissen Rabatt gewährt, kann dieser unter "
-"'Rabatt' angegeben werden. "
+msgid "If the vendor offers a consistent blank discount, enter that in the 'Discount' field"
+msgstr "Wenn der Lieferant immer einen gewissen Rabatt gewährt, kann dieser unter 'Rabatt' angegeben werden"
 
 #: ../../source/acquisitions.rst:116
 msgid "You can enter item specific discounts when placing an order"
-msgstr ""
-"Sie können bei der Bestellung einen exemplaspezifischen Rabatt eingeben"
+msgstr "Sie können bei der Bestellung einen exemplaspezifischen Rabatt eingeben"
 
 #: ../../source/acquisitions.rst:118
-#, fuzzy
 msgid "Enter your tax rate if your library is charged taxes on orders"
-msgstr ""
-"Geben Sie die Steuerrate an, wenn Ihre Bibliothek für Einkäufe Steuern "
-"bezahlen muss."
+msgstr "Geben Sie die Steuerrate an, wenn Ihre Bibliothek für Einkäufe Steuern bezahlen muss"
 
 #: ../../source/acquisitions.rst:120
-#, fuzzy
-msgid ""
-"If you know about how long it usually takes orders to arrive from this "
-"vendor you can enter a delivery time. This will allow Koha to estimate when "
-"orders will arrive at your library on the late orders report."
-msgstr ""
-"Falls Ihnen die übliche Lieferzeit des Lieferanten bekannt ist, können Sie "
-"einen entsprechenden Eintrag machen. Dies ermöglicht Koha das Berechnen des "
-"erwarteten Lieferdatums für die Liste der überfälligen Bestellungen."
+msgid "If you know about how long it usually takes orders to arrive from this vendor you can enter a delivery time. This will allow Koha to estimate when orders will arrive at your library on the late orders report."
+msgstr "Falls Ihnen die übliche Lieferzeit des Lieferanten bekannt ist, können Sie einen entsprechenden Eintrag hier vornehmen. Dies ermöglicht Koha das Berechnen des erwarteten Lieferdatums für die Liste der überfälligen Bestellungen."
 
 #: ../../source/acquisitions.rst:125
-#, fuzzy
 msgid "Notes are for internal use"
-msgstr "Notizen sind für den internen Gebrauch."
+msgstr "Hinweise sind bibliotheksintern"
 
 #: ../../source/acquisitions.rst:130
-msgid "View/Edit a Vendor"
+msgid "View/edit a vendor"
 msgstr "Lieferant anzeigen/bearbeiten"
 
 #: ../../source/acquisitions.rst:132
-#, fuzzy
-msgid ""
-"To view a vendor's information page you must search for the vendor from the "
-"Acquisitions home page. Your search can be for any part of the Vendor's name:"
-msgstr ""
-"Um Informationen zum Lieferanten angezeigt zu bekommen, müssen Sie den "
-"Lieferanten in der Erwerbung zunächst suchen. Sie können dabei auch nach "
-"Teilen des Lieferantennamens suchen."
+msgid "To view a vendor's information page you must search for the vendor from the Acquisitions home page. Your search can be for any part of the vendor's name:"
+msgstr "Um Informationen zum Lieferanten angezeigt zu bekommen, müssen Sie den Lieferanten auf der Startseite der Erwerbung suchen. Sie können dabei auch nach Teilen des Lieferantennamens suchen:"
 
 #: ../../source/acquisitions.rst:136
-#, fuzzy
 msgid "|image787|"
-msgstr "|image477|"
+msgstr "|image787|"
 
 #: ../../source/acquisitions.rst:138
-#, fuzzy
-msgid ""
-"From the results, click on the name of the vendor you want to view or edit"
-msgstr ""
-"Bei den Resultaten klicken Sie auf den Bestell-Link neben dem Medium, das "
-"Sie erwerben möchten."
+msgid "From the results, click on the name of the vendor you want to view or edit"
+msgstr "Klicken Sie in den Ergebnissen auf den Namen des Lieferanten, den Sie anzeigen oder bearbeiten möchten"
 
-#: ../../source/acquisitions.rst:141
-#, fuzzy
+#: ../../source/acquisitions.rst:141 ../../source/acquisitions.rst:873
 msgid "|image788|"
-msgstr "|image478|"
+msgstr "|image788|"
 
 #: ../../source/acquisitions.rst:143
-#, fuzzy
 msgid "To make changes to the vendor, simply click the 'Edit vendor' button."
-msgstr "Klicken Sie auf 'Bearbeiten' um Änderungen am Lieferanten zu machen."
+msgstr "Klicken Sie auf 'Lieferant bearbeiten' um Änderungen am Lieferanten vorzunehmen."
 
 #: ../../source/acquisitions.rst:145
-#, fuzzy
-msgid ""
-"If the vendor has no baskets attached to it then a 'Delete vendor' button "
-"will also be visible and the vendor can be deleted. Otherwise you will see a "
-"'Receive shipment' button."
-msgstr ""
-"Wenn für diesen Lieferanten keine Bestellung existiert, erscheint zusätzlich "
-"eine Schaltfläche zum Löschen des Liefeanten."
+msgid "If the vendor has no baskets attached to it then a 'Delete vendor' button will also be visible and the vendor can be deleted. Otherwise you will see a 'Receive shipment' button."
+msgstr "Wenn für diesen Lieferanten keine Bestellung existieren, ist die Schaltfläche 'Lieferant löschen' zum Löschen des Liefeanten vorhanden. Wenn es Bestellkörbe gibt, erscheint stattdessen der Button 'Lieferung erhalten'."
 
 #: ../../source/acquisitions.rst:149
-#, fuzzy
 msgid "|image789|"
-msgstr "|image478|"
+msgstr "|image789|"
 
 #: ../../source/acquisitions.rst:154
-msgid "Vendor Contracts"
+msgid "Vendor contracts"
 msgstr "Vereinbarungen"
 
 #: ../../source/acquisitions.rst:156
-msgid ""
-"You can define contracts (with a start and end date) and attach them to a "
-"vendor. This is used so that at the end of the year you can see how much you "
-"spent on a specific contract with a vendor. In some places, contracts are "
-"set up with a minimum and maximum yearly amount."
-msgstr ""
-"Sie können Lieferverträge (mit Anfangs- und Enddatum) einem bestimmten "
-"Lieferanten zuweisen. Am Jahresende können Sie dann den Umsatz mit diesem "
-"Lieferanten sehen. In manchen Fällen werden Lieferverträge mit einem "
-"minimalen bzw. maximalen Jahresbetrag abgeschlossen."
+msgid "You can define contracts (with a start and end date) and attach them to a vendor. This is used so that at the end of the year you can see how much you spent on a specific contract with a vendor. In some places, contracts are set up with a minimum and maximum yearly amount."
+msgstr "Sie können Lieferverträge (mit Anfangs- und Enddatum) einem bestimmten Lieferanten zuweisen. Am Jahresende können Sie dann den Umsatz mit diesem Lieferanten sehen. In manchen Fällen werden Lieferverträge mit einem minimalen bzw. maximalen Jahresbetrag abgeschlossen."
 
 #: ../../source/acquisitions.rst:164
-msgid "Add a Contract"
+msgid "Add a contract"
 msgstr "Neue Vereinbarung"
 
 #: ../../source/acquisitions.rst:166
-msgid ""
-"At the top of a Vendor Information Page, you will see a 'New Contract' "
-"button."
-msgstr ""
-"Am oberen Rand einer Lieferantendetailansicht gibt es eine Schaltfläche "
-"'Neue Vereinbarung'."
+msgid "At the top of a vendor information Page, you will see a 'New contract' button."
+msgstr "Am oberen Rand einer Lieferantendetailansicht können Sie über den Button 'Neu' eine Vereinbarung anlegen."
 
 #: ../../source/acquisitions.rst:169
-#, fuzzy
 msgid "|image790|"
-msgstr "|image470|"
+msgstr "|image790|"
 
 #: ../../source/acquisitions.rst:171
-#, fuzzy
-msgid ""
-"The contract form will ask for some very basic information about the contract"
-msgstr ""
-"Das Formular für die Vereinbarungen bietet Felder für ganz wesentliche "
-"Informationen über die Vereinbarung."
+msgid "The contract form will ask for some very basic information about the contract"
+msgstr "Das Formular für die Vereinbarungen bietet Felder für ganz wesentliche Informationen über die Vereinbarung"
 
 #: ../../source/acquisitions.rst:174
-#, fuzzy
 msgid "|image791|"
-msgstr "|image471|"
+msgstr "|image791|"
 
-#: ../../source/acquisitions.rst:176 ../../source/acquisitions.rst:309
-#: ../../source/acquisitions.rst:560 ../../source/acquisitions.rst:639
-#: ../../source/acquisitions.rst:658 ../../source/acquisitions.rst:671
-#: ../../source/acquisitions.rst:732 ../../source/acquisitions.rst:973
+#: ../../source/acquisitions.rst:176 ../../source/acquisitions.rst:317
+#: ../../source/acquisitions.rst:421 ../../source/acquisitions.rst:689
+#: ../../source/acquisitions.rst:814 ../../source/acquisitions.rst:833
+#: ../../source/acquisitions.rst:846 ../../source/acquisitions.rst:907
+#: ../../source/acquisitions.rst:1286
 msgid "**Important**"
 msgstr "**Wichtig**"
 
 #: ../../source/acquisitions.rst:178
-#, fuzzy
-msgid ""
-"You cannot enter a contract retrospectively. The end date must not be before "
-"today's date."
-msgstr ""
-"Wichtig: Sie können eine Vereinbarung nicht retrospektiv eingeben, das "
-"Enddatum darf nicht vor heute liegen."
+msgid "You cannot enter a contract retrospectively. The end date must not be before today's date."
+msgstr "Sie können eine Vereinbarung nicht retrospektiv eingeben, das Enddatum darf nicht vor dem Tagesdatum liegen."
 
 #: ../../source/acquisitions.rst:181
 msgid "Once the contract is saved it will appear below the vendor information."
-msgstr ""
-"Sobald eine Vereinbarung gespeichert ist, erscheint sie unter der "
-"Händlerinformation."
+msgstr "Sobald eine Vereinbarung gespeichert ist, erscheint sie unter der Händlerinformation."
 
 #: ../../source/acquisitions.rst:183
-#, fuzzy
 msgid "|image792|"
-msgstr "|image472|"
+msgstr "|image792|"
 
 #: ../../source/acquisitions.rst:185
-#, fuzzy
 msgid "It will also be an option when creating a basket"
-msgstr "Es ist auch möglich, wenn Sie einen Bestellung erzeugen."
+msgstr "Eine Vereinbarung kann auch beim Erstellen eines Bestellkorbes ausgewählt werden"
 
 #: ../../source/acquisitions.rst:187
-#, fuzzy
 msgid "|image793|"
-msgstr "|image473|"
+msgstr "|image793|"
 
 #: ../../source/acquisitions.rst:192
-#, fuzzy
-msgid "Managing Suggestions"
+msgid "Managing purchase suggestions"
 msgstr "Anschaffungsvorschläge verwalten"
 
 #: ../../source/acquisitions.rst:194
-#, fuzzy
-msgid ""
-"Purchase suggestions can be generated in one of two ways. You can create "
-"suggestions via the staff client either for the library or :ref:`on the "
-"patron's behalf <purchase-suggestions-label>` from their record. Depending "
-"on your settings in the :ref:`suggestion` system preference, patrons may "
-"also be able to make purchase suggestions via the OPAC. When a suggestion is "
-"waiting for library review, it will appear on the Acquisitions home page "
-"next to the vendor search."
-msgstr ""
-"Abhängig von der Konfiguration, können Benutzer Anschaffungsvorschläge über "
-"den OPAC machen. Wenn ein Anschaffungsvorschlag auf Bearbeitung durch die "
-"Bibliothek wartet, wird dies auf der Startseite der Erwerbung unterhalb der "
-"Lieferantensuche angezeigt."
+msgid "Purchase suggestions can be generated in one of two ways. You can create suggestions via the staff client either for the library or :ref:`on the patron's behalf <purchase-suggestions-label>` from their record. Depending on your settings in the :ref:`suggestion` system preference, patrons may also be able to make purchase suggestions via the OPAC."
+msgstr "Anschaffungsvorschläge können auf zwei Arten angelegt werden. Sie können selbst Anschaffungsvorschläge in der Dienstoberfläche entweder für die Bibliothek vornehmen, oder :ref:`im Namen des Benutzers <purchase-suggestions-label>` von dessen Benutzerdatensatz aus. Abhängig von Ihren Einstellungen in den Systemparametern für :ref:`suggestion` können Benutzer auch Anschaffungsvorschläge über den OPAC umsetzen."
 
-#: ../../source/acquisitions.rst:202
-#, fuzzy
+#: ../../source/acquisitions.rst:203
+msgid "You need to be logged in as a staff member with the suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>` in order to view and work with purchase suggestions."
+msgstr "Sie müssen als Bibliothekspersonal eingeloggt sein mit der :ref:`Berechtigung für Erwerbung <granular-acquisitions-permissions-label>` suggestions_manage um Anschaffungsvorschläge anschauen und bearbeiten zu können. "
+
+#: ../../source/acquisitions.rst:207
+msgid "When a suggestion is waiting for library review, it will appear on the Acquisitions home page next to the vendor search."
+msgstr "Wenn ein Anschaffungsvorschlag zur Überprüfung vorliegt, wird dieser auf der Erwerbungsseite neben der Lieferantensuchleiste angezeigt."
+
+#: ../../source/acquisitions.rst:210
 msgid "|image794|"
-msgstr "|image474|"
+msgstr "|image794|"
 
-#: ../../source/acquisitions.rst:204
-#, fuzzy
-msgid ""
-"It will also appear on the main staff dashboard under the module labels:"
-msgstr "Es wird auch auf der Startseite unterhalb des Hauptmenüs angezeigt."
+#: ../../source/acquisitions.rst:212
+msgid "It will also appear on the main staff dashboard under the module labels:"
+msgstr "Sie werden auch auf der Startseite unterhalb der Modulauswahl angezeigt:"
 
-#: ../../source/acquisitions.rst:206
-#, fuzzy
+#: ../../source/acquisitions.rst:214
 msgid "|image795|"
-msgstr "|image475|"
+msgstr "|image795|"
 
-#: ../../source/acquisitions.rst:208
-msgid ""
-"Clicking 'Manage suggestions' will take you to the suggestion management "
-"tool. If there are no pending suggestions you can access the suggestion "
-"management tool by clicking the 'Manage suggestions' link on the menu on the "
-"left of the Acquisitions page."
-msgstr ""
-"Wenn Sie auf 'Anschaffungsvorschläge verwalten' klicken, gelangen Sie in das "
-"Werkzeug zur Bearbeitung von Anschaffungsvorschlägen. Wenn keine Vorschläge "
-"auf Bearbeitung warten, können Sie das Werkzeug auch über den Link "
-"'Anschaffungsvorschläge verwalten' auf der linken Seite im Modul Erwerbung "
-"erreichen."
+#: ../../source/acquisitions.rst:216
+msgid "Clicking 'Manage suggestions' will take you to the suggestion management tool. If there are no pending suggestions you can access the suggestion management tool by clicking the 'Manage suggestions' link on the menu on the left of the Acquisitions page."
+msgstr "Wenn Sie auf 'Anschaffungsvorschläge verwalten' klicken, gelangen Sie in das Werkzeug zur Bearbeitung von Anschaffungsvorschlägen. Wenn keine Vorschläge auf Bearbeitung warten, können Sie das Werkzeug auch über den Link 'Anschaffungsvorschläge verwalten' auf der linken Seite im Modul Erwerbung erreichen."
 
-#: ../../source/acquisitions.rst:213
-#, fuzzy
+#: ../../source/acquisitions.rst:221
 msgid "|image796|"
-msgstr "|image476|"
+msgstr "|image796|"
 
-#: ../../source/acquisitions.rst:215
-msgid ""
-"Your suggestions will be sorted into several tabs: Accepted, Pending, "
-"Checked, Ordered and/or Rejected. Each accepted or rejected suggestion will "
-"show the name of the librarian who managed the suggestion and the reason "
-"they gave for accepting or rejecting it (found under 'Status')."
-msgstr ""
-"Ihre Anschaffungsvorschläge werden in unterschiedliche Kategorien "
-"eingeordnet. Akzeptiert, Zu bearbeiten, Geprüft, Bestellt und Abgelehnt. Bei "
-"jedem akzeptierten oder abgelehnten Anschaffungsvorschlag werden der Name "
-"des Bearbeiters und die Gründe für die Akzeptierung oder Ablehnung (bei "
-"'Status') angezeigt."
+#: ../../source/acquisitions.rst:223
+msgid "Your suggestions will be sorted into several tabs: Accepted, Pending, Checked, Ordered and/or Rejected. Each accepted or rejected suggestion will show the name of the librarian who managed the suggestion and the reason they gave for accepting or rejecting it (found under 'Status')."
+msgstr "Ihre Anschaffungsvorschläge werden in unterschiedliche Kategorien eingeordnet. Akzeptiert, Zu bearbeiten, Geprüft, Bestellt und Abgelehnt. Bei jedem akzeptierten oder abgelehnten Anschaffungsvorschlag werden der Name des Bearbeiters und die Gründe für die Akzeptierung oder Ablehnung (bei 'Status') angezeigt."
 
-#: ../../source/acquisitions.rst:220
-#, fuzzy
-msgid ""
-"An 'Accepted' suggestion is one that you have marked as 'Accepted' using the "
-"form below the suggestions. A 'Pending' suggestion is one that is awaiting "
-"action from the library. A 'Checked' suggestion is one that has been marked "
-"as 'Checked' using the form before the suggestions. An 'Ordered' suggestion "
-"is on that has been ordered using the '`From a purchase suggestion "
-"<#orderfromsuggestion>`__' link in your basket. A 'Rejected' suggestion is "
-"one that you have marked at 'Rejected' using the form below the list of "
-"suggestions."
-msgstr ""
-"'Ein akzeptierter Anschaffungsvorschlag ist einer, der als 'Akzeptiert' "
-"markiert wurde. Mit 'In Bearbeitung' werden Anschaffungsvorschläge "
-"gekennzeichnet, die noch von der Bibliothek bearbeitet werden müssen. Mit "
-"'Checked' können geprüfte Anschaffungsvorschläge markiert werden. Mit "
-"'Bestellt' werden die Vorschläge gekennzeichnet, die bereits über das "
-"Erwerbungsmodul bestellt wurden. 'Abgelehnt' bedeutet, dass keine "
-"Anschaffung erfolgen wird."
+#: ../../source/acquisitions.rst:228
+msgid "An 'Accepted' suggestion is one that you have marked as 'Accepted' using the form below the suggestions. A 'Pending' suggestion is one that is awaiting action from the library. A 'Checked' suggestion is one that has been marked as 'Checked' using the form before the suggestions. An 'Ordered' suggestion is on that has been ordered using the '`From a purchase suggestion <#orderfromsuggestion>`__' link in your basket. A 'Rejected' suggestion is one that you have marked at 'Rejected' using the form below the list of suggestions."
+msgstr "Ein akzeptierter Anschaffungsvorschlag ist einer, der als 'Akzeptiert' markiert wurde. Mit 'In Bearbeitung' werden Anschaffungsvorschläge gekennzeichnet, die noch von der Bibliothek bearbeitet werden müssen. Mit 'Geprüft' können geprüfte Anschaffungsvorschläge markiert werden. Mit 'Bestellt' werden die Vorschläge gekennzeichnet, die `bereits über das Erwerbungsmodul bestellt <#orderfromsuggestion>`__' wurden. 'Abgelehnt' bedeutet, dass keine Anschaffung erfolgen wird."
 
-#: ../../source/acquisitions.rst:229
-msgid ""
-"For libraries with lots of suggestions, there are filters on the left hand "
-"side of the Manage Suggestions page to assist in limiting the number of "
-"titles displayed on the screen."
-msgstr ""
-"Für Bibliotheken, die eine grosse Menge von Anschaffungsvorschlägen zu "
-"verwalten haben, stehen am linken Rand der Seite Filter zur Verfügung, die "
-"helfen, die Anzahl der auf der Seite angezeigten Titel einzugrenzen."
+#: ../../source/acquisitions.rst:237
+msgid "For libraries with lots of suggestions, there are filters on the left hand side of the Manage Suggestions page to assist in limiting the number of titles displayed on the screen."
+msgstr "Für Bibliotheken, die eine grosse Menge von Anschaffungsvorschlägen zu verwalten haben, stehen am linken Rand der Seite Filter zur Verfügung, die helfen, die Anzahl der auf der Seite angezeigten Titel einzugrenzen."
 
-#: ../../source/acquisitions.rst:233
-#, fuzzy
+#: ../../source/acquisitions.rst:241
 msgid "|image797|"
-msgstr "|image477|"
+msgstr "|image797|"
 
-#: ../../source/acquisitions.rst:235
-msgid ""
-"Clicking on the blue headings will expand the filtering options and clicking "
-"'[clear]' will clear all filters and show all suggestions."
-msgstr ""
-"Wenn Sie auf die blauen Überschriften klicken, öffnen sich die "
-"Filteroptionen. Wenn Sie auf '[löschen]' klicken, werden alle Filter geleert "
-"und alle Anschaffungsvorschläge angezeigt."
+#: ../../source/acquisitions.rst:243
+msgid "Clicking on the blue headings will expand the filtering options and clicking '[clear]' will clear all filters and show all suggestions."
+msgstr "Wenn Sie auf die blauen Überschriften klicken, öffnen sich die Filteroptionen. Wenn Sie auf '[löschen]' klicken, werden alle Filter geleert und alle Anschaffungsvorschläge angezeigt."
 
-#: ../../source/acquisitions.rst:240
-msgid ""
-"The suggestions page will automatically be limited to suggestions for your "
-"library. To see information for all (or any other) libraries click on the "
-"'Acquisition information' filter and change the library."
-msgstr ""
-"Auf der Seite mit den Anschaffungsvorschlägen wird automatisch auf die "
-"Anschaffungsvorschläge für Ihre Bibliothek eingeschränkt. Um auch die "
-"Anschaffungsvorschläge anderer Bibliotheken zu sehen, können Sie den Filter "
-"unter 'Erwerbungsinformationen' aufheben oder ändern."
+#: ../../source/acquisitions.rst:248
+msgid "The suggestions page will automatically be limited to suggestions for your library. To see information for all (or any other) libraries click on the 'Acquisition information' filter and change the library."
+msgstr "Auf der Seite mit den Anschaffungsvorschlägen wird automatisch auf die Anschaffungsvorschläge für Ihre Bibliothek eingeschränkt. Um auch die Anschaffungsvorschläge anderer Bibliotheken zu sehen, können Sie den Filter unter 'Erwerbungsinformationen' aufheben oder ändern."
 
-#: ../../source/acquisitions.rst:245
-#, fuzzy
+#: ../../source/acquisitions.rst:253
 msgid "|image798|"
-msgstr "|image478|"
+msgstr "|image798|"
 
-#: ../../source/acquisitions.rst:247
-msgid ""
-"When reviewing 'Pending' suggestions you can choose to check the box next to "
-"the item(s) you want to approve/reject and then choose the status and reason "
-"for your selection. You can also choose to completely delete the suggestion "
-"by checking the 'Delete selected' box."
-msgstr ""
-"Beim Bearbeiten von 'zu bearbeitenden' Vorschlägen können Sie Titel über die "
-"Checkbox neben den einzelnen Vorschlägen markieren und dann den neuen Status "
-"auswählen und eine Begründung erfassen. Sie können auf diese Weise auch "
-"Anschaffungsvorschläge vollständig löschen, indem Sie 'Markierte löschen' "
-"verwenden."
+#: ../../source/acquisitions.rst:255
+msgid "When reviewing 'Pending' suggestions you can choose to check the box next to the item(s) you want to approve/reject and then choose the status and reason for your selection. You can also choose to completely delete the suggestion by checking the 'Delete selected' box."
+msgstr "Beim Bearbeiten von 'zu bearbeitenden' Vorschlägen können Sie Titel über die Checkbox neben den einzelnen Vorschlägen markieren und dann den neuen Status auswählen und eine Begründung erfassen. Sie können auf diese Weise auch Anschaffungsvorschläge vollständig löschen, indem Sie 'Markierte löschen' verwenden."
 
-#: ../../source/acquisitions.rst:252
-#, fuzzy
+#: ../../source/acquisitions.rst:260
 msgid "|image799|"
-msgstr "|image479|"
+msgstr "|image799|"
 
-#: ../../source/acquisitions.rst:254
-msgid ""
-"Another option for libraries with long lists of suggestions is to approve or "
-"reject suggestions one by one by clicking on the title of the suggestion to "
-"open a summary of the suggestion, including information if the item was "
-"purchased."
-msgstr ""
-"Eine zusätzliche Möglichkeit der Bearbeitung von Anschaffungsvorschlägen "
-"ist, diese nacheinander über den verlinkten Titel aufzurufen und den Status "
-"und weitere Informationen einzutragen."
+#: ../../source/acquisitions.rst:262
+msgid "Another option for libraries with long lists of suggestions is to approve or reject suggestions one by one by clicking on the title of the suggestion to open a summary of the suggestion, including information if the item was purchased."
+msgstr "Eine zusätzliche Möglichkeit der Bearbeitung von Anschaffungsvorschlägen ist, diese nacheinander über den verlinkten Titel aufzurufen und den Status und weitere Informationen einzutragen."
 
-#: ../../source/acquisitions.rst:259
-#, fuzzy
+#: ../../source/acquisitions.rst:267
 msgid "|image800|"
-msgstr "|image480|"
+msgstr "|image800|"
 
-#: ../../source/acquisitions.rst:261
-#, fuzzy
-msgid ""
-"Clicking 'edit' to the right of the suggested title or at the to pof the "
-"suggestion detail page will open a suggestion editing page."
-msgstr ""
-"Klicken Sie auf 'Bearbeiten' um einen Anschaffungsvorschlag zu bearbeiten."
+#: ../../source/acquisitions.rst:269
+msgid "Clicking 'edit' to the right of the suggested title or at the top of the suggestion detail page will open a suggestion editing page."
+msgstr "Klicken Sie die Schaltfläche 'Bearbeiten' rechts vom vorgeschlagenen Titel oder Sie sind auf der Detailansicht des Anschaffungsvorschlages und klicken hier auf die Schaltfläche 'Bearbeiten'. Dann öffnet sich die Maske zum Bearbeiten des Anschaffungsvorschlages."
 
-#: ../../source/acquisitions.rst:264
-#, fuzzy
+#: ../../source/acquisitions.rst:272
 msgid "|image801|"
-msgstr "|image480|"
+msgstr "|image801|"
 
-#: ../../source/acquisitions.rst:266
-msgid ""
-"From this form you can make edits to the suggestion (adding more details or "
-"updating incorrect information provided by the patron). You can also choose "
-"to accept or reject the suggestion on an individual basis."
-msgstr ""
-"In diesem Formular können Sie den Anschaffungsvorschlag bearbeiten (mehr "
-"Details hinzufügen oder die Eingaben des Benutzers korrigieren). Sie können "
-"den Vorschlag hier auch akzeptieren oder ablehnen."
-
-#: ../../source/acquisitions.rst:270
-msgid ""
-"Choosing to mark a request as 'Pending' will move the request back to the "
-"'Pending' tab."
-msgstr ""
-"Wenn Sie einen Vorschlag als 'Zu bearbeiten' markieren, wird dieser wieder "
-"im Reiter 'Zu bearbeiten' angezeigt."
-
-#: ../../source/acquisitions.rst:273
-#, fuzzy
-msgid ""
-"Reasons for accepting and rejecting suggestions are defined by the `SUGGEST "
-"<#suggestauthorized>`__ authorized value."
-msgstr ""
-"Die Begründungen für die Annahme oder Ablehnung von Anschaffungsvorschlägen "
-"werden über den normierten Wert SUGGEST definiert."
-
-#: ../../source/acquisitions.rst:276
-#, fuzzy
-msgid "|image802|"
-msgstr "|image480|"
+#: ../../source/acquisitions.rst:274
+msgid "From this form you can make edits to the suggestion (adding more details or updating incorrect information provided by the patron). You can also choose to accept or reject the suggestion on an individual basis."
+msgstr "In diesem Formular können Sie den Anschaffungsvorschlag bearbeiten (mehr Details hinzufügen oder die Eingaben des Benutzers korrigieren). Sie können den Vorschlag hier auch akzeptieren oder ablehnen."
 
 #: ../../source/acquisitions.rst:278
-msgid ""
-"If you choose 'Others...' as your reason you will be prompted to enter your "
-"reason in a text box. Clicking 'Cancel' to the right of the box will bring "
-"back the pull down menu with authorized reasons."
-msgstr ""
-"Wenn Sie als Ihre Begründung 'Andere...' wählen, können Sie einen freien "
-"Text in das Eingabefeld eingeben. Wählen Sie abbrechen rechts neben der Box "
-"um wieder die normierte Liste mit Texten zu erhalten."
+msgid "Choosing to mark a request as 'Pending' will move the request back to the 'Pending' tab."
+msgstr "Wenn Sie einen Vorschlag als 'Zu bearbeiten' markieren, wird dieser wieder im Reiter 'Zu bearbeiten' angezeigt."
 
-#: ../../source/acquisitions.rst:282
-#, fuzzy
-msgid "|image803|"
-msgstr "|image480|"
+#: ../../source/acquisitions.rst:281
+msgid "Reasons for accepting and rejecting suggestions are defined by the `SUGGEST <#suggestauthorized>`__ authorized value."
+msgstr "Die Begründungen für die Annahme oder Ablehnung von Anschaffungsvorschlägen werden über den normierten Wert `SUGGEST <#suggestauthorized>`__ definiert."
 
 #: ../../source/acquisitions.rst:284
-msgid "You can also assign this suggestion to a fund."
-msgstr ""
+msgid "|image802|"
+msgstr "|image802|"
 
 #: ../../source/acquisitions.rst:286
-#, fuzzy
-msgid "|image1280|"
-msgstr "|image1248|"
+msgid "If you choose 'Others...' as your reason you will be prompted to enter your reason in a text box. Clicking 'Cancel' to the right of the box will bring back the pull down menu with authorized reasons."
+msgstr "Wenn Sie als Ihre Begründung 'Andere...' wählen, können Sie einen freien Text in das Eingabefeld eingeben. Wählen Sie abbrechen rechts neben der Box um wieder die normierte Liste mit Texten zu erhalten."
 
-#: ../../source/acquisitions.rst:288
-msgid ""
-"This edit can trigger a notice (defined in the :ref:`Notices & Slips "
-"<notices-&-slips-label>` tool with the `TO\\_PROCESS <#toprocessnotice>`__ "
-"notice) to the fund owner that there is a suggestion ready for them to "
-"manage if you have turned on the :ref:`cron job to generate these notices "
-"<email-suggestions-to-process-label>`."
-msgstr ""
+#: ../../source/acquisitions.rst:290
+msgid "|image803|"
+msgstr "|image803|"
+
+#: ../../source/acquisitions.rst:292
+msgid "You can also assign this suggestion to a fund."
+msgstr "Sie können dem Anschaffungsvorschlag auch ein Konto zuweisen."
 
 #: ../../source/acquisitions.rst:294
-#, fuzzy
-msgid ""
-"Once you have clicked 'Submit' the suggestion will be moved to the matching "
-"tab. The status will also be updated on the patron's account in the OPAC and "
-"an :ref:`email notice <notices-&-slips-label>` will be sent to the patron "
-"using the template that matches the status you have chosen."
-msgstr ""
-"Nachdem Sie bestätigt haben, wird der Anschaffungsvorschlag in den "
-"entsprechenden Reiter verschoben. Der Status im Benutzerkonto wird "
-"aktualisiert und eine E-Mail-Benachrichtigung, die dem gewählten Status "
-"entspricht, an den Benutzer verschickt."
+msgid "|image1280|"
+msgstr "|image1280|"
 
-#: ../../source/acquisitions.rst:299
-#, fuzzy
+#: ../../source/acquisitions.rst:296
+msgid "This edit can trigger a notice (defined in the :ref:`Notices & slips <notices-and-slips-label>` tool with the `TO\\_PROCESS <#toprocessnotice>`__ notice) to the fund owner that there is a suggestion ready for them to manage if you have turned on the :ref:`cron job to generate these notices <cron-email-suggestions-to-process-label>`."
+msgstr "Durch die Bearbeitung kann eine Benachrichtigung angestoßen werden (wird konfiguriert in den Werkzeugen bei :ref:`Benachrichtigungen & Quittungen <notices-and-slips-label>`, Benachrichtigung `TO\\_PROCESS <#toprocessnotice>`__). Der Inhaber des Kontos sieht dann, das ein Anschaffungvorschlag zum Bearbeiten vorliegt, sofern der :ref:`Cronjob für diese Benachrichtigungen eingerichtet ist <cron-email-suggestions-to-process-label>`."
+
+#: ../../source/acquisitions.rst:302
+msgid "Once you have clicked 'Submit' the suggestion will be moved to the matching tab. The status will also be updated on the patron's account in the OPAC and an :ref:`email notice <notices-and-slips-label>` will be sent to the patron using the template that matches the status you have chosen."
+msgstr "Nachdem Sie bestätigt haben, wird der Anschaffungsvorschlag in den entsprechenden Reiter verschoben. Der Status im Benutzerkonto im OPAC wird aktualisiert, und eine :ref:`E-Mail-Benachrichtigung <notices-and-slips-label>`, die dem gewählten Status entspricht, an den Benutzer verschickt."
+
+#: ../../source/acquisitions.rst:307
 msgid "|image804|"
-msgstr "|image480|"
+msgstr "|image804|"
 
-#: ../../source/acquisitions.rst:304
-#, fuzzy
-msgid "Placing Orders"
-msgstr "Bestellung anlegen"
+#: ../../source/acquisitions.rst:312
+msgid "Placing orders"
+msgstr "Bestellungen anlegen"
 
-#: ../../source/acquisitions.rst:306
-msgid ""
-"To place an order you must first search for the vendor or bookseller you "
-"want to send the order to."
-msgstr ""
+#: ../../source/acquisitions.rst:314
+msgid "To place an order you must first search for the vendor or bookseller you want to send the order to."
+msgstr "Um eine Bestellung anzulegen müssen Sie zunächst nach dem Lieferanten oder Buchhändler suchen bei dem Sie die Bestellung aufgeben möchten."
 
-#: ../../source/acquisitions.rst:311
-msgid ""
-"If you are planning on using EDIFACT to submit your order you will need to "
-"first set up your library's :ref:`EDI Accounts` and :ref:`EANs <library-eans-"
-"label>`."
-msgstr ""
+#: ../../source/acquisitions.rst:319
+msgid "If you are planning on using EDIFACT to submit your order you will need to first set up your library's :ref:`EDI accounts` and :ref:`EANs <library-eans-label>`."
+msgstr "Wenn Sie vorhaben EDIFACT zu verwenden um Ihre Bestellung zu übertragen, müssen Sie zunächst Ihre :ref:`EDI-Konten <edi-accounts-label>` und :ref:`Bibliotheks-EANS <library-eans-label>` konfigurieren."
 
-#: ../../source/acquisitions.rst:318
-#, fuzzy
+#: ../../source/acquisitions.rst:326
 msgid "Create a basket"
-msgstr "Neues Set"
-
-#: ../../source/acquisitions.rst:322
-msgid ""
-"If you're using EDI for ordering you will want to download your order record "
-"from your vendor before starting the process in Koha."
-msgstr ""
-
-#: ../../source/acquisitions.rst:325
-msgid ""
-"To create a basket you must first search for the vendor you're ordering from:"
-msgstr ""
-
-#: ../../source/acquisitions.rst:328
-#, fuzzy
-msgid "|image805|"
-msgstr "|image480|"
+msgstr "Einen Bestellkorb anlegen"
 
 #: ../../source/acquisitions.rst:330
-#, fuzzy
-msgid "And click the 'New basket' button to the right of the vendor name."
-msgstr ""
-"Klicken Sie auf 'Benutzer hinzufügen' rechts neben dem Listennamen, um "
-"Benutzer auf die Liste zu setzen."
+msgid "If you're using EDI for ordering you will want to download your order record from your vendor before starting the process in Koha."
+msgstr "Wenn Sie EDI für den Bestellvorgang verwenden, sollten Sie zunächst den Bestelldatensatz von Ihrem Lieferanten herunterladen bevor Sie in Koha damit arbeiten."
 
-#: ../../source/acquisitions.rst:334
-msgid ""
-"You can also add to an existing basket by clicking the 'Add to basket' link "
-"to the far right of each basket's information in the results table."
-msgstr ""
+#: ../../source/acquisitions.rst:333
+msgid "To create a basket you must first search for the vendor you're ordering from:"
+msgstr "Um einen Bestellkorb anzulegen müssen Sie zunächst nach dem Lieferanten suchen bei dem Sie bestellen wollen:"
+
+#: ../../source/acquisitions.rst:336
+msgid "|image805|"
+msgstr "|image805|"
 
 #: ../../source/acquisitions.rst:338
-#, fuzzy
-msgid ""
-"After clicking 'New basket' you will be asked to enter some information "
-"about the order:"
-msgstr ""
-"Das Formular für die Vereinbarungen bietet Felder für ganz wesentliche "
-"Informationen über die Vereinbarung."
+msgid "And click the 'New basket' button to the right of the vendor name."
+msgstr "Klicken Sie auf den Button 'Neue Bestellung' rechts neben dem Namen des Lieferanten."
 
-#: ../../source/acquisitions.rst:341
+#: ../../source/acquisitions.rst:342
 #, fuzzy
-msgid "|image806|"
-msgstr "|image480|"
-
-#: ../../source/acquisitions.rst:343
-msgid ""
-"When adding a basket you want to give it a name that will help you identify "
-"it later"
-msgstr ""
-"Wenn Sie einen Korb einrichten, sollten Sie ihm einen sprechenden Namen "
-"geben der bei der späteren Identifizierung hilft."
+msgid "You can also add to an existing basket by clicking the arrow next to the 'View' button at the far right of each basket's information in the results table, and choosing 'Add to basket'."
+msgstr "Sie können Titel auch zu einem bereits existierenden Bestellkorb hinzufügen indem Sie auf den Button 'Neuer Bestellposten' rechts in den Ergebnissen der Bestellkörbe klicken."
 
 #: ../../source/acquisitions.rst:346
-msgid ""
-"Enter in the Billing Place and Delivery Place (this will default the library "
-"you're logged in at)"
-msgstr ""
-"Rechnungsselle und Lieferort angeben (Voreinstellung ist die Login-"
-"Bibliothek)"
+#, fuzzy
+msgid "|image1406|"
+msgstr "|image1406|"
 
-#: ../../source/acquisitions.rst:349
-msgid ""
-"If you would like to change the vendor you're ordering from you can use the "
-"Vendor pull down menu"
-msgstr ""
-"Falls Sie den Lieferanten wechseln möchten verwenden Sie die entsprechende "
-"Auswahlliste."
+#: ../../source/acquisitions.rst:348
+msgid "After clicking 'New basket' you will be asked to enter some information about the order:"
+msgstr "Nachdem Sie auf 'Neue Bestellung' geklickt haben werden Sie darum geben einige grundlegende Informationen zur Bestellung einzugeben:"
 
-#: ../../source/acquisitions.rst:352
+#: ../../source/acquisitions.rst:351
+msgid "|image806|"
+msgstr "|image806|"
+
+#: ../../source/acquisitions.rst:353
+msgid "When adding a basket you want to give it a name that will help you identify it later"
+msgstr "Wenn Sie einen Korb einrichten, sollten Sie ihm einen sprechenden Namen geben der bei der späteren Identifizierung hilft."
+
+#: ../../source/acquisitions.rst:356
+msgid "Enter in the billing place and delivery place (this will default the library you're logged in at)"
+msgstr "Rechnungsstelle und Lieferort angeben (Voreingestellt ist die Bibliothek mit der Sie angemeldet sind)"
+
+#: ../../source/acquisitions.rst:359
+msgid "If you would like to change the vendor you're ordering from you can use the Vendor pull down menu"
+msgstr "Falls Sie den Lieferanten wechseln möchten verwenden Sie die entsprechende Auswahlliste."
+
+#: ../../source/acquisitions.rst:362
 msgid "The notes fields are optional and can contain any type of information"
-msgstr ""
-"Die Notizfelder sind optional und können beliebige Informationen enthalten"
+msgstr "Die Notizfelder sind optional und können beliebige Informationen enthalten"
 
-#: ../../source/acquisitions.rst:354
-msgid ""
-"If you're ordering standing items (items which arrive regularly) then you "
-"will want to check the 'Orders are standing' box for this basket"
-msgstr ""
-
-#: ../../source/acquisitions.rst:357
-#, fuzzy
-msgid ""
-"If you have :ref:`added contracts <add-a-contract-label>` to the vendor "
-"you're ordering from, you will also have an option to choose which contract "
-"you're ordering these items under."
-msgstr ""
-"Wenn Sie für den Lieferanten Vereinbarungen erfasst haben, können Sie bei "
-"der Bestellung auswählen unter welcher Vereinbarung Sie die Bestellung "
-"aufgeben."
-
-#: ../../source/acquisitions.rst:361
-#, fuzzy
-msgid "|image807|"
-msgstr "|image407|"
-
-#: ../../source/acquisitions.rst:363
-#, fuzzy
-msgid "When finished, click 'Save'"
-msgstr "Zum Abschluss klicken Sie auf  'Speichern' "
-
-#: ../../source/acquisitions.rst:365
-#, fuzzy
-msgid "|image808|"
-msgstr "|image408|"
+#: ../../source/acquisitions.rst:364
+msgid "If you're ordering standing items (items which arrive regularly) then you will want to check the 'Orders are standing' box for this basket."
+msgstr "Wenn Sie eine Bestellung als Standing Order anlegen wollen (Exemplare die regelmäßig geliefert werden), setzen Sie einen Haken in der Checkbox 'Bestellungen sind permanent (\"standing\"):'"
 
 #: ../../source/acquisitions.rst:367
-msgid ""
-"Once your basket is created you are presented with several options for "
-"adding items to the order."
-msgstr ""
-"Nachdem Sie den Bestellkopf angelegt haben werden Ihnen verschiedene "
-"Optionen für das Anlegen von Bestellposten angeboten."
+msgid "Note that any one basket cannot contain both firm and standing orders."
+msgstr "Bitte beachten Sie das eine Bestellung nicht gleichzeit eine einmalige und eine 'Standing-Order' Bestellung sein kann."
 
-#: ../../source/acquisitions.rst:370
-msgid ""
-"If you are ordering another copy of an existing item, you can simply search "
-"for the record in your system."
+#: ../../source/acquisitions.rst:369
+msgid "You can choose to create items either upon placing the order, upon receiving the order, or upon cataloging the item. If you choose an option other than the default, it will apply only to this basket. The default is set by the :ref:`AcqCreateItem <acqcreateitem-label>` system preference."
 msgstr ""
-"Wenn Sie ein zusätzliches Exemplar zu einem Titel nachbestellen möchten, "
-"können Sie den Datensatz einfach im System suchen."
-
-#: ../../source/acquisitions.rst:373
-#, fuzzy
-msgid "|image809|"
-msgstr "|image409|"
 
 #: ../../source/acquisitions.rst:375
-msgid "From the results, simply click 'Order' to be brought to the order form."
-msgstr ""
-"In der Trefferliste können Sie 'Bestellen' auswählen, um zum Bestellformular "
-"zu gelangen"
+msgid "If you have :ref:`added contracts <add-a-contract-label>` to the vendor you're ordering from, you will also have an option to choose which contract you're ordering these items under."
+msgstr "Wenn Sie für den Lieferanten :ref:`Vereinbarungen erfasst <add-a-contract-label>` haben, können Sie bei der Bestellung auswählen unter welcher Vereinbarung Sie die Bestellung aufgeben."
 
-#: ../../source/acquisitions.rst:378
+#: ../../source/acquisitions.rst:379
+msgid "|image807|"
+msgstr "|image807|"
+
+#: ../../source/acquisitions.rst:381
 #, fuzzy
-msgid "|image810|"
-msgstr "|image410|"
-
-#: ../../source/acquisitions.rst:380
-msgid ""
-"All of the details associated with the item will already be listed under "
-"'Catalog details.'"
-msgstr ""
-"Alle zum Exemplar gehörenden Angaben werden unter 'Katalogdetails' angezeigt."
+msgid "When finished, click 'Save'."
+msgstr "Zum Abschluss klicken Sie auf 'Speichern'"
 
 #: ../../source/acquisitions.rst:383
-#, fuzzy
-msgid ""
-"If you allow patrons to make purchase suggestions (learn more in the :ref:"
-"`Managing Suggestions` section of this manual), then you can place orders "
-"from those suggestions. In order to keep track of suggestions that have been "
-"ordered and received you must place the order using this link."
-msgstr ""
-"Wenn Sie Benutzern oder Mitarbeitern erlauben Anschaffungsvorschläge zu "
-"machen (erfahren Sie hierzu mehr im Kapitel zur Verwaltung von "
-"Anschaffungsvorschlägen), dann können Sie Bestellposten aus diesen "
-"Vorschlagen erzeugen. Um verfolgen zu können, welche Anschaffungsvorschläge "
-"bestellt wurden und zugegangen sind, sollte der Bestellposten über diesen "
-"Link angelegt werden."
+msgid "|image808|"
+msgstr "|image808|"
 
-#: ../../source/acquisitions.rst:389
+#: ../../source/acquisitions.rst:385
 #, fuzzy
-msgid "|image811|"
-msgstr "|image411|"
+msgid "Once your basket is created, click on 'Add to basket' you are presented with several options for adding items to the order."
+msgstr "Nachdem Sie den Bestellkopf angelegt haben werden Ihnen verschiedene Optionen für das Anlegen von Bestellposten angeboten."
+
+#: ../../source/acquisitions.rst:388
+#, fuzzy
+msgid "|image1407|"
+msgstr "|image1407|"
 
 #: ../../source/acquisitions.rst:391
 #, fuzzy
-msgid ""
-"From the results, click 'Order' next to the item you want to order and you "
-"will be presented with the order form including a link to the suggestion"
-msgstr ""
-"Klicken Sie in der Resultatliste neben dem zutreffenden Exemplar auf "
-"'Bestellen', um ein entsprechendes Formular inklusive eines Links zum "
-"Anschaffungsvorschlag zu erhalten. "
+msgid "Order from an existing record"
+msgstr "Vorhandenen Titel nachbestellen"
 
-#: ../../source/acquisitions.rst:395
+#: ../../source/acquisitions.rst:393
+msgid "If you are ordering another copy of an existing item, you can simply search for the record in your system."
+msgstr "Wenn Sie ein zusätzliches Exemplar zu einem Titel nachbestellen möchten, können Sie den Datensatz einfach im System suchen."
+
+#: ../../source/acquisitions.rst:396
 #, fuzzy
-msgid "|image812|"
-msgstr "|image412|"
+msgid "From the results, you can click 'Add order' to be brought to the order form."
+msgstr "In der Trefferliste können Sie 'Bestellen' auswählen, um zum Bestellformular zu gelangen"
 
-#: ../../source/acquisitions.rst:397
-msgid ""
-"From this form you can make changes to the Catalog Details if necessary."
-msgstr ""
-"In diesem Formular können Sie wenn nötig Änderungen an den Katalogdaten "
-"vornehmen."
+#: ../../source/acquisitions.rst:399
+msgid "|image809|"
+msgstr "|image809|"
 
-#: ../../source/acquisitions.rst:400
-msgid ""
-"When the item appears in your basket it will include a link to the "
-"suggestion."
+#: ../../source/acquisitions.rst:401
+msgid "From the record's detailed view, you can click on the 'Add order' button."
 msgstr ""
-"Die Bestellposition im Korb enthält einen Link zum entsprechenden Vorschlag."
 
 #: ../../source/acquisitions.rst:403
 #, fuzzy
-msgid "|image813|"
-msgstr "|image413|"
+msgid "|image1451|"
+msgstr "|image1451|"
 
 #: ../../source/acquisitions.rst:405
 #, fuzzy
-msgid ""
-"Orders added to the basket in this way will notify the patron via email that "
-"their suggestion has been ordered and will update the patron's ':ref:`My "
-"purchase suggestions <my-purchase-suggestions-label>`' page in the OPAC."
-msgstr ""
-"Wenn über diesen Weg Bestellposten zu einer Bestellung hinzugefügt werden, "
-"erhält der Benutzer eine E-Mail, dass das gewünschte Medium bestellt wurde "
-"und der Status des Anschaffungsvorschlags im Benutzerkonto im OPAC wird "
-"ebenfalls aktualisiert."
+msgid "You will be brought to the order form"
+msgstr "In der Trefferliste können Sie 'Bestellen' auswählen, um zum Bestellformular zu gelangen"
 
-#: ../../source/acquisitions.rst:410
+#: ../../source/acquisitions.rst:407
+msgid "|image810|"
+msgstr "|image810|"
+
+#: ../../source/acquisitions.rst:409
+msgid "All of the details associated with the item will already be listed under 'Catalog details.'"
+msgstr "Alle zum Exemplar gehörenden Angaben werden unter 'Katalogdetails' angezeigt."
+
+#: ../../source/acquisitions.rst:413
 #, fuzzy
-msgid ""
-"If you're using the `Serials <#serials>`__ module you can link your "
-"subscription order information to acquisitions by choosing to order 'From a "
-"subscription'"
-msgstr ""
-"Wenn Sie das Zeitschriftenmodul verwenden, können Sie die "
-"Bestellungsinformationen für das Abonnement mit der Erwerbung verknüpfen, "
-"indem Sie Bestellung 'Aus einem Abonnement' auswählen"
+msgid "Order from a purchase suggestion"
+msgstr "Anschaffungsvorschlag bestellen"
 
-#: ../../source/acquisitions.rst:414
-msgid ""
-"After clicking the order link you will be brought to a search page that will "
-"help you find your subscription"
-msgstr ""
-"Nachdem der Bestell-Link angeklickt wurde, wird eine Seite mit Suchoptionen "
-"angezeigt, über die nach dem Abonnement gesucht werden kann."
+#: ../../source/acquisitions.rst:415
+msgid "If you allow patrons to make purchase suggestions (learn more in the :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` section of this manual), then you can place orders from those suggestions. In order to keep track of suggestions that have been ordered and received you must place the order using this link."
+msgstr "Wenn Sie Benutzern erlauben Anschaffungsvorschläge zu machen (erfahren Sie hierzu mehr im Kapitel zu :ref:`managing purchase suggestions <managing-purchase-suggestions-label>`), dann können Sie Bestellposten aus diesen Vorschlägen erzeugen. Um verfolgen zu können, welche Anschaffungsvorschläge bestellt wurden und zugegangen sind, sollte der Bestellposten über diesen Link angelegt werden."
 
-#: ../../source/acquisitions.rst:417
+#: ../../source/acquisitions.rst:423
 #, fuzzy
-msgid "|image814|"
-msgstr "|image414|"
+msgid "Suggestions must be accepted before you can order them."
+msgstr "Rot markierte Module müssen installiert werden, bevor Sie fortfahren können."
 
-#: ../../source/acquisitions.rst:419
-msgid ""
-"Your results will appear to the right of the form and each subscription will "
-"have an 'Order' link to the right"
-msgstr ""
-"Die Ergebnisse erscheinen auf der rechten Seite des Formulars, und jedes "
-"Abonnement hat einen 'Bestellen'-Link auf der rechten Seite"
+#: ../../source/acquisitions.rst:425
+msgid "|image811|"
+msgstr "|image811|"
 
-#: ../../source/acquisitions.rst:422
-#, fuzzy
-msgid "|image815|"
-msgstr "|image415|"
+#: ../../source/acquisitions.rst:427
+msgid "From the results, click 'Order' next to the item you want to order and you will be presented with the order form including a link to the suggestion"
+msgstr "Klicken Sie in der Trefferliste neben dem zutreffenden Exemplar auf 'Bestellen', um ein entsprechendes Formular inklusive eines Links zum Anschaffungsvorschlag zu erhalten"
 
-#: ../../source/acquisitions.rst:424
-msgid ""
-"Clicking 'Order' will bring the subscription info in to the order form "
-"without an 'Add item' section since you are just ordering a subscription and "
-"an item isn't needed"
-msgstr ""
-"Wenn sie auf 'Bestellen' klicken, erscheint die Information zum Abonnement "
-"im Bestellformular ohne die Auswahl 'Exemplar hinzufügen', da Sie nur ein "
-"Abonnement bestellen und ein Exemplar nicht notwendig ist"
-
-#: ../../source/acquisitions.rst:428
-#, fuzzy
-msgid "|image816|"
-msgstr "|image416|"
-
-#: ../../source/acquisitions.rst:430
-msgid ""
-"To order from a record that can't be found anywhere else, choose the 'From a "
-"new (empty) record.'"
-msgstr ""
-"Um ein neues Buch zu bestellen, klicken Sie auf 'Bestellung aus Neuaufnahme'."
+#: ../../source/acquisitions.rst:431
+msgid "|image812|"
+msgstr "|image812|"
 
 #: ../../source/acquisitions.rst:433
-#, fuzzy
-msgid "|image817|"
-msgstr "|image417|"
+msgid "From this form you can make changes to the catalog details if necessary."
+msgstr "In diesem Formular können Sie wenn nötig Änderungen an den Katalogdaten vornehmen."
 
-#: ../../source/acquisitions.rst:435
-msgid ""
-"You will be presented with an empty form to fill in all of the necessary "
-"details about the item you are ordering."
-msgstr ""
-"Es wird ein leeres Formular angezeigt, wo Sie alle notwendigen Details "
-"bezüglich des zu bestellendenTitels eingeben können."
+#: ../../source/acquisitions.rst:436
+msgid "When the item appears in your basket it will include a link to the suggestion."
+msgstr "Die Bestellposition im Korb enthält einen Link zum entsprechenden Vorschlag."
 
-#: ../../source/acquisitions.rst:440
-msgid ""
-"If the default form does not have catalog details fields necessary to place "
-"an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference which "
-"will allow the ACQ MARC framework to customize the display of fields when "
-"ordering."
-msgstr ""
+#: ../../source/acquisitions.rst:439
+msgid "|image813|"
+msgstr "|image813|"
 
-#: ../../source/acquisitions.rst:445
-#, fuzzy
-msgid ""
-"If you want to search other libraries for an item to purchase, you can use "
-"the 'From an external source' option that will allow you to order from a "
-"MARC record found via a Z39.50 search."
-msgstr ""
-"Wenn Sie andere Bibliotheken nach dem Titel durchsuchen möchten, den Sie "
-"bestellen wollen, können Sie hierfür 'Aus einer externen Quelle' auswählen "
-"und dort eine Bestellung ausgehend von einer Z39.50-Suche erzeugen. "
-
-#: ../../source/acquisitions.rst:449
-#, fuzzy
-msgid "|image818|"
-msgstr "|image418|"
+#: ../../source/acquisitions.rst:441
+msgid "Orders added to the basket in this way will notify the patron via email that their suggestion has been ordered (with the 'ORDERED' notice in Tools > :ref:`Notices & slips <existing-notices-and-slips-label>`) and will update the patron's ':ref:`your purchase suggestions <your-purchase-suggestions-label>`' page in the OPAC."
+msgstr "Wenn über diesen Weg Bestellposten zu einer Bestellung hinzugefügt werden, erhält der Benutzer eine E-Mail mit dem Inhalt \"Vorgeschlagenes Medium bestellt\" ('ORDERED'-Nachricht in Tools > :ref:`Benachrichtigungen & Quittungen <existing-notices-and-slips-label>`) . Außerdem wird der Status des ':ref:`Anschaffungsvorschlags im Benutzerkonto <your-purchase-suggestions-label>`' im OPAC aktualisiert."
 
 #: ../../source/acquisitions.rst:451
-msgid ""
-"From the results, click the Order link next to the item you want to purchase."
-msgstr ""
-"Bei den Resultaten klicken Sie auf den Bestell-Link neben dem Medium, das "
-"Sie erwerben möchten."
-
-#: ../../source/acquisitions.rst:454
 #, fuzzy
-msgid "|image819|"
-msgstr "|image419|"
+msgid "Order from a serial subscription"
+msgstr "Bestellung für ein Abonnement"
 
-#: ../../source/acquisitions.rst:456
-#, fuzzy
-msgid ""
-"If the item you're ordering from an external source looks like it might be a "
-"duplicate, Koha will warn you and give you options on how to proceed."
-msgstr ""
-"Wenn es sich beim Titel aus dem Z39.50-Download um eine mögliche Dublette "
-"handelt, wird das System eine Warnung mit verschiedenen Handlungsoptionen "
-"ausgeben. "
+#: ../../source/acquisitions.rst:453
+msgid "If you're using the `Serials <#serials>`__ module you can link your subscription order information to acquisitions by choosing to order 'From a subscription'"
+msgstr "Wenn Sie das `Zeitschriftenmodul <#serials>`__ verwenden, können Sie die Bestellungsinformationen für das Abonnement mit der Erwerbung verknüpfen, indem Sie Bestellung 'Aus einem Abonnement' auswählen"
+
+#: ../../source/acquisitions.rst:457
+msgid "After clicking the order link you will be brought to a search page that will help you find your subscription"
+msgstr "Nachdem der Bestell-Link angeklickt wurde, wird eine Seite mit Suchoptionen angezeigt, über die nach dem Abonnement gesucht werden kann."
 
 #: ../../source/acquisitions.rst:460
-#, fuzzy
-msgid "|image820|"
-msgstr "|image420|"
+msgid "|image814|"
+msgstr "|image814|"
 
 #: ../../source/acquisitions.rst:462
-msgid ""
-"From the warning, you can choose to order another copy on the existing bib "
-"record, create a new bib record, or cancel your order of this item."
-msgstr ""
-"Bei der Warnung können Sie wählen, ob Sie einfach eine weitere Kopie des "
-"existierenden bibliographischen Datensatzes bestellen, einen neuen Satz "
-"erstellen oder die Bestellung dieses Titels löschen wollen."
+msgid "Your results will appear to the right of the form and each subscription will have an 'Order' link to the right"
+msgstr "Die Ergebnisse erscheinen auf der rechten Seite des Formulars, und jedes Abonnement hat einen 'Bestellen'-Link auf der rechten Seite"
 
-#: ../../source/acquisitions.rst:466
-msgid ""
-"In the order form that pops up, you will not be able to edit the catalog "
-"details."
-msgstr "Im sich öffnenden Formular können Sie die Titeldaten bearbeiten."
+#: ../../source/acquisitions.rst:465
+msgid "|image815|"
+msgstr "|image815|"
 
-#: ../../source/acquisitions.rst:469
-#, fuzzy
-msgid "|image821|"
-msgstr "|image421|"
+#: ../../source/acquisitions.rst:467
+msgid "Clicking 'Order' will bring the subscription info in to the order form without an 'Add item' section since you are just ordering a subscription and an item isn't needed"
+msgstr "Wenn sie auf 'Bestellen' klicken, erscheint die Information zum Abonnement im Bestellformular ohne die Auswahl 'Exemplar hinzufügen', da Sie nur ein Abonnement bestellen und ein Exemplar nicht notwendig ist"
 
 #: ../../source/acquisitions.rst:471
-#, fuzzy
-msgid ""
-"The next option for ordering is to order from a staged record (:ref:`learn "
-"more about staging records <stage-marc-records-for-import-label>`)."
-msgstr ""
-"Die nächste Option ist es, eine Bestellung aus einer zwischengespeicherten "
-"MARC-Datei zu erzeugen. "
+msgid "|image816|"
+msgstr "|image816|"
 
 #: ../../source/acquisitions.rst:476
-msgid ""
-"This is the option you will choose if you have an order file from your "
-"vendor."
-msgstr ""
-
-#: ../../source/acquisitions.rst:480
 #, fuzzy
-msgid "Order from a staged file"
-msgstr "Datensatz aus einer gespeicherten Datei bestellen"
+msgid "Order from a new (empty) record"
+msgstr "Neuen Titel für Bestellung anlegen"
 
-#: ../../source/acquisitions.rst:482
+#: ../../source/acquisitions.rst:478
 #, fuzzy
-msgid "|image822|"
-msgstr "|image422|"
+msgid "To order from a record that can't be found anywhere else, choose the 'From a new (empty) record' option."
+msgstr "Um ein neues Buch zu bestellen, klicken Sie auf 'Bestellung aus Neuaufnahme' . "
 
-#: ../../source/acquisitions.rst:484
-msgid ""
-"From the list of files you are presented with, choose the 'Add orders' link "
-"to add the records in the staged file to your order."
-msgstr ""
-"Verwenden Sie 'Bestellungen hinzufügen' um Datensätze aus der Datei der "
-"Bestellung hinzuzufügen."
+#: ../../source/acquisitions.rst:481
+msgid "|image817|"
+msgstr "|image817|"
 
-#: ../../source/acquisitions.rst:487
-#, fuzzy
-msgid "|image1281|"
-msgstr "|image1248|"
+#: ../../source/acquisitions.rst:483
+msgid "You will be presented with an empty form to fill in all of the necessary details about the item you are ordering."
+msgstr "Es wird ein leeres Formular angezeigt, wo Sie alle notwendigen Details bezüglich des zu bestellendenTitels eingeben können."
 
-#: ../../source/acquisitions.rst:489
-#, fuzzy
-msgid ""
-"Next to each title is a checkbox, check the items you would like to order, "
-"or choose 'Check all' at the top. Depending on your settings in the :ref:"
-"`MarcFieldsToOrder` preference Koha will populate the next screen with with "
-"the relevant Quantity, Price, Fund, Statistic 1, and Statistic 2 found "
-"within the staged file."
-msgstr ""
-"Neben jedem Titel befindet sich eine Checkbox über welche die Titel "
-"ausgewählt werden können, die Sie bestellen möchten. Alternativ können Sie "
-"'Alle auswählen' am oberen Seitenrand auswählen. Abhängig von Ihren "
-"Einstellungen im Systemparameter MarcFieldsToOrder werden Anzahl, Preis, "
-"Konto, Statistik 1 und 2 auf der folgenden Seite mit Werten aus den MARC-"
-"Datensätzen vorbelegt."
+#: ../../source/acquisitions.rst:488
+msgid "If the default form does not have catalog details fields necessary to place an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference which will allow the ACQ :ref:`MARC framework <marc-bibliographic-frameworks-label>` to customize the display of fields when ordering."
+msgstr "Wenn im voreingestellten Formular nicht diejenigen Katalogfelder enthalten sind, die für eine Bestellung benötigt werden, aktivieren Sie den Systemparameter :ref:` UseACQFrameworkForBiblioRecords`, um die Anzeige der Felder über das ACQ :ref:`MARC Framework <marc-bibliographic-frameworks-label>` anpassen zu können."
 
 #: ../../source/acquisitions.rst:496
 #, fuzzy
-msgid "|image1282|"
-msgstr "|image1248|"
+msgid "Duplicate orders (order from existing orders)"
+msgstr "Existierende Bestellungen kopieren"
 
 #: ../../source/acquisitions.rst:498
-msgid ""
-"In the 'Item Information' tab you can enter information that will be added "
-"to every ordered item such as item type, collection code and not for loan "
-"status."
+msgid "You can duplicate an existing order line by choosing the 'From existing orders (copy)' option."
 msgstr ""
-"Auf dem Reiter 'Exemplarinformationen' können Sie Exemplarangaben machen, "
-"die dann für die Generierung aller bestellten Exemplare verwendet werden - "
-"zum Beispiel den Medientyp, die Sammlung und den 'Nicht ausleihbar'-Status."
 
-#: ../../source/acquisitions.rst:502
+#: ../../source/acquisitions.rst:501
 #, fuzzy
-msgid "|image1283|"
-msgstr "|image1248|"
+msgid "You will be presented with a search form to search your existing orders."
+msgstr "Sie werden gebeten, den MARC-Import zu bestätigen"
 
-#: ../../source/acquisitions.rst:504
+#: ../../source/acquisitions.rst:503
 #, fuzzy
-msgid ""
-"If no information is imported in the fund information from the MARC with "
-"the :ref:`MarcFieldsToOrder` preference, the 'Default accounting details' "
-"tab can be used to apply values related to the accounting."
-msgstr ""
-"Wenn keine Konto-Information aus dem MARC-Datensatz übernommen werden kann, "
-"können Sie Voreinstellungen auf dem Reiter 'Standardrechnungsdetails' "
-"festlegen."
+msgid "|image1408|"
+msgstr "|image1408|"
 
-#: ../../source/acquisitions.rst:509
+#: ../../source/acquisitions.rst:505
 #, fuzzy
-msgid "|image1284|"
-msgstr "|image1246|"
+msgid "Check the boxes next to the order(s) you want to duplicate."
+msgstr "Markieren Sie die Benachrichtigung die Sie löschen möchten."
 
-#: ../../source/acquisitions.rst:511
+#: ../../source/acquisitions.rst:507
 #, fuzzy
-msgid ""
-"The final option for ordering is to order from a list of titles with the "
-"highest hold ratios"
-msgstr ""
-"Die letzte Option eine Bestellung zu erzeugen ist einen Titel aus der Liste "
-"mit der höchsten Vormerkrate auszuwählen "
+msgid "|image1409|"
+msgstr "|image1409|"
+
+#: ../../source/acquisitions.rst:512
+#, fuzzy
+msgid "Order from an external source"
+msgstr "Bestellung über Z39.50-Download"
 
 #: ../../source/acquisitions.rst:514
-msgid ""
-"This option will take you to the Holds Ratio report where you can find items "
-"with a high hold ratio and order additional copies. Next to each title will "
-"be a link with the number of items to order, click that and it will add the "
-"item to your basket."
-msgstr ""
-"Diese Option bringt Sie zum Report über Vormerkraten, über den Titel mit "
-"vielen Vormerkungen ermittelt und Exemplare nachbestellt werden können. "
-"Neben jedem Titel wird hierzu ein Link mit der empfohlenen Anzahl an "
-"nachzubestellenden Exemplaren angezeigt über den eine Bestellung erzeugt "
-"werden kann."
+msgid "If you want to search other libraries for an item to purchase, you can use the 'From an external source' option that will allow you to order from a MARC record found via a Z39.50 search."
+msgstr "Wenn Sie in anderen Bibliotheken nach dem Titel suchen möchten, den Sie bestellen wollen, können Sie hierfür 'Aus einer externen Quelle' auswählen und dort eine Bestellung ausgehend von einer Z39.50-Suche erzeugen."
 
-#: ../../source/acquisitions.rst:519
+#: ../../source/acquisitions.rst:518
+msgid "|image818|"
+msgstr "|image818|"
+
+#: ../../source/acquisitions.rst:520
 #, fuzzy
-msgid "|image1285|"
-msgstr "|image1248|"
+msgid "From the results, click the 'Order' button next to the item you want to purchase."
+msgstr "Bei den Resultaten klicken Sie auf den Bestell-Link neben dem Medium, das Sie erwerben möchten."
 
-#: ../../source/acquisitions.rst:521
+#: ../../source/acquisitions.rst:523
+msgid "|image819|"
+msgstr "|image819|"
+
+#: ../../source/acquisitions.rst:525
+msgid "If the item you're ordering from an external source looks like it might be a duplicate, Koha will warn you and give you options on how to proceed."
+msgstr "Wenn es sich beim Titel aus dem Z39.50-Download um eine mögliche Dublette handelt, wird das System eine Warnung mit verschiedenen Handlungsoptionen ausgeben."
+
+#: ../../source/acquisitions.rst:529
+msgid "|image820|"
+msgstr "|image820|"
+
+#: ../../source/acquisitions.rst:531
 #, fuzzy
-msgid ""
-"With any of the above ordering options you're presented with an option to "
-"notify patrons of the new item when it's received. The contents of that "
-"notification can be edited in the :ref:`Notices & Slips` tool and will have "
-"the code of ACQ\\_NOTIF\\_ON\\_RECEIV. In the 'Patrons' section you will see "
-"an option to 'Add user'. Click that button to add patrons who will be "
-"notified of the new issue."
-msgstr ""
-"Bei allen vorgenannten Bestelloptionen gibt es die Möglichkeit, bei Erhalt "
-"Benutzer zu benachrichtigen. Der  Benachrichtigungstext kann im Werkzeug für "
-"Benachrichtigungen &amp; Quittungen angepasst werden, der Code lautet "
-"ACQ_NOTIF_ON_RECEIV. Im Abschnitt 'Benutzer' können über die Option "
-"'Benutzer hinzufügen' alle Benutzer eingetragen werden, die eine "
-"Benachrichtigung erhalten sollen."
+msgid "From the warning, you can choose to order another copy on the existing bibliographic record, create a new bibliographic record, or cancel your order of this item."
+msgstr "Bei der Warnung können Sie wählen, ob Sie einfach eine weitere Kopie des existierenden bibliographischen Datensatzes bestellen, einen neuen Satz erstellen oder die Bestellung dieses Titels löschen wollen."
 
-#: ../../source/acquisitions.rst:528
-#, fuzzy
-msgid "Patron notification search"
-msgstr "Benachrichtigung: "
-
-#: ../../source/acquisitions.rst:530
-msgid ""
-"In the window that pops up search for the patrons you'd like to notify and "
-"click 'Select'"
-msgstr ""
-"Suchen Sie im nun angezeigten Fenster die Benutzer, die Sie benachrichtigen "
-"möchten, und wählen Sie diese aus."
-
-#: ../../source/acquisitions.rst:533
-msgid ""
-"Once you're done you can close the window and you'll see the list of patrons "
-"under the 'Patrons' section"
-msgstr ""
-"Sobald Sie fertig sind, können Sie das Fenster schließen und die Liste der "
-"Benutzer wird im Abschnitt 'Benutzer' angezeigt"
-
-#: ../../source/acquisitions.rst:536
-#, fuzzy
-msgid "|image1286|"
-msgstr "|image1246|"
+#: ../../source/acquisitions.rst:535
+msgid "In the order form that pops up, you will not be able to edit the catalog details."
+msgstr "Im sich öffnenden Formular können Sie die Titeldaten bearbeiten."
 
 #: ../../source/acquisitions.rst:538
+msgid "|image821|"
+msgstr "|image821|"
+
+#: ../../source/acquisitions.rst:543
 #, fuzzy
-msgid ""
-"After bringing in the bib information (for all import methods except for the "
-"staged file), if your :ref:`AcqCreateItem` system preference is set to add "
-"an item when ordering you will enter the item info next. You need to fill "
-"out at least one item record and then click the 'Add' button at the bottom "
-"left of the item form."
-msgstr ""
-"Nachdem der Titelsatz ausgewählt wurde (für alle Methoden außer beim "
-"Arbeiten mit einer zwischengespeicherten Datei), müssen Sie als nächstes die "
-"Exemplardaten erfassen, wenn der Systemparameter AcqCreateItem auf 'bei "
-"Bestellung' gesetzt ist. Es muss mindestens ein Exemplarsatz angelegt "
-"werden, indem Sie auf die 'Hinzufügen'-Schaltfläche auf der unteren linken "
-"Seite des Exemplarformulars klicken."
+msgid "Order from a new file"
+msgstr "Bestellen aus einer zwischengespeicherten Datei"
 
-#: ../../source/acquisitions.rst:544
+#: ../../source/acquisitions.rst:545
+msgid "If your vendor sent you a record file (a .mrc file for example), you can add orders using the records in that file. Choose the 'From a new file' option."
+msgstr ""
+
+#: ../../source/acquisitions.rst:551
+msgid "Note that you need the stage_marc_import :ref:`tool permission <granular-tools-permissions-label>` in order to be able order from a new file."
+msgstr ""
+
+#: ../../source/acquisitions.rst:554
 #, fuzzy
-msgid "|image823|"
-msgstr "|image423|"
+msgid "You will be taken to the :ref:`Stage MARC records for import <stage-marc-records-for-import-label>` tool. Stage your file as described in that section."
+msgstr "Die Regeln, die Sie hier festlegen, werden auf Ihr :ref:`MARC-Datensätze für Import bereitstellen <stage-marc-records-for-import-label>` ausgelegt. "
 
-#: ../../source/acquisitions.rst:546
+#: ../../source/acquisitions.rst:558
+msgid "Once the files are staged, you can click on the 'Add staged files to basket' button."
+msgstr ""
+
+#: ../../source/acquisitions.rst:561
 #, fuzzy
-msgid ""
-"After clicking the 'Add item' button below the item record the item will "
-"appear above the form and then you can enter your next item the same way (if "
-"ordering more than one item)."
-msgstr ""
-"Nach Betätigung der Schaltfläche \"Hinzufügen\" erscheint das Exemplar in "
-"der Übersichtsliste oberhalb des Formulars,  und Sie können bei Bedarf auf "
-"die gleiche Weise ein weiteres Exemplar erfassen."
+msgid "|image1410|"
+msgstr "|image1410|"
 
-#: ../../source/acquisitions.rst:550
+#: ../../source/acquisitions.rst:563 ../../source/acquisitions.rst:605
 #, fuzzy
-msgid "|image824|"
-msgstr "|image424|"
+msgid "Next to each title is a checkbox, check the items you would like to order, or choose 'Select all' at the top. Depending on your settings in the :ref:`MarcFieldsToOrder` preference, Koha will populate the next screen with with the relevant Quantity, Price, Fund, Statistic 1, and Statistic 2 found within the staged file."
+msgstr "Neben jedem Titel befindet sich eine Checkbox über die die Titel ausgewählt werden können die Sie bestellen möchten. Alternativ können Sie 'Alle auswählen' am oberen Seitenrand auswählen. Abhängig von Ihren Einstellungen im Systemparameter :ref:`MarcFieldsToOrder` werden Anzahl, Preis, Konto, Statistik 1 und 2 auf der folgenden Seite mit Werten aus den MARC-Datensätzen vorbelegt."
 
-#: ../../source/acquisitions.rst:552
-msgid ""
-"Once you have entered the info about the item, you need to enter the "
-"Accounting information."
+#: ../../source/acquisitions.rst:570 ../../source/acquisitions.rst:612
+msgid "|image1282|"
+msgstr "|image1282|"
+
+#: ../../source/acquisitions.rst:572 ../../source/acquisitions.rst:614
+msgid "In the 'Item information' tab you can enter information that will be added to every ordered item such as item type, collection code and not for loan status."
+msgstr "Auf dem Reiter 'Exemplarinformationen' können Sie Exemplarangaben machen, die dann für die Generierung aller bestellten Exemplare verwendet werden - zum Beispiel den Medientyp, die Sammlung und den 'Nicht ausleihbar'-Status."
+
+#: ../../source/acquisitions.rst:576 ../../source/acquisitions.rst:618
+msgid "|image1283|"
+msgstr "|image1283|"
+
+#: ../../source/acquisitions.rst:578 ../../source/acquisitions.rst:620
+msgid "If no information is imported in the fund information from the MARC with the :ref:`MarcFieldsToOrder` preference, the 'Default accounting details' tab can be used to apply values related to the accounting."
+msgstr "Wenn keine Information zum Budget aus dem MARC-Datensatz übernommen wurden - die im Systemparameter :ref:`MarcFieldsToOrder` festgelegt werden - , können Sie Voreinstellungen auf dem Reiter 'Standard-Buchungsdetails' festlegen."
+
+#: ../../source/acquisitions.rst:583 ../../source/acquisitions.rst:625
+msgid "|image1284|"
+msgstr "|image1284|"
+
+#: ../../source/acquisitions.rst:588
+msgid "Order from a staged file"
+msgstr "Bestellen aus einer zwischengespeicherten Datei"
+
+#: ../../source/acquisitions.rst:590
+msgid "This option is the same as the previous one, but in this case, your file has already been :ref:`staged <stage-marc-records-for-import-label>`. Whether you choose to 'order from a new file' or 'order from a staged file' will depend on your acquisitions workflow or your :ref:`permissions <patron-permissions-label>`."
 msgstr ""
-"Nach Eingabe der Informationen zum Titel müssen die Buchungsdetails zur "
-"Bestellung erfasst werden."
-
-#: ../../source/acquisitions.rst:555
-#, fuzzy
-msgid "|image825|"
-msgstr "|image425|"
-
-#: ../../source/acquisitions.rst:557
-msgid ""
-"Quantity is populated by the number of items you've added to the order above."
-msgstr ""
-"Anzal enthält die Zahl der Exemplare, die Sie bei der obigen Bestellung "
-"eingetragen haben."
-
-#: ../../source/acquisitions.rst:562
-msgid ""
-"You cannot edit the quantity manually, you must click 'Add' below the item "
-"form to add as many items as you're ordering."
-msgstr ""
-
-#: ../../source/acquisitions.rst:565
-#, fuzzy
-msgid ""
-"The list of funds is populated by the :ref:`funds <funds-label>` you have "
-"assigned in the Acquisitions Administration area."
-msgstr ""
-"Die Liste der Konten wird aus den Konten gebildet, die Ihnen im "
-"Administrationsbereich Erwerbung zugeordnet wurden."
-
-#: ../../source/acquisitions.rst:568
-#, fuzzy
-msgid ""
-"The currency pull down will have the :ref:`currencies <currencies-and-"
-"exchange-rates-label>` you set up in the :ref:`Acquisitions Administration "
-"<acquisitions-label>` area."
-msgstr ""
-"Die Auswahlliste der Währungen wird im Bereich 'Erwerbung' der "
-"Administration definiert."
-
-#: ../../source/acquisitions.rst:572
-msgid ""
-"The vendor price is the price before any taxes or discounts are applied."
-msgstr ""
-"Der Lieferantenpreis ist der Preis vor Steuern und vor Abzug von Rabatten."
-
-#: ../../source/acquisitions.rst:575
-#, fuzzy
-msgid "If the price is uncertain, check the uncertain price box."
-msgstr ""
-"Wenn der Preis nicht klar ist, setzen Sie das Häkchen bei 'Ungewisser "
-"Preis'. "
-
-#: ../../source/acquisitions.rst:577
-msgid "A basket with at least one uncertain price can't be closed."
-msgstr ""
-"Eine Bestellung mit einem unsicheren Preis kann nicht geschlossen werden."
-
-#: ../../source/acquisitions.rst:579
-#, fuzzy
-msgid "If you are charged sales tax, choose that from the gstrate field"
-msgstr ""
-"Wenn Sie mehrwertsteuerpflichtig sind, geben Sie dies im Feld MWSt "
-"(tax_rate) an"
-
-#: ../../source/acquisitions.rst:581
-msgid ""
-"Enter the percentage discount you're receiving on this order, once you enter "
-"this, hit tab and Koha will populate the rest of the cost fields below."
-msgstr ""
-"Geben Sie den Rabatt für diese Lieferung ein. Nach der Eingabe betätigen Sie "
-"die Tabulator-Taste und Koha wird die darunter liegenden Kostenfelder "
-"automatisch einfüllen."
-
-#: ../../source/acquisitions.rst:585
-#, fuzzy
-msgid ""
-"If you added Planning Values when :ref:`creating the Fund <add-a-fund-"
-"label>`, those values will appear in the two Planning Value fields."
-msgstr ""
-"Wenn Sie im Konto Kategorien für Statistikwerte definiert haben, werden die "
-"Werte dieser Kategorien in den Feldern für die Statistik angeboten."
-
-#: ../../source/acquisitions.rst:589
-msgid ""
-"Once you have filled in all of the fields click 'Save' to add the item to "
-"your basket. If your price goes over the amount available in the fund you "
-"will be presented with a confirmation."
-msgstr ""
-
-#: ../../source/acquisitions.rst:593
-#, fuzzy
-msgid "|image826|"
-msgstr "|image426|"
 
 #: ../../source/acquisitions.rst:595
-msgid ""
-"The confirmation warning will allow you order past your fund amount if you "
-"so choose."
+msgid "Once you click on 'From a staged file', you will get a list of all the staged files in your system."
 msgstr ""
 
 #: ../../source/acquisitions.rst:598
-#, fuzzy
-msgid ""
-"After an item is added to the basket you will be presented with a basket "
-"summary."
-msgstr ""
-"Nachdem ein Medium dem Korb hinzugefügt worden ist, wird Ihnen eine "
-"summarische Übersicht des Korbes gezeigt."
+msgid "|image822|"
+msgstr "|image822|"
 
-#: ../../source/acquisitions.rst:601
+#: ../../source/acquisitions.rst:600
 #, fuzzy
-msgid "|image827|"
-msgstr "|image427|"
+msgid "From the list of files you are presented with, click on the 'Add orders' button to add the records in the staged file to your order."
+msgstr "Verwenden Sie 'Bestellungen hinzufügen' um Datensätze aus der Datei der Bestellung hinzuzufügen."
 
 #: ../../source/acquisitions.rst:603
+msgid "|image1281|"
+msgstr "|image1281|"
+
+#: ../../source/acquisitions.rst:630
 #, fuzzy
-msgid ""
-"If you would like to see more details you can check the 'Show all details' "
-"checkbox"
-msgstr ""
-"Wenn Sie mehr Details sehen möchten, verwenden Sie die entsprechende "
-"Checkbox."
+msgid "Order from titles with highest hold ratios"
+msgstr "Aus Liste der Titel mit höchster Vormerkungsrate"
 
-#: ../../source/acquisitions.rst:606
-#, fuzzy
-msgid "|image828|"
-msgstr "|image428|"
-
-#: ../../source/acquisitions.rst:608
-msgid "From here, you can edit or remove the items that you have added."
-msgstr ""
-"Von hier aus können Sie Exemplare bearbeiten oder entfernen, die sie "
-"hinzugefügt haben."
-
-#: ../../source/acquisitions.rst:610
-msgid ""
-"Choosing to 'Delete the order' will delete the order line but leave the "
-"record in the catalog."
-msgstr ""
-"'Bestellung löschen' entfernt die Bestellposition, aber lässt den "
-"zugehörigen Titelsatz im Katalog."
-
-#: ../../source/acquisitions.rst:613
-#, fuzzy
-msgid ""
-"Choosing to 'Delete order and catalog record' removes both the order line "
-"and the record in the catalog."
-msgstr ""
-"'Bestellung und Titel löschen' entfernt sowohl die Bestellposition als auch "
-"den zugehörigen Titelsatz im Katalog. "
-
-#: ../../source/acquisitions.rst:616
-msgid ""
-"The catalog record cannot always be deleted. You might see notes explaining "
-"why."
-msgstr ""
-"Ein Titelsatz kann unter Umständen nicht gelöscht werden. Wenn dies der Fall "
-"ist, erscheint ein Hinweis mit dem Grund."
-
-#: ../../source/acquisitions.rst:619
-#, fuzzy
-msgid "|image829|"
-msgstr "|image429|"
-
-# 'summary page', 'Edit basket header information', 'Delete this basket', 'Export this basket as CSV' müssen hier so übersetzt werden, wie sie sonst in Koha benannt sind.
-#: ../../source/acquisitions.rst:621
-msgid ""
-"On the summary page, you also have the option to edit the information that "
-"you entered about the basket by clicking the 'Edit basket header "
-"information' button, to delete the basket altogether by clicking the 'Delete "
-"this basket' button, or to export your basket as a CSV file by clicking the "
-"'Export this basket as CSV' button."
-msgstr ""
-"In der Zusammenfassung haben Sie außerdem die Möglichkeit, die Information, "
-"die Sie zum Korb eingegeben haben, durch Klicken des 'Bestellposten "
-"bearbeiten'-Knopfes zu ändern, den Korb durch Klicken des 'Bestellung "
-"stornieren'-Knopfes vollständig zu löschen oder durch Klicken des "
-"'Bestellung als CSV exportieren'-Knopfes als CSV-Datei zu exportieren."
-
-#: ../../source/acquisitions.rst:627
-#, fuzzy
-msgid "|image830|"
-msgstr "|image430|"
-
-#: ../../source/acquisitions.rst:629
-msgid ""
-"If you're using EDI for your order you can click the 'Create EDIFACT order' "
-"button when you're done to send the file to the vendor and close the basket."
-msgstr ""
-
-#: ../../source/acquisitions.rst:633
-#, fuzzy
-msgid "|image1287|"
-msgstr "|image1247|"
+#: ../../source/acquisitions.rst:632
+msgid "The final option for ordering is to order from a list of titles with the highest hold ratios"
+msgstr "Die letzte Möglichkeit eine Bestellung zu erzeugen ist einen Titel aus der Liste mit der höchsten Vormerkrate auszuwählen"
 
 #: ../../source/acquisitions.rst:635
-msgid ""
-"Once you're sure your basket is complete, you can click 'Close this basket' "
-"button to indicate that this basket is complete and has been sent to the "
-"vendor."
-msgstr ""
-"Wenn Sie alle Bestellposten angelegt haben und die Bestellung vollständig "
-"ist können Sie die 'Bestellung schließen'. Dies bedeutet das die Bestellung "
-"abgeschlossen ist und an den Lieferanten versandt wurde."
+#, fuzzy
+msgid "This option will take you to the holds ratio report where you can find items with a high hold ratio and order additional copies. Next to each title will be a button with the number of items to order, click that and it will add the item to your basket."
+msgstr "Diese Option bringt Sie zum Report über Vormerkraten, über den Titel mit vielen Vormerkungen ermittelt und Exemplare nachbestellt werden können. Neben jedem Titel wird hierzu ein Link mit der empfohlenen Anzahl an nachzubestellenden Exemplaren angezeigt über den eine Bestellung erzeugt werden kann."
 
-#: ../../source/acquisitions.rst:641 ../../source/acquisitions.rst:734
-msgid ""
-"You must close the basket to be able to :ref:`receive items <receiving-"
-"orders-label>` when they arrive. Only items in closed baskets will show as "
-"ready to receive."
-msgstr ""
+#: ../../source/acquisitions.rst:640
+msgid "|image1285|"
+msgstr "|image1285|"
 
-#: ../../source/acquisitions.rst:645
-msgid ""
-"If you have your :ref:`BasketConfirmations` preference set to show a "
-"confirmation, you will be asked if you are sure about closing the basket."
-msgstr ""
+#: ../../source/acquisitions.rst:642
+msgid "With any of the above ordering options you're presented with an option to notify patrons of the new item when it's received. The contents of that notification can be edited in the :ref:`Notices & slips` tool and will have the code of ACQ\\_NOTIF\\_ON\\_RECEIV. In the 'Patrons' section you will see an option to 'Add user'. Click that button to add patrons who will be notified of the new issue."
+msgstr "Bei allen vorgenannten Bestelloptionen gibt es die Möglichkeit, bei Erhalt der Bestellung die Benutzer zu benachrichtigen. Der Benachrichtigungstext kann im Werkzeug für :ref:`Benachrichtigungen &amp; Quittungen` angepasst werden, der Code lautet ACQ\\_NOTIF\\_ON\\_RECEIV. Im Abschnitt 'Benutzer' können über die Option 'Benutzer hinzufügen' alle Benutzer eingetragen werden, die eine Benachrichtigung erhalten sollen."
 
 #: ../../source/acquisitions.rst:649
-#, fuzzy
-msgid "|image831|"
-msgstr "|image431|"
+msgid "Patron notification search"
+msgstr "Suche nach zu benachrichtigenden Benutzern"
 
 #: ../../source/acquisitions.rst:651
-msgid ""
-"When closing the basket you can choose to add the basket to a group for easy "
-"printing and retrieval. If you check the box to 'Attach this basket to a new "
-"basket group' you will be brought to the group list where you can print a "
-"PDF of the order."
-msgstr ""
+#, fuzzy
+msgid "In the window that pops up search for the patrons you'd like to notify and click 'Add'"
+msgstr "Suchen Sie im nun angezeigten Fenster die Benutzer, die Sie benachrichtigen möchten, und wählen Sie diese aus."
+
+#: ../../source/acquisitions.rst:654
+#, fuzzy
+msgid "|image1411|"
+msgstr "|image1411|"
 
 #: ../../source/acquisitions.rst:656
-#, fuzzy
-msgid "|image832|"
-msgstr "|image432|"
+msgid "Once you're done you can close the window and you'll see the list of patrons under the 'Patrons' section"
+msgstr "Sobald Sie fertig sind, können Sie das Fenster schließen und die Liste der Benutzer wird im Abschnitt 'Benutzer' angezeigt"
 
-#: ../../source/acquisitions.rst:660
-#, fuzzy
-msgid ""
-"A basket with at least one item marked as 'uncertain price' will not be able "
-"to be closed."
-msgstr ""
-"Wichtig: Eine Bestellung, in der mindestens ein Bestellposten einen "
-"'ungewissen Preis' hat, kann nicht geschlossen werden"
+#: ../../source/acquisitions.rst:659
+msgid "|image1286|"
+msgstr "|image1286|"
 
-#: ../../source/acquisitions.rst:663
+#: ../../source/acquisitions.rst:661
 #, fuzzy
-msgid "|image833|"
-msgstr "|image433|"
+msgid "After bringing in the record information (for all order methods except for the staged files), if your :ref:`AcqCreateItem` system preference is set to add an item when ordering you will enter the item information next. You need to fill out at least one item record and then click the 'Add item' button at the bottom left of the item form."
+msgstr "Nachdem der Titelsatz ausgewählt wurde (gilt für alle Methoden außer beim Arbeiten mit einer zwischengespeicherten Datei), müssen Sie als nächstes die Exemplardaten erfassen, wenn der Systemparameter :ref:`AcqCreateItem` auf 'bei Bestellung' gesetzt ist. Es muss mindestens ein Exemplarsatz angelegt werden, indem Sie auf die 'Hinzufügen'-Schaltfläche auf der unteren linken Seite des Exemplarformulars klicken."
 
-#: ../../source/acquisitions.rst:665
-#, fuzzy
-msgid ""
-"Clicking the 'Uncertain Prices' button will call up a list of items with "
-"uncertain prices to quick editing. From that list, you can quickly edit the "
-"items by entering new prices and quantities."
-msgstr ""
-"Wenn Sie auf 'Unsichere Preise' klicken, erscheint eine Liste mit Medien, "
-"deren Preise unsicher sind, um sie rasch bearbeiten zu können."
+#: ../../source/acquisitions.rst:667
+msgid "|image823|"
+msgstr "|image823|"
 
 #: ../../source/acquisitions.rst:669
-#, fuzzy
-msgid "|image834|"
-msgstr "|image434|"
+msgid "After clicking the 'Add item' button below the item record the item will appear above the form and then you can enter your next item the same way (if ordering more than one item)."
+msgstr "Nach Betätigung der Schaltfläche 'Exemplar hinzufügen' erscheint das Exemplar in der Übersichtsliste oberhalb des Formulars. Sie können bei Bedarf auf die gleiche Weise ein oder mehrere Exemplar(e) hinzufügen."
 
 #: ../../source/acquisitions.rst:673
-msgid ""
-"The Uncertain Prices page is independent of the basket. It is linked to the "
-"vendor so you will see all items on order with uncertain prices for that "
-"vendor."
-msgstr ""
-"Wichtig: Die Seite Unsichere Preise ist unabhängig von einzelnen "
-"Bestellungen. Sie zeigt alle unsicheren Preise für einen einzelnen "
-"Lieferanten."
+msgid "|image824|"
+msgstr "|image824|"
 
-#: ../../source/acquisitions.rst:677
-msgid ""
-"Once your order is entered you can search for it through acquisitions or "
-"view the information on the biblio detail page in the staff client (if the :"
-"ref:`AcquisitionDetails` preference is set to 'Display)."
+#: ../../source/acquisitions.rst:675
+msgid "If you are ordering several items, you can click on the 'Add multiple items' instead of adding them one by one. This will ask you how many items you want to add. Simply enter that number in the box and click on 'Add'."
 msgstr ""
 
-#: ../../source/acquisitions.rst:682
+#: ../../source/acquisitions.rst:679
 #, fuzzy
-msgid "|image1288|"
-msgstr "|image1248|"
+msgid "|image1412|"
+msgstr "|image1412|"
 
-#: ../../source/acquisitions.rst:687
-msgid "Create a basket group"
-msgstr "Bestellgruppe anlegen"
+#: ../../source/acquisitions.rst:681
+msgid "Once you have entered the info about the item, you need to enter the Accounting information."
+msgstr "Nach Eingabe der Informationen zum Titel müssen die Buchungsdetails zur Bestellung erfasst werden."
 
-#: ../../source/acquisitions.rst:689
+#: ../../source/acquisitions.rst:684
+msgid "|image825|"
+msgstr "|image825|"
+
+#: ../../source/acquisitions.rst:686
+msgid "Quantity is populated by the number of items you've added to the order above."
+msgstr "Anzal enthält die Zahl der Exemplare, die Sie bei der obigen Bestellung eingetragen haben."
+
+#: ../../source/acquisitions.rst:691
 #, fuzzy
-msgid ""
-"A basket group is simply a group of baskets. In some libraries, you have "
-"several staff members that create baskets, and, at the end of a period of "
-"time, someone then groups them together to send to the vendor in bulk. That "
-"said, it is possible to have one basket in a basket group if that's the "
-"workflow used in your library."
-msgstr ""
-"Eine Bestellgruppe ist einfach eine Gruppe von Bestellungen. In einigen "
-"Bibliotheken gibt es mehrere Mitarbeiter die Bestellungen anlegen und am "
-"Ende eines Zeitraums werden die Bestellungen in einer Bestellgruppe "
-"zusammengefasst und gesammelt an den Lieferanten geschickt. Es ist auch "
-"möglich nur eine Bestellung je Bestellgruppe zu haben und diese so an den "
-"Lieferanten zu schicken, wenn dies dem Workflow in Ihrer Bibliothek "
-"entspricht."
+msgid "If the item is created upon orderinf, you will not be able to edit the quantity manually, you must click 'Add item' below the item form to add as many items as you're ordering."
+msgstr "Sie können die Anzahl der Exemplare nicht eintippen, Sie müssen auf den Button 'Exemplar hinzufügen' oder den Button 'Mehrere Exemplare hinzufügen' klicken."
+
+#: ../../source/acquisitions.rst:695
+msgid "The list of funds is populated by the :ref:`funds <funds-label>` you have assigned in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
+msgstr "Die Liste der Konten besteht aus den :ref:`Konten <funds-label>`, die in der :ref:`Administration <acquisitions-module-label>` angelegt wurden."
 
 #: ../../source/acquisitions.rst:698
 #, fuzzy
-msgid "Printing baskets"
-msgstr "Bestellung drucken"
+msgid "The currency pull down will have the :ref:`currencies <currencies-and-exchange-rates-label>` you set up in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
+msgstr "Die Auswahlliste der :ref:`Währungen <currencies-and-exchange-rates-label>` wird im Bereich :ref:`Erwerbung <acquisitions-label>` der Administration definiert."
 
-#: ../../source/acquisitions.rst:700
-#, fuzzy
-msgid ""
-"When you are finished adding items to your basket, click 'Close this Basket.'"
-msgstr ""
-"Wenn Sie alle zu bestellenden Exemplare hinzugefügt haben, klicken Sie auf "
-"'Bestellung schließen'. Nun werden Sie gefragt, ob Sie eine weitere "
-"Bestellung anlegen wollen."
-
-#: ../../source/acquisitions.rst:703
-#, fuzzy
-msgid "|image835|"
-msgstr "|image435|"
+#: ../../source/acquisitions.rst:702
+msgid "The vendor price is the price before any taxes or discounts are applied."
+msgstr "Der Lieferantenpreis ist der Preis vor Steuern und vor Abzug von Rabatten."
 
 #: ../../source/acquisitions.rst:705
-msgid ""
-"You will be asked if you want to 'Attach this basket to a new basket group "
-"with the same name'. A basket group is necessary if you want to be able to "
-"print PDFs of your orders."
-msgstr ""
+msgid "If the price is uncertain, check the uncertain price box."
+msgstr "Wenn der Preis nicht klar ist, setzen Sie das Häkchen bei 'Ungewisser Preis'."
 
 #: ../../source/acquisitions.rst:709
-#, fuzzy
-msgid "|image836|"
-msgstr "|image436|"
+msgid "A basket with at least one uncertain price can't be closed."
+msgstr "Eine Bestellung mit einem unsicheren Preis kann nicht geschlossen werden."
 
 #: ../../source/acquisitions.rst:711
-msgid ""
-"Your completed order will be listed on the Basket Grouping page for printing "
-"or further modification."
-msgstr ""
-"Ihre komplette Bestellung wird in der Bestellübersicht zum Ausdruck oder für "
-"weitere Änderungen angezeigt."
+msgid "If you are charged sales tax, choose that from the 'Tax rate' field. This field is populated by the :ref:`gist system preference <gist-label>`."
+msgstr "Wenn Sie mehrwertsteuerpflichtig sind, wählen Sie die passende Steuerrate aus. Die Werte dieser Auswahlliste stammen aus dem Systemparameter :ref:`gist <gist-label>`."
 
 #: ../../source/acquisitions.rst:714
-#, fuzzy
-msgid "|image837|"
-msgstr "|image437|"
+msgid "Enter the percentage discount you're receiving on this order, once you enter this, hit tab and Koha will populate the rest of the cost fields below."
+msgstr "Geben Sie den Rabatt für diese Lieferung ein. Nach der Eingabe betätigen Sie die Tabulator-Taste und Koha wird die darunter liegenden Kostenfelder automatisch einfüllen."
 
-#: ../../source/acquisitions.rst:716
-msgid ""
-"If you closed the basket before generating the EDIFACT order you can do so "
-"from the basket grouping page."
-msgstr ""
-
-#: ../../source/acquisitions.rst:719
-#, fuzzy
-msgid "Basket Grouping EDIFACT"
-msgstr "Bestellgruppen"
+#: ../../source/acquisitions.rst:718
+msgid "Retail price is the recommended retail price (RRP), the price set by the publisher or the manufacturer as a recommendation to booksellers."
+msgstr "Im Feld Verkaufspreis wird u. U. ein empfohlener Verkaufspreis aus den Daten eingetragen."
 
 #: ../../source/acquisitions.rst:721
-#, fuzzy
-msgid ""
-"Clicking the 'Print' button next to your order will generate a PDF for "
-"printing, which will have all of your library information followed by the "
-"items in your order."
+msgid "Replacement cost is the price it will cost to replace the item. This is the price charged to the user when an item is declared lost (if the :ref:`WhenLostChargeReplacementFee` system preference is set to 'Charge')."
 msgstr ""
-"Wenn Sie auf 'Drucken' unterhalb Ihrer Bestellung klicken, wird ein PDF für "
-"den Druck erstellt. Das PDF enthält alle Informationen zu Ihrer Bibliothek "
-"und der Bestellung."
 
 #: ../../source/acquisitions.rst:725
-#, fuzzy
-msgid "|image838|"
-msgstr "|image438|"
+msgid "Budgeted cost is the amount that will be removed from the 'spent' budget. Whether this number includes or excludes taxes will depend on the 'List price' setting for your :ref:`vendor <vendors-label>`."
+msgstr ""
 
-#: ../../source/acquisitions.rst:730
-msgid "Receiving Orders"
-msgstr "Bestellzugang"
+#: ../../source/acquisitions.rst:729
+msgid "Total is the budgeted cost multiplied by the quantity of items ordered."
+msgstr "Bei 'Gesamt' stehen die gesamten Kosten des Einzelexemplars multipliziert mit der Anzahl der bestellten Exemplare."
+
+#: ../../source/acquisitions.rst:731
+msgid "You can add an internal note. This will only appear in the acquisitions module and in the staff interface catalog, under the 'Acquisitions details' tab in the detailed record."
+msgstr ""
+
+#: ../../source/acquisitions.rst:735
+msgid "You can also add a vendor note. This will appear in the acquisitions module as well as on the order when exported as CSV."
+msgstr ""
 
 #: ../../source/acquisitions.rst:738
 #, fuzzy
-msgid "Orders can be received from the vendor information page"
-msgstr ""
-"Lieferungen können Sie ausgehend von der Übersichtsseite des Lieferanten "
-"oder von der Trefferliste aus bearbeiten."
-
-#: ../../source/acquisitions.rst:740
-#, fuzzy
-msgid "|image839|"
-msgstr "|image439|"
+msgid "If you added statistical categories when :ref:`creating the Fund <add-a-fund-label>`, those values will appear in the two statistics fields."
+msgstr "Wenn Sie beim :ref:`Anlegen des Kontos <add-a-fund-label>` diesem statistische Werte zugewiesen haben, tauchen diese nun ganz unten in den Feldern Statistik 1 und Statistik 2 auf."
 
 #: ../../source/acquisitions.rst:742
-#, fuzzy
-msgid "or the vendor search results page"
-msgstr "Ergebnisse Lieferantensuche"
-
-#: ../../source/acquisitions.rst:744
-#, fuzzy
-msgid "|image840|"
-msgstr "|image407|"
+msgid "Once you have filled in all of the fields click 'Save' to add the item to your basket. If your price goes over the amount available in the fund you will be presented with a confirmation."
+msgstr "Wenn Sie alle Felder ausgefüllt haben, klicken Sie auf 'Speichern' um den Bestellposten zum Korb hinzuzufügen. Wenn der Gesamtpreis das verfügbare Budget des Kontos überschreitet, erhalten Sie eine entsprechende Meldung."
 
 #: ../../source/acquisitions.rst:746
-msgid ""
-"After clicking 'Receive shipment' you will be asked to enter a vendor "
-"invoice number, a shipment received date, a shipping cost and a budget to "
-"subtract that shipping amount from."
-msgstr ""
-"Klicken Sie auf den Link  'Lieferung empfangen'. Nun können Sie die "
-"Rechnungsnummer und weitere Informationen zur Lieferung eingeben."
+msgid "|image826|"
+msgstr "|image826|"
 
-#: ../../source/acquisitions.rst:750
+#: ../../source/acquisitions.rst:748
+msgid "The confirmation warning will allow you order past your fund amount if you so choose."
+msgstr "Trotz der Warnung können Sie die Bestellung anlegen, wenn Sie die Meldung entsprechend bestätigen."
+
+#: ../../source/acquisitions.rst:751
+msgid "After an item is added to the basket you will be presented with a basket summary."
+msgstr "Nachdem ein Medium dem Korb hinzugefügt worden ist, wird Ihnen eine Übersicht des Korbes gezeigt."
+
+#: ../../source/acquisitions.rst:754
+msgid "|image827|"
+msgstr "|image827|"
+
+#: ../../source/acquisitions.rst:756
+msgid "From here, you can edit or remove the items that you have added."
+msgstr "Von hier aus können Sie Exemplare bearbeiten oder entfernen, die sie hinzugefügt haben."
+
+#: ../../source/acquisitions.rst:758
 #, fuzzy
-msgid "|image841|"
-msgstr "|image410|"
+msgid "Choosing to 'Cancel the order' will delete the order line but leave the record in the catalog."
+msgstr "'Bestellung löschen' entfernt die Bestellposition, aber lässt den zugehörigen Titelsatz im Katalog."
 
-#: ../../source/acquisitions.rst:752
-msgid ""
-"The receive page will list all items still on order with the vendor "
-"regardless of the basket the item is from."
-msgstr ""
-"Beim Zugang werden alle Exemplare angezeigt, die noch beim Lieferanten "
-"bestellt sind, unabhängig von der Zuordnung zu einer einzelnen Bestellung."
-
-#: ../../source/acquisitions.rst:755
+#: ../../source/acquisitions.rst:761
 #, fuzzy
-msgid "|image842|"
-msgstr "|image412|"
+msgid "Choosing to 'Cancel order and delete catalog record' removes both the order line and the record in the catalog."
+msgstr "'Bestellung und Titel löschen' entfernt sowohl den Bestellposten als auch den dazugehörigen Titelsatz im Katalog."
 
-#: ../../source/acquisitions.rst:757
-msgid ""
-"To receive a specific item, click the 'Receive' link to the right of the "
-"item."
+#: ../../source/acquisitions.rst:764
+msgid "The catalog record cannot always be deleted. You might see notes explaining why."
+msgstr "Ein Titelsatz kann unter Umständen nicht gelöscht werden. Wenn dies der Fall ist, erscheint ein Hinweis mit dem Grund."
+
+#: ../../source/acquisitions.rst:767
+msgid "|image829|"
+msgstr "|image829|"
+
+#: ../../source/acquisitions.rst:769
+msgid "On the summary page, you also have the several option through the buttons at the top of the basket header."
 msgstr ""
-"Um ein bestimmtes Exemplar in Empfang zu nehmen klicken Sie auf 'Zugang' "
-"rechts neben dem Exemplar."
-
-#: ../../source/acquisitions.rst:760
-#, fuzzy
-msgid "|image843|"
-msgstr "|image413|"
-
-#: ../../source/acquisitions.rst:762
-msgid ""
-"From this form you can alter the cost information. You can also choose to "
-"mark only part of the order as received if the vendor didn't send your "
-"entire order by checking only the boxes next to the items on the left that "
-"you want to receive. The values you enter in the 'Replacement cost' and "
-"'Actual cost' will automatically populate the item record by filling in "
-"subfield v (Cost, replacement price) and subfield g (Cost, normal purchase "
-"price) on the item record after saving."
-msgstr ""
-"In diesem Fenster können Sie die Kosten bearbeiten. Sie können auch nur "
-"einen Teil der Bestellpositionen mit den entsprechenden Checkboxen als "
-"geliefert markieren, falls es sich um eine Teillieferung handelt. Die Werte "
-"in den Feldern 'Ersatzkosten' und 'Istkosten' belegen beim Speichern den "
-"Titelsatz in Unterfeld v (Kosten, Ersatzkosten) und Unterfeld g (Kosten, "
-"normaler Einkaufspreis)."
-
-#: ../../source/acquisitions.rst:770
-#, fuzzy
-msgid "|image844|"
-msgstr "|image414|"
 
 #: ../../source/acquisitions.rst:772
-msgid ""
-"You can also make edits to the item record from this form by clicking the "
-"'Edit' link next to each item. This will allow you to enter in accurate call "
-"numbers and barcodes if you'd like to do that at the point of receipt. Once "
-"you have made any changes necessary (to the order and/or items, click 'Save' "
-"to mark the item(s) as received."
-msgstr ""
-"Sie können die einzelnen Bestellpositionen mit den entsprechenden Links "
-"bearbeiten. Sie können so die zugehörigen Signaturen oder Barcodes eingeben, "
-"falls Sie dies zum Zeitpunkt der Entgegennahme tun möchten. Nachdem Sie die "
-"notwendigen Änderungen an der Bestellung oder den Bestellpositionen "
-"vorgenommen haben, klicken Sie auf 'Speichern', um die Exemplare als "
-"'erhalten' zu markieren."
+msgid "|image830|"
+msgstr "|image830|"
 
-#: ../../source/acquisitions.rst:780
-msgid ""
-"If you have your `AcqItemSetSubfieldsWhenReceived "
-"<#AcqItemSetSubfieldsWhenReceived>`__ preference set to add or change values "
-"on received items those changes will take place after you hit 'Save'."
+#: ../../source/acquisitions.rst:774
+msgid "Edit basket: edit the basket information, such as the name or the billing place."
 msgstr ""
 
-#: ../../source/acquisitions.rst:785
+#: ../../source/acquisitions.rst:777
+msgid "Delete this basket: if the basket is empty, you will get a simple confirmation message before deleting the basket. If the basket contains orders, you will get a confirmation message with several options."
+msgstr ""
+
+#: ../../source/acquisitions.rst:781
 #, fuzzy
-msgid "|image845|"
-msgstr "|image415|"
+msgid "|image1413|"
+msgstr "|image1413|"
 
-#: ../../source/acquisitions.rst:787
-msgid ""
-"If the item is no longer available from this vendor you can transfer the "
-"order to another vendor's basket by clicking the 'Transfer' link to the "
-"right of the title. This will pop up a vendor search box."
+#: ../../source/acquisitions.rst:783
+msgid "Delete basket and orders: this will delete the basket, cancel the orders, refund the used funds, and delete the items (ordered or received)."
+msgstr ""
+
+#: ../../source/acquisitions.rst:786
+msgid "Delete basket, orders, and records: this will delete all of the above plus the bibliographic records associated with the orders (except the ones which can't be deleted because they have remaining items, orders or subscriptions attached)."
 msgstr ""
 
 #: ../../source/acquisitions.rst:791
-#, fuzzy
-msgid "|image846|"
-msgstr "|image416|"
-
-#: ../../source/acquisitions.rst:793
-#, fuzzy
-msgid ""
-"From the results you can click 'Choose' to the right of the vendor you would "
-"like to reorder this item from."
+msgid "Close this basket: closing the basket will enable you to add it to a basket group (this is optional) and receive its items."
 msgstr ""
-"In der Ergebnisliste können Sie einen Datensatz über den Link 'Import' "
-"rechts neben dem Eintrag nach Koha importieren"
 
-#: ../../source/acquisitions.rst:796
-#, fuzzy
-msgid "|image847|"
-msgstr "|image407|"
+#: ../../source/acquisitions.rst:794
+msgid "Export as CSV: this will create a CSV file with all your orders from this basket. You can add several CSV profiles options by going to the :ref:`CSV profiles tool <csv-profiles-label>`."
+msgstr ""
 
 #: ../../source/acquisitions.rst:798
-msgid ""
-"You will then be presented with the open baskets for that vendor to choose "
-"from. To move the item simply click 'Choose' to the right of the basket you "
-"would like to add the item to."
+msgid "E-mail order: this will send the order information to your contact for this vendor. Make sure your contact has a email address in the :ref:`vendor profile <vendors-label>`."
 msgstr ""
 
 #: ../../source/acquisitions.rst:802
-#, fuzzy
-msgid "|image848|"
-msgstr "|image408|"
-
-#: ../../source/acquisitions.rst:804
-#, fuzzy
-msgid "Once you have chosen you will be presented with a confirmation message."
-msgstr ""
-"Nachdem die Datei hochgeladen wurde, werden werden Sie aufgefordert den "
-"Upload zu bestätigen."
+msgid "If you're using EDI for your order you can click the 'Create EDIFACT order' button when you're done to send the file to the vendor and close the basket."
+msgstr "Wenn Sie Ihre Bestellungen mit EDI bearbeiten, dann klicken Sie auf die Schaltfläche 'EDIFACT Nachrichten'. Schicken Sie danach die Datei an den Lieferanten und schließen Sie den Korb."
 
 #: ../../source/acquisitions.rst:806
-#, fuzzy
-msgid "|image849|"
-msgstr "|image409|"
+msgid "|image1287|"
+msgstr "|image1287|"
 
 #: ../../source/acquisitions.rst:808
-msgid ""
-"When you're finished receiving items you can navigate away from this page or "
-"click the 'Finish receiving' button at the bottom of the screen."
-msgstr ""
-"Wenn Sie den Empfang der Bestellungen abgeschlossen haben, können sie auf "
-"eine andere Seite navigieren oder im unteren Seitenbereich auf die "
-"Schaltfläche 'Lieferung abschließen' klicken."
+msgid "Once you're sure your basket is complete, you can click 'Close this basket' button to indicate that this basket is complete and has been sent to the vendor."
+msgstr "Wenn Sie alle Bestellposten angelegt haben und die Bestellung vollständig ist können Sie die 'Bestellung schließen'. Dies bedeutet das die Bestellung abgeschlossen ist und an den Lieferanten versandt wurde."
 
-#: ../../source/acquisitions.rst:811
-msgid ""
-"If the item cannot be found anywhere you can cancel the order by clicking "
-"'Delete order' to the far right. This will prompt you to enter your reason "
-"and confirm cancellation."
-msgstr ""
+#: ../../source/acquisitions.rst:812
+msgid "|image835|"
+msgstr "|image835|"
 
-#: ../../source/acquisitions.rst:815
-#, fuzzy
-msgid "|image1289|"
-msgstr "|image1248|"
-
-#: ../../source/acquisitions.rst:817
-msgid ""
-"You will also see that the item is received and/or cancelled if you view the "
-"basket."
-msgstr ""
-"In der Anzeige des Korbes sehen Sie auch ob ein Exemplar gliefert oder "
-"storniert wurde."
+#: ../../source/acquisitions.rst:816 ../../source/acquisitions.rst:909
+msgid "You must close the basket to be able to :ref:`receive items <receiving-orders-label>` when they arrive. Only items in closed baskets will show as ready to receive."
+msgstr "Um bestellte Exemplare :ref:`zugehen zu lassen <receiving-orders-label>`, muss der Korb geschlossen werden. Nur bei Exemplaren von Körben die geschlossen sind, werden die entsprechenden Buttons angezeigt."
 
 #: ../../source/acquisitions.rst:820
+msgid "If you have your :ref:`BasketConfirmations` preference set to show a confirmation, you will be asked if you are sure about closing the basket."
+msgstr "Wenn Sie den Systemparameter :ref:`BasketConfirmations` so gesetzt haben das immer eine Bestätigung erforderlich ist, erhalten Sie immer zuerst eine Nachfrage beim Schließen des Korbes."
+
+#: ../../source/acquisitions.rst:824
+msgid "|image836|"
+msgstr "|image836|"
+
+#: ../../source/acquisitions.rst:826
 #, fuzzy
-msgid "|image850|"
-msgstr "|image450|"
+msgid "When closing the basket you can choose to add the basket to a group for easy printing and retrieval. If you check the box to 'Attach this basket to a new basket group' you will be brought to the group list where you can export a PDF of the order."
+msgstr "Haben Sie den Korb geschlossen, dann können Sie den Korb einer Gruppe zuordnen um die Bestellungen leichter auszudrucken und wiederzufinden. Wenn Sie die Box anhaken um den Korb einer neuen Bestellgruppe zuzuordnen, werden Sie auf die Seite weitergeleitet, die die Bestellgruppen auflistet. Hier können Sie mit PDF die Bestellung drucken."
 
-#: ../../source/acquisitions.rst:825
-msgid "Invoices"
-msgstr "Rechnungen"
-
-#: ../../source/acquisitions.rst:827
-msgid ""
-"When orders are received invoices are generated. Invoices can be searched by "
-"clicking on 'Invoices' in the left of the Acquisitions page."
-msgstr ""
-"Bei der Entgegennahme von Bestellungen werden die Informationen zur Rechnung "
-"erfasst. Rechnungen können über den entsprechenden Reiter im linken Bereich "
-"der Seite 'Erwerbung' gesucht werden."
-
-#: ../../source/acquisitions.rst:830
-#, fuzzy
-msgid "|image851|"
-msgstr "|image451|"
-
-#: ../../source/acquisitions.rst:832
-msgid ""
-"After searching, your results will appear to the right of the search options."
-msgstr ""
-"Die Suchresultate werden im Bereich rechts neben den Suchoptionen angezeigt."
+#: ../../source/acquisitions.rst:831
+msgid "|image832|"
+msgstr "|image832|"
 
 #: ../../source/acquisitions.rst:835
 #, fuzzy
-msgid "|image852|"
-msgstr "|image452|"
+msgid "A basket with at least one item marked as 'uncertain price' will not be allowed to be closed."
+msgstr "Ein Bestellungkorb, in der mindestens ein Bestellposten einen 'ungewissen Preis' hat, kann nicht geschlossen werden."
 
-#: ../../source/acquisitions.rst:837
-msgid ""
-"From the results you can click the 'Details' link to see the full invoice or "
-"'Close' to note that the invoice is closed/paid for."
-msgstr ""
-"In der Resultatliste können Sie auf den Link 'Details' klicken um die "
-"Rechnung anzuzeigen oder auf 'Schließen' um festzuhalten, dass die Rechnung "
-"abgeschlossen bzw. bezahlt ist."
+#: ../../source/acquisitions.rst:838
+msgid "|image833|"
+msgstr "|image833|"
 
 #: ../../source/acquisitions.rst:840
-#, fuzzy
-msgid "|image853|"
-msgstr "|image453|"
+msgid "Clicking the 'Uncertain prices' button will call up a list of items with uncertain prices to quick editing. From that list, you can quickly edit the items by entering new prices and quantities."
+msgstr "Wenn Sie auf 'Unsichere Preise' klicken, erscheint eine Liste mit Exemplaren, deren Preise unsicher sind, um sie rasch bearbeiten zu können. Ausgehend von dieser Liste können Sie die Exemplare schnell bearbeiten, indem Sie den neuen Preis und die Menge angeben."
 
-#: ../../source/acquisitions.rst:842
-msgid ""
-"If you're allowing the uploading of acquisitions files with the :ref:"
-"`AcqEnableFiles` preference you will see the option to manage invoice files "
-"next to the link to 'Go to receipt page'"
-msgstr ""
+#: ../../source/acquisitions.rst:844
+msgid "|image834|"
+msgstr "|image834|"
 
-#: ../../source/acquisitions.rst:847
-#, fuzzy
-msgid "|image1290|"
-msgstr "|image1249|"
+#: ../../source/acquisitions.rst:848
+msgid "The Uncertain prices page is independent of the basket. It is linked to the vendor so you will see all items on order with uncertain prices for that vendor."
+msgstr "Die Seite Unsichere Preise ist unabhängig von von den Bestellkörben. Sie zeigt alle unsicheren Preise für einen einzelnen Lieferanten."
 
-#: ../../source/acquisitions.rst:849
-msgid "To see or attach new files click the 'Manage invoice files' link"
-msgstr ""
+#: ../../source/acquisitions.rst:852
+msgid "Once your order is entered you can search for it through acquisitions or view the information on the biblio detail page in the staff client (if the :ref:`AcquisitionDetails` preference is set to 'Display)."
+msgstr "Wenn Sie Ihre Bestellung eingegeben haben, können Sie über das Erwerbungsmodul danach suchen, oder Sie können die Informationen über die Detailansicht der Titeltrefferliste in der Dienstoberfläche abrufen (wenn der Systemparameter :ref:`AcquisitionDetails` auf 'Zeige' gesetzt ist)."
 
-#: ../../source/acquisitions.rst:851
-#, fuzzy
-msgid "|image854|"
-msgstr "|image454|"
+#: ../../source/acquisitions.rst:857
+msgid "|image1288|"
+msgstr "|image1288|"
 
-#: ../../source/acquisitions.rst:853
-#, fuzzy
-msgid ""
-"From here you can find a file to upload and/or see the files you have "
-"already attached."
-msgstr ""
-"Von hier aus können Sie Exemplare bearbeiten oder entfernen, die sie "
-"hinzugefügt haben."
-
-#: ../../source/acquisitions.rst:856
-#, fuzzy
-msgid "|image855|"
-msgstr "|image455|"
-
-#: ../../source/acquisitions.rst:858
-msgid ""
-"From the invoice search results you can also merge together two invoices "
-"should you need to. Simply click the checkbox to the left of the invoices "
-"you would like to merge and click the 'Merge selected invoices' button at "
-"the bottom of the page. You will be presented with a confirmation screen:"
-msgstr ""
+#: ../../source/acquisitions.rst:862
+msgid "Create a basket group"
+msgstr "Bestellgruppe anlegen"
 
 #: ../../source/acquisitions.rst:864
 #, fuzzy
-msgid "|image856|"
-msgstr "|image456|"
+msgid "A basket group is simply a group of baskets. In some libraries, you have several staff members that create baskets, and, at the end of a period of time, someone then groups them together to send to the vendor in bulk. That said, it is possible to have one basket in a basket group, or no basket groups at all if that's the workflow used in your library."
+msgstr "Eine Bestellgruppe ist eine Gruppe von Bestellkörben. In einigen Bibliotheken gibt es mehrere Mitarbeiter die Bestellungen anlegen und am Ende eines Zeitraums werden die Bestellungen in einer Bestellgruppe zusammengefasst und gesammelt an den Lieferanten geschickt. Es ist auch möglich nur eine Bestellung je Bestellgruppe zu haben und diese so an den Lieferanten zu schicken, wenn dies dem Workflow in Ihrer Bibliothek entspricht."
 
-#: ../../source/acquisitions.rst:866
-msgid ""
-"Click on the row of the invoice number you would like to keep and it will be "
-"highlighted in yellow. Enter any different billing information in the fields "
-"provided and click 'Merge'. The two invoices will become one."
+#: ../../source/acquisitions.rst:870
+msgid "To create a basket group, go to the vendor detail page and click on the 'Basket groups' tab on the left side."
 msgstr ""
 
-#: ../../source/acquisitions.rst:874
+#: ../../source/acquisitions.rst:875
 #, fuzzy
-msgid "Claims & Late Orders"
-msgstr "Reklamationen &amp; verspätete Bestellungen"
+msgid "|image1414|"
+msgstr "|image1414|"
 
-#: ../../source/acquisitions.rst:876
+#: ../../source/acquisitions.rst:877
 #, fuzzy
-msgid ""
-"If you have entered in an email address for the vendors in your system you "
-"can send them claim emails when an order is late. Before you can send claims "
-"you will need to set up an `acquisitions claim notice <#ACQCLAIM>`__."
-msgstr ""
-"Haben Sie für die Lieferanten eine E-Mail-Adresse eingetragen, könne "
-"Reklamationen für verspätete Lieferungen verschickt werden. Dazu muss aber "
-"eine entsprechende Benachrichtigung konfiguriert sein."
+msgid "Click on the 'New basket group' button."
+msgstr "Klicken Sie auf den Button 'Benutzer-Schnellerfassung'."
+
+#: ../../source/acquisitions.rst:879
+#, fuzzy
+msgid "|image1415|"
+msgstr "|image1415|"
 
 #: ../../source/acquisitions.rst:881
-#, fuzzy
-msgid ""
-"Upon clicking on the link to 'Late Orders' from the Acquisitions page you "
-"will be presented with a series of filter options on the left hand side. "
-"These filters will be applied only closed baskets."
+msgid "Basket group name: this is the name the basket group will go by in Koha"
 msgstr ""
-"Wenn Sie auf den Link für 'Verspätete Bestellungen' auf der Startseite der "
-"Erwerbung klicken, wird Ihnen auf der linken Seite eine Reihe von Filtern "
-"angeboten."
 
-#: ../../source/acquisitions.rst:885
-#, fuzzy
-msgid "|image857|"
-msgstr "|image457|"
-
-#: ../../source/acquisitions.rst:889
-msgid ""
-"The vendor pull down only shows vendors with closed baskets that are late."
+#: ../../source/acquisitions.rst:882
+msgid "Billing place: this is the billing address that will appear on the basket group order"
 msgstr ""
-"Die Auswahlliste der Lieferanten zeigt nur solche mit Verspätung auf "
-"abgeschlossenen Bestellungen."
 
-#: ../../source/acquisitions.rst:892
-#, fuzzy
-msgid ""
-"Once you filter your orders to show you the things you consider to be late "
-"you will be presented with a list of these items."
+#: ../../source/acquisitions.rst:884
+msgid "Delivery place: pick a library where these orders should be sent, this will appear on the basket group order under delivery address You can also enter a different address"
 msgstr ""
-"Nachdem über die Filter definiert wurde, welche Exemplare als verspätet "
-"gelten, wird eine Liste dieser Exemplare angezeigt."
 
-#: ../../source/acquisitions.rst:895
-#, fuzzy
-msgid "|image858|"
-msgstr "|image458|"
-
-#: ../../source/acquisitions.rst:897
-#, fuzzy
-msgid ""
-"To the right of each late title you will be see a checkbox. Check off the "
-"ones you want a claim letter sent to and click 'Claim Order' at the bottom "
-"right of the list. This will automatically send an email to the vendor at "
-"the email address you have on file."
+#: ../../source/acquisitions.rst:887
+msgid "Delivery comment: this comment will appear on the basket group order"
 msgstr ""
-"Rechts neben jedem verspäteten Titel sehen Sie eine Auswahlbox. Wählen Sie "
-"die Titel aus, die Sie beim Lieferanten reklamieren möchten und klicken Sie "
-"abschließend auf 'Bestellung reklamieren'. Es wird automatisch eine E-Mail "
-"generiert und an die im Lieferantendatensatz hinterlegte Adresse gesendet."
 
-#: ../../source/acquisitions.rst:904
-msgid ""
-"The Estimated Delivery Date is based on the Delivery time value entered on "
-"the vendor record."
+#: ../../source/acquisitions.rst:888
+msgid "Close basket group: if you know that once you're done with this basket group, you will not be modifying it anymore, you can close it right away"
 msgstr ""
-"Das voraussichtliche Lieferdatum wird aus der bei den "
-"Lieferanteninformationen eingegebenen üblichen Lieferzeit errechnet."
 
-#: ../../source/acquisitions.rst:907
-#, fuzzy
-msgid ""
-"If you would rather use a different acquisition claim letter (other than the "
-"default) you can :ref:`create that in the notices module <adding-notices-&-"
-"slips-label>` and choose it from the menu above the list of late items."
+#: ../../source/acquisitions.rst:891
+msgid "Drag the ungrouped baskets to the 'Baskets in this group' box to add baskets to the basket group."
 msgstr ""
-"Wenn Sie nicht die Standard-Benachrichtigung verwenden möchten, können Sie "
-"unter Benachrichtigungen weitere Texte anlegen und diese anschließend aus "
-"dem Auswahlmenü über der Liste der verspäteten Bestellungen auswählen."
 
-#: ../../source/acquisitions.rst:911
+#: ../../source/acquisitions.rst:894
 #, fuzzy
-msgid "|image859|"
-msgstr "|image459|"
+msgid "|image1416|"
+msgstr "|image1416|"
 
-#: ../../source/acquisitions.rst:916
+#: ../../source/acquisitions.rst:896
 #, fuzzy
-msgid "Acquisition Searches"
-msgstr "Erwerbungsdaten durchsuchen"
+msgid "Click on 'Save' to finish creating your basket."
+msgstr "Klicken Sie abschließend auf 'Speichern'."
 
-#: ../../source/acquisitions.rst:918
-msgid ""
-"At the top of the various Acquisition pages there is a quick search box "
-"where you can perform either a Vendor Search or an Order Search."
-msgstr ""
-"Im oberen Bereich der verschiedenen Erwerbungsseiten befindet sich ein "
-"Suchfeld, in dem Sie entweder eine Lieferanten- oder eine Bestellungssuche "
-"durchführen können."
+#: ../../source/acquisitions.rst:898
+#, fuzzy
+msgid "From there, you can export your order as a PDF file to send to your vendor."
+msgstr "Von hier aus können Sie Exemplare bearbeiten oder entfernen, die sie hinzugefügt haben."
+
+#: ../../source/acquisitions.rst:900
+msgid "|image838|"
+msgstr "|image838|"
+
+#: ../../source/acquisitions.rst:905
+msgid "Receiving orders"
+msgstr "Bestellzugang"
+
+#: ../../source/acquisitions.rst:913
+msgid "Orders can be received from the vendor information page"
+msgstr "Lieferungen können Sie ausgehend von der Übersichtsseite des Lieferanten zugehen lassen."
+
+#: ../../source/acquisitions.rst:915
+msgid "|image839|"
+msgstr "|image839|"
+
+#: ../../source/acquisitions.rst:917
+msgid "or the vendor search results page"
+msgstr "oder von der Trefferliste der Lieferantensuche"
+
+#: ../../source/acquisitions.rst:919
+msgid "|image840|"
+msgstr "|image840|"
 
 #: ../../source/acquisitions.rst:921
 #, fuzzy
-msgid "|image860|"
-msgstr "|image460|"
+msgid "After clicking 'Receive shipment' you will be asked to enter a vendor invoice number, a shipment received date, a shipping cost and a fund to subtract that shipping amount from."
+msgstr "Klicken Sie auf den Link 'Lieferung empfangen'. Nun können Sie die Rechnungsnummer und weitere Informationen zur Lieferung eingeben."
 
-#: ../../source/acquisitions.rst:923
-msgid ""
-"In the Vendor Search you can enter any part of the vendor name to get "
-"results."
+#: ../../source/acquisitions.rst:925
+msgid "|image841|"
+msgstr "|image841|"
+
+#: ../../source/acquisitions.rst:927
+msgid "The receive page will list all items still on order with the vendor regardless of the basket the item is from."
+msgstr "Beim Zugang werden alle Exemplare angezeigt, die noch beim Lieferanten bestellt sind, unabhängig von der Zuordnung zu einer einzelnen Bestellung."
+
+#: ../../source/acquisitions.rst:930
+msgid "|image842|"
+msgstr "|image842|"
+
+#: ../../source/acquisitions.rst:934
+msgid "If you have a lot of orders, you can filter the orders using the 'Filter' box on the left, the 'Search' box just above the table, of the filter boxes at the top of each table column."
 msgstr ""
-"In der Lieferantensuche können Sie auch mit Teilen des Lieferantennamens "
-"suchen."
-
-#: ../../source/acquisitions.rst:926
-#, fuzzy
-msgid "|image861|"
-msgstr "|image461|"
-
-#: ../../source/acquisitions.rst:928
-msgid ""
-"Using the Orders Search you can search for items that have been ordered with "
-"or without the vendor."
-msgstr ""
-"Mit 'Bestellung suchen' können Sie nach bestellten Titeln mit oder ohne "
-"Angabe des Lieferanten suchen."
-
-#: ../../source/acquisitions.rst:931
-#, fuzzy
-msgid "|image862|"
-msgstr "|image462|"
-
-#: ../../source/acquisitions.rst:933
-msgid ""
-"You can enter info in one or both fields and you can enter any part of the "
-"title and/or vendor name."
-msgstr ""
-"Sie können Angaben in einem oder beiden Feldern machen und einen beliebigen "
-"Teil des Titels oder Lieferantennamens eingeben."
-
-#: ../../source/acquisitions.rst:936
-#, fuzzy
-msgid "|image863|"
-msgstr "|image463|"
 
 #: ../../source/acquisitions.rst:938
-msgid ""
-"Clicking the plus sign to the right of the Vendor search box will expand the "
-"search and allow you to search for additional fields."
+#, fuzzy
+msgid "|image1417|"
+msgstr "|image1417|"
+
+#: ../../source/acquisitions.rst:940
+#, fuzzy
+msgid "|image1418|"
+msgstr "|image1418|"
+
+#: ../../source/acquisitions.rst:942
+msgid "You could, for example, scan the ISBN of the book you are receiving in the filter box and the table will only show the corresponding orders."
 msgstr ""
-"Wenn Sie auf das Pluszeichen neben der Lieferantensuche klicken, werden "
-"weitere Suchoptionen verfügbar"
 
-#: ../../source/acquisitions.rst:941
-#, fuzzy
-msgid "|image864|"
-msgstr "|image464|"
-
-#: ../../source/acquisitions.rst:943
-msgid ""
-"Clicking Advanced Search to the right of the search button will give you all "
-"of the order search options available."
+#: ../../source/acquisitions.rst:945
+msgid "Just make sure to clear the filter boxes when you're done, otherwise, the other items won't appear."
 msgstr ""
-"Wenn Sie auf 'Erweiterte Suche' auf der rechten Seite neben der Schaltfläche "
-"'Suche' klicken, bekommen Sie alle verfügbaren Suchoptionen angezeigt."
 
-#: ../../source/acquisitions.rst:946
-#, fuzzy
-msgid "|image865|"
-msgstr "|image465|"
+#: ../../source/acquisitions.rst:948
+msgid "To receive a specific item, click the 'Receive' link to the right of the item."
+msgstr "Um ein bestimmtes Exemplar in Empfang zu nehmen klicken Sie auf 'Zugang' rechts neben dem Exemplar."
 
-#: ../../source/acquisitions.rst:951
-#, fuzzy
-msgid "Budget/Fund Tracking"
-msgstr "Etatplanung"
+#: ../../source/acquisitions.rst:951 ../../source/acquisitions.rst:1000
+msgid "|image843|"
+msgstr "|image843|"
 
 #: ../../source/acquisitions.rst:953
-msgid ""
-"On the main acquisitions page there will be a table showing you all of your "
-"active funds and a breakdown of what has been ordered or spent against them."
+msgid "Depending on when you chose to create the item (either in the :ref:`AcqCreateItem <acqcreateitem-label>` system preference, or upon :ref:`creating your basket <create-a-basket-label>`), the form will look slightly different."
 msgstr ""
 
-#: ../../source/acquisitions.rst:957
+#: ../../source/acquisitions.rst:958
+msgid "If you chose to create your item when placing the order, you will have your item information on the left side and financial information on the right side."
+msgstr ""
+
+#: ../../source/acquisitions.rst:961
 #, fuzzy
-msgid "|image866|"
-msgstr "|image466|"
+msgid "|image1419|"
+msgstr "|image1419|"
 
-#: ../../source/acquisitions.rst:959
-msgid ""
-"Clicking on the linked amounts under spent or ordered will show you a "
-"summary of the titles ordered/received on that budget."
+#: ../../source/acquisitions.rst:963
+msgid "You can check the box next to the item to receive it, or fill out the 'Quantity received' field on the left side."
 msgstr ""
 
-#: ../../source/acquisitions.rst:962
+#: ../../source/acquisitions.rst:966
 #, fuzzy
-msgid "|image867|"
-msgstr "|image467|"
+msgid "**Note** You can choose to mark only part of the order as received if he vendor didn't send your entire order by checking only the boxes next to the items on the left that you want to receive or by entering the right amount in the 'Quantity received' field."
+msgstr "In diesem Fenster können Sie die Kosten bearbeiten. Sie können auch nur einen Teil der Bestellpositionen mit den entsprechenden Checkboxen als geliefert markieren, falls es sich um eine Teillieferung handelt. Die Werte in den Feldern 'Ersatzkosten' und 'Istkosten' belegen beim Speichern den Titelsatz in Unterfeld v (Kosten, Ersatzkosten) und Unterfeld g (Kosten, normaler Einkaufspreis)."
 
-#: ../../source/acquisitions.rst:967
+#: ../../source/acquisitions.rst:972
 #, fuzzy
-msgid "EDI Process"
-msgstr "Ausführen"
+msgid "You can edit the item if needed by clicking on the 'Edit' link. This will allow you to enter in accurate call numbers and barcodes if you'd like to do that at the point of receipt."
+msgstr "Sie können die einzelnen Bestellpositionen mit den entsprechenden Links bearbeiten. Sie können so die zugehörigen Signaturen oder Barcodes eingeben, falls Sie dies zum Zeitpunkt der Entgegennahme tun möchten. Nachdem Sie die notwendigen Änderungen an der Bestellung oder den Bestellpositionen vorgenommen haben, klicken Sie auf 'Speichern', um die Exemplare als 'erhalten' zu markieren."
 
-#: ../../source/acquisitions.rst:969
-msgid ""
-"Previous sections explain all ordering options, this section pulls out the "
-"parts related to EDI or EDIFACT ordering to help those who are only using "
-"EDI for ordering."
-msgstr ""
-
-#: ../../source/acquisitions.rst:975
-msgid ""
-"Koha uses the EDIFACT standard not the X12 standard for electronic ordering."
-msgstr ""
+#: ../../source/acquisitions.rst:976
+#, fuzzy
+msgid "You can also alter the cost information (replacement cost and actual cost). The values you enter there will automatically populate the item record by filling in subfield v (Cost, replacement price) and subfield g (Cost, normal purchase price) on the item record after saving."
+msgstr "In diesem Fenster können Sie die Kosten bearbeiten. Sie können auch nur einen Teil der Bestellpositionen mit den entsprechenden Checkboxen als geliefert markieren, falls es sich um eine Teillieferung handelt. Die Werte in den Feldern 'Ersatzkosten' und 'Istkosten' belegen beim Speichern den Titelsatz in Unterfeld v (Kosten, Ersatzkosten) und Unterfeld g (Kosten, normaler Einkaufspreis)."
 
 #: ../../source/acquisitions.rst:981
-msgid "EDI Questions for Vendors"
+msgid "If you chose to create your item when receiving the order, you will see the item creation form on the left side and the financial information on the right side."
 msgstr ""
 
-#: ../../source/acquisitions.rst:983
-msgid ""
-"You will want to gather the following information from your vendors before "
-"beginning the set up process in Koha."
-msgstr ""
+#: ../../source/acquisitions.rst:985
+#, fuzzy
+msgid "|image1420|"
+msgstr "|image1420|"
 
-#: ../../source/acquisitions.rst:986
-msgid ""
-"**EDI Accounts:** *This is the basic connection information for your vendor. "
-"This will be used to fill in the :ref:`EDI Accounts` section.*"
-msgstr ""
-
-#: ../../source/acquisitions.rst:990
-msgid "**Vendor:** The name of the vendor"
+#: ../../source/acquisitions.rst:987
+msgid "**Important** You must fill out the item form and click on 'Add item' or 'Add multiple items' in order to receive the order. You will not be able to simply change the 'Quantity received' amount."
 msgstr ""
 
 #: ../../source/acquisitions.rst:992
-msgid ""
-"**Description:** A short description if additional explanation is needed "
-"( especially if you have multiple accounts for one vendor )."
-msgstr ""
+#, fuzzy
+msgid "You can alter the cost information (replacement cost and actual cost). The values you enter there will automatically populate the item record by filling in subfield v (Cost, replacement price) and subfield g (Cost, normal purchase price) on the item record after saving."
+msgstr "In diesem Fenster können Sie die Kosten bearbeiten. Sie können auch nur einen Teil der Bestellpositionen mit den entsprechenden Checkboxen als geliefert markieren, falls es sich um eine Teillieferung handelt. Die Werte in den Feldern 'Ersatzkosten' und 'Istkosten' belegen beim Speichern den Titelsatz in Unterfeld v (Kosten, Ersatzkosten) und Unterfeld g (Kosten, normaler Einkaufspreis)."
 
-#: ../../source/acquisitions.rst:995
-msgid ""
-"**Transport:** Does the vendor transmit EDI files via FTP, SFTP, or "
-"something else the requires special processing?"
-msgstr ""
-
-#: ../../source/acquisitions.rst:998
-msgid "**Remote host:** The URL or IP address of the FTP/SFTP server"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1000
-msgid "**Username:** The username for the above server"
+#: ../../source/acquisitions.rst:997
+msgid "Finally, if you chose to create your item when cataloging the record, you will only see the financial information on the right."
 msgstr ""
 
 #: ../../source/acquisitions.rst:1002
-msgid "**Password:** The password for the above server"
+msgid "You can alter the cost information (replacement cost and actual cost)."
 msgstr ""
 
 #: ../../source/acquisitions.rst:1004
-msgid ""
-"**Download directory:** The path on the server that contains files for Koha "
-"to download and process"
+msgid "**Note** The financial information will not be transferred to the item if the item is created when cataloging."
 msgstr ""
 
-#: ../../source/acquisitions.rst:1007
-msgid ""
-"**Upload directory:** The path on the server that Koha will upload files to "
-"for your vendor to process"
+#: ../../source/acquisitions.rst:1008
+msgid "Once you have made any changes necessary (to the order and/or items, click 'Save' to mark the item(s) as received."
 msgstr ""
 
-#: ../../source/acquisitions.rst:1010
-msgid "**Qualifier:** Who assigned the SAN below?"
+#: ../../source/acquisitions.rst:1011
+msgid "|image845|"
+msgstr "|image845|"
+
+#: ../../source/acquisitions.rst:1015
+msgid "If you have your `AcqItemSetSubfieldsWhenReceived <#AcqItemSetSubfieldsWhenReceived>`__ preference set to add or change values on received items those changes will take place after you hit 'Save'."
+msgstr "Wenn Sie den Systemparameter `AcqItemSetSubfieldsWhenReceived <#AcqItemSetSubfieldsWhenReceived>`__ auf 'Aktualisiere bei Zugang automatisch die Exemplare, die bei Bestellung angelegt wurden' werden nachdem Sie gespeichert haben aktualisiert."
+
+#: ../../source/acquisitions.rst:1020
+msgid "When you're finished receiving items you can navigate away from this page or click the 'Finish receiving' button at the bottom of the screen."
+msgstr "Wenn Sie den Empfang der Bestellungen abgeschlossen haben, können sie auf eine andere Seite navigieren oder im unteren Seitenbereich auf die Schaltfläche 'Lieferung abschließen' klicken."
+
+#: ../../source/acquisitions.rst:1023
+msgid "Received orders will have '(rcvd)' before the title in the basket view."
 msgstr ""
 
-#: ../../source/acquisitions.rst:1012 ../../source/acquisitions.rst:1029
-#: ../../source/acquisitions.rst:1071
-#, fuzzy
-msgid "Choose one of the following:"
-msgstr "Keines der folgenden"
-
-#: ../../source/acquisitions.rst:1014 ../../source/acquisitions.rst:1031
-#: ../../source/acquisitions.rst:1073
-#, fuzzy
-msgid "EAN International"
-msgstr "a- Internationaler Standard"
-
-#: ../../source/acquisitions.rst:1016 ../../source/acquisitions.rst:1033
-#: ../../source/acquisitions.rst:1075
-msgid "(31B) US SAN Agency"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1018 ../../source/acquisitions.rst:1035
-#: ../../source/acquisitions.rst:1077
-#, fuzzy
-msgid "Assigned by supplier"
-msgstr "Zeilen nacheinander"
-
-#: ../../source/acquisitions.rst:1020 ../../source/acquisitions.rst:1037
+#: ../../source/acquisitions.rst:1025 ../../source/acquisitions.rst:1064
 #: ../../source/acquisitions.rst:1079
-msgid "Assigned by buyer"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1022
-msgid "**SAN:** The identifier for the vendor"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1024
-msgid ""
-"*Buyer qualifier and SAN are optional. Some vendors require a second buyer "
-"identifier in addition to the account EAN*."
-msgstr ""
+msgid "|image850|"
+msgstr "|image850|"
 
 #: ../../source/acquisitions.rst:1027
-msgid "**Buyer qualifier:** Who assigned the SAN below?"
+msgid "**Note** When all the orders in a basket have been received, the basket will be removed from the list of baskets for that vendor. You can click 'Show all baskets' to view the inactive baskets."
 msgstr ""
+
+#: ../../source/acquisitions.rst:1032
+#, fuzzy
+msgid "|image1421|"
+msgstr "|image1421|"
+
+#: ../../source/acquisitions.rst:1034
+#, fuzzy
+msgid "|image1422|"
+msgstr "|image1422|"
 
 #: ../../source/acquisitions.rst:1039
-msgid "**Buyer SAN:** The identifier for the library"
-msgstr ""
+#, fuzzy
+msgid "Transferring orders"
+msgstr "Offene Bestellungen"
 
 #: ../../source/acquisitions.rst:1041
-msgid ""
-"**Quotes enabled:** [y/n] Does this vendor support sending and receiving "
-"quotes via EDIfact and do you want to send and receive quotes via EDIfact?"
-msgstr ""
+msgid "If the item is no longer available from this vendor you can transfer the order to another vendor's basket by clicking the 'Transfer' link to the right of the title. This will pop up a vendor search box."
+msgstr "Wenn das Exemplar bei einem Lieferanten nicht länger verfügbar ist, können Sie die Bestellung zu einem anderen Lieferantenkorb umhängen, indem Sie den Link 'Transfer' bedienen rechts vom Titel. Es öffnet sich ein neues Lieferantensuchfenster."
 
 #: ../../source/acquisitions.rst:1045
-msgid ""
-"**Orders enabled:** [y/n] Does this vendor support sending and receiving "
-"orders via EDIfact and do you want to send and receive orders via EDIfact?"
-msgstr ""
+msgid "|image846|"
+msgstr "|image846|"
 
-#: ../../source/acquisitions.rst:1049
-msgid ""
-"**Invoices enabled:**\\ [y/n] Does this vendor support sending and receiving "
-"invoices via EDIfact and do you want to send and receive invoices via "
-"EDIfact?"
-msgstr ""
+#: ../../source/acquisitions.rst:1047
+msgid "From the results you can click 'Choose' to the right of the vendor you would like to reorder this item from."
+msgstr "Ausgehend von der Trefferliste können auf die Schaltfläche 'Auswählen' klicken rechts vom Lieferant, bei dem Sie das Exemplar bestellen möchten."
 
-#: ../../source/acquisitions.rst:1053
-msgid "**Order file suffix:** The file suffix for order files"
-msgstr ""
+#: ../../source/acquisitions.rst:1050
+msgid "|image847|"
+msgstr "|image847|"
 
-#: ../../source/acquisitions.rst:1055
-msgid "**Quote file suffix:** The file suffix for quote files"
-msgstr ""
+#: ../../source/acquisitions.rst:1052
+msgid "You will then be presented with the open baskets for that vendor to choose from. To move the item simply click 'Choose' to the right of the basket you would like to add the item to."
+msgstr "Es werden Ihnen dann die offenen Bestellkörbe des Lieferanten, den Sie ausgewählt haben angezeigt. Um das Exemplare umzuhängen klicken Sie einfach auf 'Auswählen' rechts von dem Korb, wo das Exemplar bestellt werden soll."
 
-#: ../../source/acquisitions.rst:1057
-msgid "**Invoice file suffix:** The file suffix for invoice files"
-msgstr ""
+#: ../../source/acquisitions.rst:1056
+msgid "|image848|"
+msgstr "|image848|"
 
-#: ../../source/acquisitions.rst:1059
-msgid "**Account number(s):** (list them all)"
-msgstr ""
+#: ../../source/acquisitions.rst:1058
+msgid "Once you have chosen you will be presented with a confirmation message."
+msgstr "Nachdem Sie den Lieferanten ausgewählt haben, bekommen Sie eine Bestätigungsnachricht angezeigt."
 
-#: ../../source/acquisitions.rst:1061
-msgid "**Account description(s):** (the summary of what this number is for)"
-msgstr ""
+#: ../../source/acquisitions.rst:1060
+msgid "|image849|"
+msgstr "|image849|"
 
-#: ../../source/acquisitions.rst:1063
-msgid ""
-"**EANs:** *Each library using EDIfact needs to specify a buyer identifier "
-"know as a SAN or EAN. This will fill in the :ref:`Library EANs <library-eans-"
-"label>` setting.*"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1067
+#: ../../source/acquisitions.rst:1062
 #, fuzzy
-msgid "**Library**"
-msgstr "Bibliothek"
+msgid "You will see transferred orders when viewing the basket."
+msgstr "Es ist auch möglich, wenn Sie einen Bestellung erzeugen."
 
 #: ../../source/acquisitions.rst:1069
-msgid "**EAN**"
-msgstr ""
+#, fuzzy
+msgid "Cancelling orders"
+msgstr "Eine Bestellung stornieren"
 
-#: ../../source/acquisitions.rst:1081
-msgid ""
-"**MARC Order Fields or Grid Ordering:** *These values will fill in the :ref:"
-"`MarcFieldsToOrder` preference.*"
-msgstr ""
+#: ../../source/acquisitions.rst:1071
+msgid "If the item cannot be found anywhere you can cancel the order by clicking 'Delete order' to the far right. This will prompt you to enter your reason and confirm cancellation."
+msgstr "Wenn das Exemplar nirgendwo gefunden werden kann, können Sie die Bestellung löschen, in dem Sie rechts auf 'Bestellung stornieren' klicken. Hier werden Sie aufgefordert eine Begründung für die Stornierung anzugeben und die Stornierung zu bestätigen."
 
-#: ../../source/acquisitions.rst:1084
-msgid "**price:** MARC21 field that contains the item price"
-msgstr ""
+#: ../../source/acquisitions.rst:1075
+msgid "|image1289|"
+msgstr "|image1289|"
 
-#: ../../source/acquisitions.rst:1086
-msgid ""
-"**quantity:** MARC21 field that contains the number of items for the given "
-"record"
-msgstr ""
+#: ../../source/acquisitions.rst:1077
+#, fuzzy
+msgid "You will also see that the item is cancelled if you view the basket."
+msgstr "In der Anzeige des Korbes sehen Sie auch ob ein Exemplar gliefert oder storniert wurde."
 
-#: ../../source/acquisitions.rst:1089
-msgid ""
-"**budget\\_code:** MARC21 field that contains the Koha budget code to be "
-"debited"
-msgstr ""
+#: ../../source/acquisitions.rst:1083
+#, fuzzy
+msgid "Whilst it is possible to re-open your basket, cancel one or more orders and re-close the basket, this is not recommended. This procedure will update the 'basket closed' date, which in turn will cause your 'late order' calculations to be incorrect."
+msgstr "Solange es möglich ist den Korb wieder zu öffnen, können Sie eine oder mehrere Bestellungen stornieren und den Korb wieder schließen. Allerdings wird dies nicht empfohlen. Der Vorgang aktualisiert das Schließungsdatum des Korbes, was dafür sorgt, dass Ihre Kalkulation für die verspäteten Bestellungen verfälscht wird. Folgen Sie stattdessen dem unten beschriebenen Vorgang."
 
-#: ../../source/acquisitions.rst:1092
-msgid ""
-"**discount:** MARC21 field the contains the discount as a percentage the the "
-"price will be discounted by"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1095
-msgid "**sort2:** MARC21 field that will populate custom field sort1"
-msgstr ""
-
-#: ../../source/acquisitions.rst:1097
-msgid "**sort2:** MARC21 field that will populate custom field sort2"
-msgstr ""
+#: ../../source/acquisitions.rst:1100
+msgid "Invoices"
+msgstr "Rechnungen"
 
 #: ../../source/acquisitions.rst:1102
-#, fuzzy
-msgid "EDI Setup"
-msgstr "Konfiguration"
+msgid "When orders are received invoices are generated. Invoices can be searched by clicking on 'Invoices' in the left of the Acquisitions page."
+msgstr "Bei der Entgegennahme von Bestellungen werden die Informationen zur Rechnung erfasst. Rechnungen können über den entsprechenden Reiter im linken Bereich der Seite 'Erwerbung' gesucht werden."
 
-#: ../../source/acquisitions.rst:1104
-msgid ""
-"Before you begin ordering using EDI you will want to take the following "
-"steps:"
-msgstr ""
+#: ../../source/acquisitions.rst:1105
+msgid "|image851|"
+msgstr "|image851|"
 
 #: ../../source/acquisitions.rst:1107
-msgid ""
-"Ask your vendor/bookseller/jobber for :ref:`connection information <edi-"
-"questions-for-vendors-label>`"
-msgstr ""
+msgid "After searching, your results will appear to the right of the search options."
+msgstr "Die Suchresultate werden im Bereich rechts neben den Suchoptionen angezeigt."
 
 #: ../../source/acquisitions.rst:1110
-msgid ""
-"It might also be beneficial to ask for a few sample EDIFACT files from the "
-"vendor"
-msgstr ""
+msgid "|image852|"
+msgstr "|image852|"
 
-#: ../../source/acquisitions.rst:1113
-msgid ""
-"Share with your vendor/bookseller/jobber your :ref:`library codes <libraries-"
-"&-groups-label>`, :ref:`item type codes <item-types-label>`, :ref:`fund "
-"codes <funds-label>`, and any other codes or :ref:`authorized values "
-"<authorized-values-label>` they might need for creating your MARC order "
-"records"
-msgstr ""
+#: ../../source/acquisitions.rst:1112
+#, fuzzy
+msgid "From the 'Actions' button, you can click the 'Details' link to see the full invoice or 'Close' to note that the invoice is closed/paid for."
+msgstr "In der Resultatliste können Sie auf den Link 'Details' klicken um die Rechnung anzuzeigen oder auf 'Schließen' um festzuhalten, dass die Rechnung abgeschlossen bzw. bezahlt ist."
 
-#: ../../source/acquisitions.rst:1119
-msgid ""
-"Communicate with your support provider or the community about whether you "
-"will need a plugin based on your vendor's answers"
-msgstr ""
+#: ../../source/acquisitions.rst:1115
+msgid "|image853|"
+msgstr "|image853|"
 
-#: ../../source/acquisitions.rst:1122
-msgid ""
-"For example ByWater Solutions has published plugins for specific vendors "
-"here: https://github.com/bywatersolutions/koha-plugin-edifact-enhanced"
-msgstr ""
+#: ../../source/acquisitions.rst:1117
+msgid "In the Adjustments section, you can add adjustments to your invoices. These adjustments can be for adjusting the price that is offset by rounding or adding a credit to the invoice, for example."
+msgstr "Im Bereich 'Anpassungen können Sie Ihrer Rechnung eine Anpassung hinzufügen. Sie können zum Beispiel eine Anpassung für einen Preis machen."
 
-#: ../../source/acquisitions.rst:1126
-msgid ""
-":ref:`Enter the vendor/bookseller/jobber <add-a-vendor-label>` in "
-"Acquisitions"
-msgstr ""
+#: ../../source/acquisitions.rst:1121
+msgid "|image1371|"
+msgstr "|image1371|"
 
-#: ../../source/acquisitions.rst:1129
-msgid "Review your :ref:`Acquisitions system preferences <acquisitions-label>`"
-msgstr ""
+#: ../../source/acquisitions.rst:1123
+msgid "Click on 'Add an adjustment'"
+msgstr "Klicken Sie auf 'Neue Anpassung'"
+
+#: ../../source/acquisitions.rst:1125
+msgid "Enter the amount of the adjustment"
+msgstr "Geben Sie die Summe für die Anpassung ein."
+
+#: ../../source/acquisitions.rst:1127
+msgid "Choose a reason, if needed"
+msgstr "Wenn nötig, geben Sie einen Grund an"
 
 #: ../../source/acquisitions.rst:1131
-msgid ""
-"Be sure to fill in the :ref:`MarcFieldsToOrder` preference with values for "
-"order files"
-msgstr ""
+msgid "The reasons are :ref:`authorized values<authorized-values-label>`. Use the category ADJ\\_REASON to add custom reasons for adjustments."
+msgstr "Definieren Sie Gründe in den :ref:`Normierten Werten<authorized-values-label>`. Nutzen Sie hierfür die Kategorie ADJ\\_REASON um Anpassungsgründe hinzuzufügen. "
 
 #: ../../source/acquisitions.rst:1134
-#, fuzzy
-msgid "Enter your :ref:`EDI Accounts`"
-msgstr "EDI-Konten der Lieferanten"
+msgid "Enter a note, if needed"
+msgstr "Geben Sie wenn nötig einen Hinweis ein"
 
 #: ../../source/acquisitions.rst:1136
-msgid "Enter your :ref:`Library EANs`"
-msgstr ""
+msgid "Choose the fund from which the adjustment amount should be taken"
+msgstr "Wählen Sie das Konto, von welchem die Summe für die Anpassung abgezogen werden soll"
 
 #: ../../source/acquisitions.rst:1138
-msgid ""
-"Turn on the :ref:`EDI Cron <edi-message-processing-label>` so that it can "
-"process files"
-msgstr ""
+msgid "If 'Encumber while invoice open' is checked, the amount of the adjustment will be taken out of the fund immediately. If it isn't checked, the amount will be subtracted only when the invoice is closed."
+msgstr "Wenn die Checkbox Konto bei offener Rechnung belasten angehakt ist, wird die Summe für die Anpassung sofort vom Konto abgebucht. Wenn sie nicht angehakt ist, wird die Summe erst abgezogen, wenn die Rechnung geschlossen ist."
 
-#: ../../source/acquisitions.rst:1143
+#: ../../source/acquisitions.rst:1142
+msgid "Click on 'Update adjustments' to save your adjustments"
+msgstr "Klicken Sie auf 'Anpassungen aktualisieren' um Ihre Anpassungen zu speichern."
+
+#: ../../source/acquisitions.rst:1144
+msgid "If you need to change the adjustment afterwards, you can do so in the table and click on 'Update adjustments'."
+msgstr "Wenn Sie die Anpassung nach dem Speichern ändern müssen, können Sie dies in der Tabelle machen. Klicken Sie danach auf 'Anpassung aktualisieren'."
+
+#: ../../source/acquisitions.rst:1147
+msgid "|image1372|"
+msgstr "|image1372|"
+
+#: ../../source/acquisitions.rst:1150
 #, fuzzy
-msgid "EDI Ordering"
-msgstr "Automatische Bestellung"
-
-#: ../../source/acquisitions.rst:1145
-msgid ""
-"The first step in ordering using EDI happens on the book vendor's website. "
-"Each seller will use different language, but you will need to place your "
-"order on their site and then download the MARC order file. Some language "
-"that you might see included \"basket\", \"order\", \"cart\", and/or \"MARC "
-"order.\" Once you have this MARC file downloaded to your computer you will "
-"want to log in to Koha and continue the process there."
-msgstr ""
+msgid "Attaching files to invoices"
+msgstr "Dateien anhängen"
 
 #: ../../source/acquisitions.rst:1152
-msgid ""
-"Visit the :ref:`Stage MARC Records for Import` tool and upload your file. "
-"Once presented with the confirmation screen proceed to Acquisitions."
-msgstr ""
+msgid "If you're allowing the uploading of acquisitions files with the :ref:`AcqEnableFiles` preference you will see the option to manage invoice files next to the link to 'Go to receipt page'"
+msgstr "Wenn Sie mit dem Setzen des Systemparameters :ref:`AcqEnableFiles` erlaubt haben Erwerbungsdateien hochzuladen wird Ihnen die Option 'Rechnungsdateien verwalten' neben dem Link 'Zur Inventarisierung' angezeigt."
 
-#: ../../source/acquisitions.rst:1156
-msgid ""
-"In Acquisitions :ref:`create a basket <create-a-basket-label>` for the "
-"vendor you ordered from. From the basket, choose to `order from a staged "
-"file <#orderfromstagedfile>`__ and click 'Order' next to the file you "
-"downloaded from your vendor and staged in Koha."
-msgstr ""
+#: ../../source/acquisitions.rst:1157
+msgid "|image1290|"
+msgstr "|image1290|"
+
+#: ../../source/acquisitions.rst:1159
+msgid "To see or attach new files click the 'Manage invoice files' link"
+msgstr "Um mehr neue Dateien anzuschauen oder hinzuzufügen, klicken Sie auf den Link 'Rechnungsdateien verwalten'."
 
 #: ../../source/acquisitions.rst:1161
-msgid ""
-"From the confirmation screen you will see all of the data in the MARC file "
-"related to your order. If you are not seeing fields such as fund and "
-"quantity filled in then be sure to confirm that your :ref:"
-"`MarcFieldsToOrder` preference is set right."
-msgstr ""
+msgid "|image854|"
+msgstr "|image854|"
+
+#: ../../source/acquisitions.rst:1163
+msgid "From here you can find a file to upload and/or see the files you have already attached."
+msgstr "Von hier aus können Sie eine Datei hochladen und/oder die Dateien anschauen, die sie hinzugefügt haben."
 
 #: ../../source/acquisitions.rst:1166
-#, fuzzy
-msgid ""
-"Once you have added all of the items to the basket you can click the 'Create "
-"EDIFACT order' button."
-msgstr ""
-"Wenn Sie alle Titel für den Benutzer verbucht haben, haben Sie zwei "
-"Möglichkeiten eine Ausleihquittung zu drucken."
+msgid "|image855|"
+msgstr "|image855|"
 
 #: ../../source/acquisitions.rst:1169
 #, fuzzy
-msgid "EDIFACT Order"
-msgstr "Neue Edifact-Bestellung"
+msgid "Merging two invoices"
+msgstr "Rechnungen verschmelzen"
 
 #: ../../source/acquisitions.rst:1171
-msgid ""
-"This will generate a pending file in the :ref:`EDIFACT Messages <edifact-"
-"messages-label>` in Koha. The pending files will be processed by the :ref:"
-"`EDI Cron Job <edi-message-processing-label>` and sent to your vendor."
-msgstr ""
+msgid "From the invoice search results you can also merge together two invoices should you need to. Simply click the checkbox to the left of the invoices you would like to merge and click the 'Merge selected invoices' button at the bottom of the page. You will be presented with a confirmation screen:"
+msgstr "Ausgehend von der Trefferliste der Rechnungen können Sie auch zwei Rechnungen miteinander verschmelzen. Wählen Sie mit den Checkboxen links die Rechnungen aus, die Sie verschmelzen möchten und klicken Sie die Schaltflächen 'Ausgewählte Rechnungen verschmelzen' unten auf der Rechnungsseite. Ein Bestätigungsbildschirm wird Ihnen angezeigt:"
 
-#: ../../source/acquisitions.rst:1178
+#: ../../source/acquisitions.rst:1177
+msgid "|image856|"
+msgstr "|image856|"
+
+#: ../../source/acquisitions.rst:1179
+msgid "Click on the row of the invoice number you would like to keep and it will be highlighted in yellow. Enter any different billing information in the fields provided and click 'Merge'. The two invoices will become one."
+msgstr "Klicken Sie auf die Zeile der Rechnungsnummer, die Sie behalten möchten und sie wird gelb hinterlegt. Geben Sie eine andere Rechnungsinformation in das vorgegebene Feld ein und klicken Sie auf 'Verschmelzen'. Beide Rechnungen werden zu einer zusammengefügt."
+
+#: ../../source/acquisitions.rst:1187
 #, fuzzy
-msgid "EDI Invoicing"
-msgstr "Rechnung "
+msgid "Claims and late orders"
+msgstr "Reklamationen und verspätete Bestellungen"
 
-#: ../../source/acquisitions.rst:1180
-msgid ""
-"When the book vendor is done processing your files they will send an invoice "
-"via EDI as well. The :ref:`EDI Cron Job <edi-message-processing-label>` will "
-"grab invoices and mark items found in the invoice as received and update "
-"your funds without any need for manual intervention."
-msgstr ""
+#: ../../source/acquisitions.rst:1189
+msgid "If you have entered in an email address for the vendors in your system you can send them claim emails when an order is late. Before you can send claims you will need to set up an `acquisitions claim notice <#ACQCLAIM>`__."
+msgstr "Haben Sie in Ihrem System für die Lieferanten eine E-Mail-Adresse eingetragen, könne Reklamationen für verspätete Lieferungen verschickt werden. Dazu muss aber eine entsprechende Benachrichtigung `acquisitions claim notice <#ACQCLAIM>`__ konfiguriert sein."
 
-#: ../../source/acquisitions.rst:1188
+#: ../../source/acquisitions.rst:1194
+msgid "Upon clicking on the link to 'Late orders' from the Acquisitions page you will be presented with a series of filter options on the left hand side. These filters will be applied only closed baskets."
+msgstr "Wenn Sie auf den Link für 'Verspätete Bestellungen' auf der Startseite der Erwerbung klicken, wird Ihnen auf der linken Seite eine Reihe von Filtern angeboten. Diese Filter können nur für geschlossene Bestellkörbe angewendet werden."
+
+#: ../../source/acquisitions.rst:1198
+msgid "|image857|"
+msgstr "|image857|"
+
+#: ../../source/acquisitions.rst:1202
+msgid "The vendor pull down only shows vendors with closed baskets that are late."
+msgstr "Die Auswahlliste der Lieferanten zeigt nur solche mit Verspätung auf abgeschlossenen Bestellungen."
+
+#: ../../source/acquisitions.rst:1205
+msgid "Once you filter your orders to show you the things you consider to be late you will be presented with a list of these items."
+msgstr "Nachdem über die Filter Ihre Bestellungen gesucht wurden, wird eine Liste dieser Exemplare angezeigt."
+
+#: ../../source/acquisitions.rst:1208
+msgid "|image858|"
+msgstr "|image858|"
+
+#: ../../source/acquisitions.rst:1210
+msgid "To the right of each late title you will be see a checkbox. Check off the ones you want a claim letter sent to and click 'Claim order' at the bottom right of the list. This will automatically send an email to the vendor at the email address you have on file."
+msgstr "Rechts neben jedem verspäteten Titel sehen Sie eine Auswahlbox. Wählen Sie die Titel aus, die Sie beim Lieferanten reklamieren möchten und klicken Sie abschließend auf 'Bestellung reklamieren'. Es wird automatisch eine E-Mail generiert und an die im Lieferantendatensatz hinterlegte Adresse gesendet."
+
+#: ../../source/acquisitions.rst:1217
+msgid "The estimated delivery date is based on the delivery time value entered on the vendor record."
+msgstr "Das voraussichtliche Lieferdatum wird aus der bei den Lieferanteninformationen eingegebenen üblichen Lieferzeit errechnet."
+
+#: ../../source/acquisitions.rst:1220
+msgid "If you would rather use a different acquisition claim letter (other than the default) you can :ref:`create that in the notices module <adding-notices-and-slips-label>` and choose it from the menu above the list of late items."
+msgstr "Wenn Sie nicht die Standard-Benachrichtigung verwenden möchten, können Sie unter Benachrichtigungen :ref:`create that in the notices module <adding-notices-and-slips-label>` weitere Texte anlegen und diese anschließend aus dem Auswahlmenü über der Liste der verspäteten Exemplare auswählen."
+
+#: ../../source/acquisitions.rst:1224
+msgid "|image859|"
+msgstr "|image859|"
+
+#: ../../source/acquisitions.rst:1229
+msgid "Acquisition searches"
+msgstr "Erwerbungen suchen"
+
+#: ../../source/acquisitions.rst:1231
+msgid "At the top of the various Acquisition pages there is a quick search box where you can perform either a Vendor search or an Order search."
+msgstr "Im oberen Bereich der verschiedenen Erwerbungsseiten befindet sich ein kurzes Suchfeld, in dem Sie entweder eine Lieferanten- oder eine Bestellungssuche durchführen können."
+
+#: ../../source/acquisitions.rst:1234
+msgid "|image860|"
+msgstr "|image860|"
+
+#: ../../source/acquisitions.rst:1236
+msgid "In the Vendor search you can enter any part of the vendor name to get results."
+msgstr "In der Lieferantensuche können Sie auch mit Teilen des Lieferantennamens suchen."
+
+#: ../../source/acquisitions.rst:1239
+msgid "|image861|"
+msgstr "|image861|"
+
+#: ../../source/acquisitions.rst:1241
+msgid "Using the Orders search you can search for items that have been ordered with or without the vendor."
+msgstr "Mit 'Bestellung suchen' können Sie nach bestellten Exemplaren mit oder ohne Angabe des Lieferanten suchen."
+
+#: ../../source/acquisitions.rst:1244
+msgid "|image862|"
+msgstr "|image862|"
+
+#: ../../source/acquisitions.rst:1246
+msgid "You can enter info in one or both fields and you can enter any part of the title and/or vendor name."
+msgstr "Sie können Angaben in einem oder beiden Feldern machen und einen beliebigen Teil des Titels oder Lieferantennamens eingeben."
+
+#: ../../source/acquisitions.rst:1249
+msgid "|image863|"
+msgstr "|image863|"
+
+#: ../../source/acquisitions.rst:1251
+msgid "Clicking the plus sign to the right of the Vendor search box will expand the search and allow you to search for additional fields."
+msgstr "Wenn Sie auf das Pluszeichen neben der Lieferantensuche klicken, werden weitere Suchoptionen verfügbar"
+
+#: ../../source/acquisitions.rst:1254
+msgid "|image864|"
+msgstr "|image864|"
+
+#: ../../source/acquisitions.rst:1256
+msgid "Clicking Advanced search to the right of the search button will give you all of the order search options available."
+msgstr "Wenn Sie in 'Bestellungen durchsuchen' auf 'Erweiterte Suche' auf der rechten Seite neben der Schaltfläche 'Bestätigen' klicken, bekommen Sie alle verfügbaren Suchoptionen angezeigt."
+
+#: ../../source/acquisitions.rst:1259
+msgid "|image865|"
+msgstr "|image865|"
+
+#: ../../source/acquisitions.rst:1264
+msgid "Budget/fund tracking"
+msgstr "Etat/Konten Planung"
+
+#: ../../source/acquisitions.rst:1266
+msgid "On the main acquisitions page there will be a table showing you all of your active funds and a breakdown of what has been ordered or spent against them."
+msgstr "Auf der Hauptseite des Erwerbungsmoduls wird Ihnen eine Tabelle mit allen aktiven Konten und einer Aufschlüsselung, was bestellt oder ausgegeben wurde angezeigt."
+
+#: ../../source/acquisitions.rst:1270
+msgid "|image866|"
+msgstr "|image866|"
+
+#: ../../source/acquisitions.rst:1272
+msgid "Clicking on the linked amounts under spent or ordered will show you a summary of the titles ordered/received on that budget."
+msgstr "Wenn Sie auf den Link für die Summe klicken unter 'Gebunden' oder 'Ausgegeben' bekommen Sie eine Zusammenfassung von Titeln angezeigt, die für diesen Etat bestellt oder zugegangen sind."
+
+#: ../../source/acquisitions.rst:1275
+msgid "|image867|"
+msgstr "|image867|"
+
+#: ../../source/acquisitions.rst:1280
+msgid "EDI process"
+msgstr "EDI bearbeiten"
+
+#: ../../source/acquisitions.rst:1282
+msgid "Previous sections explain all ordering options, this section pulls out the parts related to EDI or EDIFACT ordering to help those who are only using EDI for ordering."
+msgstr "Dieser Abschnitt filtert die Teile heraus, die ähnlich zu EDI oder EDIFACT-Bestellungen sind, um denen zu helfen, die nur EDI für die Bestellung nutzen."
+
+#: ../../source/acquisitions.rst:1288
+msgid "Koha uses the EDIFACT standard not the X12 standard for electronic ordering."
+msgstr "Koha unterstützt den EDIFACT Standard, nicht aber den X12 Standard für die elektronische Bestellung."
+
+#: ../../source/acquisitions.rst:1294
+msgid "EDI questions for vendors"
+msgstr "EDI Fragen für Lieferanten"
+
+#: ../../source/acquisitions.rst:1296
+msgid "You will want to gather the following information from your vendors before beginning the set up process in Koha."
+msgstr "Sie können die folgenden Informationen Ihrers Lieferanten sammeln, bevor Sie den Prozeß in Koha einrichten."
+
+#: ../../source/acquisitions.rst:1299
+msgid "**EDI accounts:** *This is the basic connection information for your vendor. This will be used to fill in the :ref:`EDI accounts` section.*"
+msgstr "**EDI Konten:** *Dies ist die wesentliche Verbindungsinformation für Ihren Lieferanten. Dies muss im Abschnitt :ref:`EDI Konten` ausgefüllt werden."
+
+#: ../../source/acquisitions.rst:1303
+msgid "**Vendor:** The name of the vendor"
+msgstr "**Lieferant:** Der Name des Lieferanten"
+
+#: ../../source/acquisitions.rst:1305
+msgid "**Description:** A short description if additional explanation is needed ( especially if you have multiple accounts for one vendor )."
+msgstr "**Beschreibung:** eine kurze Beschreibung wenn zusätzliche Erklärungen notwendig sind (speziell, wenn Sie mehrere Konten für einen Lieferanten haben)."
+
+#: ../../source/acquisitions.rst:1308
+msgid "**Transport:** Does the vendor transmit EDI files via FTP, SFTP, or something else the requires special processing?"
+msgstr "**Transport:** Übermittelt der Lieferant EDI Dateien über FTP, SFTP oder etwas anderes, das einen speziellen Prozeß erfordert?"
+
+#: ../../source/acquisitions.rst:1311
+msgid "**Remote host:** The URL or IP address of the FTP/SFTP server"
+msgstr "*Remote host:** Die URL oder IP-Adresse Ihres FTP/SFTP Server's."
+
+#: ../../source/acquisitions.rst:1313
+msgid "**Username:** The username for the above server"
+msgstr "**Benutzername:** Der Benutzername für den oben genannten Server"
+
+#: ../../source/acquisitions.rst:1315
+msgid "**Password:** The password for the above server"
+msgstr "**Passwort:** Das Passwort für den oben genannten Server"
+
+#: ../../source/acquisitions.rst:1317
+msgid "**Download directory:** The path on the server that contains files for Koha to download and process"
+msgstr "**Download-Verzeichnis:** Der Pfad zum Server, der Dateien zum Herunterladen und Verarbeiten in Koha bereitstellt."
+
+#: ../../source/acquisitions.rst:1320
+msgid "**Upload directory:** The path on the server that Koha will upload files to for your vendor to process"
+msgstr "**Upload-Verzeichnis:** Der Pfad zum Server, auf dem Koha Dateien zum Verarbeiten für den Lieferanten hochlädt."
+
+#: ../../source/acquisitions.rst:1323
+msgid "**Qualifier:** Who assigned the SAN below?"
+msgstr "**Abfragekriterium:** Wer bekommt den SAN zugeteilt?"
+
+#: ../../source/acquisitions.rst:1325 ../../source/acquisitions.rst:1342
+#: ../../source/acquisitions.rst:1384
+msgid "Choose one of the following:"
+msgstr "Wählen Sie eine Checkbox der folgenden:"
+
+#: ../../source/acquisitions.rst:1327 ../../source/acquisitions.rst:1344
+#: ../../source/acquisitions.rst:1386
+msgid "EAN International"
+msgstr "EAN internationaler Standard"
+
+#: ../../source/acquisitions.rst:1329 ../../source/acquisitions.rst:1346
+#: ../../source/acquisitions.rst:1388
+msgid "(31B) US SAN Agency"
+msgstr "(31B) US SAN Agency"
+
+#: ../../source/acquisitions.rst:1331 ../../source/acquisitions.rst:1348
+#: ../../source/acquisitions.rst:1390
+msgid "Assigned by supplier"
+msgstr "Durch Lieferant zugeordnet"
+
+#: ../../source/acquisitions.rst:1333 ../../source/acquisitions.rst:1350
+#: ../../source/acquisitions.rst:1392
+msgid "Assigned by buyer"
+msgstr "zugeordnet durch Käufer"
+
+#: ../../source/acquisitions.rst:1335
+msgid "**SAN:** The identifier for the vendor"
+msgstr "**SAN:** Identifizierungsmerkmal für den Lieferant"
+
+#: ../../source/acquisitions.rst:1337
+msgid "*Buyer qualifier and SAN are optional. Some vendors require a second buyer identifier in addition to the account EAN*."
+msgstr "*Vermerk für den Käufer und SAN sind optional. Einige Lieferanten fordern zusätzliche einen zweiten Käufervermerk für das EAN Konto*."
+
+#: ../../source/acquisitions.rst:1340
+msgid "**Buyer qualifier:** Who assigned the SAN below?"
+msgstr "**Käufervermerk:** Wer ist dem SAN unten zugeordnet?"
+
+#: ../../source/acquisitions.rst:1352
+msgid "**Buyer SAN:** The identifier for the library"
+msgstr "**Käufer SAN:** Das Identifizierungsmerkmal für die Bibliothek"
+
+#: ../../source/acquisitions.rst:1354
+msgid "**Quotes enabled:** [y/n] Does this vendor support sending and receiving quotes via EDIfact and do you want to send and receive quotes via EDIfact?"
+msgstr "**Angebote aktiviert:** [j/n] Unterstützt dieser Lieferant das Schicken und Erhalten von Angeboten über EDIfact und möchten Sie über EDIfact Angebote schicken und erhalten?"
+
+#: ../../source/acquisitions.rst:1358
+msgid "**Orders enabled:** [y/n] Does this vendor support sending and receiving orders via EDIfact and do you want to send and receive orders via EDIfact?"
+msgstr "**Bestellungen aktiviert.**[j/n) Unterstützt dieser Lieferant das Senden und Erhalten von Bestellungen über EDIfact und möchten Sie Bestellungen über EDIfact senden und erhalten?"
+
+#: ../../source/acquisitions.rst:1362
+msgid "**Invoices enabled:**\\ [y/n] Does this vendor support sending and receiving invoices via EDIfact and do you want to send and receive invoices via EDIfact?"
+msgstr "**Rechnungen aktiviert:**\\ [j/n] Unterstützt dieser Lieferant das Senden und Erhalten von Rechnungen über EDIfact und möchten Sie Rechnungen über EDIfact senden und erhalten?"
+
+#: ../../source/acquisitions.rst:1366
+msgid "**Order file suffix:** The file suffix for order files"
+msgstr "**Bestellungsdatei angehängt:** Eine angehängte Datei für Bestelldateien"
+
+#: ../../source/acquisitions.rst:1368
+msgid "**Quote file suffix:** The file suffix for quote files"
+msgstr "**Datei für Angebote angehängt:** Eine angehängte Datei für Angebotsdateien"
+
+#: ../../source/acquisitions.rst:1370
+msgid "**Invoice file suffix:** The file suffix for invoice files"
+msgstr "**Datei für Rechnungen angehängt:** Angehängte Datei für Rechnungsdateien"
+
+#: ../../source/acquisitions.rst:1372
+msgid "**Account number(s):** (list them all)"
+msgstr "**Kontonummern:** (alle auflisten)"
+
+#: ../../source/acquisitions.rst:1374
+msgid "**Account description(s):** (the summary of what this number is for)"
+msgstr "**Kontenbeschreibung(en):** (eine Zusammenfassung für wen oder was die Nummer steht)"
+
+#: ../../source/acquisitions.rst:1376
+msgid "**EANs:** *Each library using EDIfact needs to specify a buyer identifier know as a SAN or EAN. This will fill in the :ref:`Library EANs <library-eans-label>` setting.*"
+msgstr "**EANs:** *Jede Bibliothek die EDIfact nutzt muss einen Käufervermerk definieren, als SAN oder EAN. Dies wird in den Einstellungen :ref:`Bibliothek-EANs <library-eans-label>` ausgefüllt."
+
+#: ../../source/acquisitions.rst:1380
+msgid "**Library**"
+msgstr "**Bibliothek**"
+
+#: ../../source/acquisitions.rst:1382
+msgid "**EAN**"
+msgstr "**EAN**"
+
+#: ../../source/acquisitions.rst:1394
+msgid "**MARC order fields or grid ordering:** *These values will fill in the :ref:`MarcFieldsToOrder` preference.*"
+msgstr "**MARC Bestellfelder :** Diese Werte werden im Systemparameter :ref:`MarcFieldsToOrder` definiert. "
+
+#: ../../source/acquisitions.rst:1397
+msgid "**price:** MARC21 field that contains the item price"
+msgstr "**Preis:** MARC21 Feld, welches den Exemplarpreis enthält"
+
+#: ../../source/acquisitions.rst:1399
+msgid "**quantity:** MARC21 field that contains the number of items for the given record"
+msgstr "**Menge:** MARC21 Feld welches die Anzahl der Exemplare für einen bestimmten Datensatz enthält"
+
+#: ../../source/acquisitions.rst:1402
+msgid "**budget\\_code:** MARC21 field that contains the Koha budget code to be debited"
+msgstr "**budget\\_code:** MARC21 Feld welches den Code für den Etat in Koha, der belastet werden soll enthält"
+
+#: ../../source/acquisitions.rst:1405
+msgid "**discount:** MARC21 field the contains the discount as a percentage the the price will be discounted by"
+msgstr "**Rabatt:** MARC21 Feld welches den Rabatt in Prozent enthält"
+
+#: ../../source/acquisitions.rst:1408
 #, fuzzy
-msgid "EDIFACT Messages"
-msgstr "Edifact-Benachrichtigungen"
+msgid "**sort1:** MARC21 field that will populate custom field sort1"
+msgstr "**sort2:** MARC21 Feld welches das das Feld sort1 bestückt"
 
-#: ../../source/acquisitions.rst:1190
-msgid ""
-"A log of all messages sent and received via EDIFACT can be found under "
-"EDIFACT Messages."
+#: ../../source/acquisitions.rst:1410
+msgid "**sort2:** MARC21 field that will populate custom field sort2"
+msgstr "**sort2:** MARC21 Feld welches das Feld sort2 bestückt"
+
+#: ../../source/acquisitions.rst:1415
+msgid "EDI setup"
+msgstr "EDI Konfiguration"
+
+#: ../../source/acquisitions.rst:1417
+msgid "Before you begin ordering using EDI you will want to take the following steps:"
+msgstr "Befolgen Sie bitte folgende Schritte, bevor Sie über EDI bestellen:"
+
+#: ../../source/acquisitions.rst:1420
+msgid "Ask your vendor/bookseller/jobber for :ref:`connection information <edi-questions-for-vendors-label>`"
+msgstr "Fragen Sie Ihren Lieferanten/Buchhändler/Großhändler nach :ref:`Informationen zur Verbindung <edi-questions-for-vendors-label>`. "
+
+#: ../../source/acquisitions.rst:1423
+msgid "It might also be beneficial to ask for a few sample EDIFACT files from the vendor"
+msgstr "Es könnte auch hilfreich sein vom Lieferanten einige Probe EDIFACT-Dateien anzufordern."
+
+#: ../../source/acquisitions.rst:1426
+msgid "Share with your vendor/bookseller/jobber your :ref:`library codes <libraries-label>`, :ref:`item type codes <item-types-label>`, :ref:`fund codes <funds-label>`, and any other codes or :ref:`authorized values <authorized-values-label>` they might need for creating your MARC order records"
+msgstr "Teilen Sie mit Ihrem Lieferanten/Buchhändler/Großhändler Ihre :ref:`Bibliothekscodes <libraries-label>`, :ref:`Codes für Medientypen <item-types-label>`, :ref:`Kontencodes <funds-label>`, und alle anderen Codes oder die :ref:`Normierten Werte <authorized-values-label>` die für das Erstellen Ihrer MARC Bestelldatensätze nötig sind. "
+
+#: ../../source/acquisitions.rst:1432
+msgid "Communicate with your support provider or the community about whether you will need a plugin based on your vendor's answers"
+msgstr "Treten Sie in Kontakt mit Ihrem Support Provider oder der Community, ob Sie basierend auf der Antwort des Lieferanten ein Plugin benötigen."
+
+#: ../../source/acquisitions.rst:1435
+msgid "For example ByWater Solutions has published plugins for specific vendors here: https://github.com/bywatersolutions/koha-plugin-edifact-enhanced"
+msgstr "ByWater Solutions hat zum Beispiel hier Plugins für spezielle Lieferanten veröffentlicht: https://github.com/bywatersolutions/koha-plugin-edifact-enhanced"
+
+#: ../../source/acquisitions.rst:1439
+msgid ":ref:`Enter the vendor/bookseller/jobber <add-a-vendor-label>` in Acquisitions"
+msgstr "Geben Sie in der Erwerbung :ref:`Lieferant/Buchhändler/Großhändler <add-a-vendor-label>` ein."
+
+#: ../../source/acquisitions.rst:1442
+msgid "Review your :ref:`Acquisitions system preferences <acquisitions-system-preferences-label>`"
+msgstr "Prüfen Sie Ihre :ref:`Systemparameter für die Erwerbung <acquisitions-system-preferences-label>`"
+
+#: ../../source/acquisitions.rst:1444
+msgid "Be sure to fill in the :ref:`MarcFieldsToOrder` preference with values for order files"
 msgstr ""
-"Eine Liste aller gesendeten und empfangenen Benachrichtigungen kann unter "
-"\"Edifact-Benachrichtigungen\" eingesehen werden."
+"Stellen Sie sicher, dass Sie den Systemparameter :ref:`MarcFieldsToOrder` "
+"mit Werten für die Bestelldateien befüllen. "
 
-#: ../../source/acquisitions.rst:1193
-#, fuzzy
+#: ../../source/acquisitions.rst:1447
+msgid "Enter your :ref:`EDI Accounts`"
+msgstr "Gehen Sie in Ihre :ref:`EDI Konten`"
+
+#: ../../source/acquisitions.rst:1449
+msgid "Enter your :ref:`Library EANs`"
+msgstr "Geben Sie Ihre :ref:`Bibliotheks EANs` ein"
+
+#: ../../source/acquisitions.rst:1451
+msgid "Turn on the :ref:`EDI Cron <cron-edi-message-processing-label>` so that it can process files"
+msgstr ""
+"Schalten Sie den :ref:`EDI Cronjob <cron-edi-message-processing-label>` an, "
+"so dass Dateien verarbeitet werden können."
+
+#: ../../source/acquisitions.rst:1456
+msgid "EDI ordering"
+msgstr "EDI Bestellung"
+
+#: ../../source/acquisitions.rst:1458
+msgid "The first step in ordering using EDI happens on the book vendor's website. Each seller will use different language, but you will need to place your order on their site and then download the MARC order file. Some language that you might see included \"basket\", \"order\", \"cart\", and/or \"MARC order.\" Once you have this MARC file downloaded to your computer you will want to log in to Koha and continue the process there."
+msgstr "Der erste Schritt für die Bestellung mit EDI beginnt auf der Webseite des Lieferanten. Jeder Verkäufer benutzt verschiedene Sprachen, aber Sie müssen Ihre Bestellung auf deren Seite plazieren und dann MARC-Bestelldatei herunterladen. Manche Sprachen, die Ihnen angezeigt werden enthalten Informationen zu \"Bestellkorb\", \"Bestellung\", \"Korb\" und/oder MARC Bestelldatei. Haben Sie diese MARC-Datei auf Ihren Computer heruntergeladen, werden Sie gebeten sich in Koha einzuloggen und dort die Verarbeitung weiterzuführen."
+
+#: ../../source/acquisitions.rst:1465
+msgid "Visit the :ref:`Stage MARC records for import` tool and upload your file. Once presented with the confirmation screen proceed to Acquisitions."
+msgstr "Gehen Sie im Modul 'Werkzeuge' auf 'MARC-Datensätze für Import bereitstellen' und laden Sie hier Ihre Datei hoch. Wenn Sie den Bestätigungsbildschirm angezeigt bekommen, dann fahren Sie in der Erwerbung fort."
+
+#: ../../source/acquisitions.rst:1469
+msgid "In Acquisitions :ref:`create a basket <create-a-basket-label>` for the vendor you ordered from. From the basket, choose to `order from a staged file <#orderfromstagedfile>`__ and click 'Order' next to the file you downloaded from your vendor and staged in Koha."
+msgstr "In der Erwerbung: :ref:`Bestellkorb erstellen <create-a-basket-label>` für den Lieferanten, bei dem Sie bestellen möchten. Ausgehend vom Bestellkorb wählen Sie die Option `Bestellung von einer heruntergeladenen Datei <#orderfromstagedfile>`__ und klicken Sie auf Bestellung neben der Datei. "
+
+#: ../../source/acquisitions.rst:1474
+msgid "From the confirmation screen you will see all of the data in the MARC file related to your order. If you are not seeing fields such as fund and quantity filled in then be sure to confirm that your :ref:`MarcFieldsToOrder` preference is set right."
+msgstr "Ausgehend vom Bestätigungsbildschirm sehen Sie alle Daten aus der MARC Datei, die zu Ihrer Bestellung passen. Wenn Felder wie Konto oder Mengenangabe nicht ausgefüllt sind, überprüfen Sie die Einstellungen in Ihrem Systemparameter  :ref:`MarcFieldsToOrder`. "
+
+#: ../../source/acquisitions.rst:1479
+msgid "Once you have added all of the items to the basket you can click the 'Create EDIFACT order' button."
+msgstr "Wenn Sie alle Exemplare dem Bestellkorb zugeordnet haben, klicken Sie auf die Schaltfläche 'EDIFACT-Bestellung'."
+
+#: ../../source/acquisitions.rst:1482
+msgid "EDIFACT order"
+msgstr "EDIFACT Bestellung"
+
+#: ../../source/acquisitions.rst:1484
+msgid "This will generate a pending file in the :ref:`EDIFACT messages <edifact-messages-label>` in Koha. The pending files will be processed by the :ref:`EDI cron job <cron-edi-message-processing-label>` and sent to your vendor."
+msgstr "In Koha erzeugt dies eine unerledigte Datei in :ref:`EDIFACT Nachrichten <edifact-messages-label>`. Die unerledigte Datei wird über den :ref:`EDI Cronjob <cron-edi-message-processing-label>` verarbeitet und an den Lieferanten gesendet."
+
+#: ../../source/acquisitions.rst:1491
+msgid "EDI invoicing"
+msgstr "EDI Rechnungen"
+
+#: ../../source/acquisitions.rst:1493
+msgid "When the book vendor is done processing your files they will send an invoice via EDI as well. The :ref:`EDI cron job <cron-edi-message-processing-label>` will grab invoices and mark items found in the invoice as received and update your funds without any need for manual intervention."
+msgstr ""
+"Hat der Buchlieferant Ihre Datei bearbeitet, schickt er ebenfalls eine "
+"Rechnung über EDI. Der :ref:`EDI Cronjob <cron-edi-message-processing-label>`"
+" greift sich die Rechnungen und markiert auf der Rechnung gefundene "
+"Exemplare als 'erhalten' und aktualisiert Ihre Konten, ohne dass Sie manuell "
+"tätig werden müssen. "
+
+#: ../../source/acquisitions.rst:1501
+msgid "EDIFACT messages"
+msgstr "EDIFACT-Nachrichten"
+
+#: ../../source/acquisitions.rst:1503
+msgid "A log of all messages sent and received via EDIFACT can be found under EDIFACT messages."
+msgstr "Ein Protokoll aller gesendeten und empfangenen Benachrichtigungen kann unter \"Edifact-Nachrichten\" eingesehen werden."
+
+#: ../../source/acquisitions.rst:1506
 msgid "|image1291|"
-msgstr "|image1249|"
+msgstr "|image1291|"

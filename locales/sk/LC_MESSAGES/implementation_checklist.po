@@ -1,0 +1,1205 @@
+# Compendium of sk.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-sk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02 01:15-0300\n"
+"PO-Revision-Date: 2019-03-14 21:18-0300\n"
+"Language-Team: Koha Translation Team \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/implementation_checklist.rst:6
+msgid "Implementation Checklist"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:8
+msgid "The following guide will walk you through the areas of Koha you need to look at in order to prepare to start using the system."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:14
+#, fuzzy
+msgid "Data Migration"
+msgstr "Destinácia"
+
+#: ../../source/implementation_checklist.rst:16
+msgid "Before you can start using Koha you'll need to have some data. This can be done by entering it all by hand, but most people already have their data in electronic format of some sort and just need to reformat it a bit for importing into Koha."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:21
+msgid "Create a list of libraries and enter their info and codes into :ref:`Libraries <libraries-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:24
+msgid "Define your list of :ref:`Item Types`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:26
+msgid "Define your patron categories and enter the categories and their codes into :ref:`Patron Categories`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:29
+msgid "Enter any additional patron information fields you use in your library in the :ref:`Patron Attributes <patron-attribute-types-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:32
+msgid "Requires that you first set the :ref:`ExtendedPatronAttributes` system preference if you have custom fields"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:36
+#, fuzzy
+msgid "Define all of your :ref:`Authorized Values`"
+msgstr "vytvorte jednu alebo viac povolených hodnôt"
+
+#: ../../source/implementation_checklist.rst:38
+#, fuzzy
+msgid "`Collection codes <#ccode>`__"
+msgstr "Kód zbierky: "
+
+#: ../../source/implementation_checklist.rst:40
+#, fuzzy
+msgid "`Shelving locations <#shelvelocvals>`__"
+msgstr "Vybraná lokácia v poličke: "
+
+#: ../../source/implementation_checklist.rst:42
+msgid "Item statuses (`lost <#lost>`__, `not for loan <#notforloan>`__, `damaged <#damageauth>`__, `withdrawn <#withdrawnauth>`__)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:45
+#, fuzzy
+msgid "Plus any others that are needed in your library"
+msgstr "Tento výkaz vymenuje všetky exempláre, ktoré sú omeškané vo Vašej knižnici."
+
+#: ../../source/implementation_checklist.rst:47
+msgid "Optionally define :ref:`City/State/Postal Code <cities-and-towns-label>` combos"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:49
+msgid ":ref:`Map your bibliographic data <koha-to-marc-mapping-label>` from your legacy system to Koha fields and migrate (remembering to use the collection, shelving, item type and library codes you entered in the above setting areas)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:54
+msgid ":ref:`Map your patron data <patron-import-label>` from your legacy system to the Koha fields and migrate (remembering to use the patron and library codes you defined above)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:58
+msgid "Test your migrated data to be sure that everything is as you expect it to be, some things to test include:"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:61
+msgid "Check some of your titles with diacritics and make sure that they migrated properly."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:64
+msgid "Check titles in a series and make sure that series information migrated properly."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:67
+#, fuzzy
+msgid "Make sure that your patrons have their contact information in the right fields."
+msgstr "či v odpovedi zobraziť alebo nezobraziť kontaktné údaje čitateľa"
+
+#: ../../source/implementation_checklist.rst:70
+msgid "If your serials data was migrated search for these records in the catalog and confirm that they look right."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:73
+msgid "If your serials data was migrated search for these records in the serials module and confirm that they look right."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:76
+msgid "Check marc records to verify a variety of items are cataloged correctly"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:79
+msgid "Check cataloging process to see if all necessary fields are available"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:82
+msgid "If fines are migrated, check to see that they are applied correctly"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:85
+msgid "If holds are migrated, check to see they are accurate in catalog and patron record"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:91
+#, fuzzy
+msgid "Admin Configuration"
+msgstr "Administrácia"
+
+#: ../../source/implementation_checklist.rst:93
+msgid "Most of these preferences won't need to be changed to use your Koha system, but there are a few that you might want to customize."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:96
+msgid "If your library uses CAS Authentication, you'll want to set the various :ref:`CAS system preferences <cas-authentication-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:99
+#, fuzzy
+msgid "Administration System Preferences"
+msgstr "Späť do nastavení systému"
+
+#: ../../source/implementation_checklist.rst:101
+msgid ":ref:`KohaAdminEmailAddress` : This is the email address that will be used by the system in 'from' lines and to send errors to if there is no email set for the branch"
+msgstr ""
+
+# Administration > Interface options
+#: ../../source/implementation_checklist.rst:105
+#, fuzzy
+msgid ":ref:`noItemTypeImages` : Decide if you want to show item type icons in the staff client and opac"
+msgstr "Zobraziť ikony typov exemplárov v katalógu: "
+
+#: ../../source/implementation_checklist.rst:108
+msgid ":ref:`delimiter` : This value will be put in between fields when exporting data from Koha"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:111
+msgid ":ref:`virtualshelves` : Decide if you want the staff and/or patrons to use lists in Koha"
+msgstr ""
+
+# Administration > Login options
+#: ../../source/implementation_checklist.rst:114
+#, fuzzy
+msgid ":ref:`AutoLocation` : Require staff to log in to the staff client from a specific IP range"
+msgstr "Vyžadovať od zamestnancov, aby sa prihlasovali z počítača v rozmedzí IP adries určených vlastnou knižnicou (ak také je): "
+
+# Administration > Login options
+#: ../../source/implementation_checklist.rst:117
+#, fuzzy
+msgid ":ref:`IndependentBranches` : Prevent librarians from editing content that belongs to other branches"
+msgstr "Zabrániť knihovníkom (nie hlavným knihovníkom) zmenu predmetov (rezervácií, exemplárov, čitateľov, atď.) patriacich iným knižniciam: "
+
+#: ../../source/implementation_checklist.rst:120
+msgid "Go through the :ref:`Log System Preferences <logs-label>` and decide which actions you want to keep track of in the logs"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:123
+msgid "Decide if you'd like to share your library's information with the Koha community by setting the :ref:`Sharing system preferences <share-anonymous-usage-statistics-label>`."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:127
+msgid "Decide what `cron jobs <#cronjobsch>`__ you need to run and when."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:129
+msgid "If you're using the long overdue cron job be sure to set your :ref:`DefaultLongOverdueChargeValue`, :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` and :ref:`DefaultLongOverdueDays <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` preferences."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:138
+#, fuzzy
+msgid "Localization Configuration"
+msgstr "Stiahnuť konfiguráciu"
+
+#: ../../source/implementation_checklist.rst:140
+msgid "Koha is used worldwide and so you need to make sure you set your localization preferences so that options throughout Koha appear properly for your location/language."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:144
+#, fuzzy
+msgid "Localization/Internationalization System Preferences"
+msgstr "Lokálne nastavenia systému"
+
+#: ../../source/implementation_checklist.rst:146
+msgid ":ref:`dateformat` : Decide how dates are displayed throughout Koha"
+msgstr ""
+
+# I18N/L10N
+#: ../../source/implementation_checklist.rst:149
+#, fuzzy
+msgid ":ref:`opaclanguagesdisplay` : Decide if patrons can choose what language the OPAC appears in"
+msgstr "čitateľom možnosť zmeniť jazyk, ktorý vidia v OPACu."
+
+#: ../../source/implementation_checklist.rst:152
+msgid ":ref:`opaclanguages` : Decide which languages the patrons can choose from"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:155
+msgid ":ref:`language` : Decide which languages appear in the staff client"
+msgstr ""
+
+# I18N/L10N
+#: ../../source/implementation_checklist.rst:158
+#, fuzzy
+msgid ":ref:`CalendarFirstDayOfWeek` : Define your first day of the week"
+msgstr "ako prvý deň týždňa v kalendári."
+
+#: ../../source/implementation_checklist.rst:164
+#, fuzzy
+msgid "Circulation configuration"
+msgstr "Poznámka o obehu"
+
+#: ../../source/implementation_checklist.rst:166
+#, fuzzy
+msgid "Before you start circulating your collection you'll need to set up your rules and preferences for circulation."
+msgstr "Pred spustením obehu Vašej zbierky, mali by ste nastaviť Všeobecné systémové vlastnosti, základné parametre a čitateľov &amp; pravidlá cirkulácie."
+
+#: ../../source/implementation_checklist.rst:169
+msgid "Define your :ref:`Circulation and fines rules <circulation-and-fines-rules-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:171
+msgid "Enter the :ref:`days your library is closed <calendar-label>` for fines and due date calculations"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:174
+#, fuzzy
+msgid "Circulation System Preferences"
+msgstr "Späť do nastavení systému"
+
+#: ../../source/implementation_checklist.rst:176
+msgid ":ref:`CircControl` : Define whether circ rules are based on item's location, patron's location or transaction location"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:180
+msgid ":ref:`useDaysMode` : Define how due dates are calculated"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:183
+msgid ":ref:`finesCalendar` : Define how fines are calculated (for every late date or only for days the library is open)"
+msgstr ""
+
+# Circulation > Interface
+#: ../../source/implementation_checklist.rst:187
+#, fuzzy
+msgid ":ref:`SpecifyDueDate` : Decide if staff are allowed to override due dates on checkout"
+msgstr "knihovníkom, aby určovali termín návratu pre výpožičky."
+
+# Circulation > Interface
+#: ../../source/implementation_checklist.rst:190
+#, fuzzy
+msgid ":ref:`SpecifyReturnDate` : Decide if you want to let the staff specify an arbitrary return date on checkin"
+msgstr "knihovníkom, aby určovali termín návratu pre výpožičky."
+
+#: ../../source/implementation_checklist.rst:193
+msgid ":ref:`itemBarcodeFallbackSearch` : Decide if you want staff to be able to checkout using a keyword search (title, call number, etc)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:197
+msgid ":ref:`AutomaticItemReturn` : Decide if items are sent back to the owning branch when checked in"
+msgstr ""
+
+# Circulation > Interface
+#: ../../source/implementation_checklist.rst:200
+#, fuzzy
+msgid ":ref:`todaysIssuesDefaultSortOrder` : Decide how items checked out today display on the patron record"
+msgstr "Triediť dnešné výpožičky na stránke obehu od"
+
+# Circulation > Interface
+#: ../../source/implementation_checklist.rst:203
+#, fuzzy
+msgid ":ref:`previousIssuesDefaultSortOrder` : Decide how items checked out prior to today display on the patron record"
+msgstr "Triediť predošlé výpožičky na stránke obehu od"
+
+#: ../../source/implementation_checklist.rst:207
+msgid ":ref:`noissuescharge` : Define the maximum amount a patron can owe before checkouts are blocked"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:210
+msgid ":ref:`ReturnBeforeExpiry` : Decide if patrons need to return items before their accounts expire"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:213
+msgid ":ref:`AllowHoldsOnDamagedItems` : Decide if patrons can place holds on items that are marked as damaged"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:216
+#: ../../source/implementation_checklist.rst:223
+#: ../../source/implementation_checklist.rst:230
+msgid ":ref:`AllowHoldPolicyOverride` : Decide if you want the staff to be able to override the setting for the above at checkout"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:220
+msgid ":ref:`maxreserves` : Decide how many items a patron can have on hold at once"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:227
+msgid ":ref:`maxoutstanding` : Define the maximum amount a patron can owe before holds are blocked"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:234
+msgid ":ref:`ReservesMaxPickUpDelay` : Define the number of days before a hold expires"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:237
+msgid ":ref:`WebBasedSelfCheck` : Decide if you want to use the built in web-based self-checkout system"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:240
+msgid ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Decide if the self-checkout system requires login"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:243
+msgid ":ref:`ShowPatronImageInWebBasedSelfCheck` : Decide if you want patron images to show on the self checkout screen"
+msgstr ""
+
+# Circulation > Checkout Policy
+#: ../../source/implementation_checklist.rst:247
+#, fuzzy
+msgid ":ref:`AllowNotForLoanOverride` : Decide if you want the staff to be able to checkout items marked as 'not for loan'"
+msgstr "aby knihovníci obišli a vypožičali exempláre označené ako nevypožičateľné."
+
+#: ../../source/implementation_checklist.rst:251
+msgid ":ref:`AllowRenewalLimitOverride` : Decide if you want staff to override the limit put on renewals"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:254
+msgid ":ref:`AllowFineOverride` : Decide if you want staff to be able to override fine limits"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:257
+msgid ":ref:`AllowTooManyOverride` : Descide if you want staff to be able to check out more than the limit to a patron"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:260
+msgid ":ref:`RenewalPeriodBase` : Decide what date renewals are based on"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:263
+msgid ":ref:`finesMode` : Switch to 'Calculate and Charge' before go live if you charge fines"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:266
+msgid "`OverdueNoticeBcc <#OverdueNoticeBcc>`__ : If you want to receive a copy of every overdue notice sent out, enter your email address here"
+msgstr ""
+
+# Circulation > Holds Policy
+#: ../../source/implementation_checklist.rst:270
+#, fuzzy
+msgid ":ref:`emailLibrarianWhenHoldIsPlaced` : Decide if you want an email every time a hold is placed"
+msgstr "posielanie emailu administrátorovi Kohy na jeho emailovú adresu kedykoľvek je zadaná rezervácia."
+
+#: ../../source/implementation_checklist.rst:273
+msgid ":ref:`ReservesControlBranch` : Decide which branch's hold rules are considered first"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:276
+msgid ":ref:`soundon <audioalerts-label>` : Decide if you want to have sounds on for circulation actions"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:279
+msgid ":ref:`FilterBeforeOverdueReport` : If you have a large amount of overdues, you might want to turn this preference on so as to allow you to filter before results appear"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:283
+msgid ":ref:`DisplayClearScreenButton` : If you have a lot of staff members sharing one circ computer you might want to enable this so that staff can clear the screen in between checkouts to protect patron's privacy"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:288
+msgid ":ref:`CircAutoPrintQuickSlip` : Decide how you want Koha to react if you scan in a blank barcode on the checkout screen"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:292
+msgid ":ref:`SuspendHoldsIntranet` and/or :ref:`SuspendHoldsOpac` : Decide if you want patrons and/or staff to be able to suspend holds"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:296
+msgid ":ref:`AutoResumeSuspendedHolds` : If you allow holds to be suspended decide if you want them to automatically resume on the date entered by the staff and/or patron"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:301
+msgid ":ref:`OnSiteCheckouts` : Decide if you want to allow items to be checked out for use within the library"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:304
+msgid ":ref:`RecordLocalUseOnReturn` : Set this to record local use of items when you check them in"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:307
+msgid "Customize your :ref:`Notices & slips`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:309
+msgid "Define your :ref:`Overdue Notice Triggers <overdue-notice/status-triggers-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:311
+#: ../../source/implementation_checklist.rst:402
+#: ../../source/implementation_checklist.rst:464
+#: ../../source/implementation_checklist.rst:500
+#: ../../source/implementation_checklist.rst:516
+#: ../../source/implementation_checklist.rst:684
+msgid "Set up your :ref:`cron jobs <cron-jobs-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:313
+msgid "Populate :ref:`your holds queue <holds-queue-label>` (every 1-4 hours)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:315
+msgid "Decide :ref:`when holds expire <cron-expired-holds-label>` (daily)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:317
+msgid ":ref:`Calculate fines due <cron-fines-label>` (daily)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:319
+msgid "Fines on hourly loans will calculate when you check the items in"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:322
+msgid ":ref:`Mark long overdue items as lost <cron-long-overdues-label>` (daily)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:324
+msgid "Decide when the system :ref:`sends out messages <cron-message-queue-label>` (1-4 hours)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:327
+msgid "Decide when the system :ref:`queues overdue notices <cron-overdue-notice-label>` (daily)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:330
+msgid "Set up :ref:`hold notices that didn't send for printing <cron-print-hold-notices-label>` (daily after overdues and message queue)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:332
+msgid "Decide when the system :ref:`queues the advanced notice of items due <cron-advanced-notice-label>` (daily)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:335
+msgid "Find holds that need to be :ref:`resumed and remove suspension <cron-unsuspend-holds-label>` (daily)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:338
+msgid "If you're allowing automatic renewal of items :ref:`set them to renew <cron-automatic-renewal-label>` (nightly)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:344
+#, fuzzy
+msgid "Patron Configuration"
+msgstr "Upomienka pre čitateľa:"
+
+#: ../../source/implementation_checklist.rst:346
+msgid "You have already imported patron data from your old system, but there are plenty of options available to you regarding patrons and their accounts."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:350
+msgid "Enter your :ref:`staff members as patrons <add-a-staff-patron-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:352
+msgid "Define :ref:`staff members access permissions <patron-permissions-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:354
+#, fuzzy
+msgid "Patron System Preferences"
+msgstr "Späť do nastavení systému"
+
+#: ../../source/implementation_checklist.rst:356
+msgid ":ref:`autoMemberNum` : Decide if the patrons barcodes are auto-generated or if you enter them yourself"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:359
+msgid ":ref:`MaxFine` : Determine the maximum amount that people can owe in fines"
+msgstr ""
+
+# Patrons > General
+#: ../../source/implementation_checklist.rst:362
+#, fuzzy
+msgid ":ref:`NotifyBorrowerDeparture` : Decide when to warn staff that the patron account is about to expire"
+msgstr "Zobraziť oznámenie, že účet čitateľa vyprší alebo vypršal"
+
+#: ../../source/implementation_checklist.rst:365
+msgid ":ref:`intranetreadinghistory` : Decide if the staff can see the patron's reading/checkout history"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:368
+msgid ":ref:`BorrowerMandatoryField` : List fields that you want to appear as mandatory on the patron add/edit form"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:371
+msgid ":ref:`BorrowersTitles` : Add or change the titles for your patrons"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:374
+msgid ":ref:`borrowerRelationship` : Add or change borrower relationships (child to adult and professional to organization)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:378
+msgid ":ref:`AutoEmailPrimaryAddress` : Determine if the patrons get an email confirming the creation of their account"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:382
+msgid ":ref:`EnhancedMessagingPreferences` : Decide if staff can choose from a series of notices (other than overdues) for patrons"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:386
+msgid ":ref:`EnhancedMessagingPreferencesOPAC`: Decide if patrons can choose from a series of notices (other than ovedues) for themselves"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:390
+msgid ":ref:`patronimages` : Decide if you want to save patron images in your system"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:393
+msgid ":ref:`ExtendedPatronAttributes` : Decide if you want to enable custom patron fields"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:396
+msgid ":ref:`minPasswordLength` : Enter the minimum number of characters you want passwords to have"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:399
+msgid ":ref:`BorrowerUnwantedField` : Decide what fields your library doesn't need to see on the patron entry form"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:404
+msgid "Decide if you would like :ref:`children to automatically be come adults <cron-update-child-to-adult-patron-type-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:410
+#, fuzzy
+msgid "Cataloging Configuration"
+msgstr "Editor katalogizácie"
+
+#: ../../source/implementation_checklist.rst:412
+msgid "Before you start cataloging in Koha you'll want to set up your preferences and other rules."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:415
+msgid "Define your cataloging templates aka :ref:`MARC Bibliographic Frameworks <marc-bibliographic-frameworks-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:418
+msgid "Run the :ref:`MARC Bibliographic Framework Test <marc-bibliographic-framework-test-label>` to be sure your changes are valid"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:421
+msgid "Define any :ref:`authorized values <authorized-values-label>` you might want to use in cataloging"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:424
+msgid "Set up :ref:`custom classification sources <classification-sources-label>` (if you use something other than the defaults)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:427
+msgid "Set up :ref:`MARC matching rules <record-matching-rules-label>` for importing records from mrc files or Z39.50"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:430
+msgid "Set up the :ref:`Z39.50 targets <z39.50/sru-servers-label>` you want to search for cataloging (and acquisitions)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:433
+#: ../../source/implementation_checklist.rst:835
+#, fuzzy
+msgid "Cataloging System Preferences"
+msgstr "Späť do nastavení systému"
+
+#: ../../source/implementation_checklist.rst:435
+msgid ":ref:`URLLinkText` : Enter text to display when 856 fields do not have pre-defined labels"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:438
+msgid ":ref:`hide\\_marc <hide-marc-label>` : If you are unfamiliar with MARC you can have the MARC fields number hidden"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:441
+msgid ":ref:`LabelMARCView` : Choose how you want duplicate fields to appear on the editor"
+msgstr ""
+
+# Cataloging > Interface
+#: ../../source/implementation_checklist.rst:444
+#, fuzzy
+msgid ":ref:`DefaultClassificationSource` : Choose which classification source is the default in your library"
+msgstr "ako predvolený klasifikačný zdroj."
+
+#: ../../source/implementation_checklist.rst:447
+msgid ":ref:`advancedMARCeditor` : Decide if you need labels to appear on your MARC editor"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:450
+msgid ":ref:`marcflavour` : Choose your MARC format"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:452
+msgid ":ref:`itemcallnumber` : Enter which field and subfields to look into for the call number"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:455
+msgid ":ref:`MARCOrgCode` : Enter your MARC Organizational Code (not the same as your OCLC number)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:458
+msgid ":ref:`autoBarcode` : Decide if Koha generates item barcodes for you"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:461
+msgid ":ref:`OpacSuppression <opacsuppression-preferences-label>` : Decide if you want to hide items marked as suppressed from the OPAC search results"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:466
+msgid "Decide when the system :ref:`checks URLs in catalog records <cron-check-urls-label>` to see if they are still valid"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:472
+#, fuzzy
+msgid "Authorities Configuration"
+msgstr "Exportovať konfiguráciu"
+
+#: ../../source/implementation_checklist.rst:474
+msgid "Koha has the ability to keep track of your authority records and how they're linked to your bibliographic records. Before using authorities you should configure several preferences."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:478
+msgid "Set :ref:`Authority Frameworks <authority-types-label>` aka templates"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:480
+#, fuzzy
+msgid "Authority System Preferences"
+msgstr "Nastavenia systému"
+
+#: ../../source/implementation_checklist.rst:482
+msgid ":ref:`BiblioAddsAuthorities` : Decide if Koha creates authorities when cataloging"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:485
+msgid "`dontmerge <#dontmerge>`__ : Decide if updates to authorities trigger updates to the bibliographic records that link to them"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:488
+msgid ":ref:`AutoCreateAuthorities` : Decide when authorities are created"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:491
+msgid ":ref:`LinkerModule` : Decide which match the authority linker should use"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:494
+msgid ":ref:`LinkerOptions` : Decide if you want authority linking to be broader or more specific"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:497
+msgid ":ref:`CatalogModuleRelink` : Decide if you want to enable authority linking while cataloging"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:502
+msgid "Choose when the system looks for authorities updates to :ref:`merge changes into bibliographic records <cron-update-authorities-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:508
+#, fuzzy
+msgid "Searching Configuration"
+msgstr "Nastavenie vyhľadávača"
+
+#: ../../source/implementation_checklist.rst:510
+msgid "There are several system preferences related to searching, it is not always recommended to make too many changes to these preferences since they are set to get you the most relevant results. If you would like to change the default way that Koha handles searching, view the :ref:`Searching system preferences <searchingsystem-preferences-label>` tab."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:518
+msgid "Decide how often your :ref:`system rebuilds the search index <cron-rebuild-index-label>` (4-10 min)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:521
+#, fuzzy
+msgid "Searching System Preferences"
+msgstr "Vyhľadávanie v nastaveniach systému"
+
+#: ../../source/implementation_checklist.rst:523
+msgid ":ref:`AdvancedSearchTypes` : Decide which authorized value fields you want patrons and staff to be able to limit their advanced searches by"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:527
+msgid ":ref:`AdvancedSearchLanguages` : Decide which languages you want people to be able to limit to via the search engine"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:531
+msgid ":ref:`UseAuthoritiesForTracings` : Decide how you want Koha to handle subject searches in the OPAC"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:534
+msgid ":ref:`TraceCompleteSubfields` : Decide how you want Koha to handle subject searches in the OPAC"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:537
+msgid ":ref:`TraceSubjectSubdivisions` : Decide how you want Koha to handle subject searches in the OPAC"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:540
+msgid ":ref:`displayFacetCount` : Decide whether to show facet counts on search results"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:546
+#, fuzzy
+msgid "OPAC Configuration"
+msgstr "Nastavenie sád OAI"
+
+#: ../../source/implementation_checklist.rst:548
+msgid "There are a lot of ways you can customize your OPAC in Koha."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:550
+msgid "Decide how you want your OPAC to look & what content you want on the main page"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:553
+msgid "Create a library branded stylesheet using CSS"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:555
+#, fuzzy
+msgid "**Important**"
+msgstr "Dôležité "
+
+#: ../../source/implementation_checklist.rst:557
+msgid "Do not edit the default CSS files, instead create a new one, that way the system can always fall back on the original CSS."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:560
+msgid "Create a custom XSLT stylesheet to change the way search results and bib records appear in the OPAC"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:563
+#, fuzzy
+msgid "OPAC System preferences"
+msgstr "Nastavenia systému"
+
+#: ../../source/implementation_checklist.rst:565
+msgid ":ref:`OPACBaseURL` : Enter your library's url"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:567
+msgid ":ref:`opacuserlogin` : Decide if you want to allow patrons to login to the OPAC to access customized functionality (searching will be allowed without logging in)"
+msgstr ""
+
+# OPAC > Features
+#: ../../source/implementation_checklist.rst:571
+#, fuzzy
+msgid ":ref:`RequestOnOpac` : Decide if patrons can place holds via the OPAC"
+msgstr "čitateľom zarezervovať exempláre zo stránky OPACu."
+
+# OPAC > Features
+#: ../../source/implementation_checklist.rst:574
+#, fuzzy
+msgid ":ref:`OpacPasswordChange` : Decide if patrons can change their password (don't allow this if you're using LDAP)"
+msgstr "čitateľom zmenu vlastného hesla v OPACu. Toto musí byť vypnuté pre používanie overovania cez LDAP."
+
+# OPAC > Policy
+#: ../../source/implementation_checklist.rst:578
+#, fuzzy
+msgid ":ref:`OpacRenewalAllowed` : Decide if patrons can renew their checked out items via the OPAC"
+msgstr "čitateľom obnovu svojich vlastných kníh v OPACu."
+
+#: ../../source/implementation_checklist.rst:581
+msgid ":ref:`opacreadinghistory` : Decide if patrons can view their reading/checkout history via the OPAC"
+msgstr ""
+
+# OPAC > Features
+#: ../../source/implementation_checklist.rst:584
+#, fuzzy
+msgid ":ref:`reviewson` : Decide if you want to allow patrons to comment on bib records via the OPAC"
+msgstr "čitateľom písať komentáre o exemplároch v OPACu."
+
+#: ../../source/implementation_checklist.rst:587
+msgid ":ref:`OpacStarRatings` : Decide if patrons can leave star ratings"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:590
+msgid ":ref:`virtualshelves` : Decide if you want patrons to be able to create Lists"
+msgstr ""
+
+# OPAC > Policy
+#: ../../source/implementation_checklist.rst:593
+#, fuzzy
+msgid ":ref:`OpacAllowPublicListCreation` : If patrons can create lists then decide if they are allowed to create public lists"
+msgstr "užívateľom opacu vytvárať verejné zoznamy"
+
+# OPAC > Features
+#: ../../source/implementation_checklist.rst:597
+#, fuzzy
+msgid ":ref:`suggestion` : Decide if you want patrons to be able to submit purchase suggestions"
+msgstr "čitateľom podávať návrhy na nákup v OPACu."
+
+# OPAC > Policy
+#: ../../source/implementation_checklist.rst:600
+#, fuzzy
+msgid ":ref:`OPACViewOthersSuggestions` : Decide if you want patrons to be able to see purchase suggestions made by other patrons"
+msgstr "návrhy na nákup od ďalších čitateľov v OPACu."
+
+#: ../../source/implementation_checklist.rst:604
+msgid ":ref:`opacbookbag` : Decide if patrons can save items into their cart"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:607
+msgid ":ref:`AnonSuggestions` : Decide if you want non logged in users to be able to make purchase suggestions"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:610
+msgid ":ref:`LibraryName` : Enter your library name for display in the <title> tag and on the top of the OPAC"
+msgstr ""
+
+# OPAC > Appearance
+#: ../../source/implementation_checklist.rst:613
+#, fuzzy
+msgid ":ref:`opaccredits` : Enter HTML to appear at the bottom of every page in the OPAC"
+msgstr "Zahrnúť nasledovné HTML do päty všetkých stránok v OPACu:"
+
+#: ../../source/implementation_checklist.rst:616
+msgid ":ref:`OpacMainUserBlock` : Enter HTML that will appear in the center of the main OPAC page"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:619
+msgid ":ref:`OpacNav` : Enter HTML that will appear to the left on the main OPAC page"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:622
+msgid ":ref:`OpacNavBottom` : Enter HTML that will appear below OpacNav"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:625
+msgid ":ref:`OpacNavRight` : Enter HTML that will appear below the login box on the right"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:628
+msgid ":ref:`opacheader` : Enter the HTML that will appear above the search box on the OPAC"
+msgstr ""
+
+# OPAC > Appearance
+#: ../../source/implementation_checklist.rst:631
+#, fuzzy
+msgid ":ref:`OPACNoResultsFound` : Enter the HTML that will appear when no results are found"
+msgstr "Zobraziť toto HTML, keď sa nenájdu žiadne výsledky hľadania v OPACu:"
+
+# OPAC > Appearance
+#: ../../source/implementation_checklist.rst:634
+#, fuzzy
+msgid ":ref:`OPACResultsSidebar` : Enter the HTML that will appear below the facets on your search results"
+msgstr "Zahrnúť nasledovné HTML pod aspekty vo výsledkoch hľadania v OPACu:"
+
+#: ../../source/implementation_checklist.rst:637
+msgid ":ref:`OPACMySummaryHTML` : Enter the HTML that will appear in the far right of the circulation summary in the OPAC"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:641
+#, fuzzy
+msgid "Customize your stylesheets:"
+msgstr "Prispôsobiť rozloženia etikiet"
+
+#: ../../source/implementation_checklist.rst:643
+msgid ":ref:`OPACUserCSS` : Enter any additional fields you want to define styles for"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:646
+msgid ":ref:`opaclayoutstylesheet` : Point to a CSS file on your Koha server"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:649
+msgid ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>` : Decide if you want search terms to be highlighted on the search results"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:652
+msgid ":ref:`hidelostitems` : Decide if you want to show patrons items you have marked as lost"
+msgstr ""
+
+# OPAC > Appearance
+#: ../../source/implementation_checklist.rst:655
+#, fuzzy
+msgid ":ref:`BiblioDefaultView` : Decide what view is the default for bib records on the OPAC"
+msgstr "Predvolene, zobraziť knižničné záznamy"
+
+#: ../../source/implementation_checklist.rst:658
+msgid ":ref:`OPACShelfBrowser` : Decide if you want to enable the shelf browse functionality"
+msgstr ""
+
+# OPAC > Appearance
+#: ../../source/implementation_checklist.rst:661
+#, fuzzy
+msgid ":ref:`OPACURLOpenInNewWindow` : Decide if URLs clicked in the OPAC are opened in a new window"
+msgstr "webstránku v novom okne."
+
+#: ../../source/implementation_checklist.rst:664
+msgid ":ref:`SearchMyLibraryFirst` : If you have a multi-branch system decide if you want patrons to search their library first"
+msgstr ""
+
+# OPAC > Features
+#: ../../source/implementation_checklist.rst:668
+#, fuzzy
+msgid ":ref:`OpacAuthorities` : Decide if you want patrons to be able to search your authority file"
+msgstr "čitateľom hľadať vo vašich záznamoch autorít."
+
+#: ../../source/implementation_checklist.rst:671
+msgid ":ref:`OpacBrowser` : Decide if you want patrons to browse your authority file (French libraries only)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:674
+msgid ":ref:`OPACSearchForTitleIn` : Choose which libraries you want patrons to be able to re-run their search in"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:677
+msgid ":ref:`OpacAddMastheadLibraryPulldown` : If you're a multi-branch system you can add a pull down to the search bar for patrons to search which library to search"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:681
+msgid ":ref:`EnableOpacSearchHistory` : Decide if you want the system to keep a search history"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:686
+msgid "If you have the :ref:`OpacBrowser` preference set decide :ref:`when you want the contents to rebuild <cron-authorities-browser-label>` (French libraries only)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:690
+msgid "If you have :ref:`custom RSS feeds <custom-rss-feeds-label>`, decide when you want the :ref:`feed to be populated <cron-rss-feeds-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:695
+#, fuzzy
+msgid "Editable OPAC Regions"
+msgstr "Editovateľné v OPACu: "
+
+#: ../../source/implementation_checklist.rst:697
+msgid "Using the OPAC system preferences you can customize various regions, the following graphic will define what preferences update each of the regions in the Bootstrap theme."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:701
+msgid "|image1068|"
+msgstr "|image1068|"
+
+#: ../../source/implementation_checklist.rst:706
+#, fuzzy
+msgid "Enhanced Content Configuration"
+msgstr "Nastavenia rozšíreného obsahu"
+
+#: ../../source/implementation_checklist.rst:708
+msgid "Koha allows you to pull in content from outside sources to enhance your bib records. All of this content can be toggled on and off using the enhanced content system preferences."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:712
+msgid ":ref:`FRBR/Editions <frbrizeeditions-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:714
+msgid "If you would like to have your OPAC and/or staff client show an 'Editions' tab on the bibliographic record, you want to enable one or the other FRBR preferences and then the ISBN service ThingISBN."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:719
+msgid ":ref:`Amazon <amazon-system-preferences-label>` : This service is free and just requires that you visit http://aws.amazon.com to sign up"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:722
+msgid "Using the Amazon preferences you can choose to show cover images from Amazon."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:725
+msgid ":ref:`Babelthèque`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:727
+msgid "This is a pay service. Contact Babelthèque to learn how to enable this content in the OPAC."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:730
+msgid ":ref:`Baker and Taylor <baker-and-taylor-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:732
+msgid "This is a pay service from Baker & Taylor. Contact Baker & Taylor for the information to enter into these preferences."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:735
+msgid ":ref:`HTML5 Media`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:737
+msgid "This allows libraries to embed streaming media in their catalog"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:739
+msgid ":ref:`Google`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:741
+msgid "This service is free and does not require registration, simply enable GoogleJackets and you're set to go."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:744
+msgid ":ref:`I Dream Books <idreamlibraries-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:746
+msgid "This is a free service that compiles reviews for popular titles from many different sources."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:749
+msgid ":ref:`LibraryThing`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:751
+msgid "With the exception of ThingISBN, you will need to contact LibraryThing for the information to enter into these preferences"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:754
+msgid "Enabling ThingISBN will help to populate the editions tab on the bib record display if you have enabled FRBR."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:757
+msgid ":ref:`Novelist Select`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:759
+msgid "This is a pay service from Ebsco. Contact Ebsco for the information to enter into these preferences"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:762
+#, fuzzy
+msgid ":ref:`Open Library`"
+msgstr "Open Library: "
+
+#: ../../source/implementation_checklist.rst:764
+msgid "Open Library project is an open system that you can pull cover images (and in the future additional content) from"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:767
+#, fuzzy
+msgid ":ref:`Overdrive`"
+msgstr "OverDrive "
+
+#: ../../source/implementation_checklist.rst:769
+msgid "This is a pay service that libraries can subscribe to for ebook content. If the library subscribes to Overdrive they can integrate that content in to Koha for free."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:773
+msgid ":ref:`Syndetics`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:775
+msgid "This is a pay service from Syndetics to add content for your bib records. Contact Syndetics for the information to enter into these preferences."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:779
+msgid ":ref:`Tagging <tagging-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:781
+#, fuzzy
+msgid "Choose whether or not you want to allow patrons to add tags to records in Koha."
+msgstr "Zvoľte či chcete alebo nechcete hľadať zhodné záznamy "
+
+#: ../../source/implementation_checklist.rst:787
+#, fuzzy
+msgid "Acquisitions Configuration"
+msgstr "Informácie o akvizíciách"
+
+#: ../../source/implementation_checklist.rst:789
+msgid "When using acquisitions in Koha you first need to define some defaults."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:791
+msgid "Set up your :ref:`funds and budgets <budgets-label>`"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:793
+msgid "Choose your :ref:`default currency <currencies-and-exchange-rates-label>` and enter others if you order from multiple countries"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:796
+#, fuzzy
+msgid "Enter in your :ref:`vendor information <vendors-label>`"
+msgstr "Zadajte informácie o vašom predajcovi do zobrazeného formulára."
+
+#: ../../source/implementation_checklist.rst:798
+msgid "Create an :ref:`Framework with the code ACQ <marc-bibliographic-frameworks-label>` (if you're going to enter item records at the time of ordering or receiving)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:802
+#, fuzzy
+msgid "Acquisitions System preferences"
+msgstr "&rsaquo; Nastavenia systému"
+
+#: ../../source/implementation_checklist.rst:804
+msgid ":ref:`AcqCreateItem` : Decide if an item record is created during acquisition"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:807
+msgid ":ref:`CurrencyFormat` : Decide how you want monetary amounts to display"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:810
+msgid ":ref:`gist` : Enter your sales tax (if you are billed for tax)"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:813
+msgid ":ref:`OrderPdfFormat` : Decide what format you want your print orders to use"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:819
+#, fuzzy
+msgid "Serials Configuration"
+msgstr "Uložiť konfiguráciu"
+
+#: ../../source/implementation_checklist.rst:821
+msgid "When you use serials there are a few options you can set before hand."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:823
+#, fuzzy
+msgid "Serials System Preferences"
+msgstr "Všeobecné nastavenia systému"
+
+#: ../../source/implementation_checklist.rst:825
+msgid ":ref:`RenewSerialAddsSuggestion` : Decide if you want renewing serials to add a suggestion for easy purchasing"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:829
+msgid ":ref:`RoutingSerials` : Decide if you want to route serials around your library"
+msgstr ""
+
+# Serials
+#: ../../source/implementation_checklist.rst:832
+#, fuzzy
+msgid ":ref:`RoutingListAddReserves` : Decide if holds are placed on serials when there is a routing list in place"
+msgstr "rezerváciu na prijaté periodiká, ak sú na distribučnom zozname."
+
+# Serials
+#: ../../source/implementation_checklist.rst:837
+#, fuzzy
+msgid ":ref:`StaffSerialIssueDisplayCount` : Decide how many of the most recent issues to display in the staff client"
+msgstr "predošlých čisel periodina v knihovníckom rozhraní."
+
+# Serials
+#: ../../source/implementation_checklist.rst:841
+#, fuzzy
+msgid ":ref:`OPACSerialIssueDisplayCount` : Decide how many of the most recent issues to display in the OPAC"
+msgstr "predošlé čísla periodika v OPACu."
+
+# Serials
+#: ../../source/implementation_checklist.rst:844
+#, fuzzy
+msgid ":ref:`SubscriptionHistory` : Decide how you want the subscription information to display in the OPAC"
+msgstr "Keď sa zobrazuje informácia o predplatnom pre knižničný záznam, predvoľte"
+
+#: ../../source/implementation_checklist.rst:850
+#, fuzzy
+msgid "Planning for Go-Live"
+msgstr "Plánovanie pre %s podľa %s"
+
+#: ../../source/implementation_checklist.rst:852
+msgid "Once you have all of your settings ready, you need to prepare for making your system live:"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:855
+msgid "Decide if you need training by an outside service or if your staff can do the training themselves."
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:858
+msgid "Make sure that there is time for your staff to play with your test system and get comfortable with it"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:861
+msgid "If this is a migration, work with your previous company to extract data right before you go live"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:864
+msgid "Come up with URLs for your new Koha OPAC & Staff Client"
+msgstr ""
+
+#: ../../source/implementation_checklist.rst:866
+msgid "Make sure that if you're hosting your own system you have a backup plan"
+msgstr ""
+

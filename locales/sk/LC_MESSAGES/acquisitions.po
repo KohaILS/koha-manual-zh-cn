@@ -1,0 +1,2031 @@
+# Compendium of sk.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-sk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-18 01:15-0300\n"
+"PO-Revision-Date: 2019-03-14 21:18-0300\n"
+"Language-Team: Koha Translation Team \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/acquisitions.rst:6
+msgid "Acquisitions"
+msgstr "Akvizície"
+
+#: ../../source/acquisitions.rst:8
+msgid "The Koha Acquisitions module provides a way for the library to record orders placed with vendors and manage purchase budgets."
+msgstr "Modul Akvizície ponúka knižnici spôsob, ktorým zaznamenáva objednávky zadané predajcami a spracovať rozpočty nákupov."
+
+#: ../../source/acquisitions.rst:11
+#, fuzzy
+msgid "*Get there:* More > Acquisitions"
+msgstr "Predajca v Akvizíciách"
+
+#: ../../source/acquisitions.rst:16
+msgid "Setup"
+msgstr "Inštalácia"
+
+#: ../../source/acquisitions.rst:18
+#, fuzzy
+msgid "Before using the Acquisitions module you will want to make sure that you have completed all of the set up."
+msgstr "Pred použitím modulu Akvizícií sa ešte uistite, že ste dokončili celý setup."
+
+#: ../../source/acquisitions.rst:21
+msgid "First, set your :ref:`acquisitions system preferences <acquisitions-system-preferences-label>` and :ref:`acquisitions administration <acquisitions-module-label>` to match your library's workflow. Before setting your :ref:`EDI accounts` and :ref:`library EANs` you will need to have :ref:`entered your vendors <add-a-vendor-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:26
+msgid "On the main acquisitions page you will see your library's funds listed."
+msgstr ""
+
+#: ../../source/acquisitions.rst:28
+msgid "|image781|"
+msgstr "|image781|"
+
+#: ../../source/acquisitions.rst:30 ../../source/acquisitions.rst:201
+#: ../../source/acquisitions.rst:246 ../../source/acquisitions.rst:328
+#: ../../source/acquisitions.rst:340 ../../source/acquisitions.rst:486
+#: ../../source/acquisitions.rst:549 ../../source/acquisitions.rst:707
+#: ../../source/acquisitions.rst:932 ../../source/acquisitions.rst:1013
+#: ../../source/acquisitions.rst:1081 ../../source/acquisitions.rst:1129
+#: ../../source/acquisitions.rst:1200 ../../source/acquisitions.rst:1215
+#, fuzzy
+msgid "**Note**"
+msgstr "Poznámka"
+
+#: ../../source/acquisitions.rst:32
+msgid "If the total line is confusing for the funds you have set up you can hide it by adding"
+msgstr ""
+
+#: ../../source/acquisitions.rst:39
+msgid "to the :ref:`IntranetUserCSS` preference."
+msgstr ""
+
+#: ../../source/acquisitions.rst:41
+msgid "To see all active funds you can click the checkbox next to 'Show active and inactive' above the funds table."
+msgstr ""
+
+#: ../../source/acquisitions.rst:44
+msgid "To see a history of all orders in a fund you can click on the linked amount and it will run a search for you."
+msgstr ""
+
+#: ../../source/acquisitions.rst:47
+msgid "|image782|"
+msgstr "|image782|"
+
+#: ../../source/acquisitions.rst:49
+msgid "Learn more in the :ref:`Budget/fund tracking` section of this manual."
+msgstr ""
+
+#: ../../source/acquisitions.rst:55
+msgid "Vendors"
+msgstr "Predajca"
+
+#: ../../source/acquisitions.rst:57
+#, fuzzy
+msgid "Before any orders can be placed you must first enter at least one vendor."
+msgstr "Skôr ako zadáte akékoľvek objednávky, musíte najprv zadať najmenej jedného predajcu."
+
+#: ../../source/acquisitions.rst:63
+#, fuzzy
+msgid "Add a vendor"
+msgstr "Pridať predajcu"
+
+#: ../../source/acquisitions.rst:65
+#, fuzzy
+msgid "To add a vendor click the 'New vendor' button on the Acquisitions page"
+msgstr "Pre pridanie predajcu, kliknite na tlačidlo 'Nový predajca' na stránke Akvizícií."
+
+#: ../../source/acquisitions.rst:67
+msgid "|image783|"
+msgstr "|image783|"
+
+#: ../../source/acquisitions.rst:69
+#, fuzzy
+msgid "The vendor add form is broken into three pieces"
+msgstr "Formulár pridania predajcu je rozdelený do troch častí:"
+
+#: ../../source/acquisitions.rst:71
+#, fuzzy
+msgid "The first section is for basic information about the vendor"
+msgstr "Prvá sekcia je pre základnú informáciu o predajcovi. "
+
+#: ../../source/acquisitions.rst:73
+msgid "|image784|"
+msgstr "|image784|"
+
+#: ../../source/acquisitions.rst:75
+#, fuzzy
+msgid "Of these fields, only the vendor name is required, the rest of the information should be added to help with generating claim letters and invoices"
+msgstr "Z daných polí je povinné len meno predajcu. Zvyšok informácií by sa mal pridať pre pomoc s vytváraním reklamačných listov a faktúr."
+
+#: ../../source/acquisitions.rst:79
+#, fuzzy
+msgid "The second section is for information regarding your contact at the vendor's office"
+msgstr "Druhá sekcia je informácia ohľadom Vášho kontaktu v kancelárii predajcu. "
+
+#: ../../source/acquisitions.rst:82
+msgid "|image785|"
+msgstr "|image785|"
+
+#: ../../source/acquisitions.rst:84
+#, fuzzy
+msgid "None of these fields are required, they should only be entered if you want to keep track of your contact's information within Koha"
+msgstr "Žiadne z týchto polí nie je povinné, mali by sa zadávať len ak chcete sledovať svoje kontaktné informácie vnútri Kohy."
+
+#: ../../source/acquisitions.rst:87
+msgid "Primary acquisitions contact: check this box if this person is your primary contact regarding acquisitions from this vendor"
+msgstr ""
+
+#: ../../source/acquisitions.rst:89
+msgid "Primary serials contact: check this box if this person is your primary contact regarding serial acquisitions from this vendor"
+msgstr ""
+
+#: ../../source/acquisitions.rst:91
+msgid "Contact when ordering? check this box if you want to be able to send your orders by email directly to this person"
+msgstr ""
+
+#: ../../source/acquisitions.rst:93
+msgid "Contact about late orders? check this box if you want to be able to send your acquisitions claims by email directly to this person"
+msgstr ""
+
+#: ../../source/acquisitions.rst:95
+msgid "Contact about late issues? check this box if you want to be able to send your serials claims by email directly to this person"
+msgstr ""
+
+#: ../../source/acquisitions.rst:97
+#, fuzzy
+msgid "You can add more than one contact per vendor by clicking on the 'Add another contact' button"
+msgstr "Môžete tiež vrátiť Váš import kliknutím na tlačidlo 'Vrátiť import do katalógu'"
+
+#: ../../source/acquisitions.rst:99
+#, fuzzy
+msgid "The final section is for billing information"
+msgstr "Záverečná sekcia slúži pre fakturačnú informáciu: "
+
+#: ../../source/acquisitions.rst:101
+msgid "|image786|"
+msgstr "|image786|"
+
+#: ../../source/acquisitions.rst:103
+#, fuzzy
+msgid "To be able to order from a vendor you must make them 'Active'"
+msgstr "Aby ste mohli objednávať u predajcu, musíte ho označiť za 'Aktívneho.'"
+
+#: ../../source/acquisitions.rst:105
+#, fuzzy
+msgid "For list prices and invoice prices choose the currency"
+msgstr "Pre cenníkové ceny a fakturačné ceny, zvoľte menu. "
+
+#: ../../source/acquisitions.rst:107
+#, fuzzy
+msgid "Currencies are assigned in the :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` admin area"
+msgstr "Meny sa nastavujú v administrátorskej oblasti Meny &amp; Výmenné kurzy."
+
+#: ../../source/acquisitions.rst:109
+#, fuzzy
+msgid "If your library is charged tax mark your tax number as registered"
+msgstr "Ak vaša knižnica platí daň, označte vaše Číslo dane ako je registrované."
+
+#: ../../source/acquisitions.rst:111
+#, fuzzy
+msgid "Note if you list prices and/or invoice prices include tax"
+msgstr "Poznámka: ak uvádzate ceny a/alebo fakturačné ceny, zahrňte daň."
+
+#: ../../source/acquisitions.rst:113
+#, fuzzy
+msgid "If the vendor offers a consistent blank discount, enter that in the 'Discount' field"
+msgstr "Ak predajca ponúka stabilnú zľavu, vpíšte ju do poľa 'Zľava'. "
+
+#: ../../source/acquisitions.rst:116
+msgid "You can enter item specific discounts when placing an order"
+msgstr "Môžete zadať osobitné zľavy na exempláre, keď zadávate objednávku"
+
+#: ../../source/acquisitions.rst:118
+#, fuzzy
+msgid "Enter your tax rate if your library is charged taxes on orders"
+msgstr "Zadajte vašu daňovú sadzbu, ak vaša knižnica platí dane na objednávky."
+
+#: ../../source/acquisitions.rst:120
+#, fuzzy
+msgid "If you know about how long it usually takes orders to arrive from this vendor you can enter a delivery time. This will allow Koha to estimate when orders will arrive at your library on the late orders report."
+msgstr "Ak viete, ako dlho zvyčajne trvá kým príde objednávka od predajcu, môžete zadať čas doručenia. Toto umožní Kohe odhadnúť, kedy objednávky prídu to vašej knižnice v správe oneskorených objednávok."
+
+#: ../../source/acquisitions.rst:125
+#, fuzzy
+msgid "Notes are for internal use"
+msgstr "Poznámky slúžia na vnútorné použitie."
+
+#: ../../source/acquisitions.rst:130
+#, fuzzy
+msgid "View/edit a vendor"
+msgstr "Pridať/Upraviť predajcu"
+
+#: ../../source/acquisitions.rst:132
+#, fuzzy
+msgid "To view a vendor's information page you must search for the vendor from the Acquisitions home page. Your search can be for any part of the vendor's name:"
+msgstr "Pre zobrazenie stránky informácií o predajcovi musíte vyhľadať predajcu z domovskej stránky Akvizícií. Môžete hľadať akúkoľvek časť mena predajcu. Z výsledkov, kliknite na meno predajcu, ktorého chcete zobraziť alebo upraviť."
+
+#: ../../source/acquisitions.rst:136
+msgid "|image787|"
+msgstr "|image787|"
+
+#: ../../source/acquisitions.rst:138
+#, fuzzy
+msgid "From the results, click on the name of the vendor you want to view or edit"
+msgstr "Vo výsledkoch kliknite na odkaz Objednávka vedľa exemplára, ktorý chcete zakúpiť."
+
+#: ../../source/acquisitions.rst:141 ../../source/acquisitions.rst:873
+msgid "|image788|"
+msgstr "|image788|"
+
+#: ../../source/acquisitions.rst:143
+#, fuzzy
+msgid "To make changes to the vendor, simply click the 'Edit vendor' button."
+msgstr "Pre úpravu predajcu, jednoducho kliknite na tlačidlo 'Upraviť'."
+
+#: ../../source/acquisitions.rst:145
+#, fuzzy
+msgid "If the vendor has no baskets attached to it then a 'Delete vendor' button will also be visible and the vendor can be deleted. Otherwise you will see a 'Receive shipment' button."
+msgstr "Ak predajca nemá k nim pridané košíky, zobrazí sa tiež tlačidlo 'Odstrániť', ktorým sa bude dať predajca odstrániť."
+
+#: ../../source/acquisitions.rst:149
+msgid "|image789|"
+msgstr "|image789|"
+
+#: ../../source/acquisitions.rst:154
+#, fuzzy
+msgid "Vendor contracts"
+msgstr "Zmluvy predajcu"
+
+#: ../../source/acquisitions.rst:156
+msgid "You can define contracts (with a start and end date) and attach them to a vendor. This is used so that at the end of the year you can see how much you spent on a specific contract with a vendor. In some places, contracts are set up with a minimum and maximum yearly amount."
+msgstr "Môžete definovať zmluvy (s počiatočným a koncovým dátumom) a pripojiť ich k predajcovi. Toto sa používa na to, aby ste na konci roka videli, koľko ste minuli na osobitnú zmluvu s predajcom. Na niektorých miestach sa zmluvy nastavujú s minimálnou a maximálnou ročnou sumou."
+
+#: ../../source/acquisitions.rst:164
+msgid "Add a contract"
+msgstr "Pridať zmluvu"
+
+#: ../../source/acquisitions.rst:166
+#, fuzzy
+msgid "At the top of a vendor information Page, you will see a 'New contract' button."
+msgstr "Navrchu stránky s informáciou o predajcovi uvidíte tlačidlo 'Nová zmluva'."
+
+#: ../../source/acquisitions.rst:169
+msgid "|image790|"
+msgstr "|image790|"
+
+#: ../../source/acquisitions.rst:171
+#, fuzzy
+msgid "The contract form will ask for some very basic information about the contract"
+msgstr "Formulár zmluvy zisťuje niektoré veľmi základné informácie o zmluve."
+
+#: ../../source/acquisitions.rst:174
+msgid "|image791|"
+msgstr "|image791|"
+
+#: ../../source/acquisitions.rst:176 ../../source/acquisitions.rst:317
+#: ../../source/acquisitions.rst:421 ../../source/acquisitions.rst:689
+#: ../../source/acquisitions.rst:814 ../../source/acquisitions.rst:833
+#: ../../source/acquisitions.rst:846 ../../source/acquisitions.rst:907
+#: ../../source/acquisitions.rst:1286
+#, fuzzy
+msgid "**Important**"
+msgstr "Dôležité "
+
+#: ../../source/acquisitions.rst:178
+#, fuzzy
+msgid "You cannot enter a contract retrospectively. The end date must not be before today's date."
+msgstr "Dôležité: Nebudete môcť zadať zmluvu retrospektívne, koncový dátum nesmie byť pred dnešným dátumom."
+
+#: ../../source/acquisitions.rst:181
+msgid "Once the contract is saved it will appear below the vendor information."
+msgstr "Po uložení zmluvy, táto sa objaví pod informáciou o predajcovi."
+
+#: ../../source/acquisitions.rst:183
+msgid "|image792|"
+msgstr "|image792|"
+
+#: ../../source/acquisitions.rst:185
+#, fuzzy
+msgid "It will also be an option when creating a basket"
+msgstr "Bude to tiež možnosťou pri vytváraní košíka."
+
+#: ../../source/acquisitions.rst:187
+msgid "|image793|"
+msgstr "|image793|"
+
+#: ../../source/acquisitions.rst:192
+#, fuzzy
+msgid "Managing purchase suggestions"
+msgstr "Spracovať návrhy"
+
+#: ../../source/acquisitions.rst:194
+#, fuzzy
+msgid "Purchase suggestions can be generated in one of two ways. You can create suggestions via the staff client either for the library or :ref:`on the patron's behalf <purchase-suggestions-label>` from their record. Depending on your settings in the :ref:`suggestion` system preference, patrons may also be able to make purchase suggestions via the OPAC."
+msgstr "V závislosti od Vašich nastavení v systémových nastaveniach návrhov, čitatelia môžu navrhnúť nákup cez OPAC. Keď návrh čaká v knižnici na odobrenie, objaví sa na domácej stránke Akvizícií pod hľadaním predajcu."
+
+#: ../../source/acquisitions.rst:203
+msgid "You need to be logged in as a staff member with the suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>` in order to view and work with purchase suggestions."
+msgstr ""
+
+#: ../../source/acquisitions.rst:207
+msgid "When a suggestion is waiting for library review, it will appear on the Acquisitions home page next to the vendor search."
+msgstr ""
+
+#: ../../source/acquisitions.rst:210
+msgid "|image794|"
+msgstr "|image794|"
+
+#: ../../source/acquisitions.rst:212
+#, fuzzy
+msgid "It will also appear on the main staff dashboard under the module labels:"
+msgstr "Objaví sa to aj na hlavnom paneli intranetu pod modulom etikiet"
+
+#: ../../source/acquisitions.rst:214
+msgid "|image795|"
+msgstr "|image795|"
+
+#: ../../source/acquisitions.rst:216
+msgid "Clicking 'Manage suggestions' will take you to the suggestion management tool. If there are no pending suggestions you can access the suggestion management tool by clicking the 'Manage suggestions' link on the menu on the left of the Acquisitions page."
+msgstr "Kliknutím na 'Spracovať návrhy' sa dostanete do nástroja spracovania návrhov. Ak tam práve nie sú nevybavené návrhy, môžete vojsť do nástroja spracovania návrhov kliknutím na odkaz 'Spracovať návrhy' v ponuke naľavo od stránky Akvizícií."
+
+#: ../../source/acquisitions.rst:221
+msgid "|image796|"
+msgstr "|image796|"
+
+#: ../../source/acquisitions.rst:223
+msgid "Your suggestions will be sorted into several tabs: Accepted, Pending, Checked, Ordered and/or Rejected. Each accepted or rejected suggestion will show the name of the librarian who managed the suggestion and the reason they gave for accepting or rejecting it (found under 'Status')."
+msgstr "Vaše návrhy budú rozdelené do troch kategórií: Schválené, Nevybavené, a Zamietnuté. Každý schválený alebo zamietnutý návrh zobrazí meno knihovníka, ktorý spracúval návrh, a dôvod, ktorý udal pre jeho schválenie alebo zamietnutie (zobrazené pri 'Stave')."
+
+#: ../../source/acquisitions.rst:228
+#, fuzzy
+msgid "An 'Accepted' suggestion is one that you have marked as 'Accepted' using the form below the suggestions. A 'Pending' suggestion is one that is awaiting action from the library. A 'Checked' suggestion is one that has been marked as 'Checked' using the form before the suggestions. An 'Ordered' suggestion is on that has been ordered using the '`From a purchase suggestion <#orderfromsuggestion>`__' link in your basket. A 'Rejected' suggestion is one that you have marked at 'Rejected' using the form below the list of suggestions."
+msgstr "'Prijatý' návrh je ten, ktorý ste označili ako 'Prijatý' pomocou formulára pod návrhmi. 'Nevybavený' návrh je ten, ktorý čaká na schválenie z knižnice. 'Vybratý' návrh je ten, ktorý bol označený ako 'Vybratý' pomocou formulára pred návrhmi. 'Objednaný' návrh je ten, ktorý bol objednaný pomocou odkazu 'Z návrhu na nákup' vo vašom košíku. 'Zamietnutý' návrh je ten, ktorý ste označili ako 'zamietnutý' pomocou formulára pod zoznamom návrhov."
+
+#: ../../source/acquisitions.rst:237
+msgid "For libraries with lots of suggestions, there are filters on the left hand side of the Manage Suggestions page to assist in limiting the number of titles displayed on the screen."
+msgstr "Pre knižnice s mnohými návrhmi, jestvujú filtre na ľavej strane od stránky Spracovania návrhov, ktoré Vám pomôžu obmedziť množstvo zobrazených titulov."
+
+#: ../../source/acquisitions.rst:241
+msgid "|image797|"
+msgstr "|image797|"
+
+#: ../../source/acquisitions.rst:243
+msgid "Clicking on the blue headings will expand the filtering options and clicking '[clear]' will clear all filters and show all suggestions."
+msgstr "Kliknutím na modré hlavičky rozšírite možnosti filtrovania, a kliknutím na '[vymazať]' sa vyčistia všetky filtre a zobrazia sa všetky návrhy."
+
+#: ../../source/acquisitions.rst:248
+msgid "The suggestions page will automatically be limited to suggestions for your library. To see information for all (or any other) libraries click on the 'Acquisition information' filter and change the library."
+msgstr "Stránka návrhov sa automaticky obmedzí iba na návrhy pre vašu knižnicu. Pre zobrazenie informácie o všetkých (alebo iných) knižniciach, kliknite na filter 'Informácie o akvizíciách' a zmeňte knižnicu."
+
+#: ../../source/acquisitions.rst:253
+msgid "|image798|"
+msgstr "|image798|"
+
+#: ../../source/acquisitions.rst:255
+msgid "When reviewing 'Pending' suggestions you can choose to check the box next to the item(s) you want to approve/reject and then choose the status and reason for your selection. You can also choose to completely delete the suggestion by checking the 'Delete selected' box."
+msgstr "Keď prezeráte 'Nevybavené' návrhy, môžete si zvoliť zaškrtnutie políčka vedľa exemplára(ov), ktoré chcete schváliť/zamietnuť a potom si zvoliť stav a dôvod pre Váš výber. Môžete si tiež zvoliť úplné odstránenie návrhu zaškrtnutím políčka 'Odstrániť vybrané'."
+
+#: ../../source/acquisitions.rst:260
+msgid "|image799|"
+msgstr "|image799|"
+
+#: ../../source/acquisitions.rst:262
+msgid "Another option for libraries with long lists of suggestions is to approve or reject suggestions one by one by clicking on the title of the suggestion to open a summary of the suggestion, including information if the item was purchased."
+msgstr "Ďalšou možnosťou pre knižnice s dlhými zoznamami návrhov je schváliť alebo zamietnuť návrhy po jednom kliknutím na titul návrhu, čím sa otvorí súhrn návrhu, spolu s informáciou, či bol exemplár zakúpený."
+
+#: ../../source/acquisitions.rst:267
+msgid "|image800|"
+msgstr "|image800|"
+
+#: ../../source/acquisitions.rst:269
+#, fuzzy
+msgid "Clicking 'edit' to the right of the suggested title or at the top of the suggestion detail page will open a suggestion editing page."
+msgstr "Kliknutím na 'upraviť' napravo od navrhovaného titulu sa otvorí stránka úpravy návrhov."
+
+#: ../../source/acquisitions.rst:272
+msgid "|image801|"
+msgstr "|image801|"
+
+#: ../../source/acquisitions.rst:274
+msgid "From this form you can make edits to the suggestion (adding more details or updating incorrect information provided by the patron). You can also choose to accept or reject the suggestion on an individual basis."
+msgstr "V tomto formulári môžete urobiť úpravy návrhu (pridaním viac detailov alebo aktualizovaním nesprávnych informácií od čitateľa). Môžete si takisto zvoliť schválenie alebo zamietnutie návrhu na individuálnej báze."
+
+#: ../../source/acquisitions.rst:278
+msgid "Choosing to mark a request as 'Pending' will move the request back to the 'Pending' tab."
+msgstr "Voľbou označenia požiadavky ako 'Vyžiadanej' premiestni požiadavku späť na záložku 'Nevybavená'."
+
+#: ../../source/acquisitions.rst:281
+#, fuzzy
+msgid "Reasons for accepting and rejecting suggestions are defined by the `SUGGEST <#suggestauthorized>`__ authorized value."
+msgstr "Dôvody pre prijatie alebo zamietnutie návrhov sú definované prostredníctvom povolenej hodnoty SUGGEST."
+
+#: ../../source/acquisitions.rst:284
+msgid "|image802|"
+msgstr "|image802|"
+
+#: ../../source/acquisitions.rst:286
+msgid "If you choose 'Others...' as your reason you will be prompted to enter your reason in a text box. Clicking 'Cancel' to the right of the box will bring back the pull down menu with authorized reasons."
+msgstr "Ak zvolíte 'Ostatné…' ako Váš dôvod, budete ho môcť zadať do textového políčka. Kliknutím na 'Zrušiť' napravo od políčka sa vrátite do rozbaľovacej ponuky s povolenými dôvodmi."
+
+#: ../../source/acquisitions.rst:290
+msgid "|image803|"
+msgstr "|image803|"
+
+#: ../../source/acquisitions.rst:292
+msgid "You can also assign this suggestion to a fund."
+msgstr ""
+
+#: ../../source/acquisitions.rst:294
+msgid "|image1280|"
+msgstr "|image1280|"
+
+#: ../../source/acquisitions.rst:296
+msgid "This edit can trigger a notice (defined in the :ref:`Notices & slips <notices-and-slips-label>` tool with the `TO\\_PROCESS <#toprocessnotice>`__ notice) to the fund owner that there is a suggestion ready for them to manage if you have turned on the :ref:`cron job to generate these notices <cron-email-suggestions-to-process-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:302
+#, fuzzy
+msgid "Once you have clicked 'Submit' the suggestion will be moved to the matching tab. The status will also be updated on the patron's account in the OPAC and an :ref:`email notice <notices-and-slips-label>` will be sent to the patron using the template that matches the status you have chosen."
+msgstr "Hneď ako ste klikli na 'Odoslať', návrh sa prenesie do záložky zhody. Tento stav sa zaktualizuje aj v účte čitateľa v OPACu a bude mu odoslané E-mailové oznámenie s použitím šablóny, ktorá zodpovedá Vami vybranému stavu."
+
+#: ../../source/acquisitions.rst:307
+msgid "|image804|"
+msgstr "|image804|"
+
+#: ../../source/acquisitions.rst:312
+#, fuzzy
+msgid "Placing orders"
+msgstr "zadávanie objednávky"
+
+#: ../../source/acquisitions.rst:314
+msgid "To place an order you must first search for the vendor or bookseller you want to send the order to."
+msgstr ""
+
+#: ../../source/acquisitions.rst:319
+msgid "If you are planning on using EDIFACT to submit your order you will need to first set up your library's :ref:`EDI accounts` and :ref:`EANs <library-eans-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:326
+#, fuzzy
+msgid "Create a basket"
+msgstr "Vytvoriť sadu"
+
+#: ../../source/acquisitions.rst:330
+msgid "If you're using EDI for ordering you will want to download your order record from your vendor before starting the process in Koha."
+msgstr ""
+
+#: ../../source/acquisitions.rst:333
+msgid "To create a basket you must first search for the vendor you're ordering from:"
+msgstr ""
+
+#: ../../source/acquisitions.rst:336
+msgid "|image805|"
+msgstr "|image805|"
+
+#: ../../source/acquisitions.rst:338
+#, fuzzy
+msgid "And click the 'New basket' button to the right of the vendor name."
+msgstr "Pre pridanie čitateľov do zoznamu, kliknite na tlačidlo 'Pridať čitateľov' napravo od názvu zoznamu."
+
+#: ../../source/acquisitions.rst:342
+msgid "You can also add to an existing basket by clicking the arrow next to the 'View' button at the far right of each basket's information in the results table, and choosing 'Add to basket'."
+msgstr ""
+
+#: ../../source/acquisitions.rst:346
+msgid "|image1406|"
+msgstr "|image1406|"
+
+#: ../../source/acquisitions.rst:348
+#, fuzzy
+msgid "After clicking 'New basket' you will be asked to enter some information about the order:"
+msgstr "Formulár zmluvy zisťuje niektoré veľmi základné informácie o zmluve."
+
+#: ../../source/acquisitions.rst:351
+msgid "|image806|"
+msgstr "|image806|"
+
+#: ../../source/acquisitions.rst:353
+msgid "When adding a basket you want to give it a name that will help you identify it later"
+msgstr "Keď pridávate košík, pomenujte ho tak, aby vám jeho názov pomohol neskôr ho identifikovať"
+
+#: ../../source/acquisitions.rst:356
+#, fuzzy
+msgid "Enter in the billing place and delivery place (this will default the library you're logged in at)"
+msgstr "Zadajte miesto fakturácie a miesto doručenia (predvolene sa zobrazí knižnica, v ktorej ste prihlásení)"
+
+#: ../../source/acquisitions.rst:359
+msgid "If you would like to change the vendor you're ordering from you can use the Vendor pull down menu"
+msgstr "Ak chcete zmeniť predajcu, od ktorého objednávate, môžete použiť rozbaľovaciu ponuku Predajcu"
+
+#: ../../source/acquisitions.rst:362
+msgid "The notes fields are optional and can contain any type of information"
+msgstr "Polia poznámok sú voliteľné a môžu obsahovať ľubovoľný druh informácií"
+
+#: ../../source/acquisitions.rst:364
+msgid "If you're ordering standing items (items which arrive regularly) then you will want to check the 'Orders are standing' box for this basket."
+msgstr ""
+
+#: ../../source/acquisitions.rst:367
+msgid "Note that any one basket cannot contain both firm and standing orders."
+msgstr ""
+
+#: ../../source/acquisitions.rst:369
+msgid "You can choose to create items either upon placing the order, upon receiving the order, or upon cataloging the item. If you choose an option other than the default, it will apply only to this basket. The default is set by the :ref:`AcqCreateItem <acqcreateitem-label>` system preference."
+msgstr ""
+
+#: ../../source/acquisitions.rst:375
+#, fuzzy
+msgid "If you have :ref:`added contracts <add-a-contract-label>` to the vendor you're ordering from, you will also have an option to choose which contract you're ordering these items under."
+msgstr "Ak ste pridali zmluvy k predajcovi, od ktorého ste si objednávali, budete mať tiež možnosť zvoliť si, v ktorej zmluve si dané exempláre objednávate."
+
+#: ../../source/acquisitions.rst:379
+msgid "|image807|"
+msgstr "|image807|"
+
+#: ../../source/acquisitions.rst:381
+#, fuzzy
+msgid "When finished, click 'Save'."
+msgstr "Po dokončení kliknite na 'Uložiť' "
+
+#: ../../source/acquisitions.rst:383
+msgid "|image808|"
+msgstr "|image808|"
+
+#: ../../source/acquisitions.rst:385
+#, fuzzy
+msgid "Once your basket is created, click on 'Add to basket' you are presented with several options for adding items to the order."
+msgstr "Hneď po vytvorení košíka sa Vám predstaví niekoľko možností pridania exemplárov do objednávky."
+
+#: ../../source/acquisitions.rst:388
+msgid "|image1407|"
+msgstr "|image1407|"
+
+#: ../../source/acquisitions.rst:391
+#, fuzzy
+msgid "Order from an existing record"
+msgstr "Objednať z pripraveného súboru"
+
+#: ../../source/acquisitions.rst:393
+msgid "If you are ordering another copy of an existing item, you can simply search for the record in your system."
+msgstr "Ak objednávate ďalšiu kópiu existujúceho exemplára, môžete jednoducho vyhľadať záznam vo vašom systéme."
+
+#: ../../source/acquisitions.rst:396
+#, fuzzy
+msgid "From the results, you can click 'Add order' to be brought to the order form."
+msgstr "Vo výsledkoch, jednoducho kliknite na 'Objednať' a prejdete na objednávkový formulár."
+
+#: ../../source/acquisitions.rst:399
+msgid "|image809|"
+msgstr "|image809|"
+
+#: ../../source/acquisitions.rst:401
+msgid "From the record's detailed view, you can click on the 'Add order' button."
+msgstr ""
+
+#: ../../source/acquisitions.rst:403
+#, fuzzy
+msgid "|image1451|"
+msgstr "|image1451|"
+
+#: ../../source/acquisitions.rst:405
+#, fuzzy
+msgid "You will be brought to the order form"
+msgstr "Vo výsledkoch, jednoducho kliknite na 'Objednať' a prejdete na objednávkový formulár."
+
+#: ../../source/acquisitions.rst:407
+msgid "|image810|"
+msgstr "|image810|"
+
+#: ../../source/acquisitions.rst:409
+msgid "All of the details associated with the item will already be listed under 'Catalog details.'"
+msgstr "Všetky detaily súvisiace s exemplárom už budú uvedené medzi 'Detailmi o katalógu.'"
+
+#: ../../source/acquisitions.rst:413
+#, fuzzy
+msgid "Order from a purchase suggestion"
+msgstr "Objednať z pripraveného súboru"
+
+#: ../../source/acquisitions.rst:415
+#, fuzzy
+msgid "If you allow patrons to make purchase suggestions (learn more in the :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` section of this manual), then you can place orders from those suggestions. In order to keep track of suggestions that have been ordered and received you must place the order using this link."
+msgstr "Ak čitateľom umožníte podávanie návrhov na nákup (čítajte viac v sekcii Spracovanie návrhov v tomto manuáli), môžete zadávať objednávky z týchto návrhov. Pre sledovanie návrhov, ktoré boli objednané a prijaté, musíte pomocou tohto odkazu zadať objednávku."
+
+#: ../../source/acquisitions.rst:423
+msgid "Suggestions must be accepted before you can order them."
+msgstr ""
+
+#: ../../source/acquisitions.rst:425
+msgid "|image811|"
+msgstr "|image811|"
+
+#: ../../source/acquisitions.rst:427
+#, fuzzy
+msgid "From the results, click 'Order' next to the item you want to order and you will be presented with the order form including a link to the suggestion"
+msgstr "Vo výsledkoch kliknite na 'Objednať' vedľa exemplára, ktorý chcete objednať, a zobrazí sa vám objednávkový formulár spolu s odkazom na návrh "
+
+#: ../../source/acquisitions.rst:431
+msgid "|image812|"
+msgstr "|image812|"
+
+#: ../../source/acquisitions.rst:433
+#, fuzzy
+msgid "From this form you can make changes to the catalog details if necessary."
+msgstr "V tomto formulári môžete urobiť zmeny v detailoch katalógu, ak treba."
+
+#: ../../source/acquisitions.rst:436
+msgid "When the item appears in your basket it will include a link to the suggestion."
+msgstr "Keď sa exemplár objaví vo vašom košíku, bude zahŕňať odkaz na návrh."
+
+#: ../../source/acquisitions.rst:439
+msgid "|image813|"
+msgstr "|image813|"
+
+#: ../../source/acquisitions.rst:441
+#, fuzzy
+msgid "Orders added to the basket in this way will notify the patron via email that their suggestion has been ordered (with the 'ORDERED' notice in Tools > :ref:`Notices & slips <existing-notices-and-slips-label>`) and will update the patron's ':ref:`your purchase suggestions <your-purchase-suggestions-label>`' page in the OPAC."
+msgstr "Objednávky pridané týmto spôsobom do košíka upovedomia čitateľa prostredníctvom emailu, že ich návrh bol objednaný a zaktualizuje sa čitateľova stránka 'Moje návrhy na nákup' v OPACu."
+
+#: ../../source/acquisitions.rst:451
+#, fuzzy
+msgid "Order from a serial subscription"
+msgstr "Objednať z pripraveného súboru"
+
+#: ../../source/acquisitions.rst:453
+#, fuzzy
+msgid "If you're using the `Serials <#serials>`__ module you can link your subscription order information to acquisitions by choosing to order 'From a subscription'"
+msgstr "Ak používate modul Periodiká, môžete prepojiť vašu informáciu o objednávke predplatného na akvizície tak, že si zvolíte objednať 'Z predplatného'"
+
+#: ../../source/acquisitions.rst:457
+msgid "After clicking the order link you will be brought to a search page that will help you find your subscription"
+msgstr "Po kliknutí na odkaz objednávky sa dostanete na stránku hľadania, ktorá vám pomôže nájsť vaše predplatné"
+
+#: ../../source/acquisitions.rst:460
+msgid "|image814|"
+msgstr "|image814|"
+
+#: ../../source/acquisitions.rst:462
+msgid "Your results will appear to the right of the form and each subscription will have an 'Order' link to the right"
+msgstr "Vaše výsledky sa objavia napravo od formulára a každé predplatné bude mať napravo odkaz 'Order'"
+
+#: ../../source/acquisitions.rst:465
+msgid "|image815|"
+msgstr "|image815|"
+
+#: ../../source/acquisitions.rst:467
+msgid "Clicking 'Order' will bring the subscription info in to the order form without an 'Add item' section since you are just ordering a subscription and an item isn't needed"
+msgstr "Kliknutím na 'Objednať' sa prenesie informácia o predplatnom v objednávkovom formulári bez časti 'Pridať exemplár', pretože si len objednávate predplatné a exemplár nie je potrebný"
+
+#: ../../source/acquisitions.rst:471
+msgid "|image816|"
+msgstr "|image816|"
+
+#: ../../source/acquisitions.rst:476
+msgid "Order from a new (empty) record"
+msgstr ""
+
+#: ../../source/acquisitions.rst:478
+#, fuzzy
+msgid "To order from a record that can't be found anywhere else, choose the 'From a new (empty) record' option."
+msgstr "Pre objednávku záznamu, ktorý sa už inde nenachádza, zvoľte 'Z nového (prázdneho) záznamu.'"
+
+#: ../../source/acquisitions.rst:481
+msgid "|image817|"
+msgstr "|image817|"
+
+#: ../../source/acquisitions.rst:483
+msgid "You will be presented with an empty form to fill in all of the necessary details about the item you are ordering."
+msgstr "Predstaví sa Vám prázdny formulár, kde môžete vyplniť všetky potrebné detaily o objednávanom exemplári."
+
+#: ../../source/acquisitions.rst:488
+msgid "If the default form does not have catalog details fields necessary to place an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference which will allow the ACQ :ref:`MARC framework <marc-bibliographic-frameworks-label>` to customize the display of fields when ordering."
+msgstr ""
+
+#: ../../source/acquisitions.rst:496
+msgid "Duplicate orders (order from existing orders)"
+msgstr ""
+
+#: ../../source/acquisitions.rst:498
+msgid "You can duplicate an existing order line by choosing the 'From existing orders (copy)' option."
+msgstr ""
+
+#: ../../source/acquisitions.rst:501
+#, fuzzy
+msgid "You will be presented with a search form to search your existing orders."
+msgstr "Predstaví sa Vám prázdny formulár, kde môžete vyplniť všetky potrebné detaily o objednávanom exemplári."
+
+#: ../../source/acquisitions.rst:503
+msgid "|image1408|"
+msgstr "|image1408|"
+
+#: ../../source/acquisitions.rst:505
+#, fuzzy
+msgid "Check the boxes next to the order(s) you want to duplicate."
+msgstr "Vo výsledkoch kliknite na odkaz Objednávka vedľa exemplára, ktorý chcete zakúpiť."
+
+#: ../../source/acquisitions.rst:507
+msgid "|image1409|"
+msgstr "|image1409|"
+
+#: ../../source/acquisitions.rst:512
+#, fuzzy
+msgid "Order from an external source"
+msgstr "Objednať z pripraveného súboru"
+
+#: ../../source/acquisitions.rst:514
+#, fuzzy
+msgid "If you want to search other libraries for an item to purchase, you can use the 'From an external source' option that will allow you to order from a MARC record found via a Z39.50 search."
+msgstr "Ak chcete kvôli kúpe exemplára prehľadať iné knižnice, môžete použiť možnosť 'Z vonkajšieho zdroja', čo Vám umožní ho objednať zo záznamu MARC nájdeného pomocou hľadania v Z39.50. "
+
+#: ../../source/acquisitions.rst:518
+msgid "|image818|"
+msgstr "|image818|"
+
+#: ../../source/acquisitions.rst:520
+#, fuzzy
+msgid "From the results, click the 'Order' button next to the item you want to purchase."
+msgstr "Vo výsledkoch kliknite na odkaz Objednávka vedľa exemplára, ktorý chcete zakúpiť."
+
+#: ../../source/acquisitions.rst:523
+msgid "|image819|"
+msgstr "|image819|"
+
+#: ../../source/acquisitions.rst:525
+#, fuzzy
+msgid "If the item you're ordering from an external source looks like it might be a duplicate, Koha will warn you and give you options on how to proceed."
+msgstr "Ak exemplár, objednávaný z vonkajšieho zdroja, vyzerá na duplikát, Koha vás upozorní a dá Vám možnosti, ako pokračovať. "
+
+#: ../../source/acquisitions.rst:529
+msgid "|image820|"
+msgstr "|image820|"
+
+#: ../../source/acquisitions.rst:531
+#, fuzzy
+msgid "From the warning, you can choose to order another copy on the existing bibliographic record, create a new bibliographic record, or cancel your order of this item."
+msgstr "Z upozornenia si môžete zvoliť, či chcete len objednať ďalšiu kópiu pre existujúci knižničný záznam, vytvoriť nový záznam alebo zrušiť objednávku tohto exemplára."
+
+#: ../../source/acquisitions.rst:535
+msgid "In the order form that pops up, you will not be able to edit the catalog details."
+msgstr "Vo vyskakovacom objednávkovom formulári nebudete môcť upravovať detaily o katalógu."
+
+#: ../../source/acquisitions.rst:538
+msgid "|image821|"
+msgstr "|image821|"
+
+#: ../../source/acquisitions.rst:543
+#, fuzzy
+msgid "Order from a new file"
+msgstr "Objednať z pripraveného súboru"
+
+#: ../../source/acquisitions.rst:545
+msgid "If your vendor sent you a record file (a .mrc file for example), you can add orders using the records in that file. Choose the 'From a new file' option."
+msgstr ""
+
+#: ../../source/acquisitions.rst:551
+msgid "Note that you need the stage_marc_import :ref:`tool permission <granular-tools-permissions-label>` in order to be able order from a new file."
+msgstr ""
+
+#: ../../source/acquisitions.rst:554
+msgid "You will be taken to the :ref:`Stage MARC records for import <stage-marc-records-for-import-label>` tool. Stage your file as described in that section."
+msgstr ""
+
+#: ../../source/acquisitions.rst:558
+msgid "Once the files are staged, you can click on the 'Add staged files to basket' button."
+msgstr ""
+
+#: ../../source/acquisitions.rst:561
+msgid "|image1410|"
+msgstr "|image1410|"
+
+#: ../../source/acquisitions.rst:563 ../../source/acquisitions.rst:605
+#, fuzzy
+msgid "Next to each title is a checkbox, check the items you would like to order, or choose 'Select all' at the top. Depending on your settings in the :ref:`MarcFieldsToOrder` preference, Koha will populate the next screen with with the relevant Quantity, Price, Fund, Statistic 1, and Statistic 2 found within the staged file."
+msgstr "Vedľa každého titulu je políčko, zaškrtnite exempláre, ktoré chcete objednať, alebo zvoľte 'Vybrať všetko' navrchu. V závislosti od vašich nastavení v MarcFieldsToOrder Koha vygeneruje ďalšiu stránku s príslušným Množstvom, Cenou, Fondom, Štatistikou 1 a 2, ktoré sa nachádzajú v pripravenom súbore."
+
+#: ../../source/acquisitions.rst:570 ../../source/acquisitions.rst:612
+msgid "|image1282|"
+msgstr "|image1282|"
+
+#: ../../source/acquisitions.rst:572 ../../source/acquisitions.rst:614
+#, fuzzy
+msgid "In the 'Item information' tab you can enter information that will be added to every ordered item such as item type, collection code and not for loan status."
+msgstr "V záložke 'Informácia o exemplári' môžete zadať informáciu, ktorá bude pridaná ku každému objedanému exempláru, ako je typ exemplára, kód zbierky a stav nevypožičateľnosti."
+
+#: ../../source/acquisitions.rst:576 ../../source/acquisitions.rst:618
+msgid "|image1283|"
+msgstr "|image1283|"
+
+#: ../../source/acquisitions.rst:578 ../../source/acquisitions.rst:620
+#, fuzzy
+msgid "If no information is imported in the fund information from the MARC with the :ref:`MarcFieldsToOrder` preference, the 'Default accounting details' tab can be used to apply values related to the accounting."
+msgstr "Ak zo záznamu MARC nie je naimportovaná žiadna informácia o fonde, na použitie hodnôt súvisiacich s účtovaním možno využiť záložku 'Predvolené detaily účtovania'."
+
+#: ../../source/acquisitions.rst:583 ../../source/acquisitions.rst:625
+msgid "|image1284|"
+msgstr "|image1284|"
+
+#: ../../source/acquisitions.rst:588
+#, fuzzy
+msgid "Order from a staged file"
+msgstr "Objednať z pripraveného súboru"
+
+#: ../../source/acquisitions.rst:590
+msgid "This option is the same as the previous one, but in this case, your file has already been :ref:`staged <stage-marc-records-for-import-label>`. Whether you choose to 'order from a new file' or 'order from a staged file' will depend on your acquisitions workflow or your :ref:`permissions <patron-permissions-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:595
+msgid "Once you click on 'From a staged file', you will get a list of all the staged files in your system."
+msgstr ""
+
+#: ../../source/acquisitions.rst:598
+msgid "|image822|"
+msgstr "|image822|"
+
+#: ../../source/acquisitions.rst:600
+#, fuzzy
+msgid "From the list of files you are presented with, click on the 'Add orders' button to add the records in the staged file to your order."
+msgstr "Zo zoznamu súborov pred Vami, zvoľte odkaz 'Pridať objednávky', aby sa pridali záznamy z pripraveného súboru do vašej objednávky."
+
+#: ../../source/acquisitions.rst:603
+msgid "|image1281|"
+msgstr "|image1281|"
+
+#: ../../source/acquisitions.rst:630
+#, fuzzy
+msgid "Order from titles with highest hold ratios"
+msgstr "Záverečná možnosť pre objednávanie je objednať z pripraveného zoznamu titulov s najvyšším podielom rezervácií "
+
+#: ../../source/acquisitions.rst:632
+#, fuzzy
+msgid "The final option for ordering is to order from a list of titles with the highest hold ratios"
+msgstr "Záverečná možnosť pre objednávanie je objednať z pripraveného zoznamu titulov s najvyšším podielom rezervácií "
+
+#: ../../source/acquisitions.rst:635
+#, fuzzy
+msgid "This option will take you to the holds ratio report where you can find items with a high hold ratio and order additional copies. Next to each title will be a button with the number of items to order, click that and it will add the item to your basket."
+msgstr "Táto možnosť vás privedie k výkazu Podielu rezervácií, kde môžete nájsť exempláre s najvyšším podielom rezervácií a objednať dodatočné kusy. Vedľa každého titulu bude odkaz s počtom exemplárov na objednanie, kliknite naň a tým sa pridá daný exemplár do vášho košíka."
+
+#: ../../source/acquisitions.rst:640
+msgid "|image1285|"
+msgstr "|image1285|"
+
+#: ../../source/acquisitions.rst:642
+#, fuzzy
+msgid "With any of the above ordering options you're presented with an option to notify patrons of the new item when it's received. The contents of that notification can be edited in the :ref:`Notices & slips` tool and will have the code of ACQ\\_NOTIF\\_ON\\_RECEIV. In the 'Patrons' section you will see an option to 'Add user'. Click that button to add patrons who will be notified of the new issue."
+msgstr "S ľubovoľnou vyššie uvedenou možnosťou objednávania sa vám predstaví možnosť upovedomiť čitateľov o prijatí nového exemplára. Obsah tohto oznámenia možno upraviť v nástroji Oznámenia & Ústrižky a bude mať kód ACQ_NOTIF_ON_RECEIV. V sekcii 'Čitatelia' uvidíte možnosť 'Pridať čitateľa'. Kliknutím na toto tlačidlo pridajte čitateľov, ktorí budú upovedomení o tomto novom prírastku."
+
+#: ../../source/acquisitions.rst:649
+#, fuzzy
+msgid "Patron notification search"
+msgstr "Na vedomie čitateľom: "
+
+#: ../../source/acquisitions.rst:651
+#, fuzzy
+msgid "In the window that pops up search for the patrons you'd like to notify and click 'Add'"
+msgstr "V okne, ktoré vyskočí, hľadajte čitateľov, ktorých chcete kontaktovať a kliknite na 'Vybrať'"
+
+#: ../../source/acquisitions.rst:654
+msgid "|image1411|"
+msgstr "|image1411|"
+
+#: ../../source/acquisitions.rst:656
+msgid "Once you're done you can close the window and you'll see the list of patrons under the 'Patrons' section"
+msgstr "Po skončení môžete okno zatvoriť a zobrazí sa vám zoznam čitateľov v sekcii 'Čitatelia'"
+
+#: ../../source/acquisitions.rst:659
+msgid "|image1286|"
+msgstr "|image1286|"
+
+#: ../../source/acquisitions.rst:661
+#, fuzzy
+msgid "After bringing in the record information (for all order methods except for the staged files), if your :ref:`AcqCreateItem` system preference is set to add an item when ordering you will enter the item information next. You need to fill out at least one item record and then click the 'Add item' button at the bottom left of the item form."
+msgstr "Po zadaní informácie o knižničnom zázname (pri všetkých spôsoboch importu okrem pripraveného súboru), ak je vaše systémové nastavenie AcqCreateItem zapnuté na pridávanie exemplárov pri objednávkach, následne zadáte informáciu o exemplári. Musíte vyplniť aspoň jeden záznam o exemplári a potom kliknúť na tlačidlo 'Pridať' vľavo dole vedľa formulára exemplárov."
+
+#: ../../source/acquisitions.rst:667
+msgid "|image823|"
+msgstr "|image823|"
+
+#: ../../source/acquisitions.rst:669
+#, fuzzy
+msgid "After clicking the 'Add item' button below the item record the item will appear above the form and then you can enter your next item the same way (if ordering more than one item)."
+msgstr "Po kliknutí na 'Pridať' sa exemplár zobrazí nad formulárom a potom budete môcť zadať váš ďalší exemplár rovnakým spôsobom (ak objednávate viac ako jeden exemplár)."
+
+#: ../../source/acquisitions.rst:673
+msgid "|image824|"
+msgstr "|image824|"
+
+#: ../../source/acquisitions.rst:675
+msgid "If you are ordering several items, you can click on the 'Add multiple items' instead of adding them one by one. This will ask you how many items you want to add. Simply enter that number in the box and click on 'Add'."
+msgstr ""
+
+#: ../../source/acquisitions.rst:679
+msgid "|image1412|"
+msgstr "|image1412|"
+
+#: ../../source/acquisitions.rst:681
+msgid "Once you have entered the info about the item, you need to enter the Accounting information."
+msgstr "Hneď po zadaní informácie o exemplári, musíte zadať aj zúčtovacie údaje."
+
+#: ../../source/acquisitions.rst:684
+msgid "|image825|"
+msgstr "|image825|"
+
+#: ../../source/acquisitions.rst:686
+msgid "Quantity is populated by the number of items you've added to the order above."
+msgstr "Množstvo sa vyčísli počtom exemplárov, ktoré ste pridali do objednávky hore."
+
+#: ../../source/acquisitions.rst:691
+msgid "If the item is created upon orderinf, you will not be able to edit the quantity manually, you must click 'Add item' below the item form to add as many items as you're ordering."
+msgstr ""
+
+#: ../../source/acquisitions.rst:695
+#, fuzzy
+msgid "The list of funds is populated by the :ref:`funds <funds-label>` you have assigned in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
+msgstr "Zoznam fondov sa vyrobí z fondov, ktorý ste priradili v oblasti Administrácie akvizícií."
+
+#: ../../source/acquisitions.rst:698
+#, fuzzy
+msgid "The currency pull down will have the :ref:`currencies <currencies-and-exchange-rates-label>` you set up in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
+msgstr "Rozbaľovacia ponuka mien bude obsahovať meny, ktoré ste si nastavili v oblasti administrácie akvizícií."
+
+#: ../../source/acquisitions.rst:702
+msgid "The vendor price is the price before any taxes or discounts are applied."
+msgstr "Cena predajcu je cena pred uplatnením daní alebo zliav."
+
+#: ../../source/acquisitions.rst:705
+#, fuzzy
+msgid "If the price is uncertain, check the uncertain price box."
+msgstr "Ak je cena neistá, zaškrtnite políčko neistej ceny. "
+
+#: ../../source/acquisitions.rst:709
+msgid "A basket with at least one uncertain price can't be closed."
+msgstr "Košík s aspoň jednou neistou cenou nemožno uzatvoriť."
+
+#: ../../source/acquisitions.rst:711
+msgid "If you are charged sales tax, choose that from the 'Tax rate' field. This field is populated by the :ref:`gist system preference <gist-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:714
+msgid "Enter the percentage discount you're receiving on this order, once you enter this, hit tab and Koha will populate the rest of the cost fields below."
+msgstr "Vpíšte percentuálnu hodnotu zľavy, ktorú dostávate pre túto objednávku. Len čo ju zadáte, kliknite na záložku a Koha vygeneruje zvyšok polí nákladov nižšie."
+
+#: ../../source/acquisitions.rst:718
+msgid "Retail price is the recommended retail price (RRP), the price set by the publisher or the manufacturer as a recommendation to booksellers."
+msgstr ""
+
+#: ../../source/acquisitions.rst:721
+msgid "Replacement cost is the price it will cost to replace the item. This is the price charged to the user when an item is declared lost (if the :ref:`WhenLostChargeReplacementFee` system preference is set to 'Charge')."
+msgstr ""
+
+#: ../../source/acquisitions.rst:725
+msgid "Budgeted cost is the amount that will be removed from the 'spent' budget. Whether this number includes or excludes taxes will depend on the 'List price' setting for your :ref:`vendor <vendors-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:729
+msgid "Total is the budgeted cost multiplied by the quantity of items ordered."
+msgstr ""
+
+#: ../../source/acquisitions.rst:731
+msgid "You can add an internal note. This will only appear in the acquisitions module and in the staff interface catalog, under the 'Acquisitions details' tab in the detailed record."
+msgstr ""
+
+#: ../../source/acquisitions.rst:735
+msgid "You can also add a vendor note. This will appear in the acquisitions module as well as on the order when exported as CSV."
+msgstr ""
+
+#: ../../source/acquisitions.rst:738
+#, fuzzy
+msgid "If you added statistical categories when :ref:`creating the Fund <add-a-fund-label>`, those values will appear in the two statistics fields."
+msgstr "Ak ste pridali hodnoty plánovania pri vytváraní fondu, tieto hodnoty sa zobrazia vo dvoch poliach hodnoty plánovania."
+
+#: ../../source/acquisitions.rst:742
+msgid "Once you have filled in all of the fields click 'Save' to add the item to your basket. If your price goes over the amount available in the fund you will be presented with a confirmation."
+msgstr ""
+
+#: ../../source/acquisitions.rst:746
+msgid "|image826|"
+msgstr "|image826|"
+
+#: ../../source/acquisitions.rst:748
+msgid "The confirmation warning will allow you order past your fund amount if you so choose."
+msgstr ""
+
+#: ../../source/acquisitions.rst:751
+#, fuzzy
+msgid "After an item is added to the basket you will be presented with a basket summary."
+msgstr "Len čo sa exemplár pridá do košíka, zobrazí sa vám súhrn košíka."
+
+#: ../../source/acquisitions.rst:754
+msgid "|image827|"
+msgstr "|image827|"
+
+#: ../../source/acquisitions.rst:756
+msgid "From here, you can edit or remove the items that you have added."
+msgstr "Odtiaľto môžete upraviť alebo odobrať vami pridané exempláre."
+
+#: ../../source/acquisitions.rst:758
+#, fuzzy
+msgid "Choosing to 'Cancel the order' will delete the order line but leave the record in the catalog."
+msgstr "Voľbou 'Odstrániť objednávku' sa odstráni riadok objednávky ale ponechá sa záznam v katalógu."
+
+#: ../../source/acquisitions.rst:761
+#, fuzzy
+msgid "Choosing to 'Cancel order and delete catalog record' removes both the order line and the record in the catalog."
+msgstr "Voľbou 'Odstrániť objednávku a záznam katalógu' sa odstráni riadok objednávky a záznam v katalógu. "
+
+#: ../../source/acquisitions.rst:764
+msgid "The catalog record cannot always be deleted. You might see notes explaining why."
+msgstr "Záznam v katalógu nie je vždy možné odstrániť. Pozrite sa do poznámok pre ďalšie vysvetlenia."
+
+#: ../../source/acquisitions.rst:767
+msgid "|image829|"
+msgstr "|image829|"
+
+#: ../../source/acquisitions.rst:769
+msgid "On the summary page, you also have the several option through the buttons at the top of the basket header."
+msgstr ""
+
+#: ../../source/acquisitions.rst:772
+msgid "|image830|"
+msgstr "|image830|"
+
+#: ../../source/acquisitions.rst:774
+msgid "Edit basket: edit the basket information, such as the name or the billing place."
+msgstr ""
+
+#: ../../source/acquisitions.rst:777
+msgid "Delete this basket: if the basket is empty, you will get a simple confirmation message before deleting the basket. If the basket contains orders, you will get a confirmation message with several options."
+msgstr ""
+
+#: ../../source/acquisitions.rst:781
+msgid "|image1413|"
+msgstr "|image1413|"
+
+#: ../../source/acquisitions.rst:783
+msgid "Delete basket and orders: this will delete the basket, cancel the orders, refund the used funds, and delete the items (ordered or received)."
+msgstr ""
+
+#: ../../source/acquisitions.rst:786
+msgid "Delete basket, orders, and records: this will delete all of the above plus the bibliographic records associated with the orders (except the ones which can't be deleted because they have remaining items, orders or subscriptions attached)."
+msgstr ""
+
+#: ../../source/acquisitions.rst:791
+msgid "Close this basket: closing the basket will enable you to add it to a basket group (this is optional) and receive its items."
+msgstr ""
+
+#: ../../source/acquisitions.rst:794
+msgid "Export as CSV: this will create a CSV file with all your orders from this basket. You can add several CSV profiles options by going to the :ref:`CSV profiles tool <csv-profiles-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:798
+msgid "E-mail order: this will send the order information to your contact for this vendor. Make sure your contact has a email address in the :ref:`vendor profile <vendors-label>`."
+msgstr ""
+
+#: ../../source/acquisitions.rst:802
+msgid "If you're using EDI for your order you can click the 'Create EDIFACT order' button when you're done to send the file to the vendor and close the basket."
+msgstr ""
+
+#: ../../source/acquisitions.rst:806
+msgid "|image1287|"
+msgstr "|image1287|"
+
+#: ../../source/acquisitions.rst:808
+msgid "Once you're sure your basket is complete, you can click 'Close this basket' button to indicate that this basket is complete and has been sent to the vendor."
+msgstr "Len čo sa uistíte, že Váš košík je kompletný, môžete kliknúť na tlačidlo 'Zatvoriť tento košík', čím naznačíte, že tento košík je kompletný a bol zaslaný predajcovi."
+
+#: ../../source/acquisitions.rst:812
+msgid "|image835|"
+msgstr "|image835|"
+
+#: ../../source/acquisitions.rst:816 ../../source/acquisitions.rst:909
+msgid "You must close the basket to be able to :ref:`receive items <receiving-orders-label>` when they arrive. Only items in closed baskets will show as ready to receive."
+msgstr ""
+
+#: ../../source/acquisitions.rst:820
+msgid "If you have your :ref:`BasketConfirmations` preference set to show a confirmation, you will be asked if you are sure about closing the basket."
+msgstr ""
+
+#: ../../source/acquisitions.rst:824
+msgid "|image836|"
+msgstr "|image836|"
+
+#: ../../source/acquisitions.rst:826
+msgid "When closing the basket you can choose to add the basket to a group for easy printing and retrieval. If you check the box to 'Attach this basket to a new basket group' you will be brought to the group list where you can export a PDF of the order."
+msgstr ""
+
+#: ../../source/acquisitions.rst:831
+msgid "|image832|"
+msgstr "|image832|"
+
+#: ../../source/acquisitions.rst:835
+#, fuzzy
+msgid "A basket with at least one item marked as 'uncertain price' will not be allowed to be closed."
+msgstr "Dôležité: Košík s aspoň jedným exemplárom označeným ako 'neistá cena' sa nebude dať uzavrieť"
+
+#: ../../source/acquisitions.rst:838
+msgid "|image833|"
+msgstr "|image833|"
+
+#: ../../source/acquisitions.rst:840
+#, fuzzy
+msgid "Clicking the 'Uncertain prices' button will call up a list of items with uncertain prices to quick editing. From that list, you can quickly edit the items by entering new prices and quantities."
+msgstr "Kliknutím na tlačidlo 'Neisté ceny' ukáže zoznam exemplárov s neistými cenami pre rýchlu úpravu."
+
+#: ../../source/acquisitions.rst:844
+msgid "|image834|"
+msgstr "|image834|"
+
+#: ../../source/acquisitions.rst:848
+#, fuzzy
+msgid "The Uncertain prices page is independent of the basket. It is linked to the vendor so you will see all items on order with uncertain prices for that vendor."
+msgstr "Stránka Neisté ceny je nezávislá na košíku, ale je prepojená na predajcu, takže uvidíte všetky objednané exempláre u tohto predajcu s neistými cenami."
+
+#: ../../source/acquisitions.rst:852
+msgid "Once your order is entered you can search for it through acquisitions or view the information on the biblio detail page in the staff client (if the :ref:`AcquisitionDetails` preference is set to 'Display)."
+msgstr ""
+
+#: ../../source/acquisitions.rst:857
+msgid "|image1288|"
+msgstr "|image1288|"
+
+#: ../../source/acquisitions.rst:862
+msgid "Create a basket group"
+msgstr "Vytvoriť skupinu košíkov"
+
+#: ../../source/acquisitions.rst:864
+#, fuzzy
+msgid "A basket group is simply a group of baskets. In some libraries, you have several staff members that create baskets, and, at the end of a period of time, someone then groups them together to send to the vendor in bulk. That said, it is possible to have one basket in a basket group, or no basket groups at all if that's the workflow used in your library."
+msgstr "Skupina košíkov je jednoducho zoskupením košíkov. V niektorých knižniciach môže byť niekoľko knihovníkov, ktorí vytvoria košíky a na konci obdobia ich jeden zoskupí a odošle hromadne predajcovi. Jednako je možné používať aj jeden košík v skupine košíkov, ak to vyhovuje postupu práce vo Vašej knižnici."
+
+#: ../../source/acquisitions.rst:870
+msgid "To create a basket group, go to the vendor detail page and click on the 'Basket groups' tab on the left side."
+msgstr ""
+
+#: ../../source/acquisitions.rst:875
+msgid "|image1414|"
+msgstr "|image1414|"
+
+#: ../../source/acquisitions.rst:877
+msgid "Click on the 'New basket group' button."
+msgstr ""
+
+#: ../../source/acquisitions.rst:879
+msgid "|image1415|"
+msgstr "|image1415|"
+
+#: ../../source/acquisitions.rst:881
+msgid "Basket group name: this is the name the basket group will go by in Koha"
+msgstr ""
+
+#: ../../source/acquisitions.rst:882
+msgid "Billing place: this is the billing address that will appear on the basket group order"
+msgstr ""
+
+#: ../../source/acquisitions.rst:884
+msgid "Delivery place: pick a library where these orders should be sent, this will appear on the basket group order under delivery address You can also enter a different address"
+msgstr ""
+
+#: ../../source/acquisitions.rst:887
+msgid "Delivery comment: this comment will appear on the basket group order"
+msgstr ""
+
+#: ../../source/acquisitions.rst:888
+msgid "Close basket group: if you know that once you're done with this basket group, you will not be modifying it anymore, you can close it right away"
+msgstr ""
+
+#: ../../source/acquisitions.rst:891
+msgid "Drag the ungrouped baskets to the 'Baskets in this group' box to add baskets to the basket group."
+msgstr ""
+
+#: ../../source/acquisitions.rst:894
+msgid "|image1416|"
+msgstr "|image1416|"
+
+#: ../../source/acquisitions.rst:896
+msgid "Click on 'Save' to finish creating your basket."
+msgstr ""
+
+#: ../../source/acquisitions.rst:898
+#, fuzzy
+msgid "From there, you can export your order as a PDF file to send to your vendor."
+msgstr "Odtiaľto môžete upraviť alebo odobrať vami pridané exempláre."
+
+#: ../../source/acquisitions.rst:900
+msgid "|image838|"
+msgstr "|image838|"
+
+#: ../../source/acquisitions.rst:905
+#, fuzzy
+msgid "Receiving orders"
+msgstr "Prijímanie objednávok"
+
+#: ../../source/acquisitions.rst:913
+#, fuzzy
+msgid "Orders can be received from the vendor information page"
+msgstr "Objednávky možno prijať z informačnej stránky predajcu alebo stránky výsledkov hľadania predajcu."
+
+#: ../../source/acquisitions.rst:915
+msgid "|image839|"
+msgstr "|image839|"
+
+#: ../../source/acquisitions.rst:917
+#, fuzzy
+msgid "or the vendor search results page"
+msgstr "Výsledky vyhľadávania predajcu"
+
+#: ../../source/acquisitions.rst:919
+msgid "|image840|"
+msgstr "|image840|"
+
+#: ../../source/acquisitions.rst:921
+#, fuzzy
+msgid "After clicking 'Receive shipment' you will be asked to enter a vendor invoice number, a shipment received date, a shipping cost and a fund to subtract that shipping amount from."
+msgstr "Po kliknutí na 'Prijať zásielku' vás program vyzve zadať číslo faktúry predajcu, dátum prijatia zásielky, poštovné a rozpočet, od ktorého sa suma poštovného odpočíta."
+
+#: ../../source/acquisitions.rst:925
+msgid "|image841|"
+msgstr "|image841|"
+
+#: ../../source/acquisitions.rst:927
+msgid "The receive page will list all items still on order with the vendor regardless of the basket the item is from."
+msgstr "Stránka príjmu zobrazí všetky položky, ktoré sú stále objednané u predajcu, bez ohľadu na pôvod košíka."
+
+#: ../../source/acquisitions.rst:930
+msgid "|image842|"
+msgstr "|image842|"
+
+#: ../../source/acquisitions.rst:934
+msgid "If you have a lot of orders, you can filter the orders using the 'Filter' box on the left, the 'Search' box just above the table, of the filter boxes at the top of each table column."
+msgstr ""
+
+#: ../../source/acquisitions.rst:938
+msgid "|image1417|"
+msgstr "|image1417|"
+
+#: ../../source/acquisitions.rst:940
+msgid "|image1418|"
+msgstr "|image1418|"
+
+#: ../../source/acquisitions.rst:942
+msgid "You could, for example, scan the ISBN of the book you are receiving in the filter box and the table will only show the corresponding orders."
+msgstr ""
+
+#: ../../source/acquisitions.rst:945
+msgid "Just make sure to clear the filter boxes when you're done, otherwise, the other items won't appear."
+msgstr ""
+
+#: ../../source/acquisitions.rst:948
+msgid "To receive a specific item, click the 'Receive' link to the right of the item."
+msgstr "Pre prijatie osobitného exemplára, kliknite na odkaz 'Prijať' napravo od exemplára."
+
+#: ../../source/acquisitions.rst:951 ../../source/acquisitions.rst:1000
+msgid "|image843|"
+msgstr "|image843|"
+
+#: ../../source/acquisitions.rst:953
+msgid "Depending on when you chose to create the item (either in the :ref:`AcqCreateItem <acqcreateitem-label>` system preference, or upon :ref:`creating your basket <create-a-basket-label>`), the form will look slightly different."
+msgstr ""
+
+#: ../../source/acquisitions.rst:958
+msgid "If you chose to create your item when placing the order, you will have your item information on the left side and financial information on the right side."
+msgstr ""
+
+#: ../../source/acquisitions.rst:961
+msgid "|image1419|"
+msgstr "|image1419|"
+
+#: ../../source/acquisitions.rst:963
+msgid "You can check the box next to the item to receive it, or fill out the 'Quantity received' field on the left side."
+msgstr ""
+
+#: ../../source/acquisitions.rst:966
+#, fuzzy
+msgid "**Note** You can choose to mark only part of the order as received if he vendor didn't send your entire order by checking only the boxes next to the items on the left that you want to receive or by entering the right amount in the 'Quantity received' field."
+msgstr "V tomto formulári môžete pozmeniť informáciu o nákladoch. Môžete si tiež označiť len časť objednávky ako prijatú, ak predajca neposlal celú vašu objednávku, zaškrtnutím len políčok naľavo od exemplárov, ktoré chcete prijať. Hodnoty, ktoré zadáte do 'Nákladov za náhradu' a 'Aktuálnych nákladov' automaticky vyplnia aj podpole v (Náklady, cena za náhradu) a podpole g (Náklady, bežná nákupná cena) v zázname o exemplári po uložení."
+
+#: ../../source/acquisitions.rst:972
+#, fuzzy
+msgid "You can edit the item if needed by clicking on the 'Edit' link. This will allow you to enter in accurate call numbers and barcodes if you'd like to do that at the point of receipt."
+msgstr "Môžete tiež robiť úpravy v zázname exemplárov v tomto formulári kliknutím na odkaz 'Upraviť' vedľa každého exemplára. Toto vám umožní zadať presné signatúry a čiarové kódy, ak ich budete chcieť robiť v momente prijatia. Len čo spravíte akékoľvek nevyhnutné zmeny v objednávke a/alebo exemplároch, kliknite na 'Uložiť', čím označíte exemplár(e) ako prijaté."
+
+#: ../../source/acquisitions.rst:976
+#, fuzzy
+msgid "You can also alter the cost information (replacement cost and actual cost). The values you enter there will automatically populate the item record by filling in subfield v (Cost, replacement price) and subfield g (Cost, normal purchase price) on the item record after saving."
+msgstr "V tomto formulári môžete pozmeniť informáciu o nákladoch. Môžete si tiež označiť len časť objednávky ako prijatú, ak predajca neposlal celú vašu objednávku, zaškrtnutím len políčok naľavo od exemplárov, ktoré chcete prijať. Hodnoty, ktoré zadáte do 'Nákladov za náhradu' a 'Aktuálnych nákladov' automaticky vyplnia aj podpole v (Náklady, cena za náhradu) a podpole g (Náklady, bežná nákupná cena) v zázname o exemplári po uložení."
+
+#: ../../source/acquisitions.rst:981
+msgid "If you chose to create your item when receiving the order, you will see the item creation form on the left side and the financial information on the right side."
+msgstr ""
+
+#: ../../source/acquisitions.rst:985
+msgid "|image1420|"
+msgstr "|image1420|"
+
+#: ../../source/acquisitions.rst:987
+msgid "**Important** You must fill out the item form and click on 'Add item' or 'Add multiple items' in order to receive the order. You will not be able to simply change the 'Quantity received' amount."
+msgstr ""
+
+#: ../../source/acquisitions.rst:992
+#, fuzzy
+msgid "You can alter the cost information (replacement cost and actual cost). The values you enter there will automatically populate the item record by filling in subfield v (Cost, replacement price) and subfield g (Cost, normal purchase price) on the item record after saving."
+msgstr "V tomto formulári môžete pozmeniť informáciu o nákladoch. Môžete si tiež označiť len časť objednávky ako prijatú, ak predajca neposlal celú vašu objednávku, zaškrtnutím len políčok naľavo od exemplárov, ktoré chcete prijať. Hodnoty, ktoré zadáte do 'Nákladov za náhradu' a 'Aktuálnych nákladov' automaticky vyplnia aj podpole v (Náklady, cena za náhradu) a podpole g (Náklady, bežná nákupná cena) v zázname o exemplári po uložení."
+
+#: ../../source/acquisitions.rst:997
+msgid "Finally, if you chose to create your item when cataloging the record, you will only see the financial information on the right."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1002
+msgid "You can alter the cost information (replacement cost and actual cost)."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1004
+msgid "**Note** The financial information will not be transferred to the item if the item is created when cataloging."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1008
+msgid "Once you have made any changes necessary (to the order and/or items, click 'Save' to mark the item(s) as received."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1011
+msgid "|image845|"
+msgstr "|image845|"
+
+#: ../../source/acquisitions.rst:1015
+msgid "If you have your `AcqItemSetSubfieldsWhenReceived <#AcqItemSetSubfieldsWhenReceived>`__ preference set to add or change values on received items those changes will take place after you hit 'Save'."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1020
+msgid "When you're finished receiving items you can navigate away from this page or click the 'Finish receiving' button at the bottom of the screen."
+msgstr "Po dokončení prijímania exemplárov môžete opustiť túto stránku alebo kliknúť na tlačidlo 'Dokončiť príjem' na spodku obrazovky."
+
+#: ../../source/acquisitions.rst:1023
+msgid "Received orders will have '(rcvd)' before the title in the basket view."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1025 ../../source/acquisitions.rst:1064
+#: ../../source/acquisitions.rst:1079
+msgid "|image850|"
+msgstr "|image850|"
+
+#: ../../source/acquisitions.rst:1027
+msgid "**Note** When all the orders in a basket have been received, the basket will be removed from the list of baskets for that vendor. You can click 'Show all baskets' to view the inactive baskets."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1032
+msgid "|image1421|"
+msgstr "|image1421|"
+
+#: ../../source/acquisitions.rst:1034
+msgid "|image1422|"
+msgstr "|image1422|"
+
+#: ../../source/acquisitions.rst:1039
+#, fuzzy
+msgid "Transferring orders"
+msgstr "zadávanie objednávky"
+
+#: ../../source/acquisitions.rst:1041
+msgid "If the item is no longer available from this vendor you can transfer the order to another vendor's basket by clicking the 'Transfer' link to the right of the title. This will pop up a vendor search box."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1045
+msgid "|image846|"
+msgstr "|image846|"
+
+#: ../../source/acquisitions.rst:1047
+#, fuzzy
+msgid "From the results you can click 'Choose' to the right of the vendor you would like to reorder this item from."
+msgstr "Vo výsledkoch môžete zvoliť odkaz 'Importovať' napravo od záznamu, ktorý by ste chceli pridať do Kohy"
+
+#: ../../source/acquisitions.rst:1050
+msgid "|image847|"
+msgstr "|image847|"
+
+#: ../../source/acquisitions.rst:1052
+msgid "You will then be presented with the open baskets for that vendor to choose from. To move the item simply click 'Choose' to the right of the basket you would like to add the item to."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1056
+msgid "|image848|"
+msgstr "|image848|"
+
+#: ../../source/acquisitions.rst:1058
+#, fuzzy
+msgid "Once you have chosen you will be presented with a confirmation message."
+msgstr "Hneď po načítaní súboru sa Vám zobrazí potvrdzujúce hlásenie."
+
+#: ../../source/acquisitions.rst:1060
+msgid "|image849|"
+msgstr "|image849|"
+
+#: ../../source/acquisitions.rst:1062
+msgid "You will see transferred orders when viewing the basket."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1069
+#, fuzzy
+msgid "Cancelling orders"
+msgstr "zadávanie objednávky"
+
+#: ../../source/acquisitions.rst:1071
+msgid "If the item cannot be found anywhere you can cancel the order by clicking 'Delete order' to the far right. This will prompt you to enter your reason and confirm cancellation."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1075
+msgid "|image1289|"
+msgstr "|image1289|"
+
+#: ../../source/acquisitions.rst:1077
+#, fuzzy
+msgid "You will also see that the item is cancelled if you view the basket."
+msgstr "Uvidíte tiež, že exemplár je prijatý a/alebo zrušený, ak nazriete do košíka."
+
+#: ../../source/acquisitions.rst:1083
+msgid "Whilst it is possible to re-open your basket, cancel one or more orders and re-close the basket, this is not recommended. This procedure will update the 'basket closed' date, which in turn will cause your 'late order' calculations to be incorrect."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1100
+msgid "Invoices"
+msgstr "Faktúry"
+
+#: ../../source/acquisitions.rst:1102
+msgid "When orders are received invoices are generated. Invoices can be searched by clicking on 'Invoices' in the left of the Acquisitions page."
+msgstr "Po prijatí objednávok sa vygenerujú faktúry. Faktúry možno vyhľadávať kliknutím na 'Faktúry' vľavo na stránke Akvizícií."
+
+#: ../../source/acquisitions.rst:1105
+msgid "|image851|"
+msgstr "|image851|"
+
+#: ../../source/acquisitions.rst:1107
+msgid "After searching, your results will appear to the right of the search options."
+msgstr "Po hľadaní sa vaše výsledky zobrazia napravo od možností hľadania."
+
+#: ../../source/acquisitions.rst:1110
+msgid "|image852|"
+msgstr "|image852|"
+
+#: ../../source/acquisitions.rst:1112
+#, fuzzy
+msgid "From the 'Actions' button, you can click the 'Details' link to see the full invoice or 'Close' to note that the invoice is closed/paid for."
+msgstr "Vo výsledkoch môžete kliknúť na odkaz 'Podrobnosti' pre náhľad na plnú faktúru alebo 'Zavrieť', čím označíte, že faktúra je uzavretá/zaplatená."
+
+#: ../../source/acquisitions.rst:1115
+msgid "|image853|"
+msgstr "|image853|"
+
+#: ../../source/acquisitions.rst:1117
+msgid "In the Adjustments section, you can add adjustments to your invoices. These adjustments can be for adjusting the price that is offset by rounding or adding a credit to the invoice, for example."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1121
+msgid "|image1371|"
+msgstr "|image1371|"
+
+#: ../../source/acquisitions.rst:1123
+#, fuzzy
+msgid "Click on 'Add an adjustment'"
+msgstr "Pridať úpravu"
+
+#: ../../source/acquisitions.rst:1125
+#, fuzzy
+msgid "Enter the amount of the adjustment"
+msgstr "Zadajte čiarový kód exemplára, ktorý chcete priložiť:"
+
+#: ../../source/acquisitions.rst:1127
+#, fuzzy
+msgid "Choose a reason, if needed"
+msgstr "-- Zvoliť dôvod -- "
+
+#: ../../source/acquisitions.rst:1131
+msgid "The reasons are :ref:`authorized values<authorized-values-label>`. Use the category ADJ\\_REASON to add custom reasons for adjustments."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1134
+msgid "Enter a note, if needed"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1136
+msgid "Choose the fund from which the adjustment amount should be taken"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1138
+msgid "If 'Encumber while invoice open' is checked, the amount of the adjustment will be taken out of the fund immediately. If it isn't checked, the amount will be subtracted only when the invoice is closed."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1142
+msgid "Click on 'Update adjustments' to save your adjustments"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1144
+msgid "If you need to change the adjustment afterwards, you can do so in the table and click on 'Update adjustments'."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1147
+msgid "|image1372|"
+msgstr "|image1372|"
+
+#: ../../source/acquisitions.rst:1150
+msgid "Attaching files to invoices"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1152
+msgid "If you're allowing the uploading of acquisitions files with the :ref:`AcqEnableFiles` preference you will see the option to manage invoice files next to the link to 'Go to receipt page'"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1157
+msgid "|image1290|"
+msgstr "|image1290|"
+
+#: ../../source/acquisitions.rst:1159
+msgid "To see or attach new files click the 'Manage invoice files' link"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1161
+msgid "|image854|"
+msgstr "|image854|"
+
+#: ../../source/acquisitions.rst:1163
+#, fuzzy
+msgid "From here you can find a file to upload and/or see the files you have already attached."
+msgstr "Odtiaľto môžete upraviť alebo odobrať vami pridané exempláre."
+
+#: ../../source/acquisitions.rst:1166
+msgid "|image855|"
+msgstr "|image855|"
+
+#: ../../source/acquisitions.rst:1169
+msgid "Merging two invoices"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1171
+msgid "From the invoice search results you can also merge together two invoices should you need to. Simply click the checkbox to the left of the invoices you would like to merge and click the 'Merge selected invoices' button at the bottom of the page. You will be presented with a confirmation screen:"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1177
+msgid "|image856|"
+msgstr "|image856|"
+
+#: ../../source/acquisitions.rst:1179
+msgid "Click on the row of the invoice number you would like to keep and it will be highlighted in yellow. Enter any different billing information in the fields provided and click 'Merge'. The two invoices will become one."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1187
+#, fuzzy
+msgid "Claims and late orders"
+msgstr "Reklamácie &amp; Omeškané objednávky"
+
+#: ../../source/acquisitions.rst:1189
+#, fuzzy
+msgid "If you have entered in an email address for the vendors in your system you can send them claim emails when an order is late. Before you can send claims you will need to set up an `acquisitions claim notice <#ACQCLAIM>`__."
+msgstr "Ak ste zadali E-mailovú adresu pre predajcov vo Vašom systéme, môžete im poslať reklamačné E-maily, ak je objednávka oneskorená. Predtým však než pošlete reklamácie, budete musieť nastaviť oznámenie o reklamácii akvizícií."
+
+#: ../../source/acquisitions.rst:1194
+#, fuzzy
+msgid "Upon clicking on the link to 'Late orders' from the Acquisitions page you will be presented with a series of filter options on the left hand side. These filters will be applied only closed baskets."
+msgstr "Po kliknutí na odkaz 'Oneskorené objednávky' na stránke Akvizícií sa Vám zobrazí sled možností filtrovania na ľavej strane. Tieto filtre sa budú aplikovať iba na uzavreté košíky."
+
+#: ../../source/acquisitions.rst:1198
+msgid "|image857|"
+msgstr "|image857|"
+
+#: ../../source/acquisitions.rst:1202
+msgid "The vendor pull down only shows vendors with closed baskets that are late."
+msgstr "Rozbaľovacia ponuka predajcu zobrazuje iba predajcov s uzavretými košíkmi, ktoré sú omeškané."
+
+#: ../../source/acquisitions.rst:1205
+#, fuzzy
+msgid "Once you filter your orders to show you the things you consider to be late you will be presented with a list of these items."
+msgstr "Hneď ako prefiltrujete objednávky so zámerom nájsť niečo oneskorené, predstaví sa Vám zoznam týchto exemplárov."
+
+#: ../../source/acquisitions.rst:1208
+msgid "|image858|"
+msgstr "|image858|"
+
+#: ../../source/acquisitions.rst:1210
+#, fuzzy
+msgid "To the right of each late title you will be see a checkbox. Check off the ones you want a claim letter sent to and click 'Claim order' at the bottom right of the list. This will automatically send an email to the vendor at the email address you have on file."
+msgstr "Napravo od každého oneskoreného titulu uvidíte políčko. Zaškrtnite tie, ktoré chcete reklamovať listom a kliknite na 'Reklamovať objednávku' v zozname vpravo dole. Týmto sa automaticky odošle E-mail predajcovi na Vami evidovanú adresu."
+
+#: ../../source/acquisitions.rst:1217
+#, fuzzy
+msgid "The estimated delivery date is based on the delivery time value entered on the vendor record."
+msgstr "Predpokladaný dátum doručenia sa zakladá na hodnote času doručenia zadaného v zázname predajcu."
+
+#: ../../source/acquisitions.rst:1220
+#, fuzzy
+msgid "If you would rather use a different acquisition claim letter (other than the default) you can :ref:`create that in the notices module <adding-notices-and-slips-label>` and choose it from the menu above the list of late items."
+msgstr "Jestvuje predvolený list reklamácie akvizícií. Ak by ste radšej chceli použiť iný list reklamácie akvizícií, môžete ho vytvoriť v module oznámení a zvoliť si ho v ponuke nad zoznamom oneskorených exemplárov."
+
+#: ../../source/acquisitions.rst:1224
+msgid "|image859|"
+msgstr "|image859|"
+
+#: ../../source/acquisitions.rst:1229
+#, fuzzy
+msgid "Acquisition searches"
+msgstr "Hľadanie akvizícií"
+
+#: ../../source/acquisitions.rst:1231
+#, fuzzy
+msgid "At the top of the various Acquisition pages there is a quick search box where you can perform either a Vendor search or an Order search."
+msgstr "Na vrchu rozličných stránok Akvizícií sa nachádza riadok rýchleho vyhľadávania, kde môžete hľadať buď predajcu alebo objednávku."
+
+#: ../../source/acquisitions.rst:1234
+msgid "|image860|"
+msgstr "|image860|"
+
+#: ../../source/acquisitions.rst:1236
+#, fuzzy
+msgid "In the Vendor search you can enter any part of the vendor name to get results."
+msgstr "V hľadaní predajcov, môžete zadať akúkoľvek časť mena predajcu."
+
+#: ../../source/acquisitions.rst:1239
+msgid "|image861|"
+msgstr "|image861|"
+
+#: ../../source/acquisitions.rst:1241
+#, fuzzy
+msgid "Using the Orders search you can search for items that have been ordered with or without the vendor."
+msgstr "Pri použití hľadania objednávok môžete vyhľadať exempláre, ktoré boli objednané s predajcom alebo bez neho."
+
+#: ../../source/acquisitions.rst:1244
+msgid "|image862|"
+msgstr "|image862|"
+
+#: ../../source/acquisitions.rst:1246
+msgid "You can enter info in one or both fields and you can enter any part of the title and/or vendor name."
+msgstr "Môžete zadať informáciu do jedného alebo oboch polí a môžete zadať ktorúkoľvek časť názvu a/alebo mena predajcu."
+
+#: ../../source/acquisitions.rst:1249
+msgid "|image863|"
+msgstr "|image863|"
+
+#: ../../source/acquisitions.rst:1251
+msgid "Clicking the plus sign to the right of the Vendor search box will expand the search and allow you to search for additional fields."
+msgstr "Kliknutím na znamienko plus napravo od políčka hľadania predajcu sa rozšíri jeho hľadanie a budete môcť hľadať dodatočné polia."
+
+#: ../../source/acquisitions.rst:1254
+msgid "|image864|"
+msgstr "|image864|"
+
+#: ../../source/acquisitions.rst:1256
+#, fuzzy
+msgid "Clicking Advanced search to the right of the search button will give you all of the order search options available."
+msgstr "Kliknutím na Rozšírené hľadanie napravo od tlačidla hľadania Vám ponúkne všetky dostupné možnosti hľadania objednávok."
+
+#: ../../source/acquisitions.rst:1259
+msgid "|image865|"
+msgstr "|image865|"
+
+#: ../../source/acquisitions.rst:1264
+#, fuzzy
+msgid "Budget/fund tracking"
+msgstr "Plánovanie rozpočtu"
+
+#: ../../source/acquisitions.rst:1266
+msgid "On the main acquisitions page there will be a table showing you all of your active funds and a breakdown of what has been ordered or spent against them."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1270
+msgid "|image866|"
+msgstr "|image866|"
+
+#: ../../source/acquisitions.rst:1272
+msgid "Clicking on the linked amounts under spent or ordered will show you a summary of the titles ordered/received on that budget."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1275
+msgid "|image867|"
+msgstr "|image867|"
+
+#: ../../source/acquisitions.rst:1280
+#, fuzzy
+msgid "EDI process"
+msgstr "DBX processed"
+
+#: ../../source/acquisitions.rst:1282
+msgid "Previous sections explain all ordering options, this section pulls out the parts related to EDI or EDIFACT ordering to help those who are only using EDI for ordering."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1288
+msgid "Koha uses the EDIFACT standard not the X12 standard for electronic ordering."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1294
+#, fuzzy
+msgid "EDI questions for vendors"
+msgstr "Zobraziť košíky pre predajcu %s"
+
+#: ../../source/acquisitions.rst:1296
+msgid "You will want to gather the following information from your vendors before beginning the set up process in Koha."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1299
+msgid "**EDI accounts:** *This is the basic connection information for your vendor. This will be used to fill in the :ref:`EDI accounts` section.*"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1303
+msgid "**Vendor:** The name of the vendor"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1305
+msgid "**Description:** A short description if additional explanation is needed ( especially if you have multiple accounts for one vendor )."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1308
+msgid "**Transport:** Does the vendor transmit EDI files via FTP, SFTP, or something else the requires special processing?"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1311
+msgid "**Remote host:** The URL or IP address of the FTP/SFTP server"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1313
+msgid "**Username:** The username for the above server"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1315
+msgid "**Password:** The password for the above server"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1317
+msgid "**Download directory:** The path on the server that contains files for Koha to download and process"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1320
+msgid "**Upload directory:** The path on the server that Koha will upload files to for your vendor to process"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1323
+msgid "**Qualifier:** Who assigned the SAN below?"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1325 ../../source/acquisitions.rst:1342
+#: ../../source/acquisitions.rst:1384
+#, fuzzy
+msgid "Choose one of the following:"
+msgstr "Žiaden z nasledujúcich"
+
+#: ../../source/acquisitions.rst:1327 ../../source/acquisitions.rst:1344
+#: ../../source/acquisitions.rst:1386
+#, fuzzy
+msgid "EAN International"
+msgstr "a- Medzinárodný štandard"
+
+#: ../../source/acquisitions.rst:1329 ../../source/acquisitions.rst:1346
+#: ../../source/acquisitions.rst:1388
+msgid "(31B) US SAN Agency"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1331 ../../source/acquisitions.rst:1348
+#: ../../source/acquisitions.rst:1390
+msgid "Assigned by supplier"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1333 ../../source/acquisitions.rst:1350
+#: ../../source/acquisitions.rst:1392
+msgid "Assigned by buyer"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1335
+msgid "**SAN:** The identifier for the vendor"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1337
+msgid "*Buyer qualifier and SAN are optional. Some vendors require a second buyer identifier in addition to the account EAN*."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1340
+msgid "**Buyer qualifier:** Who assigned the SAN below?"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1352
+msgid "**Buyer SAN:** The identifier for the library"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1354
+msgid "**Quotes enabled:** [y/n] Does this vendor support sending and receiving quotes via EDIfact and do you want to send and receive quotes via EDIfact?"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1358
+msgid "**Orders enabled:** [y/n] Does this vendor support sending and receiving orders via EDIfact and do you want to send and receive orders via EDIfact?"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1362
+msgid "**Invoices enabled:**\\ [y/n] Does this vendor support sending and receiving invoices via EDIfact and do you want to send and receive invoices via EDIfact?"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1366
+msgid "**Order file suffix:** The file suffix for order files"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1368
+msgid "**Quote file suffix:** The file suffix for quote files"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1370
+msgid "**Invoice file suffix:** The file suffix for invoice files"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1372
+msgid "**Account number(s):** (list them all)"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1374
+msgid "**Account description(s):** (the summary of what this number is for)"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1376
+msgid "**EANs:** *Each library using EDIfact needs to specify a buyer identifier know as a SAN or EAN. This will fill in the :ref:`Library EANs <library-eans-label>` setting.*"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1380
+#, fuzzy
+msgid "**Library**"
+msgstr "Knižnica"
+
+#: ../../source/acquisitions.rst:1382
+msgid "**EAN**"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1394
+msgid "**MARC order fields or grid ordering:** *These values will fill in the :ref:`MarcFieldsToOrder` preference.*"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1397
+msgid "**price:** MARC21 field that contains the item price"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1399
+msgid "**quantity:** MARC21 field that contains the number of items for the given record"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1402
+msgid "**budget\\_code:** MARC21 field that contains the Koha budget code to be debited"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1405
+msgid "**discount:** MARC21 field the contains the discount as a percentage the the price will be discounted by"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1408
+msgid "**sort1:** MARC21 field that will populate custom field sort1"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1410
+msgid "**sort2:** MARC21 field that will populate custom field sort2"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1415
+msgid "EDI setup"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1417
+msgid "Before you begin ordering using EDI you will want to take the following steps:"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1420
+msgid "Ask your vendor/bookseller/jobber for :ref:`connection information <edi-questions-for-vendors-label>`"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1423
+msgid "It might also be beneficial to ask for a few sample EDIFACT files from the vendor"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1426
+msgid "Share with your vendor/bookseller/jobber your :ref:`library codes <libraries-label>`, :ref:`item type codes <item-types-label>`, :ref:`fund codes <funds-label>`, and any other codes or :ref:`authorized values <authorized-values-label>` they might need for creating your MARC order records"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1432
+msgid "Communicate with your support provider or the community about whether you will need a plugin based on your vendor's answers"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1435
+msgid "For example ByWater Solutions has published plugins for specific vendors here: https://github.com/bywatersolutions/koha-plugin-edifact-enhanced"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1439
+msgid ":ref:`Enter the vendor/bookseller/jobber <add-a-vendor-label>` in Acquisitions"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1442
+msgid "Review your :ref:`Acquisitions system preferences <acquisitions-system-preferences-label>`"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1444
+msgid "Be sure to fill in the :ref:`MarcFieldsToOrder` preference with values for order files"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1447
+#, fuzzy
+msgid "Enter your :ref:`EDI Accounts`"
+msgstr "Účty EDI predajcov"
+
+#: ../../source/acquisitions.rst:1449
+msgid "Enter your :ref:`Library EANs`"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1451
+msgid "Turn on the :ref:`EDI Cron <cron-edi-message-processing-label>` so that it can process files"
+msgstr ""
+
+#: ../../source/acquisitions.rst:1456
+#, fuzzy
+msgid "EDI ordering"
+msgstr "Automatické objednávanie"
+
+#: ../../source/acquisitions.rst:1458
+msgid "The first step in ordering using EDI happens on the book vendor's website. Each seller will use different language, but you will need to place your order on their site and then download the MARC order file. Some language that you might see included \"basket\", \"order\", \"cart\", and/or \"MARC order.\" Once you have this MARC file downloaded to your computer you will want to log in to Koha and continue the process there."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1465
+msgid "Visit the :ref:`Stage MARC records for import` tool and upload your file. Once presented with the confirmation screen proceed to Acquisitions."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1469
+msgid "In Acquisitions :ref:`create a basket <create-a-basket-label>` for the vendor you ordered from. From the basket, choose to `order from a staged file <#orderfromstagedfile>`__ and click 'Order' next to the file you downloaded from your vendor and staged in Koha."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1474
+msgid "From the confirmation screen you will see all of the data in the MARC file related to your order. If you are not seeing fields such as fund and quantity filled in then be sure to confirm that your :ref:`MarcFieldsToOrder` preference is set right."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1479
+#, fuzzy
+msgid "Once you have added all of the items to the basket you can click the 'Create EDIFACT order' button."
+msgstr "Len čo ste čitateľovi vypožičali všetky exempláre, môžete o tom vytlačiť potvrdenku zvolením jednej z dvoch metód."
+
+#: ../../source/acquisitions.rst:1482
+#, fuzzy
+msgid "EDIFACT order"
+msgstr "Vygenerovať objednávku EDIFACT"
+
+#: ../../source/acquisitions.rst:1484
+msgid "This will generate a pending file in the :ref:`EDIFACT messages <edifact-messages-label>` in Koha. The pending files will be processed by the :ref:`EDI cron job <cron-edi-message-processing-label>` and sent to your vendor."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1491
+#, fuzzy
+msgid "EDI invoicing"
+msgstr "Faktúra"
+
+#: ../../source/acquisitions.rst:1493
+msgid "When the book vendor is done processing your files they will send an invoice via EDI as well. The :ref:`EDI cron job <cron-edi-message-processing-label>` will grab invoices and mark items found in the invoice as received and update your funds without any need for manual intervention."
+msgstr ""
+
+#: ../../source/acquisitions.rst:1501
+msgid "EDIFACT messages"
+msgstr "Správy EDIFACT"
+
+#: ../../source/acquisitions.rst:1503
+#, fuzzy
+msgid "A log of all messages sent and received via EDIFACT can be found under EDIFACT messages."
+msgstr "Denník všetkých správ odoslaných aj prijatých cez EDIFACT možno nájsť pod Správami EDIFACT."
+
+#: ../../source/acquisitions.rst:1506
+msgid "|image1291|"
+msgstr "|image1291|"
+
+#, fuzzy
+#~ msgid "..To cancel an order:"
+#~ msgstr "Zrušiť objednávku"
+
+#, fuzzy
+#~ msgid "The next option for ordering is to order from a staged record (:ref:`learn more about staging records <stage-marc-records-for-import-label>`)."
+#~ msgstr "Ďalšia možnosť pre objednávanie je objednať z pripraveného záznamu. "
+
+#, fuzzy
+#~ msgid "If you are charged sales tax, choose that from the gstrate field"
+#~ msgstr "Ak platíte DPH, vyberte si ju v poli tax_rate"
+
+#, fuzzy
+#~ msgid "If you would like to see more details you can check the 'Show all details' checkbox"
+#~ msgstr "Ak chcete vidieť viac podrobností, môžete zaškrtnúť políčko 'Zobraziť všetky detaily'."
+
+#~ msgid "On the summary page, you also have the option to edit the information that you entered about the basket by clicking the 'Edit basket header information' button, to delete the basket altogether by clicking the 'Delete this basket' button, or to export your basket as a CSV file by clicking the 'Export this basket as CSV' button."
+#~ msgstr "Takisto na stránke súhrnu máte možnosť upraviť zadanú informáciu o košíku kliknutím na tlačidlo 'Upraviť hlavičku košíka', úplne odstrániť košík kliknutím na tlačidlo 'Odstrániť tento košík', alebo exportovať Váš košík do súboru CSV kliknutím na tlačidlo 'Exportovať tento košík ako CSV'."
+
+#, fuzzy
+#~ msgid "Printing baskets"
+#~ msgstr "Tlačenie košíkov"
+
+#, fuzzy
+#~ msgid "When you are finished adding items to your basket, click 'Close this basket.'"
+#~ msgstr "Keď dokončíte pridávanie exemplárov do Vášho košíka, kliknite na 'Zatvoriť tento košík.' Dostanete otázku, či chcete teraz vytvoriť nákupnú objednávku."
+
+#, fuzzy
+#~ msgid "Your completed order will be listed on the basket grouping page for printing or further modification."
+#~ msgstr "Vaša dokončená objednávka sa zobrazí na stránke Zoskupenia košíkov pre tlač a ďalšiu úpravu."
+
+#, fuzzy
+#~ msgid "Basket grouping EDIFACT"
+#~ msgstr "Zoskupenie košíkov"
+
+#, fuzzy
+#~ msgid "Clicking the 'Print' button next to your order will generate a PDF for printing, which will have all of your library information followed by the items in your order."
+#~ msgstr "Kliknutím na 'Tlačiť' pod Vašou objednávkou sa vygeneruje PDF na tlač, ktoré bude obsahovať úplnú informáciu o Vašej knižnici a následne exempláre na Vašej objednávke."
+

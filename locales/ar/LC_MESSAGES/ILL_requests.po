@@ -1,0 +1,277 @@
+# Arabic translations for Koha Manual package.
+# Copyright (C) 2018, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 18.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02 01:15-0300\n"
+"PO-Revision-Date: 2020-08-05 20:36+0000\n"
+"Last-Translator: KnowledgeWare Technologies Est. <massoudalshareef@kwareict.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1596659774.701006\n"
+
+#: ../../source/ILL_requests.rst:6
+msgid "ILL requests / Interlibrary loans"
+msgstr "الإعارات بين المكتبات/طلبات الإعارة البينية"
+
+#: ../../source/ILL_requests.rst:8
+msgid "The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons submit a request form via the OPAC for review and processing by library staff. Alternatively staff can place requests themselves from the staff client."
+msgstr "يقوم نظام الإعارة البينية (الإعارات بين المكتبات) الفرعي بإضافة القدرة على طلب وإدارة الإعارات أو نسخ المواد من مصادر خارجية. يقوم المستفيدون بتقديم نموذج طلب عبر الأوباك ليقوم موظفي المكتبة بمراجعته ومعالجته. كما يمكن للموظفين وضع الطلبات بأنفسهم من برنامج العميل."
+
+#: ../../source/ILL_requests.rst:13
+msgid "Set up"
+msgstr "تنصيب"
+
+#: ../../source/ILL_requests.rst:15
+msgid "Before using the ILL requests module you will want to make sure that you have completed all of the set up."
+msgstr "قبل استخدام نظام طلبات الإعارة البينية الفرعي يجب عليك التأكد من إتمام التنصيب بالكامل."
+
+#: ../../source/ILL_requests.rst:17
+msgid "The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend."
+msgstr "يمكن تهيئة نظام طلبات اإعارة البينية الفرعي لأنواع مختلفة من الطلبات وعمليات سير العمل كالنهايات الخلفية. النهايات الخلفية المتاحة حالياً موثقة في ويكي مجتمع كوها في https://wiki.koha-community.org/wiki/ILL_backends. يجب عليك تهيئة نهاية خلفية واحدة على الأقل."
+
+#: ../../source/ILL_requests.rst:19
+msgid "Next, set your system preferences."
+msgstr "بعد ذلك، قم بضبط تفضيلات النظام."
+
+#: ../../source/ILL_requests.rst:21
+msgid "Set the :ref:`ILLModule` preference to ‘Enable’."
+msgstr "قم بضبط التفضيل :ref:`ILLModule` إلى ‘تفعيل’."
+
+#: ../../source/ILL_requests.rst:23
+msgid "If you wish to include a copyright declaration in your ILL workflow you can this in the :ref:`ILLModuleCopyrightClearance` preference."
+msgstr "إذا أردت إدراج بيان حقوق النشر في عمليات الإعارة البينية الخاصة بك، يمكنك القيام بذلك في تفضيل :ref:`ILLModuleCopyrightClearance`"
+
+#: ../../source/ILL_requests.rst:25
+msgid "Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*."
+msgstr "يحتاج موظف المكتبة المسؤول عن طلبات الإعارة البينية إلى مجموعة الصلاحيات التالية في حسابه: *ill: إنشاء وتعديل طلبات الإعارة بين المكتبات*."
+
+#: ../../source/ILL_requests.rst:27
+msgid "The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`."
+msgstr "يستخدم نظام طلبات الإعارة البينية الفرعي حالات معرفة من قبل النظام. يمكنك إضافة حالات مخصصة لمطابقة عمليات الإعارة البينية الخاصة بك مثل ILLSTATUS :ref:`قيم الاستناد <authorized-values-label>`."
+
+#: ../../source/ILL_requests.rst:32
+msgid "Create ILL requests"
+msgstr "إنشاء طلبات إعارة بينية"
+
+#: ../../source/ILL_requests.rst:34
+msgid "*Get there:* More > ILL requests"
+msgstr "*للوصول:* المزيد > طلبات الإعارة البينية"
+
+#: ../../source/ILL_requests.rst:36
+msgid "|image1386|"
+msgstr "|image1386|"
+
+#: ../../source/ILL_requests.rst:38
+msgid "Choose ‘New ILL request’ and then Freeform."
+msgstr "قم باختيار ‘طلب إعارة بينية جديد’ تم نموذج حر."
+
+#: ../../source/ILL_requests.rst:40
+msgid "**Note**"
+msgstr "**ملاحظة**"
+
+#: ../../source/ILL_requests.rst:42
+msgid "The images shown here are for the FreeFrom backend only."
+msgstr "الصور المعروضة هنا لنهاية FreeFrom الخلفية فقط."
+
+#: ../../source/ILL_requests.rst:44
+msgid "|image1387|"
+msgstr "|image1387|"
+
+#: ../../source/ILL_requests.rst:46
+msgid "Enter a Type: Book, Article, Journal, Other."
+msgstr "قم بإدخال نوع: كتاب، مقال، دورية، أخرى."
+
+#: ../../source/ILL_requests.rst:48
+msgid "In the next two sections enter as much as information as you can including chapter/article/part if applicable."
+msgstr "في القسمين التاليين قم بإدخال أكبر قدر من المعلومات بما في ذلك الفصل/المقال/الجزء إن أمكن."
+
+#: ../../source/ILL_requests.rst:50
+msgid "|image1388|"
+msgstr "|image1388|"
+
+#: ../../source/ILL_requests.rst:52
+msgid "Add custom fields, for example if you wished to add a note."
+msgstr "إضافة حقول مخصصة، على سبيل المثال إذا كنت ترغب في إضافة ملاحظة."
+
+#: ../../source/ILL_requests.rst:54
+msgid "Under the borrower options enter the library branch you would like the request to be sent to."
+msgstr "أدنى خيارات المستعير قم بإدخال فرع المكتبة الذي ترغب في إرسال الطلب له."
+
+#: ../../source/ILL_requests.rst:56
+msgid "Click on ‘Create’ and you will be shown a Request details summary page. Click on the ‘Confirm request’ button and you will see the following confirmation message:"
+msgstr "قم بالنقر على ‘إنشاء’ وسيتم عرض صفحة ملخص تفاصيل الطلب لك. قم بالنقر على زر ‘تأكيد الطلب’ وسترى رسالة التأكيد التالية:"
+
+#: ../../source/ILL_requests.rst:58
+msgid "|image1389|"
+msgstr "|image1389|"
+
+#: ../../source/ILL_requests.rst:60
+msgid "Click ‘Confirm request’ again to create your request."
+msgstr "قم بالنقر على ‘تأكيد الطلب’ مرة أخرى لإنشاء طلبك."
+
+#: ../../source/ILL_requests.rst:65
+msgid "Viewing ILL requests"
+msgstr "عرض طلبات الإعارة البينية"
+
+#: ../../source/ILL_requests.rst:67
+msgid "From the main ILL requests screen you can see all of your ILL requests. You can also click on the ‘View requests’ button at any time."
+msgstr "من شاشة طلبات الإعارة البينية الرئيسية يمكنك رؤية كل طلبات الإعارة البينية الخاصة بك. كما يمكنك النقر على زر ‘عرض الطلبات’ في أي وقت."
+
+#: ../../source/ILL_requests.rst:70
+msgid "|image1435|"
+msgstr "|image1435|"
+
+#: ../../source/ILL_requests.rst:72
+msgid "There is a large amount of data available in the Requests table so it is advisable to make use of column visibility to view only the information you need. The first half of the table displays data related to the ILL item itself such as title, volume, page numbers."
+msgstr "توجد كمية كبيرة من البيانات المتاحة في جدول الطلبات، لذا من الأفضل استخدام رؤية العمود لعرض المعلومات التي تحتاجها فقط. يقوم النصف الأول من الجدول بعرض البيانات ذات الصلة إلى مادة الإعارة البينية نفسها كالعنوان، المجلد، وأرقام الصفحات."
+
+#: ../../source/ILL_requests.rst:77
+msgid "|image1436|"
+msgstr "|image1436|"
+
+#: ../../source/ILL_requests.rst:79
+msgid "The second half of the table displays data related to the request such as notes and comments."
+msgstr "يقوم النصف الثاني من الجدول بعرض البيانات ذات الصلة بالطلب مثل: الملاحظات والتعليقات."
+
+#: ../../source/ILL_requests.rst:85
+msgid "Managing ILL requests"
+msgstr "إدارة طلبات الإعارة البينية"
+
+#: ../../source/ILL_requests.rst:87
+msgid "Click on the ‘Manage request’ button in the final column. Depending on the current status of the request you may see some or all of the following options:"
+msgstr "قم بالنقر على زر ‘إدارة الطلبات’ في العمود الأخير. وفقاً لحالة الطلب الحالية، يمكنك رؤية بعض الخيارات التالية أو كلها:"
+
+#: ../../source/ILL_requests.rst:90
+msgid "Edit request"
+msgstr "تحرير الطلب"
+
+#: ../../source/ILL_requests.rst:92
+msgid "you can edit the borrowernumber, biblionumber, branch and can add notes."
+msgstr "يمكنك تحرير رقم المستعير، الرقم البيبلوغرافي، والفرع، ويمكنك إضافة ملاحظات."
+
+#: ../../source/ILL_requests.rst:93
+msgid "Confirm request"
+msgstr "تأكيد الطلب"
+
+#: ../../source/ILL_requests.rst:95
+msgid "place the request with a document supply service using a backend such as BLDSS."
+msgstr "وضع الطلب بخدمة توريد الوثائق باستخدام نهاية خلفية مثل BLDSS."
+
+#: ../../source/ILL_requests.rst:96 ../../source/ILL_requests.rst:143
+msgid "Place request with partners"
+msgstr "وضع طلب مع شركاء"
+
+#: ../../source/ILL_requests.rst:98
+msgid "place the request via email with a :ref:`partner library <place-request-with-partners-label>`"
+msgstr "وضع الطلب عبر البريد الإلكتروني باستخدام ref:`مكتبة شريكة <place-request-with-partners-label>`"
+
+#: ../../source/ILL_requests.rst:99
+msgid "Delete"
+msgstr "حذف"
+
+#: ../../source/ILL_requests.rst:101
+msgid "fully delete the request. Details of deleted requests are not retained in Koha."
+msgstr "حذف الطلب بالكامل. لا يتم الاحتفاظ بتفاصيل الطلبات المحذوفة في كوها. "
+
+#: ../../source/ILL_requests.rst:102
+msgid "Revert request"
+msgstr "عكس الطلب"
+
+#: ../../source/ILL_requests.rst:104
+msgid "following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’"
+msgstr "بتتبع حالة ‘مطلوب’ أو ‘مطلوب من شركاء’ يمكن لموظفي المكتبة إلغاء الطلب من المصدر الخارجي. يتم عكس الحالة إلى ‘جديد’"
+
+#: ../../source/ILL_requests.rst:106
+msgid "Mark completed"
+msgstr "الإشارة إلى الإتمام"
+
+#: ../../source/ILL_requests.rst:108
+msgid "used when the ILL request has been fulfilled."
+msgstr "يستخدم عند إتمام طلب الإعارة البينية"
+
+#: ../../source/ILL_requests.rst:109
+msgid "Edit item metadata"
+msgstr "تحرير ميتاداتا المادة"
+
+#: ../../source/ILL_requests.rst:111
+msgid "Depending on the backend used for the request you may be able to edit, add or delete some or all of the request metadata.  For example, if the metdata has originated from a requestor using the FreeForm backend this may need to be edited, whereas metadata from an external recognised source such as BLDSS should not."
+msgstr "وفقاً للنهاية الخلفية المستخدمة للطلب قد تتمكن من تحرير أو إضافة أو حذف بعض ميتاداتا الطلبات أو جميعها. على سبيل المثال: إذا تم إنشاء الميتاداتا من مقدم الطلب باستخدام نهاية FreeForm الخلفية، فقد تحتاج إلى التحرير، بينما لا يجب تحرير الميتاداتا من مصدر خارجي معروف مثل BLDSS."
+
+#: ../../source/ILL_requests.rst:116
+msgid "Display supplier metadata"
+msgstr "عرض ميتاداتا الموّرد"
+
+#: ../../source/ILL_requests.rst:118
+msgid "Displays any extra metadata that might have been provided by your ILL supplier that has not been included in the standard request fields."
+msgstr "يعرض أي ميتاداتا إضافية قد تكون قد قمت بتقديمها بواسطة مورد الإعارة البينية الخاص بك ولم يتم إدراجها في حقول الطلب المعيارية."
+
+#: ../../source/ILL_requests.rst:120
+msgid "Comments"
+msgstr "التعليقات"
+
+#: ../../source/ILL_requests.rst:122
+msgid "It is possible to add comments to an ILL request and these can be used by ILL staff to keep track of work undertaken. Comments are read only and are stored in chronological order. They display the borrower details and date of the comment. If present, the number of comments is displayed in the List requests view."
+msgstr "من الممكن إضافة تعليقات إلى طلب الإعارة البينية ويمكن لموظفي الإعارة البينية الخاصة بك استخدامها لتتبع تنفيذ العمل. التعليقات للقراءة فقط ويتم تخزينها بترتيب زمني. وتقوم بعرض تفاصيل المستعير وتاريح التعليق. يتم عرض عدد التعليقات في عرض طلبات القائمة إن وجدت."
+
+#: ../../source/ILL_requests.rst:129
+msgid "Request statuses"
+msgstr "حالات الطلب"
+
+#: ../../source/ILL_requests.rst:131
+msgid "The full list of ILL statuses are:"
+msgstr "القائمة الكاملة لحالات الإعارة البينية هي:"
+
+#: ../../source/ILL_requests.rst:133
+msgid "New request"
+msgstr "طلب جديد"
+
+#: ../../source/ILL_requests.rst:134
+msgid "Requested"
+msgstr "مطلوب"
+
+#: ../../source/ILL_requests.rst:135
+msgid "Requested from partners"
+msgstr "مطلوب من شركاء"
+
+#: ../../source/ILL_requests.rst:136
+msgid "Request reverted"
+msgstr "تم عكس الطلب"
+
+#: ../../source/ILL_requests.rst:137
+msgid "Cancellation requested – a patron has requested cancellation from the OPAC."
+msgstr "تم طلب الإلغاء – قام مستفيد بطلب الإلغاء من الأوباك."
+
+#: ../../source/ILL_requests.rst:138
+msgid "Completed"
+msgstr "تمّ"
+
+#: ../../source/ILL_requests.rst:145
+msgid "If you have a network of partner libraries which permit ILL requests you can manage this through Koha. First you need to create your partner library accounts:"
+msgstr "إذا كان لديك شبكة من المكتبات الشريكة والتي تتيح طلبات الإعارة البينية، يمكن إدارة ذلك عبر كوها. يجب عليك أولاً إنشاء حسابات للمكتبة الشريكة:"
+
+#: ../../source/ILL_requests.rst:147
+msgid "You will need to set up a :ref:`patron category <patron-categories-label>` with the code ILLLIBS."
+msgstr "يجب عليك تنصيب :ref:`فئة المستفيد <patron-categories-label>` بكود ILLIBS."
+
+#: ../../source/ILL_requests.rst:149
+msgid "You will need to create a patron account with this category for each partner library."
+msgstr "يجب عليك إنشاء حساب مستفيد بهذه الفئة لكل مكتبة شريكة."
+
+#: ../../source/ILL_requests.rst:151
+msgid "Each library must have an email address as this will be the mechanism for sending the inter-library loan request."
+msgstr "يجب أن يكون لكل مكتبة عنوان بريد إلكتروني حيث ستكون هذه هي آلية إرسال طلبات الإعارة بين المكتبات."
+
+#: ../../source/ILL_requests.rst:153
+msgid "You can now use the 'Place request with partners' option when processing requests."
+msgstr "يمكنك الآن استخدام خيار 'وضع طلب مع شركاء' عند معالجة الطلبات."
+

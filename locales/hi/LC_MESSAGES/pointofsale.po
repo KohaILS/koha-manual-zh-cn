@@ -1,0 +1,89 @@
+# Hindi translations for Koha Manual package.
+# Copyright (C) 2020, Koha Community
+# This file is distributed under the same license as the Koha Manual package.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha Manual 20.05\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-01 21:22-0300\n"
+"PO-Revision-Date: 2020-06-11 14:04+0000\n"
+"Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
+"Language-Team: none\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1591884246.287094\n"
+
+#: ../../source/pointofsale.rst:6
+msgid "Point of sale"
+msgstr "बिक्री केन्द्र"
+
+#: ../../source/pointofsale.rst:8
+msgid "Point of sale is a module designed for selling items to people who aren't registered at the library or to make sales that do not need to be linked to a patron account."
+msgstr "पॉइंट ऑफ सेल एक ऐसा मॉड्यूल है जो उन लोगों को आइटम बेचने के लिए डिज़ाइन किया गया है जो लाइब्रेरी में पंजीकृत नहीं हैं या बिक्री करने के लिए जिन्हें संरक्षक खाते से लिंक करने की आवश्यकता नहीं है।"
+
+#: ../../source/pointofsale.rst:12
+msgid "For example, you can sell used books or promotional items. These items can be sold to anyone and you don't need to link the sale to a particular patron."
+msgstr "उदाहरण के लिए, आप उपयोग की गई पुस्तकें या प्रचारक आइटम बेच सकते हैं। इन वस्तुओं को किसी को भी बेचा जा सकता है और आपको बिक्री को किसी विशेष संरक्षक से जोड़ने की आवश्यकता नहीं है।"
+
+#: ../../source/pointofsale.rst:15
+msgid "For invoices that need to be linked to a patron's account (like a lost item or new card fee), use :ref:`manual invoicing <creating-manual-invoices-label>`."
+msgstr "ऐसे चालान के लिए जिन्हें संरक्षक के खाते से जोड़ा जाना चाहिए (जैसे खोई हुई वस्तु या नया कार्ड शुल्क), का उपयोग करें :ref:`मैनुअल चालान <creating-manual-invoices-label>`."
+
+#: ../../source/pointofsale.rst:18
+msgid "*Get there:* More > Point of sale"
+msgstr "*वहाँ जाओ:* अधिक> बिक्री का बिंदु"
+
+#: ../../source/pointofsale.rst:23
+msgid "Setup"
+msgstr "सेटअप"
+
+#: ../../source/pointofsale.rst:25
+msgid "To enable the point of sale module, you must turn on the :ref:`EnablePointOfSale` system preference."
+msgstr "बिक्री मॉड्यूल के बिंदु को सक्षम करने के लिए, आपको :ref:`EnablePointOfSale` सिस्टम वरीयता को चालू करना होगा।"
+
+#: ../../source/pointofsale.rst:28
+msgid "If it's not already done, you must also enable the :ref:`UseCashRegisters` system preference."
+msgstr "यदि यह पहले से नहीं किया गया है, तो आपको :ref:`UseCashRegisters` सिस्टम वरीयता को भी सक्षम करना होगा।"
+
+#: ../../source/pointofsale.rst:31
+msgid "Make sure you :ref:`configure your cash registers <cashregisters-label>` in the administration module."
+msgstr "सुनिश्चित करें कि आप :ref:`प्रशासन मॉड्यूल में अपने कैश रजिस्टर <cashregisters-label>` को कॉन्फ़िगर करें।"
+
+#: ../../source/pointofsale.rst:34
+msgid "Finally, you must add items that you will be selling in the :ref:`debit types <debit-types-label>` section of the administration module."
+msgstr "अंत में, आपको उन वस्तुओं को जोड़ना होगा जिन्हें आप :ref:`डेबिट प्रकार <debit-types-label>` प्रशासन मॉड्यूल के अनुभाग में बेच रहे हैं।"
+
+#: ../../source/pointofsale.rst:40
+msgid "Making a sale"
+msgstr "बिक्री करना"
+
+#: ../../source/pointofsale.rst:42
+msgid "When you first go in the point of sale module, the left side will show all the items for sale. These are :ref:debit types <debit-types-label>` that were marked as 'Can be sold'."
+msgstr "जब आप पहली बार बिक्री मॉड्यूल के बिंदु पर जाते हैं, तो बाईं ओर बिक्री के लिए सभी आइटम दिखाए जाएंगे। ये :ref:डेबिट प्रकार<debit-types-label>` कि 'के रूप में बेचा जा सकता है' चिह्नित किया गया।"
+
+#: ../../source/pointofsale.rst:46
+msgid "On the right side is the current sale."
+msgstr "दाईं ओर वर्तमान बिक्री है।"
+
+#: ../../source/pointofsale.rst:48
+msgid "image goes here"
+msgstr "छवि यहाँ जाती है"
+
+#: ../../source/pointofsale.rst:50
+msgid "Click on the 'Add' button next to the items to add to the current sale."
+msgstr "वर्तमान बिक्री में जोड़ने के लिए आइटम के आगे स्थित 'जोड़ें' बटन पर क्लिक करें।"
+
+#: ../../source/pointofsale.rst:52
+msgid "If you need to change the cost or the quantity, click on the amount on the right side and it will become an input box where you can enter the correct amount."
+msgstr "यदि आपको लागत या मात्रा को बदलने की आवश्यकता है, तो दाईं ओर की राशि पर क्लिक करें और यह एक इनपुट बॉक्स बन जाएगा जहां आप सही राशि दर्ज कर सकते हैं।"
+
+#: ../../source/pointofsale.rst:56
+msgid "|image1459|"
+msgstr "|image1459|"
+

@@ -1,0 +1,958 @@
+# Compendium of sv.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-sv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-18 01:15-0300\n"
+"PO-Revision-Date: 2019-03-13 15:05-0300\n"
+"Language-Team: Koha Translation Team \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/serials.rst:6
+msgid "Serials"
+msgstr "Periodika"
+
+#: ../../source/serials.rst:8
+msgid "Serials actions can be accessed by going to the 'More' menu at the top of your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha staff client page. The Serials module in Koha is used for keeping track of journals, newspapers and other items that come on a regular schedule. As with all modules, make sure you go through the related :ref:`implementation checklist <serials-configuration-label>` before using the Serials module."
+msgstr ""
+
+#: ../../source/serials.rst:16
+msgid "*Get there:* More > Serials"
+msgstr ""
+
+#: ../../source/serials.rst:21
+#, fuzzy
+msgid "Manage serial frequencies"
+msgstr "Hantera frekvenser"
+
+#: ../../source/serials.rst:23
+msgid "Koha keeps a record of publication frequencies for easy management and duplication."
+msgstr "Koha håller reda på publiceringsfrekvenser för enkel hantering och duplicering."
+
+#: ../../source/serials.rst:26
+msgid "*Get there:* More > Serials > Manage frequencies"
+msgstr ""
+
+#: ../../source/serials.rst:28
+#, fuzzy
+msgid "From this page you can view all of the existing frequencies in your system"
+msgstr "Från denna sida kan du visa alla befintliga frekvenser i systemet och skapa nya."
+
+#: ../../source/serials.rst:31
+msgid "|image738|"
+msgstr "|image738|"
+
+#: ../../source/serials.rst:33
+#, fuzzy
+msgid "and create new ones."
+msgstr "för att skapa nya listor."
+
+#: ../../source/serials.rst:35
+msgid "|image739|"
+msgstr "|image739|"
+
+#: ../../source/serials.rst:40
+#, fuzzy
+msgid "Manage serial numbering patterns"
+msgstr "Hantera numreringsmönster"
+
+#: ../../source/serials.rst:42
+#, fuzzy
+msgid "Everytime you create a new numbering pattern in serials you can save it for later use. These patterns are accessible via the 'Manage numbering patterns' page."
+msgstr "Varje gång du skapar ett nytt numreringsmönster i periodika kan du spara det för senare användning. Dessa mönster är tillgängliga via sidan Hantera numreringsmönster."
+
+#: ../../source/serials.rst:46
+#, fuzzy
+msgid "*Get there:* More > Serials > Manage numbering patterns"
+msgstr "Det finns inga befintliga numreringsmönster."
+
+#: ../../source/serials.rst:48
+msgid "This page will list for you the numbering patterns you have saved in the past as well as a few canned patterns."
+msgstr "Denna sida listar de numreringsmönster du sparat tidigare samt en del inbyggda mönster."
+
+#: ../../source/serials.rst:51
+msgid "|image740|"
+msgstr "|image740|"
+
+#: ../../source/serials.rst:53 ../../source/serials.rst:305
+#, fuzzy
+msgid "**Note**"
+msgstr "Kommentar"
+
+#: ../../source/serials.rst:55
+msgid "If you have upgraded from a previous version of Koha you will see 'Backup patterns' listed for patterns used in version before Koha 3.14. This is how Koha saved your old numbering patterns. You can edit these to give them more meaningful names from here."
+msgstr ""
+
+#: ../../source/serials.rst:60
+#, fuzzy
+msgid "It will also allow you to create a new numbering pattern without first adding a subscription. To add new new pattern click 'New numbering pattern' at the top of the list of patterns."
+msgstr "Det gör också att du kan skapa ett nytt numreringsmönster utan att först lägga till en prenumeration. För att lägga till ett nytt mönster klickar du på 'Nytt numreringsmönster' längst upp i listan med mönster."
+
+#: ../../source/serials.rst:64
+msgid "|image741|"
+msgstr "|image741|"
+
+#: ../../source/serials.rst:69
+#, fuzzy
+msgid "Add a subscription"
+msgstr "Lägg till en ersättning"
+
+#: ../../source/serials.rst:71
+#, fuzzy
+msgid "Subscriptions can be added by clicking the 'New' button on any bibliographic record"
+msgstr "Prenumerationer måste vara kopplade till en bibliografisk post"
+
+#: ../../source/serials.rst:74
+msgid "|image742|"
+msgstr "|image742|"
+
+#: ../../source/serials.rst:76
+#, fuzzy
+msgid "Or by visiting the Serials module and clicking 'New subscription'"
+msgstr "En lista kan skapas genom att besöka Listor-sidan och klicka på 'Ny lista'"
+
+#: ../../source/serials.rst:78
+msgid "|image743|"
+msgstr "|image743|"
+
+#: ../../source/serials.rst:80
+msgid "If you are entering a new subscription from the Serials module you will be presented with a blank form (if creating new from a bibliographic record the form will include the bib info)."
+msgstr "Om du lägger in en ny prenumeration från periodikamodulen visas ett tomt formulär (om du skapar nytt från en bibliografisk post inkluderar formuläret den bibliografiska informationen)."
+
+#: ../../source/serials.rst:84
+msgid "|image744|"
+msgstr "|image744|"
+
+#: ../../source/serials.rst:86
+msgid "'Librarian' field will show the logged in librarian's username"
+msgstr "'Bibliotekarie'-fältet visar den inloggade bibliotekariens användarnamn"
+
+#: ../../source/serials.rst:88
+#, fuzzy
+msgid "'Vendor' can be found by either searching vendors entered via the `Acquisitions module <#acqmodule>`__ or entering the vendor ID number"
+msgstr "'Leverantör' kan hittas antingen genom att söka leverantörer som angivits i inköpsmodulen eller genom att ange leverantörens ID-nummer "
+
+#: ../../source/serials.rst:91
+msgid "Vendor information is not required"
+msgstr "Leverantörsinformation krävs inte"
+
+#: ../../source/serials.rst:93
+msgid "In order to claim missing and late issues you need to enter vendor information"
+msgstr "För att kunna reklamera saknade eller försenade nummer måste du ange leverantörsinformation"
+
+#: ../../source/serials.rst:96
+msgid "|image745|"
+msgstr "|image745|"
+
+#: ../../source/serials.rst:98
+#, fuzzy
+msgid "'Biblio' is the MARC record you'd like to link this subscription to"
+msgstr "'Biblio' är den MARC-post du vill koppla denna prenumeration till "
+
+#: ../../source/serials.rst:100
+#, fuzzy
+msgid "This can be done by searching for an existing record by clicking on the 'Search for record' link below the boxes or by entering the biblionumber for a record in the first box. Only if you search will the field between the parenthesis be filled in."
+msgstr "Det kan göras genom att man söker efter en befintlig post genom att klicka på länken 'Sök för biblio' under rutorna eller genom att man anger bibnumret för en post i den första rutan. Bara om du söker med fältet mellan parenteserna."
+
+#: ../../source/serials.rst:105
+msgid "Next you can choose whether a new item is created when receiving an issue (if you barcode issues you'll want to create an item at this time)"
+msgstr "Sedan kan du välja om ett nytt exemplar ska skapas när ett nummer tas emot (Vid användning av streckkoder till nummer så ska ett exemplar skapas här)"
+
+#: ../../source/serials.rst:109
+msgid "In order to determine how to handle irregularities in your subscription answer 'When there is an irregular issue', if the numbers are always sequential you'll want to pick 'Keep issue number'"
+msgstr "För att hantera oregelbundheter i prenumeration svara 'När det är en oregelbunden utgåva'. Om numren alltid är sekventiella välj 'Behåll utgåvonummer'"
+
+#: ../../source/serials.rst:113
+msgid "Checking the 'Manual history' box will allow you to enter serials outside the prediction pattern once the subscription is saved by going to the 'Planning' tab on the subscription detail page."
+msgstr "Markering av 'Manuell historik' gör att du kan ange periodika som ligger utanför prognosmönstret. Detta sker efter attt prenumeratonen sparas genom att gå till 'Plannerings'-tabben på detaljvyn på prenumerationssidan."
+
+#: ../../source/serials.rst:117
+msgid "|image1277|"
+msgstr "|image1277|"
+
+#: ../../source/serials.rst:119
+#, fuzzy
+msgid "'Call number' is for your item's call number or call number prefix"
+msgstr "'Hyllsignatur' är exemplarets hyllsignum eller hyllsignumprefix."
+
+#: ../../source/serials.rst:121
+#, fuzzy
+msgid "'Library' is the branch that owns this subscription."
+msgstr "'Bibliotek' är det bibliotek/den filial som äger prenumerationen. "
+
+#: ../../source/serials.rst:123
+msgid "If more than one library subscribes to this serial you will need to create a subscription for each library"
+msgstr "Om fler än ett bibliotek prenumererar på detta periodika, måste du skapa en prenumeration för varje bibliotek"
+
+#: ../../source/serials.rst:126
+#, fuzzy
+msgid "This can be done easily by using the 'Edit as new (duplicate)' option found on the subscription information page and changing only the 'Library' field"
+msgstr "Det kan enkelt göras med alternativet 'Redigera som ny (dubblett)' på sidan med prenumerationsinformation och sedan bara ändra fältet 'Bibliotek'"
+
+#: ../../source/serials.rst:130
+msgid "|image746|"
+msgstr "|image746|"
+
+#: ../../source/serials.rst:132
+#, fuzzy
+msgid "Use the 'Public note' for any notes you would like to appear in the OPAC for the patrons"
+msgstr "Använd 'Publikt meddelande' för meddelanden du vill visa för låntagarna i OPAC"
+
+#: ../../source/serials.rst:135
+#, fuzzy
+msgid "'Nonpublic note' should be used for notes that are only visible to the librarians via the staff client"
+msgstr "'Icke offentligt meddelande' ska användas för meddelande som bara kan ses av bibliotekarier via personalklienten"
+
+#: ../../source/serials.rst:138
+#, fuzzy
+msgid "The 'Patron notification' option lets you pick a notice to send to patrons who subscribe to updates on this serial via the OPAC."
+msgstr "Inställningen 'Låntagarmeddelande' möjliggör att meddelande kan skickas till låntagare som prenumererar på uppdateringar av denna tidsskrift i OPAC:en. "
+
+#: ../../source/serials.rst:141
+#, fuzzy
+msgid "For this option to appear you need to make sure that you have a Routing list notice set up in the :ref:`Notices Tool <notices-and-slips-label>`"
+msgstr "För att detta alternativ ska visas måste du se till att du har konfigurerat en Mottagarlista i verktyget Meddelande"
+
+#: ../../source/serials.rst:144
+msgid "'Location' is for the shelving location"
+msgstr "'Plats' är för hyllplatsen"
+
+#: ../../source/serials.rst:146
+#, fuzzy
+msgid "The 'Grace period' is the number of days before an issue is automatically moved from 'Expected' status to 'Late'. This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly."
+msgstr "'Respittid' är antalet dagar innan ett nummer flyttas automatiskt från statusen 'förväntad' till 'väntar' samt antalet dagar innan ett nummer automatiskt flyttas från statusen 'väntar' till 'sen'"
+
+#: ../../source/serials.rst:150
+#, fuzzy
+msgid "The Staff and OPAC display options allow you to control how many issues appear by default on bibliographic records in the Staff Client and the OPAC"
+msgstr "Visningsinställningarna för personal och OPAC gör att du kan ställa in hur många nummer som visas som standard på bibliografiska poster i personalklienten och OPAC "
+
+#: ../../source/serials.rst:154
+#, fuzzy
+msgid "If no values are entered in these fields, they will use the :ref:`OPACSerialIssueDisplayCount` and :ref:`StaffSerialIssueDisplayCount` system preference values"
+msgstr "Om inga värden anges i dessa fält, använder de systeminställningarna OPACSerialIssueDisplayCount och StaffSerialIssueDisplayCount"
+
+#: ../../source/serials.rst:159
+#, fuzzy
+msgid "Once that data is filled in you can click 'Next' to enter the prediction pattern information."
+msgstr "När data är ifyllt går det att klicka 'Nästa' för att fylla i prognosmönsterinformation. "
+
+#: ../../source/serials.rst:162
+msgid "|image747|"
+msgstr "|image747|"
+
+#: ../../source/serials.rst:164
+msgid "In 'First issue publication date' you want to enter the date of the issue you have in your hand, the date from which the prediction pattern will start"
+msgstr "I 'Publiceringsdatum första utgåva' anger du datumet för det nummer du har i handen, det datum från vilket prognosmönstret ska börja"
+
+#: ../../source/serials.rst:168
+#, fuzzy
+msgid "There are several pre-defined options for the 'Frequency' of publication all of which are visible alongside your own custom frequencies by visiting ':ref:`Manage frequencies <manage-serial-frequencies-label>`'"
+msgstr "Det finns flera fördefinierade alternativ för med vilken 'Frekvens' titeln utkommer som du kan se tillsammans med dina egendefinierade frekvenser genom att besöka 'Hantera frekvenser' "
+
+#: ../../source/serials.rst:172
+msgid "Without periodicy: some very specific (usually high level science journals) don't have a true periodicity. When you subscribe to the title, you subscribe for 6 issues, which can arrive in 1 year... or 2... There is no regularity or known schedule."
+msgstr ""
+
+#: ../../source/serials.rst:177
+msgid "Unknown select this if none of the other choices are relevant"
+msgstr "Okänt välj detta om inga av de andra alternativen är relevanta"
+
+#: ../../source/serials.rst:179
+msgid "Irregular: The journal is not \"regular\" but has a periodicity. You know that it comes out on January, then in October and December, it is irregular, but you know when it's going to arrive."
+msgstr "Oregelbunden: tidskriften är inte \"regelbunden\" men är periodisk. Du vet att den kommer ut i januari och sedan i oktober och december, den är oregelbunden men du vet när den kommer att komma."
+
+#: ../../source/serials.rst:183
+msgid "2/day: Twice daily"
+msgstr "2/day: Twice daily"
+
+#: ../../source/serials.rst:185
+msgid "1/day: Daily"
+msgstr "1/day: Daily"
+
+#: ../../source/serials.rst:187
+msgid "3/week: Three times a week"
+msgstr "3/week: Three times a week"
+
+#: ../../source/serials.rst:189
+msgid "1/week: Weekly"
+msgstr "1/week: Weekly"
+
+#: ../../source/serials.rst:191
+msgid "1/ 2 weeks: Twice monthly (fortnightly)"
+msgstr "1/ 2 weeks: Twice monthly (fortnightly)"
+
+#: ../../source/serials.rst:193
+msgid "1/ 3 weeks: Tri-weekly"
+msgstr "1/ 3 weeks: Tri-weekly"
+
+#: ../../source/serials.rst:195
+msgid "1/month: Monthly"
+msgstr "1/month: Monthly"
+
+#: ../../source/serials.rst:197
+msgid "1/ 2 months (6/year): Bi-monthly"
+msgstr "1/ 2 months (6/year): Bi-monthly"
+
+#: ../../source/serials.rst:199
+msgid "1/ 3 months (1/quarter): Quarterly"
+msgstr "1/ 3 months (1/quarter): Quarterly"
+
+#: ../../source/serials.rst:201
+msgid "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, Winter, Spring)"
+msgstr "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, Winter, Spring)"
+
+#: ../../source/serials.rst:204
+msgid "2/year: Half yearly"
+msgstr "2/year: Half yearly"
+
+#: ../../source/serials.rst:206
+msgid "1/year: Annual"
+msgstr "1/year: Annual"
+
+#: ../../source/serials.rst:208
+msgid "1/ 2 years: Bi-annual"
+msgstr "1/ 2 years: Bi-annual"
+
+#: ../../source/serials.rst:210
+msgid "'Subscription length' is the number of issues or months in the subscription. This is also used for setting up renewal alerts"
+msgstr "'Prenumerationslängd' är antalet nummer eller månader i prenumerationen. Detta används även vid konfiguration av notifikationer för förnyelse"
+
+#: ../../source/serials.rst:213
+msgid "'Subscription start date' is the date at which the subscription begins. This is used for setting up renewal alerts"
+msgstr "'Startdatum för prenumeration' är det datum då prenumerationen inleds. Detta används vid konfiguration av notifikationer för förnyelse"
+
+#: ../../source/serials.rst:216
+msgid "'Subscription end date' should only be entered for subscriptions that have ended (if you're entering in a backlog of serials)"
+msgstr "'Slutdatum för prenumeration' ska bara anges för prenumerationer som avslutats (om du för in en befintlig uppsättning periodika)"
+
+#: ../../source/serials.rst:219
+#, fuzzy
+msgid "'Numbering pattern' will help you determine how the numbers are printed for each issue. Patterns entered here are saved and editable at any time by visiting ':ref:`Manage numbering patterns <manage-serial-numbering-patterns-label>`'"
+msgstr "'Nummermönster' hjälper till att bestämma hur nummer skrivs för varje utgåva. Mönster som anges här sparas och är redigerbara när som helst genom att besöka 'Hantera nummermönster' "
+
+#: ../../source/serials.rst:224
+msgid "Start with the numbering on the issue you have in hand, the numbering that matches the date you entered in the 'First issue publication' field"
+msgstr "Börja med numret på den utgåva du har i handen, det nummer som överensstämmer med det datum du angav i fältet 'Publiceringsdatum första utgåva'"
+
+#: ../../source/serials.rst:228
+#, fuzzy
+msgid "You can choose to create your own numbering pattern by choosing 'None of the above' and clicking the 'Show/hide advanced pattern' button at the bottom of the form"
+msgstr "Du kan välja att skapa ditt eget numreringsmönster genom att välja 'Inget av ovanstående' och klicka på knappen 'Visa/dölj avancerat mönster' längst ner i formuläret"
+
+#: ../../source/serials.rst:232
+msgid "|image748|"
+msgstr "|image748|"
+
+#: ../../source/serials.rst:234
+msgid "The 'Locale' option is useful when you want to display days, month or season. For example, if you have a German serial, you can use the German locale option to display days, etc. in German."
+msgstr "'Locale' inställningen används vid visning av dagar, månader. E.g. tysk inställning för tidskrifter kommer att göra visningen av dagar mm på tyska."
+
+#: ../../source/serials.rst:238
+#, fuzzy
+msgid "Once a 'Numbering pattern' is chosen the number formula will appear."
+msgstr "När ett 'Nummermönster' har valts kommer nummerformeln att visas. "
+
+#: ../../source/serials.rst:241
+msgid "|image1278|"
+msgstr "|image1278|"
+
+#: ../../source/serials.rst:243
+msgid "The 'Begins with' number is the number of the issue you're holding in your hand."
+msgstr "'Börjar med' numret är numret på den utgåva som du har till hands."
+
+#: ../../source/serials.rst:246
+#, fuzzy
+msgid "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" starts"
+msgstr "Den 'inre räknaren' berättar för Koha när 'mottagningscykeln' börjar "
+
+#: ../../source/serials.rst:249
+msgid "For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. 797\", the inner counter should be \"1\"."
+msgstr "Exempel: Om den första utgåvan som mottages är \"vol. 4, no. 1, iss. 796\" så behöver man sätta en \"inre räknare = 0\" men om det är \"vol. 4, no. 2, iss. 797\" så ska inre räknaren vara \"1\"."
+
+#: ../../source/serials.rst:253
+msgid "After filling in this data click the 'Test prediction pattern' button to see what issues the system will generate, if there are irregularities you can choose which issues don't exist from the list presented."
+msgstr "Efter inmatning av denna data klicka på knappen 'Testa prognosmönster' för att se vilka utgåvor som systemet kommer att skapa, om det finns avvikelser så kan icke existerande utgåvor markeras i den presenterade listan."
+
+#: ../../source/serials.rst:258
+msgid "|image749|"
+msgstr "|image749|"
+
+#: ../../source/serials.rst:260
+msgid "If you have added a :ref:`custom field <additional-fields-label>`, it will be editable above the buttons at the bottom of the screen"
+msgstr ""
+
+#: ../../source/serials.rst:263
+msgid "|image1274|"
+msgstr "|image1274|"
+
+#: ../../source/serials.rst:265
+msgid "Click 'Save subscription' to save the information you have entered. `Find sample serial examples in the serial pattern library on the wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr ""
+
+#: ../../source/serials.rst:271
+#, fuzzy
+msgid "Edit a subscription"
+msgstr "Redigera prenumeration"
+
+#: ../../source/serials.rst:273
+msgid "To edit a subscription, click on 'Edit' and 'Edit subscription' from the subscription page. This will take you back to the same form as the one used when :ref:`creating a new subscription <add-a-subscription-label>`."
+msgstr ""
+
+#: ../../source/serials.rst:277
+msgid "|image1376|"
+msgstr "|image1376|"
+
+#: ../../source/serials.rst:279
+msgid "You can also batch edit subscriptions. To do so, search for the subscriptions you want to change. In the results, check the boxes next to the subscriptions to edit. The link 'Edit selected serials' will appear."
+msgstr ""
+
+#: ../../source/serials.rst:283
+msgid "|image1377|"
+msgstr "|image1377|"
+
+#: ../../source/serials.rst:285
+msgid "From there, you can change:"
+msgstr ""
+
+#: ../../source/serials.rst:287
+#, fuzzy
+msgid "the vendor"
+msgstr "Ny leverantör"
+
+#: ../../source/serials.rst:289
+#, fuzzy
+msgid "the shelving location"
+msgstr "Alla hyllplatser"
+
+#: ../../source/serials.rst:291
+#, fuzzy
+msgid "the library"
+msgstr "Nytt bibliotek"
+
+#: ../../source/serials.rst:293
+#, fuzzy
+msgid "the item type"
+msgstr "Ny exemplartyp"
+
+#: ../../source/serials.rst:295
+#, fuzzy
+msgid "the public note"
+msgstr "Publikt meddelande"
+
+#: ../../source/serials.rst:297
+#, fuzzy
+msgid "the nonpublic note"
+msgstr "Icke publik kommentar"
+
+#: ../../source/serials.rst:299
+#, fuzzy
+msgid "whether or not to create an item when receiving an issue"
+msgstr "skapa inte en exemplarpost när detta periodika tas emot"
+
+#: ../../source/serials.rst:301
+#, fuzzy
+msgid "the expiration date"
+msgstr "Sök utgångsdatum"
+
+#: ../../source/serials.rst:303
+msgid "|image1378|"
+msgstr "|image1378|"
+
+#: ../../source/serials.rst:307
+#, fuzzy
+msgid "Leave the field unchanged to keep the original values."
+msgstr "Markera rutorna för att kopiera ursprungliga värden"
+
+#: ../../source/serials.rst:312
+#, fuzzy
+msgid "Receive issues"
+msgstr "Mottagna nummer"
+
+#: ../../source/serials.rst:314
+#, fuzzy
+msgid "Issues can be marked as received from several locations. To find a subscription, use the search box at the top of the Serials page to search for the serial you'd like to receive issues for:"
+msgstr "Nummer kan markeras som mottagna från flera olika platser. För att hitta en prenumeration använder du sökrutan längst upp på periodikasidan för att söka efter det periodika du vill ta emot nummer för"
+
+#: ../../source/serials.rst:318
+msgid "|image750|"
+msgstr "|image750|"
+
+#: ../../source/serials.rst:320
+#, fuzzy
+msgid "From the search results you can click the 'Serial receive' link or you can click on the subscription title and then click the 'Receive' button."
+msgstr "Från sökresultaten kan du klicka på länken 'Mottagning periodika' eller på prenumerationstiteln och sedan på knappen 'Mottagning'."
+
+#: ../../source/serials.rst:323
+msgid "|image751|"
+msgstr "|image751|"
+
+#: ../../source/serials.rst:325
+#, fuzzy
+msgid "The final way to receive serials is from the 'Serial collection' page. To the left of the Subscription summary page there is a menu with a link to 'Serial collection'"
+msgstr "Det sista sättet att ta emot periodika är från sidan 'Periodikasamling'. Till vänster om sammanfattningssidan för prenumerationer finns en meny med en länk till 'Periodikasamling'"
+
+#: ../../source/serials.rst:329
+msgid "|image752|"
+msgstr "|image752|"
+
+#: ../../source/serials.rst:331
+#, fuzzy
+msgid "From the page that opens up you can click 'Edit serial' with the issue you want to receive checked."
+msgstr "I sidan som öppnas kan du klicka på 'Redigera periodika' med det nummer du vill ta emot markerat."
+
+#: ../../source/serials.rst:334
+msgid "|image753|"
+msgstr "|image753|"
+
+#: ../../source/serials.rst:336
+msgid "All three of these options will open up the issue receive form:"
+msgstr "Samtliga tre alternativ öppna formuläret för mottagning av nytt nummer:"
+
+#: ../../source/serials.rst:338
+msgid "|image754|"
+msgstr "|image754|"
+
+#: ../../source/serials.rst:340
+msgid "Choose 'Arrived' from the status pull down to mark a serial as received."
+msgstr "Välj 'Ankommen' från rullgardinsmenyn status för att markera ett periodika som mottaget."
+
+#: ../../source/serials.rst:343
+#, fuzzy
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear after choosing 'Arrived'. You can add multiple copies using the 'Number of copies to be made of this item' option at the bottom of the form."
+msgstr "Om du valt att skapa en exemplarpost för varje nummer visas ett formulär för att lägga till exemplar"
+
+#: ../../source/serials.rst:348
+msgid "|image755|"
+msgstr "|image755|"
+
+#: ../../source/serials.rst:350
+#, fuzzy
+msgid "If your issue has a supplemental issue with it, fill in the Supplemental issue information."
+msgstr "Om numret innehåller en bilaga, fyller du i informationen om bilagan."
+
+#: ../../source/serials.rst:353
+msgid "Key the entire numbering in the box after \"Supplemental issue\" no numbering will be inherited/auto-filled from the main issue, and exactly what you key in the box after \"Supplemental issue\" will be auto-filled in the item record's Serial enumeration/chronology [MARC21 952$h] (if you create item records)."
+msgstr ""
+
+#: ../../source/serials.rst:359
+msgid "E.g., key this in its entirety if it's what you would like displayed: \"v.69 no.3 (Mar. 2015) suppl.\""
+msgstr ""
+
+#: ../../source/serials.rst:362
+#, fuzzy
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear for your supplement and for the issue itself"
+msgstr "Om du valt att skapa en exemplarpost för varje nummer visas ett formulär för att lägga till exemplar för supplement och för numret"
+
+#: ../../source/serials.rst:366
+msgid "Once you have entered your info you can click 'Save'"
+msgstr "När du angett informationen kan du klicka på 'Spara'"
+
+#: ../../source/serials.rst:371
+msgid "Serial collection"
+msgstr ""
+
+#: ../../source/serials.rst:373
+msgid "Each subscription has a Serial collection page available from the main Serials menu."
+msgstr ""
+
+#: ../../source/serials.rst:376
+#, fuzzy
+msgid "|image1437|"
+msgstr "|image1437|"
+
+#: ../../source/serials.rst:378
+msgid "From this page you can manage additional tasks related to subscription issues such as multi receiving and editing."
+msgstr ""
+
+#: ../../source/serials.rst:381
+#, fuzzy
+msgid "|image1438|"
+msgstr "|image1438|"
+
+#: ../../source/serials.rst:383
+msgid "Click on the Multi receiving button to bulk receive future issues of a subscription."
+msgstr ""
+
+#: ../../source/serials.rst:386
+#, fuzzy
+msgid "|image1439|"
+msgstr "|image1439|"
+
+#: ../../source/serials.rst:388
+msgid "You can choose how many issues to receive and whether to set the received date to the current date."
+msgstr ""
+
+#: ../../source/serials.rst:391
+#, fuzzy
+msgid "Clicking the Generate next button will generate the next issue for you and mark the previously expected issue as ‘Late’ automatically."
+msgstr "Klickar du på denna knapp genereras nästa nummer för dig och föregående förväntade nummer markeras automatiskt som 'Sent'. Du kan sedan markera kryssrutan 'Redigera' till höger om varje nummer och redigera status för flera nummer på en gång."
+
+#: ../../source/serials.rst:394
+msgid "Tick the box in the Edit column for one or more previous issues and then click the Edit serials button.  You can edit the numbering, dates, status and add notes."
+msgstr ""
+
+#: ../../source/serials.rst:401
+#, fuzzy
+msgid "Create a routing list"
+msgstr "Skapa mottagarlista"
+
+#: ../../source/serials.rst:403
+#, fuzzy
+msgid "A routing list is a list of people who receive the serial before it goes to the shelf. To enable routing lists you want to set your :ref:`RoutingSerials` preference to 'Add'."
+msgstr "En mottagarlista är en lista med personer som mottar ett periodika innan den går till hyllan. När du konfigurerar prenumerationen för periodika bör du vara noga med att välja 'Mottagarlista' från rullgardinsmenyn 'Låntagarnotifiering'."
+
+#: ../../source/serials.rst:407
+#, fuzzy
+msgid "When on the subscription page you will see a link to the left that reads 'Create routing list' or 'Edit routing list'"
+msgstr "På prenumerationssidan finns till vänster länken 'Skapa mottagarlista'."
+
+#: ../../source/serials.rst:410
+msgid "|image757|"
+msgstr "|image757|"
+
+#: ../../source/serials.rst:412
+msgid "Clicking that link will bring you to the menu to add a new routing list."
+msgstr "Klickar du på den länken kommer du till menyn för att lägga till en ny mottagarlista."
+
+#: ../../source/serials.rst:414
+msgid "|image758|"
+msgstr "|image758|"
+
+#: ../../source/serials.rst:416
+msgid "From here you want to click 'Add recipients' in order to add people to the routing list. In the menu that appears you can filter patrons by part of their name, their library and/or patron category."
+msgstr "Här klickar du på 'Lägg till mottagare' för att lägga till personer på mottagarlistan. I den meny som visas kan du filtrera låntagare efter en del av deras namn, deras bibliotek och/eller deras låntagarkategori."
+
+#: ../../source/serials.rst:420
+msgid "|image759|"
+msgstr "|image759|"
+
+#: ../../source/serials.rst:422
+msgid "Clicking 'Add' to the right of each name will add them to the routing list. When you have chosen all of the people for the list, click the 'Close' link to be redirected to the routing list."
+msgstr "Klickar du på 'Lägg till' till höger om varje namn så läggs de till i mottagarlistan. När du valt alla som ska vara med på listan klickar du på länken 'Stäng' för att gå till mottagarlistan."
+
+#: ../../source/serials.rst:426
+msgid "|image760|"
+msgstr "|image760|"
+
+#: ../../source/serials.rst:428
+msgid "If the list looks the way you expect it to, then click 'Save'. Next you will be brought to a preview of the routing list. To print the list click 'Save and preview routing slip.' This will open a printable version of the list."
+msgstr "Om listan ser ut som du vill, klickar du på 'Spara'. Sedan visas en förhandsgranskning av mottagarlistan. För att skriva ut listan klickar du på 'Spara och förhandsgranska mottagarlista'. Det öppnar en utskrivbar version av listan."
+
+#: ../../source/serials.rst:433
+msgid "|image761|"
+msgstr "|image761|"
+
+#: ../../source/serials.rst:435
+#, fuzzy
+msgid "If :ref:`RoutingListAddReserves` is set to on then patrons listed in the routing list will automatically be added to the holds list for the issue."
+msgstr "Om RoutingListAddReserves är aktiverat kommer låntagare i mottagarlistan automatiskt att läggas till reservationslistan för numret."
+
+#: ../../source/serials.rst:439
+#, fuzzy
+msgid "To see a list of all of the routing lists for a specific patron is visit the :ref:`Routing lists tab <routing-lists-label>` on their patron record. Patrons are able to see a list of their own routing lists when logged into the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
+msgstr "För att se en lista över alla mottagarlistor en viss låntagare är med på går du till fliken Mottagarlistor i låntagarposten."
+
+#: ../../source/serials.rst:447
+#, fuzzy
+msgid "Subscriptions in staff client"
+msgstr "Förlorade exemplar i personalklienten"
+
+#: ../../source/serials.rst:449
+msgid "Subscription information will appear on bibliographic records under the 'Subscriptions' tab"
+msgstr ""
+
+#: ../../source/serials.rst:452
+msgid "|image762|"
+msgstr "|image762|"
+
+#: ../../source/serials.rst:454
+msgid "Clicking the 'Subscription details' link will take you to the Subscription summary page in the staff client."
+msgstr ""
+
+#: ../../source/serials.rst:457
+msgid "|image763|"
+msgstr "|image763|"
+
+#: ../../source/serials.rst:459
+msgid "If you are using the :ref:`Acquisitions <Acquisitions>` module to keep track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you will see an extra 'Acquisition details' tab in your subscription details."
+msgstr ""
+
+#: ../../source/serials.rst:463
+msgid "|image764|"
+msgstr "|image764|"
+
+#: ../../source/serials.rst:468
+#, fuzzy
+msgid "Subscriptions in OPAC"
+msgstr "Prenumerations-id"
+
+#: ../../source/serials.rst:470
+msgid "When viewing the subscription in the OPAC there will be several options."
+msgstr ""
+
+#: ../../source/serials.rst:472
+#, fuzzy
+msgid "Like in the staff client, there will be a Subscriptions tab on the bibliographic record."
+msgstr "Definiera mappningen mellan Kohas transaktionsdatabas (SQL) och de bibliografiska MARC-posterna. Mappningen kan definieras via Bibliografiskt MARC-ramverk. Detta verktyg är bara ett sätt att göra mappningen enklare."
+
+#: ../../source/serials.rst:475
+msgid "|image765|"
+msgstr "|image765|"
+
+#: ../../source/serials.rst:477
+msgid "Under this tab will appear the number of issues you chose when setting up the subscription or in your :ref:`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' link will provide you with additional information about the serial history. You can set the default view of a serial in the OPAC with the :ref:`SubscriptionHistory` system preference."
+msgstr ""
+
+#: ../../source/serials.rst:485
+msgid "There are two views, compact and full. The compact serial subscription will show basic information regarding the subscription"
+msgstr ""
+
+#: ../../source/serials.rst:488
+msgid "|image766|"
+msgstr "|image766|"
+
+#: ../../source/serials.rst:490
+msgid "From this compact display patrons can subscribe to be notified of new issues as they are released by clicking the 'Subscribe to email notifications of new issues' button. For this link to appear you will want to have chosen to notify patrons :ref:`on the subscription <add-a-subscription-label>` itself."
+msgstr ""
+
+#: ../../source/serials.rst:496
+msgid "|image767|"
+msgstr "|image767|"
+
+#: ../../source/serials.rst:498
+msgid "You can see those who subscribe to new issue alerts by going to the subscription page in the staff client and looking on the right of the 'Information' tab."
+msgstr ""
+
+#: ../../source/serials.rst:502
+msgid "|image1279|"
+msgstr "|image1279|"
+
+#: ../../source/serials.rst:504
+msgid "Whereas the full view shows extensive details, broken out by year, regarding the subscription"
+msgstr ""
+
+#: ../../source/serials.rst:507
+msgid "|image768|"
+msgstr "|image768|"
+
+#: ../../source/serials.rst:512
+#, fuzzy
+msgid "Claim late serials"
+msgstr "Reklamera nummer av periodika"
+
+#: ../../source/serials.rst:514
+msgid "Koha can send email messages to your serial vendors if you have late issues. To the left of the main serials page there is a link to 'Claims'"
+msgstr "Koha kan skicka e-postmeddelanden till dina periodikaleverantörer om nummer försenas. Till vänster om huvudsidan för periodika finns en länk till 'Reklamationer'"
+
+#: ../../source/serials.rst:517
+msgid "|image769|"
+msgstr "|image769|"
+
+#: ../../source/serials.rst:519
+msgid "The links to claims also appears to the left of the subscription detail page"
+msgstr "Länkarna till reklamationer visas också till vänster om informationssidan för prenumerationer"
+
+#: ../../source/serials.rst:522
+msgid "|image770|"
+msgstr "|image770|"
+
+#: ../../source/serials.rst:524
+msgid "If you don't have a claim notice defined yet you will see a warning message that you need to first define a notice."
+msgstr "Om du inte har ett reklamationsmeddelande definierat visas en varning om att du först måste definiera ett meddelande."
+
+#: ../../source/serials.rst:527
+msgid "|image771|"
+msgstr "|image771|"
+
+#: ../../source/serials.rst:529
+msgid "Clicking 'Claims' will open a report that will ask you to choose from your various serial vendors to generate claims for late issues."
+msgstr "Klickar du på 'Reklamationer' öppnas en rapport där du kan välja mellan olika leverantörer av periodika för att skapa reklamationer för försenade nummer."
+
+#: ../../source/serials.rst:532
+msgid "|image772|"
+msgstr "|image772|"
+
+#: ../../source/serials.rst:534
+msgid "From the list of late issues you can choose which ones you want to send a claim email to by clicking the checkbox to the left of late issue, choosing the notice template to use and clicking the 'Send notification' button."
+msgstr "Från listan med försenade nummer kan du välja vilka du vill skicka ett kravbrev via e-post till genom att klicka på kryssrutan till vänster om det försenade numret, välja den meddelandemall som ska användas och klicka på knappen 'Skicka meddelande'."
+
+#: ../../source/serials.rst:542
+#, fuzzy
+msgid "Check serial expiration"
+msgstr "Kontrollera utgångsdatum för periodika"
+
+#: ../../source/serials.rst:544
+msgid "When adding serials you enter a subscription length, using the check expiration tool you can see when your subscriptions are about to expire. To use the tool click the link to 'Check expiration' on the serials menu."
+msgstr "När du lägger till periodika anger du en prenumerationslängd. Med verktyget kontrollera förfallodatum kan du se när dina prenumerationer upphör. För att använda verktyget klickar du på länken 'Kontrollera förfallodatum' i menyn för periodika."
+
+#: ../../source/serials.rst:549
+msgid "|image773|"
+msgstr "|image773|"
+
+#: ../../source/serials.rst:551
+msgid "In the form that appears you need to enter at least a date to search by."
+msgstr "I formuläret som visas måste du ange minst ett datum att söka efter."
+
+#: ../../source/serials.rst:553
+msgid "In your results you will see all subscriptions that will expire before the date you entered. From there you can choose to view the subscription further or renew it in one click."
+msgstr "I dina resultat kommer du att se alla prenumerationer som kommer att förfalla innan det datum du angav. Därifrån kan du välja att se mer information om prenumerationen eller förnya den med ett klick."
+
+#: ../../source/serials.rst:557
+msgid "|image774|"
+msgstr "|image774|"
+
+#: ../../source/serials.rst:559
+msgid "If there is more than one subscription, you can check the boxes and click on 'Renew selected subscriptions' to renew all the serials. The serials will be renewed for the same amount of time as their previous subscription (i.e. if the last subscription for that serial lasted one year, the serial will be renewed for one year; if the last subscription was for 16 issues, it will be renewed for another 16 issues)."
+msgstr ""
+
+#: ../../source/serials.rst:566
+msgid "|image1356|"
+msgstr "|image1356|"
+
+#: ../../source/serials.rst:571
+#, fuzzy
+msgid "Renewing serials"
+msgstr "Ta emot periodika"
+
+#: ../../source/serials.rst:573
+msgid "If your serial subscription has expired you won't be able to receive issues. To renew your subscription you can click the 'Renew' button at the top of your subscription detail page."
+msgstr ""
+
+#: ../../source/serials.rst:577
+msgid "|image775|"
+msgstr "|image775|"
+
+#: ../../source/serials.rst:579
+msgid "Another option is to click the 'Renew' link to the right of the subscription on the Serial collection page."
+msgstr ""
+
+#: ../../source/serials.rst:582
+msgid "|image776|"
+msgstr "|image776|"
+
+#: ../../source/serials.rst:584
+#, fuzzy
+msgid "Once you click the 'Renew' link or button you will be presented with renewal options."
+msgstr "När du gjort ändringarna visas de uppdaterade posterna."
+
+#: ../../source/serials.rst:587
+msgid "|image777|"
+msgstr "|image777|"
+
+#: ../../source/serials.rst:589
+#, fuzzy
+msgid "The start date should be the date your subscription period starts."
+msgstr "(startdatum för den första prenumerationen) "
+
+#: ../../source/serials.rst:591
+msgid "For the subscription length you'll want to fill in one of the three fields presented: Number of issues, Number of months or Number of weeks."
+msgstr ""
+
+#: ../../source/serials.rst:595
+#, fuzzy
+msgid "Finally enter any notes you might have about this renewal."
+msgstr "Ange kommentarer som kan gälla för denna reservation"
+
+#: ../../source/serials.rst:600
+#, fuzzy
+msgid "Searching serials"
+msgstr "Ta emot periodika"
+
+#: ../../source/serials.rst:602
+msgid "Once in the Serials module there is basic search box at the top that you can use to find subscriptions using any part of the ISSN and/or title."
+msgstr ""
+
+#: ../../source/serials.rst:605
+msgid "|image778|"
+msgstr "|image778|"
+
+#: ../../source/serials.rst:607
+#, fuzzy
+msgid "You can also click the 'Advanced search' link to the right of the 'Submit' button to do a more thorough search of your serials."
+msgstr "Du kan även klicka på knappen 'Åtgärder' till höger om budgeten och välja 'Kopiera'."
+
+#: ../../source/serials.rst:610
+msgid "|image779|"
+msgstr "|image779|"
+
+#: ../../source/serials.rst:612
+msgid "From your results you can filter by using the search boxes at the bottom of each column and adjust the number of results using the toolbar at the top of the results set."
+msgstr ""
+
+#: ../../source/serials.rst:616
+msgid "|image780|"
+msgstr "|image780|"
+
+#, fuzzy
+#~ msgid "If you are receiving multiple issues at once, or have marked an issue as 'Late' or 'Missing' there you can click the 'Generate next' button below the list of issues."
+#~ msgstr "Om du tar emot flera nummer samtidigt eller har markerat ett nummer som 'Sen' eller 'Saknas', kan du klicka på knappen 'Generera nästa' under listan med nummer."
+
+#~ msgid "|image756|"
+#~ msgstr "|image756|"
+
+#, fuzzy
+#~ msgid "Custom subscription fields"
+#~ msgstr "Lägg till prenumerationsfält"
+
+#, fuzzy
+#~ msgid "This module will allow you to add custom fields to your serial subscriptions for reporting and searching."
+#~ msgstr "Med detta verktyg kan du mappa MARC-fält till en uppsättning fördefinierade nyckelord."
+
+#, fuzzy
+#~ msgid "*Get there:* Serials > Add subscription fields"
+#~ msgstr "Lägg till prenumerationsfält"
+
+#~ msgid "|image1271|"
+#~ msgstr "|image1271|"
+
+#, fuzzy
+#~ msgid "Name: enter the name of the field"
+#~ msgstr "Ange ett namn för det nya makrot:"
+
+#, fuzzy
+#~ msgid "Authorized value category: you can use :ref:`authorized values <authorized-values-label>` to fill in this field."
+#~ msgstr "'Godkänt värde' är där du definierar ett godkänt värde som användare som katalogiserar kan välja från en rullgardinsmeny för att fylla i fältet"
+
+#, fuzzy
+#~ msgid "You can only choose one of the two options."
+#~ msgstr "Du kan även bestämma hur listan ska sorteras"
+
+#, fuzzy
+#~ msgid "If you choose the MARC option, the field will be automatically populated with the corresponding record's value for this MARC field."
+#~ msgstr "Steg 4: välj värden från fälten. Dessa kommer automatiskt att fyllas i med alternativ från din databas."
+
+#, fuzzy
+#~ msgid "**Important**"
+#~ msgstr "Viktigt "
+
+#, fuzzy
+#~ msgid "For example: 515$a"
+#~ msgstr "Några exempel:"
+
+#~ msgid "|image1272|"
+#~ msgstr "|image1272|"
+
+#, fuzzy
+#~ msgid "In the 'Authorized value category' field, choose DEPARTMENT"
+#~ msgstr "Kategorin med auktoriserade värden ("
+
+#~ msgid "|image1273|"
+#~ msgstr "|image1273|"
+
+#~ msgid "|image1275|"
+#~ msgstr "|image1275|"
+
+#~ msgid "|image1276|"
+#~ msgstr "|image1276|"
+
+#, fuzzy
+#~ msgid "In the 'Name' field, enter 'Target audience'"
+#~ msgstr "I fältet 'Exemplartyp' anger du en kort kod för exemplartypen"
+
+#~ msgid "|image1380|"
+#~ msgstr "|image1380|"
+
