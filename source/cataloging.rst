@@ -777,7 +777,26 @@ save until the required fields are filled in.
     edit the 952 field in the :ref:`framework
     editor <marc-bibliographic-frameworks-label>`.
 
-Below the add form there are 3 buttons for adding the item
+You can add a new authorized value directly from the add and edit item screen for any fields that are linked 
+to authorized value categories such as Shelving location (subfield$c) or Collection code (subfield$8).  
+
+-  Start to type the authorised value description, if a match is not found you will see the option '(Select to create)'.  
+
+-  Click on this option to display a pop-up window where you can create you new authorized value.  
+
+-  The authorized value category will be pre-populated from the field you are using, for example LOC for Shelving location, CCODE 
+   for Collection code.  Take care when choosing your authorized value code.  Refer to the notes on :ref:`adding new authorized 
+   values <add-new-authorized-value-label>` for the correct format of these codes.  Use the Description field for the actual value that 
+   will be displayed
+
+|addauthvalue|
+
+-  You can add authorized values in the same way from bibliographic and authority records.
+
+.. Note::
+   You must have the manage_auth_values administration permission to add authorized values from cataloguing.
+
+Below the add form there are 3 buttons for adding the item.
 
 |image678|
 
