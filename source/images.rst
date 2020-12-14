@@ -1566,3 +1566,5 @@
 				:alt: Main page of the quote of the day editor
 .. |image1515| image:: images/cash-management/cashup_summary.png
 				:alt: A cashup summary view modal
+.. |addauthvalue| image:: images/cataloging/addauthvalue.png
+				:alt: Adding a new authorized value from cataloguing
