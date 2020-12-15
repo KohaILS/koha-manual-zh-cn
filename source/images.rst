@@ -1568,3 +1568,7 @@
 				:alt: A cashup summary view modal
 .. |addauthvalue| image:: images/cataloging/addauthvalue.png
 				:alt: Adding a new authorized value from cataloguing
+.. |batchextendselection| image:: images/tools/batchextend/batchextendselection.png
+				:alt: Batch extend due dates selection page
+.. |batchextendpreview| image:: images/tools/batchextend/batchextendpreview.png
+				:alt: Batch extend due dates preview results page
