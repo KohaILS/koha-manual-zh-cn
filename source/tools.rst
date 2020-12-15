@@ -1537,6 +1537,36 @@ add another attribute value.
 Once you have made the changes you want, you can click 'Save' and Koha
 will present you with the changed patron records.
 
+
+.. _batch-extend-due-dates-label:
+
+Batch extend due dates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  *Get there:* More > Tools > Patrons and circulation > Batch extend due dates
+
+This tool allows you to update due dates in bulk, this can be useful if a library needs to close unexpectedly and cannot accept returns.
+
+|batchextendselection|
+
+-  You can filter the selection of checkouts based on patron category, library or a combination of both.  You can select multiple options in the dropdown lists if needed.
+
+-  Next, specify a date range for the current due date of the materials on loan.  For example, you may want to extend the due dates for recent checkouts but exclude long overdue loans.
+
+-  Choose to extend the due dates either to a new hard due date or by a number of days.  Using the number of days option can prevent large numbers of loans being due on the same date.
+
+-  You can choose whether to preview the results of your selections.
+
+|batchextendpreview|
+
+-  If you preview the results you will see a table which shows you the current due date and the new due date so that you can check your selections.  You can untick checkouts if they are incorrect or go back and change your selection.
+
+-  Click on the Modify selected checkouts button to see a confirmation screen showing the checkouts that have been modified.
+
+.. Note::
+   Access to this tool requires the Tools permission `batch_extend_due_dates`.
+
+
 .. _tag-moderation-label:
 
 Tag moderation
