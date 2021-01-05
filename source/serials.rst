@@ -18,21 +18,81 @@ module.
 .. _manage-serial-frequencies-label:
 
 Manage serial frequencies
--------------------------------------------
+-------------------------------------------------------------------------------
 
 Koha keeps a record of publication frequencies for easy management and
 duplication.
 
 -  *Get there:* More > Serials > Manage frequencies
 
-From this page you can view all of the existing frequencies in your
-system
+From this page you can view all of the existing frequencies in your system.
 
-|image738|
+|frequencies|
 
-and create new ones.
+You can edit, delete and create new ones.
 
-|image739|
+Adding a frequency
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To add a new frequency, click on the 'New frequency' button.
+
+|newfrequency|
+
+-  Description: this is the description that will appear in the drop-down menu
+   when creating a new serial subscription; make sure it is descriptive
+
+-  Unit: this is the unit used for counting the cycle of publication. Choose
+   either none (for irregular frequencies), day, week, month, or year.
+
+-  Issues per unit: this is how many issues are published during the unit chosen
+   above (this will usually be 1).
+
+-  Units per issue: this is how many units must we count until the next issue
+   is published.
+
+-  Display order: this is the display order in the drop-down menu when creating
+   a new subscription (you may want to put the most used frequencies at the top
+   and the less frequent at the bottom; the top-most position is 0). Several
+   frequencies can have the same display order. If this is the case, they will
+   appear in the order they were created.
+
+**Tip**
+
+  To understand 'issues per unit' versus 'units per issue' you can read it as
+  '<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For example, a
+  biweekly frenquency (every two weeks) would be '1 issue every 2 weeks'. So
+  'issues per unit' would be 1 and 'units per issue' would be 2. See below for
+  more examples.
+
+**Examples**
+
+Here are some examples for most common frequencies.
+
++------------------------------------------------+---------------+-----------------+-----------------+
+| Frequency                                      | Unit          | Issues per unit | Units per issue |
++================================================+===============+=================+=================+
+| Daily ("1 issue every 1 day")                  | Day           | 1               | 1               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Three times per week ("3 issues every 1 week") | Week          | 3               | 1               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Semiweekly ("2 issues every 1 week")           | Week          | 2               | 1               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Weekly ("1 issue every 1 week")                | Week          | 1               | 1               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Biweekly ("1 issue every 2 weeks")             | Week          | 1               | 2               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Monthly ("1 issue every 1 month")              | Month         | 1               | 1               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Bimonthly ("1 issue every 2 months")           | Month         | 1               | 2               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Quarterly ("1 issue every 3 months")           | Month         | 1               | 3               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Semiannual ("1 issue every 6 months")          | Month         | 1               | 6               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Annual ("1 issue every 1 year")                | Year          | 1               | 1               |
++------------------------------------------------+---------------+-----------------+-----------------+
+| Biennal ("1 issue every 2 years")              | Year          | 1               | 2               |
++------------------------------------------------+---------------+-----------------+-----------------+
 
 .. _manage-serial-numbering-patterns-label:
 

@@ -40,6 +40,14 @@
 
 .. SERIALS
 
+.. |frequencies| image:: images/serials/frequencies.png
+				:alt: Table of serial frequencies
+
+.. |newfrequency| image:: images/serials/newfrequency.png
+				:alt: New frequency form
+
+
+
 .. TOOLS
 
 .. WEBSERVICES
@@ -829,8 +837,6 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image738| image:: images/serials/frequencies.png
-.. |image739| image:: images/serials/newfrequency.png
 .. |image740| image:: images/serials/numpatterns.png
 .. |image741| image:: images/serials/newnumpattern.png
 .. |image742| image:: images/serials/newsubfrombib.png
