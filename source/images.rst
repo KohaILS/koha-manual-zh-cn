@@ -1,3 +1,55 @@
+.. Please use the format |filename| instead of |imageXXXX| for the alias
+.. Separate images in sections as you add or update them
+.. Order images in alphabetical order by filename/alias in each section or sub-section to make it easy to find them
+.. Add alt text after each image for accessibility
+
+
+.. ABOUT
+
+.. ACQUISITIONS
+
+.. ADMINISTRATION
+
+.. CASH MANAGEMENT
+
+.. CATALOGING
+
+.. CIRCULATION
+
+.. COURSE RESERVES
+
+.. ILL
+
+.. INSTALLER
+
+.. INTRODUCTION
+
+.. LISTS
+
+.. OPAC
+
+.. PATRONS
+
+.. POINT OF SALE
+
+.. REPORTS
+
+.. SEARCH HISTORY
+
+.. SEARCHING
+
+.. SERIALS
+
+.. TOOLS
+
+.. WEBSERVICES
+
+.. APPENDICES
+
+.. MISC
+
+
+
 .. |image0| image:: images/admin/globalprefs/prefsearch.png
 .. |image1| image:: images/admin/globalprefs/prefsearch1.png
 .. |image2| image:: images/admin/globalprefs/saveallprefs.png
