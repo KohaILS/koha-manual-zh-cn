@@ -1283,7 +1283,7 @@ The form is the same as the one in the staff interface.
 
 |image1399|
 
-If allowed, the patron chan choose the specific item to request.
+If allowed, the patron can choose the specific item to request.
 
 From their acocunt, the patron will be able to follow the progress
 of their request from 'pending'
