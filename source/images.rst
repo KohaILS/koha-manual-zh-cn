@@ -46,7 +46,11 @@
 .. |newfrequency| image:: images/serials/newfrequency.png
 				:alt: New frequency form
 
+.. |numpatterns| image:: images/serials/numpatterns.png
+				:alt: Numbering patterns table
 
+.. |newnumpattern| image:: images/serials/newnumpattern.png
+				:alt: New numbering pattern form
 
 .. TOOLS
 
@@ -837,8 +841,6 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image740| image:: images/serials/numpatterns.png
-.. |image741| image:: images/serials/newnumpattern.png
 .. |image742| image:: images/serials/newsubfrombib.png
 .. |image743| image:: images/serials/newsubbutton.png
 .. |image744| image:: images/serials/addsub.png

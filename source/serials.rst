@@ -31,6 +31,8 @@ From this page you can view all of the existing frequencies in your system.
 
 You can edit, delete and create new ones.
 
+.. _adding-serial-frequency-label:
+
 Adding a frequency
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -38,7 +40,7 @@ To add a new frequency, click on the 'New frequency' button.
 
 |newfrequency|
 
--  Description: this is the description that will appear in the drop-down menu
+-  Description: this is the name that will appear in the drop-down menu
    when creating a new serial subscription; make sure it is descriptive
 
 -  Unit: this is the unit used for counting the cycle of publication. Choose
@@ -50,13 +52,14 @@ To add a new frequency, click on the 'New frequency' button.
 -  Units per issue: this is how many units must we count until the next issue
    is published.
 
--  Display order: this is the display order in the drop-down menu when creating
-   a new subscription (you may want to put the most used frequencies at the top
-   and the less frequent at the bottom; the top-most position is 0). Several
-   frequencies can have the same display order. If this is the case, they will
-   appear in the order they were created.
+-  Display order: this is the display order in the drop-down menu when
+   :ref:`creating a new subscription<add-a-subscription-label>` (you may want
+   to put the most used frequencies at the top and the less frequent at the
+   bottom; the top-most position is 0). Several frequencies can have the same
+   display order value. If this is the case, they will appear in the order they
+   were created.
 
-**Tip**
+.. Tip::
 
   To understand 'issues per unit' versus 'units per issue' you can read it as
   '<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For example, a
@@ -66,7 +69,7 @@ To add a new frequency, click on the 'New frequency' button.
 
 **Examples**
 
-Here are some examples for most common frequencies.
+Here are some examples for most common serial publication frequencies.
 
 +------------------------------------------------+---------------+-----------------+-----------------+
 | Frequency                                      | Unit          | Issues per unit | Units per issue |
@@ -97,31 +100,273 @@ Here are some examples for most common frequencies.
 .. _manage-serial-numbering-patterns-label:
 
 Manage serial numbering patterns
-------------------------------------------------------
+-------------------------------------------------------------------------------
 
-Everytime you create a new numbering pattern in serials you can save it
+Every time you create a new numbering pattern in serials you can save it
 for later use. These patterns are accessible via the 'Manage numbering
 patterns' page.
 
 -  *Get there:* More > Serials > Manage numbering patterns
 
 This page will list for you the numbering patterns you have saved in the
-past as well as a few canned patterns.
+past as well as a few basic patterns.
 
-|image740|
+|numpatterns|
 
-    **Note**
+.. Note::
+   If you have upgraded from an old version of Koha (before 3.14) you will see
+   'Backup patterns' listed for patterns. This is how Koha saved your old
+   numbering patterns. You can edit these to give them more meaningful names
+   from here.
 
-    If you have upgraded from a previous version of Koha you will see
-    'Backup patterns' listed for patterns used in version before Koha
-    3.14. This is how Koha saved your old numbering patterns. You can
-    edit these to give them more meaningful names from here.
+.. _adding-serial-numbering-pattern-label:
 
-It will also allow you to create a new numbering pattern without first
-adding a subscription. To add new new pattern click 'New numbering
-pattern' at the top of the list of patterns.
+Adding a numbering pattern
+-------------------------------------------------------------------------------
 
-|image741|
+To add new new pattern click the 'New numbering pattern' button.
+
+|newnumpattern|
+
+-  Name: this is the name that will appear in the drop-down menu
+   when :ref:`creating a new serial subscription<add-a-subscription-label>`;
+   make sure it is descriptive.
+
+-  Description: this is to further describe the numbering pattern; this does
+   not appear when creating a new subscription, it only displays in the
+   :ref:`numbering patterns table (see above)<manage-serial-numbering-patterns-label>`.
+
+-  Numbering formula: this is what is used to create the number for each issue.
+   You can use up to three variables {X}, {Y}, and {Z} (see below). Along with
+   the variables, you can enter any text you want to have appear in the issue
+   number. You must also include any spaces you want to see in the issue numbers.
+   The text will stay the same for each issue and the variables will vary.
+
+   .. Warning::
+
+      The variables must be in capital letters and between curly brackets.
+
+      **Examples**
+
+      -  Vol. {X} No {Y}
+
+      -  Issue {X}
+
+      -  {X} {Y}
+
+-  Display order: this is the display order in the drop-down menu when
+   :ref:`creating a new subscription<add-a-subscription-label>` (you may want
+   to put the most used frequencies at the top and the less frequent at the
+   bottom; the top-most position is 0). Several frequencies can have the same
+   display order value. If this is the case, they will appear in the order they
+   were created.
+
+In the table, you need to enter the parameters for each variable.
+
+-  Label: this is simply a name for the variable, it is not
+   used anywhere else, but it helps identify what the variable is supposed
+   to be.
+
+-  Add: how many numbers or units are added to the variable.
+
+-  Each: the numbers or units added to the variable are added each how many
+   issues.
+
+-  Set back to: this is used for cyclic numbering; enter the starting number.
+
+-  When more than: this is used for cyclic numbering; enter the last number.
+
+.. Tip::
+
+  When filling out these four parameter ('add', 'each', 'set back to' and 'when
+  more than'), work column by column and read it as a sentence: "Add 1 Every 1
+  issue, set back to 1 when greater than 10".
+
+-  Formatting: this is used if, instead of numbers, you want words to appear
+   in your issue number. You can choose
+
+     -  Name of day (Monday, Tuesday, Wednesday, etc.)
+
+     -  Name of day (abbreviated) (Mon, Tue, Wed, etc.)
+
+     -  Name of month (January, February, March, etc.)
+
+     -  Name of month (abbreviated) (Jan, Feb, Mar, etc.)
+
+     -  Name of season (Spring, Summer, Fall, Winter)
+
+     -  Name of season (abbreviated) (Spr, Sum, Fal, Win)
+
+.. Warning::
+
+   When filling out the table, you must always use numbers, even to represent
+   names of days, months or seasons. Here are the equivalent for each
+
+   +-----------+----------------------+-------+
+   | Days      | Sunday               | 0     |
+   +           +----------------------+-------+
+   |           | Monday               | 1     |
+   +           +----------------------+-------+
+   |           | Tuesday              | 2     |
+   +           +----------------------+-------+
+   |           | Wednesday            | 3     |
+   +           +----------------------+-------+
+   |           | Thursday             | 4     |
+   +           +----------------------+-------+
+   |           | Friday               | 5     |
+   +           +----------------------+-------+
+   |           | Saturday             | 6     |
+   +-----------+----------------------+-------+
+   | Months    | January              | 0     |
+   +           +----------------------+-------+
+   |           | February             | 1     |
+   +           +----------------------+-------+
+   |           | March                | 2     |
+   +           +----------------------+-------+
+   |           | April                | 3     |
+   +           +----------------------+-------+
+   |           | May                  | 4     |
+   +           +----------------------+-------+
+   |           | June                 | 5     |
+   +           +----------------------+-------+
+   |           | July                 | 6     |
+   +           +----------------------+-------+
+   |           | August               | 7     |
+   +           +----------------------+-------+
+   |           | September            | 8     |
+   +           +----------------------+-------+
+   |           | October              | 9     |
+   +           +----------------------+-------+
+   |           | November             | 10    |
+   +           +----------------------+-------+
+   |           | December             | 11    |
+   +-----------+----------------------+-------+
+   | Seasons   | Spring               | 0     |
+   +           +----------------------+-------+
+   |           | Summer               | 1     |
+   +           +----------------------+-------+
+   |           | Fall                 | 2     |
+   +           +----------------------+-------+
+   |           | Winter               | 3     |
+   +-----------+----------------------+-------+
+
+Before you save your numbering pattern, you can test it to make sure it
+behaves as you intend.
+
+-  Frequency: choose a frequency that fits with your numbering pattern.
+
+-  First issue publication date: choose a date where your test will start.
+
+-  Subscription length: enter a number of issues, weeks or months to test
+   your numbering pattern; if the numbering pattern is cyclic, it is
+   recommended to try at least two cycles to see the change in cycles and
+   make sure it behaves correctly.
+
+-  Locale: if using names of days, months or season, you can choose the
+   language in which these names will be displayed.
+
+   .. Note::
+
+     Locale doesn't currently work well with season names.
+
+Next enter the parameters for your variables.
+
+-  Begins with: enter the first value for each variable, these should be the
+   values of the issue entered in 'First issue publication date' above.
+
+-  Inner counter: enter how many issues have already passed in the cycle, so
+   that Koha can calculate when to cycle back.
+
+Click 'Test pattern' to see the results. If the result is what you expected,
+you can save your numbering pattern. If the results does not match your
+expectations, go back and tweak the parameters and test again.
+
+**Examples**
+
+  Month and year for monthly serials
+
+     Numbering formula: {X} {Y}
+
+     +----------------+---------------+---------------+---------------+
+     |                | X             | Y             | Z             |
+     +----------------+---------------+---------------+---------------+
+     | Label          | Month         | Year          |               |
+     +----------------+---------------+---------------+---------------+
+     | Add            | 1             | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | Every          | 1             | 12            |               |
+     +----------------+---------------+---------------+---------------+
+     | Set back to    | 0             | 0             |               |
+     +----------------+---------------+---------------+---------------+
+     | When more than | 11            | 99999         |               |
+     +----------------+---------------+---------------+---------------+
+     | Formatting     | Name of month |               |               |
+     +----------------+---------------+---------------+---------------+
+
+
+  Volume and number for monthly serials
+
+     Numbering formula: Vol.{X} No.{Y}
+
+     +----------------+---------------+---------------+---------------+
+     |                | X             | Y             | Z             |
+     +----------------+---------------+---------------+---------------+
+     | Label          | Volume        | Number        |               |
+     +----------------+---------------+---------------+---------------+
+     | Add            | 1             | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | Every          | 12            | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | Set back to    | 0             | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | When more than | 99999         | 12            |               |
+     +----------------+---------------+---------------+---------------+
+     | Formatting     |               |               |               |
+     +----------------+---------------+---------------+---------------+
+
+  Season and year for quarterly serials
+
+     Numbering formula: {X} {Y}
+
+     +----------------+----------------+---------------+---------------+
+     |                | X              | Y             | Z             |
+     +----------------+----------------+---------------+---------------+
+     | Label          | Season         | Year          |               |
+     +----------------+----------------+---------------+---------------+
+     | Add            | 1              | 1             |               |
+     +----------------+----------------+---------------+---------------+
+     | Every          | 1              | 4             |               |
+     +----------------+----------------+---------------+---------------+
+     | Set back to    | 0              | 0             |               |
+     +----------------+----------------+---------------+---------------+
+     | When more than | 3              | 99999         |               |
+     +----------------+----------------+---------------+---------------+
+     | Formatting     | Name of season |               |               |
+     +----------------+----------------+---------------+---------------+
+
+  Volume and number for weekly serials
+
+     Numbering formula: Vol.{X} No.{Y}
+
+     +----------------+---------------+---------------+---------------+
+     |                | X             | Y             | Z             |
+     +----------------+---------------+---------------+---------------+
+     | Label          | Volume        | Number        |               |
+     +----------------+---------------+---------------+---------------+
+     | Add            | 1             | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | Every          | 52            | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | Set back to    | 0             | 1             |               |
+     +----------------+---------------+---------------+---------------+
+     | When more than | 99999         | 52            |               |
+     +----------------+---------------+---------------+---------------+
+     | Formatting     |               |               |               |
+     +----------------+---------------+---------------+---------------+
+
+.. Note::
+   Find more numbering patterns on Koha's wiki:
+   https://wiki.koha-community.org/wiki/Serial_Pattern_Library
 
 .. _add-a-subscription-label:
 
