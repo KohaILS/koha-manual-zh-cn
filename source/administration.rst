@@ -4359,7 +4359,7 @@ When you are :ref:`adding a subscription <add-a-subscription-label>`,
 the field will be in the 'Additional fields' section with its
 authorized values drop-down menu.
 
-|image1274|
+|addingfieldvalues|
 
 When you view the subscription, the field will appear under 'Additional
 fields'.

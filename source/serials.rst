@@ -3,15 +3,17 @@
 .. _serials-label:
 
 Serials
-=======
+===============================================================================
 
 Serials actions can be accessed by going to the 'More' menu at the top of
 your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha
-staff client page. The Serials module in Koha is used for keeping track
+staff interface page. The serials module in Koha is used for keeping track
 of journals, newspapers and other items that come on a regular schedule.
+
 As with all modules, make sure you go through the related
-:ref:`implementation checklist <serials-configuration-label>` before using the Serials
-module.
+:ref:`implementation checklist <serials-configuration-label>` and 
+:ref:`system preferences<serials-system-preferences-label>` before using the 
+serials module.
 
 -  *Get there:* More > Serials
 
@@ -365,8 +367,9 @@ expectations, go back and tweak the parameters and test again.
      +----------------+---------------+---------------+---------------+
 
 .. Note::
-   Find more numbering patterns on Koha's wiki:
-   https://wiki.koha-community.org/wiki/Serial_Pattern_Library
+
+     `Find more numbering patterns on Koha's wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__.
+
 
 .. _add-a-subscription-label:
 
@@ -389,8 +392,8 @@ record the form will include the record number info).
 |addsub|
 
 -  Vendor: can be found by either searching vendors entered via the
-   `Acquisitions module <#acqmodule>`__ or manually entering the vendor ID
-   number
+   :ref:`Acquisitions module <acquisitions-label>` or manually entering 
+   the vendor ID number
 
    -  Vendor information is not required
 
@@ -531,36 +534,32 @@ pattern information.
 
 -  Numbering pattern: choose how issues are numbered. The options here are
    the ones in the :ref:`manage numbering patterns <manage-serial-numbering-patterns-label>`
-   If the numbering pattern you need has not been created yet, you can create
-   a new one by clicking on 'Show advanced pattern' and then 'Modify pattern'.
-   This is be the same as
-   :ref:`adding a numbering pattern<adding-serial-numbering-pattern-label>`
-   (see section above).
+   section. 
 
-   -  Start with the numbering on the issue you have in hand, the
-      numbering that matches the date you entered in the 'First issue
-      publication' field
+   -  If the numbering pattern you need has not been created yet, you can 
+      create a new one by clicking on 'Show advanced pattern' and then 'Modify 
+      pattern'. This is be the same as 
+      :ref:`adding a numbering pattern<adding-serial-numbering-pattern-label>`
+      (see section above).
 
-   -  You can choose to create your own numbering pattern by choosing
-      'None of the above' and clicking the 'Show/hide advanced pattern'
-      button at the bottom of the form
+      |advancedpattern|
 
-      |image748|
+-  Locale: if using names of days, months or season, you can choose the
+   language in which these names will be displayed.
 
--  The 'Locale' option is useful when you want to display days, month or
-   season. For example, if you have a German serial, you can use the
-   German locale option to display days, etc. in German.
+   .. Note::
 
--  Once a 'Numbering pattern' is chosen the number formula will
-   appear.
+     Locale doesn't currently work well with season names.
 
-   |image1278|
+-  Once a 'Numbering pattern' is chosen the numbering table will appear.
 
-   -  The 'Begins with' number is the number of the issue you're holding
-      in your hand.
+   |numberonly|
 
-   -  The 'Inner counter' is used to tell Koha where the "receiving
-      cycle" starts
+   -  Begins with: enter the first value for each variable, these should be the
+      values of the issue entered in 'First issue publication date' above.
+
+   -  Inner counter: enter how many issues have already passed in the cycle, so
+      that Koha can calculate when to cycle back.
 
       -  For example: If the first issue to receive is "vol. 4, no. 1,
          iss. 796", you need to set up "inner counter = 0" But if it's
@@ -571,32 +570,35 @@ pattern information.
       irregularities you can choose which issues don't exist from the
       list presented.
 
-      |image749|
+      |predictionpattern|
 
--  If you have added a :ref:`custom field <additional-fields-label>`, it
+-  If you have added :ref:`custom fields <additional-fields-label>`, they
    will be editable above the buttons at the bottom of the screen
 
-   |image1274|
+   |addingfieldvalues|
 
 Click 'Save subscription' to save the information you have entered.
-`Find sample serial examples in the serial pattern library on the wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__.
+
+.. Note::
+
+    `Find sample serial examples in the serial pattern library on the wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__.
 
 .. _edit-subscription-label:
 
-Edit a subscription
------------------------------------
+Editing a subscription
+-------------------------------------------------------------------------------
 
 To edit a subscription, click on 'Edit' and 'Edit subscription' from the
 subscription page. This will take you back to the same form as the one
 used when :ref:`creating a new subscription <add-a-subscription-label>`.
 
-|image1376|
+|editsubscription|
 
 You can also batch edit subscriptions. To do so, search for the subscriptions
 you want to change. In the results, check the boxes next to the subscriptions
 to edit. The link 'Edit selected serials' will appear.
 
-|image1377|
+|editselectedserials|
 
 From there, you can change:
 
@@ -616,44 +618,46 @@ From there, you can change:
 
 -  the expiration date
 
-|image1378|
+-  any :ref:`custom fields <additional-fields-label>`
 
-      **Note**
+|editbatch|
 
-      Leave the field unchanged to keep the original values.
+.. Note::
+
+    Leave the field unchanged to keep the original values.
 
 .. _receive-issues-label:
 
-Receive issues
------------------------------------
+Receiving issues
+-------------------------------------------------------------------------------
 
 Issues can be marked as received from several locations. To find a
 subscription, use the search box at the top of the Serials page to
 search for the serial you'd like to receive issues for:
 
-|image750|
+|subsearch|
 
-From the search results you can click the 'Serial receive' link or you
+From the search results you can click the 'Serial receive' buton or you
 can click on the subscription title and then click the 'Receive' button.
 
-|image751|
+|subscriptiondetails|
 
 The final way to receive serials is from the 'Serial collection' page.
 To the left of the Subscription summary page there is a menu with a link
 to 'Serial collection'
 
-|image752|
+|serialcolllink|
 
-From the page that opens up you can click 'Edit serial' with the issue
-you want to receive checked.
+From the page that opens up, check the issue(s) you want to receive (the 
+expected ones should be checked by default) and click 'Edit serials'.
 
-|image753|
+|serialcollection|
 
 All three of these options will open up the issue receive form:
 
-|image754|
+|receiveissue|
 
--  Choose 'Arrived' from the status pull down to mark a serial as
+-  Choose 'Arrived' from the status drop-down menu to mark an issue as
    received.
 
 -  If you have decided to have an item record created for each issue an
@@ -661,7 +665,7 @@ All three of these options will open up the issue receive form:
    You can add multiple copies using the 'Number of copies to be made of this item' 
    option at the bottom of the form.
 
-   |image755|
+   |serialitem|
 
 -  If your issue has a supplemental issue with it, fill in the
    Supplemental issue information.
@@ -684,105 +688,102 @@ All three of these options will open up the issue receive form:
 .. _serial-collection-label:
 
 Serial collection
------------------------------------
+-------------------------------------------------------------------------------
 
 Each subscription has a Serial collection page available from the main Serials
 menu.
 
-   |image1437|
+   |serialcolllink|
 
 From this page you can manage additional tasks related to subscription
-issues such as multi receiving and editing.
+issues such as receiving multiple issues and editing.
 
-   |image1438|
-
-Click on the Multi receiving button to bulk receive future issues of
-a subscription.
-
-   |image1439|
-
--  You can choose how many issues to receive and whether to set the
-   received date to the current date.
+   |serialcollection|
 
 Clicking the Generate next button will generate the next issue for you and
 mark the previously expected issue as ‘Late’ automatically.
 
-Tick the box in the Edit column for one or more previous issues and
-then click the Edit serials button.  You can edit the numbering, dates,
-status and add notes.
+Check the box in the Edit column for one or more previous issues and
+then click the Edit serials button. This will bring you to the same screen as 
+when you are :ref:`receiving issues<receive-issues-label>`. From there, you can 
+edit the numbering, dates, status, and add notes.
 
 .. _create-a-routing-list-label:
 
 Create a routing list
-----------------------------------------
+-------------------------------------------------------------------------------
 
 A routing list is a list of people who receive the serial before it goes
-to the shelf. To enable routing lists you want to set your
-:ref:`RoutingSerials` preference to 'Add'.
+to the shelf. To enable routing lists, set your :ref:`RoutingSerials` preference 
+to 'Use'.
 
 When on the subscription page you will see a link to the left that reads
 'Create routing list' or 'Edit routing list'
 
-|image757|
+|createroutinglink|
 
-Clicking that link will bring you to the menu to add a new routing list.
+Clicking that link will bring you to the form to add a new routing list.
 
-|image758|
+|createroutinglist|
 
-From here you want to click 'Add recipients' in order to add people to
-the routing list. In the menu that appears you can filter patrons by
-part of their name, their library and/or patron category.
+From here, click 'Add recipients' to add users to the routing list. In the menu 
+that appears you can filter patrons by part of their name, their library,  
+or their patron category.
 
-|image759|
+|addtorouting|
 
-Clicking 'Add' to the right of each name will add them to the routing
+Click 'Add' to the right of each name to add them to the routing
 list. When you have chosen all of the people for the list, click the
-'Close' link to be redirected to the routing list.
+'Close' button to be redirected to the routing list.
 
-|image760|
+|editroutinglist|
 
-If the list looks the way you expect it to, then click 'Save'. Next you
-will be brought to a preview of the routing list. To print the list
+From this form, you can play with the order of the users and add notes. 
+If you always add the same note, you can enter it in the 
+:ref:`RoutingListNote` system preference.
+
+If the list looks the way you expect it to, click 'Save'. 
+
+Next, you will be brought to a preview of the routing list. To print the list
 click 'Save and preview routing slip.' This will open a printable
 version of the list.
 
-|image761|
+|previewroutinglist|
 
-If :ref:`RoutingListAddReserves` is set to on
-then patrons listed in the routing list will automatically be added to
-the holds list for the issue.
+If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing list 
+will automatically be added to the holds list for the issue.
 
 To see a list of all of the routing lists for a specific patron is visit
-the :ref:`Routing lists tab <routing-lists-label>` on their patron record.
+the :ref:`routing lists tab <routing-lists-label>` on their patron record.
 Patrons are able to see a list of their own routing lists when logged
 into the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab.
 
 .. _subscriptions-in-staff-client-label:
 
 Subscriptions in staff client
------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Subscription information will appear on bibliographic records under the
 'Subscriptions' tab
 
-|image762|
+|subinfoonbib|
 
 Clicking the 'Subscription details' link will take you to the
 Subscription summary page in the staff client.
 
-|image763|
+|subscriptiondetails|
 
-If you are using the :ref:`Acquisitions <Acquisitions>` module to keep track
-of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you
+If you are using the :ref:`acquisitions <acquisitions-label>` module to keep 
+track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you
 will see an extra 'Acquisition details' tab in your subscription details.
 
-|image764|
+|subdetails|
 
-     **Note**
+.. Note::
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: orders).
+    You can customize the columns of this table in the 
+    :ref:`'Table settings'<column-settings-label>` section of the 
+    Administration module (table id: orders).
 
 .. _subscriptions-in-opac-label:
 

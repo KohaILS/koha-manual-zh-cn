@@ -8,7 +8,24 @@
 
 .. ACQUISITIONS
 
+.. |subdetails| image:: images/acquisitions/subdetails.png
+
+
 .. ADMINISTRATION
+
+.. SYSTEM PREFERENCES
+
+.. |opacSerialDefaultTab-colltab| image:: images/admin/globalprefs/opacSerialDefaultTab-colltab.png
+				:alt: Example of a Serial collection tab in the OPAC
+
+.. |opacSerialDefaultTab-subtab| image:: images/admin/globalprefs/opacSerialDefaultTab-subtab.png
+				:alt: Example of a Subscription tab in the OPAC
+
+.. |SubscriptionHistory-brief| image:: images/admin/globalprefs/SubscriptionHistory-brief.png
+				:alt: Brief history of a subscription in the OPAC
+
+.. |SubscriptionHistory-full| image:: images/admin/globalprefs/SubscriptionHistory-full.png
+				:alt: Full history of a subscription in the OPAC
 
 .. CASH MANAGEMENT
 
@@ -40,11 +57,38 @@
 
 .. SERIALS
 
+.. |addingfieldvalues| image:: images/serials/addingfieldvalues.png
+				:alt: Additional fields section with additional field "Department"
+
 .. |addsub| image:: images/serials/addsub.png
 				:alt: Add a new subscription form (1 of 2)
 
 .. |addsub2| image:: images/serials/addsub2.png
 				:alt: Add a new subscription form (2 of 2)
+
+.. |addtorouting| image:: images/serials/addtorouting.png
+				:alt: Patron search to add to routing list
+
+.. |advancedpattern| image:: images/serials/advancedpattern.png
+				:alt: Form to create a new numbering pattern from the subscription form
+
+.. |createroutinglink| image:: images/serials/createroutinglink.png
+				:alt: Subscription details page with cursor pointing at the Create routing list link in the left side menu
+
+.. |createroutinglist| image:: images/serials/createroutinglist.png
+				:alt: Create routing list form
+
+.. |editbatch| image:: images/serials/editbatch.png
+				:alt: Subscription batch editing form
+
+.. |editroutinglist| image:: images/serials/editroutinglist.png
+				:alt: Editing routing list form
+
+.. |editselectedserials| image:: images/serials/editselectedserials.png
+				:alt: Subscription search results, two subscriptions are selected and the option Edit selected serials is available
+
+.. |editsubscription| image:: images/serials/editsubscription.png
+				:alt: The Edit subscription option under the Edit button in the subscription details page
 
 .. |frequencies| image:: images/serials/frequencies.png
 				:alt: Table of serial frequencies
@@ -53,7 +97,7 @@
 				:alt: The planning tab of a saved subscription
 
 .. |newasduplicate| image:: images/serials/newasduplicate.png
-
+				:alt: The Edit as new (duplicate) option under the Edit button in the subscription details page
 
 .. |newfrequency| image:: images/serials/newfrequency.png
 				:alt: New frequency form
@@ -67,8 +111,38 @@
 .. |newsubfromrecord| image:: images/serials/newsubfromrecord.png
 				:alt: Click on New and choose New subscription in a bibliographic record
 
+.. |numberonly| image:: images/serials/numberonly.png
+				:alt: Table to enter the starting numbers for the numbering pattern
+
 .. |numpatterns| image:: images/serials/numpatterns.png
 				:alt: Numbering patterns table
+
+.. |predictionpattern| image:: images/serials/predictionpattern.png
+				:alt: Prediction of the numbering for each issue in the subscription
+
+.. |previewroutinglist| image:: images/serials/previewroutinglist.png
+				:alt: Routing list preview
+
+.. |receiveissue| image:: images/serials/receiveissue.png
+				:alt: Issue receive form, the status drop-down menu is opened and the cursor points to Arrived
+
+.. |serialcollection| image:: images/serials/serialcollection.png
+				:alt: Serial collection page, the issues table shows three issues that have already been received and one issue still expected, the expected issue is checked
+
+.. |serialcolllink| image:: images/serials/serialcolllink.png
+				:alt: Subscription details page with cursor pointing at the Serial collection link in the left side menu
+
+.. |serialitem| image:: images/serials/serialitem.png
+				:alt: Issue receive form with the item creation form opened
+
+.. |subscriptiondetails| image:: images/serials/subscriptiondetails.png
+				:alt: Subscription details page with buttons at the top: New subscription for this serial, Edit, Renew, Receive and Close
+
+.. |subinfoonbib| image:: images/serials/subinfoonbib.png
+				:alt: The Subscriptions tab of a bibliographic record
+
+.. |subsearch| image:: images/serials/subsearch.png
+				:alt: Search for serial subscriptions in the search bar at the top of the screen, and results
 
 .. |vendorwarning| image:: images/serials/vendorwarning.png
 				:alt: Warning pop up saying 'If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor'
@@ -180,10 +254,6 @@
 .. |image106| image:: images/admin/globalprefs/StatisticsFields.png
 .. |image107| image:: images/admin/globalprefs/displayFacetCount.png
 .. |image108| image:: images/admin/globalprefs/AdvancedSearchTypes.png
-.. |image109| image:: images/admin/globalprefs/opacSerialDefaultTab-colltab.png
-.. |image110| image:: images/admin/globalprefs/opacSerialDefaultTab-subtab.png
-.. |image111| image:: images/admin/globalprefs/SubscriptionHistory-brief.png
-.. |image112| image:: images/admin/globalprefs/SubscriptionHistory-full.png
 .. |image113| image:: images/admin/globalprefs/Display856uAsImage.png
 .. |image114| image:: images/admin/globalprefs/856imagemarc.png
 .. |image115| image:: images/admin/globalprefs/DisplayIconsXSLT.png
@@ -862,23 +932,7 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image748| image:: images/serials/advancedpattern.png
-.. |image749| image:: images/serials/predictionpattern.png
-.. |image750| image:: images/serials/subsearch.png
-.. |image751| image:: images/serials/subbuttons.png
-.. |image752| image:: images/serials/serialcolllink.png
-.. |image753| image:: images/serials/editissue.png
-.. |image754| image:: images/serials/receiveissue.png
-.. |image755| image:: images/serials/serialitem.png
 .. |image756| image:: images/serials/editissue.png
-.. |image757| image:: images/serials/createroutinglink.png
-.. |image758| image:: images/serials/createroutinglist.png
-.. |image759| image:: images/serials/addtorouting.png
-.. |image760| image:: images/serials/editroutinglist.png
-.. |image761| image:: images/serials/previewroutinglist.png
-.. |image762| image:: images/serials/subinfoonbib.png
-.. |image763| image:: images/serials/subscriptiondetail.png
-.. |image764| image:: images/acquisitions/subdetails.png
 .. |image765| image:: images/serials/subopac.png
 .. |image766| image:: images/serials/compactopac.png
 .. |image767| image:: images/serials/opacroutingsubscribe.png
@@ -1380,10 +1434,8 @@
 .. |image1271| image:: images/serials/newfield.png
 .. |image1272| image:: images/serials/addfield.png
 .. |image1273| image:: images/serials/adddept.png
-.. |image1274| image:: images/serials/addingfieldvalues.png
 .. |image1275| image:: images/serials/showfields.png
 .. |image1276| image:: images/serials/searchfield.png
-.. |image1278| image:: images/serials/numberonly.png
 .. |image1279| image:: images/serials/subscribers.png
 .. |image1280| image:: images/acquisitions/suggestfund.png
 .. |image1281| image:: images/acquisitions/importallstaged.png
@@ -1480,9 +1532,6 @@
 .. |image1373| image:: images/opac/MyILLrequests.png
 .. |image1374| image:: images/opac/ILLformpicker.png
 .. |image1375| image:: images/opac/ILLform.png
-.. |image1376| image:: images/serials/editsubscription.png
-.. |image1377| image:: images/serials/editselectedserials.png
-.. |image1378| image:: images/serials/editbatch.png
 .. |image1379| image:: images/serials/addmarcfield.png
 .. |image1380| image:: images/serials/showfieldsmarc.png
 .. |image1381| image:: images/tools/stockrotation/sr_summary.png
@@ -1541,9 +1590,6 @@
 .. |image1434| image:: images/admin/globalprefs/autoreturncheckedoutitems-dont.png
 .. |image1435| image:: images/illrequests/viewillrequests1.png
 .. |image1436| image:: images/illrequests/viewillrequests2.png
-.. |image1437| image:: images/serials/serialsmenu.png
-.. |image1438| image:: images/serials/serialcollection.png
-.. |image1439| image:: images/serials/multireceiving.png
 .. |image1440| image:: images/tools/batchbibmod/batchbibmod2.png
 .. |image1441| image:: images/tools/batchbibmod/batchbibmod3.png
 .. |image1442| image:: images/tools/batchrecorddel/batchrecorddelete2.png
