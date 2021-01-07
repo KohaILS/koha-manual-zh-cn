@@ -40,17 +40,38 @@
 
 .. SERIALS
 
+.. |addsub| image:: images/serials/addsub.png
+				:alt: Add a new subscription form (1 of 2)
+
+.. |addsub2| image:: images/serials/addsub2.png
+				:alt: Add a new subscription form (2 of 2)
+
 .. |frequencies| image:: images/serials/frequencies.png
 				:alt: Table of serial frequencies
+
+.. |manualhistory| image:: images/serials/manualhistory.png
+				:alt: The planning tab of a saved subscription
+
+.. |newasduplicate| image:: images/serials/newasduplicate.png
+
 
 .. |newfrequency| image:: images/serials/newfrequency.png
 				:alt: New frequency form
 
+.. |newnumpattern| image:: images/serials/newnumpattern.png
+				:alt: New numbering pattern form
+
+.. |newsubbutton| image:: images/serials/newsubbutton.png
+				:alt: New subscription button in the serials module
+
+.. |newsubfromrecord| image:: images/serials/newsubfromrecord.png
+				:alt: Click on New and choose New subscription in a bibliographic record
+
 .. |numpatterns| image:: images/serials/numpatterns.png
 				:alt: Numbering patterns table
 
-.. |newnumpattern| image:: images/serials/newnumpattern.png
-				:alt: New numbering pattern form
+.. |vendorwarning| image:: images/serials/vendorwarning.png
+				:alt: Warning pop up saying 'If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor'
 
 .. TOOLS
 
@@ -841,12 +862,6 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image742| image:: images/serials/newsubfrombib.png
-.. |image743| image:: images/serials/newsubbutton.png
-.. |image744| image:: images/serials/addsub.png
-.. |image745| image:: images/serials/vendorwarning.png
-.. |image746| image:: images/serials/newasdup.png
-.. |image747| image:: images/serials/addsub2.png
 .. |image748| image:: images/serials/advancedpattern.png
 .. |image749| image:: images/serials/predictionpattern.png
 .. |image750| image:: images/serials/subsearch.png
@@ -1368,7 +1383,6 @@
 .. |image1274| image:: images/serials/addingfieldvalues.png
 .. |image1275| image:: images/serials/showfields.png
 .. |image1276| image:: images/serials/searchfield.png
-.. |image1277| image:: images/serials/manualhistory.png
 .. |image1278| image:: images/serials/numberonly.png
 .. |image1279| image:: images/serials/subscribers.png
 .. |image1280| image:: images/acquisitions/suggestfund.png

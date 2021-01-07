@@ -370,60 +370,78 @@ expectations, go back and tweak the parameters and test again.
 
 .. _add-a-subscription-label:
 
-Add a subscription
------------------------------------------
+Adding a subscription
+-------------------------------------------------------------------------------
 
-Subscriptions can be added by clicking the 'New' button on any
-bibliographic record
+Subscriptions can be added by clicking the 'New' button on any bibliographic
+record and choosing 'New subscription'
 
-|image742|
+|newsubfromrecord|
 
-Or by visiting the Serials module and clicking 'New subscription'
+Or click the 'New subscription' button in the serials module
 
-|image743|
+|newsubbutton|
 
 If you are entering a new subscription from the Serials module you will
 be presented with a blank form (if creating new from a bibliographic
-record the form will include the bib info).
+record the form will include the record number info).
 
-|image744|
+|addsub|
 
--  'Librarian' field will show the logged in librarian's username
-
--  'Vendor' can be found by either searching vendors entered via the
-   `Acquisitions module <#acqmodule>`__ or entering the vendor ID number
+-  Vendor: can be found by either searching vendors entered via the
+   `Acquisitions module <#acqmodule>`__ or manually entering the vendor ID
+   number
 
    -  Vendor information is not required
 
    -  In order to claim missing and late issues you need to enter vendor
       information
 
-      |image745|
+      |vendorwarning|
 
--  'Biblio' is the MARC record you'd like to link this subscription to
+-  Record: the biblionumber of the MARC record you'd like to link this
+   subscription to
 
-   -  This can be done by searching for an existing record by clicking
-      on the 'Search for record' link below the boxes or by entering the
-      biblionumber for a record in the first box. Only if you search will
-      the field between the parenthesis be filled in.
+   -  If you created a new subscription from a bibliographic record, the
+      biblionumber and the title will already be filled in
+
+   -  You can search for an existing record by clicking on the 'Search for
+      record' link below the boxes
+
+   -  If there is no existing bibliographic record for this subscription, you
+      can create one by clicking on the 'Create record' link below the boxes
+
+   -  You can also manually enter the biblionumber for a record in the first
+      box
 
 -  Next you can choose whether a new item is created when receiving an
-   issue (if you barcode issues you'll want to create an item at this
-   time)
+   issue
 
--  In order to determine how to handle irregularities in your
-   subscription answer 'When there is an irregular issue', if the
-   numbers are always sequential you'll want to pick 'Keep issue number'
+   .. Note::
 
--  Checking the 'Manual history' box will allow you to enter serials
-   outside the prediction pattern once the subscription is saved by
-   going to the 'Planning' tab on the subscription detail page.
+     If you add barcodes to issues or if your circulate them, choose to create
+     an item upon reception
 
-   |image1277|
+-  When there is an irregular issue: choose how to handle irregularities in
+   your subscription, by either skipping the issue number or keeping the issue
+   number
 
--  'Call number' is for your item's call number or call number prefix
+   .. Note::
 
--  'Library' is the branch that owns this subscription.
+     If the numbers are always sequential, choose 'Keep issue number'
+
+-  Manual history: if checked, you will be able to enter serials
+   outside the prediction pattern once the subscription is saved. For example,
+   'The library has issues from June 1974 to December 1996'. To do so, go to
+   the 'Planning' tab on the subscription detail page once the subscription is
+   saved and click 'Edit history'.
+
+   |manualhistory|
+
+-  Call number: your item's call number or call number prefix, this will be
+   copied to items if they are created upon receiving.
+
+-  Library: the branch that owns this subscription.
 
    -  If more than one library subscribes to this serial you will need
       to create a subscription for each library
@@ -432,99 +450,92 @@ record the form will include the bib info).
       option found on the subscription information page and changing
       only the 'Library' field
 
-      |image746|
+      |newasduplicate|
 
--  Use the 'Public note' for any notes you would like to appear in the
-   OPAC for the patrons
+-  Public note: any notes you would like to appear in the OPAC for the patrons
 
--  'Nonpublic note' should be used for notes that are only visible to
-   the librarians via the staff client
+-  Nonpublic note: should be used for notes that are only visible to staff
+   members via the staff interface
 
--  The 'Patron notification' option lets you pick a notice to send to
-   patrons who subscribe to updates on this serial via the OPAC.
+-  Patron notification: you can pick a notice to send to patrons who subscribe
+   to updates on this serial via the OPAC.
 
    -  For this option to appear you need to make sure that you have a
-      Routing list notice set up in the :ref:`Notices Tool <notices-and-slips-label>`
+      'Serials (new issue)'-type notice set up in the
+      :ref:`'Notices and slips' tool <notices-and-slips-label>`
 
--  'Location' is for the shelving location
+-  Location: the shelving location, this will be copied to items if they are
+   created upon receiving.
 
--  The 'Grace period' is the number of days before an issue is
-   automatically moved from 'Expected' status to 'Late'.
-   This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly.
+-  Item type: if creating items upon reception, choose the item type of the
+   items created.
 
--  The Staff and OPAC display options allow you to control how many
-   issues appear by default on bibliographic records in the Staff Client
-   and the OPAC
+-  Item type for older issues: if creating items upon reception, choose the
+   item type that will be assigned to previous issues when receiving new issues.
+   This will only appear only if the :ref:`makePreviousSerialAvailable` is
+   enabled.
 
-   -  If no values are entered in these fields, they will use the
-      :ref:`OPACSerialIssueDisplayCount` and
-      :ref:`StaffSerialIssueDisplayCount`
-      system preference values
+-  Grace period: the number of days before an issue is automatically moved
+   from 'Expected' status to 'Late'. This mechanism requires that the
+   :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to
+   run regularly.
+
+-  Number of issues to display to staff: this allows you to control how many
+   issues appear by default in the staff interface catalog, in the
+   'Subscriptions' tab of the bibliographic record.
+
+   -  If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount`
+      system preference will be used.
+
+   .. Note::
+
+     This does not affect the number of items shown in the 'Holdings' tab if
+     you create items for issues. It only affects the number of issues
+     displayed in the 'Subscriptions' tab.
+
+-  Number of issues to display to the public: this allows you to control how many
+   issues appear by default in the OPAC, in the 'Subscriptions' tab in
+   bibliographic records
+
+   -  If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount`
+      system preference will be used.
+
+   .. Note::
+
+     This does not affect the number of items shown in the 'Holdings' tab if
+     you create items for issues. It only affects the number of issues
+     displayed in the 'Subscriptions' tab.
 
 Once that data is filled in you can click 'Next' to enter the prediction
 pattern information.
 
-|image747|
+|addsub2|
 
--  In 'First issue publication date' you want to enter the date of the
-   issue you have in your hand, the date from which the prediction
-   pattern will start
+-  First issue publication date: enter the date of the issue you have in your
+   hand, the date from which the prediction pattern will start
 
--  There are several pre-defined options for the 'Frequency' of
-   publication all of which are visible alongside your own custom
-   frequencies by visiting ':ref:`Manage frequencies <manage-serial-frequencies-label>`'
+-  Frequency: choose the frequency of your serial. There are several
+   pre-defined options all of which are visible alongside your own custom
+   frequencies in ':ref:`manage frequencies <manage-serial-frequencies-label>`'.
+   If the frequency you are looking for is not there, you can
+   :ref:`add a custom frequency<adding-serial-frequency-label>`.
 
-   -  Without periodicy: some very specific (usually high level science
-      journals) don't have a true periodicity. When you subscribe to the
-      title, you subscribe for 6 issues, which can arrive in 1 year...
-      or 2... There is no regularity or known schedule.
+-  Subscription length: enter the number of issues, weeks, or months in the
+   subscription. This is also used for setting up renewal alerts.
 
-   -  Unknown select this if none of the other choices are relevant
+-  Subscription start date: this is the date at which the subscription
+   begins. This is used for setting up renewal alerts.
 
-   -  Irregular: The journal is not "regular" but has a periodicity. You
-      know that it comes out on January, then in October and December,
-      it is irregular, but you know when it's going to arrive.
+-  Subscription end date: this should only be entered for subscriptions that
+   have ended (if you're entering in a backlog of serials).
 
-   -  2/day: Twice daily
-
-   -  1/day: Daily
-
-   -  3/week: Three times a week
-
-   -  1/week: Weekly
-
-   -  1/ 2 weeks: Twice monthly (fortnightly)
-
-   -  1/ 3 weeks: Tri-weekly
-
-   -  1/month: Monthly
-
-   -  1/ 2 months (6/year): Bi-monthly
-
-   -  1/ 3 months (1/quarter): Quarterly
-
-   -  1/quarter (seasonal) : Quarterly related to seasons (ie. Summer,
-      Autumn, Winter, Spring)
-
-   -  2/year: Half yearly
-
-   -  1/year: Annual
-
-   -  1/ 2 years: Bi-annual
-
--  'Subscription length' is the number of issues or months in the
-   subscription. This is also used for setting up renewal alerts
-
--  'Subscription start date' is the date at which the subscription
-   begins. This is used for setting up renewal alerts
-
--  'Subscription end date' should only be entered for subscriptions that
-   have ended (if you're entering in a backlog of serials)
-
--  'Numbering pattern' will help you determine how the numbers are
-   printed for each issue. Patterns entered here are saved and editable
-   at any time by visiting ':ref:`Manage numbering
-   patterns <manage-serial-numbering-patterns-label>`'
+-  Numbering pattern: choose how issues are numbered. The options here are
+   the ones in the :ref:`manage numbering patterns <manage-serial-numbering-patterns-label>`
+   If the numbering pattern you need has not been created yet, you can create
+   a new one by clicking on 'Show advanced pattern' and then 'Modify pattern'.
+   This is be the same as
+   :ref:`adding a numbering pattern<adding-serial-numbering-pattern-label>`
+   (see section above).
 
    -  Start with the numbering on the issue you have in hand, the
       numbering that matches the date you entered in the 'First issue
