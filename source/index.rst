@@ -10,7 +10,7 @@ Author: The Koha Community
 
    intro
    installation
-   systempreferences
+   globalpreferences
    administration
    tools
    patrons
