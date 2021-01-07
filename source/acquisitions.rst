@@ -1117,6 +1117,11 @@ You will also see that the item is cancelled if you view the basket.
      update the 'basket closed' date, which in turn will cause your 'late
      order' calculations to be incorrect.
 
+     **Note**
+
+     You cannot re-open a basket that is attached to a basket group.  The 
+     re-open basket button will be greyed out.
+
 .. Instead, follow the procedure below.
 .. Is this still valid?
 .. To cancel an order:
