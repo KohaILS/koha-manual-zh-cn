@@ -575,8 +575,6 @@ pattern information.
 -  If you have added :ref:`custom fields <additional-fields-label>`, they
    will be editable above the buttons at the bottom of the screen
 
-   |addingfieldvalues|
-
 Click 'Save subscription' to save the information you have entered.
 
 .. Note::

@@ -15,7 +15,16 @@
 
 	.. ADDITIONAL PARAMETERS
 
+.. |adddept| image:: images/admin/additional/adddept.png
+				:alt: Add field form, filled with Department as the Name, DEPARTMENT as the authorized value category and Searchable is checked
+
+.. |addfield| image:: images/admin/additional/addfield.png
+				:alt: Add field form
+
 .. |addfieldsorderbasket| image:: images/admin/additional/addfieldsorderbasket.png
+
+.. |addmarcfield| image:: images/admin/additional/addmarcfield.png
+				:alt: Add field form, filled with Target audience as the Name, and 521$a as the MARC field
 
 
 .. SYSTEM PREFERENCES
@@ -61,9 +70,6 @@
 .. SEARCHING
 
 .. SERIALS
-
-.. |addingfieldvalues| image:: images/serials/addingfieldvalues.png
-				:alt: Additional fields section with additional field "Department"
 
 .. |addsub| image:: images/serials/addsub.png
 				:alt: Add a new subscription form (1 of 2)
@@ -1440,10 +1446,6 @@
 .. |image1268| image:: images/cataloging/editindividual.png
 .. |image1269| image:: images/cataloging/edititemssearch.png
 .. |image1270| image:: images/cataloging/itemstatuses.png
-.. |image1272| image:: images/serials/addfield.png
-.. |image1273| image:: images/serials/adddept.png
-.. |image1275| image:: images/serials/showfields.png
-.. |image1276| image:: images/serials/searchfield.png
 .. |image1280| image:: images/acquisitions/suggestfund.png
 .. |image1281| image:: images/acquisitions/importallstaged.png
 .. |image1282| image:: images/acquisitions/selecttoimport.png
@@ -1538,7 +1540,6 @@
 .. |image1373| image:: images/opac/MyILLrequests.png
 .. |image1374| image:: images/opac/ILLformpicker.png
 .. |image1375| image:: images/opac/ILLform.png
-.. |image1379| image:: images/serials/addmarcfield.png
 .. |image1380| image:: images/serials/showfieldsmarc.png
 .. |image1381| image:: images/tools/stockrotation/sr_summary.png
 .. |image1382| image:: images/tools/stockrotation/sr_edit_rota.png
@@ -1583,7 +1584,6 @@
 .. |image1421| image:: images/acquisitions/showactivebaskets.png
 .. |image1422| image:: images/acquisitions/showallbaskets.png
 .. |image1423| image:: images/admin/globalprefs/lastpatron.png
-.. |image1425| image:: images/admin/additional/addfieldsubscription.png
 .. |image1426| image:: images/admin/additional/manaconfiguration.png
 .. |image1427| image:: images/admin/additional/manatoken.png
 .. |image1428| image:: images/reports/sqlfrommana.png
