@@ -13,6 +13,11 @@
 
 .. ADMINISTRATION
 
+	.. ADDITIONAL PARAMETERS
+
+.. |addfieldsorderbasket| image:: images/admin/additional/addfieldsorderbasket.png
+
+
 .. SYSTEM PREFERENCES
 
 .. |opacSerialDefaultTab-colltab| image:: images/admin/globalprefs/opacSerialDefaultTab-colltab.png
@@ -138,6 +143,9 @@
 .. |serialsmodule| image:: images/serials/serialsmodule.png
 				:alt: Main page of the serials module with the left hand side menu and the New subscription button
 
+.. |subexpiresearch| image:: images/serials/subexpiresearch.png
+				:alt: Check subscription expiration search form
+
 .. |subinfoonbib| image:: images/serials/subinfoonbib.png
 				:alt: The Subscriptions tab of a bibliographic record in the staff interface
 
@@ -153,14 +161,11 @@
 .. |subscriptionexpiration| image:: images/serials/subscriptionexpiration.png
 				:alt: Check expiration search results
 
-.. |subscriptionrenewal| image:: images/serials/subscriptionrenewal.png
-				:alt: Subscription renewal form
-
-.. |subexpiresearch| image:: images/serials/subexpiresearch.png
-				:alt: Check subscription expiration search form
-
 .. |subscriptionplanning| image:: images/serials/subscriptionplanning.png
 				:alt: Subscription details page, Planning tab
+
+.. |subscriptionrenewal| image:: images/serials/subscriptionrenewal.png
+				:alt: Subscription renewal form
 
 .. |subsearch| image:: images/serials/subsearch.png
 				:alt: Search for serial subscriptions in the search bar at the top of the screen, and results
@@ -1435,7 +1440,6 @@
 .. |image1268| image:: images/cataloging/editindividual.png
 .. |image1269| image:: images/cataloging/edititemssearch.png
 .. |image1270| image:: images/cataloging/itemstatuses.png
-.. |image1271| image:: images/serials/newfield.png
 .. |image1272| image:: images/serials/addfield.png
 .. |image1273| image:: images/serials/adddept.png
 .. |image1275| image:: images/serials/showfields.png
@@ -1579,7 +1583,6 @@
 .. |image1421| image:: images/acquisitions/showactivebaskets.png
 .. |image1422| image:: images/acquisitions/showallbaskets.png
 .. |image1423| image:: images/admin/globalprefs/lastpatron.png
-.. |image1424| image:: images/admin/additional/addfieldsorderbasket.png
 .. |image1425| image:: images/admin/additional/addfieldsubscription.png
 .. |image1426| image:: images/admin/additional/manaconfiguration.png
 .. |image1427| image:: images/admin/additional/manatoken.png
