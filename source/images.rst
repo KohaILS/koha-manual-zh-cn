@@ -9,7 +9,7 @@
 .. ACQUISITIONS
 
 .. |subdetails| image:: images/acquisitions/subdetails.png
-
+				:alt: Acquisitions details tab in a bibliographic record attached to a serial subscription
 
 .. ADMINISTRATION
 
@@ -144,11 +144,8 @@
 .. |subopac| image:: images/serials/subopac.png
 				:alt: The Subscriptions tab of a bibliographic record in the OPAC
 
-.. |subscriptiondetails1| image:: images/serials/subscriptiondetails1.png
+.. |subscriptiondetails| image:: images/serials/subscriptiondetails.png
 				:alt: Subscription details page, Information tab, with buttons at the top (New subscription for this serial, Edit, Renew, Receive, Close) and menu on the left (Serial collection, Create routing list, Claims, Check expiration, Manage frequencies, Manage numbering patterns, Serials statistics wizard)
-
-.. |subscriptiondetails2| image:: images/serials/subscriptiondetails2.png
-				:alt: Subscription details page, Information tab, with buttons at the top (New subscription for this serial, Edit, Renew, Receive, Close) and menu on the left (Serial collection, Edit routing list, Claims, Check expiration, Manage frequencies, Manage numbering patterns, Serials statistics wizard)
 
 .. |subscriptiondetailsinfo| image:: images/serials/subscriptiondetailsinfo.png
 				:alt: Subscription details page, Information tab

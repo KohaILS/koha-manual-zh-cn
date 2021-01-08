@@ -640,7 +640,7 @@ search for the serial you'd like to receive issues for:
 From the search results you can click the 'Serial receive' buton or you
 can click on the subscription title and then click the 'Receive' button.
 
-|subscriptiondetails1|
+|subscriptiondetails|
 
 The final way to receive serials is from the 'Serial collection' page.
 To the left of the Subscription summary page there is a menu with a link
@@ -691,7 +691,7 @@ Serial collection
 Each subscription has a Serial collection page available from the main Serials
 menu.
 
-   |subscriptiondetails1|
+   |subscriptiondetails|
 
 From this page you can manage additional tasks related to subscription
 issues such as receiving multiple issues and editing.
@@ -718,7 +718,7 @@ to 'Use'.
 When on the subscription page you will see a link to the left that reads
 'Create routing list' or 'Edit routing list'
 
-|subscriptiondetails1|
+|subscriptiondetails|
 
 Clicking that link will bring you to the form to add a new routing list.
 
@@ -769,7 +769,7 @@ Subscription information will appear on bibliographic records under the
 Clicking the 'Subscription details' link will take you to the
 Subscription summary page in the staff interface.
 
-|subscriptiondetails1|
+|subscriptiondetails|
 
 If you are using the :ref:`acquisitions <acquisitions-label>` module to keep 
 track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you
@@ -839,7 +839,7 @@ issues. To the left of the main serials page there is a link to 'Claims'.
 The links to claims also appears to the left of the subscription detail
 page
 
-|subscriptiondetails1|
+|subscriptiondetails|
 
 If you don't have a claim notice defined yet you will see a warning
 message that you need to first define a notice in the 
@@ -900,7 +900,7 @@ If your serial subscription has expired you won't be able to receive
 issues. To renew your subscription you can click the 'Renew' button at
 the top of your subscription detail page.
 
-|subscriptiondetails1|
+|subscriptiondetails|
 
 Once you click the 'Renew' button you will be presented with
 renewal options.
