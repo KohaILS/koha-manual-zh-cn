@@ -598,7 +598,7 @@ You can also batch edit subscriptions. To do so, search for the subscriptions
 you want to change. In the results, check the boxes next to the subscriptions
 to edit. The link 'Edit selected serials' will appear.
 
-|editselectedserials|
+|serialsearchresults|
 
 From there, you can change:
 
