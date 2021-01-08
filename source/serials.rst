@@ -383,7 +383,7 @@ record and choosing 'New subscription'
 
 Or click the 'New subscription' button in the serials module
 
-|newsubbutton|
+|serialsmodule|
 
 If you are entering a new subscription from the Serials module you will
 be presented with a blank form (if creating new from a bibliographic
@@ -439,7 +439,7 @@ record the form will include the record number info).
    the 'Planning' tab on the subscription detail page once the subscription is
    saved and click 'Edit history'.
 
-   |manualhistory|
+   |subscriptionplanning|
 
 -  Call number: your item's call number or call number prefix, this will be
    copied to items if they are created upon receiving.
@@ -640,13 +640,11 @@ search for the serial you'd like to receive issues for:
 From the search results you can click the 'Serial receive' buton or you
 can click on the subscription title and then click the 'Receive' button.
 
-|subscriptiondetails|
+|subscriptiondetails1|
 
 The final way to receive serials is from the 'Serial collection' page.
 To the left of the Subscription summary page there is a menu with a link
 to 'Serial collection'
-
-|serialcolllink|
 
 From the page that opens up, check the issue(s) you want to receive (the 
 expected ones should be checked by default) and click 'Edit serials'.
@@ -693,7 +691,7 @@ Serial collection
 Each subscription has a Serial collection page available from the main Serials
 menu.
 
-   |serialcolllink|
+   |subscriptiondetails1|
 
 From this page you can manage additional tasks related to subscription
 issues such as receiving multiple issues and editing.
@@ -710,7 +708,7 @@ edit the numbering, dates, status, and add notes.
 
 .. _create-a-routing-list-label:
 
-Create a routing list
+Creating a routing list
 -------------------------------------------------------------------------------
 
 A routing list is a list of people who receive the serial before it goes
@@ -720,7 +718,7 @@ to 'Use'.
 When on the subscription page you will see a link to the left that reads
 'Create routing list' or 'Edit routing list'
 
-|createroutinglink|
+|subscriptiondetails1|
 
 Clicking that link will bring you to the form to add a new routing list.
 
@@ -760,7 +758,7 @@ into the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab.
 
 .. _subscriptions-in-staff-client-label:
 
-Subscriptions in staff client
+Subscriptions in the staff interface
 -------------------------------------------------------------------------------
 
 Subscription information will appear on bibliographic records under the
@@ -769,9 +767,9 @@ Subscription information will appear on bibliographic records under the
 |subinfoonbib|
 
 Clicking the 'Subscription details' link will take you to the
-Subscription summary page in the staff client.
+Subscription summary page in the staff interface.
 
-|subscriptiondetails|
+|subscriptiondetails1|
 
 If you are using the :ref:`acquisitions <acquisitions-label>` module to keep 
 track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you
@@ -787,97 +785,102 @@ will see an extra 'Acquisition details' tab in your subscription details.
 
 .. _subscriptions-in-opac-label:
 
-Subscriptions in OPAC
---------------------------------------------
+Subscriptions in the OPAC
+-------------------------------------------------------------------------------
 
-When viewing the subscription in the OPAC there will be several options.
+When viewing the subscription in the OPAC there will be several options. You 
+can choose which tab appears by default with the :ref:`opacSerialDefaultTab` 
+system preference.
 
-Like in the staff client, there will be a Subscriptions tab on the
+Like in the staff interface, there will be a Subscriptions tab on the
 bibliographic record.
 
-|image765|
+|subopac|
 
-Under this tab will appear the number of issues you chose when setting
-up the subscription or in your
-:ref:`OPACSerialIssueDisplayCount` system
-preference. Clicking the 'More details' link will provide you with
-additional information about the serial history. You can set the default
-view of a serial in the OPAC with the
-:ref:`SubscriptionHistory` system preference.
+Under this tab will appear the number of issues you chose when 
+:ref:`setting up the subscription <add-a-subscription-label>` or in your
+:ref:`OPACSerialIssueDisplayCount` system preference. Clicking the 'More 
+details' link will provide you with additional information about the serial 
+history. You can set the default view of the serial history in the OPAC with 
+the :ref:`SubscriptionHistory` system preference.
 
-There are two views, compact and full. The compact serial subscription
-will show basic information regarding the subscription
+There are two views, brief and full. The brief serial subscription history
+will show basic information regarding the subscription.
 
-|image766|
+|SubscriptionHistory-brief|
 
-From this compact display patrons can subscribe to be notified of new
+From this brief display patrons can subscribe to be notified of new
 issues as they are released by clicking the 'Subscribe to email
-notifications of new issues' button. For this link to appear you will
-want to have chosen to notify patrons :ref:`on the
-subscription <add-a-subscription-label>` itself.
-
-|image767|
+notifications of new issues' button. This link will only appear if you have 
+chosen to notify patrons when 
+:ref:`creating the subscription <add-a-subscription-label>`.
 
 You can see those who subscribe to new issue alerts by going to the
 subscription page in the staff client and looking on the right of the
 'Information' tab.
 
-|image1279|
+|subscriptiondetailsinfo|
 
 Whereas the full view shows extensive details, broken out by year,
 regarding the subscription
 
-|image768|
+|SubscriptionHistory-full|
 
 .. _claim-late-serials-label:
 
-Claim late serials
---------------------------------------
+Claiming late issues
+-------------------------------------------------------------------------------
 
 Koha can send email messages to your serial vendors if you have late
-issues. To the left of the main serials page there is a link to 'Claims'
+issues. To the left of the main serials page there is a link to 'Claims'.
 
-|image769|
+|serialsmodule|
 
 The links to claims also appears to the left of the subscription detail
 page
 
-|image770|
+|subscriptiondetails1|
 
 If you don't have a claim notice defined yet you will see a warning
-message that you need to first define a notice.
+message that you need to first define a notice in the 
+:ref:`Notices and slips tool<notices-and-slips-label>`.
 
-|image771|
+|noclaimnotice|
 
 Clicking 'Claims' will open a report that will ask you to choose from
 your various serial vendors to generate claims for late issues.
 
-|image772|
+|serialclaims|
 
 From the list of late issues you can choose which ones you want to send
 a claim email to by clicking the checkbox to the left of late issue,
 choosing the notice template to use and clicking the 'Send notification'
 button.
 
+You can also export the results to a CSV file by choosing a 
+:ref:`CSV profile <csv-profiles-label>` and clicking 'Download selected 
+claims'.
+
 .. _check-serial-expiration-label:
 
-Check serial expiration
------------------------------------------------
+Checking serial expiration
+-------------------------------------------------------------------------------
 
 When adding serials you enter a subscription length, using the check
 expiration tool you can see when your subscriptions are about to expire.
-To use the tool click the link to 'Check expiration' on the serials
+To use the tool, click the link to 'Check expiration' on the serials
 menu.
 
-|image773|
+|subexpiresearch|
 
 In the form that appears you need to enter at least a date to search by.
+You can also search by title, ISBN or library.
 
 In your results you will see all subscriptions that will expire before
 the date you entered. From there you can choose to view the subscription
 further or renew it in one click.
 
-|image774|
+|subscriptionexpiration|
 
 If there is more than one subscription, you can check the boxes and
 click on 'Renew selected subscriptions' to renew all the serials.
@@ -886,54 +889,63 @@ subscription (i.e. if the last subscription for that serial lasted one
 year, the serial will be renewed for one year; if the last subscription
 was for 16 issues, it will be renewed for another 16 issues).
 
-|image1356|
+|batchrenew|
 
 .. _renewing-serials-label:
 
-Renewing serials
------------------------------------
+Renewing subscriptions
+-------------------------------------------------------------------------------
 
 If your serial subscription has expired you won't be able to receive
 issues. To renew your subscription you can click the 'Renew' button at
 the top of your subscription detail page.
 
-|image775|
+|subscriptiondetails1|
 
-Another option is to click the 'Renew' link to the right of the
-subscription on the Serial collection page.
-
-|image776|
-
-Once you click the 'Renew' link or button you will be presented with
+Once you click the 'Renew' button you will be presented with
 renewal options.
 
-|image777|
+|subscriptionrenewal|
 
--  The start date should be the date your subscription period starts.
+-  Start date: enter the date your subscription period starts.
 
--  For the subscription length you'll want to fill in one of the three
-   fields presented: Number of issues, Number of months or Number
-   of weeks.
+-  Subscription length: enter the number of issues, weeks or months your 
+   subscription lasts
 
--  Finally enter any notes you might have about this renewal.
+-  Library: enter the library for which this subscription is
+
+-  Note for the librarian that will manage your renewal request: enter any 
+   notes you might have about this renewal.
+
+Click 'Submit'.
+
+If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, renewing 
+a subscription will create a purchase suggestion in the 
+:ref:`acquisitions module<acquisitions-label>` so that your acquisitions staff 
+can manage it.
 
 .. _searching-serials-label:
 
 Searching serials
--------------------------------------
+-------------------------------------------------------------------------------
 
 Once in the Serials module there is basic search box at the top that you
 can use to find subscriptions using any part of the ISSN and/or title.
 
-|image778|
+|subsearch|
 
 You can also click the 'Advanced search' link to the right of the
 'Submit' button to do a more thorough search of your serials.
 
-|image779|
+|advancedserialsearch|
+
+.. Note::
+   
+    If you have :ref:`additional fields<additional-fields-label>` that are 
+    searchable, they will appear in this form.
 
 From your results you can filter by using the search boxes at the bottom
 of each column and adjust the number of results using the toolbar at the
 top of the results set.
 
-|image780|
+|serialsearchresults|

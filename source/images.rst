@@ -72,8 +72,11 @@
 .. |advancedpattern| image:: images/serials/advancedpattern.png
 				:alt: Form to create a new numbering pattern from the subscription form
 
-.. |createroutinglink| image:: images/serials/createroutinglink.png
-				:alt: Subscription details page with cursor pointing at the Create routing list link in the left side menu
+.. |advancedserialsearch| image:: images/serials/advancedserialsearch.png
+				:alt: Serials advanced search form
+
+.. |batchrenew| image:: images/serials/batchrenew.png
+				:alt: Check expiration search results, two results are checked and the Renew selected subscription is available
 
 .. |createroutinglist| image:: images/serials/createroutinglist.png
 				:alt: Create routing list form
@@ -84,17 +87,11 @@
 .. |editroutinglist| image:: images/serials/editroutinglist.png
 				:alt: Editing routing list form
 
-.. |editselectedserials| image:: images/serials/editselectedserials.png
-				:alt: Subscription search results, two subscriptions are selected and the option Edit selected serials is available
-
 .. |editsubscription| image:: images/serials/editsubscription.png
 				:alt: The Edit subscription option under the Edit button in the subscription details page
 
 .. |frequencies| image:: images/serials/frequencies.png
 				:alt: Table of serial frequencies
-
-.. |manualhistory| image:: images/serials/manualhistory.png
-				:alt: The planning tab of a saved subscription
 
 .. |newasduplicate| image:: images/serials/newasduplicate.png
 				:alt: The Edit as new (duplicate) option under the Edit button in the subscription details page
@@ -105,11 +102,11 @@
 .. |newnumpattern| image:: images/serials/newnumpattern.png
 				:alt: New numbering pattern form
 
-.. |newsubbutton| image:: images/serials/newsubbutton.png
-				:alt: New subscription button in the serials module
-
 .. |newsubfromrecord| image:: images/serials/newsubfromrecord.png
 				:alt: Click on New and choose New subscription in a bibliographic record
+
+.. |noclaimnotice| image:: images/serials/noclaimnotice.png
+				:alt: Warning No claims notice defined. Please define one. 
 
 .. |numberonly| image:: images/serials/numberonly.png
 				:alt: Table to enter the starting numbers for the numbering pattern
@@ -126,20 +123,47 @@
 .. |receiveissue| image:: images/serials/receiveissue.png
 				:alt: Issue receive form, the status drop-down menu is opened and the cursor points to Arrived
 
+.. |serialclaims| image:: images/serials/serialclaims.png
+				:alt: Claims report result
+
 .. |serialcollection| image:: images/serials/serialcollection.png
 				:alt: Serial collection page, the issues table shows three issues that have already been received and one issue still expected, the expected issue is checked
-
-.. |serialcolllink| image:: images/serials/serialcolllink.png
-				:alt: Subscription details page with cursor pointing at the Serial collection link in the left side menu
 
 .. |serialitem| image:: images/serials/serialitem.png
 				:alt: Issue receive form with the item creation form opened
 
-.. |subscriptiondetails| image:: images/serials/subscriptiondetails.png
-				:alt: Subscription details page with buttons at the top: New subscription for this serial, Edit, Renew, Receive and Close
+.. |serialsearchresults| image:: images/serials/serialsearchresults.png
+				:alt: Subscription search results, two subscriptions are selected and the option Edit selected serials is available
+
+.. |serialsmodule| image:: images/serials/serialsmodule.png
+				:alt: Main page of the serials module with the left hand side menu and the New subscription button
 
 .. |subinfoonbib| image:: images/serials/subinfoonbib.png
-				:alt: The Subscriptions tab of a bibliographic record
+				:alt: The Subscriptions tab of a bibliographic record in the staff interface
+
+.. |subopac| image:: images/serials/subopac.png
+				:alt: The Subscriptions tab of a bibliographic record in the OPAC
+
+.. |subscriptiondetails1| image:: images/serials/subscriptiondetails1.png
+				:alt: Subscription details page, Information tab, with buttons at the top (New subscription for this serial, Edit, Renew, Receive, Close) and menu on the left (Serial collection, Create routing list, Claims, Check expiration, Manage frequencies, Manage numbering patterns, Serials statistics wizard)
+
+.. |subscriptiondetails2| image:: images/serials/subscriptiondetails2.png
+				:alt: Subscription details page, Information tab, with buttons at the top (New subscription for this serial, Edit, Renew, Receive, Close) and menu on the left (Serial collection, Edit routing list, Claims, Check expiration, Manage frequencies, Manage numbering patterns, Serials statistics wizard)
+
+.. |subscriptiondetailsinfo| image:: images/serials/subscriptiondetailsinfo.png
+				:alt: Subscription details page, Information tab
+
+.. |subscriptionexpiration| image:: images/serials/subscriptionexpiration.png
+				:alt: Check expiration search results
+
+.. |subscriptionrenewal| image:: images/serials/subscriptionrenewal.png
+				:alt: Subscription renewal form
+
+.. |subexpiresearch| image:: images/serials/subexpiresearch.png
+				:alt: Check subscription expiration search form
+
+.. |subscriptionplanning| image:: images/serials/subscriptionplanning.png
+				:alt: Subscription details page, Planning tab
 
 .. |subsearch| image:: images/serials/subsearch.png
 				:alt: Search for serial subscriptions in the search bar at the top of the screen, and results
@@ -932,23 +956,6 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image756| image:: images/serials/editissue.png
-.. |image765| image:: images/serials/subopac.png
-.. |image766| image:: images/serials/compactopac.png
-.. |image767| image:: images/serials/opacroutingsubscribe.png
-.. |image768| image:: images/serials/fullopac.png
-.. |image769| image:: images/serials/serialclaimmenu.png
-.. |image770| image:: images/serials/serialclaimmenu1.png
-.. |image771| image:: images/serials/noserialclaim.png
-.. |image772| image:: images/serials/serialclaims.png
-.. |image773| image:: images/serials/serialexpiresearch.png
-.. |image774| image:: images/serials/serialexpire.png
-.. |image775| image:: images/serials/renewsubscription.png
-.. |image776| image:: images/serials/collectionrenew.png
-.. |image777| image:: images/serials/serialrenew.png
-.. |image778| image:: images/serials/serialsearch.png
-.. |image779| image:: images/serials/advanceserialsearch.png
-.. |image780| image:: images/serials/serialsearchresults.png
 .. |image781| image:: images/acquisitions/acqfunds.png
 .. |image782| image:: images/acquisitions/fundbreakdown.png
 .. |image783| image:: images/acquisitions/newvendbutton.png
@@ -1436,7 +1443,6 @@
 .. |image1273| image:: images/serials/adddept.png
 .. |image1275| image:: images/serials/showfields.png
 .. |image1276| image:: images/serials/searchfield.png
-.. |image1279| image:: images/serials/subscribers.png
 .. |image1280| image:: images/acquisitions/suggestfund.png
 .. |image1281| image:: images/acquisitions/importallstaged.png
 .. |image1282| image:: images/acquisitions/selecttoimport.png
@@ -1512,7 +1518,6 @@
 .. |image1353| image:: images/patrons/housebounddeliveries1.png
 .. |image1354| image:: images/patrons/housebounddeliveries2.png
 .. |image1355| image:: images/tools/importpatrons/patronattributes.png
-.. |image1356| image:: images/serials/batchrenew.png
 .. |image1357| image:: images/coursereserves/additem.png
 .. |image1358| image:: images/coursereserves/batchadditems.png
 .. |image1359| image:: images/patrons/patrondetails.png
