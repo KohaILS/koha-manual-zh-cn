@@ -598,6 +598,10 @@ use, for instance 'Lost'.
    -  Frequencies used by the housebound module. They are displayed on
       the housebound tab in the patron account in staff.
 
+-  ILLSTATUS
+
+   -  ILL / Interlibrary loan request statuses.
+      
 -  ITEMTYPECAT
 
    - Allows multiple Item types to be searched in a category.  Categories can be
