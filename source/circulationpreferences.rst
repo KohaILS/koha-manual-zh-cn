@@ -3646,6 +3646,75 @@ Description:
 Interlibrary Loans
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _circulateill-label:
+
+CirculateILL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Disable
+
+Asks: \_\_\_ the circulation of ILL requested items.
+
+Values:
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  This preference controls whether you have the option to checkout ILL items directly 
+   from an ILL request.  More details can be found in the :ref:`Circulating ILL materials <circulating-ill-materials-label>` section. 
+
+.. _illcheckavailability-label:
+
+ILLCheckAvailability
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Don't check
+
+Asks: \_\_\_ external sources for availability during the request process.
+
+Values:
+
+-  Dont' check
+
+-  Check
+
+Description:
+
+-  This preference controls whether specific external resources will be searched prior 
+   to a request being placed.  The resources searched are managed by plugins. The 
+   user can click on a link to a relevant resource if one is found or proceed with the 
+   ILL request. If no results are found the ILL is completed in the usual way.
+
+.. _illdefaultstaffemail-label:
+
+ILLDefaultStaffEmail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: 	
+Fallback email address for staff ILL notices to be sent to in the absence of a library address: \_\_\_ .
+
+Description:
+
+-  By default replies to ILL request emails will go to the library email address, if you would like to specify 
+   a different email address you can do that here.
+
+.. _illhiddenrequeststatuses-label:
+
+ILLHiddenRequestStatuses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: ILL statuses that are considered finished and should not be displayed in the ILL 
+module: \_\_\_ (separated with |). If left empty, all ILL requests will be displayed.
+
+Description:
+
+-  This preference allows libraries to hide requests from the View ILL requests list based on the status 
+   of the request.  Available ILL statuses are configured in the ILLSTATUS 
+   :ref:`authorized value <authorized-values-label>` category. 
+
 .. _illmodule-label:
 
 ILLModule
@@ -3672,6 +3741,54 @@ ILLModuleCopyrightClearance
 
 Asks: Adding text will enable the copyright clearance stage in request creation.
 The text you enter will be the text displayed.
+
+.. _illmoduleunmediated-label:
+
+ILLModuleUnmediated
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Disable
+
+Asks: \_\_\_ unmediated interlibrary loan requests. If enabled and the ILL backend 
+supports it, the newly created requests are immediately requested by backend.
+
+Values:
+
+-  Disable
+
+-  Enable
+
+Description:
+
+-  This preference allows ILL requests placed by patrons on the OPAC to be directly sent to ILL suppliers
+   without mediation by library staff.  Not all ILL backends can support this feature.
+
+.. _illbpacbackends-label:
+
+ILLOpacbackends
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Enabled ILL backends for OPAC initiated requests: \_\_\_ (separated with |). If left empty, all 
+installed backends will be enabled.
+
+Description:
+
+-  This preference controls which ILL backend request forms are available for OPAC requests.  You will need to 
+   refer to the backend configuration guidance for the correct terminology to enter here, for example, FreeForm, BLDSS.
+
+.. _illsendstaffnotices-label:
+
+ILLSendStaffNotices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Send these ILL notices to staff when appropriate: \_\_\_ (separated with |). 
+e.g. ILL_REQUEST_CANCEL|ILL_REQUEST_MODIFIED If left empty, no staff ILL notices will be sent.
+
+Description:
+
+-  You can configure which ILL notices should be sent to staff.  More details can be found 
+   in the :ref:`ILL email notifications <ill-email-notifications-label>` section.
+
 
 .. _returnclaims-label:
 
