@@ -2630,6 +2630,11 @@ constraints and Other options.
             unimarc\_plugin\_225a that can "magically" find the editor
             from an ISBN, and the collection list for the editor)
 
+         -  If you would like to enable an autocomplete search for publishers 
+            in 260b and 264b you can set the plugin to marc21_field_260b.pl.  When you start 
+            typing in a publisher name you will be given search results based on publisher 
+            names already in the catalogue.
+
 -  To save your changes simply click the 'Save changes'.
 
 .. _import/export-frameworks-label:
