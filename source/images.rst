@@ -45,6 +45,15 @@
 
 .. CATALOGING
 
+.. |uploaditemcoverimage| image:: images/cataloging/uploaditemcoverimage.png
+				:alt: Upload a cover image for an item from Edit button
+
+.. |itemcoverimagedisplay| image:: images/cataloging/itemcoverimagedisplay.png
+				:alt: Display of a cover image for an item
+				
+.. |itemcoverimagedelete| image:: images/cataloging/itemcoverimagedelete.png
+				:alt: Deleting a cover image for an item
+
 .. CIRCULATION
 
 .. COURSE RESERVES
