@@ -950,6 +950,32 @@ module then this section will include information about the order.
 If the Order or Accession date is linked, clicking it will bring you to
 the acquisitions information for that item.
 
+.. _adding-cover-images-for-items-label:
+
+Adding cover images for items
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you have either OPACLocalCoverImages and/or LocalCoverImages set to ‘Display’ you can upload 
+cover images for individual item records from the 'Upload image' option from the Edit button on 
+the right of the Holdings table.
+
+|uploaditemcoverimage|
+
+Click Choose file to find the image file on your computer and then Upload file.
+
+On the next screen you are given the option to replace existing images.  You can then click on 
+Process images.
+
+The image will display in a Cover image column in the holdings display.
+
+|itemcoverimagedisplay|
+
+To delete an image, click on the image in the holdings display.  You will see a greyed out copy of the 
+image with the option to delete.
+
+|itemcoverimagedelete|
+
+
 .. _moving-items-label:
 
 Moving items
