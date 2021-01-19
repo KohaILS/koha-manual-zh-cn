@@ -416,7 +416,7 @@ preferences and other rules.
    you use something other than the defaults)
 
 -  Set up :ref:`MARC matching rules <record-matching-rules-label>` for importing
-   records from .mrc files or Z39.50
+   records from .mrc files
 
 -  Set up the :ref:`Z39.50 targets <z39.50/sru-servers-label>` you want to 
    search for cataloging (and acquisitions)
