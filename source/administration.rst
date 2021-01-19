@@ -1334,8 +1334,8 @@ item types to apply the rules to
    after' to limit the time a patron can have the item. For example: don't 
    allow automatic renewals after a checkout period of 80 days.
 
--  Similar to the hard due date setting, you can also stop automatic renwals
-   after a specific date using the 'No automatic renwal after (hard limit)'
+-  Similar to the hard due date setting, you can also stop automatic renewals
+   after a specific date using the 'No automatic renewal after (hard limit)'
    setting.
 
 -  If patrons of this category can place holds on items of this type, enter the 
