@@ -359,7 +359,7 @@ Exporting records in a batch
 To export bibliographic records in a batch, be sure your "Batch" options
 are correct: from the "Tools" menu, select "Options", and select the
 "Batch" tab. In the "Perform local actions in batch" area,
-"Bibliographic Record Export" should be checkedOCLC
+"Bibliographic Record Export" should be checked
 
 |image1320|
 
