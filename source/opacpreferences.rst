@@ -2561,7 +2561,7 @@ suggestions and reading history)
 
     **Important**
 
-    Remember to use the borrowernumber note the patron's cardnumber for
+    Remember to use the borrowernumber not the patron's cardnumber for
     this value. The borrowernumber can be found on the patron record
     under 'Library use' on the right.
 
