@@ -34,7 +34,7 @@ Value:
 Description:
 
 -  This enhancement allows you to view the search query used by Zebra or 
-   Elastic Search, to help with troubleshooting.
+   Elasticsearch, to help with troubleshooting.
 
 -  Make sure to enable :ref:`DumpTemplateVarsIntranet` and/or 
    :ref:`DumpTemplateVarsOpac` otherwise this system preference will have no 
