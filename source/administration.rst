@@ -3304,7 +3304,7 @@ and on the item search page
 
 Search engine configuration
 ----------------------------
-Once you have switched to Elastic Search in your SearchEngine system preference,
+Once you have switched to Elasticsearch in your SearchEngine system preference,
 you’ll see a new link for Search engine configuration in the Catalog section of 
 Administration. Here you will manage indexes, facets, and their mappings to MARC
 fields and subfields.
