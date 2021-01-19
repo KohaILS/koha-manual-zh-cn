@@ -1052,7 +1052,7 @@ Once you have made any changes necessary (to the order and/or items, click
 When you're finished receiving items you can navigate away from this
 page or click the 'Finish receiving' button at the bottom of the screen.
 
-Received orders will have '(rcvd)' before the title in the basket view.
+Received orders will have '(received)' before the title in the basket view.
 
 |image850|
 
