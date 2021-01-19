@@ -1401,16 +1401,16 @@ section.*
 -  **Buyer SAN:** The identifier for the library
 
 -  **Quotes enabled:** [y/n] Does this vendor support sending and
-   receiving quotes via EDIfact and do you want to send and receive
-   quotes via EDIfact?
+   receiving quotes via EDIFACT and do you want to send and receive
+   quotes via EDIFACT?
 
 -  **Orders enabled:** [y/n] Does this vendor support sending and
-   receiving orders via EDIfact and do you want to send and receive
-   orders via EDIfact?
+   receiving orders via EDIFACT and do you want to send and receive
+   orders via EDIFACT?
 
 -  **Invoices enabled:**\ [y/n] Does this vendor support sending and
-   receiving invoices via EDIfact and do you want to send and receive
-   invoices via EDIfact?
+   receiving invoices via EDIFACT and do you want to send and receive
+   invoices via EDIFACT?
 
 -  **Order file suffix:** The file suffix for order files
 
@@ -1422,7 +1422,7 @@ section.*
 
 -  **Account description(s):** (the summary of what this number is for)
 
-**EANs:** *Each library using EDIfact needs to specify a buyer
+**EANs:** *Each library using EDIFACT needs to specify a buyer
 identifier know as a SAN or EAN. This will fill in the :ref:`Library
 EANs <library-eans-label>` setting.*
 
