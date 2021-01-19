@@ -260,8 +260,8 @@ rules and preferences for circulation.
    -  :ref:`finesMode` : Switch to 'Calculate and Charge' before you go live if 
       you charge fines
 
-   -  :ref:`OverdueNoticeBcc`: If you want to receive a copy of every overdue 
-      notice sent out, enter your email address here
+   -  :ref:`NoticeBcc`: If you want to receive a copy of every notice, enter your 
+      email address
 
    -  :ref:`emailLibrarianWhenHoldIsPlaced`: Decide if you want an email every 
       time a hold is placed
