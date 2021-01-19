@@ -313,7 +313,7 @@ If you would like to choose the colors manually you can do that via the
 |image1118|
 
 Next you'll want to :ref:`update the frameworks <marc-bibliographic-frameworks-label>` so
-that the 952$8 (if you're using collection code) label to says Color.
+that the 952$8 (if you're using collection code) label says 'Color'.
 
 Once you have that in place you can start to catalog items by color.
 
