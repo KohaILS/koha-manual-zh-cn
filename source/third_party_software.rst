@@ -195,7 +195,7 @@ And within few minutes, we have imported around 10,000 records in Koha
 OCLC Connexion Gateway
 --------------------------------------------
 
-Koha can be set to work with the OCLC Connextion Gateway. This allows
+Koha can be set to work with the OCLC Connexion Gateway. This allows
 libraries to use OCLC Connexion as their cataloging tool and simply send
 those records to Koha with a single click. The following instructions
 will help you set up the OCLC Connexion Gateway, if you have a system
