@@ -1000,7 +1000,7 @@ Patron permissions defined
    -  Manage EDIFACT transmissions (edi\_manage)
 
       -  Grants the ability to access the :ref:`EDI account <edi-accounts-label>`
-         adminitration page, the :ref:`library EANs <library-eans-label>`
+         administration page, the :ref:`library EANs <library-eans-label>`
          administration page and access sent :ref:`EDI messages <edifact-messages-label>`
 
       -  In order to be able to send orders via EDI, your staff member also
