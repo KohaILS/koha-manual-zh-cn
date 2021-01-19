@@ -1368,7 +1368,7 @@ Patron permissions defined
 
    -  Log into the self check-in module (self\_checkin\_module)
 
-      ** Note**
+      **Note**
 
       This permission prevents the patron from using any other OPAC
       functionality
