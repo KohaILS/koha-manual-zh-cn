@@ -204,7 +204,7 @@ Response message:
 	04: transfer
 	99: Other
 
-If an item is resensitized then the value of <resentitize> should be Y otherwise it should be N. Rensensitizing items is done to ensure that if someone tries to steal the item they are detected.
+If an item is resensitized then the value of <resensitize> should be Y otherwise it should be N. Rensensitizing items is done to ensure that if someone tries to steal the item they are detected.
 
 **Checkout items**
 
