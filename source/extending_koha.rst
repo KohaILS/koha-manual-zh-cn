@@ -179,7 +179,7 @@ but I believe in the end I will make the cover image fetcher
 configurable so we can use any data source for cover image fetching.
 
 Second, we need to configure the plugin. The plugin configuration is a
-single text area that uses YAML ( actually, it’s JSON, whcih is a subset
+single text area that uses YAML ( actually, it’s JSON, which is a subset
 of YAML ) to store the configuration options. In this example it looks
 like this:
 
