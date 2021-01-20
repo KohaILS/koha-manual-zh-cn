@@ -2323,6 +2323,11 @@ Asks: Allows to define custom rules for hiding specific items at opac.
     See docs/opac/OpacHiddenItems.txt in your Koha install directory for
     more information
 
+    **Important**
+
+    Requires YAML syntax to work
+
+
 Description:
 
 -  In this field you can enter criteria for items you would like to hide
