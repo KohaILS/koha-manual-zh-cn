@@ -571,6 +571,8 @@ Description:
 
   -  Make sure there IS a space between the colon and the second value
 
+  -  Make sure there IS a space after colon. (requires a specific syntax in order to work.)
+
   -  Make sure each pair is on its own line
 
 .. _checkout-policy-label:
