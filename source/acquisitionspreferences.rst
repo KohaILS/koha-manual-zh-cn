@@ -241,6 +241,9 @@ Description:
        quantity: 969$h
        budget_code: 922$a
 
+**Important**
+Requires YAML syntax to work
+
 .. _marcitemfieldstoorder-label:
 
 MarcItemFieldsToOrder
@@ -265,6 +268,8 @@ For example:
        holdingbranch: 975$b
        public_note: 975$z
        loc: 975$c
+
+**Requires YAML syntax to work**
 
 .. _purgesuggestionsolderthan-label:
 
