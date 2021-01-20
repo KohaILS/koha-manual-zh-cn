@@ -2087,9 +2087,9 @@ Asks: Calculate suspension expiration based on days overdue \_\_\_
 
 Values:
 
--  directly
+-  Ignore the calendar
 
--  not including the days the library is closed
+-  Use the calendar
 
 Description:
 
