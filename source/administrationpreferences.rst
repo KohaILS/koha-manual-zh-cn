@@ -10,6 +10,10 @@ These preferences are general settings for your system.
 *Get there:* More > Administration > Global System Preferences >
 Administration
 
+OrderPriceRounding
+
+- This system preference allows you to choose between using the precise value or a rounded value when charging fees.
+
 .. _cas-authentication-label:
 
 CAS Authentication
