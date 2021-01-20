@@ -1814,7 +1814,7 @@ tab.
       category a dropdown selection box will be displayed to specify a custom
       payment type
 
-      |image452|
+      |image1501|
 
    -  If the :ref:`UseCashRegisters` system preference is enabled, you will
       have a choice of cash register in which to enter the transaction
