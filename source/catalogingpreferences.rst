@@ -449,6 +449,10 @@ Description:
 -  Use of TY ( record type ) as a key will *replace* the default TY with
    the field value of your choosing.
 
+**Important**
+
+Requires YAML syntax to work
+
 .. _importing-label:
 
 Importing
