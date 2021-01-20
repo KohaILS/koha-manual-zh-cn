@@ -2531,19 +2531,17 @@ constraints and Other options.
       There are several values that you can use here that will be replaced 
       automatically when a new record is created:
              
-      -  <<YEAR>> - the current year, 4 digits
-
-      -  <<YY>> - the current year, 2 digits
-
       -  <<MM>> - the current month, 2 digits
 
       -  <<DD>> - the current day of month, 2 digits
 
+      -  <<YEAR>> - the current year, 4 digits
+
       -  <<USER>> - the username of the currently logged in user
              
-      For example: a default of "Year:<<YYYY>> Month:<<MM>> Day:<<DD>>" 
+      For example: a default of "<<MM>>/<<DD>>/<<YEAR>>" 
       (without quotes) will print the current date in the form of
-      "Year:2020 Month:08 Day:30"
+      "01/21/2021"
 
    -  Visibility: allows you to select from where this subfield is
       visible/hidden, simply check the boxes where you would like the
