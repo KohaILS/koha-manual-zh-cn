@@ -627,10 +627,14 @@ Values:
 
 .. _search-engine-label:
 
-Search Engine
+System Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _searchengine-label:
+UnsubscribeReflectionDelay, PatronAnonymizeDelay & Patron Removal Delay
+
+- This is a new feature that allows you to set a certain amount of days after a patron has submitted an unsubscribe request(refused consent), anonymize accounts that are locked/expired and remove anonymized patrons.
+
+
 
 SearchEngine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
