@@ -537,6 +537,8 @@ Description:
 
   -  Make sure each pair is on its own line
 
+  -  Requires YAML syntax 
+
 -  If using PROC or CART, use the 
    :ref:`cart\_to\_shelf cron job <cron-in-processing/book-cart-label>` to 
    return the items to their permanent location after a determined number of 
@@ -570,8 +572,6 @@ Description:
   -  Make sure there is NO space between the first value and the colon
 
   -  Make sure there IS a space between the colon and the second value
-
-  -  Make sure there IS a space after colon. (requires a specific syntax in order to work.)
 
   -  Make sure each pair is on its own line
 
@@ -3020,6 +3020,10 @@ Description:
 -  This preference requires that the :ref:`CanMarkHoldsToPullAsLost` system
    preference be set to either 'Allow' option
 
+
+**Important**
+
+-  Requires YAML syntax to work
 .. _housebound-module-label:
 
 Housebound module
