@@ -424,6 +424,9 @@ Description:
 -  Use ^@^ ( with quotes ) as the BT\_TAG to replace the bibtex record
    type with a field value of your choosing.
 
+**Important**
+Requires YAML syntax to work
+
 .. _risexportadditionalfields-label:
 
 RisExportAdditionalFields
