@@ -1700,6 +1700,10 @@
 				:alt: Main page of the quote of the day editor
 .. |image1515| image:: images/cash-management/cashup_summary.png
 				:alt: A cashup summary view modal
+.. |image1516| image:: images/circ/koctcheckout.png
+				:alt: A screenshot of the KOCT Checkout section
+.. |image1517| image:: images/circ/koctsent.png
+				:alt: A screenshot of successfully sent records through KOCT
 .. |addauthvalue| image:: images/cataloging/addauthvalue.png
 				:alt: Adding a new authorized value from cataloguing
 .. |batchextendselection| image:: images/tools/batchextend/batchextendselection.png
