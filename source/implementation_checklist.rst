@@ -503,9 +503,6 @@ change the default way that Koha handles searching, view the
 
 -  Set up your :ref:`cron jobs <cron-jobs-label>`
 
-   -  Decide how often your :ref:`system rebuilds the search index <cron-rebuild-index-label>` 
-      (4-10 min)
-
 -  Searching system preferences
 
    -  :ref:`AdvancedSearchTypes` : Decide which authorized value fields you 

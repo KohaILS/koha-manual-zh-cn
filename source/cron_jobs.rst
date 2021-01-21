@@ -433,7 +433,7 @@ information is removed for privacy reasons.
 Update child to adult patron type
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Script path: misc/cronjobs/j2a.pl
+Script path: misc/cronjobs/update_patrons_category.pl
 
 Does: converts juvenile/child patrons from juvenile patron category and
 category code to corresponding adult patron category and category code

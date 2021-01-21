@@ -1751,7 +1751,7 @@ https://addons.mozilla.org/en/firefox/addon/koct/ page and click on the
 click on "install now" and then restart Firefox to complete the
 installation.
 
-Once you have installed the plugins and restarted Firefox, you will see
+Once you have installed the plugin and restarted Firefox, you will see
 the Koha logo in the download bar at the bottom right of Firefox.
 
 |image608|
@@ -1760,41 +1760,36 @@ A click on the logo will open the tool in its own window.
 
 |image609|
 
-The plugin consists of four tabs:
+The plugin connsists of three sections:
 
--  The 'Check out' tab is where you check out items
+-  The 'Check out' section is where you check out items
 
--  The 'Check in' tab is where you check in items
+-  The 'Check in' section is where you check in items
 
--  The 'Log' tab keeps track of every transaction done while in offline
-   mode
+-  The ‘Transactions’ section is where you can track the transactions done while in offline mode
 
-   -  The log will keep information until you empty it. Each time you
-      open the plugin and it contains data in the log it will warn you
+   -  The transactions will keep information until you empty it.
 
       |image610|
 
-      If you'd like to clear the log, check the 'I want to delete rows'
-      box before hitting the 'OK' button. Otherwise clicking 'OK' will
-      keep the items in the log and let you continue working with the
-      tool.
+      If you'd like to clear the transactions, click the 'Clear'
+      box before hitting the 'OK' button. 
 
--  The 'Param' tab is to set up the plugin
-
-The first thing you want to do then is to set up the plugin. Go to the
-'Param' tab to set up the plugin
+The first thing you want to do then is to set up the plugin. Proceed to the settings page, linked in the top right of the page or under ‘Configuration page’ in the Transactions section. 
 
 |image611|
 
-Answer the 4 questions presented:
+Answer the 5 questions presented:
 
 -  Server = the URL of the librarian interface
-
--  Branch code = the code for the branch where you are located
 
 -  Username = your staff account login
 
 -  Password = your staff account password
+
+-  Branch code = the code for the branch where you are located
+
+-  Commit Type = If you select ‘Send data to Koha’, your account will need to be approved by an administrator. If you select ‘Apply directly to Koha’, your account will not need to be approved. 
 
     **Important**
 
@@ -1812,36 +1807,28 @@ Once you have everything set up you can start checking items in and out.
 
 Checking out:
 
-|image612|
+|image1516|
 
--  Go to the 'Check out' tab
+-  Under the 'Checkout' heading
 
 -  Scan the patron barcode
 
 -  Scan the item barcode
 
--  Click 'Save'
+-  Click 'Checkout'
 
 Checking in:
 
 |image613|
 
--  Go to the 'Check in' tab
+-  Under the 'Checkin' heading
 
 -  Scan the item barcode
 
--  Click 'Save'
+-  Click 'Checkin'
 
 Each time, you check out or check in an item, a new transaction is
-recorded in the local plugin database and you will see, at the bottom of
-the plugin how many transactions has been made during the offline
-circulation. For example, "10 row(s) added" means you did 10
-transactions.
-
-|image614|
-
-Then, if you want an overview of every transaction, go to the Log tab.
-This tab will show you the transactions in the plugin database
+recorded in the local plugin database. This is recorded in the Transactions section bellow. 
 
 |image615|
 
@@ -1869,7 +1856,9 @@ patron's account being blocked normally.
 
 You have two options for adding this data to Koha
 
--  Commit to Koha
+|image1516|
+
+-  Apply to Koha
 
    -  If you checked in/out on more than one computer at the same time,
       what you want is to process every transaction consistently. Let's
@@ -1878,7 +1867,7 @@ You have two options for adding this data to Koha
       be consistent, you need to record the check out first and then the
       check in. Not the opposite! To do so, you need to group every
       transaction in one place, sort them all and then, process
-      everything. So, you need to use the "Commit to Koha" option from
+      everything. So, you need to use the "Apply to Koha" option from
       every plugin/computer you worked with. This way, the log will go
       to Koha and be accessible from the Offline Circulation page.
 
@@ -1925,15 +1914,6 @@ You have two options for adding this data to Koha
 
       -  "Item not issued." if you checked in an available item
 
-   -  Once you're finished you can review all of the items right in the
-      Log tab
-
-      |image619|
-
-Once you are done you can clear the log by clicking Clear. If you don't
-you will be warned the next time you open the Offline circulation tool.
-
-|image620|
 
 .. _offline-circ-tool-for-windows-label:
 
