@@ -1807,7 +1807,7 @@ Once you have everything set up you can start checking items in and out.
 
 Checking out:
 
-|image612|
+|image1516|
 
 -  Under the 'Checkout' heading
 
@@ -1855,6 +1855,8 @@ won't know about it, so the checkout will be recorded regardless of the
 patron's account being blocked normally.
 
 You have two options for adding this data to Koha
+
+|image1516|
 
 -  Apply to Koha
 
