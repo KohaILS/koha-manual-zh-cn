@@ -1176,31 +1176,6 @@ Does: runs pre-existing saved reports
      -  reportID
         Report ID Number from saved_sql.id, multiple ID's may be specified
 
-.. _cron-norwegian-patron-database-label:
-
-Norwegian patron database
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-NL sync to Koha
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Script path: misc/cronjobs/nl-sync-to-koha.pl
-
-Does: syncs patrons from the Norwegian national patron database (NL) to Koha
-
-    **Note**
-    Relies on NorwegianPatronDBUsername and NorwegianPatronDBPassword system preferences
-
-NL sync from Koha
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Script path: misc/cronjobs/nl-sync-from-koha.pl
-
-Does: syncs patrons from Koha to the Norwegian national patron database (NL)
-
-    **Note**
-    Relies on NorwegianPatronDBUsername and NorwegianPatronDBPassword system preferences
-
 Social data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
