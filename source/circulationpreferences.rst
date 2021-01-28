@@ -3690,9 +3690,12 @@ Values:
 Description:
 
 -  This preference controls whether specific external resources will be searched prior 
-   to a request being placed.  The resources searched are managed by plugins. The 
-   user can click on a link to a relevant resource if one is found or proceed with the 
-   ILL request. If no results are found the ILL is completed in the usual way.
+   to a request being placed.  The resources available are installed using plugins.  These can
+   be located on the Koha plugins wiki page at https://wiki.koha-community.org/wiki/Koha_plugins.
+   Currently there are plugins for EDS (Ebsco Discovery Service), Z39.50 and Unpaywall.  
+   When a patron submits an ILL request the item metadata in the form is used to search the external resource.  
+   The patron can then click on the title links in the displayed results. If they find the item they were requesting 
+   the request can be abandoned. If not, the patron can continue with the request in the normal way.
 
 .. _illdefaultstaffemail-label:
 
