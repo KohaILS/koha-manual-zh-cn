@@ -392,8 +392,8 @@ accounts.
 
 -  Set up your :ref:`cron jobs <cron-jobs-label>`
 
-   -  Decide if you would like 
-      :ref:`children to automatically become adults <cron-update-child-to-adult-patron-type-label>`
+   -  Decide if you would like children to automatically become adults by setting up the
+      :ref:`Update patron categories <cron-update-patron-categories-label>` cron job.
 
 .. _cataloging-configuration-label:
 

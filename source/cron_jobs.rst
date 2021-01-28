@@ -428,36 +428,80 @@ Does: removes borrowernumbers
 from circulation history so that the stats are kept, but the patron
 information is removed for privacy reasons.
 
-.. _cron-update-child-to-adult-patron-type-label:
+.. _cron-update-patron-categories-label:
 
-Update child to adult patron type
+Update patron categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Script path: misc/cronjobs/update_patrons_category.pl
+Script path: misc/cronjobs/update\_patrons\_category.pl
 
-Does: converts juvenile/child patrons from juvenile patron category and
-category code to corresponding adult patron category and category code
-when they reach the upper age limit defined in the Patron Categories.
+Does: Updates the patron category of patrons matching the given criteria to 
+another specified patron category. This can be used to convert child patrons 
+from a child patron category to an adult patron category when they reach 
+the upper age limit defined in the :ref:`patron category <patron-categories-label>`.
+
+This script replaces the j2a.pl script.
 
 Frequency suggestion: nightly
 
     **DESCRIPTION**
 
-    This script is designed to update patrons from juvenile to adult patron
-    types, remove the guarantor, and update their category codes
-    appropriately when they reach the upper age limit defined in the Patron
-    Categories.
+    This script is designed to update patrons from one category to another using 
+    the criteria specified using command line arguments.
+
+    **PARAMETERS**
+
+    -  --too\_old
+       Update, if patron is over the upper age limit of their current category.
+
+    -  --too\_young
+       Update, if patron is below the minimum age limit of their patron category.
+
+    -  --fo=X|--fineover=X
+       Update, if the total fine amount on the patron account is over X.
+
+    -  --fu=X|--fineunder=X
+       Update, if the total fine amount on the patron account is below X.
+
+    -  --rb=date|regbefore=date
+       Update, if the registration date of the patron is before the given date.
+
+    -  --ra=date|regafter=date
+       Update, if the registration date of the patron is after the given date.
+
+    -  -d --field name=value
+       Update, if the given condition is met. <name> has to be replaced by a column name
+       of the borrowers table. The condition is met, if the the content of the field equals <value>.
+
+    -  --where <conditions>
+       Update, if the SQL <where> clause is met.
+
+    - -v|--verbose
+      Verbose mode: Without this flag only fatal errors are reported.
+
+    - -c|--confirm
+      Commits the changes to the database. No changes will be made unless this argument is added to the
+      command.
+
+    - -b|--branch <branchcode>
+      Update, if the home branch of the patron matches the <branchcode> given.
+
+    - -f|--form <categorycode>
+      Update, if the patron currently has this patron category.
+
+    - -t|--to <categorycode>
+      Update the patrons matching the criteria to this patron category.
 
     **USAGE EXAMPLES**
 
-    "juv2adult.pl"
+    "update\_patrons\_category.pl"
 
-    "juv2adult.pl" -b=<branchcode> -f=<categorycode> -t=<categorycode>
+    "update\_patrons\_category.pl" -b=<branchcode> -f=<categorycode> -t=<categorycode> -c"
     (Processes a single branch, and updates the patron categories from
     category to category)
 
-    "juv2adult.pl" -f=<categorycode> -t=<categorycode> -v -n (Processes all
-    branches, shows all messages, and reports the patrons who would be
+    "update\_patrons\_category.pl" -f=<categorycode> -t=<categorycode> -v"
+    (Processes all branches, shows all messages, and reports the patrons who would be
     affected. Takes no action on the database)
 
 .. _cron-notices-label:

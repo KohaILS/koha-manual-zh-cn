@@ -453,7 +453,7 @@ Patrons in Koha can be edited using one of many edit buttons.
       |image435|
 
 -  Children patrons do not become adults automatically in Koha unless
-   you have :ref:`Juvenile to adult cron job <cron-update-child-to-adult-patron-type-label>` running. To
+   you have the :ref:`Update patron categories <cron-update-patron-categories-label>` cron job running. To
    upgrade a child patron to and adult patron category manually go to
    the 'More' menu and choose 'Update child to adult patron'
 
