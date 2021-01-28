@@ -16,7 +16,7 @@ Before using the ILL requests module you will want to make sure that you have co
 
 The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend.
 
-Next, set your :ref:`system preferences for interlibrary loans <interlibrary-loans>`.  
+Next, set your :ref:`system preferences for interlibrary loans <interlibrary-loans-label>`.  
 
 Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*.
 
@@ -28,7 +28,7 @@ ILL email notifications
 ----------------------
 
 Email notifications can be sent to ILL staff when a patron makes a request to modify or cancel an existing request.  The notice templates are 
-ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail `system preference will be used.
+ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail` system preference will be used.
 
 Notifications can also be sent to patrons for requests that are either available for pick-up or are unavailable and have been cancelled.  The notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The notifications are enabled from the :ref:`patron categories <patron-categories-label>` default patron messaging preferences.  You can customise the notice text for these notices in :ref:`Notices & slips <notices-and-slips-label>` in the Tools module.
 
@@ -62,7 +62,7 @@ Create ILL requests
 Click on ‘Create’ and you will be shown a Request details summary page. 
 
 .. Note::
-   If you have enabled the :ref: ‘ILLCheckAvailability’ system preference and installed plugins for the staff interface you will be presented 
+   If you have enabled the :ref:`ILLCheckAvailability` system preference and installed plugins for the staff interface you will be presented 
    with search results.  The user can click on a link to a relevant resource if found or proceed with the ILL request.  If no results are found 
    the ILL is completed in the usual way.
 
@@ -74,13 +74,13 @@ You can now process your request as explained in Managing ILL requests section o
 Viewing ILL requests
 ------------------------
 
-From the main ILL requests screen you can view, filter and sort your ILL requests.  You can use the :ref: ‘ILLHiddenRequestStatuses’ 
+From the main ILL requests screen you can view, filter and sort your ILL requests.  You can use the :ref:`ILLHiddenRequestStatuses` 
 preference to hide completed statuses by default.  You can also click on the ‘List requests’ button at any time to return to this list.
 
 |image1435|
 
 There is a large amount of data available in the Requests table so it is
-advisable to make use of :ref:`'Table settings'<table-settings-label>` section of the 
+advisable to make use of :ref:`Table settings <table-settings-label>` section of the 
 Administration module (table id: ill-requests) to view only the information you need.
 The first half of the table displays data related to the ILL item itself
 such as title, volume, page numbers.
@@ -181,7 +181,7 @@ If you have a network of partner libraries which permit ILL requests you can man
 You can now use the 'Place request with partners' option when processing requests.
 
 .. Note::
-   If you have enabled the :ref: ‘ILLCheckAvailability’ preference enabled you can use plugins to search the catalogues of your partner libraries using Z39.50 prior to confirming the request with a partner.
+   If you have enabled the :ref:`ILLCheckAvailability` preference enabled you can use plugins to search the catalogues of your partner libraries using Z39.50 prior to confirming the request with a partner.
 
 
 .. _circulating-ILL-material-label:
