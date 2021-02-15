@@ -221,19 +221,17 @@ Description:
 OpacSuppression, OpacSuppressionByIPRange, OpacSuppressionRedirect, and OpacSuppressionMessage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-OpacSuppression Default: Don't hide
+OpacSuppression 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Asks: \_\_\_ bibliographic records marked as suppressed from OPAC search results.
 
-Asks: \_\_\_ items marked as suppressed from OPAC search results.
-Restrict the suppression to IP addressesoutside of the IP range \_\_\_
-(Leave blank if not used. Define a range like 192.168..) Redirect the opac detail
-page for suppressed records to \_\_\_ Display the following message on
-the redirect page for suppressed biblios \_\_\_.
+Default: Don't hide
 
-OpacSuppression Values:
+Values:
 
 -  Don't hide
 
-   -  Will show records in OPAC search results if they are marked
+   -  Will show records in OPAC search results even if they are marked as 
       suppressed
 
 -  Hide
@@ -241,55 +239,89 @@ OpacSuppression Values:
    -  Will not show records in OPAC search results if they're marked as
       suppressed
 
-OpacSuppressionRedirect Values:
+Description:
 
--  an explanatory page ('This record is blocked').
+-  This preference controls hiding of bibliographic records in the OPAC. Enter 
+   "1" in the field mapped to the suppress index (942$n in MARC21, no official 
+   field in UNIMARC) in each bibliographic record you want to hide from
+   the OPAC. The indexer then hides it from display in OPAC but will still 
+   display it in the staff interface. 
 
--  the 404 error page ('Not found').
+.. Note::
+
+   An :ref:`authorized value <authorized-values-label>` should be set for the 
+   MARC21 942$n field (or the equivalent UNIMARC field) to eliminate errors. 
+   You can use the YES\_NO authorized value category, or create a new one 
+   titled SUPPRESS, for example, with a value of 0 for don't suppress and 1
+   for suppress.
+
+.. Warning::
+
+   If this preference is set to 'hide' and you have the 942$n field set to 1, 
+   it will hide the entire bibliographic record, not just an individual item.
+
+.. Note::
+
+   Suppressed records will show a note in the staff interface indicating that 
+   they are suppressed from view in the OPAC.
+
+   |suppressedstaff|
+
+   This note can be styled by using the :ref:`IntranetUserCSS` preference to 
+   stand out more if you'd like.
+
+   |suppressedstyled|
+
+   Fot the example above, the following snippet was added to 
+   :ref:`IntranetUserCSS`
+
+   .. code-block:: css
+
+     .suppressed_opac {
+       font-size: larger;
+       color: red;
+     }
+
+OpacSuppressionByIPRange
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Asks: Restrict the suppression to IP addresses outside of the IP range \_\_\_
+(Leave blank if not used. Define a range like 192.168..) 
 
 Description:
 
--  These preferences control hiding of bibliographic records from
-   display in the OPAC. Each bibliographic record you want to hide from
-   the OPAC simply needs to have the value "1" in the field mapped with
-   Suppress index (942$n field in MARC21, no official field in UNIMARC).
-   The indexer then hides it from display in OPAC but will still display
-   it in the Staff Client. If you want to further control suppression
-   you can set an IP address range to still show suppressed items to.
-   Define a range like 192.168.. If you don't want to limit suppression
-   in this way, leave the IP field blank. You can also decide what the
-   patrons will see in the OPAC when a title is suppressed by setting
-   the OpacSuppressionRedirect and OpacSuppressionMessage preferences.
-   You can either show the patron a 404 page if they try to see a
-   suppressed record or you can create a custom page by entering the
-   HTML in the OpacSuppressionMessage part of this preference.
+-  If you want to further control suppression you can set an IP address range 
+   to still show suppressed items to. Define a range like 192.168.. If you 
+   don't want to limit suppression in this way, leave the IP field blank. 
 
-       **Note**
+OpacSuppressionRedirect 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Asks: Redirect the opac detail page for suppressed records to \_\_\_
 
-       An :ref:`authorized value <authorized-values-label>` for the MARC21 942$n
-       field (or the equivalent UNIMARC field) should be set to
-       eliminate errors. One example would be to create an authorized
-       value titled SUPPRESS with a value of 0 for don't suppress and 1
-       for suppress.
+Values:
 
-    **Important**
+-  the 404 error page ('Not found').
 
-    If this preference is set to 'hide' and you have the 942n field set
-    to 1, it will hide the entire bib record - not just an individual
-    item.
+-  an explanatory page ('This record is blocked').
 
-    **Note**
+Default: an explanatory page ('This record is blocked')
 
-    Suppressed records will show a note in the staff client indicating
-    that they are suppressed from view in the OPAC.
+Description:
 
-    |image1181|
+-  This preference lets you decide what the patrons will see in the OPAC when 
+   a record is suppressed. You can either show the patron a 404 error page or 
+   an explanatory page when they try to see a suppressed record. You can change 
+   the message of the explanatory page with the the 
+   :ref:`OpacSuppressionMessage` system preference.
 
-    This note can be styled by using the
-    :ref:`IntranetUserCSS` preference to stand out more
-    if you'd like.
+OpacSuppressionMessage
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Asks: Display the following message on the redirect page for suppressed 
+bibliographic records \_\_\_.
 
-    |image1182|
+Description:
+
+-  If you chose to show an explanatory page when a patron tries to access a 
+   suppressed bibliographic record, you can customize the message with HTML.
 
 .. _separateholdings-and-separateholdingsbranch-label:
 

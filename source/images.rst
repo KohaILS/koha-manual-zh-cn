@@ -41,6 +41,13 @@
 .. |SubscriptionHistory-full| image:: images/admin/globalprefs/SubscriptionHistory-full.png
 				:alt: Full history of a subscription in the OPAC
 
+.. |suppressedstaff| image:: images/admin/globalprefs/suppressedstaff.png
+				:alt: Example of a bibliographic record in the staff interface with the 'Suppressed in OPAC' note at the top
+
+.. |suppressedstyled| image:: images/admin/globalprefs/suppressedstyled.png
+				:alt: Example of a bibliographic record in the staff interface with the 'Suppressed in OPAC' note at the top; the note is red and large
+
+
 .. CASH MANAGEMENT
 
 .. CATALOGING
@@ -1363,8 +1370,6 @@
 .. |image1178| image:: images/patrons/mycheckouts.png
 .. |image1179| image:: images/admin/globalprefs/Google/1project.png
 .. |image1180| image:: images/admin/globalprefs/AcquisitionDetails.png
-.. |image1181| image:: images/admin/globalprefs/suppressedstaff.png
-.. |image1182| image:: images/admin/globalprefs/suppressedstyled.png
 .. |image1183| image:: images/admin/globalprefs/RentalFeesCheckoutConfirmation.png
 .. |image1184| image:: images/admin/globalprefs/OnSiteCheckouts.png
 .. |image1185| image:: images/admin/globalprefs/SpecifyReturnDate.png
