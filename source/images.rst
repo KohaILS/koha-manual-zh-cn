@@ -81,6 +81,18 @@
 
 .. REPORTS
 
+.. |runtimeparameterex1| image:: images/reports/runtimeparameterex1.png
+				:alt: When running the report, the user is asked to choose a library from a drop-down menu and enter a surname in an input text field
+
+.. |runtimeparameterex2| image:: images/reports/runtimeparameterex2.png
+				:alt: When running the report, the user is asked to choose a library from a drop-down menu and enter a barcode in an input text field
+
+.. |runtimeparameterex3| image:: images/reports/runtimeparameterex3.png
+				:alt: When running the report, the user is asked to choose a bibliographic framework from a drop-down menu 
+
+.. |runtimeparameterex4| image:: images/reports/runtimeparameterex4.png
+				:alt: When running the report, the user is asked to pick a date in the calendar (date picker)
+
 .. SEARCH HISTORY
 
 .. SEARCHING

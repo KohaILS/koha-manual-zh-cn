@@ -255,25 +255,66 @@ List of parameters that can be used in runtime parameters
 | Parameter               | What the user sees                                | What gets inserted in query  |
 +-------------------------+---------------------------------------------------+------------------------------+
 | date                    | date picker                                       | validly formatted date       |
++-------------------------+---------------------------------------------------+------------------------------+
 | branches                | drop down of branch names                         | branch code                  |
++-------------------------+---------------------------------------------------+------------------------------+
 | itemtypes               | drop down of item type names                      | item type                    |
++-------------------------+---------------------------------------------------+------------------------------+
 | categorycode            | drop down of patron category descriptions         | borrower category code       |
++-------------------------+---------------------------------------------------+------------------------------+
 | biblio\_framework       | drop down of MARC bibliographic frameworks        | framework code               |
++-------------------------+---------------------------------------------------+------------------------------+
 | (auth-value-category)   | drop down of auth-value descriptions in category  | authorized value             |
++-------------------------+---------------------------------------------------+------------------------------+
 | (nothing)               | text box                                          | entered text                 |
 +-------------------------+---------------------------------------------------+------------------------------+
 
-Examples:
+Example 1
 
-   -  SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter
-      patron's library\|branches>> AND surname like <<Enter filter for
-      patron surname (% if none)>>
+.. code-block:: sql
 
-   -  SELECT \* FROM items WHERE homebranch = <<Pick your
-      branch\|branches>> and barcode like <<Partial barcode value here>>
+   SELECT surname, 
+          firstname 
+   FROM borrowers 
+   WHERE branchcode = <<Enter patrons library|branches>> 
+       AND surname LIKE <<Enter filter for patron surname (% if none)>>
 
-   -  SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the
-      frameworkcode\|biblio\_framework>>
+|runtimeparameterex1|
+
+Example 2
+
+.. code-block:: sql
+
+   SELECT * 
+   FROM items 
+   WHERE homebranch = <<Pick your branch|branches>> 
+       AND barcode LIKE <<Partial barcode value here>>
+
+|runtimeparameterex2|
+
+Example 3
+
+.. code-block:: sql
+
+   SELECT title, 
+          author 
+   FROM biblio 
+   WHERE frameworkcode = <<Enter the frameworkcode|biblio_framework>>
+
+|runtimeparameterex3|
+
+Example 4
+
+.. code-block:: sql
+
+   SELECT cardnumber,
+          surname,
+          firstname
+   FROM borrowers
+   WHERE dateexpiry <= <<Expiry date|date>>
+
+|runtimeparameterex4|
+
 
 .. ****************************************
 .. **************    TODO    **************
