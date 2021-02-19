@@ -2155,6 +2155,9 @@ Several credit types come installed with Koha. Most of them are
 automatic credits that are added according to the policies you set up 
 elsewhere in Koha. They can not be deleted.
 
+-  CANCELLATION (Cancelled charge): this is used when 
+   :ref:`cancelling a charge in a patron's account <charging-fines/actions-label>`
+
 -  CREDIT (Credit): this is used for :ref:`manual credits <creating-manual-credits-label>` 
    to give to your patrons.
 
@@ -2168,6 +2171,10 @@ elsewhere in Koha. They can not be deleted.
    lost item is returned. If you refund the lost fees (see :ref:`Default 
    lost item fee refund on return policy <item-fee-refund-on-return-label>`), 
    this credit will be applied to refund the fee.
+
+-  OVERPAYMENT (Overpayment refund): this is automatically applied to a 
+   patron's account when they paid too much for a fee. This is mostly used 
+   when backdating checkins where the patron has already paid the full fine.
 
 -  PAYMENT (Payment): as the name states, this is used to indicate 
    :ref:`fee payments <pay-and-writeoff-fines-label>`.
