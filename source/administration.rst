@@ -2167,7 +2167,7 @@ elsewhere in Koha. They can not be deleted.
 -  FORGIVEN (Forgiven): this is used for :ref:`manual credits <creating-manual-credits-label>` 
    to give to your patrons.
 
--  LOST_FOUND (Lost item fee refund): this is used when a previously 
+-  LOST\_FOUND (Lost item fee refund): this is used when a previously 
    lost item is returned. If you refund the lost fees (see :ref:`Default 
    lost item fee refund on return policy <item-fee-refund-on-return-label>`), 
    this credit will be applied to refund the fee.
