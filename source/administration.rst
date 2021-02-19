@@ -2008,6 +2008,9 @@ elsewhere in Koha.
    account when they have overdue items. The amount for overdue fines are 
    set in the :ref:`circulation and fines rules <circulation-and-fines-rules-label>`.
 
+-  PAYOUT (Payment from library to patron): this is used when the library 
+   reimburses the patron (for an overpayment for example).
+
 -  PROCESSING (Lost item processing fee): this is charged automatically 
    to the patron's account when an item in their file is declared lost. 
    The amount is set by :ref:`item type <adding-item-types-label>` under 
