@@ -494,38 +494,44 @@ the 'Delete' button.
 .. _authorized-values-label:
 
 Authorized values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Authorized values can be used in several areas of Koha. One reason you
-would add an authorized value category would be to control the values
-that can be entered into MARC fields by catalogers.
+Authorized values can be used in several areas of Koha. They are lists of 
+controlled terms, phrases or codes.
 
--  *Get there:* More > Administration > Basic parameters > Authorized
-   values
+For example, one reason you would add an authorized value category would be to 
+control the values that can be entered into MARC fields by catalogers.
+
+-  *Get there:* More > Administration > Basic parameters > Authorized values
 
 .. _existing-values-label:
 
-Existing values
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Existing authorized values categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Koha installs with pre-defined values that your library is likely to
-use, for instance 'Lost'.
+Koha installs with pre-defined authorized values categories that your library 
+is likely to use or that are used by the system.
 
 -  Asort1
 
-   -  Used for acquisitions statistical purposes
+   -  Used for acquisitions statistical purposes. You can use this as 
+      statistical categories when :ref:`creating a fund <add-a-fund-label>` 
+      in acquisitions.
 
 -  Asort2
 
-   -  Used for acquisitions statistical purposes
+   -  Used for acquisitions statistical purposes. You can use this as 
+      statistical categories when :ref:`creating a fund <add-a-fund-label>` 
+      in acquisitions.
 
 -  BOR\_NOTES
 
-   -  Values for custom patron messages that appear on the circulation
-      screen and the OPAC. The value in the Description field should be
-      the message text and is limited to 200 characters.
+   -  Values for pre-defined :ref:`patron messages <opac-messages-label>` that 
+      appear on the circulation screen and the patron's account on the OPAC. 
+      Write the message you want to appear in the Description field. Note that 
+      this field is limited to 200 characters.
 
-      |image141|
+      |bor_notes|
 
 -  Bsort1
 
@@ -537,37 +543,69 @@ use, for instance 'Lost'.
    -  Values that can be entered to fill in the 
       :ref:`patron's sort 2 field <add-a-new-patron-label>`
 
+-  CAND
+
+   -  A list used in UNIMARC
+
 -  CCODE
 
-   -  Collection codes (appears when cataloging and working with items)
+   -  Collection codes (appears when 
+      :ref:`cataloging and working with items <adding-items-label>`)
 
-- CONTROL\_NUM\_SEQUENCE
+   -  This is normally mapped to items.ccode in the Koha database.
 
-   - Used to generate control numbers in the advanced cataloguing editor.
-     Enter a string ending with a number as the authorized value and use
-     the description to describe the type of number. For example: 'sprLib0001'
-     'Springfield library'. In the advanced editor this will activate a
-     new widget that will allow you to choose the type of number and
-     generate the next number in the sequence.
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Fiction (FIC)
+
+      -  Non-fiction (NFIC)
+
+      -  Reference (REF)
+
+      You can change those to suit your organization's needs.
+
+-  CONTROL\_NUM\_SEQUENCE
+
+   -  Used to generate control numbers in the 
+      :ref:`advanced cataloguing editor <advanced-editor-cataloging-label>`.
+      Enter a string ending with a number as the authorized value and use
+      the description to describe the type of number. For example: 'sprLib0001'
+      'Springfield library'. In the advanced editor this will activate a
+      new widget that will allow you to choose the type of number and
+      generate the next number in the sequence.
 
 -  COUNTRY
 
-   -  Used in UNIMARC 102 $a
+   -  A list of country names used in UNIMARC 102 $a
 
 -  DAMAGED
 
-   -  Descriptions for items marked as damaged (appears when cataloging
-      and working with items)
+   -  Descriptions for items marked as damaged (appears when 
+      :ref:`cataloging and working with items <adding-items-label>`).
+
+   -  This is normally mapped to items.damaged in the database.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Damaged (1)
+
+      You can change those to suit your organization's needs, but the values must 
+      be numerical.
+
+.. Warning ::
+
+   The authorized values for DAMAGED must be numerical.
+
 
 -  DEPARTMENT
 
-   -  Departments are required by and will be used in the `Course
-      Reserves <#coursereserves>`__ module
+   -  Departments are required by and are used in the 
+      :ref:`course reserves <course-reserves-label>` module
 
 -  ETAT
 
    -  Used in French UNIMARC installations in field 995 $o to identify item status.
-      Similar to NOT_LOAN
+      Similar to NOT\_LOAN
 
 -  HINGS\_AS
 
@@ -593,82 +631,191 @@ use, for instance 'Lost'.
 
    -  General holdings: type of unit designator
 
+-  HOLD\_CANCELLATION
+
+   -  Reasons why a hold might have been cancelled. These are used when 
+      :ref:`cancelling holds <managing-holds-label>`.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Item could not be located on shelves (NOT\_FOUND)
+
+      -  Item was found to be too damaged to fill hold (DAMAGED)
+
+      You can change those to suit your organization's needs.
+
 -  HSBND\_FREQ
 
-   -  Frequencies used by the housebound module. They are displayed on
-      the housebound tab in the patron account in staff.
+   -  Delivery frequencies used by the housebound module. They are displayed on
+      the :ref:`housebound tab <housebound-patrons-label>` in the patron's 
+      account in the staff interface.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Every week (EW)
+
+      You can change those to suit your organization's needs.
 
 -  ILLSTATUS
 
-   -  ILL / Interlibrary loan request statuses.
+   -  Interlibrary loan (ILL) request statuses used in the 
+      :ref:`ILL module <ill-requests-label>`.
       
 -  ITEMTYPECAT
 
-   - Allows multiple Item types to be searched in a category.  Categories can be
-     entered into the Authorized value ITEMTYPECAT. To combine Item types to this
-     category, enter this Search category to any Item types.
+   -  Search categories for item types. These values allow multiple item types 
+      to be searched at the same time.
 
-     For example, an ITEMTYPECAT could be NEW, then in the Item type
-     for NEW BOOKS NEW DVDS, etc the search category could be added NEW.
-     This is helpful when a patron chooses the Search category of NEW, they could
-     get Koha to search multiple Item types with a single search.
+   -  To combine item types in categories, choose the category in the 
+      :ref:`item type settings <item-types-label>`.
+
+   -  For example, an ITEMTYPECAT value could be 'NEW'. This search category 
+      could be set for the item types 'NEW BOOKS' and 'NEW DVDS'. This will 
+      replace NEW BOOKS and NEW DVDS item types in the advanced search form by 
+      'NEW'. When a patron chooses the searched for the category 'NEW', they 
+      will search multiple item types with a single search.
 
 -  LANG
 
-   -  ISO 639-2 standard language codes
+   -  A list of ISO 639-2 standard language codes.
 
 -  LOC
 
-   Shelving location (usually appears when adding or editing an item). LOC maps to
-   items.location in the Koha database.
+   -  Shelving locations (usually appears when 
+      :ref:`adding or editing an item <adding-items-label>`). 
 
-   -  CART
+   -  This is normally mapped to items.location in the Koha database.
 
-      Is the shelving cart location, used by
-      :ref:`UpdateItemLocationOnCheckin`
+   -  If you chose to install the default values for this category, you will have 
 
-   -  PROC
+      -  Audio visual (AV)
 
-      The location for 'Processing center' which can be used with
-      :ref:`NewItemsDefaultLocation` and
-      :ref:`UpdateItemLocationOnCheckin`.
+      -  Book cart (CART)
+
+         -  CART is used by :ref:`UpdateItemLocationOnCheckin`
+
+      -  Children's area (CHILD)
+
+      -  Fiction (FIC)
+
+      -  General stacks (GEN)
+
+      -  New materials shelf (NEW)
+
+      -  On display (DISPLAY)
+
+      -  Processing center (PROC)
+
+         -  PROC can be used with :ref:`NewItemsDefaultLocation` and
+            :ref:`UpdateItemLocationOnCheckin`.
+
+      -  Reference (REF)
+
+      -  Staff office (STAFF)
+
+      You can change those to suit your organization's needs.
 
 -  LOST
 
-   -  Descriptions for the items marked as lost (appears when adding or
-      editing an item)
+   -  Descriptions for the items marked as lost (appears when 
+      :ref:`adding or editing an item <adding-items-label>`).
 
-   -  **Important**
+   -  This is normally mapped to items.itemlost in the Koha database.
 
-          Values given to lost statuses should be numeric and not
-          alphabetical in order for statuses to appear properly
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Lost (1)
+
+      -  Long overdue (lost) (2)
+
+      -  Lost and paid for (3)
+
+      -  Missing (4)
+
+      You can change those to suit your organization's needs, but the values must 
+      be numerical.
+
+.. Warning ::
+
+   The authorized values for LOST must be numerical.
 
 -  OPAC\_SUG
 
-   -  A list of reasons displayed in the suggestion form on the OPAC.
+   -  A list of reasons displayed in the 
+      :ref:`suggestion form <purchase-suggestions-opac-label>` on the OPAC.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  The copy on the shelf is damaged (damaged)
+
+      -  Upcoming title by popular author (bestseller)
+
+      You can change those to suit your organization's needs.
 
 -  NOT\_LOAN
 
-   -  Reasons why a title is not for loan
+   -  Reasons why a title is not for loan (appears when 
+      :ref:`adding or editing an item <adding-items-label>`)
 
-   -  **Important**
+   -  This is normally mapped to items.notforloan in the Koha database.
 
-          Values given to lost statuses should be numeric and not
-          alphabetical in order for statuses to appear properly
+   -  If you chose to install the default values for this category, you will have 
 
-   -  **Note**
+      -  On order (-1)
 
-          Negative number values will still allow holds (use for on
-          order statuses for example) where as positive numbers will not
-          allow holds or checkouts. A value of 0 means 'for loan'.
+      -  Not for loan (1)
+
+      -  Staff collection (2)
+
+      You can change those to suit your organization's needs, but the values must 
+      be numerical.
+
+.. Warning ::
+
+   The authorized values for NOT\_LOAN must be numerical.
+
+   -  Negative number values will still allow holds (use for 'on order' 
+      statuses, for example) 
+
+   -  Positive numbers will not allow holds or checkouts. 
+
+   -  A value of 0 means 'for loan'.
 
 -  ORDER\_CANCELLATION\_REASON
 
-   -  Reasons why an order might have been cancelled
+   -  Reasons why an order might have been cancelled, used in 
+      :ref:`acquisitions <cancelling-an-order-label>`
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  No reason provided (0)
+
+      -  Out of stock (1)
+
+      -  Restocking (2)
+
+      You can change those to suit your organization's needs.
+
+-  PA\_CLASS
+
+   -  Values used to group 
+      :ref:`patron attributes <patron-attribute-types-label>` together in 
+      the patron add form
 
 -  PAYMENT\_TYPE
 
-   -  Populates a dropdown list of custom payment types when paying fines
+   -  Populates a dropdown list of custom payment types when 
+      :ref:`paying fines <pay-and-writeoff-fines-label>`
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Cash via SIP2 (SIP00)
+
+      -  Visa via SIP2 (SIP01)
+
+      -  Creditcard via SIP2 (SIP02)
+
+      You can change those to suit your organization's needs.
 
 -  qualif
 
@@ -681,24 +828,63 @@ use, for instance 'Lost'.
 
 -  REPORT\_GROUP
 
-   -  A way to sort and filter your reports, the default values in this
-      category include the Koha modules (Accounts, Acquitisions,
-      Catalog, Circulation, Patrons)
+   -  A way to sort and filter your reports. These will appear as tabs in the 
+      :ref:`saved reports page <edit-custom-reports-label>`.
 
-      |image142|
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Account (ACC)
+
+      -  Acquisitions (ACQ)
+
+      -  Catalog (CAT)
+
+      -  Circulation (CIRC)
+
+      -  Patrons (PAT)
+
+      -  Serials (SER)
+
+      You can change those to suit your organization's needs.
 
 -  REPORT\_SUBGROUP
 
-   -  Can be used to further sort and filter your reports. This category
-      is empty by default. Values here need to include the authorized
-      value code from REPORT\_GROUP in the Description (OPAC) field to
-      link the subgroup to the appropriate group.
+   -  These values can be used to further sort and filter your reports. 
 
-      |image143|
+   -  Values here need to include the authorized value code from REPORT\_GROUP 
+      in the Description (OPAC) field to link the subgroup to the appropriate group.
+
+      |report_subgroup|
 
 -  RESTRICTED
 
-   -  Restricted status of an item
+   -  Restricted status of an item (appears when 
+      :ref:`adding or editing an item <adding-items-label>`)
+
+   -  This is normally mapped to items.restricted in the Koha database.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Restricted access (1)
+
+      You can change those to suit your organization's needs, but the values must 
+      be numerical.
+
+.. Warning ::
+
+   The authorized values for this category must be numerical.
+
+-  RETURN\_CLAIM\_RESOLUTION
+
+   -  Reasons why a return claim has been resolved
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Returned by patron (RET_BY_PATRON)
+
+      -  Found in library (FOUND_IN_LIB)
+
+      You can change those to suit your organization's needs.
 
 -  ROADTYPE
 
@@ -711,41 +897,99 @@ use, for instance 'Lost'.
       :ref:`editing <editing-item-types-label>` an item type to assign a SIP specific
       media type for devices like lockers and sorters.
 
+-  STACK
+
+   -  Shelving control number (appears when 
+      :ref:`adding or editing an item <adding-items-label>`)
+
+   -  This is normally mapped to items.stack in the Koha database.
+
+.. Warning ::
+
+   The authorized values for this category must be numerical.
+
 -  SUGGEST
 
-   -  List of patron suggestion reject or accept reasons (appears when
-      managing suggestions)
+   -  Reasons for acceptance or rejection of suggestions in acquisitions 
+      (appears when :ref:`managing suggestions <managing-purchase-suggestions-label>`)
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Bestseller (BSELL)
+
+      -  Shelf copy damaged (SCD)
+
+      -  Library copy lost (LCL)
+
+      -  Available via ILL (AVILL)
+
+      You can change those to suit your organization's needs.
 
 -  SUGGEST\_FORMAT
 
-   -  List of Item types to display in a drop down menu on the Purchase suggestion
-      form on the OPAC. When creating the authorized values for SUGGEST_FORMAT,
-      enter a description into this form so it is visible on the OPAC to patrons.
+   -  List of item types to display in a drop down menu on the 
+      :ref:`suggestion form <purchase-suggestions-opac-label>` on the OPAC.
+   
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Audiobook (AUDIOBOOK)
+
+      -  Book (BOOK)
+
+      -  EBook (EBOOK)
+
+      -  DVD (DVD)
+
+      -  Large print (LP)
+
+      You can change those to suit your organization's needs.
 
 -  SUGGEST\_STATUS
 
-   -  A list of additional custom status values for suggestions that can
-      be used in addition to the default values.
-
--  STACK
-
-   -  Shelving control number
+   -  A list of additional custom status values for 
+      :ref:`suggestions <managing-purchase-suggestions-label>` that can be used 
+      in addition to the default values. 
 
 -  TERM
 
    -  Terms to be used in `Course Reserves <#coursereserves>`__ module.
-      Enter Terms that will show in the drop down menu when setting up a Course
-      reserve.  (For example: Spring, Summer, Winter, Fall).
+      Enter terms that will show in the drop down menu when setting up a Course
+      reserve. (For example: Spring, Summer, Winter, Fall).
+
+-  UPLOAD
+
+   -  Categories to be assigned to :ref:`file uploads <upload-label>`. Without 
+      a category, an upload is considered temporary and may be removed during 
+      automated cleanup.
 
 -  WITHDRAWN
 
-   -  Description of a withdrawn item (appears when adding or editing an
-      item)
+   -  Description of a withdrawn item (appears when 
+      :ref:`adding or editing an item <adding-items-label>`)
+
+   -  This is normally mapped to items.withdrawn in the Koha database.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Withdrawn (1)
+
+      You can change those to suit your organization's needs, but the values must 
+      be numerical.
+
+.. Warning ::
+
+   The authorized values for this category must be numerical.
 
 -  YES\_NO
 
    -  A generic authorized value field that can be used anywhere you
       need a simple yes/no pull down menu.
+
+   -  If you chose to install the default values for this category, you will have 
+
+      -  Yes (1)
+
+      -  No (0)
 
 .. _add-new-authorized-value-category-label:
 

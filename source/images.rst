@@ -32,6 +32,9 @@
 .. |currenciesnohide| image:: images/admin/additional/currenciesnohide.png
 				:alt: The currencies administration table, all columns are visible
 
+.. |report_subgroup| image:: images/admin/basicparams/report_subgroup.png
+				:alt: Authorized values for the REPORT_SUBGROUP categories, this screencapture shows that the code for the report group is saved in the Description (OPAC) field of the subgroup authorized value.
+
 .. |setcurrencyhide| image:: images/admin/additional/setcurrencyhide.png
 				:alt: The currencies table settings, the symbol and ISO code columns are marked as hidden
 
@@ -43,6 +46,12 @@
 
 .. |togglecolumns| image:: images/admin/additional/togglecolumns.png
 				:alt: The button 'Columns' above the currencies administration table is clicked open and all the column names appear
+
+
+.. BASIC PARAMETERS
+
+.. |bor_notes| image:: images/admin/basicparams/bor_notes.png
+				:alt: Screen capture of an authorized value for the BOR\_NOTES category; the authorized value is ADDR and the Description is 'Please bring a proof of address on your next visit to the library.''
 
 
 .. SYSTEM PREFERENCES
@@ -366,9 +375,6 @@
 .. |image139| image:: images/admin/basicparams/newitemtype.png
 				:alt: Item types table with the item type 'book'
 .. |image140| image:: images/admin/basicparams/nodeleteitemtype.png
-.. |image141| image:: images/admin/basicparams/bor_notes.png
-.. |image142| image:: images/admin/basicparams/report_group.png
-.. |image143| image:: images/admin/basicparams/report_subgroup.png
 .. |image144| image:: images/admin/basicparams/addauthcat.png
 .. |image145| image:: images/admin/basicparams/authvallist.png
 .. |image146| image:: images/admin/basicparams/addauthvalue.png
