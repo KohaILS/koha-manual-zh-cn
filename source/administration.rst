@@ -4068,7 +4068,7 @@ page. It will not affect any other user.
 |                     | - Checkout history (checkoutshistory-table)                                                      |
 |                     | - Holdings/items (holdings\_table)                                                               |
 |                     | - Holdings/items from other libraries (otherholdings\_table)                                     |
-|                     |   (when :ref:`SeparateHoldings` is enabled)                                                      |
+|                     |   (when :ref:`SeparateHoldings <separateholdings-and-separateholdingsbranch-label>` is enabled)  |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Cataloging          | - :ref:`Item table above edit item form <adding-items-label>` (Items Editor)                     |
 |                     | - :ref:`Z39.50 search results <adding-records-label>` (resultst)                                 |
