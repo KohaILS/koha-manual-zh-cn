@@ -2159,7 +2159,7 @@ elsewhere in Koha. They can not be deleted.
    to give to your patrons.
 
 -  DISCOUNT (A discount applied to a patrons fine): this is used to 
-   :ref:`discount fines and charges <pay/reverse-fines-label>`.
+   :ref:`discount fines and charges <charging-fines/actions-label>`.
 
 -  FORGIVEN (Forgiven): this is used for :ref:`manual credits <creating-manual-credits-label>` 
    to give to your patrons.
@@ -2170,15 +2170,15 @@ elsewhere in Koha. They can not be deleted.
    this credit will be applied to refund the fee.
 
 -  PAYMENT (Payment): as the name states, this is used to indicate 
-   :ref:`fee payments <pay/reverse-fines-label>`.
+   :ref:`fee payments <pay-and-writeoff-fines-label>`.
 
 -  PURCHASE (Purchase): this is used when a payment is made through 
    the :ref:`point of sale module<point-of-sale-label>`.
 
 -  REFUND (A refund applied to a patrons fine): this is used when 
-   :ref:`refunding the payment of a fine or charge <pay/reverse-fines-label>`.
+   :ref:`refunding the payment of a fine or charge <charging-fines/actions-label>`.
 
--  WRITEOFF (Writeoff): this is used when :ref:`writing off a fine or charge<pay/reverse-fines-label>`.
+-  WRITEOFF (Writeoff): this is used when :ref:`writing off a fine or charge<pay-and-writeoff-fines-label>`.
 
 .. _add-credit-type-label:
 
@@ -2279,7 +2279,7 @@ archived register.
 
 The default status is only useful in libraries that have more than one register 
 per branch. The default register will be pre-selected when :ref:`entering a 
-payment <pay/reverse-fines-label>`. If there is only one cash register per 
+payment <pay-and-writeoff-fines-label>`. If there is only one cash register per 
 branch, the branch's cash register will be selected when paying.
 
 .. _addnewcashregister-label:
@@ -4084,7 +4084,7 @@ page. It will not affect any other user.
 |                     | - :ref:`Patron search results <patron-search-label>` (memberresultst)                            |
 |                     | - :ref:`Details > Checkouts <circulation-summary-label>` (issues-table)                          |
 |                     | - :ref:`Patron lists <patron-lists-label>` (patron-list-table)                                   |
-|                     | - :ref:`Accounting > Make a payment <pay/reverse-fines-label>` (pay-fines-table)                 |
+|                     | - :ref:`Accounting > Make a payment <pay-and-writeoff-fines-label>` (pay-fines-table)            |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Point of sale       | - :ref:`Point of sale <making-a-sale-label>` (invoices)                                          |
 +---------------------+--------------------------------------------------------------------------------------------------+
