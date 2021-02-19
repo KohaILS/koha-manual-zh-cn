@@ -3990,14 +3990,14 @@ If you choose just the AuthorityFile you'll see just authorities.
 .. _column-settings-label:
 
 Table settings
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This administration area will help you hide or display columns on fixed
-tables throughout the staff client and OPAC.
+tables throughout the staff interface and OPAC.
 
 -  *Get there:* Administration > Additional parameters > Table settings
 
-|image239|
+|tablesettings|
 
 Clicking on the module you'd like to edit tables for will show you the
 options available to you.
@@ -4006,38 +4006,50 @@ This area lets you control the columns that show in the table in
 question. If nothing is hidden you will see no check marks in the 'is
 hidden by default' column.
 
-|image240|
+|setcurrencynohide|
 
 And will see all of the columns when viewing the table on its regular
 page.
 
-|image241|
+|currenciesnohide|
 
 If columns are hidden they will have checks in the 'is hidden by
 default' column.
 
-|image242|
+|setcurrencyhide|
 
 And hidden when you view the table.
 
-|image243|
+|currencieshide|
 
-You can also toggle columns using the 'Columns' button at the
-top of the table
+The 'Cannot be toggled' column is used to prevent individual users from showing 
+or hiding this column when viewing the table.
 
-|image244|
+Individual users can toggle columns using the 'Columns' button at the
+top of the table.
+
+|togglecolumns|
+
+For example, in the Currencies table, the 'Currency' and 'Rate' columns cannot 
+be toggled. When the user clicks on the 'Columns' button, they are not able to 
+choose whether these two columns are hidden or visible.
+
+Note that using the 'Columns' button show or hide columns will only toggle them 
+for the current user and session. Once the user logs out, the columns will go 
+back to their default settings as set in the table settings administration 
+page. It will not affect any other user.
 
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Module              | Tables                                                                                           |
 +=====================+==================================================================================================+
-| Acquisitions        | - :ref:`Late orders <claims-and-late-orders-label>` (late_orders)                                |
-|                     | - :ref:`Basket summary <create-a-basket-label>` (orders)                                         |
+| Acquisitions        | - :ref:`Basket summary <create-a-basket-label>` (orders)                                         |
 |                     | - :ref:`Order search results <acquisition-searches-label>` (histsearcht)                         |
+|                     | - :ref:`Late orders <claims-and-late-orders-label>` (late\_orders)                               |
 |                     | - :ref:`Suggestions <managing-purchase-suggestions-label>` (suggestions)                         |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Administration      | - :ref:`Currencies <currencies-and-exchange-rates-label>` (currency)                             |
-|                     | - :ref:`Item types <item-types-label>` (table_item_type)                                         |
-|                     | - :ref:`Patron categories <patron-categories-label>` (patron\_categories)                        |
+| Administration      | - :ref:`Patron categories <patron-categories-label>` (patron\_categories)                        |
+|                     | - :ref:`Currencies <currencies-and-exchange-rates-label>` (currency)                             |
+|                     | - :ref:`Item types <item-types-label>` (table\_item\_type)                                       |
 |                     | - :ref:`Libraries <libraries-label>` (librairies)                                                |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Authorities         | There aren't any tables that can be configured from the                                          |
@@ -4052,14 +4064,14 @@ top of the table
 | Cataloging          | - :ref:`Item table above edit item form <adding-items-label>` (Items Editor)                     |
 |                     | - :ref:`Z39.50 search results <adding-records-label>` (resultst)                                 |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Circulation         | - :ref:`Holds to pull <holds-to-pull-label>` (holds-to-pull)                                     |
-|                     | - :ref:`Checkins <checking-items-in-label>` (checkedintable)                                     |
-|                     | - :ref:`Hold ratios <hold-ratios-label>` (holds-ratios)                                          |
-|                     | - :ref:`Checkouts <checking-items-out-label>` (issues-table)                                     |
+| Circulation         | - :ref:`Checkouts <checking-items-out-label>` (issues-table)                                     |
 |                     | - :ref:`Patron search results <check-out-(issuing)-label>` (table\_borrowers)                    |
+|                     | - :ref:`Holds to pull <holds-to-pull-label>` (holds-to-pull)                                     |
 |                     | - :ref:`Holds awaiting pickup (holds waiting over X days) <holds-awaiting-pickup-label>` (holdso)|
 |                     | - :ref:`Holds awaiting pickup (holds waiting) <holds-awaiting-pickup-label>` (holdst)            |
+|                     | - :ref:`Hold ratios <hold-ratios-label>` (holds-ratios)                                          |
 |                     | - :ref:`Overdues report <overdues-label>` (circ-overdues)                                        |
+|                     | - :ref:`Checkins <checking-items-in-label>` (checkedintable)                                     |
 |                     | - :ref:`Holds queue <holds-queue-label>` (holds-table)                                           |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Course reserves     | - :ref:`Courses <adding-courses-label>` (courses page, course\_reserves\_table)                  |
@@ -4067,39 +4079,39 @@ top of the table
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Interlibrary loans  | - :ref:`Requests <viewing-ILL-requests-label>` (ill-requests)                                    |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Patrons             | - :ref:`Accounting > Make a payment <pay/reverse-fines-label>` (pay-fines-table)                 |
-|                     | - :ref:`Patron search results <patron-search-label>` (memberresultst)                            |
-|                     | - :ref:`Patron checkout history <circulation-history-label>` (checkouthistory-table)             |
-|                     | - :ref:`Holds history <holds-history-label>` (holdshistory-table)                                |
-|                     | - :ref:`Patron lists <patron-lists-label>` (patron-list-table)                                   |
+| Patrons             | - :ref:`Patron checkout history <circulation-history-label>` (checkouthistory-table)             |
 |                     | - :ref:`Accounting > Transactions <fines-label>` (account-fines)                                 |
+|                     | - :ref:`Holds history <holds-history-label>` (holdshistory-table)                                |
+|                     | - :ref:`Patron search results <patron-search-label>` (memberresultst)                            |
 |                     | - :ref:`Details > Checkouts <circulation-summary-label>` (issues-table)                          |
+|                     | - :ref:`Patron lists <patron-lists-label>` (patron-list-table)                                   |
+|                     | - :ref:`Accounting > Make a payment <pay/reverse-fines-label>` (pay-fines-table)                 |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Point of sale       | - :ref:`Point of sale <making-a-sale-label>` (invoices)                                          |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Tools               | - :ref:`Stock rotation rotas <stock-rotation-label>` (stock\_rotation)                           |
-|                     | - :ref:`Stock rotation items <stock-rotation-label>` (stock\_rotation\_manage\_items)            |
-|                     | - :ref:`Log viewer <log-viewer-label>` (logst)                                                   |
+| Tools               | - :ref:`Log viewer <log-viewer-label>` (logst)                                                   |
 |                     | - :ref:`Notices and slips <notices-and-slips-label>` (lettert)                                   |
+|                     | - :ref:`Stock rotation rotas <stock-rotation-label>` (stock\_rotation)                           |
+|                     | - :ref:`Stock rotation items <stock-rotation-label>` (stock\_rotation\_manage\_items)            |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | OPAC                | - :ref:`Course reserves <course-reserves-in-the-opac-label>` (course-items-table)                |
 |                     | - :ref:`Courses <course-reserves-in-the-opac-label>` (course\_reserves\_table)                   |
 |                     | - :ref:`Holdings/Items <bibliographic-record-label>` (holdingst)                                 |
 |                     | - :ref:`Serials issues on subscription tab <bibliographic-record-label>` (subscriptionst)        |
 +---------------------+--------------------------------------------------------------------------------------------------+
-| Reports             | - :ref:`Orders by fund <orders-by-fund-label>` (funds-table)                                     |
+| Reports             | - :ref:`Items lost <lost-items-label>` (lostitems-table)                                         |
+|                     | - :ref:`Orders by fund <orders-by-fund-label>` (funds-table)                                     |
 |                     | - :ref:`Saved SQL reports <edit-custom-reports-label>` (table\_reports)                          |
-|                     | - :ref:`Items lost <lost-items-label>` (lostitems-table)                                         |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Serials             | - :ref:`Acquisition details <subscriptions-in-staff-client-label>` (orders)                      |
 +---------------------+--------------------------------------------------------------------------------------------------+
 
-**Note**
+.. Note ::
 
-  Patrons in the OPAC can't change the column visibility. For OPAC tables
+  Patrons in the OPAC can't toggle column visibility. For OPAC tables
   this feature only allows to control the visibility of columns.
 
-**Note**
+.. Note ::
 
   Any tables with columns listed here also have the option to export to Excel, export to CSV,
   copy, or print within the table header.

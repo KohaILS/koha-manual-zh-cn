@@ -26,6 +26,24 @@
 .. |addmarcfield| image:: images/admin/additional/addmarcfield.png
 				:alt: Add field form, filled with Target audience as the Name, and 521$a as the MARC field
 
+.. |currencieshide| image:: images/admin/additional/currencieshide.png
+				:alt: The currencies administration table, the symbol and ISO code columns are hidden
+
+.. |currenciesnohide| image:: images/admin/additional/currenciesnohide.png
+				:alt: The currencies administration table, all columns are visible
+
+.. |setcurrencyhide| image:: images/admin/additional/setcurrencyhide.png
+				:alt: The currencies table settings, the symbol and ISO code columns are marked as hidden
+
+.. |setcurrencynohide| image:: images/admin/additional/setcurrencynohide.png
+				:alt: The currencies table settings, no columns are marked as hidden
+
+.. |tablesettings| image:: images/admin/additional/tablesettings.png
+				:alt: Screenshot of the Table settings page, where we can see all the modules of Koha that have customizable tables
+
+.. |togglecolumns| image:: images/admin/additional/togglecolumns.png
+				:alt: The button 'Columns' above the currencies administration table is clicked open and all the column names appear
+
 
 .. SYSTEM PREFERENCES
 
@@ -451,12 +469,6 @@
 .. |image236| image:: images/admin/additional/didyoumeandrag.png
 .. |image237| image:: images/admin/additional/didyoumeanopacexplode.png
 .. |image238| image:: images/admin/additional/didyoumeanopacauth.png
-.. |image239| image:: images/admin/additional/columns.png
-.. |image240| image:: images/admin/additional/setcurrencynohide.png
-.. |image241| image:: images/admin/additional/currenciesnohide.png
-.. |image242| image:: images/admin/additional/setcurrencyhide.png
-.. |image243| image:: images/admin/additional/currencieshide.png
-.. |image244| image:: images/admin/additional/togglecolumns.png
 .. |image245| image:: images/tools/patronlists/patronlists.png
 .. |image246| image:: images/tools/patronlists/newpatronlist.png
 .. |image247| image:: images/tools/patronlists/addtopatronlist.png
