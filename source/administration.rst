@@ -625,15 +625,13 @@ use, for instance 'Lost'.
    -  CART
 
       Is the shelving cart location, used by
-      :ref:`InProcessingToShelvingCart` and
-      :ref:`ReturnToShelvingCart`
+      :ref:`UpdateItemLocationOnCheckin`
 
    -  PROC
 
-      The location to be used for
-      :ref:`NewItemsDefaultLocation` (change
-      description as desired), also the location expected by
-      :ref:`InProcessingToShelvingCart`.
+      The location for 'Processing center' which can be used with
+      :ref:`NewItemsDefaultLocation` and
+      :ref:`UpdateItemLocationOnCheckin`.
 
 -  LOST
 
