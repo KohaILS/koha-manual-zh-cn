@@ -2924,8 +2924,9 @@ label.
 
 For example, a Dewey call number such as '636.8/07 SHAW' will become 
 ::
-  636.807
-  SHAW
+
+   636.807
+   SHAW
 
 once printed on a spine label.
 
