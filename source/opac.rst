@@ -612,7 +612,7 @@ Comments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Patrons can leave comments in the OPAC if you have the
-:ref:`reviewson` preference set to allow this. Each
+:ref:`OPACComments` preference set to allow this. Each
 bibliographic record has a comments tab below the bibliographic
 information.
 

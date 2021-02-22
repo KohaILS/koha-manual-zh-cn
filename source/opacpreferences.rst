@@ -1911,14 +1911,14 @@ Values:
 
 -  Don't allow
 
-.. _reviewson-label:
+.. _opaccomments-label:
 
-reviewson
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Allow
+OPACComments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ patrons to make comments on items on the OPAC.
+
+Default: Allow
 
 Values:
 
@@ -1933,13 +1933,21 @@ Values:
 
 Description:
 
--  This button allows the patrons to submit comments on books they have
-   read via the OPAC. If this preference is set to "Allow" reviews are
-   first sent to the staff client for staff approval before the review
-   is displayed in the OPAC. The staff member who reviews and approves
+-  This system preference determines if patrons are allowed to submit comments 
+   on titles they have read on the OPAC. If this preference is set to "Allow" 
+   reviews are first sent to the staff interface for staff approval before the 
+   review is displayed in the OPAC. The staff member who reviews and approves
    comments may find the pending comments on the
-   :ref:`Comments` tool. The staff member can then choose to
+   :ref:`comments tool <comments-label>`. The staff member can then choose to
    approve or delete the comments.
+
+See also :
+
+-  :ref:`ShowReviewer`
+
+-  :ref:`ShowReviewerPhoto`
+
+-  :ref:`OpacShowRecentComments`
 
 .. _showreviewer-label:
 

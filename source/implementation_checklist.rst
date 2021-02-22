@@ -562,7 +562,7 @@ There are a lot of ways you can customize your OPAC in Koha.
       -  :ref:`opacreadinghistory` : Decide if patrons can view their reading/
          checkout history via the OPAC
 
-      -  :ref:`reviewson` : Decide if you want to allow patrons to comment on 
+      -  :ref:`OPACComments` : Decide if you want to allow patrons to comment on 
          bibliographic records via the OPAC
 
       -  :ref:`OpacStarRatings` : Decide if patrons can leave star ratings
