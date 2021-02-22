@@ -231,17 +231,23 @@ Description:
 .. _currencyformat-label:
 
 CurrencyFormat
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: 360,000.00 (US)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Display currencies using the following format \_\_\_
 
+Default: 360,000.00 (US)
+
 Values:
+
+-  360'000.00 (CH)
+
+-  360 000,00 (FR)
 
 -  360,000.00 (US)
 
--  360 000,00 (FR)
+Description:
+
+-  This system preference controls how prices are displayed in Koha.
 
 .. _taxrates-label:
 
