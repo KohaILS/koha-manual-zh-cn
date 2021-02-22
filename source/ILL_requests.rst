@@ -25,7 +25,7 @@ The ILL requests module uses system defined statuses. You can add custom statuse
 .. _ILL-email-notification-label:
 
 ILL email notifications
-----------------------
+-------------------------------------------------------------------------------
 
 Email notifications can be sent to ILL staff when a patron makes a request to modify or cancel an existing request.  The notice templates are 
 ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail` system preference will be used.
