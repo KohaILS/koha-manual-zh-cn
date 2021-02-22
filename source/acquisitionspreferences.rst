@@ -199,24 +199,38 @@ Values:
 
 -  360 000,00 (FR)
 
-.. _gist-label:
+.. _taxrates-label:
 
-gist
-^^^^^^^^^^^^^^^^
+TaxRates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Tax rates are \_\_\_
 
 Default: 0
 
-Asks: The default tax rate is \_\_\_
-
 Description:
 
--  This preference will allow the library to define a default Goods and
-   Services Tax rate. The default of value of 0 will disable this
-   preference.
+-  This preference allows the library to define goods and services tax rates 
+   for acquisitions.
 
-    **Note**
+-  The first item in the list will be selected by default.
 
-    Enter this value as a number (.06) versus a percent (6%).
+.. Note ::
+
+   Enter this value as a number (.06) versus a percent (6%).
+
+   For more than one value, separate with \| (pipe).
+
+   For example
+
+   0|0.05|0.1496
+
+   will give you choices of tax rates of 0%, 5% and 14.96%
+
+.. Warning ::
+
+   The database only accepts values up to 4 decimals, further values will be 
+   rounded. 
 
 .. _marcfieldstoorder-label:
 

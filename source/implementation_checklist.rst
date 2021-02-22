@@ -772,7 +772,7 @@ When using acquisitions in Koha you first need to define some defaults.
 
    -  :ref:`CurrencyFormat` : Decide how you want monetary amounts to display
 
-   -  :ref:`gist` : Enter your sales tax (if you are billed for tax)
+   -  :ref:`TaxRates` : Enter your sales tax (if you are billed for tax)
 
    -  :ref:`OrderPdfFormat` : Decide what format you want your print orders to 
       use

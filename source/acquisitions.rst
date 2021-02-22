@@ -735,7 +735,7 @@ Accounting information.
    A basket with at least one uncertain price can't be closed.
 
 -  If you are charged sales tax, choose that from the 'Tax rate' field.
-   This field is populated by the :ref:`gist system preference <gist-label>`.
+   This field is populated by the :ref:`TaxRates` system preference.
 
 -  Enter the percentage discount you're receiving on this order, once
    you enter this, hit tab and Koha will populate the rest of the cost
