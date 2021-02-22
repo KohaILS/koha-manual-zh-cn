@@ -488,11 +488,11 @@ Description:
 .. _useacqframeworkforbibliorecords-label:
 
 UseACQFrameworkForBiblioRecords
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't use
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ the framework 'ACQ' for bibliographic records fields
+
+Default: Don't use
 
 Values:
 
@@ -502,8 +502,13 @@ Values:
 
 Description:
 
--  This system preference allows you to use the ACQ framework to customize
-   the bibliographic record fields that are shown when ordering from acquisitions
+-  This system preference allows you to use the 
+   :ref:`ACQ bibliographic framework <marc-bibliographic-frameworks-label>` to 
+   customize the bibliographic record fields that are shown when ordering from 
+   acquisitions
+
+-  Note that this does not affect the item fields (in MARC21, field 952), which 
+   are always taken from the ACQ framework regardless of this system preference
 
 .. _printing-label:
 
