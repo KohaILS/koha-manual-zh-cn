@@ -1025,23 +1025,19 @@ at the top right of the OPAC.
 
 |image1022|
 
-.. _your-reading-history-label:
+.. _your-checkout-history-label:
 
-Your reading history
+Your checkout history
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Depending on your library's setting for
 :ref:`opacreadinghistory` your patrons may see the
-'your reading history' tab next. This will show the patron their entire
-reading history unless they have asked the library to not keep that
+'your checkout history' tab next. This will show the patron their entire
+borrowing history unless they have asked the library to not keep that
 information via the 'your privacy' tab which will appear if you have the
 :ref:`OPACPrivacy` preference set to 'Allow.'
 
 |image1023|
-
-If you have HTML entered in the
-:ref:`OPACMySummaryHTML` preference then you will see
-that to the right of the 'Date' column.
 
 .. _your-privacy-label:
 
