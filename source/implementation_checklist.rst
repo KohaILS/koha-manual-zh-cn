@@ -115,7 +115,7 @@ system, but there are a few that you might want to customize.
    -  :ref:`noItemTypeImages` : Decide if you want to
       show item type icons in the staff client and opac
 
-   -  :ref:`delimiter` : This value will be put in between
+   -  :ref:`csvdelimiter` : This value will be put in between
       fields when exporting data from Koha
 
    -  :ref:`virtualshelves` : Decide if you want the

@@ -292,15 +292,14 @@ Description:
 -  This preference controls the default value in the branch pull down
    found at the top of the :ref:`Overdue Notice/Status Triggers`.
 
-.. _delimiter-label:
+.. _csvdelimiter-label:
 
-delimiter
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+CSVDelimiter
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Default separator for columns in an exported CSV file: \_\_\_.
 
 Default: semicolons
-
-Asks: Separate columns in an exported report file with \_\_\_ by
-default.
 
 Values:
 
