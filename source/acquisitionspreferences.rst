@@ -249,6 +249,46 @@ Description:
 
 -  This system preference controls how prices are displayed in Koha.
 
+.. _emailpurchasesuggestions-and-emailaddressforsuggestions-label:
+
+EmailPurchaseSuggestions and EmailAddressForSuggestions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Choose email address that new purchase suggestions will be sent to: 
+\_\_\_. If you choose EmailAddressForSuggestions you have to enter a valid 
+email address: \_\_\_
+
+Default: none
+
+Values:
+
+-  none
+
+-  email address of branch
+
+-  EmailAddressForSuggestions
+
+-  KohaAdminEmailAddress
+
+Description:
+
+-  If you want Koha to send purchase suggestions via email, choose which email 
+   address it should send them to
+
+   -  none will deactivate this feature
+
+   -  email address of branch will use the email address entered in the 
+      :ref:`libraries settings <libraries-label>`
+
+   -  if you choose EmailAddressForSuggestions, enter the email address in the 
+      input field
+
+   -  :ref:`KohaAdminEmailAdress` will send it to the main email address
+
+-  You can customize the message that is sent with the 
+   :ref:`Notices and slips tool <notices-and-slips-label>`, the letter code is 
+   NEW\_SUGGESTION
+
 .. _taxrates-label:
 
 TaxRates
