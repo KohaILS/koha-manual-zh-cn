@@ -102,6 +102,9 @@
 
 .. OPAC
 
+.. |opacholdshistory| image:: images/opac/opacholdshistory.png
+				:alt: Screenshot of the holds history table in the patron's account on the OPAC.
+
 .. PATRONS
 
 .. POINT OF SALE

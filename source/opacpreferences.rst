@@ -2605,6 +2605,26 @@ Values:
 
 -  Keep
 
+.. _ opacholdshistory-label:
+
+OPACHoldsHistory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ patrons to see the list of their past holds. 
+
+Default: Don't allow
+
+Values:
+
+-  Allow
+
+-  Don't allow
+
+Description:
+
+-  This system preference determines if patrons are allowed to see their 
+   :ref:`holds history on the OPAC <your-holds-history-label>`.
+
 .. _opacprivacy-label:
 
 OPACPrivacy

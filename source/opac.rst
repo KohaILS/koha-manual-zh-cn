@@ -1095,6 +1095,16 @@ checkouts" on their summary tab.
 
 |image1310|
 
+.. _your-holds-history-label:
+
+Your holds history
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If the :ref:`OPACHoldsHistory` system preference is set to 'Allow', patrons
+will be able to see all their current and past holds.
+
+|opacholdshistory|
+
 .. _your-purchase-suggestions-label:
 
 Your purchase suggestions
