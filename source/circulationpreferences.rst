@@ -3723,7 +3723,7 @@ ILLHiddenRequestStatuses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: ILL statuses that are considered finished and should not be displayed in the ILL 
-module: \_\_\_ (separated with |). If left empty, all ILL requests will be displayed.
+module: \_\_\_ (separated with \|). If left empty, all ILL requests will be displayed.
 
 Description:
 
@@ -3784,7 +3784,7 @@ Description:
 ILLOpacbackends
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Enabled ILL backends for OPAC initiated requests: \_\_\_ (separated with |). If left empty, all 
+Asks: Enabled ILL backends for OPAC initiated requests: \_\_\_ (separated with \|). If left empty, all 
 installed backends will be enabled.
 
 Description:
@@ -3797,7 +3797,7 @@ Description:
 ILLSendStaffNotices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Send these ILL notices to staff when appropriate: \_\_\_ (separated with |). 
+Asks: Send these ILL notices to staff when appropriate: \_\_\_ (separated with \|). 
 e.g. ILL_REQUEST_CANCEL|ILL_REQUEST_MODIFIED If left empty, no staff ILL notices will be sent.
 
 Description:
