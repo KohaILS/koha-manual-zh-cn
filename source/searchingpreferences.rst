@@ -174,10 +174,6 @@ Description:
    word or words entered by the user. This preference enables the search
    function to compensate for slightly misspelled names or phrases.
 
-    **Important**
-
-    Requires that :ref:`UseICU` set to 'Not using'
-
 .. _queryregexescapeoptions-label:
 
 QueryRegexEscapeOptions
@@ -324,40 +320,29 @@ Description:
     This preference assumes that you're using XSLT stylesheets as set in
     the :ref:`OPACXSLTDetailsDisplay` preference.
 
-.. _useicu-label:
+.. _useicustylequotes-label:
 
-UseICU
-^^^^^^^^^^^^^^^^^^^^
+UseICUStyleQuotes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Not using
+Asks: \_\_\_ ICU style quotes ({}) when tracing subjects.
 
-Asks: \_\_\_ ICU Zebra indexing.
+Default: Don't use
 
 Values:
 
--  Not using
+-  Don't use
 
--  Using
+-  Use
 
 Description:
 
--  ICU is a set of code libraries providing Unicode and Globalization
-   support for software applications. What this means is ICU Zebra
-   indexing is only necessary if you use non-roman characters in your
-   cataloging. If using ICU Zebra indexing you will want to not use
-   :ref:`QueryFuzzy`.
+-  This sytem preference lets you decide which style of quotes to use when 
+   tracing subjects.
 
-    **Important**
+-  If set to "Don't use", the regular double quotes ("") will be used 
 
-    This setting will not affect Zebra indexing, it should only be used
-    to tell Koha that you have activated ICU indexing if you have
-    actually done so, since there is no way for Koha to figure this out
-    on its own.
-
-    **Important**
-
-    Talk to your system administrator when changing this preference to
-    make sure that your system is set up properly for this to work.
+-  If set to "Use", the quotes will be replaced by curly brackets ({})
 
 .. _results-display-label:
 

@@ -973,8 +973,7 @@ means that these terms have to appear in this sequence and with no other
 terms in between.
 
 Some system preferences are known to affect relevancy ranking negatively.
-These are :ref:`QueryAutoTruncate` and :ref:`UseICU`. With the latter also
-requiring the server setup to actually use ICU for indexing.
+These are :ref:`QueryAutoTruncate` and :ref:`UseICUStyleQuotes`.
 
 Note: If multiple results have the same relevancy score, they will be
 sorted by biblionumber as second criteria.
