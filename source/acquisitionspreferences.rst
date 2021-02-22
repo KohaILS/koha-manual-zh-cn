@@ -128,30 +128,35 @@ Description:
 .. _acqviewbaskets-label:
 
 AcqViewBaskets
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: created by staff member
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Show baskets \_\_\_
 
+Default: created or managed by staff member
+
 Values:
-
--  created by staff member
-
--  from staff member's branch
 
 -  in system, regardless of owner
 
+-  from staff member's library
+
+-  created or managed by staff member
+
 Description:
 
--  When in acquisitions this preference allows you to control whose
-   baskets you can see when looking at a vendor. The default value of
-   'created by staff member' makes it so that you only see the baskets
-   you created. Choosing to see baskets 'from staff member's branch'
-   will show you the baskets created by anyone at the branch you're
-   logged in at. Finally, you can choose to set this preference to show
-   you all baskets regardless of who created it ('in system, regardless
-   of owner). Regardless of which value you choose for this preference,
+-  When in acquisitions, this preference allows you to control whose
+   baskets you can see when looking at a vendor. 
+
+-  The default value of 'created or managed by staff member' makes it so that 
+   you only see the baskets you created. 
+
+-  Choosing to see baskets 'from staff member's library' will show you the 
+   baskets created by anyone at the branch you're logged in at. 
+
+-  Finally, you can choose to set this preference to show you all baskets 
+   regardless of who created it ('in system, regardless of owner'). 
+
+-  Regardless of which value you choose for this preference,
    superlibrarians can see all baskets created in the system.
 
 .. _acqwarnonduplicateinvoice-label:
