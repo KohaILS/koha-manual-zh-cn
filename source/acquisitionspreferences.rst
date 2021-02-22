@@ -187,11 +187,11 @@ Description:
 .. _basketconfirmations-label:
 
 BasketConfirmations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: always ask for confirmation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: When closing or reopening a basket, \_\_\_.
+
+Default: always ask for confirmation
 
 Values:
 
