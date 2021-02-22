@@ -1172,6 +1172,9 @@ Patrons can choose to receive their notices as a digest by checking the
 combination of all the messages of that type (so all items due in 3 days
 in one email) in to one email instead of multiple emails for each alert.
 
+If the :ref:`TranslateNotices` preference is set to Allow the patron will also see 
+an option to choose 'Preferred language for notices' with a dropdown list of available languages.   
+
     **Important**
 
     You must choose a delivery method (SMS or email or phone) along with
