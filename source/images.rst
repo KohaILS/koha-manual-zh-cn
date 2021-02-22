@@ -56,6 +56,9 @@
 
 .. SYSTEM PREFERENCES
 
+.. |acqwarnonduplicateinvoice| image:: images/admin/globalprefs/acqwarnonduplicateinvoice.png
+				:alt: Screenshot of a warning message that says 'This invoice number has already been used. Would you like to receive on an existing invoice?' with an option to receive on the existing invoice or 'Create new invoice anyway'.
+
 .. |opacSerialDefaultTab-colltab| image:: images/admin/globalprefs/opacSerialDefaultTab-colltab.png
 				:alt: Example of a Serial collection tab in the OPAC
 

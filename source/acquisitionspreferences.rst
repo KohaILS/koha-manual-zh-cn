@@ -162,18 +162,27 @@ Description:
 .. _acqwarnonduplicateinvoice-label:
 
 AcqWarnOnDuplicateInvoice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Do not warn
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ when the librarian tries to create an invoice with a
 duplicate number.
+
+Default: Do not warn
 
 Values:
 
 -  Do not warn
 
 -  Warn
+
+Description:
+
+-  When set to 'Warn', Koha will let staff know if an invoice with the same 
+   number has already been created. The staff member will have a choice to 
+   either receive on the existing invoice or create a new one with the same 
+   number.
+
+|acqwarnonduplicateinvoice|
 
 .. _basketconfirmations-label:
 
