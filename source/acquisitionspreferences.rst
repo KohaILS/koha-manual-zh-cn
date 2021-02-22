@@ -510,16 +510,37 @@ Description:
 -  Note that this does not affect the item fields (in MARC21, field 952), which 
    are always taken from the ACQ framework regardless of this system preference
 
-.. _printing-label:
+.. _acquisitions-printing-system-preferences-label:
 
 Printing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _orderpdfformat-label:
 
 OrderPdfFormat
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: pdfformat::layout2pages
+Asks: Use the \_\_\_ layout when printing basket groups.
 
-Asks: Use \_\_\_ when printing basket groups.
+Default: English 3-page
+
+Values:
+
+.. Note ::
+
+   Values will depend on the installed languages in your Koha installation.
+
+-  2-page
+
+-  3-page
+
+Description:
+
+-  This preference determines how :ref:`basket groups <create-a-basket-group-label>` 
+   are printed when exported as PDFs.
+
+-  A 2-page layout will have vendor information on the first page and ordered 
+   titles on the second page
+
+-  A 3-page layout will additionally have a page with basket informations
+
