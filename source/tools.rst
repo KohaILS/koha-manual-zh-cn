@@ -3900,8 +3900,6 @@ columns in the form: "source","text" with no header row.
    -  Once quote selection is finished, simply click the 'Delete
       quote(s)' key.
 
-      |image404|
-
    -  You will be prompted to confirm the deletion.
 
       |image405|
@@ -3911,8 +3909,6 @@ columns in the form: "source","text" with no header row.
 
 -  Once you are satisfied with the quotes, click the 'Save quotes'
    button in the toolbar at the top and the quotes will be saved.
-
-   |image404|
 
 .. _edit/delete-a-quote-label:
 
