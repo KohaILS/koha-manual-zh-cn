@@ -1246,23 +1246,29 @@ Description:
 .. _marklostitemsasreturned-label:
 
 MarkLostItemsAsReturned
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Disable
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ items as returned when flagged as lost.
+
+Default: Disable
 
 Values:
 
 -  [Select All]
 
--  From the batch item modification tool
+-  From the :ref:`'holds to pull' <holds-to-pull-label>` list
+
+-  From the :ref:`batch item modification tool <batch-item-modification-label>`
 
 -  From the items tab of the catalog module
 
--  From the longoverdue cronjob
+-  From the :ref:`longoverdue cronjob <cron-long-overdues-label>`
 
 -  When cataloging an item
+
+-  When marking an item as a return claim
+
+-  When receiving a payment for the items
 
 Description:
 
