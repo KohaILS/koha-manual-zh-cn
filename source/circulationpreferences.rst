@@ -3027,9 +3027,10 @@ Description:
    preference be set to either 'Allow' option
 
 
-**Important**
+.. Warning ::
 
--  Requires YAML syntax to work
+   Requires YAML syntax to work
+
 .. _housebound-module-label:
 
 Housebound module
