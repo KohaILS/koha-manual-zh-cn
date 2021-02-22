@@ -208,12 +208,12 @@ Descriptions:
 .. _claimsbcccopy-label:
 
 ClaimsBccCopy
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't send
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ blind copy (BCC) to logged in user when sending serial or
 acquisitions claims notices.
+
+Default: Don't send
 
 Values:
 
@@ -223,9 +223,10 @@ Values:
 
 Description:
 
--  When filing a claim in the :ref:`Claim Late Serials` or
-   Acquisitions module this preference will allow for
-   the sending of a copy of the email to the librarian.
+-  This system preference allows you to choose whether or not you want to send 
+   a copy of the claim email to the staff member when 
+   :ref:`claiming a late serial issue <claim-late-serials-label>` or a
+   :ref:`late acquisitions order <claims-and-late-orders-label>`.
 
 .. _currencyformat-label:
 
