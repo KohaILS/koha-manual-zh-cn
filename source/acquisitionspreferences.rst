@@ -469,18 +469,14 @@ Description:
    The database only accepts values up to 4 decimals, further values will be 
    rounded. 
 
-
-
-
 .. _uniqueitemfields-label:
 
 UniqueItemFields
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: barcode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: The following database columns should be unique in an item: \_\_\_
-separate columns with pipe (|).
+
+Default: barcode
 
 Description:
 
