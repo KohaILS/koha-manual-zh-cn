@@ -283,7 +283,8 @@ Description:
    -  if you choose EmailAddressForSuggestions, enter the email address in the 
       input field
 
-   -  :ref:`KohaAdminEmailAdress` will send it to the main email address
+   -  if you choose KohaAdminEmailAddress, the email will be sent to the main
+      email address, as entered in :ref:`KohaAdminEmailAddress`
 
 -  You can customize the message that is sent with the 
    :ref:`Notices and slips tool <notices-and-slips-label>`, the letter code is 
