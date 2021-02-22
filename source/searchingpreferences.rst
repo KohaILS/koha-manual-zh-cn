@@ -120,26 +120,6 @@ Description:
     You will need to reindex your bibliographic database when changing
     this preference.
 
-.. _opacgroupresults-label:
-
-OpacGroupResults
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't use
-
-Asks: \_\_\_ PazPar2 to group similar results on the OPAC.
-
-Values:
-
--  Don't use
-
--  Use
-
-    **Important**
-
-    This requires that `PazPar2 <http://www.indexdata.com/pazpar2>`__ is
-    set up and running.
-
 .. _queryautotruncate-label:
 
 QueryAutoTruncate
