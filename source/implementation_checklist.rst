@@ -158,7 +158,7 @@ for your location/language.
    -  :ref:`opaclanguagesdisplay` : Decide if patrons can choose what language 
       the OPAC appears in
 
-      -  :ref:`opaclanguages` : Decide which languages the patrons can choose 
+      -  :ref:`OPACLanguages` : Decide which languages the patrons can choose 
          from
 
    -  :ref:`language` : Decide which languages appear in the staff interface

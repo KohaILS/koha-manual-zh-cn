@@ -138,24 +138,29 @@ http://wiki.koha-community.org/wiki/Installation_of_additional_languages_for_OPA
 
 .. _opaclanguages-label:
 
-opaclanguages
+OPACLanguages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Default: English
-
 Asks: Enable the following languages on the OPAC
+
+Default: English
 
 Values:
 
 -  English
 
-    **Note**
+.. Note ::
 
     To install additional languages you need to run
-    misc/translation/install-code.pl. For example, to install French you
-    would run the following command install-code.pl fr-FR to make the
-    templates, once they exist and are in the right place then they will
-    show up as an option in this preference.
+    misc/translator/translate install. For example, to install French you
+    would run the following command 
+
+    .. code-block :: bash
+
+       ./misc/translator/translate install fr-FR 
+
+    to make the templates. Once they exist and are in the right place, 
+    they will show up as an option in this preference.
 
 .. _opaclanguagesdisplay-label:
 
