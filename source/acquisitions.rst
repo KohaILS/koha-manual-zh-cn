@@ -1183,6 +1183,8 @@ and click on 'Update adjustments'.
 
 |image1372|
 
+.. _attaching-files-to-invoices-label:
+
 Attaching files to invoices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

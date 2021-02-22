@@ -73,12 +73,12 @@ Description:
 .. _acqenablefiles-label:
 
 AcqEnableFiles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: \_\_\_ enable the ability to upload and attach arbitrary files to
 invoices.
+
+Default: Don't
 
 Values:
 
@@ -88,8 +88,9 @@ Values:
 
 Description:
 
--  This preference controls whether or not you allow the uploading of
-   invoice files via the acquisitions module.
+-  This preference controls whether or not you allow the 
+   :ref:`uploading of invoice files <attaching-files-to-invoices-label>` via 
+   the acquisitions module.
 
 .. _acqitemsetsubfieldswhenreceiptiscancelled-label:
 
