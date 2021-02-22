@@ -36,7 +36,7 @@ To create a new list of patrons click the 'New patron list' button
 Enter a list name.
 
 Checking the 'Shared' box will make this list visible to all users with
-the :ref:`manage_patron_lists permission <granular-tools-permissions-label>`.
+the :ref:`manage_patron_lists permission <patron-permissions-defined-label>`.
 
 Save the list.
 
@@ -82,7 +82,7 @@ useful for tracking summer reading programs, book clubs and other such clubs.
 
     **Important**
 
-    Staff will need the :ref:`clubs permissions <granular-clubs-permissions-label>`
+    Staff will need the :ref:`clubs permissions <patron-permissions-defined-label>`
     to edit clubs, templates and enroll patrons. To learn how to set patron
     permissions, go to the :ref:`patron permissions section <setting-patron-permissions-label>`
     of this manual.
@@ -3223,7 +3223,7 @@ This tool allows you to upload cover images for the materials in
 your catalog.
 
 To access this tool staff need the
-:ref:`upload\_local\_cover\_images permission <granular-tools-permissions-label>`.
+:ref:`upload\_local\_cover\_images permission <patron-permissions-defined-label>`.
 
 For images to show in the staff client and OPAC you need to set
 :ref:`LocalCoverImages` and :ref:`OPACLocalCoverImages` preferences to
@@ -3329,7 +3329,7 @@ as next to the title and on the search results.
 To remove a cover image click 'Delete image'
 below the image in the staff client if you have the
 :ref:`upload\_local\_cover\_images
-permission <granular-tools-permissions-label>`.
+permission <patron-permissions-defined-label>`.
 
 .. _additional-tools-label:
 
