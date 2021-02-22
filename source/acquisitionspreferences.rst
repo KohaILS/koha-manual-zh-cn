@@ -312,7 +312,7 @@ Description:
 
    -  discount, 
 
-   -  sort1, 
+   -  sort1, and
 
    -  sort2.
 
@@ -323,6 +323,65 @@ Description:
        price: 947$a|947$c
        quantity: 969$h
        budget_code: 922$a
+
+.. Warning ::
+
+   Requires YAML syntax to work
+
+.. _marcitemfieldstoorder-label:
+
+MarcItemFieldsToOrder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Set the mapping values for new item records created from a MARC record
+in a staged file.
+
+Description:
+
+-  This preference automatically generates items in Koha with populated
+   information based on a 9XX field and subfield. You can use the following
+   fields: 
+
+   -  homebranch, 
+
+   -  holdingbranch, 
+
+   -  itype, 
+
+   -  nonpublic\_note, 
+
+   -  public\_note, 
+
+   -  loc,
+
+   -  ccode, 
+
+   -  notforloan, 
+
+   -  uri, 
+
+   -  copyno, 
+
+   -  price, 
+
+   -  replacementprice, and 
+
+   -  itemcallnumber.
+   
+-  You can also use the following special fields: 
+
+   -  quantity, and 
+
+   -  budget_code.
+
+For example:
+
+::
+
+       homebranch: 975$a
+       holdingbranch: 975$b
+       public_note: 975$z
+       loc: 975$c
 
 .. Warning ::
 
@@ -362,32 +421,6 @@ Description:
    rounded. 
 
 
-.. _marcitemfieldstoorder-label:
-
-MarcItemFieldsToOrder
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Set the mapping values for new item records created from a MARC record
-in a staged file.
-
-Description:
-
--  This preference automatically generates items in Koha with populated
-   information based on a 9XX field and subfield. You can use the following
-   fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc,
-   ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber.
-   Special fields: quantity and budget_code
-
-For example:
-
-::
-
-       homebranch: 975$a
-       holdingbranch: 975$b
-       public_note: 975$z
-       loc: 975$c
-
-**Requires YAML syntax to work**
 
 .. _purgesuggestionsolderthan-label:
 
