@@ -217,4 +217,10 @@ Values:
 
 -  Allow
 
+Description:
+
+-  If set to 'Allow' it is possible to choose a 'Preferred language for notices' 
+   when creating a new patron account in the staff interface or for the patron to 
+   do this themselves from their messaging options when logged into their account on the opac.
+
 
