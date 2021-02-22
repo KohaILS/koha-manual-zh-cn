@@ -289,6 +289,45 @@ Description:
    :ref:`Notices and slips tool <notices-and-slips-label>`, the letter code is 
    NEW\_SUGGESTION
 
+.. _marcfieldstoorder-label:
+
+MarcFieldsToOrder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Set the mapping values for a new order line created from a MARC
+record in a staged file.
+
+Description:
+
+-  This preference includes MARC fields to check for order information
+   to use when you :ref:`order from a new .mrc file <order-from-a-new-file-label>` 
+   or when you :ref:`order from a staged file <order-from-a-staged-file-label>` in
+   acquisitions. You can use the following fields: 
+
+   -  price, 
+
+   -  quantity,
+
+   -  budget\_code, 
+
+   -  discount, 
+
+   -  sort1, 
+
+   -  sort2.
+
+   For example:
+
+   ::
+
+       price: 947$a|947$c
+       quantity: 969$h
+       budget_code: 922$a
+
+.. Warning ::
+
+   Requires YAML syntax to work
+
 .. _taxrates-label:
 
 TaxRates
@@ -322,31 +361,6 @@ Description:
    The database only accepts values up to 4 decimals, further values will be 
    rounded. 
 
-.. _marcfieldstoorder-label:
-
-MarcFieldsToOrder
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Set the mapping values for a new order line created from a MARC
-record in a staged file.
-
-Description:
-
--  This preference includes MARC fields to check for order information
-   to use when you are trying to :ref:`Order from a staged file` in
-   acquisitions. You can use the following fields: price, quantity,
-   budget\_code, discount, sort1, sort2.
-
-   For example:
-
-   ::
-
-       price: 947$a|947$c
-       quantity: 969$h
-       budget_code: 922$a
-
-**Important**
-Requires YAML syntax to work
 
 .. _marcitemfieldstoorder-label:
 
