@@ -451,7 +451,7 @@ the results next to the 'Download the report' label and clicking
 .. _send-report-output-to-batch-modification-tools-label:
 
 Send report output to batch modification tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After running a report that contains itemnumbers, biblionumbers and/or patron cardnumbers 
 the list of numbers can be imported directly into the relevant batch modification tool by clicking the 'Batch operations with X visible records' button in the report results.  The X depends on the number of records you have chosen to display on screen (up to 1000).
