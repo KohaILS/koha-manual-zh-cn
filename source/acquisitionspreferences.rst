@@ -3,10 +3,30 @@
 .. _acquisitions-system-preferences-label:
 
 Acquisitions
-----------------------------
+-------------------------------------------------------------------------------
 
-*Get there:* More > Administration > Global system preferences >
-Acquisitions
+*Get there:* More > Administration > Global system preferences > Acquisitions
+
+.. _acquisitions-edifact-system-preferences-label:
+
+EDIFACT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _edifactinvoiceimport-label:
+
+EdifactInvoiceImport 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ automatically import EDIFACT invoice message files when they are 
+downloaded. 
+
+Default: Do
+
+Values:
+
+-  Do
+
+-  Don't
 
 .. _acquisitions-policy-label:
 
