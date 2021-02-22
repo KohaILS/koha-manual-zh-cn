@@ -2963,28 +2963,38 @@ for patrons registered via the OPAC.
 
 Description:
 
--  Enter in the patron category code for the category that all new
-   patrons registered via the OPAC will be put in to.
+-  Enter in the patron :ref:`category code <patron-categories-label>` for the 
+   category that all new patrons registered via the OPAC will be put in to.
 
-    **Important**
+.. Warning ::
+
+    Do not use a regular :ref:`patron category <patron-categories-label>` for 
+    this, as any patron who has not completed the registration verification 
+    process will be deleted by the 
+    :ref:`cleanup\_database.pl script <cron-clean-up-database-label>` after the 
+    number of days indicated in 
+    :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay`, including regular 
+    patrons who have not registered online.
+
+.. Warning ::
 
     Patrons registering via the OPAC will not need to be approved by a
     librarian. For this reason it is recommended that you set up a
-    provisional :ref:`patron category <patron-categories-label>` with no :ref:`circulation
-    rights <circulation-and-fines-rules-label>`. That way patrons will have to come in to
-    the library to verify their identity before given circulation rights
-    at the library. Once the patron confirms their identiy the library
-    staff can change the category to one with permissions to check items
-    out and place holds.
+    provisional :ref:`patron category <patron-categories-label>` with no 
+    :ref:`circulation rights <circulation-and-fines-rules-label>`. That way, 
+    patrons will have to come in to the library to verify their identity 
+    before being given circulation rights at the library. Once the patron 
+    confirms their identiy, the library staff can change the category to one 
+    with permissions to check items out and place holds.
 
-    **Important**
+.. Warning ::
 
-    If you leave this blank or enter in an invalid code your patrons
+    If you leave this blank or enter in an invalid code, your patrons
     will still be able to register but will not be given a username.
     There will be no errors on the page to explain this, so be sure to
     enter a valid patron category code.
 
-    This system preference is required by :ref:`PatronSelfRegistration`.
+-  This system preference is required by :ref:`PatronSelfRegistration`.
 
 .. _patronselfregistrationemailmustbeunique-label:
 
