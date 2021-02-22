@@ -95,7 +95,7 @@ Description:
 .. _acqitemsetsubfieldswhenreceiptiscancelled-label:
 
 AcqItemSetSubfieldsWhenReceiptIsCancelled
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Upon cancelling a receipt, update the item's subfields if they
 were created when placing an order (e.g. o=5\|a="bar foo""). \_\_\_
@@ -111,7 +111,7 @@ Description:
 .. _acqitemsetsubfieldswhenreceived-label:
 
 AcqItemSetSubfieldsWhenReceived
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Upon receiving items, update their subfields if they were created
 when placing an order (e.g. o=5\|a="foo bar"). \_\_\_
