@@ -79,6 +79,9 @@
 
 .. CATALOGING
 
+.. |editauthority| image:: images/cataloging/editauthority.png
+				:alt: Authority editing form
+
 .. |uploaditemcoverimage| image:: images/cataloging/uploaditemcoverimage.png
 				:alt: Upload a cover image for an item from Edit button
 
@@ -988,7 +991,6 @@
 .. |image710| image:: images/cataloging/authorityresults.png
 .. |image711| image:: images/cataloging/authrecord.png
 .. |image712| image:: images/cataloging/authoritiesseealso.png
-.. |image713| image:: images/cataloging/editauthority.png
 .. |image714| image:: images/cataloging/dupauth.png
 .. |image715| image:: images/cataloging/authmergesearch.png
 .. |image716| image:: images/cataloging/authmergechoice.png

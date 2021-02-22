@@ -1141,21 +1141,25 @@ that heading instead.
 .. _editing-authorities-label:
 
 Editing authorities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Authorities can be edited by clicking on the authority summary from the
 search results and then clicking the 'Edit' button above the record. Or
 by clicking on the 'Edit' link to the left of the authority on the
 search results.
 
-|image713|
+|editauthority|
 
-Once you've made the necessary edits, simply click 'Save' and
-`dontmerge <#dontmerge>`__ is set to 'Do', Koha will immediately update
-all of the bib records linked to the authority with the new authority
-record's data. If dontmerge is set to "Don't" then Koha won't edit bib
-records when changes are made to authorities, rather, this is done later
-by the :ref:`merge\_authority.pl cronjob <cron-update-authorities-label>`.
+Once you've made the necessary edits, simply click 'Save'.
+
+Depending on the number of bibliographic records this authority record is
+linked to, the bibliographic records may be updated right away. This depends 
+on the value in the :ref:`AuthorityMergeLimit` system preference (the default 
+is 50). If the number of bibliographic records is under the value of 
+:ref:`AuthorityMergeLimit`, the bibliographic records will be changed right 
+away. If the number of bibliographic records exceeds the value of 
+:ref:`AuthorityMergeLimit`, they will only be updated when the 
+:ref:`merge\_authorities.pl script <cron-update-authorities-label>` is run.
 
 To delete an authority record you first must make sure it's not linked
 to any bibliographic records. If it is not used by any bibliographic
