@@ -411,7 +411,9 @@ If no type is specified, Code39 will be used.
 By default, the barcode image will contain the text of the barcode as well. If this is not desired, the parameter "notext" may be passed to supress this behavior.
 
 For example::
+
     /cgi-bin/koha/svc/barcode?barcode=123456789&notext=1
+
 will generate a barcode image 123456789 without the text "123456789" below it.
 
 This service can be used to embed barcode images into slips and notices printed from the browser, and to embed a patron cardnumber into the OPAC, among other possibilities.
