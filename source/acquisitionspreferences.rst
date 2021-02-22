@@ -387,6 +387,29 @@ For example:
 
    Requires YAML syntax to work
 
+.. _orderpricerounding-label:
+
+OrderPriceRounding
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ to nearest cent.
+
+Default: Don't round
+
+Values:
+
+-  Don't round
+
+-  Round
+
+Description:
+
+-  This system preference determines whether full precision values or rounded 
+   values should be used in price calculations. 
+
+-  This is particularly important when your tax rates have more decimals than 
+   your currency
+
 .. _taxrates-label:
 
 TaxRates
