@@ -31,16 +31,16 @@ Values:
 .. _acquisitions-policy-label:
 
 Policy
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _acqcreateitem-label:
 
 AcqCreateItem
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: placing an order
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Create an item when \_\_\_.
+
+Default: placing an order
 
 Values:
 
@@ -52,15 +52,23 @@ Values:
 
 Description:
 
--  This preference lets you decide when you'd like to create an item
-   record in Koha. If you choose to add an item record when 'placing an
-   order' then you will enter item information in as you place records
-   in your basket. If you choose to add the item when 'receiving an
-   order' you will be asked for item record information when you're
-   receiving orders in acquisitions. If you choose to add the item when
-   'cataloging a record' then item records will not be created in
-   acquisitions at all, you will need to go to the cataloging module to
-   add the items.
+-  This preference lets you decide when you'd like to create an item record in 
+   Koha. 
+
+-  If you choose to add an item record when 'placing an order', you will enter 
+   item information in as you :ref:`add records in your basket <create-a-basket-label>`. 
+
+-  If you choose to add the item when 'receiving an order' you will be asked 
+   for item record information when you're :ref:`receiving orders <receiving-orders-label>` 
+   in acquisitions.
+
+-  If you choose to add the item when 'cataloging a record' then item records 
+   will not be created in acquisitions at all. You will need to go to the 
+   :ref:`cataloging module <cataloging-label>` to
+   :ref:`add the items <adding-items-label>`.
+
+-  Note that this setting can be overridden when 
+   :ref:`creating a basket <create-a-basket-label>`.
 
 .. _acqenablefiles-label:
 
