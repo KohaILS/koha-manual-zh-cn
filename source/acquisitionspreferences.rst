@@ -410,6 +410,32 @@ Description:
 -  This is particularly important when your tax rates have more decimals than 
    your currency
 
+.. _purgesuggestionsolderthan-label:
+
+PurgeSuggestionsOlderThan
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Keep accepted or rejected purchase suggestions for a period of \_\_\_ 
+days.
+
+.. Warning ::
+
+    Leave this field empty if you don't want to activate this automatic 
+    feature.
+
+Description:
+
+-  Enter the number of days after which you want to automatically
+   delete accepted or rejected purchase suggestions.
+
+-  For example: [30] Sets purgation of suggestions for those older than 30 days.
+
+.. Note ::
+
+    This system preference is used when the cronjob 
+    :ref:`purge_suggestions.pl <cron-clean-up-old-suggestions-label>` is
+    active and called without a specific number of days.
+
 .. _taxrates-label:
 
 TaxRates
@@ -445,28 +471,6 @@ Description:
 
 
 
-.. _purgesuggestionsolderthan-label:
-
-PurgeSuggestionsOlderThan
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Asks: Keep accepted or rejected purchase suggestions for a period of \_\_\_ days.
-
-    **Important**
-
-    WARNING - Leave this field empty if you don't want to activate this automatic feature.
-
-Description:
-
--  Enter the number of days after which you want to automatically
-   delete accepted or rejected purchase suggestions.
-
--  For example: [30] Sets purgation of suggestions for those older than 30 days.
-
-    **Note**
-
-    This system preference is used when the cronjob purge_suggestions.pl is
-    active and called without a specific number of days.
 
 .. _uniqueitemfields-label:
 
