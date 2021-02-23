@@ -1580,8 +1580,6 @@ Values:
 
 -  Enable
 
-   |image1452|
-
 Description:
 
 -  With this preference enabled a new option 'Send to device' displays in the 
