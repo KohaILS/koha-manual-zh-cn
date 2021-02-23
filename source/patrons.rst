@@ -1812,9 +1812,7 @@ tab.
 
    -  If one or more values are defined under the PAYMENT\_TYPE authorized value
       category a dropdown selection box will be displayed to specify a custom
-      payment type
-
-      |image1501|
+      payment type.
 
    -  If the :ref:`UseCashRegisters` system preference is enabled, you will
       have a choice of cash register in which to enter the transaction
