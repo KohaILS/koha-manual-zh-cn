@@ -1530,11 +1530,27 @@ and quantity filled in then be sure to confirm that your
 Once you have added all of the items to the basket you can click the
 'Create EDIFACT order' button.
 
-EDIFACT order
+.. _sending-the_edifact-order-label:
+
+Sending the EDIFACT order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This will generate a pending file in the :ref:`EDIFACT
 messages <edifact-messages-label>` in Koha. The pending files will be processed
 by the :ref:`EDI cron job <cron-edi-message-processing-label>` and sent to your vendor.
+
+.. _edi-ordering-with-quote-files-label:
+
+EDI ordering with Quote files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you have Quote files enabled you can place the order on the bookseller's website and
+a Quote file will be automatically generated and made available to be collected and loaded   
+to Koha.  You will see the file listed in the :ref:`EDIFACT
+messages <edifact-messages-label>` in Koha with a status of 'Received'.  The basket will have 
+been created and records and items added to the basket.  Once you have checked that the basket is  
+correct you can click the 'Create EDIFACT order' button.  The process then completes as 
+for :ref:`Sending the EDIFACT order <sending-the_edifact-order-label>` above.
 
 .. _edi-invoicing-label:
 
@@ -1545,6 +1561,8 @@ When the book vendor is done processing your files they will send an
 invoice via EDI as well. The :ref:`EDI cron job <cron-edi-message-processing-label>` will grab
 invoices and mark items found in the invoice as received and update your
 funds without any need for manual intervention.
+
+If you set the :ref:`EdifactInvoiceImport` preference to 'Don't' you can load invoice files manually.
 
 .. _edifact-messages-label:
 
