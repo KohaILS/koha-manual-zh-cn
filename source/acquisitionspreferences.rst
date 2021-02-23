@@ -28,6 +28,13 @@ Values:
 
 -  Don't
 
+Description:
+
+-  This feature allows libraries to delay the importing of EDI invoices until a 
+   time of their choosing. If the syspref is set to 'Don't' the invoices are imported 
+   into the database but the invoice processing is skipped. Instead, any invoice file 
+   listed in EDIfact messages with a status of 'New' will have an 'Import' button to process the invoice manually.
+
 .. _acquisitions-policy-label:
 
 Policy
