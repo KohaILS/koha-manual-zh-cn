@@ -456,8 +456,20 @@ Description:
 -  Use ^@^ ( with quotes ) as the BT\_TAG to replace the bibtex record
    type with a field value of your choosing.
 
-**Important**
-Requires YAML syntax to work
+.. Warning ::
+
+   Requires YAML syntax to work
+
+   This means
+
+   -  Make sure there is NO space between the field name and the colon
+
+   -  Make sure there IS a space between the colon and the value
+
+   -  If there are more than one values for the same field, put them in
+      square brakets, separated by comma and space
+
+   -  Make sure each pair is on its own line
 
 .. _risexportadditionalfields-label:
 
@@ -481,7 +493,20 @@ Description:
 -  Use of TY ( record type ) as a key will *replace* the default TY with
    the field value of your choosing.
 
-**Important**
+.. Warning ::
+
+   Requires YAML syntax to work
+
+   This means
+
+   -  Make sure there is NO space between the field name and the colon
+
+   -  Make sure there IS a space between the colon and the value
+
+   -  If there are more than one values for the same field, put them in
+      square brakets, separated by comma and space
+
+   -  Make sure each pair is on its own line
 
 Requires YAML syntax to work
 

@@ -529,15 +529,17 @@ Description:
    -  \_ALL\_: Used on the left as a first value, it will affect all items and
       override all other rules.
 
-  **Important**
+.. Warning ::
+
+   Requires YAML syntax to work
+
+   This means
 
   -  Make sure there is NO space between the first value and the colon
 
   -  Make sure there IS a space between the colon and the second value
 
   -  Make sure each pair is on its own line
-
-  -  Requires YAML syntax 
 
 -  If using PROC or CART, use the 
    :ref:`cart\_to\_shelf cron job <cron-in-processing/book-cart-label>` to 
@@ -567,13 +569,17 @@ Description:
 -  For example, '-1: 0' will cause an item that was set to 'Ordered' to now be 
    available for loan
 
-  **Important**
+.. Warning ::
 
-  -  Make sure there is NO space between the first value and the colon
+   Requires YAML syntax to work
 
-  -  Make sure there IS a space between the colon and the second value
+   This means
 
-  -  Make sure each pair is on its own line
+   -  Make sure there is NO space between the first value and the colon
+
+   -  Make sure there IS a space between the colon and the second value
+
+   -  Make sure each pair is on its own line
 
 .. _checkout-policy-label:
 
@@ -3030,6 +3036,14 @@ Description:
 .. Warning ::
 
    Requires YAML syntax to work
+
+   This means
+
+   -  Make sure there is NO space between the field name and the colon
+
+   -  Make sure there IS a space between the colon and the value
+
+   -  Make sure each pair is on its own line
 
 .. _housebound-module-label:
 

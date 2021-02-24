@@ -2348,16 +2348,6 @@ OpacHiddenItems
 
 Asks: Allows to define custom rules for hiding specific items at opac.
 
-    **Note**
-
-    See docs/opac/OpacHiddenItems.txt in your Koha install directory for
-    more information
-
-    **Important**
-
-    Requires YAML syntax to work
-
-
 Description:
 
 -  In this field you can enter criteria for items you would like to hide
@@ -2373,11 +2363,20 @@ Description:
    Will block items with an itype code of 07 or 10 as well as items that
    have a shelving location of STAFF or ISO.
 
-   In items my items.itype 07 is defined in Item Types Administration as
-   Staff Assigned My items.itype 10 in Item Types is Archival Copy The
-   locations STAFF and ISO are in Authorized Values for category=LOC
-   STAFF means it's assigned to the staff reading room and ISO means it
-   is in the isolation room.
+.. Warning ::
+
+   Requires YAML syntax to work
+
+   This means
+
+   -  Make sure there is NO space between the field name and the colon
+
+   -  Make sure there IS a space between the colon and the value
+
+   -  If there are more than one values for the same field, put them in
+      square brakets, separated by comma and space
+
+   -  Make sure each pair is on its own line
 
 .. _opachiddenitemsexceptions-label:
 

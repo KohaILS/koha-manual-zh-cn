@@ -336,6 +336,14 @@ Description:
 
    Requires YAML syntax to work
 
+   This means
+
+   -  Make sure there is NO space between the field name and the colon
+
+   -  Make sure there IS a space between the colon and the value
+
+   -  Make sure each pair is on its own line
+
 .. _marcitemfieldstoorder-label:
 
 MarcItemFieldsToOrder
@@ -394,6 +402,14 @@ For example:
 .. Warning ::
 
    Requires YAML syntax to work
+
+   This means
+
+   -  Make sure there is NO space between the field name and the colon
+
+   -  Make sure there IS a space between the colon and the value
+
+   -  Make sure each pair is on its own line
 
 .. _orderpricerounding-label:
 
