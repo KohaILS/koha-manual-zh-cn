@@ -2133,9 +2133,17 @@ Asks: The password for the PayPal account to receive payments is \_\_\_
 .. _paypalreturnurl-label:
 
 PayPalReturnURL
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: After payment or cancellation, PayPal should return to the \_\_\_
+
+Default: :ref:`OPACBaseURL`
+
+Values:
+
+-  :ref:`OPACBaseURL`
+
+-  configured return URL
 
 .. _paypalsignature-label:
 
