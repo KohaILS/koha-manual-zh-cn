@@ -201,7 +201,7 @@ the OPAC.
     **Note**
 
     You need to be logged in as a staff member with the
-    suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>`
+    suggestions_manage :ref:`acquisitions permission <patron-permissions-label>`
     in order to view and work with purchase suggestions.
 
 When a suggestion is waiting for library review, it will
@@ -574,7 +574,7 @@ Order from a new file
 
      **Note**
 
-     Note that you need the stage_marc_import :ref:`tool permission <granular-tools-permissions-label>`
+     Note that you need the stage_marc_import :ref:`tool permission <patron-permissions-label>`
      in order to be able order from a new file.
 
     - You will be taken to the

@@ -138,7 +138,7 @@ renewal'. This will allow this item to automatically renew if the
 are no holds on the item.
 
 Next is an option to not decrease the loan length based on holds. This
-overrides the :ref:`decreaseLoanHighHolds` system preference.
+overrides the :ref:`decreaseLoanHighHolds <decreaseloanhighholds-preferences-label>` system preference.
 
 If you're allowing the :ref:`checkout of items on site <onsitecheckouts-label>`
 to patrons (these are usually items that are not for loan that you would
@@ -1534,7 +1534,7 @@ In order to use the self check-in module, you must first set the :ref:
 'Enable'.
 
 Then, you will have to :ref:`create a patron <add-a-staff-patron-label>`
-with the :ref:`self\_checkin\_module permission <granular-self-check-permissions-label>`.
+with the :ref:`self\_checkin\_module permission <patron-permissions-label>`.
 
     **Note**
 

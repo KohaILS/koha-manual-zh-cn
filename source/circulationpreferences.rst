@@ -3677,7 +3677,7 @@ Values:
 Description:
 
 -  This preference controls whether you have the option to checkout ILL items directly 
-   from an ILL request.  More details can be found in the :ref:`Circulating ILL materials <circulating-ill-materials-label>` section. 
+   from an ILL request.  More details can be found in the :ref:`Circulating ILL materials <circulating-ILL-material-label>` section.
 
 .. _illcheckavailability-label:
 
@@ -3803,7 +3803,7 @@ e.g. ILL_REQUEST_CANCEL|ILL_REQUEST_MODIFIED If left empty, no staff ILL notices
 Description:
 
 -  You can configure which ILL notices should be sent to staff.  More details can be found 
-   in the :ref:`ILL email notifications <ill-email-notifications-label>` section.
+   in the :ref:`ILL email notifications <ILL-email-notification-label>` section.
 
 
 .. _returnclaims-label:

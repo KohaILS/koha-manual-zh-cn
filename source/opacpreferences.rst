@@ -1092,7 +1092,7 @@ Values:
 Description:
 
 -  If you have chosen to allow comments in your OPAC by setting
-   :ref:`reviewson` to 'Allow' you can include a link to the
+   :ref:`OPACComments` to 'Allow' you can include a link to the
    recent comments under the search box at the top of your OPAC with
    this preference.
 
@@ -1975,7 +1975,7 @@ Description:
 -  If you would like to protect your patron's privacy in the OPAC you
    can choose to hide their names or parts of their names from any of
    the comments they leave on bib records in your system.
-   :ref:`reviewson` needs to be set to 'Allow' for this to
+   :ref:`OPACComments` needs to be set to 'Allow' for this to
    preference to come in to play
 
 .. _showreviewerphoto-label:
@@ -1993,7 +1993,7 @@ Values:
 
 -  Show
 
-   -  :ref:`reviewson` needs to be set to 'Allow' and
+   -  :ref:`OPACComments` needs to be set to 'Allow' and
       :ref:`ShowReviewer` needs to be set to 'Show' for
       this to preference to come in to play
 

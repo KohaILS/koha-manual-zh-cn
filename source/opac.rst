@@ -1065,7 +1065,7 @@ The patron can choose from three options:
    record of the item that was checked-out upon check-in.
 
 Depending on the patron's suggestions the contents of the ':ref:`Your reading
-history <your-reading-history-label>`' tab and the ':ref:`Circulation
+history <your-checkout-history-label>`' tab and the ':ref:`Circulation
 History <circulation-history-label>`' tab in the staff client may change.
 
 Regardless of the patron's choice they can delete their reading history
