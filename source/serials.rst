@@ -910,10 +910,12 @@ renewal options.
 -  Subscription length: enter the number of issues, weeks or months your 
    subscription lasts
 
--  Library: enter the library for which this subscription is
+-  Library: enter the library for which this subscription is, this will only
+   appear if :ref:`RenewSerialAddsSuggestion` is set to 'Add'
 
 -  Note for the librarian that will manage your renewal request: enter any 
-   notes you might have about this renewal.
+   notes you might have about this renewal. This will only appear if
+   :ref:`RenewSerialAddsSuggestion` is set to 'Add'
 
 Click 'Submit'.
 
