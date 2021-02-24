@@ -80,7 +80,7 @@ preference to hide completed statuses by default.  You can also click on the ‘
 |image1435|
 
 There is a large amount of data available in the Requests table so it is
-advisable to make use of :ref:`Table settings <table-settings-label>` section of the 
+advisable to make use of :ref:`Table settings <column-settings-label>` section of the
 Administration module (table id: ill-requests) to view only the information you need.
 The first half of the table displays data related to the ILL item itself
 such as title, volume, page numbers.
