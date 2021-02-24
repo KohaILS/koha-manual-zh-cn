@@ -174,6 +174,10 @@ Description:
    word or words entered by the user. This preference enables the search
    function to compensate for slightly misspelled names or phrases.
 
+.. Warning ::
+
+   This does not work if ICU is enabled in your system.
+
 .. _queryregexescapeoptions-label:
 
 QueryRegexEscapeOptions
