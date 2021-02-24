@@ -2145,6 +2145,12 @@ Values:
 
 -  configured return URL
 
+Description:
+
+-  This system preference lets you decide where a patron is redirected after
+   they are done with their transaction, either the :ref:`OPACBaseURL` or
+   the URL specified in the PayPal configuration
+
 .. _paypalsignature-label:
 
 PayPalSignature
