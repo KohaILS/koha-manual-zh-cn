@@ -595,6 +595,34 @@ Values:
     Adding another classification under Administration > Classification Sources
     will make it show up in this list as well.
 
+.. _defaultsaverecordfileid-label:
+
+DefaultSaveRecordFileID
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: When saving in a MARC/MARCXML file in the advanced cataloging editor or
+exporting from the detail page in the staff interface, use the \_\_\_ in the
+file name.
+
+Default: bibliographic record number
+
+Values:
+
+-  bibliographic record number
+
+-  control number
+
+Description:
+
+-  This preference determines what is the default file name that is used when
+   downloading a MARC record.
+
+-  Choosing 'bibliographic record number' will result in a file name like
+   bib-123456.mrc where 123456 is the biblionumber.
+
+-  Choosing 'contol number' will result in a file name like record-123456.mrc
+   where 123456 is the record control number (in MARC21, this is the 001 field).
+
 .. _easyanalyticalrecords-label:
 
 EasyAnalyticalRecords
