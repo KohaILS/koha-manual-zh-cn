@@ -453,7 +453,7 @@ preferences and other rules.
 
 -  Set up your :ref:`cron jobs <cron-jobs-label>`
 
-   -  Decide when the system :ref:`checks URLs in catalog records <cron-check-urls-label>` 
+   -  Decide when the system :ref:`checks URLs in catalog records <cron-check-url-quick-label>` 
       to see if they are still valid
 
 .. _authorities-configuration-label:

@@ -733,17 +733,17 @@ command line arguments.
 .. _cron-check-url-quick-label:
 
 Check URL quick
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Script path: misc/cronjobs/check-url-quick.pl
+
+.. Note ::
+
+    This script replaces the deprecated check-url.pl script
 
 Does: checks URLs from biblio records; scans all URLs found by default in
 856$u of bibliographic records and displays if resources are available or
 not.
-
-    **Note**
-
-    This script replaces the check-url.pl script
 
     **PARAMETERS**
 
@@ -776,21 +776,6 @@ not.
 
     -  --maxconn=1000
        Number of simulaneous HTTP requests. By default 200 connexions.
-
-.. _cron-check-urls-label:
-
-Check URLs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Script path: misc/cronjobs/check-url.pl
-
-Does: checks URLs in 856$u field. Script output can now be formatted in
-CSV or HTML. The HTML version links directly to MARC biblio record
-editor.
-
-Frequency suggestion: monthly
-
-Learn more: http://wiki.koha-community.org/wiki/Check-url_enhancements
 
 .. _cron-delete-records-via-leader-label:
 
