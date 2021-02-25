@@ -201,6 +201,22 @@ Interface options
 
 These preference are related to your Koha interface
 
+.. _addressforfailedoverduenotices-label:
+
+AddressForFailedOverdueNotices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Blank
+
+Asks: Email address failed overdue notices are sent to: \_\_\_ If left empty then it will 
+fallback to the first defined address in the following list: Library ReplyTo, 
+Library Email, ReplytoDefault and KohaAdminEmailAddress.
+
+Description:
+
+-  This preference controls where the summarized overdue email for patrons without 
+   email addresses is sent to.
+
 .. _debuglevel-label:
 
 DebugLevel
