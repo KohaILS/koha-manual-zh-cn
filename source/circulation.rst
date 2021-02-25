@@ -272,7 +272,10 @@ barcodes or perform a batch check out for training internal use.
 
 From this screen you can scan several barcodes or load a file of
 barcodes. If those items cannot be checked out they will provide a
-warning on the following screen
+warning on the following screen.
+
+If you have the :ref:`SpecifyDueDate` system preference enabled you will
+have the option to set a due date for the checkouts. 
 
 |image496|
 
