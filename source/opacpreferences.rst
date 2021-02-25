@@ -2170,27 +2170,6 @@ Asks: The email address to receive PayPal payments is \_\_\_
 Policy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _allowpurchasesuggestionbranchchoice-label:
-
-AllowPurchaseSuggestionBranchChoice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't allow
-
-Asks: \_\_\_ patrons to select branch when making a purchase suggestion
-
-Values:
-
--  Allow
-
--  Don't allow
-
-Description:
-
--  If your library system lets patrons make purchase suggestions for a
-   specific branch you can set this preference to 'Allow' to add a
-   branch selection option to the purchase suggestion form.
-
 .. _blockexpiredpatronopacactions-label:
 
 BlockExpiredPatronOpacActions
@@ -2452,7 +2431,7 @@ Description:
 OPACSuggestionMandatoryFields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: blank
+Default: Blank
 
 Asks: Fields that should be mandatory for patron purchase suggestions:
 \_\_\_ Note: if none of the above options are selected, 'Title' field
@@ -2483,6 +2462,18 @@ Values:
 -  Publisher name
 
 -  Title
+
+.. _opacsuggestionunwantedfields-label:
+
+OPACSuggestionUnwantedFields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Blank
+
+Asks: Fields that should be hidden for patron purchase suggestions:
+\_\_\_ Note: Do not make OPACSuggestionMandatoryFields unwanted fields.
+
+Values: As for :ref:`OPACSuggestionMandatoryFields` shown above.
 
 .. _opacviewotherssuggestions-label:
 
