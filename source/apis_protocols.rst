@@ -451,7 +451,7 @@ http://multimedia.3m.com/mws/media/355361O/sip2-protocol.pdf
 LDAP
 -----------------------------
 
-Setting up LDAP (Lightweight Directory Access Protocol) for Koha allows you to store all user information in a central database which is accessed both by your organisations Koha instance and for users to authenticate on other existing systems.
+Setting up LDAP (Lightweight Directory Access Protocol) for Koha allows you to store all user information in a central database which is accessed both by your organisation's Koha instance and for users to authenticate on other existing systems.
 
 LDAP is a protocol used for file discovery over networks and network authentication.
 
