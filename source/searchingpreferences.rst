@@ -353,6 +353,22 @@ Description:
 Results Display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _biblioitemtypeinfo-label:
+
+BiblioItemtypeInfo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Don't display
+
+Asks: \_\_\_ Koha record level itemtype info on detail and result pages in the OPAC and 
+staff interface. This info also displays if the :ref:`item-level_itypes` system preference 
+is set to bibliographic record..
+
+Description:
+
+-  If enabled the icons for the record itemtype (942c) will be displayed on the record detail and 
+   search result pages in both the OPAC and staff interface.
+
 .. _defaultsortfield-and-defaultsortorder-label:
 
 defaultSortField and defaultSortOrder
