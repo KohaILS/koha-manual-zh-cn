@@ -251,6 +251,22 @@ Values:
 
 -  Enable
 
+.. _oai-pmh-autoupdatesetsembeditemdata-label:
+
+OAI-PMH:AutoUpdateSetsEmbedItemData
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Default: Disable
+
+Asks: \_\_\_ embedding of item data when automatically updating OAI-PMH sets.
+NOTE: This needs :ref:`OAI-PMH:AutoUpdateSets` syspref to be enabled.
+
+Values:
+
+-  Disable
+
+-  Enable
+
 .. _oai-pmh-conffile-label:
 
 OAI-PMH:ConfFile
