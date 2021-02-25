@@ -1781,8 +1781,9 @@ in if the :ref:`CalculateFinesOnReturn` system preference is enabled.
 Pay and Writeoff fines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Each line item can be paid in full (or written off) using the 'Make a payment' 
-tab.
+Each line item can be paid in full (or written off) using the 'Pay charges' 
+tab.  You can switch between 'Pay' and 'Write off' mode using the buttons located at  
+the top of this tab if you are part way through a transaction.   
 
 |image451|
 
