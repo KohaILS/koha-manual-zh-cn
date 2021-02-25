@@ -898,16 +898,24 @@ The item record will also show that the item is on hold.
 
 |image563|
 
-In some cases a patron may come in to pick up a hold for their partner
-(or someone else in their household). In this case you want to make sure
-that the hold is cancelled when you check the item out to someone else.
-When trying to check out an item that is already waiting for someone
-else you will be presented with a warning message.
+In some cases a patron may come in to pick up a hold on behalf of someone else.
+In this case you want to make sure that the hold is cancelled when you check the item 
+out to someone else. Alternatively a check out might be attempted in error for an item that 
+is already waiting for someone else.  In this case you will be presented with a warning message.
 
 |image564|
 
 From here you can check the item out to the patron at the desk and
-cancel the hold for the patron.
+cancel the hold for the patron.  If the hold should remain in place you can choose not to check out.
+
+If you try to check in an item that already waiting on the hold shelf you will be presented with the 
+following message.
+
+|holdwaitingcheckinwarn|
+
+From here you can click on 'Confirm hold' to keep the existing hold or use the 'Cancel hold' option 
+to remove the hold.  If you cancel the hold and further holds exist for the item you will be 
+presented with a new option to confirm the hold for the next patron.
 
 .. _transfers-label:
 
