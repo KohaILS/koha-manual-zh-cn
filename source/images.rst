@@ -96,6 +96,10 @@
 
 .. CIRCULATION
 
+.. |holdwaitingcheckinwarn| image:: images/circ/holdwaitingcheckinwarn.png
+				:alt: Hold found item is already waiting checkin message
+
+		
 .. COURSE RESERVES
 
 .. ILL
