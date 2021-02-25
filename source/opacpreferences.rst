@@ -2376,7 +2376,7 @@ OpacHiddenItems system preference.
 OpacRenewalAllowed
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't allow
+Default: Allow
 
 Asks: \_\_\_ patrons to renew their own books on the OPAC.
 
