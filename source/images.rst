@@ -112,8 +112,37 @@
 
 .. OPAC
 
+.. |allowautorenewal| image:: images/opac/allowautorenewal.png
+				:alt: An option to update auto-renewal preferences
+
+.. |forgotpwlink| image:: images/opac/forgotpwlink.png
+				:alt: Under the login fields, there is a 'Forgot your password' link
+
+.. |maxoutstanding| image:: images/opac/maxoutstanding.png
+				:alt: Warning message saying Please note Your account has outstanding fees & charges of 2.00. Holds are blocked because your fine balance is over the limit.
+
+
+.. |OPACFineNoRenewals| image:: images/opac/OPACFineNoRenewals.png
+				:alt: Warning message saying Please note You cannot renew your books online. Reason: Your fines exceed 1.00. 
+
 .. |opacholdshistory| image:: images/opac/opacholdshistory.png
 				:alt: Screenshot of the holds history table in the patron's account on the OPAC.
+
+.. |OPACUserSummary| image:: images/opac/OPACUserSummary.png
+				:alt: A small box with the number of checkouts, overdues, holds and pending charges has replaced the login fields
+
+.. |resetconfirm| image:: images/opac/resetconfirm.png
+				:alt: Confirmation message says You will receive an email shortly. Please click the link in this email to finish the process of resetting your password. This link is valid for 2 days starting now. Return to the main page
+
+.. |reseterror| image:: images/opac/reseterror.png
+				:alt: An error message says No account was found with the provided information. Please contact the library if you need further assistance.
+
+.. |resetpw| image:: images/opac/resetpw.png
+				:alt: The reset password form
+
+.. |yoursummary| image:: images/opac/yoursummary.png
+				:alt: View of the account summary on the OPAC
+
 
 .. PATRONS
 
@@ -1238,9 +1267,6 @@
 .. |image999| image:: images/opac/PatronSelfRegistration.png
 .. |image1000| image:: images/opac/patronregistration.png
 .. |image1001| image:: images/opac/patronregistrationcomplete.png
-.. |image1002| image:: images/opac/forgotpwlink.png
-.. |image1003| image:: images/opac/myaccount.png
-.. |image1004| image:: images/opac/opacsummary-wlinks.png
 .. |image1005| image:: images/opac/SHOW_BCODEadd.png
 .. |image1006| image:: images/opac/SHOW_BCODEattribute.png
 .. |image1007| image:: images/opac/barcodeoncheckouts.png
@@ -1524,8 +1550,6 @@
 .. |image1299| image:: images/opac/iteminyourcart.png
 .. |image1300| image:: images/opac/cartmoredetails.png
 .. |image1301| image:: images/opac/AllowHoldItemTypeSelection.png
-.. |image1302| image:: images/opac/resetpw.png
-.. |image1303| image:: images/opac/resetconfirm.png
 .. |image1304| image:: images/opac/relativecheckouts.png
 .. |image1305| image:: images/opac/suspenduntil.png
 .. |image1306| image:: images/opac/finescheckboxes.png
@@ -1681,7 +1705,6 @@
 				:alt: Patron guarantor section of the add new patron form with a patron selected as guarantor
 .. |image1466| image:: images/patrons/addmainaddress.png
 				:alt: Main address section of the add new patron form
-.. |image1467| image:: images/opac/allowautorenewal.png
 .. |image1468| image:: images/patrons/deletepatronfines.png
 .. |image1469| image:: images/patrons/deletepatron.png
 .. |image1470| image:: images/patrons/deletepatroncheckout.png

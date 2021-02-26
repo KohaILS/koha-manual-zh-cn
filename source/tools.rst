@@ -808,8 +808,9 @@ information in these notices. Here are some of what those notices do:
 
 -  PASSWORD_RESET
 
-   -  This notice is sent when a patron requests a new password from the
-      OPAC in order to validate the email address.
+   -  This notice is sent when 
+      :ref:`a patron requests a new password from the OPAC <resetting-your-password-label>` 
+      in order to validate the email address.
 
    -  The password reset feature is controlled by the :ref:`OpacResetPassword`
       system preference.

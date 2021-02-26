@@ -764,60 +764,85 @@ and add a cardnumber/barcode.
 .. _your-account-label:
 
 Your account
--------------------------------
+-------------------------------------------------------------------------------
 
-From the OPAC patrons can log in and access their account if you have
-set the :ref:`opacuserlogin` preference to 'Allow'. Once
-logged in patrons are brought to their account summary. If you would
-like to get to your account in the OPAC, you can click on your name in
-the top right of any page in the OPAC.
+If the :ref:`opacuserlogin` system preferenceis set to 'Allow', patrons can 
+log in and access their account.
+
+Once logged in patrons are brought to their 
+:ref:`account summary <your-summary-label>`. 
+
+If patrons access the home page while logged in, and :ref:`OPACUserSummary` is 
+set to 'Show', they will see a small summary of their account instead of the 
+login fields.
+
+|OPACUserSummary|
+
+From any page on the OPAC, clicking on their name at the top right of the page 
+will bring a patron back to their account.
 
 .. _resetting-your-password-label:
 
 Resetting your password
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have the :ref:`OpacResetPassword` set to allow
-patrons to reset their password they can click 'Forgot your password?'
-link found under the log in box to reset their passwords.
+If you have the :ref:`OpacResetPassword` system preference set to 'Allow',
+patrons can reset their password by clicking the 'Forgot your password?'
+link found under the login box.
 
-|image1002|
+|forgotpwlink|
 
-Once clicked they will be presented with a form asking for their
-username and their email address (patrons must have an email address on
-file to reset their password).
+Once clicked, they will be presented with a form asking for their
+username and their email address.
 
-|image1302|
+|resetpw|
+
+.. Warning ::
+
+   Patrons **must** have an email address on file to reset their password.
+   If they don't have an email address already in their file, they will get 
+   an error message
+
+   |reseterror|
 
 The system will then email the patron instructions for resetting their
 password.
 
-|image1303|
+|resetconfirm|
+
+The content of the email can be cutomized with the 
+:ref:`Notices and slips tool <notices-and-slips-label>`. The code of the letter 
+is PASSWORD\_RESET.
 
 .. _your-summary-label:
 
 Your summary
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image1003|
+From the 'your summary' tab, patrons will see all of the items they have 
+checked out with the overdue items highlighted in red. 
 
-From the 'your summary' tab, patrons will see all of the items they have
-checked out with the overdue items highlighted in red. If you have
-:ref:`OpacRenewalAllowed` set to 'Allow' then your
-patrons will be able to renew their books right from the OPAC.  If the patron has charges
-exceeding the value set in :ref:`OPACFineNoRenewals` a note will display explaining that
-renewals cannot be made.
+|yoursummary|
 
-A note will display if the patron cannot place holds due to their charges exceeding the 
-value set in the :ref:`maxoutstanding` system preference.
+If :ref:`OpacRenewalAllowed` set to 'Allow', patrons will be able to renew 
+their checkouts from the OPAC.
 
-|image1004|
+If the patron has pending charges exceeding the value set in 
+:ref:`OPACFineNoRenewals`, a note will display explaining that renewals cannot 
+be made.
+
+|OPACFineNoRenewals|
+
+A note will display if the patron cannot place holds due to their charges 
+exceeding the value set in the :ref:`maxoutstanding` system preference.
+
+|maxoutstanding|
 
 If :ref:`AllowPatronToControlAutoRenewal` is set to 'Allow patrons', patrons 
 will be able to choose whether or not they want their checkouts to be 
 renewed automatically.
 
-|image1467|
+|allowautorenewal|
 
 If you have HTML entered in the :ref:`OPACMySummaryHTML`
 preference then you will see that to the right of the 'Fines' column.
