@@ -481,12 +481,10 @@ Options
 .. _audioalerts-label:
 
 AudioAlerts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't enable
-
-Asks: \_\_\_ audio alerts for events defined in the audio alerts section
-of administration.
+Asks: \_\_\_ audio alerts for events defined in the 
+:ref:`audio alerts section of administration <audio-alerts-label>`.
 
 Values:
 
@@ -494,10 +492,17 @@ Values:
 
 -  Enable
 
-    **Important**
+Default: Don't enable
 
-    This feature is not supported by all browsers. Requires an HTML5
-    compliant browser.
+Description : 
+
+-  This system preference enables the :ref:`audio alerts <audio-alerts-label>` 
+   feature.
+
+.. Warning ::
+
+   This feature is not supported by all browsers. Requires an HTML5 compliant 
+   browser.
 
 .. _hidepatronname-label:
 
