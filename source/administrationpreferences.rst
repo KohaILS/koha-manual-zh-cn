@@ -495,18 +495,18 @@ Description:
 .. _independentbranches-label:
 
 IndependentBranches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: Don't prevent
+Asks: Prevent staff (but not superlibrarians) from modifying objects
+(holds, items, patrons, etc.) belonging to other libraries: \_\_\_
 
-Asks: \_\_\_ staff (but not superlibrarians) from modifying objects
-(holds, items, patrons, etc.) belonging to other libraries.
+Default: No
 
 Values:
 
--  Don't prevent
+-  No
 
--  Prevent
+-  Yes
 
 Description:
 
@@ -514,22 +514,31 @@ Description:
    sharing a single Koha installation among multiple branches but are
    considered independent organizations, meaning they do not share
    material or patrons with other branches and do not plan to change
-   that in the future. If set to 'Prevent' it increases the security
-   between library branches by: prohibiting staff users from logging
-   into another branch from within the staff client, filtering out
-   patrons from patron searches who are not a part of the login branch
-   conducting the search, limiting the location choices to the login
-   branch when adding or modifying an item record, preventing users from
-   other branch locations from placing holds or checking out materials
-   from library branches other than their own, and preventing staff from
-   editing item records which belong to other library branches. All of
-   these security safeguards can be overridden only by the
+   that in the future. If set to 'Yes' it increases the security
+   between library branches by: 
+
+   -  prohibiting staff users from logging into another branch from within the 
+      staff interface, 
+
+   -  filtering out patrons from patron searches who are not a part of the 
+      login branch conducting the search, 
+
+   -  limiting the location choices to the login branch when adding or 
+      modifying an item record, 
+
+   -  preventing users from other branch locations from placing holds or 
+      checking out materials from library branches other than their own, and 
+
+   -  preventing staff from editing item records which belong to other library 
+      branches. 
+
+   All of these security safeguards can be overridden only by the 
    superlibrarian, the highest level of privileges.
 
-    **Important**
+.. Warning ::
 
-    It is important that this value be set before going live and that it
-    NOT be changed
+   It is important that this value be set before going live and that it
+   **NOT** be changed while in production.
 
 .. _independentbranchespatronmodifications-label:
 
