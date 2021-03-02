@@ -1,0 +1,4608 @@
+# Compendium of pt.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-pt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2019-03-14 15:19-0300\n"
+"Language-Team: Koha Translation Team \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/patrons.rst:6
+msgid "Patrons"
+msgstr "Leitores"
+
+#: ../../source/patrons.rst:8
+#, fuzzy
+msgid "Before importing or adding patrons be sure to set up your :ref:`patron categories <patron-categories-label>`."
+msgstr "Importante: Estas preferências irão subscrever qualquer submetida na categoria de leitor"
+
+#: ../../source/patrons.rst:14
+#, fuzzy
+msgid "Add a new patron"
+msgstr "Adicionar um novo leitor:"
+
+#: ../../source/patrons.rst:16
+msgid "Patrons are added by going to the 'Patrons' module."
+msgstr "Os leitores são adicionados no módulo 'Leitores'."
+
+#: ../../source/patrons.rst:18 ../../source/patrons.rst:265
+#, fuzzy
+msgid "*Get there:* Patrons"
+msgstr "Ir para: "
+
+#: ../../source/patrons.rst:20
+#, fuzzy
+msgid "Once there you can add a new patron."
+msgstr "Não é possível adicionar o leitor."
+
+#: ../../source/patrons.rst:22
+#, fuzzy
+msgid "Click 'New patron'"
+msgstr "Clicar em 'Nova entrada' "
+
+#: ../../source/patrons.rst:24
+msgid "|image407|"
+msgstr "|image407|"
+
+#: ../../source/patrons.rst:26
+msgid "The fields that appear on the patron add form can be controlled by editing the :ref:`BorrowerUnwantedField` system preference."
+msgstr ""
+
+#: ../../source/patrons.rst:29
+#, fuzzy
+msgid "Required fields are defined in the :ref:`BorrowerMandatoryField` system preference"
+msgstr "Campos obrigatório são definidos na preferência do sistema BorrowerMandatoryField"
+
+#: ../../source/patrons.rst:32
+#, fuzzy
+msgid "First, enter the identifying information regarding your patron"
+msgstr "Primeiro insira informação de identificação para o leitor. "
+
+#: ../../source/patrons.rst:34
+msgid "|image408|"
+msgstr "|image408|"
+
+#: ../../source/patrons.rst:36
+#, fuzzy
+msgid "'Salutation' is populated by the :ref:`BorrowersTitles` system preference"
+msgstr "A saudação é populada pela preferência de sistema BorrowersTitles"
+
+#: ../../source/patrons.rst:38 ../../source/patrons.rst:91
+#: ../../source/patrons.rst:103 ../../source/patrons.rst:134
+#: ../../source/patrons.rst:176 ../../source/patrons.rst:233
+#: ../../source/patrons.rst:343 ../../source/patrons.rst:445
+#: ../../source/patrons.rst:541 ../../source/patrons.rst:572
+#: ../../source/patrons.rst:629 ../../source/patrons.rst:890
+#: ../../source/patrons.rst:917 ../../source/patrons.rst:955
+#: ../../source/patrons.rst:1368 ../../source/patrons.rst:1375
+#: ../../source/patrons.rst:1434 ../../source/patrons.rst:1479
+#: ../../source/patrons.rst:1512 ../../source/patrons.rst:1521
+#: ../../source/patrons.rst:1526 ../../source/patrons.rst:1601
+#: ../../source/patrons.rst:1643 ../../source/patrons.rst:1789
+#: ../../source/patrons.rst:1827 ../../source/patrons.rst:2009
+#: ../../source/patrons.rst:2032 ../../source/patrons.rst:2141
+#: ../../source/patrons.rst:2146 ../../source/patrons.rst:2181
+#: ../../source/patrons.rst:2262 ../../source/patrons.rst:2410
+#: ../../source/patrons.rst:2461
+#, fuzzy
+msgid "**Note**"
+msgstr "Nota"
+
+#: ../../source/patrons.rst:40
+msgid "If you'd like to prevent full names from printing on :ref:`slips <notices-and-slips-label>` and you're not using the Initials or Other name fields for anything else, you can use them for shortened versions of the name to then be printed on the slip."
+msgstr ""
+
+#: ../../source/patrons.rst:45
+#, fuzzy
+msgid "For example:"
+msgstr "Alguns exemplos:"
+
+#: ../../source/patrons.rst:53
+msgid "Then on the slip you can have it print the <<borrowers.initials>> instead of the full name (NCE)."
+msgstr ""
+
+#: ../../source/patrons.rst:56
+msgid "Or you could do something like this:"
+msgstr ""
+
+#: ../../source/patrons.rst:64
+msgid "Then on the slip you can have it print the <<borrowers.initials>>, <<borrowers.firstname>> instead of the full name (E, Nicole)."
+msgstr ""
+
+#: ../../source/patrons.rst:68
+#, fuzzy
+msgid "If this patron is a child, you will be asked to attach the child patron to an adult patron (guarantor)"
+msgstr "Se o leitor for uma criança, será pedido para ligar o leitor a um leitor adulto "
+
+#: ../../source/patrons.rst:71
+msgid "**Note** Guarantors can only be attached to patrons whose :ref:`category <patron-categories-label>` is of the 'Child', 'Professional' or 'Organization' type."
+msgstr ""
+
+#: ../../source/patrons.rst:75
+msgid "|image410|"
+msgstr "|image410|"
+
+#: ../../source/patrons.rst:77
+#, fuzzy
+msgid "If the guarantor is a patron of the library, click 'Search to add' to search your system for an existing patron"
+msgstr "Clicar em 'Definir para o leitor' para pesquisar o sistema por um leitor"
+
+#: ../../source/patrons.rst:80
+#, fuzzy
+msgid "|image1463|"
+msgstr "|image1463|"
+
+#: ../../source/patrons.rst:82
+msgid "Click 'Select' to choose the patron"
+msgstr ""
+
+#: ../../source/patrons.rst:84
+#, fuzzy
+msgid "|image1464|"
+msgstr "|image1464|"
+
+#: ../../source/patrons.rst:86
+#, fuzzy
+msgid "The relationships are set using the :ref:`borrowerRelationship` system preference"
+msgstr "As relações são definidas usando a preferência de sistema borrowerRelationship"
+
+#: ../../source/patrons.rst:89
+#, fuzzy
+msgid "|image1465|"
+msgstr "|image1465|"
+
+#: ../../source/patrons.rst:93
+msgid "It is possible to add more than one guarantor to a patron account (both parents for example)."
+msgstr ""
+
+#: ../../source/patrons.rst:96
+msgid "If the guarantor is not a patron, you can still add their information in the 'Non-patron guarantor' section."
+msgstr ""
+
+#: ../../source/patrons.rst:99
+#, fuzzy
+msgid "Next enter the main address and contact information"
+msgstr "Inserir as informações de contacto "
+
+#: ../../source/patrons.rst:101
+#, fuzzy
+msgid "|image1466|"
+msgstr "|image1466|"
+
+#: ../../source/patrons.rst:105
+msgid "The street type is populated by the ROADTYPE :ref:`authorized values <existing-values-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:108
+msgid "|image409|"
+msgstr "|image409|"
+
+#: ../../source/patrons.rst:110
+#, fuzzy
+msgid "For contact information, note that the primary phone number and primary email address are the ones that appear on notices and slips printed during circulation (receipts, transfer slips and hold slips). The primary email is also the one that overdue notices and other messages go to."
+msgstr "Para informação de contacto, note que o primeiro telefone e endereço de email são os que aparecerão nas avisos e recibos impressos durante a circulação. O email primário ser usado para envio de avisos de atrasos e outras mensagens."
+
+#: ../../source/patrons.rst:116
+#, fuzzy
+msgid "You can also record an alternate address for each patron. This could be used in an academic setting to store the patron's home address for example."
+msgstr "Um contacto alternativo pode ser de um parente. Pode ser usado também no âmbito académico para guardar o endereço de casa do leitor."
+
+#: ../../source/patrons.rst:119
+msgid "|image411|"
+msgstr "|image411|"
+
+#: ../../source/patrons.rst:121
+msgid "Each patron can have an alternate contact. An alternate contact could be a parent or guardian, for example."
+msgstr ""
+
+#: ../../source/patrons.rst:124
+msgid "|image412|"
+msgstr "|image412|"
+
+#: ../../source/patrons.rst:126
+#, fuzzy
+msgid "The library management section includes values that are used within the library"
+msgstr "A secção de gestão da biblioteca inclui valores que são usados dentro da biblioteca "
+
+#: ../../source/patrons.rst:129
+msgid "|image413|"
+msgstr "|image413|"
+
+#: ../../source/patrons.rst:131
+#, fuzzy
+msgid "The card number field is automatically calculated if you have the :ref:`autoMemberNum` system preference set that way"
+msgstr "O número de cartão é preenchido automaticamente se a preferência autoMemberNum estiver definida para tal"
+
+#: ../../source/patrons.rst:136
+msgid "For a newly installed system this preference will start at 1 and increment by 1 each time after. To have it start with the starting number of your barcodes, enter the first barcode by hand in the patron record and save the patron. After that the field will increment that number by 1."
+msgstr "Para um sistema instalado de novo a preferência irá começar no 1 e será incrementada por cada inserção. Para que o sistema comece no número dos seus códigos de barras, insira o primeiro código de barras à mão no leitor e guarde. Após essa iteração o campo será sempre incrementado em 1 unidade."
+
+#: ../../source/patrons.rst:142
+msgid "If you accidentally chose the wrong patron category at the beginning you can fix that here"
+msgstr "Se escolher acidentalmente uma categoria de leitor errado no início pode corrigir isso aqui"
+
+#: ../../source/patrons.rst:145
+msgid "Sort 1 and 2 are used for statistical purposes within your library"
+msgstr "Critério 1 e 2 são usados para fins estatístico da biblioteca"
+
+#: ../../source/patrons.rst:147
+msgid "You can create drop-down menus for these fields by adding values in the Bsort1 and Bsort2 :ref:`authorized values categories <existing-values-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:150
+msgid "'Allow auto-renewal of items' is used to control whether this patron wants to automatically renew their checkouts. This requires the :ref:`automatic_renewal cronjob <cron-automatic-renewal-label>` to run daily."
+msgstr ""
+
+#: ../../source/patrons.rst:155
+msgid "'Check for previous checkouts' is used to set the patron's personal preference regarding checking their circulation history to see if they have borrowed This item in the past. This overrides the setting of the :ref:`patron category <adding-a-patron-category-label>` and of the :ref:`CheckPrevCheckout` system preference."
+msgstr ""
+
+#: ../../source/patrons.rst:161
+#, fuzzy
+msgid "Next, the library set-up section includes additional library settings"
+msgstr "De seguinda, a secção de configuração da biblioteca inclui configurações adicionais "
+
+#: ../../source/patrons.rst:163 ../../source/patrons.rst:2434
+msgid "|image414|"
+msgstr "|image414|"
+
+#: ../../source/patrons.rst:165
+msgid "The registration date will automatically be filled in with today's date"
+msgstr "A data de inscrição será automaticamente preenchida com a data de hoje"
+
+#: ../../source/patrons.rst:168
+#, fuzzy
+msgid "The expiry date will automatically be calculated based on your :ref:`patron category settings <patron-categories-label>`"
+msgstr "Importante: Estas preferências irão subscrever qualquer submetida na categoria de leitor"
+
+#: ../../source/patrons.rst:171
+#, fuzzy
+msgid "The OPAC note is a note for the patron, it will appear in the patron's online account on the OPAC"
+msgstr "A nota pública é uma nota para o leitor - aparece no OPAC no registo do leitor"
+
+#: ../../source/patrons.rst:174 ../../source/patrons.rst:2439
+#, fuzzy
+msgid "|image1504|"
+msgstr "|image1504|"
+
+#: ../../source/patrons.rst:178
+msgid "See also :ref:`OPAC messages <opac-messages-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:180
+#, fuzzy
+msgid "The Circulation note is meant solely for your library staff and will appear when the circulation staff goes to check an item out to the patron"
+msgstr "A Nota de circulação existe apenas para os técnicos e irá aparecer aquando da operação de empréstimo ao leitor"
+
+#: ../../source/patrons.rst:184
+msgid "|image415|"
+msgstr "|image415|"
+
+#: ../../source/patrons.rst:186
+#, fuzzy
+msgid "The 'OPAC/Staff interface login' section asks for the username and password to be used by the patron (or staff member) to log into their account in the OPAC and for staff to log in to the staff interface."
+msgstr "O OPAC e o interface pedem a nome de utilizador e a palavra-passe do leitor para que o mesmo possa entrar na sua conta no OPAC ou entrar como técnico no interface dos técnicos."
+
+#: ../../source/patrons.rst:190
+msgid "Staff will only be able to use this login information to log in to the staff interface if they have at least the :ref:`catalogue permission <patron-permissions-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:194
+msgid "If you have enabled the housebound module (with the :ref:`HouseboundModule` system preference), you will be able to choose a :ref:`housebound role <housebound-patrons-label>` for this patron."
+msgstr ""
+
+#: ../../source/patrons.rst:198
+#, fuzzy
+msgid "|image1509|"
+msgstr "|image1509|"
+
+#: ../../source/patrons.rst:200
+#, fuzzy
+msgid "If you have set :ref:`additional patron attributes <patron-attribute-types-label>` in the administration module, these will appear next"
+msgstr "Se definiu atributos adicionais para os leitores, eles aparecerão"
+
+#: ../../source/patrons.rst:203
+msgid "|image416|"
+msgstr "|image416|"
+
+#: ../../source/patrons.rst:205
+#, fuzzy
+msgid "Finally, if you have the :ref:`EnhancedMessagingPreferences` system preference set to 'allow,' you can choose the messaging preferences for this patron."
+msgstr "Por fim, se a preferência EnhancedMessagingPreferences estiver activa, pode escolher as preferências de mensagem para o leitor. "
+
+#: ../../source/patrons.rst:209 ../../source/patrons.rst:2496
+msgid "|image417|"
+msgstr "|image417|"
+
+#: ../../source/patrons.rst:211
+msgid "See the definition of each notice in the :ref:`advance notices and hold notices <advance-notices-and-hold-notices-label>` section"
+msgstr ""
+
+#: ../../source/patrons.rst:215 ../../source/patrons.rst:220
+#: ../../source/patrons.rst:290 ../../source/patrons.rst:373
+#: ../../source/patrons.rst:594 ../../source/patrons.rst:685
+#: ../../source/patrons.rst:702 ../../source/patrons.rst:1332
+#: ../../source/patrons.rst:2203
+#, fuzzy
+msgid "**Important**"
+msgstr "Importante "
+
+#: ../../source/patrons.rst:217
+#, fuzzy
+msgid "These preferences will override any you set via the :ref:`patron categories <adding-a-patron-category-label>`"
+msgstr "Importante: Estas preferências irão subscrever qualquer submetida na categoria de leitor"
+
+#: ../../source/patrons.rst:222
+msgid "These preference can be altered by the patron via the OPAC if the :ref:`EnhancedMessagingPreferencesOPAC` system preference is set to 'show'"
+msgstr ""
+
+#: ../../source/patrons.rst:226
+msgid "Once finished, click 'Save'"
+msgstr "Quando terminar, clique em 'Guardar'"
+
+#: ../../source/patrons.rst:228
+msgid "If the system suspects this patron is a duplicate of another it will warn you."
+msgstr "Se o sistema suspeitar que o leitor é um duplicado de outro irá produzir um aviso."
+
+#: ../../source/patrons.rst:231
+msgid "|image418|"
+msgstr "|image418|"
+
+#: ../../source/patrons.rst:235
+msgid "See the :ref:`PatronDuplicateMatchingAddFIelds` system preference to see or change which fields are used to detect duplicate patrons. The default is the surname, the firstname and the date of birth."
+msgstr ""
+
+#: ../../source/patrons.rst:239
+msgid "If you have set a minimum or upper age limit on the patron category and are requiring that the birth date be filled in, Koha will warn you if the patron you're adding is too old or young for the patron category you have selected:"
+msgstr ""
+
+#: ../../source/patrons.rst:244
+msgid "|image419|"
+msgstr "|image419|"
+
+#: ../../source/patrons.rst:246
+msgid "If the patron's :ref:`category <patron-categories-label>` has an enrollment fee, the fee will be charged to the patron's account when the account is created. You can then manage the charge in the patron's :ref:`accounting tab <fines-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:253
+#, fuzzy
+msgid "Quick add a patron"
+msgstr "Adicionar um novo leitor (rápido) "
+
+#: ../../source/patrons.rst:255
+msgid "If your circulation desk is very busy and you want to register patron quickly, you can use the 'quick add' feature. It's a shortened version of the add patron form with only a couple of necessary fields to fill out."
+msgstr ""
+
+#: ../../source/patrons.rst:259
+msgid "This feature uses two system preferences: :ref:`BorrowerMandatoryField` and :ref:`PatronQuickAddFields`. These are the two system preferences that control which fields are in the quick add form."
+msgstr ""
+
+#: ../../source/patrons.rst:263
+#, fuzzy
+msgid "To quick add a patron, go to the Patrons module"
+msgstr "Os leitores são adicionados no módulo 'Leitores'."
+
+#: ../../source/patrons.rst:267
+#, fuzzy
+msgid "Click on the 'Quick add new patron' button."
+msgstr "Clicar no link 'Adicionar um novo conjunto'"
+
+#: ../../source/patrons.rst:269
+#, fuzzy
+msgid "You will be asked to choose a patron category."
+msgstr "Por favor adicione uma categoria de leitor"
+
+#: ../../source/patrons.rst:271
+#, fuzzy
+msgid "Then, you will be presented with a shortened form."
+msgstr "Quando selecionar 'Fechar' será mostrado um formulário."
+
+#: ../../source/patrons.rst:273
+msgid "|image1346|"
+msgstr "|image1346|"
+
+#: ../../source/patrons.rst:275
+#, fuzzy
+msgid "Once the form is filled out, click on 'Save'."
+msgstr "Quando terminar, clique em 'Guardar'"
+
+#: ../../source/patrons.rst:277
+msgid "If you need to access the full form, you can click on 'Show full form' above the 'Save' button."
+msgstr ""
+
+#: ../../source/patrons.rst:283
+#, fuzzy
+msgid "Add a staff patron"
+msgstr "Adicionar um leitor Staff"
+
+#: ../../source/patrons.rst:285
+#, fuzzy
+msgid "All staff members must be entered into Koha as patrons of the 'Staff' type. Follow the steps in :ref:`Add a Patron <add-a-new-patron-label>` to add a staff member. To give the staff member permissions to access the staff client, follow the steps in :ref:`patron permissions <patron-permissions-label>`"
+msgstr "Todos os membros do staff deverão ser inseridos no Koha como leitores do tipo 'Staff'. Siga os passos para adicionar um leitor como membro do staff. Para dar permissões ao staff para aceder ao interface de bibliotecários, siga os passos das Permissões de leitor"
+
+#: ../../source/patrons.rst:292
+msgid "Remember to assign your staff secure usernames and passwords since these will be used to log into the staff client."
+msgstr "Relembre-se de associar ao seu staff nomes de utilizador e palavras-passe uma vez que os mesmos vão usar o interface dos técnicos."
+
+#: ../../source/patrons.rst:298
+#, fuzzy
+msgid "Add a statistical patron"
+msgstr "Adicionar um leitor Staff"
+
+#: ../../source/patrons.rst:300
+msgid "One way to track use of in house items is to \"check out\" the materials to a statistical patron. The \"check out\" process doesn’t check the book out, but instead tracks an in house use of the item. To use this method for tracking in house use you first will need a :ref:`patron category <patron-categories-label>` set up for your statistical patron."
+msgstr ""
+
+#: ../../source/patrons.rst:306
+msgid "|image420|"
+msgstr "|image420|"
+
+#: ../../source/patrons.rst:308
+msgid "Next, you will need to create a new patron of the statistical type."
+msgstr ""
+
+#: ../../source/patrons.rst:310
+msgid "|image421|"
+msgstr "|image421|"
+
+#: ../../source/patrons.rst:312
+msgid "Next, follow the steps put forth in the ':ref:`Add a new patron <add-a-new-patron-label>`' section of this manual. Since this patron is not a real person, simply fill in the required fields, the correct library and nothing else."
+msgstr ""
+
+#: ../../source/patrons.rst:317
+msgid "To learn about other methods of tracking in house use visit the :ref:`tracking inhouse use <tracking-in-house-use-label>` section of this manual."
+msgstr ""
+
+# Traduzido do Francês por Ricardo Dias Marques (em 28-Mai-2009)
+#: ../../source/patrons.rst:323
+#, fuzzy
+msgid "Duplicate a patron"
+msgstr "Duplicar leitor"
+
+#: ../../source/patrons.rst:325
+msgid "Sometimes when you're adding a new family to your system you don't want to type the contact information over and over. Koha allows for you to duplicate a patron and change only the parts you want to (or need to) change."
+msgstr "Por vezes quando se encontra a adicionar uma nova família no sistema não deseja inserir a mesma informação de contacto várias vezes. O Koha permite duplica um leitor e alterar apenas as partes que deseja (ou precisa) de alterar."
+
+#: ../../source/patrons.rst:330
+msgid "Open the patron you want to use as your base (the patron you want to duplicate information from)"
+msgstr "Abra o leitor que deseja usar como base (o leitor que deseja duplicar a informação)"
+
+#: ../../source/patrons.rst:333
+msgid "Click the 'Duplicate' button at the top of their record"
+msgstr "Clicar no botão 'Duplicar' no topo do registo"
+
+#: ../../source/patrons.rst:335
+msgid "|image422|"
+msgstr "|image422|"
+
+#: ../../source/patrons.rst:337
+#, fuzzy
+msgid "All of the fields with the exception of first name, card number, username and password have been duplicated. Fill in the missing pieces and click 'Save'"
+msgstr "Todos os campos excepto primeiro nome, número de cartão, nome de utilizador e palavra-passe foram duplicados. Preencha os campos em falta e guarde "
+
+#: ../../source/patrons.rst:341
+msgid "|image423|"
+msgstr "|image423|"
+
+#: ../../source/patrons.rst:345
+#, fuzzy
+msgid "Clicking in a field that is already populated with data will clear that field of all information (making it easier for you to type in something different)"
+msgstr "DICA: Ao clicar num campo já populado com dados irá limpar esse campo de toda a informação (tornando mais simples o inserção de algo diferente)"
+
+#: ../../source/patrons.rst:349
+msgid "You will be brought to your new patron"
+msgstr "Será reencaminhado para o novo leitor"
+
+#: ../../source/patrons.rst:351
+msgid "|image424|"
+msgstr "|image424|"
+
+#: ../../source/patrons.rst:356
+#, fuzzy
+msgid "Add patron images"
+msgstr "Carregar fotografias dos leitores"
+
+#: ../../source/patrons.rst:358
+msgid "If you would like you can add patron images to help identify patrons. To enable this feature you must first set the :ref:`patronimages` preference to 'Allow'."
+msgstr ""
+
+#: ../../source/patrons.rst:362
+msgid "If the preference is set to 'Allow' you will see a placeholder image under the patron's name and box to upload a patron image below the basic contact information."
+msgstr ""
+
+#: ../../source/patrons.rst:366
+msgid "|image425|"
+msgstr "|image425|"
+
+#: ../../source/patrons.rst:368
+msgid "In the 'Upload patron image' box click 'Browse' to find the image on your computer and 'Upload' to load the image on to the patron record."
+msgstr ""
+
+#: ../../source/patrons.rst:371
+msgid "|image426|"
+msgstr "|image426|"
+
+#: ../../source/patrons.rst:375
+#, fuzzy
+msgid "There is a limit of 100K on the size of the picture uploaded and it is recommended that the image be 200x300 pixels, but smaller images will work as well."
+msgstr "Importante: Há um limite de 520K no tamanho da imagem carregada e recomenda-se que a imagem seja 200x300 pixeis, mas com imagens menores vai funcionar bem."
+
+#: ../../source/patrons.rst:382
+#, fuzzy
+msgid "Editing patrons"
+msgstr "Modificar leitores"
+
+#: ../../source/patrons.rst:384
+msgid "Patrons in Koha can be edited using one of many edit buttons."
+msgstr "Os leitores no Koha podem ser editados usando um dos muitos botões de edição."
+
+#: ../../source/patrons.rst:386
+msgid "To edit the entire patron record simply click the 'Edit' button at the top of the patron record."
+msgstr "Para editar todo o leitor carregue no botão 'Editar' no topo do registo de leitor."
+
+#: ../../source/patrons.rst:389 ../../source/patrons.rst:2453
+msgid "|image427|"
+msgstr "|image427|"
+
+#: ../../source/patrons.rst:391
+#, fuzzy
+msgid "Patron passwords are not recoverable. The stars show on the patron detail next to the password label are always there even if a password isn't set. If a patron forgets their password the only option is to reset their password. To change the patron's password, click the 'Change password' button."
+msgstr "As palavras-passe dos leitores não são recuperáveis. As estrelas que aparecem nos detalhes do leitor junto à etiqueta Palavra-passe aparecem mesmo que não esteja preenchida. Se um leitor se esquece da palavra-passe a única opção é reiniciar a mesma. Para alterar a palavra-passe carregue no botão 'Modificar palavra-passe'"
+
+#: ../../source/patrons.rst:397
+msgid "|image428|"
+msgstr "|image428|"
+
+#: ../../source/patrons.rst:399
+#, fuzzy
+msgid "Koha cannot display existing passwords as they are encrypted in the database. Leave the field blank to leave password unchanged."
+msgstr "O Koha não mostra palavras-chave. Deixe o campo vazio para não alterar a palavra-passe."
+
+#: ../../source/patrons.rst:402
+msgid "This form can automatically generate a random password if you click the link labeled \"Click to fill with a randomly generated suggestion. Passwords will be displayed as text.\""
+msgstr "Este formulário pode automaticamente gerar uma palavra-passe aleatória se clicar na ligação \"Clique para preenche com uma sugestão gerada aleatoriamente. Palavras-passe serão mostradas como texto.\""
+
+#: ../../source/patrons.rst:406
+#, fuzzy
+msgid "To edit a specific section of the patron record (for example the 'Library use' section) click the 'Edit' button beside the section."
+msgstr "Para editar uma secção especifica de um registo de leitor (por exempo a secção de biblioteca) carregue em 'Editar' debaixo da secção"
+
+#: ../../source/patrons.rst:409 ../../source/patrons.rst:2444
+msgid "|image429|"
+msgstr "|image429|"
+
+#: ../../source/patrons.rst:411
+#, fuzzy
+msgid "A patron image can be added by browsing for the image on your machine from the 'Manage patron image' section."
+msgstr "Uma imagem de leitor pode ser adicionado pela pesquisa da mesma na sua máquina a partir da secção de gestão da imagem de leitor "
+
+#: ../../source/patrons.rst:414
+msgid "|image430|"
+msgstr "|image430|"
+
+#: ../../source/patrons.rst:416
+#, fuzzy
+msgid "This form will not appear if you have the :ref:`patronimages` system preference to not allow patron images."
+msgstr "Este formulário não aparece se a preferência do sistema patronimages não permitir imagens de leitor"
+
+#: ../../source/patrons.rst:420
+#, fuzzy
+msgid "To add patron images in bulk, use the :ref:`Upload patron images <upload-patron-images-label>` tool."
+msgstr "Para adicionar imagens de leitor em bloco, use a ferramenta de carregamento de imagens de leitor"
+
+#: ../../source/patrons.rst:423
+#, fuzzy
+msgid "Patrons can also be blocked from checking items out by setting Patron flags"
+msgstr "Os leitores podem ser também bloqueado ao definir os sinais do leitor "
+
+#: ../../source/patrons.rst:426
+msgid "|image431|"
+msgstr "|image431|"
+
+#: ../../source/patrons.rst:428
+#, fuzzy
+msgid "If you would like your circulation staff to confirm a patron's address before checking items out to the patron, you can see the 'Gone no address' flag"
+msgstr "Se desejar que os técnicos verifiquem o endereço do leitor antes de emprestar exemplares ao mesmo, pode ver a condição 'Perdido sem endereço'"
+
+#: ../../source/patrons.rst:432
+msgid "|image432|"
+msgstr "|image432|"
+
+#: ../../source/patrons.rst:434
+#, fuzzy
+msgid "If the patron reports that they have lost their card you can set the 'Lost card' flag to prevent someone else from using that card to check items out"
+msgstr "Se o leitor reporta que perdeu o seu cartão pode definir o campo 'Cartão perdido' para prevenir que alguém use esse cartão para empréstimo indevidos"
+
+#: ../../source/patrons.rst:438
+msgid "|image433|"
+msgstr "|image433|"
+
+#: ../../source/patrons.rst:440
+#, fuzzy
+msgid "If you would like to bar a patron from the library you can add a manual restriction"
+msgstr "Se deseja bloquear um leitor de uma biblioteca basta definir a condição 'Restrito' "
+
+#: ../../source/patrons.rst:443
+msgid "|image434|"
+msgstr "|image434|"
+
+#: ../../source/patrons.rst:447
+#, fuzzy
+msgid "This flag can automatically be set with the :ref:`Overdue/notice status triggers <overdue-notice/status-triggers-label>`"
+msgstr "Este sinal pode ser definido automaticamente com os avisos de atraso"
+
+#: ../../source/patrons.rst:450
+msgid "If you enter in a date and/or note related to the restriction you will see that in the restricted message as well"
+msgstr "Se inseriu uma data e/ou uma nota relativa à restrição verá essa informação na mensagem de restrição"
+
+#: ../../source/patrons.rst:453
+msgid "|image435|"
+msgstr "|image435|"
+
+#: ../../source/patrons.rst:455
+#, fuzzy
+msgid "Children patrons do not become adults automatically in Koha unless you have the :ref:`Update patron categories <cron-update-patron-categories-label>` cron job running. To upgrade a child patron to and adult patron category manually go to the 'More' menu and choose 'Update child to adult patron'"
+msgstr "Leitores criança não ficam adultos automaticamente no Koha. Para actualizar uma criança em adulto é necessário clicar no botão 'Mais' e escolher 'Tornar criança em adulto' "
+
+#: ../../source/patrons.rst:460
+msgid "|image436|"
+msgstr "|image436|"
+
+#: ../../source/patrons.rst:462
+msgid "You will then be presented with a pop up window asking which one of your adult patron categories this Child should be updated to"
+msgstr "Aparecerá uma janela a perguntar para qual das categorias de adulto a criança deve ser actualizada"
+
+#: ../../source/patrons.rst:465
+msgid "|image437|"
+msgstr "|image437|"
+
+#: ../../source/patrons.rst:470
+#, fuzzy
+msgid "Renew patron account"
+msgstr "Moderar os comentários dos leitores"
+
+#: ../../source/patrons.rst:472
+msgid "When renewing a patron account you can either edit the the expiry date manually in the patron record or use the 'Renew patron' option from the More menu in the toolbar at the top."
+msgstr ""
+
+#: ../../source/patrons.rst:476
+msgid "|image1393|"
+msgstr "|image1393|"
+
+#: ../../source/patrons.rst:478
+msgid "Using the latter the new expiry date will be calculated using the enrollment period configured for the patron category of the user. The system preference :ref:`BorrowerRenewalPeriodBase` determines if the new expiry date will be calculated from the current date or from the old expiry date."
+msgstr ""
+
+#: ../../source/patrons.rst:484
+msgid "One advantage of using the 'Renew patron' option is that it will be logged as a membership renewal in the action_logs table and be visible as such when using the :ref:`Log viewer <log-viewer-label>` or the :ref:`Modificaton log <modification-log-label>` from the patron account."
+msgstr ""
+
+#: ../../source/patrons.rst:489
+msgid "The renewal date of the patron account will be visible on the details tab."
+msgstr ""
+
+#: ../../source/patrons.rst:491
+msgid "|image1392|"
+msgstr "|image1392|"
+
+#: ../../source/patrons.rst:493
+msgid "If the patron is in a :ref:`patron category <patron-categories-label>` with a membership fee, the charge will also be added upon renewal. You can then manage the charge in the patron's :ref:`accounting tab <fines-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:500
+#, fuzzy
+msgid "Deleting a patron account"
+msgstr "Moderar os comentários dos leitores"
+
+#: ../../source/patrons.rst:502
+msgid "From the 'More' drop-down, the patron account can be deleted."
+msgstr ""
+
+#: ../../source/patrons.rst:504
+#, fuzzy
+msgid "|image1469|"
+msgstr "|image1469|"
+
+#: ../../source/patrons.rst:506
+msgid "There will be an alert if the patron has checkouts, holds, fines or credits."
+msgstr ""
+
+#: ../../source/patrons.rst:508
+msgid "If a patron has current checkouts, the deletion will not be possible."
+msgstr ""
+
+#: ../../source/patrons.rst:510
+#, fuzzy
+msgid "|image1470|"
+msgstr "|image1470|"
+
+#: ../../source/patrons.rst:512
+msgid "If a patron has outstanding fines, the deletion will not be possible."
+msgstr ""
+
+#: ../../source/patrons.rst:514
+#, fuzzy
+msgid "|image1468|"
+msgstr "|image1468|"
+
+#: ../../source/patrons.rst:516
+msgid "If a patron has unused credits, the option to delete the patron is possible but there will be a warning."
+msgstr ""
+
+#: ../../source/patrons.rst:519
+#, fuzzy
+msgid "|image1471|"
+msgstr "|image1471|"
+
+#: ../../source/patrons.rst:521
+msgid "If a patron has existing holds on their account, the option to delete the patron is possible. The hold will be cancelled and moved to the old reserves table."
+msgstr ""
+
+#: ../../source/patrons.rst:525
+#, fuzzy
+msgid "|image1462|"
+msgstr "|image1462|"
+
+#: ../../source/patrons.rst:530
+#, fuzzy
+msgid "Managing patron self edits"
+msgstr "Gestão de reservas"
+
+#: ../../source/patrons.rst:532
+#, fuzzy
+msgid "If you are allowing patrons to edit their accounts via the OPAC with the :ref:`OPACPatronDetails` preference then you will need to approve all changes via the staff client before they're applied. If there are patron edits awaiting action they will appear on the staff client dashboard below the modules list (along with other items awaiting action)."
+msgstr "Se estiver a permitir os leitores editar as suas contas pelo OPAC com a preferência de sistema OPACPatronDetails então terá que aprovar as modificações no interface dos técnicos antes de serem aplicadas. Se houver edições de leitores a aguardar ações, as mesmas aparecerão na página principal do interface dos técnicos debaixo da lista de módulos (junto com outras ações à espera de moderação)."
+
+#: ../../source/patrons.rst:539
+msgid "|image438|"
+msgstr "|image438|"
+
+#: ../../source/patrons.rst:543
+msgid "Superlibrarians will see modifications for any branch, other staff will only see modifications for patrons who belong to their logged in branch."
+msgstr ""
+
+#: ../../source/patrons.rst:547
+msgid "When you click the 'Patrons requesting modifications' link you will be brought to a list of patrons with requested changes."
+msgstr "Quando carregar na ligação 'Modificações de leitores pendentes', serão apresentadas todas as modificações requeridas pelos leitores."
+
+#: ../../source/patrons.rst:550
+msgid "|image439|"
+msgstr "|image439|"
+
+#: ../../source/patrons.rst:552
+msgid "From here you can 'Approve' and apply the changes to the patron record, 'Delete' and remove the changes or 'Ignore' and keep the changes pending to review later."
+msgstr "A partir daqui pode 'Aprovar' e aplicar as alterações ao registo do leitor, 'Eliminar' e remover as alterações ou 'Ignorar' e manter as alterações para aprovar mais tarde."
+
+#: ../../source/patrons.rst:556
+msgid "If you would like to see the entire patron record you can click the 'Patron details' links to the right of the buttons. This will open in a new tab."
+msgstr ""
+
+#: ../../source/patrons.rst:561
+#, fuzzy
+msgid "Merging patron records"
+msgstr "Unificar registos de leitor"
+
+#: ../../source/patrons.rst:563
+msgid "If you accidentally end up with one patron with two cards it is possible to merge their records together so that you don't lose their loan history or holds."
+msgstr ""
+
+#: ../../source/patrons.rst:567
+#, fuzzy
+msgid "In the patron list, check the boxes next to the records you want to merge and click on the 'Merge selected patrons' button."
+msgstr "Marque os registos que deseja eliminar e clique no botão 'Eliminar registos selecionados' para terminar o processo."
+
+#: ../../source/patrons.rst:570
+msgid "|image1326|"
+msgstr "|image1326|"
+
+#: ../../source/patrons.rst:574
+msgid "It is possible to merge more than two records at a time."
+msgstr ""
+
+#: ../../source/patrons.rst:576
+#, fuzzy
+msgid "Select the patron record you want to keep and click on the 'Merge patrons' button."
+msgstr "Marque os registos que deseja eliminar e clique no botão 'Eliminar registos selecionados' para terminar o processo."
+
+#: ../../source/patrons.rst:579
+msgid "|image1327|"
+msgstr "|image1327|"
+
+#: ../../source/patrons.rst:581
+#, fuzzy
+msgid "The checkouts and statistics will be transferred to the right record and the other one will be deleted."
+msgstr "Selecione o leitor a manter. Os dados dos outros leitores serão transferidos para este registo de leitor e os outros leitores serão eliminados."
+
+#: ../../source/patrons.rst:584
+msgid "|image1328|"
+msgstr "|image1328|"
+
+#: ../../source/patrons.rst:589
+msgid "Patron permissions"
+msgstr "Permissões do leitor"
+
+#: ../../source/patrons.rst:591
+#, fuzzy
+msgid "Patron permissions are used to allow staff members access to the staff client."
+msgstr "As permissões do leitor são usadas para definir os direitos dos membros no interface dos técnicos."
+
+#: ../../source/patrons.rst:596
+#, fuzzy
+msgid "In order for a staff member to log into the staff interface they must have (at the very least) 'catalogue' permissions which allow them to view the staff interface."
+msgstr "Importante: Para que um técnico consiga se autentica na interface dos técnicos necessita (pelo menos) de ter permissões adequadas ('catalogue') de forma a se autenticar."
+
+#: ../../source/patrons.rst:603
+#, fuzzy
+msgid "Setting patron permissions"
+msgstr "Definir as permissões do leitor"
+
+#: ../../source/patrons.rst:605
+#, fuzzy
+msgid "On the patron record click 'More' and choose 'Set permissions' to alter patron permissions"
+msgstr "No registo de leitor carregue em 'Mais' e escolha 'Definir permissões' para alterar as permissões do leitor"
+
+#: ../../source/patrons.rst:608
+msgid "|image440|"
+msgstr "|image440|"
+
+#: ../../source/patrons.rst:610
+#, fuzzy
+msgid "You will be presented with a list of preferences, some of which can be expanded by clicking the 'Show details' link on the right title."
+msgstr "Aparecerá uma lista de preferências, sendo algumas expansíveis ao clicar no sinal mais à esquerda da secção de título."
+
+#: ../../source/patrons.rst:614
+msgid "|image441|"
+msgstr "|image441|"
+
+#: ../../source/patrons.rst:616
+msgid "In all cases, if the parent permission is checked, the user has all the child permissions. If you want to set permissions on a more granular level, expand the section and only check the permissions you want that user to have."
+msgstr ""
+
+#: ../../source/patrons.rst:625
+#, fuzzy
+msgid "Patron permissions defined"
+msgstr "Permissões do leitor definidas"
+
+#: ../../source/patrons.rst:627
+#, fuzzy
+msgid "Access to all librarian functions (superlibrarian)"
+msgstr "Acesso a todas as funções da biblioteca"
+
+#: ../../source/patrons.rst:631
+#, fuzzy
+msgid "With this selected there is no need to choose any other permissions"
+msgstr "Dica: Com isto seleccionado não tem a necessidade de escolher outras permissões"
+
+#: ../../source/patrons.rst:634
+#, fuzzy
+msgid "Check out and check in items (circulate)"
+msgstr "Emprestar e devolver exemplares"
+
+#: ../../source/patrons.rst:636
+#, fuzzy
+msgid "Remaining circulation permissions (circulate\\_remaining\\_permissions)"
+msgstr "Requer que os membros do staff também tenham a permissão circulate_remaining_permissions"
+
+#: ../../source/patrons.rst:638
+#, fuzzy
+msgid "This permission grants all circulation rights except those covered by permissions listed below"
+msgstr "Todos os direitos de circulação excepto a possibilidade de ultrapassar limites de renovação"
+
+#: ../../source/patrons.rst:641
+#, fuzzy
+msgid "Force checkout if a limitation exists (force\\_checkout)"
+msgstr "Forçar empréstimo quando existe uma limitação"
+
+#: ../../source/patrons.rst:643
+msgid "With this permission a staff member will be allowed to override a check out restriction in the following cases:"
+msgstr ""
+
+#: ../../source/patrons.rst:646
+#, fuzzy
+msgid "age restriction"
+msgstr "Restrição de idade"
+
+#: ../../source/patrons.rst:648
+#, fuzzy
+msgid "the item is issued to another patron"
+msgstr "O exemplar encontra-se em reservado para outro leitor."
+
+#: ../../source/patrons.rst:650
+#, fuzzy
+msgid "the item is not for loan"
+msgstr "Exemplar não emprestável"
+
+#: ../../source/patrons.rst:652
+#, fuzzy
+msgid "the patron has overdue items"
+msgstr "Leitor tem %s empréstimo(s) em atraso."
+
+#: ../../source/patrons.rst:654
+#, fuzzy
+msgid "the item is lost"
+msgstr "Este exemplar está perdido"
+
+#: ../../source/patrons.rst:656
+#, fuzzy
+msgid "the item is a high demand item"
+msgstr "Exemplar muito requisitado. "
+
+#: ../../source/patrons.rst:658
+#, fuzzy
+msgid "the item is on hold"
+msgstr "1 exemplar está encomendado."
+
+#: ../../source/patrons.rst:660
+#, fuzzy
+msgid "Mark checkout notes as seen\\/not seen (manage\\_checkout\\_notes)"
+msgstr "Marcar notas de empréstimo como vistas/não vistas"
+
+#: ../../source/patrons.rst:663
+msgid "The permission to manage the checkout notes written by users"
+msgstr ""
+
+#: ../../source/patrons.rst:663
+msgid "through the OPAC"
+msgstr ""
+
+#: ../../source/patrons.rst:665
+#, fuzzy
+msgid "Manage restrictions for accounts (manage\\_restrictions)"
+msgstr "Gerir restrições de contas"
+
+#: ../../source/patrons.rst:667
+msgid "Grants permission to the staff member to lift a restriction that might be on the patron's record"
+msgstr ""
+
+#: ../../source/patrons.rst:670
+#, fuzzy
+msgid "Execute overdue items report (overdues\\_report)"
+msgstr "Executar o relatório de atrasos de empréstimos"
+
+#: ../../source/patrons.rst:672
+msgid "The permission to run the overdues reports found under Circulation"
+msgstr "A permissão de correr relatórios de atraso encontra-se abaixo da Circulação"
+
+#: ../../source/patrons.rst:674
+#, fuzzy
+msgid "Override blocked renewals (override\\_renewals)"
+msgstr "Sobrepor renovações bloqueadas"
+
+#: ../../source/patrons.rst:676
+msgid "With this permission, a staff member can override renewals if there is a restriction"
+msgstr ""
+
+#: ../../source/patrons.rst:679
+#, fuzzy
+msgid "Requires that the staff member also has circulate\\_remaining\\_permissions"
+msgstr "Requer que os membros do staff também tenham a permissão circulate_remaining_permissions"
+
+#: ../../source/patrons.rst:682
+#, fuzzy
+msgid "Staff access, allows viewing the catalogue in staff client (catalogue) **Required for staff login.**"
+msgstr "Acesso do técnicos, permitindo ver o catálogo no interface dos técnicos "
+
+#: ../../source/patrons.rst:687
+#, fuzzy
+msgid "Must be given to all staff members to allow them to login to the staff interface"
+msgstr "Importante: Deve ser dada a todos os membros do staff para permitir a sua entrada na interface dos técnicos"
+
+#: ../../source/patrons.rst:690
+#, fuzzy
+msgid "Manage Koha system settings (Administration panel) (parameters)"
+msgstr "Gerir configurações do sistema do Koha (painel de administração)"
+
+#: ../../source/patrons.rst:692
+msgid "Manage account debit and credit types (manage\\_accounts)"
+msgstr ""
+
+#: ../../source/patrons.rst:694
+#, fuzzy
+msgid "This gives access to the :ref:`debit types section <debit-types-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:696
+msgid "Manage additional fields for baskets or subscriptions (manage\\_additional \\_fields)"
+msgstr ""
+
+#: ../../source/patrons.rst:699
+msgid "This gives access to the :ref:`additional fields section <additional- fields-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:704
+msgid "This permission requires that the staff member also have the 'Edit an existing subscription' permission from the 'Manage serial subscriptions' section and the 'Manage basket and order lines' permission from the 'Acquisition and\\/or suggestion management' section"
+msgstr ""
+
+#: ../../source/patrons.rst:709
+#, fuzzy
+msgid "Manage audio alerts (manage\\_audio\\_alerts)"
+msgstr "Gerir alertas de áudio"
+
+#: ../../source/patrons.rst:711
+#, fuzzy
+msgid "The ability to access the :ref:`audio alerts <audio-alerts-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:714
+#, fuzzy
+msgid "Manage authorized value categories and authorised values (manage\\_auth\\_ values)"
+msgstr "Gerir as categorias e respectivos valores autorizados"
+
+#: ../../source/patrons.rst:717
+#, fuzzy
+msgid "The ability to access the :ref:`auhorized values <authorized-values-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:720
+#, fuzzy
+msgid "Manage circulation rules (manage\\_circ\\_rules)"
+msgstr "Gerir regras de circulação"
+
+#: ../../source/patrons.rst:722
+#, fuzzy
+msgid "The ability to access the :ref:`circulation and fines rules <circulation-and-fines-rules-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:726
+msgid "Manage circulation rules form any library (manage\\_circ\\_rules\\_from\\_ any\\_libraries)"
+msgstr ""
+
+#: ../../source/patrons.rst:729
+#, fuzzy
+msgid "If not set the logged in user can only edit circulation rules from their own library"
+msgstr "Editar as regras de circulação de qualquer biblioteca. Se não estiver definido, o utilizador autenticado apenas pode editar as regras de circulação da sua biblioteca (a permissão manage_circ_rules continua a ser necessária)"
+
+#: ../../source/patrons.rst:732
+msgid "The staff member still has to have the 'Manage circulation rules' permission above."
+msgstr ""
+
+#: ../../source/patrons.rst:735
+#, fuzzy
+msgid "Manage cities and towns (manage\\_cities)"
+msgstr "Gerir cidades"
+
+#: ../../source/patrons.rst:737
+#, fuzzy
+msgid "The ability to access the :ref:`cities and towns <cities-and-towns-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:740
+#, fuzzy
+msgid "Manage classification sources and filing rules (manage\\_classifications)"
+msgstr "Geriras as fontes de classificação e as regras de preenchimento"
+
+#: ../../source/patrons.rst:742
+#, fuzzy
+msgid "The ability to access the :ref:`classification sources <classification-sources-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:746
+#, fuzzy
+msgid "Manage column configuration (manage\\_column\\_config)"
+msgstr "Gerir a configuração das colunas"
+
+#: ../../source/patrons.rst:748
+#, fuzzy
+msgid "The ability the access the :ref:`configure columns <column-settings-label>` page in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:751
+#, fuzzy
+msgid "Manage Did you mean? configuration (manage\\_didyoumean)"
+msgstr "Gerir a configuração da funcionalidade Quis dizer?"
+
+#: ../../source/patrons.rst:753
+#, fuzzy
+msgid "The ability to access the :ref:`Did you mean? <did-you-mean?-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:756
+#, fuzzy
+msgid "Manage item circulation alerts (manage\\_item\\_circ\\_alerts)"
+msgstr "Gerir os alertas de circulação"
+
+#: ../../source/patrons.rst:758
+#, fuzzy
+msgid "The ability to access the :ref:`item circulation alerts <item-circulation-alerts-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:761
+#, fuzzy
+msgid "Manage item search fields (manage\\_item\\_search\\_fields)"
+msgstr "Gerir os campos de pesquisa de exemplar"
+
+#: ../../source/patrons.rst:763
+#, fuzzy
+msgid "The ability to access the :ref:`item search fields <item-search-fields-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:766
+#, fuzzy
+msgid "Manage item types (manage\\_itemtypes)"
+msgstr "Gerir os tipos de documento"
+
+#: ../../source/patrons.rst:768
+#, fuzzy
+msgid "The ability to access the :ref:`item types <item-types-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:771
+msgid "Manage keyboard shortcuts for the advanced cataloging editor (manage\\_ keyboard\\_shortcuts)"
+msgstr ""
+
+#: ../../source/patrons.rst:774
+#, fuzzy
+msgid "The ability to access the keyboard shortcuts configuration in the administration module"
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:777
+#, fuzzy
+msgid "Manage libraries and library groups (manage\\_libraries)"
+msgstr "Gerir as bibliotecas e os grupos hierárquicos de bibliotecas."
+
+#: ../../source/patrons.rst:779
+#, fuzzy
+msgid "The ability to access the :ref:`libraries <libraries-label>` and :ref:`library groups <library-groups-label>` configuration pages in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:783
+msgid "Manage Mana KB content sharing (manage\\_mana)"
+msgstr ""
+
+#: ../../source/patrons.rst:785
+#, fuzzy
+msgid "The ability to access the :ref:`share content with Mana KB <share-with-mana-kb-label>` in the administration module"
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:788
+#, fuzzy
+msgid "Manage MARC bibliographic and authority frameworks and test them (manage\\_marc\\_frameworks)"
+msgstr "Gerir modelos MARC de registos bibliográficos e de autoridades e testar os modelos"
+
+#: ../../source/patrons.rst:791
+msgid "The ability to access the :ref:`MARC bibliographic framework <marc-bibliographic-frameworks-label>`, :ref:`authority types <authority-types-label>`, :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>`, and :ref:`MARC Bibliographic framework test <marc-bibliographic-framework-test-label>` configuration areas in the administration module."
+msgstr ""
+
+# Traduzido por Ricardo Dias Marques (em 28-Mai-2009)
+#: ../../source/patrons.rst:798
+#, fuzzy
+msgid "Manage record matching rules (manage\\_matching\\_rules)"
+msgstr "Gerir as regras de concordância de registos"
+
+#: ../../source/patrons.rst:800
+#, fuzzy
+msgid "The ability to access the :ref:`record matching rules <record-matching-rules-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:803
+#, fuzzy
+msgid "Manage OAI sets (manage\\_oai\\_sets)"
+msgstr "manage_circ_rules "
+
+#: ../../source/patrons.rst:805
+#, fuzzy
+msgid "The ability to access the :ref:`OAI sets <oai-sets-configuration-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+# Traduzido por Ricardo Dias Marques (em 28-Mai-2009)
+#: ../../source/patrons.rst:808
+#, fuzzy
+msgid "Manage extened patron attributes (manage\\_patron\\_attributes)"
+msgstr "Gerir os atributos de leitor adicionais"
+
+#: ../../source/patrons.rst:810
+#, fuzzy
+msgid "The ability to access the :ref:`patron attribute types <patron-attribute-types-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:813
+#, fuzzy
+msgid "Manage patron categories (manage\\_patron\\_categories)"
+msgstr "Gerir as categorias de leitor"
+
+#: ../../source/patrons.rst:815
+#, fuzzy
+msgid "The ability to access the :ref:`Patron categories <patron-categories-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:818
+#, fuzzy
+msgid "Manage search engine configuration (manage\\_search\\_engine\\_config)"
+msgstr "Gerir a configuração do motor de pesquisa"
+
+#: ../../source/patrons.rst:820
+msgid "The ability to access the Search engine configuraton in the administration module. Note: This area will only be visible when the :ref:`SearchEngine` system preference is set to 'Elasticsearch'."
+msgstr ""
+
+#: ../../source/patrons.rst:824
+#, fuzzy
+msgid "Manage Z39.50 and SRU server configuration (manage\\_search\\_targets)"
+msgstr "Gerir a configuração de servidores Z39.50 e SRU"
+
+#: ../../source/patrons.rst:826
+msgid "The ability to access the :ref:`Z39.50/SRU servers <z39.50/sru-servers-label>` configuration in the administration module."
+msgstr ""
+
+#: ../../source/patrons.rst:829
+#, fuzzy
+msgid "Manage SMS cellular providers (manage\\_sms_providers)"
+msgstr "Gerir operadores de serviços móveis"
+
+#: ../../source/patrons.rst:831
+msgid "The ability to access the :ref:`SMS cellular providers <sms-cellular-providers-label>` configuration in the administration module. Note: This area will only be visible when the :ref:`SMSSendDriver` system preference is set to 'Email'."
+msgstr ""
+
+#: ../../source/patrons.rst:836
+#, fuzzy
+msgid "Manage global system preferences (manage\\_sysprefs)"
+msgstr "Gerir as preferências do sistema"
+
+#: ../../source/patrons.rst:838
+#, fuzzy
+msgid "The ability to access the :ref:`global system preferences <administration-system-preferences-label>` in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:841
+#, fuzzy
+msgid "Manage library transfer limits and transport cost matrix (manage\\_transfers)"
+msgstr "Gerir os limites de transferência entre bibliotecas e a matriz de custo de transporte"
+
+#: ../../source/patrons.rst:843
+#, fuzzy
+msgid "The ability to access the :ref:`library transfer limits <library-transfer-limits-label>` and :ref:`transport cost matrix <transport-cost-matrix-label>` configuration pages in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:847
+#, fuzzy
+msgid "Manage usage statistics settings (manage\\_usage\\_stats)"
+msgstr "Gerir as configurações das estatísticas de uso"
+
+#: ../../source/patrons.rst:849
+#, fuzzy
+msgid "The ability to access the :ref:`share your usage statistics <share-anonymous-usage-statistics-label>` configuration in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:852
+#, fuzzy
+msgid "Remaining system parameters permissions (parameters\\_remaining\\_permissions)"
+msgstr "Restantes permissões de configuração do sistema"
+
+#: ../../source/patrons.rst:854
+#, fuzzy
+msgid "The ability to access all remaining areas in the administration module."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:856
+#, fuzzy
+msgid "Add, modify and view patron information (borrowers)"
+msgstr "Adicionar, modificar ou ver informações do leitor"
+
+#: ../../source/patrons.rst:858
+#, fuzzy
+msgid "Add, modify and view patron information (edit\\_borrowers)"
+msgstr "Adicionar, modificar ou ver informações do leitor"
+
+#: ../../source/patrons.rst:860
+msgid "The ability to access the Patrons module to view patron files, as well as adding new patrons and editing patron files"
+msgstr ""
+
+#: ../../source/patrons.rst:863
+msgid "View patron infos from any libraries (view\\_borrower\\_infos\\_from\\_any\\_libraries)"
+msgstr ""
+
+#: ../../source/patrons.rst:865
+#, fuzzy
+msgid "If not set the logged in user will only be able to access patron information from their own library or group of libraries."
+msgstr "Ver as informações de leitores de qualquer biblioteca. Se não estiver definido o utilizador autenticado pode aceder às informações dos leitores da sua biblioteca ou grupo de bibliotecas."
+
+#: ../../source/patrons.rst:868
+#, fuzzy
+msgid "Set user permissions (permissions)"
+msgstr "Definir as permissões do leitor"
+
+#: ../../source/patrons.rst:870
+#, fuzzy
+msgid "The ability to set permissions for other staff members"
+msgstr "Permitir que membros do staff modifiquem as permissões a outros membros"
+
+#: ../../source/patrons.rst:872
+#, fuzzy
+msgid "Place and modify holds for patrons (reserveforothers)"
+msgstr "Reservar e modificar reservas para os leitores"
+
+#: ../../source/patrons.rst:874
+#, fuzzy
+msgid "Modify holds priority (modify\\_holds\\_priority)"
+msgstr "modify_holds_priority "
+
+#: ../../source/patrons.rst:876
+#, fuzzy
+msgid "Allows staff members to alter the holds priority (moving patrons up and down the queue)"
+msgstr "Permitir aos membros do staff alterar a ordem das reservas (alterar a fila de espera)"
+
+#: ../../source/patrons.rst:879
+#, fuzzy
+msgid "Place holds for patrons (place\\_holds)"
+msgstr "Efetuar reservas para os leitores"
+
+#: ../../source/patrons.rst:881
+#, fuzzy
+msgid "Allows staff members to place holds in the staff interface"
+msgstr "Permitir que membros do staff modifiquem as permissões a outros membros"
+
+#: ../../source/patrons.rst:883
+#, fuzzy
+msgid "Edit catalog (Modify bibliographic/holdings data) (editcatalogue)"
+msgstr "Editar catálogo (Modificar dados bibliográficos)"
+
+#: ../../source/patrons.rst:885
+msgid "Use the advanced cataloging editor (advanced\\_editor)"
+msgstr ""
+
+#: ../../source/patrons.rst:887
+msgid "Grants the ability to use the advanced cataloging editor in the cataloging module"
+msgstr ""
+
+#: ../../source/patrons.rst:892
+msgid "Staff members with this permission need to also have the 'Edit catalog (Modify bibliographic/holdings data)' permission"
+msgstr ""
+
+#: ../../source/patrons.rst:895
+#, fuzzy
+msgid "Delete all items at once (delete\\_all\\_items)"
+msgstr "Eliminar todos os itens"
+
+#: ../../source/patrons.rst:897
+msgid "Ability to use the 'Delete all items' option found under the 'Edit' menu in cataloging"
+msgstr "Capacidade de usar a opção 'Eliminar todos os exemplares' no menu 'Editar' na catalogação"
+
+#: ../../source/patrons.rst:900
+#, fuzzy
+msgid "Edit catalog (Modify bibliographic/holdings data) (edit\\_catalogue)"
+msgstr "Editar catálogo (Modificar dados bibliográficos)"
+
+#: ../../source/patrons.rst:902
+#, fuzzy
+msgid "Ability to access all cataloging functions via the `Cataloging <#cataloging>`__ page"
+msgstr "Capacidade de aceder a todas as funções de catalogação no módulo de catalogação"
+
+#: ../../source/patrons.rst:905
+#, fuzzy
+msgid "Edit items (edit\\_items)"
+msgstr "edit_items "
+
+#: ../../source/patrons.rst:907
+#, fuzzy
+msgid "Ability to make :ref:`edits to item/holdings records <editing-items-label>`, but not bibliographic records"
+msgstr "Capacidade de editar exemplares, mas não registos bibliográficos"
+
+#: ../../source/patrons.rst:910
+#, fuzzy
+msgid "Limit item modification to subfields defined in the :ref:`SubfieldsToAllowForRestrictedEditing` system preference (edit\\_items\\_restricted)"
+msgstr "Limitar a modificação de exemplar aos subcampos definidos na preferência SubfieldsToAllowForRestrictedEditing"
+
+#: ../../source/patrons.rst:914
+msgid "If checked, the staff member will only be able to modify some item subfields"
+msgstr ""
+
+#: ../../source/patrons.rst:919
+#, fuzzy
+msgid "Please note that the 'Edit items' permission is still required"
+msgstr "Nota: Por favor, note que a permissão edit_items é na mesma necessária"
+
+#: ../../source/patrons.rst:921
+#, fuzzy
+msgid "Fast cataloging (fast\\_cataloging)"
+msgstr "fast_cataloging "
+
+#: ../../source/patrons.rst:923
+#, fuzzy
+msgid "The ability to catalog using only the :ref:`Fast add framework <fast-add-cataloging-label>` found on the `Circulation <#circulation>`__ page"
+msgstr "Capacidade para cataloggar usando o modelo de catalogação rápida na página de empréstimo"
+
+#: ../../source/patrons.rst:927
+#, fuzzy
+msgid "Manage patrons fines and fees (updatecharges)"
+msgstr "Gerir multas e taxas dos leitores"
+
+#: ../../source/patrons.rst:929
+msgid "Discount debits for patrons (discount)"
+msgstr ""
+
+#: ../../source/patrons.rst:931
+#, fuzzy
+msgid "Grant the ability to apply discounts to charges"
+msgstr "Usar plugins de relatórios"
+
+#: ../../source/patrons.rst:933
+msgid "Payout credits to patrons (payout)"
+msgstr ""
+
+#: ../../source/patrons.rst:935
+#, fuzzy
+msgid "Grant the ability to reimburse credits to patrons"
+msgstr "Usar plugins de relatórios"
+
+#: ../../source/patrons.rst:937
+msgid "Refund payments to patrons (refund)"
+msgstr ""
+
+#: ../../source/patrons.rst:939
+msgid "Grant the ability to refund payments that patrons have already made to the library"
+msgstr ""
+
+#: ../../source/patrons.rst:942
+#, fuzzy
+msgid "Remaining permissions for managing fines and fees (remaining\\_permissions)"
+msgstr "Restantes permissões para a gestão de multas e taxas"
+
+#: ../../source/patrons.rst:944
+msgid "Grant the ability to manage fines and fees other than the actions described in the other subpermissions (dicounts, payouts, refunds and writeoffs)"
+msgstr ""
+
+#: ../../source/patrons.rst:948
+#, fuzzy
+msgid "Write off fines and fees (writeoff)"
+msgstr "Amortizar multas e taxas"
+
+#: ../../source/patrons.rst:950
+msgid "Grants the ability to write off patron fees"
+msgstr ""
+
+#: ../../source/patrons.rst:953
+#, fuzzy
+msgid "Acquisition and/or suggestion management (acquisition)"
+msgstr "Gestão de aquisições e/ou sugestões"
+
+#: ../../source/patrons.rst:957
+msgid "All the acquisitions sub-permissions give access to the acquisitions home page. That means that staff who have one or more of the following permissions will be able to view the budgets, search and view vendor information, and view invoices."
+msgstr ""
+
+#: ../../source/patrons.rst:962
+#, fuzzy
+msgid "Add and delete funds (but can't modify funds) (budget\\_add\\_del)"
+msgstr "Adicionar e eliminar orçamentos (mas não pode modificar)"
+
+#: ../../source/patrons.rst:964
+msgid "Grants the ability to add and delete funds within a budget"
+msgstr ""
+
+#: ../../source/patrons.rst:966
+msgid "Note that the budget\\_manage and budget\\_modify permissions are required for this one to work correctly"
+msgstr ""
+
+#: ../../source/patrons.rst:969
+#, fuzzy
+msgid "Manage funds (budget\\_manage)"
+msgstr "budget_manage "
+
+#: ../../source/patrons.rst:971
+msgid "Grants the ability to acces the :ref:`fund administration page <funds-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:973
+msgid "Note that this only gives viewing access to the page, you will need to give your staff budget\\_add\\_del and budget\\_modify if you want them to be able to make changes to the funds"
+msgstr ""
+
+#: ../../source/patrons.rst:977
+#, fuzzy
+msgid "Manage all funds (budget\\_manage\\_all)"
+msgstr "budget_manage_all "
+
+#: ../../source/patrons.rst:979
+msgid "Grants viewing access to all funds regardless of restrictions on them (owner, user or library restrictions)"
+msgstr ""
+
+#: ../../source/patrons.rst:982
+#, fuzzy
+msgid "Note that the budget\\_manage permission is required"
+msgstr "Nota: Por favor, note que a permissão edit_items é na mesma necessária"
+
+#: ../../source/patrons.rst:984
+#, fuzzy
+msgid "Modify funds (can't create lines, but can modify existing ones) (budget\\_modify)"
+msgstr "Modificar orçamento (não pode criar entradas, mas pode modificar as existentes)"
+
+#: ../../source/patrons.rst:986
+msgid "Grants the ability to edit fund information and amounts"
+msgstr ""
+
+#: ../../source/patrons.rst:988
+msgid "Note that the budget\\_add\\_del and budget\\_manage permissions are required for this one to work correctly"
+msgstr ""
+
+#: ../../source/patrons.rst:991
+#, fuzzy
+msgid "Manage contracts (contracts\\_manage)"
+msgstr "contracts_manage "
+
+#: ../../source/patrons.rst:993
+msgid "Grants the ability to add, edit and delete contracts with vendors"
+msgstr ""
+
+#: ../../source/patrons.rst:995
+#, fuzzy
+msgid "Manage currencies and exchange rates (currencies\\_manage)"
+msgstr "Gerir as moedas e as taxas de câmbio"
+
+#: ../../source/patrons.rst:997
+msgid "The ability to access the :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` configuration page."
+msgstr ""
+
+#: ../../source/patrons.rst:1000
+#, fuzzy
+msgid "Manage EDIFACT transmissions (edi\\_manage)"
+msgstr "Gerir transmissões EDIFACT"
+
+#: ../../source/patrons.rst:1002
+msgid "Grants the ability to access the :ref:`EDI account <edi-accounts-label>` administration page, the :ref:`library EANs <library-eans-label>` administration page and access sent :ref:`EDI messages <edifact-messages-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1006
+msgid "In order to be able to send orders via EDI, your staff member also needs the"
+msgstr ""
+
+#: ../../source/patrons.rst:1009
+#, fuzzy
+msgid "Manage basket groups (group\\_manage)"
+msgstr "Gerir grupos de cestos"
+
+#: ../../source/patrons.rst:1011
+msgid "Grants the ability to :ref:`create, edit, close and delete basket groups <create-a-basket-group-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1014
+#, fuzzy
+msgid "Manage baskets and order lines (order\\_manage)"
+msgstr "Gerir cestos e encomendas"
+
+#: ../../source/patrons.rst:1016
+msgid "Grants the ability to :ref:`place orders <placing-orders-label>`, including creating baskets, adding order lines, closing baskets, etc."
+msgstr ""
+
+#: ../../source/patrons.rst:1019
+#, fuzzy
+msgid "Manage all baskets and order lines, regardless of restrictions on them (order\\_manage\\_all)"
+msgstr "Gerir todos os cestos e encomendas, independentemente das restrições de cada"
+
+#: ../../source/patrons.rst:1022
+msgid "Grants the ability to manage all baskets and orders even if they are restricted to the owner, users or library"
+msgstr ""
+
+#: ../../source/patrons.rst:1025
+#, fuzzy
+msgid "Note that the order\\_manage permission is required"
+msgstr "Nota: Por favor, note que a permissão edit_items é na mesma necessária"
+
+#: ../../source/patrons.rst:1027
+#, fuzzy
+msgid "Receive orders and manage shipments (order\\_receive)"
+msgstr "Receber encomendas e gerir renessas"
+
+#: ../../source/patrons.rst:1029
+msgid "Grants the ability to create invoices, receive items and claim late orders"
+msgstr ""
+
+#: ../../source/patrons.rst:1032
+#, fuzzy
+msgid "Manage budgets (period\\_manage)"
+msgstr "Gerir os planeamentos de orçamentos"
+
+#: ../../source/patrons.rst:1034
+msgid "Grants access to the :ref:`budget administration page <budgets-label>` and the ability to create, edit and delete budgets"
+msgstr ""
+
+#: ../../source/patrons.rst:1037
+#, fuzzy
+msgid "This permission does not give the ability to edit budget funds."
+msgstr "Esta permissão não inclui a capacidade de eliminar ou criar uma assinatura"
+
+#: ../../source/patrons.rst:1039
+#, fuzzy
+msgid "Manage budget plannings (planning\\_manage)"
+msgstr "Gerir os planeamentos de orçamentos"
+
+#: ../../source/patrons.rst:1041
+msgid "Grants the ability to view :ref:`budget planning <budget-planning-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1043
+msgid "Note that the budget\\_manage and the period\\_manage permissions are required for this one to work"
+msgstr ""
+
+#: ../../source/patrons.rst:1046
+#, fuzzy
+msgid "Manage purchase suggestions (suggestions\\_manage)"
+msgstr "Gerir as sugestões de aquisição"
+
+#: ../../source/patrons.rst:1048
+#, fuzzy
+msgid "Grants the ability to :ref:`create and manage purchase suggestions <managing-purchase-suggestions-label>`, including creating new suggestions and changing the suggestions' statuses"
+msgstr "Aprenda mais sobre as Sugestões de aquisição no capítulo de Aquisições do manual."
+
+#: ../../source/patrons.rst:1052
+#, fuzzy
+msgid "Manage vendors (vendors\\_manage)"
+msgstr "vendors_manage "
+
+#: ../../source/patrons.rst:1054
+msgid "Grants the ability to :ref:`add, edit and delete vendors <vendors-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1056
+msgid "Note that vendors are used in the acquisition and the serials module."
+msgstr ""
+
+#: ../../source/patrons.rst:1058
+#, fuzzy
+msgid "Use all tools (tools)"
+msgstr "Usar todas as ferramentas"
+
+#: ../../source/patrons.rst:1060
+#, fuzzy
+msgid "Access to the files stored on the server (access\\_files)"
+msgstr "Aceder a ficheiros guardados no servidor"
+
+#: ../../source/patrons.rst:1062
+#, fuzzy
+msgid "Access to the :ref:`Upload tool <upload-label>`"
+msgstr "Acesso à ferramenta de carregamento de imagens"
+
+#: ../../source/patrons.rst:1064
+#, fuzzy
+msgid "Upload patron images in batch or one at a time (batch\\_upload\\_patron\\_images)"
+msgstr "Carregar fotografias dos Leitores num lote ou uma de cada vez"
+
+#: ../../source/patrons.rst:1066
+msgid "Access to the :ref:`Image upload tool <upload-patron-images-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1068
+#, fuzzy
+msgid "Delete old borrowers and anonymize circulation/reading history (deletes borrower reading history) (delete\\_anonymize\\_patrons)"
+msgstr "Eliminar os leitores desactualizados e tornar anónimo o histórico de empréstimo (acesso à ferramenta)"
+
+#: ../../source/patrons.rst:1071
+msgid "Access to the :ref:`Anonymize patron tool <patrons-anonymize-bulk-delete-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1073
+#, fuzzy
+msgid "Define days when the library is closed (edit\\_calendar)"
+msgstr "Definir os dias de encerramento da biblioteca"
+
+#: ../../source/patrons.rst:1075
+#, fuzzy
+msgid "Access to the :ref:`Calendar/holidays tool <calendar-label>`"
+msgstr "Acesso à ferramenta de calendário/feriados"
+
+#: ../../source/patrons.rst:1077
+#, fuzzy
+msgid "Write news for the OPAC and staff interfaces (edit\\_news)"
+msgstr "Redacção de mensagens para OPAC e Técnicos"
+
+#: ../../source/patrons.rst:1079
+#, fuzzy
+msgid "Access to the :ref:`News tool <news-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:1081
+#, fuzzy
+msgid "Set notice/status triggers for overdue items (edit\\_notice\\_status\\_triggers)"
+msgstr "Estabelecimento das regras e datas de envio das notificações."
+
+#: ../../source/patrons.rst:1083
+#, fuzzy
+msgid "Access to the :ref:`Overdue notice status/triggers tool <overdue-notice/status-triggers-label>`"
+msgstr "Acesso à ferramenta de agendar avisos de atraso"
+
+#: ../../source/patrons.rst:1086
+#, fuzzy
+msgid "Define notices (edit\\_notices)"
+msgstr "Definir avisos"
+
+#: ../../source/patrons.rst:1088
+#, fuzzy
+msgid "Access to the :ref:`Notices and slips tool <notices-and-slips-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:1090
+#, fuzzy
+msgid "Perform batch modification of patrons (edit\\_patrons)"
+msgstr "Modificar leitores em lote"
+
+#: ../../source/patrons.rst:1092
+msgid "Access to the :ref:`Batch patron modification tool <batch-patron-modification-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1094
+#, fuzzy
+msgid "Edit quotes for the quote-of-the-day feature (edit\\_quotes)"
+msgstr "Editar frases para a funcionalidade frase do dia"
+
+#: ../../source/patrons.rst:1096
+msgid "Access to the :ref:`Quote of the Day (QOTD) Editor <quote-of-the-day-(qotd)-editor-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1098
+#, fuzzy
+msgid "Export bibliographic and holdings data (export\\_catalog)"
+msgstr "Exportar registos bibliográficos, exemplares e autoridades"
+
+#: ../../source/patrons.rst:1100
+#, fuzzy
+msgid "Access to the :ref:`Export data tool <export-data-(marc-and-authorities)-label>`"
+msgstr "Acesso à ferramenta de importação de leitores"
+
+#: ../../source/patrons.rst:1102
+#, fuzzy
+msgid "Import patron data (import\\_patrons)"
+msgstr "Importar dados dos leitores"
+
+#: ../../source/patrons.rst:1104
+#, fuzzy
+msgid "Access to the :ref:`Import patrons tool <patron-import-label>`"
+msgstr "Acesso à ferramenta de importação de leitores"
+
+#: ../../source/patrons.rst:1106
+#, fuzzy
+msgid "Perform inventory of your catalog (inventory)"
+msgstr "Inventariar (balanço) o catálogo"
+
+#: ../../source/patrons.rst:1108
+#, fuzzy
+msgid "Access to the :ref:`Inventory tool <inventory-tool-label>`"
+msgstr "Acesso à ferramenta de inventário"
+
+#: ../../source/patrons.rst:1110
+#, fuzzy
+msgid "Perform batch deletion of items (items\\_batchdel)"
+msgstr "Eliminar de exemplares em lote"
+
+#: ../../source/patrons.rst:1112
+#, fuzzy
+msgid "Access to the :ref:`Batch item deletion tool <batch-item-deletion-label>`"
+msgstr "Acesso à ferramanenta de eliminação de exemplares em lote"
+
+#: ../../source/patrons.rst:1114
+#, fuzzy
+msgid "Perform batch modification of items (items\\_batchmod)"
+msgstr "Modificar exemplares em lote"
+
+#: ../../source/patrons.rst:1116
+#, fuzzy
+msgid "Access to the :ref:`Batch item modification tool <batch-item-modification-label>`"
+msgstr "Acesso à ferramanenta de modificação de exemplares em lote"
+
+#: ../../source/patrons.rst:1118
+#, fuzzy
+msgid "Limit batch item modification to subfields defined in the SubfieldsToAllowForRestrictedBatchmod preference (items\\_batchmod\\_restricted)"
+msgstr "Limitar a modificação de exemplar aos subcampos definidos na preferência SubfieldsToAllowForRestrictedEditing"
+
+#: ../../source/patrons.rst:1121
+#, fuzzy
+msgid "Restricts the :ref:`batch item modification <batch-item-modification-label>` tool to modify only the subfields defined in the :ref:`SubfieldsToAllowForRestrictedBatchmod` preference"
+msgstr "Limitar a modificação em lote de exemplares aos subcampos definidos na preferência SubfieldsToAllowForRestrictedBatchmod"
+
+#: ../../source/patrons.rst:1125
+#, fuzzy
+msgid "Please note that items\\_batchmod permission is still required"
+msgstr "Nota: Por favor, note que a permissão items_batchmod é na mesma necessária"
+
+#: ../../source/patrons.rst:1127
+#, fuzzy
+msgid "Create printable labels and barcodes from catalog and patron data (label\\_creator)"
+msgstr "Criar etiquetas e código de barras a partir do catálogos e dos dados do leitor"
+
+#: ../../source/patrons.rst:1130
+msgid "Access to the :ref:`Patron card creator <patron-card-creator-label>`, the :ref:`Label creator <label-creator-label>` and the :ref:`Quick label creator <quick-spine-label-creator-label>` tools"
+msgstr ""
+
+#: ../../source/patrons.rst:1134
+#, fuzzy
+msgid "Manage CSV export profiles (manage\\_csv\\_profiles)"
+msgstr "Perfis de Exportação CSV"
+
+#: ../../source/patrons.rst:1136
+#, fuzzy
+msgid "Access to the :ref:`CSV profiles tool <csv-profiles-label>`"
+msgstr "Acesso à ferramenta de perfis CSV"
+
+#: ../../source/patrons.rst:1138
+#, fuzzy
+msgid "Add, edit and delete patron lists and their contents (manage\\_patron\\_lists)"
+msgstr "Adicionar, editar ou eliminar listas de leitores e os seus conteúdos"
+
+#: ../../source/patrons.rst:1140
+msgid "Access to the :ref:`Patron lists tool <patron-lists-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1142
+#, fuzzy
+msgid "Manage staged MARC records, including completing and reversing imports (manage\\_staged\\_marc)"
+msgstr "Gestão dos registos MARC processados, incluindo a conclusão ou reversão da importação."
+
+#: ../../source/patrons.rst:1145
+#, fuzzy
+msgid "Access to the :ref:`Manage staged MARC records tool <staged-marc-record-management-label>`"
+msgstr "Acesso à ferramenta de gestão dos registos MARC estagiados"
+
+#: ../../source/patrons.rst:1147
+#, fuzzy
+msgid "Manage MARC modification templates (marc\\_modification\\_templates)"
+msgstr "Gerir modelos de modificação MARC"
+
+#: ../../source/patrons.rst:1149
+msgid "Access to the :ref:`MARC modification templates tool <marc-modification-templates-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1151
+#, fuzzy
+msgid "Moderate patron comments (moderate\\_comments)"
+msgstr "Moderar os comentários dos leitores"
+
+#: ../../source/patrons.rst:1153
+#, fuzzy
+msgid "Access to the :ref:`Comments tool <comments-label>`"
+msgstr "Acesso à ferramenta de comentários"
+
+#: ../../source/patrons.rst:1155
+#, fuzzy
+msgid "Moderate patron tags (moderate\\_tags)"
+msgstr "Moderar as etiquetas dos leitores"
+
+#: ../../source/patrons.rst:1157
+msgid "Access to the :ref:`Tags tool <tag-moderation-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1159
+#, fuzzy
+msgid "Perform batch deletion of records (bibliographic or authority) (records\\_batchdel)"
+msgstr "Eliminar registos em lote (bibliográficos ou de autoridade)"
+
+#: ../../source/patrons.rst:1162
+#, fuzzy
+msgid "Access to the :ref:`Batch record deletion tool <batch-record-deletion-label>`"
+msgstr "Acesso à ferramanenta de eliminação de registos em lote"
+
+#: ../../source/patrons.rst:1164
+#, fuzzy
+msgid "Perform batch modification of records (bibliographic or authorities) (records\\_batchmod)"
+msgstr "Modificar registos em lote (bibliográficos ou de autoridade)"
+
+#: ../../source/patrons.rst:1167
+msgid "Access to the :ref:`Batch record modification tool <batch-record-modification-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1169
+#, fuzzy
+msgid "Manage rotating collections (rotating\\_collections)"
+msgstr "Gerir coleções"
+
+#: ../../source/patrons.rst:1171
+msgid "Access to the :ref:`Rotating collections tool <rotating-collections-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1173
+#, fuzzy
+msgid "Schedule tasks to run (schedule\\_tasks)"
+msgstr "Calendarização de tarefas a executar"
+
+#: ../../source/patrons.rst:1175
+#, fuzzy
+msgid "Access to the :ref:`Task scheduler tool <task-scheduler-label>`"
+msgstr "Acesso à ferramenta de calendarização de tarefas"
+
+#: ../../source/patrons.rst:1177
+#, fuzzy
+msgid "Stage MARC records into the reservoir (stage\\_marc\\_import)"
+msgstr "Transferência de registos MARC para o depósito"
+
+#: ../../source/patrons.rst:1179
+msgid "Access to the :ref:`Stage MARC records tool <stage-marc-records-for-import-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1181
+#, fuzzy
+msgid "Upload any file (upload\\_general\\_files)"
+msgstr "Inútil sem upload_general_files"
+
+#: ../../source/patrons.rst:1183
+msgid "Access to upload files via the :ref:`Upload tool <upload-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1185
+#, fuzzy
+msgid "Upload local cover images (upload\\_local\\_cover\\_images)"
+msgstr "upload_local_cover_images "
+
+#: ../../source/patrons.rst:1187
+msgid "Access to the :ref:`Upload local cover image tool <upload-local-cover-image-label>` as well as permission to add and delete local cover images from the record detail page"
+msgstr ""
+
+#: ../../source/patrons.rst:1191
+#, fuzzy
+msgid "Manage uploaded files (upload\\_manage)"
+msgstr "Gerir ficheiros carregados ("
+
+#: ../../source/patrons.rst:1193
+msgid "Access to uploaded files via the :ref:`Upload tool <upload-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1195
+msgid "Note that the upload\\_general\\_files permission is required for this permission to work"
+msgstr ""
+
+#: ../../source/patrons.rst:1198
+#, fuzzy
+msgid "Browse the system logs (view\\_system\\_logs)"
+msgstr "Consulta dos relatórios diários produzidos pelo sistema"
+
+#: ../../source/patrons.rst:1200
+#, fuzzy
+msgid "Access to the :ref:`Log viewer tool <log-viewer-label>`"
+msgstr "Acesso a ferramenta de visualização de logs"
+
+#: ../../source/patrons.rst:1202
+#, fuzzy
+msgid "Edit authorities (editauthorities)"
+msgstr "editauthorities "
+
+#: ../../source/patrons.rst:1204
+#, fuzzy
+msgid "Grants the ability to create, edit and delete authority records"
+msgstr "Capacidade de criar e editar mas não de correr relatórios SQL"
+
+#: ../../source/patrons.rst:1206
+msgid "Note that it is possible to search authority records with only the catalogue permission"
+msgstr ""
+
+#: ../../source/patrons.rst:1209
+#, fuzzy
+msgid "Manage serial subscriptions (serials)"
+msgstr "Gerir assinaturas de periódicos"
+
+#: ../../source/patrons.rst:1211
+#, fuzzy
+msgid "Check the expiration of a serial (check\\_expiration)"
+msgstr "Verificar a data de expiração de um periódico"
+
+#: ../../source/patrons.rst:1213
+#, fuzzy
+msgid "Gives ability to check the :ref:`expiration date of serials <check-serial-expiration-label>`"
+msgstr "Verificar a data de expiração de um periódico"
+
+#: ../../source/patrons.rst:1216
+msgid "Claim missing serials (claim\\_serials)"
+msgstr ""
+
+#: ../../source/patrons.rst:1218
+#, fuzzy
+msgid "Gives the ability to :ref:`claim missing issues <claim-late-serials-label>`"
+msgstr "Reclamar números em falta na secção de reclamações"
+
+#: ../../source/patrons.rst:1220
+#, fuzzy
+msgid "Create a new subscription (create\\_subscription)"
+msgstr "Eliminar uma assinatura"
+
+#: ../../source/patrons.rst:1222
+msgid "Gives the ability to :ref:`add new subscriptions <add-a-subscription-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1224
+#, fuzzy
+msgid "Delete an existing subscription (delete\\_subscription)"
+msgstr "Eliminar uma assinatura"
+
+#: ../../source/patrons.rst:1226
+#, fuzzy
+msgid "Gives the ability to delete serial subscriptions"
+msgstr "Esta permissão não inclui a capacidade de eliminar ou criar uma assinatura"
+
+#: ../../source/patrons.rst:1228
+#, fuzzy
+msgid "Edit an existing subscription (edit\\_subscription)"
+msgstr "Modificar assinatura existente"
+
+#: ../../source/patrons.rst:1230
+msgid "Gives the ability to :ref:`edit existing serial subscriptions <edit-subscription-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1233
+msgid "This permission does not include the ability to delete or create a subscription"
+msgstr "Esta permissão não inclui a capacidade de eliminar ou criar uma assinatura"
+
+#: ../../source/patrons.rst:1236
+#, fuzzy
+msgid "Serials receiving (receive\\_serials)"
+msgstr "Recepção de periódicos"
+
+#: ../../source/patrons.rst:1238
+msgid "Gives the ability to :ref:`receive issues <receive-issues-label>` of existing subscriptions"
+msgstr ""
+
+#: ../../source/patrons.rst:1241
+#, fuzzy
+msgid "Renew a subscription (renew\\_subscription)"
+msgstr "Renovar esta assinatura"
+
+#: ../../source/patrons.rst:1243
+msgid "Gives the ability to :ref:`renew serial subscriptions <renewing-serials-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1245
+#, fuzzy
+msgid "Routing (routing)"
+msgstr "Listas de circulação"
+
+#: ../../source/patrons.rst:1247
+msgid "Gives the ability to manage :ref:`routing lists <create-a-routing-list-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1249
+#, fuzzy
+msgid "Manage subscriptions from any branch (superserials)"
+msgstr "Gerir assinaturas de qualquer biblioteca (apenas aplicável se a preferência IndependentBranches estiver em uso)"
+
+#: ../../source/patrons.rst:1251
+#, fuzzy
+msgid "This permission is only useful if the :ref:`IndependentBranches` system preference is used"
+msgstr "Esta opção só aparecerá se tiver definido a preferência de sistema SpecifyDueDate para permitir"
+
+# Traduzido por Ricardo Dias Marques (em 28-Mai-2009)
+#: ../../source/patrons.rst:1254
+#, fuzzy
+msgid "Allow access to the reports module (reports)"
+msgstr "Permitir acesso ao módulo de relatórios"
+
+#: ../../source/patrons.rst:1256
+msgid "Reports found on the :ref:`Circulation page <circulation-reports-label>` are not controlled by this permission; this only controls access to the :ref:Reports module <reports-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1260
+msgid "Reports in the :ref:`Statistics wizard <statistics-reports-label>` section and the other reports on the main reports page can be run with any one of the following permissions. They only affect the SQL reports."
+msgstr ""
+
+#: ../../source/patrons.rst:1264
+#, fuzzy
+msgid "Create SQL reports (create\\_reports)"
+msgstr "Criar relatórios SQL"
+
+#: ../../source/patrons.rst:1266
+msgid "The ability to create :ref:`guided reports <guided-report-wizard-label>` or :ref:`SQL reports <report-from-sql-label>`, but not run saved ones"
+msgstr ""
+
+#: ../../source/patrons.rst:1269
+#, fuzzy
+msgid "Delete SQL reports (delete\\_reports)"
+msgstr "Eliminar relatórios SQL"
+
+#: ../../source/patrons.rst:1271
+msgid "The ability to delete saved :ref:`SQL reports <report-from-sql-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1273
+msgid "Note that you need execute\\_reports in order to be able to delete them"
+msgstr ""
+
+#: ../../source/patrons.rst:1275
+#, fuzzy
+msgid "Execute SQL reports (execute\\_reports)"
+msgstr "Executar relatórios SQL"
+
+#: ../../source/patrons.rst:1277
+msgid "The ability to :ref:`run custom SQL reports <running-custom-reports-label>`, but not create or edit them"
+msgstr ""
+
+#: ../../source/patrons.rst:1280
+#, fuzzy
+msgid "Allow staff members to modify permissions for other staff members (staffaccess)"
+msgstr "Permitir que membros do staff modifiquem as permissões a outros membros"
+
+#: ../../source/patrons.rst:1282
+#, fuzzy
+msgid "This permission requires the borrowers permission above"
+msgstr "Importante: Necessita da permissão de leitores acima"
+
+#: ../../source/patrons.rst:1284
+#, fuzzy
+msgid "Course reserves (coursereserves)"
+msgstr "Remover reservas de curso"
+
+#: ../../source/patrons.rst:1286
+msgid "Allow access to the :ref:`course reserves module <course-reserves-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1288
+msgid "Note that if the :ref:`UseCourseReserves` system preference is not enabled, these permissions will not have any effect"
+msgstr ""
+
+#: ../../source/patrons.rst:1291
+#, fuzzy
+msgid "Add course reserves (add\\_reserves)"
+msgstr "Adicionar reservas de curso"
+
+#: ../../source/patrons.rst:1293
+msgid "Grants the ability to :ref:`add items to existing courses <adding-reserve-materials-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1296
+#, fuzzy
+msgid "Remove course reserves (delete\\_reserves)"
+msgstr "Remover reservas de curso"
+
+#: ../../source/patrons.rst:1298
+msgid "Grant the ability to remove items from existing courses"
+msgstr ""
+
+#: ../../source/patrons.rst:1300
+#, fuzzy
+msgid "Add, edit and delete courses (manage\\_courses)"
+msgstr "Adicionar, editar ou eliminar cursos"
+
+#: ../../source/patrons.rst:1302
+msgid "Grants the ability to :ref:`create, edit and delete courses <adding-courses-label>`, but not manage the items"
+msgstr ""
+
+#: ../../source/patrons.rst:1305
+#, fuzzy
+msgid "Koha plugins (plugins)"
+msgstr "Plugins Koha"
+
+#: ../../source/patrons.rst:1307
+#, fuzzy
+msgid "Configure plugins (configure)"
+msgstr "Configurar plugins"
+
+#: ../../source/patrons.rst:1309
+msgid "Gives the ability to run the 'configure' section of a plugin if it has one"
+msgstr ""
+
+#: ../../source/patrons.rst:1312 ../../source/patrons.rst:1319
+msgid "Note that the staff member needs either the report permission or the tool permission (below) in order to be able to access the plugins"
+msgstr ""
+
+#: ../../source/patrons.rst:1315
+#, fuzzy
+msgid "Manage plugins (manage)"
+msgstr "Gerir plugins"
+
+#: ../../source/patrons.rst:1317
+#, fuzzy
+msgid "The ability to install or uninstall plugins"
+msgstr "Gerir plugins ( instalar / remover )"
+
+#: ../../source/patrons.rst:1322
+#, fuzzy
+msgid "Use report plugins (report)"
+msgstr "Usar plugins de relatórios"
+
+#: ../../source/patrons.rst:1324
+#, fuzzy
+msgid "The ability to use report plugins"
+msgstr "Usar plugins de relatórios"
+
+#: ../../source/patrons.rst:1326
+#, fuzzy
+msgid "Use tool plugins (tool)"
+msgstr "Usar plugins de ferramenta"
+
+#: ../../source/patrons.rst:1328
+#, fuzzy
+msgid "The ability to use tool plugins"
+msgstr "Usar plugins de ferramenta"
+
+#: ../../source/patrons.rst:1330
+msgid "Lists (lists)"
+msgstr ""
+
+#: ../../source/patrons.rst:1334
+#, fuzzy
+msgid "All staff have permission to create and modify their own lists, this permission is only necessary if you'd like to give a staff member permission to delete public lists that they have not created."
+msgstr "Importante: Todos os técnicos têm permissões para criar e modificar as próprias listas, estas permissões apenas são necessárias se desejar que os técnicos possam eliminar listas públicas que não criaram."
+
+#: ../../source/patrons.rst:1339
+#, fuzzy
+msgid "Delete public lists (delete\\_public\\_lists)"
+msgstr "delete_public_lists "
+
+#: ../../source/patrons.rst:1341
+#, fuzzy
+msgid "The ability to delete public lists created by someone else"
+msgstr "Capacidade de eliminar mas não de correr relatórios SQL"
+
+#: ../../source/patrons.rst:1343
+#, fuzzy
+msgid "Patron clubs (clubs)"
+msgstr "Grupos de leitores"
+
+#: ../../source/patrons.rst:1345
+#, fuzzy
+msgid "Create and edit clubs (edit\\_clubs)"
+msgstr "Criar e editar grupos"
+
+#: ../../source/patrons.rst:1347
+msgid "Create and edit patron clubs using the :ref:`Patron clubs tool <patron-clubs-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1349
+#, fuzzy
+msgid "Create and edit club templates (edit\\_templates)"
+msgstr "Criar e editar modelos de grupo"
+
+#: ../../source/patrons.rst:1351
+msgid "Create and edit club templates using the :ref:`Patron clubs tool <patron-clubs-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1353
+#, fuzzy
+msgid "Enroll patrons in clubs (enroll)"
+msgstr "Inscrever leitores nos grupos"
+
+#: ../../source/patrons.rst:1355
+#, fuzzy
+msgid "Enroll patrons from the patron file"
+msgstr "Inscrever leitores nos grupos"
+
+#: ../../source/patrons.rst:1357
+msgid "The borrowers permissions is required in order to enroll patrons in clubs"
+msgstr ""
+
+#: ../../source/patrons.rst:1360
+#, fuzzy
+msgid "Create and modify interlibrary loan requests (ill)"
+msgstr "Criar e modificar empréstimos inter-bibliotecas"
+
+#: ../../source/patrons.rst:1362
+#, fuzzy
+msgid "Gives access to the :ref:`Interlibrary loan (ILL) module <ill-requests-label>`"
+msgstr "Acesso à ferramenta de inventário"
+
+#: ../../source/patrons.rst:1364
+#, fuzzy
+msgid "Self check modules (self\\_check)"
+msgstr "Módulos automáticos"
+
+# Circulation > Self check-in module
+#: ../../source/patrons.rst:1366
+#, fuzzy
+msgid "Log into the self check-in module (self\\_checkin\\_module)"
+msgstr "Módulo de auto-devolução"
+
+#: ../../source/patrons.rst:1370
+#, fuzzy
+msgid "This permission prevents the patron from using any other OPAC functionality"
+msgstr "Entrar no sistema de auto devolução. Nota: esta permissão evita que o leitor consiga usar qualquer outra funcionalidade do OPAC"
+
+#: ../../source/patrons.rst:1373
+msgid "Perform self checkout at the OPAC (self\\_checkout\\_module)"
+msgstr ""
+
+#: ../../source/patrons.rst:1377
+msgid "This permission should be used for the patron matching the :ref:`AutoSelfCheckID <autoselfcheck-preferences-label>` system preference"
+msgstr ""
+
+#: ../../source/patrons.rst:1381
+msgid "Manage :ref:`stockrotation <stock-rotation-label>` operations (stockrotation)"
+msgstr ""
+
+#: ../../source/patrons.rst:1383
+msgid "Add and remove items from rotas (manage_rota_items)"
+msgstr ""
+
+#: ../../source/patrons.rst:1385
+msgid "Staff with only this permission will be able to manage the items in the rotas, but not the rotas themselves"
+msgstr ""
+
+#: ../../source/patrons.rst:1388
+#, fuzzy
+msgid "Create, edit and delete rotas (manage_rotas)"
+msgstr "Adicionar, editar ou eliminar listas de leitores e os seus conteúdos"
+
+#: ../../source/patrons.rst:1390
+msgid "Staff with only this permission will be able to manage the rotas, but not the actual items"
+msgstr ""
+
+#: ../../source/patrons.rst:1393
+msgid "Cash management (cash_management)"
+msgstr ""
+
+#: ../../source/patrons.rst:1395
+msgid "Add, edit and archive cash registers (manage_cash_registers)"
+msgstr ""
+
+#: ../../source/patrons.rst:1397
+msgid "Staff with this permissions will be able to manage the :ref:`cash registers in the administration module <cashregisters-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:1400
+msgid "Access the point of sale page and take payments (takepayment)"
+msgstr ""
+
+# Traduzido por Ricardo Dias Marques (em 28-Mai-2009)
+#: ../../source/patrons.rst:1402
+#, fuzzy
+msgid "Grants access to the point of sale module"
+msgstr "Permitir acesso ao módulo de relatórios"
+
+#: ../../source/patrons.rst:1407
+#, fuzzy
+msgid "Patron information"
+msgstr "Informação de patente: "
+
+#: ../../source/patrons.rst:1409
+msgid "When viewing a patron record you have the option to view information from one of many tabs found on the left hand side of the record."
+msgstr "Quando estiver a ver o registo do leitor, tem a opção de ver a informação de um de cada separador do lado direito do registo."
+
+#: ../../source/patrons.rst:1412
+msgid "*Get there:* Patrons > Browse or search for patron > Click patron name"
+msgstr ""
+
+#: ../../source/patrons.rst:1418
+msgid "Check out"
+msgstr "Empréstimo"
+
+#: ../../source/patrons.rst:1420
+#, fuzzy
+msgid "For instruction on checking items out, view the :ref:`Checking out <check-out-(issuing)-label>` section of this manual."
+msgstr "Para instrução sobre emprestar exemplares, clique no separador 'Empréstimo' e leia o ficheiro de ajuda online."
+
+#: ../../source/patrons.rst:1423
+#, fuzzy
+msgid "Staff members can access their own check out screen by clicking their username in the top right of the staff client and choosing 'My checkouts'"
+msgstr "Se tem a preferência EnableSearchHistory definida para manter o seu histórico de pesquisa então pode aceder a essa informação clicando no seu nome de utilizador no topo superior do interface dos técnicos e escolhendo 'Histórico de pesquisa'."
+
+#: ../../source/patrons.rst:1427
+msgid "|image1178|"
+msgstr "|image1178|"
+
+#: ../../source/patrons.rst:1432
+msgid "Details"
+msgstr "Detalhes"
+
+#: ../../source/patrons.rst:1436
+#, fuzzy
+msgid "Staff members can access their own account details by clicking their username in the top right of the staff client and choosing 'My account'"
+msgstr "Se tem a preferência EnableSearchHistory definida para manter o seu histórico de pesquisa então pode aceder a essa informação clicando no seu nome de utilizador no topo superior do interface dos técnicos e escolhendo 'Histórico de pesquisa'."
+
+#: ../../source/patrons.rst:1439
+msgid "|image442|"
+msgstr "|image442|"
+
+#: ../../source/patrons.rst:1441
+#, fuzzy
+msgid "All patron information will appear in the Details tab. This includes all the contact information, notes, custom patron attributes, messaging preferences, etc. entered when adding the patron."
+msgstr "Toda a informação do leitor aparecerá no separador Detalhes. Inclui toda a informação de contacto, notas, preferências de mensagem, etc, adicionadas aquando da adição do leitor. Se os leitores estiverem marcados como crianças ou profissionais, informações sobre o fiador aparecerão também no separador."
+
+#: ../../source/patrons.rst:1445
+msgid "|image1359|"
+msgstr "|image1359|"
+
+#: ../../source/patrons.rst:1447
+#, fuzzy
+msgid "In the case of patrons who are marked as 'Child' or 'Professional' and their guarantors additional information will appear on their record."
+msgstr "Toda a informação do leitor aparecerá no separador Detalhes. Inclui toda a informação de contacto, notas, preferências de mensagem, etc, adicionadas aquando da adição do leitor. Se os leitores estiverem marcados como crianças ou profissionais, informações sobre o fiador aparecerão também no separador."
+
+#: ../../source/patrons.rst:1450
+#, fuzzy
+msgid "A child patron will list their guarantor"
+msgstr "Para um leitor criança será mostrado o seu fiador"
+
+#: ../../source/patrons.rst:1452
+msgid "|image443|"
+msgstr "|image443|"
+
+#: ../../source/patrons.rst:1454
+#, fuzzy
+msgid "On the guarantor's record, all children and/or professionals will be listed"
+msgstr "No registo do fiador, todos as crianças e/ou profissionais serão listados"
+
+#: ../../source/patrons.rst:1457
+msgid "|image444|"
+msgstr "|image444|"
+
+#: ../../source/patrons.rst:1461
+#, fuzzy
+msgid "If the age of the patron is outside the age range defined in their patron category a warning will appear on their record."
+msgstr "Toda a informação do leitor aparecerá no separador Detalhes. Inclui toda a informação de contacto, notas, preferências de mensagem, etc, adicionadas aquando da adição do leitor. Se os leitores estiverem marcados como crianças ou profissionais, informações sobre o fiador aparecerão também no separador."
+
+#: ../../source/patrons.rst:1464
+#, fuzzy
+msgid "|image1461|"
+msgstr "|image1461|"
+
+#: ../../source/patrons.rst:1467
+#, fuzzy
+msgid "Circulation summary"
+msgstr "Histórico do empréstimo"
+
+#: ../../source/patrons.rst:1469
+msgid "Below the patron's information on the details screen is a tabbed display of the items they have checked out, overdue, and on hold."
+msgstr "Por debaixo da informação do leitor na página de detalhes está disponível um acesso rápido aos exemplares que o leitor tem emprestado, reservado, ou em atraso."
+
+#: ../../source/patrons.rst:1473
+msgid "Checkouts"
+msgstr "Empréstimo(s)"
+
+#: ../../source/patrons.rst:1475
+#, fuzzy
+msgid "The first tab shows the items the patron currently has checked out."
+msgstr "Ver todos itens emprestados actualmente:"
+
+#: ../../source/patrons.rst:1477
+msgid "|image445|"
+msgstr "|image445|"
+
+#: ../../source/patrons.rst:1481
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: issues-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:1486
+msgid "Relatives' checkouts"
+msgstr "Empréstimos relativos"
+
+#: ../../source/patrons.rst:1488
+#, fuzzy
+msgid "If they have family at the library, staff can see what the other family members have checked out."
+msgstr "Se tiver familiares relacionados os técnicos podem ver o que os outros membros possuem emprestado."
+
+#: ../../source/patrons.rst:1491
+msgid "|image446|"
+msgstr "|image446|"
+
+#: ../../source/patrons.rst:1494
+#, fuzzy
+msgid "Charges"
+msgstr "Quitação"
+
+#: ../../source/patrons.rst:1496
+msgid "The Charges tab will only show in the patron accounts that have unpaid amounts or unused credits."
+msgstr ""
+
+#: ../../source/patrons.rst:1499
+msgid "The tab will show the total amount, without any details. To see the details, go to the :ref:`accounting tab <fines-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:1502
+msgid "|image1360|"
+msgstr "|image1360|"
+
+# Alterado por Ricardo Dias Marques em 28-Mai-2009. Alterado de "Exemplar" para "Reservas", dado que, no ficheiro opac-user.tmpl está a seguir a variável reserves_count
+#: ../../source/patrons.rst:1505
+msgid "Holds"
+msgstr "Reservas"
+
+#: ../../source/patrons.rst:1507
+msgid "If the patron has holds, the number of holds will appear on this tab's title and the details will appear in the tab."
+msgstr ""
+
+#: ../../source/patrons.rst:1510
+msgid "|image490|"
+msgstr "|image490|"
+
+#: ../../source/patrons.rst:1514
+msgid "The barcode and call number will only appear on item-level holds or holds that have been confirmed. Record-level holds that are not waiting to be picked up will not have barocdes or call numbers."
+msgstr ""
+
+#: ../../source/patrons.rst:1518
+#, fuzzy
+msgid "From here you can manage the patron's holds: change the pickup library, cancel or suspend holds."
+msgstr "Na lista de reservas pode alterar a ordem das reservas, a biblioteca de levantamento e/ou cancelar a reserva."
+
+#: ../../source/patrons.rst:1523
+#, fuzzy
+msgid "You will only be able to suspend holds if the :ref:`SuspendHoldsIntranet` system preference is set to \"Allow\"."
+msgstr "Esta opção só aparecerá se tiver definido a preferência de sistema SpecifyDueDate para permitir"
+
+#: ../../source/patrons.rst:1528
+msgid "If, when suspending a hold, you want to be able to set a date at which to automatically resume the hold, set the :ref:`AutoResumeSuspendedHolds` system preference to \"Allow\" and make sure the :ref:`unsuspend_holds cron job <cron-unsuspend-holds-label>` is activated."
+msgstr ""
+
+#: ../../source/patrons.rst:1536
+msgid "Article requests"
+msgstr "Pedidos de artigo"
+
+#: ../../source/patrons.rst:1538
+msgid "If the :ref:`ArticleRequests` system preference is enabled, and the circulation rules allow it, the patrons will be able to request articles, either through the OPAC or in the staff interface."
+msgstr ""
+
+#: ../../source/patrons.rst:1542
+msgid "The details of the patron's request, and its status, are visible in this tab."
+msgstr ""
+
+#: ../../source/patrons.rst:1545
+msgid "|image1361|"
+msgstr "|image1361|"
+
+#: ../../source/patrons.rst:1548
+#, fuzzy
+msgid "Restrictions"
+msgstr "%s Restrições"
+
+#: ../../source/patrons.rst:1550
+msgid "The Restrictions tab will show for all patrons. If the patron has no restrictions you will see that on the tab."
+msgstr ""
+
+#: ../../source/patrons.rst:1553
+msgid "|image447|"
+msgstr "|image447|"
+
+#: ../../source/patrons.rst:1555
+msgid "If the patron has restrictions on their account the tab will show the number and the description."
+msgstr ""
+
+#: ../../source/patrons.rst:1562
+#, fuzzy
+msgid "There are four kinds of restrictions:"
+msgstr "Não existem operações offline pendentes."
+
+#: ../../source/patrons.rst:1559
+#, fuzzy
+msgid "Manual"
+msgstr "manual"
+
+#: ../../source/patrons.rst:1560
+msgid "Overdues"
+msgstr "Atrasos"
+
+#: ../../source/patrons.rst:1561
+#, fuzzy
+msgid "Suspension"
+msgstr "Suspender"
+
+#: ../../source/patrons.rst:1562
+msgid "Discharge"
+msgstr "Quitação"
+
+#: ../../source/patrons.rst:1564
+msgid "Using the 'Add manual restriction' button you can add a restriction to the patron record from here. This can be used for any type of restriction you need to put manually on a patron record."
+msgstr ""
+
+#: ../../source/patrons.rst:1568
+msgid "|image449|"
+msgstr "|image449|"
+
+#: ../../source/patrons.rst:1570
+msgid "|image448|"
+msgstr "|image448|"
+
+#: ../../source/patrons.rst:1572
+msgid "The overdues restrictions are automatically set when overdue notices are sent if you specified you wanted the patron restricted in the :ref:`Overdue notice/status triggers tool <overdue-notice/status-triggers-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:1576
+msgid "This restriction will not be removed automatically when the overdue items are returned unless the :ref:`AutoRemoveOverduesRestrictions` system preference is set to 'Do'."
+msgstr ""
+
+#: ../../source/patrons.rst:1580
+msgid "In the :ref:`circulation rules <circulation-and-fines-rules-label>`, you can choose to fine users by suspending them instead of (or in addition to) fining them money. In that case, returning an overdue document will trigger a suspension restriction."
+msgstr ""
+
+#: ../../source/patrons.rst:1584
+msgid "Patrons may also be restricted if you have issued a :ref:`discharge <patron-discharges-label>` for them. Once the discharge is validated, the patron is automatically restricted."
+msgstr ""
+
+#: ../../source/patrons.rst:1586
+msgid "Restrictions on a patron record will block checkouts. In fact, a message will appear in red when going to the checkout page."
+msgstr ""
+
+#: ../../source/patrons.rst:1589
+msgid "|image1363|"
+msgstr "|image1363|"
+
+#: ../../source/patrons.rst:1591
+msgid "Restrictions may also prevent renewing items if the :ref:`RestrictionBlockRenewing` system preference is set to 'block'."
+msgstr ""
+
+#: ../../source/patrons.rst:1594
+msgid "On the OPAC, patrons will get a message saying their account is frozen. They will not be able to place holds from the OPAC."
+msgstr ""
+
+#: ../../source/patrons.rst:1597
+msgid "If you have patrons that have more than one restriction, you can choose to cumulate their restriction periods or not through the :ref:`CumulativeRestrictionPeriods` system preference."
+msgstr ""
+
+#: ../../source/patrons.rst:1603
+msgid "If you want to restrict patrons from doing various actions if their record is not pristine, check the following system preferences:"
+msgstr ""
+
+#: ../../source/patrons.rst:1606
+msgid "Set the :ref:`OverduesBlockCirc` system preference to 'Block' to prevent patrons who have overdue materials from checking out other materials."
+msgstr ""
+
+#: ../../source/patrons.rst:1608
+msgid "Set the :ref:`OverduesBlockRenewing` system preference to 'block renewing for all the patron's items' or 'block renewing only for this item' to prevent patrons who have overdue materials from renewing their loans."
+msgstr ""
+
+#: ../../source/patrons.rst:1611
+msgid "Enter values in the :ref:`noissuescharge` and :ref:`NoIssuesChargeGuarantees` system preferences in order to block checking out to patrons who have more than a certain amount in fines or to patrons whose guarantees owe more than a certain amount."
+msgstr ""
+
+# Circulation > Checkout Policy
+#: ../../source/patrons.rst:1615
+#, fuzzy
+msgid "Enter a value in the :ref:`maxoutstanding` system preference to prevent patron from placing holds on the OPAC if they owe more than a certain amount."
+msgstr "Impedir os leitores de colocar reservas no OPAC se deverem mais que"
+
+#: ../../source/patrons.rst:1617
+msgid "Enter a value in the :ref:`OPACFineNoRenewals` system preference to prevent patron who owe more than a certain amount to renew their loans from the OPAC."
+msgstr ""
+
+#: ../../source/patrons.rst:1619
+msgid "Set the :ref:`BlockExpiredPatronOpacActions` system preference to 'Block' if you want to prevent patron whose membership has expired to place hold or renew their loans from the OPAC."
+msgstr ""
+
+#: ../../source/patrons.rst:1624
+msgid "Clubs"
+msgstr "Grupos"
+
+#: ../../source/patrons.rst:1626
+msgid "If you use :ref:`patron clubs <patron-clubs-label>`, patrons will have a tab in their record indicating which club they are enrolled in, if any."
+msgstr ""
+
+#: ../../source/patrons.rst:1629
+msgid "|image1362|"
+msgstr "|image1362|"
+
+#: ../../source/patrons.rst:1634
+#, fuzzy
+msgid "Accounting"
+msgstr "routing "
+
+#: ../../source/patrons.rst:1636
+#, fuzzy
+msgid "The patron's complete accounting history will appear on the Accounting tab. The Accounting tab will show all types of charges and credits: overdue fines, membership fees, rental fees, reserve fees and any other charge you may have for patrons."
+msgstr "O histórico completo de contabilidade do leitor irá aparecer no separador das multas. O separador aparece não só os dados das multas, como também mostra taxa de inscrição, empréstimo, reservas e outras coimas do leitor."
+
+#: ../../source/patrons.rst:1641
+msgid "|image450|"
+msgstr "|image450|"
+
+#: ../../source/patrons.rst:1645
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: account-fines)."
+msgstr ""
+
+#: ../../source/patrons.rst:1649
+#, fuzzy
+msgid "The Transactions tab will show you the following columns:"
+msgstr "Esta etapa contém os seguintes exemplares:"
+
+#: ../../source/patrons.rst:1651
+msgid "Date: the date the charge, payment or credit was posted"
+msgstr ""
+
+#: ../../source/patrons.rst:1653
+msgid "In the case of fines this will be the last day that the fine was accrued"
+msgstr ""
+
+#: ../../source/patrons.rst:1656
+msgid "Account type: what type of charge, payment or credit it is"
+msgstr ""
+
+#: ../../source/patrons.rst:1658
+msgid "In cases where an account type may have an accompanying `status` it will be displayed alongside the accounttype in brackets."
+msgstr ""
+
+#: ../../source/patrons.rst:1661
+msgid "Description of charges: a description of the charges including the due date for overdue items and a link to the item record where one is available"
+msgstr ""
+
+#: ../../source/patrons.rst:1664
+msgid "Barcode: if the charge is linked to a particular item, the barcode is displayed"
+msgstr ""
+
+#: ../../source/patrons.rst:1667
+msgid "Due date: if the charge is an overdue fine, the due date is displayed"
+msgstr ""
+
+#: ../../source/patrons.rst:1669
+msgid "Checkin date: if the charge is an overdue fine, the checkin date is displayed"
+msgstr ""
+
+#: ../../source/patrons.rst:1671
+msgid "Checkout date: if the charge is an overdue fine, the check out date is displayed"
+msgstr ""
+
+#: ../../source/patrons.rst:1673
+msgid "Home library: if the charge is linked to a particular item the home library is displayed"
+msgstr ""
+
+#: ../../source/patrons.rst:1676
+msgid "Note: any notes about this charge/payment"
+msgstr ""
+
+#: ../../source/patrons.rst:1678
+msgid "If you're allowing patrons to pay fines via the OPAC with PayPal (:ref:`EnablePayPalOpacPayments <enablepaypalopacpayments-and-paypalsandboxmode-label>`) you will see a Note that says 'PayPal' for items paid this way"
+msgstr ""
+
+#: ../../source/patrons.rst:1682
+msgid "Amount: the total amount of the payment or charge"
+msgstr ""
+
+#: ../../source/patrons.rst:1684
+msgid "Outstanding: the amount still due on charge"
+msgstr ""
+
+#: ../../source/patrons.rst:1686
+#, fuzzy
+msgid "Actions:"
+msgstr "%s Restrições"
+
+#: ../../source/patrons.rst:1688
+msgid "A selection of actions available to take upon the account line as detailed below"
+msgstr ""
+
+#: ../../source/patrons.rst:1690
+msgid "At the top of the table you can click the 'Filter paid transaction' to hide all completed transaction and above that you can use the search box to find a specific charge or payment."
+msgstr ""
+
+#: ../../source/patrons.rst:1697
+#, fuzzy
+msgid "Actions"
+msgstr "%s Restrições"
+
+#: ../../source/patrons.rst:1699
+msgid "Action buttons will be available for the different account lines depending on the users available permissions and the account type and status."
+msgstr ""
+
+#: ../../source/patrons.rst:1702
+msgid "A button to print a receipt for that line item"
+msgstr ""
+
+#: ../../source/patrons.rst:1704
+msgid "A button to show further details about the charge and any payments that have been made"
+msgstr ""
+
+#: ../../source/patrons.rst:1706
+#, fuzzy
+msgid "A button to void (reverse) a payment/credit"
+msgstr "Não foi possível verificar o pagamento."
+
+#: ../../source/patrons.rst:1708
+msgid "This button will only appear on a payment/credit line. Upon voiding the line it will reverse the payment process restoring the amountoutstanding for any debts/debits which the payment/credit may have previously been used to offset. This action is most commonly used to correct cases where a payment was recorded but never actually recieved. The credit line will be set to a zero amount and updated to `VOID`."
+msgstr ""
+
+#: ../../source/patrons.rst:1715
+msgid "A button to cancel (remove) a charge/debit"
+msgstr ""
+
+#: ../../source/patrons.rst:1717
+msgid "This button will only appear on a charge/debit line that has not already had any payment/credits applied to it. Upon cancelling the line it will be marked as 'Cancelled' and a `CANCELLATION` line will be added and offset against it. This action is most commonly used to correct cases where a charge was made mistakenly."
+msgstr ""
+
+#: ../../source/patrons.rst:1723
+msgid "A button to pay against charges/debits with outstanding amounts"
+msgstr ""
+
+#: ../../source/patrons.rst:1725
+msgid "This button will appear against any charge/debit with an outstanding amount.  The subsequent page can be used to pay or writeoff the line partially or in full with a `PAYMENT` or `WRITEOFF` line will being added."
+msgstr ""
+
+#: ../../source/patrons.rst:1729
+msgid "A button to issue a payout of credit"
+msgstr ""
+
+#: ../../source/patrons.rst:1731
+msgid "This button will appear against any credit line that has an amount outstanding and you have the :ref:`payout permission <patron-permissions-defined-label>`. It allows the librarian to return outstanding credit to the patron and record the action with a `PAYOUT` line."
+msgstr ""
+
+#: ../../source/patrons.rst:1736
+msgid "A button to issue a refund against a charge/debit"
+msgstr ""
+
+#: ../../source/patrons.rst:1738
+msgid "This button will appear against any charge/debit line that has been paid or partially paid and you have the :ref:`refund permission <patron-permissions-defined-label>`. The subsequent modal dialogue will allow you to partially or fully refund the offset debt, either in `CASH` or by means of a credit added to the account."
+msgstr ""
+
+#: ../../source/patrons.rst:1744
+msgid "A button to apply a discount to a charge/debit"
+msgstr ""
+
+#: ../../source/patrons.rst:1746
+msgid "This button will appear against any charge/debit which has not already been offset by a credit/payment and you have the :ref:`discount permission <patron-permissions-defined-label>`. The subsequent modal dialogue will allow you to add a discount upon the charge."
+msgstr ""
+
+#: ../../source/patrons.rst:1755
+#, fuzzy
+msgid "Charging fines/fees"
+msgstr "Multas"
+
+#: ../../source/patrons.rst:1757
+#, fuzzy
+msgid "Most fees and fines will be charged automatically if the :ref:`fines cron job <cron-fines-label>` is running.  Fines will also be charged when an overdue item is checked in if the :ref:`CalculateFinesOnReturn` system preference is enabled."
+msgstr "A maior parte das multas serão cobradas se a tarefa das multas estiver a correr:"
+
+#: ../../source/patrons.rst:1761
+#, fuzzy
+msgid "Fines will be charged based on your :ref:`circulation and fines rules <circulation-and-fines-rules-label>`"
+msgstr "Multas serão cobradas de acordo com as regras de circulação e multas"
+
+#: ../../source/patrons.rst:1764
+#, fuzzy
+msgid "Hold fees will be charged based on the rules you set in the :ref:`Patron types and categories <patron-categories-label>` administration area"
+msgstr "Taxas de reserva serão cobradas com base nas regras definidas na área de administração das categorias de leitor"
+
+#: ../../source/patrons.rst:1767
+#, fuzzy
+msgid "Rental fees will be charged based on the settings in your :ref:`Item iypes <item-types-label>` administration area"
+msgstr "Taxas de aluguer serão cobradas de acordo com as configurações da área de administração dos tipos de documento."
+
+#: ../../source/patrons.rst:1770
+msgid "Marking an item 'Lost' via the cataloging module will automatically charge the patron the replacement cost for that item"
+msgstr "Marcar um exemplar como perdido através da página de edição de exemplar colocará automaticamente uma multa no registo do leitor para o custo de substituição do exemplar"
+
+#: ../../source/patrons.rst:1773
+#, fuzzy
+msgid "Creating a patron in a :ref:`category <patron-categories-label>` with an enrollment fee."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:1776
+#, fuzzy
+msgid "Renewing a patron account in a :ref:`category <patron-categories-label>` with an enrollment fee."
+msgstr "Capacidade de definir regras de circulação e multas na área de administração"
+
+#: ../../source/patrons.rst:1782
+#, fuzzy
+msgid "Pay and Writeoff fines"
+msgstr "Amortizar todas as multas "
+
+#: ../../source/patrons.rst:1784
+#, fuzzy
+msgid "Each line item can be paid in full (or written off) using the 'Make a payment' tab."
+msgstr "Cada linha de multa pode ser paga na totalidade (ou amortizada) usando o separador 'Pagar multas'."
+
+#: ../../source/patrons.rst:1787
+msgid "|image451|"
+msgstr "|image451|"
+
+#: ../../source/patrons.rst:1791
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: pay-fines-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:1795
+msgid "Each line item can be paid in full, partially paid, or written off."
+msgstr "Cada linha de multa pode ser paga na totalidade, parcialmente ou amortizada."
+
+#: ../../source/patrons.rst:1797
+#, fuzzy
+msgid "Pay a fine in full"
+msgstr "Pagar a multa completa "
+
+#: ../../source/patrons.rst:1799
+msgid "If you have a note about the payment please type that first then move on"
+msgstr ""
+
+#: ../../source/patrons.rst:1802
+msgid "Click \"Pay\" next to the fine you want to pay in full"
+msgstr "Clicar em \"Pagar\" junto à multa que se deseja pagar totalmente"
+
+#: ../../source/patrons.rst:1804
+#, fuzzy
+msgid "The full amount of the fine will be populated for you in the \"Collect from patron\" box"
+msgstr "O montante total da multa será preenchido na caixa \"Cobrar do leitor\""
+
+#: ../../source/patrons.rst:1807
+msgid "There is a change feature included in this payment process. An option to specify how much money was collected when paying a fine, as well as defining how much was paid on the fine. If these numbers are different (i.e. more money was collected) a popup displaying the amount of change to be given will be displayed and require confirmation before proceeding"
+msgstr ""
+
+#: ../../source/patrons.rst:1813
+msgid "If one or more values are defined under the PAYMENT\\_TYPE authorized value category a dropdown selection box will be displayed to specify a custom payment type"
+msgstr ""
+
+#: ../../source/patrons.rst:1817
+#, fuzzy
+msgid "|image1501|"
+msgstr "|image1501|"
+
+#: ../../source/patrons.rst:1819
+msgid "If the :ref:`UseCashRegisters` system preference is enabled, you will have a choice of cash register in which to enter the transaction"
+msgstr ""
+
+#: ../../source/patrons.rst:1822 ../../source/patrons.rst:1846
+#: ../../source/patrons.rst:1861 ../../source/patrons.rst:1877
+msgid "Click \"Confirm\""
+msgstr "Clicar em \"Confimar\""
+
+#: ../../source/patrons.rst:1824
+msgid "The fine will be removed from outstanding fines, and displayed as fully paid."
+msgstr "A multa será removida das multas em atraso, e mostrada como paga totalmente."
+
+#: ../../source/patrons.rst:1829
+msgid "If the :ref:`FinePaymentAutoPopup` system preference is enabled a print dialogue window will display.  If change was given for this trancaction the details will be included when using this system preference."
+msgstr ""
+
+#: ../../source/patrons.rst:1833
+msgid "In addition to printing receipts you can enable email receipts for payment and writeoff transactions with the :ref:`UseEmailReceipts` system preference."
+msgstr ""
+
+#: ../../source/patrons.rst:1837
+#, fuzzy
+msgid "Pay a partial fine"
+msgstr "Pagar uma multa parcial "
+
+#: ../../source/patrons.rst:1839
+msgid "Click \"Pay\" next to the fine you want to partially pay"
+msgstr "Clicar em \"Pagar\" junto à multa que se deseja pagar parcialmente"
+
+#: ../../source/patrons.rst:1841
+#, fuzzy
+msgid "Enter the amount you are collecting from the patron in the \"Collect from patron\" box"
+msgstr "Insira o montante a recolher do leitor em \"Cobrar do leitor\""
+
+#: ../../source/patrons.rst:1844
+msgid "|image453|"
+msgstr "|image453|"
+
+#: ../../source/patrons.rst:1848
+#, fuzzy
+msgid "The fine will be updated to show the original amount, and the current amount outstanding"
+msgstr "A multa será actualizada para mostrar o montante inicial e o montante devido no momento"
+
+#: ../../source/patrons.rst:1851
+#, fuzzy
+msgid "Pay an amount towards all fines"
+msgstr "Pagar um montante para todas as multas "
+
+#: ../../source/patrons.rst:1853
+#, fuzzy
+msgid "Click the \"Pay amount\" button"
+msgstr "Clicar no botão \"Pagar montante\""
+
+#: ../../source/patrons.rst:1855
+#, fuzzy
+msgid "Enter the amount you are collecting from the patron in \"Collect from patron.\" The sum of all fines is shown in \"Total amount outstanding\""
+msgstr "Insira o montante a recolher do leitor em \"Cobrar do leitor\". A soma de todas as multas é mostrada no \"Total devido\""
+
+#: ../../source/patrons.rst:1859
+msgid "|image454|"
+msgstr "|image454|"
+
+#: ../../source/patrons.rst:1863
+msgid "The fine totals will be updated with the payment applied to oldest fines first."
+msgstr "Os totais das multas serão actualizados com o pagamento aplicado às multas mais antigas."
+
+#: ../../source/patrons.rst:1866
+#, fuzzy
+msgid "Pay selected fines"
+msgstr "Pagar multas seleccionadas "
+
+#: ../../source/patrons.rst:1868
+#, fuzzy
+msgid "Check the selection boxes next to the fines you wish to pay, click \"Pay selected\""
+msgstr "Marque as caixas de selecção junto às multas que deseja pagar, e clique \"Pagar seleccionadas\""
+
+#: ../../source/patrons.rst:1871
+msgid "|image455|"
+msgstr "|image455|"
+
+#: ../../source/patrons.rst:1873
+msgid "Enter an amount to pay towards the fines."
+msgstr "Insira o montante a pagar através das multas."
+
+#: ../../source/patrons.rst:1875
+msgid "|image456|"
+msgstr "|image456|"
+
+#: ../../source/patrons.rst:1879
+msgid "The fine totals will be updated with the payment applied to the oldest selected fines first."
+msgstr "Os totais das multas serão actualizados com o pagamento aplicado às multas mais antigas seleccionadas."
+
+#: ../../source/patrons.rst:1882
+#, fuzzy
+msgid "Writeoff a single fine"
+msgstr "Amortizar uma multa "
+
+#: ../../source/patrons.rst:1884
+msgid "Click \"Writeoff\" next to the fine you wish to writeoff."
+msgstr "Clicar em \"Amortizar\" junto à multa que se deseja amortizar."
+
+#: ../../source/patrons.rst:1886
+msgid "A confirmation box will appear to specify a total amount to writeoff. This box allows a partial writeoff of fines."
+msgstr ""
+
+#: ../../source/patrons.rst:1889 ../../source/patrons.rst:1898
+msgid "The fine will be removed from outstanding fines, and displayed as written off."
+msgstr "A multa será removida das multas em atraso, e mostrada como amortizada."
+
+#: ../../source/patrons.rst:1892
+#, fuzzy
+msgid "Writeoff selected fines"
+msgstr "Amortizar selecionados"
+
+#: ../../source/patrons.rst:1894
+#, fuzzy
+msgid "Check the selection boxes next to the fines you wish to pay, click \"Writeoff selected\"."
+msgstr "Marque as caixas de selecção junto às multas que deseja pagar, e clique \"Pagar seleccionadas\""
+
+#: ../../source/patrons.rst:1896
+#, fuzzy
+msgid "Click \"Confirm\"."
+msgstr "Clicar em \"Confimar\""
+
+#: ../../source/patrons.rst:1900
+#, fuzzy
+msgid "Writeoff all fines"
+msgstr "Amortizar todas as multas "
+
+#: ../../source/patrons.rst:1902
+#, fuzzy
+msgid "Click the \"Writeoff all\" button"
+msgstr "Clicar no botão \"Amortizar todas\""
+
+#: ../../source/patrons.rst:1904
+msgid "All fines will be removed from outstanding fines, and displayed as written off."
+msgstr "Todas as multas serão removidas como multas pendentes, e apresentadas como amortizadas."
+
+#: ../../source/patrons.rst:1909
+msgid "Void payments"
+msgstr ""
+
+#: ../../source/patrons.rst:1911
+#, fuzzy
+msgid "If you accidentally mark and item as paid, you can reverse that line item by clicking 'Void' to the right of the line"
+msgstr "Se acidentalmente marcou uma multa como paga, pode reverter esse estado clicando em 'Reverter' à direita da linha "
+
+#: ../../source/patrons.rst:1914
+msgid "|image457|"
+msgstr "|image457|"
+
+#: ../../source/patrons.rst:1916
+#, fuzzy
+msgid "Once clicked a new line item will be added to the account showing the payment as ‘Voided’.  The payment line is added back to the Pay fines tab as an outstanding charge."
+msgstr "Assim que clicar uma nova linha será adicionada à conta, mostrando o pagamento como revertido"
+
+#: ../../source/patrons.rst:1920
+msgid "|image458|"
+msgstr "|image458|"
+
+#: ../../source/patrons.rst:1925
+#, fuzzy
+msgid "Creating manual invoices"
+msgstr "Criar factura manual"
+
+#: ../../source/patrons.rst:1927
+msgid "For fees that are not automatically charged, librarians can create a manual invoice"
+msgstr "Para multas que não são automaticamente cobradas, os bibliotecários criam facturas manuais"
+
+#: ../../source/patrons.rst:1930
+msgid "|image459|"
+msgstr "|image459|"
+
+#: ../../source/patrons.rst:1932
+#, fuzzy
+msgid "First choose the type of invoice you would like to create"
+msgstr "Primeiro seleccione o tipo de factura que deseja criar "
+
+#: ../../source/patrons.rst:1934
+#, fuzzy
+msgid "To add additional values to the manual invoice type pull down menu, add them to the :ref:`debit types <add-debit-type-label>` in the Administration module."
+msgstr "Para adicionar valores adicionar ao menu de tipo de crédito manual, adicione os valores ao valor autorizado MANUAL_INV"
+
+#: ../../source/patrons.rst:1938
+msgid "If the fee is associated with an item you can enter its barcode so that the line item shows a link to that item"
+msgstr "Se a multa está associada a um exemplar, pode inserir o seu código de barras de forma a que a linha mostra uma ligação ao exemplar"
+
+#: ../../source/patrons.rst:1941
+msgid "The description field is where you will enter the description of the charge"
+msgstr "O campo de descrição é onde é inserido a descrição da multa"
+
+#: ../../source/patrons.rst:1944 ../../source/patrons.rst:1965
+msgid "In the amount field, do not enter currency symbols, only numbers and decimals"
+msgstr "Na caixa de montante não use qualquer símbolo, apenas insira o montante do orçamento com números e decimais"
+
+#: ../../source/patrons.rst:1950
+#, fuzzy
+msgid "Creating manual credits"
+msgstr "Criar crédito manual"
+
+#: ../../source/patrons.rst:1952
+msgid "Manual credits can be used to pay off parts of fines, or to forgive a fine amount."
+msgstr "Créditos manuais podem ser usados para pagar partes de multas, ou para perdoar uma multa."
+
+#: ../../source/patrons.rst:1955
+msgid "|image460|"
+msgstr "|image460|"
+
+#: ../../source/patrons.rst:1957
+msgid "First choose the type of credit you'd like to apply"
+msgstr "Primeiro seleccione o tipo de crédito que deseja aplicar"
+
+#: ../../source/patrons.rst:1959
+msgid "If this credit is associated with an item you can enter that item's barcode so that the line item links to the right item"
+msgstr "Se o crédito estiver associado com um exemplar pode inserir o código de barras do exemplar para que fique uma ligação ao mesmo"
+
+#: ../../source/patrons.rst:1962
+msgid "The description field is where you will enter the description of the credit"
+msgstr "O campo de descrição é onde é inserido a descrição do crédito"
+
+#: ../../source/patrons.rst:1971
+#, fuzzy
+msgid "Printing invoices"
+msgstr "Imprimir facturas"
+
+#: ../../source/patrons.rst:1973
+msgid "To the right of each account line there is a print link. Clicking that link will print an invoice for the line item that includes the date and description of the line item along with the total outstanding on the account."
+msgstr "À direita de cada linha existe uma ligação para imprimir. Ao clicar nessa ligação irá aparecer um recibo da multa que inclui a data e a descrição do exemplar dessa linha com o total devido na conta."
+
+#: ../../source/patrons.rst:1978
+msgid "|image461|"
+msgstr "|image461|"
+
+#: ../../source/patrons.rst:1983
+msgid "Routing lists"
+msgstr "Listas de circulação"
+
+#: ../../source/patrons.rst:1985
+#, fuzzy
+msgid "A list of all of the serial routing lists the patron belongs to will be accessible via the 'Routing lists' tab on the patron record."
+msgstr "Um lista de todas as listas de circulação de assinaturas ao qual o leitor pertence está acessível no separador 'Listas de circulação' no registo do leitor."
+
+#: ../../source/patrons.rst:1988
+msgid "|image462|"
+msgstr "|image462|"
+
+#: ../../source/patrons.rst:1990
+msgid "On this tab you will be able to see and edit all of the routing lists that this patron is on."
+msgstr "Neste separador poderá ver e editar as listas de circulação onde o leitor está."
+
+#: ../../source/patrons.rst:1993
+msgid "|image463|"
+msgstr "|image463|"
+
+#: ../../source/patrons.rst:1998
+msgid "Circulation history"
+msgstr "Histórico do empréstimo"
+
+#: ../../source/patrons.rst:2000
+#, fuzzy
+msgid "The circulation history tab will appear if you have set the :ref:`intranetreadinghistory` preference to allow it to appear. If you have the :ref:`OPACPrivacy` system preference set to 'Allow' and the patron has decided that the library cannot keep this information this tab will only show currently checked out items."
+msgstr "O separado histórico de empréstimo irá aparecer se a preferência de sistema intranetreadinghistory estiver definida para aparecer. Se a preferência OPACPrivacy estiver em 'Permitir' e o leitor decidir que a biblioteca não deve guardar a informação, o separador apenas irá mostrar os exemplares emprestados no momento."
+
+#: ../../source/patrons.rst:2007
+msgid "|image464|"
+msgstr "|image464|"
+
+#: ../../source/patrons.rst:2011
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: checkouthistory-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:2015
+msgid "If you would like to export a list of barcodes for the items checked in today you can find that option under the More menu on the top right of the page."
+msgstr "Se desejar exportar a lista de códigos de barras dos exemplares devolvidos hoje, pode encontrar essa opção no menu 'Mais' no topo direito da página."
+
+#: ../../source/patrons.rst:2019
+msgid "|image465|"
+msgstr "|image465|"
+
+#: ../../source/patrons.rst:2021
+msgid "This will generate a text file with one barcode per line."
+msgstr "Isto irá gerar um ficheiro de texto com um código de barras por linha."
+
+#: ../../source/patrons.rst:2026
+msgid "Holds history"
+msgstr ""
+
+#: ../../source/patrons.rst:2028
+msgid "The holds history tab shows all the holds the patron has made, with their status."
+msgstr ""
+
+#: ../../source/patrons.rst:2030
+#, fuzzy
+msgid "|image1496|"
+msgstr "|image1496|"
+
+#: ../../source/patrons.rst:2034
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdshistory-table)."
+msgstr ""
+
+#: ../../source/patrons.rst:2041
+msgid "Modification log"
+msgstr "Relatório de modificações"
+
+#: ../../source/patrons.rst:2043
+#, fuzzy
+msgid "If you have set your :ref:`BorrowersLog` to track changes to patron records, then this tab will appear. The Modification log will show when changes were made to the patron record. If you also have turned on the :ref:`IssueLog` and :ref:`ReturnLog` you will see checkins and outs on this screen as well."
+msgstr "Se tem o BorrowersLog activo para as mudanças dos registos dos leitores, então este separador irá aparecer. O log de modificação mostra todas as mudanças ao leitor."
+
+#: ../../source/patrons.rst:2049
+msgid "|image466|"
+msgstr "|image466|"
+
+#: ../../source/patrons.rst:2051
+msgid "The Librarian field shows the patron number for the librarian who made the changes"
+msgstr "O campo Técnico mostra o número de leitor do técnico que fez as alterações"
+
+#: ../../source/patrons.rst:2054
+msgid "The module lists 'MEMBERS' for the patron module"
+msgstr ""
+
+#: ../../source/patrons.rst:2056
+msgid "The action will tell you what action was being logged"
+msgstr ""
+
+#: ../../source/patrons.rst:2058
+msgid "The Object field lists the borrowernumber that is being modified (in the example above, it was my changing my own record)"
+msgstr ""
+
+#: ../../source/patrons.rst:2064
+msgid "Notices"
+msgstr "Avisos"
+
+#: ../../source/patrons.rst:2066
+#, fuzzy
+msgid "The `patron's messaging preferences <#setpatronmessaging>`__ are set when :ref:`adding <add-a-new-patron-label>` or :ref:`editing <editing-patrons-label>` the patron. This tab will show the messages that have been sent and those that are queued to be sent:"
+msgstr "As preferências de mensagem do leitor são definidas na sua adição ou edição. Este separador irá mostrar as mensagens que foram enviadas e as que estão em lista de espera para envio"
+
+#: ../../source/patrons.rst:2071
+msgid "|image467|"
+msgstr "|image467|"
+
+#: ../../source/patrons.rst:2073
+msgid "Clicking on the message title will expand the view to show you the full text of the message that was sent."
+msgstr "Ao clicar no título da mensagem irá expandir a vista para mostrar o texto completo da mensagem que foi enviada."
+
+#: ../../source/patrons.rst:2076
+msgid "|image468|"
+msgstr "|image468|"
+
+#: ../../source/patrons.rst:2078
+msgid "If the message has a status of sent or failed you will have the option to 'resend' the message to the patron by clicking the 'resend' button found under the status."
+msgstr ""
+
+#: ../../source/patrons.rst:2082
+msgid "|image469|"
+msgstr "|image469|"
+
+#: ../../source/patrons.rst:2087
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: ../../source/patrons.rst:2089
+#, fuzzy
+msgid "Depending on what you set for the values of your :ref:`StatisticsFields` system preference, you can see statistics for one patron's circulation actions."
+msgstr "Dependendo no que definiu como valores na preferência de sistema StatisticsFields, pode ver estatísticas para acções de circulação dos leitores."
+
+#: ../../source/patrons.rst:2093
+msgid "|image470|"
+msgstr "|image470|"
+
+#: ../../source/patrons.rst:2098
+msgid "Files"
+msgstr "Ficheiros"
+
+#: ../../source/patrons.rst:2100
+#, fuzzy
+msgid "If you set the :ref:`EnableBorrowerFiles` preference to 'Do' the Files tab will be visible on the patron information page."
+msgstr "Se definiu a preferência EnableBorrowerFiles para 'Fazer' o separador de ficheiros será visível na página de informação do leitor."
+
+#: ../../source/patrons.rst:2103
+msgid "|image471|"
+msgstr "|image471|"
+
+#: ../../source/patrons.rst:2105
+msgid "From here you can upload files to attach to the patron record."
+msgstr "A partir deste ponto pode carregar ficheiros para associar ao registo de leitor."
+
+#: ../../source/patrons.rst:2107
+msgid "|image472|"
+msgstr "|image472|"
+
+#: ../../source/patrons.rst:2109
+msgid "All files that are uploaded will appear above a form where additional files can be uploaded from."
+msgstr "Todos os ficheiro carregados irão aparecer acima do formulário de carregamento de ficheiros adicionais."
+
+#: ../../source/patrons.rst:2112
+msgid "|image473|"
+msgstr "|image473|"
+
+#: ../../source/patrons.rst:2117
+msgid "Purchase suggestions"
+msgstr "Sugestões de aquisição"
+
+#: ../../source/patrons.rst:2119
+msgid "If the patron has made any purchase suggestions you will see a purchase suggestions tab on the patron record."
+msgstr "Se o leitor fez pelo menos uma sugestão de aquisição aparecerá um separador com essa informação no registo do leitor."
+
+#: ../../source/patrons.rst:2122
+msgid "|image1247|"
+msgstr "|image1247|"
+
+#: ../../source/patrons.rst:2124
+msgid "From here you can see all suggestions made by the patron and their status, you can also create a purchase suggestion on the patron's behalf by clicking the 'New purchase suggestion' button at the top."
+msgstr "A partir deste ponto pode ver todas as sugestões feitas pelo leitor e o seu estado, e criar novas sugestões a pedido do leitor clicando no botão 'Nova sugestão de aquisição' no topo da página."
+
+#: ../../source/patrons.rst:2128
+#, fuzzy
+msgid "Learn more about :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` in the `Acquisitions <#acqmodule>`__ chapter of this manual."
+msgstr "Aprenda mais sobre as Sugestões de aquisição no capítulo de Aquisições do manual."
+
+#: ../../source/patrons.rst:2134
+msgid "Patron discharges"
+msgstr "Quitações do leitor"
+
+#: ../../source/patrons.rst:2136
+#, fuzzy
+msgid "A discharge is a certificate that says the patron has no current checkouts, no holds and owe no money. To enable this opti`on on the patron record you need to set the :ref:`useDischarge` system preference to 'Allow'."
+msgstr "Uma quitação é um certificado que identifica que o leitor não possui nenhum empréstimo, reservas ou multas. Para ativar esta opção num leitor precisa de definir a preferência de sistema useDischarge para 'Permitir'."
+
+#: ../../source/patrons.rst:2143
+#, fuzzy
+msgid "In France a \"quitus\" (\"discharge\") is needed if you want to register for an account in a library or a university."
+msgstr "Nota: Em França uma quitação é necessária se desejar registar uma conta numa biblioteca ou numa universidade."
+
+#: ../../source/patrons.rst:2148
+#, fuzzy
+msgid "Academic libraries often require that you have a clear record at the library before you can graduate."
+msgstr "Nota: Bibliotecas académicas as vezes necessitam que você tenha um registo limpo na biblioteca antes de poder terminar o curso."
+
+#: ../../source/patrons.rst:2151
+msgid "Patrons can :ref:`request discharges via the OPAC <ask-for-a-discharge-label>`. Any pending discharges will be listed below the menu buttons on the main staff client page"
+msgstr ""
+
+#: ../../source/patrons.rst:2155
+msgid "|image1248|"
+msgstr "|image1248|"
+
+#: ../../source/patrons.rst:2157
+msgid "Clicking the pending requests will open a screen where you can allow those discharges"
+msgstr ""
+
+#: ../../source/patrons.rst:2160
+msgid "|image1249|"
+msgstr "|image1249|"
+
+#: ../../source/patrons.rst:2162
+#, fuzzy
+msgid "To generate a discharge for a specific patron click the 'Discharge' tab on the left of the patron record"
+msgstr "Para gerar um quitação para um leitor clique no separador 'Quitação' à esquerda do registo do leitor"
+
+#: ../../source/patrons.rst:2165
+msgid "|image1250|"
+msgstr "|image1250|"
+
+#: ../../source/patrons.rst:2167
+msgid "If the patron can have a discharge generated then it will have a button that says 'Generate discharge'"
+msgstr "Se o leitor puder ter uma quitação gerada aparecerá um botão a dizer 'Gerar quitação'"
+
+#: ../../source/patrons.rst:2170
+msgid "|image474|"
+msgstr "|image474|"
+
+#: ../../source/patrons.rst:2172
+msgid "If not then you'll see an error explaining why you can't discharge the patron."
+msgstr "Senão irá ver um erro a explicar porque não consegue gerar uma quitação para o leitor."
+
+#: ../../source/patrons.rst:2175
+msgid "|image475|"
+msgstr "|image475|"
+
+#: ../../source/patrons.rst:2177
+msgid "Once the letter is generated you will have a PDF to download"
+msgstr "Assim que a carta for gerada haverá um PDF para descarregar"
+
+#: ../../source/patrons.rst:2179
+msgid "|image476|"
+msgstr "|image476|"
+
+#: ../../source/patrons.rst:2183
+msgid "You can style the PDF using the :ref:`NoticeCSS` preference."
+msgstr ""
+
+#: ../../source/patrons.rst:2186
+#, fuzzy
+msgid "The patron will have a restriction added to their account"
+msgstr "Leitor tem uma restrição na sua conta "
+
+#: ../../source/patrons.rst:2188
+msgid "|image1251|"
+msgstr "|image1251|"
+
+#: ../../source/patrons.rst:2190
+msgid "And a history of discharges will be added to the 'Discharge' tab"
+msgstr ""
+
+#: ../../source/patrons.rst:2193
+msgid "|image1252|"
+msgstr "|image1252|"
+
+#: ../../source/patrons.rst:2198
+#, fuzzy
+msgid "Housebound patrons"
+msgstr "Regras"
+
+#: ../../source/patrons.rst:2200
+msgid "There are three roles a patron can have in regard to housebound circulation: borrower, chooser or deliverer."
+msgstr ""
+
+#: ../../source/patrons.rst:2205
+msgid "In order to use the housebound module, the :ref:`HouseboundModule` and :ref:`ExtendedPatronAttributes` system preferences must be enabled."
+msgstr ""
+
+#: ../../source/patrons.rst:2212
+msgid "Chooser"
+msgstr "Responsável da escolha"
+
+#: ../../source/patrons.rst:2214
+msgid "If you have enabled the housebound module, with the :ref:`HouseboundModule` system preference, you will see that patrons now have a new section in their record called 'Housebound roles'."
+msgstr ""
+
+#: ../../source/patrons.rst:2219
+msgid "|image1349|"
+msgstr "|image1349|"
+
+#: ../../source/patrons.rst:2221
+#, fuzzy
+msgid "Click the 'Add' button to mark this patron as a 'Chooser'."
+msgstr "Clique no botão 'Eliminar' para remover a imagem actual."
+
+#: ../../source/patrons.rst:2224
+msgid "|image1350|"
+msgstr "|image1350|"
+
+#: ../../source/patrons.rst:2226
+msgid "The chooser is in charge of choosing the materials for the housebound patron."
+msgstr ""
+
+#: ../../source/patrons.rst:2232
+msgid "Deliverer"
+msgstr "Responsável da entrega"
+
+#: ../../source/patrons.rst:2234
+msgid "In the 'Housebound roles', click the 'Add' button to mark this patron as a 'Deliverer'."
+msgstr ""
+
+#: ../../source/patrons.rst:2237
+msgid "|image1351|"
+msgstr "|image1351|"
+
+#: ../../source/patrons.rst:2239
+msgid "The deliverer is in charge of delivering the chosen materials to the housebound patron on a specific day at a specific time."
+msgstr ""
+
+#: ../../source/patrons.rst:2245
+#, fuzzy
+msgid "Housebound borrowers"
+msgstr "Regras"
+
+#: ../../source/patrons.rst:2247
+msgid "To create a housebound profile for an housebound patron, click on the 'Housebound' tab in their record."
+msgstr ""
+
+#: ../../source/patrons.rst:2250
+msgid "|image1347|"
+msgstr "|image1347|"
+
+#: ../../source/patrons.rst:2252
+msgid "From there, you can edit their housebound profile information."
+msgstr ""
+
+#: ../../source/patrons.rst:2254
+msgid "|image1348|"
+msgstr "|image1348|"
+
+#: ../../source/patrons.rst:2256
+msgid "Delivery day: choose which day (or 'Any') the patron prefers to receive their delivery."
+msgstr ""
+
+#: ../../source/patrons.rst:2259
+msgid "Frequency: choose the frequency at which they want to receive their deliveries."
+msgstr ""
+
+#: ../../source/patrons.rst:2264
+msgid "The frequencies are managed through the HSBND\\_FREQ list of :ref:`authorized values <existing-values-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:2267
+msgid "Preferred materials: enter notes that will help the chooser choose appropriate documents for the housebound patron."
+msgstr ""
+
+#: ../../source/patrons.rst:2270
+msgid "For example: books, dvds, magazines, etc."
+msgstr ""
+
+#: ../../source/patrons.rst:2272
+msgid "Subjects: if the housebound patron has a preference for particular subjects, enter it here. This will help the chooser choose interesting documents for the patron."
+msgstr ""
+
+#: ../../source/patrons.rst:2276
+msgid "For example: romance, cookbooks, thrillers, etc."
+msgstr ""
+
+#: ../../source/patrons.rst:2278
+msgid "Authors: if the housebound patron has favorite authors, enter them here."
+msgstr ""
+
+#: ../../source/patrons.rst:2281
+msgid "For example: Danielle Steel, James Patterson, etc."
+msgstr ""
+
+#: ../../source/patrons.rst:2283
+msgid "Referral: if the housebound patron has a referral, enter it here."
+msgstr ""
+
+#: ../../source/patrons.rst:2286
+msgid "Notes: enter any other notes that may help the chooser or the deliverer."
+msgstr ""
+
+#: ../../source/patrons.rst:2289
+#, fuzzy
+msgid "Click the 'Save changes' button to save the housebound profile."
+msgstr "Clique no botão 'Eliminar' para remover a imagem actual."
+
+#: ../../source/patrons.rst:2294
+#, fuzzy
+msgid "Coordinating deliveries"
+msgstr "Bibliotecas"
+
+#: ../../source/patrons.rst:2296
+msgid "To plan visits, go to the housebound patron's record."
+msgstr ""
+
+#: ../../source/patrons.rst:2298
+#, fuzzy
+msgid "In their housebound tab, you will be able to create deliveries."
+msgstr "No formulário da encomenda que é mostrado, não poderá editar os detalhes de catálogo."
+
+#: ../../source/patrons.rst:2300
+msgid "|image1352|"
+msgstr "|image1352|"
+
+#: ../../source/patrons.rst:2302
+#, fuzzy
+msgid "Click on 'Add a new delivery'."
+msgstr "Adicionar nova entrega "
+
+#: ../../source/patrons.rst:2304
+msgid "|image1353|"
+msgstr "|image1353|"
+
+#: ../../source/patrons.rst:2306
+#, fuzzy
+msgid "Fill out the information :"
+msgstr "Informação do volume"
+
+#: ../../source/patrons.rst:2308
+msgid "Date: Enter the date of the delivery."
+msgstr ""
+
+#: ../../source/patrons.rst:2310
+msgid "Time: Select a time of day for the delivery. The choices are morning, afternoon, or evening."
+msgstr ""
+
+#: ../../source/patrons.rst:2313
+msgid "Chooser: Select a chooser who will be in charge of selecting the materials for this housebound patron."
+msgstr ""
+
+#: ../../source/patrons.rst:2316
+msgid "Deliverer: Select a deliverer who will be in charge of picking up the materials and bringing them over to the housebound patron."
+msgstr ""
+
+#: ../../source/patrons.rst:2320
+msgid "|image1354|"
+msgstr "|image1354|"
+
+#: ../../source/patrons.rst:2322
+msgid "Choosers and Deliverers can be notified of planned deliveries via reports.  Example reports be found in the SQL Reports Library at https://wiki.koha-community.org/wiki/SQL_Reports_Patrons#Patron_Characteristics."
+msgstr ""
+
+#: ../../source/patrons.rst:2327
+msgid "Patron search"
+msgstr "Pesquisar leitores"
+
+#: ../../source/patrons.rst:2329
+msgid "Clicking on the link to the Patron module will bring you to a search/browse screen for patrons. From here you can search for a patron by any part of their name or their card number."
+msgstr "Ao clicar no link para o módulo dos Leitores, vai aparecer um painel de pesquisa para os leitores. A partir do mesmo é possível executar pesquisas sobre um leitor quer pelo nome quer pelo número de cartão."
+
+#: ../../source/patrons.rst:2333
+msgid "|image477|"
+msgstr "|image477|"
+
+#: ../../source/patrons.rst:2335
+msgid "Clicking the small plus sign [+] to the right of the search box will open up an advanced patron search with more filters including the ability to limit to a specific category and/or library."
+msgstr "Ao clicar no sinal [+] à direita da caixa de pesquisa irá abrir uma pesquisa avançada de leitor com mais filtros incluindo a capacidade de limitar a uma categoria ou biblioteca específica."
+
+#: ../../source/patrons.rst:2339
+msgid "|image478|"
+msgstr "|image478|"
+
+#: ../../source/patrons.rst:2341
+msgid "You can also filter your patron results using the search options on the left hand side of the page."
+msgstr "Pode limitar os resultados que vê usando a caixa de refinar pesquisa no lado esquerdo da página."
+
+#: ../../source/patrons.rst:2344
+msgid "|image1253|"
+msgstr "|image1253|"
+
+#: ../../source/patrons.rst:2346
+msgid "Depending on what you have chosen for the 'Search fields' you can search for patrons in various different ways."
+msgstr "Dependendo no que escolheu como 'Campos de pesquisa' pode pesquisar por leitores de variadas formas."
+
+#: ../../source/patrons.rst:2349
+msgid "|image479|"
+msgstr "|image479|"
+
+#: ../../source/patrons.rst:2351
+#, fuzzy
+msgid "Standard:"
+msgstr "Omissão: "
+
+#: ../../source/patrons.rst:2353
+msgid "Enter any part of their name, username, email address or barcode"
+msgstr "Insira qualquer parte do nome, nome de utilizador, email ou código de barras"
+
+#: ../../source/patrons.rst:2355
+msgid "Email:"
+msgstr "Email:"
+
+#: ../../source/patrons.rst:2357
+msgid "Enter any part of their email address and choose 'Contains' instead of 'Starts with'"
+msgstr "Insira qualquer parte do endereço de email e escolha 'Contem' em vez de 'Começa por'"
+
+#: ../../source/patrons.rst:2360
+#, fuzzy
+msgid "Borrower number:"
+msgstr "Número de leitor: "
+
+#: ../../source/patrons.rst:2362
+msgid "Enter the Koha borrower number"
+msgstr "Insira o número de leitor"
+
+#: ../../source/patrons.rst:2364
+#, fuzzy
+msgid "Phone number:"
+msgstr "Telefone: "
+
+#: ../../source/patrons.rst:2366
+msgid "Enter the phone number exactly as it is in the system or by using spaces between each batch of numbers."
+msgstr "Insira o número de telefone tal como no sistema ou usando espaços em os blocos de números."
+
+#: ../../source/patrons.rst:2369
+msgid "Example: To find (212) 555-1212 you can search for it exactly as it was entered or by searching for 212 555 1212"
+msgstr "Exemplo: Para encontrar (212) 555-1212 pode pesquisa exactamente por essa expressão ou apenas por 212 555 1212"
+
+#: ../../source/patrons.rst:2372
+#, fuzzy
+msgid "Street address:"
+msgstr "Endereço da rua: "
+
+#: ../../source/patrons.rst:2374
+msgid "Enter any part of the patron's address (includes all address fields) and choose 'Contains' instead of 'Starts with' to find the string anywhere in the address"
+msgstr "Insira qualquer parte do endereço do leitor (qualquer campo de endereço) e escolha 'Contem' em vez de 'Começa por' para encontrar a frase em qualquer sítio do endereço"
+
+#: ../../source/patrons.rst:2378
+msgid "Date of birth"
+msgstr "Data de nascimento"
+
+#: ../../source/patrons.rst:2380
+#, fuzzy
+msgid "Birth dates should be entered using the format set forth in the :ref:`dateformat` preference."
+msgstr "Data de nascimento deve ser inserida usando o formato definido na preferência de sistema dateformat."
+
+#: ../../source/patrons.rst:2383
+msgid "Sort field 1"
+msgstr "Campo de ordenação 1"
+
+#: ../../source/patrons.rst:2385 ../../source/patrons.rst:2390
+msgid "This is a custom field that libraries can use for any type of data about the patron."
+msgstr "Este é um campo que as bibliotecas podem usar para qualquer tipo de dados sobre o leitor."
+
+#: ../../source/patrons.rst:2388
+msgid "Sort field 2"
+msgstr "Campo de ordenação 2"
+
+#: ../../source/patrons.rst:2393
+msgid "You can also choose to either search for fields that start with the string you entered or contain the string. Choosing 'Contains' will work like a wildcard search."
+msgstr "Pode escolher pesquisar campos que comecem pelo valor que inseriu o que contem esse valor. Ao escolher 'Contem' irá funcionar como uma pesquisa wildcard."
+
+#: ../../source/patrons.rst:2397
+msgid "|image480|"
+msgstr "|image480|"
+
+#: ../../source/patrons.rst:2399
+msgid "You can also browse through the patron records by clicking on the linked letters across the top."
+msgstr "Pode também navegar pelos registos de leitor clicando nas letras existentes no topo."
+
+#: ../../source/patrons.rst:2402
+msgid "|image481|"
+msgstr "|image481|"
+
+#: ../../source/patrons.rst:2404
+msgid "If your search only returns one result, you will be taken directly to the patron's file. If your search returns more than one result, you will be given a list from which to choose."
+msgstr ""
+
+#: ../../source/patrons.rst:2408
+#, fuzzy
+msgid "|image1495|"
+msgstr "|image1495|"
+
+#: ../../source/patrons.rst:2412
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: memberresultst)."
+msgstr ""
+
+#: ../../source/patrons.rst:2419
+#, fuzzy
+msgid "Communicating with patrons"
+msgstr "Modificar leitores"
+
+#: ../../source/patrons.rst:2421
+msgid "Koha offers several options for communicating with patrons, some of which have already been covered in this chapter."
+msgstr ""
+
+#: ../../source/patrons.rst:2427
+msgid "OPAC notes"
+msgstr ""
+
+#: ../../source/patrons.rst:2429
+msgid "OPAC notes are added to the patron's file through the :ref:`add patron form<add-a-new-patron-label>` or the :ref:`edit patron form <editing-patrons-label>`, in the 'Library set-up' section."
+msgstr ""
+
+#: ../../source/patrons.rst:2436
+msgid "They show up in the :ref:`'Your summary' section <your-summary-label>` of the patron's online account in the OPAC."
+msgstr ""
+
+#: ../../source/patrons.rst:2441
+msgid "In the staff interface, OPAC notes will be in the 'Library use' section of the patron's file."
+msgstr ""
+
+#: ../../source/patrons.rst:2449
+msgid "OPAC messages"
+msgstr ""
+
+#: ../../source/patrons.rst:2451
+msgid "OPAC messages are added to the patron's file using the 'Add message' button."
+msgstr ""
+
+#: ../../source/patrons.rst:2455
+msgid "To leave a message that the patron will be able to see in the OPAC, choose \"OPAC - Patron's name\" in the 'Add a message for' field. Enter your message in the box, or choose a predefined message in the drop-down menu."
+msgstr ""
+
+#: ../../source/patrons.rst:2459
+#, fuzzy
+msgid "|image1505|"
+msgstr "|image1505|"
+
+#: ../../source/patrons.rst:2463
+msgid "Predefined messages are added in the BOR\\_NOTES :ref:`authorized value category <existing-values-label>`"
+msgstr ""
+
+#: ../../source/patrons.rst:2466
+msgid "Once saved, the patron will be able to see the message in the :ref:`'Your summary' section <your-summary-label>` of their online account. The patron will also be able to see the date on which the message was added as well as the name of the branch."
+msgstr ""
+
+#: ../../source/patrons.rst:2471
+#, fuzzy
+msgid "|image1506|"
+msgstr "|image1506|"
+
+#: ../../source/patrons.rst:2473
+msgid "In the staff interface, OPAC messages are shown on the patron's detail page, at the top of the page just under the row of action buttons."
+msgstr ""
+
+#: ../../source/patrons.rst:2476
+#, fuzzy
+msgid "|image1507|"
+msgstr "|image1507|"
+
+#: ../../source/patrons.rst:2478
+msgid "It will also appear on the checkout page, to the right of the checkout box."
+msgstr ""
+
+#: ../../source/patrons.rst:2480
+#, fuzzy
+msgid "|image1508|"
+msgstr "|image1508|"
+
+#: ../../source/patrons.rst:2485
+#, fuzzy
+msgid "Advance notices and hold notices"
+msgstr "Definir avisos"
+
+#: ../../source/patrons.rst:2487
+msgid "If you have enabled the :ref:`EnhancedMessagingPreferences` system preference, you cat set advance notices as well as hold notices when :ref:`adding a new patron <add-a-new-patron-label>` or :ref:`editing a patron <editing-patrons-label>`."
+msgstr ""
+
+#: ../../source/patrons.rst:2492
+#, fuzzy
+msgid "If the :ref:`EnhancedMessagingPreferencesOPAC` system preference is set to 'show', patrons will be able to modify their messaging preferences in their online account."
+msgstr "Por fim, se a preferência EnhancedMessagingPreferences estiver activa, pode escolher as preferências de mensagem para o leitor. "
+
+#: ../../source/patrons.rst:2498
+msgid "Item due: A notice on the day and item is due back at the library"
+msgstr ""
+
+#: ../../source/patrons.rst:2500
+#, fuzzy
+msgid "Customize this notice by editing the DUE or DUEDGST notices in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:2503
+msgid "Advance notice: A notice in advance of the patron's items being due (the patron can choose the number of days in advance)"
+msgstr ""
+
+#: ../../source/patrons.rst:2506
+#, fuzzy
+msgid "Customize this notice by editing the PREDUE or PREDUEDGST notices in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:2509
+msgid "Hold filled: A notice when you have confirmed the hold is waiting for the patron"
+msgstr ""
+
+#: ../../source/patrons.rst:2512
+#, fuzzy
+msgid "Customize this notice by editing the HOLD notice in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:2515
+msgid "Item check-in: A notice that lists all the of the items the patron has just checked in"
+msgstr ""
+
+#: ../../source/patrons.rst:2518
+#, fuzzy
+msgid "Customize this notice by editing the CHECKIN notice in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:2521
+msgid "Item checkout: A notice that lists all the of the items the patron has just checked out and/or renewed, this is an electronic form of the checkout receipt"
+msgstr ""
+
+#: ../../source/patrons.rst:2525
+#, fuzzy
+msgid "Customize this notice by editing the CHECKOUT notice in the :ref:`Notices & slips tool <notices-and-slips-label>`"
+msgstr "Acesso à ferramenta de notícias"
+
+#: ../../source/patrons.rst:2528
+msgid "Patrons can choose to receive their notices as a digest by checking the 'Digest only' box along with the delivery method. A digest is a combination of all the messages of that type (so all items due in 3 days in one email) in to one email instead of multiple emails for each alert."
+msgstr ""
+
+#: ../../source/patrons.rst:2533
+msgid "The delivery methods currently supported are:"
+msgstr ""
+
+#: ../../source/patrons.rst:2535
+#, fuzzy
+msgid "Email"
+msgstr "Email:"
+
+#: ../../source/patrons.rst:2536
+msgid "SMS (text messages)"
+msgstr ""
+
+#: ../../source/patrons.rst:2537
+msgid "Automated phone call system"
+msgstr ""
+
+#: ../../source/patrons.rst:2538
+msgid "Print"
+msgstr ""
+
+#: ../../source/patrons.rst:2540
+msgid "To generate the advance notices (advance notice and item due), you need to run the :ref:`advance\\_notices.pl cronjob <cron-advanced-notice-label>`. Then, the :ref:`process\\_message\\_queue.pl cronjob <cron-message-queue-label>` will send the notices or the :ref:`gather\\_print\\_notices.pl cronjob <cron-print-hold-notices-label>` will gather them in a nice file you can print out and send out via regular mail."
+msgstr ""
+
+#: ../../source/patrons.rst:2549
+#, fuzzy
+msgid "Overdue notices"
+msgstr "Atrasos"
+
+#: ../../source/patrons.rst:2551
+#, fuzzy
+msgid "Overdue notices are managed in :ref:`Notices & slips <notices-and-slips-label>` and when they are sent is managed in :ref:`Overdue notice/status triggers <overdue-notice/status-triggers-label>`."
+msgstr "Este sinal pode ser definido automaticamente com os avisos de atraso"
+
+#: ../../source/patrons.rst:2555
+msgid "Patrons cannot opt out of receiving overdue notices like they can other notices (such as :ref:`advance notices or hold notices <advance-notices-and-hold-notices-label>`)"
+msgstr ""
+
+#: ../../source/patrons.rst:2558
+msgid "To generate the overdue notices , you need to run the :ref:`overdue\\_notices.pl cronjob <cron-overdue-notice-label>`. Then, the :ref:`process\\_message\\_queue.pl cronjob <cron-message-queue-label>` will send the notices or the :ref:`gather\\_print\\_notices.pl cronjob <cron-print-hold-notices-label>` will gather them in a nice file you can print out and send out via regular mail."
+msgstr ""
+
+#: ../../source/patrons.rst:2567
+msgid "Custom emails"
+msgstr ""
+
+#~ msgid "If the Guarantor is not in the system, you can enter the first and last name in the fields available"
+#~ msgstr "Se o fiador não estiver no sistema, pode introduzir o primeiro e o último nome nos campos disponíveis"
+
+#, fuzzy
+#~ msgid "If this patron is a professional, you will be asked to attach the patron to an organizational patron"
+#~ msgstr "Se o leitor for um professional, será pedido para ligar o leitor a uma organização "
+
+#, fuzzy
+#~ msgid "Each patron can have an alternate contact"
+#~ msgstr "Cada leitor pode ter um contacto alternativo "
+
+#, fuzzy
+#~ msgid "If your patron cards expire (based on your :ref:`patron category settings <patron-categories-label>`) the expiry date will automatically be calculated"
+#~ msgstr "Se o cartão de leitor expira (baseado nas configurações de categoria de leitor) a data de expiração será automaticamente calculada"
+
+#, fuzzy
+#~ msgid "These notices are:"
+#~ msgstr "Três vezes por semana"
+
+#, fuzzy
+#~ msgid "These preference can be altered by the patron via the OPAC"
+#~ msgstr "Importante: Estas preferências podem ser alteradas pelo leitor no OPAC"
+
+#, fuzzy
+#~ msgid "** Note**"
+#~ msgstr "Nota"
+
+#, fuzzy
+#~ msgid "Fines & charges"
+#~ msgstr "Multas"
+
+#~ msgid "Fines"
+#~ msgstr "Multas"
+
+#, fuzzy
+#~ msgid "Pay/Void fines"
+#~ msgstr "Pagar multas"
+
+#~ msgid "|image452|"
+#~ msgstr "|image452|"
+
+#~ msgid "superlibrarian"
+#~ msgstr "super-bibliotecário"
+
+#, fuzzy
+#~ msgid "circulate"
+#~ msgstr "circulate "
+
+#~ msgid "catalogue"
+#~ msgstr "catálogo"
+
+#, fuzzy
+#~ msgid "parameters"
+#~ msgstr "parameters "
+
+#~ msgid "borrowers"
+#~ msgstr "borrowers"
+
+#~ msgid "Add or modify patrons"
+#~ msgstr "Adicionar ou modificar leitores"
+
+#, fuzzy
+#~ msgid "permissions"
+#~ msgstr "permissions "
+
+#, fuzzy
+#~ msgid "reserveforothers"
+#~ msgstr "reserveforothers "
+
+#, fuzzy
+#~ msgid "editcatalogue"
+#~ msgstr "editcatalogue "
+
+#~ msgid "Edit Catalog (Modify bibliographic/holdings data)"
+#~ msgstr "Editar catálogo (alterar e adicionar dados bibliográficos de exemplares)"
+
+#, fuzzy
+#~ msgid "updatecharges"
+#~ msgstr "updatecharges "
+
+#, fuzzy
+#~ msgid "acquisition"
+#~ msgstr "aquisição "
+
+#, fuzzy
+#~ msgid "tools"
+#~ msgstr "tools "
+
+#, fuzzy
+#~ msgid "This section can be expanded (:ref:`Learn more <granular-tools-permissions-label>`)"
+#~ msgstr "Usar todas as ferramentas (expanda para permissões granulares)"
+
+#~ msgid "Edit Authorities"
+#~ msgstr "Editar autoridades"
+
+#, fuzzy
+#~ msgid "serials"
+#~ msgstr "periódicos "
+
+#, fuzzy
+#~ msgid "reports"
+#~ msgstr "reports "
+
+#~ msgid "Reports found on the Circulation page are not controlled by this permission"
+#~ msgstr "Relatórios que se encontram na página de empréstimo não são controlados por esta permissão"
+
+#, fuzzy
+#~ msgid "staffaccess"
+#~ msgstr "staffaccess "
+
+#, fuzzy
+#~ msgid "coursereserves"
+#~ msgstr "Reservas de curso"
+
+#~ msgid "Course reserves"
+#~ msgstr "Reservas de curso"
+
+#, fuzzy
+#~ msgid "plugins"
+#~ msgstr "Plugins"
+
+#, fuzzy
+#~ msgid "lists"
+#~ msgstr "lists "
+
+#~ msgid "Lists"
+#~ msgstr "Listas"
+
+#, fuzzy
+#~ msgid "clubs"
+#~ msgstr "Grupos"
+
+#, fuzzy
+#~ msgid "ill"
+#~ msgstr "Toque"
+
+#, fuzzy
+#~ msgid "self\\_check"
+#~ msgstr "%s Sistema de auto devolução"
+
+#, fuzzy
+#~ msgid "Granular circulate permissions"
+#~ msgstr "Permissões de circulação"
+
+#~ msgid "If the staff member has 'circulate' permissions they have the ability to perform all of these actions. If you would like to control circulation permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de circulação, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "circulate\\_remaining\\_permissions"
+#~ msgstr "circulate_remaining_permissions "
+
+#~ msgid "Remaining circulation permissions"
+#~ msgstr "Restantes permissões de circulação"
+
+#, fuzzy
+#~ msgid "force\\_checkout"
+#~ msgstr "Sem empréstimos"
+
+#, fuzzy
+#~ msgid "manage\\_checkout\\_notes"
+#~ msgstr "Notas de empréstimo"
+
+#, fuzzy
+#~ msgid "manage\\_restrictions"
+#~ msgstr "Restrição de idade"
+
+#, fuzzy
+#~ msgid "overdues\\_report"
+#~ msgstr "overdues_report "
+
+#, fuzzy
+#~ msgid "override\\_renewals"
+#~ msgstr "override_renewals "
+
+#, fuzzy
+#~ msgid "Granular parameters permissions"
+#~ msgstr "Permissões de parâmetros"
+
+#~ msgid "If the staff member has 'parameters' permissions they have the ability to perform all of these actions. If you would like to control parameter permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de parâmetros, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#~ msgid "Manage audio alerts"
+#~ msgstr "Gerir alertas de áudio"
+
+#, fuzzy
+#~ msgid "manage\\_circ\\_rules"
+#~ msgstr "manage_circ_rules "
+
+#, fuzzy
+#~ msgid "manage\\_cities"
+#~ msgstr "manage_circ_rules "
+
+#, fuzzy
+#~ msgid "manage\\_classifications"
+#~ msgstr "Classificação"
+
+#, fuzzy
+#~ msgid "manage\\_column\\_config"
+#~ msgstr "Gerir a configuração das colunas"
+
+#, fuzzy
+#~ msgid "manage\\_didyoumean"
+#~ msgstr "management "
+
+#, fuzzy
+#~ msgid "manage\\_item\\_circ\\_alerts"
+#~ msgstr "manage_circ_rules "
+
+#~ msgid "Manage item search fields"
+#~ msgstr "Gerir os campos de pesquisa de exemplar"
+
+#~ msgid "Manage item types"
+#~ msgstr "Gerir os tipos de documento"
+
+#, fuzzy
+#~ msgid "manage\\_libraries"
+#~ msgstr "Bibliotecas"
+
+#, fuzzy
+#~ msgid "manage\\_marc\\_frameworks"
+#~ msgstr "Modificar modelo"
+
+#, fuzzy
+#~ msgid "manage\\_matching\\_rules"
+#~ msgstr "manage_circ_rules "
+
+#~ msgid "Manage OAI sets"
+#~ msgstr "Gerir conjuntos OAI"
+
+#, fuzzy
+#~ msgid "manage\\_patron\\_attributes"
+#~ msgstr "patron_attributes"
+
+#~ msgid "Manage patron categories"
+#~ msgstr "Gerir as categorias de leitor"
+
+#, fuzzy
+#~ msgid "manage\\_search\\_engine\\_config"
+#~ msgstr "Gerir a configuração do motor de pesquisa"
+
+#, fuzzy
+#~ msgid "manage\\_search\\_targets"
+#~ msgstr "Alvos da pesquisa "
+
+#, fuzzy
+#~ msgid "manage\\_sms_providers"
+#~ msgstr "manage_csv_profiles "
+
+#, fuzzy
+#~ msgid "manage\\_sysprefs"
+#~ msgstr "manage_csv_profiles "
+
+#, fuzzy
+#~ msgid "manage\\_transfers"
+#~ msgstr "Anular transferência"
+
+#, fuzzy
+#~ msgid "manage\\_usage\\_stats"
+#~ msgstr "manage_staged_marc "
+
+#, fuzzy
+#~ msgid "parameters\\_remaining\\_permissions"
+#~ msgstr "parameters_remaining_permissions "
+
+#, fuzzy
+#~ msgid "Granular borrowers permissions"
+#~ msgstr "Permissões de ferramentas"
+
+#, fuzzy
+#~ msgid "If the staff member has 'borrowers' permissions they have the ability to perform all of these actions. If you would like to control borrowers permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de relatórios, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "edit\\_borrowers"
+#~ msgstr "borrowers"
+
+#, fuzzy
+#~ msgid "Granular holds permissions"
+#~ msgstr "Permissões de reserva"
+
+#~ msgid "If the staff member has 'reserveforothers' permissions they have the ability to perform all of these actions. If you would like to control holds permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de reserva, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#~ msgid "Modify holds priority"
+#~ msgstr "Modificar prioridade de reserva"
+
+#, fuzzy
+#~ msgid "place\\_holds"
+#~ msgstr "place_holds "
+
+#, fuzzy
+#~ msgid "Granular cataloging permissions"
+#~ msgstr "Permissões de catalogação"
+
+#~ msgid "If the staff member has 'editcatalogue' permissions they have the ability to perform all of these actions. If you would like to control cataloging permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de catalogação, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "delete\\_all\\_items"
+#~ msgstr "delete_all_items "
+
+#, fuzzy
+#~ msgid "edit\\_catalogue"
+#~ msgstr "edit_catalogue "
+
+#~ msgid "Edit items"
+#~ msgstr "Editar exemplares"
+
+#, fuzzy
+#~ msgid "edit\\_items\\_restricted"
+#~ msgstr "edit_items_restricted "
+
+#~ msgid "Fast cataloging"
+#~ msgstr "Catalogação rápida"
+
+#, fuzzy
+#~ msgid "Granular fines and charges permissions"
+#~ msgstr "Permissões granulares de listas"
+
+#, fuzzy
+#~ msgid "If a staff member has 'updatecharges' permission they have the ability to perform all of these actions. If you would like to control fines and charges permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de parâmetros, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "remaining\\_permissions"
+#~ msgstr "circulate_remaining_permissions "
+
+#~ msgid "writeoff"
+#~ msgstr "amortizado"
+
+#, fuzzy
+#~ msgid "Granular acquisitions permissions"
+#~ msgstr "Permissões de aquisição"
+
+#~ msgid "If the staff member has 'acquisition' permissions they have the ability to perform all of these actions. If you would like to control acquisitions permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões sobre aquisições, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "budget\\_add\\_del"
+#~ msgstr "budget_add_del "
+
+#, fuzzy
+#~ msgid "Manage funds"
+#~ msgstr "Gerir os orçamentos"
+
+#, fuzzy
+#~ msgid "Manage all funds"
+#~ msgstr "Gerir todos os orçamentos"
+
+#, fuzzy
+#~ msgid "budget\\_modify"
+#~ msgstr "budget_modify "
+
+#~ msgid "Manage contracts"
+#~ msgstr "Gerir os contratos"
+
+#, fuzzy
+#~ msgid "currencies\\_manage"
+#~ msgstr "Divisas"
+
+#, fuzzy
+#~ msgid "edi\\_manage"
+#~ msgstr "period_manage "
+
+#, fuzzy
+#~ msgid "group\\_manage"
+#~ msgstr "group_manage "
+
+#, fuzzy
+#~ msgid "order\\_manage"
+#~ msgstr "order_manage "
+
+#, fuzzy
+#~ msgid "order\\_manage\\_all"
+#~ msgstr "order_manage_all "
+
+#, fuzzy
+#~ msgid "order\\_receive"
+#~ msgstr "order_receive "
+
+#, fuzzy
+#~ msgid "period\\_manage"
+#~ msgstr "period_manage "
+
+#~ msgid "Manage budgets"
+#~ msgstr "Gerir os orçamentos"
+
+#, fuzzy
+#~ msgid "planning\\_manage"
+#~ msgstr "planning_manage "
+
+#, fuzzy
+#~ msgid "suggestions\\_manage"
+#~ msgstr "Gestão de sugestões"
+
+#~ msgid "Manage vendors"
+#~ msgstr "Gerir fornecedores"
+
+#, fuzzy
+#~ msgid "Granular serials permissions"
+#~ msgstr "Permissões de periódicos"
+
+#~ msgid "If the staff member has 'serials' permissions they have the ability to perform all of these actions. If you would like to control serials permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de periódicos, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "check\\_expiration"
+#~ msgstr "check_expiration "
+
+#, fuzzy
+#~ msgid "claim\\_serials"
+#~ msgstr "claim_serials "
+
+#, fuzzy
+#~ msgid "create\\_subscription"
+#~ msgstr "create_subscription "
+
+#, fuzzy
+#~ msgid "delete\\_subscription"
+#~ msgstr "delete_subscription "
+
+#, fuzzy
+#~ msgid "edit\\_subscription"
+#~ msgstr "edit_subscription "
+
+#, fuzzy
+#~ msgid "receive\\_serials"
+#~ msgstr "receive_serials "
+
+#~ msgid "Receive serials on existing subscriptions"
+#~ msgstr "Receber números em assinaturas existentes"
+
+#, fuzzy
+#~ msgid "renew\\_subscription"
+#~ msgstr "renew_subscription "
+
+#~ msgid "Routing"
+#~ msgstr "Circulação"
+
+#, fuzzy
+#~ msgid "superserials"
+#~ msgstr "superserials "
+
+#, fuzzy
+#~ msgid "Granular tools permissions"
+#~ msgstr "Permissões de ferramentas"
+
+#~ msgid "If the staff member has 'tools' permissions they have the ability to access and use all items under the Tools menu. If you would like to control which tools staff members have access to on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de ferramentas, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "access\\_files"
+#~ msgstr "Aceder a ficheiros"
+
+#, fuzzy
+#~ msgid "batch\\_upload\\_patron\\_images"
+#~ msgstr "batch_upload_patron_images "
+
+#, fuzzy
+#~ msgid "delete\\_anonymize\\_patrons"
+#~ msgstr "delete_anonymize_patrons "
+
+#, fuzzy
+#~ msgid "edit\\_calendar"
+#~ msgstr "edit_calendar "
+
+#, fuzzy
+#~ msgid "edit\\_news"
+#~ msgstr "edit_news "
+
+#, fuzzy
+#~ msgid "edit\\_notice\\_status\\_triggers"
+#~ msgstr "edit_notice_status_triggers "
+
+#, fuzzy
+#~ msgid "edit\\_notices"
+#~ msgstr "edit_notices "
+
+#, fuzzy
+#~ msgid "edit\\_patrons"
+#~ msgstr "Modificar leitores"
+
+#, fuzzy
+#~ msgid "edit\\_quotes"
+#~ msgstr "edit_notices "
+
+#, fuzzy
+#~ msgid "export\\_catalog"
+#~ msgstr "export_catalog "
+
+#, fuzzy
+#~ msgid "import\\_patrons"
+#~ msgstr "import_patrons "
+
+#, fuzzy
+#~ msgid "inventory"
+#~ msgstr "inventory "
+
+#, fuzzy
+#~ msgid "items\\_batchdel"
+#~ msgstr "items_batchdel "
+
+#, fuzzy
+#~ msgid "items\\_batchmod"
+#~ msgstr "items_batchmod "
+
+#, fuzzy
+#~ msgid "items\\_batchmod\\_restricted"
+#~ msgstr "items_batchmod_restricted "
+
+#, fuzzy
+#~ msgid "label\\_creator"
+#~ msgstr "label_creator "
+
+#, fuzzy
+#~ msgid "manage\\_csv\\_profiles"
+#~ msgstr "manage_csv_profiles "
+
+#, fuzzy
+#~ msgid "manage\\_patron\\_lists"
+#~ msgstr "label_patronlist_%s.pdf"
+
+#, fuzzy
+#~ msgid "manage\\_staged\\_marc"
+#~ msgstr "manage_staged_marc "
+
+#, fuzzy
+#~ msgid "marc\\_modification\\_templates"
+#~ msgstr "Gerir modelos de modificação MARC"
+
+#, fuzzy
+#~ msgid "moderate\\_comments"
+#~ msgstr "moderate_comments "
+
+#, fuzzy
+#~ msgid "moderate\\_tags"
+#~ msgstr "moderate_tags "
+
+#, fuzzy
+#~ msgid "records\\_batchdel"
+#~ msgstr "records_batchdel "
+
+#, fuzzy
+#~ msgid "records\\_batchmod"
+#~ msgstr "records_batchdel "
+
+#, fuzzy
+#~ msgid "rotating\\_collections"
+#~ msgstr "Coleções"
+
+#, fuzzy
+#~ msgid "schedule\\_tasks"
+#~ msgstr "schedule_tasks "
+
+#, fuzzy
+#~ msgid "stage\\_marc\\_import"
+#~ msgstr "stage_marc_import "
+
+#~ msgid "Upload any file"
+#~ msgstr "Carregar qualquer ficheiro"
+
+#~ msgid "Upload local cover images"
+#~ msgstr "Carregar imagens locais de capa"
+
+#, fuzzy
+#~ msgid "upload\\_manage"
+#~ msgstr "period_manage "
+
+#, fuzzy
+#~ msgid "view\\_system\\_logs"
+#~ msgstr "view_system_logs "
+
+#, fuzzy
+#~ msgid "Granular reports permissions"
+#~ msgstr "Permissões de relatórios"
+
+#~ msgid "If the staff member has 'reports' permissions they have the ability to perform all of these actions. If you would like to control reports permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de relatórios, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "create\\_reports"
+#~ msgstr "create_reports "
+
+#, fuzzy
+#~ msgid "delete\\_reports"
+#~ msgstr "delete_reports "
+
+#, fuzzy
+#~ msgid "execute\\_reports"
+#~ msgstr "execute_reports "
+
+#~ msgid "The ability to run but not create or edit SQL reports"
+#~ msgstr "Capacidade de correr mas não de criar e editar relatórios SQL"
+
+#, fuzzy
+#~ msgid "Granular course reserves permissions"
+#~ msgstr "Permissões de parâmetros"
+
+#, fuzzy
+#~ msgid "If the staff member has 'course reserves' permissions they have the ability to perform all of these actions. If you would like to control course reserves permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de relatórios, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "add\\_reserves"
+#~ msgstr "old_reserves"
+
+#, fuzzy
+#~ msgid "delete\\_reserves"
+#~ msgstr "old_reserves"
+
+#, fuzzy
+#~ msgid "manage\\_courses"
+#~ msgstr "manage_circ_rules "
+
+#, fuzzy
+#~ msgid "Granular plugins permissions"
+#~ msgstr "Permissões de reserva"
+
+#, fuzzy
+#~ msgid "If the staff member has 'plugins' permissions they have the ability to perform all of these actions. If you would like to control plugins permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de relatórios, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "configure"
+#~ msgstr "Configurar"
+
+#, fuzzy
+#~ msgid "manage"
+#~ msgstr "Gestão"
+
+#, fuzzy
+#~ msgid "report"
+#~ msgstr "reports "
+
+#, fuzzy
+#~ msgid "tool"
+#~ msgstr "tools "
+
+#, fuzzy
+#~ msgid "Granular lists permissions"
+#~ msgstr "Permissões granulares de listas"
+
+#~ msgid "All staff members have permission to access lists. This section only needs to be checked off if you want to give permission to a staff member to delete public lists that they have no created themselves."
+#~ msgstr "Todos os técnicos têm permissões para aceder às listas. Esta secção apenas necessita de ser vista se desejar dar permissões aos técnicos para que possam eliminar listas públicas que não sejam criadas pelos próprios."
+
+#~ msgid "Delete public lists"
+#~ msgstr "Eliminar listas públicas"
+
+#, fuzzy
+#~ msgid "Granular patron clubs permissions"
+#~ msgstr "Permissões de reserva"
+
+#, fuzzy
+#~ msgid "If the staff member has 'clubs' permissions they have the ability to perform all of these actions. If you would like to control patron clubs permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de periódicos, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "edit\\_clubs"
+#~ msgstr "edit_catalogue "
+
+#, fuzzy
+#~ msgid "edit\\_templates"
+#~ msgstr "edit_items "
+
+#, fuzzy
+#~ msgid "enroll"
+#~ msgstr "rolo"
+
+#, fuzzy
+#~ msgid "Granular self check permissions"
+#~ msgstr "Permissões de periódicos"
+
+#, fuzzy
+#~ msgid "If the user has 'self check' permissions they have the ability to perform all of these actions. If you would like to control self check permissions on a more granular level choose from these options:"
+#~ msgstr "Se o técnico tem permissões de periódicos, possui a capacidade de executar todas as acções. Se deseja controlar as permissões de aquisição de forma mais restrita escolha as seguintes opções:"
+
+#, fuzzy
+#~ msgid "self\\_checkin\\_module"
+#~ msgstr "Módulos automáticos"
+
+#, fuzzy
+#~ msgid "self\\_checkout\\_module"
+#~ msgstr "Módulos automáticos"
+
+#~ msgid "|image1246|"
+#~ msgstr "|image1246|"
+
+#, fuzzy
+#~ msgid "The ability to reverse a payment"
+#~ msgstr "Não foi possível verificar o pagamento."
+
+#, fuzzy
+#~ msgid "manage\\_keywords2koha\\_mappings"
+#~ msgstr "Gerir as palavras-chave para mapeamentos do Koha"
+
+#, fuzzy
+#~ msgid "Manage Keywords to Koha mappings"
+#~ msgstr "Gerir as palavras-chave para mapeamentos do Koha"
+

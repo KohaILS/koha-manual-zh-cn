@@ -1,0 +1,865 @@
+# Compendium of pt.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-pt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2020-02-26 16:57+0000\n"
+"Last-Translator: vfernandes <vfernandes@keep.pt>\n"
+"Language-Team: Koha Translation Team\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1582736266.261073\n"
+
+#: ../../source/reports.rst:6
+msgid "Reports"
+msgstr "Relatórios"
+
+#: ../../source/reports.rst:8
+msgid "Reports in Koha are a way to gather data. Reports are used to generate statistics, member lists, shelving lists, or any list of data in your database."
+msgstr "Os relatórios no Koha são um forma de obter dados do sistema. São normalmente usados para gerar estatísticas, listas de leitores, listas de registos ou qualquer outra listagem de dados na base de dados."
+
+#: ../../source/reports.rst:12
+msgid "*Get there:* More > Reports"
+msgstr "*Acesso:* Mais > Relatórios"
+
+#: ../../source/reports.rst:17
+msgid "Custom reports"
+msgstr "Relatórios personalizados"
+
+#: ../../source/reports.rst:19
+msgid "Koha's data is stored in a MySQL database which means that librarians can generate nearly any report they would like by either using the :ref:`guided reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL query <report-from-sql-label>`."
+msgstr "Os dados são guardados numa base de dados MySQL o que significa que os bibliotecário podem gerar qualquer relatório que desejem usando o :ref:`assistente de relatórios <guided-report-wizard-label>` ou escrevendo o próprio :ref:`SQL <report-from-sql-label>`."
+
+#: ../../source/reports.rst:27
+msgid "Add custom report"
+msgstr "Adicionar um relatório"
+
+#: ../../source/reports.rst:32
+msgid "Guided report wizard"
+msgstr "Assistente de relatórios guiados"
+
+#: ../../source/reports.rst:34
+msgid "The guided report wizard will walk you through a six step process to generate a report."
+msgstr "O assistente de relatórios irá guiar-lo durante um processo de seis passos para gerar um relatório."
+
+#: ../../source/reports.rst:37
+msgid "Step 1: Choose the module you want to report on. This will determine what tables and fields are available for you to query."
+msgstr "Passo 1: Escolha o módulo que quer reportar. Isto determina quais as tabelas e campos que estão disponíveis para pesquisa."
+
+#: ../../source/reports.rst:40
+msgid "'Report is public' should be left to the default of 'No' in most cases especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
+msgstr "'Relatório público' deve ser Não' por omissão na maioria dos casos especialmente se o relatório conter dados dos leitores ou outras informações sensíveis. Um relatório público pode ser acedido usando os :ref:`serviços JSON de relatórios <json-reports-services-label>` por qualquer pessoa e sem autenticação."
+
+#: ../../source/reports.rst:45
+msgid "|image881|"
+msgstr "|image881|"
+
+#: ../../source/reports.rst:47 ../../source/reports.rst:100
+#: ../../source/reports.rst:150 ../../source/reports.rst:167
+#: ../../source/reports.rst:187 ../../source/reports.rst:229
+#: ../../source/reports.rst:233 ../../source/reports.rst:244
+#: ../../source/reports.rst:306 ../../source/reports.rst:359
+#: ../../source/reports.rst:405 ../../source/reports.rst:437
+#: ../../source/reports.rst:471 ../../source/reports.rst:496
+#: ../../source/reports.rst:520 ../../source/reports.rst:539
+#: ../../source/reports.rst:579 ../../source/reports.rst:603
+#: ../../source/reports.rst:727 ../../source/reports.rst:749
+msgid "**Note**"
+msgstr "**Nota**"
+
+#: ../../source/reports.rst:49 ../../source/reports.rst:189
+msgid "If your system administrator has set up memcache on your server you might see one more option for the Cache expiry. This is related to your public reports. If you make the report public then it's constantly running and will cause a large load on your system. Setting this value prevents that."
+msgstr "Se o memcache foi configurado no servidor pelo administrador do sistema poderá ver mais uma opção para expirar a Cache. Esta cache é relativa ao relatórios públicos. Se os relatórios forem públicos podem estar a ser executados constantemente e a causar uma carga excessiva no sistema. Ao definir esse valor previne essa situação."
+
+#: ../../source/reports.rst:55
+msgid "|image1292|"
+msgstr "|image1292|"
+
+#: ../../source/reports.rst:57
+msgid "Step 2: Choose a report type. For now, Tabular is the only option available."
+msgstr "Passo 2: Escolha o tipo de relatório. Por enquanto apenas a opção Tabular está disponível."
+
+#: ../../source/reports.rst:60
+msgid "|image882|"
+msgstr "|image882|"
+
+#: ../../source/reports.rst:62
+msgid "Step 3: Choose the fields you want in your report. You can select multiple fields and add them all at once by using CTRL+click on each item you want to add before clicking the Add button."
+msgstr "Passo 3: Escolha os campos que deseja obter no relatório. Pode selecionar múltiplos campos e adicionar todos de uma vez usando CTRL+clique em cada item que deseja adicionar antes de carregar no botão de adição."
+
+#: ../../source/reports.rst:66
+msgid "|image883|"
+msgstr "|image883|"
+
+#: ../../source/reports.rst:68
+msgid "Step 4: Choose any limits you might want to apply to your report (such as item types or branches). If you don't want to apply any limits, simply click 'Next' instead of choosing an option."
+msgstr "Passo 4: Escolha os limites que deseja aplicar no relatório (como tipo de documentos ou bibliotecas). Se não deseja aplicar limites, basta carregar em Próximo em vez de marcar uma opção."
+
+#: ../../source/reports.rst:72
+msgid "|image884|"
+msgstr "|image884|"
+
+#: ../../source/reports.rst:74
+msgid "Step 5: Perform math functions. If you don't want to do any calculations, simply click 'Next' instead of choosing an option."
+msgstr "Passo 5: Executar operações matemáticas. Se não deseja fazer nenhum cálculo, carregue em Seguinte."
+
+#: ../../source/reports.rst:77
+msgid "|image885|"
+msgstr "|image885|"
+
+#: ../../source/reports.rst:79
+msgid "Step 6: Choose data order. If you want the data to print out in the order it's found in the database, simply click 'Finish'."
+msgstr "Passo 6: Escolha a ordenação dos dados. Se desejar que os dados sejam impressos com a ordenação da base de dados, basta carregar em Terminar."
+
+#: ../../source/reports.rst:82
+msgid "|image886|"
+msgstr "|image886|"
+
+#: ../../source/reports.rst:84
+#, fuzzy
+msgid "When you are finished you will be presented with the SQL generated by the report wizard. From here you can choose to save the report by clicking 'Finish' or copy the SQL and make edits to it by hand."
+msgstr "Quanto terminar será apresentado o SQL gerado pelo assistente de relatório. Depois poderá escolher entre guardar o relatório carregando na ligação 'Guardar' ou copiar o SQL e editar de acordo com as suas necessidades."
+
+#: ../../source/reports.rst:88
+msgid "|image887|"
+msgstr "|image887|"
+
+#: ../../source/reports.rst:90
+msgid "If you choose to save the report you will be asked to name your report, sort it in to groups and subgroups and enter any notes regarding it."
+msgstr "Se escolher guardar o relatório será perguntado o nome do relatório, a organização em grupos e subgrupos e poderá inserir qualquer nota sobre o mesmo."
+
+#: ../../source/reports.rst:93
+msgid "|image888|"
+msgstr "|image888|"
+
+#: ../../source/reports.rst:95
+msgid "Once your report is saved it will appear on the 'Use saved' page with all other saved reports."
+msgstr "Assim que o relatório estiver guardado aparecerá na página 'Relatórios guardados' com todos os outros relatórios guardados."
+
+#: ../../source/reports.rst:98 ../../source/reports.rst:357
+msgid "|image889|"
+msgstr "|image889|"
+
+#: ../../source/reports.rst:102 ../../source/reports.rst:361
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: table_reports)."
+msgstr ""
+
+#: ../../source/reports.rst:106
+msgid "From here you can make edits, run the report, or schedule a time to have the report run. To find the report you created you can sort by any of the columns by clicking the on the column header (creation date is the best bet for finding the report you just added). You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
+msgstr "A partir daqui pode editar, correr relatórios ou agendar a execução de um relatório. Para encontrar o relatório que criou pode ordenar qualquer coluna clicando no cabeçalho da coluna (data de criação é a melhor hipótese para encontrar o relatório que foi adicionado). Pode também filtrar os resultados usando o menu de filtros no lado esquerdo ou usando os separadores de acordo com o seu grupo."
+
+#: ../../source/reports.rst:116
+msgid "Report from SQL"
+msgstr "Relatório a partir de SQL"
+
+#: ../../source/reports.rst:118
+msgid "In addition to the report wizard, you have the option to write your own queries using SQL. To find reports written by other Koha users, visit the Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can also find your database structure in /installer/data/mysql/kohastructure.sql or online at: `http://schema.koha-community.org <http://schema.koha-community.org/>`__."
+msgstr "Em adição ao assistente de relatórios, pode também escrever as suas próprias pesquisas usando SQL. Para encontrar relatórios escritos por outros utilizadores do Koha, pode visitar a seguinte página do Koha: http://wiki.koha-community.org/wiki/SQL_Reports_Library. Pode também encontrar a estrutura da base de dados no ficheiro /installer/data/mysql/kohastructure.sql ou na seguinte página: `http://schema.koha-community.org <http://schema.koha-community.org/>`__."
+
+#: ../../source/reports.rst:125
+msgid "To add your query, click the link to 'Create from SQL' on the main reports module or the 'New report' button at the top of the 'Saved reports' page."
+msgstr "Para adicionar a sua pesquisa, carregue na ligação 'Criar a partir de SQL' no módulo de relatórios ou então no botão 'Novo relatório' no topo da página 'Relatórios guardados'."
+
+#: ../../source/reports.rst:129
+msgid "|image890|"
+msgstr "|image890|"
+
+#: ../../source/reports.rst:131
+msgid "Fill in the form presented"
+msgstr "Preencha o formulário apresentado"
+
+#: ../../source/reports.rst:133
+msgid "|image891|"
+msgstr "|image891|"
+
+#: ../../source/reports.rst:135
+msgid "The 'Name' is what will appear on the Saved Reports page to help you identify the report later. It will also be searchable using the filters found the left of the Saved Reports page."
+msgstr "O 'Nome' é o que aparece na página de relatórios guardados para ajudar na identificação do relatório. Também será pesquisável usando os filtros à esquerda da página."
+
+#: ../../source/reports.rst:139
+msgid "You can use the 'Report group' to organize your reports so that you can easily filter reports by groups. Report groups are set in the `REPORT\\_GROUP <#reportgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button."
+msgstr "Pode usar o 'Grupo do relatório' para organizar os relatórios para que possa de forma simples filtrar os relatórios por grupos. Os grupos são definidos na categoria de valor autorizado `REPORT\\_GROUP <#reportgroup>`__ ou podem ser adicionados no momento de criação do relatório escolhendo a opção 'ou criar'."
+
+#: ../../source/reports.rst:145
+msgid "|image1293|"
+msgstr "|image1293|"
+
+#: ../../source/reports.rst:147
+msgid "Report groups set up in the authorised value category need to have unique authorised values and descriptions."
+msgstr "A configuração dos grupos de relatórios na categoria de valores autorizados necessita de ter valores autorizadores e descrições únicas."
+
+#: ../../source/reports.rst:152
+msgid "If you're adding a report group on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
+msgstr "Se estiver a adicionar um grupo de relatório no momento, relembre que o código deve ter menos de 10 caracteres e deve não incluir caracteres especiais ou espaços."
+
+#: ../../source/reports.rst:156
+msgid "You can use 'Report subgroup' to further organize your reports so that you can easily filter reports by groups and subgroups. Report subgroups are set in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button.  Report subgroups are set up with unique values in 'Authorised value', and 'Description'. The 'Description (OPAC)'' field needs to contain the authorised value for the report group that the subgroup falls under."
+msgstr "Pode usar o 'Subgrupo de relatório' para organizar os relatórios para que possa de forma simples filtrar os relatórios por grupos e subgrupos. Os subgrupos são definidos na categoria de valor autorizado `REPORT\\_SUBGROUP <#reportsubgroup>`__ ou podem ser adicionados no momento de criação do relatório escolhendo a opção 'ou criar'. Os subgrupos de relatórios devem ser definidos com valores únicos nos 'Valores autorizados' e com a 'Descrição'. O campo 'Descrição (OPAC)' deve conter o valor autorizado para o relatório de grupo ao qual esse subgrupo pertence."
+
+#: ../../source/reports.rst:165
+msgid "|image892|"
+msgstr "|image892|"
+
+#: ../../source/reports.rst:169
+msgid "If you're adding a report subgroup on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
+msgstr "Se estiver a adicionar um subgrupo de relatório no momento, relembre que o código deve ter menos de 10 caracteres e deve não incluir caracteres especiais ou espaços."
+
+#: ../../source/reports.rst:176
+msgid "'Report is public' should be left to the default of 'No' in most cases"
+msgstr "'Relatório é público' deve ficar por omissão como 'Não' na maioria dos casos"
+
+#: ../../source/reports.rst:174
+msgid "especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
+msgstr "especialmente se o relatório conter dados dos leitores ou outras informações sensíveis. Um relatório público pode ser acedido usando os :ref:`serviços JSON de relatórios <json-reports-services-label>` por qualquer pessoa e sem autenticação."
+
+#: ../../source/reports.rst:178
+msgid "'Notes' will also appear on the saved reports page, this can be used to provide more details about the report or tips on how to enter values when it runs"
+msgstr "'Notas' irão também aparecer na página de relatórios guardados e podem ser usadas para fornecer mais detalhes do relatório ou dicas como introduzir valores na execução"
+
+#: ../../source/reports.rst:182
+msgid "The type should always be 'Tabular' at this time since the other formats have not been implemented"
+msgstr "O tipo deve ser sempre 'Tabular' neste momento porque os outros formatos não estão implementados"
+
+#: ../../source/reports.rst:185
+msgid "In the 'SQL' box you will type or paste the SQL for the report"
+msgstr "Na caixa 'SQL' coloque ou copie o SQL para o relatório"
+
+#: ../../source/reports.rst:195
+msgid "|image1294|"
+msgstr "|image1294|"
+
+#: ../../source/reports.rst:197
+msgid "Once everything is entered click the 'Save report' button and you'll be presented with options to run it. Once a report is saved you do not have to recreate it you can simply find it on the Saved Reports page and :ref:`run <running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` it."
+msgstr "Após inserir todos os dados clique em 'Guardar relatório' e veja as opções para o correr. Quando um relatório é guardado, não tem que o recriar pois pode encontrar o relatório na página de relatório guardados de forma a :ref:`executar <running-custom-reports-label>` ou :ref:`editar <edit-custom-reports-label>` o mesmo."
+
+#: ../../source/reports.rst:205
+msgid "Report writing tips"
+msgstr "Dicas para a escrita de relatórios"
+
+#: ../../source/reports.rst:207
+msgid "**Runtime parameters**"
+msgstr "**Parâmetros de execução**"
+
+#: ../../source/reports.rst:209
+msgid "If you feel that your report might be too resource intensive you might want to consider using runtime parameters to your query. Runtime parameters basically make a filter appear before the report is run to save your system resources."
+msgstr "Se achar que o relatório consome demasiados recursos talvez seja melhor considerar usar parâmetros de execução para a sua consulta. Parâmetros de tempo de execução, basicamente, fazem um filtro aparecer antes do relatório ser executados para salvar os recursos do sistema."
+
+#: ../../source/reports.rst:214
+msgid "There is a specific syntax that Koha will understand as 'ask for values when running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
+msgstr "Existe uma sintaxe específica que o sistema irá perceber como 'perguntar por valores quando executar o relatório'. A sintaxe é <<Questão\\|authorized\\_value>>."
+
+#: ../../source/reports.rst:218
+msgid "The << and >> are just delimiters. You must put << at the beginning and >> at the end of your parameter"
+msgstr "<< e >> são apenas delimitadores. Deve colocar << no início e >> no fim do parâmetro"
+
+#: ../../source/reports.rst:221
+msgid "The 'Question to ask' will be displayed on the left of the string to enter."
+msgstr "A 'Questão' será mostrada à esquerda do campo de inserção de texto."
+
+#: ../../source/reports.rst:224
+msgid "The authorized\\_value can be omitted if not applicable. If it contains an authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio\\_framework', a list with the Koha authorized values will be displayed instead of a free field."
+msgstr "A parte authorized\\_value pode ser omitida se não for aplicável. Se tiver uma categoria de valor autorizado ('branches', 'itemtype', 'categorycode', 'biblio\\_framework') será mostrada uma lista de valores autorizados em vez de um campo livre."
+
+#: ../../source/reports.rst:231
+msgid "You can have more than one parameter in a given SQL query."
+msgstr "Pode ter mais que um parâmetro numa determinada consulta SQL."
+
+#: ../../source/reports.rst:235
+msgid "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field. For example entering nothing for: \"title=<<Enter title>>\" will display results with title='' (no title). If you want to have to have something not mandatory, use \"title like <<Enter title>>\" and enter a % at run time instead of nothing."
+msgstr "Deve colocar \"%\" na caixa de texto para usar como vazio. Caso contrário o sistema vai procurar por \"\" (palavra vazia) como o valor do campo. Por exemplo, ao não inserir nada para \"title=<<Insira título>>\" vai mostrar os resultados que têm title='' (sem título). Se desejar ter algo não obrigatório pode usar \"title like <<Insira título>>\" e inserir \"%\" na execução."
+
+#: ../../source/reports.rst:246
+msgid "To generate a date picker calendar to the right of the field when running a report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
+msgstr "Para gerar um selector de datas à direita do campo quando executar um relatório pode usar o tipo 'date' como este exemplo: <<Inserir Data\\|date>>"
+
+#: ../../source/reports.rst:250
+msgid "|image893|"
+msgstr "|image893|"
+
+#: ../../source/reports.rst:252
+msgid "List of parameters that can be used in runtime parameters"
+msgstr "Lista de parâmetros que pode ser usados em tempo de execução"
+
+#: ../../source/reports.rst:255
+msgid "Parameter"
+msgstr "Parâmetro"
+
+#: ../../source/reports.rst:255
+msgid "What the user sees"
+msgstr "O que o utilizador vê"
+
+#: ../../source/reports.rst:255
+msgid "What gets inserted in query"
+msgstr "O que é inserido na consulta"
+
+#: ../../source/reports.rst:257
+msgid "date branches itemtypes categorycode biblio\\_framework (auth-value-category) (nothing)"
+msgstr "date branches itemtypes categorycode biblio\\_framework (auth-value-category) (nada)"
+
+#: ../../source/reports.rst:257
+msgid "date picker drop down of branch names drop down of item type names drop down of patron category descriptions drop down of MARC bibliographic frameworks drop down of auth-value descriptions in category text box"
+msgstr "date picker drop down of branch names drop down of item type names drop down of patron category descriptions drop down of MARC bibliographic frameworks drop down of auth-value descriptions in category text box"
+
+#: ../../source/reports.rst:257
+msgid "validly formatted date branch code item type borrower category code framework code authorized value entered text"
+msgstr "validly formatted date branch code item type borrower category code framework code authorized value entered text"
+
+#: ../../source/reports.rst:266
+msgid "Examples:"
+msgstr "Exemplos:"
+
+#: ../../source/reports.rst:268
+msgid "SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's library\\|branches>> AND surname like <<Enter filter for patron surname (% if none)>>"
+msgstr "SELECT surname, firstname FROM borrowers WHERE branchcode=<<Biblioteca do leitor\\|branches>> AND surname like <<Inserir filtro para o apelido do leitor (% se nenhum)>>"
+
+#: ../../source/reports.rst:272
+msgid "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here>>"
+msgstr "SELECT \\* FROM items WHERE homebranch = <<Biblioteca\\|branches>> and barcode like <<Valor parcial dos códigos de barras>>"
+
+#: ../../source/reports.rst:275
+msgid "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>>"
+msgstr "SELECT title, author FROM biblio WHERE frameworkcode=<<Modelo de catalogação\\|biblio\\_framework>>"
+
+#: ../../source/reports.rst:299
+msgid "SQL report from Mana"
+msgstr "Relatório SQL a partir do Mana"
+
+#: ../../source/reports.rst:301
+msgid "In the \"Create report from SQL\", you can search Mana KB for pre-made reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
+msgstr "Na opção \"Criar relatório SQL\", pode pesquisar a base de dados Mana por relatórios pré-existentes clicando em \"Novo relatório\" e escolhendo \"Novo relatório do Mana\"."
+
+#: ../../source/reports.rst:304
+msgid "|image1428|"
+msgstr "|image1428|"
+
+#: ../../source/reports.rst:308
+msgid "This option will only appear if you've :ref:`configured Mana KB <share-with-mana-kb-label>` in the administration module."
+msgstr "Esta opção apenas aparece caso tenha :ref:`configurado a base de dados Mana <share-with-mana-kb-label>` no módulo de administração."
+
+#: ../../source/reports.rst:310
+msgid "You will be prompted to enter keywords to search the knowledge base."
+msgstr "Será pedido para inserir as palavras-chaves a pesquisa na base de dados."
+
+#: ../../source/reports.rst:312
+msgid "|image1429|"
+msgstr "|image1429|"
+
+#: ../../source/reports.rst:314
+msgid "In the search results, you will see"
+msgstr "No resultados de pesquisa, poderá ver"
+
+#: ../../source/reports.rst:316
+msgid "the details of the report (name, notes and type)"
+msgstr "os detalhes do relatório (nome, notes e tipo)"
+
+#: ../../source/reports.rst:318
+msgid "how many people have used this entry (# of users)"
+msgstr "quantas pessoas já usaram a entrada (# de utilizadores)"
+
+#: ../../source/reports.rst:320
+msgid "when it was used for the last time (last import)"
+msgstr "quando foi usado pela última vez (última importação)"
+
+#: ../../source/reports.rst:322
+msgid "additional comments made by other Koha users (comments)"
+msgstr "comentários adicionas de outros utilizadores do Koha (comentários)"
+
+#: ../../source/reports.rst:324
+msgid "|image1430|"
+msgstr "|image1430|"
+
+#: ../../source/reports.rst:328
+msgid "Click on \"Import\" to import a copy of the report in your own saved reports."
+msgstr "Clique em \"Importar\" para importar uma cópia do relatório para os seus relatórios guardados."
+
+#: ../../source/reports.rst:330
+msgid "You can then edit it, duplicate it, delete it, run it as you would any of your own reports."
+msgstr "A partir desse momento pode editar, duplicar, eliminar ou executar o relatório como qualquer outro relatório."
+
+# Traduzido do Francês por Ricardo Dias Marques (em 28-Mai-2009)
+#: ../../source/reports.rst:336
+msgid "Duplicate report"
+msgstr "Duplicar relatório"
+
+#: ../../source/reports.rst:338
+msgid "Reports can also be added by duplicating an existing report. Visit the 'Saved reports' page to see all of the reports listed on your system already."
+msgstr "Os relatórios também podem ser adicionados duplicando já existentes. Visite a página 'Relatórios guardados' para ver todos os relatórios já no sistema."
+
+#: ../../source/reports.rst:342
+msgid "|image895|"
+msgstr "|image895|"
+
+#: ../../source/reports.rst:344
+msgid "To the right of every report there is an 'Actions' pull down. Clicking that and choose 'Duplicate' to use an existing report as the basis for your new report. That will populate the new report form with the existing SQL for easy editing and resaving."
+msgstr "À direita de cada relatório existe uma ligação 'Ações'. Ao clicar nessa ligação e posteriormente em 'Duplicar' o relatório ser usado como base para o novo relatório. O novo relatório terá o mesmo SQL para que seja mais fácil editar e guardar."
+
+#: ../../source/reports.rst:352
+msgid "Edit custom reports"
+msgstr "Editar relatórios personalizados"
+
+#: ../../source/reports.rst:354
+msgid "Every report can be edited from the reports lists. To see the list of reports already stored in Koha, click 'Use saved.'"
+msgstr "Cada relatório pode ser editado a partir da lista de relatórios. Para ver a lista de relatórios já guardados, clique em 'Relatórios guardados'."
+
+#: ../../source/reports.rst:365
+msgid "To find the report you'd like to edit you can sort by any of the columns by clicking the on the column header. You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
+msgstr "Para encontrar o relatório que deseja editar pode ordenar qualquer das colunas clicando no cabeçalho da coluna. Pode também filtrar os relatórios usando o menu de filtro à esquerda ou os separadores para encontrar os relatórios por grupo."
+
+#: ../../source/reports.rst:370
+msgid "From this list you can edit any custom report by clicking 'Actions' to the right of the report and choosing 'Edit' from the menu that appears."
+msgstr "A partir desta lista pode editar qualquer relatório clicando em 'Ações' à direita do relatório e escolha 'Editar' no menu que aparece."
+
+#: ../../source/reports.rst:373
+msgid "|image897|"
+msgstr "|image897|"
+
+#: ../../source/reports.rst:375
+msgid "The form to edit the report will appear."
+msgstr "O formulário de edição do relatório irá aparecer."
+
+#: ../../source/reports.rst:377
+msgid "|image898|"
+msgstr "|image898|"
+
+#: ../../source/reports.rst:382
+msgid "Running custom reports"
+msgstr "Executar relatórios personalizados"
+
+#: ../../source/reports.rst:384
+msgid "Once custom reports are saved to Koha, you can run them by going to the Saved Reports page and clicking the 'Actions' button to the right of the report and choosing 'Run'."
+msgstr "Assim que os relatórios forem guardados no Koha, pode correr-los indo à página de Relatórios guardados e clicando na ligação 'Correr' à direita de cada relatório."
+
+#: ../../source/reports.rst:388
+msgid "|image899|"
+msgstr "|image899|"
+
+#: ../../source/reports.rst:390
+msgid "When you report runs you will either be asked for some values"
+msgstr "Quanto estiver a executar um relatório será pedido a inserção de alguns valores"
+
+#: ../../source/reports.rst:392
+msgid "|image900|"
+msgstr "|image900|"
+
+#: ../../source/reports.rst:394
+msgid "or you will see the results right away"
+msgstr "ou verá logo os resultados"
+
+#: ../../source/reports.rst:396
+msgid "|image901|"
+msgstr "|image901|"
+
+#: ../../source/reports.rst:398
+msgid "From the results you can choose to rerun the report by clicking 'Run report' at the top, edit the report by clicking the 'Edit' button or starting over and creating a new report by using the 'New' button. You can also download your results by choosing a file type at the bottom of the results next to the 'Download the report' label and clicking 'Download.'"
+msgstr "A partir dos resultados pode optar por correr novamente o relatório clicando em 'Correr relatório' no topo, por editar o relatório clicando no botão 'Editar' ou por começar de novo e criar um novo relatório usando o botão 'Novo'. Pode também executar o download dos resultados escolhendo um tipo de ficheiro no fundo dos resultados."
+
+#: ../../source/reports.rst:407
+msgid "A comma separated text file is a CSV file and it can be opened by any spreadsheet application."
+msgstr "Um ficheiro CSV é um ficheiro que pode ser aberto em qualquer aplicação de folha de cálculo."
+
+#: ../../source/reports.rst:413
+#, fuzzy
+msgid "Send report output to batch modification tools"
+msgstr "Enviar números de exemplares para modificação em lote"
+
+#: ../../source/reports.rst:415
+#, fuzzy
+msgid "After running a report that contains itemnumbers, biblionumbers and/or patron cardnumbers the list of numbers can be imported directly into the relevant batch modification tool by clicking the 'Batch operations with X visible records' button in the report results.  The X depends on the number of records you have chosen to display on screen (up to 1000)."
+msgstr "Após executar um relatório que contem números de exemplares, a lista com os números pode ser importada directamente na :ref:`modificação de exemplares em lote` clicando no botão de modificação em lote nos resultados do relatório."
+
+#: ../../source/reports.rst:418
+msgid "|image1343|"
+msgstr "|image1343|"
+
+#: ../../source/reports.rst:423
+msgid "Statistics reports"
+msgstr "Relatórios estatísticos"
+
+#: ../../source/reports.rst:425
+msgid "Statistic reports will show you counts and sums. These reports are all about numbers and statistics, for reports that return more detailed data, use the :ref:`guided report wizard`. These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
+msgstr "Os relatórios estatísticos irão mostrar as contagens e os sumatórios. Estes relatórios são apenas sobre números e estatísticas, para relatórios que retornem dados mais detalhados, use o :ref:`assistente de relatórios`. Estes relatórios apenas podem olhar para determinados dados, e portanto é recomendado usar os :ref:`relatórios personalizados <custom-reports-label>` para as estatísticas oficiais de final de ano."
+
+#: ../../source/reports.rst:435
+msgid "Acquisitions statistics"
+msgstr "Estatísticas das aquisições"
+
+#: ../../source/reports.rst:439 ../../source/reports.rst:473
+#: ../../source/reports.rst:498 ../../source/reports.rst:522
+#: ../../source/reports.rst:581 ../../source/reports.rst:605
+msgid "These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
+msgstr "Estes relatórios estão limitados em relação aos dados que podem consultar, portanto é recomendado usar :ref:`relatórios personalizados <custom-reports-label>` para as estatísticas necessárias de final de ano."
+
+#: ../../source/reports.rst:443 ../../source/reports.rst:477
+#: ../../source/reports.rst:502 ../../source/reports.rst:526
+msgid "Using the form provided, choose which value you would like to appear in the column and which will appear in the row."
+msgstr "Usando o formulário fornecido, escolha qual o valor para aparecer na coluna e o valor para aparecer na linha."
+
+#: ../../source/reports.rst:446
+msgid "|image902|"
+msgstr "|image902|"
+
+#: ../../source/reports.rst:448 ../../source/reports.rst:482
+#: ../../source/reports.rst:507 ../../source/reports.rst:531
+#: ../../source/reports.rst:590 ../../source/reports.rst:616
+#: ../../source/reports.rst:633 ../../source/reports.rst:651
+#: ../../source/reports.rst:669 ../../source/reports.rst:687
+#: ../../source/reports.rst:705 ../../source/reports.rst:765
+msgid "If you choose to output to the browser your results will print to the screen."
+msgstr "Se escolher mostrar no browser, os resultados aparecerão no ecrã."
+
+#: ../../source/reports.rst:451
+msgid "|image903|"
+msgstr "|image903|"
+
+#: ../../source/reports.rst:453 ../../source/reports.rst:512
+#: ../../source/reports.rst:536 ../../source/reports.rst:595
+#: ../../source/reports.rst:621 ../../source/reports.rst:638
+#: ../../source/reports.rst:656 ../../source/reports.rst:674
+#: ../../source/reports.rst:692 ../../source/reports.rst:710
+#: ../../source/reports.rst:770
+msgid "You can also choose to export to a file that you can manipulate to your needs."
+msgstr "Pode escolher para exportar para um ficheiro que pode manipular de acordo com as suas preferências."
+
+#: ../../source/reports.rst:456
+msgid "When generating your report, note that you get to choose between counting or summing the values."
+msgstr "Quando gerar um relatório, note que tem de escolher entre contagens ou somatórios dos valores."
+
+#: ../../source/reports.rst:459
+msgid "|image904|"
+msgstr "|image904|"
+
+#: ../../source/reports.rst:461
+msgid "Choosing amount will change your results to appear as the sum of the amounts spent."
+msgstr "Escolher o montante irá alterar os resultados para aparecer como soma de todos os montantes gastos."
+
+#: ../../source/reports.rst:464
+msgid "|image905|"
+msgstr "|image905|"
+
+#: ../../source/reports.rst:469
+msgid "Patron statistics"
+msgstr "Estatísticas dos leitores"
+
+#: ../../source/reports.rst:480
+msgid "|image906|"
+msgstr "|image906|"
+
+#: ../../source/reports.rst:485
+msgid "|image907|"
+msgstr "|image907|"
+
+#: ../../source/reports.rst:487
+msgid "Based on your selections, you may see some query information above your results table. You can also choose to export to a file that you can manipulate to your needs."
+msgstr "Segundo as suas opções, pode ver mais informações abaixo da tabela de resultados. Pode também exportar para um ficheiro que poderá manipular de acordo com as suas necessidades."
+
+#: ../../source/reports.rst:494
+msgid "Catalog statistics"
+msgstr "Estatísticas do catálogo"
+
+#: ../../source/reports.rst:505
+msgid "|image908|"
+msgstr "|image908|"
+
+#: ../../source/reports.rst:510
+msgid "|image909|"
+msgstr "|image909|"
+
+#: ../../source/reports.rst:518
+msgid "Circulation statistics"
+msgstr "Estatísticas de circulação"
+
+#: ../../source/reports.rst:529
+msgid "|image910|"
+msgstr "|image910|"
+
+#: ../../source/reports.rst:534
+msgid "|image911|"
+msgstr "|image911|"
+
+#: ../../source/reports.rst:541
+msgid "To get a complete picture of your monthly or daily circulation, you can run the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
+msgstr "Para obter um quadro completo da circulação mensal ou diária, pode executar o relatório duas vezes, uma para o tipo 'Empréstimo' e, novamente, para 'Renovação'."
+
+#: ../../source/reports.rst:545
+msgid "This report uses 'Period,' or date, filtering that allows you to limit to a month by simply selecting the first day of the first month through the first day of the next month. For example, 10/1 to 11/1 to find statistics for the month of October."
+msgstr "Este relatório usa o 'Período', ou data, filtragem que permite limitar a um mês, seleccionando o primeiro dia do primeiro mês até ao primeiro dia do mês seguinte. Por exemplo, 01/1 a 01/11 para encontrar as estatísticas do mês de Outubro. "
+
+#: ../../source/reports.rst:550
+msgid "To find daily statistics, set your date range.</br> Example: \"I want circulation data starting with date XXX up to, but not including, date XXX.\""
+msgstr "Para encontrar estatísticas diárias definia o intervalo de tempo.</br> Exemplo: \"Eu quero os dados que circularam desde a data XXX até à data XXX, não incluída.\""
+
+#: ../../source/reports.rst:554
+msgid "For a whole month, an example range would be: 11/01/2009 to 12/01/2009"
+msgstr "Durante um mês inteiro, os limites seriam por exemplo: 11/01/2009 para 2009/12/01"
+
+#: ../../source/reports.rst:557
+msgid "For a whole year, an example range would be: 01/01/2009 to 01/01/2010"
+msgstr "Durante um ano inteiro, seria uma gama por exemplo: 01/01/2009 a 2010/01/01"
+
+#: ../../source/reports.rst:560
+msgid "For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what circulated on the 15th"
+msgstr "Para um único dia, seria um exemplo: 2009/11/15 a 2009/11/16 para encontrar o que circulou no dia 15"
+
+#: ../../source/reports.rst:566
+msgid "Tracking in house use"
+msgstr "Uso local"
+
+#: ../../source/reports.rst:568
+msgid "Using the Circulation statistics reporting wizard you can run reports on in house usage of items simply by choosing 'Local use' from the 'Type' pull down:"
+msgstr "Usando as estatísticas de circulação pode executar relatórios para o uso local dos exemplares selecionando 'Uso local' na lista do 'Tipo':"
+
+#: ../../source/reports.rst:572
+msgid "|image912|"
+msgstr "|image912|"
+
+#: ../../source/reports.rst:577
+msgid "Serials statistics"
+msgstr "Estatísticas de periódicos"
+
+#: ../../source/reports.rst:585
+msgid "Using the form provided, choose how you would like to list the serials in your system."
+msgstr "Usando o formulário fornecido, escolha como deseja listar os periódicos no sistema."
+
+#: ../../source/reports.rst:588
+msgid "|image913|"
+msgstr "|image913|"
+
+#: ../../source/reports.rst:593
+msgid "|image914|"
+msgstr "|image914|"
+
+#: ../../source/reports.rst:601
+msgid "Holds statistics"
+msgstr "Estatísticas de reservas"
+
+#: ../../source/reports.rst:609
+msgid "Using the form provided you can see statistics for holds placed, filled, cancelled and more at your library. From the form choose what value you want to display in the column and what value to show in the row. You can also choose from the filters on the far right of the form."
+msgstr "Usando o formulário fornecido pode ver as estatísticas para as reservas feitas, satisfeitas, canceladas e mais informações na biblioteca. Do formulário escolha o valor que quer mostrar na coluna e o valor para a linha. Pode também escolher filtros à direita do formulário."
+
+#: ../../source/reports.rst:614
+msgid "|image915|"
+msgstr "|image915|"
+
+#: ../../source/reports.rst:619
+msgid "|image916|"
+msgstr "|image916|"
+
+#: ../../source/reports.rst:627
+msgid "Patrons with the most checkouts"
+msgstr "Leitores com mais empréstimos"
+
+#: ../../source/reports.rst:629
+msgid "This report will simply list the patrons who have the most checkouts."
+msgstr "Este relatório irá listar os leitores com mais empréstimos."
+
+#: ../../source/reports.rst:631
+msgid "|image917|"
+msgstr "|image917|"
+
+#: ../../source/reports.rst:636
+msgid "|image918|"
+msgstr "|image918|"
+
+#: ../../source/reports.rst:644
+msgid "Most circulated items"
+msgstr "Documentos mais emprestados"
+
+#: ../../source/reports.rst:646
+msgid "This report will simply list the items that have the been checked out the most."
+msgstr "Este relatório irá listar os exemplares que tiveram mais empréstimos."
+
+#: ../../source/reports.rst:649
+msgid "|image919|"
+msgstr "|image919|"
+
+#: ../../source/reports.rst:654
+msgid "|image920|"
+msgstr "|image920|"
+
+#: ../../source/reports.rst:662
+msgid "Patrons with no checkouts"
+msgstr "Leitores sem empréstimos"
+
+#: ../../source/reports.rst:664
+msgid "This report will list for you the patrons in your system who haven't checked any items out."
+msgstr "Este relatório lista todos os leitores no sistema que nunca requisitaram um exemplar."
+
+#: ../../source/reports.rst:667
+msgid "|image921|"
+msgstr "|image921|"
+
+#: ../../source/reports.rst:672
+msgid "|image922|"
+msgstr "|image922|"
+
+#: ../../source/reports.rst:680
+msgid "Items with no checkouts"
+msgstr "Exemplares nunca emprestados"
+
+#: ../../source/reports.rst:682
+msgid "This report will list items in your collection that have never been checked out."
+msgstr "Este relatório irá listar todos os exemplares que nunca foram emprestados."
+
+#: ../../source/reports.rst:685
+msgid "|image923|"
+msgstr "|image923|"
+
+#: ../../source/reports.rst:690
+msgid "|image924|"
+msgstr "|image924|"
+
+#: ../../source/reports.rst:698
+msgid "Catalog by item type"
+msgstr "Catálogo por tipo de documento"
+
+#: ../../source/reports.rst:700
+msgid "This report will list the total number of items of each item type per branch."
+msgstr "Este relatório irá listar o número total de exemplares de cada tipo de documento por biblioteca."
+
+#: ../../source/reports.rst:703
+msgid "|image925|"
+msgstr "|image925|"
+
+#: ../../source/reports.rst:708
+msgid "|image926|"
+msgstr "|image926|"
+
+#: ../../source/reports.rst:716
+msgid "Lost items"
+msgstr "Exemplares perdidos"
+
+#: ../../source/reports.rst:718
+msgid "This report will allow you to generate a list of items that have been marked as Lost within the system"
+msgstr "Este relatório irá listar os exemplares que foram marcados como perdidos no sistema"
+
+#: ../../source/reports.rst:721
+msgid "|image927|"
+msgstr "|image927|"
+
+#: ../../source/reports.rst:723
+msgid "Once you have chosen parameters, you will see the corresponding list of items."
+msgstr ""
+
+#: ../../source/reports.rst:725
+#, fuzzy
+msgid "|image1501|"
+msgstr "|image1501|"
+
+#: ../../source/reports.rst:729
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: lostitems-table)."
+msgstr ""
+
+#: ../../source/reports.rst:736
+msgid "Orders by fund"
+msgstr ""
+
+#: ../../source/reports.rst:738
+msgid "If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be able to see all the items that were ordered in each fund."
+msgstr ""
+
+#: ../../source/reports.rst:741
+#, fuzzy
+msgid "|image1499|"
+msgstr "|image1499|"
+
+#: ../../source/reports.rst:743
+msgid "Once you choose the fund you wish to view, you can export the results or view them in the browser. If you choose to view them directly, you will be shown the list of orders."
+msgstr ""
+
+#: ../../source/reports.rst:747
+#, fuzzy
+msgid "|image1500|"
+msgstr "|image1500|"
+
+#: ../../source/reports.rst:751
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: funds-table)."
+msgstr ""
+
+#: ../../source/reports.rst:758
+msgid "Average loan time"
+msgstr "Duração média do empréstimo"
+
+#: ../../source/reports.rst:760
+msgid "This report will list the average time items are out on loan based on the criteria you enter:"
+msgstr "Este relatório lista o tempo médio de empréstimo baseado no critério que inseriu:"
+
+#: ../../source/reports.rst:763
+msgid "|image928|"
+msgstr "|image928|"
+
+#: ../../source/reports.rst:768
+msgid "|image929|"
+msgstr "|image929|"
+
+#: ../../source/reports.rst:776
+msgid "Report dictionary"
+msgstr "Dicionário dos relatórios"
+
+#: ../../source/reports.rst:778
+msgid "The report dictionary is a way to pre-define common filters you'd like to apply to your reports. This is a good way to add in filters that the report wizard doesn't include by default. To add a new definition, or filter, click 'New definition' on the reports dictionary page and follow the 4 step process."
+msgstr "O dicionário dos relatórios é uma forma de pré-definir filtros comuns a aplicar aos relatórios. É uma boa forma de adicionar filtros que o assistente de relatório não inclui por omissão. Para adicionar uma nova definição, ou filtro, clique em 'Nova definição' na página do dicionário de relatórios e siga os 4 passos."
+
+#: ../../source/reports.rst:784
+msgid "Step 1: Name the definition and provide a description if necessary"
+msgstr "Passo 1: Nomeie a definição e providencia uma descrição se necessário"
+
+#: ../../source/reports.rst:786
+msgid "|image930|"
+msgstr "|image930|"
+
+#: ../../source/reports.rst:788
+msgid "Step 2: Choose the module that the will be queried."
+msgstr "Passo 2: Escolher o módulo que será consultado."
+
+#: ../../source/reports.rst:790
+msgid "|image931|"
+msgstr "|image931|"
+
+#: ../../source/reports.rst:792
+msgid "Step 3: Choose columns to query from the tables presented."
+msgstr "Passo 3: Escolher as colunas a consultar das tabelas apresentadas."
+
+#: ../../source/reports.rst:794
+msgid "|image932|"
+msgstr "|image932|"
+
+#: ../../source/reports.rst:796
+msgid "Step 4: Choose the value(s) from the field(s). These will be automatically populated with options available in your database."
+msgstr "Passo 4: Escolha os valores dos campos. Estes serão automaticamente populados com as opções disponíveis na base de dados."
+
+#: ../../source/reports.rst:799
+msgid "|image933|"
+msgstr "|image933|"
+
+#: ../../source/reports.rst:801
+msgid "Confirm your selections to save the definition."
+msgstr "Confirmar as suas selecções para guardar a definição."
+
+#: ../../source/reports.rst:803
+msgid "|image934|"
+msgstr "|image934|"
+
+#: ../../source/reports.rst:805
+msgid "Your definitions will all appear on the Reports Dictionary page"
+msgstr "As suas definições vão aparecer na página de dicionário de relatórios"
+
+#: ../../source/reports.rst:807
+msgid "|image935|"
+msgstr "|image935|"
+
+#: ../../source/reports.rst:809
+msgid "Then when generating reports on the module you created the value for you will see an option to limit by the definition at the bottom of the usual filters."
+msgstr "Assim quando gerar relatórios no módulo onde criou o valor irá ver uma opção para limitar pela definição no fim dos filtros usuais."
+
+#: ../../source/reports.rst:813
+msgid "|image936|"
+msgstr "|image936|"
+
+#~ msgid "|image896|"
+#~ msgstr "|image896|"
+

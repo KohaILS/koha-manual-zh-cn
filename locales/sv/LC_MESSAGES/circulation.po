@@ -1,0 +1,2565 @@
+# Compendium of sv.
+msgid ""
+msgstr ""
+"Project-Id-Version: compendium-sv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 20:19-0300\n"
+"PO-Revision-Date: 2019-03-13 15:05-0300\n"
+"Language-Team: Koha Translation Team \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/circulation.rst:6
+msgid "Circulation"
+msgstr "Utlåning"
+
+#: ../../source/circulation.rst:8
+msgid "Circulation functions can be accessed in several different ways. On the main page of the staff client there are some quick links in the center of the page to check items out, in or transfer them. For a complete listing of Circulation functions you can visit the Circulation page which is linked from the top left of every page or from the center of the main page."
+msgstr "Utlåningsfunktioner kan nås på flera olika sätt. På huvudsidan i personalklienten finns det en del snabblänkar i mitten av sidan för utlåning, återlämning och överföring. För en komplett lista över utlåningsfunktionerna kan du gå till utlåningssidan som finns länkad längst upp till vänster i varje sida eller från mitten av huvudsidan."
+
+#: ../../source/circulation.rst:15
+#, fuzzy
+msgid "Before circulating your collection you will want to set your :ref:`Global system preferences <global-system-preferences-label>`, :ref:`Basic parameters <basic-parameters-label>` and :ref:`Patrons and circulation rules <patrons-and-circulation-label>`."
+msgstr "Innan samlingen lånas ut bör du ställa in Globala systeminställningar, Grundläggande parametrar och Regler för låntagare och lån."
+
+#: ../../source/circulation.rst:20
+msgid "While in Circulation you can jump between the tabs on the quick search box at the top of the screen by using the following hot keys:"
+msgstr "I Utlåning kan du växla mellan flikarna på rutan för snabbsökning längst upp i skärmen genom att använda följande snabbknappar:"
+
+#: ../../source/circulation.rst:23
+msgid "jump to the catalog search with Alt+Q"
+msgstr "gå direkt till katalogsökning med Alt+Q"
+
+#: ../../source/circulation.rst:25
+#, fuzzy
+msgid "jump to the checkout with Alt+U"
+msgstr "gå direkt till utlåning med Alt+U "
+
+#: ../../source/circulation.rst:27
+#, fuzzy
+msgid "this will not work for Mac users"
+msgstr "detta fungerar inte för Mac-användare"
+
+#: ../../source/circulation.rst:29
+msgid "jump to the checkin with Alt+R"
+msgstr "gå direkt till återlämning med Alt+R"
+
+#: ../../source/circulation.rst:31 ../../source/circulation.rst:58
+#: ../../source/circulation.rst:94 ../../source/circulation.rst:100
+#: ../../source/circulation.rst:158 ../../source/circulation.rst:170
+#: ../../source/circulation.rst:191 ../../source/circulation.rst:515
+#: ../../source/circulation.rst:660 ../../source/circulation.rst:799
+#: ../../source/circulation.rst:806 ../../source/circulation.rst:813
+#: ../../source/circulation.rst:819 ../../source/circulation.rst:1042
+#: ../../source/circulation.rst:1107 ../../source/circulation.rst:1131
+#: ../../source/circulation.rst:1146 ../../source/circulation.rst:1165
+#: ../../source/circulation.rst:1259 ../../source/circulation.rst:1336
+#: ../../source/circulation.rst:1354 ../../source/circulation.rst:1365
+#: ../../source/circulation.rst:1374 ../../source/circulation.rst:1421
+#: ../../source/circulation.rst:1452 ../../source/circulation.rst:1469
+#: ../../source/circulation.rst:1542 ../../source/circulation.rst:1563
+#: ../../source/circulation.rst:1587 ../../source/circulation.rst:1592
+#: ../../source/circulation.rst:1799 ../../source/circulation.rst:1835
+#, fuzzy
+msgid "**Note**"
+msgstr "Kommentar"
+
+#: ../../source/circulation.rst:33
+#, fuzzy
+msgid "Mac users use the OPTION button in place of ALT"
+msgstr "Tips: Mac-användare kan använda OPTION-knappen istället för ALT"
+
+#: ../../source/circulation.rst:38
+#, fuzzy
+msgid "Check out (issuing)"
+msgstr "Lånar ut"
+
+#: ../../source/circulation.rst:40
+msgid "To begin the checkout process you must enter the patron barcode or part of their name. The checkout option appears in three main places:"
+msgstr ""
+
+#: ../../source/circulation.rst:43
+#, fuzzy
+msgid "Check out option on the top of the main staff client"
+msgstr "Återlämningsrutan längst upp i personalklientens huvudfönster"
+
+#: ../../source/circulation.rst:45
+msgid "|image482|"
+msgstr "|image482|"
+
+#: ../../source/circulation.rst:47
+#, fuzzy
+msgid "Check out option on the quick search bar on the circulation page"
+msgstr "Återlämningsalternativet på snabbsökningsraden på cirkulationssidan"
+
+#: ../../source/circulation.rst:49
+msgid "|image484|"
+msgstr "|image484|"
+
+#: ../../source/circulation.rst:51
+msgid "Those two options allow you to search for a patron either by card number, name, user ID, email, etc. If you only have one result, Koha will automatically go to the patron's file. If your search gives you more than one result, it will ask you to choose which patron you want to check out to."
+msgstr ""
+
+#: ../../source/circulation.rst:56
+#, fuzzy
+msgid "|image1494|"
+msgstr "|image1494|"
+
+#: ../../source/circulation.rst:60
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module- Under Circulation Tab (table id: table_borrowers)"
+msgstr ""
+
+#: ../../source/circulation.rst:63
+msgid "Check mark which columns to hide by default, uncheck columns that should display."
+msgstr ""
+
+#: ../../source/circulation.rst:65
+#, fuzzy
+msgid "|image1502|"
+msgstr "|image1502|"
+
+#: ../../source/circulation.rst:67
+#, fuzzy
+msgid "Check out option on the patron record"
+msgstr "Låna ut till denna låntagare"
+
+#: ../../source/circulation.rst:69
+msgid "|image483|"
+msgstr "|image483|"
+
+#: ../../source/circulation.rst:71
+msgid "If you have enabled :ref:`batch checkouts <batch-checkout-label>` then click the batch check out option on the patron record"
+msgstr ""
+
+#: ../../source/circulation.rst:74
+msgid "|image1254|"
+msgstr "|image1254|"
+
+#: ../../source/circulation.rst:81
+#, fuzzy
+msgid "Checking items out"
+msgstr "Återlämnar exemplar"
+
+#: ../../source/circulation.rst:83
+msgid "To check an item out to a patron, first search for that patron using one of the many options listed above. You will then be presented with the checkout screen."
+msgstr "För att låna ut ett exemplar till en låntagare söker du först efter låntagaren på ett av de många sätt som listas ovan. Sedan visas utlåningsskärmen."
+
+#: ../../source/circulation.rst:87
+msgid "|image485|"
+msgstr "|image485|"
+
+#: ../../source/circulation.rst:89
+msgid "If you have chosen to 'Always show checkouts immediately' then you will see the list of checkouts below the check out box."
+msgstr "Om du valt 'Visa alltid lån direkt' kommer du att se listan med utlånade exemplar under utlåningsrutan."
+
+#: ../../source/circulation.rst:92
+msgid "|image486|"
+msgstr "|image486|"
+
+#: ../../source/circulation.rst:96
+msgid "The :ref:`previousIssuesDefaultSortOrder` system preference controls in which order these previous checkouts appear (earliest to latest, or latest to earliest)."
+msgstr ""
+
+#: ../../source/circulation.rst:102
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: issues-table)."
+msgstr ""
+
+#: ../../source/circulation.rst:106
+#, fuzzy
+msgid "At the top of the check out screen is a box for you to type or scan the item's barcode into."
+msgstr "Längst upp i utlåningsskärmen finns en ruta där du kan ange eller skanna streckkoden för exemplaret. "
+
+#: ../../source/circulation.rst:109 ../../source/circulation.rst:637
+#: ../../source/circulation.rst:1186 ../../source/circulation.rst:1349
+#: ../../source/circulation.rst:1395 ../../source/circulation.rst:1570
+#: ../../source/circulation.rst:1575 ../../source/circulation.rst:1629
+#: ../../source/circulation.rst:1654 ../../source/circulation.rst:1794
+#, fuzzy
+msgid "**Important**"
+msgstr "Viktigt "
+
+#: ../../source/circulation.rst:111
+#, fuzzy
+msgid "Many modern barcode scanners will send a 'return' to the browser, making it so that the 'Check out' button is automatically clicked"
+msgstr "Viktigt: många moderna streckkodsläsare skickar 'retur' till webbläsaren, så att knappen 'Låna ut' automatiskt klickas"
+
+#: ../../source/circulation.rst:114
+#, fuzzy
+msgid "If the barcode is not found you will be prompted to use fast cataloging to add the item. Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in this manual."
+msgstr "Om streckkoden inte hittas kommer du att uppmanas att använda snabb katalogisering för att lägga till posten. Läs mer om snabb katalogisering senare i denna handbok."
+
+#: ../../source/circulation.rst:118
+#, fuzzy
+msgid "If you have :ref:`itemBarcodeFallbackSearch` set to 'Enable', then you can enter a keyword search in this box instead of just a barcode (this will make it possible to check out using title and/or call number)."
+msgstr "Om du ställt in itemBarcodeFallbackSearch på 'Aktivera' kan du ange en nyckelordssökning i denna ruta istället för bara en streckkod (det gör det möjligt att låna ut med hjälp av titel och/eller hyllsignatur)."
+
+#: ../../source/circulation.rst:123
+msgid "If you have :ref:`AutoSwitchPatron` set to 'Enable', scanning a patron barcode here will take you to that patron's file."
+msgstr ""
+
+#: ../../source/circulation.rst:126
+msgid "To see more checkout options click the 'Checkout settings' link to expand the checkout area."
+msgstr ""
+
+#: ../../source/circulation.rst:129
+msgid "|image1255|"
+msgstr "|image1255|"
+
+#: ../../source/circulation.rst:131
+msgid "Below the box for the barcode there may be options for you to override the default due date for the item."
+msgstr "Under rutan för streckkoden kan det finnas alternativ för att åsidosätta standarddatumet för exemplarets lånetid."
+
+#: ../../source/circulation.rst:134
+#, fuzzy
+msgid "This option will only appear if you have set the :ref:`SpecifyDueDate` system preference to allow staff to override the due date"
+msgstr "Detta alternativ visas bara om systeminställningen SpecifyDueDate är inställd så att personal kan åsidosätta återlämningsdatumet"
+
+#: ../../source/circulation.rst:138
+#, fuzzy
+msgid "Below the box for the barcode you will see a checkbox for 'Automatic renewal'. This will allow this item to automatically renew if the :ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there are no holds on the item."
+msgstr "Under rutan för streckkoden ser du en kryssruta för 'Automatiskt omlån'. Det gör att exemplaret lånas om automatiskt om lämpligt cron-jobb körs och det inte finns några reservationer på exemplaret."
+
+#: ../../source/circulation.rst:143
+msgid "Next is an option to not decrease the loan length based on holds. This overrides the :ref:`decreaseLoanHighHolds` system preference."
+msgstr ""
+
+#: ../../source/circulation.rst:146
+#, fuzzy
+msgid "If you're allowing the :ref:`checkout of items on site <onsitecheckouts-label>` to patrons (these are usually items that are not for loan that you would like to check for in library use) then you will see the 'On-site checkout' checkbox after clicking the 'Checkout settings' link to expand your circulation options."
+msgstr "Om du tillåter utlåning av material för användning på plats (detta är normalt exemplar som inte lånas ut men som du vill låna ut för användning i biblioteket) kommer du att se kryssrutan 'Lån på plats'."
+
+#: ../../source/circulation.rst:152
+msgid "|image1256|"
+msgstr "|image1256|"
+
+#: ../../source/circulation.rst:154
+#, fuzzy
+msgid "At the bottom of the page there is a summary of the patron's current checked out items along with the due date (and time if the item is an hourly loan). Items checked out today will appear at the top."
+msgstr "Längst ner i sidan finns en sammanfattning av låntagarens aktuella lån samt deras förfallodatum (och tid, om lånet är per timme), exemplar som lånats ut idag visas längst upp."
+
+#: ../../source/circulation.rst:160
+msgid "Items that are hourly loan items will include the time with the due date."
+msgstr ""
+
+#: ../../source/circulation.rst:163
+msgid "|image487|"
+msgstr "|image487|"
+
+#: ../../source/circulation.rst:165
+msgid "If you checked out an item for on site use you will see that highlighted in red in the checkout summary."
+msgstr "Om du lånade ut ett exemplar för användning på plats visas det markerat med rött i utlåningssammanfattningen."
+
+#: ../../source/circulation.rst:168
+msgid "|image488|"
+msgstr "|image488|"
+
+#: ../../source/circulation.rst:172
+msgid "The :ref:`todaysIssuesDefaultSortOrder` system preference controls in which order these new checkouts appear (earliest to latest, or latest to earliest)."
+msgstr ""
+
+#: ../../source/circulation.rst:176
+msgid "The 'Export' button at the top of the table allows you to export the patron's current checkouts in either Microsoft Excel or CSV format, or even copy or print their checkouts."
+msgstr ""
+
+#: ../../source/circulation.rst:180
+msgid "|image489|"
+msgstr "|image489|"
+
+#: ../../source/circulation.rst:182
+#, fuzzy
+msgid "Also at the bottom of the page is the list of items the patron has on hold."
+msgstr "Längst ner i sidan finns även en lista med de exemplar som låntagaren har reserverat"
+
+#: ../../source/circulation.rst:185 ../../source/circulation.rst:895
+msgid "|image490|"
+msgstr "|image490|"
+
+#: ../../source/circulation.rst:187
+#, fuzzy
+msgid "If you have the :ref:`SuspendHoldsIntranet` system preference set to 'allow', you can suspend or resume patrons holds using the options at the bottom of the holds list ."
+msgstr "Om du har ställt in inställningen SpecifyReturnDate på 'Tillåt' kommer du att kunna ställa in återlämningsdatumet till vad du vill under återlämningsrutan."
+
+#: ../../source/circulation.rst:193
+#, fuzzy
+msgid "If you have your :ref:`AutoResumeSuspendedHolds` system preference set to \"Don't allow\", you will not have the option to put an end date on the hold suspension"
+msgstr "Om inställningen AutoResumeSuspendedHolds är satt till \"Tillåt inte\" kommer du inte att ha möjlighet att ange ett slutdatum för en uppskjuten reservation."
+
+#: ../../source/circulation.rst:197
+msgid "If there are notes on the patron record these will appear to the right of the checkout box"
+msgstr "Om det finns kommentarer i låntagarposten visas de till höger om utlåningsrutan"
+
+#: ../../source/circulation.rst:200
+msgid "|image491|"
+msgstr "|image491|"
+
+#: ../../source/circulation.rst:202
+#, fuzzy
+msgid "If the patron has a hold waiting at the library, that too will appear to the right of the check out box making it easy for the circulation staff to see that there is another item to give to the patron."
+msgstr "Om låntagaren har en reservation som ligger och väntar på biblioteket kommer också detta att visas till höger om utlåningsrutan, vilket gör det enkelt för bibliotekarien att se att låntagaren ska ha även ett annat exemplar"
+
+#: ../../source/circulation.rst:206
+msgid "|image492|"
+msgstr "|image492|"
+
+#: ../../source/circulation.rst:208
+#, fuzzy
+msgid "The details of the checkouts will appear on the record detail page in the staff client as well."
+msgstr "Detaljinformationen om utlåning visas även på sidan med bibliografisk detaljinformation i personalklienten."
+
+#: ../../source/circulation.rst:211
+msgid "|image493|"
+msgstr "|image493|"
+
+#: ../../source/circulation.rst:216
+#, fuzzy
+msgid "Printing receipts"
+msgstr "Skriva ut kvitton"
+
+#: ../../source/circulation.rst:218
+msgid "Once you have checked out all of the items for the patron you can print them a receipt by choosing one of two methods."
+msgstr "När du genomfört utlåning för en låntagare kan du skriva ut ett kvitto åt dem på två olika sätt."
+
+#: ../../source/circulation.rst:221
+#, fuzzy
+msgid "If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'open a print quick slip window' you can simply hit enter on your keyboard or scan a blank piece of paper with your barcode scanner. The idea being that you're \"checking out\" a blank barcode which triggers Koha to print the 'Quick slip.'"
+msgstr "Om du ställt in CircAutoPrintQuickSlip på 'öppna fönster för att skriva ut snabbkvitto' behöver du bara trycka på Enter eller skanna ett vitt papper med streckkodsläsaren. Eftersom du försöker \"låna ut\" en tom streckkod skriver Koha ut 'Snabbkvittot' eller 'Kvittot'."
+
+#: ../../source/circulation.rst:227
+msgid "You can also click the Print button at the top of the screen and choose 'Print slip' or 'Print quick slip'."
+msgstr "Du kan även klicka på knappen Skriv ut längst upp i fönstret och välja 'Skriv ut kvittering' eller 'Skriv ut snabbkvittering'."
+
+#: ../../source/circulation.rst:230
+msgid "|image494|"
+msgstr "|image494|"
+
+#: ../../source/circulation.rst:232
+msgid "If you choose 'Print slip' it will print all of the items the patron has checked out, including those they checked out at an earlier date. Choosing 'Print quick slip' will print only the items that were checked out today."
+msgstr "Om du väljer 'Skriv ut kvittering' skrivs alla exemplar låntagaren lånat ut, inklusive sådana som lånades tidigare datum. Väljer du 'Snabbutskrift kvittering' skrivs endast de exemplar som lånades idag ut."
+
+#: ../../source/circulation.rst:237
+msgid "'Print summary' will generate a full page summary for the patron's circulation information and 'Print overdues' will print out a slip that lists all items that are overdue."
+msgstr ""
+
+#: ../../source/circulation.rst:241
+#, fuzzy
+msgid "What prints on the slips can be customized by altering the slip templates under the :ref:`Notices & slips` tool."
+msgstr "Det som skrivs ut på kvitteringarna kan ändras genom att modifiera kvitteringsmallarna i verktyget Meddelanden & kvitteringar."
+
+#: ../../source/circulation.rst:247
+#, fuzzy
+msgid "Clear patron information"
+msgstr "Rensa låntagarinformation"
+
+#: ../../source/circulation.rst:249
+#, fuzzy
+msgid "When you're done checking an item out if you have the :ref:`DisplayClearScreenButton` preference set to 'Show' you can clear the current patron by clicking the X in the top right of the patron's info to remove the current patron from the screen and start over."
+msgstr "När du har slutfört utlåning till en låntagare och har DisplayClearScreenButton satt till 'Visa', kan du klicka på X längst upp till höger i låntagarinformationen för att ta bort den aktuella låntagaren och börja om."
+
+#: ../../source/circulation.rst:255
+msgid "|image495|"
+msgstr "|image495|"
+
+#: ../../source/circulation.rst:257
+#, fuzzy
+msgid "If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'clear the screen' then you simply need to hit enter or scan a blank barcode and the screen will be cleared of the current patron."
+msgstr "Om du ställt in CircAutoPrintQuickSlip till 'rensa skärmen' behöver du bara trycka på Enter eller skanna en tom streckkod för att rensa skärmen från aktuell låntagare."
+
+#: ../../source/circulation.rst:265
+#, fuzzy
+msgid "Batch checkouts"
+msgstr "Satsutlåning"
+
+#: ../../source/circulation.rst:267
+msgid "If you would like to perform a batch check out you can do so by turning on the :ref:`BatchCheckouts` system preference and assigning the proper patron categories via the :ref:`BatchCheckoutsValidCategories` preference. This will allow you to use an RFID pad that reads multiple barcodes or perform a batch check out for training internal use."
+msgstr ""
+
+#: ../../source/circulation.rst:274
+msgid "|image1257|"
+msgstr "|image1257|"
+
+#: ../../source/circulation.rst:276
+msgid "From this screen you can scan several barcodes or load a file of barcodes. If those items cannot be checked out they will provide a warning on the following screen"
+msgstr ""
+
+#: ../../source/circulation.rst:280
+msgid "|image496|"
+msgstr "|image496|"
+
+#: ../../source/circulation.rst:282
+msgid "If you are using a statistical patron type then you'll see that local use was recorded for each item you scanned."
+msgstr ""
+
+#: ../../source/circulation.rst:285
+msgid "|image497|"
+msgstr "|image497|"
+
+#: ../../source/circulation.rst:290
+#, fuzzy
+msgid "Check out messages"
+msgstr "Utlåningsmeddelande"
+
+#: ../../source/circulation.rst:292
+msgid "If you check out an item that has multiple pieces and you have cataloged that information in subfield 3 of the item record (in MARC21) a message will pop up when you check out that item telling you how many pieces should be there."
+msgstr "Om du lånar ut ett exemplar som består av flera delar, och du katalogiserat den informationen i underliggande fält 3 för exemplarsposten (i MARC21), kommer ett meddelande att visas när du lånar ut, med information om hur många delar som ska finnas."
+
+#: ../../source/circulation.rst:297
+msgid "|image498|"
+msgstr "|image498|"
+
+#: ../../source/circulation.rst:299
+msgid "There are times when Koha will prevent the librarian from being able to check out items to a patron. When this happens a warning will appear notifying the librarian of why the patron cannot check items out."
+msgstr "Ibland kommer Koha att hindra en bibliotekarie från att låna ut exemplar till en låntagare. När det inträffar visas en varning som förklarar för bibliotekarien varför låntagaren inte får låna."
+
+#: ../../source/circulation.rst:303
+#, fuzzy
+msgid "Patron owes too much in fines"
+msgstr "Låntagaren är skyldig för mycket böter "
+
+#: ../../source/circulation.rst:305
+msgid "|image499|"
+msgstr "|image499|"
+
+#: ../../source/circulation.rst:307
+#, fuzzy
+msgid "You can set the amount at which patron checkouts are blocked with the :ref:`noissuescharge` system preference"
+msgstr "Du kan ställa in det belopp då lån till låntagaren blockeras med systeminställningen noissuescharge"
+
+#: ../../source/circulation.rst:310
+#, fuzzy
+msgid "Patron has a restriction on their account"
+msgstr "Låntagarens konto är begränsat "
+
+#: ../../source/circulation.rst:312
+msgid "|image500|"
+msgstr "|image500|"
+
+#: ../../source/circulation.rst:314
+#, fuzzy
+msgid "This can be set by the librarian editing a patron record and adding a `restriction <#patronflags>`__ or by the :ref:`Overdue/Notice Status Triggers <overdue-notice/status-triggers-label>`"
+msgstr "Detta kan ställas in av bibliotekarien som redigerar en låntagarpost och lägger till en begränsning eller med utlösarna för förseningsmeddelande/status"
+
+#: ../../source/circulation.rst:318
+msgid "If the staff member has the right permission they can override the restriction temporarily"
+msgstr "Om personalen har rätt behörighet kan de temporärt åsidosätta begränsningen"
+
+#: ../../source/circulation.rst:321
+msgid "|image501|"
+msgstr "|image501|"
+
+#: ../../source/circulation.rst:323
+#, fuzzy
+msgid "Patron needs to confirm their address"
+msgstr "Låntagaren måste bekräfta sin adress "
+
+#: ../../source/circulation.rst:325
+msgid "|image502|"
+msgstr "|image502|"
+
+#: ../../source/circulation.rst:327 ../../source/circulation.rst:334
+#, fuzzy
+msgid "This can be set by the librarian editing a patron record and adding a `flag <#patronflags>`__"
+msgstr "Det kan ställas in av bibliotekarien genom att redigera en låntagarpost och lägga till en flagga"
+
+#: ../../source/circulation.rst:330
+#, fuzzy
+msgid "Patrons has lost their library card"
+msgstr "Låntagare har förlorat sitt lånekort "
+
+#: ../../source/circulation.rst:332
+msgid "|image503|"
+msgstr "|image503|"
+
+#: ../../source/circulation.rst:340
+#, fuzzy
+msgid "Check out warnings"
+msgstr "Utlåningsvarningar"
+
+#: ../../source/circulation.rst:342
+msgid "Sometimes checkouts will trigger warning messages that will appear in a yellow box above the check out field. These warnings need to be acknowledged before you will be able to continue checking items out."
+msgstr "Ibland kan utlåning utlösa varningsmeddelanden som visas i en gul ruta ovanför utlåningsfältet. Dessa varningar måste bekräftas innan du kan fortsätta med utlåningen."
+
+#: ../../source/circulation.rst:346
+msgid "Patron has outstanding fines"
+msgstr "Låntagare har obetalda böter"
+
+#: ../../source/circulation.rst:348
+msgid "|image504|"
+msgstr "|image504|"
+
+#: ../../source/circulation.rst:350
+msgid "Item on hold for someone else"
+msgstr "Exemplar reserverat för någon annan"
+
+#: ../../source/circulation.rst:352
+msgid "|image505|"
+msgstr "|image505|"
+
+#: ../../source/circulation.rst:354
+msgid "Item should be on the hold shelf waiting for someone else"
+msgstr "Exemplaret bör vara på reservationshyllan i väntan på hämtning av någon annan"
+
+#: ../../source/circulation.rst:356
+msgid "|image506|"
+msgstr "|image506|"
+
+#: ../../source/circulation.rst:358
+msgid "Item already checked out to this patron"
+msgstr "Exemplar redan utlånat till denna låntagare"
+
+#: ../../source/circulation.rst:360
+msgid "|image507|"
+msgstr "|image507|"
+
+#: ../../source/circulation.rst:362
+msgid "Item checked out to another patron"
+msgstr "Exemplaret utlånat till annan låntagare"
+
+#: ../../source/circulation.rst:364
+msgid "|image508|"
+msgstr "|image508|"
+
+#: ../../source/circulation.rst:366
+msgid "This warning will allow you to place a hold on the item for the patron you're trying to check it out to."
+msgstr ""
+
+#: ../../source/circulation.rst:369
+msgid "Item not for loan"
+msgstr "Exemplaret lånas inte ut"
+
+#: ../../source/circulation.rst:371
+msgid "|image509|"
+msgstr "|image509|"
+
+#: ../../source/circulation.rst:373
+#, fuzzy
+msgid "Patron has too many things checked out and :ref:`AllowTooManyOverride` is set to 'Allow'"
+msgstr "Låntagare har för många saker på lån"
+
+#: ../../source/circulation.rst:376
+msgid "|image510|"
+msgstr "|image510|"
+
+#: ../../source/circulation.rst:378
+msgid "Patron has too many things checked out and :ref:`AllowTooManyOverride` is set to \"Don't allow\""
+msgstr ""
+
+#: ../../source/circulation.rst:382
+msgid "|image511|"
+msgstr "|image511|"
+
+#: ../../source/circulation.rst:384
+#, fuzzy
+msgid "Item cannot be renewed"
+msgstr "Exemplar kan inte lånas om "
+
+#: ../../source/circulation.rst:386
+msgid "|image512|"
+msgstr "|image512|"
+
+#: ../../source/circulation.rst:388
+#, fuzzy
+msgid "This can be overridden with the :ref:`AllowRenewalLimitOverride` system preference"
+msgstr "Detta kan åsidosättas med systeminställningen AllowRenewalLimitOverride"
+
+#: ../../source/circulation.rst:392
+msgid "Barcode not found"
+msgstr "Streckkod ej funnen "
+
+#: ../../source/circulation.rst:394
+msgid "|image513|"
+msgstr "|image513|"
+
+#: ../../source/circulation.rst:396
+#, fuzzy
+msgid "Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in this manual."
+msgstr "Läs mer om snabb katalogisering senare i denna användarhandbok."
+
+#: ../../source/circulation.rst:399
+#, fuzzy
+msgid "Item being checked out is marked as 'lost'"
+msgstr "Exemplaret som lånas ut är markerat som 'förlorat' "
+
+#: ../../source/circulation.rst:401
+#, fuzzy
+msgid "Depending on the value in your :ref:`IssueLostItem` preference, you may just see a warning"
+msgstr "Beroende på inställningen för IssueLostItem kanske du bara ser en varnings- eller bekräftelseruta"
+
+#: ../../source/circulation.rst:404
+msgid "|image514|"
+msgstr "|image514|"
+
+#: ../../source/circulation.rst:406
+#, fuzzy
+msgid "or a confirmation box"
+msgstr "Exportera konfiguration"
+
+#: ../../source/circulation.rst:408
+msgid "|image515|"
+msgstr "|image515|"
+
+#: ../../source/circulation.rst:410
+msgid "Item being checked out is not recommended for a patron of this age"
+msgstr "Exemplaret som lånas ut rekommenderas inte för en låntagare i denna ålder"
+
+#: ../../source/circulation.rst:412
+msgid "|image516|"
+msgstr "|image516|"
+
+#: ../../source/circulation.rst:414
+msgid "Item being checked out meets the :ref:`decreaseLoanHighHolds <decreaseloanhighholds-preferences-label>` system preference criteria"
+msgstr ""
+
+#: ../../source/circulation.rst:418
+msgid "|image517|"
+msgstr "|image517|"
+
+#: ../../source/circulation.rst:423
+#, fuzzy
+msgid "Renewing"
+msgstr "Låna om"
+
+#: ../../source/circulation.rst:425
+#, fuzzy
+msgid "Checked out items can be renewed (checked out for another period of time) based on your :ref:`circulation rules <circulation-and-fines-rules-label>` and :ref:`renewal preferences <renewalperiodbase-label>`."
+msgstr "Utlånade exemplar kan lånas om (lånas för ännu en tidsperiod) baserat på dina utlåningsregler och inställningar för omlån."
+
+#: ../../source/circulation.rst:429
+msgid "If :ref:`you allow it <opacrenewalallowed-label>`, patrons can renew their own items via the OPAC, but sometimes you'll need to help them by renewing their items via the staff client."
+msgstr ""
+
+#: ../../source/circulation.rst:433
+#, fuzzy
+msgid "To renew items checked out to a patron, you can do one of two things."
+msgstr "Det här exemplaret är utlånat till någon annan. %s Återlämna och låna ut? %s"
+
+#: ../../source/circulation.rst:435
+msgid "The first is to visit their details page or checkout page and review their checkout summary at the bottom."
+msgstr ""
+
+#: ../../source/circulation.rst:438
+msgid "|image518|"
+msgstr "|image518|"
+
+#: ../../source/circulation.rst:440
+msgid "In the Renew column you will see how many times each item has been renewed and a checkbox to renew the item for the patron. Check the boxed of the items you would like to renew and click the 'Renew or return checked items' button, or to renew all items checked out to the patron simply click the 'Renew all' button."
+msgstr ""
+
+#: ../../source/circulation.rst:446
+msgid "|image519|"
+msgstr "|image519|"
+
+#: ../../source/circulation.rst:448
+msgid "Sometimes renewals will be blocked based on your circulation rules, to override this block you must have your :ref:`AllowRenewalLimitOverride` preference set to 'Allow'. If you allow renewal limit overrides, you will see a checkbox at the bottom left of the circulation summary. Check that box and then choose the items you would like to renew."
+msgstr ""
+
+#: ../../source/circulation.rst:455
+msgid "|image520|"
+msgstr "|image520|"
+
+#: ../../source/circulation.rst:457
+msgid "Checking that box will add checkboxes in the renew column above where before the item was not renewable."
+msgstr ""
+
+#: ../../source/circulation.rst:460
+#, fuzzy
+msgid "The second option is to visit the 'Renew' page found under the Circulation menu."
+msgstr "Återlämningssidan under menyn Cirkulation"
+
+#: ../../source/circulation.rst:463
+msgid "|image521|"
+msgstr "|image521|"
+
+#: ../../source/circulation.rst:465
+#, fuzzy
+msgid "And scan the barcodes of the items you would like to renew."
+msgstr "Läs av eller mata in streckkoden på exemplaret du vill överföra"
+
+#: ../../source/circulation.rst:467
+msgid "|image522|"
+msgstr "|image522|"
+
+#: ../../source/circulation.rst:469
+#, fuzzy
+msgid "If the item is renewed you will receive a confirmation message."
+msgstr "När filen är uppladdad visas ett meddelande om detta."
+
+#: ../../source/circulation.rst:471
+msgid "|image523|"
+msgstr "|image523|"
+
+#: ../../source/circulation.rst:473
+#, fuzzy
+msgid "If the barcode is not found you will be presented with an error."
+msgstr "När du väljer 'Stäng' visas ett formulär."
+
+#: ../../source/circulation.rst:475
+msgid "|image524|"
+msgstr "|image524|"
+
+#: ../../source/circulation.rst:477
+#, fuzzy
+msgid "If the item is not actually checked out you will also receive an error."
+msgstr "När exemplaret lånats ut visas det under låntagarens information."
+
+#: ../../source/circulation.rst:479
+msgid "|image525|"
+msgstr "|image525|"
+
+#: ../../source/circulation.rst:484
+#, fuzzy
+msgid "Check in (returning)"
+msgstr "Återlämnar"
+
+#: ../../source/circulation.rst:486
+msgid "Checking in items can be performed from various different locations"
+msgstr "Återlämning av exemplar kan ske från flera olika platser"
+
+#: ../../source/circulation.rst:488
+msgid "The check in box on the top of the main staff client"
+msgstr "Återlämningsrutan längst upp i personalklientens huvudfönster"
+
+#: ../../source/circulation.rst:490
+msgid "|image526|"
+msgstr "|image526|"
+
+#: ../../source/circulation.rst:492
+msgid "The check in option on the quick search bar on the Circulation page"
+msgstr "Återlämningsalternativet på snabbsökningsraden på cirkulationssidan"
+
+#: ../../source/circulation.rst:494
+msgid "|image527|"
+msgstr "|image527|"
+
+#: ../../source/circulation.rst:496
+msgid "The check in link on the patron's checkout summary (and on the checkout summary page)"
+msgstr "Återlämningslänken i låntagarens lånesammanfattning (och på sidan med lånesammanfattningen)"
+
+#: ../../source/circulation.rst:499
+msgid "|image528|"
+msgstr "|image528|"
+
+#: ../../source/circulation.rst:501
+msgid "The Check in page under the Circulation menu"
+msgstr "Återlämningssidan under menyn Cirkulation"
+
+#: ../../source/circulation.rst:503
+msgid "|image529|"
+msgstr "|image529|"
+
+#: ../../source/circulation.rst:508
+#, fuzzy
+msgid "Checking items in"
+msgstr "Återlämnar exemplar"
+
+#: ../../source/circulation.rst:510
+msgid "To check an item in scan the barcode for the item into the box provided. A summary of all items checked in will appear below the checkin box"
+msgstr "För att återlämna ett exemplar läser du av streckkoden i den ruta som finns för återlämning. En sammanfattning av alla återlämnade exemplar visas under återlämningsrutan"
+
+#: ../../source/circulation.rst:513
+msgid "|image530|"
+msgstr "|image530|"
+
+#: ../../source/circulation.rst:517
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: checkedintable)."
+msgstr ""
+
+#: ../../source/circulation.rst:521
+msgid "If you are checking items in that were put in the book drop while the library was closed you can check the 'Book drop mode' box before scanning items. This will effectively roll back the returned date to the last date the library was open."
+msgstr "Om du bearbetar exemplar som lämnades i brevlådan medan biblioteket var stängt, kan du markera 'Brevlådeläge' innan du skannar exemplar. Det gör att återlämningsdatumet återställs till det senaste datum då biblioteket var öppet."
+
+#: ../../source/circulation.rst:526
+#, fuzzy
+msgid "This requires that you have your closings added to the :ref:`calendar tool <calendar-label>`"
+msgstr "Detta kräver att stängda dagar är inlagda i verktyget för helgdagar och kalender"
+
+#: ../../source/circulation.rst:528
+msgid "You can also choose to forgive all overdue charges for items you are checking in by checking the 'Forgive overdue charges' box before scanning items."
+msgstr "Du kan också välja att efterskänka alla förseningsavgifter för exemplar du återlämnar genom att markera rutan 'Efterskänk förseningsavgifter' innan exemplaren skannas."
+
+#: ../../source/circulation.rst:532
+#, fuzzy
+msgid "If you have the :ref:`SpecifyReturnDate` preference set to 'Allow' you will be able to arbitrarily set the return date from below the check in box."
+msgstr "Om du har ställt in inställningen SpecifyReturnDate på 'Tillåt' kommer du att kunna ställa in återlämningsdatumet till vad du vill under återlämningsrutan."
+
+#: ../../source/circulation.rst:536
+msgid "|image1258|"
+msgstr "|image1258|"
+
+#: ../../source/circulation.rst:541
+#, fuzzy
+msgid "Check in messages"
+msgstr "Återlämningsmeddelande"
+
+#: ../../source/circulation.rst:543
+msgid "There are several messages that can appear when checking items in:"
+msgstr "Flera meddelanden kan visas när exemplar återlämnas:"
+
+#: ../../source/circulation.rst:545
+#, fuzzy
+msgid "If you are checking an item in at a library other than the home branch, a message will appear asking you to transfer the book to the home library"
+msgstr "Om du tar emot en bok på ett bibliotek som inte är hemfilialen visas ett meddelande om att boken ska överföras till hembiblioteket "
+
+#: ../../source/circulation.rst:549
+msgid "|image531|"
+msgstr "|image531|"
+
+#: ../../source/circulation.rst:551
+msgid "After this item is checked in the status of the item will be changed in the catalog to 'in transit'"
+msgstr "När detta exemplar återlämnats ändras status för exemplaret i katalogen till 'På väg'"
+
+#: ../../source/circulation.rst:554
+msgid "|image532|"
+msgstr "|image532|"
+
+#: ../../source/circulation.rst:556
+#, fuzzy
+msgid "To mark an item as back at the home branch, check the item in at the home branch"
+msgstr "För att markera ett exemplar som tillbaka på hembiblioteket återlämnar du exemplaret på hembiblioteket "
+
+#: ../../source/circulation.rst:559
+msgid "|image533|"
+msgstr "|image533|"
+
+#: ../../source/circulation.rst:561
+msgid "A message will appear tell you that the item is not checked out, but the status will now say available in the catalog. This step is necessary to mark items as received by the home branch."
+msgstr "Ett meddelande som anger att exemplaret inte är utlånat visas, men statusen indikerar inte att det är tillgängligt i katalogen. Detta steg är nödvändigt för att markera exemplar som mottagna av hemfilialen."
+
+#: ../../source/circulation.rst:565
+msgid "If you are checking in an item that should have multiple parts or pieces a message will appear warning you about the number of pieces you should have in your hand"
+msgstr "Om du tar emot ett exemplar som består av flera olika delar visas ett meddelande med en varning om det antal delar du bör ha i handen"
+
+#: ../../source/circulation.rst:569
+msgid "|image534|"
+msgstr "|image534|"
+
+#: ../../source/circulation.rst:571
+#, fuzzy
+msgid "If you're checking an item in that has a hold on it, you will be prompted to confirm the hold"
+msgstr "Om du hanterar ett exemplar som har en reservation kommer du att ombes bekräfta reservationen "
+
+#: ../../source/circulation.rst:574
+msgid "|image535|"
+msgstr "|image535|"
+
+#: ../../source/circulation.rst:576
+msgid "Clicking the Confirm hold button will mark the item as waiting for pickup from the library"
+msgstr "Klickar du på knappen Bekräfta reservation markeras exemplaret som i väntan på hämtning från biblioteket"
+
+#: ../../source/circulation.rst:579
+msgid "|image536|"
+msgstr "|image536|"
+
+#: ../../source/circulation.rst:581
+#, fuzzy
+msgid "Clicking the 'Print slip and confirm' button will mark the item as waiting for pickup at the library and present the library with a receipt to print and place on the book with the patron's information"
+msgstr "Klickar du på knappen Skriv ut kvittering och bekräfta markeras exemplaret som i väntan på hämtning från biblioteket och biblioteket får ett kvitto som kan skrivas ut och placeras på boken med låntagarens information"
+
+#: ../../source/circulation.rst:586 ../../source/circulation.rst:604
+msgid "Ignoring the hold will leave the item on hold, but leave its status as Available (it will not cancel the hold)"
+msgstr "Om reservationen ignoreras är exemplaret fortfarande reserverat, men med statusen Tillgänglig (reservationen annulleras inte)"
+
+#: ../../source/circulation.rst:589
+#, fuzzy
+msgid "If you're checking in an item that has a hold on it at another branch you will be prompted to confirm and transfer the item"
+msgstr "Om du hanterar ett exemplar som har en reservation på en annan filial kommer du att ombes bekräfta och överföra exemplaret "
+
+#: ../../source/circulation.rst:592
+msgid "|image537|"
+msgstr "|image537|"
+
+#: ../../source/circulation.rst:594
+#, fuzzy
+msgid "Clicking the 'Confirm hold and transfer' button will mark the item as in transit to the library where the hold was placed"
+msgstr "Klickar du på knappen Bekräfta reservation och överför markeras exemplaret som på väg till biblioteket där reservationen gjordes"
+
+#: ../../source/circulation.rst:597
+msgid "|image538|"
+msgstr "|image538|"
+
+#: ../../source/circulation.rst:599
+#, fuzzy
+msgid "Clicking the 'Print slip, transfer and confirm' button will mark the item as in transit to the library where the hold was placed and present the library with a receipt to print and place on the book with the patron's information"
+msgstr "Klickar du på knappen Skriv ut kvittering, överför och bekräfta markeras exemplaret som på väg till biblioteket där reservationen gjordes och biblioteket får ett kvitto som kan skrivas ut och placeras på boken med låntagarens information"
+
+#: ../../source/circulation.rst:607
+#, fuzzy
+msgid "If you have the system showing you fines at the time of checkin (:ref:`FineNotifyAtCheckin`) you will see a message telling you about the fine and providing you a link to the payment page for that patron"
+msgstr "Om systemet är inställt på att visa böter vid återlämning (FineNotifyAtCheckin) kommer du att se ett meddelande som informerar om böterna och ger en länk till betalsidan för låntagaren"
+
+#: ../../source/circulation.rst:612
+msgid "|image539|"
+msgstr "|image539|"
+
+#: ../../source/circulation.rst:617
+#, fuzzy
+msgid "Circulation messages"
+msgstr "Kommentarer"
+
+#: ../../source/circulation.rst:619
+msgid "Circulation messages are short messages that librarians can leave for their patrons or their colleagues that will appear at the time of circulation."
+msgstr "Utlåningsmeddelanden är korta meddelanden som bibliotekarier kan lämna åt sina låntagare eller sina kollegor och som visas vid utlåning."
+
+#: ../../source/circulation.rst:626
+#, fuzzy
+msgid "Setting up messages"
+msgstr "Konfigurera meddelanden"
+
+#: ../../source/circulation.rst:628
+#, fuzzy
+msgid "Circulation messages are set up as :ref:`authorized values <authorized-values-label>`. To add or edit circulation messages you want to work with the `BOR\\_NOTES <#bornotes>`__ value."
+msgstr "Utlåningsmeddelanden konfigureras som Auktoriserade värden. För att lägga till eller redigera utlåningsmeddelanden använder du BOR_NOTES-värdet."
+
+#: ../../source/circulation.rst:632
+msgid "|image540|"
+msgstr "|image540|"
+
+#: ../../source/circulation.rst:634
+msgid "The 'Description' field can hold a canned message that you would like to appear on the patron's record."
+msgstr ""
+
+#: ../../source/circulation.rst:639
+msgid "The 'Description' field is limited to 80 characters, but the patron message field can hold more than that. Enter 80 characters in the 'Description' field and then type the rest on the patron record."
+msgstr ""
+
+#: ../../source/circulation.rst:646
+#, fuzzy
+msgid "Adding a message"
+msgstr "Lägga till ett meddelande"
+
+#: ../../source/circulation.rst:648
+#, fuzzy
+msgid "When on the patron's check out tab you will see a link to 'Add a new message' to the right of the check out box and a button at the top to 'Add message'."
+msgstr "När du är i utlåningsfliken för låntagaren visas en länk till 'Lägg till nytt meddelande' till höger om utlåningsrutan."
+
+#: ../../source/circulation.rst:652
+msgid "|image541|"
+msgstr "|image541|"
+
+#: ../../source/circulation.rst:654
+#, fuzzy
+msgid "When you click either of these options you will be asked to choose if the message is for the librarians or the patron and the message you would like to leave."
+msgstr "När du klickar på 'Lägg till nytt meddelande' får du ange om meddelandet är för bibliotekarierna eller låntagaren samt den text som ska visas."
+
+#: ../../source/circulation.rst:658
+msgid "|image542|"
+msgstr "|image542|"
+
+#: ../../source/circulation.rst:662
+msgid "A message for the patron will also show to the library staff."
+msgstr ""
+
+#: ../../source/circulation.rst:667
+#, fuzzy
+msgid "Viewing messages"
+msgstr "Visa meddelanden"
+
+#: ../../source/circulation.rst:669
+msgid "Circulation messages meant for the staff and/or the patron will appear on the patron's checkout screen to the right of the checkout box. Messages in bold and red are meant for the library staff only, whereas messages in regular italics font are meant for the patron and the librarian."
+msgstr ""
+
+#: ../../source/circulation.rst:675
+msgid "|image543|"
+msgstr "|image543|"
+
+#: ../../source/circulation.rst:677
+#, fuzzy
+msgid "Circulation messages meant for the patron will also appear when they log into the OPAC."
+msgstr "Utlåningsmeddelanden avsedda för låntagaren visas när de loggar in i OPAC."
+
+#: ../../source/circulation.rst:680
+msgid "|image544|"
+msgstr "|image544|"
+
+#: ../../source/circulation.rst:685
+msgid "Holds"
+msgstr "Reservationer"
+
+#: ../../source/circulation.rst:687
+msgid "Koha allows patrons to put things on hold. A 'Hold' is a way to reserve an item. Depending on your :ref:`circulation and fines rules <circulation-and-fines-rules-label>` and :ref:`hold preference <holds-policy-label>` settings patrons will be able to place items on hold for pickup at the library at a later date/time."
+msgstr ""
+
+#: ../../source/circulation.rst:696
+#, fuzzy
+msgid "Placing holds in staff client"
+msgstr "Reservera i personalklienten"
+
+#: ../../source/circulation.rst:698
+#, fuzzy
+msgid "There are several ways to place holds from the staff client. The most obvious is using the 'Place hold' button at the top of any bibliographic record."
+msgstr "Det finns flera olika sätt att reservera från personalklienten. Det naturligaste är att använda knappen 'Reservera', längst upp i alla bibliografiska poster."
+
+#: ../../source/circulation.rst:702
+msgid "|image545|"
+msgstr "|image545|"
+
+#: ../../source/circulation.rst:704
+#, fuzzy
+msgid "You can also click the smaller 'Place hold' link found at the top of your catalog search results, or the 'Holds' link found below each result."
+msgstr "Du kan även klicka på den mindre länken 'Reservera' som visas längst upp i sökresultaten eller på länken 'Reservationer' som finns under varje resultat."
+
+#: ../../source/circulation.rst:708
+msgid "|image546|"
+msgstr "|image546|"
+
+#: ../../source/circulation.rst:710
+msgid "You will be asked to search for a patron by barcode or any part of their name to start the hold process."
+msgstr "Du ombeds söka efter en låntagare med streckkod eller någon del av deras namn för att inleda reservationsprocessen."
+
+#: ../../source/circulation.rst:713
+msgid "|image547|"
+msgstr "|image547|"
+
+#: ../../source/circulation.rst:715
+msgid "If you'd like to search for the patron first and then the bib record for the hold, you can open the patron record and click on the 'Search to Hold' button at the top of the patron record."
+msgstr "Om du först vill söka efter låntagarposten och sedan efter bib-posten för reservationen, kan du öppna låntagarposten och klicka på 'Sök för att reservera' längst upp i låntagarposten."
+
+#: ../../source/circulation.rst:719
+msgid "|image548|"
+msgstr "|image548|"
+
+#: ../../source/circulation.rst:721
+msgid "After clicking the button you will be brought to the catalog search page where you can find the book(s) you want to place a hold on. Under each title on the results you'll see an option to 'Hold for Patron Name.'"
+msgstr "När du klickat på knappen kommer du till katalogsöksidan där du kan hitta de böcker du vill reservera. Under varje titel i resultatlistan finns alternativet 'Reservera för låntagarnamn'."
+
+#: ../../source/circulation.rst:725
+msgid "|image549|"
+msgstr "|image549|"
+
+#: ../../source/circulation.rst:727
+msgid "If you want to place a hold on multiple items, simply check the boxes to the left of them and click the arrow to the right of the 'Place Hold' button."
+msgstr "Om du vill reservera flera exemplar, markerar du bara rutorna till vänster om dem och klickar på pilen till höger om knappen 'Reservera'."
+
+#: ../../source/circulation.rst:731
+msgid "|image550|"
+msgstr "|image550|"
+
+#: ../../source/circulation.rst:733
+msgid "Depending on how many items you choose to place a hold on at once you will see a different place hold form. If you are placing a hold on one bibliographic record you will see a list of all of the items you can place a hold on."
+msgstr "Beroende på hur många exemplar du väljer att reservera samtidigt visas ett annorlunda reservationsformulär. Om du reserverar en bibliografisk post visas en lista med alla exemplar du kan reservera."
+
+#: ../../source/circulation.rst:738
+msgid "|image551|"
+msgstr "|image551|"
+
+#: ../../source/circulation.rst:740
+msgid "Enter any notes that might apply to this hold"
+msgstr "Ange kommentarer som kan gälla för denna reservation"
+
+#: ../../source/circulation.rst:742
+msgid "Choose the library where the patron will pick up the item"
+msgstr "Välj det bibliotek där låntagaren kommer att hämta exemplaret"
+
+#: ../../source/circulation.rst:744
+msgid "If you have the :ref:`AllowHoldItemTypeSelection` preference set to 'Allow' and the record had more than one item type attached you will see an option to choose to limit the hold to a specific item type"
+msgstr ""
+
+#: ../../source/circulation.rst:750
+msgid "|image1259|"
+msgstr "|image1259|"
+
+#: ../../source/circulation.rst:752
+#, fuzzy
+msgid "If the patron wants the hold to start on a date other than today, enter that in the 'Hold starts on date' field"
+msgstr "Om låntagaren vill att reservationen ska börja gälla någon annan dag än idag, anger du detta i fältet 'Reservation startar datum' "
+
+#: ../../source/circulation.rst:755
+#, fuzzy
+msgid "This option will only appear if the :ref:`AllowHoldDateInFuture` system preference is set to 'Allow'"
+msgstr "Detta alternativ visas bara om systeminställningen AllowHoldDateInFuture är satt till 'Tillåt'"
+
+#: ../../source/circulation.rst:759
+#, fuzzy
+msgid "If the patron has specified that they don't want the item after a certain date, or if you have limits on hold lengths, you can enter an expiration date for the hold in the 'Hold expires on date'"
+msgstr "Om låntagaren har angett att de inte vill ha exemplaret efter ett visst datum, eller om det finns begränsningar på reservationstider, kan du ange ett förfallodatum för reservationen i 'Reservation upphör gälla datum' "
+
+#: ../../source/circulation.rst:763
+#, fuzzy
+msgid "To have expired holds cancelled automatically you will need to have the :ref:`Expired holds` cron job set to run on a regular basis."
+msgstr "För att automatiskt annullera reservationer som förfallit måste cron-jobbet Förfallna reservationer köras regelbundet."
+
+#: ../../source/circulation.rst:767
+msgid "Next choose if you want to place a hold on the next available item or a specific item by clicking the radio button next to an individual item."
+msgstr "Sedan väljer du om du vill reservera nästa tillgängliga exemplar eller ett specifikt exemplar, genom att klicka på radioknappen intill ett enskilt exemplar."
+
+#: ../../source/circulation.rst:771
+msgid "If you're placing a hold on multiple items you will be presented with the next available option for all titles. If no items are available for hold it will say so on the confirmation screen."
+msgstr "Om du reserverar flera exemplar visas nästa tillgängliga alternativ för alla titlar. Om inga exemplar kan reserveras anges detta på skärmen."
+
+#: ../../source/circulation.rst:775
+msgid "|image552|"
+msgstr "|image552|"
+
+#: ../../source/circulation.rst:777
+#, fuzzy
+msgid "Once your hold is placed, if you'd like to have Koha forget that you used the 'Search to hold' function, you can choose to have Koha 'forget' the patron's name by clicking the arrow to the right of the 'Place hold' button on the search results and choosing the 'Forget' option."
+msgstr "Om du vill att Koha ska glömma bort att du använde 'Sök för reservation' när reservationen är gjord, kan du välja att låta Koha 'glömma' låntagarens namn genom att klicka på pilen till höger om knappen 'Reservera' i sökresultaten och välja alternativet 'Glöm'."
+
+#: ../../source/circulation.rst:782
+msgid "|image553|"
+msgstr "|image553|"
+
+#: ../../source/circulation.rst:787
+#, fuzzy
+msgid "Managing holds"
+msgstr "Hantera reservationer"
+
+#: ../../source/circulation.rst:789
+#, fuzzy
+msgid "Holds can be altered and cancelled from the holds tab found on the left of the bibliographic record."
+msgstr "Reservationer kan ändras och annulleras från fliken Reservationer till vänster om den bibliografiska posten."
+
+#: ../../source/circulation.rst:792
+msgid "|image554|"
+msgstr "|image554|"
+
+#: ../../source/circulation.rst:794
+#, fuzzy
+msgid "From the list of holds you can change the order of the holds, the pickup location, suspend and/or cancel the hold."
+msgstr "Från listan med reservationer kan du ändra reservationsordning, utlämningsplats och/eller annullera reservationen."
+
+#: ../../source/circulation.rst:797
+msgid "|image555|"
+msgstr "|image555|"
+
+#: ../../source/circulation.rst:801
+#, fuzzy
+msgid "If you have your :ref:`AutoResumeSuspendedHolds` preference set to \"Don't allow\" then you will not have the option to put an end date on the hold suspension."
+msgstr "Om inställningen AutoResumeSuspendedHolds är satt till \"Tillåt inte\" kommer du inte att ha möjlighet att ange ett slutdatum för en uppskjuten reservation."
+
+#: ../../source/circulation.rst:808
+#, fuzzy
+msgid "If you have your :ref:`AllowHoldDateInFuture` preference set to \"Don't allow\" you will not have the option to edit the date the hold was placed (the column labelled Date)."
+msgstr "Om inställningen AutoResumeSuspendedHolds är satt till \"Tillåt inte\" kommer du inte att ha möjlighet att ange ett slutdatum för en uppskjuten reservation."
+
+#: ../../source/circulation.rst:815
+msgid "If you have the :ref:`HoldsSplitQueue` system preference set you will see the holds list split across different tables by either pickup library, itemtype or both."
+msgstr ""
+
+#: ../../source/circulation.rst:821
+#, fuzzy
+msgid "Depending on how you have your :ref:`HidePatronName` system preference set the list may show card numbers instead of names in the patron column like in the image above."
+msgstr "Beroende på hur systeminställningen HidePatronName är inställd kan listan visa kortnummer istället för namn i låntagarkolumnen, som i bilden ovan."
+
+#: ../../source/circulation.rst:825
+msgid "To rearrange or delete holds, simply make a selection from the 'Priority' pull down or click the arrows to the right of the priority pull down."
+msgstr "För att ordna om eller radera reservationer väljer du ett värde från rullgardinsmenyn 'Prioritet' eller klickar på pilarna till höger om rullgardinsmenyn för prioritet."
+
+#: ../../source/circulation.rst:829
+msgid "|image556|"
+msgstr "|image556|"
+
+#: ../../source/circulation.rst:831
+msgid "If you use the priority pull down to rearrange or delete holds you will need to click the 'Update hold(s)' button to save your changes."
+msgstr "Om du använder rullgardinsmenyn för prioritet för att ändra eller radera reservationer, måste du klicka på knappen 'Uppdatera reservationer' för att spara dina ändringar."
+
+#: ../../source/circulation.rst:834
+msgid "Clicking the down arrow to the right of the hold will stick the hold at the bottom of the list even if more requests are made."
+msgstr "Klickar du på nedåtpilen till höger om reservationen gör att reservationen stannar längst ner i listan även om fler reservationer görs."
+
+#: ../../source/circulation.rst:837
+msgid "For example, your library has home-bound patrons that are allowed to keep books out for months at a time. It would not be fair to other patrons if a home-bound patron were able to check out a brand new book and keep it for months. For this reason, the home-bound patron's hold request would stay at the bottom of the queue until everyone else who wanted to read that book has already done so."
+msgstr "Om ditt bibliotek exempelvis har låntagare som av olika anledningar inte kan lämna sitt hus och därför har rätt att ha böcker på lån under flera månader, så vore det inte rättvist mot andra låntagare om dessa låntagare kunde låna en helt ny bok och behålla den i månader. Av denna anledning skulle denna låntagares reservationsbegäran ligga längst ner i listan tills alla som vill läsa boken har gjort det."
+
+#: ../../source/circulation.rst:844
+msgid "|image557|"
+msgstr "|image557|"
+
+#: ../../source/circulation.rst:846
+#, fuzzy
+msgid "If a patron asks to have their hold suspended and you have the :ref:`SuspendHoldsIntranet` system preference set to 'allow' you can do so by clicking the 'Suspend' button to far right. If the patron gives you a date for the items to become unsuspended you can enter that in the date box and click the 'Update hold(s)' button to save your changes."
+msgstr "Om en låntagare ber att deras reservation ska avaktiveras, kan du göra det genom att klicka på knappen Avaktivera längst till höger. Om låntagaren ger dig ett datum då reservationen kan bli aktiv igen kan du ange det i datumrutan och klicka på knappen 'Uppdatera reservationer' för att spara dina ändringar."
+
+#: ../../source/circulation.rst:853
+msgid "|image558|"
+msgstr "|image558|"
+
+#: ../../source/circulation.rst:855
+msgid "To delete or cancel a hold click the red 'X' to the right of the hold line. To delete/cancel a bunch of holds you can choose 'del' from pull down to the left of each line and then click 'Update hold(s)' at the bottom of the list."
+msgstr ""
+
+#: ../../source/circulation.rst:860
+msgid "|image559|"
+msgstr "|image559|"
+
+#: ../../source/circulation.rst:862
+msgid "If your library uses the :ref:`patron clubs feature <patron-clubs-label>`, use the clubs tab to place a hold for a club. To place a hold for a club, click the clubs tab, search for and select the club name, and click the 'Place hold' button."
+msgstr ""
+
+#: ../../source/circulation.rst:864
+#, fuzzy
+msgid "|image1460|"
+msgstr "|image1460|"
+
+#: ../../source/circulation.rst:869
+#, fuzzy
+msgid "Receiving holds"
+msgstr "Ta emot reservationer"
+
+#: ../../source/circulation.rst:871
+#, fuzzy
+msgid "When items that are on hold are :ref:`checked in <check-in-(returning)-label>` or :ref:`out <check-out-(issuing)-label>` the system will remind the circulation librarian that the item is on hold and offer them options for managing the hold."
+msgstr "När exemplar som är reserverade lånas ut eller återlämnas påminner systemet bibliotekarien om att exemplaret är reserverat och erbjuder alternativ för att hantera reservationen."
+
+#: ../../source/circulation.rst:875
+#, fuzzy
+msgid "When you check in an item that has a hold on it the system will ask you to either confirm and transfer the item"
+msgstr "När du återlämnar ett exemplar som är reserverat kommer systemet att fråga om du vill bekräfta och överföra exemplaret eller bara bekräfta reservationen"
+
+#: ../../source/circulation.rst:878
+msgid "|image560|"
+msgstr "|image560|"
+
+#: ../../source/circulation.rst:880
+#, fuzzy
+msgid "or just confirm the hold"
+msgstr "Vill du bekräfta denna beställning?"
+
+#: ../../source/circulation.rst:882
+msgid "|image561|"
+msgstr "|image561|"
+
+#: ../../source/circulation.rst:884
+#, fuzzy
+msgid "Clicking the 'Confirm' button will mark the item as on hold for the patron. If the item needs to be transferred the item will also be marked as in transit to the proper branch. Clicking 'Ignore' will retain the hold, but allow you to check the item out to another patron. Choosing to confirm and print will present you with a printable page that you can slip inside the book with the necessary hold and/or transfer information."
+msgstr "Klickar du på knappen Bekräfta markerar exemplaret som reserverat för låntagaren. Om exemplaret behöver överföras markeras det även som på väg till rätt bibliotek. Klickar du på 'Ignorera' bibehåller reservationen men tillåter att du lånar ut exemplaret till en annan låntagare. Väljer du att bekräfta och skriva ut visas en utskrivbar sida som du kan vika in i boken med nödvändig reservations- och/eller överföringsinformation."
+
+#: ../../source/circulation.rst:892
+msgid "Once confirmed the hold will show on the patron record and on the checkout screen under the 'Hold' tab."
+msgstr "När den bekräftats kommer reservationen att visas i låntagarens post och i utlåningsskärmen under fliken 'Reservationer'."
+
+#: ../../source/circulation.rst:897
+msgid "From here if the patron would like you suspend their holds you can do so one by one or in bulk."
+msgstr ""
+
+#: ../../source/circulation.rst:900
+msgid "The item record will also show that the item is on hold."
+msgstr "Exemplarposten kommer också att visa att exemplaret är reserverat."
+
+#: ../../source/circulation.rst:902
+msgid "|image563|"
+msgstr "|image563|"
+
+#: ../../source/circulation.rst:904
+msgid "In some cases a patron may come in to pick up a hold for their partner (or someone else in their household). In this case you want to make sure that the hold is cancelled when you check the item out to someone else. When trying to check out an item that is already waiting for someone else you will be presented with a warning message."
+msgstr "I vissa fall kan en låntagare komma in för att hämta en reservation för sin partner (eller någon annan i hushållet). I dessa fall måste du se till att reservationen annulleras när du lånar ut exemplaret till någon annan. När du försöker låna ut ett exemplar som väntar på att hämtas av någon annan visas ett varningsmeddelande."
+
+#: ../../source/circulation.rst:910
+msgid "|image564|"
+msgstr "|image564|"
+
+#: ../../source/circulation.rst:912
+msgid "From here you can check the item out to the patron at the desk and cancel the hold for the patron."
+msgstr "Härifrån kan du låna ut exemplaret till låntagaren vid disken och avbryta reservationen för låntagaren."
+
+#: ../../source/circulation.rst:918
+msgid "Transfers"
+msgstr "Överföringar"
+
+#: ../../source/circulation.rst:920
+#, fuzzy
+msgid "If you work in a multi-branch system you can transfer items from one library to another by using the Transfer tool."
+msgstr "Om du arbetar i ett system med flera bibliotek, kan du överföra exemplar från ett bibliotek till ett annat med överföringsverktyget. För att överföra ett exemplar"
+
+#: ../../source/circulation.rst:923
+#, fuzzy
+msgid "*Get there*: Circulation > Transfer"
+msgstr "Koha &rsaquo; Cirkulation &rsaquo; Överföringar"
+
+#: ../../source/circulation.rst:925
+#, fuzzy
+msgid "To transfer an item"
+msgstr "Överförda exemplar"
+
+#: ../../source/circulation.rst:927
+#, fuzzy
+msgid "Click 'Transfer' on the Circulation page"
+msgstr "Klicka på 'Överför' på utlåningssidan "
+
+#: ../../source/circulation.rst:929
+msgid "|image565|"
+msgstr "|image565|"
+
+#: ../../source/circulation.rst:931
+msgid "Enter the library you would like to transfer the item to"
+msgstr "Ange biblioteket du vill överföra exemplaret till"
+
+#: ../../source/circulation.rst:933
+msgid "Scan or type the barcode on the item you would like to transfer"
+msgstr "Läs av eller mata in streckkoden på exemplaret du vill överföra"
+
+#: ../../source/circulation.rst:935
+msgid "Click 'Submit'"
+msgstr "Klicka på 'Skicka'"
+
+#: ../../source/circulation.rst:937
+msgid "|image566|"
+msgstr "|image566|"
+
+#: ../../source/circulation.rst:939
+msgid "The item will now say that it is in transit"
+msgstr "Exemplaret kommer nu att visa att det är på väg"
+
+#: ../../source/circulation.rst:941
+msgid "|image567|"
+msgstr "|image567|"
+
+#: ../../source/circulation.rst:943
+#, fuzzy
+msgid "When the item arrives at the other branch the librarian must check the item in to acknowledge that it is no longer in transit"
+msgstr "När exemplaret anländer till det andra biblioteket måste bibliotekarien registrera exemplaret för att bekräfta att det inte längre är på väg"
+
+#: ../../source/circulation.rst:946
+#, fuzzy
+msgid "The item will not be permanently moved to the new library"
+msgstr "Exemplaret kommer inte att flyttas permanent till det nya biblioteket "
+
+#: ../../source/circulation.rst:948
+msgid "|image568|"
+msgstr "|image568|"
+
+#: ../../source/circulation.rst:950
+#, fuzzy
+msgid "The item shows the same 'Home library' but has updated the 'Current location' to note where it resides at this time"
+msgstr "Exemplaret har samma värde för 'Hembibliotek', men har uppdaterat 'Aktuell plats' för att visa var exemplaret finns just nu"
+
+#: ../../source/circulation.rst:956
+msgid "Set library"
+msgstr "Ställ in bibliotek"
+
+#: ../../source/circulation.rst:958
+#, fuzzy
+msgid "By default you will enter the staff client as if you are at your home library. This library will appear in the top right of the staff client."
+msgstr "Som standard kommer du in i personalklienten som om du vore i ditt hembibliotek. Detta bibliotek visas längst upp till höger i personalklienten."
+
+#: ../../source/circulation.rst:961
+msgid "|image569|"
+msgstr "|image569|"
+
+#: ../../source/circulation.rst:963
+msgid "This is the library that all circulation transactions will take place at. If you are at another library (or on a bookmobile) you will want to set your library before you start circulating items. To do this you can click 'Set' at the top right or on the Circulation page."
+msgstr "Detta är biblioteket där alla lånetransaktioner kommer att ske. Om du är i ett annat bibliotek (eller i en biblioteksbuss) ställer du in rätt bibliotek innan du börjar hantera exemplar. För att göra det klickar du på 'Ställ in' längst upp till höger eller på sidan Cirkulation."
+
+#: ../../source/circulation.rst:968
+msgid "|image570|"
+msgstr "|image570|"
+
+#: ../../source/circulation.rst:970
+msgid "Once you have saved your changes you new library will appear in the top right."
+msgstr "När du sparat dina ändringar visas ditt nya bibliotek i det övre högra hörnet."
+
+#: ../../source/circulation.rst:976
+#, fuzzy
+msgid "Fast add cataloging"
+msgstr "Snabb katalogisering"
+
+#: ../../source/circulation.rst:978
+#, fuzzy
+msgid "Sometimes circulation librarians need to quickly add a record to the system for an item they are about to check out. This is called 'Fast add'. To allow circulation librarians access to the Fast add cataloging tool, simply make sure they have the `fast\\_cataloging <#fastaddpermissions>`__ permissions. There are two ways to add titles via fast add. If you know that you're about to check out an item that isn't in you catalog you can go to the Circulation module and click 'Fast cataloging.'"
+msgstr "Ibland behöver utlåningsbibliotekarier snabbt lägga till en post i systemet för ett exemplar de ska låna ut. Detta kallas 'Snabbt tillägg'. Det enda du behöver göra för att utlåningsbibliotekarier ska ha tillgång till katalogverktyget Snabbt tillägg är att se till att de har rättigheten fast_cataloging. Det finns två sätt att lägga till titlar via Snabbt tillägg. Om du vet att du är på väg att låna ut ett exemplar som inte finns i din katalog, kan du gå till utlåningsmodulen och klicka på 'Snabb katalogisering'."
+
+#: ../../source/circulation.rst:987
+msgid "|image571|"
+msgstr "|image571|"
+
+#: ../../source/circulation.rst:989
+#, fuzzy
+msgid "The cataloging interface will open up with the short cataloging record:"
+msgstr "Katalogiseringsgränssnittet öppnas med den korta katalogposten"
+
+#: ../../source/circulation.rst:991
+msgid "|image572|"
+msgstr "|image572|"
+
+#: ../../source/circulation.rst:993
+msgid "After adding your cataloging data you will be asked to enter item data. Enter the items barcode, collection code, etc and save the item before checking it out."
+msgstr "När du lagt till katalogdata ombeds du ange exemplarsdata. Ange exemplarets streckkod, samlingskod osv. och spara exemplaret innan det lånas ut."
+
+#: ../../source/circulation.rst:997
+msgid "The other way to fast catalog is from the checkout screen. When you enter a barcode at checkout that Koha can't find, it will prompt you to use fast cataloging to add the item to Koha and check it out."
+msgstr "Det andra sättet att komma till snabbkatalogisering är från utlåningsskärmen. När du anger en streckkod för utlåning som Koha inte kan hitta, ombeds du att använda snabbkatalogisering för att lägga till exemplaret i Koha och låna ut det."
+
+#: ../../source/circulation.rst:1001
+msgid "|image573|"
+msgstr "|image573|"
+
+#: ../../source/circulation.rst:1003
+msgid "Clicking 'Fast cataloging' will bring you to the fast cataloging form where you can enter the title information"
+msgstr "Klickar du på 'Snabb katalogisering' kommer du till formuläret för snabb katalogisering där du kan ange titelinformation"
+
+#: ../../source/circulation.rst:1006
+msgid "|image574|"
+msgstr "|image574|"
+
+#: ../../source/circulation.rst:1008
+msgid "After clicking 'Save' you will be brought to the item record where the barcode will already be filled in with the barcode you're trying to check out."
+msgstr "När du klickat på 'Spara' kommer du till exemplarsposten där streckkoden redan är ifylld med den streckkod du försöker låna ut."
+
+#: ../../source/circulation.rst:1012
+msgid "|image575|"
+msgstr "|image575|"
+
+#: ../../source/circulation.rst:1014
+msgid "After clicking the 'Add item' button the item will automatically be checked out the patron you were trying to check the book out to originally."
+msgstr "När du klickat på knappen 'Lägg till exemplar' lånas exemplaret automatiskt ut till den låntagare du försökte låna ut exemplaret till från början."
+
+#: ../../source/circulation.rst:1018
+msgid "|image576|"
+msgstr "|image576|"
+
+#: ../../source/circulation.rst:1023
+msgid "Circulation reports"
+msgstr "Cirkulationsrapporter"
+
+#: ../../source/circulation.rst:1025
+msgid "Most reports can be found via the Reports module, but some of the more common circulation reports are available right from the Circulation module."
+msgstr ""
+
+#: ../../source/circulation.rst:1029
+msgid "*Get there*: Circulation > Circulation reports"
+msgstr ""
+
+#: ../../source/circulation.rst:1034
+msgid "Holds queue"
+msgstr "Reservationskö"
+
+#: ../../source/circulation.rst:1036
+#, fuzzy
+msgid "This report will show you all holds waiting to be pulled off the shelf at your library."
+msgstr "Denna rapport visar alla reservationer på ditt bibliotek."
+
+#: ../../source/circulation.rst:1040
+msgid "|image577|"
+msgstr "|image577|"
+
+#: ../../source/circulation.rst:1044
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-table)."
+msgstr ""
+
+#: ../../source/circulation.rst:1048
+#, fuzzy
+msgid "To generate this report, you must have the :ref:`Build holds queue cron job <cron-holds-queue-report-label>` running. This cron job is a script that should be run periodically if your library system allows borrowers to place on-shelf holds. This script decides which library should be responsible for fulfilling a given hold request."
+msgstr "För att generera denna rapport måste cron-jobbet Bygg reservationskö köras. Detta cron-jobb är ett skript som ska köras regelbundet om ditt bibliotek tillåter låntagare att reservera innestående titlar. Detta skript bestämmer vilket bibliotek som ska uppfylla en given reservation."
+
+#: ../../source/circulation.rst:1054
+msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`UseTransportCostMatrix`."
+msgstr ""
+
+#: ../../source/circulation.rst:1059
+#, fuzzy
+msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
+msgstr "Om du inte vill att alla dina bibliotek ska delta i processen med reservationsuppfyllnad baserat på det som finns i hyllorna, ska du ange de bibliotek som *deltar* i processen genom att ange alla deltagande biblioteks filialkoder, separerade av komman (t.ex. \"MPL,CPL,SPL,BML\" osv.)."
+
+#: ../../source/circulation.rst:1065
+#, fuzzy
+msgid "By default, the holds queue will be generated such that the system will first attempt to hold fulfillment using items already at the pickup library if possible. If there are no items available at the pickup library to fill a hold, build\\_holds\\_queue.pl will then use the list of libraries defined in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled (which it is by default), the script will assign fulfillment requests in the order the branches are placed in the StaticHoldsQueueWeight system preference."
+msgstr "Som standard kommer reservationskön att genereras så att systemet först försöker uppfylla reservationer med exemplar som finns tillgängliga på det utlämnande biblioteket. Om inga exemplar finns tillgängliga på utlämningsbiblioteket för att uppfylla en reservation kommer build_holds_queue.pl att använda en lista med bibliotek definierad i StaticHoldsQueueWeight. Om RandomizeHoldsQueueWeight är avaktiverad (vilket den är som standard), kommer skriptet att tilldela reservationer i den ordning biblioteken är placerade i systeminställningen StaticHoldsQueueWeight."
+
+#: ../../source/circulation.rst:1074
+#, fuzzy
+msgid "For example, if your system has three libraries, of varying sizes ( small, medium and large) and you want the burden of holds fulfillment to be on larger libraries before smaller libraries, you would want StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
+msgstr "Om ditt system exempelvis har tre bibliotek av olika storlek (litet, mellanstort och stort) och du vill att reservationer ska uppfyllas av stora bibliotek innan mindre, så vill du att StaticHoldsQueueWeight ser ut ungefär som \"LRG,MED,SML\"."
+
+#: ../../source/circulation.rst:1079
+msgid "If you want the burden of holds fulfillment to be spread out equally throughout your library system, simply enable RandomizeHoldsQueueWeight. When this system preference is enabled, the order in which libraries will be requested to fulfill an on-shelf hold will be randomized each time the list is regenerated."
+msgstr "Om du vill att bördan av reservationsuppfyllelser ska spridas jämt över bibliotekssystemet aktiverar du RandomizeHoldsQueueWeight. När detta alternativ är aktiverat bestäms vilket bibliotek som ska uppfylla en hyllreservation slumpmässigt varje gång listan omgenereras."
+
+#: ../../source/circulation.rst:1085
+msgid "An alternative to static and randomized is using the :ref:`Tansport cost matrix <transport-cost-matrix-label>`. It takes precedence in controlling where holds are filled from and allows you to define the 'cost' of transport between any two libraries. To use the Transport cost matrix simply set your :ref:`UseTransportCostMatrix` preference to 'Use'."
+msgstr ""
+
+#: ../../source/circulation.rst:1094
+msgid "Holds to pull"
+msgstr "Plocklista reservationer"
+
+#: ../../source/circulation.rst:1096
+#, fuzzy
+msgid "This report will show you all of the items that have holds on them that are available at the library for pulling. If the items are available at multiple libraries then all libraries with that item available will see the hold to pull until one library triggers the hold."
+msgstr "Denna rapport visar alla exemplar som har reservationer och som är tillgängliga för att dras in. Om exemplaren finns tillgängliga på flera bibliotek kommer alla bibliotek med exemplaret att se det som färdigt att dras in, tills ett bibliotek utlöser reservationen."
+
+#: ../../source/circulation.rst:1101
+msgid "If enabled, clicking the *Mark item as lost* button will mark item as lost and notify the requesting patron depending on the value of the :ref:`CanMarkHoldsToPullAsLost` system preference."
+msgstr ""
+
+#: ../../source/circulation.rst:1105
+msgid "|image578|"
+msgstr "|image578|"
+
+#: ../../source/circulation.rst:1109
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-to-pull)."
+msgstr ""
+
+#: ../../source/circulation.rst:1113
+msgid "You can choose which :ref:`LOST value<existing-values-label>` to set the item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference."
+msgstr ""
+
+#: ../../source/circulation.rst:1116
+#, fuzzy
+msgid "You can limit the results you see by using the Refine box on the left side of the page:"
+msgstr "Du kan begränsa resultaten genom att använda rutan Förfina på vänster sida"
+
+#: ../../source/circulation.rst:1119
+msgid "|image579|"
+msgstr "|image579|"
+
+#: ../../source/circulation.rst:1124
+msgid "Holds awaiting pickup"
+msgstr "Reservationer väntar på hämtning"
+
+#: ../../source/circulation.rst:1126
+msgid "This report will show all of the holds that are waiting for patrons to pick them up."
+msgstr "Denna rapport visar alla reservationer som ligger och väntar på hämtning."
+
+#: ../../source/circulation.rst:1129
+msgid "|image580|"
+msgstr "|image580|"
+
+#: ../../source/circulation.rst:1133
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdst)."
+msgstr ""
+
+#: ../../source/circulation.rst:1137
+#, fuzzy
+msgid "Items that have been on the hold shelf longer than you normally allow (based on the :ref:`ReservesMaxPickUpDelay` preference value) will appear on the 'Holds over' tab, they will not automatically be cancelled unless you have set the :ref:`cron job <cron-expired-holds-label>` to do that for you, but you can cancel all holds using the button at the top of the list."
+msgstr "exemplar som varit på reservationshyllan längre än du normalt tillåter (baserat på värdet för ReservesMaxPickUpDelay) visas på fliken 'Reservation överskriden'. De kommer inte automatiskt att annulleras om du inte ställt in ett cron-jobb för att göra detta, men du kan annullera alla reservationer med knappen längst upp i listan."
+
+#: ../../source/circulation.rst:1144
+msgid "|image581|"
+msgstr "|image581|"
+
+#: ../../source/circulation.rst:1148
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdso)."
+msgstr ""
+
+#: ../../source/circulation.rst:1155
+msgid "Hold ratios"
+msgstr "Reservationsförhållanden"
+
+#: ../../source/circulation.rst:1157
+msgid "Hold ratios help with collection development. Using this report you will be able to see how many of your patrons have holds on items and whether you should buy more. By default it will be set to the library needing 3 items per hold that has been placed. The report will tell you how many additional items need to be purchased to meet this quota."
+msgstr "Reservationsförhållanden hjälper till med utvecklingen av samlingar. Med denna rapport kan du se hur många av låntagarna som har reservationer liggande och om du behöver köpa fler. Som standard är den inställd på att ett bibliotek behöver tre exemplar per lagd reservation. Rapporten talar om hur många extra exemplar som måste köpas in för att uppfylla denna kvot."
+
+#: ../../source/circulation.rst:1163
+msgid "|image582|"
+msgstr "|image582|"
+
+#: ../../source/circulation.rst:1167
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-ratios)."
+msgstr ""
+
+#: ../../source/circulation.rst:1174
+msgid "Transfers to receive"
+msgstr "Överföringar att ta emot"
+
+#: ../../source/circulation.rst:1176
+msgid "This report will list all of the items that Koha thinks are in transit to your library."
+msgstr "Denna rapport listar alla exemplar som Koha tror är på väg till ditt bibliotek."
+
+#: ../../source/circulation.rst:1179
+msgid "|image583|"
+msgstr "|image583|"
+
+#: ../../source/circulation.rst:1181
+msgid "If your transfers are late in arriving at your library you will see a message stating how late your items are."
+msgstr "Om överföringarna kommer sent till biblioteket, visas ett meddelande om hur sena de är."
+
+#: ../../source/circulation.rst:1184
+msgid "|image584|"
+msgstr "|image584|"
+
+#: ../../source/circulation.rst:1188
+#, fuzzy
+msgid "An item is considered late based on the number of days you have entered in the :ref:`TransfersMaxDaysWarning` system preference."
+msgstr "Viktigt: ett exemplar räknas som försenat baserat på det antal dagar du angett i systeminställningen för TransfersMaxDaysWarning."
+
+#: ../../source/circulation.rst:1196
+msgid "Article requests"
+msgstr "Artikelbeställningar"
+
+#: ../../source/circulation.rst:1198
+msgid "Article requests are somewhat similar to holds, but are not requests for an item to check out. Instead, article requests are requests for a photocopy of a particular section of a book or an article from a serial issue. This is very common in academic libraries where researchers may request a copy of a single article found in a journal."
+msgstr ""
+
+#: ../../source/circulation.rst:1207
+#, fuzzy
+msgid "Setting up article requests"
+msgstr "Artikelbeställningar"
+
+#: ../../source/circulation.rst:1209
+msgid "First, enable your system preference for :ref:`ArticleRequests`."
+msgstr ""
+
+# Circulation > Article Requests
+#: ../../source/circulation.rst:1211
+#, fuzzy
+msgid "Set to 'Enable' patrons to place article requests."
+msgstr "låntagare att skapa artikelförfrågningar."
+
+#: ../../source/circulation.rst:1213
+msgid "Next you will need to decide how your patrons will make requests, either record only, item only, or both record and item level."
+msgstr ""
+
+#: ../../source/circulation.rst:1216
+msgid "You can set 3 different system preferences for mandatory fields to be filled in depending on how your records are requested."
+msgstr ""
+
+# Circulation > Article Requests
+#: ../../source/circulation.rst:1219
+#, fuzzy
+msgid ":ref:`ArticleRequestsMandatoryFields`: make the following fields mandatory for records that are record level or item level requestable"
+msgstr "För poster som kan begäras på postnivå eller exemplarnivå gör då dessa fält obligatoriska"
+
+# Circulation > Article Requests
+#: ../../source/circulation.rst:1222
+#, fuzzy
+msgid ":ref:`ArticleRequestsMandatoryFieldsItemsOnly` make the following fields mandatory for records that are only item level requestable"
+msgstr "För poster som endast kan begäras på exemplarsnivå gör då dessa fält obligatoriska"
+
+# Circulation > Article Requests
+#: ../../source/circulation.rst:1225
+#, fuzzy
+msgid ":ref:`ArticleRequestsMandatoryFieldsRecordOnly` make the following fields mandatory for records that are only record level requestable"
+msgstr "För poster som endast kan begäras på postnivå gör då dessa fält obligatoriska"
+
+#: ../../source/circulation.rst:1229
+msgid "Next you will want to go into your :ref:`circulation and fines rules matrix <circulation-and-fines-rules-label>` and select each rule for which you want to allow requests."
+msgstr ""
+
+#: ../../source/circulation.rst:1233
+msgid "You can allow requests to be made at the record level, item level, yes (which means both) and no (which means no article requests may be placed)."
+msgstr ""
+
+#: ../../source/circulation.rst:1240
+#, fuzzy
+msgid "Placing article requests"
+msgstr "Artikelbeställningar"
+
+#: ../../source/circulation.rst:1242
+msgid "Now you can place requests on both the staff client and OPAC."
+msgstr ""
+
+#: ../../source/circulation.rst:1244
+msgid "In the staff client, on the record details page, you will see a 'Request article' button at the top and an 'Article requests' tab to the left. The two options lead to the same page."
+msgstr ""
+
+#: ../../source/circulation.rst:1248
+#, fuzzy
+msgid "|image1394|"
+msgstr "|image1394|"
+
+#: ../../source/circulation.rst:1250
+msgid "Just like a hold, you will be prompted to enter the patron's card number or name."
+msgstr ""
+
+#: ../../source/circulation.rst:1253
+#, fuzzy
+msgid "|image1395|"
+msgstr "|image1395|"
+
+#: ../../source/circulation.rst:1255
+msgid "Fill in the form."
+msgstr ""
+
+#: ../../source/circulation.rst:1257
+#, fuzzy
+msgid "|image1396|"
+msgstr "|image1396|"
+
+#: ../../source/circulation.rst:1261
+msgid "Remember, the mandatory fields are set through the three system preferences :ref:`ArticleRequestsMandatoryFields`, :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, and :ref:`ArticleRequestsMandatoryFieldsRecordOnly`."
+msgstr ""
+
+#: ../../source/circulation.rst:1266
+msgid "If allowed, choose the specific item to request."
+msgstr ""
+
+#: ../../source/circulation.rst:1268
+msgid "Then, click on 'Place request'."
+msgstr ""
+
+#: ../../source/circulation.rst:1270
+msgid "From the OPAC, patrons can place requests themselves either from the results list"
+msgstr ""
+
+#: ../../source/circulation.rst:1273
+#, fuzzy
+msgid "|image1397|"
+msgstr "|image1397|"
+
+#: ../../source/circulation.rst:1275
+msgid "or by going to the detailed record."
+msgstr ""
+
+#: ../../source/circulation.rst:1277
+#, fuzzy
+msgid "|image1398|"
+msgstr "|image1398|"
+
+#: ../../source/circulation.rst:1279
+msgid "As with a hold, if the patron is not logged in, they will be asked to do so."
+msgstr ""
+
+#: ../../source/circulation.rst:1282
+msgid "The form is the same as the one in the staff interface."
+msgstr ""
+
+#: ../../source/circulation.rst:1284
+#, fuzzy
+msgid "|image1399|"
+msgstr "|image1399|"
+
+#: ../../source/circulation.rst:1286
+msgid "If allowed, the patron can choose the specific item to request."
+msgstr ""
+
+#: ../../source/circulation.rst:1288
+msgid "From their acocunt, the patron will be able to follow the progress of their request from 'pending'"
+msgstr ""
+
+#: ../../source/circulation.rst:1291
+#, fuzzy
+msgid "|image1400|"
+msgstr "|image1400|"
+
+#: ../../source/circulation.rst:1293
+msgid "to 'processing'."
+msgstr ""
+
+#: ../../source/circulation.rst:1295
+#, fuzzy
+msgid "|image1401|"
+msgstr "|image1401|"
+
+#: ../../source/circulation.rst:1297
+msgid "The patron will also receive an email notification when the status of the request changes."
+msgstr ""
+
+#: ../../source/circulation.rst:1300
+msgid "Once the request is completed the patron will receive an email notification and the article request will no longer appear in their account."
+msgstr ""
+
+#: ../../source/circulation.rst:1304
+#, fuzzy
+msgid "Managing article requests"
+msgstr "Artikelbeställningar"
+
+#: ../../source/circulation.rst:1306
+msgid "Once the article request has been placed, staff will see new requests at the bottom of the home page on the staff client. (In the same location as tags, comments and modifications)."
+msgstr ""
+
+#: ../../source/circulation.rst:1310
+#, fuzzy
+msgid "|image1402|"
+msgstr "|image1402|"
+
+#: ../../source/circulation.rst:1312
+#, fuzzy
+msgid "From there staff will be able to select requests to process."
+msgstr "Från beställningsformuläret kan du inte redigera kataloginformationen."
+
+#: ../../source/circulation.rst:1314
+#, fuzzy
+msgid "|image1403|"
+msgstr "|image1403|"
+
+#: ../../source/circulation.rst:1316
+msgid "The first step would be for a staff member to process the request, that moves the request to the processing tab and alerts other staff members that the request is in process. In the actions column, click on the dropdown menu and select 'Process request'. This will move the request to the processing tab."
+msgstr ""
+
+#: ../../source/circulation.rst:1321
+#, fuzzy
+msgid "|image1404|"
+msgstr "|image1404|"
+
+#: ../../source/circulation.rst:1323
+msgid "Next staff will go to the shelf and make a copy of the requested article."
+msgstr ""
+
+#: ../../source/circulation.rst:1325
+msgid "Once that is complete, staff can print the article request slip (this can be customized in :ref:`notices and slips <notices-and-slips-label>` under AR\\_SLIP) and staple or paper clip it to the article. In the actions column, you can select the dropdown and select print slip."
+msgstr ""
+
+#: ../../source/circulation.rst:1330
+msgid "Finally, staff will select the complete article request from the actions dropdown menu which will send a notice to the patron who made the request letting them know the request is ready for pickup."
+msgstr ""
+
+#: ../../source/circulation.rst:1334
+#, fuzzy
+msgid "This removes the article request from the processing tab."
+msgstr "Inga artikelbeställningar hanteras just nu. "
+
+#: ../../source/circulation.rst:1338
+msgid "Actions can also be made in bulk by checking the boxes next to the requests to process or by clicking 'Select all', and choosing the new status from the actions menu on top of the table."
+msgstr ""
+
+#: ../../source/circulation.rst:1342
+#, fuzzy
+msgid "|image1405|"
+msgstr "|image1405|"
+
+#: ../../source/circulation.rst:1347
+msgid "Overdues"
+msgstr "Försenade"
+
+#: ../../source/circulation.rst:1351
+#, fuzzy
+msgid "For libraries with a large patron base, this report may take a significant amount of time to run."
+msgstr "Viktigt: för bibliotek med många låntagare kan denna rapport ta lång tid att köra."
+
+#: ../../source/circulation.rst:1356
+#, fuzzy
+msgid "Large libraries can choose to filter the report before it runs by setting the :ref:`FilterBeforeOverdueReport` system preference to 'Require'."
+msgstr "Tips: stora bibliotek kan välja att filtrera rapporten innan den körs, genom att ställa in FilterBeforeOverdueReport till 'Kräv'."
+
+#: ../../source/circulation.rst:1361
+msgid "This report will list all items that are overdue at your library."
+msgstr "Denna rapport listar alla exemplar som är försenade på ditt bibliotek."
+
+#: ../../source/circulation.rst:1363
+msgid "|image585|"
+msgstr "|image585|"
+
+#: ../../source/circulation.rst:1367
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: circ-overdues)."
+msgstr ""
+
+#: ../../source/circulation.rst:1371
+msgid "The report can be filtered using the menu options found on the left of the report."
+msgstr "Rapporten kan filtreras med menyalternativen som finns till vänster om rapporten."
+
+#: ../../source/circulation.rst:1376
+msgid "The 'Show any items currently checked out' checkbox basically switches this from a report of overdues to a report of checkouts. It will show all titles checked out regardless of due date."
+msgstr ""
+
+#: ../../source/circulation.rst:1383
+msgid "Overdues with fines"
+msgstr "Försenade med böter"
+
+#: ../../source/circulation.rst:1385
+msgid "This report will show you any overdues at your library that have accrued fines on them."
+msgstr "Denna rapport visar alla försenade exemplar på ditt bibliotek som har bötfällts."
+
+#: ../../source/circulation.rst:1388
+msgid "|image586|"
+msgstr "|image586|"
+
+#: ../../source/circulation.rst:1390
+#, fuzzy
+msgid "If you would like to limit the report you can use the pull down menu at the top to limit to a specific shelving location at your branch. To see overdues with fines at other branches you will have to :ref:`change your branch <set-library-label>` or log in at that branch."
+msgstr "Om du vill begränsa rapporten kan du använda rullgardinsmenyn längst upp för att begränsa den till en viss hyllplats i ditt bibliotek. För att se försenade exemplar med böter på andra bibliotek måste du ändra bibliotek eller logga in på det biblioteket."
+
+#: ../../source/circulation.rst:1397
+#, fuzzy
+msgid "If you do not charge fines and/or don't have the :ref:`fines cron job <cron-fines-label>` running you will see no data on this report."
+msgstr "Viktigt: om du inte tillämpar böter och/eller inte kör cron-jobbet för böter ser du inga data i denna rapport."
+
+#: ../../source/circulation.rst:1403
+msgid "Pending on-site checkouts"
+msgstr "Väntande utlån på plats"
+
+#: ../../source/circulation.rst:1405
+#, fuzzy
+msgid "If you are using the on site checkouts functionality (:ref:`OnSiteCheckouts`) then you'll have a report to view all items that are currently checked out on site."
+msgstr "Om du använder funktionaliteten för lån på plats (OnSiteCheckouts) finns en rapport där du kan se alla exemplar som är utlånade på plats."
+
+#: ../../source/circulation.rst:1409
+msgid "|image1260|"
+msgstr "|image1260|"
+
+#: ../../source/circulation.rst:1411
+msgid "This will list the due date (overdues in red), who has the item, item information and what library the item is at."
+msgstr "Detta listar återlämningsdatum (försenade i rött), vem som har exemplaret, exemplarinformation och på vilket bibliotek exemplaret finns."
+
+#: ../../source/circulation.rst:1417
+msgid "Tracking in-house use"
+msgstr ""
+
+#: ../../source/circulation.rst:1419
+msgid "Many libraries track the use of items within the library."
+msgstr ""
+
+#: ../../source/circulation.rst:1423
+msgid "This is different from tracking on-site usage. In-house use is the use of items in the library by patrons without them having to check them out. On-site use is the use of items on site that must first be checked out. To learn more about on site usage please review the :ref:`OnSiteCheckouts` preference."
+msgstr ""
+
+#: ../../source/circulation.rst:1429
+msgid "Tracking the use of items in the library without checking them out can be done in Koha one of two ways. The first is to create one or more :ref:`Statistical Patrons <add-a-statistical-patron-label>`. When collecting items that have been used within the library, you will want to check them out to your statistical patron:"
+msgstr ""
+
+#: ../../source/circulation.rst:1435
+msgid "|image587|"
+msgstr "|image587|"
+
+#: ../../source/circulation.rst:1437
+msgid "Instead of marking the item as 'checked out' the system will record that the item was used in house:"
+msgstr ""
+
+#: ../../source/circulation.rst:1440
+msgid "|image588|"
+msgstr "|image588|"
+
+#: ../../source/circulation.rst:1442
+msgid "Repeat these steps for all items that have been used within the library to keep accurate statistics for item use."
+msgstr ""
+
+#: ../../source/circulation.rst:1445
+msgid "The other way to record local use of items is to set your :ref:`RecordLocalUseOnReturn` preference to 'Record.' Then whenever you check an item in that is not checked out and not on hold a local use will be recorded."
+msgstr ""
+
+#: ../../source/circulation.rst:1450
+msgid "|image589|"
+msgstr "|image589|"
+
+#: ../../source/circulation.rst:1454
+msgid "If you have :ref:`RecordLocalUseOnReturn` set to 'Record' you can still use your statistical patrons to record local use as well."
+msgstr ""
+
+#: ../../source/circulation.rst:1461
+#, fuzzy
+msgid "Self checkout"
+msgstr "Hjälp för självutlåning"
+
+#: ../../source/circulation.rst:1463
+msgid "Koha comes with a very basic self checkout module. To enable this module you need to set the :ref:`WebBasedSelfCheck` system preference to 'Enable.' To use this module you have to log in as a :ref:`staff member <add-a-staff-patron-label>` with :ref:`self\\_check permissions <patron-permissions-label>`."
+msgstr ""
+
+#: ../../source/circulation.rst:1471
+msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day"
+msgstr ""
+
+#: ../../source/circulation.rst:1475
+msgid "There is no link to the Self checkout module, but a simple addition to the :ref:`OPACUserJS` system preference can add one."
+msgstr ""
+
+#: ../../source/circulation.rst:1490
+#, fuzzy
+msgid "The link will then appear at the bottom of the log in page:"
+msgstr "Länkarna till reklamationer visas också till vänster om informationssidan för prenumerationer"
+
+#: ../../source/circulation.rst:1492
+msgid "|image591|"
+msgstr "|image591|"
+
+#: ../../source/circulation.rst:1494
+msgid "You can also access this module by going to: http://YOUR\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sco/sco-main.pl"
+msgstr ""
+
+#: ../../source/circulation.rst:1497
+msgid "When on the self checkout page, depending on the value in your :ref:`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference you will be asked to enter your cardnumber"
+msgstr ""
+
+#: ../../source/circulation.rst:1501
+msgid "|image592|"
+msgstr "|image592|"
+
+#: ../../source/circulation.rst:1503
+#, fuzzy
+msgid "or your username and password"
+msgstr "Ange ditt användarnamn och lösenord"
+
+#: ../../source/circulation.rst:1505
+msgid "|image593|"
+msgstr "|image593|"
+
+#: ../../source/circulation.rst:1507
+msgid "Once you're logged in to the self check module you will be asked to scan the items you are checking out"
+msgstr ""
+
+#: ../../source/circulation.rst:1510
+msgid "|image594|"
+msgstr "|image594|"
+
+#: ../../source/circulation.rst:1512
+#, fuzzy
+msgid "As you scan items they will appear below the barcode box"
+msgstr "När exemplaret lånats ut visas det under låntagarens information."
+
+#: ../../source/circulation.rst:1514
+msgid "|image595|"
+msgstr "|image595|"
+
+#: ../../source/circulation.rst:1516
+msgid "When you are finished scanning items it is important to click the 'Finish' button. This will prompt you to print a receipt and log you out of the self check module."
+msgstr ""
+
+#: ../../source/circulation.rst:1520
+msgid "|image596|"
+msgstr "|image596|"
+
+#: ../../source/circulation.rst:1522
+msgid "When attempting to check items out there are some instances where error messages will appear and the patron will be directed to the librarian. This will happen even if you are allowing overrides on circulation functions. Only a librarian can override a circulation block and so patrons must go to the librarian for help in these situations."
+msgstr ""
+
+#: ../../source/circulation.rst:1528
+msgid "|image597|"
+msgstr "|image597|"
+
+#: ../../source/circulation.rst:1533
+#, fuzzy
+msgid "Self check-in"
+msgstr "%s Självbetjäningsautomat"
+
+#: ../../source/circulation.rst:1535
+msgid "In order to use the self check-in module, you must first set the :ref: `SelfCheckInModule <selfscheckinmodule-label>` system preference to 'Enable'."
+msgstr ""
+
+#: ../../source/circulation.rst:1539
+msgid "Then, you will have to :ref:`create a patron <add-a-staff-patron-label>` with the :ref:`self\\_checkin\\_module permission <granular-self-check-permissions-label>`."
+msgstr ""
+
+#: ../../source/circulation.rst:1544
+msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day. You can give this patron only the aforementionned permission so it cannot be used for anything else."
+msgstr ""
+
+#: ../../source/circulation.rst:1549
+msgid "Once this is done, you can head over to the self check-in page: http://YOUR\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sci/sci-main.pl"
+msgstr ""
+
+#: ../../source/circulation.rst:1552
+msgid "Log in with your staff patron with self check-in permissions"
+msgstr ""
+
+#: ../../source/circulation.rst:1554
+msgid "Once the computer or kiosk is set and the self check-in user logged in, patrons will be able to check-in their items themselves."
+msgstr ""
+
+#: ../../source/circulation.rst:1557
+msgid "|image1331|"
+msgstr "|image1331|"
+
+#: ../../source/circulation.rst:1559
+msgid "The patron will either scan the item's barcode, if the computer is attached to a barcode scanner, or type in their item's barcode in the box and click 'Add' or press enter."
+msgstr ""
+
+#: ../../source/circulation.rst:1565
+#, fuzzy
+msgid "Most barcode scanners will automatically hit return after scanning."
+msgstr "De flesta böter och avgifter debiteras automatiskt om cron-jobbet för böter körs:"
+
+#: ../../source/circulation.rst:1567
+#, fuzzy
+msgid "Once they have scanned or entered all their items' barcodes, they can click on the 'Check-in' button to return all the items at once."
+msgstr "Klicka på knappen 'Klar' när du lagt till alla exemplar. Sidan som visas listar alla exemplar du valt."
+
+#: ../../source/circulation.rst:1572
+msgid "If the patron doesn't click the 'Check-in' button, the items will not be returned and will stay in their account."
+msgstr ""
+
+#: ../../source/circulation.rst:1577
+msgid "The self check-in module will not warn user if the item is late, if they have fines, if the item is on hold for someone else, or if they have messages in their account."
+msgstr ""
+
+#: ../../source/circulation.rst:1581
+msgid "|image1332|"
+msgstr "|image1332|"
+
+#: ../../source/circulation.rst:1583
+msgid "They can then click 'Finish' to return to the main self check-in page."
+msgstr ""
+
+#: ../../source/circulation.rst:1585
+msgid "|image1333|"
+msgstr "|image1333|"
+
+#: ../../source/circulation.rst:1589
+msgid "If the patron doesn't click 'Finish', the screen will refresh after the timeout period specified in the :ref:`SelfCheckInTimeout` system preference."
+msgstr ""
+
+#: ../../source/circulation.rst:1594
+msgid "Even if the patron doesn't click 'Finish' the item will still be checked in from their account."
+msgstr ""
+
+#: ../../source/circulation.rst:1597
+msgid "You can cutomize the look of your self check-in screens by using the :ref:`SelfCheckInUserCSS` system preference or the :ref:`SelfCheckInUserJS` system preference."
+msgstr ""
+
+#: ../../source/circulation.rst:1601
+msgid "You can add content, like instructions on how to use the self check-in system for example, by using the :ref:`SelfCheckInMainUserBlock` system preference."
+msgstr ""
+
+#: ../../source/circulation.rst:1604
+msgid "Statistics about the transactions made through the self check-in module are logged into the action\\_logs table in the Koha database. You can therefore :ref:`build a custom report <custom-reports-label>` to get the statistics you need."
+msgstr ""
+
+#: ../../source/circulation.rst:1612
+#, fuzzy
+msgid "Offline circulation utilities"
+msgstr "Offline-utlåning"
+
+#: ../../source/circulation.rst:1614
+msgid "Koha allows for you to continue circulation actions while offline by using any one of three utilities."
+msgstr ""
+
+#: ../../source/circulation.rst:1620
+#, fuzzy
+msgid "Offline circulation in Koha"
+msgstr "Uppladdning av offline-utlåningsfil"
+
+#: ../../source/circulation.rst:1622
+#, fuzzy
+msgid "If the :ref:`AllowOfflineCirculation` preference is set to 'Enable' the library staff can continue to perform circulation actions within Koha when the system is offline. You will want to visit http://your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl at least once while online and bookmark that page. That is the page you will go to when you are offline."
+msgstr "Om TillåtOfflineUtlåning är satt till 'Aktivera' kan bibliotekspersonalen fortsätta att utföra utlåningsoperationer inom Koha när systemet är offline. "
+
+#: ../../source/circulation.rst:1631 ../../source/circulation.rst:1656
+msgid "The offline interface uses HTML LocalStorage, which depending on the browser and user setting, is limited to 2.5MB or 5MB per domain. This means that larger systems will not be able to synchronize their data and are recommended to use either the :ref:`Firefox <firefox-plugin-label>` or :ref:`Windows <offline-circ-tool-for-windows-label>` application for offline circulation."
+msgstr ""
+
+#: ../../source/circulation.rst:1642
+msgid "Setup"
+msgstr "Konfiguration"
+
+#: ../../source/circulation.rst:1644
+msgid "Before the first time the system goes offline go to Circulation and choose 'Built-in offline circulation interface'"
+msgstr "Innan systemet försätts i läget offline för första gången går du till utlåning och väljer 'Inbyggt gränssnitt för offlinecirkulation'"
+
+#: ../../source/circulation.rst:1647
+msgid "|image598|"
+msgstr "|image598|"
+
+#: ../../source/circulation.rst:1649
+msgid "And synchronize your data on every circulation computer by clicking the 'Synchronize' link on the right of the screen."
+msgstr "Synkronisera data på alla utlåningsdatorer genom att klicka på länken 'Synkronisera' på skärmens högra sida."
+
+#: ../../source/circulation.rst:1652
+msgid "|image599|"
+msgstr "|image599|"
+
+#: ../../source/circulation.rst:1664
+msgid "This will allow you download a local copy of your patrons and circulation data. Click the 'Download records' link at the top of the page to synchronize your data."
+msgstr "Det gör att du kan ladda ner en lokal kopia av alla dina låntagardata och utlåningsdata. Klicka på länken 'Ladda ner poster' längst upp i sidan för att synkronisera dina data."
+
+#: ../../source/circulation.rst:1668
+msgid "|image600|"
+msgstr "|image600|"
+
+#: ../../source/circulation.rst:1670
+msgid "Once your data is downloaded you will see the dates your data was last synced to the right of each data set."
+msgstr "När dina data är nedladdade visas de datum då data senast synkroniserades till höger om varje datauppsättning."
+
+#: ../../source/circulation.rst:1673
+msgid "|image1261|"
+msgstr "|image1261|"
+
+#: ../../source/circulation.rst:1675
+msgid "This should be done regularly in preparation for any unexpected connection losses."
+msgstr "Detta ska göras regelbundet som förberedelse för oväntade anslutningsförluster."
+
+#: ../../source/circulation.rst:1680
+msgid "Circulating"
+msgstr "Utlåning"
+
+#: ../../source/circulation.rst:1682
+#, fuzzy
+msgid "When your system goes offline visit the Offline Circulation page (http://your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl) in Koha and click 'Check out' or 'Check in' to perform offline actions."
+msgstr "När ditt system tappar nätverksförbindelsen går du till sidan för offline-utlåning i Koha och klickar på 'Låna ut' eller 'Återlämna' för att utföra åtgärder offline."
+
+#: ../../source/circulation.rst:1686
+msgid "Checking out is done by searching for the patron by barcode or name at the top of the 'Check out' screen. After selecting a patron you will be presented with the synced patron info, including fines and check outs."
+msgstr "Utlåning sker genom att man söker efter låntagaren med hjälp av streckkod eller namn längst upp i skärmen 'Utlåning'. När du valt låntagare visas synkroniserad låntagarinformation, inklusive böter och aktuella lån."
+
+#: ../../source/circulation.rst:1690
+msgid "|image601|"
+msgstr "|image601|"
+
+#: ../../source/circulation.rst:1692
+msgid "Scan the barcode of the item you would like to check out and enter a due date. If you don't enter a due date Koha will prompt you for one."
+msgstr "Skanna streckkoden för exemplaret du vill låna ut och ange ett återlämningsdatum. Om du inte anger ett återlämningsdatum frågar Koha efter ett."
+
+#: ../../source/circulation.rst:1695
+msgid "|image602|"
+msgstr "|image602|"
+
+#: ../../source/circulation.rst:1697
+msgid "Once the item is checked out it will appear below the patron's info."
+msgstr "När exemplaret lånats ut visas det under låntagarens information."
+
+#: ../../source/circulation.rst:1699
+msgid "|image603|"
+msgstr "|image603|"
+
+#: ../../source/circulation.rst:1704
+#, fuzzy
+msgid "Koha offline uploading"
+msgstr "Koha offline-utlåning"
+
+#: ../../source/circulation.rst:1706
+#, fuzzy
+msgid "Once the system is back online visit the 'Synchronize' page on the Offline circulation module and click 'Upload transactions'"
+msgstr "När systemet åter är online går du till synkroniseringssidan i modulen Offline-utlåning och klickar på 'Ladda upp transaktioner'"
+
+#: ../../source/circulation.rst:1709
+msgid "|image604|"
+msgstr "|image604|"
+
+#: ../../source/circulation.rst:1711
+#, fuzzy
+msgid "After the files are uploaded you can click 'View pending offline circulation actions' on the right."
+msgstr "När filerna laddats upp kan du klicka på 'Visa väntande åtgärder för offline-utlåning' till höger för att utföra åtgärderna."
+
+#: ../../source/circulation.rst:1714
+msgid "|image605|"
+msgstr "|image605|"
+
+#: ../../source/circulation.rst:1716 ../../source/circulation.rst:1956
+msgid "After clicking 'View pending offline circulation actions' you will be brought to a summary of all of the actions you loaded in to Koha in your \\*.koc file."
+msgstr ""
+
+#: ../../source/circulation.rst:1720
+msgid "|image606|"
+msgstr "|image606|"
+
+#: ../../source/circulation.rst:1722 ../../source/circulation.rst:1880
+#: ../../source/circulation.rst:1962
+msgid "Once all of the logs from all of the circulation computers are loaded you will be able to check them all or select just those you want to process into Koha."
+msgstr "När alla loggar från alla utlåningsdatorer laddats kommer du att kunna välja alla eller bara välja de du vill bearbeta i Koha."
+
+#: ../../source/circulation.rst:1726
+#, fuzzy
+msgid "Click on the 'Process' button and Koha will record every stored transaction one by one. For each transaction, the status will change to:"
+msgstr "När du klickar på knappen Bearbeta kommer Koha att registrera varje lagrad transaktion en efter en. För varje transaktion ändras status till: "
+
+#: ../../source/circulation.rst:1730 ../../source/circulation.rst:1888
+#: ../../source/circulation.rst:1909 ../../source/circulation.rst:1970
+msgid "\"Success.\" if the transaction was processed correctly"
+msgstr "\"Genomförd.\" om transaktionen genomfördes korrekt"
+
+#: ../../source/circulation.rst:1732 ../../source/circulation.rst:1890
+#: ../../source/circulation.rst:1911 ../../source/circulation.rst:1972
+msgid "\"Borrower not found.\" if the borrower card number is incorrect"
+msgstr "\"Låntagare hittades inte.\" om lånekortsnumret är felaktigt"
+
+#: ../../source/circulation.rst:1734 ../../source/circulation.rst:1892
+#: ../../source/circulation.rst:1913 ../../source/circulation.rst:1974
+msgid "\"Item not found.\" if the item barcode is wrong"
+msgstr "\"Exemplar hittades inte.\" om exemplarets streckkod är felaktig"
+
+#: ../../source/circulation.rst:1736 ../../source/circulation.rst:1894
+#: ../../source/circulation.rst:1915 ../../source/circulation.rst:1976
+msgid "\"Item not issued.\" if you checked in an available item"
+msgstr "\"Exemplar inte utlånat.\" om du försökte återlämna ett tillgängligt exemplar"
+
+#: ../../source/circulation.rst:1738 ../../source/circulation.rst:1896
+#: ../../source/circulation.rst:1978
+msgid "Once finished you will have a summary of all of your transactions"
+msgstr "När du är klar visas en sammanfattning med alla dina transaktioner"
+
+#: ../../source/circulation.rst:1740
+msgid "|image607|"
+msgstr "|image607|"
+
+#: ../../source/circulation.rst:1745
+#, fuzzy
+msgid "Firefox plugin"
+msgstr "Visa plugins för rapporter"
+
+#: ../../source/circulation.rst:1747
+msgid "There is an offline circulation tool that you can add to your Firefox browser as an addon. To do so, just go to https://addons.mozilla.org/en/firefox/addon/koct/ page and click on the \"install now\" button. You may have to confirm the installation, just click on \"install now\" and then restart Firefox to complete the installation."
+msgstr ""
+
+#: ../../source/circulation.rst:1754
+msgid "Once you have installed the plugin and restarted Firefox, you will see the Koha logo in the download bar at the bottom right of Firefox."
+msgstr ""
+
+#: ../../source/circulation.rst:1757
+msgid "|image608|"
+msgstr "|image608|"
+
+#: ../../source/circulation.rst:1759
+msgid "A click on the logo will open the tool in its own window."
+msgstr ""
+
+#: ../../source/circulation.rst:1761
+msgid "|image609|"
+msgstr "|image609|"
+
+#: ../../source/circulation.rst:1763
+msgid "The plugin connsists of three sections:"
+msgstr ""
+
+#: ../../source/circulation.rst:1765
+#, fuzzy
+msgid "The 'Check out' section is where you check out items"
+msgstr "Låna ut och återlämna exemplar"
+
+#: ../../source/circulation.rst:1767
+#, fuzzy
+msgid "The 'Check in' section is where you check in items"
+msgstr "Låna ut och återlämna exemplar"
+
+#: ../../source/circulation.rst:1769
+msgid "The ‘Transactions’ section is where you can track the transactions done while in offline mode"
+msgstr ""
+
+#: ../../source/circulation.rst:1771
+msgid "The transactions will keep information until you empty it."
+msgstr ""
+
+#: ../../source/circulation.rst:1773
+msgid "|image610|"
+msgstr "|image610|"
+
+#: ../../source/circulation.rst:1775
+msgid "If you'd like to clear the transactions, click the 'Clear' box before hitting the 'OK' button."
+msgstr ""
+
+#: ../../source/circulation.rst:1778
+msgid "The first thing you want to do then is to set up the plugin. Proceed to the settings page, linked in the top right of the page or under ‘Configuration page’ in the Transactions section."
+msgstr ""
+
+#: ../../source/circulation.rst:1780
+msgid "|image611|"
+msgstr "|image611|"
+
+#: ../../source/circulation.rst:1782
+msgid "Answer the 5 questions presented:"
+msgstr ""
+
+#: ../../source/circulation.rst:1784
+#, fuzzy
+msgid "Server = the URL of the librarian interface"
+msgstr "det som visas före det underliggande fältet i bibliotekariegränssnittet"
+
+#: ../../source/circulation.rst:1786
+#, fuzzy
+msgid "Username = your staff account login"
+msgstr "Krävs för personalinloggning."
+
+#: ../../source/circulation.rst:1788
+#, fuzzy
+msgid "Password = your staff account password"
+msgstr "Ange ditt användarnamn och lösenord"
+
+#: ../../source/circulation.rst:1790
+msgid "Branch code = the code for the branch where you are located"
+msgstr ""
+
+#: ../../source/circulation.rst:1792
+msgid "Commit Type = If you select ‘Send data to Koha’, your account will need to be approved by an administrator. If you select ‘Apply directly to Koha’, your account will not need to be approved."
+msgstr ""
+
+#: ../../source/circulation.rst:1796
+msgid "To save the settings, you will have to close the plugin window and re-open it by clicking again on the Koha logo in the add-on bar."
+msgstr ""
+
+#: ../../source/circulation.rst:1801
+msgid "You can create a staff account dedicated to the offline circulation. So that, no matter who is at the circulation desk, they can all use the same login. Along those lines, you can use a group login that you already have in place for circulation as well."
+msgstr ""
+
+#: ../../source/circulation.rst:1806
+msgid "Once you have everything set up you can start checking items in and out."
+msgstr ""
+
+#: ../../source/circulation.rst:1808
+#, fuzzy
+msgid "Checking out:"
+msgstr "Lånar ut till"
+
+#: ../../source/circulation.rst:1810 ../../source/circulation.rst:1859
+#, fuzzy
+msgid "|image1516|"
+msgstr "|image1516|"
+
+#: ../../source/circulation.rst:1812
+#, fuzzy
+msgid "Under the 'Checkout' heading"
+msgstr "Antal utlån"
+
+#: ../../source/circulation.rst:1814
+#, fuzzy
+msgid "Scan the patron barcode"
+msgstr "Skanna en streckkod för en låntagare för att börja."
+
+#: ../../source/circulation.rst:1816 ../../source/circulation.rst:1826
+#, fuzzy
+msgid "Scan the item barcode"
+msgstr "Ange streckkod för exemplar:"
+
+#: ../../source/circulation.rst:1818
+#, fuzzy
+msgid "Click 'Checkout'"
+msgstr "Klicka på 'Skicka'"
+
+#: ../../source/circulation.rst:1820
+#, fuzzy
+msgid "Checking in:"
+msgstr "Återlämning den"
+
+#: ../../source/circulation.rst:1822
+msgid "|image613|"
+msgstr "|image613|"
+
+#: ../../source/circulation.rst:1824
+msgid "Under the 'Checkin' heading"
+msgstr ""
+
+#: ../../source/circulation.rst:1828
+#, fuzzy
+msgid "Click 'Checkin'"
+msgstr "Klicka på 'Spara'"
+
+#: ../../source/circulation.rst:1830
+msgid "Each time, you check out or check in an item, a new transaction is recorded in the local plugin database. This is recorded in the Transactions section bellow."
+msgstr ""
+
+#: ../../source/circulation.rst:1833
+msgid "|image615|"
+msgstr "|image615|"
+
+#: ../../source/circulation.rst:1837
+msgid "The status will be \"Local.\" as long as you are offline and don't process the transactions into Koha."
+msgstr ""
+
+#: ../../source/circulation.rst:1840
+msgid "When your Internet connection comes back up you will want to get these transactions in to Koha. Before processing these transactions you should be aware of a few issues."
+msgstr ""
+
+#: ../../source/circulation.rst:1844
+msgid "Because you are not connected to your Koha database when using this plugin holds will need additional processing. If an item you check in while offline has a hold, the hold is kept on the item. Since, you can't confirm holds found during the processing of every check in, the holds stay on the item and will need to be managed later. If you only checked in a few items you can just keep a record of them all. If you checked in a lot of items you can use the Holds queue once it rebuilds to see what holds made it to the shelf erroneously."
+msgstr ""
+
+#: ../../source/circulation.rst:1853
+msgid "Similarly, if an patron card was expired, the offline circulation tool won't know about it, so the checkout will be recorded regardless of the patron's account being blocked normally."
+msgstr ""
+
+#: ../../source/circulation.rst:1857
+msgid "You have two options for adding this data to Koha"
+msgstr ""
+
+#: ../../source/circulation.rst:1861
+msgid "Apply to Koha"
+msgstr ""
+
+#: ../../source/circulation.rst:1863
+msgid "If you checked in/out on more than one computer at the same time, what you want is to process every transaction consistently. Let's say for instance that one patron checked a book out on one computer and then checked the same book in on another computer. To be consistent, you need to record the check out first and then the check in. Not the opposite! To do so, you need to group every transaction in one place, sort them all and then, process everything. So, you need to use the \"Apply to Koha\" option from every plugin/computer you worked with. This way, the log will go to Koha and be accessible from the Offline Circulation page."
+msgstr ""
+
+#: ../../source/circulation.rst:1874
+msgid "|image616|"
+msgstr "|image616|"
+
+#: ../../source/circulation.rst:1876
+#, fuzzy
+msgid "*Get there:* Circulation > Pending offline circulation actions"
+msgstr "Väntande åtgärder för offline-utlåning"
+
+#: ../../source/circulation.rst:1878
+msgid "|image617|"
+msgstr "|image617|"
+
+#: ../../source/circulation.rst:1884 ../../source/circulation.rst:1966
+#, fuzzy
+msgid "Click on the Process button and Koha will record every stored transaction one by one. For each transaction, the status will change to:"
+msgstr "När du klickar på knappen Bearbeta kommer Koha att registrera varje lagrad transaktion en efter en. För varje transaktion ändras status till: "
+
+#: ../../source/circulation.rst:1898
+msgid "|image618|"
+msgstr "|image618|"
+
+#: ../../source/circulation.rst:1900
+msgid "Apply directly"
+msgstr "Tillämpa direkt"
+
+#: ../../source/circulation.rst:1902
+msgid "If you performed all of the circulation actions on one computer then everything is sorted already so you can choose to \"Apply directly\""
+msgstr ""
+
+#: ../../source/circulation.rst:1906
+msgid "The status column will be updated to let you know if the transactions were applied"
+msgstr ""
+
+#: ../../source/circulation.rst:1921
+#, fuzzy
+msgid "Offline circ tool for Windows"
+msgstr "Offline-utlåning"
+
+#: ../../source/circulation.rst:1923
+msgid "The Offline circulation utility can be downloaded at: https://github.com/bywatersolutions/koha-offline-circulation/releases"
+msgstr ""
+
+#: ../../source/circulation.rst:1926
+msgid "To generate a borrowers.db file for loading in to the Windows tool you will need to run the :ref:`file generator via a cron job <cron-generate-patron-file-for-offline-circulation-label>`."
+msgstr ""
+
+#: ../../source/circulation.rst:1933
+#, fuzzy
+msgid "Upload offline circ file"
+msgstr "Ladda upp fil för offline-utlåning (.koc)"
+
+#: ../../source/circulation.rst:1935
+#, fuzzy
+msgid "The :ref:`offline circulation tool for Windows <offline-circ-tool-for-windows-label>` will generate a KOC file that you can upload into Koha once your system comes back up."
+msgstr "Windows-verktyget för offline-utlåning genererar en KOC-fil som du kan ladda upp till Koha när systemet kommer igång igen."
+
+#: ../../source/circulation.rst:1939
+msgid "On the Circulation menu click 'Upload offline circulation file (.koc)'"
+msgstr "Klicka på 'Ladda upp offline-utlåningsfil ( .koc)' på menyn Utlåning"
+
+#: ../../source/circulation.rst:1941
+msgid "|image621|"
+msgstr "|image621|"
+
+#: ../../source/circulation.rst:1943
+#, fuzzy
+msgid "Browse your computer for the \\*.koc file"
+msgstr "Leta på din dator efter *.koc-filen"
+
+#: ../../source/circulation.rst:1945
+msgid "|image622|"
+msgstr "|image622|"
+
+#: ../../source/circulation.rst:1947
+msgid "Once the file is uploaded, click the process the file"
+msgstr "När filen laddats upp klickar du för att bearbeta filen"
+
+#: ../../source/circulation.rst:1949
+msgid "|image623|"
+msgstr "|image623|"
+
+#: ../../source/circulation.rst:1951
+msgid "When this is complete you'll be able to upload another file or tend to pending offline circulation actions."
+msgstr "När detta är klart kan du ladda upp en annan fil eller hantera andra åtgärder för offline-utlåning."
+
+#: ../../source/circulation.rst:1954
+msgid "|image624|"
+msgstr "|image624|"
+
+#: ../../source/circulation.rst:1960
+msgid "|image625|"
+msgstr "|image625|"
+
+#: ../../source/circulation.rst:1980
+msgid "|image626|"
+msgstr "|image626|"
+
+#, fuzzy
+#~ msgid "If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__ preference, you will also see the option to export the patron's current checkout information using a CSV profile or ISO2709 (MARC21) format."
+#~ msgstr "Om du ställt in ExportWithCsvProfile ser du även alternativet att exportera låntagarens aktuella låneinformation med en CSV-profil eller i ISO2709-format (MARC21)."
+
+#, fuzzy
+#~ msgid "From the holds list you can suspend or resume patrons holds using the options at the bottom of the list if you have the :ref:`SuspendHoldsIntranet` preference set to 'allow.'"
+#~ msgstr "Från reservationslistan kan du avaktivera eller aktivera låntagares reservationer med alternativen längst ner i listan om inställningen SuspendHoldsIntranet är satt till 'tillåt'."
+
+#~ msgid "|image612|"
+#~ msgstr "|image612|"
+
+#~ msgid "|image614|"
+#~ msgstr "|image614|"
+
+#, fuzzy
+#~ msgid "Commit to Koha"
+#~ msgstr "Välkommen till Koha"
+
+#~ msgid "|image619|"
+#~ msgstr "|image619|"
+
+#~ msgid "|image620|"
+#~ msgstr "|image620|"
+
+#, fuzzy
+#~ msgid "Leaving StaticHoldsQueueWeight empty is contraindicated at this time. Doing so will cause the build\\_holds\\_queue script to ignore RandomizeHoldsQueueWeight, causing the script to request hold fulfillment not randomly, but by alphabetical order."
+#~ msgstr "Det rekommenderas att StaticHoldsQueueWeight inte lämnas tom för närvarande. Lämnas det tomt ignorerar skriptet build_holds_queue värdet RandomizeHoldsQueueWeight, vilket gör att skriptet inte uppfyller reservationer slumpmässigt, utan i alfabetisk ordning."
+
+#~ msgid "|image590|"
+#~ msgstr "|image590|"
+
