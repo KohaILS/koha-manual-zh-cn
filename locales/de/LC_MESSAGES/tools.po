@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-24 01:15-0300\n"
-"PO-Revision-Date: 2020-12-09 08:22+0000\n"
+"PO-Revision-Date: 2021-02-24 08:22+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1607502161.802999\n"
+"X-POOTLE-MTIME: 1614154961.807433\n"
 
 #: ../../source/tools.rst:6
 msgid "Tools"
@@ -65,7 +65,7 @@ msgstr "Geben Sie einen Listennamen ein."
 
 #: ../../source/tools.rst:38
 msgid "Checking the 'Shared' box will make this list visible to all users with the :ref:`manage_patron_lists permission <granular-tools-permissions-label>`."
-msgstr "Wenn Sie die Box 'Geteilt' anklicken, macht dies die Liste für alle Benutzer sichtbar mit der Berechtigung :ref:`manage_patron_lists permission <granular-tools-permissions-label>`. "
+msgstr "Wenn Sie die Box 'Geteilt' anklicken, macht dies die Liste für alle Benutzer sichtbar mit der Berechtigung :ref:`manage_patron_lists <granular-tools-permissions-label>`. "
 
 #: ../../source/tools.rst:41
 msgid "Save the list."
@@ -286,9 +286,7 @@ msgstr "Eine Vormerkung für einen Benutzerclub eintragen"
 
 #: ../../source/tools.rst:186
 msgid "You can place holds for a patron club - holds are placed for club members in a random order."
-msgstr ""
-"Sie können Vormerkungen für die Mitglieder eines Clubs eintragen - diese "
-"werden in zufälliger Reihenfolge erstellt."
+msgstr "Sie können Vormerkungen für die Mitglieder eines Clubs eintragen - diese werden in zufälliger Reihenfolge erstellt."
 
 #: ../../source/tools.rst:188
 msgid "To place a hold for a patron club:"
@@ -300,9 +298,7 @@ msgstr "Gehen Sie zu Werkzeuge > Clubs."
 
 #: ../../source/tools.rst:191
 msgid "Click the 'Actions' button for the club and select 'Search to hold'."
-msgstr ""
-"Klicken Sie auf die Schaltfläche \"Aktionen\" für den Club und wählen Sie \""
-"Vormerkung suchen\" aus."
+msgstr "Klicken Sie auf die Schaltfläche \"Aktionen\" für den Club und wählen Sie \"Vormerkung suchen\" aus."
 
 #: ../../source/tools.rst:192
 msgid "Search for a title and select a record."
@@ -310,9 +306,7 @@ msgstr "Suchen Sie nach einem Titel und wählen Sie den Datensatz aus."
 
 #: ../../source/tools.rst:193
 msgid "Select 'Place hold for [CLUBNAME]' from either the action links for the record, or from the 'Place hold' action in the menu bar."
-msgstr ""
-"Wählen Sie \"Vormerkung für [CLUBNAME]\" aus den Links im Datensatz oder "
-"verwenden Sie die \"vormerken\"-Aktion in der Menüleiste."
+msgstr "Wählen Sie \"Vormerkung für [CLUBNAME]\" aus den Links im Datensatz oder verwenden Sie die \"vormerken\"-Aktion in der Menüleiste."
 
 #: ../../source/tools.rst:194
 msgid "The place holds page is displayed and lists the club members."
@@ -408,14 +402,11 @@ msgstr "Sprechen Sie mit Ihrem Systemadministrator über mögliche Optionen, wen
 
 #: ../../source/tools.rst:272
 msgid "Date formats should match your :ref:`system preference <dateformat-label>`, and must be zero-padded, e.g. '01/02/2008'. Alternatively you can supply dates in ISO format (e.g. '2008-12-01')."
-msgstr "Die Datenformate sollten mit Ihren Systemeinstellungen :ref:`system preference <dateformat-label>` übereinstimmen und dürfen keine Leerzeichen enthalten, zum Beispiel '01/02/2008'. Alternativ können Sie das Datum auch im ISO-Format ('2008-12-01') darstellen."
+msgstr "Das Datumsformat sollte mit Ihrem :ref:`Systemparameter DateFormat <dateformat-label>` übereinstimmen und darf keine Leerzeichen enthalten, zum Beispiel '01/02/2008'. Alternativ können Sie das Datum auch im ISO-Format ('2008-12-01') darstellen."
 
 #: ../../source/tools.rst:278
 msgid "If your data contains special characters or diacritics, make sure your file is encoded in UTF-8. Otherwise, the special characters will not be imported correctly."
-msgstr ""
-"Wenn Ihre Daten Sonderzeichen oder diakritische Zeichen enthalten können, "
-"dann stellen Sie sicher, dass die Datei in UTF-8 codiert ist, damit diese "
-"korrekt importiert werden."
+msgstr "Wenn Ihre Daten Sonderzeichen oder diakritische Zeichen enthalten können, dann stellen Sie sicher, dass die Datei in UTF-8 codiert ist, damit diese korrekt importiert werden."
 
 #: ../../source/tools.rst:282 ../../source/tools.rst:300
 #: ../../source/tools.rst:401 ../../source/tools.rst:443
@@ -436,7 +427,7 @@ msgstr "**Hinweis**"
 
 #: ../../source/tools.rst:284
 msgid "If loading :ref:`patron attributes <patron-attribute-types-label>`, the 'patron\\_attributes' field should contain a comma-separated list of attribute types and values."
-msgstr "Beim Laden von Benutzerattributen :ref:`patron attributes <patron-attribute-types-label>` sollte das Feld Benutzerattribute 'patron\\_attributes' eine komma-getrennte Liste von Attributtypen und Werten enthalten."
+msgstr "Beim Laden von :ref:`Benutzerattributen <patron-attribute-types-label>` sollte das Feld Benutzerattribute 'patron\\_attributes' eine komma-getrennte Liste von Attributtypen und Werten enthalten."
 
 #: ../../source/tools.rst:288
 msgid "The attribute type code and a colon should precede each value."
@@ -540,7 +531,7 @@ msgstr "Sie können das Erscheinungsbild aller Quittungen global ändern, indem 
 
 #: ../../source/tools.rst:372
 msgid "You will also want to review the `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki page for more information on formatting these notices."
-msgstr "Sie können auch die Seite des Wiki `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki prüfen, um weitere Informationen zu erhalten, wie diese Notizen konfiguriert werden können.  "
+msgstr "Sie können auch auf der Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ nachlesen, wie diese Benachrichtigungen konfiguriert werden können."
 
 #: ../../source/tools.rst:379
 msgid "Adding notices and slips"
@@ -564,7 +555,7 @@ msgstr "Wählen Sie, für welche Bibliothek diese Benachrichtigung oder Quittung
 
 #: ../../source/tools.rst:391
 msgid "Not all notices can be branch specific for more information review the `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki page."
-msgstr "Nicht alle Benachrichtigungen können mit weiteren Informationen bestückt werden. Beachten Sie dafür auch die Wiki-Seite: `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki."
+msgstr "Nicht alle Benachrichtigungen können mit weiteren Informationen bestückt werden. Beachten Sie dafür auch die Wiki-Seite: `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_."
 
 #: ../../source/tools.rst:395
 msgid "Choose the module this notice is related to"
@@ -580,7 +571,11 @@ msgstr "Nutzen Sie den Feldname um es um Ihren Code zu erweitern."
 
 #: ../../source/tools.rst:403
 msgid "With overdue notices, be sure to put your branch name in the description as well so that it will be visible when setting up your :ref:`triggers <overdue-notice/status-triggers-label>`."
-msgstr "Verwenden Sie den Namen Ihrer Bibliothek als Teil Ihres Beschreibungstextes bei Mahnungen, damit erleichtern Sie sich später die Auswahl der richtigen Benachrichtigung bei der Konfiguration der Trigger :ref:`triggers <overdue-notice/status-triggers-label>`."
+msgstr ""
+"Verwenden Sie den Namen Ihrer Bibliothek als Teil Ihres Beschreibungstextes "
+"bei Mahnungen, damit erleichtern Sie sich später die Auswahl der richtigen "
+"Benachrichtigung bei der Konfiguration der :ref:`Mahntrigger <overdue-notice"
+"/status-triggers-label>`."
 
 #: ../../source/tools.rst:407
 msgid "Next you can customize the notice for every possible delivery method"
@@ -596,7 +591,9 @@ msgstr "|image1220|"
 
 #: ../../source/tools.rst:413
 msgid "If you're using the :ref:`TalkingTechItivaPhoneNotification` service you can set up a Phone notification"
-msgstr "Wenn der :ref:`TalkingTechItivaPhoneNotification` Dienst verwendet wird, können auch Telefonbenachrichtigungen konfiguriert werden."
+msgstr ""
+"Wenn der Service :ref:`TalkingTechItivaPhoneNotification` verwendet wird, "
+"können auch Telefonbenachrichtigungen konfiguriert werden."
 
 #: ../../source/tools.rst:417
 msgid "|image1221|"
@@ -612,10 +609,7 @@ msgstr "|image1222|"
 
 #: ../../source/tools.rst:424
 msgid "If you have enabled SMS notices with the :ref:`SMSSendDriver` preference you can set the text for your SMS notices next"
-msgstr ""
-"Wenn SMS-Benachrichtigungen über den Systemparameter :ref:`SMSSendDriver` "
-"aktiviert wurden, kann auch ein Text für SMS-Benachrichtigungen konfiguriert "
-"werden."
+msgstr "Wenn SMS-Benachrichtigungen über den Systemparameter :ref:`SMSSendDriver` aktiviert wurden, kann auch ein Text für SMS-Benachrichtigungen konfiguriert werden."
 
 #: ../../source/tools.rst:428
 msgid "|image1223|"
@@ -639,11 +633,14 @@ msgstr "Innerhalb der Benachrichtigung können Sie den Text frei formulieren. Ve
 
 #: ../../source/tools.rst:445
 msgid "Review the `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki page for more information."
-msgstr "Für weitere Informationen prüfen Sie die Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki."
+msgstr "Für weitere Informationen prüfen Sie die Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_."
 
 #: ../../source/tools.rst:450
 msgid "Overdue notices can use <<items.content>> tags by themselves, or use <item></item> to span all of the tags. Learn more about the :ref:`Overdue notice markup <overdue-notice-markup-label>`"
-msgstr "Mahnbenachrichtungen können <<items.content>> Tags oder <item></item> verwenden, die alle Tags umfassen. Lesen Sie mehr darüber in :ref:`Overdue notice markup <overdue-notice-markup-label>` "
+msgstr ""
+"Mahnbenachrichtungen können <<items.content>> Tags oder <item></item> "
+"verwenden, die alle Tags umfassen. Lesen Sie mehr darüber unter :ref:`"
+"Formatierung von Mahnbenachrichtigungen <overdue-notice-markup-label>` "
 
 #: ../../source/tools.rst:455
 msgid "On overdue notices make sure to use <<items.content>> tags to print out the data related to all items that are overdue."
@@ -655,10 +652,7 @@ msgstr "Die andere Option, die nur für Mahnbenachrichtigungen gilt, ist <item><
 
 #: ../../source/tools.rst:464
 msgid "<item>\"<<biblio.title>>\" by <<biblio.author>>, <<items.itemcallnumber>>, Barcode: <<items.barcode>> , Checkout date: <<issues.issuedate>>, Due date: <<issues.date\\_due>> Fine: <<items.fine>> </item>"
-msgstr ""
-"<item>\"<<biblio.title>>\" von <<biblio.author>>, <<items.itemcallnumber>>, "
-"Barcode: <<items.barcode>> , Ausleihdatum: <<issues.issuedate>>, "
-"Fälligkeitsdatum: <<issues.date\\_due>> Mahngebühr: <<items.fine>> </item>"
+msgstr "<item>\"<<biblio.title>>\" von <<biblio.author>>, <<items.itemcallnumber>>, Barcode: <<items.barcode>> , Ausleihdatum: <<issues.issuedate>>, Fälligkeitsdatum: <<issues.date\\_due>> Mahngebühr: <<items.fine>> </item>"
 
 #: ../../source/tools.rst:471
 msgid "Only the overdue notices take advantage of the <item></item> tags, all other notices referencing items need to use <<items.content>>"
@@ -706,7 +700,7 @@ msgstr "Formatierung von Mahnbenachrichtigungen"
 
 #: ../../source/tools.rst:514
 msgid "When creating your overdue notices there are two tags in addition to the various database fields that you can use in your notices. You will also want to review the `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki page for information on formatting item information in these notices."
-msgstr "Es gibt zwei zusätzliche Tags für die verschiedenen Datenbankfelder, die Sie für Ihre Benachrichtigungen in Koha verwenden können. Sie können die Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki aufrufen, um Informationen zur Formatierung von Exemplaren in diesen Benachrichtigungen zu erhalten."
+msgstr "Es gibt zwei zusätzliche Tags für die verschiedenen Datenbankfelder, die Sie für Ihre Benachrichtigungen in Koha verwenden können. Sie können die Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ aufrufen, um Informationen zur Formatierung von Exemplaren in diesen Benachrichtigungen zu erhalten."
 
 #: ../../source/tools.rst:522
 msgid "These new tags only work on the overdue notices, not other circulation related notices at this time."
@@ -730,7 +724,7 @@ msgstr "Vorhandene Benachrichtigungen & Quittungen"
 
 #: ../../source/tools.rst:550
 msgid "Among the default notices are notices for several common actions within Koha. All of these notices can be customized by altering their text via the Notices & slips tool and their style using the :ref:`NoticeCSS` preference to define a stylesheet. You will also want to review the `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki page for information on formatting item information in these notices. Here are some of what those notices do:"
-msgstr "Es gibt Beispielschreiben für die meisten voreingestellten Benachrichtigungen in Koha. Die Texte dieser Schreiben können im Werkzeug Benachrichtigungen & Quittungen angepasst und die Formatierung über ein separates Stylesheet im Systemparameter :ref:`NoticeCSS` gesteuert werden. Schauen Sie auch auf die Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_ wiki, um Informationen zur Formatierung von Exemplaren in diesen Benachrichtigungen zu erhalten. Im folgenden ein paar Beispiele für die unterschiedichen Benachrichtigungen:"
+msgstr "Es gibt Beispielschreiben für die meisten voreingestellten Benachrichtigungen in Koha. Die Texte dieser Schreiben können im Werkzeug Benachrichtigungen & Quittungen angepasst und die Formatierung über ein separates Stylesheet im Systemparameter :ref:`NoticeCSS` gesteuert werden. Schauen Sie auch auf die Wiki-Seite `Customising notices and slips <https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips>`_, um Informationen zur Formatierung von Exemplaren in diesen Benachrichtigungen zu erhalten. Im folgenden ein paar Beispiele für die unterschiedlichen Benachrichtigungen:"
 
 #: ../../source/tools.rst:559
 msgid "ACCEPTED"
@@ -742,7 +736,8 @@ msgstr "Diese Benachrichtigung wird verschickt, wenn ein Anschaffungsvorschlag e
 
 #: ../../source/tools.rst:563 ../../source/tools.rst:651
 msgid "*Note:* If you don't want to send this notice, just delete it."
-msgstr "*Notiz:* Möchten Sie diese Nachricht nicht verschicken, löschen Sie sie."
+msgstr ""
+"*Hinweis:* Möchten Sie diese Nachricht nicht verschicken, löschen Sie sie."
 
 #: ../../source/tools.rst:565
 msgid "ACCOUNT\\_PAYMENT"
@@ -810,7 +805,9 @@ msgstr "Wird im Erwerbungsmodule genutzt um Bestellinformationen an den Lieferan
 
 #: ../../source/tools.rst:611
 msgid "The notice is triggered manually from the basket summary page using the 'Email order' button in the toolbar."
-msgstr "Diese Benachrichtigung wird manuel erzeugt ausgehend von der Inhaltsseite des Korbes, indem die Schaltfläche 'Bestellung' ausgelöst wird."
+msgstr ""
+"Diese Benachrichtigung wird manuell von der Bestellübersicht ausgehend "
+"erzeugt, indem die Schaltfläche \"E-Mail-Bestellung\" angeklickt wird."
 
 #: ../../source/tools.rst:618
 msgid "The vendor contact marked as 'Primary acquisitions contact' and 'Contact when ordering' has a valid email address."
@@ -988,7 +985,10 @@ msgstr "Diese Benachrichtigung wird verwenden, um Mahnungen an Benutzer zu versc
 
 #: ../../source/tools.rst:775
 msgid "ODUE is the code of the sample notice, but it's possible to use any code and define multiple different messages for different patron categories and notice levels"
-msgstr "ODUE ist der Code für die Beispielbenachrichtigung, aber es ist möglich andere Codes zu benutzen, um verschiedene Benachrichtigungen für verschiedene Benutzerkategorien und Benachrichtigungslevels zu konfigurieren."
+msgstr ""
+"ODUE ist der Code für die Beispielbenachrichtigung, aber es ist möglich "
+"andere Codes zu benutzen, um verschiedene Benachrichtigungen für "
+"verschiedene Benutzertypen und Benachrichtigungslevels zu konfigurieren."
 
 #: ../../source/tools.rst:779
 msgid "Requires that you set :ref:`Overdue notice/status triggers <overdue-notice/status-triggers-label>`"
@@ -1004,7 +1004,9 @@ msgstr "Diese Notiz wird an den Benutzer verschickt, wenn aus dem Anschaffungsvo
 
 #: ../../source/tools.rst:787 ../../source/tools.rst:836
 msgid "Note: If you don't want to send this notice, just delete it."
-msgstr "*Notiz:* Wenn Sie diese Benachrichtigung nicht verschicken möchten, dann löschen Sie sie."
+msgstr ""
+"*Hinweis:* Wenn Sie diese Benachrichtigung nicht verschicken möchten, dann "
+"löschen Sie sie."
 
 #: ../../source/tools.rst:789
 msgid "PASSWORD_RESET"
@@ -1116,7 +1118,9 @@ msgstr "Wird benutzt um Bibliothekspersonal anzumelden, wenn ein Anschaffungsvor
 
 #: ../../source/tools.rst:907
 msgid "Requires the :ref:`notice\\_unprocessed\\_suggestions <cron-email-suggestions-to-process-label>` cron job"
-msgstr "Erfordert den Cronjob :ref:`notice\\_unprocessed\\_suggestions <cron-email-suggestions-to-process-label>` zu aktivieren."
+msgstr ""
+"Erfordert es, den Cronjob :ref:`notice\\_unprocessed\\_suggestions <cron-"
+"email-suggestions-to-process-label>` zu aktivieren."
 
 #: ../../source/tools.rst:910
 msgid "There are also a set of predefined slips (or receipts) listed on this page. All of these slips can be customized by altering their text via the Notices & slips tool and their style using the :ref:`SlipCSS` preference to define a stylesheet. Here is what those slips are used for:"
@@ -1132,11 +1136,14 @@ msgstr "Wird verwended um eine Ausleihquittung für eine Aufsatzanfrage zu druck
 
 #: ../../source/tools.rst:920
 msgid "The slip or receipt can be printed manually when managing article requests from the staff interface."
-msgstr "Die Quittung kann manuel ausgedruckt werden, wenn Aufsatzanfragen über die Dienstoberfläche verwaltet werden."
+msgstr ""
+"Die Quittung kann manuell ausgedruckt werden, wenn Artikelbestellungen über "
+"die Dienstoberfläche verwaltet werden."
 
 #: ../../source/tools.rst:923
 msgid "*Get there:* Circulation > Article requests > Actions > Print slip"
-msgstr "*Pfad in Koha:* Ausleihe > Aufsatzanfragen > Aktionen > Quittungsdruck"
+msgstr ""
+"*Pfad in Koha:* Ausleihe > Artikelbestellungen > Aktionen > Quittungsdruck"
 
 #: ../../source/tools.rst:925
 msgid "ISSUEQSLIP"
@@ -1217,7 +1224,11 @@ msgstr "Wenn Sie Mahnbenachrichtigungen an Ihre Benutzer verschicken möchten, m
 
 #: ../../source/tools.rst:979
 msgid "Depending on the value of your :ref:`OverdueNoticeCalendar` preference the delay may or may not include days the library is closed based on the :ref:`holiday calendar <calendar-label>`."
-msgstr "Abhängig von dem Wert, der im Systemparameter :ref:`OverdueNoticeCalendar` festgelegt ist, werden Schließtage bei der Berechnung des Versandzeitpunkts mit berücksichtigt, oder nicht. Auch der Ferienkalender :ref:`holiday calendar <calendar-label>` wird in dieser Berechnung berücksichtigt."
+msgstr ""
+"Abhängig von dem Wert, der im Systemparameter :ref:`OverdueNoticeCalendar` "
+"festgelegt ist, werden Schließtage bei der Berechnung des Versandzeitpunkts "
+"mit berücksichtigt, oder nicht. Auch der :ref:`Schließtagekalender <calendar-"
+"label>` wird in dieser Berechnung berücksichtigt."
 
 #: ../../source/tools.rst:984
 msgid "The Overdue notice/status triggers tool gives the librarian the power to send up to three notices to each patron type notifying them of overdue items"
@@ -1249,11 +1260,7 @@ msgstr "Wenn Sie entscheiden einen Benutzer auf diese Weise zu sperren, kann Koh
 
 #: ../../source/tools.rst:1011
 msgid "Next you can choose the delivery method for the overdue notice. You can choose from Email, Phone (if you are using the :ref:`iTiva Talking Tech service <talkingtechitivaphonenotification-label>`), Print and SMS (if you have set your :ref:`SMSSendDriver`)."
-msgstr ""
-"Als nächstes können Sie die Versandart der Mahnungbenachrichtigung "
-"festlegen. Sie können zwischen E-Mail, Telefon (wenn Sie den :ref:`iTiva "
-"Talking Tech Service <talkingtechitivaphonenotification-label>` verwenden), "
-"Druck und SMS (wenn :ref:`SMSSendDriver` konfiguriert ist) auswählen. "
+msgstr "Als nächstes können Sie die Versandart der Mahnungbenachrichtigung festlegen. Sie können zwischen E-Mail, Telefon (wenn Sie den :ref:`iTiva Talking Tech Service <talkingtechitivaphonenotification-label>` verwenden), Druck und SMS (wenn :ref:`SMSSendDriver` konfiguriert ist) auswählen. "
 
 #: ../../source/tools.rst:1019
 msgid "Patron card creator"
@@ -1454,7 +1461,7 @@ msgstr "Drucken Sie versuchsweise ein paar Ausweiskarten, bevor Sie ein Profil a
 
 #: ../../source/tools.rst:1195
 msgid "After finding and documenting any anomalies in the printed document, then you can :ref:`create a profile <patron-add-a-profile-label>` and assign it to the template."
-msgstr "Wenn Sie Unregelmäßigkeiten auf dem gedruckten Dokument gefunden haben, können sie ein Profil :ref:`create a profile <patron-add-a-profile-label>` erstellen und es dem Template zuweisen."
+msgstr "Wenn Sie Unregelmäßigkeiten auf dem gedruckten Dokument gefunden haben, können sie ein :ref:`Profil erstellen <patron-add-a-profile-label>` und es dem Template zuweisen."
 
 #: ../../source/tools.rst:1201
 msgid "Do not specify a profile unless needed, i.e. do not click to define a printer profile. It is not possible to remove a profile from a template but you can switch to another profile."
@@ -1518,7 +1525,7 @@ msgstr "Sie können beispielsweise die Druckermodelnummer als Druckername benutz
 
 #: ../../source/tools.rst:1262
 msgid "Template will be filled in once you have chosen which template to apply the profile to on the :ref:`template edit form <patron-add-a-template-label>`"
-msgstr "Das Template wird ausgefüllt, sobald Sie ein Template festgelegt haben, für das dieses Profil verwendet werden soll :ref:`Template Bearbeitungsform <patron-add-a-template-label>`."
+msgstr "Das Template wird ausgefüllt, sobald Sie über das :ref:`Bearbeitungsformular für Templates <patron-add-a-template-label>` festgelegt haben, welches Template für das Profil verwendet werden soll."
 
 #: ../../source/tools.rst:1265 ../../source/tools.rst:2244
 msgid "The Units pull down is used to define what measurement scale you're going to be using for your profile."
@@ -1586,9 +1593,7 @@ msgstr "|image1225|"
 
 #: ../../source/tools.rst:1325
 msgid "After choosing the 'Add patron(s)' button the Patron Search window pops up."
-msgstr ""
-"Nachdem Sie die Schaltfläche 'Benutzer hinzufügen' angeklickt haben, öffnet "
-"sich ein neues Fenster für die Benutzersuche."
+msgstr "Nachdem Sie die Schaltfläche 'Benutzer hinzufügen' angeklickt haben, öffnet sich ein neues Fenster für die Benutzersuche."
 
 #: ../../source/tools.rst:1328
 msgid "|image1226|"
@@ -1656,7 +1661,7 @@ msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Benutzerausweisdruck > Verwalte > Bil
 
 #: ../../source/tools.rst:1389
 msgid "Images uploaded using this tool will appear on the menu when creating :ref:`patron card layouts <patron-card-layouts-label>`. You are limited in how many images you can upload (not counting patron images) by the :ref:`ImageLimit` system preference."
-msgstr "Bilder, die über dieses Werkzeug hochgeladen wurden, erscheinen in der Auswahlliste, wenn Sie Layouts :ref:`patron card layouts <patron-card-layouts-label>` für Benutzerausweise erstellen. Die Anzahl der Bilder, die Sie hochladen können wird durch den Systemparamter :ref:`ImageLimit` begrenzt (die Zahl der Benutzerfotos nicht eingeschlossen)."
+msgstr "Bilder, die über dieses Werkzeug hochgeladen wurden, erscheinen in der Auswahlliste, wenn Sie :ref:`Layouts für Benutzerausweise <patron-card-layouts-label>` erstellen. Die Anzahl der Bilder, die Sie hochladen können wird durch den Systemparameter :ref:`ImageLimit` begrenzt (die Zahl der Benutzerfotos nicht eingeschlossen)."
 
 #: ../../source/tools.rst:1396
 msgid "Images must be under 500k in size."
@@ -1828,7 +1833,7 @@ msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Benutzer und Ausleihe > Tag-Moderatio
 
 #: ../../source/tools.rst:1527
 msgid "Depending on your :ref:`tagging system preferences <tagging-label>`, librarians may need to approve tags before they are published on the OPAC. This is done via the tag moderation tool. If there are tags awaiting moderation they will be listed on the main staff dashboard under the module labels:"
-msgstr "Abhängig von der Konfiguration der Systemparameter :ref:`tagging system preferences <tagging-label>`, müssen Tags von den Bibliotheksmitarbeitern zunächst geprüft werden, bevor Sie im OPAC veröffentlicht werden. Dies wird im Werkzeug 'Tag-Moderation' gemacht. Wenn neue Tags auf Moderation warten, wird dies unterhalb der Schaltflächen zu den Modulen auf der Intranetstartseite angezeigt."
+msgstr "Abhängig von der Konfiguration der :ref:`tagging Tagging-Systemparameter <tagging-label>`, müssen Tags von den Bibliotheksmitarbeitern zunächst geprüft werden, bevor Sie im OPAC veröffentlicht werden. Dies wird im Werkzeug 'Tag-Moderation' gemacht. Wenn neue Tags auf Moderation warten, wird dies unterhalb der Schaltflächen zu den Modulen auf der Startseite der Dienstoberfläche angezeigt."
 
 #: ../../source/tools.rst:1533
 msgid "|image283|"
@@ -1876,7 +1881,7 @@ msgstr "|image286|"
 
 #: ../../source/tools.rst:1570
 msgid "To check terms against the approved and rejected lists (and possibly against :ref:`the dictionary <tagsexternaldictionary-label>` you have assigned for tag moderation) simply enter the term into the search box on the bottom right of the screen to see the status of the term"
-msgstr "Um einen Begriff gegen die Listen akzeptierter und abgelehnter Tags zu überprüfen (und unter Umständen auch gegen das Wörterbuch :ref:`the dictionary <tagsexternaldictionary-label>`, das Sie für die Tag-Moderation konfiguriert haben) geben Sie den Begriff einfach in das Suchfeld rechts unten ein."
+msgstr "Um einen Begriff gegen die Listen akzeptierter und abgelehnter Tags zu überprüfen (und unter Umständen auch gegen das :ref:`Wörterbuch <tagsexternaldictionary-label>`, das Sie für die Tag-Moderation konfiguriert haben) geben Sie den Begriff einfach in das Suchfeld rechts unten ein."
 
 #: ../../source/tools.rst:1575
 msgid "|image287|"
@@ -1900,7 +1905,7 @@ msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Benutzer und Ausleihe > Benutzerfoto 
 
 #: ../../source/tools.rst:1589
 msgid "Patron images can be uploaded in bulk if you are :ref:`allowing patron images <patronimages-label>` to be attached to patron records. These images can also be used when creating :ref:`patron cards <patron-card-creator-label>`."
-msgstr "Benutzerfotos können auch über eine Stapelfunktion hochgeladen werden, wenn Sie den Upload von Benutzerfotos :ref:`allowing patron images <patronimages-label>` in der Konfiguration grundsätzlich erlaubt haben. Diese Bilder können dann verwendet werden, wenn neue Benutzerausweise :ref:`patron cards <patron-card-creator-label>` angelegt werden."
+msgstr "Benutzerfotos können auch über eine Stapelfunktion hochgeladen werden, wenn Sie den :ref:`Upload von Benutzerfotos<patronimages-label>` in der Konfiguration grundsätzlich erlaubt haben. Diese Bilder können dann verwendet werden, wenn neue :ref:`Benutzerausweise <patron-card-creator-label>` angelegt werden."
 
 #: ../../source/tools.rst:1593
 msgid "Create a txt file and title it \"DATALINK.TXT\" or \"IDLINK.TXT\""
@@ -2028,7 +2033,7 @@ msgstr "|image1431|"
 
 #: ../../source/tools.rst:1682
 msgid "From the tool you can choose to upload a file of barcodes or item ids, or you can scan items one by one into the box below the upload tool. You can also decide the items edited should be populated with the default values you have defined in your :ref:`default framework <marc-bibliographic-frameworks-label>`."
-msgstr "In diesem Werkzeug können Sie entweder eine Datei mit Barcodes oder Exemplaridentnummern hochladen, oder Sie können die Barcodes nacheinander in das Feld unter der Uploadmöglichkeit einscannen. Sie können auch entscheiden die bearbeiteten Exemplare mit den Standardeinstellung zu bestücken, die Sie in Ihrem Standard Framework :ref:`default framework <marc-bibliographic-frameworks-label>` definiert haben. "
+msgstr "In diesem Werkzeug können Sie entweder eine Datei mit Barcodes oder Exemplaridentnummern hochladen, oder Sie können die Barcodes nacheinander in das Feld unter der Uploadmöglichkeit einscannen. Sie können auch entscheiden die bearbeiteten Exemplare mit den Standardeinstellung zu bestücken, die Sie in Ihrem :ref:`Standard-Framework <marc-bibliographic-frameworks-label>` definiert haben. "
 
 #: ../../source/tools.rst:1688
 msgid "Once you have your file uploaded or the barcodes listed you can click 'Continue.'"
@@ -2040,12 +2045,7 @@ msgstr "|image1432|"
 
 #: ../../source/tools.rst:1693
 msgid "You will be presented with a summary of the items you want to modify. From here you can uncheck the items you don't want to modify before making changes in the form below. You can also hide columns you don't need to see to prevent having to scroll from left to right to see the entire item form.  The holds column displays a count of the current holds for the item."
-msgstr ""
-"Sie werden aufgefordert, die Aktion zu bestätigen. Nun können Sie die "
-"Exemplare abwählen, die Sie nicht über das untenstehende Formular bearbeiten "
-"möchten. Sie können auch Spalten ausblenden, die Sie nicht benötigen, um ein "
-"horizontales Scrollen zu vermeiden. Die Spalte Vormerkungen zeigt die Anzahl "
-"der vorhandenen Vormerkungen für ein Exemplar."
+msgstr "Sie werden aufgefordert, die Aktion zu bestätigen. Nun können Sie die Exemplare abwählen, die Sie nicht über das untenstehende Formular bearbeiten möchten. Sie können auch Spalten ausblenden, die Sie nicht benötigen, um ein horizontales Scrollen zu vermeiden. Die Spalte Vormerkungen zeigt die Anzahl der vorhandenen Vormerkungen für ein Exemplar."
 
 #: ../../source/tools.rst:1702
 msgid "To uncheck all items thar are currently checked out you can click the 'Clear on loan' link at the top of the form."
@@ -2085,9 +2085,7 @@ msgstr "Dieses Werkzeug verwendet einen Stapel Datensatznummern von Titel- oder 
 
 #: ../../source/tools.rst:1732
 msgid "First you need to tell the tool if you're deleting bibliographic or authority records."
-msgstr ""
-"Zuerst müssen Sie im Werkzeug festlegen, ob Sie Titel- oder Normsätze "
-"löschen möchten."
+msgstr "Zuerst müssen Sie im Werkzeug festlegen, ob Sie Titel- oder Normsätze löschen möchten."
 
 #: ../../source/tools.rst:1735
 msgid "Next, you can:"
@@ -2119,9 +2117,7 @@ msgstr "|image1443|"
 
 #: ../../source/tools.rst:1749
 msgid "Once you submit the form you will be presented with a summary of the records you are trying to delete."
-msgstr ""
-"Sobald Sie das Formular abschicken, wird Ihnen eine Übersicht der "
-"Datensätze, die Sie löschen möchten, angezeigt."
+msgstr "Sobald Sie das Formular abschicken, wird Ihnen eine Übersicht der Datensätze, die Sie löschen möchten, angezeigt."
 
 #: ../../source/tools.rst:1752
 msgid "|image1232|"
@@ -2146,7 +2142,7 @@ msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Katalog > Stapelbearbeitung von Titel
 
 #: ../../source/tools.rst:1766
 msgid "This tool will allow you to edit batches of bibliographic and authority records using :ref:`MARC modification templates <marc-modification-templates-label>`. Before visiting this tool you will want to set up at least one MARC modification template."
-msgstr "Dieses Werkzeug erlaubt die stapelweise Bearbeitung von bibliographischen Datensätzen und Normdatensätzen mithilfe von Templates für MARC-Modifikationen :ref:`MARC modification templates <marc-modification-templates-label>`. Bevor Sie das Werkzeug verwenden können, müssen Sie wenigstens ein Template für MARC-Modifikationen erstellen."
+msgstr "Dieses Werkzeug erlaubt die stapelweise Bearbeitung von bibliographischen Datensätzen und Normdatensätzen mithilfe von :ref:`Templates für MARC-Modifikationen <marc-modification-templates-label>`. Bevor Sie das Werkzeug verwenden können, müssen Sie wenigstens ein Template für MARC-Modifikationen erstellen."
 
 #: ../../source/tools.rst:1771
 msgid "When you visit the tool it will ask you:"
@@ -2230,7 +2226,7 @@ msgstr "Das Bibliothekspersonal benötigt die Erlaubnis zur Exemplarstapelbearbe
 
 #: ../../source/tools.rst:1825
 msgid "The settings in this tool will be acted upon by the :ref:`corresponding cron job <cron-automatic-item-update-label>`"
-msgstr "Die Einstellungen in diesem Werkzeug funktionieren über den Cronjob :ref:`corresponding cron job <cron-automatic-item-update-label>` "
+msgstr "Die Einstellungen in diesem Werkzeug funktionieren über den entsprechenden :ref:`Cronjob <cron-automatic-item-update-label>` "
 
 #: ../../source/tools.rst:1828
 msgid "If you haven't created any rules you will see the option to 'Add rules' on the Tool page. Click this button to create rules."
@@ -2723,7 +2719,7 @@ msgstr "Der Druckername und das Papierfach müssen nicht exakt denen Ihres Arbei
 
 #: ../../source/tools.rst:2240
 msgid "Template will be filled in once you have chosen which template to apply the profile to on the :ref:`template edit form <label-add-a-template-label>`"
-msgstr "Das Template wird ausgefüllt, sobald Sie ein Template festgelegt haben, für das dieses Profil :ref:`template edit form <label-add-a-template-label>` verwendet werden soll."
+msgstr "Das Template wird ausgefüllt, sobald Sie über das :ref:`Bearbeitungsformular für Templates <label-add-a-template-label>` festgelegt haben, welches Template für das Profil verwendet werden soll."
 
 #: ../../source/tools.rst:2247
 msgid "|image324|"
@@ -2767,9 +2763,7 @@ msgstr "|image326|"
 
 #: ../../source/tools.rst:2289
 msgid "Using the form that appears you can decide what appears on your labels."
-msgstr ""
-"Über das angezeigte Formular können Sie festlegen, was auf Ihre Etiketten "
-"gedruckt werden soll."
+msgstr "Über das angezeigte Formular können Sie festlegen, was auf Ihre Etiketten gedruckt werden soll."
 
 #: ../../source/tools.rst:2291
 msgid "|image327|"
@@ -2789,9 +2783,7 @@ msgstr "Der Layout-Typ kann eine Kombination aus bibliographischer Information u
 
 #: ../../source/tools.rst:2304
 msgid "Biblio: only bibliographic information will appear on the label (e.g. spine labels)"
-msgstr ""
-"Biblio: es werden nur bibliografische Angaben auf das Etikett gedruckt (z.B. "
-"Signaturschilder)"
+msgstr "Biblio: es werden nur bibliografische Angaben auf das Etikett gedruckt (z.B. Signaturschilder)"
 
 #: ../../source/tools.rst:2307
 msgid "|image1456|"
@@ -2799,9 +2791,7 @@ msgstr "|image1456|"
 
 #: ../../source/tools.rst:2309
 msgid "Barcode/Biblio: the barcode will appear at the top of the label and the bibliographic information undeneath"
-msgstr ""
-"Barcode/Biblio: der Barcode erscheint zu Beginn des Etiketts und die "
-"bibliografischen Informationen darunter"
+msgstr "Barcode/Biblio: der Barcode erscheint zu Beginn des Etiketts und die bibliografischen Informationen darunter"
 
 #: ../../source/tools.rst:2312
 msgid "|image1455|"
@@ -2809,9 +2799,7 @@ msgstr "|image1455|"
 
 #: ../../source/tools.rst:2314
 msgid "Biblio/Barcode: the bibliographic information will appear at the top of the label and the barcode underneath"
-msgstr ""
-"Biblio/Barcode: die bibliografischen Informationen erscheinen zu Beginn des "
-"Etiketts und der Barcode darunter"
+msgstr "Biblio/Barcode: die bibliografischen Informationen erscheinen zu Beginn des Etiketts und der Barcode darunter"
 
 #: ../../source/tools.rst:2317
 msgid "|image1457|"
@@ -2819,9 +2807,7 @@ msgstr "|image1457|"
 
 #: ../../source/tools.rst:2319
 msgid "Alternating: the bibliographic information will appear on one label, and the barcode on the next label, alternating for each item"
-msgstr ""
-"Alternierend: die bibliografischen Informationen erscheinen auf einem "
-"Etikett und der Barcode auf dem Nächsten, abwechselnd für jedes Exemplar"
+msgstr "Alternierend: die bibliografischen Informationen erscheinen auf einem Etikett und der Barcode auf dem Nächsten, abwechselnd für jedes Exemplar"
 
 #: ../../source/tools.rst:2322
 msgid "|image1453|"
@@ -2861,10 +2847,7 @@ msgstr "Wählen Sie, ob Koha die Signaturen umbrechen soll (gewöhnlich genutzt 
 
 #: ../../source/tools.rst:2353
 msgid "Choose your text settings such as alignment, font type and size. You can also italicize the title by checking the 'Oblique title' box."
-msgstr ""
-"Wählen Sie die Texteinstellungen für Ausrichtung, Schriftart und -größe. Sie "
-"können auch kursive Schrift verwenden, indem Sie die Checkbox für \"Kursiver "
-"Titel\" anklicken."
+msgstr "Wählen Sie die Texteinstellungen für Ausrichtung, Schriftart und -größe. Sie können auch kursive Schrift verwenden, indem Sie die Checkbox für \"Kursiver Titel\" anklicken."
 
 #: ../../source/tools.rst:2363
 msgid "*Get there:* More > Tools > Label creator > Manage > Label batches"
@@ -2876,7 +2859,7 @@ msgstr "Stapel bestehen aus Strichcodes, die Sie drucken wollen. In diesem Werkz
 
 #: ../../source/tools.rst:2374
 msgid "Batches can be created in one of two ways. The first is to click the 'Create label batch' link on the ':ref:`Staged MARC management <staged-marc-record-management-label>`' page:"
-msgstr "Stapel können auf zwei Arten erstellt werden. Die erste besteht darin, den Link 'Neuer Stapel' auf der Seite 'Bereitgestellte MARC-Datensätze verwalten' ':ref:`Staged MARC management <staged-marc-record-management-label>`' anzuklicken:"
+msgstr "Stapel können auf zwei Arten erstellt werden. Die erste besteht darin, den Link 'Neuer Stapel' auf der Seite ':ref:`Bereitgestellte MARC-Datensätze verwalten <staged-marc-record-management-label>`' anzuklicken:"
 
 #: ../../source/tools.rst:2378
 msgid "|image329|"
@@ -3156,10 +3139,7 @@ msgstr "Rotationsexemplare verwalten - EDI"
 
 #: ../../source/tools.rst:2629
 msgid "Items can be automatically added to rotas at aquisition time by using the LRP (Library Rotation Plan) field in EDI."
-msgstr ""
-"Exemplare können im Erwerbungsprozess automatisch zu einer Bestandsrotation "
-"hinzugefügt werden, indem das LRP-Feld (Library Rotation Plan) in EDI belegt "
-"wird."
+msgstr "Exemplare können im Erwerbungsprozess automatisch zu einer Bestandsrotation hinzugefügt werden, indem das LRP-Feld (Library Rotation Plan) in EDI belegt wird."
 
 #: ../../source/tools.rst:2633
 msgid "Managing rotation notices"
@@ -3203,11 +3183,7 @@ msgstr "Templates für MARC-Modifikationen"
 
 #: ../../source/tools.rst:2659
 msgid "The MARC modification templates system gives Koha users the power to make alterations to MARC records automatically while :ref:`staging MARC records for import <stage-marc-records-for-import-label>` or :ref:`making batch record modifications <batch-record-modification-label>`."
-msgstr ""
-"Templates für MARC-Modifikation erlauben es, MARC-Datensätze während der "
-":ref:`Bereitstellung für den Import <stage-marc-records-for-import-label>` "
-"oder der :ref:`Stapelbearbeitung von Titeln <batch-record-modification-"
-"label>` automatisch zu bearbeiten."
+msgstr "Templates für MARC-Modifikation erlauben es, MARC-Datensätze während der :ref:`Bereitstellung für den Import <stage-marc-records-for-import-label>` oder der :ref:`Stapelbearbeitung von Titeln <batch-record-modification-label>` automatisch zu bearbeiten."
 
 #: ../../source/tools.rst:2664
 msgid "This tool is useful for altering MARC records from various vendors/sources work with your MARC framework. The system essentially allows one to create a basic script using actions to Copy, Move, Add, Update and Delete fields."
@@ -3253,7 +3229,7 @@ msgstr "Klicken Sie auf 'Aktion speichern'"
 
 #: ../../source/tools.rst:2692
 msgid "If you wish to update the values in an existing field choose the option ‘Update existing or add new’.  This will update existing values where found and add a new field if one doesn’t exist."
-msgstr ""
+msgstr "Wenn Sie Werte in einem bereits existierenden Feld ändern möchten, wählen Sie die Option 'Aktualisiere existierendes oder erstelle neues'. Dies wird einen existierenden Eintrag ändern und, wenn noch nicht vorhanden, ein neues Feld anlegen."
 
 #: ../../source/tools.rst:2696
 msgid "Each action can also have an optional condition to check the value or existence of another field. For example you might want to add the call number to the item record if it's not already there."
@@ -3425,7 +3401,7 @@ msgstr "|image345|"
 
 #: ../../source/tools.rst:2844
 msgid "Enter 'Comments about this file' to identify your upload when going to the ':ref:`Manage staged MARC records <staged-marc-record-management-label>`' tool"
-msgstr "Geben Sie einen 'Kommenter zu dieser Datei' an, um die Datei leichter zu erkennen, wenn Sie im Werkzeug 'Bereitgestellte MARC-Datensätze verwalten' ':ref:`Manage staged MARC records <staged-marc-record-management-label>`' sind."
+msgstr "Geben Sie einen 'Kommentar zu dieser Datei' an, um die Datei leichter zu erkennen, wenn Sie im Werkzeug ':ref:`Bereitgestellte MARC-Datensätze verwalten <staged-marc-record-management-label>`' sind."
 
 #: ../../source/tools.rst:2847
 msgid "Tell Koha which type of file this is, bibliographic or authority"
@@ -3445,7 +3421,7 @@ msgstr "|image347|"
 
 #: ../../source/tools.rst:2855
 msgid "Choose if you would like to use a :ref:`MARC modification template <marc-modification-templates-label>` to alter the data you're about to import"
-msgstr "Wählen Sie, ob Sie ein Template zur MARC-Modifikation :ref:`MARC modification template <marc-modification-templates-label>` verwenden möchten, um die Daten beim Import zu verändern."
+msgstr "Wählen Sie, ob Sie ein :ref:`Template für MARC-Modifikationen <marc-modification-templates-label>` verwenden möchten, um die Daten beim Import zu verändern."
 
 #: ../../source/tools.rst:2859
 msgid "|image348|"
@@ -3505,7 +3481,7 @@ msgstr "|image352|"
 
 #: ../../source/tools.rst:2900
 msgid "To complete the process continue to the :ref:`Manage staged MARC records Tool <staged-marc-record-management-label>`"
-msgstr "Um den Prozeß zu vervollständigen fahren Sie im Werkzeug zur Verwaltung zwischengespeicherter MARC-Datensätze :ref:`Manage staged MARC records Tool <staged-marc-record-management-label>` fort."
+msgstr "Um den Prozess zu vervollständigen fahren Sie im Werkzeug zur :ref:`Verwaltung zwischengespeicherter MARC-Datensätze <staged-marc-record-management-label>` fort."
 
 #: ../../source/tools.rst:2906
 msgid "Staged MARC record management"
@@ -3517,7 +3493,7 @@ msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Katalog > MARC-Datensätze für Impor
 
 #: ../../source/tools.rst:2910
 msgid "Once you have :ref:`staged <stage-marc-records-for-import-label>` your records for import you can complete the import using this tool."
-msgstr "Nachdem Sie Ihre Datensätze :ref:`staged <stage-marc-records-for-import-label>` zwischengespeichert haben, können Sie dieses Werkzeug verwenden um den Import abzuschließen."
+msgstr "Nachdem Sie Ihre Datensätze :ref:`zwischengespeichert <stage-marc-records-for-import-label>` haben, können Sie dieses Werkzeug verwenden um den Import abzuschließen."
 
 #: ../../source/tools.rst:2913
 msgid "|image353|"
@@ -3597,7 +3573,7 @@ msgstr "Sie können Ihren Import auch rückgängig machen, in dem Sie auf 'Über
 
 #: ../../source/tools.rst:2963
 msgid "Records imported using this tool remain in the 'reservoir' until they are cleaned. These items will appear when searching the catalog from the `Cataloging <#cataloging>`__ tool:"
-msgstr "Titel die mit diesem Werkzeug importiert wurden verbleiben im 'Datenpool' bis sie gelöscht werden. Die Exemplare sind über die Suche in der Katalogisierung `Cataloging <#cataloging>`__ recherchierbar:"
+msgstr "Titel die mit diesem Werkzeug importiert wurden verbleiben im 'Datenpool' bis sie gelöscht werden. Die Exemplare sind über die Suche in der `Katalogisierung <#cataloging>`__ recherchierbar:"
 
 #: ../../source/tools.rst:2967
 msgid "|image360|"
@@ -3636,86 +3612,74 @@ msgid "Upload local cover image"
 msgstr "Coverbilder hochladen"
 
 #: ../../source/tools.rst:2989
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Upload local cover image"
 msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Katalog > Coverbilder hochladen"
 
 #: ../../source/tools.rst:2991
-#, fuzzy
 msgid "This tool allows you to upload cover images for the materials in your catalog."
-msgstr "Dieses Werkzeug erlaubt Ihnen die massenweise Änderung von Exemplaren in Koha."
+msgstr "Dieses Werkzeug erlaubt Ihnen Coverbilder für Datensätze in Ihrem Katalog hochzuladen."
 
 #: ../../source/tools.rst:2994
-#, fuzzy
 msgid "To access this tool staff need the :ref:`upload\\_local\\_cover\\_images permission <granular-tools-permissions-label>`."
-msgstr "Wenn Sie ein Coverbild entfernen möchten, klicken Sie auf 'Bild löschen' unter dem Bild, wenn Sie die Berechtigung :ref:`upload\\_local\\_cover\\_images permission <granular-tools-permissions-label>` dazu haben. "
+msgstr "Der Zugriff auf dieses Werkzeug erfordert die :ref:`Berechtigung upload\\_local\\_cover\\_images <granular-tools-permissions-label>`."
 
 #: ../../source/tools.rst:2997
 msgid "For images to show in the staff client and OPAC you need to set :ref:`LocalCoverImages` and :ref:`OPACLocalCoverImages` preferences to 'Display'."
-msgstr ""
+msgstr "Um die Bilder in der Dienstoberfläche und dem OPAC anzuzeigen, müssen die Systemparameter :ref:`LocalCoverImages` und :ref:`OPACLocalCoverImages` auf \"Zeige\" gesetzt werden."
 
 #: ../../source/tools.rst:3001
 msgid "Images can be uploaded in batches or individually."
-msgstr ""
+msgstr "Bilder können im Stapel oder einzeln hochgeladen werden."
 
 #: ../../source/tools.rst:3003
-#, fuzzy
 msgid "**Notes**"
-msgstr "**Hinweis**"
+msgstr "**Hinweise**"
 
 #: ../../source/tools.rst:3005
-#, fuzzy
 msgid "Koha does not have a maximum file size limit for this tool, but the webserver (such as Apache) may limit the maximum size of uploads (talk to your system administrator)."
-msgstr "Koha hat keine Größenbegrenzung für Dateien in diesem Tool, aber Apache kann die Größe für Uploads begrenzen (fragen Sie Ihren Systemadministrator)."
+msgstr "Koha hat keine Größenbegrenzung für Dateien in diesem Tool, aber Webserver (wie Apache) können die Größe für Uploads begrenzen (fragen Sie Ihren Systemadministrator)."
 
 #: ../../source/tools.rst:3009
-#, fuzzy
 msgid "Where there are multiple images for a record they will display left to right (then top to bottom, depending on screen size) in the order they were uploaded. The image on the left (the first one uploaded) is used as a thumbnail cover in search results and on the details page. There is no way to reorder cover images uploaded in this way, so be sure to upload them in the order you'd like them to appear."
-msgstr "Wenn Sie mehrere Bilder für einen Datensatz hochladen möchten, werden diese von links nach rechts (dann von oben nach unten, abhängig vom Fassungsvermögen Ihres Bildschirms) in der Reihenfolge des Uploads angezeigt. Das Bild auf der linken Seite (das erste, das hochgeladen wurde) wird als Miniaturbild in der Trefferliste und in der Detailansicht angezeigt. Es gibt keine Möglichkeit Coverbilder neu zu ordnen, wenn sie auf diesem Weg hochgeladen wurden, darum laden Sie die Bilder in der Reihenfolge hoch, in der sie angezeigt werden sollen."
+msgstr "Wenn Sie mehrere Bilder für einen Datensatz hochladen möchten, werden diese von links nach rechts (dann von oben nach unten, abhängig vom Fassungsvermögen Ihres Bildschirms) in der Reihenfolge des Uploads angezeigt. Das Bild auf der linken Seite (das erste, das hochgeladen wurde) wird als Miniaturbild in der Trefferliste und in der Detailansicht angezeigt. Es gibt keine Möglichkeit Coverbilder neu zu ordnen, wenn sie auf diesem Weg hochgeladen wurden, darum beachten Sie beim Upload die gewünschte Anzeigereihenfolge."
 
 #: ../../source/tools.rst:3017
 msgid "|image1239|"
 msgstr "|image1239|"
 
 #: ../../source/tools.rst:3019
-#, fuzzy
 msgid "To upload a single image:"
 msgstr "Einzelne Bilder hochladen:"
 
 #: ../../source/tools.rst:3021
-#, fuzzy
 msgid "Go to the tool, click the 'Browse' button, and find the image on your local machine."
-msgstr "Wechseln Sie in das Werkzeug und klicken Sie auf 'Durchsuchen' um das Bild auf Ihrem lokalen Rechner auszuwählen."
+msgstr "Wechseln Sie in das Werkzeug und klicken Sie auf 'Durchsuchen' und wählen Sie dann das lokal gespeicherte Bild aus."
 
 #: ../../source/tools.rst:3024
 msgid "|image363|"
 msgstr "|image363|"
 
 #: ../../source/tools.rst:3026 ../../source/tools.rst:3070
-#, fuzzy
 msgid "Click 'Upload file'."
-msgstr "'Datei hochladen' anklicken"
+msgstr "Klicken Sie 'Datei hochladen'."
 
 #: ../../source/tools.rst:3028
-#, fuzzy
 msgid "Choose 'Image file' under the 'File type' section."
-msgstr "Wählen Sie 'Bilddatei' aus der Auswahlliste für 'Dateityp'"
+msgstr "Wählen Sie 'Bilddatei' aus der Auswahlliste für 'Dateityp'."
 
 #: ../../source/tools.rst:3030
 msgid "Enter the biblionumber for the record you're attaching this image to. This is not the same as the barcode, this is the system generated number assigned by Koha."
 msgstr "Geben Sie die Titelsatznummer (biblionumber) des Datensatzes an, mit der das Bild verknüpft werden soll. Es ist nicht der Barcode, sondern die Nummer, die durch Koha für den Datensatz generiert wurde."
 
 #: ../../source/tools.rst:3034
-#, fuzzy
 msgid "Find the biblionumber by looking at the end of the URL in the address bar when on the details page"
-msgstr "Die Titelsatznummer finden Sie am einfachsten, wenn Sie auf einer Detailansicht sind und sich den letzten Teil der aktuellen URL in der Adresszeile anschauen."
+msgstr "Die Titelsatznummer finden Sie am einfachsten, wenn Sie die Detailansicht eines Titels aufrufen und den hinteren Teil der URL in der Adresszeile anschauen"
 
 #: ../../source/tools.rst:3037
 msgid "|image364|"
 msgstr "|image364|"
 
 #: ../../source/tools.rst:3039
-#, fuzzy
 msgid "or by clicking on the MARC tab on the details page in the staff client."
 msgstr "oder indem Sie in der Dienstoberfläche auf den MARC-Reiter in der Deteilansicht klicken."
 
@@ -3723,37 +3687,31 @@ msgstr "oder indem Sie in der Dienstoberfläche auf den MARC-Reiter in der Detei
 msgid "|image365|"
 msgstr "|image365|"
 
-# Benennungen korrekt?
 #: ../../source/tools.rst:3044 ../../source/tools.rst:3074
-#, fuzzy
 msgid "If you would like to replace any other cover images you may have uploaded in the past, check the 'Replace existing covers' box under the 'Options' section."
-msgstr "Wenn früher hochgeladene Umschlagbilder ersetzt werden sollen, wählen Sie  'Bestehende Umschlagbilder ersetzen' im Bereich 'Optionen'."
+msgstr "Wenn früher hochgeladene Coverbilder ersetzt werden sollen, wählen Sie 'Vorhandene Umschlagbilder ersetzen' im Bereich 'Optionen'."
 
 #: ../../source/tools.rst:3048
-#, fuzzy
 msgid "Click 'Process images'."
-msgstr "'Bilder verarbeiten' anklicken"
+msgstr "Klicken Sie 'Bilder verarbeiten'."
 
 #: ../../source/tools.rst:3050
 msgid "You are presented with a summary of the upload and a link to the record you have just added the image to."
 msgstr "Es wird eine Zusammenfassung des Uploads und ein Link zum Titel, für den die Bilder hochgeladen wurden, angezeigt."
 
 #: ../../source/tools.rst:3053
-#, fuzzy
 msgid "To upload a batch of images:"
-msgstr "Benutzerfoto hochladen"
+msgstr "Mehrere Bilder hochladen:"
 
 #: ../../source/tools.rst:3055
 msgid "Create a folder with the images to upload in it."
-msgstr ""
+msgstr "Legen Sie ein Verzeichnis mit den Bildern an, die Sie hochladen möchten."
 
 #: ../../source/tools.rst:3057
-#, fuzzy
 msgid "Create a text file (\\*.txt) named either datalink.txt or idlink.txt listing the biblionumber followed by the image name for each image, one per line."
-msgstr "Fügen Sie zudem eine Textdatei (\\*.TXT) mit dem Namen datalink.txt oder idlink.txt hinzu, die pro Bild eine Zeile mit der Titelsatznummer (biblionumber) und nachfolgendem Bildnamen enthält. "
+msgstr "Legen Sie eine Textdatei (\\*.txt) mit dem Namen datalink.txt oder idlink.txt an, die pro Bild eine Zeile mit der Titelsatznummer (biblionumber) gefolgt vom Bildnamen enthält."
 
 #: ../../source/tools.rst:3061
-#, fuzzy
 msgid "For example: 4091,image4091.jpg"
 msgstr "Beispiel: 4091,image4091.jpg"
 
@@ -3763,12 +3721,11 @@ msgstr "|image366|"
 
 #: ../../source/tools.rst:3065
 msgid "Create a ZIP file that includes all the images to upload and the text file."
-msgstr ""
+msgstr "Erstellen Sie eine ZIP-Datei die alle Bilder und die zugehörige Textdatei enthält."
 
 #: ../../source/tools.rst:3067
-#, fuzzy
 msgid "Go to the tool, click the 'Browse' button, and browse to the ZIP file on your computer."
-msgstr "Wechseln Sie in das Werkzeug und klicken Sie auf 'Durchsuchen' um das Bild auf Ihrem lokalen Rechner auszuwählen."
+msgstr "Wechseln Sie in das Werkzeug und klicken Sie auf 'Durchsuchen' um die lokal gespeicherte ZIP-Datei hochzuladen."
 
 #: ../../source/tools.rst:3072
 msgid "Choose 'Zip file' under the 'File type' section"
@@ -3779,37 +3736,32 @@ msgid "Click 'Process images'"
 msgstr "'Bilder verarbeiten' anklicken"
 
 #: ../../source/tools.rst:3080
-#, fuzzy
 msgid "You are presented with a summary of the upload."
-msgstr "Es wird eine Zusammenfassung des Uploads angezeigt"
+msgstr "Danach wird eine Zusammenfassung des erfolgten Uploads angezeigt."
 
 #: ../../source/tools.rst:3082
 msgid "|image367|"
 msgstr "|image367|"
 
 #: ../../source/tools.rst:3086
-#, fuzzy
 msgid "The source image is used to generate a 140 x 200 px thumbnail image and a 600 x 800 px full-size image. The original sized image uploaded is not kept by Koha."
-msgstr "Das Quellenbild generiert gewöhnlich ein Miniaturbild 140 x 200 px und ein Bild in voller Größe 600 x 800. Das Bild in Originalgröße kann in Koha nicht untergebracht werden."
+msgstr "Das ursprüngliche Bild wird verwendet um einen verkleinertes Bild mit 140 x 200 px und ein Bild in voller Größe 600 x 800 zu generieren. Das ursprünglich hochgeladene Bild wird nicht in Koha gespeichert."
 
 #: ../../source/tools.rst:3090
-#, fuzzy
 msgid "In the staff client the cover images appear on the details page under the 'Images' tab in the holdings table at the bottom."
-msgstr "Ihre Coverbilder werden in der Dienstoberfläche im unteren Bereich der Exemplardatentabelle unter dem Reiter 'Bild' angezeigt."
+msgstr "Ihre Coverbilder werden in der Dienstoberfläche in der Detailansicht im Reiter \"Bilder\" der Exemplartabelle angezeigt."
 
 #: ../../source/tools.rst:3093
 msgid "|image368|"
 msgstr "|image368|"
 
 #: ../../source/tools.rst:3095
-#, fuzzy
 msgid "In the OPAC the cover images appear in the 'Images' tab, as well as next to the title and on the search results."
-msgstr "Die Coverbilder erscheinen im OPAC unter dem Reiter 'Coverbilder', wie auch beim jeweiligen Titel und in der Trefferliste"
+msgstr "Die Coverbilder erscheinen im OPAC unter dem Reiter 'Bilder' sowie neben dem Titel in der Trefferliste."
 
 #: ../../source/tools.rst:3098
-#, fuzzy
 msgid "To remove a cover image click 'Delete image' below the image in the staff client if you have the :ref:`upload\\_local\\_cover\\_images permission <granular-tools-permissions-label>`."
-msgstr "Wenn Sie ein Coverbild entfernen möchten, klicken Sie auf 'Bild löschen' unter dem Bild, wenn Sie die Berechtigung :ref:`upload\\_local\\_cover\\_images permission <granular-tools-permissions-label>` dazu haben. "
+msgstr "Wenn Sie ein Coverbild entfernen möchten, klicken Sie auf 'Bild löschen' unter dem Bild in der Dienstoberfläche, wenn Sie die :ref:`Berechtigung upload\\_local\\_cover\\_images permission <granular-tools-permissions-label>` haben."
 
 #: ../../source/tools.rst:3106
 msgid "Additional Tools"
@@ -3849,7 +3801,7 @@ msgstr "|image369|"
 
 #: ../../source/tools.rst:3135
 msgid "Adding Events"
-msgstr "Veranstaltung hinzufügen"
+msgstr "Schließtage eintragen"
 
 #: ../../source/tools.rst:3137
 msgid "Before adding events, choose the library you would like to apply the closings to. When adding events you will be asked if you would like to apply the event to one branch or all branches. To add events, simply"
@@ -3925,7 +3877,7 @@ msgstr "|image372|"
 
 #: ../../source/tools.rst:3194
 msgid "Editing Events"
-msgstr "Events bearbeiten"
+msgstr "Schließtage bearbeiten"
 
 #: ../../source/tools.rst:3196
 msgid "To edit events"
@@ -3976,29 +3928,26 @@ msgid "CSV profiles"
 msgstr "CSV-Profile"
 
 #: ../../source/tools.rst:3237
-#, fuzzy
 msgid "*Get there:* More > Tools > Additional tools > CSV profiles"
 msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Weitere Werkzeuge > CSV-Profile"
 
 #: ../../source/tools.rst:3239
-#, fuzzy
 msgid "CSV profiles are created to define how you would like your cart or list to export."
-msgstr "CSV-Profile werden verwendet um zu definieren, wie Ihr Korb oder Ihre Listen exportiert werden."
+msgstr ""
+"CSV-Profile werden verwendet, um zu definieren, wie Daten von Listen oder "
+"Korb exportiert werden."
 
 #: ../../source/tools.rst:3245
-#, fuzzy
 msgid "Add CSV profiles"
 msgstr "Neues CSV-Profil"
 
 #: ../../source/tools.rst:3247
-#, fuzzy
 msgid "To add a CSV profile"
-msgstr "Ein neues CSV-Profil anlegen"
+msgstr "Neues CSV-Profil anlegen"
 
 #: ../../source/tools.rst:3249
-#, fuzzy
 msgid "Click 'CSV profiles' from the Tools menu"
-msgstr "Wählen Sie 'CSV-Profile' im Menü 'Werkzeuge'. "
+msgstr "Wählen Sie 'CSV-Profile' im Menü 'Werkzeuge'"
 
 #: ../../source/tools.rst:3251
 msgid "The 'Profile type' determines what type of fields you plan to use (MARC or SQL) to define your profile"
@@ -4085,14 +4034,12 @@ msgid "|image380|"
 msgstr "|image380|"
 
 #: ../../source/tools.rst:3318
-#, fuzzy
 msgid "Modify CSV profiles"
 msgstr "CSV-Profile bearbeiten"
 
 #: ../../source/tools.rst:3320
-#, fuzzy
 msgid "Once you have created at least one CSV profile an 'Edit profile' tab will appear next to the 'New profile' button."
-msgstr "Nachdem das erste CSV-Profil erstellt wurde, wird die Option 'CSV-Profil bearbeiten' unterhalb der Maske angezeigt."
+msgstr "Nachdem das erste CSV-Profil erstellt wurde, wird die Option \"CSV-Profil bearbeiten\" neben der Schaltfläche \"Neues CSV-Profil\" angezeigt."
 
 #: ../../source/tools.rst:3323
 msgid "|image381|"
@@ -4119,14 +4066,12 @@ msgid "|image383|"
 msgstr "|image383|"
 
 #: ../../source/tools.rst:3341
-#, fuzzy
 msgid "Using CSV profiles"
 msgstr "CSV-Profile verwenden"
 
 #: ../../source/tools.rst:3343
-#, fuzzy
 msgid "Your CSV profiles will appear on the export list or cart menu under the 'Download' button in both the staff client and the OPAC"
-msgstr "Ihre CSV-Profile werden in der Liste der Exportformate des Warenkorbmenüs unter 'Download' sowohl in der Dienstoberfläche als auch im OPAC angezeigt"
+msgstr "Ihre CSV-Profile werden bei den Downloadmöglichkeiten für Korb und Listen in der Dienstoberfläche und im OPAC angezeigt"
 
 #: ../../source/tools.rst:3346
 msgid "|image384|"
@@ -4137,14 +4082,12 @@ msgid "Log viewer"
 msgstr "Loganzeige"
 
 #: ../../source/tools.rst:3353
-#, fuzzy
 msgid "*Get there:* More > Tools > Additional tools > Log viewer"
 msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Weitere Werkzeuge > Loganzeige"
 
 #: ../../source/tools.rst:3355
-#, fuzzy
 msgid "Actions within the Koha system are tracked in log files. Your :ref:`system preferences <logs-label>` can be changed to prevent the logging of different actions. These logs can be viewed using the log viewer."
-msgstr "Aktionen innerhalb von Koha werden in Logfiles in der Datenbank aufgezeichnet. Ihre Systemparameter <logs-label>` erlauben es zu konfigurieren, welche Aktionen aufgezeichnet werden. Diese Aufzeichnungen können über das Werkzeug Loganzeige eingesehen werden."
+msgstr "Aktionen innerhalb von Koha werden in Logfiles aufgezeichnet. Die :ref:`Systemparameter <logs-label>` erlauben es zu konfigurieren, welche Aktionen aufgezeichnet werden. Diese Aufzeichnungen können über das Werkzeug Loganzeige eingesehen werden."
 
 #: ../../source/tools.rst:3359
 msgid "|image385|"
@@ -4163,7 +4106,6 @@ msgid "News"
 msgstr "Nachrichten"
 
 #: ../../source/tools.rst:3372
-#, fuzzy
 msgid "*Get there:* More > Tools > Additional tools > News"
 msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Weitere Werkzeuge > Nachrichten"
 
@@ -4176,12 +4118,10 @@ msgid "|image387|"
 msgstr "|image387|"
 
 #: ../../source/tools.rst:3379
-#, fuzzy
 msgid "To add news to either the OPAC, the Staff Client or a circulation receipt:"
-msgstr "Nachrichten für den OPAC, die Dienstoberfläche oder Ausleihbons erfassen:"
+msgstr "Nachrichten für den OPAC, die Dienstoberfläche oder einen Quittungsdruck in der Ausleihe erfassen:"
 
 #: ../../source/tools.rst:3382
-#, fuzzy
 msgid "Click 'New entry'"
 msgstr "Klicken Sie auf 'Neuer Eintrag'"
 
@@ -4191,7 +4131,7 @@ msgstr "|image388|"
 
 #: ../../source/tools.rst:3386
 msgid "Under 'Display location' choose where to put the news"
-msgstr ""
+msgstr "Über \"Anzeigebereich\" können Sie auswählen, wo die Nachricht angezeigt wird"
 
 #: ../../source/tools.rst:3388
 msgid "|image1240|"
@@ -4199,16 +4139,15 @@ msgstr "|image1240|"
 
 #: ../../source/tools.rst:3390
 msgid "Librarian interface: content will appear on the staff interface main page"
-msgstr ""
+msgstr "Dienstoberfläche: Der Inhalt wird auf der Startseite der Dienstoberfläche angezeigt"
 
 #: ../../source/tools.rst:3393
 msgid "|image390|"
 msgstr "|image390|"
 
 #: ../../source/tools.rst:3395
-#, fuzzy
 msgid "Slip: content will appear on the circulation receipts"
-msgstr "In der Liste der Listen wird jeweils der Name angezeigt"
+msgstr "Quittung: Der Inhalt wird auf den Quittungsdrucken in der Ausleihe angezeigt"
 
 #: ../../source/tools.rst:3397
 msgid "|image391|"
@@ -4217,11 +4156,12 @@ msgstr "|image391|"
 #: ../../source/tools.rst:3399
 msgid "**Note** This can be activated or deactivated in the :ref:`Notices & slips tool"
 msgstr ""
-"**Hinweis** Dies kann im Werkzeug :ref:`Benachrichtigungen und Quittungen"
+"**Hinweis** Dies kann im Werkzeug :ref:`Benachrichtigungen und Quittungen` "
+"aktiviert der deaktiviert werden. "
 
 #: ../../source/tools.rst:3401
 msgid "<notices-and-slips-label>`"
-msgstr "<notices-and-slips-label>` aktiviert oder deaktiviert werden."
+msgstr "."
 
 #: ../../source/tools.rst:3403
 msgid "OPAC news: content will appear above the :ref:`OpacMainUserBlock`"
@@ -4241,10 +4181,9 @@ msgstr "|image1241|"
 
 #: ../../source/tools.rst:3412
 msgid "OpacNavRight: content will appear on the right side of the OPAC page"
-msgstr ""
+msgstr "OpacNavRight: Der Inhalt wird auf der rechten Seite im OPAC angezeigt"
 
 #: ../../source/tools.rst:3414
-#, fuzzy
 msgid "|image1448|"
 msgstr "|image1448|"
 
@@ -4261,24 +4200,20 @@ msgid "Using the publication and expiration date fields you can control from whi
 msgstr "Indem Sie die Felder Veröffentlichung- und Ablaufdatum verwenden, können Sie kontrollieren wie lange der Eintrag angezeigt wird."
 
 #: ../../source/tools.rst:3423
-#, fuzzy
 msgid "Examples: (these assume today's date as 7 May 2019)"
-msgstr "Beispiele: (das heutige Datum 07-Mai-2015)"
+msgstr "Beispiele: (diese gelten für das heutige Datum als 7. Mai 2020)"
 
 #: ../../source/tools.rst:3425
-#, fuzzy
 msgid "Publish on current date: set publication date as 7 May 2019"
-msgstr "Veröffentlicht am aktuellen Datum: Veröffentlichungsdatum gesetzt auf 07-Mai-2015"
+msgstr "Heute veröffentlichen: Veröffentlichungsdatum ist 7.5.2020"
 
 #: ../../source/tools.rst:3427
-#, fuzzy
 msgid "Schedule for publishing in future: set date later than 7 May 2019"
-msgstr "Planung für die Veröffentlichung in der Zukunft: setze das Datum auf später als 07-Mai-2015"
+msgstr "In der Zukunft veröffentlichen: Veröffentlichungsdatum nach dem 7.5.2020"
 
 #: ../../source/tools.rst:3430
-#, fuzzy
 msgid "Backdate the news item: set date earlier than 7 May 2019"
-msgstr "Zurückdatieren des Nachrichtenelements: setze das Datum früher als 07-Mai-2015"
+msgstr "Zurückdatieren einer Nachricht: Veröffentlichungsdatum vor dem 7.5.2020"
 
 #: ../../source/tools.rst:3432
 msgid "'Appear in position' lets you decide what order your news items appear in"
@@ -4293,9 +4228,8 @@ msgid "After filling in all of the fields, click 'Submit'"
 msgstr "Klicken Sie auf 'Abschicken', nachdem Sie alle Felder ausgefüllt haben."
 
 #: ../../source/tools.rst:3440
-#, fuzzy
 msgid "Depending on your choice for the :ref:`NewsAuthorDisplay` system preference you will also see the person who created the news item (this uses the logged in person)"
-msgstr "Abhängig von der Einstellung, die Sie im Systemparameter :ref:`NewsAuthorDisplay` gemacht haben, wird Ihnen auch der Name der Person angezeigt, die die Nachricht erstellt hat (hierfür wird das Login der Person benötigt). "
+msgstr "Abhängig von der Einstellung, die Sie im Systemparameter :ref:`NewsAuthorDisplay` gewählt haben, wird Ihnen auch der Name der Person angezeigt, die die Nachricht erstellt hat (hierzu wird der angemeldete Nutzer verwendet)"
 
 #: ../../source/tools.rst:3447
 msgid "Task Scheduler"
@@ -4547,7 +4481,7 @@ msgstr "*Pfad in Koha:* Mehr > Werkzeuge > Weitere Werkzeuge > Upload"
 
 #: ../../source/tools.rst:3638
 msgid "This tool will allow you to upload files to your Koha system for selection from the :ref:`Cataloging form <attaching-files-to-records-label>`."
-msgstr "Diese Werkzeug erlaubt Ihnen Dateien in Ihr Koha System hochzuladen um aus der :ref:`Cataloging form <attaching-files-to-records-label>` auszuwählen. "
+msgstr "Diese Werkzeug erlaubt Ihnen Dateien in Ihr Koha-System hochzuladen, die in der :ref:`Katalogisierung <attaching-files-to-records-label>` ausgewählt werden können."
 
 #: ../../source/tools.rst:3644
 msgid "Upload Files"

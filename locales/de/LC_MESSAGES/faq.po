@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 01:16-0300\n"
-"PO-Revision-Date: 2020-11-20 19:35+0000\n"
+"PO-Revision-Date: 2021-02-26 12:45+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1605900935.064766\n"
+"X-POOTLE-MTIME: 1614343517.625060\n"
 
 #: ../../source/faq.rst:6
 msgid "FAQs"
@@ -405,20 +405,11 @@ msgstr "**Frage**: Warum kann ich keine Vormerkungen setzen, auch wenn alle Syst
 
 #: ../../source/faq.rst:335
 msgid "**Answer**: You probably need to set a default circulation rule in your :ref:`Circulation and fines rules <circulation-and-fines-rules-label>`. At the very least you will need to set a default circulation rule. his rule should be as standard rule for all libraries, 'All' itemtype', and 'All' patron category. That will catch all instances that do not match a specific rule."
-msgstr ""
-"**Antwort**: Sie müssen wahrscheinlich eine Standardausleihregel in den "
-":ref:`Ausleihkonditionen <circulation-and-fines-rules-label>` definieren. "
-"Diese Regel sollte für alle Bibliotheken, alle Medientypen und alle "
-"Benutzertypen gelten. So werden alle Fälle abgefangen für die keine "
-"spezifische Regel eingetragen wurde."
+msgstr "**Antwort**: Sie müssen wahrscheinlich eine Standardausleihregel in den :ref:`Ausleihkonditionen <circulation-and-fines-rules-label>` definieren. Diese Regel sollte für alle Bibliotheken, alle Medientypen und alle Benutzertypen gelten. So werden alle Fälle abgefangen für die keine spezifische Regel eingetragen wurde."
 
 #: ../../source/faq.rst:342
 msgid "The ability to place holds also depends on the 'On shelf holds allowed' setting in the used circulation rule. Depending on the setting, it might not be possible to place a hold, unless all or at least one item of the record is checked out."
-msgstr ""
-"Die Möglichkeit eine Vormerkung einzutragen, hängt auch von der Einstellung "
-"\"Vormerkung verfügbarer Titel\" in den Ausleihkonditionen ab. Abhängig von "
-"der gewählten Einstellung, ist es nicht möglich vorzumerken, bevor nicht "
-"mindesten eines oder alle Exemplare des Titels entliehen sind."
+msgstr "Die Möglichkeit eine Vormerkung einzutragen, hängt auch von der Einstellung \"Vormerkung verfügbarer Titel\" in den Ausleihkonditionen ab. Abhängig von der gewählten Einstellung, ist es nicht möglich vorzumerken, bevor nicht mindesten eines oder alle Exemplare des Titels entliehen sind."
 
 #: ../../source/faq.rst:350
 msgid "Keyboard shortcuts"
@@ -494,12 +485,7 @@ msgstr "Clickatell"
 
 #: ../../source/faq.rst:401
 msgid "Alternatively you can configure Koha to send SMS via Email. In order to use this feature you need to set the :ref:`SMSSendDriver` system preference to 'Email' and confiugre the email gateways for the different :ref:`SMS cellular providers <sms-cellular-providers-label>` of your patrons."
-msgstr ""
-"Alternativ können Sie Koha auch so konfigurieren, dass eine SMS via E-Mail "
-"verschickt wird. Um dieses Feature zu nutzen müssen Sie den Systemparameter "
-":ref::`SMSSendDriver` auf 'Email' setzen und die E-Mail-Gateways für die "
-"verschiedenen :ref:`SMS-Mobilfunkanbieter <sms-cellular-providers-label>` "
-"Ihrer Benutzer konfigurieren "
+msgstr "Alternativ können Sie Koha auch so konfigurieren, dass eine SMS via E-Mail verschickt wird. Um dieses Feature zu nutzen müssen Sie den Systemparameter :ref::`SMSSendDriver` auf 'Email' setzen und die E-Mail-Gateways für die verschiedenen :ref:`SMS-Mobilfunkanbieter <sms-cellular-providers-label>` Ihrer Benutzer konfigurieren "
 
 #: ../../source/faq.rst:406
 msgid "In any case you might want to check if sending SMS to your patrons is legal in your location."
@@ -523,62 +509,35 @@ msgstr "E-Mail-Benachrichtigungen"
 
 #: ../../source/faq.rst:423
 msgid "**Question**: How do I prevent my libraries notices ending up marked as spam?"
-msgstr ""
-"**Frage**: Wie verhindere ich, dass die E-Mails meiner Bibliothek im Spam "
-"landen?"
+msgstr "**Frage**: Wie verhindere ich, dass die E-Mails meiner Bibliothek im Spam landen?"
 
 #: ../../source/faq.rst:425
 msgid "**Answer**: This is a complicated topic, but thankfully Koha gives you a good degree of control via various system preferences."
-msgstr ""
-"**Antwort**: Das ist ein kompliziertes Thema, aber Koha erlaubt eine gute "
-"Kontrolle über verschiedene Systemparameter."
+msgstr "**Antwort**: Das ist ein kompliziertes Thema, aber Koha erlaubt eine gute Kontrolle über verschiedene Systemparameter."
 
 #: ../../source/faq.rst:428
 msgid "For every email sent out from Koha there are three important addresses for the system to get correct, *From*, *Reply-to* and *Sender*. These are configurable at both the system and library level and should fallback in a suitable manor if any of them are not defined."
-msgstr ""
-"Für jede E-Mail die von Koha verschickt wird, gibt es drei wichtige E-Mail-"
-"Adressen, die korrekt konfiguriert erden sollten. \"From\", \"Reply-To\" und "
-"\"Sender\". Diese können sowohl auf Installaltionsebene, als auch für jede "
-"Bibliothek konfiguriert werden, mit sinnvollen Fallbacks wenn eine von ihnen "
-"nicht angegeben wurde."
+msgstr "Für jede E-Mail die von Koha verschickt wird, gibt es drei wichtige E-Mail-Adressen, die korrekt konfiguriert erden sollten. \"From\", \"Reply-To\" und \"Sender\". Diese können sowohl auf Installaltionsebene, als auch für jede Bibliothek konfiguriert werden, mit sinnvollen Fallbacks wenn eine von ihnen nicht angegeben wurde."
 
 #: ../../source/faq.rst:433
 msgid "KohaAdminEmailAddress - This will act as the *From* address and should be an address in the same domain as the koha server [for example noreply@koha-hosting.org]"
-msgstr ""
-"KohaAdminEmailAdress - Diese fungiert als die \"From\"-Adresse und sollte "
-"eine Adresse in der gleichen Domain wie Ihr Mailserver sein [zum Beispiel "
-"noreply@koha-hosting.org]"
+msgstr "KohaAdminEmailAdress - Diese fungiert als die \"From\"-Adresse und sollte eine Adresse in der gleichen Domain wie Ihr Mailserver sein [zum Beispiel noreply@koha-hosting.org]"
 
 #: ../../source/faq.rst:435
 msgid "ReplytoDefault - This will act as the *Reply-to* address and can be in any domain [for example librarian@mylibrary.com] and this is the address which will be used if/when a patron hits 'Reply' in their email client. Note: This will fall back to KohaAdminEmailAddress when it is not set."
-msgstr ""
-"ReplyToDefault - Diese fungiert als \"Reply-To\"-Adresse und kann aus "
-"irgendeiner Domain sein [zum Beispiel librarian@mylibrary.com] und diese "
-"Adresse wird verwendet, wenn/falls ein Benutzer die Antwortfunktion in "
-"seinem E-Mail-Programm verwendet. Hinweis: Die Fallbackadresse für "
-"ReplyToDefault ist KohaAdminEmailAddress."
+msgstr "ReplyToDefault - Diese fungiert als \"Reply-To\"-Adresse und kann aus irgendeiner Domain sein [zum Beispiel librarian@mylibrary.com] und diese Adresse wird verwendet, wenn/falls ein Benutzer die Antwortfunktion in seinem E-Mail-Programm verwendet. Hinweis: Die Fallbackadresse für ReplyToDefault ist KohaAdminEmailAddress."
 
 #: ../../source/faq.rst:439
 msgid "ReturnpathDefault - This will act as the *Sender* address and also needs to be within the koha/email servers domain [for example postmaster@koha-hosting.org] and this is the address which will be used to report if an email bounces for any reason."
-msgstr ""
-"ReturnpathDefault - Dies ist die \"Sender\"-Adresse und muss ebenfalls "
-"innerhalb der gleichen Domain des Koha- bzw. Mailservers liegen [zum "
-"Beispiel postmaster@koha-hosting.org] und wird vewendet, wenn eine E-Mail "
-"aus irgendwelchen Gründen nicht zugestellt werden kann."
+msgstr "ReturnpathDefault - Dies ist die \"Sender\"-Adresse und muss ebenfalls innerhalb der gleichen Domain des Koha- bzw. Mailservers liegen [zum Beispiel postmaster@koha-hosting.org] und wird vewendet, wenn eine E-Mail aus irgendwelchen Gründen nicht zugestellt werden kann."
 
 #: ../../source/faq.rst:444
 msgid "There are parallels to all the above preferences at the per branch level which fall back in the same order as mentioned aboved before falling back to the system level preferences above when required."
-msgstr ""
-"Die gleichen Adressen finden sich auch in der Bibliothekskonfiguration und "
-"die Fallbacks erfolgen in der selben Reihenfolge wie zuvor beschrieben, "
-"bevor die globalen Parameter berücksichtigt werden."
+msgstr "Die gleichen Adressen finden sich auch in der Bibliothekskonfiguration und die Fallbacks erfolgen in der selben Reihenfolge wie zuvor beschrieben, bevor die globalen Parameter berücksichtigt werden."
 
 #: ../../source/faq.rst:448
 msgid "If you have the above configured correctly and your emails are still being treated as spam then you likely need to contact your email service provider/dns provider and look into MX, SPF and DKIM records."
-msgstr ""
-"Wenn Sie alles korrekt konfiguriert haben und die E-Mails immer noch im Spam "
-"landen, dann kontaktieren sie Ihren E-Mail-Provider oder DNS-Provider und "
-"erkundigen Sie sich nach MX, SPF und DKIM."
+msgstr "Wenn Sie alles korrekt konfiguriert haben und die E-Mails immer noch im Spam landen, dann kontaktieren sie Ihren E-Mail-Provider oder DNS-Provider und erkundigen Sie sich nach MX, SPF und DKIM."
 
 #: ../../source/faq.rst:455
 msgid "Cataloging"
@@ -610,12 +569,7 @@ msgstr "**Frage:** Kann ich Koha nutzen ohne Normsätze zu verwenden?"
 
 #: ../../source/faq.rst:480
 msgid "**Answer:** If you don't want to create authorities for your reacords at all, you can remove the authority link by blanking the Thesaurus setting for the fields in your MARC bibliographic frameworks. See also: :ref:`Edit framework subfields <edit-framework-fields-and-subfields-label>`"
-msgstr ""
-"**Antwort:** Wenn Sie für Ihre Datensätze keine Normdaten erstellen möchten, "
-"können Sie den Link für die Normdaten entfernen, indem Sie den Thesaurus "
-"entfernen, der für die Felder in Ihrem bibliographischen MARC-Framework "
-"angelegt ist. Siehe auch: :ref:`Unterfelder in Frameworks bearbeiten <edit-"
-"framework-fields-and-subfields-label>`"
+msgstr "**Antwort:** Wenn Sie für Ihre Datensätze keine Normdaten erstellen möchten, können Sie den Link für die Normdaten entfernen, indem Sie den Thesaurus entfernen, der für die Felder in Ihrem bibliographischen MARC-Framework angelegt ist. Siehe auch: :ref:`Unterfelder in Frameworks bearbeiten <edit-framework-fields-and-subfields-label>`"
 
 #: ../../source/faq.rst:488
 msgid "Koha to MARC mapping"
@@ -635,7 +589,9 @@ msgstr "Anzahl der Exemplare per bibliographischem Datesatz"
 
 #: ../../source/faq.rst:505
 msgid "**Question**: Is there a limit on the number of items I can attach to a bib record?"
-msgstr "** Frage**: Gibt es eine Beschränkung für die Anzahl der Exemplare, die ich an einen bibliographischen Datensatz anhängen kann?"
+msgstr ""
+"**Frage**: Gibt es eine Beschränkung für die Anzahl der Exemplare, die ich "
+"an einen bibliographischen Datensatz anhängen kann?"
 
 #: ../../source/faq.rst:508
 msgid "**Answer**: There is no limit to the number of items you can attach to a bibliographic record. For records with a big number of items exporting the MARC record as ISO 2709 might be problematic as this format has a size limit. Item numbers somewhere between 600 and 1000 items on a 'normal' bibliographic record should be ok."
@@ -723,7 +679,7 @@ msgstr "**Frage**: Was bedeutet der 'innere Zähler' auf der Oberfläche im erwe
 
 #: ../../source/faq.rst:585
 msgid "**Answer**: I think it is better to give an example to understand this :"
-msgstr "*Antwort**: Ich glaube es ist einfacher zu verstehen mit einem Beispiel:"
+msgstr "**Antwort**: Ich glaube, es ist einfacher zu verstehen mit einem Beispiel:"
 
 #: ../../source/faq.rst:587
 msgid "Example for a monthly subscription :"
@@ -735,7 +691,7 @@ msgstr "Publikationsdatum 1. Heft: April 2010"
 
 #: ../../source/faq.rst:591
 msgid "Numbering : No {X}, year {Y}"
-msgstr "Zählung: Nu {X}, Jahr {Y}"
+msgstr "Zählung: Nr {X}, Jahr {Y}"
 
 #: ../../source/faq.rst:593
 msgid "First issue : No 4, year 2010"
@@ -743,7 +699,7 @@ msgstr "Erstes Heft : N 4, Jahr 2010"
 
 #: ../../source/faq.rst:595
 msgid "For the year Y : you will want the year change on January 2011"
-msgstr "Für das Jahr Y : sie möchten, dass sich das Jahr im Januar 2011ändert "
+msgstr "Für das Jahr Y : Sie möchten, dass sich das Jahr im Januar 2011 ändert"
 
 #: ../../source/faq.rst:597
 msgid "So, the advanced pattern for Y will be :"
@@ -763,7 +719,7 @@ msgstr "Wenn mehr als : 9999999"
 
 #: ../../source/faq.rst:605
 msgid "Inner counter: 3"
-msgstr "Innere Zähler : 3"
+msgstr "Innerer Zähler : 3"
 
 #: ../../source/faq.rst:607
 msgid "Set back to: 0"
@@ -779,7 +735,7 @@ msgstr "Das Jahr wechselt nach 12 empfangenen Heften von April 2010 auf April 20
 
 #: ../../source/faq.rst:615
 msgid "Inner counter says to Koha to take into account the first issues of the year, even if they are not received with Koha. If you begin with first issue of the year write nothing or 0."
-msgstr "Der innere Zähler sagt Koha, dass es die ersten Hefte des Jahres berücksichtigen muss, selbst wenn diese noch nicht empfangen wurden. Wenn Sie mit dem ersten Heft des Jahres beginnen lassen Sie den inneren Zähler leer, oder tragen Sie eine 0 ein."
+msgstr "Der innere Zähler sagt Koha, dass es die ersten Hefte des Jahres berücksichtigen muss, selbst wenn diese nicht in Koha bearbeitet wurden. Wenn Sie mit dem ersten Heft des Jahres beginnen lassen Sie den inneren Zähler leer, oder tragen Sie eine 0 ein."
 
 #: ../../source/faq.rst:622
 msgid "Reports"
@@ -791,30 +747,19 @@ msgstr "SQL-Hilfe"
 
 #: ../../source/faq.rst:629
 msgid "**Question:** I don't know SQL, but I want to write a report that does X. Can you tell me how?"
-msgstr ""
-"**Frage:** Ich kann kein SQL, aber möchte einen Report schrieben, der X "
-"abfragt. Wer kann mir helfen?"
+msgstr "**Frage:** Ich kann kein SQL, aber möchte einen Report schrieben, der X abfragt. Wer kann mir helfen?"
 
 #: ../../source/faq.rst:632
 msgid "**Answer:** The `Koha reports library <https://wiki.koha-community.org/wiki/SQL_Reports_Library>`_ on the Koha wiki is a good starting point and contains a lot of SQL reports shared by other libraries that can be reused and adapted."
-msgstr ""
-"**Antwort:** Die `Koha Reports Library <https://wiki.koha-"
-"community.org/wiki/SQL_Reports_Library>`_ im Koha-Wiki ist ein guter "
-"Startpunkt und enthält viele SQL-Reports, die von anderen Bibliotheken "
-"erstellt wurden und nachgenutzt und angepasst werden können."
+msgstr "**Antwort:** Die `Koha Reports Library <https://wiki.koha-community.org/wiki/SQL_Reports_Library>`_ im Koha-Wiki ist ein guter Startpunkt und enthält viele SQL-Reports, die von anderen Bibliotheken erstellt wurden und nachgenutzt und angepasst werden können."
 
 #: ../../source/faq.rst:636
 msgid "`Koha's database schema <https://schema.koha-community.org>`_ is also publicly documented and contains helpful notes on how the columns in the various tables are used."
-msgstr ""
-"`Kohas Datenbankschema <https://schema.koha-community.org>`_ ist ebenfalls "
-"frei zugänglich dokumentiert und enthält viele hilfreiche Hinweise über die "
-"Nutzung der Spalten in den verschiedenen Tabellen."
+msgstr "`Kohas Datenbankschema <https://schema.koha-community.org>`_ ist ebenfalls frei zugänglich dokumentiert und enthält viele hilfreiche Hinweise über die Nutzung der Spalten in den verschiedenen Tabellen."
 
 #: ../../source/faq.rst:639
 msgid "If you get stuck people on the community mailing lists will often be willing to help you."
-msgstr ""
-"Wenn Sie nicht mehr weiterkommen, helfen die Community-Mailinglisten häufig "
-"weiter."
+msgstr "Wenn Sie nicht mehr weiterkommen, helfen die Community-Mailinglisten häufig weiter."
 
 #: ../../source/faq.rst:645
 msgid "Codes stored in the database"
@@ -1116,7 +1061,14 @@ msgstr "Notieren Sie, dass Sie mehr als einen Parameter in einer SQL-Abfrage hab
 
 #: ../../source/faq.rst:862
 msgid "Note that entering nothing at run time won't probably work as you expect. It will be considered as \"value empty\" not as \"ignore this parameter\". For example entering nothing for : \"title=<<Enter title>>\" will display results with title='' (no title). If you want to have to have something not mandatory, use \"title like <<Enter title>>\" and enter a % at run time instead of nothing"
-msgstr "Notieren Sie, dass wenn Sie bei Run time nichts eingeben, der Report anders arbeitet, als Sie es erwarten. Dies wird als \"leerer Wert\" betrachtet und nicht als \"ignorieren Sie diesen Parameter\". Geben Sie zum Beispiel nichts ein bei : \"title=<<Enter title>>, werden Ihnen Ergebnisse angezeigt mit title='' (no title). Wenn Sie etwas haben möchten, dass nicht obligatorisch ist, verwenden Sie \"title like <<Enter title>>\" und geben Sie bei Run time \"a%\" ein statt nichts. "
+msgstr ""
+"Notieren Sie, dass wenn Sie bei Ausführen nichts eingeben, der Report anders "
+"arbeitet, als Sie es erwarten. Dies wird als \"leerer Wert\" betrachtet und "
+"nicht als \"ignorieren Sie diesen Parameter\". Geben Sie zum Beispiel nichts "
+"ein bei : \"title=<<Titel eingeben>>, werden Ihnen Ergebnisse angezeigt mit "
+"title='' (no title). Wenn Sie etwas haben möchten, dass nicht obligatorisch "
+"ist, verwenden Sie \"title like <<Titel eingeben>>\" und geben Sie bei "
+"Ausführung ein \"%\" statt das Feld frei zu lassen."
 
 #: ../../source/faq.rst:870
 msgid "Examples:"
@@ -1128,11 +1080,16 @@ msgstr "SELECT surname,firstname FROM borrowers WHERE branchcode=<<Enter patrons
 
 #: ../../source/faq.rst:876
 msgid "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here, use % to truncate>>"
-msgstr "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here, use % to truncate>> "
+msgstr ""
+"SELECT \\* FROM items WHERE homebranch = <<Wählen Sie Ihre Bibliothek\\"
+"|branches>> and barcode like <<Teil des Barcodes hier, verwenden Sie %, um "
+"zu trunkieren>> "
 
 #: ../../source/faq.rst:880
 msgid "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>>"
-msgstr "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>> "
+msgstr ""
+"SELECT title, author FROM biblio WHERE frameworkcode=<<Frameworkcode "
+"eingeben\\|biblio\\_framework>> "
 
 #: ../../source/faq.rst:883
 msgid "|image1116|"
@@ -1221,7 +1178,9 @@ msgstr "Einige Systemparameter beeinflussen die Bedeutung der Reihenfolge negati
 
 #: ../../source/faq.rst:979
 msgid "Note: If multiple results have the same relevancy score, they will be sorted by biblionumber as second criteria."
-msgstr "Notiz: Wenn viele Ergebnisse die gleiche Bedeutung haben, werden sie als zweites Kriterium nach biblionumber sortiert."
+msgstr ""
+"Hinweis: Wenn viele Ergebnisse die gleiche Bedeutung haben, werden sie als "
+"zweites Kriterium nach biblionumber sortiert."
 
 #: ../../source/faq.rst:985
 msgid "Reset the Zebra index"
@@ -1265,13 +1224,7 @@ msgstr "In Debian heißt der Befehl *date -s \"2010-06-30 17:21\"* (mit dem rich
 
 #: ../../source/faq.rst:1033
 msgid "Amazon also requires an ISBN for displaying book covers - make sure that you have the correct ISBN for your title. If you are having trouble with a book that seems like it should have a cover but doesn't turn one up, give it a try with the 10 digit ISBN in the first 020a. If you have a 10 digit and it's not turning up, try with the 13 digit ISBN in the first 020a."
-msgstr ""
-"Amazon erfordert ebenfalls eine ISBN um Cover anzeigen zu können. - Stellen "
-"Sie sicher, das Sie die korrekte ISBN für Ihren Titel erfasst haben. Wenn "
-"Sie Probleme mit einem Buch haben, für das eigentlich ein Cover angezeigt "
-"werden müsste, versuchen Sie es mit der 10-stelligen Variante der ISBN im "
-"ersten 020$a-Feld. Wenn Sie eine 10-stellige Nummer haben und es nicht "
-"angezeigt ist, versuchen Sie statt dessen die 13-stellige ISBN."
+msgstr "Amazon erfordert ebenfalls eine ISBN um Cover anzeigen zu können. - Stellen Sie sicher, das Sie die korrekte ISBN für Ihren Titel erfasst haben. Wenn Sie Probleme mit einem Buch haben, für das eigentlich ein Cover angezeigt werden müsste, versuchen Sie es mit der 10-stelligen Variante der ISBN im ersten 020$a-Feld. Wenn Sie eine 10-stellige Nummer haben und es nicht angezeigt ist, versuchen Sie statt dessen die 13-stellige ISBN."
 
 #: ../../source/faq.rst:1043
 msgid "Server administration"
@@ -1431,9 +1384,7 @@ msgstr "**Frage**: Gibt es Brailledrucker, die eingebaute Braillekonverter haben
 
 #: ../../source/faq.rst:1195
 msgid "**Answer**: You may want to look into `BRLTTY <http://mielke.cc/brltty/>`_."
-msgstr ""
-"**Antwort**: `BRLTTY <http://mielke.cc/brltty/>`_ könnte für Sie in diesem "
-"Zusammenhang interessant sein."
+msgstr "**Antwort**: `BRLTTY <http://mielke.cc/brltty/>`_ könnte für Sie in diesem Zusammenhang interessant sein."
 
 #: ../../source/faq.rst:1200
 msgid "Additional information"

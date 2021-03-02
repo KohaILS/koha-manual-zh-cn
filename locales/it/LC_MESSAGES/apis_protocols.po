@@ -289,9 +289,7 @@ msgstr "Il valore di riepilogo è di 10 caratteri. Se si usa Y allora si sarà i
 
 #: ../../source/apis_protocols.rst:155
 msgid "The value in the <YYYYMMDD> <HHMMSS> is the current datetime, by leaving a 4 space gap between the YYYYMMDD and HHMMSS this indicates you want to use local time rather than UTC."
-msgstr ""
-"Il valore in <YYYYMMDD> <HHMMSS> è la data e ora corrente, e lasciando 4 "
-"spazi tra YYYYMMDD e HHMMSS si indica di usare il local time invece di UTC."
+msgstr "Il valore in <YYYYMMDD> <HHMMSS> è la data e ora corrente, e lasciando 4 spazi tra YYYYMMDD e HHMMSS si indica di usare il local time invece di UTC."
 
 #: ../../source/apis_protocols.rst:157
 msgid "In this manual letter codes for the various fields are used where possible in describing the SIP2 message fields e.g. AO<institutionid>."
@@ -725,30 +723,15 @@ msgstr "le 3 soluzioni da tentare per questo problema sono:"
 
 #: ../../source/apis_protocols.rst:431
 msgid "Check the portnumber your writing in the above command is the port number written in the SIPconfig.xml file at the location indicated by the number 1. i.e. in the below example because the portnumber is 6001 the correct command would be: telnet localhost 6001."
-msgstr ""
-"Controllare che il numero di porta usato nel comando precedente sia il "
-"numero di porta scritto nel file SIPconfig.xml nella posizione indicata dal "
-"numero 1. cioè nell'esempio seguente se il numero di porta è 6001 il comando "
-"corretto sarebbe: telnet localhost 6001."
+msgstr "Controllare che il numero di porta usato nel comando precedente sia il numero di porta scritto nel file SIPconfig.xml nella posizione indicata dal numero 1. cioè nell'esempio seguente se il numero di porta è 6001 il comando corretto sarebbe: telnet localhost 6001."
 
 #: ../../source/apis_protocols.rst:433
 msgid "Check if any userid is written more than once in the SIPconfig.xml file. The userid (which is simply the username of the Koha user) needs to be unique within the SIPconfig.xml file. If you have the same userid multiple times in your SIPconfig.xml file this will cause the connection to SIP2 to fail before you get a chance to authenticate."
-msgstr ""
-"Verificare se qualsiasi userid è scritto più di una volta nel file "
-"SIPconfig.xml. L'ID utente (che è semplicemente il nome utente dell'utente "
-"Koha) deve essere univoco all'interno del file SIPconfig.xml. Se hai lo "
-"stesso ID utente più volte nel file SIPconfig.xml, farà sì che la "
-"connessione a SIP2 fallisca prima dell'autenticazione."
+msgstr "Verificare se qualsiasi userid è scritto più di una volta nel file SIPconfig.xml. L'ID utente (che è semplicemente il nome utente dell'utente Koha) deve essere univoco all'interno del file SIPconfig.xml. Se hai lo stesso ID utente più volte nel file SIPconfig.xml, farà sì che la connessione a SIP2 fallisca prima dell'autenticazione."
 
 #: ../../source/apis_protocols.rst:435
 msgid "Check the account defined in the SIPconfig.xml file also exists in the Koha database with the same username, password and has circulate permissions. If you have dropped and recreated the Koha database after creating the patron account in the Koha staff interface and the SIPconfig.xml file then that patron account will not exist in the Koha database and so you will need to recreate them in the Koha staff interface."
-msgstr ""
-"Controllare se l'account definito nel file SIPconfig.xml esiste anche nel "
-"database di Koha con lo stesso nome utente e password e ha autorizzazioni di "
-"circolazione. Se hai eliminato e ricreato il database di Koha dopo aver "
-"creato l'account utente nell'interfaccia personale Koha e il file di "
-"SIPconfig.xml allora l'account utente non esiste nel database di Koha e "
-"quindi sarà necessario ricrearli nell'interfaccia personale Koha."
+msgstr "Controllare se l'account definito nel file SIPconfig.xml esiste anche nel database di Koha con lo stesso nome utente e password e ha autorizzazioni di circolazione. Se hai eliminato e ricreato il database di Koha dopo aver creato l'account utente nell'interfaccia personale Koha e il file di SIPconfig.xml allora l'account utente non esiste nel database di Koha e quindi sarà necessario ricrearli nell'interfaccia personale Koha."
 
 #: ../../source/apis_protocols.rst:437
 msgid "To access the SIP2 logs in your Koha home directory navigate to the following directory: /var/log/koha/<instancename>"
@@ -919,3 +902,4 @@ msgstr "Se Plack non viene disattivato, gli errori LDAP vengono visualizzati nel
 #: ../../source/apis_protocols.rst:623
 msgid "/var/log/koha/<instance>/"
 msgstr "/var/log/koha/<instance>/"
+

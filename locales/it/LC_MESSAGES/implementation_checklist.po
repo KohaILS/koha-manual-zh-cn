@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
 "PO-Revision-Date: 2020-11-01 22:17+0000\n"
 "Last-Translator: ztajoli <ztajoli@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -179,12 +179,7 @@ msgstr "Decidi quali `cron jobs <#cronjobsch>`__ è necessario eseguire e quando
 
 #: ../../source/implementation_checklist.rst:129
 msgid "If you're using the long overdue cron job be sure to set your :ref:`DefaultLongOverdueChargeValue`, :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` and :ref:`DefaultLongOverdueDays <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` preferences."
-msgstr ""
-"Se userai il cron job long overdue (ritardi troppo lunghi) devi configurare "
-"le preferenze :ref:`DefaultLongOverdueChargeValue`, :ref:`"
-"DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-"
-"defaultlongoverduedays-label>` e :ref:`DefaultLongOverdueDays "
-"<defaultlongoverduelostvalue-and-defaultlongoverduedays-label>`__."
+msgstr "Se userai il cron job long overdue (ritardi troppo lunghi) devi configurare le preferenze :ref:`DefaultLongOverdueChargeValue`, :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` e :ref:`DefaultLongOverdueDays <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>`__."
 
 #: ../../source/implementation_checklist.rst:138
 msgid "Localization Configuration"
@@ -228,9 +223,7 @@ msgstr "Prima di iniziare la circolazione è necessario impostare le regole e le
 
 #: ../../source/implementation_checklist.rst:169
 msgid "Define your :ref:`Circulation and fines rules <circulation-and-fines-rules-label>`"
-msgstr ""
-"Definisci le tue :ref:`Regole di circolazione e multe <circulation-and-fine-"
-"rules-label>`"
+msgstr "Definisci le tue :ref:`Regole di circolazione e multe <circulation-and-fine-rules-label>`"
 
 #: ../../source/implementation_checklist.rst:171
 msgid "Enter the :ref:`days your library is closed <calendar-label>` for fines and due date calculations"
@@ -312,9 +305,7 @@ msgstr ":ref:`WebBasedSelfCheck` : Decide se si desidera utilizzare il sistema d
 
 #: ../../source/implementation_checklist.rst:240
 msgid ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Decide if the self-checkout system requires login"
-msgstr ""
-":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>`: Decide se il "
-"sistema di self-check richiede login"
+msgstr ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>`: Decide se il sistema di self-check richiede login"
 
 #: ../../source/implementation_checklist.rst:243
 msgid ":ref:`ShowPatronImageInWebBasedSelfCheck` : Decide if you want patron images to show on the self checkout screen"
@@ -411,9 +402,7 @@ msgstr "Popola la :ref:`coda delle prenotazioni <holds-queue-label>` (ogni 1-4 o
 
 #: ../../source/implementation_checklist.rst:315
 msgid "Decide :ref:`when holds expire <cron-expired-holds-label>` (daily)"
-msgstr ""
-"Decidi :ref:`quando scadono le prenotazioni <cron-expired-holds-label>` "
-"(giornaliero)"
+msgstr "Decidi :ref:`quando scadono le prenotazioni <cron-expired-holds-label>` (giornaliero)"
 
 #: ../../source/implementation_checklist.rst:317
 msgid ":ref:`Calculate fines due <cron-fines-label>` (daily)"
@@ -425,46 +414,31 @@ msgstr "Le multe sui prestiti orari sono calcolate quando rientrano le copie"
 
 #: ../../source/implementation_checklist.rst:322
 msgid ":ref:`Mark long overdue items as lost <cron-long-overdues-label>` (daily)"
-msgstr ""
-":ref:`Contrassegna le copie in ritardo da troppo tempo come perse <cron-long-"
-"overdues-label>` (giornaliero)"
+msgstr ":ref:`Contrassegna le copie in ritardo da troppo tempo come perse <cron-long-overdues-label>` (giornaliero)"
 
 #: ../../source/implementation_checklist.rst:324
 msgid "Decide when the system :ref:`sends out messages <cron-message-queue-label>` (1-4 hours)"
-msgstr ""
-"Decidi quando il sistema :ref:`manda messaggi <cron-message-queue-label>` ("
-"ogni 1-4 ore)"
+msgstr "Decidi quando il sistema :ref:`manda messaggi <cron-message-queue-label>` (ogni 1-4 ore)"
 
 #: ../../source/implementation_checklist.rst:327
 msgid "Decide when the system :ref:`queues overdue notices <cron-overdue-notice-label>` (daily)"
-msgstr ""
-"Decidi quando il sistema :ref:`mette in coda gli avvisi per i ritardi <cron-"
-"overdue-notice-label>` (giornaliero)"
+msgstr "Decidi quando il sistema :ref:`mette in coda gli avvisi per i ritardi <cron-overdue-notice-label>` (giornaliero)"
 
 #: ../../source/implementation_checklist.rst:330
 msgid "Set up :ref:`hold notices that didn't send for printing <cron-print-hold-notices-label>` (daily after overdues and message queue)"
-msgstr ""
-"Imposta :ref:`gli avvisi per le prenotazioni che non invii e che invece "
-"stampi <cron-print-hold-notices-label>` (tutti i giorni dopo gli avvisi di "
-"ritardo, e la messa in coda dei messaggi)"
+msgstr "Imposta :ref:`gli avvisi per le prenotazioni che non invii e che invece stampi <cron-print-hold-notices-label>` (tutti i giorni dopo gli avvisi di ritardo, e la messa in coda dei messaggi)"
 
 #: ../../source/implementation_checklist.rst:332
 msgid "Decide when the system :ref:`queues the advanced notice of items due <cron-advanced-notice-label>` (daily)"
-msgstr ""
-"Decidi quando il sistema invia :ref:`gli avvisi di prossima scadenza del "
-"prestito <cron-advanced-notice-label>` (giornaliero)"
+msgstr "Decidi quando il sistema invia :ref:`gli avvisi di prossima scadenza del prestito <cron-advanced-notice-label>` (giornaliero)"
 
 #: ../../source/implementation_checklist.rst:335
 msgid "Find holds that need to be :ref:`resumed and remove suspension <cron-unsuspend-holds-label>` (daily)"
-msgstr ""
-"Trova le prenotazioni che devono :ref:`essere ripristinate e rimuovi la "
-"sospensione <cron-unsuspend-holds-label>` (giornaliero)"
+msgstr "Trova le prenotazioni che devono :ref:`essere ripristinate e rimuovi la sospensione <cron-unsuspend-holds-label>` (giornaliero)"
 
 #: ../../source/implementation_checklist.rst:338
 msgid "If you're allowing automatic renewal of items :ref:`set them to renew <cron-automatic-renewal-label>` (nightly)"
-msgstr ""
-"Se vuoi impostare il rinnovo automatico delle copie in prestito :ref:`"
-"configura il rinnovo <cron-automatic-renewal-label>` (notturno)"
+msgstr "Se vuoi impostare il rinnovo automatico delle copie in prestito :ref:`configura il rinnovo <cron-automatic-renewal-label>` (notturno)"
 
 #: ../../source/implementation_checklist.rst:344
 msgid "Patron Configuration"
@@ -545,9 +519,7 @@ msgstr ":ref:`BorrowerUnwantedField` : Decidere quali campi la tua biblioteca no
 
 #: ../../source/implementation_checklist.rst:404
 msgid "Decide if you would like :ref:`children to automatically be come adults <cron-update-child-to-adult-patron-type-label>`"
-msgstr ""
-"Decidere se si vuole che :ref:`i bambini diventino automaticamente adulti "
-"<cron-update-child-to-adult-patron-type-label>`"
+msgstr "Decidere se si vuole che :ref:`i bambini diventino automaticamente adulti <cron-update-child-to-adult-patron-type-label>`"
 
 #: ../../source/implementation_checklist.rst:410
 msgid "Cataloging Configuration"
@@ -592,9 +564,7 @@ msgstr ":ref:`URLLinkText` : Mostra il seguente testo per i link quando i campi 
 
 #: ../../source/implementation_checklist.rst:438
 msgid ":ref:`hide\\_marc <hide-marc-label>` : If you are unfamiliar with MARC you can have the MARC fields number hidden"
-msgstr ""
-":ref:`hide\\_marc <hide-marc-label>` : In caso di poca familiarità con MARC, "
-"puoi disattivare la visualizzazione dei numeri dei campi MARC"
+msgstr ":ref:`hide\\_marc <hide-marc-label>` : In caso di poca familiarità con MARC, puoi disattivare la visualizzazione dei numeri dei campi MARC"
 
 #: ../../source/implementation_checklist.rst:441
 msgid ":ref:`LabelMARCView` : Choose how you want duplicate fields to appear on the editor"
@@ -626,16 +596,11 @@ msgstr ":ref:`autoBarcode` : Scegli se attivare la generazione automatica dei co
 
 #: ../../source/implementation_checklist.rst:461
 msgid ":ref:`OpacSuppression <opacsuppression-preferences-label>` : Decide if you want to hide items marked as suppressed from the OPAC search results"
-msgstr ""
-":ref:`OpacSuppression <opacsuppression-preferences-label>` : Scegli se "
-"escludere dai risultati di ricerca nell'OPAC le copie contrassegnate come "
-"cancellate"
+msgstr ":ref:`OpacSuppression <opacsuppression-preferences-label>` : Scegli se escludere dai risultati di ricerca nell'OPAC le copie contrassegnate come cancellate"
 
 #: ../../source/implementation_checklist.rst:466
 msgid "Decide when the system :ref:`checks URLs in catalog records <cron-check-urls-label>` to see if they are still valid"
-msgstr ""
-"Decidi quando il sistema :ref:`controlla gli URL nei record del catalogo "
-"<cron-check-urls-label>` per verificarne la validità"
+msgstr "Decidi quando il sistema :ref:`controlla gli URL nei record del catalogo <cron-check-urls-label>` per verificarne la validità"
 
 #: ../../source/implementation_checklist.rst:472
 msgid "Authorities Configuration"
@@ -679,10 +644,7 @@ msgstr ":ref:`CatalogModuleRelink` : Decide se si vuole che il collegamento all'
 
 #: ../../source/implementation_checklist.rst:502
 msgid "Choose when the system looks for authorities updates to :ref:`merge changes into bibliographic records <cron-update-authorities-label>`"
-msgstr ""
-"Scegliere quando il sistema ricerca gli aggiornamenti sui record di "
-"authority :ref:`per portare le modifiche dall'authority nei record "
-"bibliografici <cron-update-authorities-label>`"
+msgstr "Scegliere quando il sistema ricerca gli aggiornamenti sui record di authority :ref:`per portare le modifiche dall'authority nei record bibliografici <cron-update-authorities-label>`"
 
 #: ../../source/implementation_checklist.rst:508
 msgid "Searching Configuration"
@@ -690,18 +652,11 @@ msgstr "Configurazione della ricerca"
 
 #: ../../source/implementation_checklist.rst:510
 msgid "There are several system preferences related to searching, it is not always recommended to make too many changes to these preferences since they are set to get you the most relevant results. If you would like to change the default way that Koha handles searching, view the :ref:`Searching system preferences <searchingsystem-preferences-label>` tab."
-msgstr ""
-"Ci sono diverse preferenze di sistema legate alla ricerca, non è sempre "
-"consigliabile apportare troppe modifiche a queste preferenze, poiché sono "
-"impostate per ottenere i risultati più rilevanti. Se si desidera modificare "
-"la modalità predefinita che Koha gestisce la ricerca, vedi il tab :ref:`"
-"Ricerca <searchingsystem-preferences-label>`."
+msgstr "Ci sono diverse preferenze di sistema legate alla ricerca, non è sempre consigliabile apportare troppe modifiche a queste preferenze, poiché sono impostate per ottenere i risultati più rilevanti. Se si desidera modificare la modalità predefinita che Koha gestisce la ricerca, vedi il tab :ref:`Ricerca <searchingsystem-preferences-label>`."
 
 #: ../../source/implementation_checklist.rst:518
 msgid "Decide how often your :ref:`system rebuilds the search index <cron-rebuild-index-label>` (4-10 min)"
-msgstr ""
-"Decidi quanto spesso il sistema :ref:`aggiorna gli indici di ricerca <cron-"
-"rebuild-index-label>` (4-10 min)"
+msgstr "Decidi quanto spesso il sistema :ref:`aggiorna gli indici di ricerca <cron-rebuild-index-label>` (4-10 min)"
 
 #: ../../source/implementation_checklist.rst:521
 msgid "Searching System Preferences"
@@ -873,9 +828,7 @@ msgstr ":ref:`opaclayoutstylesheet` : Punta a un file CSS sul tuo server Koha"
 
 #: ../../source/implementation_checklist.rst:649
 msgid ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>` : Decide if you want search terms to be highlighted on the search results"
-msgstr ""
-":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-"
-"label>` : Decidi se interessa evidenziare i termini di ricerca nei risultati"
+msgstr ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>` : Decidi se interessa evidenziare i termini di ricerca nei risultati"
 
 #: ../../source/implementation_checklist.rst:652
 msgid ":ref:`hidelostitems` : Decide if you want to show patrons items you have marked as lost"
@@ -919,16 +872,11 @@ msgstr ":ref:`EnableOpacSearchHistory` : Decidi se il sistema deve conservare la
 
 #: ../../source/implementation_checklist.rst:686
 msgid "If you have the :ref:`OpacBrowser` preference set decide :ref:`when you want the contents to rebuild <cron-authorities-browser-label>` (French libraries only)"
-msgstr ""
-"Se la preferenza :ref:`OpacBrowser` è impostata, decide :ref:`quando "
-"aggiornarne i contenuti <cron-authorities-browser-label>` (solo per "
-"biblioteche francesi)"
+msgstr "Se la preferenza :ref:`OpacBrowser` è impostata, decide :ref:`quando aggiornarne i contenuti <cron-authorities-browser-label>` (solo per biblioteche francesi)"
 
 #: ../../source/implementation_checklist.rst:690
 msgid "If you have :ref:`custom RSS feeds <custom-rss-feeds-label>`, decide when you want the :ref:`feed to be populated <cron-rss-feeds-label>`"
-msgstr ""
-"Se sono attivi i :ref:`custom RSS feeds <custom-rss-feeds-label>`, decidi "
-"quando devono essere :ref:`popolati <cron-rss-feeds-label>`"
+msgstr "Se sono attivi i :ref:`custom RSS feeds <custom-rss-feeds-label>`, decidi quando devono essere :ref:`popolati <cron-rss-feeds-label>`"
 
 #: ../../source/implementation_checklist.rst:695
 msgid "Editable OPAC Regions"
@@ -956,16 +904,11 @@ msgstr ":ref:`FRBR/Editions <frbrizeeditions-label>`"
 
 #: ../../source/implementation_checklist.rst:714
 msgid "If you would like to have your OPAC and/or staff client show an 'Editions' tab on the bibliographic record, you want to enable one or the other FRBR preferences and then the ISBN service ThingISBN."
-msgstr ""
-"Se si desidera che nell'OPAC e / o nell'interfaccia dello staff compaia una "
-"scheda 'Edizioni' del record bibliografico, attivare una o l'altra "
-"preferenza FRBR e poi il servizio ISBN ThingISBN."
+msgstr "Se si desidera che nell'OPAC e / o nell'interfaccia dello staff compaia una scheda 'Edizioni' del record bibliografico, attivare una o l'altra preferenza FRBR e poi il servizio ISBN ThingISBN."
 
 #: ../../source/implementation_checklist.rst:719
 msgid ":ref:`Amazon <amazon-system-preferences-label>` : This service is free and just requires that you visit http://aws.amazon.com to sign up"
-msgstr ""
-":ref:`Amazon <amazon-system-preferences-label>` : Questo servizio è gratuito "
-"e richiede solo di iscriversi presso http://aws.amazon.com"
+msgstr ":ref:`Amazon <amazon-system-preferences-label>` : Questo servizio è gratuito e richiede solo di iscriversi presso http://aws.amazon.com"
 
 #: ../../source/implementation_checklist.rst:722
 msgid "Using the Amazon preferences you can choose to show cover images from Amazon."
@@ -1180,3 +1123,4 @@ msgstr "Assicurarsi che, se si ospita Koha su di una propria macchina, si ha un 
 
 #~ msgid "XISBN is used to populate the editions tab on the bib record display if you have enabled FRBR. This service is free for up to 999 queries a day."
 #~ msgstr "XISBN viene utilizzato per compilare la scheda Edizioni del record bibliografico, se è stata attivata la preferenza FRBR. Questo servizio è gratuito per un massimo di 999 richieste al giorno."
+

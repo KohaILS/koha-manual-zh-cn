@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-11-06 22:53+0000\n"
-"Last-Translator: bargioni <bargioni@pusc.it>\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2020-12-29 20:41+0000\n"
+"Last-Translator: ztajoli <ztajoli@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /it/man18.05/systempreferences.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1604703228.135802\n"
+"X-POOTLE-MTIME: 1609274504.302959\n"
 
 #: ../../source/systempreferences.rst:6
 msgid "Global system preferences"
@@ -42,7 +42,6 @@ msgid "|image1|"
 msgstr "|image1|"
 
 #: ../../source/systempreferences.rst:21
-#, fuzzy
 msgid "When editing preferences a ^(modified)^ tag will appear next to items you change until you click the 'Save All' button:"
 msgstr "Quando cambi una preferenza compare una nota '(modificato)' accanto al campo interessato, finché non clicchi il tasto 'Salva tutte le preferenze':"
 
@@ -211,7 +210,6 @@ msgid "**Important**"
 msgstr "**Importante** "
 
 #: ../../source/systempreferences.rst:45
-#, fuzzy
 msgid "For libraries systems with unique URLs for each site the system preference can be overridden by editing your koha-http.conf file this has to be done by a system administrator or someone with access to your system files. For example if all libraries but one want to have search terms highlighted in results you set the OpacHighlightedWords preference to 'Highlight' then edit the koha-http.conf for the library that wants this turned off by adding 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting the web server that one library will no longer see highlighted terms. Consult with your system administrator for more information."
 msgstr "Per sistemi bibliotecari con URL univoci per ogni biblioteca, ogni preferenza di sistema può essere sovrascritta operando sul file koha-http.conf, questa è una modifica che va fatta da un gestore del sistema o da chi ha accesso ai files di configurazione. Per esempio tutte le biblioteche tranne una vogliono avere l'evidenziazione dei termini cercati. Allora si metterà la preferenza OpacHighlightedWords ad 'Evidenzia' e poi configuri la sezione ad hoc di koha-http.conf della biblioteca aggiungendo 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. Dopo aver fatto ripartire il server apache, quella biblioteca non avrà i termini di ricerca evidenziati. Consulta il tuo gestore del sistema per maggiori informazioni."
 
@@ -220,9 +218,8 @@ msgid "Accounting"
 msgstr "Gestione conti"
 
 #: ../../source/systempreferences.rst:62 ../../source/systempreferences.rst:137
-#, fuzzy
 msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
-msgstr "*Vai a:* Più > Amministrazione > Preferenze di sistema > Amministrazione"
+msgstr "*Vai a:* Più > Amministrazione > Preferenze di sistema > Acquisizioni"
 
 #: ../../source/systempreferences.rst:68 ../../source/systempreferences.rst:143
 #: ../../source/systempreferences.rst:10869
@@ -234,9 +231,8 @@ msgid "AccountAutoReconcile"
 msgstr "AccountAutoReconcile"
 
 #: ../../source/systempreferences.rst:75
-#, fuzzy
 msgid "Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction adding debits or credits."
-msgstr "Chiede: \\_\\_\\_ utenti con tessera scaduta dall'effettuare azioni nell'OPAC quali prenotare o rinnovare."
+msgstr "Chiede: \\_\\_\\_ la riconciliazione automatica del bilancio di ogni utente ad ogni transazione, aggiungendo i debiti o i crediti."
 
 #: ../../source/systempreferences.rst:77
 #: ../../source/systempreferences.rst:1521
@@ -1095,18 +1091,16 @@ msgid "Description:"
 msgstr "Descrizione:"
 
 #: ../../source/systempreferences.rst:87
-#, fuzzy
 msgid "This preference controls whether or not credits are automatically used to to reduce the owed amounts in a patron's account."
-msgstr "Questa preferenza consente di controllare se gli utenti possono chiedere articoli (ILL) usando l'OPAC."
+msgstr ""
 
 #: ../../source/systempreferences.rst:93
 msgid "FinePaymentAutoPopup"
 msgstr "FinePaymentAutoPopup"
 
 #: ../../source/systempreferences.rst:95
-#, fuzzy
 msgid "Asks: \\_\\_\\_ automatically display a print dialog for a payment receipt when making a payment."
-msgstr "Chiede: \\_\\_\\_ automaticamente i dati dell'utente quando si effettua una ricerca per utente sulla schermata della circolazione."
+msgstr ""
 
 #: ../../source/systempreferences.rst:98 ../../source/systempreferences.rst:179
 #: ../../source/systempreferences.rst:1789
@@ -1148,14 +1142,12 @@ msgid "If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a
 msgstr ""
 
 #: ../../source/systempreferences.rst:115
-#, fuzzy
 msgid "UseCashRegisters"
-msgstr "UseCourseReserves"
+msgstr "UseCashRegisters"
 
 #: ../../source/systempreferences.rst:117
-#, fuzzy
 msgid "Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
-msgstr "Chiede: \\_\\_\\_ le risorse in continuazione ricevute alla routing list."
+msgstr ""
 
 #: ../../source/systempreferences.rst:119
 #: ../../source/systempreferences.rst:443
@@ -1265,9 +1257,8 @@ msgid "This preference is used in conjunction with the :ref:`AcqItemSetSubfields
 msgstr "Questa preferenza è usata insieme alla preferenza :ref:`AcqItemSetSubfieldsWhenReceived`. Se hai configurato il sistema per immettere valori di default quando ricevi una copia, puoi volere che questi valori vengano cancellati se il ricevimento viene cancellato. Questa preferenza ti permette di farlo."
 
 #: ../../source/systempreferences.rst:214
-#, fuzzy
 msgid "AcqItemSetSubfieldsWhenReceived"
-msgstr "`AcqItemSetSubfieldsWhenReceived`"
+msgstr "AcqItemSetSubfieldsWhenReceived"
 
 #: ../../source/systempreferences.rst:216
 msgid "Asks: Upon receiving items, update their subfields if they were created when placing an order (e.g. o=5\\|a=\"foo bar\"). \\_\\_\\_"
@@ -1389,10 +1380,7 @@ msgstr "Invia"
 
 #: ../../source/systempreferences.rst:312
 msgid "When filing a claim in the :ref:`Claim Late Serials` or Acquisitions module this preference will allow for the sending of a copy of the email to the librarian."
-msgstr ""
-"Quando si inviano solleciti dal :ref:`Claim Late Serials` o dalle "
-"acquisizioni, questa preferenza permette di inviare una copia del messaggio "
-"di posta al bibliotecario stesso."
+msgstr "Quando si inviano solleciti dal :ref:`Claim Late Serials` o dalle acquisizioni, questa preferenza permette di inviare una copia del messaggio di posta al bibliotecario stesso."
 
 #: ../../source/systempreferences.rst:319
 msgid "CurrencyFormat"
@@ -1531,11 +1519,7 @@ msgstr "Chiede: Impostare i valori di mappatura per un nuovo ordine creato da un
 # vanno tradotti i nomi dei campi?
 #: ../../source/systempreferences.rst:360
 msgid "This preference includes MARC fields to check for order information to use when you are trying to :ref:`Order from a staged file` in acquisitions. You can use the following fields: price, quantity, budget\\_code, discount, sort1, sort2."
-msgstr ""
-"Questa preferenza include i campi MARC da controllare al momento dell'ordine "
-"da usare quando si :ref:`ordina a partire da un file nel deposito ` nelle "
-"acquisizioni. Puoi usare i seguenti campi: price, quantity, budget\\_code, "
-"discount, sort1, sort2."
+msgstr "Questa preferenza include i campi MARC da controllare al momento dell'ordine da usare quando si :ref:`ordina a partire da un file nel deposito ` nelle acquisizioni. Puoi usare i seguenti campi: price, quantity, budget\\_code, discount, sort1, sort2."
 
 #: ../../source/systempreferences.rst:365
 #: ../../source/systempreferences.rst:389
@@ -1587,9 +1571,8 @@ msgid "Default: barcode"
 msgstr "Default: barcode"
 
 #: ../../source/systempreferences.rst:428
-#, fuzzy
 msgid "Asks: The following database columns should be unique in an item: \\_\\_\\_ separate columns with pipe (|)."
-msgstr "Chiede: Le seguenti colonne del database devono essere compilate sulla schermata di immissione dell'utente: \\_\\_\\_"
+msgstr ""
 
 #: ../../source/systempreferences.rst:433
 msgid "If this preference is left blank when adding items in acquisitions there will be no check for uniqueness. This means that a duplicate barcode can be created in acquisitions which will cause errors later when checking items in and out."
@@ -1600,9 +1583,8 @@ msgid "UseACQFrameworkForBiblioRecords"
 msgstr "UseACQFrameworkForBiblioRecords"
 
 #: ../../source/systempreferences.rst:445
-#, fuzzy
 msgid "Asks: \\_\\_\\_ the framework 'ACQ' for bibliographic records fields"
-msgstr "Chiede: \\_\\_\\_ i cambiamenti ai record bibliografici o ai dati di copia."
+msgstr ""
 
 #: ../../source/systempreferences.rst:455
 msgid "This system preference allows you to use the ACQ framework to customize the bibliographic record fields that are shown when ordering from acquisitions"
@@ -1657,9 +1639,8 @@ msgid "casLogout"
 msgstr "casLogout"
 
 #: ../../source/systempreferences.rst:505
-#, fuzzy
 msgid "Asks: Logout of CAS when logging out of Koha: \\_\\_\\_"
-msgstr "Chiede: \\_\\_\\_ da CAS quando esci da Koha."
+msgstr "Chiede: \\_\\_\\_ ad uscire da CAS quando esci da Koha."
 
 #: ../../source/systempreferences.rst:507
 #: ../../source/systempreferences.rst:600
@@ -1792,9 +1773,8 @@ msgid "GoogleOpenIDConnect"
 msgstr "GoogleOpenIDConnect"
 
 #: ../../source/systempreferences.rst:602
-#, fuzzy
 msgid "Asks: Use Google OpenID Connect login: \\_\\_\\_"
-msgstr "Chiede: \\_\\_\\_ Google OpenID Connect login."
+msgstr "Chiede: Usa Google OpenID Connect login. \\_\\_\\_"
 
 # Administration > Google OpenID Connect
 #: ../../source/systempreferences.rst:606
@@ -1807,12 +1787,10 @@ msgstr "|image12|"
 
 # Administration > Google OpenID Connect
 #: ../../source/systempreferences.rst:622
-#, fuzzy
 msgid "GoogleOpenIDConnectAutoRegister"
-msgstr "Permetti"
+msgstr "GoogleOpenIDConnectAutoRegister"
 
 #: ../../source/systempreferences.rst:624
-#, fuzzy
 msgid "Default: Don't Allow"
 msgstr "Default: Non permettere"
 
@@ -1901,9 +1879,8 @@ msgid "Allow"
 msgstr "Permetti"
 
 #: ../../source/systempreferences.rst:637
-#, fuzzy
 msgid "GoogleOpenIDConnectDefaultBranch"
-msgstr "GoogleOpenIDConnectDomain"
+msgstr "GoogleOpenIDConnectDefaultBranch"
 
 # Administration > Google OpenID Connect
 #: ../../source/systempreferences.rst:639
@@ -1911,9 +1888,8 @@ msgid "Asks: \\_\\_\\_ Use this branchcode when automatically registering a Goog
 msgstr "Chiede: \\_\\_\\_ Usa questo codice di biblioteca quando registri automaticamente un utente Google Open ID."
 
 #: ../../source/systempreferences.rst:645
-#, fuzzy
 msgid "GoogleOpenIDConnectDefaultCategory"
-msgstr "GoogleOpenIDConnect"
+msgstr "GoogleOpenIDConnectDefaultCategory"
 
 # Administration > Google OpenID Connect
 #: ../../source/systempreferences.rst:647
@@ -2023,9 +1999,7 @@ msgstr "Chiede: quando si modificano i trigger per messaggi di ritardo/status, m
 
 #: ../../source/systempreferences.rst:757
 msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Overdue Notice/Status Triggers`."
-msgstr ""
-"Questa preferenza controlla il valore di default della tendina di "
-"biblioteche in testa a :ref:`Messaggi di sollecito e triggers`."
+msgstr "Questa preferenza controlla il valore di default della tendina di biblioteche in testa a :ref:`Messaggi di sollecito e triggers`."
 
 #: ../../source/systempreferences.rst:763
 msgid "delimiter"
@@ -2158,7 +2132,6 @@ msgid "Don't show"
 msgstr "Non mostrare"
 
 #: ../../source/systempreferences.rst:828
-#, fuzzy
 msgid "This preference allows the system administrator to determine if users will be able to set and see an item type icon in the catalog on both the OPAC and the Staff Client. The images will display in both the OPAC and the Staff Client/Intranet. If images of item types are disabled, text labels for item types will still appear in the OPAC and Staff Client."
 msgstr "Questa preferenza permette all'amministratore del sistema di determinare se gli utenti possono impostare e vedere l'icona del tipo di copia nel catalogo, sia nell'OPAC che nell'interfaccia dello staff. Se la preferenza è disabilitata, le immagini saranno sostituite da testo, sia nell'OPAC che nell'interfaccia dello staff."
 
@@ -2199,9 +2172,8 @@ msgid "This system preference is used to override any patron email address with 
 msgstr ""
 
 #: ../../source/systempreferences.rst:880
-#, fuzzy
 msgid "This is not to be used in a production environment. Otherwise, no patron will receive their intended notices."
-msgstr "Questa funzionalità è sperimentale e non andrebbe adoperata in una installazione di produzione fino al suo completo sviluppo."
+msgstr "Questa funzionalità non andrebbe adoperata in una installazione di produzione. Altrimenti nessu utente riceverà gli avvisi che deve ricevere."
 
 #: ../../source/systempreferences.rst:886
 msgid "virtualshelves"
@@ -2644,11 +2616,7 @@ msgstr "Questi dati sono conservati per tracciare l'uso di Koha nel mondo. Se sc
 
 #: ../../source/systempreferences.rst:1213
 msgid "This preference depends on the `UsageStats <#usagestats>`__ preference. Set that to 'Share' to share your information. If this field is empty data will be sent anonymously if you choose 'Share' for the `UsageStats <#usagestats>`__ preference."
-msgstr ""
-"Queste preferenze dipendono dalla preferenza :ref:`UsageStats <#usagestats>`"
-"__. Impostala a 'Share' per condividere la tua informazione. Se questo campo "
-"è vuoto, i dati verranno condivisi in modo anonimo, se imposti al valore "
-"'Share' la preferenza :ref:`UsageStats <#usagestats>`___."
+msgstr "Queste preferenze dipendono dalla preferenza :ref:`UsageStats <#usagestats>`__. Impostala a 'Share' per condividere la tua informazione. Se questo campo è vuoto, i dati verranno condivisi in modo anonimo, se imposti al valore 'Share' la preferenza :ref:`UsageStats <#usagestats>`___."
 
 #: ../../source/systempreferences.rst:1221
 msgid "UsageStatsLibraryType"
@@ -2783,9 +2751,8 @@ msgid "If your authority records includes 5xx fields with linked references to b
 msgstr "Se i tuoi record di autorità comprendono dei campi 5xx con riferimenti \"vedi anche\" a BT o NT, questa preferenza abilita la visualizzazione di queste autorità in alto nel record."
 
 #: ../../source/systempreferences.rst:1322
-#, fuzzy
 msgid "AuthorityControlledIndicators"
-msgstr "Controllo di authority"
+msgstr "AuthorityControlledIndicators"
 
 #: ../../source/systempreferences.rst:1324
 msgid "Asks: Use the following text to edit how authority records control indicators of attached biblio fields (and possibly subfield $2). Lines starting with a comment symbol (#) are skipped. Each line should be of the form: (marc21|unimarc), tag, ind1:(auth1|auth2|some_value), ind2:(auth1|auth2|thesaurus|some_value). Here auth1 and auth2 refer to the indicators of the authority record, tag is a biblio field number or an asterisk (*), and some_value is a fixed value (one character). The MARC21 option thesaurus refers to indicators controlled by authority field 008/11 and 040$f."
@@ -4136,9 +4103,7 @@ msgstr "ArticleRequests"
 
 #: ../../source/systempreferences.rst:2722
 msgid "Asks: \\_\\_\\_ patrons to place article requests."
-msgstr ""
-"Chiede: \\_\\_\\_ agli utenti di effettuare ricerche sulle richieste di "
-"articoli."
+msgstr "Chiede: \\_\\_\\_ agli utenti di effettuare ricerche sulle richieste di articoli."
 
 #: ../../source/systempreferences.rst:2728
 #: ../../source/systempreferences.rst:3893
@@ -4474,15 +4439,7 @@ msgstr "Chiede: \\_\\_\\_ calcolo e aggiornamento delle multe per ritardo quando
 
 #: ../../source/systempreferences.rst:2949
 msgid "If this preference is set to \"Do\" and the :ref:`fines cron job <cron-fines-label>` is off then Koha will calculate fines only when items are returned. If you have the fines cron job on and this preference set to \"Do\" then this preference will calculate fines based on the cron (usually run nightly) and then again when you check the item in. This option is best for those who are doing hourly loans. If this preference is set to \"Don't\" then fines will only be accrued if the fines cron job is running."
-msgstr ""
-"Se questa preferenza è impostata a 'Calcola' e il `:ref:`fines cron job "
-"<cron-fines-label>` è disattivato, Koha calcolerà le multe solo quando la "
-"copia viene restituita. Se il cronjob delle multe è attivo e questa "
-"preferenza è 'Calcola', allora questa preferenza calcolerà le multe con il "
-"cronjob (normalmente di notte) e anche al momento della restituzione di un "
-"prestito. Questa opzione è adatta per chi fa prestiti orari. Se questa "
-"preferenza ha valore 'Non calcolare', le multe verranno addebitate dal "
-"cronjob, se è attivo."
+msgstr "Se questa preferenza è impostata a 'Calcola' e il `:ref:`fines cron job <cron-fines-label>` è disattivato, Koha calcolerà le multe solo quando la copia viene restituita. Se il cronjob delle multe è attivo e questa preferenza è 'Calcola', allora questa preferenza calcolerà le multe con il cronjob (normalmente di notte) e anche al momento della restituzione di un prestito. Questa opzione è adatta per chi fa prestiti orari. Se questa preferenza ha valore 'Non calcolare', le multe verranno addebitate dal cronjob, se è attivo."
 
 #: ../../source/systempreferences.rst:2960
 msgid "If you are doing hourly loans then you should have this set to 'Do'."
@@ -4551,9 +4508,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:3042
 msgid ":ref:`HoldsAutoFill` must be set to 'do' for this preference to have any effect."
-msgstr ""
-":ref:`HoldsAutoFill` deve essere impostata su \"Attiva\" affinché questo "
-"abbia effetto."
+msgstr ":ref:`HoldsAutoFill` deve essere impostata su \"Attiva\" affinché questo abbia effetto."
 
 #: ../../source/systempreferences.rst:3048
 #, fuzzy
@@ -4574,8 +4529,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:3062
 msgid "The values are the LOC :ref:`authorised values <existing-values-label>`."
-msgstr ""
-"I valori sono i :ref:`valori autorizzati <existing-values-label>` di LOC."
+msgstr "I valori sono i :ref:`valori autorizzati <existing-values-label>` di LOC."
 
 #: ../../source/systempreferences.rst:3064
 msgid "For example, 'STAFF: GEN' will move an item from the staff office to the general collection when the item is checked in."
@@ -4980,13 +4934,7 @@ msgstr "Chiede: Addebita una copia persa all'utente quando il valore di LOST cam
 
 #: ../../source/systempreferences.rst:3578
 msgid "Leave this field empty if you don't want to charge the user for lost items. If you want the user to be charged enter the `LOST authorized value <#lost>`__ you are using in the :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` preference. This preference is used when the :ref:`longoverdue cron job <cron-long-overdues-label>` is called without the --charge parameter."
-msgstr ""
-"Lascia vuoto questo campo se non vuoi addebitare all'utenza le copie "
-"perdute. Se invece le vuoi addebitare, inserisci `LOST authorized value "
-"<#lost>`__ che stai usando nella preferenza ref:`DefaultLongOverdueLostValue "
-"<defaultlongoverduelostvalue-and-defaultlongoverduedays-label>`. Questa "
-"preferenza è usata quando il cronjob :ref:`longoverdue cron job <cron-long-"
-"overdues-label>` è fatto girare senza il parametro --charge."
+msgstr "Lascia vuoto questo campo se non vuoi addebitare all'utenza le copie perdute. Se invece le vuoi addebitare, inserisci `LOST authorized value <#lost>`__ che stai usando nella preferenza ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>`. Questa preferenza è usata quando il cronjob :ref:`longoverdue cron job <cron-long-overdues-label>` è fatto girare senza il parametro --charge."
 
 #: ../../source/systempreferences.rst:3588
 #, fuzzy
@@ -4999,14 +4947,7 @@ msgstr "Chiede: Per default, imposta il valore di LOST di una copia a \\_\\_\\_ 
 
 #: ../../source/systempreferences.rst:3595
 msgid "These preferences are used when the :ref:`longoverdue cron job <cron-long-overdues-label>` is called without the --lost parameter. It allows users to set the values of the :ref:`longoverdue cron <cron-long-overdues-label>` without having to edit the crontab. Setting the values to 1 and 30 for example will mark the item with the `LOST authorized value <#lost>`__ of 1 after the item is 30 days overdue."
-msgstr ""
-"Queste preferenze sono usate quando il cronjob :ref:`longoverdue cron job "
-"<cron-long-overdues-label>` è fatto girare senza il parametro --lost. "
-"Permette all'utenza di impostare i valori del cron :ref:`longoverdue cron "
-"<cron-long-overdues-label>` senza dover editare il crontab. Impostare i "
-"valori a 1 e 30 per esempio farà sì che la copia abbia il valore autorizzato "
-"`LOST authorized value <#lost>`__ impostato a 1 dopo che sarà rimasta non "
-"restituita per 30 giorni."
+msgstr "Queste preferenze sono usate quando il cronjob :ref:`longoverdue cron job <cron-long-overdues-label>` è fatto girare senza il parametro --lost. Permette all'utenza di impostare i valori del cron :ref:`longoverdue cron <cron-long-overdues-label>` senza dover editare il crontab. Impostare i valori a 1 e 30 per esempio farà sì che la copia abbia il valore autorizzato `LOST authorized value <#lost>`__ impostato a 1 dopo che sarà rimasta non restituita per 30 giorni."
 
 #: ../../source/systempreferences.rst:3606
 msgid "HoldsInNoissuesCharge"
@@ -6197,9 +6138,7 @@ msgstr "Per poter spedire questo email devi avere un template di :ref:`notice <n
 
 #: ../../source/systempreferences.rst:4930
 msgid "This notice will only be sent if the :ref:`process\\_message\\_queue.pl cron job <cron-message-queue-label>` is being run periodically to send the messages."
-msgstr ""
-"Questo avviso sarà spedito se il :ref:`process\\_message\\_queue.pl cronjob "
-"<cron-message-queue-label>` gira periodicamente per spedire messaggi."
+msgstr "Questo avviso sarà spedito se il :ref:`process\\_message\\_queue.pl cronjob <cron-message-queue-label>` gira periodicamente per spedire messaggi."
 
 #: ../../source/systempreferences.rst:4937
 msgid "ExcludeHolidaysFromMaxPickUpDelay"
@@ -6220,11 +6159,7 @@ msgstr "Chiede: \\_\\_\\_ che le prenotazioni scadano automaticamente se non son
 
 #: ../../source/systempreferences.rst:4968
 msgid "If set to 'allow' this will cancel holds that have been waiting for longer than the number of days specified in the :ref:`ReservesMaxPickUpDelay` system preference. Holds will only be cancelled if the :ref:`Expire Holds cron job <cron-expired-holds-label>` is runnning."
-msgstr ""
-"Se impostata a 'permetti', questa preferenza cancellerà le prenotazioni che "
-"hanno atteso più dei giorni specificati nella preferenza di sistema "
-":ref:`ReservesMaxPickUpDelay`. Le prenotazioni verranno cancellate solo se "
-"il :ref:`Expire Holds cron job <cron-expired-holds-label>` viene eseguito."
+msgstr "Se impostata a 'permetti', questa preferenza cancellerà le prenotazioni che hanno atteso più dei giorni specificati nella preferenza di sistema :ref:`ReservesMaxPickUpDelay`. Le prenotazioni verranno cancellate solo se il :ref:`Expire Holds cron job <cron-expired-holds-label>` viene eseguito."
 
 #: ../../source/systempreferences.rst:4977
 msgid "ExpireReservesMaxPickUpDelayCharge"
@@ -6236,13 +6171,7 @@ msgstr "Chiede: Se si usa :ref:`ExpireReservesMaxPickUpDelay`, addebita a un ute
 
 #: ../../source/systempreferences.rst:4988
 msgid "If you are expiring holds that have been waiting too long you can use this preference to charge the patron for not picking up their hold. If you don't charge patrons for items that aren't picked up you can leave this set to the default which is 0. Holds will only be cancelled and charged if the :ref:`Expire Holds cron job <cron-expired-holds-label>` is running."
-msgstr ""
-"Se si mette in scadenza prenotazioni che hanno atteso troppo a lungo è "
-"possibile utilizzare questa preferenza per multare l'utente. Se non multi "
-"gli utenti per le prenotazioni non ritirate in tempo, è possibile lasciare "
-"questa impostazione su default, che è 0. Le prenotazioni scadute verranno "
-"cancellate e addebitate se il cron job :ref:`Expire Holds cron job <cron-"
-"expired-holds-label>` è in esecuzione."
+msgstr "Se si mette in scadenza prenotazioni che hanno atteso troppo a lungo è possibile utilizzare questa preferenza per multare l'utente. Se non multi gli utenti per le prenotazioni non ritirate in tempo, è possibile lasciare questa impostazione su default, che è 0. Le prenotazioni scadute verranno cancellate e addebitate se il cron job :ref:`Expire Holds cron job <cron-expired-holds-label>` è in esecuzione."
 
 #: ../../source/systempreferences.rst:4998
 msgid "ExpireReservesOnHolidays"
@@ -6534,10 +6463,7 @@ msgstr "Se StaticHoldsQueueWeight viene lasciato sul valore predefinito, allora 
 
 #: ../../source/systempreferences.rst:5283
 msgid "These preferences control how the :ref:`Holds Queue report <holds-queue-label>` is generated using :ref:`a cron job <cron-holds-queue-report-label>`."
-msgstr ""
-"Queste preferenze controllano come è generato il report :ref:`Holds Queue "
-"report <holds-queue-label>` usando un :ref:`cron job <cron-holds-queue-"
-"label>`."
+msgstr "Queste preferenze controllano come è generato il report :ref:`Holds Queue report <holds-queue-label>` usando un :ref:`cron job <cron-holds-queue-label>`."
 
 #: ../../source/systempreferences.rst:5287
 msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
@@ -7199,20 +7125,11 @@ msgstr "Chiede: \\_\\_\\_ il contatore dei prestiti di un record bibliografico q
 
 #: ../../source/systempreferences.rst:5948
 msgid "This increases server load significantly; if performance is a concern, use the :ref:`cron job <cron-track-total-checkouts-label>` to update the total issues count instead."
-msgstr ""
-"Questo aumenta il carico del server in modo significativo; se le prestazioni "
-"sono un problema, utilizzare il cron job :ref:`cron job <cron-track-total-"
-"checkouts-label>` per aggiornare il conteggio dei fascicoli."
+msgstr "Questo aumenta il carico del server in modo significativo; se le prestazioni sono un problema, utilizzare il cron job :ref:`cron job <cron-track-total-checkouts-label>` per aggiornare il conteggio dei fascicoli."
 
 #: ../../source/systempreferences.rst:5955
 msgid "Koha can track the number of times and item is checked out and store that on the item record in the database. This information is not stored by default. Setting this preference to 'Do' will tell Koha to track that info everytime the item is checked out in real time. Otherwise you could use the :ref:`cron job <cron-track-total-checkouts-label>` to have Koha update that field nightly."
-msgstr ""
-"Koha può monitorare il numero di volte in cui una copia viene prestata e "
-"memorizzare il dato nel database. Queste informazioni non vengono "
-"memorizzate per default. L'impostazione di questa preferenza su 'Sì' dirà a "
-"Koha di tenere traccia in tempo reale del prestito della copia. In caso "
-"contrario si potrebbe usare il cron job ref:`cron job <cron-track-total-"
-"checkouts-label>` per aggiornare di notte quel campo."
+msgstr "Koha può monitorare il numero di volte in cui una copia viene prestata e memorizzare il dato nel database. Queste informazioni non vengono memorizzate per default. L'impostazione di questa preferenza su 'Sì' dirà a Koha di tenere traccia in tempo reale del prestito della copia. In caso contrario si potrebbe usare il cron job ref:`cron job <cron-track-total-checkouts-label>` per aggiornare di notte quel campo."
 
 #: ../../source/systempreferences.rst:5965
 msgid "WaitingNotifyAtCheckin"
@@ -10885,9 +10802,7 @@ msgstr "Chiede: \\_\\_\\_ agli utenti di i record di autorità dei soggetti nell
 #: ../../source/systempreferences.rst:10229
 #: ../../source/systempreferences.rst:10276
 msgid "run the :ref:`authorities browser cron job <cron-authorities-browser-label>` to create the browser list"
-msgstr ""
-"esegui il cron job :ref:`Autorità Browser <cron-authorities-browser-label>` "
-"per creare l'elenco"
+msgstr "esegui il cron job :ref:`Autorità Browser <cron-authorities-browser-label>` per creare l'elenco"
 
 #: ../../source/systempreferences.rst:10235
 msgid "OpacBrowseResults"
@@ -12091,13 +12006,7 @@ msgstr "Chiede: Elimina gli utenti registrati tramite l'OPAC, ma non ancora veri
 
 #: ../../source/systempreferences.rst:11652
 msgid "This preference links to the :ref:`delete\\_expired\\_opac\\_registrations.pl cron job <cron-unverified-registrations-label>`. If that cron is set to run nightly it will clean up any registrations that have not been verified via email in the number of days entered on this preference. This is dependent on :ref:`PatronSelfRegistrationVerifyByEmail` preference."
-msgstr ""
-"Questa preferenza si collega al :ref:`cron job delete\\_expired\\_opac\\"
-"_registrations.pl <cron-unverified-registrations-label>`. Se quel cron job è "
-"impostato per eseguire tutte le notti, pulirà eventuali registrazioni che "
-"non sono state verificate tramite e-mail entro il numero di giorni immessi "
-"in questa preferenza. Questo dipende dalla preferenza "
-":ref:`PatronSelfRegistrationVerifyByEmail`."
+msgstr "Questa preferenza si collega al :ref:`cron job delete\\_expired\\_opac\\_registrations.pl <cron-unverified-registrations-label>`. Se quel cron job è impostato per eseguire tutte le notti, pulirà eventuali registrazioni che non sono state verificate tramite e-mail entro il numero di giorni immessi in questa preferenza. Questo dipende dalla preferenza :ref:`PatronSelfRegistrationVerifyByEmail`."
 
 #: ../../source/systempreferences.rst:11663
 msgid "PatronSelfRegistrationLibraryList"
@@ -12565,10 +12474,7 @@ msgstr "Se la preferenza :ref:`OPACPrivacy` è impostata a 'Permetti' e l'utente
 
 #: ../../source/systempreferences.rst:12309
 msgid "Reading history is still stored, regardless of staff being allowed access or not unless the patron has chosen to have their history anonymized via their :ref:`privacy page <your-privacy-label>`."
-msgstr ""
-"Lo storico dei prestiti viene registrato lo stesso, che lo staff lo possa "
-"leggere no, tranne quando l'utente ha scelto di rendere anonimo il suo "
-"storico tramite la pagina della :ref:`privacy <your-privacy-label>`."
+msgstr "Lo storico dei prestiti viene registrato lo stesso, che lo staff lo possa leggere no, tranne quando l'utente ha scelto di rendere anonimo il suo storico tramite la pagina della :ref:`privacy <your-privacy-label>`."
 
 #: ../../source/systempreferences.rst:12316
 msgid "MaxFine"
@@ -12602,9 +12508,7 @@ msgstr "Se si desidera informare gli utenti che l'iscrizione sta per scadere, al
 
 #: ../../source/systempreferences.rst:12347
 msgid "You will need to enable the :ref:`membership expiry cron job <cron-notify-patrons-of-expiration-label>` for this notice to send."
-msgstr ""
-"È necessario attivare il cron job :ref:`scadenza iscrizione (cron-membership "
-"expiry) <cron-notify-patrons-of-expiration-label>` per fare questo."
+msgstr "È necessario attivare il cron job :ref:`scadenza iscrizione (cron-membership expiry) <cron-notify-patrons-of-expiration-label>` per fare questo."
 
 #: ../../source/systempreferences.rst:12353
 msgid "minPasswordLength"
@@ -12828,9 +12732,7 @@ msgstr "Chiede: \\_\\_\\_ notifiche via telefono all'utente utilizzando Talking 
 
 #: ../../source/systempreferences.rst:12594
 msgid "To learn more about setting up this third party product view the :ref:`Talking Tech <talking-tech-label>` chapter."
-msgstr ""
-"Per ulteriori informazioni sulla configurazione di questo prodotto di terzi "
-"si veda il capitolo :ref:`Talking Tech <talking-tech-label>`."
+msgstr "Per ulteriori informazioni sulla configurazione di questo prodotto di terzi si veda il capitolo :ref:`Talking Tech <talking-tech-label>`."
 
 #: ../../source/systempreferences.rst:12599
 msgid "Requires that you have :ref:`EnhancedMessagingPreferences` set to Allow to use."
@@ -14323,19 +14225,16 @@ msgstr "\\\\r si usa per carriage return"
 
 #: ../../source/systempreferences.rst:14469
 msgid "\\\\n is used for a new line"
-msgstr ""
-"\\\\n"
-" si usa per salto riga"
+msgstr "\\\\n si usa per salto riga"
 
 #: ../../source/systempreferences.rst:14471
+#, fuzzy
 msgid "\\\t is used for a tab"
 msgstr "\\\t si usa per tabulazione"
 
 #: ../../source/systempreferences.rst:14473
 msgid "Make sure you escape the other characters you put in there by preceding them with a backslash"
-msgstr ""
-"Assicurati di proteggere gli altri caratteri che usi qui precedendoli con "
-"una barra rovesciata"
+msgstr "Assicurati di proteggere gli altri caratteri che usi qui precedendoli con una barra rovesciata"
 
 #: ../../source/systempreferences.rst:14476
 msgid "\\\\. instead of a dot"
@@ -14356,10 +14255,7 @@ msgstr "Copie batch"
 
 #: ../../source/systempreferences.rst:14487
 msgid "These preferences are in reference to the :ref:`Batch item modification <batch-item-modification-label>` and :ref:`Batch item deletion <batch-item-deletion-label>` tools."
-msgstr ""
-"Queste preferenze fanno riferimento allo strumento :ref:`Modifica batch di "
-"copie <batch-item-modification-label>` e gli strumenti :ref:`Batch item "
-"deletion <batch-item-deletion-label>`."
+msgstr "Queste preferenze fanno riferimento allo strumento :ref:`Modifica batch di copie <batch-item-modification-label>` e gli strumenti :ref:`Batch item deletion <batch-item-deletion-label>`."
 
 #: ../../source/systempreferences.rst:14494
 #, fuzzy
@@ -14511,9 +14407,7 @@ msgstr "Chiede: \\_\\_\\_ gli indirizzi IP da usare per i servizi ILS-DI"
 
 #: ../../source/systempreferences.rst:14646
 msgid "Separate the IP addresses with commas and without spaces. For example: 15.78.193.62,197.85.10.1"
-msgstr ""
-"Separare gli IP address con virgole e senza spazi. Esempio: "
-"15.78.193.62,197.85.10.1"
+msgstr "Separare gli IP address con virgole e senza spazi. Esempio: 15.78.193.62,197.85.10.1"
 
 #: ../../source/systempreferences.rst:14651
 #, fuzzy
@@ -14583,16 +14477,11 @@ msgstr "iscrizione"
 #: ../../source/systempreferences.rst:14726
 #: ../../source/systempreferences.rst:14757
 msgid "This preference reflects the choice made in the :ref:`Mana KB configuration <share-with-mana-kb-label>` in the administration module."
-msgstr ""
-"Questa prefernza riflette la scelta fatta nella :ref:`configurazione di Mana "
-"KB <share-with-mana-kb-label>` nel modulo di amministrazione."
+msgstr "Questa prefernza riflette la scelta fatta nella :ref:`configurazione di Mana KB <share-with-mana-kb-label>` nel modulo di amministrazione."
 
 #: ../../source/systempreferences.rst:14728
 msgid "Choosing to automatically share content with Mana KB means that every time you create that type of content, it will be automatically copied in the Mana KB repository, and it will be instantly available for other libraries to copy."
-msgstr ""
-"Scegliere la condivisione automatica con Mana KB significa che ogni volta "
-"che crei quel tipo di contenuto, sarà immediatamente copiato nel repository "
-"di Mana KB e diverrà disponibile ad altre biblioteche."
+msgstr "Scegliere la condivisione automatica con Mana KB significa che ogni volta che crei quel tipo di contenuto, sarà immediatamente copiato nel repository di Mana KB e diverrà disponibile ad altre biblioteche."
 
 #: ../../source/systempreferences.rst:14732
 msgid "All content shared with Mana KB is shared under the CC0 license, meaning that there is no (zero) copyright. Anyone using Mana KB can copy, reuse and change (their copy of) your content. Read more on CC0 on the `Creative Commons Website <https://creativecommons.org/choose/zero/>`__. This will in no way change your data in your Koha installation."
@@ -14622,9 +14511,7 @@ msgstr "ManaToken"
 
 #: ../../source/systempreferences.rst:14764
 msgid "Asks: Security token used to authenticate on Mana KB: \\_\\_\\_"
-msgstr ""
-"Chiede: Il token di sicurezza usato per l'autenticazione in Mana KB: \\_\\_\\"
-"_"
+msgstr "Chiede: Il token di sicurezza usato per l'autenticazione in Mana KB: \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:14766
 #, fuzzy
@@ -14637,10 +14524,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:14774
 msgid "The Mana Token is unique and associated with your Koha installation. It is used by Koha to log onto the Mana KB server and prevents intrusions on said server."
-msgstr ""
-"Il token di Mana è unico e associato alla tua installazione di Koha. E' "
-"usato da Koha per accedere al server Mana KB e prevenire intrusioni in detto "
-"server."
+msgstr "Il token di Mana è unico e associato alla tua installazione di Koha. E' usato da Koha per accedere al server Mana KB e prevenire intrusioni in detto server."
 
 #: ../../source/systempreferences.rst:14780
 #: ../../source/systempreferences.rst:14785
@@ -14743,8 +14627,7 @@ msgstr "Chiede: Limita il numero di immagini conservate nel database a \\_\\_\\_
 
 #: ../../source/systempreferences.rst:14909
 msgid "This preference lets you choose the number of results per page you want"
-msgstr ""
-"La preferenza di permette di scegliere il numero di risultati per pagina"
+msgstr "La preferenza di permette di scegliere il numero di risultati per pagina"
 
 #: ../../source/systempreferences.rst:14914
 msgid "RESTOAuth2ClientCredentials"
@@ -14953,3 +14836,4 @@ msgstr "Questo valore verrà utilizzato per limitare il numero di risultati rest
 
 #~ msgid "This overrides :ref:`autoMemberNum` if on."
 #~ msgstr "Questo sovrascrive :ref:`autoMemberNum` se attivo."
+

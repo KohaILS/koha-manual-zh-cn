@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 18.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-06-10 03:57+0000\n"
-"Last-Translator: Pablo Bianchi <pablo.bianchi@gmail.com>\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-02-11 23:52+0000\n"
+"Last-Translator: Olga <orodriguez@duncanville.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1591761437.601808\n"
+"X-POOTLE-MTIME: 1613087557.292884\n"
 
 #: ../../source/administration.rst:6 ../../source/administration.rst:3520
 msgid "Administration"
@@ -183,36 +183,42 @@ msgid "|image127|"
 msgstr "|image127|"
 
 #: ../../source/administration.rst:100
-#, fuzzy
 msgid "IP does not have be filled in unless you plan on limiting access to your staff client to a specific IP Address"
-msgstr "Dirección IP no tiene que ser cumplimentado a menos que quiera limitar el acceso a la interfaz administrativa desde una dirección IP específica"
+msgstr ""
+"El IP no tiene que ser llenada a menos que quiera limitar el acceso a la "
+"interfaz administrativa a una dirección IP específica"
 
 #: ../../source/administration.rst:105
-#, fuzzy
 msgid "An IP address is required if you have enabled :ref:`AutoLocation`"
-msgstr "Importante: Se requiere una dirección IP si ha habilitado AutoLocation"
+msgstr "Se requiere una dirección IP si ha habilitado el :ref:'AutoLocation'"
 
 #: ../../source/administration.rst:108
 msgid "If this library has a specific `MARC organization code <http://www.loc.gov/marc/organizations/orgshome.html>`_, you can enter it   here. If left blank, the code entered in the :ref:`MARCOrgCode` preference will be used for this library."
 msgstr ""
+"Si esta biblioteca tiene un 'código de organización MARC "
+"<http://www.loc.gov/marc/organizations/orgshome.html>`_, usted puede "
+"entrar   aquí. Si se deja en blanco, se utilizará el código introducido en "
+"la preferencia :ref:`MARCOrgCode` para esta biblioteca."
 
 #: ../../source/administration.rst:110
-#, fuzzy
 msgid "If you have any notes you can put them here. These will not show in the OPAC"
-msgstr "Por último, si usted tiene cualquier aviso lo puede poner aquí. Se mostrarán en el OPAC"
+msgstr ""
+"Si usted tiene cualquier nota las puede poner aquí. Estas no se mostrarán en "
+"el OPAC"
 
 #: ../../source/administration.rst:113
 msgid "Finally, you can choose whether the library will display as an available pickup location for holds"
 msgstr ""
+"Finalmente, usted puede elegir si la biblioteca se mostrara como una "
+"localidad disponible para recoger reservas"
 
 #: ../../source/administration.rst:117
 msgid "Of the fields listed, only 'Library code' and 'Name' are required"
 msgstr "De los campos de la lista, sólo 'Código de biblioteca' y 'Nombre' son obligatorios"
 
 #: ../../source/administration.rst:122
-#, fuzzy
 msgid "Editing/deleting a library"
-msgstr "Editando/Eliminando una biblioteca"
+msgstr "Editando/eliminando una biblioteca"
 
 #: ../../source/administration.rst:124
 msgid "You will be unable to delete any library that has patrons or items attached to it."
@@ -237,16 +243,20 @@ msgstr "Grupos de bibliotecas"
 #: ../../source/administration.rst:141
 msgid "Library groups can serve four purposes: to limit access to patron data, to limit OPAC searches, to limit staff searches, and/or to define holds behavior."
 msgstr ""
+"Los grupos de biblioteca pueden servir para cuatro propositos: el limitar "
+"acceso a los datos del cliente, el limitar busquedas en el OPAC, el limitar "
+"busquedas al personal, y/o definir el comportamiento de las reservas."
 
 #: ../../source/administration.rst:145
-#, fuzzy
 msgid "*Get there:* More > Administration > Basic Parameters > Library groups"
-msgstr "*Ir a:* Más > Administración > Parámetros básicos > Bibliotecas"
+msgstr ""
+"*Llegar a:* Más > Administración > Parámetros básicos > grupos de Bibliotecas"
 
 #: ../../source/administration.rst:147
-#, fuzzy
 msgid "When visiting this page you are presented with a list of the groups that have already been added to the system."
-msgstr "Al visitar esta página se presenta una lista de las bibliotecas que ya han sido añadidas al sistema."
+msgstr ""
+"Al visitar esta página se le presentará una lista de los grupos que ya han "
+"sido agregados al sistema."
 
 #: ../../source/administration.rst:150
 msgid "|image123|"
@@ -257,9 +267,9 @@ msgid "Adding a group"
 msgstr "Agregando un grupo"
 
 #: ../../source/administration.rst:157
-#, fuzzy
 msgid "Click the 'Add Group' button at the top of the screen"
-msgstr "Haga clic en el botón 'Duplicar' al inicio del registro"
+msgstr ""
+"Haga clic en el botón 'Agregar Grupo' en la parte superior de la pantalla"
 
 #: ../../source/administration.rst:159
 msgid "|image129|"
@@ -267,23 +277,32 @@ msgstr "|image129|"
 
 #: ../../source/administration.rst:161
 msgid "Give the group a title and a description. Only the title is mandatory as it will show up in the staff client and in the OPAC. The description is only used in this page to give an idea of what the group is used for."
-msgstr ""
+msgstr "Dale al grupo un título y una descripción. Sólo el título es obligatorio ya que aparecerá en el interfaz administrativo y en el OPAC. La descripción sólo se utiliza en esta página para dar una idea de para qué se utiliza el grupo."
 
 #: ../../source/administration.rst:165
 msgid "You can limit staff from seeing other groups' patrons by checking the box next to the 'Limit patron data access by group' option."
 msgstr ""
+"Usted puede limitar al personal de ver otros grupos de usuarios comprobando "
+"la casilla al lado de la opción 'Limitar el acceso a los datos del usuario "
+"por grupo'."
 
 #: ../../source/administration.rst:170
 msgid "This can be overriden with the :ref:`user permission view_borrower_infos_ from_any_libraries <patron-permissions-defined-label>`."
 msgstr ""
+"Esto puede ser anulado con el :ref:'vista de permisos de "
+"usuario_informacion_prestamista_desde_cualquier_biblioteca <patron-"
+"permissions-defined-label>'."
 
 #: ../../source/administration.rst:173
 msgid "If you want the group to show up in the library pulldown menu at the top of the OPAC (with :ref:`OpacAddMastheadLibraryPulldown` set to 'Add') and on the advanced search page you can check the 'Use for OPAC search groups' box."
-msgstr ""
+msgstr "Si quieres que el grupo aparezca en el menú desplegable de la biblioteca en la parte superior del OPAC (con :ref:`OpacAddMastheadLibraryPulldown` establecido en 'Agregar') y en la página de búsqueda avanzada puedes marcar la casilla 'Use for OPAC search groups'."
 
 #: ../../source/administration.rst:178
 msgid "If you want the group to appear in the library pulldown in the staff client advanced search, check the 'Use for staff search groups' box."
 msgstr ""
+"Si quiere que el grupo aparezca en el desplegable de la biblioteca en la "
+"búsqueda avanzada de clientes del personal, marque la casilla 'Usar para "
+"grupos de búsqueda del personal'. "
 
 #: ../../source/administration.rst:181
 msgid "|image131|"
@@ -292,53 +311,57 @@ msgstr "|image131|"
 #: ../../source/administration.rst:185
 msgid "If you want to use this group to define holds rules, check the ‘Is local hold group’ box."
 msgstr ""
+"Si quiere usar este grupo para que defina las reglas de las reservas, marque "
+"la casilla ‘Is local hold group’."
 
 #: ../../source/administration.rst:189
-#, fuzzy
 msgid "Adding a library to a group"
-msgstr "Agregando una biblioteca"
+msgstr "Agregando una biblioteca al grupo"
 
 #: ../../source/administration.rst:191
 msgid "Click on the 'Add library' button next to the group to add a library to this group. You will be presented with a list of the libraries that are not already in the group."
 msgstr ""
+"Haga clic en el botón 'Agregar biblioteca' al lado del grupo para agregar "
+"una biblioteca a este grupo. Se le presentará con una lista de bibliotecas "
+"que no están en el grupo."
 
 #: ../../source/administration.rst:195
 msgid "|image133|"
 msgstr "|image133|"
 
 #: ../../source/administration.rst:200
-#, fuzzy
 msgid "Adding a sub-group"
-msgstr "Agregando un grupo"
+msgstr "Agregando un sub-grupo"
 
 #: ../../source/administration.rst:202
 msgid "If your system is very large, you can create sub-groups. Click on the 'Actions' button next to the group and select the 'Add a sub-group' option. Fill in the title and the description (optional) of the sub-group. The features will be inherited from the parent group."
 msgstr ""
+"Si su sistema es muy grande, puede crear sub-grupos. Haga clic en el botón "
+"'Actions' al lado del grupo y seleccione la opción 'Agregar un sub-grupo'. "
+"Llene el título y la descripción (opcional) del sub-grupo. Las "
+"características serán heredadas de los padres del grupo."
 
 #: ../../source/administration.rst:207
-#, fuzzy
 msgid "|image1323|"
-msgstr "|image1323|"
+msgstr "|imagen1323|"
 
 #: ../../source/administration.rst:212
-#, fuzzy
 msgid "Deleting a group"
-msgstr "Eliminar grupo"
+msgstr "Eliminar un grupo"
 
 #: ../../source/administration.rst:214
-#, fuzzy
 msgid "To delete a group, click on the 'Actions' button next to the group and select the 'Delete' option."
-msgstr "También puede hacer clic en el botón 'Acciones' a la derecha del presupuesto y seleccionar 'Duplicar'."
+msgstr ""
+"Para borrar un grupo, haga clic en el botón 'Acciones' al lado del grupo y "
+"seleccione la opcion 'Borrar'."
 
 #: ../../source/administration.rst:217
-#, fuzzy
 msgid "|image1324|"
-msgstr "|image1324|"
+msgstr "|imagen1324|"
 
 #: ../../source/administration.rst:219
-#, fuzzy
 msgid "|image1325|"
-msgstr "|image1325|"
+msgstr "|imagen1325|"
 
 #: ../../source/administration.rst:224 ../../source/administration.rst:3522
 msgid "Item types"
@@ -349,9 +372,10 @@ msgid "Koha allows you to organize your collection by item types and collection 
 msgstr "El Koha le permite organizar su colección por tipos de ítem y por códigos de colección."
 
 #: ../../source/administration.rst:229
-#, fuzzy
 msgid "*Get there:* More > Administration > Basic parameters > Item types"
-msgstr "*Ir a:* Más > Administración > Parámetros básicos > Tipos de ítem"
+msgstr ""
+"*Llegar allí:* Más > Administración > Parámetros básicos > Tipos de "
+"ejemplares"
 
 #: ../../source/administration.rst:231
 msgid "Item types typically refer to the material type (book, cd, dvd, etc), but can be used in any way that works for your library."
@@ -362,31 +386,42 @@ msgid "|image134|"
 msgstr "|image134|"
 
 #: ../../source/administration.rst:239
-#, fuzzy
 msgid "Adding item types"
-msgstr "Agregando tipos de ítem"
+msgstr "Agregando tipos de ejemplares"
 
 #: ../../source/administration.rst:241
-#, fuzzy
 msgid "To add a new item type, simply click the 'New item type' button at the top of the Item types page."
-msgstr "Para agregar un nuevo tipo de ítem, simplemente haga clic en el botón 'Nuevo tipo de ítem' en el tope de la página Tipos de ítem."
+msgstr ""
+"Para agregar un nuevo tipo de ejemplar, simplemente haga clic en el botón "
+"'Nuevo tipo de ejemplar' en la parte superior de la página de tipos de "
+"ejemplares."
 
 #: ../../source/administration.rst:244
 msgid "|image135|"
 msgstr "|image135|"
 
 #: ../../source/administration.rst:246
-#, fuzzy
 msgid "In the 'Item type' field, enter a short code for your item type (maximum of 10 characters)"
-msgstr "En el campo 'Tipo de ítem', introduzca un código corto para el tipo de ítem"
+msgstr ""
+"En el campo 'Tipo de ejemplar', introduzca un código corto para el tipo de "
+"ejemplar (máximo de 10 caracteres)"
 
 #: ../../source/administration.rst:249
 msgid "The description is the plain text definition of the item type (for those with multiple languages installed you can translate the item type description in to all of those languages using the 'Translate in to other languages' link)"
 msgstr ""
+"La descripción es la definición simple del texto del tipo de ejemplar (para "
+"aquellos con multiples lenguages instalados usted puede traducir la "
+"descripción del tipo de ejemplar en todos los lenguages usando el enlace "
+"'Traducir a diferentes lenguages')"
 
 #: ../../source/administration.rst:254
 msgid "Item types can be grouped together for searching at the same time. For example you can put DVDs and Bluray in to a group called Movie and then they can be searched together. These groups are defined in the ITEMTYPECAT :ref:`authorized value category <existing-values-label>`."
 msgstr ""
+"Los tipos de ejemplares pueden ser agrupados juntos para una busqueda al "
+"mismo tiempo. Por ejemplo puedes poner DVDs y Bluray en un grupo llamado "
+"Peliculas y entonces pueden ser buscados juntos. Estos grupos son definidos "
+"en el ITEMTYPECAT :ref:'autorizar valor de categoria <existing-values-"
+"label>'."
 
 #: ../../source/administration.rst:259
 msgid "You can choose to have an image associated with your item type"
@@ -405,9 +440,8 @@ msgid "Or you can just have no image associated with the item type"
 msgstr "O simplemente no hay una imagen asociada con el tipo de ítem"
 
 #: ../../source/administration.rst:269
-#, fuzzy
 msgid "To have your item type images appear in the OPAC you need to set :ref:`noItemTypeImages` to 'Show'"
-msgstr "Importante: Para que sus imágenes de tipo de ítem aparezcan en el OPAC es necesario establecer noItemTypeImages a 'Mostrar' "
+msgstr "Para que los tipos de imágenes de sus ejemplares aparezcan en el OPAC es necesario establecer :ref:'noItemTypeImages' a 'Mostrar'"
 
 #: ../../source/administration.rst:272
 msgid "*Get there:* More > Administration > Global system preferences > :ref:`Administration <administration-system-preferences-label>`"
@@ -416,14 +450,23 @@ msgstr "*Ir a:* Más > Administración > Preferencias globales del sistema > :re
 #: ../../source/administration.rst:275
 msgid "For items that you are suppressing from the OPAC you can hide their item type from being searched in the OPAC"
 msgstr ""
+"Para ejemplares que esta suprimiendo del OPAC puede esconder el tipo de "
+"ejemplar de ser buscado en el OPAC"
 
 #: ../../source/administration.rst:278
 msgid "**Note** This will not prevent those items to appear in search results, it will simply remove the item type from the advanced search form."
 msgstr ""
+"**Nota** Esto no evitará que esos ejemplares aparezcan en el resultado de la "
+"busqueda, simplemente quitará el tipo de ejemplar del formulario de busqueda "
+"avanzada."
 
 #: ../../source/administration.rst:282
 msgid "If you want to completely hide items from a certain item type, let's say that you have a professional library with books reserved for staff and you don't want those to appear in the OPAC, use the :ref:`OpacHiddenItems` system preference."
 msgstr ""
+"Si desea ocultar completamente los ejemplares de ciertos tipos de "
+"ejemplares, digamos que tenga una biblioteca profesional con libros "
+"reservados sólo para el personal y usted no quiere que esos aparezcan en el "
+"OPAC, use el sistema de preferencia :ref:'OpacHiddenItems'."
 
 #: ../../source/administration.rst:287
 msgid "For items that do not circulate, check the 'Not for loan' options"
@@ -434,28 +477,35 @@ msgid "Items marked 'Not for loan' will appear in the catalog, but cannot be che
 msgstr "Los ítems marcados 'No para préstamo' aparecerán en el catálogo, pero no pueden ser prestados a usuarios"
 
 #: ../../source/administration.rst:292
-#, fuzzy
 msgid "For items that you charge a rental fee for, there are two ways that rental fees can be charged to a patron by item type.  A flat rental charge (process fee) or a daily rental charge."
-msgstr "Para ítems a los que cobra un cargo, ingrese el total del cargo en el campo 'Cargo por préstamo' "
+msgstr ""
+"Para ejemplares por los que se cobra una tarifa de alquiler, hay dos maneras "
+"que las tarifas de alquiler se pueden cobrar al usuario, por tipo de "
+"ejemplar.  Una tarifa de alquiler fija (tarifa de proceso) o una tarifa de "
+"alquiler diaria."
 
 #: ../../source/administration.rst:296
-#, fuzzy
 msgid "For items that a library would charge a flat rental charge (process fee) for, enter the total fee you charge in the ‘Rental charge’ field. This will charge the patron on checkout (and renewal)."
-msgstr "Para ítems a los que cobra un cargo, ingrese el total del cargo en el campo 'Cargo por préstamo' "
+msgstr ""
+"Para ejemplares a los que la biblioteca cobraría una tarifa de alquiler fija "
+"(tarifa de proceso), entre el total de la tarifa cobrada en el campo ‘Tarifa "
+"de alquiler’. Esto le cobrará al usuario cuando haga un préstamo (y "
+"renovación)."
 
 #: ../../source/administration.rst:300
 msgid "For items that a rental charge will be charged by the number of days the item is checked out for, enter the daily fee in the 'Daily Rental Charge'. This will be charged to the patron upon checkout - the cost per day and how many days this item can be checked out to the patron. This daily rental charge will also be applied if/when a renewal occurs."
-msgstr ""
+msgstr "Para los ejemplares que se cobran por el número de días que se presten, introduzca la tarifa diaria en el 'Cargo por alquiler diario'. Esto será cobrado al cliente al momento del préstamo,- el costo por día y cuántos días este ejemplar puede ser prestado por el cliente. Esta tarifa diaria de alquiler también se aplicará si/cuando se produzca una renovación."
 
 #: ../../source/administration.rst:307
-#, fuzzy
 msgid "For items that are loaned out hourly, enter the cost per hour in 'Hourly rental charge'. Again, the total (hourly cost * number of hours loaned) will be charged to the patron upon checkout and renewal."
-msgstr "Para ítems a los que cobra un cargo, ingrese el total del cargo en el campo 'Cargo por préstamo' "
+msgstr ""
+"Para ejemplares que se prestan por hora, entre la tarifa por hora en 'Tarifa "
+"de alquiler por hora'. De nuevo, el total (tarifa por hora * número de horas "
+"en préstamo) será cobrado al usuario cuando haga un préstamo y renovaciones."
 
 #: ../../source/administration.rst:311
-#, fuzzy
 msgid "Each amount will charge the patron on checkout."
-msgstr "Esto cargará con un monto de dinero al usuario en el préstamo"
+msgstr "Cada cantidad se le cobrará al usuario al momento del préstamo."
 
 #: ../../source/administration.rst:315 ../../source/administration.rst:324
 #: ../../source/administration.rst:331
@@ -465,14 +515,24 @@ msgstr "No introduzca símbolos en este campo, sólo números y puntos decimales
 #: ../../source/administration.rst:318
 msgid "You can add a default replacement cost for this type of item. This is the amount that will be charged to the patron when lost if the item doesn't have a replacement cost. If the item has a replacement cost, that is the amount that will be charged to the patron."
 msgstr ""
+"Usted puede agregar una tarifa predeterminada de sustitución para este tipo "
+"de ejemplar. Esta será la cantidad que se le cobrará al usuario si el "
+"ejemplar no tiene una tarifa de sustitución cuando se pierde. Si el ejemplar "
+"tiene una tarifa de sustitución, esa será la cantidad que se le cobrará al "
+"usuario."
 
 #: ../../source/administration.rst:327
 msgid "You can also add a processing fee that will be added to the replacement cost."
 msgstr ""
+"También puede agregar una tarifa de procesamiento que será agregada a la "
+"tarifa de sustitución."
 
 #: ../../source/administration.rst:334
 msgid "If you would like a message or alert to appear when items of this type are checked in you can enter that in the 'Checkin message' box"
 msgstr ""
+"Si usted desea un mensaje o alerta que aparezca cuando los ejemplares de "
+"este tipo sean entregados, usted puede marcas eso en la caja 'mensaje de "
+"entregado'"
 
 #: ../../source/administration.rst:337
 msgid "|image136|"
@@ -481,6 +541,9 @@ msgstr "|image136|"
 #: ../../source/administration.rst:339
 msgid "The Checkin message type can be a Message or an Alert. The only difference between these two is the styling. By default a Message is blue"
 msgstr ""
+"El tipo de mensaje de Entregado puede ser un Mensaje o una Alerta. La única "
+"diferencia entre las dos es el estilo. Por predeterminación el Mensaje es "
+"azul"
 
 #: ../../source/administration.rst:343
 msgid "|image137|"
@@ -488,7 +551,7 @@ msgstr "|image137|"
 
 #: ../../source/administration.rst:345
 msgid "and an Alert is yellow."
-msgstr ""
+msgstr "y una Alerta es amarilla."
 
 #: ../../source/administration.rst:347
 msgid "|image138|"
@@ -497,28 +560,37 @@ msgstr "|image138|"
 #: ../../source/administration.rst:349
 msgid "Some SIP devices need you to use a SIP-specific media type instead of Koha's item type (usually lockers and sorters need this media type), if you use a device like this you'll want to enter the SIP media type."
 msgstr ""
+"Algunos dispositivos SIP necesitan que usted use un tipo de medio especifico "
+"SIP en lugar del tipo de ejemplar de Koha (normalmente los candados y los "
+"clasificadores necesitan este tipo de medio), si usa un dispositivo como "
+"este querrá entrar el tipo de medio SIP."
 
 #: ../../source/administration.rst:354
 msgid "If this item type is only to be used in certain libraries only, you can select them here. Select 'All libraries' if this item type is used across the library system."
 msgstr ""
+"Si este tipo de ejemplar solamente se usa en ciertas bibliotecas, puede "
+"seleccionarlas aquí. Sí este tipo de ejemplar se usa a través de todo el "
+"sistema bibliotecario seleccione 'Todas las bibliotecas'."
 
 #: ../../source/administration.rst:360
 msgid "If this is left blank, 'All libraries' is assumed."
-msgstr ""
+msgstr "Si se deja en blanco, se asume 'Todas las bibliotecas'."
 
 #: ../../source/administration.rst:364
 msgid "To select more than one library, hold the 'Ctrl' key while selecting the libraries."
 msgstr ""
+"Para seleccionar más de una biblioteca, sostenga la tecla 'Ctrl' mientras "
+"selecciona las bibliotecas."
 
 #: ../../source/administration.rst:369
-#, fuzzy
 msgid "When finished, click 'Save changes'"
-msgstr "Cuando termine, haga clic en \"Guardar cambios\""
+msgstr "Cuando termine, haga clic en 'Guardar cambios'"
 
 #: ../../source/administration.rst:373
-#, fuzzy
 msgid "All fields, with the exception of the 'Item type' will be editable from the Item types list"
-msgstr "Todos los campos, con la excepción de 'Tipo de ítem' se podrá editar desde la lista Tipos de ítem"
+msgstr ""
+"Todos los campos, con la excepción de 'Tipo de ejemplar' se podrá editar "
+"desde la lista de tipos de ejemplares"
 
 #: ../../source/administration.rst:376
 msgid "Your new item type will now appear on the list"
@@ -529,29 +601,30 @@ msgid "|image139|"
 msgstr "|image139|"
 
 #: ../../source/administration.rst:383
-#, fuzzy
 msgid "Editing item types"
-msgstr "Editando tipos de ítem"
+msgstr "Editando tipos de ejemplares"
 
 #: ../../source/administration.rst:385
-#, fuzzy
 msgid "Each item type has an Edit button beside it. To edit an item simply click the 'Edit' button."
-msgstr "Cada tipo de ítem tiene un botón Editar a su lado. Para editarlo simplemente haga clic en el enlace 'Editar'."
+msgstr ""
+"Cada tipo de ejemplar tiene un botón de Editar a su lado. Para editar un "
+"ejemplar simplemente haga clic en el botón 'Editar'."
 
 #: ../../source/administration.rst:390
-#, fuzzy
 msgid "You will not be able to edit the code you assigned as the 'Item type' but you will be able to edit the description for the item."
-msgstr "No podrá editar el código que asignó como 'Tipo de Ítem' pero podrá editar la descripción del ítem."
+msgstr ""
+"No podrá editar el código que asignó como 'Tipo de ejemplar' pero podrá "
+"editar la descripción del ejemplar."
 
 #: ../../source/administration.rst:396
-#, fuzzy
 msgid "Deleting item types"
-msgstr "Eliminando tipos de ítem"
+msgstr "Eliminando tipos de ejemplares"
 
 #: ../../source/administration.rst:398
-#, fuzzy
 msgid "Each item has a Delete button beside it. To delete an item type, simply click the 'Delete' button."
-msgstr "Cada ítem tiene un botón Eliminar a su lado. Para eliminar un ítem, simplemente haga clic en el enlace 'Eliminar'."
+msgstr ""
+"Cada ejemplar tiene un botón de Eliminar a su lado. Para eliminar un "
+"ejemplar, simplemente haga clic en el botón 'Eliminar'."
 
 #: ../../source/administration.rst:403
 msgid "You will not be able to delete item types that are being used by items within your system."
@@ -570,14 +643,14 @@ msgid "Authorized values can be used in several areas of Koha. One reason you wo
 msgstr "Los valores autorizados se pueden utilizar en distintas áreas de Koha. Una de las razones para añadir alguna nueva categoría de valores autorizados sería la de controlar los valores que se pueden introducir en los campos MARC por parte de los catalogadores."
 
 #: ../../source/administration.rst:417
-#, fuzzy
 msgid "*Get there:* More > Administration > Basic parameters > Authorized values"
-msgstr "*Ir a:* Más > Administración > Parámetros básicos > Valores autorizados"
+msgstr ""
+"*Llegar allí:* Más > Administración > Parámetros básicos > Valores "
+"autorizados"
 
 #: ../../source/administration.rst:423
-#, fuzzy
 msgid "Existing values"
-msgstr "Valores existentes"
+msgstr "Valores existentes "
 
 #: ../../source/administration.rst:425
 msgid "Koha installs with pre-defined values that your library is likely to use, for instance 'Lost'."
@@ -597,7 +670,7 @@ msgstr "Asort2"
 
 #: ../../source/administration.rst:436
 msgid "BOR\\_NOTES"
-msgstr ""
+msgstr "BOR\\_NOTES"
 
 #: ../../source/administration.rst:438
 msgid "Values for custom patron messages that appear on the circulation screen and the OPAC. The value in the Description field should be the message text and is limited to 200 characters."
@@ -638,10 +711,16 @@ msgstr "CONTROL\\_NUM\\_SEQUENCE"
 #: ../../source/administration.rst:458
 msgid "Used to generate control numbers in the advanced cataloguing editor. Enter a string ending with a number as the authorized value and use the description to describe the type of number. For example: 'sprLib0001' 'Springfield library'. In the advanced editor this will activate a new widget that will allow you to choose the type of number and generate the next number in the sequence."
 msgstr ""
+"Usado para generar los números de control en el editor avanzado de "
+"catalogación. Entre una cadena terminando con un número como el valor "
+"autorizado y use la descripción para describir el tipo de número. Por "
+"ejemplo: 'sprLib0001' 'Biblioteca Springfield'. Esto activará una nueva "
+"miniaplicación que le permitirá escoger el tipo de número y generar el "
+"siguiente número en secuencia en el editor avanzado."
 
 #: ../../source/administration.rst:465
 msgid "COUNTRY"
-msgstr ""
+msgstr "PAÍS"
 
 #: ../../source/administration.rst:467
 msgid "Used in UNIMARC 102 $a"
@@ -657,7 +736,7 @@ msgstr "Descripciones para los ítems marcados como dañados (aparece en la cata
 
 #: ../../source/administration.rst:474
 msgid "DEPARTMENT"
-msgstr ""
+msgstr "DEPARTAMENTO"
 
 #: ../../source/administration.rst:476
 msgid "Departments are required by and will be used in the `Course Reserves <#coursereserves>`__ module"
@@ -665,7 +744,7 @@ msgstr "Los Departamentos son requeridos por y serán utilizados en el módulo `
 
 #: ../../source/administration.rst:479
 msgid "ETAT"
-msgstr ""
+msgstr "ETAT"
 
 #: ../../source/administration.rst:481
 msgid "Used in French UNIMARC installations in field 995 $o to identify item status. Similar to NOT_LOAN"
@@ -673,7 +752,7 @@ msgstr "Utilizado en instalaciones francesas con UNIMARC en el campo 995 $0 para
 
 #: ../../source/administration.rst:484
 msgid "HINGS\\_AS"
-msgstr ""
+msgstr "HINGS\\_AS"
 
 #: ../../source/administration.rst:486
 msgid "General holdings: acquisition status designator :: This data element specifies acquisition status for the unit at the time of the holdings report."
@@ -681,7 +760,7 @@ msgstr "Existencias generales: designador de estado de adquisición :: Este elem
 
 #: ../../source/administration.rst:490
 msgid "HINGS\\_C"
-msgstr ""
+msgstr "HINGS\\_C"
 
 #: ../../source/administration.rst:492
 msgid "General holdings: completeness designator"
@@ -689,7 +768,7 @@ msgstr "Existencias generales: designador de integridad"
 
 #: ../../source/administration.rst:494
 msgid "HINGS\\_PF"
-msgstr ""
+msgstr "HINGS\\_PF"
 
 #: ../../source/administration.rst:496
 msgid "Physical form designators"
@@ -697,7 +776,7 @@ msgstr "Designadores de formato físico"
 
 #: ../../source/administration.rst:498
 msgid "HINGS\\_RD"
-msgstr ""
+msgstr "HINGS\\_RD"
 
 #: ../../source/administration.rst:500
 msgid "General holdings: retention designator :: This data element specifies the retention policy for the unit at the time of the holdings report."
@@ -705,7 +784,7 @@ msgstr "Fondos generales: designador de retención :: estos datos especifican la
 
 #: ../../source/administration.rst:504
 msgid "HINGS\\_UT"
-msgstr ""
+msgstr "HINGS\\_UT"
 
 #: ../../source/administration.rst:506
 msgid "General holdings: type of unit designator"
@@ -713,7 +792,7 @@ msgstr "Fondos generales: designador de tipo de unidad"
 
 #: ../../source/administration.rst:508
 msgid "HSBND\\_FREQ"
-msgstr ""
+msgstr "HSBND\\_FREQ"
 
 #: ../../source/administration.rst:510
 msgid "Frequencies used by the housebound module. They are displayed on the housebound tab in the patron account in staff."
@@ -721,20 +800,28 @@ msgstr "Frecuencias utilizadas por el módulo de préstamo domiciliar. Son mostr
 
 #: ../../source/administration.rst:513
 msgid "ITEMTYPECAT"
-msgstr ""
+msgstr "ITEMTYPECAT"
 
 #: ../../source/administration.rst:515
-#, fuzzy
 msgid "Allows multiple Item types to be searched in a category.  Categories can be entered into the Authorized value ITEMTYPECAT. To combine Item types to this category, enter this Search category to any Item types."
-msgstr "Permitir que varios tipos de ítems se puedan buscar en una sola categoría. Las categorías pueden ser agregadas en el valor autorizado ITEMTYPECAT. Para combinar tipos de ítems en esta categoría, agregue esta categoría a cualquier tipo de ítems."
+msgstr ""
+"Permitir que varios tipos de ejemplares se puedan buscar en una sola "
+"categoría. Las categorías pueden ser entradas en el valor autorizado "
+"ITEMTYPECAT. Para combinar tipos de ejemplares en esta categoría, entre ésta "
+"categoría de busqueda a cualquier tipo de ejemplares."
 
 #: ../../source/administration.rst:519
 msgid "For example, an ITEMTYPECAT could be NEW, then in the Item type for NEW BOOKS NEW DVDS, etc the search category could be added NEW. This is helpful when a patron chooses the Search category of NEW, they could get Koha to search multiple Item types with a single search."
 msgstr ""
+"Por ejemplo, un ITEMTYPECAT puede ser NUEVO, entonces en el tipo de Ejemplar "
+"para NUEVOS LIBROS NUEVOS DVDS, etc la categoría de búsqueda puede ser "
+"agregada NUEVO. Esto ayuda cuando un usuario escoge la categoría de Búsqueda "
+"de NUEVO, ellos pueden conseguir que Koha haga multiples búsquedas de tipos "
+"de ejemplares con una sola búsqueda."
 
 #: ../../source/administration.rst:524
 msgid "LANG"
-msgstr ""
+msgstr "LANG"
 
 #: ../../source/administration.rst:526
 msgid "ISO 639-2 standard language codes"
@@ -753,18 +840,21 @@ msgid "CART"
 msgstr "CARRETILLA"
 
 #: ../../source/administration.rst:535
-#, fuzzy
 msgid "Is the shelving cart location, used by :ref:`InProcessingToShelvingCart` and :ref:`ReturnToShelvingCart`"
-msgstr "'CART' es la ubicación en la estantería del carrito, usado por InProcessingToShelvingCart y ReturnToShelvingCart"
+msgstr ""
+"Es la ubicación en la estantería del carrito, usado por :ref:"
+"'InProcessingToShelvingCart' y :ref:'ReturnToShelvingCart'"
 
 #: ../../source/administration.rst:539
 msgid "PROC"
 msgstr "PROC"
 
 #: ../../source/administration.rst:541
-#, fuzzy
 msgid "The location to be used for :ref:`NewItemsDefaultLocation` (change description as desired), also the location expected by :ref:`InProcessingToShelvingCart`."
-msgstr "'PROC' es para la ubicación que se utilizará para NewItemsDefaultLocation (cambiar descripción si lo desea), también la ubicación esperada de InProcessingToShelvingCart."
+msgstr ""
+"La ubicación que se utilizará para :ref:'NewItemsDefaultLocation' (cambiar "
+"descripción como se desee), también la ubicación esperada por "
+":ref:'InProcessingToShelvingCart'."
 
 #: ../../source/administration.rst:546
 msgid "LOST"
@@ -788,20 +878,22 @@ msgstr "Una lista de razones mostradas en el formulario de sugerencias en el OPA
 
 #: ../../source/administration.rst:560
 msgid "NOT\\_LOAN"
-msgstr ""
+msgstr "NOT\\_LOAN"
 
 #: ../../source/administration.rst:562
 msgid "Reasons why a title is not for loan"
 msgstr "Motivos por los que un título no se presta"
 
 #: ../../source/administration.rst:571
-#, fuzzy
 msgid "Negative number values will still allow holds (use for on order statuses for example) where as positive numbers will not allow holds or checkouts. A value of 0 means 'for loan'."
-msgstr "Los valores numéricos negativos permitirán la reserva (para utilizar en estados de petición, por ejemplo) los números positivos no permitirán reservas ni préstamos"
+msgstr ""
+"Los valores numéricos negativos permitirán la reserva (por ejemplo para "
+"utilizar en estados de petición) mientras que los números positivos no "
+"permitirán reservas ni préstamos. Un valor de 0 significa 'para préstamo'."
 
 #: ../../source/administration.rst:575
 msgid "ORDER\\_CANCELLATION\\_REASON"
-msgstr ""
+msgstr "PEDIDO\\_CANCELACIÓN\\_RAZÓN"
 
 #: ../../source/administration.rst:577
 msgid "Reasons why an order might have been cancelled"
@@ -816,27 +908,24 @@ msgid "Populates a dropdown list of custom payment types when paying fines"
 msgstr "Rellene una lista desplegable de tipos de pago personalizados al pagar multas"
 
 #: ../../source/administration.rst:583
-#, fuzzy
 msgid "qualif"
-msgstr "Modificador"
+msgstr "calif"
 
 #: ../../source/administration.rst:585
 msgid "Function codes (author, editor, collaborator, etc.) used in UNIMARC 7XX $4 (French)"
 msgstr "Códigos de función (autor, editor, colaborador, etc.) utilizados en UNIMARC 7XX $4 (Francés)"
 
 #: ../../source/administration.rst:588
-#, fuzzy
 msgid "RELTERMS"
-msgstr "INTERMARC"
+msgstr "RELTERMS"
 
 #: ../../source/administration.rst:590
 msgid "French terms of relations"
 msgstr "Términos de relaciones franceses"
 
 #: ../../source/administration.rst:592
-#, fuzzy
 msgid "REPORT\\_GROUP"
-msgstr "REPORT\\_SUBGROUP"
+msgstr "REPORT\\_GROUP"
 
 #: ../../source/administration.rst:594
 msgid "A way to sort and filter your reports, the default values in this category include the Koha modules (Accounts, Acquitisions, Catalog, Circulation, Patrons)"
@@ -869,7 +958,7 @@ msgstr "Estado de restricción para un ítem"
 
 #: ../../source/administration.rst:613
 msgid "ROADTYPE"
-msgstr ""
+msgstr "ROADTYPE "
 
 #: ../../source/administration.rst:615
 msgid "Road types to be used in patron addresses"
@@ -909,20 +998,19 @@ msgstr "Una lista de valores de estado personalizados adicionales para sugerenci
 
 #: ../../source/administration.rst:639
 msgid "STACK"
-msgstr ""
+msgstr "PILA"
 
 #: ../../source/administration.rst:641
 msgid "Shelving control number"
 msgstr "Número de control de estantería"
 
 #: ../../source/administration.rst:643
-#, fuzzy
 msgid "TERM"
-msgstr "INTERMARC"
+msgstr "TÉRMINO"
 
 #: ../../source/administration.rst:645
 msgid "Terms to be used in `Course Reserves <#coursereserves>`__ module. Enter Terms that will show in the drop down menu when setting up a Course reserve.  (For example: Spring, Summer, Winter, Fall)."
-msgstr "Términos (períodos) para ser utilizados en el módulo `Reservas para cursos <#coursereserves>`__. Ingrese los términos que serán mostrados en el menú desplegable cuando se configura una Reserva de curso.  (Por ejemplo: Primavera, verano, invierno, otoño)."
+msgstr "Términos para ser utilizados en el módulo `Reservas para cursos <#coursereserves>`__. Ingrese los términos que serán mostrados en el menú desplegable cuando se configura una Reserva de curso.  (Por ejemplo: Primavera, verano, invierno, otoño)."
 
 #: ../../source/administration.rst:649
 msgid "WITHDRAWN"
@@ -934,25 +1022,23 @@ msgstr "Descripción de un ítem retirado (aparece al agregar o editar un ítem)
 
 #: ../../source/administration.rst:654
 msgid "YES\\_NO"
-msgstr ""
+msgstr "SI\\_NO"
 
 #: ../../source/administration.rst:656
 msgid "A generic authorized value field that can be used anywhere you need a simple yes/no pull down menu."
 msgstr "Un valor genérico autorizado que se puede utilizar en cualquier lugar que necesite un simple menú desplegable sí/no."
 
 #: ../../source/administration.rst:662
-#, fuzzy
 msgid "Add new authorized value category"
-msgstr "Añadir una nueva categoría de valor autorizado"
+msgstr "Agregar una nueva categoría de valor autorizado"
 
 #: ../../source/administration.rst:664
 msgid "In addition to the existing categories that come by default with Koha, librarians can add their own authorized value categories to control data that is entered into the system. To add a new category:"
 msgstr "Además de las categorías existentes que vienen por defecto con Koha, los bibliotecarios pueden agregar sus propias categorías de valores autorizados para controlar los datos que se introducen en el sistema. Para añadir una nueva categoría:"
 
 #: ../../source/administration.rst:668
-#, fuzzy
 msgid "Click 'New category'"
-msgstr "Haga clic en 'Nueva categoría'"
+msgstr "Haga clic en 'Nueva categoría' "
 
 #: ../../source/administration.rst:670
 msgid "|image144|"
@@ -971,9 +1057,9 @@ msgid "When adding a new category you're asked to create at least one authorized
 msgstr "l añadir una nueva categoría se le pedirá que cree al menos un valor autorizado"
 
 #: ../../source/administration.rst:683
-#, fuzzy
 msgid "Enter a code for your Authorized value into the 'Authorized value' field"
-msgstr "Introduzca un código para su valor autorizado en el campo 'Valor autorizado'"
+msgstr ""
+"Introduzca un código para su valor Autorizado en el campo 'Valor Autorizado'"
 
 #: ../../source/administration.rst:688 ../../source/administration.rst:731
 msgid "Authorized value is limited to 80 characters and cannot have spaces or special characters other than underscores and hyphens in it."
@@ -981,15 +1067,15 @@ msgstr "El valor autorizado está limitado a 80 caracteres y no puede contener e
 
 #: ../../source/administration.rst:692 ../../source/administration.rst:735
 msgid "Use the Description field for the actual value that will be displayed. If you want something different to show in the OPAC, enter a 'Description (OPAC)'"
-msgstr "Utilizar el campo Descripción para el valor real que será mostrado. Si quiere mostrar algo diferente en el OPAC, ingrese una 'Descripción OPAC'"
+msgstr "Utilizar el campo de Descripción para el valor real que será mostrado. Si quiere mostrar algo diferente en el OPAC, ingrese una 'Descripción (OPAC)'"
 
 #: ../../source/administration.rst:696 ../../source/administration.rst:739
 msgid "If you would like to limit this authorized value category to only specific libraries you can choose them from the 'Branches limitation' menu. To have it show for all libraries just choose 'All branches' at the top of the list."
-msgstr "Si quisiera limitar esta categoría de valores autorizados a una biblioteca específica, puede elegirla desde el menú 'Limitación de sedes'. Para que se muestre para todas las bibliotecas elija 'Todas las sedes' el principio de la lista."
+msgstr "Si quiere limitar esta categoría de valores autorizados a una biblioteca específica puede elegirlos desde el menú 'Limitación de ramas'. Para que se muestre para todas las bibliotecas elija 'Todas las ramas' el principio de la lista."
 
 #: ../../source/administration.rst:701 ../../source/administration.rst:744
 msgid "If you have `StaffAuthorisedValueImages <#StaffAuthorisedValueImages>`__ and/or :ref:`AuthorisedValueImages` set to show images for authorized values you can choose the image under 'Choose an icon'"
-msgstr ""
+msgstr "Si tiene `StaffAuthorisedValueImages <#StaffAuthorisedValueImages>`__ y/o :ref:`AuthorisedValueImages` establecido para mostrar imágenes para valores autorizados debe elegir la imagen debajo de 'Seleccione un icono'"
 
 #: ../../source/administration.rst:707 ../../source/administration.rst:749
 #: ../../source/administration.rst:1888 ../../source/administration.rst:1904
@@ -997,18 +1083,17 @@ msgid "Click 'Save'"
 msgstr "Haga clic en 'Guardar'"
 
 #: ../../source/administration.rst:709
-#, fuzzy
 msgid "Your new category and value will appear on the list of Authorized values"
-msgstr "Su nueva categoría y valor aparecerán en la lista Valores autorizados"
+msgstr ""
+"Su nueva categoría y valor aparecerán en la lista de valores Autorizados"
 
 #: ../../source/administration.rst:712
 msgid "|image145|"
 msgstr "|image145|"
 
 #: ../../source/administration.rst:717
-#, fuzzy
 msgid "Add new authorized value"
-msgstr "Agregar nuevo valor autorizado"
+msgstr "Agregar nuevo valor autorizado "
 
 #: ../../source/administration.rst:719
 msgid "New authorized values can be added to any existing or new category. To add a value:"
@@ -1023,9 +1108,9 @@ msgid "|image146|"
 msgstr "|image146|"
 
 #: ../../source/administration.rst:726
-#, fuzzy
 msgid "Enter a code for your authorized value into the 'Authorized value' field"
-msgstr "Introduzca un código para su valor autorizado en el campo 'Valor autorizado'"
+msgstr ""
+"Introduzca un código para su valor autorizado en el campo 'Valor Autorizado'"
 
 #: ../../source/administration.rst:751
 msgid "The new value will appear in the list along with existing values"
@@ -1052,9 +1137,10 @@ msgid "Patron categories allow you to organize your patrons into different roles
 msgstr "Las categorías de usuarios le permiten organizar sus usuarios según diferentes roles, grupos de edad y los tipos de usuario."
 
 #: ../../source/administration.rst:770
-#, fuzzy
 msgid "*Get there:* More > Administration > Patrons and circulation > Patron categories"
-msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Categorías de usuario"
+msgstr ""
+"*Llegar allí:* Más > Administración > Usuarios y circulación > categorías de "
+"Usuario"
 
 #: ../../source/administration.rst:773
 msgid "|image148|"
@@ -1087,6 +1173,10 @@ msgstr "Administrativo"
 #: ../../source/administration.rst:788
 msgid "Librarians (and library workers) should be assigned the staff category so that you can :ref:`set their permissions <patron-permissions-label>` and give them access to the staff client."
 msgstr ""
+"Los bibliotecarios (y el personal de la biblioteca) deberían de estar "
+"asignados a la categoría de personal para que usted pueda :ref:`asignarles "
+"sus permisos <patron-permissions-label>`y darles acceso a la interfaz "
+"administrativa."
 
 #: ../../source/administration.rst:793
 msgid "Organizational"
@@ -1117,23 +1207,24 @@ msgid "Adding a patron category"
 msgstr "Agregando una categoría de usuario"
 
 #: ../../source/administration.rst:812
-#, fuzzy
 msgid "To add a new patron category click 'New category' at the top of the page"
-msgstr "Para agregar una nueva categoría de usuario haga clic en 'Nueva Categoría' en el tope de la página"
+msgstr ""
+"Para agregar una nueva categoría de usuario haga clic en 'Nueva Categoría' "
+"en la parte superior de la página"
 
 #: ../../source/administration.rst:814
 msgid "|image149|"
 msgstr "|image149|"
 
 #: ../../source/administration.rst:816
-#, fuzzy
 msgid "The 'Category code' is an identifier for your new code."
 msgstr "El 'Código de la categoría' es un identificador para su nuevo código."
 
 #: ../../source/administration.rst:820
-#, fuzzy
 msgid "The category code is limited to 10 characters (numbers and letters) and must be unique."
-msgstr "El código de la categoría puede tener una longitud máxima de 10 caracteres (números y letras)"
+msgstr ""
+"El código de la categoría está limitada a 10 caracteres (números y letras) y "
+"debe ser único."
 
 #: ../../source/administration.rst:825 ../../source/administration.rst:833
 #: ../../source/administration.rst:848 ../../source/administration.rst:903
@@ -1145,9 +1236,12 @@ msgid "Enter a plain text version of the category in the 'Description' field."
 msgstr "Ingrese una versión de texto de la categoría en el campo 'Descripción'."
 
 #: ../../source/administration.rst:836
-#, fuzzy
 msgid "Enrollment period (in months) should be filled in if you have a limited enrollment period for your patrons (eg. Student cards expire after 9 months), otherwise, you can choose a date when the cards will expire (until date)"
-msgstr "El periodo de asociación (en meses) debe completarse si hay un período de inscripción limitada para sus usuarios (por ejemplo, el carnet de usuario de estudiante expira después de 9 meses o hasta una fecha específica)"
+msgstr ""
+"El período de inscripción (en meses) debe completarse si hay un período de "
+"inscripción limitado para sus usuarios (por ejemplo, la tarjeta del "
+"estudiante expira después de 9 meses) de otra manera, usted puede escoger "
+"una fecha cuando las tarjetas expiren( hasta una fecha)"
 
 #: ../../source/administration.rst:843
 msgid "You cannot enter both a month limit and a date until. Choose to enter either one or the other."
@@ -1172,6 +1266,9 @@ msgstr "Solo introduzca números y decimales en este campo"
 #: ../../source/administration.rst:867
 msgid "Depending on your value for the :ref:`FeeOnChangePatronCategory` preference this fee will be charged on patron renewal as well as when they are first enrolled."
 msgstr ""
+"Dependiendo en su valor por la preferencia :ref:"
+"'TarifaEnElCambioDeCategoriaDeUsuario' ésta tarifa se le cobrará al usuario "
+"cuando renueve, así cómo también cuando se inscriba por primera vez."
 
 #: ../../source/administration.rst:872
 msgid "If you want your patron to receive overdue notices, set the 'Overdue notice required' to 'Yes'. This will enable you to set the :ref:`overdue notice triggers <overdue-notice/status-triggers-label>` in the Tools module."
@@ -1202,33 +1299,46 @@ msgid "|image154|"
 msgstr "|image154|"
 
 #: ../../source/administration.rst:906
-#, fuzzy
 msgid "The Branch limitations let you limit this patron category to only some branches in your library system. Select 'All branches' if you would like any library to be able to use this category."
-msgstr "La Limitación de Sedes le permite limitar esta categoría de usuario a algunas sedes de tu sistema de bibliotecas. Seleccione 'Todas las sedes' si desea que cualquier biblioteca utilice esta categoría."
+msgstr ""
+"La limitación de Ramas le permite limitar esta categoría de usuario a "
+"algunas ramas de su sistema de bibliotecas. Seleccione 'Todas las ramas' si "
+"desea que cualquier biblioteca utilice esta categoría."
 
 #: ../../source/administration.rst:910
-#, fuzzy
 msgid "You can decide whether patrons of this category are allowed to reset their password through the OPAC's 'Forgotten password' function. By default, it will follow the rule set in the :ref:`OpacResetPassword` system preference."
-msgstr "Usted puede decidir si esta categoría de usuario es bloqueada y no podrá realizar acciones en el OPAC si ha caducado su carné utilizando la siguiente opción. Por defecto se seguirá la regla establecida en la preferencia BlockExpiredPatronOpacActions"
+msgstr ""
+"Usted puede decidir si esta categoría de usuario se le permite o no resetear "
+"su contraseña por medio de la función de OPAC 'contraseña olvidada'. Por "
+"defecto seguirá la regla establecida en el sistema de preferencia "
+":ref:'ResetearContraseñaOpac'."
 
 #: ../../source/administration.rst:915
-#, fuzzy
 msgid "You can decide whether patrons of this category are allowed to change their password through the OPAC. By default, it will follow the rule set in the :ref:`OpacPasswordChange` system preference."
-msgstr "Usted puede decidir si esta categoría de usuario es bloqueada y no podrá realizar acciones en el OPAC si ha caducado su carné utilizando la siguiente opción. Por defecto se seguirá la regla establecida en la preferencia BlockExpiredPatronOpacActions"
+msgstr ""
+"Usted puede decidir si esta categoría de usuarios se les permite cambiar sus "
+"contraseñas por medio de OPAC. Por defecto, seguirá la regla establecida en "
+"el sistema de preferencia :ref:'CambioContraseñaOpac'."
 
 #: ../../source/administration.rst:919
-#, fuzzy
 msgid "You can decide if this patron category is blocked from performing actions in the OPAC if their card is expired using the next option. By default it will follow the rule set in the :ref:`BlockExpiredPatronOpacActions` preference"
-msgstr "Usted puede decidir si esta categoría de usuario es bloqueada y no podrá realizar acciones en el OPAC si ha caducado su carné utilizando la siguiente opción. Por defecto se seguirá la regla establecida en la preferencia BlockExpiredPatronOpacActions"
+msgstr ""
+"Usted puede decidir si esta categoría de usuario es bloqueada y no podrá "
+"realizar acciones en el OPAC si ha caducado su carné utilizando la siguiente "
+"opción. Por defecto se seguirá la regla establecida en la preferencia "
+":ref:'BlockExpiredPatronOpacActions'"
 
 #: ../../source/administration.rst:924
 msgid "|image1203|"
 msgstr "|image1203|"
 
 #: ../../source/administration.rst:926
-#, fuzzy
 msgid "Next you can choose the default privacy settings for this patron category. This setting can be edited by the patron via the OPAC if you allow it with the :ref:`OPACPrivacy` system preference."
-msgstr "A continuación, puede elegir la configuración de privacidad predeterminada para esta categoría de usuarios. Este ajuste puede ser editado para el usuario a través del OPAC si usted lo permite, con la preferencia del sistema OPACPrivacy."
+msgstr ""
+"A continuación, puede elegir la configuración de privacidad predeterminada "
+"para esta categoría de usuarios. Este ajuste puede ser editado por el "
+"usuario a través del OPAC si usted lo permite, con la preferencia del "
+"sistema :ref:'OPACPrivacy'."
 
 #: ../../source/administration.rst:931
 msgid "|image1204|"
@@ -1237,15 +1347,21 @@ msgstr "|image1204|"
 #: ../../source/administration.rst:933
 msgid "You can set the preference for checking the patron's circulation history when checking out an item. This option will only be available if the :ref:`CheckPrevCheckout` system preference is set to 'Unless overridden by patron category, do' or 'Unless overridden by patron category, do not'. This setting can be overridden on a per-patron basis in their :ref:`individual file <add-a-new-patron-label>`."
 msgstr ""
+"Usted puede configurar las preferencias del historial de circulación del "
+"usuario cuando el usuario este prestando un ejemplar. Esta opción sólo "
+"estará disponible si la preferencia del sistema :ref:`CheckPrevCheckout` "
+"está establecida en 'A menos que sea anulada por la categoría del usuario, "
+"sí' o 'A menos que sea anulada por la categoría del usuario, no'. .  Este "
+"ajuste puede ser anulado por cada usuario en su :ref:'archivo "
+"individual<add-a-new-patron-label>'."
 
 #: ../../source/administration.rst:940
 msgid "Finally you can assign advanced messaging preferences by default to a patron category"
 msgstr "Por último se puede asignar preferencias avanzadas de mensajería de forma predeterminada a una categoría de usuario"
 
 #: ../../source/administration.rst:945
-#, fuzzy
 msgid "Requires that you have :ref:`EnhancedMessagingPreferences` enabled"
-msgstr "Importante: Requiere que esté habilitado EnhancedMessagingPreferences"
+msgstr "Requiere que esté habilitado :ref:'EnhancedMessagingPreferences'"
 
 #: ../../source/administration.rst:949
 msgid "These defaults will be applied to new patrons that are added to the system. They will not edit the preferences of the existing patrons. Also, these can be changed for individual patrons, this setting is just a default to make it easier to set up messages for an entire category."
@@ -1254,6 +1370,11 @@ msgstr "Importante: Estos pueden ser cambiados por los usuarios individuales, es
 #: ../../source/administration.rst:957
 msgid "After setting the default for the patron category you can force those changes to all existing patrons by running the *borrowers-force-messaging-defaults* script found in the *misc/maintenance* folder. Ask your system administrator for assistance with this script."
 msgstr ""
+"Después de configurar por defecto la categoría del socio se puede forzar "
+"cambios a todos los socios existentes ejecutando el *borrowers-force-"
+"messaging-defaults* en el guión que se encuentra en la carpeta "
+"*misc/maintenance*. Pregunte a su administrador del sistema para asistencia "
+"con este guión."
 
 #: ../../source/administration.rst:966
 msgid "Circulation and fines rules"
@@ -1264,9 +1385,10 @@ msgid "These rules define how your items are circulated, how/when fines are calc
 msgstr "Estas reglas definen cómo circulan los ítems, cómo y cuando se calculan las multas y cómo se manejan las reservas."
 
 #: ../../source/administration.rst:971
-#, fuzzy
 msgid "*Get there:* More > Administration > Patrons and circulation > Circulation and fines rules"
-msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Reglas de circulación y multas"
+msgstr ""
+"*Llegar allí:* Más > Administración > Usuarios y circulación > Reglas de "
+"circulación y multas"
 
 #: ../../source/administration.rst:974
 msgid "The rules are applied from most specific to less specific, using the first found in this order:"
@@ -1305,44 +1427,61 @@ msgid "default (all libraries), all patron categories, all item types"
 msgstr "predeterminado (todas las bibliotecas), todas las categorías de usuarios, todos los tipos de ítems"
 
 #: ../../source/administration.rst:993
-#, fuzzy
 msgid "The :ref:`CircControl` and :ref:`HomeOrHoldingBranch` also come in to play when figuring out which circulation rule to follow."
-msgstr "El CircControl y HomeOrHoldingBranch también entran en juego cuando se comprueba cuál será la regla de circulación a seguir."
+msgstr ""
+"La :ref:'CircControl y :ref:'HomeOrHoldingBranch' también entran en juego "
+"cuando se comprueba cuál es la regla de circulación a seguir."
 
 #: ../../source/administration.rst:996
-#, fuzzy
 msgid "If CircControl is set to \"the library you are logged in at\" circulation rules will be selected based on the library you are logged in at"
-msgstr "Si CircControl es establecido a \"la biblioteca donde se ha registrado\" las reglas de circulación serán seleccionadas con base a la biblioteca donde usted se ha registrado"
+msgstr ""
+"Si CircControl es establecido a \"la biblioteca donde se ha registrado\" las "
+"reglas de circulación serán seleccionadas en base a la biblioteca donde "
+"usted se ha registrado"
 
 #: ../../source/administration.rst:999
-#, fuzzy
 msgid "If CircControl is set to \"the library the patron is from\" circulation rules will be selected based on the patron's library"
-msgstr "Si CircControl es establecido a \"la biblioteca de origen del usuario\" las reglas de circulación serán seleccionadas sobre la base de la biblioteca a la que pertenece el usuario"
+msgstr ""
+"Si CircControl es establecido a \"la biblioteca de origen del usuario\" las "
+"reglas de circulación serán seleccionadas en base a la biblioteca a la que "
+"pertenece el usuario"
 
 # TRADUCTORES: home library = biblioteca de origen y holding library = biblioteca depositaria.
 #: ../../source/administration.rst:1002
-#, fuzzy
 msgid "If CircControl is set to \"the library the item is from\" circulation rules will be selected based on the item's library where HomeOrHoldingBranch chooses if item's home library is used or holding library is used."
-msgstr "Si CircControl es establecido a \"la biblioteca de origen del ítem\" las reglas de circulación serán seleccionadas sobre la base de la biblioteca dueña del ítem donde HomeOrHoldingBranch establece, si es usado el ítem de la biblioteca de origen o es utilizado el de la biblioteca depositaria."
+msgstr ""
+"Si CircControl es establecido a \"la biblioteca de origen del ejemplar\" las "
+"reglas de circulación serán seleccionadas en base a la biblioteca dueña del "
+"ejemplar donde HomeOrHoldingBranch establece, si es usada la biblioteca de "
+"origen del ejemplar o es utilizada la biblioteca depositaria."
 
 #: ../../source/administration.rst:1007
 msgid "If :ref:`IndependentBranches` is set to 'Prevent' then the value of HomeOrHoldingBranch is used in figuring out if the item can be checked out. If the item's home library does not match the logged in library, the item cannot be checked out unless you are a :ref:`superlibrarian <patron-permissions-defined-label>`."
 msgstr "Si la preferencia :ref:`IndependentBranches` está establecida en 'Impedir' entonces el valor de HomeOrHoldingBranch se utiliza para determinar si el ejemplar puede ser prestado. Si la biblioteca de origen del ejemplar no coincide con la biblioteca cuya sesión está iniciada, dicho ejemplar no podrá ser prestado, a menos que usted sea un :ref:`superbibliotecario <patron-permissions-defined-label>`."
 
 #: ../../source/administration.rst:1015
-#, fuzzy
 msgid "At the very least you will need to set a default circulation rule. This rule should be set for all item types, all libraries and all patron categories. That will catch all instances that do not match a specific rule. When checking out if you do not have a rule for all libraries, all item types and all patron categories then you may see patrons getting blocked from placing holds."
-msgstr "Por lo menos usted tendrá que establecer una regla de circulación por defecto. Esta regla debe ser fijada para todos los tipos de ítem, para todas las bibliotecas y para todas las categorías de usuario. En el momento del préstamo si usted no tiene una regla todos los tipos de ítem, para todas las bibliotecas y para todas las categorías de usuario, entonces puede ver a los usuarios con sus reservas bloqueadas. Usted también querrá una regla específica para su biblioteca concreta establecida para todos los tipos de ítem para todos los tipos de usuarios para evitar este problema con las reservas. Koha necesita saber a qué reglas acudir."
+msgstr ""
+"Como mínimo usted tendrá que establecer por defecto una regla de "
+"circulación. Esta regla debe ser fijada para todos los tipos de ejemplares, "
+"todas las bibliotecas y todas las categorías de usuario. Eso permitirá "
+"atrapar todos los casos que no coincidan con una regla específica. En el "
+"momento del préstamo si usted no tiene una regla para todas las bibliotecas "
+"todos los tipos de ejemplares y todas las categorías de usuario, entonces "
+"puede ver a los usuarios con sus reservas siendo bloqueadas."
 
 #: ../../source/administration.rst:1025
-#, fuzzy
 msgid "Defining circulation rules"
-msgstr "Administrar reglas de circulación"
+msgstr "Definiendo reglas de circulación"
 
 #: ../../source/administration.rst:1027
-#, fuzzy
 msgid "Using the issuing rules matrix you can define rules that depend on patron category/item type combos. To set your rules, choose a library from the pull down (or 'Standard rules for all libraries' if you want to apply these rules to all branches):"
-msgstr "Utilizando la matriz de reglas de préstamo se pueden definir reglas combinadas que dependen de tipos de usuario/ítem. Para establecer las reglas, elija una biblioteca desde el menú desplegable (o 'Todas las bibliotecas' si queremos aplicar estas reglas a todas las sucursales):"
+msgstr ""
+"Utilizando la matriz de reglas de préstamo se pueden definir reglas que "
+"dependen de tipos combinados de usuario/ítem. Para establecer las reglas, "
+"elija una biblioteca desde el menú desplegable (o 'Reglas estándar para "
+"todas las bibliotecas' si quiere aplicar estas reglas a todas las "
+"sucursales):"
 
 #: ../../source/administration.rst:1032
 msgid "|image156|"
@@ -1361,247 +1500,347 @@ msgid "First choose which patron category you'd like the rule to be applied to. 
 msgstr "Primero seleccione a cual categoría de usuario aplicará esta regla. Si deja esto en 'Todas' se le aplicará a todas las categorías."
 
 #: ../../source/administration.rst:1042
-#, fuzzy
 msgid "Choose the item type you would like this rule to apply to. If you leave this to 'All' it will apply to all item types"
-msgstr "Seleccione el 'Tipo de ítem' al que quiere aplicar esta regla. Si lo deja en 'Todos' se aplicará a todos los tipos de ítem"
+msgstr ""
+"Seleccione el tipo de ejemplar al que quiere aplicar esta regla. Si lo deja "
+"en 'Todos' se aplicará a todos los tipos de ejemplar"
 
 #: ../../source/administration.rst:1045
 msgid "Add notes about your circulation rule into the notes field. This can be helpful to remember why and when something was last changed."
 msgstr ""
+"Agregar notas acerca de sus reglas de circulacion en el campo de notas. Esto "
+"puede ayudar a recordar el porqué y el cuándo algo fué cambiado por última "
+"vez."
 
 #: ../../source/administration.rst:1048
-#, fuzzy
 msgid "Limit the number of items a patron can have checked out at the same time by entering a number in the 'Current checkouts allowed' field."
-msgstr "Limite el número de ítems que un usuario puede tener prestado al mismo tiempo ingresando un número en el campo 'Préstamos Vigentes Permitidos'"
+msgstr ""
+"Límite el número de ejemplares que un usuario puede tener en préstamo al "
+"mismo tiempo ingresando un número en el campo 'Préstamos Vigentes Permitidos'"
 
 #: ../../source/administration.rst:1051
 msgid "If you're allowing :ref:`OnSiteCheckouts` then you may also want to set a limit on the number of items patron's can have onsite."
 msgstr ""
+"Si permite :ref:`OnSiteCheckouts' entonces también querra establecer un "
+"límite en el número de ejemplares que el usuario pueda prestar para uso "
+"dentro de la biblioteca."
 
 # Circulation > Checkout Policy
 #: ../../source/administration.rst:1057
-#, fuzzy
 msgid "This setting also depends on the :ref:`ConsiderOnSiteCheckoutsAsNormalCheckouts` preference"
-msgstr "Considera"
+msgstr ""
+"Esta configuración tambien depende en la preferencia "
+":ref:ConsiderOnsiteCheckoutsAsNormalCheckouts'"
 
 #: ../../source/administration.rst:1061
 msgid "Define the period of time an item can be checked out to a patron by entering the number of units (days or hours) in the 'Loan period' box."
 msgstr "Define el período de tiempo que un ítem puede ser prestado a un usuario ingresando el número de unidades (días u horas) en el campo 'Período de Préstamo'."
 
 #: ../../source/administration.rst:1065
-#, fuzzy
 msgid "Choose which unit of time, days or hours, that the loan period and fines will be calculated in in the 'Unit' column"
-msgstr "Seleccione que unidad de tiempo, días u horas, con los cuales se calcularán los períodos de préstamos y multas en"
+msgstr ""
+"Elija en qué unidad de tiempo, días u horas, se calculará el período de "
+"préstamo y las multas en la columna \"Unidad\""
 
 #: ../../source/administration.rst:1068
-#, fuzzy
 msgid "You can also define a hard due date for a specific patron category and item type. The hard due date offers three options:"
-msgstr "También puede definir una fecha de devolución estricta para un tipo de usuario específico o tipo de ítem. Una fecha de vencimiento estricta ignora sus reglas de circulación normales y hace que todos los ítems del tipo definido venzan en, antes o después de la fecha especificada."
+msgstr ""
+"También puede definir una fecha de devolución estricta para un tipo de "
+"usuario específico o tipo de ejemplar. Una fecha de vencimiento estricta "
+"ofrece tres opciones:"
 
 #: ../../source/administration.rst:1071
 msgid "Exactly on: The due date of any item checked out with this rule will be set to the hard due date."
 msgstr ""
+"Exactamente: Con esta regla la fecha de vencimiento de cualquier ejemplar en "
+"préstamo será establecida a una fecha estricta."
 
 #: ../../source/administration.rst:1074
 msgid "Before: Koha will calculate the normal loan period. If the calculated due date would be after or on the hard due date, the hard due date will be used instead."
 msgstr ""
+"Antes: Koha calcularia el período normal del préstamo. Si la fecha calculada "
+"de vencimiento fúera después o en la fecha estricta, se usará en lugar la "
+"fecha estricta de vencimiento."
 
 #: ../../source/administration.rst:1078
 msgid "After: Koha will calculate the normal loan period. If the calculated due date would be before the hard due date, the hard due date will be used instead."
 msgstr ""
+"Después: Koha calcularía el período normal de préstamo. Sí la fecha "
+"calculada de vencimiento fuerá antes de la fecha estricta, se usará en lugar "
+"la fecha estricta de vencimiento."
 
 #: ../../source/administration.rst:1082
-#, fuzzy
 msgid "'Fine amount' should have the amount you would like to charge for overdue items."
-msgstr "'Monto de multa' debe tener la cantidad que quiere cobrar por ítems retrasados"
+msgstr ""
+"'Cantidad de multa' debe tener la cantidad que quiere cobrar por ejemplares "
+"retrasados,"
 
 #: ../../source/administration.rst:1087
 msgid "Enter only numbers and decimal points (no currency symbols)."
 msgstr "Introducir sólo números enteros y decimales (no símbolos de monedas)."
 
 #: ../../source/administration.rst:1089
-#, fuzzy
 msgid "Enter the 'Fine charging interval' in the unit you set (ex. charge fines every 1 day, or every 2 hours). The :ref:`finesCalendar` system preference controls wether the days the library is closed will be taken into account or not."
-msgstr "Ingrese el 'Intervalo de actualización de multas' en la unidad que haya configurado (ej. calcular multas cada 1 día, o cada 2 horas)"
+msgstr ""
+"Ingrese el 'Intervalo de cobro de multas' en la unidad que haya establecido ("
+"por ej. cobrar multas cada 1 día, o cada 2 horas). La preferencia del "
+"sistema :ref:'finesCalendar' controla si los días de cierre de la bilbioteca "
+"se tomarán en cuenta o no."
 
 #: ../../source/administration.rst:1094
 msgid "'When to charge' is most handy in libraries that have a fine charging interval of more than 1 day."
 msgstr ""
+"'Cuando cobrar' es muy útil en bibliotecas que tienen un intervalo en los "
+"cargos de multas de más de 1 día."
 
 #: ../../source/administration.rst:1097
 msgid "End of interval: Given a grace period of 2 days and a fine interval of 7 days, the first fine will appear 7 days after the due date, it will always take one fine interval (7 days), before the first fine is charged."
 msgstr ""
+"Fin de intervalo: Dado un período de gracia de 2 días y un intervalo de "
+"cargos de 7 días, el primer cargo aparecerá 7 días después de la fecha de "
+"vencimiento, siempre escogerá un intervalo de cargo (7 días), antes de que "
+"el primer cargo se cobre."
 
 #: ../../source/administration.rst:1102
 msgid "Start of interval: Given a grace period of 2 days and a fine interval of 7 days, the first fine will appear 2 days after the due date and the second fine 7 days after the due date."
 msgstr ""
+"Comienzo de intervalo: Dado un período de gracia de 2 días y un intervalo de "
+"cargos de 7 días, el primer cargo aparecerá 2 días después de la fecha de "
+"vencimiento y el segundo cargo aparecerá 7 días después de la fecha de "
+"vencimiento."
 
 #: ../../source/administration.rst:1106
-#, fuzzy
 msgid "The 'Fine grace period' is the period of time an item can be overdue before you start charging fines. The :ref:`FinesIncludeGracePeriod` system preference controls if the grace period will be included when calculating the fine or not."
-msgstr "El 'Período de gracia' es el período de tiempo que un ítem puede estar retrasado antes que comience a aplicar multas."
+msgstr ""
+"El 'Período de gracia de multas' es el período de tiempo que un ejemplar "
+"puede estar retrasado antes que comience a aplicar los cobros de multas. El "
+"sistema de preferencia :ref:'FinesIncludeGracePeriod' controla si el período "
+"de gracia será incluido cuando se calcule la multa o no."
 
 #: ../../source/administration.rst:1113
 msgid "This can only be set for the Day unit, not in Hours"
 msgstr "Este solo puede ser establecidos en días, no en horas"
 
 #: ../../source/administration.rst:1115
-#, fuzzy
 msgid "The 'Overdue fines cap' is the maximum fine per item for this patron and item type combination."
-msgstr "El 'Máximo de multas por retrasos' es la multa máxima para esta combinación de usuario e ítem"
+msgstr ""
+"El 'Máximo de multas por retrasos' es la multa máxima por ejemplar para este "
+"usuario y la combinación de tipo de ejemplar."
 
 #: ../../source/administration.rst:1120
-#, fuzzy
 msgid "If this field is left blank then Koha will not put a limit on the fines this item will accrue. A maximum fine amount can be set using the :ref:`MaxFine` system preference."
-msgstr "Importante: Si este campo se deja en blanco entonces Koha no pondrá un límite en las multas que este ítem puede acumular. Un monto máximo de multa puede configurarse utilizando la preferencia de sistema MaxFine."
+msgstr ""
+"Si este campo se deja en blanco entonces Koha no pondrá un límite a las "
+"multas que este ejemplar acumulará. Se puede establecer una cantidad máxima "
+"de multas usando la preferencia del sistema :ref:`MaxFine'."
 
 #: ../../source/administration.rst:1124
 msgid "If you would like to prevent overcharging patrons for a lost items, you can check the box under 'Cap fine at replacement price.' This will prevent the patron's fines from going above the replacement price on the item."
 msgstr ""
+"Si usted quiere prevenir el sobrecargo a los usuarios por ejemplares "
+"perdidos, puede marcar la casilla debajo de 'Tope de multa por cargo de "
+"reemplazo'. Esto previene que las multas de los usuarios vayan por encima "
+"del precio del cargo de reemplazo del ejemplar."
 
 #: ../../source/administration.rst:1131
 msgid "If the 'Overdue fines cap' is also set, the fine will be the lesser of the two, if both apply to the given overdue checkout."
 msgstr ""
+"Si tambien se establece el 'Tope de multas por tardanza' la multa será la "
+"menor de las dos, si las dos se aplican a la tardanza del préstamo."
 
 #: ../../source/administration.rst:1135
-#, fuzzy
 msgid "If your library 'fines' patrons by suspending their account you can enter the number of days their fine should be suspended in the 'Suspension in days' field."
-msgstr "Si su biblioteca 'multa' a socios suspendiendo su cuenta puede ingresar el número de días que deben ser suspendidos en el campo 'Suspensión en días'"
+msgstr ""
+"Si su biblioteca 'multa' a socios, suspendiendo su cuenta, usted puede "
+"ingresar el número de días que deben ser suspendidos en el campo 'Suspensión "
+"en días'"
 
 #: ../../source/administration.rst:1141
-#, fuzzy
 msgid "This can only be set for the Day unit, not in Hours-"
-msgstr "Este solo puede ser establecidos en días, no en horas"
+msgstr "Esto sólo puede ser establecido en unidad de Días, no en Horas-"
 
 #: ../../source/administration.rst:1143
-#, fuzzy
 msgid "You can also define the maximum number of days a patron will be suspended in the 'Max suspension duration' setting-"
-msgstr "También puede definir el número máximo de días en el que un usuario será suspendido en la configuración 'Máx. de duración de la suspensión'"
+msgstr ""
+"También puede definir el número máximo de días en el que un usuario será "
+"suspendido en la configuración 'Máxima duración de suspensión'"
 
 #: ../../source/administration.rst:1146
-#, fuzzy
 msgid "Next decide if the patron can renew this item type and if so, enter how many times they can renew it in the 'Renewals allowed' box."
-msgstr "A continuación decida si el usuario puede renovar este tipo de ítem y, si es así, ingrese el número de veces que podrá renovarlo en la casilla 'Renovaciones Permitidas'"
+msgstr ""
+"A continuación decida si el usuario puede renovar este tipo de ejemplar y si "
+"es así, ingrese el número de veces que podrá renovarlo en la casilla "
+"'Renovaciones permitidas'"
 
 #: ../../source/administration.rst:1149
-#, fuzzy
 msgid "If you're allowing renewals you can control how long the renewal loan period will be (in the units you have chosen) in the 'Renewal period' box."
-msgstr "Si está permitiendo renovaciones puede controlar cuan largo es el período de renovación (en las unidades que haya elegido) en la casilla de 'Período de renovación'"
+msgstr ""
+"Si está permitiendo renovaciones puede controlar cuan largo es el período de "
+"renovación (en las unidades que haya elegido) en la casilla de 'Período de "
+"renovación'."
 
 #: ../../source/administration.rst:1153
 msgid "If you're allowing renewals you can control how soon before the due date patrons can renew their materials with the 'No renewals before' box."
 msgstr "Si usted está permitiendo renovaciones, puede controlar con qué antelación a la fecha de vencimiento los usuarios pueden renovar sus materiales con la casilla 'No renovable antes de'. "
 
 #: ../../source/administration.rst:1157
-#, fuzzy
 msgid "Items can be renewed at any time if this value is left blank. Otherwise items can only be renewed if the item is due after the number in units (days/hours) entered in this box."
-msgstr "Los ejemplares pueden ser renovados en cualquier momento si este valor se deja en blanco. De otra forma solo podrán ser renovados si el ejemplar está antes del número (días/horas) ingresada en esta casilla."
+msgstr ""
+"Los ejemplares pueden ser renovados en cualquier momento si este valor se "
+"deja en blanco. De otra forma los ejemplares sólo podrán ser renovados si el "
+"ejemplar se vence antes del número en unidades (días/horas) ingresada en "
+"esta casilla."
 
 #: ../../source/administration.rst:1161
 msgid "To control this value on a more granular level please set the :ref:`NoRenewalBeforePrecision` preference."
 msgstr ""
+"Para controlar este valor en un nivel más granular por favor configure la "
+"preferencia :ref:`NoRenewalBeforePrecision'"
 
 #: ../../source/administration.rst:1165
-#, fuzzy
 msgid "You can enable automatic renewals for certain items/patrons if you'd like. This will renew automatically following your circulation rules unless there is a hold on the item."
-msgstr "Usted puede habilitar las renovaciones automáticas para ciertos ítems/usuarios si lo desea. Esto renovará automáticamente siguiendo sus reglas de circulación, a menos que exista una reserva en el ítem "
+msgstr ""
+"Usted puede habilitar las renovaciones automáticas para ciertos ejemplares/"
+"usuarios si lo desea. Esto renovará automáticamente siguiendo sus reglas de "
+"circulación, a menos que exista una reserva en el ejemplar. "
 
 #: ../../source/administration.rst:1171
 msgid "You will need to enable the :ref:`automatic renewal cron job <cron-automatic-renewal-label>` for this to work."
 msgstr "Necesitará habilitar la :ref:`tarea programada para la renovación automática <cron-automatic-renewal-label>` para que esto funcione."
 
 #: ../../source/administration.rst:1176
-#, fuzzy
 msgid "This feature needs to have the \"no renewal before\" column filled in or it will auto renew everyday after the due date."
-msgstr "Importante: Esta característica debe tener la llena la columna \"No renovable antes de\" o se renovará automáticamente todos los días después de la fecha de vencimiento."
+msgstr ""
+"Esta característica debe tener la columna llena \"No renovable antes de\" o "
+"se renovará automáticamente todos los días después de la fecha de "
+"vencimiento."
 
 #: ../../source/administration.rst:1179
 msgid "If you are using automatic renewals, you can use the 'No automatic renewals after' to limit the time a patron can have the item independent: Example: Don't allow automatic renewals after a checkout period of 80 days."
 msgstr ""
+"Si esta usando renovaciones automáticas, puede usar 'No renovaciones "
+"automáticas después de' para limitar independientemente el tiempo que el "
+"usuario pueda tener el ejemplar: Ejemplo: No permitir renovaciones "
+"automáticas después de un préstamo de un período de 80 días."
 
 #: ../../source/administration.rst:1183
 msgid "Similar to the hard due date setting, you can also stop automatic renwals after a specific date using the 'No automatic renwal after (hard limit)' setting."
 msgstr ""
+"Similar a la fecha de vencimiento estricto, usted también puede parar "
+"renovaciones automáticas después de una fecha especifica usando la "
+"configuración 'No renovaciones automáticas después de (límite estricto)."
 
 #: ../../source/administration.rst:1187
-#, fuzzy
 msgid "If the patron can place holds on this item type, enter the total numbers of items (of this type) that can be put on hold in the 'Holds allowed' field."
-msgstr "Si el usuario puede hacer reservas de este tipo de ítem, ingrese el número total de ítems (de este tipo) que pueden reservarse en el campo 'Reservas Permitidas'"
+msgstr ""
+"Si el usuario puede hacer reservas de este tipo de ejemplar, ingrese el "
+"número total de ejemplares (de este tipo) que pueden reservarse en el campo "
+"'Reservas permitidas'."
 
 #: ../../source/administration.rst:1191
 msgid "You can also set a daily limit on the number of holds a patron can place."
 msgstr ""
+"También puede establecer un límite diario en el número de reservas que un "
+"usuario pueda poner."
 
 #: ../../source/administration.rst:1193
 msgid "While the two settings before limit the holds that can be placed across various records, the next setting is used to limit the number of holds that can be placed on one record at the same time. Example: For fiction books you might want to allow only one item to be placed on hold at the same time by the same user. But for serials where items represent different issues more than one hold at the same time is fine."
 msgstr ""
+"Mientras que las dos configuraciones establecidas antes, limitaban las "
+"reservas que se podían poner a través de varios registros, la siguiente "
+"configuración es usada para limitar el número de reservas que se puedan "
+"poner en un registro al mismo tiempo. Ejemplo: Para libros de ficción usted "
+"querrá permitir solamente que se ponga un ejemplar en reserva al mismo "
+"tiempo por el mismo usuario. Pero para series donde los ejemplares presentan "
+"differentes ediciones, ésta bien más de una reserva al mismo tiempo."
 
 #: ../../source/administration.rst:1200
 msgid "Next you can decide how the availability of items influences the ability to place a hold. The 'On shelf holds allowed' option has three settings:"
-msgstr ""
+msgstr "Siguiente puede decidir como la disponibilidad de los ejemplares puede influir en la habilidad de poner una reservación. La opción \"Se permite la reservación en la estantería\" tiene tres opciones:"
 
 #: ../../source/administration.rst:1203
 msgid "Yes: This will allow to place holds on items at all times. It doesn't matter if they are available or checked out."
 msgstr ""
+"Sí: Esto permitirá poner reservas en ejemplares en todo tiempo. No importa "
+"si están disponibles o en préstamo."
 
 #: ../../source/administration.rst:1206
 msgid "If any unavailable: This will allow to place a hold as soon as one or more items of the record are checked out. It doesn't matter if there are still one or more items available on the shelf."
 msgstr ""
+"Si no hay ninguno disponible: Esto permitirá poner uno o más ejemplares del "
+"registro en reserva tan pronto cómo se den en préstamo. No importando si hay "
+"uno o más ejemplares disponibles en la estantería."
 
 #: ../../source/administration.rst:1210
 msgid "If all unavailable: This will allow to place a hold as soon as all items on the record are checked out that could fill the hold. This is especially useful for libraries that don't offer the service of getting items placed on hold off the shelf for patrons."
 msgstr ""
+"Sí todos no están disponibles: Esto permitirá poner una reserva tan pronto "
+"cómo todos los ejemplares en el registro se den en préstamo, que puedan "
+"llenar una reserva. Esto es especialmente útil para bibliotecas que no "
+"ofrecen el servicio de dar los ejemplares en reserva a los usuarios desde la "
+"estantería."
 
 #: ../../source/administration.rst:1215
-#, fuzzy
 msgid "You can also decide if patrons are allowed to place item specific holds on the item type in question. The options are:"
-msgstr "También puede decidir si se permite a los usuarios colocar ítems específicos en reserva en el tipo de ítem en cuestión. Las opciones son:"
+msgstr ""
+"También puede decidir si se permite a los usuarios colocar ejemplares "
+"específicos en reserva en el tipo de ejemplar en cuestión. Las opciones son:"
 
 #: ../../source/administration.rst:1218
-#, fuzzy
 msgid "Allow: Will allow patrons the option to choose next available or a specific item."
-msgstr "Permitir: Permitirá a los usuarios la opción de elegir el próximo disponible o un ítem en específico"
+msgstr ""
+"Permitir: Permitirá a los usuarios la opción de elegir el próximo disponible "
+"o un ejemplar específico."
 
 #: ../../source/administration.rst:1221
-#, fuzzy
 msgid "Don't allow: Will only allow patrons to choose next available item."
-msgstr "No permitir: sólo permitirá a los usuarios elegir el próximo disponibles"
+msgstr ""
+"No permitir: Sólo permitirá a los usuarios elegir el próximo ejemplar "
+"disponible."
 
 #: ../../source/administration.rst:1223
-#, fuzzy
 msgid "Force: Will only allow patrons to choose a specific item."
-msgstr "Forzar: sólo permitirá a los usuarios a elegir un ítem específico"
+msgstr "Forzar: Solo permitirá a los usuarios elegir un ejemplar específico. "
 
 #: ../../source/administration.rst:1225
 msgid "If you want to allow patrons to be able to place article requests, you"
-msgstr ""
+msgstr "Si desea permitir a los usuarios el poder solicitar artículos, usted"
 
 #: ../../source/administration.rst:1229
 msgid "If you want to use the article request functionality you need to enable it using the :ref:`ArticleRequests` system preference and configure the form using the other related preferences."
 msgstr ""
+"Si desea usar la funcionalidad de solicitar artículos usted necesita "
+"habilitarlo usando la preferencia del sistema :ref:'ArticleRequests' y "
+"configurar el formulario usando las otras preferencias relacionadas. "
 
 #: ../../source/administration.rst:1233
 msgid "Finally, if you charge a `rental fee <#rentalcharge>`__ for the item type and want to give a specific patron type a discount on that fee, enter the percentage discount (without the % symbol) in the 'Rental discount' field"
 msgstr "Por último, si cobra un `costo de alquiler <#rentalcharge>`__ para el tipo de ítem y desea darle a una categoría de usuario específica un descuento en la tarifa, ingrese el porcentaje de descuento (sin el símbolo %) en el campo 'Descuento en alquiler'"
 
 #: ../../source/administration.rst:1238
-#, fuzzy
 msgid "When finished, click 'Save' to save your changes. To modify a rule, simply click the 'Edit' link at the beginning or at the end of the row and edit the values that appear filled in at the bottom of the form."
-msgstr "Cuando haya terminado, haga clic en 'Agregar' para guardar sus cambios. Para modificar una regla, cree una nueva con los mismos tipo de usuarios e ítem. Si desea eliminar una regla, simplemente haga clic en el enlace 'Eliminar' a la derecha de la regla."
+msgstr ""
+"Cuando haya terminado, haga clic en 'Guardar' para guardar sus cambios. Para "
+"modificar una regla, simplemente haga clic en el enlace 'Eliminar' al "
+"comienzo o al final de la fila y edite los valores que aparecen llenos en la "
+"parte baja del formulario."
 
 #: ../../source/administration.rst:1242
 msgid "|image158|"
 msgstr "|image158|"
 
 #: ../../source/administration.rst:1244
-#, fuzzy
 msgid "If you would like to delete your rule, click the 'Delete' link at the beginning or at the end of the rule row."
-msgstr "Si desea borrar su regla, haga clic en el enlace 'Anular' a la derecha de la regla."
+msgstr ""
+"Si desea borrar su regla, haga clic en el enlace 'Borrar' al comienzo o al "
+"final de la fila de la regla."
 
 #: ../../source/administration.rst:1247
-#, fuzzy
 msgid "To save time you can clone rules from one library to another by choosing the clone option above the rules matrix. Please note that this will overwrite all rules already configured for that library."
-msgstr "Para ahorrar tiempo puede clonar las reglas de una biblioteca a otra, eligiendo la opción de clonar por encima de la matriz de normas."
+msgstr ""
+"Para ahorrar tiempo puede clonar las reglas de una biblioteca a otra, "
+"eligiendo la opción de clonar arriba de las reglas de la matriz. Por favor "
+"note que esto modifica todas las reglas ya configuradas por esa biblioteca."
 
 #: ../../source/administration.rst:1251
 msgid "|image159|"
@@ -1620,9 +1859,12 @@ msgid "Default checkout, hold, and return policy"
 msgstr "Políticas predeterminadas de préstamo, reserva y devolución"
 
 #: ../../source/administration.rst:1263
-#, fuzzy
 msgid "You can set a default maximum number of checkouts, a default maximum number of holds and a hold policy that will be used if none is defined below for a particular item type or category. This is the fall back rule for defaults."
-msgstr "Usted puede establecer un número máximo predeterminado de préstamos y reservas que se utilizará si no se definen debajo para un tipo de ítem determinado o categoría."
+msgstr ""
+"Usted puede establecer un número máximo predeterminado de préstamos y "
+"reservas y una póliza de reservas que se utilizará si no se definen debajo "
+"para un tipo de ejemplar o categoría. Este es la regla de retroceso para "
+"todos los defectos."
 
 #: ../../source/administration.rst:1268
 msgid "|image161|"
@@ -1637,14 +1879,17 @@ msgid "In 'Total current checkouts allowed' enter the total number of items patr
 msgstr "En 'Total de préstamos simultaneos permitidos', introducir el número total de ítems que los clientes pueden tener prestados en forma simultanea"
 
 #: ../../source/administration.rst:1276
-#, fuzzy
 msgid "In 'Total current on-site checkouts allowed' enter the total number of items patrons can have checked out on site at a time (:ref:`OnSiteCheckouts` needs to be set to 'Enable')"
-msgstr "En 'Total de préstamos simultaneos permitidos', introducir el número total de ítems que los clientes pueden tener prestados en forma simultanea"
+msgstr ""
+"En 'Total de préstamos actuales permitidos en el local', entrar el número "
+"total de ejemplares que los usuarios pueden tener prestados en el local a la "
+"vez(:ref:'OnSiteCheckouts' necesita ser configurado a 'habilitar')"
 
 #: ../../source/administration.rst:1280
-#, fuzzy
 msgid "In 'Maximum total holds allowed (count)' enter the total number of pending holds patrons can have at the same time."
-msgstr "En 'Total de préstamos simultaneos permitidos', introducir el número total de ítems que los clientes pueden tener prestados en forma simultanea"
+msgstr ""
+"En 'Total maximo de reservas permitidos(cuenta)' entrar el número total de "
+"reservas pendientes que los usuarios puedan tener a la vez."
 
 #: ../../source/administration.rst:1283
 msgid "Control where patrons can place holds from using the 'Hold Policy' menu"
@@ -1655,9 +1900,11 @@ msgid "From Any Library: Patrons from any library may put this item on hold. (de
 msgstr "Desde Cualquier Biblioteca: Usuarios de cualquier sede pueden reservar este ítem. (predeterminado si no se define)"
 
 #: ../../source/administration.rst:1289
-#, fuzzy
 msgid "From Local Hold Group: Only patrons from a library in the item home library’s local hold group may put this book on hold."
-msgstr "Desde sede principal: Solo usuarios de la misma sede que el ítem pueden reservar este libro."
+msgstr ""
+"Desde Grupo Local de Reservas: Sólo los usuarios de una biblioteca del grupo "
+"de espera local de la biblioteca de origen del ejemplar pueden poner este "
+"libro en espera."
 
 #: ../../source/administration.rst:1292
 msgid "From Home Library: Only patrons from the item's home library may put this book on hold."
@@ -1668,22 +1915,22 @@ msgid "No Holds Allowed: No patron may put this book on hold."
 msgstr "No se permiten reservas: ningún usuario puede reservar este libro."
 
 #: ../../source/administration.rst:1297 ../../source/administration.rst:1391
-#, fuzzy
 msgid "Control where patron can pick up holds using the “Hold Pickup Library Match” menu"
-msgstr "El control desde donde los usuarios pueden hacer reservas se puede hacer en el menú 'Política de reservas'"
+msgstr ""
+"El control desde donde los usuarios pueden recoger reservas usando el menu \""
+"Igualar Biblioteca para Recoger Reserva\" "
 
 #: ../../source/administration.rst:1300 ../../source/administration.rst:1394
 msgid "any library"
 msgstr "a cualquier biblioteca."
 
 #: ../../source/administration.rst:1302 ../../source/administration.rst:1396
-#, fuzzy
 msgid "item's hold group"
-msgstr "biblioteca de la reserva"
+msgstr "grupo de reserva del ejemplar"
 
 #: ../../source/administration.rst:1304
 msgid "patron's hold group"
-msgstr ""
+msgstr "grupo de reserva del usuario"
 
 #: ../../source/administration.rst:1306 ../../source/administration.rst:1400
 msgid "item's home library"
@@ -1718,23 +1965,27 @@ msgid "Once your policy is set, you can unset it by clicking the 'Unset' link to
 msgstr "Una vez que estableció su política, puede quitarla haciendo clic en el enlace 'Eliminar' a la derecha de la regla"
 
 #: ../../source/administration.rst:1328
-#, fuzzy
 msgid "Default checkout and hold policy by patron cateogry"
-msgstr "Políticas predeterminadas de préstamos y reservas"
+msgstr "Póliza predeterminada de préstamo y reserva por categoría de usuario"
 
 #: ../../source/administration.rst:1330
-#, fuzzy
 msgid "For this library, you can specify the maximum number of checkouts, on-site checkouts and holds that a patron of a given category can have, regardless of the item type."
-msgstr "Para esta biblioteca, puede especificar el número máximo de préstamos que un usuario de una determinada categoría puede recibir, independientemente del tipo de ítem."
+msgstr ""
+"Para esta biblioteca, puede especificar el número máximo de préstamos "
+"locales que un usuario de una determinada categoría puede tener, "
+"independientemente del tipo de ejemplar."
 
 #: ../../source/administration.rst:1334
 msgid "|image162|"
 msgstr "|image162|"
 
 #: ../../source/administration.rst:1338
-#, fuzzy
 msgid "If the total amount of checkouts, on-site checkout and holds for a given patron category is left blank, no limit applies, except possibly for a limit you define in the circulation rules above."
-msgstr "Si la cantidad total de préstamos a una dada catagoría de usuario se deja en blanco, no tendrá límites, a menos que defina un límite específico para un dado tipo de ítem."
+msgstr ""
+"Si la cantidad total de préstamos, préstamos y reservas locales a una "
+"catagoría dada de usuario se deja en blanco, no se aplicarán límites, "
+"excepto posiblemente que se defina un límite en las reglas de circulacion en "
+"la parte superior."
 
 #: ../../source/administration.rst:1342
 msgid "For example, if you have a rule in the matrix that says Board patrons are allowed 10 books and 5 DVDs but you want to make it so that Board patrons only have a total of 12 things checked out at once. If you enter 12 here and the patron has 10 books out already they will only be allowed 2 DVDs to equal the 12 total they're allowed."
@@ -1747,11 +1998,14 @@ msgstr "Política predeterminada de reembolso de costo por ítem perdido y devol
 #: ../../source/administration.rst:1353
 msgid "Here, you can specify the default policy for lost item fees on return. This policy will apply to this library. This rule is to be used with the :ref:`RefundLostOnReturnControl` system preference."
 msgstr ""
+"Aqui, usted puede especifica la poliza por defecto para multas de ejemplares "
+"perdidos cuando se devuelvan. Esta poliza se aplica a esta biblioteca. Esta "
+"regla se usara con el sistema de preferencia "
+":ref:'RefundLostOnRetrunControl'."
 
 #: ../../source/administration.rst:1360
-#, fuzzy
 msgid "Default holds policy by item type"
-msgstr "Catálogo por tipo de ítem"
+msgstr "Póliza de reservas por defecto de tipo de ejemplar"
 
 #: ../../source/administration.rst:1362
 msgid "For this library, you can edit hold and return policies for a given item type, regardless of the patron's category."
@@ -1762,9 +2016,8 @@ msgid "|image163|"
 msgstr "|image163|"
 
 #: ../../source/administration.rst:1367
-#, fuzzy
 msgid "The various hold policies have the following effects:"
-msgstr "Las diferentes Políticas de reserva tienen los siguientes efectos:"
+msgstr "Las diferentes pólizas de reserva tienen los siguientes efectos:"
 
 #: ../../source/administration.rst:1369
 #, fuzzy
@@ -1823,7 +2076,7 @@ msgstr "El ítem queda flotando: El ítem no será transferido desde la sucursal
 
 #: ../../source/administration.rst:1428
 msgid "For example you might allow holds at your libraries but not what New items or DVDs to be placed on hold by other branches so you can set the 'Hold policy' to 'From home library' so that those items can only be placed on hold if the items' owning library and the patron's home library are the same. You can also block holds completely on specific item types from this form. This is also how you can set up floating item types and types that remain with their home library."
-msgstr "Por ejemplo, puede permitir reservas en sus bibliotecas, pero no que los nuevos ítems o DVDs se reserven para otras sucursales de forma que se pueda establecer una 'política de reservas' para 'Desde la biblioteca propia' para que esos ítems se puedan reservar si biblioteca propietaria de los ítems y la biblioteca del usuario es la misma. También puede bloquear el préstamo por completo para tipos de ítem específicos en este formulario. Esta es también la forma en que puede configurar los tipos de ítem y tipos que permanecen en la biblioteca titular de los mismos. "
+msgstr "Por ejemplo, puede permitir reservas en sus bibliotecas, pero no que Nuevos ejemplares o DVDs se pongan en reserva por otras ramas de forma que se pueda establecer la 'política de reservas' a 'Desde la biblioteca titular' para que esos ejemplares solo puedan ser reservados si la bibllioteca proprietaria y la bilbioteca titular del cliente son las mismas. También puede bloquear el préstamo por completo para tipos de ejemplares específicos en este formulario. Esta es también la forma en que puede configurar los tipos de ejemplares flotantes y los tipos de ejemplares que permanezcan en la biblioteca titular."
 
 #: ../../source/administration.rst:1439
 msgid "Patron attribute types"
@@ -1928,7 +2181,7 @@ msgstr "una lista de valores autorizados no se aplica durante la importación en
 
 #: ../../source/administration.rst:1527
 msgid "If you would like this attribute to only be used by specific branches you can choose those branches from the 'Branches limitation' list. Choose 'All branches' to show it for all libraries."
-msgstr "Si desea que este atributo solo sea utilizado por sedes específica puede elegir dichas sedes desde la lista 'Limitación de sedes'. Seleccione 'Todas la sedes' para mostrarlo en todas las bibliotecas."
+msgstr "Si desea que este atributo solo sea utilizado por ramas específicas puede elegir dichas ramas desde la lista de 'Limitación de ramas'. Seleccione 'Todas la ramas' para mostrarlo en todas las bibliotecas."
 
 #: ../../source/administration.rst:1533
 msgid "Note that items with locations already set on them will not be altered. The branch limitation only limits the choosing of an authorized value based on the home branch of the current staff login. All authorized values for item records (LOC, LOST, CCODE, etc) will show in the OPAC for all patrons."
@@ -1936,11 +2189,11 @@ msgstr ""
 
 #: ../../source/administration.rst:1539
 msgid "If you'd like to only show this attribute on patrons of one type choose that patron type from the 'Category' pull down"
-msgstr "Si desea mostrar solamente este atributo a usuarios de un tipo, seleccione ese tipo de usuario desde el desplegable 'Categoría'"
+msgstr "Si desea mostrar solamente este atributo a usuarios de un tipo, seleccione ese tipo de usuario desde el menu desplegable 'Categoría'"
 
 #: ../../source/administration.rst:1542
 msgid "If you have a lot of attributes it might be handy to group them so that you can easily find them for editing. If you create an :ref:`Authorized value <authorized-values-label>` for PA\\_CLASS it will show in the 'Class' pull down and you can then change your attributes page to have sections of attributes"
-msgstr "Si tiene muchos atributos puede ser útil agruparlos para encontrarlos fácilmente al editar. Si crea un :ref:`Valor autorizado <authorized-values-label>` para PA\\_CLASS se mostrará en el desplegable 'Clase' y podrá cambiar su página de atributos para tener secciones de atributos"
+msgstr "Si tiene muchos atributos puede ser útil agruparlos para encontrarlos fácilmente al editar. Si crea un :ref:`Valor autorizado <authorized-values-label>` para PA\\_CLASS se mostrará en el menu desplegable 'Clase' y podrá entonces cambiar su página de atributos a tener secciones de atributos"
 
 #: ../../source/administration.rst:1548
 msgid "|image167|"
@@ -2083,7 +2336,7 @@ msgstr "Luego de ingresar su costo, presione 'Intro' en su teclado o haga clic e
 
 #: ../../source/administration.rst:1653
 msgid "A NULL value will make no difference where the From and To libraries are the same library. However, as a best practice, you should put a 0 in there. For all other To/From combinations, a NULL value will cause that relationship to act as if it has been disabled. So, in summary, don't leave any of the values empty. It's best to always put a number in there ( even if you choose to disable that given To/From option )."
-msgstr ""
+msgstr "Un valor inválido no hará diferencia donde las bibliotecas de \"De\" y \"A\" sean la misma biblioteca. Sin embargo, como mejor práctica, deberías poner un 0 ahí. Para todas las demás combinaciones de Desde/Hacia, un valor inválido hará que esa relación actúe como si hubiera sido desactivada. Así que, en resumen, no dejes ninguno de los valores vacío. Es mejor poner siempre un número ahí (incluso si eliges deshabilitar la opción dada de Hacia/Desde)."
 
 #: ../../source/administration.rst:1664
 msgid "Item circulation alerts"
@@ -2676,9 +2929,8 @@ msgid "Each field has a tag (which is the MARC tag) that is uneditable"
 msgstr "Cada campo tiene una etiqueta (la cual es la etiqueta MARC), esta no se puede editar "
 
 #: ../../source/administration.rst:2104
-#, fuzzy
 msgid "The 'Label for lib' is what will show in the staff client if you have :ref:`advancedMARCeditor` set to display labels"
-msgstr "La 'Etiqueta para biblioteca' es lo que mostrará en la interfaz del personal si tiene advancedMARCeditor configurado para mostrar las etiquetas"
+msgstr "La 'Etiqueta para biblioteca' es lo que mostrará en la interfaz del personal si tiene :ref:'advancedMARCeditor' configurado para mostrar las etiquetas"
 
 #: ../../source/administration.rst:2108
 msgid "The 'Label for OPAC' is what will show on the MARC view in the OPAC"
@@ -2820,7 +3072,7 @@ msgstr "Visibilidad"
 
 #: ../../source/administration.rst:2192
 msgid "allows you to select from where this subfield is visible/hidden, simply check the boxes where you would like the field to show and uncheck the boxes where you would like it hidden."
-msgstr "le permite seleccionar desde donde este subcampo es visible/ oculto, simplemente seleccione las casillas donde le gustaría que el campo sea mostrado y desactive las casillas donde le gustaría que sea oculto."
+msgstr "le permite seleccionar desde donde este subcampo es visible/oculto, simplemente seleccione las casillas donde le gustaría que el campo sea mostrado y desactive las casillas donde le gustaría que sea oculto."
 
 #: ../../source/administration.rst:2199
 msgid "The Editor tickbox controls whether this subfield will display within cataloguing editor for this framework.  If you tick Collapsed the subfield will be hidden in the editor but will be displayed if the field label is clicked to expand all subfields"
@@ -3024,7 +3276,7 @@ msgstr "*Ir a:* Más > Administración > Catálogo > Correspondencia Koha a MARC
 
 #: ../../source/administration.rst:2362
 msgid "The table shows all the database fields that can be mapped to MARC fields."
-msgstr ""
+msgstr "La tabla muestra todos los campos de la base de datos que puede ser trazada a los campos de MARC."
 
 #: ../../source/administration.rst:2364
 msgid "|image201|"
@@ -3085,7 +3337,7 @@ msgstr "Tipos de autoridad"
 
 #: ../../source/administration.rst:2407
 msgid "Authority types are basically MARC frameworks for authority records and because of that they follow the same editing rules found in the :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>` section of this manual. Koha comes with many of the necessary authority frameworks already installed. To learn how to add and edit authority types, simply review the :ref:`MARC bibliographic frameworks` section of this manual."
-msgstr ""
+msgstr "Los tipos de autoridad son, básicamente, plantillas MARC para registros de autoridad y por eso siguen reglas de edición similares a las existentes en la sección `Plantillas bibliográficas MARC <marc-bibliographic-frameworks-label>` de este manual. Koha viene con muchas de las plantillas de autoridad necesarias ya instaladas. Para aprender como agregar y editar tipos de autoridad, basta con revisar la sección :ref:`Plantillas bibliográficas MARC' de este manual."
 
 #: ../../source/administration.rst:2414
 #, fuzzy
@@ -3263,7 +3515,7 @@ msgstr "Punto de coincidencia 1 | "
 
 #: ../../source/administration.rst:2530
 msgid "In the example above, a match on either the 020$a or the 022$a will result in a successful match. A match on 245$a title and 100$a author (and not on 020$a or 022$a) will only add up to 600 and not be a match. And a match on 020$a and 245$a will result in 1500 and while this is a successful match, the extra 500 point for the 245$a title match are superfluous. The incoming record successfully matched on the 020$a without the need for the 245$a match. However, if you assigned a score of 500 to the 100$a Match Point, a match on 245$a title and 100$a author will be considered a successful match (total of 1000) even if the 020$a is not a match."
-msgstr ""
+msgstr "En el ejemplo anterior, una concidencia del 020$a o el 022$a re sultara en una considencia4a exitosa.  Una concidencia en un título 245$a y autor 100$a (y no en 020$a o 022$a) solo agregara hasta 600 y no sera concidencia.  Y una concidencia en 020$a y 245$a resultara en 1500 y mientras sea una concidencia exitosa, los 500 extra puntos para el 245$a título de concidencia son superfluo. El registro entrante concidio en el 020$a sin la necesidad de la concidencia 245$a. De todas maneras si asigna un puntaje de 500 al de 100$a Puntos Iguales, una concidencia en el título 245$a y 100$a autor sera considerado una concidencia exitosa (total de 1000) aunque si el 020$a no iguale."
 
 #: ../../source/administration.rst:2541
 msgid "Match checks are not commonly used in import rules. However, they can serve a couple of purposes in matching records. First, match checks can be used as the matching criteria instead of the match points if your indexes are stale and out of date. The match checks go right for the data instead of relying on the data in the indexes. (If you fear your indexes are out of date, a rebuild of your indexes would be a great idea and solve that situation!) The other use for a match check is as a 'double check' or 'veto' of your matching rule. For example, if you have a matching rule as below:"
@@ -5242,4 +5494,3 @@ msgstr "|image1380|"
 
 #~ msgid "These policies are based on the patron's home branch, not the branch that the reserving staff member is from."
 #~ msgstr "Estas políticas se basan en la sucursal de origen del usuario, no en la sucursal del miembro del personal que hace la reserva."
-

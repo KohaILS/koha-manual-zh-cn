@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-02 01:15-0300\n"
-"PO-Revision-Date: 2020-11-29 13:54+0000\n"
+"PO-Revision-Date: 2021-02-26 12:30+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1606658044.459108\n"
+"X-POOTLE-MTIME: 1614342610.215341\n"
 
 #: ../../source/ILL_requests.rst:6
 msgid "ILL requests / Interlibrary loans"
-msgstr "Fernleihanfragen / Fernleihen"
+msgstr "Fernleihbestellungen / Fernleihen"
 
 #: ../../source/ILL_requests.rst:8
 msgid "The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons submit a request form via the OPAC for review and processing by library staff. Alternatively staff can place requests themselves from the staff client."
@@ -33,15 +33,15 @@ msgstr "Konfiguration"
 
 #: ../../source/ILL_requests.rst:15
 msgid "Before using the ILL requests module you will want to make sure that you have completed all of the set up."
-msgstr "Vor der Nutzung des Erwerbungsmoduls muss die Grundkofiguration abgeschlossen sein."
+msgstr "Vor der Nutzung des Erwerbungsmoduls muss die Grundkonfiguration abgeschlossen sein."
 
 #: ../../source/ILL_requests.rst:17
 msgid "The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend."
-msgstr "Das Fernleihmodul kann für verschiedene Arten von Fernleihanfragen und Arbeitsabläufen eingerichtet werden, welche als Backends bezeichnet werden. Aktuell verfügbare Backends sind im Koha Community Wiki unter https://wiki.koha-community.org/wiki/ILL_backends dokumentiert. Sie müssen mindestens ein Backend konfigurieren."
+msgstr "Das Fernleihmodul kann für verschiedene Arten von Fernleihbestellungen und Arbeitsabläufe eingerichtet werden, welche als Backends bezeichnet werden. Aktuell verfügbare Backends sind im Koha Community Wiki unter https://wiki.koha-community.org/wiki/ILL_backends dokumentiert. Sie müssen mindestens ein Backend konfigurieren."
 
 #: ../../source/ILL_requests.rst:19
 msgid "Next, set your system preferences."
-msgstr "Als nächstes konfigurieren Sie Ihre Systemeinstellungen."
+msgstr "Als nächstes konfigurieren Sie Ihre Systemparameter."
 
 #: ../../source/ILL_requests.rst:21
 msgid "Set the :ref:`ILLModule` preference to ‘Enable’."
@@ -105,15 +105,11 @@ msgstr "Fügen Sie eigene Felder hinzu, z.B., falls gewünscht, ein Feld für No
 
 #: ../../source/ILL_requests.rst:54
 msgid "Under the borrower options enter the library branch you would like the request to be sent to."
-msgstr ""
-"Bei den Benutzeroptionen geben Sie die Bibliothek an, an welche die "
-"Bestellung geschickt werden soll."
+msgstr "Bei den Benutzeroptionen geben Sie die Bibliothek an, an welche die Bestellung geschickt werden soll."
 
 #: ../../source/ILL_requests.rst:56
 msgid "Click on ‘Create’ and you will be shown a Request details summary page. Click on the ‘Confirm request’ button and you will see the following confirmation message:"
-msgstr ""
-"Klicken sie auf \"Neu\" und sie sehen eine Detailansicht für die Bestellung. "
-"Wenn Sie dort auf \"Bestätigen\" klicken, kommt die folgende Nachricht:"
+msgstr "Klicken sie auf \"Neu\" und sie sehen eine Detailansicht für die Bestellung. Wenn Sie dort auf \"Bestätigen\" klicken, kommt die folgende Nachricht:"
 
 #: ../../source/ILL_requests.rst:58
 msgid "|image1389|"
@@ -129,10 +125,7 @@ msgstr "Fernleihbestellungen anzeigen"
 
 #: ../../source/ILL_requests.rst:67
 msgid "From the main ILL requests screen you can see all of your ILL requests. You can also click on the ‘View requests’ button at any time."
-msgstr ""
-"Auf der Startseite der Fernleihe werden Ihnen alle Fernleihbestellungen "
-"angezeigt. Sie können hierfür auch jederzeit auf \"Zeige Bestellungen\" "
-"klicken."
+msgstr "Auf der Startseite der Fernleihe werden Ihnen alle Fernleihbestellungen angezeigt. Sie können hierfür auch jederzeit auf \"Zeige Bestellungen\" klicken."
 
 #: ../../source/ILL_requests.rst:70
 msgid "|image1435|"
@@ -140,11 +133,7 @@ msgstr "|image1435|"
 
 #: ../../source/ILL_requests.rst:72
 msgid "There is a large amount of data available in the Requests table so it is advisable to make use of column visibility to view only the information you need. The first half of the table displays data related to the ILL item itself such as title, volume, page numbers."
-msgstr ""
-"In der Tabelle der Bestellungen werden sehr viele Informationen angezeigt, "
-"daher ist es ratsam von der Tabellenkonfiguration Gebrauch zu machen, um nur "
-"die benötigten Informationen anzuzeigen. Die erste Hälfte der Tabelle zeigt "
-"Informationen zum bestellten Titel, wie Titel, Bandangabe, Seitenzahlen."
+msgstr "In der Tabelle der Bestellungen werden sehr viele Informationen angezeigt, daher ist es ratsam von der Tabellenkonfiguration Gebrauch zu machen, um nur die benötigten Informationen anzuzeigen. Die erste Hälfte der Tabelle zeigt Informationen zum bestellten Titel, wie Titel, Bandangabe, Seitenzahlen."
 
 #: ../../source/ILL_requests.rst:77
 msgid "|image1436|"
@@ -152,9 +141,7 @@ msgstr "|image1436|"
 
 #: ../../source/ILL_requests.rst:79
 msgid "The second half of the table displays data related to the request such as notes and comments."
-msgstr ""
-"Die zweite Hälfte der Tabelle zeigt die Daten zur Bestellung, wie Hinweise "
-"und Kommentare."
+msgstr "Die zweite Hälfte der Tabelle zeigt die Daten zur Bestellung, wie Hinweise und Kommentare."
 
 #: ../../source/ILL_requests.rst:85
 msgid "Managing ILL requests"
@@ -162,10 +149,7 @@ msgstr "Fernleihbestellungen verwalten"
 
 #: ../../source/ILL_requests.rst:87
 msgid "Click on the ‘Manage request’ button in the final column. Depending on the current status of the request you may see some or all of the following options:"
-msgstr ""
-"Klicken Sie auf die Schaltfläche \"Bestellung verwalten\" in der letzten "
-"Spalte. Abhängig vom aktuellen Status der Bestellung sehen Sie einige oder "
-"alle der folgenden Optionen:"
+msgstr "Klicken Sie auf die Schaltfläche \"Bestellung verwalten\" in der letzten Spalte. Abhängig vom aktuellen Status der Bestellung sehen Sie einige oder alle der folgenden Optionen:"
 
 #: ../../source/ILL_requests.rst:90
 msgid "Edit request"
@@ -173,9 +157,7 @@ msgstr "Anforderung bearbeiten"
 
 #: ../../source/ILL_requests.rst:92
 msgid "you can edit the borrowernumber, biblionumber, branch and can add notes."
-msgstr ""
-"Sie können die Benutzernummer, Titelsatznummer, Bibliothek und Notizen "
-"bearbeiten."
+msgstr "Sie können die Benutzernummer, Titelsatznummer, Bibliothek und Notizen bearbeiten."
 
 #: ../../source/ILL_requests.rst:93
 msgid "Confirm request"
@@ -183,9 +165,7 @@ msgstr "Bestellung bestätigen"
 
 #: ../../source/ILL_requests.rst:95
 msgid "place the request with a document supply service using a backend such as BLDSS."
-msgstr ""
-"die Bestellung bei einem Dokumentenlieferdienst aufgeben, z.B. über das "
-"BLDSS-Backend."
+msgstr "die Bestellung bei einem Dokumentenlieferdienst aufgeben, z.B. über das BLDSS-Backend."
 
 #: ../../source/ILL_requests.rst:96 ../../source/ILL_requests.rst:143
 msgid "Place request with partners"
@@ -195,7 +175,7 @@ msgstr "Bestellung bei Fernleihpartnern"
 msgid "place the request via email with a :ref:`partner library <place-request-with-partners-label>`"
 msgstr ""
 "die Bestellung über E-Mail bei einer :ref:`Partner-Bibliothek <place-request-"
-"with-partners-label> aufgeben"
+"with-partners-label>` aufgeben"
 
 #: ../../source/ILL_requests.rst:99
 msgid "Delete"
@@ -203,9 +183,7 @@ msgstr "Löschen"
 
 #: ../../source/ILL_requests.rst:101
 msgid "fully delete the request. Details of deleted requests are not retained in Koha."
-msgstr ""
-"vollständige Löschung der Bestellung. Die Details gelöschter Bestellungen "
-"sind dann nicht mehr in Koha abrufbar."
+msgstr "vollständige Löschung der Bestellung. Die Details gelöschter Bestellungen sind dann nicht mehr in Koha abrufbar."
 
 #: ../../source/ILL_requests.rst:102
 msgid "Revert request"
@@ -213,10 +191,7 @@ msgstr "Bestellung rückgängig machen"
 
 #: ../../source/ILL_requests.rst:104
 msgid "following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’"
-msgstr ""
-"nach den Status 'Bestellt' oder 'Bei Partnern bestellt' kann "
-"Bibliothekspersonal eine Bestellung stornieren. Der Status ändert sich dann "
-"zu 'Neu'"
+msgstr "nach den Status 'Bestellt' oder 'Bei Partnern bestellt' kann Bibliothekspersonal eine Bestellung stornieren. Der Status ändert sich dann zu 'Neu'"
 
 #: ../../source/ILL_requests.rst:106
 msgid "Mark completed"
@@ -232,11 +207,7 @@ msgstr "Metadaten bearbeiten"
 
 #: ../../source/ILL_requests.rst:111
 msgid "Depending on the backend used for the request you may be able to edit, add or delete some or all of the request metadata.  For example, if the metdata has originated from a requestor using the FreeForm backend this may need to be edited, whereas metadata from an external recognised source such as BLDSS should not."
-msgstr ""
-"Abhängig vom verwendeten Backend können Sie die Metadatan bearbeiten, "
-"verändern oder löschen. Zum Beispiel ist es möglich die Daten für das "
-"FreeForm-Backend zu bearbeiten, während diese das BLDSS-Backend nicht "
-"verändert werden können."
+msgstr "Abhängig vom verwendeten Backend können Sie die Metadatan bearbeiten, verändern oder löschen. Zum Beispiel ist es möglich die Daten für das FreeForm-Backend zu bearbeiten, während diese das BLDSS-Backend nicht verändert werden können."
 
 #: ../../source/ILL_requests.rst:116
 msgid "Display supplier metadata"
@@ -244,9 +215,7 @@ msgstr "Vollständige Metadaten des Anbieters anzeigen"
 
 #: ../../source/ILL_requests.rst:118
 msgid "Displays any extra metadata that might have been provided by your ILL supplier that has not been included in the standard request fields."
-msgstr ""
-"Zeigt alle zusätzlichen Metadaten die durch den Provider bereit gestellt "
-"wurden und nicht in die Standardbestellfelder übertragen wurden."
+msgstr "Zeigt alle zusätzlichen Metadaten die durch den Provider bereit gestellt wurden und nicht in die Standardbestellfelder übertragen wurden."
 
 #: ../../source/ILL_requests.rst:120
 msgid "Comments"
@@ -254,13 +223,7 @@ msgstr "Kommentare"
 
 #: ../../source/ILL_requests.rst:122
 msgid "It is possible to add comments to an ILL request and these can be used by ILL staff to keep track of work undertaken. Comments are read only and are stored in chronological order. They display the borrower details and date of the comment. If present, the number of comments is displayed in the List requests view."
-msgstr ""
-"Es ist möglich Kommentare zu Fernleihbestellungen zu erfassen und so den "
-"Überblick über einzelne Arbeitsschritte zu behalten. Kommentare können nicht "
-"nachträglich bearbeitet werden und werden in chronologischer Reihenfolge "
-"gespeichert. Sie enthalten Informationen zum Benutzer und das Datum des "
-"Kommentars. Wenn es Kommentare gibt, wird deren Anzahl in der Liste der "
-"Fernleihbestellungen angezeigt."
+msgstr "Es ist möglich Kommentare zu Fernleihbestellungen zu erfassen und so den Überblick über einzelne Arbeitsschritte zu behalten. Kommentare können nicht nachträglich bearbeitet werden und werden in chronologischer Reihenfolge gespeichert. Sie enthalten Informationen zum Benutzer und das Datum des Kommentars. Wenn es Kommentare gibt, wird deren Anzahl in der Liste der Fernleihbestellungen angezeigt."
 
 #: ../../source/ILL_requests.rst:129
 msgid "Request statuses"
@@ -288,9 +251,7 @@ msgstr "Bestellung zurückgesetzt"
 
 #: ../../source/ILL_requests.rst:137
 msgid "Cancellation requested – a patron has requested cancellation from the OPAC."
-msgstr ""
-"Stornierung gewünscht - ein Benutzer hat vom OPAC ausgehend die Stornierung "
-"der Fernleihbestellung beantragt"
+msgstr "Stornierung gewünscht - ein Benutzer hat vom OPAC ausgehend die Stornierung der Fernleihbestellung beantragt"
 
 #: ../../source/ILL_requests.rst:138
 msgid "Completed"
@@ -298,31 +259,20 @@ msgstr "Abgeschlossen"
 
 #: ../../source/ILL_requests.rst:145
 msgid "If you have a network of partner libraries which permit ILL requests you can manage this through Koha. First you need to create your partner library accounts:"
-msgstr ""
-"Wenn Sie ein Netzwerk von Partnerbibliotheken für die Fernleihe haben, "
-"können Sie diese über Koha verwalten. Zuerst müssen Sie Konten für die "
-"Partnerbibliotheken anlegen:"
+msgstr "Wenn Sie ein Netzwerk von Partnerbibliotheken für die Fernleihe haben, können Sie diese über Koha verwalten. Zuerst müssen Sie Konten für die Partnerbibliotheken anlegen:"
 
 #: ../../source/ILL_requests.rst:147
 msgid "You will need to set up a :ref:`patron category <patron-categories-label>` with the code ILLLIBS."
-msgstr ""
-"Sie müssen dazu einen :ref:`Benutzertyp <patron-categories-label>` mit dem "
-"in der koha-conf.xml definierten Benutzertypcode anlegen."
+msgstr "Sie müssen dazu einen :ref:`Benutzertyp <patron-categories-label>` mit dem in der koha-conf.xml definierten Benutzertypcode anlegen."
 
 #: ../../source/ILL_requests.rst:149
 msgid "You will need to create a patron account with this category for each partner library."
-msgstr ""
-"Für jede Partnerbibliothek müssen Sie nun ein Konto mit diesem Benutzertyp "
-"anlegen."
+msgstr "Für jede Partnerbibliothek müssen Sie nun ein Konto mit diesem Benutzertyp anlegen."
 
 #: ../../source/ILL_requests.rst:151
 msgid "Each library must have an email address as this will be the mechanism for sending the inter-library loan request."
-msgstr ""
-"Für jede Bibliothek muss eine E-Mail-Adresse erfasst werden, damit die "
-"Fernleihbestellung verschickt werden kann."
+msgstr "Für jede Bibliothek muss eine E-Mail-Adresse erfasst werden, damit die Fernleihbestellung verschickt werden kann."
 
 #: ../../source/ILL_requests.rst:153
 msgid "You can now use the 'Place request with partners' option when processing requests."
-msgstr ""
-"Sie können dann die \"Bestellung bei Fernleihpartnern\"-Option verwenden, "
-"wenn Sie Bestellungen bearbeiten."
+msgstr "Sie können dann die \"Bestellung bei Fernleihpartnern\"-Option verwenden, wenn Sie Bestellungen bearbeiten."

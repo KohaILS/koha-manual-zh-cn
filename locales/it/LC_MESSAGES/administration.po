@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
 "PO-Revision-Date: 2020-11-03 17:02+0000\n"
 "Last-Translator: bargioni <bargioni@pusc.it>\n"
 "Language-Team: Koha Translation Team\n"
@@ -199,9 +199,7 @@ msgstr "Infine, se hai delle note puoi inserirle qui. Queste non saranno visibil
 
 #: ../../source/administration.rst:113
 msgid "Finally, you can choose whether the library will display as an available pickup location for holds"
-msgstr ""
-"Infine, puoi scegliere se la biblioteca apparirà come disponibile per il "
-"prelievo di prenotazioni"
+msgstr "Infine, puoi scegliere se la biblioteca apparirà come disponibile per il prelievo di prenotazioni"
 
 #: ../../source/administration.rst:117
 msgid "Of the fields listed, only 'Library code' and 'Name' are required"
@@ -233,10 +231,7 @@ msgstr "Gruppi biblioteca"
 
 #: ../../source/administration.rst:141
 msgid "Library groups can serve four purposes: to limit access to patron data, to limit OPAC searches, to limit staff searches, and/or to define holds behavior."
-msgstr ""
-"I gruppi di biblioteche servono a 4 scopi: limitare l'acceso ai dati utente, "
-"limitare accesso alle ricerche OPAC, limitare le ricerche dello staff, "
-"definire il comportamento delle prenotazioni."
+msgstr "I gruppi di biblioteche servono a 4 scopi: limitare l'acceso ai dati utente, limitare accesso alle ricerche OPAC, limitare le ricerche dello staff, definire il comportamento delle prenotazioni."
 
 #: ../../source/administration.rst:145
 msgid "*Get there:* More > Administration > Basic Parameters > Library groups"
@@ -293,9 +288,7 @@ msgstr "|image131|"
 #: ../../source/administration.rst:185
 #, fuzzy
 msgid "If you want to use this group to define holds rules, check the ‘Is local hold group’ box."
-msgstr ""
-"Se vuoi usare questo gruppo per definire regole delle prenotazioni, spunta "
-"la casella 'is local hold group'."
+msgstr "Se vuoi usare questo gruppo per definire regole delle prenotazioni, spunta la casella 'is local hold group'."
 
 #: ../../source/administration.rst:189
 #, fuzzy
@@ -391,11 +384,7 @@ msgstr "La descrizione è la definizione del tipo di elemento (per quelli con pi
 
 #: ../../source/administration.rst:254
 msgid "Item types can be grouped together for searching at the same time. For example you can put DVDs and Bluray in to a group called Movie and then they can be searched together. These groups are defined in the ITEMTYPECAT :ref:`authorized value category <existing-values-label>`."
-msgstr ""
-"I tipi di copia possono essere raggruppati per la ricerca allo stesso tempo. "
-"Per esempio si può mettere DVD e Blu-ray in un gruppo chiamato film. Questi "
-"gruppi sono definiti nel valore autorizzato ITEMTYPECAT :ref:`authorized "
-"value category <existing-values-label>`"
+msgstr "I tipi di copia possono essere raggruppati per la ricerca allo stesso tempo. Per esempio si può mettere DVD e Blu-ray in un gruppo chiamato film. Questi gruppi sono definiti nel valore autorizzato ITEMTYPECAT :ref:`authorized value category <existing-values-label>`"
 
 #: ../../source/administration.rst:259
 msgid "You can choose to have an image associated with your item type"
@@ -419,9 +408,7 @@ msgstr "Affinché l'immagine appaia nell'OPAC devi impostare la preferenza di si
 
 #: ../../source/administration.rst:272
 msgid "*Get there:* More > Administration > Global system preferences > :ref:`Administration <administration-system-preferences-label>`"
-msgstr ""
-"*Vai a:* Più > Amministrazione > Preferenze di sistema > Amministrazione "
-":ref:`Admin <administration-system-preferences-label>`"
+msgstr "*Vai a:* Più > Amministrazione > Preferenze di sistema > Amministrazione :ref:`Admin <administration-system-preferences-label>`"
 
 #: ../../source/administration.rst:275
 msgid "For items that you are suppressing from the OPAC you can hide their item type from being searched in the OPAC"
@@ -429,16 +416,11 @@ msgstr "Per le copie che si stanno nascondendo nell'OPAC, è possibile nasconder
 
 #: ../../source/administration.rst:278
 msgid "**Note** This will not prevent those items to appear in search results, it will simply remove the item type from the advanced search form."
-msgstr ""
-"**Nota** Ciò non impedirà a quelle copie di apparire trai i risultati delle "
-"ricerche, ma eliminerà il tipo di copia dalla tendina della ricerca avanzata."
+msgstr "**Nota** Ciò non impedirà a quelle copie di apparire trai i risultati delle ricerche, ma eliminerà il tipo di copia dalla tendina della ricerca avanzata."
 
 #: ../../source/administration.rst:282
 msgid "If you want to completely hide items from a certain item type, let's say that you have a professional library with books reserved for staff and you don't want those to appear in the OPAC, use the :ref:`OpacHiddenItems` system preference."
-msgstr ""
-"Se vuoi nascondere totalmente nell'OPAC delle copie con un certo tipo copia, "
-"per esempio quelle riservate allo staff, usa la preferenza di sistema "
-":ref:`OpacHiddenItems`."
+msgstr "Se vuoi nascondere totalmente nell'OPAC delle copie con un certo tipo copia, per esempio quelle riservate allo staff, usa la preferenza di sistema :ref:`OpacHiddenItems`."
 
 #: ../../source/administration.rst:287
 msgid "For items that do not circulate, check the 'Not for loan' options"
@@ -460,11 +442,7 @@ msgstr "Se addebiti una parcella noleggio per copie (come DVDs) inserisci quell'
 
 #: ../../source/administration.rst:300
 msgid "For items that a rental charge will be charged by the number of days the item is checked out for, enter the daily fee in the 'Daily Rental Charge'. This will be charged to the patron upon checkout - the cost per day and how many days this item can be checked out to the patron. This daily rental charge will also be applied if/when a renewal occurs."
-msgstr ""
-"Per le copie che hanno un costo di affitto in base al numero di giorni di "
-"prestito, indica il costo giornaliero in 'Tariffa affitto giornaliero'. "
-"Verrà addebitato all'utente il costo complessivo al momento del prestito, e "
-"verrà aggiornato al momento della restituzione."
+msgstr "Per le copie che hanno un costo di affitto in base al numero di giorni di prestito, indica il costo giornaliero in 'Tariffa affitto giornaliero'. Verrà addebitato all'utente il costo complessivo al momento del prestito, e verrà aggiornato al momento della restituzione."
 
 #: ../../source/administration.rst:307
 #, fuzzy
@@ -520,9 +498,7 @@ msgstr "Alcuni dispositivi SIP hanno bisogno di utilizzare un tipo di supporto s
 
 #: ../../source/administration.rst:354
 msgid "If this item type is only to be used in certain libraries only, you can select them here. Select 'All libraries' if this item type is used across the library system."
-msgstr ""
-"Se questo tipo di copia è usato solo in una delle biblioteche di Koha, "
-"indicalo qui. Seleziona 'Tutte le biblioteche' se è invece usato da tutte."
+msgstr "Se questo tipo di copia è usato solo in una delle biblioteche di Koha, indicalo qui. Seleziona 'Tutte le biblioteche' se è invece usato da tutte."
 
 #: ../../source/administration.rst:360
 msgid "If this is left blank, 'All libraries' is assumed."
@@ -530,9 +506,7 @@ msgstr "Se resta vuoto, si intende 'Tutte le biblioteche'."
 
 #: ../../source/administration.rst:364
 msgid "To select more than one library, hold the 'Ctrl' key while selecting the libraries."
-msgstr ""
-"Per selezionare più di una biblioteca, premi il tasto ctrl (cmd in Mac) "
-"quando selezioni."
+msgstr "Per selezionare più di una biblioteca, premi il tasto ctrl (cmd in Mac) quando selezioni."
 
 #: ../../source/administration.rst:369
 #, fuzzy
@@ -662,13 +636,7 @@ msgstr "CONTROL\\_NUM\\_SEQUENCE"
 
 #: ../../source/administration.rst:458
 msgid "Used to generate control numbers in the advanced cataloguing editor. Enter a string ending with a number as the authorized value and use the description to describe the type of number. For example: 'sprLib0001' 'Springfield library'. In the advanced editor this will activate a new widget that will allow you to choose the type of number and generate the next number in the sequence."
-msgstr ""
-"Usato per generare numeri di controllo nella catalogazione avanzata. "
-"Indicare una stringa che termina con un numero come valore autorizzato e usa "
-"la descrizione per descrivere il tipo di numero. Per esempio: 'sprLib0001' "
-"'Springfield library'. Nell'editor avanzato sarà attivato un widget che "
-"permetterà di scegliere il tipo di numero e generare il numero successivo in "
-"sequenza."
+msgstr "Usato per generare numeri di controllo nella catalogazione avanzata. Indicare una stringa che termina con un numero come valore autorizzato e usa la descrizione per descrivere il tipo di numero. Per esempio: 'sprLib0001' 'Springfield library'. Nell'editor avanzato sarà attivato un widget che permetterà di scegliere il tipo di numero e generare il numero successivo in sequenza."
 
 #: ../../source/administration.rst:465
 msgid "COUNTRY"
@@ -1212,11 +1180,7 @@ msgstr "A seconda del valore per la preferenza :ref:`FeeOnChangePatronCategory` 
 
 #: ../../source/administration.rst:872
 msgid "If you want your patron to receive overdue notices, set the 'Overdue notice required' to 'Yes'. This will enable you to set the :ref:`overdue notice triggers <overdue-notice/status-triggers-label>` in the Tools module."
-msgstr ""
-"Se vuoi che gli utenti ricevano avvisi per le restituzioni in ritardo, "
-"imposta 'Overdue notice required' a 'Sì'. Ciò ti permetterà di impostare i "
-":ref:`triggers di avvisi di ritardo <overdue-notice/status-triggers-label>` "
-"nel modulo Strumenti."
+msgstr "Se vuoi che gli utenti ricevano avvisi per le restituzioni in ritardo, imposta 'Overdue notice required' a 'Sì'. Ciò ti permetterà di impostare i :ref:`triggers di avvisi di ritardo <overdue-notice/status-triggers-label>` nel modulo Strumenti."
 
 #: ../../source/administration.rst:877
 msgid "You can decide on a patron category basis if lost items are shown in the staff client by making a choice from the 'Lost items in staff client' pull down"
@@ -1276,13 +1240,7 @@ msgstr "|image1204|"
 #: ../../source/administration.rst:933
 #, fuzzy
 msgid "You can set the preference for checking the patron's circulation history when checking out an item. This option will only be available if the :ref:`CheckPrevCheckout` system preference is set to 'Unless overridden by patron category, do' or 'Unless overridden by patron category, do not'. This setting can be overridden on a per-patron basis in their :ref:`individual file <add-a-new-patron-label>`."
-msgstr ""
-"Puoi impostare la preferenza per vedere lo storico della circolazione "
-"dell'utente al momento del prestito. Questa opzione sarà disponibile se la "
-"preferenza di sistema :ref:`CheckPrevCheckout` è impostata a 'Unless "
-"overridden by patron category, do' o 'Unless overridden by patron category, "
-"do not'. Questa impostazione può essere superata utente per utente nel "
-"rispettivo :ref:`file individuale <add-a-new-patron-label>`."
+msgstr "Puoi impostare la preferenza per vedere lo storico della circolazione dell'utente al momento del prestito. Questa opzione sarà disponibile se la preferenza di sistema :ref:`CheckPrevCheckout` è impostata a 'Unless overridden by patron category, do' o 'Unless overridden by patron category, do not'. Questa impostazione può essere superata utente per utente nel rispettivo :ref:`file individuale <add-a-new-patron-label>`."
 
 #: ../../source/administration.rst:940
 msgid "Finally you can assign advanced messaging preferences by default to a patron category"
@@ -1419,9 +1377,7 @@ msgstr "Scegliere il tipo di copia a cui si desidera applicare questa regola. Se
 
 #: ../../source/administration.rst:1045
 msgid "Add notes about your circulation rule into the notes field. This can be helpful to remember why and when something was last changed."
-msgstr ""
-"Aggiungi note alle tue regole della circolazione nel campo note. Può servire "
-"per ricordare quando e perché è stato modificato qualcosa."
+msgstr "Aggiungi note alle tue regole della circolazione nel campo note. Può servire per ricordare quando e perché è stato modificato qualcosa."
 
 #: ../../source/administration.rst:1048
 #, fuzzy
@@ -1452,20 +1408,15 @@ msgstr "Puoi anche indicare una data fissa per un determinata categoria di utent
 
 #: ../../source/administration.rst:1071
 msgid "Exactly on: The due date of any item checked out with this rule will be set to the hard due date."
-msgstr ""
-"Esattamente il: la data di scadenza di un prestito verrà rigidamente fissata."
+msgstr "Esattamente il: la data di scadenza di un prestito verrà rigidamente fissata."
 
 #: ../../source/administration.rst:1074
 msgid "Before: Koha will calculate the normal loan period. If the calculated due date would be after or on the hard due date, the hard due date will be used instead."
-msgstr ""
-"Prima: Koha calcolerà il normale periodo di prestito. Se la data di scadenza "
-"calcolata sarà successiva alla data fissa, verrà usata la seconda."
+msgstr "Prima: Koha calcolerà il normale periodo di prestito. Se la data di scadenza calcolata sarà successiva alla data fissa, verrà usata la seconda."
 
 #: ../../source/administration.rst:1078
 msgid "After: Koha will calculate the normal loan period. If the calculated due date would be before the hard due date, the hard due date will be used instead."
-msgstr ""
-"Dopo: Koha calcolerà il normale periodo di prestito. Se la data di scadenza "
-"calcolata sarà anteriore alla data fissa, verrà usata la data fissa."
+msgstr "Dopo: Koha calcolerà il normale periodo di prestito. Se la data di scadenza calcolata sarà anteriore alla data fissa, verrà usata la data fissa."
 
 #: ../../source/administration.rst:1082
 #, fuzzy
@@ -1565,9 +1516,7 @@ msgstr "È possibile abilitare i rinnovi automatici per alcune coppie tipo di co
 
 #: ../../source/administration.rst:1171
 msgid "You will need to enable the :ref:`automatic renewal cron job <cron-automatic-renewal-label>` for this to work."
-msgstr ""
-"È necessario attivare il cron job :ref:`rinnovo automatico <cron-automatic-"
-"renewal-label>` per fare questo."
+msgstr "È necessario attivare il cron job :ref:`rinnovo automatico <cron-automatic-renewal-label>` per fare questo."
 
 #: ../../source/administration.rst:1176
 #, fuzzy
@@ -1576,18 +1525,12 @@ msgstr "Questa funzione ha bisogno di avere la colonna \"non rinnovare prima di\
 
 #: ../../source/administration.rst:1179
 msgid "If you are using automatic renewals, you can use the 'No automatic renewals after' to limit the time a patron can have the item independent: Example: Don't allow automatic renewals after a checkout period of 80 days."
-msgstr ""
-"Se usi il rinnovo automatico, puoi usare il 'No automatic renewals after' "
-"per limitare il periodo massimo a cui un utente può arrivare. Esempio: non "
-"permettere autorinnovi oltre 80 giorni."
+msgstr "Se usi il rinnovo automatico, puoi usare il 'No automatic renewals after' per limitare il periodo massimo a cui un utente può arrivare. Esempio: non permettere autorinnovi oltre 80 giorni."
 
 #: ../../source/administration.rst:1183
 #, fuzzy
 msgid "Similar to the hard due date setting, you can also stop automatic renwals after a specific date using the 'No automatic renwal after (hard limit)' setting."
-msgstr ""
-"Simile all'impostazione di data fissa, puoi anche bloccare i rinnovi "
-"automatici dopo una specifica data usando l'impostazione 'No automatic "
-"renwal after (hard limit)'."
+msgstr "Simile all'impostazione di data fissa, puoi anche bloccare i rinnovi automatici dopo una specifica data usando l'impostazione 'No automatic renwal after (hard limit)'."
 
 #: ../../source/administration.rst:1187
 #, fuzzy
@@ -1596,9 +1539,7 @@ msgstr "Se l'utente può prenotare questo tipo di copia, inserire nel campo 'Pre
 
 #: ../../source/administration.rst:1191
 msgid "You can also set a daily limit on the number of holds a patron can place."
-msgstr ""
-"Puoi anche impostare un limite giornaliero per il numero delle prenotazioni "
-"che un utente può richiedere."
+msgstr "Puoi anche impostare un limite giornaliero per il numero delle prenotazioni che un utente può richiedere."
 
 #: ../../source/administration.rst:1193
 msgid "While the two settings before limit the holds that can be placed across various records, the next setting is used to limit the number of holds that can be placed on one record at the same time. Example: For fiction books you might want to allow only one item to be placed on hold at the same time by the same user. But for serials where items represent different issues more than one hold at the same time is fine."
@@ -1606,22 +1547,15 @@ msgstr ""
 
 #: ../../source/administration.rst:1200
 msgid "Next you can decide how the availability of items influences the ability to place a hold. The 'On shelf holds allowed' option has three settings:"
-msgstr ""
-"Poi puoi decidere come la disponibilità di copie influenza la possibilità di "
-"fare prenotazioni. L'opzione 'Prenotazioni a scaffale consentite' ha tre "
-"possibili valori:"
+msgstr "Poi puoi decidere come la disponibilità di copie influenza la possibilità di fare prenotazioni. L'opzione 'Prenotazioni a scaffale consentite' ha tre possibili valori:"
 
 #: ../../source/administration.rst:1203
 msgid "Yes: This will allow to place holds on items at all times. It doesn't matter if they are available or checked out."
-msgstr ""
-"Sì, si potrà prenotare copie in qualsiasi momento. Anche se già in prestito."
+msgstr "Sì, si potrà prenotare copie in qualsiasi momento. Anche se già in prestito."
 
 #: ../../source/administration.rst:1206
 msgid "If any unavailable: This will allow to place a hold as soon as one or more items of the record are checked out. It doesn't matter if there are still one or more items available on the shelf."
-msgstr ""
-"Se alcune non disponibili: Permetterà di prenotare non appena una o più "
-"copie vengono prestate. Non interessa se vi sono ancora una o più copie "
-"disponibili a scaffale."
+msgstr "Se alcune non disponibili: Permetterà di prenotare non appena una o più copie vengono prestate. Non interessa se vi sono ancora una o più copie disponibili a scaffale."
 
 #: ../../source/administration.rst:1210
 msgid "If all unavailable: This will allow to place a hold as soon as all items on the record are checked out that could fill the hold. This is especially useful for libraries that don't offer the service of getting items placed on hold off the shelf for patrons."
@@ -1652,10 +1586,7 @@ msgstr "Se vuoi permettere agli utenti di inoltrare richieste di articoli, "
 
 #: ../../source/administration.rst:1229
 msgid "If you want to use the article request functionality you need to enable it using the :ref:`ArticleRequests` system preference and configure the form using the other related preferences."
-msgstr ""
-"Se vuoi usare la funzionalità di richiesta articoli (document delivery) devi "
-"attivarla usando la preferenza di sistema :ref:`ArticleRequests` e "
-"configurare la form usando altre preferenze di sistema."
+msgstr "Se vuoi usare la funzionalità di richiesta articoli (document delivery) devi attivarla usando la preferenza di sistema :ref:`ArticleRequests` e configurare la form usando altre preferenze di sistema."
 
 #: ../../source/administration.rst:1233
 #, fuzzy
@@ -1825,10 +1756,7 @@ msgstr "Rimborso di default se si restituisce copia persa"
 
 #: ../../source/administration.rst:1353
 msgid "Here, you can specify the default policy for lost item fees on return. This policy will apply to this library. This rule is to be used with the :ref:`RefundLostOnReturnControl` system preference."
-msgstr ""
-"Qui puoi indicare il default per il risarcimento di copie perse. Verrà "
-"applicato solo a questa biblioteca. Questa regola va usata con la preferenza "
-"di sistema :ref:`RefundLostOnReturnControl`."
+msgstr "Qui puoi indicare il default per il risarcimento di copie perse. Verrà applicato solo a questa biblioteca. Questa regola va usata con la preferenza di sistema :ref:`RefundLostOnReturnControl`."
 
 #: ../../source/administration.rst:1360
 msgid "Default holds policy by item type"
@@ -2146,10 +2074,7 @@ msgstr "La matrice dei costi di trasporto consente a un sistema bibliotecario di
 
 #: ../../source/administration.rst:1632
 msgid "The transport cost matrix takes precedence in controlling where holds are filled from, if the matrix is not used then Koha checks the :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`."
-msgstr ""
-"La matrice dei costi di trasporto ha la precedenza a controllare dove le "
-"prenotazioni sono soddisfatte; se non si utilizza la matrice, Koha utilizza "
-":ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>."
+msgstr "La matrice dei costi di trasporto ha la precedenza a controllare dove le prenotazioni sono soddisfatte; se non si utilizza la matrice, Koha utilizza :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>."
 
 #: ../../source/administration.rst:1636
 msgid "Costs are decimal values between some arbitrary maximum value (e.g. 1 or 100) and 0 which is the minimum (no) cost. For example, you could just use the distance between each library in miles as your 'cost', if that would accurately reflect the cost of transferring them. Perhaps post offices would be a better measure. Libraries sharing a post office would have a cost of 1, adjacent post offices would have a cost of 2, etc."
@@ -3174,14 +3099,7 @@ msgstr "Tipi di authority"
 
 #: ../../source/administration.rst:2407
 msgid "Authority types are basically MARC frameworks for authority records and because of that they follow the same editing rules found in the :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>` section of this manual. Koha comes with many of the necessary authority frameworks already installed. To learn how to add and edit authority types, simply review the :ref:`MARC bibliographic frameworks` section of this manual."
-msgstr ""
-"In Tipi di autorità si trovano sostanzialmente delle griglie MARC per i "
-"record di autorità; le regole sono le stesse della sezione :ref:`griglie di "
-"catalogazione bibliografica MARC <marc-bibliographic-frameworks-label>` di "
-"questo manuale. Koha installa già diverse griglie di autorità. Per maggiori "
-"informazioni su come aggiungerne altre o modificare quelle esistenti, rivedi "
-"la sezione :ref:`griglie di catalogazione bibliografica MARC` di questo "
-"manuale."
+msgstr "In Tipi di autorità si trovano sostanzialmente delle griglie MARC per i record di autorità; le regole sono le stesse della sezione :ref:`griglie di catalogazione bibliografica MARC <marc-bibliographic-frameworks-label>` di questo manuale. Koha installa già diverse griglie di autorità. Per maggiori informazioni su come aggiungerne altre o modificare quelle esistenti, rivedi la sezione :ref:`griglie di catalogazione bibliografica MARC` di questo manuale."
 
 #: ../../source/administration.rst:2414
 #, fuzzy
@@ -3807,11 +3725,7 @@ msgstr "Budgets"
 
 #: ../../source/administration.rst:2847
 msgid "Budgets are used for tracking accounting values related to acquisitions. For example you could create a budget for the current year (ex. 2015) and then break that into :ref:`Funds` for different areas of the library (ex. Books, Audio, etc)."
-msgstr ""
-"I bilanci sono utilizzati per il monitoraggio dei valori contabili relativi "
-"alle acquisizioni. Ad esempio si potrebbe creare un bilancio per l'anno in "
-"corso (es. 2015) e poi scomporlo in :ref:`Fondi` per le diverse aree della "
-"biblioteca (es. libri, audio, ecc)."
+msgstr "I bilanci sono utilizzati per il monitoraggio dei valori contabili relativi alle acquisizioni. Ad esempio si potrebbe creare un bilancio per l'anno in corso (es. 2015) e poi scomporlo in :ref:`Fondi` per le diverse aree della biblioteca (es. libri, audio, ecc)."
 
 #: ../../source/administration.rst:2852
 msgid "*Get there:* More > Administration > Acquisitions > Budgets"
@@ -4072,10 +3986,7 @@ msgstr "Le categorie pianificate sono usate a scopi statistici. Se usi i valori 
 
 #: ../../source/administration.rst:3057
 msgid "To learn more about planning categories, check out the :ref:`Planning category FAQ <faq-planning-categories-label>`."
-msgstr ""
-"Le Categorie di pianificazione sono utilizzati a scopi statistici. Per "
-"ulteriori informazioni sulle categorie di pianificazione, controllare :ref:`"
-"FAQ Categorie di Pianificazione <faq-planning-categories-label>`."
+msgstr "Le Categorie di pianificazione sono utilizzati a scopi statistici. Per ulteriori informazioni sulle categorie di pianificazione, controllare :ref:`FAQ Categorie di Pianificazione <faq-planning-categories-label>`."
 
 #: ../../source/administration.rst:3059
 msgid "When complete, click 'Submit' and you will be brought to a list of all of the funds for the budget."
@@ -4938,9 +4849,7 @@ msgstr "Provider SMS"
 
 #: ../../source/administration.rst:3619
 msgid "This option will only appear if the :ref:`smssenddriver-label` preference is set to 'Email'"
-msgstr ""
-"Questa opzione appare solo se la preferenza :ref:`SMSSendDriver` è impostata "
-"a 'Email'"
+msgstr "Questa opzione appare solo se la preferenza :ref:`SMSSendDriver` è impostata a 'Email'"
 
 #: ../../source/administration.rst:3622
 msgid "From here you can enter as many cellular providers as you need to send SMS notices to your patrons using the email protocol."
@@ -5206,9 +5115,7 @@ msgstr ""
 
 #: ../../source/administration.rst:3774
 msgid "**Example 1:** Additional subscription field using :ref:`authorized values <authorized-values-label>`"
-msgstr ""
-"*Vai a:* Più > Amministrazione > Parametri di base > :ref:`Valori "
-"autorizzati <authorized-values-label>`"
+msgstr "*Vai a:* Più > Amministrazione > Parametri di base > :ref:`Valori autorizzati <authorized-values-label>`"
 
 #: ../../source/administration.rst:3777
 msgid "You might want to track which department you're ordering this serial for"
@@ -5441,3 +5348,4 @@ msgstr "|image1380|"
 
 #~ msgid "At this time you can map only 1 MARC field to 1 Koha field. This means that you won't be able to map both the 100a and the 700a to the author field, you need to choose one or the other."
 #~ msgstr "Attualmente puoi mappare solo 1 campo MARC a 1 campo Koha. Questo significa che non puoi mappare sia il campo 100a sia il campo 700a al campo autore, dovrai scegliere l'uno o l'altro."
+

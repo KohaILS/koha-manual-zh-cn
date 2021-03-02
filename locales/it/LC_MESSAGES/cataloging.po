@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-12-05 16:30+0000\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-02-07 12:31+0000\n"
 "Last-Translator: ztajoli <ztajoli@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /it/man18.05/cataloging.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1607185809.701553\n"
+"X-POOTLE-MTIME: 1612701081.994232\n"
 
 #: ../../source/cataloging.rst:6
 msgid "Cataloging"
@@ -40,13 +40,7 @@ msgstr "Record bibliografici"
 
 #: ../../source/cataloging.rst:27
 msgid "In Koha the bibliographic record contains the main information related to the material. This includes things like the title, author, ISBN, etc. This information is stored in Koha in Marc (different flavors of Marc are supported in Koha). Once this information is saved, :ref:`item records <item-records-label>` can be attached."
-msgstr ""
-"In Koha, il record bibliografico contiene l'informazione fondamentale "
-"relativa al materiale. Include titolo, autore, ISBN, ecc. Questa "
-"informazione è conservata in Koha nel formato MARC (in una delle "
-"declinazioni MARC supportate da Koha). Una volta salvata questa "
-"informazione, si possono aggiungere :ref:`copie o fascicoli <item-records-"
-"label>`."
+msgstr "In Koha, il record bibliografico contiene l'informazione fondamentale relativa al materiale. Include titolo, autore, ISBN, ecc. Questa informazione è conservata in Koha nel formato MARC (in una delle declinazioni MARC supportate da Koha). Una volta salvata questa informazione, si possono aggiungere :ref:`copie o fascicoli <item-records-label>`."
 
 #: ../../source/cataloging.rst:36
 msgid "Adding records"
@@ -82,7 +76,7 @@ msgstr "**Nota**"
 
 #: ../../source/cataloging.rst:53
 msgid "You can create or modify frameworks in the :ref:`Administration module <marc-bibliographic-frameworks-label>`."
-msgstr ""
+msgstr "Puoi creare o modifcare le griglie di catalogazione nel :ref:`modulo di Amministrazione <marc-bibliographic-frameworks-label>`."
 
 #: ../../source/cataloging.rst:56
 msgid "If you would like to catalog a record using a blank template in the advanced editor"
@@ -102,9 +96,7 @@ msgstr "|image1262|"
 
 #: ../../source/cataloging.rst:65
 msgid "If you want to catalog a record based on an existing record at another library in the basic or advanced editor"
-msgstr ""
-"Se vuoi catalogare un record partendo da un record di un altro "
-"catalogonell'editor di base o avanzato"
+msgstr "Se vuoi catalogare un record partendo da un record di un altro catalogonell'editor di base o avanzato"
 
 #: ../../source/cataloging.rst:68
 msgid "Click 'New from Z39.50/SRU'"
@@ -112,7 +104,7 @@ msgstr "Clicca 'Nuovo da Z39.50/SRU'"
 
 #: ../../source/cataloging.rst:70
 msgid "Click on the arrow to pre-select a framework for your imported your catalog record (the Default framework is used if you do not make a selection)."
-msgstr ""
+msgstr "Clicca sulla freccia per preselezionare una griglia per il record che importi (verrà usata la griglia  di default se non fa la selezione)."
 
 #: ../../source/cataloging.rst:73
 msgid "|image628|"
@@ -133,10 +125,14 @@ msgstr "I server su cui effettuare la ricerca possono essere impostati nell'area
 #: ../../source/cataloging.rst:84
 msgid "The display of extra MARC fields and subfields can be configured via the :ref:`AdditionalFieldsInZ3950ResultSearch` preference."
 msgstr ""
+"La visualizzazione di altri campi e sottocampi MARC può esser configurata "
+"con la preferenza :ref:`AdditionalFieldsInZ3950ResultSearch`."
 
 #: ../../source/cataloging.rst:87
 msgid "From the results' 'Action' button you can view the MARC or Card view for the record or choose to import it into Koha."
 msgstr ""
+"Dalla pagina dei risultati del bottone 'Azione' puoi vedere il record in "
+"formato MARC o scheda, o scegliere se importare il record in Koha "
 
 #: ../../source/cataloging.rst:90
 msgid "|image629|"
@@ -164,11 +160,7 @@ msgstr "|image1452|"
 
 #: ../../source/cataloging.rst:109
 msgid "If you would rather not see the MARC tag numbers you can change the value in your :ref:`hide\\_marc <hide-marc-label>` system preference or each user can check the box next to 'Show tags' found under 'Settings'."
-msgstr ""
-"Se si preferisce non vedere i tag MARC, è possibile cambiare il valore della "
-"preferenza di sistema :ref:`hide\\_marc <hide-marc-label>` , oppure ogni "
-"utente può selezionare l'opzione \"Mostra tag\" che si trova all'interno del "
-"menu 'Impostazioni’."
+msgstr "Se si preferisce non vedere i tag MARC, è possibile cambiare il valore della preferenza di sistema :ref:`hide\\_marc <hide-marc-label>` , oppure ogni utente può selezionare l'opzione \"Mostra tag\" che si trova all'interno del menu 'Impostazioni’."
 
 #: ../../source/cataloging.rst:113
 msgid "|image632|"
@@ -184,9 +176,7 @@ msgstr "Per ottenere informazioni su un tag dalla Library of Congress clicca il 
 
 #: ../../source/cataloging.rst:120
 msgid "It is possible to change the source of the MARC documentation using the :ref:`MARCFieldDocURL` system preference"
-msgstr ""
-"È possibile cambiare la sorgente della documentazione MARC usando la "
-"preferenza di sistema :ref:`MARCFieldDocURL`"
+msgstr "È possibile cambiare la sorgente della documentazione MARC usando la preferenza di sistema :ref:`MARCFieldDocURL`"
 
 # Stefano Bargioni: nome esatto della casella
 #: ../../source/cataloging.rst:123
@@ -292,9 +282,7 @@ msgstr "Editor di catalogazione avanzato"
 
 #: ../../source/cataloging.rst:197
 msgid "In order to use the Advanced cataloging editor you need to enable the :ref:`EnableAdvancedCatalogingEditor` preference."
-msgstr ""
-"Per poter utilizzare l'editor avanzato di catalogazione è necessario "
-"abilitare la preferenza :ref:`EnableAdvancedCatalogingEditor `."
+msgstr "Per poter utilizzare l'editor avanzato di catalogazione è necessario abilitare la preferenza :ref:`EnableAdvancedCatalogingEditor `."
 
 #: ../../source/cataloging.rst:203
 msgid "This feature does not currently include any support for UNIMARC or NORMARC fixed fields."
@@ -342,15 +330,14 @@ msgstr "Devi inserire uno spazio prina del primo delimitatore di sottocampo ma n
 
 #: ../../source/cataloging.rst:237
 msgid "At the bottom of the editor you will see help from the Library of Congress for the field you are on. In cases where your MARC is invalid you will see red highlighting. To edit the record using only keyboard functions the Keyboard shortcuts button will inform you of the necessary commands."
-msgstr ""
-"At il fondo dell'editor si vedrà l'help dalla Library of Congress per il "
-"campo in cui ci si trova. Nei casi in cui il MARC è un campo invalido, sarà "
-"evidenziando in rosso. Per modificare i record utilizzando solo scorciatoie "
-"da tastiera, il relativo bottone ti informerà dei comandi"
+msgstr "At il fondo dell'editor si vedrà l'help dalla Library of Congress per il campo in cui ci si trova. Nei casi in cui il MARC è un campo invalido, sarà evidenziando in rosso. Per modificare i record utilizzando solo scorciatoie da tastiera, il relativo bottone ti informerà dei comandi"
 
 #: ../../source/cataloging.rst:243
 msgid "A clipboard is available to copy and paste text between fields.  See the image and table below for the shortcuts used with the clipboard."
 msgstr ""
+"Un'area 'appunti' è disponibile per fare copia e incolla tra i campi. Guarda "
+"l'immagine e la tabella qua sotto per le scorciatoie disponibili con questa "
+"area."
 
 #: ../../source/cataloging.rst:246
 msgid "|image645|"
@@ -474,7 +461,7 @@ msgstr "Ctrl-P"
 
 #: ../../source/cataloging.rst:287
 msgid "Paste selection from 'clipboard'"
-msgstr ""
+msgstr "Incolla la selezione dagli appunti"
 
 #: ../../source/cataloging.rst:290
 msgid "Shift-Tab"
@@ -498,7 +485,7 @@ msgstr "Shift-Ctrl-K"
 
 #: ../../source/cataloging.rst:294
 msgid "Toggle Keyboard"
-msgstr ""
+msgstr "Mostra/nascondi la tastiera"
 
 #: ../../source/cataloging.rst:296
 msgid "Ctrl-S"
@@ -506,7 +493,7 @@ msgstr "Ctrl-S"
 
 #: ../../source/cataloging.rst:296
 msgid "Save record (cannot be remapped)"
-msgstr ""
+msgstr "Salva record (non può essere rimappato)"
 
 #: ../../source/cataloging.rst:304
 msgid "Advanced cataloging virtual keyboard"
@@ -519,6 +506,10 @@ msgstr "|image1458|"
 #: ../../source/cataloging.rst:308
 msgid "A virtual keyboard is available for adding diacritics and symbols.  Use the shortcut Shift-Ctrl-K to display the keyboard.  A 'Keyboard layouts' button will display at the top of the advanced editor that allows you to set the virtual keyboard layout for different languages."
 msgstr ""
+"Una tastiera virtuale è disponibile per aggiungere diacritici e simboli. Usa "
+"la scorciatoria Shift-Ctrl-K per mostrare la tastiera. Un bottone 'Layout di "
+"tastiera' sarà visibile in alto sopra l'editor avanzato per permetterti di "
+"configurare i tasti a seconda della lingua."
 
 #: ../../source/cataloging.rst:317
 msgid "Macros in advanced cataloging"
@@ -635,10 +626,7 @@ msgstr "Alcune volte le biblioteche offrono agli utenti la possibilità di ricer
 # Devono esserci due link diversi a diversi capitoli. Zeno Tajoli
 #: ../../source/cataloging.rst:400
 msgid "If you would like to catalog analytic records there are two options. One is to use the :ref:`Easy Analytics` funtion; the other is the :ref:`Analytics Enhanced Workflow`."
-msgstr ""
-"Se desideri effettuare la catalogazione analitica ci sono due opzioni. Una è "
-"utilizzare la funzionalità :ref:`Easy Analytics; l'altra è la :ref:`"
-"Analytics Enhanced Workflow`."
+msgstr "Se desideri effettuare la catalogazione analitica ci sono due opzioni. Una è utilizzare la funzionalità :ref:`Easy Analytics; l'altra è la :ref:`Analytics Enhanced Workflow`."
 
 #: ../../source/cataloging.rst:407
 msgid "Easy analytics"
@@ -771,6 +759,9 @@ msgstr "Modifica i record"
 #: ../../source/cataloging.rst:522
 msgid "To edit a record you can click the 'Actions' button and choose 'Edit biblio' from the search results on the cataloging search page"
 msgstr ""
+"Per modificare un record puoi cliccare sul bottone 'Azioni' e sciegliere "
+"'Modifica' dai risultati di ricerca nella pagina di ricerca della "
+"catalogazione"
 
 #: ../../source/cataloging.rst:525
 msgid "|image659|"
@@ -866,9 +857,7 @@ msgstr "Sincerarsi che la preferenza di sistema :ref:`OPACBaseURL` sia impostata
 
 #: ../../source/cataloging.rst:597
 msgid "You will want to add the upload.pl plugin to the 856$u subfield in one (or multiple) of your :ref:`frameworks <edit-framework-fields-and-subfields-label>`"
-msgstr ""
-"Puoi aggiungere il plugin upload.pl al sottocampo 856$u in uno (o più) dei "
-"tuoi :ref:`framework <edit-framework-fields-and-subfields-label>`."
+msgstr "Puoi aggiungere il plugin upload.pl al sottocampo 856$u in uno (o più) dei tuoi :ref:`framework <edit-framework-fields-and-subfields-label>`."
 
 #: ../../source/cataloging.rst:600
 msgid "Once you are all set up you can continue with cataloging as regular. You will see a plugin icon next to the 856$u that will open up the upload and/or search window"
@@ -974,14 +963,11 @@ msgstr "E' importante riaggiornare Zebra dopo aver fuso dei records. Se un utent
 # controllare la label Lists - Stefano Bargioni
 #: ../../source/cataloging.rst:690
 msgid "If you would like you can also use the :ref:`Lists` tool for merging records together. :ref:`Learn more here <merging-bibliographic-records-via-lists-label>`."
-msgstr ""
-"Se vuoi è possibile usare le :ref:`Liste` per fondere i record tra di loro. "
-":ref:`Approfondisci qui <merging-bibliographic-records-via-lists-label>`."
+msgstr "Se vuoi è possibile usare le :ref:`Liste` per fondere i record tra di loro. :ref:`Approfondisci qui <merging-bibliographic-records-via-lists-label>`."
 
 #: ../../source/cataloging.rst:696
-#, fuzzy
 msgid "Deleting records"
-msgstr "Cancellazione Records"
+msgstr "Cancellazione records"
 
 #: ../../source/cataloging.rst:698
 msgid "To delete a bibliographic record simply choose the 'Edit' button and select 'Delete record'"
@@ -992,7 +978,6 @@ msgid "|image672|"
 msgstr "|image672|"
 
 #: ../../source/cataloging.rst:703
-#, fuzzy
 msgid "Bibliographic records can only be deleted once all items have been deleted. If you try to delete a bibliographic record with items still attached you will see that the delete option is grayed out."
 msgstr "I record bibliografici possono essere cancellati solo se le loro copie sono state cancellate. Se provi a cancellare un record bibliografico con copie legate l'opzione cancella diventa grigia"
 
@@ -1001,7 +986,6 @@ msgid "|image673|"
 msgstr "|image673|"
 
 #: ../../source/cataloging.rst:712
-#, fuzzy
 msgid "Item records"
 msgstr "Record di copie"
 
@@ -1010,12 +994,10 @@ msgid "In Koha each bibliographic record can have one or more items attached. Th
 msgstr "In Koha ogni record bibliografico può avere una o più copie collegate. Ogni copia contiene informazioni sullo specifico esemplare posseduto dalla biblioteca."
 
 #: ../../source/cataloging.rst:721
-#, fuzzy
 msgid "Adding items"
 msgstr "Aggiunta di copie"
 
 #: ../../source/cataloging.rst:723
-#, fuzzy
 msgid "After saving a new bibliographic record, you will be redirected to a blank item record so that you can attach an item to the bibliographic record. You can also click 'Add/Edit items' from the cataloging search results"
 msgstr "Dopo aver salvato un nuovo record bibliografico, verrai portato ad una schermata con un record di copia non compilato, affinché possa aggiungere una copia al record bibliografico. Puoi anche cliccare 'Modifica le copie' dai risultati di ricerca nel catalogo."
 
@@ -1024,7 +1006,6 @@ msgid "|image674|"
 msgstr "|image674|"
 
 #: ../../source/cataloging.rst:730
-#, fuzzy
 msgid "or you can add new item at any time by clicking 'New' on the bibliographic record and choosing 'New item'"
 msgstr "oppure puoi aggiungere una copia in qualsiasi momento cliccando 'Nuovo' nel record bibliografico e poi 'Nuova copia'"
 
@@ -1105,17 +1086,14 @@ msgid "|image678|"
 msgstr "|image678|"
 
 #: ../../source/cataloging.rst:785
-#, fuzzy
 msgid "'Add item' will add just the one item"
 msgstr "Aggiungi copia aggiungerà semplicemente una copia"
 
 #: ../../source/cataloging.rst:787
-#, fuzzy
 msgid "'Add & duplicate' will add the item and fill in a new form with the same values for you to alter"
 msgstr "Aggiungi & duplica aggiungerà la copia e compilerà un nuovo modulo precompilato con gli stessi valori che potrai modificare"
 
 #: ../../source/cataloging.rst:790
-#, fuzzy
 msgid "'Add multiple items' will ask how many items and will then add that number of items adding +1 to the barcode so each barcode is unique"
 msgstr "Aggiungi più copie ti chiede il numero delle copie quindi aggiungerà le copie aumentando di +1 il codice a barre, in modo che rimanga univoco"
 
@@ -1152,9 +1130,8 @@ msgid "|image682|"
 msgstr "|image682|"
 
 #: ../../source/cataloging.rst:816
-#, fuzzy
 msgid "Editing items"
-msgstr "Modifica di copie"
+msgstr "Modifica copie"
 
 #: ../../source/cataloging.rst:818
 msgid "Items can be edited in several ways."
@@ -1162,9 +1139,8 @@ msgstr "Le copie possono essere editate in diversi modi."
 
 # Stefano Bargioni errata?
 #: ../../source/cataloging.rst:820
-#, fuzzy
 msgid "Clicking 'Edit' and 'Edit items' from the bibliographic record"
-msgstr "Puoi cliccare 'Modifica' e poi 'Modifica le copie' nel record bibliografico"
+msgstr "Cliccando 'Modifica' e 'Modifica copie' dal record bibliografico "
 
 #: ../../source/cataloging.rst:822
 msgid "|image683|"
@@ -1179,7 +1155,6 @@ msgid "|image684|"
 msgstr "|image684|"
 
 #: ../../source/cataloging.rst:830
-#, fuzzy
 msgid "Clicking 'Edit items' beside the item on the 'Items' tab"
 msgstr "Altrimenti puoi cliccare i link 'Modifica copia' nella scheda 'Copie'"
 
@@ -1232,12 +1207,10 @@ msgid "|image1269|"
 msgstr "|image1269|"
 
 #: ../../source/cataloging.rst:863
-#, fuzzy
 msgid "Finally you can use the :ref:`batch item modification <batch-item-modification-label>` tool"
 msgstr "Da ultimo è possibile utilizzare lo strumento :ref:`Modifica massiva elementi <batch-item-modification-label>`"
 
 #: ../../source/cataloging.rst:869
-#, fuzzy
 msgid "Quick item status updates"
 msgstr "Modifiche veloce agli status della copia"
 
@@ -1250,7 +1223,6 @@ msgid "|image689|"
 msgstr "|image689|"
 
 #: ../../source/cataloging.rst:879
-#, fuzzy
 msgid "From this view you can mark an item lost by choosing a lost status from the pull down and clicking the 'Set status' button."
 msgstr "Da questa visualizzazione puoi mettere una copia come perduta scegliendo uno degli status relativi dal menu e cliccando sul bottone 'Imposta status'"
 
@@ -1259,7 +1231,6 @@ msgid "|image690|"
 msgstr "|image690|"
 
 #: ../../source/cataloging.rst:884
-#, fuzzy
 msgid "You can also mark an item as damaged by choosing a damaged status from the pull down and clicking the 'Set status' button."
 msgstr "Puoi anche marcare una copia come danneggiata scegliendo uno status di danneggiata dal menù a tendina e premendo il bottone 'Salva stato'."
 
@@ -1268,7 +1239,6 @@ msgid "|image691|"
 msgstr "|image691|"
 
 #: ../../source/cataloging.rst:892
-#, fuzzy
 msgid "Duplicating items"
 msgstr "Duplicazione di copie"
 
@@ -1285,7 +1255,6 @@ msgid "From here you can choose to 'Duplicate' the item and this will populate t
 msgstr "Da qui è possibile scegliere di 'Duplicare' la copia e questo popolerà il modulo con i valori della copia scelta."
 
 #: ../../source/cataloging.rst:905
-#, fuzzy
 msgid "Item information"
 msgstr "Informazioni sulla copia"
 
@@ -1306,7 +1275,6 @@ msgid "|image1270|"
 msgstr "|image1270|"
 
 #: ../../source/cataloging.rst:920
-#, fuzzy
 msgid "In the 'History' section you will see information about the check out history of the item and if you ordered the item via the acquisitions module then this section will include information about the order."
 msgstr "Nella sezione Storico del prestito puoi vedere le informazioni sulla storia del prestito della copia e se hai ordinato la copia attraverso il modulo delle acqusizioni in questa sezione verranno incluse le informazioni sull'ordine."
 
@@ -1319,14 +1287,12 @@ msgid "If the Order or Accession date is linked, clicking it will bring you to t
 msgstr "Se la data dell'ordine o di accesso è un link, cliccandoci verrai portato alle informazioni di acquisizione per quella copia."
 
 #: ../../source/cataloging.rst:932
-#, fuzzy
 msgid "Moving items"
 msgstr "Spostamento di copie"
 
 # Stefano Bargioni Attach copia?
 # Tajoli: Collega copia, un item con un bib record
 #: ../../source/cataloging.rst:934
-#, fuzzy
 msgid "Items can be moved from one bibliographic record to another using the 'Attach item' option"
 msgstr "Le copie possono essere spostate da un record bibliografico all'altro utilizzando l'opzione Sposta qui una copia"
 
@@ -1337,7 +1303,6 @@ msgstr "|image695|"
 # Attacca copia?
 # Tajoli: meglo 'Sposta la copia' con il rec. bib.
 #: ../../source/cataloging.rst:939
-#, fuzzy
 msgid "Visit the bibliographic record you want to attach the item to and choose 'Attach item' from the 'Edit' menu."
 msgstr "Accedi al record bibliografico destinatario dello spostamento di copia e scegli 'Sposta qui una copia' dal menu 'Modifica'."
 
@@ -1346,21 +1311,20 @@ msgid "|image696|"
 msgstr "|image696|"
 
 #: ../../source/cataloging.rst:944
-#, fuzzy
 msgid "Simply enter the barcode for the item you want to move and click 'Submit'"
-msgstr "Inserisci il barcode della copia da spostare e clicca 'Select'"
+msgstr "Inserisci il barcode della copia da spostare e clicca 'Invia'"
 
 #: ../../source/cataloging.rst:947
 msgid "If this is the last remaining item attached to a bibliographic record you will be presented with a button to delete the original host record."
 msgstr ""
+"Seb questo è l'ultima copia collegata ad un record bibliografico, ti verrà "
+"presentato un bottone per percancellare il record ospitante originario."
 
 #: ../../source/cataloging.rst:950
-#, fuzzy
 msgid "If you want to move all items to a new record creating only one bibliographic record you can use the :ref:`merge Records tool <merging-bibliographic-records-via-lists-label>` instead."
 msgstr "Se invece vuoi spostare tutte le copie su un nuovo record bibliografico generandone uno solo, puoi utilizzare lo strumento per l'`Unione di record <merging-bibliographic-records-via-lists-label>`."
 
 #: ../../source/cataloging.rst:957
-#, fuzzy
 msgid "Deleting items"
 msgstr "Cancellazione delle copie"
 
@@ -1397,7 +1361,6 @@ msgid "Finally you can use the :ref:`batch delete tool <batch-item-deletion-labe
 msgstr "Infine puoi usare lo strumento :ref:`Cancellazione copie via batch <batch-item-deletion-label>` per cancellare un insieme di copie."
 
 #: ../../source/cataloging.rst:989
-#, fuzzy
 msgid "Item specific circulation history"
 msgstr "Storico della circolazione"
 
@@ -1426,14 +1389,12 @@ msgid "Authority records are a way of controlling fields in your MARC records. U
 msgstr "I record di autorità sono modi per controllare i campi dei tuoi record bibliografici. Usando i record di autorità, puoi uniformare nomi, soggetti, luoghi, ecc."
 
 #: ../../source/cataloging.rst:1016
-#, fuzzy
 msgid "Adding authorities"
 msgstr "Aggiungere authority"
 
 #: ../../source/cataloging.rst:1018
-#, fuzzy
 msgid "To add a new authority record you can either choose the authority type from the 'New authority' button or search another library by clicking the 'New from Z39.50' button."
-msgstr "Per aggiungere un nuovo record di autorità puoi scegliere  di inserirla cliccando sul bottone 'Nuovo authority' o cercare la voce in altre biblioteche cliccando su 'Nuova da Z39.50'."
+msgstr "Per aggiungere un nuovo record di autorità puoi scegliere di inserirla cliccando sul bottone 'Nuovo authority' o cercare la voce in altre biblioteche cliccando su 'Nuova da Z39.50'."
 
 #: ../../source/cataloging.rst:1022
 msgid "|image702|"
@@ -1492,7 +1453,6 @@ msgid "|image708|"
 msgstr "|image708|"
 
 #: ../../source/cataloging.rst:1065
-#, fuzzy
 msgid "Searching authorities"
 msgstr "Ricerca authority"
 
@@ -1513,7 +1473,6 @@ msgid "|image710|"
 msgstr "|image710|"
 
 #: ../../source/cataloging.rst:1080
-#, fuzzy
 msgid "Clicking on the 'Details' link to the right of the authority record summary will open the full record and the option to edit the record."
 msgstr "Il link Dettagli a destra del record di autorità apre l'intero record, offrendo l'opzione di modificarlo."
 
@@ -1522,7 +1481,6 @@ msgid "|image711|"
 msgstr "|image711|"
 
 #: ../../source/cataloging.rst:1085
-#, fuzzy
 msgid "If the authority has 'See also's in it you will see those broken out on the search results, clicking the linked headings will run a search for that heading instead."
 msgstr "Se il record di authority ha 'Vedi anche', li vedrai marcati nei risultati. Cliccando sulle intestazioni relative, vedrai i risultati dell'intestazione accettata."
 
@@ -1531,7 +1489,6 @@ msgid "|image712|"
 msgstr "|image712|"
 
 #: ../../source/cataloging.rst:1094
-#, fuzzy
 msgid "Editing authorities"
 msgstr "Modificare Authority"
 
@@ -1545,21 +1502,13 @@ msgstr "|image713|"
 
 #: ../../source/cataloging.rst:1103
 msgid "Once you've made the necessary edits, simply click 'Save' and `dontmerge <#dontmerge>`__ is set to 'Do', Koha will immediately update all of the bib records linked to the authority with the new authority record's data. If dontmerge is set to \"Don't\" then Koha won't edit bib records when changes are made to authorities, rather, this is done later by the :ref:`merge\\_authority.pl cronjob <cron-update-authorities-label>`."
-msgstr ""
-"Una volta fatte le necessarie modifiche, semplicemente cliccando su Salva e `"
-"dontmerge <#dontmerge>`__ impostato a ‘Attiva’ , Koha aggiornerà "
-"immediatamente tutti i record bibliografici legati a quell'authority con i "
-"nuovi dati. Se dontmerge è impostato a “Non attivare“ Koha non modificherà i "
-"record bibliografici con i cambiamenti fatti alle authorities, ma "
-"successivamente tramite il :ref:`merge\\_authority.pl cronjob <cron-update-"
-"authorities-label>`."
+msgstr "Una volta fatte le necessarie modifiche, semplicemente cliccando su Salva e `dontmerge <#dontmerge>`__ impostato a ‘Attiva’ , Koha aggiornerà immediatamente tutti i record bibliografici legati a quell'authority con i nuovi dati. Se dontmerge è impostato a “Non attivare“ Koha non modificherà i record bibliografici con i cambiamenti fatti alle authorities, ma successivamente tramite il :ref:`merge\\_authority.pl cronjob <cron-update-authorities-label>`."
 
 #: ../../source/cataloging.rst:1110
 msgid "To delete an authority record you first must make sure it's not linked to any bibliographic records. If it is not used by any bibliographic records a 'Delete' link will appear to the right of the record on the search results and as a button that appears after clicking on the summary of the authority record."
 msgstr "Per cancellare un record di autorità devi prima essere sicuro che non sia associato a record bibliografici. Se non è usato, ci sarà disponibile un bottone 'Cancella' a destra del record nella pagina dei risultati e all'interno della pagina del record intero."
 
 #: ../../source/cataloging.rst:1119
-#, fuzzy
 msgid "Merging authorities"
 msgstr "Fusione Authority"
 
@@ -1608,12 +1557,10 @@ msgid "|image718|"
 msgstr "|image718|"
 
 #: ../../source/cataloging.rst:1158
-#, fuzzy
 msgid "Cataloging guides"
 msgstr "Guide per la catalogazione"
 
 #: ../../source/cataloging.rst:1163
-#, fuzzy
 msgid "Bibliographic record cataloging cheat sheet"
 msgstr "Guida rapida alla catalogazione del record bibliografico"
 
@@ -1674,7 +1621,6 @@ msgid "CONTROL NUMBER IDENTIFIER"
 msgstr "CONTROL NUMBER IDENTIFIER"
 
 #: ../../source/cataloging.rst:1172
-#, fuzzy
 msgid "Your MARC organizational code"
 msgstr "Il codice MARC della vostra organizzazione"
 
@@ -1920,22 +1866,22 @@ msgid "Put the location of publication in subfield 'a', the publisher in subfiel
 msgstr "Immettere il luogo di pubblicazione nel sottocampo 'a', l'editore nel sottocampo 'b' e l'anno di pubblicazione (o di probabile pubblicazione) nel sottocampo 'c'. Vedasi la scheda di punteggiatura ISBD."
 
 #: ../../source/cataloging.rst:1204
-#, fuzzy
 msgid "264"
-msgstr "245"
+msgstr "264"
 
 #: ../../source/cataloging.rst:1204
 msgid "PRODUCTION, PUBLICATION ETC."
-msgstr ""
+msgstr "Produzione, Pubblicazione, etc."
 
 #: ../../source/cataloging.rst:1204
 msgid "Production, Publication, Distribution, Manufacture, and Copyright Notice."
 msgstr ""
+"Produzione, Pubblicazione, Distribuzione, Manifattura e indicazione di "
+"copyright."
 
 #: ../../source/cataloging.rst:1204
-#, fuzzy
 msgid "Put the location of publication in subfield 'a', the publisher in subfield 'b', and the year (or probable year) in subfield 'c'. See ISBD punctuation sheet.  The label is set dynamically from the second indicator so generally this would be set to '1' for Publisher: ."
-msgstr "Immettere il luogo di pubblicazione nel sottocampo 'a', l'editore nel sottocampo 'b' e l'anno di pubblicazione (o di probabile pubblicazione) nel sottocampo 'c'. Vedasi la scheda di punteggiatura ISBD."
+msgstr "Immettere il luogo di pubblicazione nel sottocampo 'a', l'editore nel sottocampo 'b' e l'anno di pubblicazione (o di probabile pubblicazione) nel sottocampo 'c'. Vedasi la scheda di punteggiatura ISBD. L'etichetta è generata dinamicamente dal secondo indicatore, metti il valore '1' per Editore, "
 
 #: ../../source/cataloging.rst:1206
 msgid "300"
@@ -2624,9 +2570,8 @@ msgid "Branch code"
 msgstr "Codice filiale"
 
 #: ../../source/cataloging.rst:1330 ../../source/cataloging.rst:1332
-#, fuzzy
 msgid "**Required**. Code must be defined in :ref:`Libraries <libraries-label>`"
-msgstr "**Obbligatorio**. Il codice de'essere definito nella sezione :ref:`Biblioteche e gruppi <libraries-&-groups-label>`"
+msgstr "**Obbligatorio**. Il codice de'essere definito nella sezione :ref:`Biblioteche <libraries-label>`"
 
 #: ../../source/cataloging.rst:1332
 msgid "952$b"
@@ -2829,12 +2774,10 @@ msgid "\\*\\* - required by Koha"
 msgstr "\\*\\* - richiesto da Koha"
 
 #: ../../source/cataloging.rst:1372
-#, fuzzy
 msgid "Koha XSLT material type icons"
-msgstr "Koha XSLT tipi copia"
+msgstr "Koha XSLT icone tipi copia"
 
 #: ../../source/cataloging.rst:1374
-#, fuzzy
 msgid "When you have any of the XSLT system preferences (:ref:`OPACXSLTDetailsDisplay`, :ref:`OPACXSLTResultsDisplay`, :ref:`XSLTDetailsDisplay`, and/or :ref:`XSLTResultsDisplay`) along with the :ref:`DisplayOPACiconsXSLT` and :ref:`DisplayIconsXSLT` preferences turned on you will see material type icons on the related screen."
 msgstr "Quando vien scelto di usare il display con una delle preferenze XSLT (:ref:`OPACXSLTDetailsDisplay`, :ref:`OPACXSLTResultsDisplay`, :ref:`XSLTDetailsDisplay`, e/o `XSLTResultsDisplay`) e in parallelo vengo attivate :ref:`DisplayOPACiconsXSLT` e :ref:`DisplayIconsXSLT` allora vedrai queste icone per la tipologia di copia nelle schermate corrispondenti."
 

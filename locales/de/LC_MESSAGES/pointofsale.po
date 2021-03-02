@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-01 21:22-0300\n"
-"PO-Revision-Date: 2020-11-19 12:55+0000\n"
-"Last-Translator: Christian Stelzenmüller <christian.stelzenmueller@bsz-bw.de>"
-"\n"
+"PO-Revision-Date: 2020-12-12 23:56+0000\n"
+"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1605790520.332939\n"
+"X-POOTLE-MTIME: 1607817397.133504\n"
 
 #: ../../source/pointofsale.rst:6
 msgid "Point of sale"
@@ -26,64 +25,65 @@ msgstr "Verkauf"
 
 #: ../../source/pointofsale.rst:8
 msgid "Point of sale is a module designed for selling items to people who aren't registered at the library or to make sales that do not need to be linked to a patron account."
-msgstr ""
+msgstr "Das Verkaufsmodul ist für den Verkauf von beliebigen Dingen an Personen gedacht, die nicht in der Bibliothek als Nutzer angemeldet sind oder nicht mit einem Benutzerkonto verknüpft werden müssen."
 
 #: ../../source/pointofsale.rst:12
 msgid "For example, you can sell used books or promotional items. These items can be sold to anyone and you don't need to link the sale to a particular patron."
-msgstr ""
+msgstr "Sie können zum Beispiel gebrauchte Bücher oder Werbeartikel verkaufen. Diese Dinge können an jeden unabhängig von einem Benutzerkonto verkauft werden."
 
 #: ../../source/pointofsale.rst:15
 msgid "For invoices that need to be linked to a patron's account (like a lost item or new card fee), use :ref:`manual invoicing <creating-manual-invoices-label>`."
-msgstr ""
+msgstr "Für Rechnungen, die mit einem Benutzerkonto verknüpft werden müssen (wie verlorene Exemplare oder Benutzungsgebühren), verwenden Sie ref:`Manuelle Berechnung <creating-manual-invoices-label>`."
 
 #: ../../source/pointofsale.rst:18
 msgid "*Get there:* More > Point of sale"
-msgstr ""
+msgstr "*Pfad in Koha:* Mehr > Verkauf"
 
 #: ../../source/pointofsale.rst:23
 msgid "Setup"
-msgstr ""
+msgstr "Konfiguration"
 
 #: ../../source/pointofsale.rst:25
 msgid "To enable the point of sale module, you must turn on the :ref:`EnablePointOfSale` system preference."
-msgstr ""
+msgstr "Das Verkaufsmodul wird über den Systemparameter :ref:`EnablePointOfSale` aktiviert."
 
 #: ../../source/pointofsale.rst:28
 msgid "If it's not already done, you must also enable the :ref:`UseCashRegisters` system preference."
-msgstr ""
+msgstr "Wenn noch nicht geschehen, müssen Sie außerdem die Kassenfunktion über den Systemparameter :ref:`UseCashRegisters` aktivieren. "
 
 #: ../../source/pointofsale.rst:31
 msgid "Make sure you :ref:`configure your cash registers <cashregisters-label>` in the administration module."
-msgstr ""
+msgstr "Stellen Sie sicher, dass Sie :ref:`Kassen <cashregisters-label>` im Administrationsmodul konfiguriert haben."
 
 #: ../../source/pointofsale.rst:34
 msgid "Finally, you must add items that you will be selling in the :ref:`debit types <debit-types-label>` section of the administration module."
-msgstr ""
+msgstr "Zuletzt müssen Sie noch die Dinge als :ref:`Gebührenarten <debit-types-label>` im Administrationsmodul konfigurieren, die Sie verkaufen möchten."
 
 #: ../../source/pointofsale.rst:40
 msgid "Making a sale"
-msgstr ""
+msgstr "Einen Verkauf tätigen"
 
 #: ../../source/pointofsale.rst:42
 msgid "When you first go in the point of sale module, the left side will show all the items for sale. These are :ref:debit types <debit-types-label>` that were marked as 'Can be sold'."
-msgstr ""
+msgstr "Wenn Sie zum ersten Mal das Verkaufsmodul aufrufen, sehen Sie auf der linken Seite die Dinge für den Verkauf. Dies sind :ref:Gebührenarten <debit-types-label>`, die als \"Kann verkauft werden\" markiert wurden. "
 
 #: ../../source/pointofsale.rst:46
 msgid "On the right side is the current sale."
-msgstr ""
+msgstr "Auf der rechten Seite ist der aktuelle Verkaufsvorgang."
 
 #: ../../source/pointofsale.rst:48
 msgid "image goes here"
-msgstr ""
+msgstr "Bild hier"
 
 #: ../../source/pointofsale.rst:50
 msgid "Click on the 'Add' button next to the items to add to the current sale."
-msgstr ""
+msgstr "Klicken Sie auf die Schaltfläche \"Hinzufügen\" neben Warenposten, um diesen zum aktuellen Verkauf hinzuzufügen."
 
 #: ../../source/pointofsale.rst:52
 msgid "If you need to change the cost or the quantity, click on the amount on the right side and it will become an input box where you can enter the correct amount."
-msgstr ""
+msgstr "Wenn Sie den Preis oder die Anzahl ändern möchten, klicken sie auf die Anzahl auf de rechten Seite und Sie erhalten ein Eingabefeld für die korrekte Anzahl."
 
 #: ../../source/pointofsale.rst:56
 msgid "|image1459|"
 msgstr "|image1459|"
+

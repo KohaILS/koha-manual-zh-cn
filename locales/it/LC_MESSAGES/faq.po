@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
 "PO-Revision-Date: 2020-11-17 21:16+0000\n"
 "Last-Translator: ztajoli <ztajoli@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -27,52 +27,35 @@ msgstr "Installazione"
 
 #: ../../source/faq.rst:13
 msgid "**Question:** How can I find out what version of Koha I am using?"
-msgstr ""
-"**Domanda:** Come posso sapere qual è la versione di Koha che sto usando?"
+msgstr "**Domanda:** Come posso sapere qual è la versione di Koha che sto usando?"
 
 #: ../../source/faq.rst:15
 msgid "**Answer:** The easiest way to find out your Koha version is taking a look at the About page of the staff interface."
-msgstr ""
-"**Risposta:* Il modo migliore è guardare la pagina Informazioni su Koha "
-"nell'interfaccia staff."
+msgstr "**Risposta:* Il modo migliore è guardare la pagina Informazioni su Koha nell'interfaccia staff."
 
 #: ../../source/faq.rst:18
 msgid "You can also find out from the OPAC by taking a look at the HTML source. It will look something like:"
-msgstr ""
-"Puoi anche capirlo dall'OPAC guardando nel codice HTML. Vedrai qualcosa di "
-"simile:"
+msgstr "Puoi anche capirlo dall'OPAC guardando nel codice HTML. Vedrai qualcosa di simile:"
 
 #: ../../source/faq.rst:25
 msgid "**Question:** Should I use the Debian packages or the tarball to install Koha?"
-msgstr ""
-"**Domanda:** per installare Koha, devo usare i package Debian o il tarball?"
+msgstr "**Domanda:** per installare Koha, devo usare i package Debian o il tarball?"
 
 #: ../../source/faq.rst:27
 msgid "**Answer:** For the beginning user, it is highly recommended to use the package install of Koha - it provides many simple commands to do powerful things to your Koha installation. Packages should almost always be your choice of install on an ordinary production Koha install. A relative minimum of system administration skill is required to install Koha using the Debian packages."
-msgstr ""
-"**Risposta:** Ai principianti si racomanda di usare il package Debian. Offre "
-"comandi semplici per fare cose potenti. I packages dovrebbero essere la tua "
-"scelta ordinaria per installare un Koha di produzione. Occorrono poche "
-"capacità specifiche di amministratore di sistema per usarli."
+msgstr "**Risposta:** Ai principianti si racomanda di usare il package Debian. Offre comandi semplici per fare cose potenti. I packages dovrebbero essere la tua scelta ordinaria per installare un Koha di produzione. Occorrono poche capacità specifiche di amministratore di sistema per usarli."
 
 #: ../../source/faq.rst:34
 msgid "Instructions for using the packages with `Debian <https://wiki.koha-community.org/wiki/Debian>`_."
-msgstr ""
-"Istruzioni per usare i package con `Debian <https://wiki.koha-"
-"community.org/wiki/Debian>`_."
+msgstr "Istruzioni per usare i package con `Debian <https://wiki.koha-community.org/wiki/Debian>`_."
 
 #: ../../source/faq.rst:36
 msgid "Installing from tarball or git is the only option for people not installing on Debian or Ubuntu."
-msgstr ""
-"Installare da tarball o git è l'unica via per installare in sistemi né "
-"Ubuntu né Debian."
+msgstr "Installare da tarball o git è l'unica via per installare in sistemi né Ubuntu né Debian."
 
 #: ../../source/faq.rst:38
 msgid "Developers should give the `KohaDevBox <https://gitlab.com/koha-community/kohadevbox>`_ a look, it's the easiest, quickest way to get a Developer instance of Koha going."
-msgstr ""
-"Gli sviluppatori potrebbero dare un'occhiata a `KohaDevBox "
-"<https://gitlab.com/koha-community/kohadevbox>`_ , che è la via più semplice "
-"per installare un Koha per sviluppatori."
+msgstr "Gli sviluppatori potrebbero dare un'occhiata a `KohaDevBox <https://gitlab.com/koha-community/kohadevbox>`_ , che è la via più semplice per installare un Koha per sviluppatori."
 
 #: ../../source/faq.rst:44
 msgid "OPAC and staff interface"
@@ -84,9 +67,7 @@ msgstr "**Domanda**: Quali cookie usa Koha?"
 
 #: ../../source/faq.rst:50
 msgid "**Answer:** The cookies Koha uses on the OPAC and in the staff interface are documented in the Koha Community wiki:"
-msgstr ""
-"**Risposta:** I cookie che usa Koha sono documentati nel wiki della comunità "
-"Koha:"
+msgstr "**Risposta:** I cookie che usa Koha sono documentati nel wiki della comunità Koha:"
 
 #: ../../source/faq.rst:53
 msgid "https://wiki.koha-community.org/wiki/Use_of_Cookies"
@@ -295,9 +276,7 @@ msgstr "**Domanda**: Perché devo pagare 5,00 per ogni prestito?"
 
 #: ../../source/faq.rst:208
 msgid "**Answer**: The money you are seeing on your patron's account isn't a fine, but a rental fee. The optional default item types that come with the Koha sample data might contain a rental fee. To remove this fee, do the following:"
-msgstr ""
-"**Risposta:* la cifra è un addebito, non un multa. Per rimuovere questo "
-"addebito, puoi:"
+msgstr "**Risposta:* la cifra è un addebito, non un multa. Per rimuovere questo addebito, puoi:"
 
 #: ../../source/faq.rst:212
 msgid "Click More > Administration"
@@ -309,9 +288,7 @@ msgstr "Clicca su Tipi di copia"
 
 #: ../../source/faq.rst:216
 msgid "Note which item types have a 5.00 fee associated with them, select them for editing"
-msgstr ""
-"Vedi i tipi di copia che hanno un 5.00 associato e selezionali per la "
-"modifica"
+msgstr "Vedi i tipi di copia che hanno un 5.00 associato e selezionali per la modifica"
 
 #: ../../source/faq.rst:218
 msgid "Remove the fee, and save the item type"
@@ -331,11 +308,7 @@ msgstr "**Risposta**: Se la biblioteca è chiusa per quattro giorni (per ristrut
 
 #: ../../source/faq.rst:236
 msgid "If you need to set a different checkin date, you can use the :ref:`SpecifyReturnDate` system preference. This will allow you to set an arbitrary date and any overdue fines will be recalculated accordingly."
-msgstr ""
-"Se devi impostare una data diversa per la restituzione, puoi usare la "
-"preferenza di sistema :ref:`SpecifyReturnDate`. Ti permetterà di indicare la "
-"data in base alla quale verranno anche calcolate le multe per prestiti "
-"scaduti."
+msgstr "Se devi impostare una data diversa per la restituzione, puoi usare la preferenza di sistema :ref:`SpecifyReturnDate`. Ti permetterà di indicare la data in base alla quale verranno anche calcolate le multe per prestiti scaduti."
 
 #: ../../source/faq.rst:244
 msgid "Holds to pull and holds queue"
@@ -347,34 +320,19 @@ msgstr "**Domanda**: Qual è la differenza tra :ref:`Prenotazioni in coda <holds
 
 #: ../../source/faq.rst:250
 msgid "**Answer**: The holds to pull report gives a simple list of what holds need to be filled with available items. It shows the 'live' data of your database, so new holds will turn up there immediately. It shows information about each hold including all libraries where items of the requested title are available."
-msgstr ""
-"**Risposta**: Il prospetto Prenotazioni da trattare produce un semplice "
-"elenco di tutte le prenotazioni che devono essere evase, assegnando gli "
-"elementi disponibili. E' meglio usarlo solo nelle installazioni di Koha in "
-"cui è definita una sola biblioteca."
+msgstr "**Risposta**: Il prospetto Prenotazioni da trattare produce un semplice elenco di tutte le prenotazioni che devono essere evase, assegnando gli elementi disponibili. E' meglio usarlo solo nelle installazioni di Koha in cui è definita una sola biblioteca."
 
 #: ../../source/faq.rst:256
 msgid "The holds queue report is divided by libraries and will list the hold only for one library where it is available. For libraries with lots of holds and multiple branches this will prevent multiple libraries pulling the item off the shelf at the same time."
-msgstr ""
-"Il report della coda delle prenotazioni è diviso per biblioteche filiali e "
-"listerà la prenotazione solo per una biblioteca dove è disponibile. Per "
-"biblioteche con tante prenotazioni ciò impedirà a più biblioteche di "
-"prendere la copia dallo scaffale allo stesso tempo."
+msgstr "Il report della coda delle prenotazioni è diviso per biblioteche filiali e listerà la prenotazione solo per una biblioteca dove è disponibile. Per biblioteche con tante prenotazioni ciò impedirà a più biblioteche di prendere la copia dallo scaffale allo stesso tempo."
 
 #: ../../source/faq.rst:261
 msgid "The holds queue report is generated by the :ref:`build_holds_queue.pl <cron-holds-queue-report-label>` cron job. By default it runs hourly, but it might be changed to run at any other interval. There are various configuration options to determine the library to provide the item. For example:"
-msgstr ""
-"Il report della coda delle prenotazioni è generato dal cronjob :ref:`"
-"build_holds_queue.pl <cron-holds-queue-report-label>`. Gira per default ogni "
-"ora, ma l'intervallo può essere cambiato. Ci sono diverse opzioni di "
-"configurazione per determinare quale biblioteca deve fornire la copia "
-"prenotata. Per esempio:"
+msgstr "Il report della coda delle prenotazioni è generato dal cronjob :ref:`build_holds_queue.pl <cron-holds-queue-report-label>`. Gira per default ogni ora, ma l'intervallo può essere cambiato. Ci sono diverse opzioni di configurazione per determinare quale biblioteca deve fornire la copia prenotata. Per esempio:"
 
 #: ../../source/faq.rst:266
 msgid ":ref:`Library transfer limits <library-transfer-limits-label>`"
-msgstr ""
-":ref:`Limiti di trasferimento tra biblioteche <library-transfer-limits-"
-"label>`"
+msgstr ":ref:`Limiti di trasferimento tra biblioteche <library-transfer-limits-label>`"
 
 #: ../../source/faq.rst:267
 msgid ":ref:`Transport cost matrix <transport-cost-matrix-label>`"
@@ -382,11 +340,7 @@ msgstr ":ref:`Matrice dei costi di trasporto <transport-cost-matrix-label>`"
 
 #: ../../source/faq.rst:268
 msgid ":ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`HoldsQueueSkipClosed <holds-queue-system-preferences-label>`, and :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` system preferences"
-msgstr ""
-"Preferenze di sistema :ref:`StaticHoldsQueueWeight <holds-queue-system-"
-"preferences-label>`, :ref:`HoldsQueueSkipClosed <holds-queue-system-"
-"preferences-label>`, and :ref:`RandomizeHoldsQueueWeight <holds-queue-system-"
-"preferences-label>`"
+msgstr "Preferenze di sistema :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`HoldsQueueSkipClosed <holds-queue-system-preferences-label>`, and :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>`"
 
 #: ../../source/faq.rst:275
 msgid "Printing overdue notices"
@@ -398,16 +352,11 @@ msgstr "**Domanda**: Si possono stampare gli avvisi di scadenza per gli utenti c
 
 #: ../../source/faq.rst:280
 msgid "**Answer**: Yes. By default Koha will email all overdue notices to patrons without email address to the library."
-msgstr ""
-"**Risposta**: Sì, per default Koha invia alla biblioteca gli avvisi di "
-"scadenza degli utenti che non hanno un indirizzo e-mail."
+msgstr "**Risposta**: Sì, per default Koha invia alla biblioteca gli avvisi di scadenza degli utenti che non hanno un indirizzo e-mail."
 
 #: ../../source/faq.rst:283
 msgid "Additionally the :ref:`overdue notice cron job <cron-overdue-notice-label>` has a setting to generate the overdue notices as HTML for printing. An example of this usage would be:"
-msgstr ""
-"**Risposta**: Sì. Il :ref:`processo pianificato Avvisi di scadenza <cron-"
-"overdue-notice-label>` ha un'opzione che produce gli avvisi di scadenza come "
-"HTML da stampare. Un esempio di tale uso è:"
+msgstr "**Risposta**: Sì. Il :ref:`processo pianificato Avvisi di scadenza <cron-overdue-notice-label>` ha un'opzione che produce gli avvisi di scadenza come HTML da stampare. Un esempio di tale uso è:"
 
 #: ../../source/faq.rst:288
 msgid "::"
@@ -415,9 +364,7 @@ msgstr "::"
 
 #: ../../source/faq.rst:288
 msgid "overdue_notices.pl -t -html /tmp/noticedir -itemscontent issuedate,date_due,title,barcode,author"
-msgstr ""
-"overdue_notices.pl -t -html /tmp/noticedir -itemscontent "
-"issuedate,date_due,title,barcode,author"
+msgstr "overdue_notices.pl -t -html /tmp/noticedir -itemscontent issuedate,date_due,title,barcode,author"
 
 #: ../../source/faq.rst:290
 msgid "In this example, we wanted to use only certain item fields in our notices, so we specified itemscontent fields in the cron entry; that's not a requirement for the feature."
@@ -429,9 +376,7 @@ msgstr "La riga di comando deve specificare una cartella, accessibile dal web, d
 
 #: ../../source/faq.rst:307
 msgid "The cron entry is :ref:`gather\\_print\\_notices.pl <cron-print-hold-notices-label>` /tmp/noticedir"
-msgstr ""
-"Il comando pianificato è :ref:`gather\\_print\\_notices.pl <cron-print-hold-"
-"notices>` /tmp/noticedir"
+msgstr "Il comando pianificato è :ref:`gather\\_print\\_notices.pl <cron-print-hold-notices>` /tmp/noticedir"
 
 #: ../../source/faq.rst:312
 msgid "Unable to renew items"
@@ -455,25 +400,11 @@ msgstr "**Domanda**: Perché non riesco a prenotare? Ho attivato tutte le prefer
 
 #: ../../source/faq.rst:335
 msgid "**Answer**: You probably need to set a default circulation rule in your :ref:`Circulation and fines rules <circulation-and-fines-rules-label>`. At the very least you will need to set a default circulation rule. his rule should be as standard rule for all libraries, 'All' itemtype', and 'All' patron category. That will catch all instances that do not match a specific rule."
-msgstr ""
-"**Risposta**: Probabilmente è necessario impostare una regola di "
-"circolazione predefinita, vedi :ref:`Regole di circulazione e multe "
-"<circulation-and-fines-rules-label>`. Come minimo assoluto, si deve "
-"impostare una regola di circolazione predefinita generale. Questa regola "
-"dev'essere impostata per tutti i tipi di elemento tutte le filiali e tutte "
-"le categorie di utenti. In questo modo, tale regola si applicherà a chiunque "
-"non ricada in un'altra regola specifica. Quando si fa un prestito, se non "
-"c'è una regola per la filiale predefinita, l'elemento predefinito e la "
-"categoria di utenti predefinita, può accadere che gli utenti non riescano a "
-"fare le prenotazioni."
+msgstr "**Risposta**: Probabilmente è necessario impostare una regola di circolazione predefinita, vedi :ref:`Regole di circulazione e multe <circulation-and-fines-rules-label>`. Come minimo assoluto, si deve impostare una regola di circolazione predefinita generale. Questa regola dev'essere impostata per tutti i tipi di elemento tutte le filiali e tutte le categorie di utenti. In questo modo, tale regola si applicherà a chiunque non ricada in un'altra regola specifica. Quando si fa un prestito, se non c'è una regola per la filiale predefinita, l'elemento predefinito e la categoria di utenti predefinita, può accadere che gli utenti non riescano a fare le prenotazioni."
 
 #: ../../source/faq.rst:342
 msgid "The ability to place holds also depends on the 'On shelf holds allowed' setting in the used circulation rule. Depending on the setting, it might not be possible to place a hold, unless all or at least one item of the record is checked out."
-msgstr ""
-"La possibilità di fare prenotazioni dipende anche dall'impostazione di "
-"'Prenotazioni a scaffale consentite' nella relativa regola di circolazione. "
-"In funzione dell'impostazione, potrebbe non essere possibile fare "
-"prenotazioni, a meno che almeno una copia del record è in prestito."
+msgstr "La possibilità di fare prenotazioni dipende anche dall'impostazione di 'Prenotazioni a scaffale consentite' nella relativa regola di circolazione. In funzione dell'impostazione, potrebbe non essere possibile fare prenotazioni, a meno che almeno una copia del record è in prestito."
 
 #: ../../source/faq.rst:350
 msgid "Keyboard shortcuts"
@@ -554,12 +485,7 @@ msgstr "Clickatell"
 
 #: ../../source/faq.rst:401
 msgid "Alternatively you can configure Koha to send SMS via Email. In order to use this feature you need to set the :ref:`SMSSendDriver` system preference to 'Email' and confiugre the email gateways for the different :ref:`SMS cellular providers <sms-cellular-providers-label>` of your patrons."
-msgstr ""
-"Puoi anche indicare a Koha di spedire via email i messaggi previsti come "
-"SMS. Per farlo, ti serve impostare la preferenza di sistema "
-":ref:`SMSSendDriver` a 'Email' e configurare i gateway di posta per i "
-"diversi :ref:`SMS fornitori di servizi di fonia cellulare <sms-cellular-"
-"providers-label>` dei tuoi utenti."
+msgstr "Puoi anche indicare a Koha di spedire via email i messaggi previsti come SMS. Per farlo, ti serve impostare la preferenza di sistema :ref:`SMSSendDriver` a 'Email' e configurare i gateway di posta per i diversi :ref:`SMS fornitori di servizi di fonia cellulare <sms-cellular-providers-label>` dei tuoi utenti."
 
 #: ../../source/faq.rst:406
 msgid "In any case you might want to check if sending SMS to your patrons is legal in your location."
@@ -583,58 +509,35 @@ msgstr "Avvisi e messaggi via email"
 
 #: ../../source/faq.rst:423
 msgid "**Question**: How do I prevent my libraries notices ending up marked as spam?"
-msgstr ""
-"**Domanda:** Come posso evitare che gli avvisi della mia biblioteca "
-"finiscano nello spam degli utenti?"
+msgstr "**Domanda:** Come posso evitare che gli avvisi della mia biblioteca finiscano nello spam degli utenti?"
 
 #: ../../source/faq.rst:425
 msgid "**Answer**: This is a complicated topic, but thankfully Koha gives you a good degree of control via various system preferences."
-msgstr ""
-"**Risposta:** È questione complicata, ma per fortuna Koha offre un buon "
-"grado di controllo tramite alcune preferenze di sistema."
+msgstr "**Risposta:** È questione complicata, ma per fortuna Koha offre un buon grado di controllo tramite alcune preferenze di sistema."
 
 #: ../../source/faq.rst:428
 msgid "For every email sent out from Koha there are three important addresses for the system to get correct, *From*, *Reply-to* and *Sender*. These are configurable at both the system and library level and should fallback in a suitable manor if any of them are not defined."
-msgstr ""
-"Per ogni email spedito da Koha, ci sono indirizzi importanti da impostare "
-"bene: *From*, *Reply-to* e *Sender*. Sono configurabili a livello di sistema "
-"e di singola biblioteca e hanno adeguati default."
+msgstr "Per ogni email spedito da Koha, ci sono indirizzi importanti da impostare bene: *From*, *Reply-to* e *Sender*. Sono configurabili a livello di sistema e di singola biblioteca e hanno adeguati default."
 
 #: ../../source/faq.rst:433
 msgid "KohaAdminEmailAddress - This will act as the *From* address and should be an address in the same domain as the koha server [for example noreply@koha-hosting.org]"
-msgstr ""
-"KohaAdminEmailAddress - Sarà il *From* e dovrebbe essere un indirizzo nello "
-"stesso dominio del server Koha [per esempio noreply@koha-hosting.org]"
+msgstr "KohaAdminEmailAddress - Sarà il *From* e dovrebbe essere un indirizzo nello stesso dominio del server Koha [per esempio noreply@koha-hosting.org]"
 
 #: ../../source/faq.rst:435
 msgid "ReplytoDefault - This will act as the *Reply-to* address and can be in any domain [for example librarian@mylibrary.com] and this is the address which will be used if/when a patron hits 'Reply' in their email client. Note: This will fall back to KohaAdminEmailAddress when it is not set."
-msgstr ""
-"ReplytoDefault - Agirà da indirizzo *Reply-to* e può essere di qualunque "
-"dominio [per esempio librarian@mylibrary.com] e sarà l'indirizzo usato se e "
-"quando l'utente invia un 'Reply', cioè risponde al messaggio. Nota: il "
-"default è KohaAdminEmailAddress."
+msgstr "ReplytoDefault - Agirà da indirizzo *Reply-to* e può essere di qualunque dominio [per esempio librarian@mylibrary.com] e sarà l'indirizzo usato se e quando l'utente invia un 'Reply', cioè risponde al messaggio. Nota: il default è KohaAdminEmailAddress."
 
 #: ../../source/faq.rst:439
 msgid "ReturnpathDefault - This will act as the *Sender* address and also needs to be within the koha/email servers domain [for example postmaster@koha-hosting.org] and this is the address which will be used to report if an email bounces for any reason."
-msgstr ""
-"ReturnpathDefault - Questo sarà l'indirizzo del *Sender* e deve appartenere "
-"al dominio di Koha [per esempio postmaster@koha-hosting.org] e sarà "
-"l'indirizzo che riceverà indietro messaggi 'di rimbalzo', quelli impossibili "
-"da inoltrare.."
+msgstr "ReturnpathDefault - Questo sarà l'indirizzo del *Sender* e deve appartenere al dominio di Koha [per esempio postmaster@koha-hosting.org] e sarà l'indirizzo che riceverà indietro messaggi 'di rimbalzo', quelli impossibili da inoltrare.."
 
 #: ../../source/faq.rst:444
 msgid "There are parallels to all the above preferences at the per branch level which fall back in the same order as mentioned aboved before falling back to the system level preferences above when required."
-msgstr ""
-"Ci sono preferenze parallele alle precedenti per ogni biblioteca gestita da "
-"Koha, che avranno i default nello stesso ordine suddetto, e poi alle "
-"preferenze di sistema di cui sopra, quando occorre."
+msgstr "Ci sono preferenze parallele alle precedenti per ogni biblioteca gestita da Koha, che avranno i default nello stesso ordine suddetto, e poi alle preferenze di sistema di cui sopra, quando occorre."
 
 #: ../../source/faq.rst:448
 msgid "If you have the above configured correctly and your emails are still being treated as spam then you likely need to contact your email service provider/dns provider and look into MX, SPF and DKIM records."
-msgstr ""
-"Se hai configurato tutto come indicato, ma alcuni messaggi sono considerati "
-"ancora spam, dovrai sentire il tuo fornitore di servizi email o DNS e fare "
-"controllare i record MX, SPF e DKIM."
+msgstr "Se hai configurato tutto come indicato, ma alcuni messaggi sono considerati ancora spam, dovrai sentire il tuo fornitore di servizi email o DNS e fare controllare i record MX, SPF e DKIM."
 
 #: ../../source/faq.rst:455
 msgid "Cataloging"
@@ -666,11 +569,7 @@ msgstr "**Domanda:** Posso usare Koha senza creare record di autorità?"
 
 #: ../../source/faq.rst:480
 msgid "**Answer:** If you don't want to create authorities for your reacords at all, you can remove the authority link by blanking the Thesaurus setting for the fields in your MARC bibliographic frameworks. See also: :ref:`Edit framework subfields <edit-framework-fields-and-subfields-label>`"
-msgstr ""
-"**Risposta:** Se non vuoi creare nessun record di autorità, puoi rimuovere "
-"il link lasciando in bianco l'impostazione Thesaurus per i campi nelle tue "
-"griglie di catalogazione. Vedi anche: :ref:`Edit dei sottocampi nelle "
-"griglie di catalogazione <edit-framework-fields-and-subfields-label>`"
+msgstr "**Risposta:** Se non vuoi creare nessun record di autorità, puoi rimuovere il link lasciando in bianco l'impostazione Thesaurus per i campi nelle tue griglie di catalogazione. Vedi anche: :ref:`Edit dei sottocampi nelle griglie di catalogazione <edit-framework-fields-and-subfields-label>`"
 
 #: ../../source/faq.rst:488
 msgid "Koha to MARC mapping"
@@ -846,29 +745,19 @@ msgstr "Aiuto SQL"
 
 #: ../../source/faq.rst:629
 msgid "**Question:** I don't know SQL, but I want to write a report that does X. Can you tell me how?"
-msgstr ""
-"**Domanda:** Non conosco il linguaggio SQL, ma vorrei scrivere un report che "
-"faccia X. Come posso fare?"
+msgstr "**Domanda:** Non conosco il linguaggio SQL, ma vorrei scrivere un report che faccia X. Come posso fare?"
 
 #: ../../source/faq.rst:632
 msgid "**Answer:** The `Koha reports library <https://wiki.koha-community.org/wiki/SQL_Reports_Library>`_ on the Koha wiki is a good starting point and contains a lot of SQL reports shared by other libraries that can be reused and adapted."
-msgstr ""
-"**Risposta:** La `reports library di Koha <https://wiki.koha-"
-"community.org/wiki/SQL_Reports_Library>`_ nel wiki di Koha è un ottimo punto "
-"di partenza dove trovi molti report SQL condivisi da altre biblioteche, che "
-"potrai copiare ed adattare per te."
+msgstr "**Risposta:** La `reports library di Koha <https://wiki.koha-community.org/wiki/SQL_Reports_Library>`_ nel wiki di Koha è un ottimo punto di partenza dove trovi molti report SQL condivisi da altre biblioteche, che potrai copiare ed adattare per te."
 
 #: ../../source/faq.rst:636
 msgid "`Koha's database schema <https://schema.koha-community.org>`_ is also publicly documented and contains helpful notes on how the columns in the various tables are used."
-msgstr ""
-"`Koha's database schema <https://schema.koha-community.org>`_ è documentato "
-"pubblicamente e contiene informazione sulle colonne di tutte le tabelle."
+msgstr "`Koha's database schema <https://schema.koha-community.org>`_ è documentato pubblicamente e contiene informazione sulle colonne di tutte le tabelle."
 
 #: ../../source/faq.rst:639
 msgid "If you get stuck people on the community mailing lists will often be willing to help you."
-msgstr ""
-"Se ti serve aiuto, troverai colleghi a cui rivolgerti nella mailing list di "
-"Koha."
+msgstr "Se ti serve aiuto, troverai colleghi a cui rivolgerti nella mailing list di Koha."
 
 #: ../../source/faq.rst:645
 msgid "Codes stored in the database"
@@ -942,10 +831,7 @@ msgstr "NULL: significa che l'utente ha richiesto la prima copia disponibile e n
 
 #: ../../source/faq.rst:690
 msgid "T = Transit: the hold is linked to an item but is in transit to the pickup library"
-msgstr ""
-"T = Transito: la prenotazione è collegata a una copia che però e in transito "
-"nella biblioteca in cui si trova prima di tornare alla bibliotcea che la "
-"possiede"
+msgstr "T = Transito: la prenotazione è collegata a una copia che però e in transito nella biblioteca in cui si trova prima di tornare alla bibliotcea che la possiede"
 
 #: ../../source/faq.rst:693
 msgid "W = Waiting: the hold is linked to an item, is at the pickup library, and is waiting on the hold shelf"
@@ -1061,9 +947,7 @@ msgstr "Tabella Borrowers"
 
 #: ../../source/faq.rst:771
 msgid "**Question**: What are the possible codes for the privacy field in the borrowers and deleted_borrowers tables?"
-msgstr ""
-"**Domanda**: Quali sono i possibili codici per la colonna privacy nelle "
-"tabelle borrowers e deleted_borrowers?"
+msgstr "**Domanda**: Quali sono i possibili codici per la colonna privacy nelle tabelle borrowers e deleted_borrowers?"
 
 #: ../../source/faq.rst:776
 msgid "0 = Forever"
@@ -1147,17 +1031,11 @@ msgstr "**Domanda**: C'è modo di filtrare un report SQL personalizzato prima ch
 
 #: ../../source/faq.rst:831
 msgid "**Answer**: If you want to make your reports easy to reuse with different filters and date ranges, you can add runtime parameters to your query. Runtime parameters basically make a filter appear before the report is run."
-msgstr ""
-"**Risposta**: Se vuoi rendere il tuo report facile da riusare in differenti "
-"situazion, puoi aggiungere parametri a runtime alla tua query. I paramentri "
-"a runtime funzionano comne filtri ulteriori sulla query e interverrano prima "
-"che vengano mostrati i risultati del report."
+msgstr "**Risposta**: Se vuoi rendere il tuo report facile da riusare in differenti situazion, puoi aggiungere parametri a runtime alla tua query. I paramentri a runtime funzionano comne filtri ulteriori sulla query e interverrano prima che vengano mostrati i risultati del report."
 
 #: ../../source/faq.rst:836
 msgid "There is a specific syntax that Koha will understand as 'ask for values when running the report'. The syntax is <<Question to ask\\[\\|type]>>."
-msgstr ""
-"C'è una sintassi specifica che Koha capisce come 'valori da passare a un "
-"report'. La sintassi è <<Question to ask\\[\\|type]>>."
+msgstr "C'è una sintassi specifica che Koha capisce come 'valori da passare a un report'. La sintassi è <<Question to ask\\[\\|type]>>."
 
 #: ../../source/faq.rst:840
 msgid "The << and >> are just delimiters. You must put << at the beginning and >> at the end of your parameter"
@@ -1165,32 +1043,19 @@ msgstr "I << e >> sono solo delimitatori. Devi mettere << all'inizio e >> alla f
 
 #: ../../source/faq.rst:843
 msgid "The 'Question to ask' will be displayed as a label before the form field."
-msgstr ""
-"La 'Questione da chiedere' verrà mostrata come etichetta prima del campo."
+msgstr "La 'Questione da chiedere' verrà mostrata come etichetta prima del campo."
 
 #: ../../source/faq.rst:846
 msgid "The type can be omitted if you want a free text input field. If it contains an authorized value category, 'branches' (libraries), 'itemtype' (itemtypes), 'categorycode' (patron categories), or 'biblio\\_framework' (MARC bibliographic frameworks), a pull down will be displayed with the options from your configuration instead of a free text field."
-msgstr ""
-"Il tipo può essere omesso se vuoi un campo di input libero. Se contiene una "
-"lista di valori autorizzati tipo 'branches' (biblioteche), 'itemtype' (tipi "
-"copia), 'categorycode' (categorie utenti), or 'biblio\\_framework' (griglie "
-"di catalogazione MARC), verrà visualizzata una lista di valori presa della "
-"tua configurazione al posto di un campo di input libero."
+msgstr "Il tipo può essere omesso se vuoi un campo di input libero. Se contiene una lista di valori autorizzati tipo 'branches' (biblioteche), 'itemtype' (tipi copia), 'categorycode' (categorie utenti), or 'biblio\\_framework' (griglie di catalogazione MARC), verrà visualizzata una lista di valori presa della tua configurazione al posto di un campo di input libero."
 
 #: ../../source/faq.rst:852
 msgid "When using 'date' as type, the date picker will be displayed to help with entering dates. The date will be automatically changed to the ISO date needed for the SQL query, while you can enter it according to your :ref:`DateFormat` system preference setting."
-msgstr ""
-"Usando il tipo 'data', il gadget del calendario verrà mostrato per aiutare a "
-"indicare una data. La data verrà immediatamente passata al formato ISO "
-"adatto per la query SQL, ma tu potrai inserirla in accordo con il formato "
-"indicato nella preferenza di sistema :ref:`DateFormat`."
+msgstr "Usando il tipo 'data', il gadget del calendario verrà mostrato per aiutare a indicare una data. La data verrà immediatamente passata al formato ISO adatto per la query SQL, ma tu potrai inserirla in accordo con il formato indicato nella preferenza di sistema :ref:`DateFormat`."
 
 #: ../../source/faq.rst:857
 msgid "Note that you can have more than one parameter in one SQL query. If you need the same value multiple times in your SQL query, make sure you use the same label. This will make the form field only appear once."
-msgstr ""
-"Si noti che puoi avere più di un parametro in ogni query SQL. Se ti serve "
-"usare o stesso valore più volte, usa la stessa etichetta. Ma ti verrà "
-"chiesto solo una volta di indicare il valore del parametro."
+msgstr "Si noti che puoi avere più di un parametro in ogni query SQL. Se ti serve usare o stesso valore più volte, usa la stessa etichetta. Ma ti verrà chiesto solo una volta di indicare il valore del parametro."
 
 #: ../../source/faq.rst:862
 msgid "Note that entering nothing at run time won't probably work as you expect. It will be considered as \"value empty\" not as \"ignore this parameter\". For example entering nothing for : \"title=<<Enter title>>\" will display results with title='' (no title). If you want to have to have something not mandatory, use \"title like <<Enter title>>\" and enter a % at run time instead of nothing"
@@ -1206,10 +1071,7 @@ msgstr "SELECT surname,firstname FROM borrowers WHERE branchcode=<<Indicare la b
 
 #: ../../source/faq.rst:876
 msgid "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here, use % to truncate>>"
-msgstr ""
-"SELECT \\* FROM items WHERE homebranch = <<Indicare la biblioteca\\"
-"|branches>> and barcode like <<Indicare parte del barcode, usa % per "
-"troncare>>"
+msgstr "SELECT \\* FROM items WHERE homebranch = <<Indicare la biblioteca\\|branches>> and barcode like <<Indicare parte del barcode, usa % per troncare>>"
 
 #: ../../source/faq.rst:880
 msgid "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>>"
@@ -1221,11 +1083,7 @@ msgstr "|image1116|"
 
 #: ../../source/faq.rst:887
 msgid "You have to use 'like' in your SQL query and put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field."
-msgstr ""
-"Devi mettere 'like' nella tua SQL query e \"%\" in una casella di testo "
-"affinchè il sistema non la consideri nella query. Altrimenti il campo verrà "
-"considerato \"\" (stringa vuota o NULL), che è diverso da non considerare il "
-"filtro nella query SQL."
+msgstr "Devi mettere 'like' nella tua SQL query e \"%\" in una casella di testo affinchè il sistema non la consideri nella query. Altrimenti il campo verrà considerato \"\" (stringa vuota o NULL), che è diverso da non considerare il filtro nella query SQL."
 
 #: ../../source/faq.rst:894
 msgid "Searching"
@@ -1297,27 +1155,15 @@ msgstr "**Domanda**: Perché una ricerca Zebra per titolo che contiene \"Help\" 
 
 #: ../../source/faq.rst:968
 msgid "**Answer**: In general, the more terms you enter, the better your results will be. Koha doesn't use stop words, so searching for \"the\" and \"an\" will work just fine. So \"the help\" shoudl bring better results than just a title search for help. Also using \"Title, phrase\" would further improve the results as it means that these terms have to appear in this sequence and with no other terms in between."
-msgstr ""
-"**Risposta**: In genrale più termini inserisci, più preciso è il risultato. "
-"Koha non usa stopwords, cercare con \"il\" e \"uno\" funzionerà. Così "
-"cercare \"The Help\" andrà meglio che usare \"Help\". Usando anche \"Title, "
-"phrase\" il risultato sarà più preciso visto che la ricerca avverà per "
-"frase, i due termini dovranno essere in sequenza senza alcun termine in "
-"mezzo."
+msgstr "**Risposta**: In genrale più termini inserisci, più preciso è il risultato. Koha non usa stopwords, cercare con \"il\" e \"uno\" funzionerà. Così cercare \"The Help\" andrà meglio che usare \"Help\". Usando anche \"Title, phrase\" il risultato sarà più preciso visto che la ricerca avverà per frase, i due termini dovranno essere in sequenza senza alcun termine in mezzo."
 
 #: ../../source/faq.rst:975
 msgid "Some system preferences are known to affect relevancy ranking negatively. These are :ref:`QueryAutoTruncate` and :ref:`UseICU`. With the latter also requiring the server setup to actually use ICU for indexing."
-msgstr ""
-"E' noto che alcune preferenze di sistema influenzano negativamente il "
-"ranking della rilevanza. Questi sono :ref:`QueryAutoTruncate` e :ref:`UseICU`"
-". per la seconda, occorre anche impostare il server a usare l'indicizzazione "
-"basata su ICU."
+msgstr "E' noto che alcune preferenze di sistema influenzano negativamente il ranking della rilevanza. Questi sono :ref:`QueryAutoTruncate` e :ref:`UseICU`. per la seconda, occorre anche impostare il server a usare l'indicizzazione basata su ICU."
 
 #: ../../source/faq.rst:979
 msgid "Note: If multiple results have the same relevancy score, they will be sorted by biblionumber as second criteria."
-msgstr ""
-"Nota: Se più risultati hanno lo stesso valore della rilevanza, come secondo "
-"criterio saranno ordinati in base al numero del record bibliografico."
+msgstr "Nota: Se più risultati hanno lo stesso valore della rilevanza, come secondo criterio saranno ordinati in base al numero del record bibliografico."
 
 #: ../../source/faq.rst:985
 msgid "Reset the Zebra index"
@@ -1361,10 +1207,7 @@ msgstr "Su Debian il comando è *date -s \"2010-06-30 17:21\"* (con la data ed o
 
 #: ../../source/faq.rst:1033
 msgid "Amazon also requires an ISBN for displaying book covers - make sure that you have the correct ISBN for your title. If you are having trouble with a book that seems like it should have a cover but doesn't turn one up, give it a try with the 10 digit ISBN in the first 020a. If you have a 10 digit and it's not turning up, try with the 13 digit ISBN in the first 020a."
-msgstr ""
-"Anche Amazon richiede l'ISBN per mostrare coperte dei libri - assicurati che "
-"sia giusto nel record bibliografico. Se hai dei record che non mostrano la "
-"coperta, prova a passare all'ISBN 10 o 13 nel primo campo 020a."
+msgstr "Anche Amazon richiede l'ISBN per mostrare coperte dei libri - assicurati che sia giusto nel record bibliografico. Se hai dei record che non mostrano la coperta, prova a passare all'ISBN 10 o 13 nel primo campo 020a."
 
 #: ../../source/faq.rst:1043
 msgid "Server administration"
@@ -1376,8 +1219,7 @@ msgstr "Aprire al pubblico il servizio Z39.50"
 
 #: ../../source/faq.rst:1050
 msgid "**Question**: How can I configure Zebra to make my database searchable via Z39.50?"
-msgstr ""
-"**Domanda:** Come posso configurare Zebra per attivare il server Z39.50?"
+msgstr "**Domanda:** Come posso configurare Zebra per attivare il server Z39.50?"
 
 #: ../../source/faq.rst:1053
 msgid "**Answer**: Edit the KOHA\\_CONF file that your Koha is using. Uncomment the publicserver line like:"
@@ -1409,10 +1251,7 @@ msgstr "**Domanda**: Quando si modifica un elemento, la nuova collocazione a sca
 
 #: ../../source/faq.rst:1072
 msgid "**Answer**: One possible reason is that you created the location in the LOC authorized value category with the code '' or 0 (zero). This will be treated as 'no location' and not display correctly."
-msgstr ""
-"**Risposta**: Una spiegazione possibile è che hai creato la location nei "
-"valori autorizzati LOC con il codice '' o 0 (zero). Questo significa "
-"'nessuna location' e non funzionerà."
+msgstr "**Risposta**: Una spiegazione possibile è che hai creato la location nei valori autorizzati LOC con il codice '' o 0 (zero). Questo significa 'nessuna location' e non funzionerà."
 
 #: ../../source/faq.rst:1079
 msgid "Why do I need authorized values?"
@@ -1440,9 +1279,7 @@ msgstr "**Domanda**: C'è un programma che si possa eseguire periodicamente per 
 
 #: ../../source/faq.rst:1107
 msgid "**Answer**: You can regularly run the :ref:`cleanup database cron job <cron-clean-up-database-label>`."
-msgstr ""
-"**Risposta**: Si può eseguire il :ref:`processo pianificato \"Pulizia del "
-"database\" <cron-clean-up-database-label>`."
+msgstr "**Risposta**: Si può eseguire il :ref:`processo pianificato \"Pulizia del database\" <cron-clean-up-database-label>`."
 
 #: ../../source/faq.rst:1109
 msgid "Or just before doing a backup command (mysqldump), you can truncate session table:"
@@ -1486,9 +1323,7 @@ msgstr "Stampanti utilizzati da biblioteche Koha"
 
 #: ../../source/faq.rst:1160
 msgid "General rule of thumb here is that if you can print with the printer from your browser, it will work with Koha."
-msgstr ""
-"Regola generale in questo caso è che se il tuo browser lo stampa, allora "
-"funzionerà su Koha."
+msgstr "Regola generale in questo caso è che se il tuo browser lo stampa, allora funzionerà su Koha."
 
 #: ../../source/faq.rst:1163
 msgid "POS-X receipt printer"
@@ -1682,3 +1517,4 @@ msgstr "http://www.nexpresslibrary.org/go-live/configure-your-receipt-printers/"
 
 #~ msgid "**Answer**: This is because you created the new shelving location with a code value of 0 (zero) Just FYI the system interprets authorized values of 0 as equaling a null so when you edit a record in cataloging where the authorized value in a field was assigned where the code was 0, the value displays as null in the item editor (or MARC editor) instead of the value the library meant it to be."
 #~ msgstr "**Risposta**: Accade perché la collocazione a scaffale è stata creata con codice uguale a 0 (zero). Il sistema interpreta il valore autorizzato 0 come uguale a NULL (non valorizzato), perciò, quando si modifica un record nella catalogazione, un campo il cui valore autorizzato equivale a 0, appare come nullo nell'editor di elemento (o nell'editor MARC), invece di avere il valore che si intendeva avesse."
+

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-01 21:22-0300\n"
-"PO-Revision-Date: 2020-12-08 12:53+0000\n"
+"PO-Revision-Date: 2021-02-17 12:21+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1607431995.319309\n"
+"X-POOTLE-MTIME: 1613564519.239712\n"
 
 #: ../../source/circulation.rst:6
 msgid "Circulation"
@@ -171,7 +171,7 @@ msgstr "Unterhalb des Eingabefelds für den Barcode kann es Optionen geben, um d
 
 #: ../../source/circulation.rst:105
 msgid "This option will only appear if you have set the :ref:`SpecifyDueDate` system preference to allow staff to override the due date"
-msgstr "Diese Option wird nur angezeigt, wenn Sie den Systemparamter :ref:`SpecifyDueDate` aktiviert haben, und damit Bibliotheksmitarbeitern erlauben das generierte Fälligkeitsdatum zu überschreiben"
+msgstr "Diese Option wird nur angezeigt, wenn Sie den Systemparameter :ref:`SpecifyDueDate` aktiviert haben, und damit Bibliotheksmitarbeitern erlauben das generierte Fälligkeitsdatum zu überschreiben"
 
 #: ../../source/circulation.rst:109
 msgid "Below the box for the barcode you will see a checkbox for 'Automatic renewal'. This will allow this item to automatically renew if the :ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there are no holds on the item."
@@ -626,7 +626,7 @@ msgstr "|image525|"
 
 #: ../../source/circulation.rst:452
 msgid "Check in (returning)"
-msgstr "Rückgabe (Zurückbuchen)"
+msgstr "Rückgabe (Rückbuchung)"
 
 #: ../../source/circulation.rst:454
 msgid "Checking in items can be performed from various different locations"
@@ -682,7 +682,9 @@ msgstr "Wenn Sie Bücher zurückbuchen, die über die Bücherbox zurück gegeben
 
 #: ../../source/circulation.rst:488
 msgid "This requires that you have your closings added to the :ref:`calendar tool <calendar-label>`"
-msgstr "Hierfür ist es erforderlich, dass Ihre Schließtage im Modul 'Werkzeuge' :ref:`Kalender <calendar-label>` eingetragen sind."
+msgstr ""
+"Hierfür ist es erforderlich, dass Ihre Schließtage im Modul 'Werkzeuge' im "
+":ref:`Kalender <calendar-label>` eingetragen sind."
 
 #: ../../source/circulation.rst:490
 msgid "You can also choose to forgive all overdue charges for items you are checking in by checking the 'Forgive overdue charges' box before scanning items."
@@ -1010,17 +1012,11 @@ msgstr "Wenn der Systemparameter :ref:`AutoResumeSuspendedHolds` auf \"Erlaube n
 
 #: ../../source/circulation.rst:770
 msgid "If you have your :ref:`AllowHoldDateInFuture` preference set to \"Don't allow\" you will not have the option to edit the date the hold was placed (the column labelled Date)."
-msgstr ""
-"Wenn der Systemparameter :ref:`AutoHoldDateInFuture` auf \"Erlaube nicht\" "
-"gesetzt ist, kann das Datum ab dem die Vormerkung gültig wird (Spalte Datum)"
-", nicht bearbeitet werden."
+msgstr "Wenn der Systemparameter :ref:`AutoHoldDateInFuture` auf \"Erlaube nicht\" gesetzt ist, kann das Datum ab dem die Vormerkung gültig wird (Spalte Datum), nicht bearbeitet werden."
 
 #: ../../source/circulation.rst:777
 msgid "If you have the :ref:`HoldsSplitQueue` system preference set you will see the holds list split across different tables by either pickup library, itemtype or both."
-msgstr ""
-"Wenn der Systemparameter :ref:`HoldsSplitQueue` verwendet wird, wird die "
-"Liste der Vormerkungen in mehrere Tabellen nach Abholbibliothek, Medientyp "
-"oder beidem aufgeteilt."
+msgstr "Wenn der Systemparameter :ref:`HoldsSplitQueue` verwendet wird, wird die Liste der Vormerkungen in mehrere Tabellen nach Abholbibliothek, Medientyp oder beidem aufgeteilt."
 
 #: ../../source/circulation.rst:783
 msgid "Depending on how you have your :ref:`HidePatronName` system preference set the list may show card numbers instead of names in the patron column like in the image above."
@@ -1069,10 +1065,10 @@ msgstr "|image559|"
 #: ../../source/circulation.rst:824
 msgid "If your library uses the :ref:`patron clubs feature <patron-clubs-label>`, use the clubs tab to place a hold for a club. To place a hold for a club, click the clubs tab, search for and select the club name, and click the 'Place hold' button."
 msgstr ""
-"Wenn Ihre Bibliothek die ref:`Benutzerclubs-Funktion<patron-clubs-label>` "
-"verwendet, können Sie den Reiter Clubs verenden, um für einen solchen "
-"Vormerkungen zu setzen. Klicken Sie dazu auf den Reiter, suchen Sie nach dem "
-"Club und klicken Sie auf \"Vormerken\"."
+"Wenn Ihre Bibliothek ref:`Clubs <patron-clubs-label>` verwendet, können Sie "
+"den Reiter Clubs verenden, um für einen solchen Vormerkungen zu setzen. "
+"Klicken Sie dazu auf den Reiter, suchen Sie nach dem Club und klicken Sie "
+"auf \"Vormerken\"."
 
 #: ../../source/circulation.rst:826
 msgid "|image1460|"
@@ -1229,15 +1225,7 @@ msgstr "Schnellaufnahme"
 # Gegenlesen
 #: ../../source/circulation.rst:940
 msgid "Sometimes circulation librarians need to quickly add a record to the system for an item they are about to check out. This is called 'Fast add'. To allow circulation librarians access to the Fast add cataloging tool, simply make sure they have the `fast\\_cataloging <#fastaddpermissions>`__ permissions. There are two ways to add titles via fast add. If you know that you're about to check out an item that isn't in you catalog you can go to the Circulation module and click 'Fast cataloging.'"
-msgstr ""
-"Manchmal muss beim Ausleihvorgang rasch ein neuer Datensatz für ein im "
-"System noch nicht vorhandenes Exemplar angelegt werden. Dies geschieht mit "
-"der sogenannten 'Schnellaufnahme'. Um dem Ausleihpersonal Zugang zur "
-"Funktion 'Schnellaufnahme' zu geben, muß die Berechtigung `(fast\\"
-"_cataloging) Schnellaufnahmen anlegen <#fastaddpermissions>` gesetzt sein. "
-"Es gibt zwei Wege, eine Schnellaufnahme anzulegen. Wenn Sie wissen, dass das "
-"auszuleihende Exemplar noch nicht im Bestand erfasst ist, gehen Sie in das "
-"Modul 'Ausleihe' und klicken Sie direkt auf 'Schnellaufnahme.'"
+msgstr "Manchmal muss beim Ausleihvorgang rasch ein neuer Datensatz für ein im System noch nicht vorhandenes Exemplar angelegt werden. Dies geschieht mit der sogenannten 'Schnellaufnahme'. Um dem Ausleihpersonal Zugang zur Funktion 'Schnellaufnahme' zu geben, muss die Berechtigung `(fast\\_cataloging) Schnellaufnahmen anlegen <#fastaddpermissions>`__ gesetzt sein. Es gibt zwei Wege, eine Schnellaufnahme anzulegen. Wenn Sie wissen, dass das auszuleihende Exemplar noch nicht im Bestand erfasst ist, gehen Sie in das Modul 'Ausleihe' und klicken Sie direkt auf 'Schnellaufnahme.'"
 
 #: ../../source/circulation.rst:949
 msgid "|image571|"
@@ -1306,9 +1294,7 @@ msgstr "Liste der Vormerkungen"
 
 #: ../../source/circulation.rst:998
 msgid "This report will show you all holds waiting to be pulled off the shelf at your library."
-msgstr ""
-"Dieser Report zeigt alle Vormerkungen in Ihrer Bibliothek, die darauf warten "
-"aus dem Bestand bereitgestellt zu werden."
+msgstr "Dieser Report zeigt alle Vormerkungen in Ihrer Bibliothek, die darauf warten aus dem Bestand bereitgestellt zu werden."
 
 #: ../../source/circulation.rst:1000
 msgid "|image577|"
@@ -1316,20 +1302,11 @@ msgstr "|image577|"
 
 #: ../../source/circulation.rst:1002
 msgid "To generate this report, you must have the :ref:`Build holds queue cron job <cron-holds-queue-report-label>` running. This cron job is a script that should be run periodically if your library system allows borrowers to place on-shelf holds. This script decides which library should be responsible for fulfilling a given hold request."
-msgstr ""
-"Damit dieser Report erzeugt wird, muss der :ref:`Cronjob build_holdsqueue "
-"<cron-holds-queue-label>` eingerichtet sein. Dieser Cronjob ist ein Skript, "
-"welches regelmäßig laufen sollte, wenn Ihre Bibliothek Vormerkungen auf "
-"nicht entliehene Exemplare erlaubt. Das Skript legt fest, welche Bibliothek "
-"das Exemplar für eine Vormerkung bereitstellen muss."
+msgstr "Damit dieser Report erzeugt wird, muss der :ref:`Cronjob build_holdsqueue <cron-holds-queue-label>` eingerichtet sein. Dieser Cronjob ist ein Skript, welches regelmäßig laufen sollte, wenn Ihre Bibliothek Vormerkungen auf nicht entliehene Exemplare erlaubt. Das Skript legt fest, welche Bibliothek das Exemplar für eine Vormerkung bereitstellen muss."
 
 #: ../../source/circulation.rst:1008
 msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`UseTransportCostMatrix`."
-msgstr ""
-"Das Verhalten des Cronjobs wird beeinflusst durch die Systemparameter :ref:`"
-"StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`"
-"RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` und "
-":ref:`UseTransportCostMatrix`."
+msgstr "Das Verhalten des Cronjobs wird beeinflusst durch die Systemparameter :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` und :ref:`UseTransportCostMatrix`."
 
 #: ../../source/circulation.rst:1013
 msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
@@ -1350,13 +1327,7 @@ msgstr "Wenn Sie die Last der Vormerkungen gleichmäßig auf alle Bibliotheken v
 
 #: ../../source/circulation.rst:1039
 msgid "An alternative to static and randomized is using the :ref:`Tansport cost matrix <transport-cost-matrix-label>`. It takes precedence in controlling where holds are filled from and allows you to define the 'cost' of transport between any two libraries. To use the Transport cost matrix simply set your UseTransportCostMatrix preference to 'Use'."
-msgstr ""
-"Eine Alternative zur statischen oder zufälligen Verteilung ist die "
-"Verwendung der :ref:`Tansportkostenmatrix <transport-cost-matrix-label>`. "
-"Wenn Sie verwendet wird, übernimmt Sie die Verteilung der Vormerkungen durch "
-"die Definition von 'Kosten' für den Transport zwischen zwei Bibliotheken. Um "
-"die Matrix zu verwenden, aktivieren Sie diesen über den Systemparameter "
-"UseTransportCostMatrix."
+msgstr "Eine Alternative zur statischen oder zufälligen Verteilung ist die Verwendung der :ref:`Tansportkostenmatrix <transport-cost-matrix-label>`. Wenn Sie verwendet wird, übernimmt Sie die Verteilung der Vormerkungen durch die Definition von 'Kosten' für den Transport zwischen zwei Bibliotheken. Um die Matrix zu verwenden, aktivieren Sie diesen über den Systemparameter UseTransportCostMatrix."
 
 #: ../../source/circulation.rst:1048
 msgid "Holds to pull"
@@ -1502,11 +1473,7 @@ msgstr "Bei einer positiven Eingabe können danach Artikelbestellungen in der Di
 
 #: ../../source/circulation.rst:1171
 msgid "In the staff client, on the record details page, you will see a 'Request article' button at the top and an 'Article requests' tab to the left. The two options lead to the same page."
-msgstr ""
-"In der Dienstoberfläche, in der Detailansicht, sehen sie dann die "
-"Schaltfläche \"Artikel bestellen\" in der Menüleiste und einen Reiter \""
-"Artikelbestellungen\" auf der linken Seite. Beide Optionen führen auf die "
-"gleiche Seite."
+msgstr "In der Dienstoberfläche, in der Detailansicht, sehen sie dann die Schaltfläche \"Artikel bestellen\" in der Menüleiste und einen Reiter \"Artikelbestellungen\" auf der linken Seite. Beide Optionen führen auf die gleiche Seite."
 
 #: ../../source/circulation.rst:1175
 msgid "|image1394|"
@@ -1514,9 +1481,7 @@ msgstr "|image1394|"
 
 #: ../../source/circulation.rst:1177
 msgid "Just like a hold, you will be prompted to enter the patron's card number or name."
-msgstr ""
-"Wie bei einer Vormerkung werden Sie aufgefordert die Ausweisnummer oder den "
-"Namen des Benutzers anzugeben."
+msgstr "Wie bei einer Vormerkung werden Sie aufgefordert die Ausweisnummer oder den Namen des Benutzers anzugeben."
 
 #: ../../source/circulation.rst:1180
 msgid "|image1395|"
@@ -1532,11 +1497,7 @@ msgstr "|image1396|"
 
 #: ../../source/circulation.rst:1188
 msgid "Remember, the mandatory fields are set through the three system preferences :ref:`ArticleRequestsMandatoryFields`, :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, and :ref:`ArticleRequestsMandatoryFieldsRecordOnly`."
-msgstr ""
-"Erinnerung: Die Pflichtfelder werden durch drei Systemparameter definiert: "
-":ref:`ArticleRequestsMandatoryFields`, "
-":ref:`ArticleRequestsMandatoryFieldsItemsOnly`, und "
-":ref:`ArticleRequestsMandatoryFieldsRecordOnly`."
+msgstr "Erinnerung: Die Pflichtfelder werden durch drei Systemparameter definiert: :ref:`ArticleRequestsMandatoryFields`, :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, und :ref:`ArticleRequestsMandatoryFieldsRecordOnly`."
 
 #: ../../source/circulation.rst:1193
 msgid "If allowed, choose the specific item to request."
@@ -1548,8 +1509,7 @@ msgstr "Klicken Sie dann auf \"Bestellen\"."
 
 #: ../../source/circulation.rst:1197
 msgid "From the OPAC, patrons can place requests themselves either from the results list"
-msgstr ""
-"Im OPAC können die Benutzer selbst Vormerkungen entweder aus der Trefferliste"
+msgstr "Im OPAC können die Benutzer selbst Vormerkungen entweder aus der Trefferliste"
 
 #: ../../source/circulation.rst:1200
 msgid "|image1397|"
@@ -1565,9 +1525,7 @@ msgstr "|image1398|"
 
 #: ../../source/circulation.rst:1206
 msgid "As with a hold, if the patron is not logged in, they will be asked to do so."
-msgstr ""
-"Wie bei einer Vormerkung wird der Benutzer gebeten sich anzumelden, wenn er "
-"dies nicht bereits ist."
+msgstr "Wie bei einer Vormerkung wird der Benutzer gebeten sich anzumelden, wenn er dies nicht bereits ist."
 
 # Staff Client > Appearance
 #: ../../source/circulation.rst:1209
@@ -1580,15 +1538,11 @@ msgstr "|image1399|"
 
 #: ../../source/circulation.rst:1213
 msgid "If allowed, the patron chan choose the specific item to request."
-msgstr ""
-"Wenn erlaubt, kann der Benutzer ein spezifisches Exemplar für die Vormerkung "
-"auswählen."
+msgstr "Wenn erlaubt, kann der Benutzer ein spezifisches Exemplar für die Vormerkung auswählen."
 
 #: ../../source/circulation.rst:1215
 msgid "From their acocunt, the patron will be able to follow the progress of their request from 'pending'"
-msgstr ""
-"Im Benutzerkonto kann der Benutzer den Fortschritt der Bestellung von \""
-"offen\""
+msgstr "Im Benutzerkonto kann der Benutzer den Fortschritt der Bestellung von \"offen\""
 
 #: ../../source/circulation.rst:1218
 msgid "|image1400|"
@@ -1604,16 +1558,11 @@ msgstr "|image1401|"
 
 #: ../../source/circulation.rst:1224
 msgid "The patron will also receive an email notification when the status of the request changes."
-msgstr ""
-"Der Benutzer erzählt auch dann eine E-Mail-Benachrichtigung, wenn sich der "
-"Status seiner Bestellung ändert."
+msgstr "Der Benutzer erzählt auch dann eine E-Mail-Benachrichtigung, wenn sich der Status seiner Bestellung ändert."
 
 #: ../../source/circulation.rst:1227
 msgid "Once the request is completed the patron will receive an email notification and the article request will no longer appear in their account."
-msgstr ""
-"Sobald die Bestellung abgeschlossen ist, wird eine E-Mail-Benachrichtigung "
-"an den Benutzer verschickt und die Artikelbestellung wird nicht länger im "
-"Konto angezeigt."
+msgstr "Sobald die Bestellung abgeschlossen ist, wird eine E-Mail-Benachrichtigung an den Benutzer verschickt und die Artikelbestellung wird nicht länger im Konto angezeigt."
 
 #: ../../source/circulation.rst:1231
 msgid "Managing article requests"
@@ -1637,11 +1586,7 @@ msgstr "|image1403|"
 
 #: ../../source/circulation.rst:1243
 msgid "The first step would be for a staff member to process the request, that moves the request to the processing tab and alerts other staff members that the request is in process. In the actions column, click on the dropdown menu and select 'Process request'. This will move the request to the processing tab."
-msgstr ""
-"In einem ersten Schritt wird die Bestellung durch einen "
-"Bibliotheksmitarbeitenden bearbeitet und verschiebt sich dadurch in einen "
-"anderen Reiter. In der Spalte Aktionen wird hierzu aus dem Auswahlmenü der "
-"Punkt \"Bestellung bearbeiten\" ausgewählt. "
+msgstr "In einem ersten Schritt wird die Bestellung durch einen Bibliotheksmitarbeitenden bearbeitet und verschiebt sich dadurch in einen anderen Reiter. In der Spalte Aktionen wird hierzu aus dem Auswahlmenü der Punkt \"Bestellung bearbeiten\" ausgewählt. "
 
 #: ../../source/circulation.rst:1248
 msgid "|image1404|"
@@ -1653,12 +1598,7 @@ msgstr "Als nächstes kann das angeforderte Material aus dem Regal gezogen, und 
 
 #: ../../source/circulation.rst:1252
 msgid "Once that is complete, staff can print the article request slip (this can be customized in :ref:`notices and slips <notices-and-slips-label>` under AR\\_SLIP) and staple or paper clip it to the article. In the actions column, you can select the dropdown and select print slip."
-msgstr ""
-"Nachdem dies getan ist, kann das Bibliotheksperonal eine Quittung für die "
-"Artikelbestellung drucken (dieser kann unter :ref:`Benachrichtigungen & "
-"Quittungen <notices-and-slips-label>` unter AR\\_SLIP angepasst werden) und "
-"diese an den ausgedruckten Artikel heften. Im Menü 'Aktionen' kann aus der "
-"Auswahlliste 'Quittung drucken\" ausgewählt werden."
+msgstr "Nachdem dies getan ist, kann das Bibliotheksperonal eine Quittung für die Artikelbestellung drucken (dieser kann unter :ref:`Benachrichtigungen & Quittungen <notices-and-slips-label>` unter AR\\_SLIP angepasst werden) und diese an den ausgedruckten Artikel heften. Im Menü 'Aktionen' kann aus der Auswahlliste 'Quittung drucken\" ausgewählt werden."
 
 #: ../../source/circulation.rst:1257
 msgid "Finally, staff will select the complete article request from the actions dropdown menu which will send a notice to the patron who made the request letting them know the request is ready for pickup."
@@ -1670,10 +1610,7 @@ msgstr "Dadurch wird die Artikelbestellung aus dem Reiter 'in Bearbeitung' entfe
 
 #: ../../source/circulation.rst:1265
 msgid "Actions can also be made in bulk by checking the boxes next to the requests to process or by clicking 'Select all', and choosing the new status from the actions menu on top of the table."
-msgstr ""
-"Es können über die Checkboxen oder durch Klick auf \"Alle auswählen\" auch "
-"mehrere Bestellungen auf einmal bearbeitet und der neue Status aus der "
-"Auswahlliste am Anfang der Tabelle gewählt werden."
+msgstr "Es können über die Checkboxen oder durch Klick auf \"Alle auswählen\" auch mehrere Bestellungen auf einmal bearbeitet und der neue Status aus der Auswahlliste am Anfang der Tabelle gewählt werden."
 
 #: ../../source/circulation.rst:1269
 msgid "|image1405|"
@@ -1721,7 +1658,12 @@ msgstr "|image586|"
 
 #: ../../source/circulation.rst:1311
 msgid "If you would like to limit the report you can use the pull down menu at the top to limit to a specific shelving location at your branch. To see overdues with fines at other branches you will have to :ref:`change your branch <set-library-label>` or log in at that branch."
-msgstr "Wenn Sie den Report einschränken möchten, können Sie mit der Auswahlliste im Menü einen Standort in Ihrer Bibliothek auswählen. Um überfällige Medien anderer Bibliotheken zu sehen, müssen Sie :ref:`die Bibliothek für die Sie eingeloggt sind wechseln <set-library-label>`."
+msgstr ""
+"Wenn Sie den Report einschränken möchten, können Sie mit der Auswahlliste im "
+"Menü einen Standort in Ihrer Bibliothek auswählen. Um überfällige Medien "
+"anderer Bibliotheken zu sehen, müssen Sie die :ref:`Bibliothek wechseln <set-"
+"library-label>`, unter der Sie angemeldet sind oder sich unter dieser "
+"Bibliothek anmelden.."
 
 # Nur Gebühren für Überfälligkeiten?
 #: ../../source/circulation.rst:1318
@@ -1746,7 +1688,7 @@ msgstr "Es werden das Fälligkeitsdatum (überfällig in rot), der derzeitige Be
 
 #: ../../source/circulation.rst:1338
 msgid "Tracking in-house use"
-msgstr "Vor-Ort-Benutzung protokollieren"
+msgstr "Vor-Ort-Benutzung erfassen"
 
 #: ../../source/circulation.rst:1340
 msgid "Many libraries track the use of items within the library."
@@ -2342,7 +2284,10 @@ msgstr "Die Gebrauchsanweisung für die Offline-Verbuchung kann unter folgender 
 
 #: ../../source/circulation.rst:1867
 msgid "To generate a borrowers.db file for loading in to the Windows tool you will need to run the :ref:`file generator via a cron job <cron-generate-patron-file-for-offline-circulation-label>`."
-msgstr "Um eine borrowers.db Datei zu generieren, damit Sie sie ins Windows Tool laden können, muss der :ref:`Cronjob file generator <cron-generate-patron-file-for-offline-circulation-label>` laufen. "
+msgstr ""
+"Um eine borrowers.db Datei zu generieren, damit Sie sie ins Windows Tool "
+"laden können, muss dee :ref:`Cronjob für die Generierung der Datei <cron-"
+"generate-patron-file-for-offline-circulation-label>` laufen. "
 
 #: ../../source/circulation.rst:1874
 msgid "Upload offline circ file"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
 "PO-Revision-Date: 2020-11-02 17:02+0000\n"
 "Last-Translator: bargioni <bargioni@pusc.it>\n"
 "Language-Team: Koha Translation Team\n"
@@ -161,9 +161,7 @@ msgstr "Se hai impostato la preferenza di sistema :ref:`itemBarcodeFallbackSearc
 
 #: ../../source/circulation.rst:94
 msgid "If you have :ref:`AutoSwitchPatron` set to 'Enable', scanning a patron barcode here will take you to that patron's file."
-msgstr ""
-"Se :ref:`AutoSwitchPatron` è impostato a 'Attiva', la scansione del barcode "
-"utente porterà al file dell'utente."
+msgstr "Se :ref:`AutoSwitchPatron` è impostato a 'Attiva', la scansione del barcode utente porterà al file dell'utente."
 
 #: ../../source/circulation.rst:97
 msgid "To see more checkout options click the 'Checkout settings' link to expand the checkout area."
@@ -183,11 +181,7 @@ msgstr "Questa opzione appare solo se hai impostato la preferenza di sistema :re
 
 #: ../../source/circulation.rst:109
 msgid "Below the box for the barcode you will see a checkbox for 'Automatic renewal'. This will allow this item to automatically renew if the :ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there are no holds on the item."
-msgstr ""
-"Sotto il box per il barcode, c'è un checkbox per il 'Rinnovo automatico'. "
-"Questo permette di rinnovare automaticamente il prestito se :ref:`lo "
-"specifico cron job <cron-automatic-renewal-label>` è attivo e non vi sono "
-"prenotazioni sulla copia."
+msgstr "Sotto il box per il barcode, c'è un checkbox per il 'Rinnovo automatico'. Questo permette di rinnovare automaticamente il prestito se :ref:`lo specifico cron job <cron-automatic-renewal-label>` è attivo e non vi sono prenotazioni sulla copia."
 
 #: ../../source/circulation.rst:114
 #, fuzzy
@@ -302,9 +296,7 @@ msgstr "'Stampa Riepilogo' genererà una pagina Riepilogo informativo circolazio
 
 #: ../../source/circulation.rst:209
 msgid "What prints on the slips can be customized by altering the slip templates under the :ref:`Notices & slips` tool."
-msgstr ""
-"Cosa stampare sulle ricevute può essere impostato modificando i template per "
-"la ricevuta presenti sotto `Avvisi & Ricevute`."
+msgstr "Cosa stampare sulle ricevute può essere impostato modificando i template per la ricevuta presenti sotto `Avvisi & Ricevute`."
 
 #: ../../source/circulation.rst:215
 #, fuzzy
@@ -1352,20 +1344,11 @@ msgstr "|image577|"
 
 #: ../../source/circulation.rst:1002
 msgid "To generate this report, you must have the :ref:`Build holds queue cron job <cron-holds-queue-report-label>` running. This cron job is a script that should be run periodically if your library system allows borrowers to place on-shelf holds. This script decides which library should be responsible for fulfilling a given hold request."
-msgstr ""
-"Per generare questo report, devi avere attiva il :ref:`cron job Build Holds "
-"Queue <cron-holds-queue-label>`. Questo cron job è uno script che dovrebbe "
-"girare periodicamente se la tua biblioteca permette agli utenti di inserire "
-"prenotazioni in modo autonomo. Questo script decide quale biblioteca deve "
-"essere responsabile per portare avanti un richiesta di prenotazione inserita."
+msgstr "Per generare questo report, devi avere attiva il :ref:`cron job Build Holds Queue <cron-holds-queue-label>`. Questo cron job è uno script che dovrebbe girare periodicamente se la tua biblioteca permette agli utenti di inserire prenotazioni in modo autonomo. Questo script decide quale biblioteca deve essere responsabile per portare avanti un richiesta di prenotazione inserita."
 
 #: ../../source/circulation.rst:1008
 msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`UseTransportCostMatrix`."
-msgstr ""
-"Il comportamento è controllato dalle preferenze di sistema :ref:`"
-"StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`"
-"RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` e "
-":ref:`UseTransportCostMatrix`."
+msgstr "Il comportamento è controllato dalle preferenze di sistema :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` e :ref:`UseTransportCostMatrix`."
 
 #: ../../source/circulation.rst:1013
 msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
@@ -1429,13 +1412,7 @@ msgstr "|image580|"
 
 #: ../../source/circulation.rst:1076
 msgid "Items that have been on the hold shelf longer than you normally allow (based on the :ref:`ReservesMaxPickUpDelay` preference value) will appear on the 'Holds over' tab, they will not automatically be cancelled unless you have set the :ref:`cron job <cron-expired-holds-label>` to do that for you, but you can cancel all holds using the button at the top of the list."
-msgstr ""
-"Le copie che sono in stato di prenotazione per un tempo superiore al normale "
-"(in base alla preferenza di sistema :ref:`ReservesMaxPickUpDelay`) "
-"appariranno nella scheda 'Prenotazioni scadute' e non saranno "
-"automaticamente cancellate a patto che tu non abbia settato il :ref:`cron "
-"job <cron-expired-holds-label>` per cancellarle. Puoi anche cancellare tutte "
-"le prenotazioni se usi il bottone sopra la lista."
+msgstr "Le copie che sono in stato di prenotazione per un tempo superiore al normale (in base alla preferenza di sistema :ref:`ReservesMaxPickUpDelay`) appariranno nella scheda 'Prenotazioni scadute' e non saranno automaticamente cancellate a patto che tu non abbia settato il :ref:`cron job <cron-expired-holds-label>` per cancellarle. Puoi anche cancellare tutte le prenotazioni se usi il bottone sopra la lista."
 
 #: ../../source/circulation.rst:1083
 msgid "|image581|"
@@ -1483,11 +1460,7 @@ msgstr "Richieste di articoli"
 
 #: ../../source/circulation.rst:1125
 msgid "Article requests are somewhat similar to holds, but are not requests for an item to check out. Instead, article requests are requests for a photocopy of a particular section of a book or an article from a serial issue. This is very common in academic libraries where researchers may request a copy of a single article found in a journal."
-msgstr ""
-"Le richieste di articoli sono qualcosa di simile alle prenotazioni, ma si "
-"riferiscono a fotocopie di parte di un libro o di fascicolo di rivista ("
-"document delivery). E' un servizio tipico di biblioteche accademiche, utile "
-"per la ricerca scientifica."
+msgstr "Le richieste di articoli sono qualcosa di simile alle prenotazioni, ma si riferiscono a fotocopie di parte di un libro o di fascicolo di rivista (document delivery). E' un servizio tipico di biblioteche accademiche, utile per la ricerca scientifica."
 
 #: ../../source/circulation.rst:1134
 msgid "Setting up article requests"
@@ -1500,9 +1473,7 @@ msgstr "Prima di tutto attiva la preferenza di sistema ArticleRequests."
 
 #: ../../source/circulation.rst:1138
 msgid "Set to 'Enable' patrons to place article requests."
-msgstr ""
-"Imposta a 'Permetti' per permettere agli utenti di inoltrare richieste di "
-"articoli."
+msgstr "Imposta a 'Permetti' per permettere agli utenti di inoltrare richieste di articoli."
 
 #: ../../source/circulation.rst:1140
 msgid "Next you will need to decide how your patrons will make requests, either record only, item only, or both record and item level."
@@ -1530,10 +1501,7 @@ msgstr "ArticleRequestsMandatoryFieldsRecordOnly rende obbligatori i seguenti ca
 
 #: ../../source/circulation.rst:1156
 msgid "Next you will want to go into your :ref:`circulation and fines rules matrix <circulation-and-fines-rules-label>` and select each rule for which you want to allow requests."
-msgstr ""
-"Poi dovrai accedere alla matrice delle regole di circolazione e multe "
-"<circulation-and-fines-rules-label> e selezionare le regole relative alle "
-"richieste."
+msgstr "Poi dovrai accedere alla matrice delle regole di circolazione e multe <circulation-and-fines-rules-label> e selezionare le regole relative alle richieste."
 
 #: ../../source/circulation.rst:1160
 msgid "You can allow requests to be made at the record level, item level, yes (which means both) and no (which means no article requests may be placed)."
@@ -1685,12 +1653,7 @@ msgstr "Poi lo staff accederà allo scaffale e farà una copia dell’articolo r
 
 #: ../../source/circulation.rst:1252
 msgid "Once that is complete, staff can print the article request slip (this can be customized in :ref:`notices and slips <notices-and-slips-label>` under AR\\_SLIP) and staple or paper clip it to the article. In the actions column, you can select the dropdown and select print slip."
-msgstr ""
-"Una volta fatto questo, lo staff può stampare una ricevuta per la richiesta "
-"dell’Articolo (può essere personalizzata nella sezione :ref:`avvisi e "
-"ricevute <notices-and-slips-label>` sotto AR\\_SLIP) e associarla all’"
-"articolo. Nella colonna azioni, puoi selezionare stampa la ricevuta dalla "
-"tendina."
+msgstr "Una volta fatto questo, lo staff può stampare una ricevuta per la richiesta dell’Articolo (può essere personalizzata nella sezione :ref:`avvisi e ricevute <notices-and-slips-label>` sotto AR\\_SLIP) e associarla all’articolo. Nella colonna azioni, puoi selezionare stampa la ricevuta dalla tendina."
 
 #: ../../source/circulation.rst:1257
 msgid "Finally, staff will select the complete article request from the actions dropdown menu which will send a notice to the patron who made the request letting them know the request is ready for pickup."
@@ -1755,9 +1718,7 @@ msgstr "Se si desidera limitare il report, è possibile utilizzare il menu a dis
 
 #: ../../source/circulation.rst:1318
 msgid "If you do not charge fines and/or don't have the :ref:`fines cron job <cron-fines-label>` running you will see no data on this report."
-msgstr ""
-"Se non fanno pagare multe e/o non si ha il job di cron :ref:`multe in "
-"esecuzione <cron-fines-label>` non si vedrà nessun dato in questo report."
+msgstr "Se non fanno pagare multe e/o non si ha il job di cron :ref:`multe in esecuzione <cron-fines-label>` non si vedrà nessun dato in questo report."
 
 #: ../../source/circulation.rst:1324
 msgid "Pending on-site checkouts"
@@ -1829,12 +1790,7 @@ msgstr "Auto registrazione del prestito"
 
 #: ../../source/circulation.rst:1384
 msgid "Koha comes with a very basic self checkout module. To enable this module you need to set the :ref:`WebBasedSelfCheck` system preference to 'Enable.' To use this module you have to log in as a :ref:`staff member <add-a-staff-patron-label>` with :ref:`self\\_check permissions <patron-permissions-label>`."
-msgstr ""
-"Koha è dotato di un modulo molto semplice di auto prestito. Per abilitare "
-"questo modulo è necessario impostare :ref:`WebBasedSelfCheck` ad 'Abilita'. "
-"Per utilizzare questo modulo devi accedere come `:ref:membro dello staff "
-"<add-a-staff-patron-label>` con i `:ref:permessi di self\\_check <patron-"
-"permissions-label>`."
+msgstr "Koha è dotato di un modulo molto semplice di auto prestito. Per abilitare questo modulo è necessario impostare :ref:`WebBasedSelfCheck` ad 'Abilita'. Per utilizzare questo modulo devi accedere come `:ref:membro dello staff <add-a-staff-patron-label>` con i `:ref:permessi di self\\_check <patron-permissions-label>`."
 
 #: ../../source/circulation.rst:1392
 msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day"
@@ -1979,10 +1935,7 @@ msgstr "|image1333|"
 
 #: ../../source/circulation.rst:1510
 msgid "If the patron doesn't click 'Finish', the screen will refresh after the timeout period specified in the :ref:`SelfCheckInTimeout` system preference."
-msgstr ""
-"Se l'utente non fa click su 'Fine', la pagina tornerà a quella principale "
-"dopo un timeout specificato nella preferenza di sistema "
-":ref:`SelfCheckInTimeout`."
+msgstr "Se l'utente non fa click su 'Fine', la pagina tornerà a quella principale dopo un timeout specificato nella preferenza di sistema :ref:`SelfCheckInTimeout`."
 
 #: ../../source/circulation.rst:1515
 msgid "Even if the patron doesn't click 'Finish' the item will still be checked in from their account."
@@ -1990,15 +1943,11 @@ msgstr "Anche se l'utente non fa click su 'Fine', la copia verrà restituita."
 
 #: ../../source/circulation.rst:1518
 msgid "You can cutomize the look of your self check-in screens by using the :ref:`SelfCheckInUserCSS` system preference or the :ref:`SelfCheckInUserJS` system preference."
-msgstr ""
-"Puoi personalizzare l'aspetto dell'auto-prestito usando le preferenze di "
-"sistema :ref:`SelfCheckInUserCSS` o :ref:`SelfCheckInUserJS`."
+msgstr "Puoi personalizzare l'aspetto dell'auto-prestito usando le preferenze di sistema :ref:`SelfCheckInUserCSS` o :ref:`SelfCheckInUserJS`."
 
 #: ../../source/circulation.rst:1522
 msgid "You can add content, like instructions on how to use the self check-in system for example, by using the :ref:`SelfCheckInMainUserBlock` system preference."
-msgstr ""
-"Puoi aggiungere informazioni, come le istruzioni su come usare l'auto-"
-"prestito, usando la preferenza di sistema :ref:`SelfCheckInMainUserBlock`."
+msgstr "Puoi aggiungere informazioni, come le istruzioni su come usare l'auto-prestito, usando la preferenza di sistema :ref:`SelfCheckInMainUserBlock`."
 
 #: ../../source/circulation.rst:1525
 msgid "Statistics about the transactions made through the self check-in module are logged into the action\\_logs table in the Koha database. You can therefore :ref:`build a custom report <custom-reports-label>` to get the statistics you need."
@@ -2415,10 +2364,7 @@ msgstr "Lo strumento Circolazione Offline può essere scaricato da: https://gith
 
 #: ../../source/circulation.rst:1867
 msgid "To generate a borrowers.db file for loading in to the Windows tool you will need to run the :ref:`file generator via a cron job <cron-generate-patron-file-for-offline-circulation-label>`."
-msgstr ""
-"Per generare un file borrowers.db per il caricamento nello strumento di "
-"Windows si dovrà eseguire il :ref:`Generatore di file tramite un job di cron "
-"<cron-generate-patron-file-for-offline-circulation-label>`."
+msgstr "Per generare un file borrowers.db per il caricamento nello strumento di Windows si dovrà eseguire il :ref:`Generatore di file tramite un job di cron <cron-generate-patron-file-for-offline-circulation-label>`."
 
 #: ../../source/circulation.rst:1874
 #, fuzzy
@@ -2504,3 +2450,4 @@ msgstr "|image626|"
 
 #~ msgid "Click Save"
 #~ msgstr "Fare clic su Salva"
+

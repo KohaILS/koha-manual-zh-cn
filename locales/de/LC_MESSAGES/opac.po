@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 01:16-0300\n"
-"PO-Revision-Date: 2020-12-08 12:47+0000\n"
+"PO-Revision-Date: 2021-02-24 08:28+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1607431627.102817\n"
+"X-POOTLE-MTIME: 1614155293.238854\n"
 
 #: ../../source/opac.rst:6
 msgid "OPAC"
@@ -153,7 +153,7 @@ msgstr "RSS Feeds für Suchen"
 
 #: ../../source/opac.rst:107
 msgid "You will be able to subscribe to your search results as an RSS feed by clicking the RSS icon in your address bar or next to the number of results. To learn more about what RSS feeds are check out `this tutorial video <http://www.youtube.com/watch?v=0klgLsSxGsU>`__."
-msgstr "Sie können Ihre Suchergebnisse über einen RSS Feed abonnieren indem Sie auf das RSS Feed Icon rechts neben der Anzahl der Suchergebnisse klicken. Mehr Informationen zu RSS Feeds erhalten Sie in diesem Video <http://www.youtube.com/watch?v=0klgLsSxGsU>`__."
+msgstr "Sie können Ihre Suchergebnisse über einen RSS Feed abonnieren indem Sie auf das RSS Feed Icon rechts neben der Anzahl der Suchergebnisse klicken. Mehr Informationen zu RSS Feeds erhalten Sie in diesem `Video <http://www.youtube.com/watch?v=0klgLsSxGsU>`__."
 
 #: ../../source/opac.rst:112
 msgid "|image945|"
@@ -293,10 +293,7 @@ msgstr "|image960|"
 
 #: ../../source/opac.rst:204
 msgid "Below the search buttons you'll find the links to place a hold, print the record, save the record to your lists, add it to your cart or send to a device (using a QR code)."
-msgstr ""
-"Darunter finden Sie Links um eine Vormerkung abzusetzen, den Titelsatz zu "
-"drucken, den Satz zu Ihren Listen oder zu Ihrem Korb hinzuzufügen oder an "
-"eines Ihrer Geräte zu senden (über einen QR-Code)."
+msgstr "Darunter finden Sie Links um eine Vormerkung abzusetzen, den Titelsatz zu drucken, den Satz zu Ihren Listen oder zu Ihrem Korb hinzuzufügen oder an eines Ihrer Geräte zu senden (über einen QR-Code)."
 
 #: ../../source/opac.rst:208
 msgid "|image961|"
@@ -332,7 +329,7 @@ msgstr "Listen und Korb"
 
 #: ../../source/opac.rst:231
 msgid "A cart is a temporary holding place for records you're interested in finding during this session. That means that once you log out of the OPAC or close the browser you lose the items in your cart. A list is a more permanent location for saving items. To learn more about lists, check the `Lists in the staff client <#stafflists>`__ chapter of this manual."
-msgstr "Ein Korb ist ein temporärer Ablageort für Titel / Exemplare, an denen Sie interessiert sind, dieser bleibt nur während der aktuell geöffneten Session aktiv. Das bedeutet, wenn Sie sich aus dem OPAC ausloggen oder den Browser schließen, werden auch die Exemplare aus dem Korb entfernt. Listen sind daher besser geeignet um Exemplare dauerhaft zu merken. Mehr Informationen zu Listen finden Sie in dem Kapitel `Listen im Dienstclient <#stafflists>`__ dieses Handbuchs."
+msgstr "Ein Korb ist ein temporärer Ablageort für Titel / Exemplare, an denen Sie interessiert sind, dieser bleibt nur während der aktuell geöffneten Session aktiv. Das bedeutet, wenn Sie sich aus dem OPAC ausloggen oder den Browser schließen, werden auch die Exemplare aus dem Korb entfernt. Listen sind daher besser geeignet um Exemplare dauerhaft zu merken. Mehr Informationen zu Listen finden Sie in dem Kapitel `Listen in der Dienstoberfläche <#stafflists>`__ dieses Handbuchs."
 
 #: ../../source/opac.rst:241
 msgid "Lists"
@@ -504,7 +501,12 @@ msgstr "Die Liste wird nicht gelöscht, wenn Sie nicht auf 'OK' klicken."
 
 #: ../../source/opac.rst:372
 msgid "If the library is allowing you to share private lists with the :ref:`OpacAllowSharingPrivateLists` preference then you will see the 'Share' link on your list of lists and the 'Share list' link at the top of each individual list. Clicking this will ask you to enter the email address of a patron."
-msgstr "Wenn die Bibliothek erlaubt private Listen zu teilen, indem sie den Systemparameter :ref:`OpacAllowSharingPrivateLists` aktiviert hat, wird Ihnen der 'Teile Liste'-Link in Ihrer Liste der Listen angezeigt und auch der 'Teile Liste-Link oberhalb jeder persönlichen Liste. Hier müssen Sie dann die Email-Adresse eines Benutzers angeben."
+msgstr ""
+"Wenn die Bibliothek erlaubt private Listen zu teilen, indem sie den "
+"Systemparameter :ref:`OpacAllowSharingPrivateLists` aktiviert hat, wird "
+"Ihnen der 'Teile Liste'-Link in Ihrer Liste der Listen angezeigt und auch "
+"der 'Teile Liste-Link oberhalb jeder persönlichen Liste. Hier müssen Sie "
+"dann die E-Mail-Adresse eines Benutzers angeben."
 
 #: ../../source/opac.rst:378
 msgid "|image1298|"
@@ -580,7 +582,13 @@ msgstr "|image1300|"
 
 #: ../../source/opac.rst:436
 msgid "Next is the option to send the contents of your cart to an email address. This is handy if you want to send the resources you found at the library to your home email account to refer to later or to send to a patron researching a specific topic. Clicking this link will open up a new window that asks for the email address and message to send."
-msgstr "Mit der nächsten Option können Sie den Inhalt eines Korbes an eine Email-Adresse weiterleiten. Dies ist hilfreich, wenn Sie die Quellen, die Sie gefunden haben von der Bibliothek an Ihren Emailaccount zu Hause schicken möchten oder wenn Sie einem Benutzer zu einem bestimmten Thema Material zusenden möchten. Wenn Sie auf 'Abschicken' klicken, öffnet sich ein neues Fenster, in dem Sie die Emailadresse und eine Nachricht eingeben können."
+msgstr ""
+"Mit der nächsten Option können Sie den Inhalt eines Korbes an eine Email-"
+"Adresse weiterleiten. Dies ist hilfreich, wenn Sie die Quellen, die Sie "
+"gefunden haben von der Bibliothek an Ihren Emailaccount zu Hause schicken "
+"möchten oder wenn Sie einem Benutzer zu einem bestimmten Thema Material "
+"zusenden möchten. Wenn Sie auf 'Abschicken' klicken, öffnet sich ein neues "
+"Fenster, in dem Sie die E-Mail-Adresse und eine Nachricht eingeben können."
 
 #: ../../source/opac.rst:442
 msgid "|image980|"
@@ -592,7 +600,11 @@ msgstr "Sie können nur als eingeloggter Benutzer einen Korb per Email versenden
 
 #: ../../source/opac.rst:449
 msgid "In addition to sending your cart you can download the contents of your cart in several pre-defined formats or using a :ref:`CSV profile <csv-profiles-label>` that you defined in the tools module."
-msgstr "Zusätzlich zur Sendefunktion Ihres Korbes können Sie den Inhalt eines Korbes auch herunterladen. Hierfür stehen Ihnen verschiedene vordefinierte Formate zur Verfügung oder Sie nutzen ein :ref:`CSV Profil <csv-profiles-label>` das Sie im Modul 'Werkzeuge' festgelegt haben.  "
+msgstr ""
+"Zusätzlich zur Sendefunktion Ihres Korbes können Sie den Inhalt eines Korbes "
+"auch herunterladen. Hierfür stehen Ihnen verschiedene vordefinierte Formate "
+"zur Verfügung oder Sie nutzen ein :ref:`CSV-Profil <csv-profiles-label>`, "
+"das Sie im Modul 'Werkzeuge' festgelegt haben.  "
 
 #: ../../source/opac.rst:453
 msgid "|image981|"
@@ -604,7 +616,13 @@ msgstr "Zum Schluß können Sie den Inhalt Ihres Korbes auch ausdrucken, indem S
 
 #: ../../source/opac.rst:458
 msgid "In addition to the various different ways to save the contents of your cart, there are ways to add value to the data in your cart. By selecting one or more titles from the cart you can add them to a list (click 'Add to a list'), place hold(s) (click 'Place hold'), or tag them (click 'Tag'). All of these operations follow the same procedure as they do when performing them in the OPAC."
-msgstr "Zusätzlich zu den verschiedenen Möglichkeiten den Inhalt Ihres Korbes zu speichern gibt es Wege verschiedene Werte dem Bestand Ihres Korbes hinzuzufügen. Sie können einen oder mehrere Titel durch auswählen einer Liste hinzufügen (Schaltfläche 'Einer Liste hinzufügen'), eine Vormerkung setzen (Schaltfläche 'Vormerken') oder den Bestand taggen (Schaltfläche 'Tag'). All diese Arbeitsabläufe erfolgen nach dem selben Verfahren wie im OPAC."
+msgstr ""
+"Zusätzlich zu den verschiedenen Möglichkeiten den Inhalt Ihr zu speichern "
+"gibt es Wege weitere Inhalte zu den Daten in Ihrem Korb hinzuzufügen. Sie "
+"können einen oder mehrere Titel durch Auswählen einer Liste hinzufügen ("
+"Schaltfläche 'Einer Liste hinzufügen'), eine Vormerkung setzen (Schaltfläche "
+"'Vormerken') oder den Bestand taggen (Schaltfläche 'Tag'). All diese "
+"Arbeitsabläufe erfolgen nach dem selben Verfahren wie im OPAC."
 
 #: ../../source/opac.rst:468
 msgid "Placing holds"
@@ -661,12 +679,7 @@ msgstr "Das Feld 'Priorität' zeigt Ihnen an welcher Stelle in der Vormerktabell
 # Circulation > Holds Policy
 #: ../../source/opac.rst:502
 msgid "If allowed by your :ref:`OPACAllowUserToChooseBranch` preference the patron can choose where they'd like to pick up their hold. The list of available pickup locations will include all libraries that have 'Pickup location' set to 'Yes' on the library configuration page."
-msgstr ""
-"Haben Sie den Systemparameter :ref:`OPACAllowUserToChooseBranch` auf "
-"'Erlaube' gesetzt, können die Benutzer die Bibliothek auswählen, in der Sie "
-"ihre Vormerkung abholen möchten. Die Liste der verfügbaren Abholorte enthält "
-"alle Bibliotheken, bei denen in der Konfiguration das bei 'Abholstandort' "
-"'Ja' eingetragen ist."
+msgstr "Haben Sie den Systemparameter :ref:`OPACAllowUserToChooseBranch` auf 'Erlaube' gesetzt, können die Benutzer die Bibliothek auswählen, in der Sie ihre Vormerkung abholen möchten. Die Liste der verfügbaren Abholorte enthält alle Bibliotheken, bei denen in der Konfiguration das bei 'Abholstandort' 'Ja' eingetragen ist."
 
 #: ../../source/opac.rst:508
 msgid "If you would like to see more options you can click 'Show more options'"
@@ -786,7 +799,7 @@ msgstr "|image993|"
 
 #: ../../source/opac.rst:613
 msgid "Once the comment is approved the patron will see the number of comments on the 'Comments' tab and their comment labeled amongst the other comments. If you have set your :ref:`ShowReviewerPhoto` preference to 'Show' then you'll see the patron's photo pulled from the `Libravatar <https://www.libravatar.org>`__ library."
-msgstr "Wenn der Kommentar akzeptiert wurde, bekommt der Benutzer im Tab 'Kommentare' die Anzahl der Kommentare angezeigt. Ist der Systemparameter :ref:`ShowReviewerPhoto` auf 'Zeige' gesetzt, wird das Benutzerfoto mit angezeigt, welches über `Libravatar <https://www.libravatar.org>` ausgegeben wird. "
+msgstr "Wenn der Kommentar akzeptiert wurde, bekommt der Benutzer im Tab 'Kommentare' die Anzahl der Kommentare angezeigt. Ist der Systemparameter :ref:`ShowReviewerPhoto` auf 'Zeige' gesetzt, wird das Benutzerfoto von `Libravatar <https://www.libravatar.org>`__ angezeigt."
 
 #: ../../source/opac.rst:620
 msgid "|image994|"
@@ -838,11 +851,15 @@ msgstr "|image998|"
 
 #: ../../source/opac.rst:661
 msgid "Custom RSS feeds"
-msgstr "benutzerdefinierte RSS-Feeds "
+msgstr "Benutzerdefinierte RSS-Feeds"
 
 #: ../../source/opac.rst:663
 msgid "Using the :ref:`RSS feeds cron job <cron-rss-feeds-label>` you can generate an RSS feed for any SQL query (for example a new acquisitions RSS feed). The cron job is run on the command line to produce an RSS XML document."
-msgstr "Indem Sie :ref:`RSS feeds Cronjob <cron-rss-feeds-label>` verwenden, können Sie ein RSS feed für jede SQL-Abfrage (zum Beispiel für ein neues RSS fees in der Erwerbung) generieren. Der Cronjob läuft über die Kommandozeile um ein RSS XML Dokument zu produzieren. "
+msgstr ""
+"Indem Sie den :ref:`Cronjob für RSS-Feeds <cron-rss-feeds-label>` verwenden, "
+"können Sie einen RSS-Feed für jede SQL-Abfrage (zum Beispiel für "
+"Neuerwerbungen in der Erwerbung) generieren. Der Cronjob läuft über die "
+"Kommandozeile um ein RSS XML Dokument zu produzieren. "
 
 #: ../../source/opac.rst:667
 msgid "The output should be placed in a directory accessible to the OPAC (or staff) web interface so that users can download the RSS feed."
@@ -854,7 +871,9 @@ msgstr "Ein Beispiel zur Benutzung finden Sie unter: misc/cronjobs/rss.pl lastAc
 
 #: ../../source/opac.rst:673
 msgid "Normally the RSS cron job should be run periodically (e.g., daily) to keep the feed up-to-date."
-msgstr "Der RSS Cronjob sollte regelmäßig laufen (zum Beispiel täglich) um das Feed auf dem aktuellen Stand zu halten."
+msgstr ""
+"Der RSS-Cronjob sollte regelmäßig laufen (zum Beispiel täglich) um den Feed "
+"auf dem aktuellen Stand zu halten."
 
 #: ../../source/opac.rst:676
 msgid "The configuration file (e.g., lastAcquired.conf) lists"
@@ -874,11 +893,15 @@ msgstr "SQL-Abfrage"
 
 #: ../../source/opac.rst:684
 msgid "The RSS cron job runs the SQL query, then feeds the output of the query through the template to produce the output file."
-msgstr "Der RSS Cronjob läuft durch die SQL-Abfrage und gibt dann die Feeds der Abfrage aus, druch das Template, welches die Ausgabedatei erstellt."
+msgstr ""
+"Der RSS-Cronjob läuft durch die SQL-Abfrage und gibt dann die Feeds der "
+"Abfrage aus, druch das Template, welches die Ausgabedatei erstellt."
 
 #: ../../source/opac.rst:689
 msgid "To use custom RSS feeds you need to turn on the :ref:`RSS cron job <cron-rss-feeds-label>`."
-msgstr "Für die Benutzung der benutzerdefinierten RSS feeds müssen Sie den :ref:`RSS Cronjob <cron-rss-feeds-label>` anschalten. "
+msgstr ""
+"Für die Benutzung der benutzerdefinierten RSS-Feeds müssen Sie den :ref:`RSS-"
+"Cronjob <cron-rss-feeds-label>` aktivieren. "
 
 # OPAC > Self Registration
 #: ../../source/opac.rst:694
@@ -915,15 +938,28 @@ msgstr "Benutzer die sich auf diesem Weg angemeldet haben, erhalten keinen Benut
 
 #: ../../source/opac.rst:726
 msgid "set up a provisional :ref:`patron category <adding-a-patron-category-label>` for self registered patrons (such as 'Self Registered) instead of using an existing patron category and set that value in the :ref:`PatronSelfRegistrationDefaultCategory` preference"
-msgstr "eine provisorische :ref:`Benutzerkategorie <adding-a-patron-category-label>` für sich selbst registrierende Benutzer im Systemparameter :ref:`PatronSelfRegistrationDefaultCategory` anzulegen, statt eine bestehende Benutzerkategorie zu verwenden."
+msgstr ""
+"ein provisorischer :ref:`Benutzertyp <adding-a-patron-category-label>` für "
+"sich selbst registrierende Benutzer im Systemparameter "
+":ref:`PatronSelfRegistrationDefaultCategory` anzulegen, statt einen "
+"bestehenden Benutzertyp zu verwenden."
 
 #: ../../source/opac.rst:732
 msgid "give this patron category minimal circulation privileges in the :ref:`Circulation and fines rules` (such as allowing a couple holds, but no check outs)"
-msgstr "geben Sie dieser Benutzerkategorie minimale Ausleihrechte, die Sie in den :ref:`Ausleihkonditionen` definieren (wie zum Beispiel das Erlauben von Vormerkungen, aber keine Ausleihen)."
+msgstr ""
+"geben Sie diesem Benutzertyp minimale Ausleihrechte, die Sie in den "
+":ref:`Ausleihkonditionen` definieren (wie zum Beispiel das Erlauben von "
+"Vormerkungen, aber keine Ausleihen)."
 
 #: ../../source/opac.rst:736
 msgid "That way patrons will either have to come in to the library to verify their identity before given a cardnumber and the ability to check items out or the library will have to come up with internal policy on generating cardnumbers before providing them to self registered patrons. Once this is done the library can change the category to one that is more appropriate (be it an adult, resident, non resident, student, etc) and add a cardnumber/barcode."
-msgstr "Benutzer müssen aus datenschutzrechtlichen Gründen in die Bibliothek kommen um Ihre Identität zu bestätigen, bevor Sie einen Benutzerausweis erhalten und Exemplare ausleihen können. Danach kann die Bibliothek eine entsprechende Benutzerkategorie vergeben (sollte es sich um einen Erwachsenen, einen Ortsansässigen, nicht Ortsansässigen, einen Student etc. handeln) und einen Benutzerausweisnummer/Barcode vergeben."
+msgstr ""
+"Benutzer müssen aus datenschutzrechtlichen Gründen in die Bibliothek kommen "
+"um Ihre Identität zu bestätigen, bevor Sie einen Benutzerausweis erhalten "
+"und Exemplare ausleihen können. Danach kann die Bibliothek einen "
+"entsprechenden Benutzertyp vergeben (sollte es sich um einen Erwachsenen, "
+"einen Ortsansässigen, nicht Ortsansässigen, einen Student etc. handeln) und "
+"einen Benutzerausweisnummer/Barcode vergeben."
 
 #: ../../source/opac.rst:747
 msgid "Your account"
@@ -987,7 +1023,7 @@ msgstr "|image1005|"
 
 #: ../../source/opac.rst:800
 msgid "Then on the :ref:`patron's record set the value <editing-patrons-label>` for SHOW\\_BCODE to yes."
-msgstr "In :ref:`patron's record set the value <editing-patrons-label>` setzen Sie für SHOW\\_BCODE ein 'ja'."
+msgstr "Im :ref:`Benutzerdatensatz <editing-patrons-label>` wählen Sie für SHOW\\_BCODE dann 'ja'."
 
 #: ../../source/opac.rst:803
 msgid "|image1006|"
@@ -1015,7 +1051,10 @@ msgstr "|image1391|"
 
 #: ../../source/opac.rst:820
 msgid "If their guarantee has allowed it via :ref:`their privacy <your-privacy-label>`, when the guarantor logs in they will see a tab labeled \"Relatives' checkouts\" on their summary tab."
-msgstr "Wenn über :ref:`their privacy <your-privacy-label>` eine Bürgschaft erlaubt wurde, kann sich der Bürge einloggen und bekommt einen Tab mit Ausleihen der Angehörigen in seiner Kontoübersicht angezeigt. "
+msgstr ""
+"Wenn es über die :ref:`Datenschutzoptionen <your-privacy-label>` erlaubt "
+"wurde, kann sich der Bürge einloggen und bekommt einen Reiter mit Ausleihen "
+"der Angehörigen in seiner Kontoübersicht angezeigt. "
 
 #: ../../source/opac.rst:824
 msgid "|image1304|"
@@ -1235,7 +1274,11 @@ msgstr "Datenschutzoptionen"
 
 #: ../../source/opac.rst:1019
 msgid "The 'your privacy' tab will appear if you have both the :ref:`opacreadinghistory` and the :ref:`OPACPrivacy` preferences set to 'Allow.' This tab will allow the patrons to decide how the library keeps their circulation history data."
-msgstr "Der Reiter mit der Ausleihhistorie wird angezeigt, wenn die Systemparameter :ref:`opacreadinghistory` und :ref:`OPACPrivacy` auf 'Erlaube' gesetzt sind. Dieser Reiter erlaubt dem Benutzer seine eigenen Datenschutzeinstellungen für die Lesehistorie festzulegen."
+msgstr ""
+"Der Reiter mit der Ausleihhistorie wird angezeigt, wenn die Systemparameter "
+":ref:`opacreadinghistory` und :ref:`OPACPrivacy` auf 'Erlaube' gesetzt sind. "
+"Dieser Reiter erlaubt dem Benutzer seine eigenen Datenschutzeinstellungen "
+"für die Ausleihhistorie festzulegen."
 
 #: ../../source/opac.rst:1025
 msgid "|image1024|"
@@ -1247,23 +1290,38 @@ msgstr "Der Benutzer kann zwischen 3 Optionen wählen:"
 
 #: ../../source/opac.rst:1029
 msgid "Forever: keep my reading history without limit. This is the option for users who want to keep track of what they are reading."
-msgstr "Für immer: Meine Lesehistorie wird ohne Einschränkung gespeichert. Dies ist die Option für Benutzer, die den Überblick über das Gelesene bewahren möchten."
+msgstr ""
+"Für immer: Meine Ausleihhistorie wird ohne Einschränkung gespeichert. Dies "
+"ist die Option für Benutzer, die den Überblick über das Gelesene bewahren "
+"möchten."
 
 #: ../../source/opac.rst:1032
 msgid "Default: keep my reading history according to local laws. This is the default option : the library will keep your reading history for the duration permitted by local laws."
-msgstr "Standard: Speichern Sie meine Lesehistorie nach den geltenden Datenschutzbestimmungen. Dies ist die Standardeinstellung: Die Bibliothek wird die Daten so lange speichern, wie die geltenden Datenschutzbestimmungen dies erlauben."
+msgstr ""
+"Standard: Speichern Sie meine Ausleihhistorie nach den geltenden "
+"Datenschutzbestimmungen. Dies ist die Standardeinstellung: Die Bibliothek "
+"wird die Daten so lange speichern, wie die geltenden Datenschutzbestimmungen "
+"dies erlauben."
 
 #: ../../source/opac.rst:1036
 msgid "Never: Delete my reading history immediately. This will delete all record of the item that was checked-out upon check-in."
-msgstr "Niemals: Lösche meine Suchhistorie sofort. Mit dieser Option wird die Lesehistorie sofort nach der Rückgabe des Titels gelöscht."
+msgstr ""
+"Niemals: Lösche meine Ausleihhistorie sofort. Mit dieser Option wird die "
+"Ausleihhistorie sofort nach der Rückgabe des Titels gelöscht."
 
 #: ../../source/opac.rst:1039
 msgid "Depending on the patron's suggestions the contents of the ':ref:`Your reading history <your-reading-history-label>`' tab and the ':ref:`Circulation History <circulation-history-label>`' tab in the staff client may change."
-msgstr "Abhängig vom Vorschlag des Benutzers kann der Inhalt der ':ref:`Lesehistorie <your-reading-history-label>`' und der Inhalt der ':ref:`Ausleihhistorie <circulation-history-label>`' in der Dienstoberfläche voneinander abweichen. "
+msgstr ""
+"Abhängig vom Vorschlag des Benutzers kann der Inhalt der ':ref:`"
+"Ausleihhistorie <your-reading-history-label>`' und der Inhalt der ':ref:`"
+"Ausleihhistorie <circulation-history-label>`' in der Dienstoberfläche "
+"voneinander abweichen. "
 
 #: ../../source/opac.rst:1043
 msgid "Regardless of the patron's choice they can delete their reading history in bulk at any time by clicking the 'Immediate deletion' button."
-msgstr "Unabhängig von der Wahl des Benutzers kann die Lesehistorie jederzeit im Stapel gelöscht werden."
+msgstr ""
+"Unabhängig von der Wahl des Benutzers kann die Ausleihhistorie jederzeit im "
+"Stapel gelöscht werden."
 
 #: ../../source/opac.rst:1046
 msgid "|image1025|"
@@ -1271,11 +1329,16 @@ msgstr "|image1025|"
 
 #: ../../source/opac.rst:1048
 msgid "Clicking this button will not delete items that are currently checked out, but will clear the patron's past reading history."
-msgstr "Wenn Sie diese Schaltfläche klicken, werden keine Exemplare gelöscht, die aktuell ausgeliehen sind, sondern es wird die vergangene Lesehistorie des Benutzers geleert."
+msgstr ""
+"Wenn Sie diese Schaltfläche klicken, werden keine Exemplare gelöscht, die "
+"aktuell ausgeliehen sind, sondern es wird die vergangene Ausleihhistorie des "
+"Benutzers geleert."
 
 #: ../../source/opac.rst:1053
 msgid "In order for the patron to be able to delete their reading history you must have the :ref:`AnonymousPatron` preference set."
-msgstr "Um dem Benutzer zu ermöglichen seine Lesehistorie zu löschen, muss der Systemparameter :ref:`AnonymousPatron` aktiviert sein. "
+msgstr ""
+"Um dem Benutzer zu ermöglichen seine Ausleihhistorie zu löschen, muss der "
+"Systemparameter :ref:`AnonymousPatron` aktiviert sein. "
 
 #: ../../source/opac.rst:1057
 msgid "If you're allowing guarantees to grand permission to their guarantors to view their current checkouts with the :ref:`AllowPatronToSetCheckoutsVisibilityForGuarantor` preference they will see that option on this screen."
@@ -1325,12 +1388,7 @@ msgstr "|image1027|"
 
 #: ../../source/opac.rst:1100
 msgid "If you use an outside driver for sending text messages set with the :ref:`SMSSendDriver` preference, you will see an additional column to receive these messages as SMS (or text messages) and a field for a cell (or SMS) number."
-msgstr ""
-"Verwenden Sie einen anderen Versandtreiber um Textnachrichten zu verschicken "
-"aktivieren Sie den Systemparameter :ref:`SMSSendDriver` und Sie bekommen "
-"eine zusätzliche Spalte angezeigt, um diese Benachrichtigungen als SMS (oder "
-"Textnachricht) zu erhalten und es wird ein Feld für eine Mobil- bzw. SMS-"
-"Nummer angezeigt."
+msgstr "Verwenden Sie einen anderen Versandtreiber um Textnachrichten zu verschicken aktivieren Sie den Systemparameter :ref:`SMSSendDriver` und Sie bekommen eine zusätzliche Spalte angezeigt, um diese Benachrichtigungen als SMS (oder Textnachricht) zu erhalten und es wird ein Feld für eine Mobil- bzw. SMS-Nummer angezeigt."
 
 #: ../../source/opac.rst:1105
 msgid "|image1028|"
@@ -1338,13 +1396,7 @@ msgstr "|image1028|"
 
 #: ../../source/opac.rst:1107
 msgid "If you are using the Email protocol for sending text messages set with the :ref:`SMSSendDriver` preference, you will see an additional column to receive these messages as SMS (or text messages), a field for a cell (or SMS) number, and a pull down listing :ref:`cellular providers entered in administration <sms-cellular-providers-label>`."
-msgstr ""
-"Benutzen Sie das E-Mail-Protokoll um Textnachrichten zu versenden, bekommen "
-"Sie mit dem Setzen des Systemparameters :ref:`SMSSendDriver` eine "
-"zusätzliche Spalte angezeigt, um diese Nachrichten als SMS (oder "
-"Textnachrichten) zu erhalten, ein Feld für eine Mobil- oder SMS-Nummer und "
-"eine Auswahlliste mit :ref:`Mobilfunkanbietern <sms-cellular-providers-"
-"label>`, die im Administrationsmodul konfiguriert wurden, zu erhalten. "
+msgstr "Benutzen Sie das E-Mail-Protokoll um Textnachrichten zu versenden, bekommen Sie mit dem Setzen des Systemparameters :ref:`SMSSendDriver` eine zusätzliche Spalte angezeigt, um diese Nachrichten als SMS (oder Textnachrichten) zu erhalten, ein Feld für eine Mobil- oder SMS-Nummer und eine Auswahlliste mit :ref:`Mobilfunkanbietern <sms-cellular-providers-label>`, die im Administrationsmodul konfiguriert wurden, zu erhalten. "
 
 #: ../../source/opac.rst:1113
 msgid "|image1029|"
@@ -1436,12 +1488,7 @@ msgstr "Ihre Umlauflisten"
 
 #: ../../source/opac.rst:1184
 msgid "If you are named as a recipient on any :ref:`serial routing lists <create-a-routing-list-label>` you will see them listed here. The following note is displayed \"You are subscribed to the routing lists for following serial titles. If you wish to make changes, please contact the library\"."
-msgstr ""
-"Wenn Sie als Empfänger auf einer der :ref:`Zeitschriftenumlauflisten "
-"<create-a-routing-list-label>` stehen, werden Sie hier eine Übersicht sehen. "
-"Es wird ein Hinweis angezeigt: \"Sie stehen auf den Umlauflisten für die "
-"folgenden Zeitschriftentitel. Wenn Sie Änderungen vornehmen möchten, "
-"sprechen Sie bitte das Bibliothekspersonal an\"."
+msgstr "Wenn Sie als Empfänger auf einer der :ref:`Zeitschriftenumlauflisten <create-a-routing-list-label>` stehen, werden Sie hier eine Übersicht sehen. Es wird ein Hinweis angezeigt: \"Sie stehen auf den Umlauflisten für die folgenden Zeitschriftentitel. Wenn Sie Änderungen vornehmen möchten, sprechen Sie bitte das Bibliothekspersonal an\"."
 
 #: ../../source/opac.rst:1193
 msgid "Your interlibrary loan requests"
@@ -1457,7 +1504,7 @@ msgstr "|image1373|"
 
 #: ../../source/opac.rst:1201
 msgid "To place a new interlibrary loan request click on ‘Create a new request’ and choose a request form."
-msgstr "Um eine Fernleihanfrage zu machen, klicken Sie auf 'Neue Bestellung' und wählen Sie ein Bestellformat aus."
+msgstr "Um eine Fernleihbestellung anzulegen, klicken Sie auf \"Neue Bestellung\" und wählen Sie ein Bestellformat aus."
 
 #: ../../source/opac.rst:1204
 msgid "|image1374|"
@@ -1465,10 +1512,7 @@ msgstr "|image1374|"
 
 #: ../../source/opac.rst:1208
 msgid "The options displayed are dependent on your ILL configuration.  See the ILL backends wiki page at https://wiki.koha-community.org/wiki/ILL_backends further explanation."
-msgstr ""
-"Die angezeigten Optionen hängen von Ihrer Fernleihkonfiguration ab. Weitere "
-"Informationen finden Sie auf der Wiki-Seite https://wiki.koha-"
-"community.org/wiki/ILL_backends."
+msgstr "Die angezeigten Optionen hängen von Ihrer Fernleihkonfiguration ab. Weitere Informationen finden Sie auf der Wiki-Seite https://wiki.koha-community.org/wiki/ILL_backends."
 
 #: ../../source/opac.rst:1214
 msgid "If you have entered copyright text in the :ref:`ILLModuleCopyrightClearance` preference the text displays here and you need to click ‘Yes’ to accept before continuing."
@@ -1512,11 +1556,7 @@ msgstr "Hat Ihre Bibliothek den Systemparameter :ref:`suggestion` auf 'Erlaube' 
 
 #: ../../source/opac.rst:1249
 msgid "If you are allowing everyone to see the purchase suggestions made by others with the :ref:`OPACViewOthersSuggestions` preference, then there will be a link at the top of your OPAC under the search box."
-msgstr ""
-"Wenn Sie über den Systemparameter :ref:`OPACViewOthersSuggestions` erlauben, "
-"dass jeder Benutzer die Anschaffungsvorschläge von anderen Benutzern sehen "
-"darf, wird ein Link 'Anschaffungsvorschläge' unterhalb der Suchleiste "
-"angezeigt. "
+msgstr "Wenn Sie über den Systemparameter :ref:`OPACViewOthersSuggestions` erlauben, dass jeder Benutzer die Anschaffungsvorschläge von anderen Benutzern sehen darf, wird ein Link 'Anschaffungsvorschläge' unterhalb der Suchleiste angezeigt. "
 
 #: ../../source/opac.rst:1254
 msgid "|image1033|"
@@ -1556,11 +1596,20 @@ msgstr "Die Liste der Medientypen kann durch SUGGEST\\_FORMAT :ref:`Normierte We
 
 #: ../../source/opac.rst:1274
 msgid "If you would like the 'Reason for suggestion' menu shown in the screenshot above to appear on your suggestions list you need to add an :ref:`authorized value <authorized-values-label>` category titled 'OPAC\\_SUG' and include reasons as values in that list."
-msgstr "Wenn Sie möchten, dass das Menü für den 'Grund für den Anschaffungsvorschlag' in Ihrer Liste der Anschaffungsvorschläge angezeigt wird, müssen Sie einen normierten Wert :ref:`Normierte Werte <authorized-values-label>` category titled 'OPAC\\_SUG' hinzufügen und den Grund als Wert in dieser Liste hinterlegen."
+msgstr ""
+"Wenn Sie möchten, dass das Menü für den 'Grund für den "
+"Anschaffungsvorschlag' in Ihrer Liste der Anschaffungsvorschläge angezeigt "
+"wird, müssen Sie einen :ref:`Normierte Werte <authorized-values-label>` der "
+"Kategorie 'OPAC\\_SUG' hinzufügen und den Grund als Wert in dieser Liste "
+"hinterlegen."
 
 #: ../../source/opac.rst:1279
 msgid "If you would like the patron to be able to choose which branch they are making a suggestion for you need to set the :ref:`AllowPurchaseSuggestionBranchChoice` preference to 'Allow'"
-msgstr "Wenn Sie möchten, dass der Benutzer beim Erstellen eines Anschaffungsvorschlages die Bibliothek angibt, müssen Sie den Systemparameter:ref:`AllowPurchaseSuggestionBranchChoice` auf 'Erlaube' setzen."
+msgstr ""
+"Wenn Sie möchten, dass der Benutzer beim Erstellen eines "
+"Anschaffungsvorschlages die Bibliothek angibt, müssen Sie den "
+"Systemparameter :ref:`AllowPurchaseSuggestionBranchChoice` auf 'Erlaube' "
+"setzen."
 
 #: ../../source/opac.rst:1284
 msgid "Once the form is submitted the data will be saved to the :ref:`Acquisitions <managing-purchase-suggestions-label>` module for the librarians to manage."

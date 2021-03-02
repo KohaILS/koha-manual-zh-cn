@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-10-15 10:15+0000\n"
-"Last-Translator: Sonia B <sonia.bouis@univ-lyon3.fr>\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-01-27 10:21+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1602756901.181842\n"
+"X-POOTLE-MTIME: 1611742914.707057\n"
 "X-Pootle-Path: /fr/man18.05/acquisitions.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -484,7 +484,6 @@ msgid "You can also add to an existing basket by clicking the arrow next to the 
 msgstr "Pour vous pouvez aussi en ajouter à un panier déjà existant en cliquant sur le lien bleu 'Ajouter au panier' situé tout à droite du tableau."
 
 #: ../../source/acquisitions.rst:346
-#, fuzzy
 msgid "|image1406|"
 msgstr "|image1406|"
 
@@ -549,7 +548,6 @@ msgid "Once your basket is created, click on 'Add to basket' you are presented w
 msgstr "Une fois votre panier créé, des options d'ajout d'exemplaires au panier vous sont proposées."
 
 #: ../../source/acquisitions.rst:388
-#, fuzzy
 msgid "|image1407|"
 msgstr "|image1407|"
 
@@ -576,7 +574,6 @@ msgid "From the record's detailed view, you can click on the 'Add order' button.
 msgstr ""
 
 #: ../../source/acquisitions.rst:403
-#, fuzzy
 msgid "|image1451|"
 msgstr "|image1451|"
 
@@ -687,9 +684,13 @@ msgid "You will be presented with an empty form to fill in all of the necessary 
 msgstr "Vous serez amené à un formulaire vide à remplir avec toutes les informations sur l'exemplaire que vous commandez."
 
 #: ../../source/acquisitions.rst:488
-#, fuzzy
 msgid "If the default form does not have catalog details fields necessary to place an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference which will allow the ACQ :ref:`MARC framework <marc-bibliographic-frameworks-label>` to customize the display of fields when ordering."
-msgstr "Si le formulaire par défaut n'a pas les champs de détails du catalogue nécessaires pour passer une commande, activez la préférence : ref: `UseACQFrameworkForBiblioRecords` qui permettra au à la grille ACQ MARC de personnaliser l'affichage des champs lors de la commande."
+msgstr ""
+"Si le formulaire par défaut n'a pas les champs de détails du catalogue "
+"nécessaires pour passer une commande, activez la préférence : ref: "
+"`UseACQFrameworkForBiblioRecords` qui permettra à la :ref:'grille MARC ACQ "
+"<marc-bibliographic-frameworks-label>' de personnaliser l'affichage des "
+"champs lors de la commande."
 
 #: ../../source/acquisitions.rst:496
 msgid "Duplicate orders (order from existing orders)"
@@ -705,7 +706,6 @@ msgid "You will be presented with a search form to search your existing orders."
 msgstr "Vous serez amené à un formulaire vide à remplir avec toutes les informations sur l'exemplaire que vous commandez."
 
 #: ../../source/acquisitions.rst:503
-#, fuzzy
 msgid "|image1408|"
 msgstr "|image1408|"
 
@@ -715,7 +715,6 @@ msgid "Check the boxes next to the order(s) you want to duplicate."
 msgstr "Dans les résultats, cliquez le lien 'Commander' à côté du document que vous voulez acheter."
 
 #: ../../source/acquisitions.rst:507
-#, fuzzy
 msgid "|image1409|"
 msgstr "|image1409|"
 
@@ -784,7 +783,6 @@ msgid "Once the files are staged, you can click on the 'Add staged files to bask
 msgstr ""
 
 #: ../../source/acquisitions.rst:561
-#, fuzzy
 msgid "|image1410|"
 msgstr "|image1410|"
 
@@ -872,7 +870,6 @@ msgid "In the window that pops up search for the patrons you'd like to notify an
 msgstr "Dans la nouvelle fenêtre, recherchez les adhérents auxquels vous voulez envoyer des notifications et cliquez sur \"Sélectionner\""
 
 #: ../../source/acquisitions.rst:654
-#, fuzzy
 msgid "|image1411|"
 msgstr "|image1411|"
 
@@ -906,7 +903,6 @@ msgid "If you are ordering several items, you can click on the 'Add multiple ite
 msgstr ""
 
 #: ../../source/acquisitions.rst:679
-#, fuzzy
 msgid "|image1412|"
 msgstr "|image1412|"
 
@@ -967,17 +963,11 @@ msgstr ""
 
 #: ../../source/acquisitions.rst:725
 msgid "Budgeted cost is the amount that will be removed from the 'spent' budget. Whether this number includes or excludes taxes will depend on the 'List price' setting for your :ref:`vendor <vendors-label>`."
-msgstr ""
-"Le prix budgété est le montant qui sera retiré dans la colonne \"dépensée\" "
-"du tableau des budgets. Le fait que ce prix soit TTC ou HT dépend de ce qui "
-"est défini dans le paramètre \"Le prix par exemplaire sur le catalogue du "
-"fournisseur comprend la TVA\" dans la fiche fournisseur :ref:`vendor "
-"<vendors-label>`."
+msgstr "Le prix budgété est le montant qui sera retiré dans la colonne \"dépensée\" du tableau des budgets. Le fait que ce prix soit TTC ou HT dépend de ce qui est défini dans le paramètre \"Le prix par exemplaire sur le catalogue du fournisseur comprend la TVA\" dans la fiche fournisseur :ref:`vendor <vendors-label>`."
 
 #: ../../source/acquisitions.rst:729
 msgid "Total is the budgeted cost multiplied by the quantity of items ordered."
-msgstr ""
-"Le total est le coût budgété multiplié par le nombre d'exemplaires commandés."
+msgstr "Le total est le coût budgété multiplié par le nombre d'exemplaires commandés."
 
 #: ../../source/acquisitions.rst:731
 msgid "You can add an internal note. This will only appear in the acquisitions module and in the staff interface catalog, under the 'Acquisitions details' tab in the detailed record."
@@ -1051,7 +1041,6 @@ msgid "Delete this basket: if the basket is empty, you will get a simple confirm
 msgstr ""
 
 #: ../../source/acquisitions.rst:781
-#, fuzzy
 msgid "|image1413|"
 msgstr "|image1413|"
 
@@ -1157,7 +1146,6 @@ msgid "To create a basket group, go to the vendor detail page and click on the '
 msgstr ""
 
 #: ../../source/acquisitions.rst:875
-#, fuzzy
 msgid "|image1414|"
 msgstr "|image1414|"
 
@@ -1166,7 +1154,6 @@ msgid "Click on the 'New basket group' button."
 msgstr ""
 
 #: ../../source/acquisitions.rst:879
-#, fuzzy
 msgid "|image1415|"
 msgstr "|image1415|"
 
@@ -1195,7 +1182,6 @@ msgid "Drag the ungrouped baskets to the 'Baskets in this group' box to add bask
 msgstr ""
 
 #: ../../source/acquisitions.rst:894
-#, fuzzy
 msgid "|image1416|"
 msgstr "|image1416|"
 
@@ -1255,12 +1241,10 @@ msgid "If you have a lot of orders, you can filter the orders using the 'Filter'
 msgstr ""
 
 #: ../../source/acquisitions.rst:938
-#, fuzzy
 msgid "|image1417|"
 msgstr "|image1417|"
 
 #: ../../source/acquisitions.rst:940
-#, fuzzy
 msgid "|image1418|"
 msgstr "|image1418|"
 
@@ -1289,7 +1273,6 @@ msgid "If you chose to create your item when placing the order, you will have yo
 msgstr ""
 
 #: ../../source/acquisitions.rst:961
-#, fuzzy
 msgid "|image1419|"
 msgstr "|image1419|"
 
@@ -1317,7 +1300,6 @@ msgid "If you chose to create your item when receiving the order, you will see t
 msgstr ""
 
 #: ../../source/acquisitions.rst:985
-#, fuzzy
 msgid "|image1420|"
 msgstr "|image1420|"
 
@@ -1372,12 +1354,10 @@ msgid "**Note** When all the orders in a basket have been received, the basket w
 msgstr ""
 
 #: ../../source/acquisitions.rst:1032
-#, fuzzy
 msgid "|image1421|"
 msgstr "|image1421|"
 
 #: ../../source/acquisitions.rst:1034
-#, fuzzy
 msgid "|image1422|"
 msgstr "|image1422|"
 
@@ -1478,7 +1458,6 @@ msgid "In the Adjustments section, you can add adjustments to your invoices. The
 msgstr ""
 
 #: ../../source/acquisitions.rst:1121
-#, fuzzy
 msgid "|image1371|"
 msgstr "|image1371|"
 
@@ -1519,7 +1498,6 @@ msgid "If you need to change the adjustment afterwards, you can do so in the tab
 msgstr ""
 
 #: ../../source/acquisitions.rst:1147
-#, fuzzy
 msgid "|image1372|"
 msgstr "|image1372|"
 

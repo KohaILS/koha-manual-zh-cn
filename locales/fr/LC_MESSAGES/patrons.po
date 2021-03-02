@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-09-30 11:43+0000\n"
-"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-02-10 12:47+0000\n"
+"Last-Translator: SevQ <severine.queune@bulac.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/patrons.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1601466188.009363\n"
+"X-POOTLE-MTIME: 1612961246.549063\n"
 
 #: ../../source/patrons.rst:6
 msgid "Patrons"
@@ -599,7 +599,6 @@ msgid "When renewing a patron account you can either edit the the expiry date ma
 msgstr ""
 
 #: ../../source/patrons.rst:454
-#, fuzzy
 msgid "|image1393|"
 msgstr "|image1393|"
 
@@ -616,7 +615,6 @@ msgid "The renewal date of the patron account will be visible on the details tab
 msgstr ""
 
 #: ../../source/patrons.rst:469
-#, fuzzy
 msgid "|image1392|"
 msgstr "|image1392|"
 
@@ -630,7 +628,6 @@ msgid "From the more drop-down, the patron account can be deleted. There will be
 msgstr ""
 
 #: ../../source/patrons.rst:483
-#, fuzzy
 msgid "|image1406|"
 msgstr "|image1406|"
 
@@ -675,9 +672,10 @@ msgid "If you accidentally end up with one patron with two cards it is possible 
 msgstr "Si vous vous retrouvez accidentellement avec un adhérent avec deux cartes, il est possible de fusionner leurs fiches afin de ne pas perdre leur historique de prêt ou leurs réservations."
 
 #: ../../source/patrons.rst:526
-#, fuzzy
 msgid "In the patron list, check the boxes next to the records you want to merge and click on the 'Merge selected patrons' button."
-msgstr "Cochez les notices que vous voulez supprimer et cliquez sur \"Supprimer les notices sélectionnées\" pour finaliser le processus."
+msgstr ""
+"Dans la liste des adhérents, cochez les fiches que vous voulez fusionner et "
+"cliquez sur \"Fusionner les adhérents sélectionnés\"."
 
 #: ../../source/patrons.rst:529
 msgid "|image1326|"
@@ -2206,7 +2204,6 @@ msgid "All patron information will appear in the Details tab. This includes all 
 msgstr "Toutes les informations des adhérents apparaissent dans l'onglet Détails. Celui-ci inclut les coordonnées, des notes, attributs et identifiants de l'adhérent, préférences de messagerie, etc remplis lors de l'ajout de l'adhérent."
 
 #: ../../source/patrons.rst:1398
-#, fuzzy
 msgid "|image1359|"
 msgstr "|image1359|"
 
@@ -2238,7 +2235,6 @@ msgid "If the age of the patron is outside the age range defined in their patron
 msgstr "Dans le cas où les adhérents sont 'Enfant' ou 'Professionnel', leurs garants associés apparaissent sur la fiche adhérent."
 
 #: ../../source/patrons.rst:1417
-#, fuzzy
 msgid "|image1461|"
 msgstr "|image1461|"
 
@@ -2291,7 +2287,6 @@ msgid "If the patron does owe money to the library, the tab will show the total 
 msgstr ""
 
 #: ../../source/patrons.rst:1450
-#, fuzzy
 msgid "|image1360|"
 msgstr "|image1360|"
 
@@ -2304,7 +2299,6 @@ msgid "If the patron has holds, the number of holds will appear on this tab's ti
 msgstr ""
 
 #: ../../source/patrons.rst:1458
-#, fuzzy
 msgid "|image490|"
 msgstr "|image490|"
 
@@ -2337,7 +2331,6 @@ msgid "The details of the patron's request, and its status, are visible in this 
 msgstr ""
 
 #: ../../source/patrons.rst:1493
-#, fuzzy
 msgid "|image1361|"
 msgstr "|image1361|"
 
@@ -2400,10 +2393,7 @@ msgstr "La suspension manuelle peut être paramétrée automatiquement dans le :
 
 #: ../../source/patrons.rst:1524
 msgid "This restriction will not be removed automatically when the overdue items are returned unless the :ref:`AutoRemoveOverduesRestrictions` system preference is set to 'Do'."
-msgstr ""
-"Cette suspension ne sera levée automatiquement au retour des documents en "
-"retard que si la préférence système :ref:`AutoRemoveOverduesRestrictions` "
-"est paramétrée sur \"Permettre\"."
+msgstr "Cette suspension ne sera levée automatiquement au retour des documents en retard que si la préférence système :ref:`AutoRemoveOverduesRestrictions` est paramétrée sur \"Permettre\"."
 
 #: ../../source/patrons.rst:1528
 msgid "In the :ref:`circulation rules <circulation-and-fines-rules-label>`, you can choose to fine users by suspending them instead of (or in addition to) fining them money. In that case, returning an overdue document will trigger a suspension restriction."
@@ -2418,7 +2408,6 @@ msgid "Restrictions on a patron record will block checkouts. In fact, a message 
 msgstr ""
 
 #: ../../source/patrons.rst:1537
-#, fuzzy
 msgid "|image1363|"
 msgstr "|image1363|"
 
@@ -2471,7 +2460,6 @@ msgid "If you use :ref:`patron clubs <patron-clubs-label>`, patrons will have a 
 msgstr ""
 
 #: ../../source/patrons.rst:1577
-#, fuzzy
 msgid "|image1362|"
 msgstr "|image1362|"
 
@@ -2617,7 +2605,6 @@ msgid "If one or more values are defined under the PAYMENT\\_TYPE authorized val
 msgstr ""
 
 #: ../../source/patrons.rst:1679
-#, fuzzy
 msgid "|image1501|"
 msgstr "|image1501|"
 
@@ -3117,7 +3104,6 @@ msgid "If you have enabled the housebound module, with the :ref:`HouseboundModul
 msgstr "Si vous avez activé le module Public empêché, avec la préférence système :ref:`HouseboundModule`, vous verrez que les adhérents ont maintenant une nouvelle section dans leur fiche, appelée \" Rôles empêchés \"."
 
 #: ../../source/patrons.rst:2051
-#, fuzzy
 msgid "|image1349|"
 msgstr "|image1349|"
 
@@ -3126,7 +3112,6 @@ msgid "Click the 'Add' button to mark this patron as a 'Chooser'."
 msgstr ""
 
 #: ../../source/patrons.rst:2056
-#, fuzzy
 msgid "|image1350|"
 msgstr "|image1350|"
 
@@ -3143,7 +3128,6 @@ msgid "In the 'Housebound roles', click the 'Add' button to mark this patron as 
 msgstr ""
 
 #: ../../source/patrons.rst:2069
-#, fuzzy
 msgid "|image1351|"
 msgstr "|image1351|"
 
@@ -3160,7 +3144,6 @@ msgid "To create a housebound profile for an housebound patron, click on the 'Ho
 msgstr ""
 
 #: ../../source/patrons.rst:2082
-#, fuzzy
 msgid "|image1347|"
 msgstr "|image1347|"
 
@@ -3169,7 +3152,6 @@ msgid "From there, you can edit their housebound profile information."
 msgstr ""
 
 #: ../../source/patrons.rst:2086
-#, fuzzy
 msgid "|image1348|"
 msgstr "|image1348|"
 
@@ -3235,7 +3217,6 @@ msgid "In their housebound tab, you will be able to create deliveries."
 msgstr ""
 
 #: ../../source/patrons.rst:2132
-#, fuzzy
 msgid "|image1352|"
 msgstr "|image1352|"
 
@@ -3244,7 +3225,6 @@ msgid "Click on 'Add a new delivery'."
 msgstr ""
 
 #: ../../source/patrons.rst:2136
-#, fuzzy
 msgid "|image1353|"
 msgstr "|image1353|"
 
@@ -3270,7 +3250,6 @@ msgid "Deliverer: Select a deliverer who will be in charge of picking up the mat
 msgstr ""
 
 #: ../../source/patrons.rst:2152
-#, fuzzy
 msgid "|image1354|"
 msgstr "|image1354|"
 

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-06-04 09:53+0000\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-01-21 09:10+0000\n"
 "Last-Translator: Frank Chou <frank@sris.com.tw>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1591264397.950227\n"
+"X-POOTLE-MTIME: 1611220243.571113\n"
 "X-Pootle-Path: /zh_TW/man18.05/acquisitions.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -532,7 +532,6 @@ msgid "If you are ordering another copy of an existing item, you can simply sear
 msgstr "訂購館藏的複本時，祗需搜尋系統的紀錄。"
 
 #: ../../source/acquisitions.rst:396
-#, fuzzy
 msgid "From the results, you can click 'Add order' to be brought to the order form."
 msgstr "從結果裡，點選 '訂單' 就能進入訂單表格。"
 
@@ -541,19 +540,16 @@ msgid "|image809|"
 msgstr "|image809|"
 
 #: ../../source/acquisitions.rst:401
-#, fuzzy
 msgid "From the record's detailed view, you can click on the 'Add order' button."
 msgstr "檔案已列入待處理後，就可點選 '新增待處理檔案至採購籃' 鈕。"
 
 #: ../../source/acquisitions.rst:403
-#, fuzzy
 msgid "|image1451|"
 msgstr "|image1451|"
 
 #: ../../source/acquisitions.rst:405
-#, fuzzy
 msgid "You will be brought to the order form"
-msgstr "從結果裡，點選 '訂單' 就能進入訂單表格。"
+msgstr "您將會帶出訂單表格。"
 
 #: ../../source/acquisitions.rst:407
 msgid "|image810|"
@@ -744,9 +740,10 @@ msgid "|image1410|"
 msgstr "|image1410|"
 
 #: ../../source/acquisitions.rst:563 ../../source/acquisitions.rst:605
-#, fuzzy
 msgid "Next to each title is a checkbox, check the items you would like to order, or choose 'Select all' at the top. Depending on your settings in the :ref:`MarcFieldsToOrder` preference, Koha will populate the next screen with with the relevant Quantity, Price, Fund, Statistic 1, and Statistic 2 found within the staged file."
-msgstr "在提名之下是勾選盒，勾選要訂購的館藏，或選擇上方的 '全選'。依照 :ref:`MarcFieldsToOrder` 偏好的設定，Koha 的下個畫面顯示、數量、單價、基金、統計 1 與統計 2 於待處理檔案中。"
+msgstr ""
+"在每個題名之旁是勾選盒，勾選要訂購的館藏，或選擇上方的 '全選'。依照 :ref:`MarcFieldsToOrder` 偏好的設定，Koha "
+"的下個畫面顯示、相關的數量、單價、基金、統計 1 與統計 2 於待處理檔案中。"
 
 #: ../../source/acquisitions.rst:570 ../../source/acquisitions.rst:612
 msgid "|image1282|"
@@ -785,7 +782,6 @@ msgid "|image822|"
 msgstr "|image822|"
 
 #: ../../source/acquisitions.rst:600
-#, fuzzy
 msgid "From the list of files you are presented with, click on the 'Add orders' button to add the records in the staged file to your order."
 msgstr "從檔案清單裡，您可選擇 '新增訂單' 連結，將待處理檔案裡的記錄加入訂單。"
 
@@ -794,18 +790,16 @@ msgid "|image1281|"
 msgstr "|image1281|"
 
 #: ../../source/acquisitions.rst:630
-#, fuzzy
 msgid "Order from titles with highest hold ratios"
-msgstr "訂單的最後一個選項是到館比率最高的清單"
+msgstr "訂單從預約率最高的書籍來"
 
 #: ../../source/acquisitions.rst:632
 msgid "The final option for ordering is to order from a list of titles with the highest hold ratios"
 msgstr "訂單的最後一個選項是到館比率最高的清單"
 
 #: ../../source/acquisitions.rst:635
-#, fuzzy
 msgid "This option will take you to the holds ratio report where you can find items with a high hold ratio and order additional copies. Next to each title will be a button with the number of items to order, click that and it will add the item to your basket."
-msgstr "此選項可進入預約比率報表，藉此找出預約率高的館藏以採購複本。每個題名旁有個連結表示採購的館藏量，點選後可新增採購籃的館藏量。"
+msgstr "此選項可進入預約比率報表，藉此找出預約率高的館藏以採購額外的複本。每個題名旁有個連結表示採購的館藏量，點選後可新增採購籃的館藏量。"
 
 #: ../../source/acquisitions.rst:640
 msgid "|image1285|"
@@ -820,12 +814,10 @@ msgid "Patron notification search"
 msgstr "搜尋讀者通知"
 
 #: ../../source/acquisitions.rst:651
-#, fuzzy
 msgid "In the window that pops up search for the patrons you'd like to notify and click 'Add'"
-msgstr "在彈出的視窗搜尋欲告知的讀者再點選 '選擇'"
+msgstr "在彈出的視窗搜尋欲告知的讀者再點選 '新增'"
 
 #: ../../source/acquisitions.rst:654
-#, fuzzy
 msgid "|image1411|"
 msgstr "|image1411|"
 
@@ -838,7 +830,6 @@ msgid "|image1286|"
 msgstr "|image1286|"
 
 #: ../../source/acquisitions.rst:661
-#, fuzzy
 msgid "After bringing in the record information (for all order methods except for the staged files), if your :ref:`AcqCreateItem` system preference is set to add an item when ordering you will enter the item information next. You need to fill out at least one item record and then click the 'Add item' button at the bottom left of the item form."
 msgstr "進入書目資訊後 (除了待處理檔案外的所有匯入方法)，若已將 :ref:`AcqCreateItem` 系統偏好設為訂購後新增館藏則可接著鍵入館藏資訊。至少需鍵入一筆館藏紀錄再勾選館藏表單左下方的 '新增' 鈕。"
 
@@ -856,10 +847,9 @@ msgstr "|image824|"
 
 #: ../../source/acquisitions.rst:675
 msgid "If you are ordering several items, you can click on the 'Add multiple items' instead of adding them one by one. This will ask you how many items you want to add. Simply enter that number in the box and click on 'Add'."
-msgstr ""
+msgstr "如果您訂了數項館藏，您可點選「新增多項館藏」而不用一項一項新增。系統會詢問您有多少館藏要新增。簡單地在空白欄中填入數字並按「新增」。"
 
 #: ../../source/acquisitions.rst:679
-#, fuzzy
 msgid "|image1412|"
 msgstr "|image1412|"
 
@@ -876,18 +866,18 @@ msgid "Quantity is populated by the number of items you've added to the order ab
 msgstr "新增至以上訂閱的館藏數量。"
 
 #: ../../source/acquisitions.rst:691
-#, fuzzy
 msgid "If the item is created upon orderinf, you will not be able to edit the quantity manually, you must click 'Add item' below the item form to add as many items as you're ordering."
-msgstr "不能手動編輯數量，必須按館藏表單下方的 '新增' 鈕，逐一新增採購的館藏。"
+msgstr "如果館藏根據訂單資訊新增，您無法手動編輯數量，您必須點擊館藏表單下方的 '新增' 鈕，逐一新增採購的館藏。"
 
 #: ../../source/acquisitions.rst:695
 msgid "The list of funds is populated by the :ref:`funds <funds-label>` you have assigned in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
 msgstr "基金清單由 :ref:`基金 <funds-label>` 您指定在 :ref:`採訪管理 <acquisitions-module-label>` 區塊。"
 
 #: ../../source/acquisitions.rst:698
-#, fuzzy
 msgid "The currency pull down will have the :ref:`currencies <currencies-and-exchange-rates-label>` you set up in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
-msgstr "幣別下拉選單將有 :ref:`幣別 <currencies-and-exchange-rates-label>` 設定於 :ref:`採訪管理 <acquisitions-label>` 區塊。"
+msgstr ""
+"幣別下拉選單有 :ref:`幣別 <currencies-and-exchange-rates-label>` 設定於 :ref:`採訪管理 "
+"<acquisitions-module-label>` 區塊。"
 
 #: ../../source/acquisitions.rst:702
 msgid "The vendor price is the price before any taxes or discounts are applied."
@@ -903,7 +893,7 @@ msgstr "無法關閉包括未確定價格的採購項目。"
 
 #: ../../source/acquisitions.rst:711
 msgid "If you are charged sales tax, choose that from the 'Tax rate' field. This field is populated by the :ref:`gist system preference <gist-label>`."
-msgstr ""
+msgstr "如困您收取營業稅，請從'稅率'欄位選擇。此欄位由 :ref:`gist system preference <gist-label>`填入."
 
 #: ../../source/acquisitions.rst:714
 msgid "Enter the percentage discount you're receiving on this order, once you enter this, hit tab and Koha will populate the rest of the cost fields below."
@@ -916,10 +906,12 @@ msgstr "零售價其實是建議零售價，出版社或印刷廠給書店的建
 #: ../../source/acquisitions.rst:721
 msgid "Replacement cost is the price it will cost to replace the item. This is the price charged to the user when an item is declared lost (if the :ref:`WhenLostChargeReplacementFee` system preference is set to 'Charge')."
 msgstr ""
+"置換費用是去置換館藏所花費的費用。當館藏被宣稱遺失（如果 :ref:`WhenLostChargeReplacementFee` 系統偏好被設定成 "
+"'收取')"
 
 #: ../../source/acquisitions.rst:725
 msgid "Budgeted cost is the amount that will be removed from the 'spent' budget. Whether this number includes or excludes taxes will depend on the 'List price' setting for your :ref:`vendor <vendors-label>`."
-msgstr ""
+msgstr "預算成本是將從“已用”預算中刪除的金額。此數字是否包含稅款取決於您的 :ref:`供應商<vendors-label>`的“標價”設置。"
 
 #: ../../source/acquisitions.rst:729
 msgid "Total is the budgeted cost multiplied by the quantity of items ordered."
@@ -927,14 +919,13 @@ msgstr "總額是預算成本乘以訂購的館藏數量。"
 
 #: ../../source/acquisitions.rst:731
 msgid "You can add an internal note. This will only appear in the acquisitions module and in the staff interface catalog, under the 'Acquisitions details' tab in the detailed record."
-msgstr ""
+msgstr "您可加入內部註記。這只會出現在採訪模組以及館員介面目錄。在詳細書目「採訪詳情」頁籤。"
 
 #: ../../source/acquisitions.rst:735
 msgid "You can also add a vendor note. This will appear in the acquisitions module as well as on the order when exported as CSV."
-msgstr ""
+msgstr "您同樣可新增供應商註註。此註記出現於採訪模組和匯出csv訂單時"
 
 #: ../../source/acquisitions.rst:738
-#, fuzzy
 msgid "If you added statistical categories when :ref:`creating the Fund <add-a-fund-label>`, those values will appear in the two statistics fields."
 msgstr "於 :ref:`新增基金 <add-a-fund-label>` 加入計畫值時，這些值將顯示在兩個計畫值欄位內。"
 
@@ -963,12 +954,10 @@ msgid "From here, you can edit or remove the items that you have added."
 msgstr "從此，您可編輯或移除曾經加入的館藏。"
 
 #: ../../source/acquisitions.rst:758
-#, fuzzy
 msgid "Choosing to 'Cancel the order' will delete the order line but leave the record in the catalog."
 msgstr "選擇 '刪除訂單' 將刪除訂單但保留目錄裡的紀錄。"
 
 #: ../../source/acquisitions.rst:761
-#, fuzzy
 msgid "Choosing to 'Cancel order and delete catalog record' removes both the order line and the record in the catalog."
 msgstr "選擇 '刪除採購與書目記錄' 移除採購與書目記錄。"
 
@@ -982,7 +971,7 @@ msgstr "|image829|"
 
 #: ../../source/acquisitions.rst:769
 msgid "On the summary page, you also have the several option through the buttons at the top of the basket header."
-msgstr ""
+msgstr "在摘要頁面，在採購籃標頭，您有幾個選項。"
 
 #: ../../source/acquisitions.rst:772
 msgid "|image830|"
@@ -990,36 +979,37 @@ msgstr "|image830|"
 
 #: ../../source/acquisitions.rst:774
 msgid "Edit basket: edit the basket information, such as the name or the billing place."
-msgstr ""
+msgstr "編輯採購籃: 編輯採購籃資訊，像是名稱或是收費地址。"
 
 #: ../../source/acquisitions.rst:777
 msgid "Delete this basket: if the basket is empty, you will get a simple confirmation message before deleting the basket. If the basket contains orders, you will get a confirmation message with several options."
-msgstr ""
+msgstr "刪除此採購籃： 如果採購籃是空的， 您將取得一則簡單的確認訊息在刪除採購籃之前。如果採購籃有訂單，您可取得確認訊息以及數個選項。"
 
 #: ../../source/acquisitions.rst:781
-#, fuzzy
 msgid "|image1413|"
 msgstr "|image1413|"
 
 #: ../../source/acquisitions.rst:783
 msgid "Delete basket and orders: this will delete the basket, cancel the orders, refund the used funds, and delete the items (ordered or received)."
-msgstr ""
+msgstr "刪除採購籃及訂單：會刪除採購籃，刪除訂單， 退回經費以及刪除館藏（已訂或收到的）"
 
 #: ../../source/acquisitions.rst:786
 msgid "Delete basket, orders, and records: this will delete all of the above plus the bibliographic records associated with the orders (except the ones which can't be deleted because they have remaining items, orders or subscriptions attached)."
-msgstr ""
+msgstr "刪除採購籃、訂單及書目: 此會刪除包含書目的訂單資料 (一些無法被刪除是因為他們剩餘館藏、訂單或附加訂單)"
 
 #: ../../source/acquisitions.rst:791
 msgid "Close this basket: closing the basket will enable you to add it to a basket group (this is optional) and receive its items."
-msgstr ""
+msgstr "關閉此採購籃: 關掉後您可新增至採購群組(此為選項)以及取得它的項目。"
 
 #: ../../source/acquisitions.rst:794
 msgid "Export as CSV: this will create a CSV file with all your orders from this basket. You can add several CSV profiles options by going to the :ref:`CSV profiles tool <csv-profiles-label>`."
 msgstr ""
+"匯出csv: 這會從採購籃中您所有的訂單新增csv檔案。您可新增數個csv資料選項藉由 :ref:`CSV 資料工具 <csv-profiles-"
+"label>`."
 
 #: ../../source/acquisitions.rst:798
 msgid "E-mail order: this will send the order information to your contact for this vendor. Make sure your contact has a email address in the :ref:`vendor profile <vendors-label>`."
-msgstr ""
+msgstr "電子郵件訂單: 會寄送訂單資訊到廠商聯絡窗口。請確認您的聯絡窗口有提供電子郵件資訊在 :ref:`廠商資訊 <vendors-label>`."
 
 #: ../../source/acquisitions.rst:802
 msgid "If you're using EDI for your order you can click the 'Create EDIFACT order' button when you're done to send the file to the vendor and close the basket."
@@ -1050,7 +1040,6 @@ msgid "|image836|"
 msgstr "|image836|"
 
 #: ../../source/acquisitions.rst:826
-#, fuzzy
 msgid "When closing the basket you can choose to add the basket to a group for easy printing and retrieval. If you check the box to 'Attach this basket to a new basket group' you will be brought to the group list where you can export a PDF of the order."
 msgstr "關閉採購籃時可以考慮把它加入羣組以備列印或搜尋。若勾選 '將此採購籃加入新的採購籃羣組' 則進入採購籃羣組清單以 PDF 格式列印。"
 
@@ -1059,7 +1048,6 @@ msgid "|image832|"
 msgstr "|image832|"
 
 #: ../../source/acquisitions.rst:835
-#, fuzzy
 msgid "A basket with at least one item marked as 'uncertain price' will not be allowed to be closed."
 msgstr "若至少有一筆館藏被標記為 '價格不確定' 則不能關閉該採購籃。"
 
@@ -1092,65 +1080,60 @@ msgid "Create a basket group"
 msgstr "新增採購項目群組"
 
 #: ../../source/acquisitions.rst:864
-#, fuzzy
 msgid "A basket group is simply a group of baskets. In some libraries, you have several staff members that create baskets, and, at the end of a period of time, someone then groups them together to send to the vendor in bulk. That said, it is possible to have one basket in a basket group, or no basket groups at all if that's the workflow used in your library."
 msgstr "採購籃群組就是採購籃的組合。大型的圖書館內，多個館員都有新增採購籃的職責，到了截止日期，人負責把這些採購籃集合在一起批次送交供應商。即是，在採購籃群組內可能祗有一個採購籃。"
 
 #: ../../source/acquisitions.rst:870
 msgid "To create a basket group, go to the vendor detail page and click on the 'Basket groups' tab on the left side."
-msgstr ""
+msgstr "新增採購籃群組, 請至供應商詳情網頁並點擊在左方的 '採購籃群組' 頁籤"
 
 #: ../../source/acquisitions.rst:875
-#, fuzzy
 msgid "|image1414|"
 msgstr "|image1414|"
 
 #: ../../source/acquisitions.rst:877
 msgid "Click on the 'New basket group' button."
-msgstr ""
+msgstr "點擊在 '新採購籃群組' 按鈕."
 
 #: ../../source/acquisitions.rst:879
-#, fuzzy
 msgid "|image1415|"
 msgstr "|image1415|"
 
 #: ../../source/acquisitions.rst:881
 msgid "Basket group name: this is the name the basket group will go by in Koha"
-msgstr ""
+msgstr "採購籃群組名稱: Koha採購籃群組的名稱"
 
 #: ../../source/acquisitions.rst:882
 msgid "Billing place: this is the billing address that will appear on the basket group order"
-msgstr ""
+msgstr "付款處: 這是採購籃訂單上顯示的付款地址"
 
 #: ../../source/acquisitions.rst:884
 msgid "Delivery place: pick a library where these orders should be sent, this will appear on the basket group order under delivery address You can also enter a different address"
-msgstr ""
+msgstr "運送處： 選擇一處做為寄出訂單的圖書館。這將顯示在採購籃群組在運送地址之下。您同樣可以填入不同的地址。"
 
 #: ../../source/acquisitions.rst:887
 msgid "Delivery comment: this comment will appear on the basket group order"
-msgstr ""
+msgstr "運送備註：此備註會出現在採購籃群組訂單"
 
 #: ../../source/acquisitions.rst:888
 msgid "Close basket group: if you know that once you're done with this basket group, you will not be modifying it anymore, you can close it right away"
-msgstr ""
+msgstr "關閉採購籃群組：如果您知道一旦您已完成此採購籃群組，您不能再做任何修改，您可以馬上關閉它。"
 
 #: ../../source/acquisitions.rst:891
 msgid "Drag the ungrouped baskets to the 'Baskets in this group' box to add baskets to the basket group."
-msgstr ""
+msgstr "拖拉非群組的採購籃到 '此群組的採購籃' 區域以新增採購籃在採購籃群組。"
 
 #: ../../source/acquisitions.rst:894
-#, fuzzy
 msgid "|image1416|"
 msgstr "|image1416|"
 
 #: ../../source/acquisitions.rst:896
 msgid "Click on 'Save' to finish creating your basket."
-msgstr ""
+msgstr "點擊 '儲存' 以結束新增您的採購籃。"
 
 #: ../../source/acquisitions.rst:898
-#, fuzzy
 msgid "From there, you can export your order as a PDF file to send to your vendor."
-msgstr "從此，您可編輯或移除曾經加入的館藏。"
+msgstr "從此，您可匯出您的訂單成PDF檔案以便寄給您的供應商。"
 
 #: ../../source/acquisitions.rst:900
 msgid "|image838|"
@@ -1177,9 +1160,8 @@ msgid "|image840|"
 msgstr "|image840|"
 
 #: ../../source/acquisitions.rst:921
-#, fuzzy
 msgid "After clicking 'Receive shipment' you will be asked to enter a vendor invoice number, a shipment received date, a shipping cost and a fund to subtract that shipping amount from."
-msgstr "點選 '簽收送貨單' 後，Koha 將要求鍵入供應商給的發票號碼、簽收送貨單日期、貨運成本與預算。"
+msgstr "點選 '簽收送貨單' 後，Koha 將要求鍵入供應商給的發票號碼、簽收送貨單日期、貨運成本與預算以減去其貨運金額。"
 
 #: ../../source/acquisitions.rst:925
 msgid "|image841|"
@@ -1195,25 +1177,23 @@ msgstr "|image842|"
 
 #: ../../source/acquisitions.rst:934
 msgid "If you have a lot of orders, you can filter the orders using the 'Filter' box on the left, the 'Search' box just above the table, of the filter boxes at the top of each table column."
-msgstr ""
+msgstr "如果您有一堆訂單, 您可以使用左方的'過濾器'過濾訂單，位於搜尋欄欄位上方位置 "
 
 #: ../../source/acquisitions.rst:938
-#, fuzzy
 msgid "|image1417|"
 msgstr "|image1417|"
 
 #: ../../source/acquisitions.rst:940
-#, fuzzy
 msgid "|image1418|"
 msgstr "|image1418|"
 
 #: ../../source/acquisitions.rst:942
 msgid "You could, for example, scan the ISBN of the book you are receiving in the filter box and the table will only show the corresponding orders."
-msgstr ""
+msgstr "您可以，比如說，掃瞄篩選過書的ISBN只會出現相應的訂單"
 
 #: ../../source/acquisitions.rst:945
 msgid "Just make sure to clear the filter boxes when you're done, otherwise, the other items won't appear."
-msgstr ""
+msgstr "確認清除過濾器選項當您結束，否則另一項目不會出現。"
 
 #: ../../source/acquisitions.rst:948
 msgid "To receive a specific item, click the 'Receive' link to the right of the item."
@@ -1226,68 +1206,66 @@ msgstr "|image843|"
 #: ../../source/acquisitions.rst:953
 msgid "Depending on when you chose to create the item (either in the :ref:`AcqCreateItem <acqcreateitem-label>` system preference, or upon :ref:`creating your basket <create-a-basket-label>`), the form will look slightly different."
 msgstr ""
+"取決於您何時要增項目（或是:ref:`AcqCreateItem <acqcreateitem-label>`系統偏好，或是 :ref:`"
+"creating your basket <create-a-basket-label>`) 表單會看起來略為不同。"
 
 #: ../../source/acquisitions.rst:958
 msgid "If you chose to create your item when placing the order, you will have your item information on the left side and financial information on the right side."
-msgstr ""
+msgstr "如果您選擇新增您的項目當下單時， 您將取得您的項目資訊在上方及財務資右方"
 
 #: ../../source/acquisitions.rst:961
-#, fuzzy
 msgid "|image1419|"
 msgstr "|image1419|"
 
 #: ../../source/acquisitions.rst:963
 msgid "You can check the box next to the item to receive it, or fill out the 'Quantity received' field on the left side."
-msgstr ""
+msgstr "您可以檢查項目旁查核區以取得它，或是填完'數量取得' 欄位在左側。"
 
 #: ../../source/acquisitions.rst:966
-#, fuzzy
 msgid "**Note** You can choose to mark only part of the order as received if he vendor didn't send your entire order by checking only the boxes next to the items on the left that you want to receive or by entering the right amount in the 'Quantity received' field."
-msgstr "從此表單可改變成本資訊。若供應商未把貨品全數送到，您可以祗簽收部份訂單。鍵入於 '重置成本' 與 '實際成本' 的值，將根據分欄 v (成本、重置價格) 與分欄 (成本、購買價格) 的內容自動計算上架後的價值。"
+msgstr ""
+"**注意** 從此表單可改變成本資訊。若供應商未把貨品全數送到，您可以祗簽收部份訂單。鍵入於 '重置成本' 與 '實際成本' 的值，將根據分欄 v "
+"(成本、重置價格) 與分欄 (成本、購買價格) 的內容自動計算上架後的價值。"
 
 #: ../../source/acquisitions.rst:972
-#, fuzzy
 msgid "You can edit the item if needed by clicking on the 'Edit' link. This will allow you to enter in accurate call numbers and barcodes if you'd like to do that at the point of receipt."
 msgstr "從此表單按下每個館藏的 '編輯' 連結就能編輯館藏紀錄。從此鍵入正確的索書號與條碼，就能製作收條。做好 (訂單或館藏) 後，按下 '儲存' 鈕，表示簽收該等館藏。"
 
 #: ../../source/acquisitions.rst:976
-#, fuzzy
 msgid "You can also alter the cost information (replacement cost and actual cost). The values you enter there will automatically populate the item record by filling in subfield v (Cost, replacement price) and subfield g (Cost, normal purchase price) on the item record after saving."
 msgstr "從此表單可改變成本資訊。若供應商未把貨品全數送到，您可以祗簽收部份訂單。鍵入於 '重置成本' 與 '實際成本' 的值，將根據分欄 v (成本、重置價格) 與分欄 (成本、購買價格) 的內容自動計算上架後的價值。"
 
 #: ../../source/acquisitions.rst:981
 msgid "If you chose to create your item when receiving the order, you will see the item creation form on the left side and the financial information on the right side."
-msgstr ""
+msgstr "如果您選擇新增您的項目當收到訂單，您將會看到項目新增表單在左方以及財務資訊在右方。"
 
 #: ../../source/acquisitions.rst:985
-#, fuzzy
 msgid "|image1420|"
 msgstr "|image1420|"
 
 #: ../../source/acquisitions.rst:987
 msgid "**Important** You must fill out the item form and click on 'Add item' or 'Add multiple items' in order to receive the order. You will not be able to simply change the 'Quantity received' amount."
-msgstr ""
+msgstr "**重要** 您必須填完項目表並點擊'加上項目'或'加入數筆項目'在訂單以便收到訂單。您將無法改變收到的數量。"
 
 #: ../../source/acquisitions.rst:992
-#, fuzzy
 msgid "You can alter the cost information (replacement cost and actual cost). The values you enter there will automatically populate the item record by filling in subfield v (Cost, replacement price) and subfield g (Cost, normal purchase price) on the item record after saving."
 msgstr "從此表單可改變成本資訊。若供應商未把貨品全數送到，您可以祗簽收部份訂單。鍵入於 '重置成本' 與 '實際成本' 的值，將根據分欄 v (成本、重置價格) 與分欄 (成本、購買價格) 的內容自動計算上架後的價值。"
 
 #: ../../source/acquisitions.rst:997
 msgid "Finally, if you chose to create your item when cataloging the record, you will only see the financial information on the right."
-msgstr ""
+msgstr "最後，如果您選擇新增您的項目當編輯書目時，您將只能看到在右方的財務資訊"
 
 #: ../../source/acquisitions.rst:1002
 msgid "You can alter the cost information (replacement cost and actual cost)."
-msgstr ""
+msgstr "您可以改變價格資訊（更換價格及實際價格）"
 
 #: ../../source/acquisitions.rst:1004
 msgid "**Note** The financial information will not be transferred to the item if the item is created when cataloging."
-msgstr ""
+msgstr "**註** 財務資訊將不會移轉到目， 如果編目時新增館藏。"
 
 #: ../../source/acquisitions.rst:1008
 msgid "Once you have made any changes necessary (to the order and/or items, click 'Save' to mark the item(s) as received."
-msgstr ""
+msgstr "一旦您已做了任何改變 (對於訂單及/或館藏，點擊'儲存'到標示的館藏以示取得"
 
 #: ../../source/acquisitions.rst:1011
 msgid "|image845|"
@@ -1303,7 +1281,7 @@ msgstr "簽收館藏後，可離開此頁面，或按螢幕下方的 '完成簽�
 
 #: ../../source/acquisitions.rst:1023
 msgid "Received orders will have '(rcvd)' before the title in the basket view."
-msgstr ""
+msgstr "收到訂單將有 '(rcvd)' 在採購籃模式題名前"
 
 #: ../../source/acquisitions.rst:1025 ../../source/acquisitions.rst:1064
 #: ../../source/acquisitions.rst:1079
@@ -1312,20 +1290,17 @@ msgstr "|image850|"
 
 #: ../../source/acquisitions.rst:1027
 msgid "**Note** When all the orders in a basket have been received, the basket will be removed from the list of baskets for that vendor. You can click 'Show all baskets' to view the inactive baskets."
-msgstr ""
+msgstr "*註** 當已收到採購籃所有訂單, 採購籃會將他們從供應商列表中移除. 您可以點擊'顥示所有採購籃'以顯示關閉的採購籃."
 
 #: ../../source/acquisitions.rst:1032
-#, fuzzy
 msgid "|image1421|"
 msgstr "|image1421|"
 
 #: ../../source/acquisitions.rst:1034
-#, fuzzy
 msgid "|image1422|"
 msgstr "|image1422|"
 
 #: ../../source/acquisitions.rst:1039
-#, fuzzy
 msgid "Transferring orders"
 msgstr "發出訂單"
 
@@ -1363,10 +1338,9 @@ msgstr "|image849|"
 
 #: ../../source/acquisitions.rst:1062
 msgid "You will see transferred orders when viewing the basket."
-msgstr ""
+msgstr "您將看到轉移的訂單當檢視採購籃時."
 
 #: ../../source/acquisitions.rst:1069
-#, fuzzy
 msgid "Cancelling orders"
 msgstr "取消訂單"
 
@@ -1379,12 +1353,10 @@ msgid "|image1289|"
 msgstr "|image1289|"
 
 #: ../../source/acquisitions.rst:1077
-#, fuzzy
 msgid "You will also see that the item is cancelled if you view the basket."
 msgstr "檢視購物籃，就能看到簽收與取消的館藏。"
 
 #: ../../source/acquisitions.rst:1083
-#, fuzzy
 msgid "Whilst it is possible to re-open your basket, cancel one or more orders and re-close the basket, this is not recommended. This procedure will update the 'basket closed' date, which in turn will cause your 'late order' calculations to be incorrect."
 msgstr "還可以再開啟您的採購籃，取消訂購並再關閉採購籃，不建議這麼做。將更新 '關閉採購籃' 的日期，以致計算 '最新訂單' 時發生錯誤。建議，採用以下的步驟。"
 
@@ -1409,7 +1381,6 @@ msgid "|image852|"
 msgstr "|image852|"
 
 #: ../../source/acquisitions.rst:1112
-#, fuzzy
 msgid "From the 'Actions' button, you can click the 'Details' link to see the full invoice or 'Close' to note that the invoice is closed/paid for."
 msgstr "從結果裡可以點選 '詳情' 連結，檢視詳細的發票；或 '關閉' 連結，表示發票已結案/支付。"
 
@@ -1467,7 +1438,7 @@ msgstr "|image1372|"
 
 #: ../../source/acquisitions.rst:1150
 msgid "Attaching files to invoices"
-msgstr ""
+msgstr "附加檔案到發票"
 
 #: ../../source/acquisitions.rst:1152
 msgid "If you're allowing the uploading of acquisitions files with the :ref:`AcqEnableFiles` preference you will see the option to manage invoice files next to the link to 'Go to receipt page'"
@@ -1495,7 +1466,7 @@ msgstr "|image855|"
 
 #: ../../source/acquisitions.rst:1169
 msgid "Merging two invoices"
-msgstr ""
+msgstr "合併兩張發票"
 
 #: ../../source/acquisitions.rst:1171
 msgid "From the invoice search results you can also merge together two invoices should you need to. Simply click the checkbox to the left of the invoices you would like to merge and click the 'Merge selected invoices' button at the bottom of the page. You will be presented with a confirmation screen:"
@@ -1510,7 +1481,6 @@ msgid "Click on the row of the invoice number you would like to keep and it will
 msgstr "點選發票號碼列將其標示為黃色。於欄位內鍵入不同的帳單資訊並按 '合併' 鈕。兩張發票就合而為一。"
 
 #: ../../source/acquisitions.rst:1187
-#, fuzzy
 msgid "Claims and late orders"
 msgstr "採購建議及晚到的訂單"
 
@@ -1547,9 +1517,10 @@ msgid "The estimated delivery date is based on the delivery time value entered o
 msgstr "根據代理商紀錄的送達時間，計算估許送達時間。"
 
 #: ../../source/acquisitions.rst:1220
-#, fuzzy
 msgid "If you would rather use a different acquisition claim letter (other than the default) you can :ref:`create that in the notices module <adding-notices-and-slips-label>` and choose it from the menu above the list of late items."
-msgstr "若想使用不同的採訪催缺信件 (預設之外) 您可 :ref:`新增通知模組 <adding-notices-&-slips-label>` 並從遲到館藏清單上方的選單選取它。"
+msgstr ""
+"若想使用不同的採訪催缺信件 (預設之外) 您可 :ref:`新增通知模組 <adding-notices-and-slips-label>` "
+"並從遲到館藏清單上方的選單選取它。"
 
 #: ../../source/acquisitions.rst:1224
 msgid "|image859|"
@@ -1793,9 +1764,8 @@ msgid "**discount:** MARC21 field the contains the discount as a percentage the 
 msgstr "**折扣：** 記載百分折扣的 MARC21 欄位"
 
 #: ../../source/acquisitions.rst:1408
-#, fuzzy
 msgid "**sort1:** MARC21 field that will populate custom field sort1"
-msgstr "**排序2：** 做為第1個排序順位的 MARC21 欄位"
+msgstr "**排序1：** 做為第1個排序順位的 MARC21 欄位"
 
 #: ../../source/acquisitions.rst:1410
 msgid "**sort2:** MARC21 field that will populate custom field sort2"
@@ -1834,9 +1804,8 @@ msgid ":ref:`Enter the vendor/bookseller/jobber <add-a-vendor-label>` in Acquisi
 msgstr "從採訪介面 :ref:`進入代理商/書商/經銷商 <add-a-vendor-label>`"
 
 #: ../../source/acquisitions.rst:1442
-#, fuzzy
 msgid "Review your :ref:`Acquisitions system preferences <acquisitions-system-preferences-label>`"
-msgstr "檢視您的 :ref:`採訪系統偏好 <acquisitions-label>`"
+msgstr "檢視您的 :ref:`採訪系統偏好 <acquisitions-system-preferences-label>`"
 
 #: ../../source/acquisitions.rst:1444
 msgid "Be sure to fill in the :ref:`MarcFieldsToOrder` preference with values for order files"
@@ -1976,4 +1945,3 @@ msgstr "|image1291|"
 
 #~ msgid "on the next page (at right) you can click on 'Cancel order'."
 #~ msgstr "下頁 (在右方) 您可點選 '取消訂單'。"
-

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 01:16-0300\n"
-"PO-Revision-Date: 2019-05-03 09:20+0000\n"
-"Last-Translator: Christian Stelzenmüller <christian.stelzenmueller@bsz-bw.de>\n"
+"PO-Revision-Date: 2021-02-24 08:29+0000\n"
+"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1556875234.588894\n"
+"X-POOTLE-MTIME: 1614155363.519344\n"
 
 #: ../../source/searching.rst:6
 msgid "Searching"
@@ -53,11 +53,11 @@ msgstr "|image1064|"
 
 #: ../../source/searching.rst:31
 msgid "Advanced Search Prefixes"
-msgstr "Suchindices für die Expertensuche"
+msgstr "Suchindizes für die Erweiterte Suche"
 
 #: ../../source/searching.rst:33
 msgid "The following prefixes can be added to search terms in the keyword search box to limit items returned"
-msgstr "Mit den folgenden Suchindices können Sie Ihre Stichwortsuche nach Exemplaren einschränken"
+msgstr "Mit den folgenden Suchindizes können Sie Ihre Stichwortsuche nach Exemplaren einschränken"
 
 #: ../../source/searching.rst:36
 msgid "ti: title search"
@@ -93,7 +93,7 @@ msgstr "z. B.: au:rowling"
 
 #: ../../source/searching.rst:52
 msgid "su-geo: geographic subjects"
-msgstr "su-geo: geographische Schlagworte"
+msgstr "su-geo: geografische Schlagworte"
 
 #: ../../source/searching.rst:54
 msgid "ex. su-geo:wales and kw:description and kw:travel"
@@ -121,7 +121,11 @@ msgstr "Rechercheleitfaden"
 
 #: ../../source/searching.rst:69 ../../source/searching.rst:98
 msgid "This brief guide will explain a chart that shows a sample of how a MARC21 database can be configured, as well as a brief introductory searching guide. The indexing fields described in this document relate to the bibliographic data and does not address authority database indexing."
-msgstr "Dieser kurze Leitfaden zeigt anhand eines Beispiels wie eine MARC21 - Datenbank konfiguriert werden kann, sowie eine kurze Einführung zur Suche. Die erwähnten indexierten Felder beziehen sich auf die bibliografischen Daten, nicht auf die Normdaten."
+msgstr ""
+"Dieser kurze Leitfaden zeigt anhand eines Beispiels wie eine MARC21-"
+"Datenbank konfiguriert werden kann, sowie eine kurze Einführung zur Suche. "
+"Die erwähnten indexierten Felder beziehen sich auf die bibliografischen "
+"Daten, nicht auf die Normdaten."
 
 #: ../../source/searching.rst:78
 msgid "Indexing and Searching Description"
@@ -136,9 +140,8 @@ msgid "\"...Zebra is a high-performance, general-purpose structured text indexin
 msgstr "\"...Zebra ist eine leistungsstarke, universell einsetzbare Recherche- und Indexierungssoftware für strukturierten Text. Sie kann Datensätze in unterschiedlichen Formaten (z. B. E-Mail, XML, MARC) lesen, und stellt den Zugriff über eine mächtige Kombination aus Ausdrücken mit Boolschen Operatoren und nach Relevanz geordneten Freitextabfragen zur Verfügung.\""
 
 #: ../../source/searching.rst:89
-#, fuzzy
 msgid "Zebra supports large databases (tens of millions of records, tens of gigabytes of data). It allows safe, incremental database updates on live systems. Because Zebra supports the industry-standard information retrieval protocol, Z39.50, you can search Zebra databases using an enormous variety of programs and toolkits, both commercial and free, which understands this protocol...\" Zebra - User's Guide and Reference, p. 1, https://software.indexdata.com/zebra/doc/idzebra.pdf"
-msgstr "Zebra unterstützt große Datenbanken (mehrere Zehnmillionen Datensätze, mehrere Gigabyte an Daten). Es erlaubt sichere inkrementelle Datenbankupdates in Livesystemen. Zebra unterstützt das industrielle Standard-Netzwerkprotokoll Z39.50. Sie können Zebra-Datenbanken mit einer Vielzahl von kommerziellen und kostenlosen Programmen und Toolkits, die dieses Protokoll verstehen, durchsuchen...\" Zebra - User's Guide and Reference, p. 1, http://www.indexdata.dk/zebra/doc/zebra.pdf"
+msgstr "Zebra unterstützt große Datenbanken (mehrere Zehnmillionen Datensätze, mehrere Dutzende Gigabyte an Daten). Es erlaubt sichere inkrementelle Datenbankupdates in Livesystemen. Zebra unterstützt das industrielle Standard-Netzwerkprotokoll Z39.50. Sie können Zebra-Datenbanken mit einer Vielzahl von kommerziellen und kostenlosen Programmen und Toolkits, die dieses Protokoll verstehen, durchsuchen...\" Zebra - User's Guide and Reference, S. 1, http://www.indexdata.dk/zebra/doc/zebra.pdf"
 
 #: ../../source/searching.rst:104 ../../source/searching.rst:341
 #: ../../source/searching.rst:377 ../../source/searching.rst:390
@@ -377,16 +380,15 @@ msgstr "Reihen"
 
 #: ../../source/searching.rst:351
 msgid "Places (geographic name headings)"
-msgstr ""
+msgstr "Orte (geografische Schlagworte)"
 
 #: ../../source/searching.rst:353
 msgid "Topics (subject headings)"
 msgstr "Themen"
 
 #: ../../source/searching.rst:355
-#, fuzzy
 msgid "Titles (uniform title headings)"
-msgstr "Einheitstitel: "
+msgstr "Titel (Einheitstitel)"
 
 #: ../../source/searching.rst:357
 msgid "When there are more than five facets in a category, a 'Show more' link will appear. You can control the display of the facets using the following systempreferences: :ref:`displayFacetCount`, :ref:`DisplayLibraryFacets`, :ref:`FacetLabelTruncationLength`, :ref:`FacetMaxCount`, :ref:`maxRecordsForFacets`, and :ref:`UNIMARCAuthorsFacetsSeparator`."
@@ -442,50 +444,47 @@ msgstr "'Sortierung': hier können Sie ein Sortierkriterium auswählen und die T
 
 #: ../../source/searching.rst:402
 msgid "By default your search results will be sorted based on your :ref:`defaultSortField and defaultSortOrder <defaultsortfield-and-defaultsortorder-label>` system preferences values."
-msgstr "Im Standard werden Ihre Suchergebnisse basierend auf den Einstellungen im Systemparameter :ref:`defaultSortField and defaultSortOrder <defaultsortfield-and-defaultsortorder-label>` sortiert."
+msgstr "Im Standard werden Ihre Suchergebnisse basierend auf den Einstellungen im Systemparameter :ref:`defaultSortField und defaultSortOrder <defaultsortfield-and-defaultsortorder-label>` sortiert."
 
 #: ../../source/searching.rst:404
 msgid "|image1330|"
 msgstr "|image1330|"
 
 #: ../../source/searching.rst:406
-#, fuzzy
 msgid "Under each title on your results list a series of values from your leader will appear. It is important to note that this has nothing to do with the item types or collection codes you have applied to your records, this data is all pulled from your fixed fields. This can be turned on or off with the :ref:`DisplayIconsXSLT` system preference."
-msgstr "Unterhalb des Titels bei jedem Treffer in der Trefferliste erscheinen die Einträge aus dem Leader-Feld des zugrunde liegenden MARC-Satzes. Diese Einträge sind unabhänig von den Medientypen oder den Sammlungen die bei Ihnen vorhanden sind. Die Anzeige kann über den Systemparameter :ref:`DisplayOPACiconsXSLT` gesteuert werden."
+msgstr "Bei jedem Treffer in der Trefferliste erscheinen unterhalb des Titels Einträge, die aus den Daten im Leader generiert wurden. Diese Einträge sind unabhängig von den Medientypen oder den Sammlungen, die von Ihnen in den Datensätzen verwendet wurden, sondern stammt nur aus den Feldern mit fester Länge. Die Anzeige kann über den Systemparameter :ref:`DisplayOPACiconsXSLT` gesteuert werden."
 
 #: ../../source/searching.rst:412
 msgid "At the bottom, under each record, there are more action links:"
-msgstr ""
+msgstr "Am Ende jedes Titeleintrags sind weitere Aktionslinks:"
 
 #: ../../source/searching.rst:414
 msgid "'Holds': brings you to that record's :ref:`'Holds' tab <placing-holds-in-staff-client-label>`."
-msgstr ""
+msgstr "\"Vormerkungen\": bringt Sie zum Reiter :ref:`\"Vormerkungen\" <placing-holds-in-staff-client-label>` für diesen Datensatz."
 
 #: ../../source/searching.rst:416
 msgid "'Request article': brings you to that record's :ref:`'Article requests' tab <article-requests-label>`."
-msgstr ""
+msgstr "\"Artikel bestellen\": bringt Sie zum Reiter :ref:`\"Artikelbestellungen\" <article-requests-label>` für diesen Datensatz."
 
 #: ../../source/searching.rst:418
 msgid "'Edit record': brings you to that record's MARC framework for editing."
-msgstr ""
+msgstr "\"Titel bearbeiten\": bringt Sie in die Katalogisierung zur Bearbeitung des Titels."
 
 #: ../../source/searching.rst:420
 msgid "'Edit items': brings you to that record's item list for editing."
-msgstr ""
+msgstr "\"Exemplare bearbeiten\": bringt Sie zur Exemplarbearbeitung für diesen Datensatz."
 
 #: ../../source/searching.rst:422
-#, fuzzy
 msgid "'OPAC view': brings you to that record's detail page in the OPAC."
-msgstr "Ankreuzen, um dieses Attribut dem Benutzer im OPAC anzuzeigen."
+msgstr "\"OPAC-Sicht\": bringt Sie zur Detailansicht für diesen Datensatz im OPAC."
 
 #: ../../source/searching.rst:426
-#, fuzzy
 msgid "'OPAC view' needs the :ref:`OPACBaseURL` system preference to be properly set."
-msgstr "Überprüfen Sie ob Ihr Systemparameter :ref:`OPACBaseURL` richtig eingestellt ist."
+msgstr "Die \"OPAC-Sicht\" erfordert, dass der Systemparameter :ref:`OPACBaseURL` korrekt konfiguriert ist."
 
 #: ../../source/searching.rst:429
 msgid "To the right of each record are the holdings information and availability."
-msgstr ""
+msgstr "In der rechten Spalte neben jedem Datensatz finden Sie die Bestandsinformationen und Verfügbarkeit."
 
 #: ../../source/searching.rst:433
 msgid "Even if you filtered on one library location all locations that hold the item will appear on the search results."
@@ -496,9 +495,8 @@ msgid "**Important**"
 msgstr "**Wichtig**"
 
 #: ../../source/searching.rst:438
-#, fuzzy
 msgid "An item’s hold status doesn’t not affect whether or not the item is 'available' until the item is in 'waiting' status. Items with on-shelf holds will show as available until a librarian has pulled them from the shelf and checked the item in make it show 'waiting'."
-msgstr "Der Vormerkstatus eines Exemplars hat solange keinen Effekt ob das Exemplar 'verfügbar' ist, bis es den Status 'Bereitgestellt' hat. Auch Exemplare mit Vormerkungen auf verfügbare Titel erscheinen solange als verfügbar, bis ein Exemplar zurückgebucht wurde um es auf 'Bereitgestellt' zu setzen."
+msgstr "Der Vormerkstatus eines Exemplars hat solange keinen Effekt ob das Exemplar 'verfügbar' ist, bis es den Status 'Bereitgestellt' erreicht. Auch Exemplare mit Vormerkungen auf verfügbare Titel erscheinen solange als verfügbar, bis ein Exemplar zurückgebucht wurde um es auf 'Bereitgestellt' zu setzen."
 
 #: ../../source/searching.rst:446
 msgid "Item search"
@@ -509,128 +507,109 @@ msgid "If you are looking for specific items you can use the item search engine 
 msgstr "Wenn Sie nach Exemplaren suchen möchten, können Sie hierzu die spezielle Exemplarsuchfunktion in der Dienstoberfläche verwenden."
 
 #: ../../source/searching.rst:451
-#, fuzzy
 msgid "*Get there:* Search > Item search"
-msgstr "*Pfad in Koha:* Mehr > Listen"
+msgstr "*Pfad in Koha:* Suche > Exemplarsuche"
 
 #: ../../source/searching.rst:453
-#, fuzzy
 msgid "|image1447|"
 msgstr "|image1447|"
 
 #: ../../source/searching.rst:455
-#, fuzzy
 msgid "You can also access the item search from the link 'Go to item search' at the top of the advanced search page in the staff client."
-msgstr "Von hier aus können Sie der Exemplarsuche der Dienstoberfläche benutzerdefinierte Suchfelder hinzufügen."
+msgstr "Die Exemplarsuche erreichen Sie über den Link \"Zur Exemplarsuche\" im oberen Seitenbereich der Erweiterten Suche in der Dienstoberfläche."
 
 #: ../../source/searching.rst:458
-#, fuzzy
 msgid "|image1313|"
 msgstr "|image1313|"
 
 #: ../../source/searching.rst:460
-#, fuzzy
 msgid "Either of those links will open up a item specific search engine."
-msgstr "Mit einem Klick auf diesen Link gelangen Sie auf die Seite mit der Exemplarsuchmaske."
+msgstr "Beide diese Links öffnen eine exemplarspezifische Suche."
 
 #: ../../source/searching.rst:462
-#, fuzzy
 msgid "|image1314|"
 msgstr "|image1314|"
 
 #: ../../source/searching.rst:464
-#, fuzzy
 msgid "Using the search form that is presented you can find a list of specific items that can be output to the screen, to a CSV file or to a barcode file."
-msgstr "Mit dem angezeigten Suchformular können Sie eine Liste von Exemplaren am Bildschirm oder in eine CSV-Datei ausgeben. Bei der Bildschirmanzeige haben Sie die Möglichkeit, die Suche über Filter weiter einzuschränken."
+msgstr "Mit dem angezeigten Suchformular können Sie eine Liste von Exemplaren, die im Browser, in eine CSV-Datei oder in eine Barcodedatei ausgegeben werden können."
 
 #: ../../source/searching.rst:467
-#, fuzzy
 msgid "You can add more search fields to this form by going to the :ref:`item search fields <item-search-fields-label>` section in the Administration module."
-msgstr "Die Berechtigung auf die :ref:`Suchfeldern für Exemplare <item-search-fields-label>` in der Administration zuzugreifen."
+msgstr "Sie können weitere Suchoptionen zu diesem Formular über die :ref:`Suchfeldern für Exemplare <item-search-fields-label>` im Administrationsmodul hinzufügen."
 
 #: ../../source/searching.rst:470
-#, fuzzy
 msgid "If your results are printed to the screen you will have the option to narrow your search further using filters at the top."
-msgstr "Mit dem angezeigten Suchformular können Sie eine Liste von Exemplaren am Bildschirm oder in eine CSV-Datei ausgeben. Bei der Bildschirmanzeige haben Sie die Möglichkeit, die Suche über Filter weiter einzuschränken."
+msgstr "Wenn die Ergebnisse im Browser ausgegeben werden, können Sie Ihre Suche über die Filter am Anfang der Tabelle nachträglich weiter einschränken."
 
 #: ../../source/searching.rst:473
-#, fuzzy
 msgid "|image1315|"
 msgstr "|image1315|"
 
 #: ../../source/searching.rst:478
 msgid "Common Command Language Searching"
-msgstr ""
+msgstr "Suche mit der Common Command Language"
 
 #: ../../source/searching.rst:480
 msgid "Koha uses the Common Command Language (CCL) (ISO 8777) as its internal search protocol. Searches initiated in the graphical interface use this protocol as well, although the searcher doesn't know which indexes, operators and limiters are available and being used to conduct their search. The searcher can use the Advanced Search when more precise results set are desired and where the search indexes are somewhat known. However, some library users and many library staff prefer using a command based structure. This part of the document will present and explain the use of the Koha command based structure. The indexes, operators, and limiters used are identical to those used in the graphical interface."
-msgstr ""
+msgstr "Koha verwendet die Common Command Language (CCL) (ISO 8777) als internes Suchprotokoll. Suchen in der grafischen Oberfläche verwenden ebenfalls dieses Protokoll, obwohl die Suchenden nicht wissen, welche Indizes, Operatoren und Einschränkungen verfügbar sind und für ihre Suchen verwendet werden. Die Suchenden können die Erweiterte Suche für präzisere Abfragen verwenden, bei der die Suchindizes eher sichtbar sind. Viele Mitarbeitende und einige BibliotheksnutzerInnen bevorzugen eine eher kommandobasierte Suche. Die Indizes, Operatoren und Einschränkungen sind in diesem Fall identisch zu denen in der grafischen Oberfläche."
 
 #: ../../source/searching.rst:495
 msgid "Indexes"
-msgstr "Indices"
+msgstr "Indizes"
 
 #: ../../source/searching.rst:497
 msgid "The CCL standard itself doesn't specify a particular set of qualifiers (indexes), but it does suggest a few short-hand notations such as 'ti', 'au', and 'su'. Koha has a default set of indexes; it's possible to customize that set by adding needed indexes based on local requirements. A qualifier (index) maps to a particular use-attribute within the Z39.50 BIB-1 attribute set. The complete Z39.50 Bib-1 Attribute can be viewed at http://www.loc.gov/z3950/agency/defns/bib1.html."
-msgstr ""
+msgstr "Der CCL-Standard selbst spezifiziert kein bestimmtes Set von Qualifikatoren (Indizes), aber schlägt einige Kurzformen wie \"ti\", \"au\" und \"su\" vor. Koha hat eine Standardliste von Indizes; es ist möglich diese Liste mit eigenen benötigten Indizes zu ergänzen; Ein Qualifikator (Index) wird auf ein bestimmtes Use-Attribut aus dem Z39.50 Bib-1-Attributset gemappt. Die vollständige Liste der Z39.50 Bib-1 Attribute finden Sie unter http://www.loc.gov/z3950/agency/defns/bib1.html."
 
 #: ../../source/searching.rst:505
 msgid "The standard Koha set of indexes is a fairly common example of MARC21 indexing rules. The indexes that are defined in Koha are indexes typically used by other integrated library systems. The defined Z39.50 Bib-1 Attribute mapped to the indexes include:"
-msgstr ""
+msgstr "Die Standardliste der Koha-Indizes ist ein gutes Beispiel für MARC21-Indexierungsregeln. Die Indizes in Koha sind in den meisten Fällen auch in anderen Bibliothekssystemen verfügbar. Die definierten Z39.50 Bib-1 Attribute für die es Indizes gibt sind u.a.:"
 
 #: ../../source/searching.rst:511
-#, fuzzy
 msgid "Bib-1 Attribute"
-msgstr "Attribute"
+msgstr "Bib-1 Attribut"
 
 #: ../../source/searching.rst:511
-#, fuzzy
 msgid "Qualifier (index)"
-msgstr "Abfragekriterium: "
+msgstr "Qualifikator (Index)"
 
 #: ../../source/searching.rst:513
 msgid "Personal-name"
-msgstr "Personenname"
+msgstr "Personal-name"
 
 #: ../../source/searching.rst:513
-#, fuzzy
 msgid "pn"
-msgstr "n"
+msgstr "pn"
 
 #: ../../source/searching.rst:515
-#, fuzzy
 msgid "Corporate-name"
-msgstr "Körperschaftsname"
+msgstr "Corporate-name"
 
 #: ../../source/searching.rst:515
-#, fuzzy
 msgid "cpn"
-msgstr "cdn"
+msgstr "cpn"
 
 #: ../../source/searching.rst:517 ../../source/searching.rst:1016
-#, fuzzy
 msgid "Conference-name"
-msgstr "Vertrauenswert"
+msgstr "Conference-name"
 
 #: ../../source/searching.rst:517
-#, fuzzy
 msgid "cfn"
-msgstr "cdn"
+msgstr "cfn"
 
 #: ../../source/searching.rst:519 ../../source/searching.rst:984
 #: ../../source/searching.rst:1110
 msgid "Title"
-msgstr "Titel"
+msgstr "Title"
 
 #: ../../source/searching.rst:519
-#, fuzzy
 msgid "ti"
-msgstr "i"
+msgstr "ti"
 
 #: ../../source/searching.rst:521
-#, fuzzy
 msgid "Title-series"
-msgstr "Reihen"
+msgstr "Title-series"
 
 #: ../../source/searching.rst:521
 msgid "se"
@@ -638,102 +617,89 @@ msgstr "se"
 
 #: ../../source/searching.rst:523
 msgid "Title-uniform"
-msgstr "Einheitstitel"
+msgstr "Title-uniform"
 
 #: ../../source/searching.rst:523
-#, fuzzy
 msgid "ut"
-msgstr "Ausschneiden"
+msgstr "ut"
 
 #: ../../source/searching.rst:525
 msgid "ISBN"
 msgstr "ISBN"
 
 #: ../../source/searching.rst:525
-#, fuzzy
 msgid "nb"
-msgstr "b"
+msgstr "nb"
 
 #: ../../source/searching.rst:527
 msgid "ISSN"
 msgstr "ISSN"
 
 #: ../../source/searching.rst:527
-#, fuzzy
 msgid "ns"
-msgstr "n"
+msgstr "ns"
 
 #: ../../source/searching.rst:529
 msgid "Local number"
-msgstr "Lokale Nummer"
+msgstr "Local-number"
 
 #: ../../source/searching.rst:529
-#, fuzzy
 msgid "sn"
-msgstr "n"
+msgstr "sn"
 
 #: ../../source/searching.rst:531
-#, fuzzy
 msgid "Local-classification"
-msgstr "Klassifikation"
+msgstr "Local-classification"
 
 #: ../../source/searching.rst:531
 msgid "lcn and callnum"
-msgstr ""
+msgstr "lcn and callnum"
 
 #: ../../source/searching.rst:533 ../../source/searching.rst:1032
 #: ../../source/searching.rst:1050 ../../source/searching.rst:1054
 #: ../../source/searching.rst:1058 ../../source/searching.rst:1062
 msgid "Subject"
-msgstr "Schlagwort"
+msgstr "Subject"
 
 #: ../../source/searching.rst:533
 msgid "su, su-to, su-geo, su-ut"
-msgstr ""
+msgstr "su, su-to, su-geo, su-ut"
 
 #: ../../source/searching.rst:535
-#, fuzzy
 msgid "Pubdate"
-msgstr "Fälligkeitsdatum"
+msgstr "Pubdate"
 
 #: ../../source/searching.rst:535
-#, fuzzy
 msgid "yr,pubdate"
-msgstr "Aktualisieren"
+msgstr "yr, pubdate"
 
 #: ../../source/searching.rst:537
-#, fuzzy
 msgid "Date-of-Acquisition"
-msgstr "Erwerbungsdatum"
+msgstr "Date-of-Acquisition"
 
 #: ../../source/searching.rst:537
-#, fuzzy
 msgid "acqdate"
-msgstr "Geprüft"
+msgstr "acqdate"
 
 #: ../../source/searching.rst:539
 msgid "Language"
-msgstr "Sprache"
+msgstr "Language"
 
 #: ../../source/searching.rst:539 ../../source/searching.rst:852
-#, fuzzy
 msgid "ln"
-msgstr "l"
+msgstr "ln"
 
 #: ../../source/searching.rst:541
-#, fuzzy
 msgid "Place-of-publication"
-msgstr "Ort der Veröffentlichung"
+msgstr "Place-of-publication"
 
 #: ../../source/searching.rst:541
-#, fuzzy
 msgid "pl"
-msgstr "l"
+msgstr "pl"
 
 #: ../../source/searching.rst:543
-#, fuzzy
 msgid "Abstract"
-msgstr "Zusammenfassung: "
+msgstr "Abstract"
 
 #: ../../source/searching.rst:543
 msgid "ab"
@@ -741,67 +707,59 @@ msgstr "ab"
 
 #: ../../source/searching.rst:545
 msgid "Notes"
-msgstr "Hinweise"
+msgstr "Notes"
 
 #: ../../source/searching.rst:545
-#, fuzzy
 msgid "nt"
-msgstr "nicht"
+msgstr "nt"
 
 #: ../../source/searching.rst:547
-#, fuzzy
 msgid "Record-type"
-msgstr "Datensatztyp"
+msgstr "Record-type"
 
 #: ../../source/searching.rst:547
 msgid "rtype, mc-rtype, mus"
-msgstr ""
+msgstr "rtype, mc-rtype, mus"
 
 #: ../../source/searching.rst:549 ../../source/searching.rst:982
 msgid "Author"
-msgstr "Verfasser"
+msgstr "Author"
 
 #: ../../source/searching.rst:549
 msgid "au, aut"
-msgstr ""
+msgstr "au, aut"
 
 #: ../../source/searching.rst:551
-#, fuzzy
 msgid "Subject-person-name"
-msgstr "Schlagwort - Personenname"
+msgstr "Subject-person-name"
 
 #: ../../source/searching.rst:551
 msgid "su-na"
-msgstr ""
+msgstr "su-na"
 
 #: ../../source/searching.rst:553
-#, fuzzy
 msgid "Any (keyword)"
-msgstr "Beliebiges Wort"
+msgstr "Any (keyword)"
 
 #: ../../source/searching.rst:553
-#, fuzzy
 msgid "kw"
-msgstr "k"
+msgstr "kw"
 
 #: ../../source/searching.rst:555
 msgid "Publisher"
-msgstr "Verlag"
+msgstr "Publisher"
 
 #: ../../source/searching.rst:555
-#, fuzzy
 msgid "pb"
-msgstr "b"
+msgstr "pb"
 
 #: ../../source/searching.rst:557
-#, fuzzy
 msgid "Content-type"
-msgstr "Inhaltstyp: "
+msgstr "Content-type"
 
 #: ../../source/searching.rst:557
-#, fuzzy
 msgid "ctype"
-msgstr "Medientyp"
+msgstr "ctype"
 
 #: ../../source/searching.rst:559 ../../source/searching.rst:878
 #: ../../source/searching.rst:882 ../../source/searching.rst:890
@@ -818,46 +776,39 @@ msgstr "Medientyp"
 #: ../../source/searching.rst:1126 ../../source/searching.rst:1134
 #: ../../source/searching.rst:1140 ../../source/searching.rst:1146
 msgid "Koha-Auth-Number"
-msgstr ""
+msgstr "Koha-Auth-Number"
 
 #: ../../source/searching.rst:559
-#, fuzzy
 msgid "an"
-msgstr "Jan"
+msgstr "an"
 
 #: ../../source/searching.rst:561
-#, fuzzy
 msgid "Author-personal-bibliography"
-msgstr "a - Bibliographie"
+msgstr "Author-personal-bibliography"
 
 #: ../../source/searching.rst:561
-#, fuzzy
 msgid "aub"
-msgstr "ab"
+msgstr "aub"
 
 #: ../../source/searching.rst:563
-#, fuzzy
 msgid "Author-in-order"
-msgstr "Normdatensatz"
+msgstr "Author-in-order"
 
 #: ../../source/searching.rst:563
-#, fuzzy
 msgid "auo"
-msgstr "au"
+msgstr "auo"
 
 #: ../../source/searching.rst:566
-#, fuzzy
 msgid "Table: Attributes"
-msgstr "Attribute"
+msgstr "Tabelle: Attribute"
 
 #: ../../source/searching.rst:568
 msgid "Refer to the :ref:`Koha Indexing Chart <koha-search-indexes-label>` for the MARC21 tags mapped to each Bib-1 Attribute and index combination."
-msgstr ""
+msgstr "In der :ref:`Koha-Indextabelle <koha-search-indexes-label>` finden Sie Informationen zu den MARC21-Feldern, die auf Bib-1 Attribute gemappt sind, und ihren Index-Kombinationen."
 
 #: ../../source/searching.rst:574
-#, fuzzy
 msgid "Audience Examples"
-msgstr "Zielgruppencode"
+msgstr "Beispiele für Zielgruppen"
 
 #: ../../source/searching.rst:576
 msgid "aud:a Preschool"
@@ -892,16 +843,14 @@ msgid "aud:j Juvenile"
 msgstr "aud:j Jugendlich"
 
 #: ../../source/searching.rst:595
-#, fuzzy
 msgid "Contents Examples"
-msgstr "Content Cafe"
+msgstr "Beispiele für Inhalte"
 
 #: ../../source/searching.rst:597
 msgid "fic:1 Fiction"
 msgstr "fic:1 Belletristik"
 
 #: ../../source/searching.rst:599
-#, fuzzy
 msgid "fic:0 Non Fiction"
 msgstr "fic:0 Sachliteratur"
 
@@ -914,244 +863,216 @@ msgid "mus:j Musical recording"
 msgstr "mus:j Musikaufnahme"
 
 #: ../../source/searching.rst:605
-#, fuzzy
 msgid "mus:I Non musical record"
-msgstr "mus:i Nichtmusikalische Aufnahme"
+msgstr "mus:I Nichtmusikalische Aufnahme"
 
 #: ../../source/searching.rst:610
-#, fuzzy
 msgid "Search Syntax"
-msgstr "Suche nach"
+msgstr "Suchsyntax"
 
 #: ../../source/searching.rst:612
 msgid "In the persistent search box, single words generally retrieve large sets. To narrow a search, you can use multiple words. Koha automatically uses the 'and' Boolean operator to create a set of records matching your input. When you want to narrow the search to an author or a title or a subject or some other specific field or use a Boolean operator, there isn't an obvious way to accomplish that specificity. The library user can, of course, go to the Advanced Search page; however, if you know how to construct a CCL search, you can achieve more specificity while using the persistent search box on any page."
-msgstr ""
+msgstr "In der einfachen Suche generieren einzelne Wörter normalerweise große Treffermengen. Um eine Suche weiter einzuschränken, sollten Sie mehrere Suchwörter verwenden. Koha verknüpft dieses automatisch mit dem Booleschen Operator \"and\" um gibt eine Treffermenge zurück, die zu Ihrer Eingabe passt. Wenn Sie Ihre Suche noch weiter auf einen Verfasser, einen Titel oder ein Schlagwort oder mit einem Booleschen Operator einschränken möchten, gibt es hierzu keine unmittelbar offensichtliche Möglichkeit. Die BibliotheksbenutzerInnen können, natürlich, die erweiterte Suche verwenden; es ist allerdings auch möglich eine CCL-Abfrage im Feld für die einfache Suche zu konstruieren, um präzisere Suchen durchzuführen."
 
 #: ../../source/searching.rst:622
 msgid "There is a specific order to the CCL search syntax. Although it can be used for simple searches, it is an especially effective way to perform complex searches, as it affords you a great deal of control over your search results. To construct a CCL search, first enter a desired index code, then an equal sign, followed by your search word(s). Following are examples of simple CCL searches."
-msgstr ""
+msgstr "Innerhalb der CCL-Suchsyntax muss eine bestimmte Reihenfolge eingehalten werden. Obwohl Sie für einfache Suchen verwendet werden kann, ist sie besonders effektiv, wenn es um die Durchführung von komplexen Suchabfragen geht, da Sie eine große Kontrolle über die Suchergebnisse ermöglicht. Um eine CCL-Abfrage zu konstruieren, geben Sie zunächst den gewünschten Indexschlüssel, dann ein Gleichheitszeichen gefolgt von den Suchtermen ein. Nachfolgend ein paar Beispiele für CCL-Abfragen."
 
 #: ../../source/searching.rst:629
 msgid "ti=principles of accounting"
-msgstr ""
+msgstr "ti=principles of accounting"
 
 #: ../../source/searching.rst:631
 msgid "au=brown joseph"
-msgstr ""
+msgstr "au=brown joseph"
 
 #: ../../source/searching.rst:633
-#, fuzzy
 msgid "su=poetry"
-msgstr "Poesie"
+msgstr "su=poetry"
 
 #: ../../source/searching.rst:635
 msgid "su-na=Shakespeare"
-msgstr ""
+msgstr "su-na=Shakespeare"
 
 #: ../../source/searching.rst:637
 msgid "kw=marlin"
-msgstr ""
+msgstr "kw=marlin"
 
 #: ../../source/searching.rst:639
 msgid "You can refine your search by combining search terms with Boolean operators 'and', 'or', or 'not'. Following are examples of searches using Boolean operators."
-msgstr ""
+msgstr "Sie können Ihre Suche eingrenzen, indem Sie Suchterme mit den Booleschen Operatoren \"and\", \"or\" oder \"not\" verknüpfen. Nachfolgend einige Beispiele für Suchen mit Booleschen Operatoren."
 
 #: ../../source/searching.rst:643
 msgid "ti=principles of accounting and au=brown joseph"
-msgstr ""
+msgstr "ti=principles of accounting and au=brown joseph"
 
 #: ../../source/searching.rst:645
 msgid "su=poetry not su-na=Shakespeare"
-msgstr ""
+msgstr "su=poetry not su-na=Shakespeare"
 
 #: ../../source/searching.rst:647
-#, fuzzy
 msgid "kw=communication and su=debate"
-msgstr "Fernmeldeadresse"
+msgstr "kw=communication and su=debate"
 
 #: ../../source/searching.rst:649
-#, fuzzy
 msgid "You can also choose to search for things that start with a character or series of characters"
-msgstr "**Antwort**: Indem Sie CCl 'first-in-subfield' verwenden, können Sie nach Begriffen suchen, die mit einem Zeichen, oder mit einer Serie von Zeichen starten."
+msgstr "Sie können auch eine Suchabfrage nach Begriffen machen, die mit einem bestimmten Zeichen oder einer bestimmten Zeichenfolge beginnen"
 
 #: ../../source/searching.rst:652
-#, fuzzy
 msgid "ti,first-in-subfield=C (will show you all titles that start with the letter 'C')"
-msgstr "**Frage**: Wie kann ich alle Titel suchen, die mit dem Buchstaben 'C' beginnen?"
+msgstr "ti,first-in-subfield=C (sucht nach allen Titeln, die mit dem Buchstaben \"C\" beginnen)"
 
 #: ../../source/searching.rst:655
 msgid "Other string location searches can be performed with the following keywords:"
-msgstr ""
+msgstr "Andere Abfragen nach bestimmten Zwischenketten können mit den folgenden Schlüsselwörtern durchgeführt werden:"
 
 #: ../../source/searching.rst:658
-#, fuzzy
 msgid "rtrn : right truncation"
-msgstr "Extrem hohe Verkleinerung"
+msgstr "rtrn : Rechtstrunkierung"
 
 #: ../../source/searching.rst:660
 msgid "ltrn : left truncation"
-msgstr ""
+msgstr "ltrn : Linkstrunkierung"
 
 #: ../../source/searching.rst:662
-#, fuzzy
 msgid "lrtrn : left and right truncation"
-msgstr "Extrem hohe Verkleinerung"
+msgstr "lrtrn : Links- und Rechtstrunkierung"
 
 #: ../../source/searching.rst:664
 msgid "st-date : type date"
-msgstr ""
+msgstr "st-date : Typ Datum"
 
 #: ../../source/searching.rst:666
-#, fuzzy
 msgid "st-numeric : type number (integer)"
-msgstr "Exemplarnummer (intern)"
+msgstr "st-numeric : Typ Nummer (Integer)"
 
 #: ../../source/searching.rst:668
 msgid "ext : exact search on whole subfield (does not work with icu)"
-msgstr ""
+msgstr "ext : exakte Suche im gesamten Unterfeld (funktioniert nicht mit ICU)"
 
 #: ../../source/searching.rst:670
 msgid "phr : search on phrase anywhere in the subfield"
-msgstr ""
+msgstr "phr : Suche nach einer Phrase irgendwo im Unterfeld"
 
 #: ../../source/searching.rst:672
 msgid "startswithnt : subfield starts with"
-msgstr ""
+msgstr "startswithnt : Unterfeld beginnt mit"
 
 #: ../../source/searching.rst:674
 msgid "Using specific indexes and Boolean operators are not the only way a search can be refined. You can also refine your search as a phrase when looking for a title, author, or subject. The syntax for this search is *index,phr=search words*."
-msgstr ""
+msgstr "Spezifische Indexangaben und Boolesche Operatoren sind nicht die einzigen Möglichkeiten um eine Suche zu präzisieren. Sie können Ihre Suche auch auf eine bestimmte Phrase eingrenzen, wenn Sie nach einem Titel, Verfasser oder Schlagwort suchen. Die Syntax lautet in diesem Fall *index,phr=Suchbegriffe*."
 
 #: ../../source/searching.rst:679
 msgid "To illustrate the results of various search types, a search was done for the words 'supreme court'. The results illustrate that the search index and the word order make a difference in search results. Only the results count and the search itself is in these examples. The search executed will always be between the single quotes."
-msgstr ""
+msgstr "Um die Ergebnisse verschiedener Abfragen zu demonstrieren, wurde eine Suche nach den Worten \"supreme court\" durchgeführt. Die Ergebnisse zeigen, dass die Angabe des Suchindex und die Reihenfolge der Wörter zu unterschiedlichen Ergebnissen führen. Nachfolgend sehen Sie jeweils die Treffermenge und die Suchanfrage. Die Suchanfrage steht dabei jeweils zwischen den einfachen Anführungszeichen."
 
 #: ../../source/searching.rst:685
-#, fuzzy
 msgid "|image1049|"
 msgstr "|image1049|"
 
 #: ../../source/searching.rst:687
-#, fuzzy
 msgid "|image1050|"
 msgstr "|image1050|"
 
 #: ../../source/searching.rst:689
-#, fuzzy
 msgid "|image1051|"
 msgstr "|image1051|"
 
 #: ../../source/searching.rst:691
-#, fuzzy
 msgid "|image1052|"
 msgstr "|image1052|"
 
 #: ../../source/searching.rst:693
-#, fuzzy
 msgid "|image1053|"
 msgstr "|image1053|"
 
 #: ../../source/searching.rst:695
-#, fuzzy
 msgid "|image1054|"
 msgstr "|image1054|"
 
 #: ../../source/searching.rst:697
-#, fuzzy
 msgid "|image1055|"
 msgstr "|image1055|"
 
 #: ../../source/searching.rst:699
-#, fuzzy
 msgid "|image1056|"
 msgstr "|image1056|"
 
 #: ../../source/searching.rst:701
-#, fuzzy
 msgid "|image1057|"
 msgstr "|image1057|"
 
 #: ../../source/searching.rst:703
 msgid "You can also choose to use limiters in your search query. Some common limiters include dates, languages, record types, and item types. In the Advance Search, you can either click a box or key in data to limit your search. You can also apply the same limits with CCL by using the syntax in the following examples. In all"
-msgstr ""
+msgstr "Sie können auch Einschränkungen in Ihrer Suchabfrage verwenden. Einige übliche Einschränkungen sind Daten, Sprachen, Datensatztypen und Medientypen. In der Erweiterten Suche können Sie diese u.a. durch Checkboxen und Eingabe verwenden. Sie können dieselben Einschränkungen auch in CCL mit der Syntax aus den folgenden Beispielen verwenden."
 
 #: ../../source/searching.rst:709
 msgid "*By Date: su=supreme court and yr,st-numeric=>2000*"
-msgstr ""
+msgstr "*Nach Datum: su=supreme court and yr,st-numeric=>2000*"
 
 #: ../../source/searching.rst:711
-#, fuzzy
 msgid "|image1058|"
 msgstr "|image1058|"
 
 #: ../../source/searching.rst:713
 msgid "When you limit by date, you can use the '>' (greater than), '<' (less than), '=' (equal), or 'yyyy-yyyy' (range) symbols."
-msgstr ""
+msgstr "Wenn Sie nach Datum einschränken möchten, können Sie die Operatoren \">\" (größer als), \"<\" (kleiner als), \"=\" (gleich) oder \"JJJJ-JJJJ\" (Bereich) verwenden."
 
 #: ../../source/searching.rst:716
 msgid "*By Item Type: su=nursing and itype:BK*"
-msgstr ""
+msgstr "*Nach Medientyp: su=nursing and itype:BK*"
 
 #: ../../source/searching.rst:718
-#, fuzzy
 msgid "|image1059|"
 msgstr "|image1059|"
 
 #: ../../source/searching.rst:720
 msgid "Each library will have a different set of item types defined in their circulation configuration. When you set up item types, you define a code and a name for each one. The name will appear on the Advance Search page. The code you assigned is used as a CCL search limit, formatted as 'itype:x', where 'x' is the assigned code. The initial set of item types in Koha will usually be edited to reflect your collections, so your item type limiters may be different than the initial ones. The initial item type limiters follow."
-msgstr ""
+msgstr "Jede Bibliothek wird eigene Medientypen in ihrer Konfiguration definieren. Wenn Sie Medientypen anlegen, wird ein Code/Kürzel und eine Bezeichnung vergeben. Die Bezeichnung wird in der Erweiterten Suche angezeigt. Der Code wird als CCL-Einschränkung verwendet, formatiert als \"itype:x\", wobei \"x\" der vergebene Code ist. Die verfügbaren Beispiele für Medientypen werden in der Regel editiert, um Ihre eigenen Bestände abzubilden, daher können Ihre Medientypen komplett unterschiedlich zu den Beispielen sein. Die verfügbaren Beispieldaten sind trotzdem nachfolgend aufgeführt."
 
 #: ../../source/searching.rst:729
-#, fuzzy
 msgid "itype:BKS Books, Booklets, Workbooks"
-msgstr "Monographien, Broschüren, Arbeitsbücher"
+msgstr "itype:BKS Monographien, Broschüren, Arbeitsbücher"
 
 #: ../../source/searching.rst:731
-#, fuzzy
 msgid "itype:SR Audio Cassettes, CDs"
-msgstr "Audiokassetten, CDs"
+msgstr "itype:SR Audiokassetten, CDs"
 
 #: ../../source/searching.rst:733
-#, fuzzy
 msgid "itype:IR Binders"
-msgstr "ctype:i Indices "
+msgstr "itype:IR Loseblattsammlungen"
 
 #: ../../source/searching.rst:735
-#, fuzzy
 msgid "itype:CF CD-ROMs, DVD-ROMs, General Online Resources"
-msgstr "CD-ROMs, DVD-ROMs, Online-Ressourcen"
+msgstr "itype:CF CD-ROMs, DVD-ROMs, Online-Ressourcen"
 
 #: ../../source/searching.rst:737
-#, fuzzy
 msgid "itype:VR DVDs, VHS"
-msgstr "DVDs, Videokassetten"
+msgstr "itype:VR DVDs, Videokassetten"
 
 #: ../../source/searching.rst:739
 msgid "itype:KT Kit"
-msgstr ""
+msgstr "itype:KT Medienkombination"
 
 #: ../../source/searching.rst:741
-#, fuzzy
 msgid "itype:AR Models"
-msgstr "Medientypcode"
+msgstr "itype:AR Gegenstände"
 
 #: ../../source/searching.rst:743
-#, fuzzy
 msgid "itype:SER Serials"
-msgstr "Hefte bearbeiten"
+msgstr "itype:SER Zeitschriften"
 
 #: ../../source/searching.rst:745
 msgid "*By format: su=supreme court not l-format:sr*"
-msgstr ""
+msgstr "*Nach Format: su=supreme court not l-format:sr*"
 
 #: ../../source/searching.rst:747
-#, fuzzy
 msgid "|image1060|"
 msgstr "|image1060|"
 
 #: ../../source/searching.rst:749
 msgid "The format limiters are derived from a combination of LDR, 006 and 007 positions. The formats that are currently defined are the following."
-msgstr ""
+msgstr "Für die Einschränkung auf verschiedene Formate werden verschiedene Positionen aus LDR, 006 und 007 verwendet. Aktuell sind die folgenden Formate definiert."
 
 #: ../../source/searching.rst:752
 msgid "l-format:ta Regular print"
@@ -1174,17 +1095,14 @@ msgid "l-format:ss Cassette recording"
 msgstr "l-format:ss Kasettenaufnahme"
 
 #: ../../source/searching.rst:762
-#, fuzzy
 msgid "l-format:vf VHS tape"
 msgstr "l-format:vf VHS-Band / Videokassette"
 
 #: ../../source/searching.rst:764
-#, fuzzy
 msgid "l-format:vd DVD video"
 msgstr "l-format:vd DVD-Video / Video-CD"
 
 #: ../../source/searching.rst:766
-#, fuzzy
 msgid "l-format:co CD software"
 msgstr "l-format:co Software-CD"
 
@@ -1194,29 +1112,27 @@ msgstr "l-format:cr Website"
 
 #: ../../source/searching.rst:770
 msgid "*By content type: su=supreme court not ctype:l*"
-msgstr ""
+msgstr "*Nach Inhaltsart: su=supreme court not ctype:l*"
 
 #: ../../source/searching.rst:772
-#, fuzzy
 msgid "|image1061|"
 msgstr "|image1061|"
 
 #: ../../source/searching.rst:774
 msgid "The content types are taken from the 008 MARC tag, positions 24-27."
-msgstr ""
+msgstr "Die Inhaltstypen kommen aus MARC-Feld 008, Positionen 24-27."
 
 #: ../../source/searching.rst:776
 msgid "There are two other limiter types that are not described in this document. They are: Audience and Content. The only difference in the syntax of the CCL is the actual limiter. They are reproduced here just in case you would like to use these limiters."
-msgstr ""
+msgstr "Es gibt zwei weitere Einschränkungen, die nicht in diesem Dokument beschrieben werden. Diese sind: Zielgruppe und Inhalt. Der einzige Unterschied in der CCL-Syntax ist der verwendete Indexcode. Diese werden hier ebenfalls aufgeführt, falls Sie diese verwenden möchten:"
 
 #: ../../source/searching.rst:784
-#, fuzzy
 msgid "Koha Search Indexes"
-msgstr "Index durchsuchen: "
+msgstr "Koha-Suchindizes"
 
 #: ../../source/searching.rst:786
 msgid "By default, not all fields are indexed in the Zebra search engine, but many are. Below are the MARC21 fields that are indexed in Zebra."
-msgstr ""
+msgstr "Im Standard sind nicht alle Felder einzeln mit der Zebra-Suchmaschine indexiert, aber viele sind es. Unten sind die MARC21-Felder aufgeführt, für die es spezifische Indizes gibt."
 
 #: ../../source/searching.rst:790
 msgid "Field"
@@ -1227,42 +1143,36 @@ msgid "Description"
 msgstr "Beschreibung"
 
 #: ../../source/searching.rst:792
-#, fuzzy
 msgid "Leader/06"
-msgstr "Überschrift 6"
+msgstr "Leader/06"
 
 #: ../../source/searching.rst:792
-#, fuzzy
 msgid "Record-type, rtype"
-msgstr "Datensatztyp"
+msgstr "Record-type, rtype"
 
 #: ../../source/searching.rst:794
-#, fuzzy
 msgid "Leader/07"
-msgstr "Überschriften"
+msgstr "Leader/07"
 
 #: ../../source/searching.rst:794
 msgid "Bib-level"
-msgstr ""
+msgstr "Bib-level"
 
 #: ../../source/searching.rst:796
-#, fuzzy
 msgid "Leader/06-07"
-msgstr "Überschrift 6"
+msgstr "Leader/06-07"
 
 #: ../../source/searching.rst:796 ../../source/searching.rst:980
-#, fuzzy
 msgid "Material-type"
-msgstr "Materialtyp: "
+msgstr "Material-type"
 
 #: ../../source/searching.rst:798
 msgid "001"
 msgstr "001"
 
 #: ../../source/searching.rst:798
-#, fuzzy
 msgid "Control-number"
-msgstr "Kontrollnummer:"
+msgstr "Control-number"
 
 #: ../../source/searching.rst:800
 msgid "005"
@@ -1270,16 +1180,15 @@ msgstr "005"
 
 #: ../../source/searching.rst:800
 msgid "Date/time-last-modified, dtlm, date-time-last-modified"
-msgstr ""
+msgstr "Date/time-last-modified, dtlm, date-time-last-modified"
 
 #: ../../source/searching.rst:802
-#, fuzzy
 msgid "007"
-msgstr "000"
+msgstr "007"
 
 #: ../../source/searching.rst:802
 msgid "Microform-generation:n:range(data,11,1), Material-type,ff7-00:w:range(data,0,1), ff7-01:w:range(data,1,1), ff7-02:w:range(data,2,1), ff7-01-02:w:range(data,0,2)"
-msgstr ""
+msgstr "Microform-generation:n:range(data,11,1), Material-type,ff7-00:w:range(data,0,1), ff7-01:w:range(data,1,1), ff7-02:w:range(data,2,1), ff7-01-02:w:range(data,0,2)"
 
 #: ../../source/searching.rst:804
 msgid "008"
@@ -1287,7 +1196,7 @@ msgstr "008"
 
 #: ../../source/searching.rst:804
 msgid "date-entered-on-file:n:range(data,0,5), date-entered-on-file:s:range(data,0,5), pubdate:w:range(data,7,4), pubdate:n:range(data,7,4), pubdate:y:range(data,7,4), pubdate:s:range(data,7,4), pl:w:range(data,15,3), ta:w:range(data,22,1), ff8-23:w:range(data,23,1), ff8-29:w:range(data,29,1), lf:w:range(data,33,1), bio:w:range(data,34,1), ln:n:range(data,35,3), ctype:w:range(data,24,4), Record-source:w:range(data,39,0)"
-msgstr ""
+msgstr "date-entered-on-file:n:range(data,0,5), date-entered-on-file:s:range(data,0,5), pubdate:w:range(data,7,4), pubdate:n:range(data,7,4), pubdate:y:range(data,7,4), pubdate:s:range(data,7,4), pl:w:range(data,15,3), ta:w:range(data,22,1), ff8-23:w:range(data,23,1), ff8-29:w:range(data,29,1), lf:w:range(data,33,1), bio:w:range(data,34,1), ln:n:range(data,35,3), ctype:w:range(data,24,4), Record-source:w:range(data,39,0)"
 
 #: ../../source/searching.rst:806
 msgid "010"
@@ -1295,50 +1204,45 @@ msgstr "010"
 
 #: ../../source/searching.rst:806 ../../source/searching.rst:808
 msgid "LC-card-number, Identifier-standard"
-msgstr ""
+msgstr "LC-card-number, Identifier-standard"
 
 #: ../../source/searching.rst:808
-#, fuzzy
 msgid "011"
-msgstr "001"
+msgstr "011"
 
 #: ../../source/searching.rst:810
-#, fuzzy
 msgid "015"
-msgstr "001"
+msgstr "015"
 
 #: ../../source/searching.rst:810
 msgid "BNB-card-number, BGF-number, Number-db, Number-natl-biblio, Identifier-standard"
-msgstr ""
+msgstr "BNB-card-number, BGF-number, Number-db, Number-natl-biblio, Identifier-standard"
 
 #: ../../source/searching.rst:812
-#, fuzzy
 msgid "017"
-msgstr "001"
+msgstr "017"
 
 #: ../../source/searching.rst:812
 msgid "Number-legal-deposit, Identifier-standard"
-msgstr ""
+msgstr "Number-legal-deposit, Identifier-standard"
 
 #: ../../source/searching.rst:814
-#, fuzzy
 msgid "018"
-msgstr "001"
+msgstr "018"
 
 #: ../../source/searching.rst:814 ../../source/searching.rst:818
 #: ../../source/searching.rst:822 ../../source/searching.rst:824
 #: ../../source/searching.rst:828 ../../source/searching.rst:830
-#, fuzzy
 msgid "Identifier-standard"
-msgstr "Identifier für die Quelle der Metadaten"
+msgstr "Identifier-standard"
 
 #: ../../source/searching.rst:816
 msgid "020$a"
-msgstr ""
+msgstr "020$a"
 
 #: ../../source/searching.rst:816
 msgid "ISBN:w, Identifier-standard:w"
-msgstr ""
+msgstr "ISBN:w, Identifier-standard:w"
 
 #: ../../source/searching.rst:818
 msgid "020"
@@ -1346,226 +1250,195 @@ msgstr "020"
 
 #: ../../source/searching.rst:820
 msgid "022$a"
-msgstr ""
+msgstr "022$a"
 
 #: ../../source/searching.rst:820
 msgid "ISSN:w, Identifier-standard:w"
-msgstr ""
+msgstr "ISSN:w, Identifier-standard:w"
 
 #: ../../source/searching.rst:822
 msgid "022"
 msgstr "022"
 
 #: ../../source/searching.rst:824
-#, fuzzy
 msgid "023"
-msgstr "003"
+msgstr "023"
 
 #: ../../source/searching.rst:826
 msgid "024$a"
-msgstr ""
+msgstr "024$a"
 
 #: ../../source/searching.rst:826
-#, fuzzy
 msgid "Identifier-other"
-msgstr "Zeitraum-Identifikator"
+msgstr "Identifier-other"
 
 #: ../../source/searching.rst:828
-#, fuzzy
 msgid "024"
-msgstr "020"
+msgstr "024"
 
 #: ../../source/searching.rst:830
-#, fuzzy
 msgid "025"
-msgstr "005"
+msgstr "025"
 
 #: ../../source/searching.rst:832
-#, fuzzy
 msgid "027"
-msgstr "020"
+msgstr "027"
 
 #: ../../source/searching.rst:832
 msgid "Report-number, Identifier-standard"
-msgstr ""
+msgstr "Report-number, Identifier-standard"
 
 #: ../../source/searching.rst:834
-#, fuzzy
 msgid "028"
-msgstr "008"
+msgstr "028"
 
 #: ../../source/searching.rst:834
 msgid "Number-music-publisher, Identifier-standard"
-msgstr ""
+msgstr "Number-music-publisher, Identifier-standard"
 
 #: ../../source/searching.rst:836
-#, fuzzy
 msgid "030"
-msgstr "000"
+msgstr "030"
 
 #: ../../source/searching.rst:836
 msgid "CODEN, Identifier-standard"
-msgstr ""
+msgstr "CODEN, Identifier-standard"
 
 #: ../../source/searching.rst:838
-#, fuzzy
 msgid "034"
-msgstr "003"
+msgstr "034"
 
 #: ../../source/searching.rst:838
-#, fuzzy
 msgid "Map-scale"
-msgstr "Graustufen"
+msgstr "Map-scale"
 
 #: ../../source/searching.rst:840
-#, fuzzy
 msgid "035"
-msgstr "003"
+msgstr "035"
 
 #: ../../source/searching.rst:840
-#, fuzzy
 msgid "Other-control-number"
-msgstr "Datensatzkontrollnummer"
+msgstr "Other-control-number"
 
 #: ../../source/searching.rst:842
-#, fuzzy
 msgid "037"
-msgstr "003"
+msgstr "037"
 
 #: ../../source/searching.rst:842
 msgid "Identifier-standard, Stock-number"
-msgstr ""
+msgstr "Identifier-standard, Stock-number"
 
 #: ../../source/searching.rst:844
 msgid "040"
 msgstr "040"
 
 #: ../../source/searching.rst:844
-#, fuzzy
 msgid "Code-institution, Record-source"
-msgstr "Periodikum"
+msgstr "Code-institution, Record-source"
 
 #: ../../source/searching.rst:846
 msgid "041$a"
-msgstr ""
+msgstr "041$a"
 
 #: ../../source/searching.rst:846
-#, fuzzy
 msgid "ln-audio"
-msgstr "Audio-CD"
+msgstr "ln-audio"
 
 #: ../../source/searching.rst:848
 msgid "041$h"
-msgstr ""
+msgstr "041$h"
 
 #: ../../source/searching.rst:848
-#, fuzzy
 msgid "language-original"
-msgstr "Sprache des Originals: "
+msgstr "language-original"
 
 #: ../../source/searching.rst:850
 msgid "041$j"
-msgstr ""
+msgstr "041$j"
 
 #: ../../source/searching.rst:850
-#, fuzzy
 msgid "ln-subtitle"
-msgstr "Untertitel"
+msgstr "ln-subtitle"
 
 #: ../../source/searching.rst:852
 msgid "041"
 msgstr "041"
 
 #: ../../source/searching.rst:854
-#, fuzzy
 msgid "043"
-msgstr "003"
+msgstr "043"
 
 #: ../../source/searching.rst:854
-#, fuzzy
 msgid "Code-geographic"
-msgstr "Name-geographisch"
+msgstr "Code-geographic"
 
 #: ../../source/searching.rst:856
 msgid "050$b"
-msgstr ""
+msgstr "050$b"
 
 #: ../../source/searching.rst:856 ../../source/searching.rst:858
-#, fuzzy
 msgid "LC-call-number:w, LC-call-number:p, LC-call-number:s"
-msgstr "Local-Number:n, Local-Number:w, Local-Number:s"
+msgstr "LC-call-number:w, LC-call-number:p, LC-call-number:s"
 
 #: ../../source/searching.rst:858
-#, fuzzy
 msgid "050"
-msgstr "000"
+msgstr "050"
 
 #: ../../source/searching.rst:860
-#, fuzzy
 msgid "052"
-msgstr "005"
+msgstr "052"
 
 #: ../../source/searching.rst:860
-#, fuzzy
 msgid "Geographic-class"
-msgstr "Geografischer Name"
+msgstr "Geographic-class"
 
 #: ../../source/searching.rst:862
-#, fuzzy
 msgid "060"
-msgstr "000"
+msgstr "060"
 
 #: ../../source/searching.rst:862
-#, fuzzy
 msgid "NLM-call-number"
-msgstr "callnumber"
+msgstr "NLM-call-number"
 
 #: ../../source/searching.rst:864
-#, fuzzy
 msgid "070"
-msgstr "000"
+msgstr "070"
 
 #: ../../source/searching.rst:864
-#, fuzzy
 msgid "NAL-call-number"
-msgstr "callnumber"
+msgstr "NAL-call-number"
 
 #: ../../source/searching.rst:866
-#, fuzzy
 msgid "080"
-msgstr "000"
+msgstr "080"
 
 #: ../../source/searching.rst:866
-#, fuzzy
 msgid "UDC-classification"
-msgstr "Klassifikation"
+msgstr "UDC-classification"
 
 #: ../../source/searching.rst:868
-#, fuzzy
 msgid "082"
-msgstr "008"
+msgstr "082"
 
 #: ../../source/searching.rst:868
 msgid "Dewey-classification:w, Dewey-classification:s"
-msgstr ""
+msgstr "Dewey-classification:w, Dewey-classification:s"
 
 #: ../../source/searching.rst:870
-#, fuzzy
 msgid "086"
-msgstr "008"
+msgstr "086"
 
 #: ../../source/searching.rst:870
 msgid "Number-govt-pub"
-msgstr ""
+msgstr "Number-govt-pub"
 
 #: ../../source/searching.rst:872
-#, fuzzy
 msgid "100$9"
-msgstr "100$a"
+msgstr "100$9"
 
 #: ../../source/searching.rst:872 ../../source/searching.rst:920
 msgid "Cross-Reference:w, Koha-Auth-Number"
-msgstr ""
+msgstr "Cross-Reference:w, Koha-Auth-Number"
 
 #: ../../source/searching.rst:874
 msgid "100$a"
@@ -1573,7 +1446,7 @@ msgstr "100$a"
 
 #: ../../source/searching.rst:874
 msgid "Author,Author:p, Author:s, Editor, Author-personal-bibliography, Author-personal-bibliography:p, Author-personal-bibliography:s"
-msgstr ""
+msgstr "Author,Author:p, Author:s, Editor, Author-personal-bibliography, Author-personal-bibliography:p, Author-personal-bibliography:s"
 
 #: ../../source/searching.rst:876
 msgid "100"
@@ -1581,12 +1454,11 @@ msgstr "100"
 
 #: ../../source/searching.rst:876
 msgid "Author, Author-title, Author-name-personal, Name, Name-and-title, Personal-name"
-msgstr ""
+msgstr "Author, Author-title, Author-name-personal, Name, Name-and-title, Personal-name"
 
 #: ../../source/searching.rst:878
-#, fuzzy
 msgid "110$9"
-msgstr "110$a"
+msgstr "110$9"
 
 #: ../../source/searching.rst:880
 msgid "110"
@@ -1594,12 +1466,11 @@ msgstr "110"
 
 #: ../../source/searching.rst:880
 msgid "Author, Author-title, Author-name-corporate, Name, Name-and-title, Corporate-name"
-msgstr ""
+msgstr "Author, Author-title, Author-name-corporate, Name, Name-and-title, Corporate-name"
 
 #: ../../source/searching.rst:882
-#, fuzzy
 msgid "111$9"
-msgstr "111$a"
+msgstr "111$9"
 
 #: ../../source/searching.rst:884
 msgid "111"
@@ -1607,151 +1478,135 @@ msgstr "111"
 
 #: ../../source/searching.rst:884
 msgid "Author, Author-title, Author-name-corporate, Name, Name-and-title, Conference-name"
-msgstr ""
+msgstr "Author, Author-title, Author-name-corporate, Name, Name-and-title, Conference-name"
 
 #: ../../source/searching.rst:886
-#, fuzzy
 msgid "130$n"
-msgstr "130$a"
+msgstr "130$n"
 
 #: ../../source/searching.rst:886 ../../source/searching.rst:906
 #: ../../source/searching.rst:910 ../../source/searching.rst:1026
 #: ../../source/searching.rst:1072 ../../source/searching.rst:1098
-#, fuzzy
 msgid "Thematic-number"
-msgstr "Nummer des thematischen Index"
+msgstr "Thematic-number"
 
 #: ../../source/searching.rst:888
-#, fuzzy
 msgid "130$r"
-msgstr "130$a"
+msgstr "130$r"
 
 #: ../../source/searching.rst:888 ../../source/searching.rst:904
 #: ../../source/searching.rst:912 ../../source/searching.rst:1028
 #: ../../source/searching.rst:1074 ../../source/searching.rst:1100
-#, fuzzy
 msgid "Music-key"
-msgstr "Musik"
+msgstr "Music-key"
 
 #: ../../source/searching.rst:890
-#, fuzzy
 msgid "130$9"
-msgstr "130$a"
+msgstr "130$9"
 
 #: ../../source/searching.rst:892
-#, fuzzy
 msgid "130"
-msgstr "130$a"
+msgstr "130"
 
 #: ../../source/searching.rst:892 ../../source/searching.rst:1104
-#, fuzzy
 msgid "Title, Title-uniform"
-msgstr "Einheitstitel"
+msgstr "Title, Title-uniform"
 
 #: ../../source/searching.rst:894
-#, fuzzy
 msgid "210"
-msgstr "010"
+msgstr "210"
 
 #: ../../source/searching.rst:894 ../../source/searching.rst:896
 msgid "Title, Title-abbreviated"
-msgstr ""
+msgstr "Title, Title-abbreviated"
 
 #: ../../source/searching.rst:896
-#, fuzzy
 msgid "211"
-msgstr "110"
+msgstr "211"
 
 #: ../../source/searching.rst:898
-#, fuzzy
 msgid "212"
-msgstr "022"
+msgstr "212"
 
 #: ../../source/searching.rst:898 ../../source/searching.rst:1106
 msgid "Title, Title-other-variant"
-msgstr ""
+msgstr "Title, Title-other-variant"
 
 #: ../../source/searching.rst:900
-#, fuzzy
 msgid "214"
-msgstr "245"
+msgstr "214"
 
 #: ../../source/searching.rst:900
 msgid "Title, Title-expanded"
-msgstr ""
+msgstr "Title, Title-expanded"
 
 #: ../../source/searching.rst:902
-#, fuzzy
 msgid "222"
-msgstr "022"
+msgstr "222"
 
 #: ../../source/searching.rst:902
-#, fuzzy
 msgid "Title, Title-key"
-msgstr "Titelstellenwert"
+msgstr "Title, Title-key"
 
 #: ../../source/searching.rst:904
 msgid "240$r"
-msgstr ""
+msgstr "240$r"
 
 #: ../../source/searching.rst:906
 msgid "240$n"
-msgstr ""
+msgstr "240$n"
 
 #: ../../source/searching.rst:908
-#, fuzzy
 msgid "240"
-msgstr "020"
+msgstr "240"
 
 #: ../../source/searching.rst:908
 msgid "Title:w, Title:p, Title-uniform"
-msgstr ""
+msgstr "Title:w, Title:p, Title-uniform"
 
 #: ../../source/searching.rst:910
 msgid "243$n"
-msgstr ""
+msgstr "243$n"
 
 #: ../../source/searching.rst:912
 msgid "243$r"
-msgstr ""
+msgstr "243$r"
 
 #: ../../source/searching.rst:914
-#, fuzzy
 msgid "243"
-msgstr "245"
+msgstr "243"
 
 #: ../../source/searching.rst:914
 msgid "Title:w, Title:p, Title-collective"
-msgstr ""
+msgstr "Title:w, Title:p, Title-collective"
 
 #: ../../source/searching.rst:916
 msgid "245$a"
-msgstr ""
+msgstr "245$a"
 
 #: ../../source/searching.rst:916
 msgid "Title-cover:w, Title-cover:p, Title-cover:s, Title:w, Title:p, Title:s"
-msgstr ""
+msgstr "Title-cover:w, Title-cover:p, Title-cover:s, Title:w, Title:p, Title:s"
 
 #: ../../source/searching.rst:918
 msgid "245$c"
-msgstr ""
+msgstr "245$c"
 
 #: ../../source/searching.rst:918
 msgid "Author, Author-in-order:w, Author-in-order:p, Author-in-order:s"
-msgstr ""
+msgstr "Author, Author-in-order:w, Author-in-order:p, Author-in-order:s"
 
 #: ../../source/searching.rst:920
 msgid "245$9"
-msgstr ""
+msgstr "245$9"
 
 #: ../../source/searching.rst:922
 msgid "245"
 msgstr "245"
 
 #: ../../source/searching.rst:922
-#, fuzzy
 msgid "Title:w, Title:p"
-msgstr "Titel: "
+msgstr "Title:w, Title:p"
 
 #: ../../source/searching.rst:924
 msgid "246"
@@ -1759,60 +1614,55 @@ msgstr "246"
 
 #: ../../source/searching.rst:924
 msgid "Title, Title:p, Title-abbreviated, Title-expanded, Title-former"
-msgstr ""
+msgstr "Title, Title:p, Title-abbreviated, Title-expanded, Title-former"
 
 #: ../../source/searching.rst:926
-#, fuzzy
 msgid "247"
-msgstr "245"
+msgstr "247"
 
 #: ../../source/searching.rst:926
 msgid "Title, Title:p, Title-former, Title-other-variant, Related-periodical"
-msgstr ""
+msgstr "Title, Title:p, Title-former, Title-other-variant, Related-periodical"
 
 #: ../../source/searching.rst:928
 msgid "260$a"
-msgstr ""
+msgstr "260$a"
 
 #: ../../source/searching.rst:928
 msgid "pl:w, pl:p"
-msgstr ""
+msgstr "pl:w, pl:p"
 
 #: ../../source/searching.rst:930
 msgid "260$b"
-msgstr ""
+msgstr "260$b"
 
 #: ../../source/searching.rst:930
-#, fuzzy
 msgid "Publisher:w, Publisher:p"
-msgstr "Verlagsnummer:"
+msgstr "Publisher:w, Publisher:p"
 
 #: ../../source/searching.rst:932
 msgid "260$c"
-msgstr ""
+msgstr "260$c"
 
 #: ../../source/searching.rst:932
 msgid "copydate, copydate:s"
-msgstr ""
+msgstr "copydate, copydate:s"
 
 #: ../../source/searching.rst:934
 msgid "260"
 msgstr "260"
 
 #: ../../source/searching.rst:934
-#, fuzzy
 msgid "Provider, pl"
-msgstr "Provider:"
+msgstr "Provider, pl"
 
 #: ../../source/searching.rst:936
-#, fuzzy
 msgid "264"
-msgstr "245"
+msgstr "264"
 
 #: ../../source/searching.rst:936
-#, fuzzy
 msgid "Provider"
-msgstr "Provider:"
+msgstr "Provider"
 
 #: ../../source/searching.rst:938
 msgid "300"
@@ -1820,124 +1670,112 @@ msgstr "300"
 
 #: ../../source/searching.rst:938
 msgid "Extent:w, Extent:p"
-msgstr ""
+msgstr "Extent:w, Extent:p"
 
 #: ../../source/searching.rst:940
-#, fuzzy
 msgid "400$a"
-msgstr "100$a"
+msgstr "400$a"
 
 #: ../../source/searching.rst:940 ../../source/searching.rst:950
 #: ../../source/searching.rst:960 ../../source/searching.rst:1008
 #: ../../source/searching.rst:1018 ../../source/searching.rst:1084
 #: ../../source/searching.rst:1090 ../../source/searching.rst:1122
 #: ../../source/searching.rst:1130 ../../source/searching.rst:1138
-#, fuzzy
 msgid "Name-and-title"
-msgstr "Augmented title"
+msgstr "Name-and-title"
 
 #: ../../source/searching.rst:942
 msgid "400$t"
-msgstr ""
+msgstr "400$t"
 
 #: ../../source/searching.rst:942 ../../source/searching.rst:1124
 #: ../../source/searching.rst:1132 ../../source/searching.rst:1142
 msgid "Author-title, Name-and-title, Title, Title-series"
-msgstr ""
+msgstr "Author-title, Name-and-title, Title, Title-series"
 
 #: ../../source/searching.rst:944
 msgid "400$9"
-msgstr ""
+msgstr "400$9"
 
 #: ../../source/searching.rst:946
-#, fuzzy
 msgid "400"
-msgstr "000"
+msgstr "400"
 
 #: ../../source/searching.rst:946 ../../source/searching.rst:1128
 msgid "Author, Author-name-personal, Name, Personal-name"
-msgstr ""
+msgstr "Author, Author-name-personal, Name, Personal-name"
 
 #: ../../source/searching.rst:948 ../../source/searching.rst:956
-#, fuzzy
 msgid "410"
-msgstr "010"
+msgstr "410"
 
 #: ../../source/searching.rst:948 ../../source/searching.rst:1080
-#, fuzzy
 msgid "Author, Corporate-name"
-msgstr "Verfasser (Körperschaft): "
+msgstr "Author, Corporate-name"
 
 #: ../../source/searching.rst:950
-#, fuzzy
 msgid "410$a"
-msgstr "010$a"
+msgstr "410$a"
 
 #: ../../source/searching.rst:952
 msgid "410$t"
-msgstr ""
+msgstr "410$t"
 
 #: ../../source/searching.rst:952
 msgid "Author-title, Title, Title-series"
-msgstr ""
+msgstr "Author-title, Title, Title-series"
 
 #: ../../source/searching.rst:954
 msgid "410$9"
-msgstr ""
+msgstr "410$9"
 
 #: ../../source/searching.rst:956 ../../source/searching.rst:964
-#, fuzzy
 msgid "Author-name-corporate, Name"
-msgstr "Verfasser (Körperschaft): "
+msgstr "Author-name-corporate, Name"
 
 #: ../../source/searching.rst:958 ../../source/searching.rst:964
-#, fuzzy
 msgid "411"
-msgstr "041"
+msgstr "411"
 
 #: ../../source/searching.rst:958
-#, fuzzy
 msgid "Author, Conference-name"
-msgstr "Verfasser (Kongress/Konferenz): "
+msgstr "Author, Conference-name"
 
 #: ../../source/searching.rst:960
-#, fuzzy
 msgid "411$a"
-msgstr "111$a"
+msgstr "411$a"
 
 #: ../../source/searching.rst:962
 msgid "411$t"
-msgstr ""
+msgstr "411$t"
 
 #: ../../source/searching.rst:962
-#, fuzzy
 msgid "Author-title, Title-series"
-msgstr "Normdatentabellen"
+msgstr "Author-title, Title-series"
 
 #: ../../source/searching.rst:966
 msgid "440$a"
-msgstr ""
+msgstr "440$a"
 
 #: ../../source/searching.rst:966 ../../source/searching.rst:972
 msgid "Title-series:w, Title-series:p"
-msgstr ""
+msgstr "Title-series:w, Title-series:p"
 
 #: ../../source/searching.rst:968
 msgid "440$9"
-msgstr ""
+msgstr "440$9"
 
 #: ../../source/searching.rst:970
-#, fuzzy
 msgid "440"
-msgstr "040"
+msgstr "440"
 
 #: ../../source/searching.rst:970
 msgid "Title-series:w, Title-series:p, Title, Title-series"
-msgstr ""
+msgstr "Title-series:w, Title-series:p, Title, Title-series"
 
 #: ../../source/searching.rst:972
 msgid "490$a"
-msgstr ""
+msgstr "490$a"
 
 #: ../../source/searching.rst:974
 msgid "490"
@@ -1945,13 +1783,12 @@ msgstr "490"
 
 #: ../../source/searching.rst:974 ../../source/searching.rst:1148
 #: ../../source/searching.rst:1150
-#, fuzzy
 msgid "Title, Title-series"
-msgstr "Titelinformationen"
+msgstr "Title, Title-series"
 
 #: ../../source/searching.rst:976
 msgid "490$9"
-msgstr ""
+msgstr "490$9"
 
 #: ../../source/searching.rst:978
 msgid "500"
@@ -1959,94 +1796,88 @@ msgstr "500"
 
 #: ../../source/searching.rst:978 ../../source/searching.rst:986
 #: ../../source/searching.rst:998 ../../source/searching.rst:1232
-#, fuzzy
 msgid "Note:w, Note:p"
-msgstr "Hinweis: "
+msgstr "Note:w, Note:p"
 
 #: ../../source/searching.rst:980
-#, fuzzy
 msgid "502"
-msgstr "020"
+msgstr "502"
 
 #: ../../source/searching.rst:982
 msgid "505$r"
-msgstr ""
+msgstr "505$r"
 
 #: ../../source/searching.rst:984
 msgid "505$t"
-msgstr ""
+msgstr "505$t"
 
 #: ../../source/searching.rst:986
 msgid "505"
 msgstr "505"
 
 #: ../../source/searching.rst:988
-#, fuzzy
 msgid "510"
-msgstr "010"
+msgstr "510"
 
 #: ../../source/searching.rst:988
-#, fuzzy
 msgid "Indexed-by"
-msgstr "Indices"
+msgstr "Indexed-by"
 
 #: ../../source/searching.rst:990
 msgid "520"
 msgstr "520"
 
 #: ../../source/searching.rst:990
-#, fuzzy
 msgid "Abstract:w, Abstract:p"
-msgstr "Zusammenfassung: "
+msgstr "Abstract:w, Abstract:p"
 
 #: ../../source/searching.rst:992
 msgid "521$a"
-msgstr ""
+msgstr "521$a"
 
 #: ../../source/searching.rst:992
 msgid "lex:n"
-msgstr ""
+msgstr "lex:n"
 
 #: ../../source/searching.rst:994
 msgid "526$c"
-msgstr ""
+msgstr "526$c"
 
 #: ../../source/searching.rst:994
 msgid "arl, arl:n"
-msgstr ""
+msgstr "arl, arl:n"
 
 #: ../../source/searching.rst:996
 msgid "526$d"
-msgstr ""
+msgstr "526$d"
 
 #: ../../source/searching.rst:996
 msgid "arp, arp:n"
-msgstr ""
+msgstr "arp, arp:n"
 
 #: ../../source/searching.rst:998
 msgid "590"
 msgstr "590"
 
 #: ../../source/searching.rst:1000
-#, fuzzy
 msgid "600$a"
-msgstr "100$a"
+msgstr "600$a"
 
 #: ../../source/searching.rst:1000
 msgid "Name-and-title, Name, Personal-name, Subject-name-personal, Subject"
-msgstr ""
+msgstr "Name-and-title, Name, Personal-name, Subject-name-personal, Subject"
 
 #: ../../source/searching.rst:1002
 msgid "600$t"
-msgstr ""
+msgstr "600$t"
 
 #: ../../source/searching.rst:1002
 msgid "Name-and-title, Title, Subject"
-msgstr ""
+msgstr "Name-and-title, Title, Subject"
 
 #: ../../source/searching.rst:1004
 msgid "600$9"
-msgstr ""
+msgstr "600$9"
 
 #: ../../source/searching.rst:1006
 msgid "600"
@@ -2054,68 +1885,63 @@ msgstr "600"
 
 #: ../../source/searching.rst:1006
 msgid "Name, Personal-name, Subject-name-personal, Subject"
-msgstr ""
+msgstr "Name, Personal-name, Subject-name-personal, Subject"
 
 #: ../../source/searching.rst:1008
-#, fuzzy
 msgid "610$a"
-msgstr "010$a"
+msgstr "610$a"
 
 #: ../../source/searching.rst:1010
 msgid "610$t"
-msgstr ""
+msgstr "610$t"
 
 #: ../../source/searching.rst:1010 ../../source/searching.rst:1020
-#, fuzzy
 msgid "Name-and-title, Title"
-msgstr "Name, Titel oder Begriff"
+msgstr "Name-and-title, Title"
 
 #: ../../source/searching.rst:1012
 msgid "610$9"
-msgstr ""
+msgstr "610$9"
 
 #: ../../source/searching.rst:1014
 msgid "610"
 msgstr "610"
 
 #: ../../source/searching.rst:1014
-#, fuzzy
 msgid "Name, Subject, Corporate-name"
-msgstr "Schlagwort - Körperschaft"
+msgstr "Name, Subject, Corporate-name"
 
 #: ../../source/searching.rst:1016 ../../source/searching.rst:1024
 msgid "611"
 msgstr "611"
 
 #: ../../source/searching.rst:1018
-#, fuzzy
 msgid "611$a"
-msgstr "111$a"
+msgstr "611$a"
 
 #: ../../source/searching.rst:1020
 msgid "611$t"
-msgstr ""
+msgstr "611$t"
 
 #: ../../source/searching.rst:1022
 msgid "611$9"
-msgstr ""
+msgstr "611$9"
 
 #: ../../source/searching.rst:1024
-#, fuzzy
 msgid "Name, Subject"
-msgstr "Schlagwort"
+msgstr "Name, Subject"
 
 #: ../../source/searching.rst:1026
 msgid "630$n"
-msgstr ""
+msgstr "630$n"
 
 #: ../../source/searching.rst:1028
 msgid "630$r"
-msgstr ""
+msgstr "630$r"
 
 #: ../../source/searching.rst:1030
 msgid "630$9"
-msgstr ""
+msgstr "630$9"
 
 #: ../../source/searching.rst:1032
 msgid "630"
@@ -2123,7 +1949,7 @@ msgstr "630"
 
 #: ../../source/searching.rst:1034
 msgid "650$9"
-msgstr ""
+msgstr "650$9"
 
 #: ../../source/searching.rst:1036
 msgid "650"
@@ -2131,49 +1957,44 @@ msgstr "650"
 
 #: ../../source/searching.rst:1036 ../../source/searching.rst:1046
 #: ../../source/searching.rst:1066
-#, fuzzy
 msgid "Subject, Subject:p"
-msgstr "Betreffzeile:"
+msgstr "Subject, Subject:p"
 
 #: ../../source/searching.rst:1038
 msgid "651$9"
-msgstr ""
+msgstr "651$9"
 
 #: ../../source/searching.rst:1040
 msgid "651"
 msgstr "651"
 
 #: ../../source/searching.rst:1040
-#, fuzzy
 msgid "Name-geographic, Subject,Subject:p"
-msgstr "Name-geographisch"
+msgstr "Name-geographic, Subject,Subject:p"
 
 #: ../../source/searching.rst:1042
-#, fuzzy
 msgid "652$9"
-msgstr "952$9"
+msgstr "652$9"
 
 #: ../../source/searching.rst:1044
 msgid "653$9"
-msgstr ""
+msgstr "653$9"
 
 #: ../../source/searching.rst:1046
-#, fuzzy
 msgid "653"
-msgstr "563"
+msgstr "653"
 
 #: ../../source/searching.rst:1048
 msgid "654$9"
-msgstr ""
+msgstr "654$9"
 
 #: ../../source/searching.rst:1050
-#, fuzzy
 msgid "654"
-msgstr "504"
+msgstr "654"
 
 #: ../../source/searching.rst:1052
 msgid "655$9"
-msgstr ""
+msgstr "655$9"
 
 #: ../../source/searching.rst:1054
 msgid "655"
@@ -2181,25 +2002,23 @@ msgstr "655"
 
 #: ../../source/searching.rst:1056
 msgid "656$9"
-msgstr ""
+msgstr "656$9"
 
 #: ../../source/searching.rst:1058
-#, fuzzy
 msgid "656"
-msgstr "546"
+msgstr "656"
 
 #: ../../source/searching.rst:1060
 msgid "657$9"
-msgstr ""
+msgstr "657$9"
 
 #: ../../source/searching.rst:1062
-#, fuzzy
 msgid "657"
-msgstr "650"
+msgstr "657"
 
 #: ../../source/searching.rst:1064
 msgid "690$9"
-msgstr ""
+msgstr "690$9"
 
 #: ../../source/searching.rst:1066
 msgid "690"
@@ -2207,37 +2026,35 @@ msgstr "690"
 
 #: ../../source/searching.rst:1068
 msgid "700$9"
-msgstr ""
+msgstr "700$9"
 
 #: ../../source/searching.rst:1068
 msgid "Cross-Reference, Koha-Auth-Number"
-msgstr ""
+msgstr "Cross-Reference, Koha-Auth-Number"
 
 #: ../../source/searching.rst:1070
-#, fuzzy
 msgid "700$a"
-msgstr "100$a"
+msgstr "700$a"
 
 #: ../../source/searching.rst:1070
-#, fuzzy
 msgid "Author, Author:p"
-msgstr "Über den Autor"
+msgstr "Author, Author:p"
 
 #: ../../source/searching.rst:1072
 msgid "700$n"
-msgstr ""
+msgstr "700$n"
 
 #: ../../source/searching.rst:1074
 msgid "700$r"
-msgstr ""
+msgstr "700$r"
 
 #: ../../source/searching.rst:1076
 msgid "700$t"
-msgstr ""
+msgstr "700$t"
 
 #: ../../source/searching.rst:1076 ../../source/searching.rst:1082
 msgid "Author-title, Name-and-title, Title, Title-uniform"
-msgstr ""
+msgstr "Author-title, Name-and-title, Title, Title-uniform"
 
 #: ../../source/searching.rst:1078
 msgid "700"
@@ -2245,7 +2062,7 @@ msgstr "700"
 
 #: ../../source/searching.rst:1078
 msgid "Author, Author-name-corporate, Author-name-personal, Name, Editor, Personal-name"
-msgstr ""
+msgstr "Author, Author-name-corporate, Author-name-personal, Name, Editor, Personal-name"
 
 #: ../../source/searching.rst:1080 ../../source/searching.rst:1088
 msgid "710"
@@ -2253,38 +2070,35 @@ msgstr "710"
 
 #: ../../source/searching.rst:1082
 msgid "710$t"
-msgstr ""
+msgstr "710$t"
 
 #: ../../source/searching.rst:1084
-#, fuzzy
 msgid "710$a"
-msgstr "010$a"
+msgstr "710$a"
 
 #: ../../source/searching.rst:1086
 msgid "710$9"
-msgstr ""
+msgstr "710$9"
 
 #: ../../source/searching.rst:1088
-#, fuzzy
 msgid "Author, Name"
-msgstr "Verfasser: "
+msgstr "Author, Name"
 
 #: ../../source/searching.rst:1090
-#, fuzzy
 msgid "711$a"
-msgstr "111$a"
+msgstr "711$a"
 
 #: ../../source/searching.rst:1092
 msgid "711$t"
-msgstr ""
+msgstr "711$t"
 
 #: ../../source/searching.rst:1092
 msgid "Author-title, Title, Title-uniform"
-msgstr ""
+msgstr "Author-title, Title, Title-uniform"
 
 #: ../../source/searching.rst:1094
 msgid "711$9"
-msgstr ""
+msgstr "711$9"
 
 #: ../../source/searching.rst:1096
 msgid "711"
@@ -2292,51 +2106,48 @@ msgstr "711"
 
 #: ../../source/searching.rst:1096
 msgid "Author-name-corporate, Name, Conference-name"
-msgstr ""
+msgstr "Author-name-corporate, Name, Conference-name"
 
 #: ../../source/searching.rst:1098
 msgid "730$n"
-msgstr ""
+msgstr "730$n"
 
 #: ../../source/searching.rst:1100
 msgid "730$r"
-msgstr ""
+msgstr "730$r"
 
 #: ../../source/searching.rst:1102
 msgid "730$9"
-msgstr ""
+msgstr "730$9"
 
 #: ../../source/searching.rst:1104
 msgid "730"
 msgstr "730"
 
 #: ../../source/searching.rst:1106
-#, fuzzy
 msgid "740"
-msgstr "040"
+msgstr "740"
 
 #: ../../source/searching.rst:1108
 msgid "773$t"
-msgstr ""
+msgstr "773$t"
 
 #: ../../source/searching.rst:1108
-#, fuzzy
 msgid "Host-item"
-msgstr "Vermisstes Exemplar"
+msgstr "Host-item"
 
 #: ../../source/searching.rst:1110
 msgid "780$t"
-msgstr ""
+msgstr "780$t"
 
 #: ../../source/searching.rst:1112
 msgid "780$w"
-msgstr ""
+msgstr "780$w"
 
 #: ../../source/searching.rst:1112 ../../source/searching.rst:1116
 #: ../../source/searching.rst:1120
-#, fuzzy
 msgid "Record-control-number"
-msgstr "Datensatzkontrollnummer"
+msgstr "Record-control-number"
 
 #: ../../source/searching.rst:1114
 msgid "780"
@@ -2344,177 +2155,163 @@ msgstr "780"
 
 #: ../../source/searching.rst:1114
 msgid "Title, Title-former, Related-periodical"
-msgstr ""
+msgstr "Title, Title-former, Related-periodical"
 
 #: ../../source/searching.rst:1116
 msgid "785$w"
-msgstr ""
+msgstr "785$w"
 
 #: ../../source/searching.rst:1118
 msgid "785"
 msgstr "785"
 
 #: ../../source/searching.rst:1118
-#, fuzzy
 msgid "Related-periodical"
-msgstr "Periodika"
+msgstr "Related-periodical"
 
 #: ../../source/searching.rst:1120
 msgid "787$w"
-msgstr ""
+msgstr "787$w"
 
 #: ../../source/searching.rst:1122
-#, fuzzy
 msgid "800$a"
-msgstr "100$a"
+msgstr "800$a"
 
 #: ../../source/searching.rst:1124
 msgid "800$t"
-msgstr ""
+msgstr "800$t"
 
 #: ../../source/searching.rst:1126
 msgid "800$9"
-msgstr ""
+msgstr "800$9"
 
 #: ../../source/searching.rst:1128
-#, fuzzy
 msgid "800"
-msgstr "000"
+msgstr "800"
 
 #: ../../source/searching.rst:1130
-#, fuzzy
 msgid "810$a"
-msgstr "010$a"
+msgstr "810$a"
 
 #: ../../source/searching.rst:1132
 msgid "810$t"
-msgstr ""
+msgstr "810$t"
 
 #: ../../source/searching.rst:1134
 msgid "810$9"
-msgstr ""
+msgstr "810$9"
 
 #: ../../source/searching.rst:1136
-#, fuzzy
 msgid "810"
-msgstr "010"
+msgstr "810"
 
 #: ../../source/searching.rst:1136
 msgid "Author, Corporate-name, Author-name-corporate, Name"
-msgstr ""
+msgstr "Author, Corporate-name, Author-name-corporate, Name"
 
 #: ../../source/searching.rst:1138
-#, fuzzy
 msgid "811$a"
-msgstr "111$a"
+msgstr "811$a"
 
 #: ../../source/searching.rst:1140
 msgid "811$9"
-msgstr ""
+msgstr "811$9"
 
 #: ../../source/searching.rst:1142
 msgid "811$t"
-msgstr ""
+msgstr "811$t"
 
 #: ../../source/searching.rst:1144
-#, fuzzy
 msgid "811"
-msgstr "110"
+msgstr "811"
 
 #: ../../source/searching.rst:1144
 msgid "Author, Author-name-corporate, Name, Conference-name"
-msgstr ""
+msgstr "Author, Author-name-corporate, Name, Conference-name"
 
 #: ../../source/searching.rst:1146
 msgid "830$9"
-msgstr ""
+msgstr "830$9"
 
 #: ../../source/searching.rst:1148
 msgid "830"
 msgstr "830"
 
 #: ../../source/searching.rst:1150
-#, fuzzy
 msgid "840"
-msgstr "040"
+msgstr "840"
 
 #: ../../source/searching.rst:1152
 msgid "942$0"
-msgstr ""
+msgstr "942$0"
 
 #: ../../source/searching.rst:1152
 msgid "totalissues:n, totalissues:s"
-msgstr ""
+msgstr "totalissues:n, totalissues:s"
 
 #: ../../source/searching.rst:1154
 msgid "942$2"
-msgstr ""
+msgstr "942$2"
 
 #: ../../source/searching.rst:1154
-#, fuzzy
 msgid "cn-bib-source"
-msgstr "Quelle"
+msgstr "cn-bib-source"
 
 #: ../../source/searching.rst:1156
 msgid "942$6"
-msgstr ""
+msgstr "942$6"
 
 #: ../../source/searching.rst:1156
 msgid "cn-bib-sort:n, cn-bib-sort:s"
-msgstr ""
+msgstr "cn-bib-sort:n, cn-bib-sort:s"
 
 #: ../../source/searching.rst:1158
 msgid "942$c"
-msgstr ""
+msgstr "942$c"
 
 #: ../../source/searching.rst:1158
-#, fuzzy
 msgid "itemtype:w"
-msgstr "Medientyp:"
+msgstr "itemtype:w"
 
 #: ../../source/searching.rst:1160
 msgid "942$n"
-msgstr ""
+msgstr "942$n"
 
 #: ../../source/searching.rst:1160
 msgid "Suppress:w, Suppress:n"
-msgstr ""
+msgstr "Suppress:w, Suppress:n"
 
 #: ../../source/searching.rst:1162
 msgid "942$h"
-msgstr ""
+msgstr "942$h"
 
 #: ../../source/searching.rst:1162
-#, fuzzy
 msgid "cn-class"
-msgstr "d- Glas"
+msgstr "cn-class"
 
 #: ../../source/searching.rst:1164
 msgid "942$i"
-msgstr ""
+msgstr "942$i"
 
 #: ../../source/searching.rst:1164
-#, fuzzy
 msgid "cn-item"
-msgstr "Exemplar"
+msgstr "cn-item"
 
 #: ../../source/searching.rst:1166
 msgid "942$k"
-msgstr ""
+msgstr "942$k"
 
 #: ../../source/searching.rst:1166
-#, fuzzy
 msgid "cn-prefix"
-msgstr "Barcode-Präfix"
+msgstr "cn-prefix"
 
 #: ../../source/searching.rst:1168
 msgid "942$m"
-msgstr ""
+msgstr "942$m"
 
 #: ../../source/searching.rst:1168
-#, fuzzy
 msgid "cn-suffix"
-msgstr "Filing suffix"
+msgstr "cn-suffix"
 
 #: ../../source/searching.rst:1170
 msgid "952$0"
@@ -2522,7 +2319,7 @@ msgstr "952$0"
 
 #: ../../source/searching.rst:1170
 msgid "withdrawn:n, withdrawn:w"
-msgstr ""
+msgstr "withdrawn:n, withdrawn:w"
 
 #: ../../source/searching.rst:1172
 msgid "952$1"
@@ -2530,25 +2327,23 @@ msgstr "952$1"
 
 #: ../../source/searching.rst:1172
 msgid "lost, lost:n"
-msgstr ""
+msgstr "lost, lost:n"
 
 #: ../../source/searching.rst:1174
 msgid "952$2"
 msgstr "952$2"
 
 #: ../../source/searching.rst:1174
-#, fuzzy
 msgid "classification-source"
-msgstr "Klassifikationsquellen"
+msgstr "classification-source"
 
 #: ../../source/searching.rst:1176
 msgid "952$3"
 msgstr "952$3"
 
 #: ../../source/searching.rst:1176
-#, fuzzy
 msgid "materials-specified"
-msgstr "Beilagen"
+msgstr "materials-specified"
 
 #: ../../source/searching.rst:1178
 msgid "952$4"
@@ -2556,25 +2351,23 @@ msgstr "952$4"
 
 #: ../../source/searching.rst:1178
 msgid "damaged:n, damaged:w"
-msgstr ""
+msgstr "damaged:n, damaged:w"
 
 #: ../../source/searching.rst:1180
 msgid "952$5"
 msgstr "952$5"
 
 #: ../../source/searching.rst:1180
-#, fuzzy
 msgid "restricted:n, restricted:w"
-msgstr "edit_items_restricted "
+msgstr "restricted:n, restricted:w"
 
 #: ../../source/searching.rst:1182
-#, fuzzy
 msgid "952$6"
-msgstr "952$0"
+msgstr "952$6"
 
 #: ../../source/searching.rst:1182
 msgid "cn-sort:n, cn-sort:s"
-msgstr ""
+msgstr "cn-sort:n, cn-sort:s"
 
 #: ../../source/searching.rst:1184
 msgid "952$7"
@@ -2582,7 +2375,7 @@ msgstr "952$7"
 
 #: ../../source/searching.rst:1184
 msgid "notforloan:n, notforloan:w"
-msgstr ""
+msgstr "notforloan:n, notforloan:w"
 
 #: ../../source/searching.rst:1186
 msgid "952$8"
@@ -2597,9 +2390,8 @@ msgid "952$9"
 msgstr "952$9"
 
 #: ../../source/searching.rst:1188
-#, fuzzy
 msgid "itemnumber:n, itemnumber:s"
-msgstr "Über Exemplarnummer eingeben:"
+msgstr "itemnumber:n, itemnumber:s"
 
 #: ../../source/searching.rst:1190
 msgid "952$a"
@@ -2622,9 +2414,8 @@ msgid "952$c"
 msgstr "952$c"
 
 #: ../../source/searching.rst:1194
-#, fuzzy
 msgid "location"
-msgstr "Standort"
+msgstr "location"
 
 #: ../../source/searching.rst:1196
 msgid "952$d"
@@ -2632,26 +2423,23 @@ msgstr "952$d"
 
 #: ../../source/searching.rst:1196
 msgid "Date-of-acquisition, Date-of-acquisition:d, Date-of-acquisition:s"
-msgstr ""
+msgstr "Date-of-acquisition, Date-of-acquisition:d, Date-of-acquisition:s"
 
 #: ../../source/searching.rst:1198
 msgid "952$e"
 msgstr "952$e"
 
 #: ../../source/searching.rst:1198
-#, fuzzy
 msgid "acqsource"
-msgstr "Quelle"
+msgstr "acqsource"
 
 #: ../../source/searching.rst:1200
-#, fuzzy
 msgid "952$f"
-msgstr "952$0"
+msgstr "952$f"
 
 #: ../../source/searching.rst:1200
-#, fuzzy
 msgid "coded-location-qualifier"
-msgstr "Kodierter Standort-Qualifier"
+msgstr "coded-location-qualifier"
 
 #: ../../source/searching.rst:1202
 msgid "952$g"
@@ -2662,42 +2450,36 @@ msgid "price"
 msgstr "price"
 
 #: ../../source/searching.rst:1204
-#, fuzzy
 msgid "952$j"
-msgstr "952$0"
+msgstr "952$j"
 
 #: ../../source/searching.rst:1204
 msgid "stack:n, stack:w"
-msgstr ""
+msgstr "stack:n, stack:w"
 
 #: ../../source/searching.rst:1206
-#, fuzzy
 msgid "952$l"
-msgstr "952$0"
+msgstr "952$l"
 
 #: ../../source/searching.rst:1206
 msgid "issues:n, issues:w, issues:s"
-msgstr ""
+msgstr "issues:n, issues:w, issues:s"
 
 #: ../../source/searching.rst:1208
-#, fuzzy
 msgid "952$m"
-msgstr "952$0"
+msgstr "952$m"
 
 #: ../../source/searching.rst:1208
-#, fuzzy
 msgid "renewals:n, renewals:w"
-msgstr "Verlängerungen aktuell:"
+msgstr "renewals:n, renewals:w"
 
 #: ../../source/searching.rst:1210
-#, fuzzy
 msgid "952$n"
-msgstr "952$0"
+msgstr "952$n"
 
 #: ../../source/searching.rst:1210
-#, fuzzy
 msgid "reserves:n, reserves:w"
-msgstr "Semesterapparate"
+msgstr "reserves:n, reserves:w"
 
 #: ../../source/searching.rst:1212
 msgid "952$o"
@@ -2705,54 +2487,47 @@ msgstr "952$o"
 
 #: ../../source/searching.rst:1212
 msgid "Local-classification:w, Local-classification:p, Local-classification:s"
-msgstr ""
+msgstr "Local-classification:w, Local-classification:p, Local-classification:s"
 
 #: ../../source/searching.rst:1214
 msgid "952$p"
 msgstr "952$p"
 
 #: ../../source/searching.rst:1214
-#, fuzzy
 msgid "barcode, barcode:n"
-msgstr "bc: Barcode"
+msgstr "barcode, barcode:n"
 
 #: ../../source/searching.rst:1216
-#, fuzzy
 msgid "952$q"
-msgstr "952$0"
+msgstr "952$q"
 
 #: ../../source/searching.rst:1216
 msgid "onloan:n, onloan:w"
-msgstr ""
+msgstr "onloan:n, onloan:w"
 
 #: ../../source/searching.rst:1218
-#, fuzzy
 msgid "952$r"
-msgstr "952$0"
+msgstr "952$r"
 
 #: ../../source/searching.rst:1218
-#, fuzzy
 msgid "datelastseen"
-msgstr "Letzte Aktivität"
+msgstr "datelastseen"
 
 #: ../../source/searching.rst:1220
-#, fuzzy
 msgid "952$s"
-msgstr "952$0"
+msgstr "952$s"
 
 #: ../../source/searching.rst:1220
-#, fuzzy
 msgid "datelastborrowed"
-msgstr "Zuletzt ausgeliehen:"
+msgstr "datelastborrowed"
 
 #: ../../source/searching.rst:1222
 msgid "952$t"
 msgstr "952$t"
 
 #: ../../source/searching.rst:1222
-#, fuzzy
 msgid "copynumber"
-msgstr "Exemplarnr."
+msgstr "copynumber"
 
 #: ../../source/searching.rst:1224
 msgid "952$u"
@@ -2760,34 +2535,31 @@ msgstr "952$u"
 
 #: ../../source/searching.rst:1224
 msgid "uri:u"
-msgstr ""
+msgstr "uri:u"
 
 #: ../../source/searching.rst:1226
 msgid "952$v"
 msgstr "952$v"
 
 #: ../../source/searching.rst:1226
-#, fuzzy
 msgid "replacementprice"
-msgstr "replacement price"
+msgstr "replacementprice"
 
 #: ../../source/searching.rst:1228
 msgid "952$w"
 msgstr "952$w"
 
 #: ../../source/searching.rst:1228
-#, fuzzy
 msgid "replacementpricedate"
-msgstr "replacement price"
+msgstr "replacementpricedate"
 
 #: ../../source/searching.rst:1230
 msgid "952$y"
 msgstr "952$y"
 
 #: ../../source/searching.rst:1230
-#, fuzzy
 msgid "itype:w"
-msgstr "itype"
+msgstr "itype:w"
 
 #: ../../source/searching.rst:1232
 msgid "952$z"
@@ -2795,7 +2567,7 @@ msgstr "952$z"
 
 #: ../../source/searching.rst:1234
 msgid "999$c"
-msgstr ""
+msgstr "999$c"
 
 #: ../../source/searching.rst:1234
 msgid "Local-Number:n, Local-Number:w, Local-Number:s"
@@ -2803,15 +2575,12 @@ msgstr "Local-Number:n, Local-Number:w, Local-Number:s"
 
 #: ../../source/searching.rst:1236
 msgid "999$d"
-msgstr ""
+msgstr "999$d"
 
 #: ../../source/searching.rst:1236
-#, fuzzy
 msgid "biblioitemnumber:n, biblioitemnumber:w, biblioitemnumber:s"
-msgstr "koha:biblionumber:[% biblio.biblionumber %]"
+msgstr "biblioitemnumber:n, biblioitemnumber:w, biblioitemnumber:s"
 
 #: ../../source/searching.rst:1239
-#, fuzzy
 msgid "Table: Indexes"
-msgstr "Tabelle: Normdaten Indexe"
-
+msgstr "Tabelle: Indizes"

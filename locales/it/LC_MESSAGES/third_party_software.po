@@ -228,9 +228,7 @@ msgstr "Importe il file .mrc in Koha"
 
 #: ../../source/third_party_software.rst:151
 msgid "More information on importing records into Koha can be found in the ':ref:`Stage MARC Records for Import`' section of this manual."
-msgstr ""
-"Informazioni dettagliate su come importare record bibliografici in Koha si "
-"trovano nella sezione :ref:`Immagazzinare record per l'import`."
+msgstr "Informazioni dettagliate su come importare record bibliografici in Koha si trovano nella sezione :ref:`Immagazzinare record per l'import`."
 
 #: ../../source/third_party_software.rst:154
 msgid "Finally we will import above created .mrc file into Koha."
@@ -507,17 +505,11 @@ msgstr "Il sottocampo 2 contiene il codice di classificazione. Può trattarsi di
 
 #: ../../source/third_party_software.rst:401
 msgid "Subfield a is your home library and needs to be the code for your home library, not the library name. You can find these codes in the :ref:`Libraries <libraries-label>` administration area."
-msgstr ""
-"Il sottocampo a è la biblioteca proprietaria e deve contenere il suo codice, "
-"non il nome. Potete trovare questi codici nella sezione :ref:`Biblioteche & "
-"Gruppi <libraries-label>` del modulo amministrazione.."
+msgstr "Il sottocampo a è la biblioteca proprietaria e deve contenere il suo codice, non il nome. Potete trovare questi codici nella sezione :ref:`Biblioteche & Gruppi <libraries-label>` del modulo amministrazione.."
 
 #: ../../source/third_party_software.rst:405
 msgid "Subfield b is your holding library and needs to be the code for your holding library, not the library name. You can find these codes in the :ref:`Libraries <libraries-label>` administration area."
-msgstr ""
-"Il sottocampo b è la biblioteca che detiene e deve contenete il suo codice, "
-"non il nome della biblioteca. Potete trovare questi codici nella sezione `"
-"Biblioteche & Gruppi <libraries-label>` del modulo amministrazione."
+msgstr "Il sottocampo b è la biblioteca che detiene e deve contenete il suo codice, non il nome della biblioteca. Potete trovare questi codici nella sezione `Biblioteche & Gruppi <libraries-label>` del modulo amministrazione."
 
 #: ../../source/third_party_software.rst:409
 msgid "Subfield y is your item type code. It needs to be the code, not the item type name. You can find these codes in the :ref:`Item Types <item-types-label>` administration area."
@@ -557,12 +549,7 @@ msgstr "Se si desidera elaborare i messaggi PREOVERDUE o RESERVES , è necessari
 
 #: ../../source/third_party_software.rst:448
 msgid "For OVERDUE messages, overdue notice triggers must be configured under More > Tools > :ref:`Overdue notice/status triggers <overdue-notice/status-triggers-label>`. Either branch-specific triggers or the default level triggers may be used (script will select whichever is appropriate)."
-msgstr ""
-"Per i messaggi OVERDUE, i trigger per gli avvisi di scadenza devono essere "
-"configurati sotto Koha -> Tools -> :ref:`Triggers per messaggi di ritardo/"
-"status <overdue-notice/status-triggers-label>`. Si possono usare o trigger "
-"specifici per biblioteca, oppure quelli predefiniti; lo script selezionerà "
-"automaticamente i trigger appropriati."
+msgstr "Per i messaggi OVERDUE, i trigger per gli avvisi di scadenza devono essere configurati sotto Koha -> Tools -> :ref:`Triggers per messaggi di ritardo/status <overdue-notice/status-triggers-label>`. Si possono usare o trigger specifici per biblioteca, oppure quelli predefiniti; lo script selezionerà automaticamente i trigger appropriati."
 
 #: ../../source/third_party_software.rst:456
 msgid "Sending Notices File"
@@ -570,9 +557,7 @@ msgstr "Inviare il file delle notifiche"
 
 #: ../../source/third_party_software.rst:458
 msgid "Add the :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-notices-file-label>` script to your crontab"
-msgstr ""
-"Aggiungere lo script :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-"
-"notices-file-label>` alla lista delle esecuzioni pianificate"
+msgstr "Aggiungere lo script :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-notices-file-label>` alla lista delle esecuzioni pianificate"
 
 #: ../../source/third_party_software.rst:461
 msgid "Add an FTP/SFTP or other transport method to send the output file to the I-tiva server"
@@ -596,10 +581,7 @@ msgstr "Aggiungere un'operazione FTP/SFTP alla lista delle operazioni pianificat
 
 #: ../../source/third_party_software.rst:477
 msgid "Add the :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-receiving-notices-file-label>` script to your crontab, aimed at that directory"
-msgstr ""
-"Aggiungere lo script `TalkingTech\\_itiva\\_inbound.pl <cron-receiving-"
-"notices-file-label>` alla lista delle operazioni pianificate, impostato per "
-"lavorare su tale cartella"
+msgstr "Aggiungere lo script `TalkingTech\\_itiva\\_inbound.pl <cron-receiving-notices-file-label>` alla lista delle operazioni pianificate, impostato per lavorare su tale cartella"
 
 #: ../../source/third_party_software.rst:480
 msgid "If you wish, archive the results file in another directory after processing"
@@ -608,3 +590,4 @@ msgstr "Se desiderato, archiviare i file di risultati in un'altra cartella, dopo
 #: ../../source/third_party_software.rst:483
 msgid "Run TalkingTech\\_itiva\\_inbound.pl --help for more information"
 msgstr "Eseguire TalkingTech\\_itiva\\_inbound.pl --help per maggiori informazioni"
+

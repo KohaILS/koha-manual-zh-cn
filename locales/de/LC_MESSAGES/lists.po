@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 01:16-0300\n"
-"PO-Revision-Date: 2020-07-23 07:25+0000\n"
-"Last-Translator: speer <alexandra.speer@bsz-bw.de>\n"
+"PO-Revision-Date: 2021-02-24 08:13+0000\n"
+"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,15 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1595489129.446644\n"
+"X-POOTLE-MTIME: 1614154408.705567\n"
 
 #: ../../source/lists.rst:6
 msgid "Lists and cart"
-msgstr "Listen und Körbe"
+msgstr "Listen und Korb"
 
 #: ../../source/lists.rst:8
 msgid "Lists are a way to save a collection of content on a specific topic or for a specific purpose. The cart is a session specific storage space."
-msgstr "Mit den Listen können Sie eine Sammlung von Inhalten zu einem speziellen Gebiet oder für einen bestimmten Zweck speichern. Der Korb ist ein spezieller Lagerplatz. "
+msgstr ""
+"Mit den Listen können Sie eine Sammlung von Inhalten zu einem speziellen "
+"Thema oder für einen bestimmten Zweck speichern. Der Korb ist "
+"sessionbezogener Speicherort."
 
 #: ../../source/lists.rst:11
 msgid "*Get there:* More > Lists"
@@ -77,7 +80,9 @@ msgstr "Eine öffentliche Liste ist für alle Benutzer sichtbar."
 
 #: ../../source/lists.rst:41
 msgid "Finally decide what your permissions will be on the list. You can allow changes to the list from:"
-msgstr "Zum Schluß legen Sie fest wer Inhaltsänderung auf der Liste vornehmen darf. Sie können Änderungen erlauben: "
+msgstr ""
+"Zum Schluß legen Sie fest, welche Berechtigungen für die Liste gelten "
+"sollen. Sie können Änderungen erlauben: "
 
 #: ../../source/lists.rst:44
 msgid "Nobody: this will close the list to contributions"
@@ -189,11 +194,16 @@ msgstr "Durch einen Klick auf die Schaltfläche 'Bearbeiten' können Sie die Lis
 
 #: ../../source/lists.rst:116
 msgid "'Download list' will allow you to download the cart using one of 3 default formats or your :ref:`CSV Profiles`"
-msgstr "Die Schaltfläche 'Liste herunterladen' erlaubt Ihnen, den Korb herunterzuladen und bietet Ihnen dafür drei verschiedene Standard-Formate Ihres :ref:`CSV Profiles` an."
+msgstr ""
+"Die Schaltfläche 'Liste herunterladen' erlaubt Ihnen, den Korb "
+"herunterzuladen und bietet Ihnen dafür drei verschiedene Standard-Formate "
+"Ihres :ref:`CSV-Profile` an."
 
 #: ../../source/lists.rst:119
 msgid "'Send list' will send the list to the email address you enter"
-msgstr "Die Schaltfläche 'Liste verschicken' ist dafür da, die Liste an einen Empfänger zu schicken, dessen Emailadresse Sie hinterlegt haben."
+msgstr ""
+"Die Schaltfläche 'Liste verschicken' ist dafür da, die Liste an einen "
+"Empfänger zu schicken, dessen E-Mail-Adresse Sie hinterlegt haben."
 
 #: ../../source/lists.rst:121
 msgid "'Print list' will present you with a printable version of the list"
@@ -217,7 +227,10 @@ msgstr "|image877|"
 
 #: ../../source/lists.rst:135
 msgid "Once you have selected the records to merge together the process is the same as if you had chosen to :ref:`merge via cataloging <merging-records-label>`."
-msgstr "Haben Sie die Datensätze ausgewählt, die verschmelzt werden sollen, ist der Ablauf der gleiche, als wenn Sie die Verschmelzung über die Katalogisierung :ref:`merge via cataloging <merging-records-label>` vornehmen würden. "
+msgstr ""
+"Haben Sie die Datensätze ausgewählt, die verschmolzen werden sollen, ist der "
+"Ablauf der gleiche, als wenn Sie die :ref:`Datensätze in der Katalogisierung "
+"verschmelzen <merging-records-label>` würden. "
 
 #: ../../source/lists.rst:141
 msgid "Cart"
@@ -257,11 +270,15 @@ msgstr "Die Schaltfläche 'Weitere Details' zeigt Ihnen mehr Informationen über
 
 #: ../../source/lists.rst:170
 msgid "'Send' will send the list to the email address you enter"
-msgstr "Über 'Abschicken' können Sie die Liste an einen Empfänger schicken, dessen Emailadresse Sie eingegeben haben."
+msgstr ""
+"Über 'Abschicken' können Sie die Liste an einen Empfänger schicken, dessen E"
+"-Mail-Adresse Sie eingegeben haben."
 
 #: ../../source/lists.rst:172
 msgid "'Download' will allow you to download the cart using one of 3 default formats or your :ref:`CSV Profiles`"
-msgstr "Mit der Schaltfläche 'Download' können Sie den Korb herunterladen. Sie haben drei verschiedene Standard Formate in Ihrem :ref:`CSV Profiles` die Sie dafür verwenden können. "
+msgstr ""
+"Mit der Schaltfläche 'Download' können Sie den Korb herunterladen. Sie haben "
+"drei verschiedene Standardformate und Ihre :ref:`CSV-Profile` zur Auswahl "
 
 #: ../../source/lists.rst:175
 msgid "'Print' will present you with a printable version of the cart"
@@ -285,5 +302,4 @@ msgstr "Bibliographische Datensätze können über einem Batch im Korb geändert
 
 #: ../../source/lists.rst:187
 msgid "You will be taken to the 'Batch record modification tool' and from there the process to modify the bibliographic records is the same as if you had chosen to :ref:`modify via Tools <batch-record-modification-label>`."
-msgstr "Sie werden ins Modul 'Werkzeuge' in die 'Stapelbearbeitung von Titeln' weitergeleitet. Von hier aus können Sie bibliographischen Datensätze bearbeiten mit :ref:`modify via Tools <batch-record-modification-label>`."
-
+msgstr "Sie werden ins Modul 'Werkzeuge' in die 'Stapelbearbeitung von Titeln' weitergeleitet. Von hier aus können Sie die :ref:`bibliographischen Datensätze bearbeiten <batch-record-modification-label>`."

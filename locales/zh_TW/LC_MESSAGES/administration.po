@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-11-23 08:23+0000\n"
-"Last-Translator: Atron Chen <atron@customer-support.com.tw>\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-02-23 03:33+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1606119805.098028\n"
+"X-POOTLE-MTIME: 1614051235.338605\n"
 "X-Pootle-Path: /zh_TW/man18.05/administration.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -2279,15 +2279,15 @@ msgstr "*到：* 更多 > 管理 > 帳戶 > 現金列表"
 
 #: ../../source/administration.rst:1938
 msgid "This feature is enabled through the :ref:`UseCashRegisters` system preference."
-msgstr "通過:ref:`UseCashRegisters`系統偏好啟用此功能。"
+msgstr "通過 :ref:`UseCashRegisters` 系統偏好啟用此功能。"
 
 #: ../../source/administration.rst:1940
 msgid "If you have no cash registers already defined, you will be invited to create one."
-msgstr "如果尚未定義現金列表，將會邀請您設置一個。"
+msgstr "如果尚未定義現金收銀機，將會邀請您設置一個。 "
 
 #: ../../source/administration.rst:1943
 msgid "Otherwise, you will see the list of all your cash registers."
-msgstr "除此以外，您將會看見所有的現金列表。"
+msgstr "除此以外，您將會看見所有的收款台列表。"
 
 #: ../../source/administration.rst:1945
 msgid "|image1450|"
@@ -2299,9 +2299,7 @@ msgstr "在'動作'列中，您可以選擇編輯現金列表，將其中之一�
 
 #: ../../source/administration.rst:1951
 msgid "The default status is only useful in libraries that have more than one register per branch. The default register will be pre-selected when :ref:`entering a payment <pay/reverse-fines-label>`. If there is only one cash register per branch, the branch's cash register will be selected when paying."
-msgstr ""
-"預設狀態僅在每個分館具有多個列表的圖書館中有用。預設列表將在以下情況下預選:ref:`entering a payment <pay/reverse-"
-"fines-label>`。如果每個分館只有一個現金列表，則付款時會選擇分館的現金列表。"
+msgstr "預設狀態僅在每個分館具有多個列表的圖書館中有用。預設列表將在以下情況下預選:ref:`entering a payment <pay/reverse-fines-label>`。如果每個分館只有一個現金列表，則付款時會選擇分館的現金列表。"
 
 #: ../../source/administration.rst:1959
 msgid "Adding a new cash register"
@@ -2317,7 +2315,7 @@ msgstr "|image1449|"
 
 #: ../../source/administration.rst:1965
 msgid "Give your cash register a name"
-msgstr "給現金列表起個名字"
+msgstr "給收款台起個名字 "
 
 #: ../../source/administration.rst:1967
 msgid "Optionally you can also add a description"
@@ -2485,9 +2483,7 @@ msgstr "|image188|"
 
 #: ../../source/administration.rst:2086
 msgid "To the right of the new field is a link to Actions and then 'Subfields', you will need to add subfields before this tag will appear in your MARC editor. The process of entering the settings for the new subfield is the same as those found in the :ref:`editing fields and subfields in frameworks <edit-framework-fields-and-subfields-label>` section of this manual"
-msgstr ""
-"新欄位右方有個 '分欄' 連結，必須先新增分欄此欄號才會出現在 MARC 編輯器裡。新增分欄的程序等同於此手冊 :ref:`在框架內編輯欄位與分欄 "
-"<edit-framework-subfields-label>` 章節的描述。"
+msgstr "新欄位右方有個 '分欄' 連結，必須先新增分欄此欄號才會出現在 MARC 編輯器裡。新增分欄的程序等同於此手冊 :ref:`在框架內編輯欄位與分欄 <edit-framework-subfields-label>` 章節的描述。"
 
 #: ../../source/administration.rst:2095
 msgid "Edit framework fields and subfields"
@@ -2531,9 +2527,7 @@ msgstr "'容許值' 是設定 :ref:`容許值 <authorized-values-label>` 的地�
 
 #: ../../source/administration.rst:2123
 msgid "To edit the **subfields** associated with the tag, click Actions then 'Subfields' to the right of the tag on the framework field list.  Each subfield has its own tab which contains three sections - Basic constraints, Advanced constraints and Other options."
-msgstr ""
-"要編輯與標籤關聯的 **欄位**，請在框架字段列表上單擊操作，然後單擊標籤右側的 '欄位'。  每個欄位都有自己的標籤，其中包含三個部分 - "
-"基本限制，進階限制和其他選項。"
+msgstr "要編輯與標籤關聯的 **欄位**，請在框架字段列表上單擊操作，然後單擊標籤右側的 '欄位'。  每個欄位都有自己的標籤，其中包含三個部分 - 基本限制，進階限制和其他選項。"
 
 #: ../../source/administration.rst:2127
 msgid "For each subfield you can set the following basic constraint values"
@@ -2633,8 +2627,7 @@ msgstr "<<USER>> - 當前登入者的用戶名"
 
 #: ../../source/administration.rst:2186
 msgid "For example: a default of \"Year:<<YYYY>> Month:<<MM>> Day:<<DD>>\" (without quotes) will print the current date in the form of \"Year:2020 Month:08 Day:30\""
-msgstr ""
-"例如：預設值為\"年：<<YYYY>>月：<<MM>>日：<<DD>>\"（不含引號）將以 \"年：2020 月：08 日：30\" 的格式顯示當前日期"
+msgstr "例如：預設值為\"年：<<YYYY>>月：<<MM>>日：<<DD>>\"（不含引號）將以 \"年：2020 月：08 日：30\" 的格式顯示當前日期"
 
 #: ../../source/administration.rst:2190
 msgid "Visibility"
@@ -2690,10 +2683,7 @@ msgstr "Koha 連結"
 
 #: ../../source/administration.rst:2236
 msgid "Koha is multi-MARC compliant. So, it does not know what the 245$a means, neither what 200$f (those 2 fields being both the title in MARC21 and UNIMARC). So, in this list you can \"map\" a MARC subfield to its meaning. Koha constantly maintains consistency between a subfield and its meaning. When the user wants to search on \"title\", this link is used to find what is searched (245 if you're MARC21, 200 if you're UNIMARC)."
-msgstr ""
-"Koha 是多 MARC 相容的軟體。它無法辨識 245$a 的意義，也不知道 200$f (這兩個欄位的內容在 MARC21 與 UNIMARC "
-"內都是題名)的內容。因此，必須有此清單，把 MARC 的分欄 \"對映\" 至 Koha 的欄位，才精準知道其意義。Koha 持續維護 MARC 分欄與 "
-"Koha 欄位間的對映。使用者搜尋 \"題名\" 時，實際上連結至對映的機讀編目格式分欄 (在 MARC21 是245，在 UNIMARC 是 200)。"
+msgstr "Koha 是多 MARC 相容的軟體。它無法辨識 245$a 的意義，也不知道 200$f (這兩個欄位的內容在 MARC21 與 UNIMARC 內都是題名)的內容。因此，必須有此清單，把 MARC 的分欄 \"對映\" 至 Koha 的欄位，才精準知道其意義。Koha 持續維護 MARC 分欄與 Koha 欄位間的對映。使用者搜尋 \"題名\" 時，實際上連結至對映的機讀編目格式分欄 (在 MARC21 是245，在 UNIMARC 是 200)。"
 
 #: ../../source/administration.rst:2244
 msgid "For each subfield you can set the following Other option values"
@@ -3437,9 +3427,7 @@ msgstr "搜尋引擎組態"
 
 #: ../../source/administration.rst:2794
 msgid "Once you have switched to Elastic Search in your SearchEngine system preference, you’ll see a new link for Search engine configuration in the Catalog section of Administration. Here you will manage indexes, facets, and their mappings to MARC fields and subfields."
-msgstr ""
-"在SearchEngine系統偏好設置中切換到Elastic Search後，會在\"管理\"的\"編目\""
-"部分中看到搜尋引擎配置的新連結。這裡可以管理索引，層面及其到MARC欄位和分欄的對映。"
+msgstr "在SearchEngine系統偏好設置中切換到Elastic Search後，會在\"管理\"的\"編目\"部分中看到搜尋引擎配置的新連結。這裡可以管理索引，層面及其到MARC欄位和分欄的對映。"
 
 #: ../../source/administration.rst:2802 ../../source/administration.rst:3515
 msgid "Acquisitions"
@@ -4703,9 +4691,7 @@ msgstr "與 Mana KB 共享內容"
 
 #: ../../source/administration.rst:3672
 msgid "Mana KB is a worldwide knowledge base used to share content specific to libraries. Koha is currently connected to Mana Kb in order to share serial subscription models and reports. This section is used to configure your connexion with Mana KB."
-msgstr ""
-"Mana KB是一個全球性知識庫，用於共享特定於圖書館的內容。 Koha目前已連接到Mana Kb，以便共享期刊的訂閱模式和報表。"
-"這部分用於配置與Mana KB的連接。"
+msgstr "Mana KB是一個全球性知識庫，用於共享特定於圖書館的內容。 Koha目前已連接到Mana Kb，以便共享期刊的訂閱模式和報表。這部分用於配置與Mana KB的連接。"
 
 #: ../../source/administration.rst:3677
 msgid "*Get there:* More > Administration > Additional parameters > Share content with Mana KB"
@@ -4717,9 +4703,7 @@ msgstr "|image1426|"
 
 #: ../../source/administration.rst:3682
 msgid "In the form, choose whether you want to use Mana KB to share content or not. The default is \"No, let me think about it\". If you do want to use Mana KB, change the option to \"Yes\". If you do not want to share with Mana KB, choose \"No\", this will remove the blue rectangle from the Administration home page."
-msgstr ""
-"在表格中，選擇是否要使用Mana KB共享內容。默認值為\"否，讓我考慮一下\"。如果想使用Mana KB，請將選項更改為\"是\"。如果不想與Mana "
-"KB共享，請選擇\"否\"，這將從管理主頁中刪除藍色矩形。"
+msgstr "在表格中，選擇是否要使用Mana KB共享內容。默認值為\"否，讓我考慮一下\"。如果想使用Mana KB，請將選項更改為\"是\"。如果不想與Mana KB共享，請選擇\"否\"，這將從管理主頁中刪除藍色矩形。"
 
 #: ../../source/administration.rst:3688
 msgid "The rest of this section assumes you chose \"Yes\"."
@@ -4767,9 +4751,7 @@ msgstr "要添加新欄位，請先選擇要添加的表格。"
 
 #: ../../source/administration.rst:3720
 msgid "Order baskets (aqbasket): a field added to aqbasket will appear upon the :ref:`creation of a new order basket <create-a-basket-label>` or the modification of an existing order basket in the acquisitions module"
-msgstr ""
-"訂閱籃（aqbasket）：添加到aqbasket的欄位將顯示在 :ref:`創建新的訂閱籃<create-a-basket-"
-"label>`或修改採訪模組中的現有訂閱籃"
+msgstr "訂閱籃（aqbasket）：添加到aqbasket的欄位將顯示在 :ref:`創建新的訂閱籃<create-a-basket-label>`或修改採訪模組中的現有訂閱籃"
 
 #: ../../source/administration.rst:3724
 msgid "|image1424|"
@@ -4777,8 +4759,7 @@ msgstr "|image1424|"
 
 #: ../../source/administration.rst:3726
 msgid "Subscriptions (subscription): a field added to subscription will appear when :ref:`creating a new subscription <add-a-subscription-label>` or editing an existing subscription in the serials module"
-msgstr ""
-"訂閱（訂閱）：添加到訂閱的欄位將在 :ref:`創建一個新的訂閱<add-a-subscription-label>`或編輯期刊模組中的現有訂閱"
+msgstr "訂閱（訂閱）：添加到訂閱的欄位將在 :ref:`創建一個新的訂閱<add-a-subscription-label>`或編輯期刊模組中的現有訂閱"
 
 #: ../../source/administration.rst:3730
 msgid "|image1425|"
@@ -4802,9 +4783,7 @@ msgstr "名稱：想要顯示的欄位名稱"
 
 #: ../../source/administration.rst:3740
 msgid "Authorized value category: if you want to add a drop-down menu to the field choose an authorized value category here (you can also :ref:`create a new authorized value category <add-new-authorized-value-category-label>` if you need to)"
-msgstr ""
-"容許值範圍：如果要添加欄位下拉選單，請在此處選擇一個容許值範圍(如果需要，也可以 :ref:`新增一個新的容許值範圍<add-new-"
-"authorized-value-category-label>`）"
+msgstr "容許值範圍：如果要添加欄位下拉選單，請在此處選擇一個容許值範圍(如果需要，也可以 :ref:`新增一個新的容許值範圍<add-new-authorized-value-category-label>`）"
 
 #: ../../source/administration.rst:3745
 msgid "MARC field: for additional subscription fields, it is possible to link the field to a MARC field. The additional field will be automatically populated with the corresponding record's value for this MARC field."
@@ -4864,8 +4843,7 @@ msgstr "|image1273|"
 
 #: ../../source/administration.rst:3787
 msgid "When you are :ref:`adding a subscription <add-a-subscription-label>`, the field will be in the 'Additional fields' section with its authorized values drop-down menu."
-msgstr ""
-"當您在 :ref:`新增訂閱<add-a-subscription-label>`時，則該欄位將出現於\"其他欄位\"中，並帶有其容許值下拉選單。"
+msgstr "當您在 :ref:`新增訂閱<add-a-subscription-label>`時，則該欄位將出現於\"其他欄位\"中，並帶有其容許值下拉選單。"
 
 #: ../../source/administration.rst:3791
 msgid "|image1274|"

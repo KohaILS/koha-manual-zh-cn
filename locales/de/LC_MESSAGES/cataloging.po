@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-12-08 12:53+0000\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-02-23 09:35+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1607431988.044680\n"
+"X-POOTLE-MTIME: 1614072935.821036\n"
 
 #: ../../source/cataloging.rst:6
 msgid "Cataloging"
@@ -28,16 +28,19 @@ msgstr "Katalogisierung"
 msgid "Before you start cataloging in Koha you're going to want to do some basic setup. Refer to the :ref:`Implementation Checklist` for a full list of these things. Most importantly you're going to want to make sure that your :ref:`MARC Bibliographic Frameworks` are all defined the way you want. Once in the cataloging module you will not be able to add or remove fields and subfields so your frameworks must be ready before you start cataloging."
 msgstr ""
 "Vor der Katalogisierung mit Koha müssen einige Grundeinstellungen "
-"vorgenommen werden. Diese finden Sie in der :ref:`Implementierungs-"
-"Checkliste`. Der wichtigste Punkt ist, dass Sie das :ref:`Bibliographische "
-"MARC-Framework` für die Gegebenheiten Ihrer Bibliothek korrekt eingerichtet "
-"haben. Im Katalogmodul können Sie keine MARC-Felder oder -Unterfelder "
-"hinzufügen oder entfernen; deshalb muss die Frameworkmaske vor dem Beginn "
-"der Katalogisierung eingerichtet sein."
+"vorgenommen werden. Diese finden Sie in der :ref:`Checkliste zur "
+"Implementierung`. Der wichtigste Punkt ist, dass Sie das :ref:`"
+"Bibliographische MARC-Framework` für die Gegebenheiten Ihrer Bibliothek "
+"korrekt eingerichtet haben. Im Katalogmodul können Sie keine MARC-Felder "
+"oder -Unterfelder hinzufügen oder entfernen; deshalb muss die Frameworkmaske "
+"vor dem Beginn der Katalogisierung eingerichtet sein."
 
 #: ../../source/cataloging.rst:16
 msgid "You can also use OCLC Connexion to send records directly in to Koha. For more information on that please review the :ref:`OCLC Connexion Gateway` setup Appendix."
-msgstr "Sie können auch die OCLC Verbindung nutzen um Datensätze direkt nach Koha zu senden. Für mehr Informationen überprüfen Sie bitte den :ref:`OCLC Connexion Gateway` Anhang"
+msgstr ""
+"Sie können auch OCLC Connexion nutzen um Datensätze direkt nach Koha zu "
+"senden. Weitere Informationen hierzu finden Sie im Anhang unter :ref:`OCLC "
+"Connexion Gateway`."
 
 #: ../../source/cataloging.rst:20
 msgid "*Get there:* More > Cataloging"
@@ -85,7 +88,9 @@ msgstr "**Hinweis**"
 
 #: ../../source/cataloging.rst:53
 msgid "You can create or modify frameworks in the :ref:`Administration module <marc-bibliographic-frameworks-label>`."
-msgstr "Sie können Frameworks im :ref:`MARC-Frameworks-Editor <marc-bibliographic-frameworks-label>` neu erstellen oder bearbeiten."
+msgstr ""
+"Sie können Frameworks im :ref:`Administrationsmodul <marc-bibliographic-"
+"frameworks-label>` neu erstellen oder bearbeiten."
 
 #: ../../source/cataloging.rst:56
 msgid "If you would like to catalog a record using a blank template in the advanced editor"
@@ -106,10 +111,7 @@ msgstr "|image1262|"
 
 #: ../../source/cataloging.rst:65
 msgid "If you want to catalog a record based on an existing record at another library in the basic or advanced editor"
-msgstr ""
-"Wenn Sie einen neuen Datensatz aus einem vorhandenen Datensatz einer anderen "
-"Bibliothek erstellen möchten, nutzen Sie den Einfachen oder den Erweiterten "
-"Editor"
+msgstr "Wenn Sie einen neuen Datensatz aus einem vorhandenen Datensatz einer anderen Bibliothek erstellen möchten, nutzen Sie den Einfachen oder den Erweiterten Editor"
 
 #: ../../source/cataloging.rst:68
 msgid "Click 'New from Z39.50/SRU'"
@@ -141,9 +143,7 @@ msgstr "Die Anzeige von weiteren MARC Feldern und Unterfeldern kann über die Ei
 
 #: ../../source/cataloging.rst:87
 msgid "From the results' 'Action' button you can view the MARC or Card view for the record or choose to import it into Koha."
-msgstr ""
-"Ausgehend von den Ergebnissen können Sie die MARC- oder ISBD-Ausgabe eines "
-"Datensatzes anzeigen lassen oder ihn für den Import nach Koha auswählen."
+msgstr "Ausgehend von den Ergebnissen können Sie die MARC- oder ISBD-Ausgabe eines Datensatzes anzeigen lassen oder ihn für den Import nach Koha auswählen."
 
 #: ../../source/cataloging.rst:90
 msgid "|image629|"
@@ -291,7 +291,7 @@ msgstr "Erweiterter Editor"
 
 #: ../../source/cataloging.rst:197
 msgid "In order to use the Advanced cataloging editor you need to enable the :ref:`EnableAdvancedCatalogingEditor` preference."
-msgstr "Der Systemparameter :ref:`EnableAdvancedCatalogingEditor` ermöglicht Ihnen den Erweiterten Editor zu benutzen."
+msgstr "Der Systemparameter :ref:`EnableAdvancedCatalogingEditor` ermöglicht Ihnen den Erweiterten Katalogisierungseditor zu benutzen."
 
 #: ../../source/cataloging.rst:203
 msgid "This feature does not currently include any support for UNIMARC or NORMARC fixed fields."
@@ -339,19 +339,11 @@ msgstr "Vor dem ersten Unterfeldtrennzeichen muss ein Leerzeichen gesetzt werden
 
 #: ../../source/cataloging.rst:237
 msgid "At the bottom of the editor you will see help from the Library of Congress for the field you are on. In cases where your MARC is invalid you will see red highlighting. To edit the record using only keyboard functions the Keyboard shortcuts button will inform you of the necessary commands."
-msgstr ""
-"Unten im Editor finden Sie die Hilfe der Library of Congress für das aktuell "
-"ausgewählte Feld. Wenn Ihre MARC-Struktur ungültig ist, wird diese in rot "
-"hervorgehoben. Um den Datensatz ausschließlich mit Tastaturkürzeln zu "
-"bearbeiten, können Sie die Kürzel über die entsprechende Schaltfläche "
-"nachschlagen."
+msgstr "Unten im Editor finden Sie die Hilfe der Library of Congress für das aktuell ausgewählte Feld. Wenn Ihre MARC-Struktur ungültig ist, wird diese in rot hervorgehoben. Um den Datensatz ausschließlich mit Tastaturkürzeln zu bearbeiten, können Sie die Kürzel über die entsprechende Schaltfläche nachschlagen."
 
 #: ../../source/cataloging.rst:243
 msgid "A clipboard is available to copy and paste text between fields.  See the image and table below for the shortcuts used with the clipboard."
-msgstr ""
-"Eine Zwischenablage ist verfügbar um Text zwischen Feldern zu kopieren und "
-"einzufügen. Achten Sie auf das untenstehende Bild und die Tabelle um die "
-"Tastaturkürzel hierfür zu sehen."
+msgstr "Eine Zwischenablage ist verfügbar um Text zwischen Feldern zu kopieren und einzufügen. Achten Sie auf das untenstehende Bild und die Tabelle um die Tastaturkürzel hierfür zu sehen."
 
 #: ../../source/cataloging.rst:246
 msgid "|image645|"
@@ -519,12 +511,7 @@ msgstr "|image1458|"
 
 #: ../../source/cataloging.rst:308
 msgid "A virtual keyboard is available for adding diacritics and symbols.  Use the shortcut Shift-Ctrl-K to display the keyboard.  A 'Keyboard layouts' button will display at the top of the advanced editor that allows you to set the virtual keyboard layout for different languages."
-msgstr ""
-"Eine virtuelle Tastatur für das hinzufügen von diakritischen Zeichen und "
-"Sonderzeichen ist verfügbar. Verwenden Sie das Tastaturkürzel Shift+Strg+K "
-"um die Tastatur anzuzeigen. Eine neue Schaltfläche \"Tastaturlayouts\" wird "
-"in der Menüleiste des erweiterten Editors angezeigt über den Layouts für "
-"verschiedene Sprachen ausgewählte werden können."
+msgstr "Eine virtuelle Tastatur für das hinzufügen von diakritischen Zeichen und Sonderzeichen ist verfügbar. Verwenden Sie das Tastaturkürzel Shift+Strg+K um die Tastatur anzuzeigen. Eine neue Schaltfläche \"Tastaturlayouts\" wird in der Menüleiste des erweiterten Editors angezeigt über den Layouts für verschiedene Sprachen ausgewählte werden können."
 
 #: ../../source/cataloging.rst:317
 msgid "Macros in advanced cataloging"
@@ -644,7 +631,7 @@ msgstr "Wenn Sie unselbstständige Werke katalogisieren möchten, haben Sie zwei
 
 #: ../../source/cataloging.rst:407
 msgid "Easy analytics"
-msgstr "Einfache Aufsätze"
+msgstr "EasyAnalyticalRecords"
 
 #: ../../source/cataloging.rst:409
 msgid "The easy analytics feature makes linking analytic records together easier. The first thing you need to do is set the :ref:`EasyAnalyticalRecords` preference to 'Display' and the :ref:`UseControlNumber` preference to 'Don't use.'"
@@ -652,7 +639,10 @@ msgstr "Das Feature für die einfache Katalogisierung macht die Verknüpfung von
 
 #: ../../source/cataloging.rst:415
 msgid "After cataloging your analytic record (see :ref:`adding records <adding-records-label>` for more on creating records) click 'Edit' from the normal view and choose to 'Link to host item'"
-msgstr "Nach der Katalogisierung des unselbständigen Werkes, (:ref:`adding records <adding-records-label>` um mehr Datensätze anzulegen) klicken Sie 'Bearbeiten' in der normalen Ansicht und wählen Sie 'Mit übergeordnetem Werk verlinken'."
+msgstr ""
+"Nach der Katalogisierung des unselbständigen Werkes, (dazu mehr unter :ref:`"
+"Titel anlegen <adding-records-label>`) klicken Sie \"Bearbeiten\" in der "
+"normalen Ansicht und wählen Sie \"Mit übergeordnetem Werk verlinken\"."
 
 #: ../../source/cataloging.rst:419
 msgid "|image646|"
@@ -904,7 +894,7 @@ msgstr "Handelt es sich bei der Datei um ein PDF wird sie direkt im Benutzerbrow
 
 #: ../../source/cataloging.rst:626
 msgid "Merging records"
-msgstr "Verschmelze Datensätze"
+msgstr "Datensätze verschmelzen"
 
 #: ../../source/cataloging.rst:628
 msgid "To merge bibliographic records together you will want to go to the Cataloging module and perform a search."
@@ -977,7 +967,10 @@ msgstr "Wichtig: Der Zebraindex muss direkt nach der Verschmelzung von Datensät
 
 #: ../../source/cataloging.rst:690
 msgid "If you would like you can also use the :ref:`Lists` tool for merging records together. :ref:`Learn more here <merging-bibliographic-records-via-lists-label>`."
-msgstr "Sie können auch das Modul 'Listen' :ref:`Lists` zur Verschmelzung von Datensätzen verwenden :ref:`Mehr Lernen <merging-bibliographic-records-via-lists-label>`."
+msgstr ""
+"Sie können auch das Modul 'Listen' :ref:`Lists` zur Verschmelzung von "
+"Datensätzen verwenden. :ref:`Mehr erfahren <merging-bibliographic-records-"
+"via-lists-label>`."
 
 #: ../../source/cataloging.rst:696
 msgid "Deleting records"
@@ -1083,10 +1076,10 @@ msgstr "y - Koha Medientyp"
 msgid "To make sure that these values are filled in you can mark them as mandatory in the :ref:`framework <marc-bibliographic-frameworks-label>` you're using and then they will appear in red with a 'required' label. The item will not save until the required fields are filled in."
 msgstr ""
 "Um sicherzustellen, dass diese Werte ausgefüllt sind, können Sie diese im "
-"Framework als Pflichtfelder :ref:`Framework <marc-bibliographic-frameworks-"
-"label>` konfigurieren. In der Anzeige werden sie entsprechend in rot "
-"markiert. Der Datensatz wird erst dann gespeichert, wenn alle erforderlichen "
-"Felder ausgefüllt sind."
+":ref:`Framework <marc-bibliographic-frameworks-label>` als Pflichtfelder "
+"konfigurieren. In der Anzeige werden sie entsprechend in rot markiert. Der "
+"Datensatz wird erst dann gespeichert, wenn alle erforderlichen Felder "
+"ausgefüllt sind."
 
 #: ../../source/cataloging.rst:773
 msgid "|image677|"
@@ -1094,7 +1087,10 @@ msgstr "|image677|"
 
 #: ../../source/cataloging.rst:777
 msgid "To make item subfields required in a framework you'll want to edit the 952 field in the :ref:`framework editor <marc-bibliographic-frameworks-label>`."
-msgstr "Um alle erforderlichen Unterfelder in einem Framework festzulegen, können Sie Feld 952 im jeweiligen bibliographischen Framework :ref:`framework editor <marc-bibliographic-frameworks-label>` entsprechend bearbeiten."
+msgstr ""
+"Um Exemplarfelder als Pflichtfelder zu definieren, können Sie Feld 952 im "
+"jeweiligen :ref:`bibliographischen Framework <marc-bibliographic-frameworks-"
+"label>` entsprechend bearbeiten."
 
 #: ../../source/cataloging.rst:781
 msgid "Below the add form there are 3 buttons for adding the item"
@@ -1199,7 +1195,7 @@ msgstr "|image687|"
 
 #: ../../source/cataloging.rst:842
 msgid "This will open up the :ref:`batch item modification tool <batch-item-modification-label>` where you can edit all of the items on this record as a batch."
-msgstr "Dies öffnet die Stapelverarbeitung für Exemplare :ref:`batch item modification tool <batch-item-modification-label>`, in welcher Sie alle zu diesem Datensatz gehörenden Exemplare im Stapel bearbeiten können."
+msgstr "Dies öffnet die :ref:`Stapelverarbeitung für Exemplare <batch-item-modification-label>`, in welcher Sie alle zu diesem Datensatz gehörenden Exemplare im Stapel bearbeiten können."
 
 #: ../../source/cataloging.rst:846
 msgid "You can also enable :ref:`StaffDetailItemSelection` to have checkboxes appear to the left of each item on the detail display. You can then check off the items you would like to edit and click 'Modify selected items' at the top of the list."
@@ -1227,7 +1223,7 @@ msgstr "|image1269|"
 
 #: ../../source/cataloging.rst:863
 msgid "Finally you can use the :ref:`batch item modification <batch-item-modification-label>` tool"
-msgstr "Schlussendlich können Sie auch im Modul 'Werkzeuge' die Stapelbearbeitung von Exemplaren :ref:`batch item modification <batch-item-modification-label>` benutzen."
+msgstr "Schlussendlich können Sie auch im Modul 'Werkzeuge' die :ref:`Stapelbearbeitung von Exemplaren <batch-item-modification-label>` benutzen."
 
 #: ../../source/cataloging.rst:869
 msgid "Quick item status updates"
@@ -1297,7 +1293,10 @@ msgstr "|image1270|"
 
 #: ../../source/cataloging.rst:920
 msgid "In the 'History' section you will see information about the check out history of the item and if you ordered the item via the acquisitions module then this section will include information about the order."
-msgstr "Im Reiter 'Geschichte' können Sie auch den Ausleihverlauf des Exemplars verfolgen und wurde das Exemplar über das Erwerbungsmodul angelegt, dann erhalten Sie auch Informationen zur Bestellung."
+msgstr ""
+"Im Reiter 'Historie' können Sie auch den Ausleihverlauf des Exemplars "
+"verfolgen und wurde das Exemplar über das Erwerbungsmodul angelegt, dann "
+"erhalten Sie auch Informationen zur Bestellung."
 
 #: ../../source/cataloging.rst:924
 msgid "|image694|"
@@ -1333,13 +1332,14 @@ msgstr "Fügen Sie einfach den Barcode des Exemplars ein, dass Sie weiterleiten 
 
 #: ../../source/cataloging.rst:947
 msgid "If this is the last remaining item attached to a bibliographic record you will be presented with a button to delete the original host record."
-msgstr ""
-"Wenn dies das letzte Exemplare an dem anderen Titel war, wird eine "
-"Schaltfläche angeboten, über die der Ausgangsdatensatz gelöscht werden kann."
+msgstr "Wenn dies das letzte Exemplare an dem anderen Titel war, wird eine Schaltfläche angeboten, über die der Ausgangsdatensatz gelöscht werden kann."
 
 #: ../../source/cataloging.rst:950
 msgid "If you want to move all items to a new record creating only one bibliographic record you can use the :ref:`merge Records tool <merging-bibliographic-records-via-lists-label>` instead."
-msgstr "Wenn Sie alle Exemplare eines Datensatzes an einen anderen Titeldatensatz umhängen möchten, können Sie dafür die Funktion :ref:`merge records tool <merging-bibliographic-records-via-lists-label>` verwenden."
+msgstr ""
+"Wenn Sie alle Exemplare eines Datensatzes an einen anderen Titeldatensatz "
+"umhängen möchten, können Sie dafür die Funktion :ref:`Datensätze "
+"verschmelzen <merging-bibliographic-records-via-lists-label>` verwenden."
 
 #: ../../source/cataloging.rst:957
 msgid "Deleting items"
@@ -1375,7 +1375,10 @@ msgstr "|image699|"
 
 #: ../../source/cataloging.rst:983
 msgid "Finally you can use the :ref:`batch delete tool <batch-item-deletion-label>` to delete a batch of items."
-msgstr "Sie können auch im Modul 'Werkzeuge' die Stapellöschung von Exemplaren :ref:`batch delete tool <batch-item-deletion-label>` verwenden, um mehrere Exemplare auf einmal zu löschen."
+msgstr ""
+"Sie können auch das Werkzeug für die :ref:`Stapellöschung von Exemplaren "
+"<batch-item-deletion-label>` verwenden, um mehrere Exemplare auf einmal zu "
+"löschen."
 
 #: ../../source/cataloging.rst:989
 msgid "Item specific circulation history"
@@ -1519,7 +1522,14 @@ msgstr "|image713|"
 
 #: ../../source/cataloging.rst:1103
 msgid "Once you've made the necessary edits, simply click 'Save' and `dontmerge <#dontmerge>`__ is set to 'Do', Koha will immediately update all of the bib records linked to the authority with the new authority record's data. If dontmerge is set to \"Don't\" then Koha won't edit bib records when changes are made to authorities, rather, this is done later by the :ref:`merge\\_authority.pl cronjob <cron-update-authorities-label>`."
-msgstr "Wenn Sie alle notwendigen Änderungen gemacht haben, klicken Sie auf 'Speichern' und 'dontmerge'<#dontmerge>__ wird auf 'Ja' gesetzt. Koha aktualisiert sofort alle Titeldatensätze, die mit dem Normdatensatz verbunden sind. Wenn dontmerge auf 'Nein' gesetzt ist, bearbeitet Koha keine Titeldatensätze, wenn Änderungen in den Normdaten vorgenommen werden. Dies wird dann später über den Cronjob :ref:`merge\\_authority.pl cronjob <cron-update-authorities-label>`. erledigt."
+msgstr ""
+"Wenn Sie alle notwendigen Änderungen gemacht haben, klicken Sie auf "
+"'Speichern' und 'dontmerge'<#dontmerge>__ wird auf 'Ja' gesetzt. Koha "
+"aktualisiert sofort alle Titeldatensätze, die mit dem Normdatensatz "
+"verbunden sind. Wenn dontmerge auf 'Nein' gesetzt ist, bearbeitet Koha keine "
+"Titeldatensätze, wenn Änderungen in den Normdaten vorgenommen werden. Dies "
+"wird dann später über den Cronjob :ref:`merge\\_authority.pl <cron-update-"
+"authorities-label>`. erledigt."
 
 #: ../../source/cataloging.rst:1110
 msgid "To delete an authority record you first must make sure it's not linked to any bibliographic records. If it is not used by any bibliographic records a 'Delete' link will appear to the right of the record on the search results and as a button that appears after clicking on the summary of the authority record."
@@ -1579,7 +1589,7 @@ msgstr "Leitfaden für die Katalogisierung"
 
 #: ../../source/cataloging.rst:1163
 msgid "Bibliographic record cataloging cheat sheet"
-msgstr "Titeldatensatz Katalogblatt"
+msgstr "Spickzettel für die Titeldatenkatalogisierung"
 
 #: ../../source/cataloging.rst:1166
 msgid "Tag"
@@ -1892,18 +1902,11 @@ msgstr "Produktion, Veröffentlichung, etc."
 
 #: ../../source/cataloging.rst:1204
 msgid "Production, Publication, Distribution, Manufacture, and Copyright Notice."
-msgstr ""
-"Datum der Herstellung, der Veröffentlichung, des Vertriebs oder des "
-"Urheberschutzvermerks."
+msgstr "Datum der Herstellung, der Veröffentlichung, des Vertriebs oder des Urheberschutzvermerks."
 
 #: ../../source/cataloging.rst:1204
 msgid "Put the location of publication in subfield 'a', the publisher in subfield 'b', and the year (or probable year) in subfield 'c'. See ISBD punctuation sheet.  The label is set dynamically from the second indicator so generally this would be set to '1' for Publisher: ."
-msgstr ""
-"Schreiben Sie den Veröffentlichungsort in das Unterfeld 'a' und den Verlag "
-"in das Unterfeld 'b' und das Jahr (oder das mutmaßliche Jahr) in das "
-"Unterfeld 'c'. Beachten Sie die ISBD-Zeichensetzung. Die Feldbeschriftung "
-"wird dynamisch aus dem zweiten Indikator erzeugt und wird üblicherweise '1' "
-"für 'Verlag:' sein."
+msgstr "Schreiben Sie den Veröffentlichungsort in das Unterfeld 'a' und den Verlag in das Unterfeld 'b' und das Jahr (oder das mutmaßliche Jahr) in das Unterfeld 'c'. Beachten Sie die ISBD-Zeichensetzung. Die Feldbeschriftung wird dynamisch aus dem zweiten Indikator erzeugt und wird üblicherweise '1' für 'Verlag:' sein."
 
 #: ../../source/cataloging.rst:1206
 msgid "300"
@@ -2291,24 +2294,7 @@ msgstr "Beschreibt die übergeordnete Einheit eines Werkes (z.Bsp. Buch oder Zei
 
 #: ../../source/cataloging.rst:1256
 msgid "If the host publication is author main entry, enter the authorized form of the author's name in subfield 'a'. Put the title in subfield 't'. If the host publication is an independent work, put publication information in subfield 'd'. When available, ISSN and ISBN should always be used in, in subfields 'x' and 'z' respectively. Relationship information (e.g. volume number, page number, etc.) goes in subfield 'g'. Subfield 'q' contains an encoded representation of the location of the item: volume, issue, and section numbers are separated by colons, and the first page is entered following a '<' at the end of the subfield. See ISBD punctuation sheet. Set the first indicator to '0'. If you want the label \"In:\" to be generated, leave the second indicator blank. If you want something else displayed before the 773 text, set the second indicator to '8' and add a subfield 'i' with the label you want at the beginning of the field (e.g. \"$iOffprint from:\")."
-msgstr ""
-"Wenn die Veröffentlichung bestimmt, das der Autor die Haupteintragung "
-"bekommen soll, dann geben sie die autorisierte Form des Autorennamen im "
-"Unterfeld 'a' an. Schreiben Sie den Titel in das Unterfeld 't'. Wenn es sich "
-"bei der Veröffentlichung um ein unabhängiges Werk handelt, dann schreiben "
-"Sie die Information zur Veröffentlichung in das Unterfeld 'd'. Wenn "
-"verfügbar, dann sollten Sie die ISSN und die ISBN immer verwenden und zwar "
-"entsprechend in den Unterfeldern 'x' und 'z'. Informationen zum Verhältnis ("
-"z.Bsp. Bandnummer, Seitenzahl etc.) werden im Unterfeld 'g' hinterlegt. Das "
-"Unterfeld 'q' enthält eine verschlüsselte Information des Standortes des "
-"Exemplars: Band, Heft und Sektionsnummern werden durch Doppelpunkte getrennt "
-"und der ersten Seite folgt a '<' am Ende des Unterfeldes. Prüfen Sie auch "
-"das ISBD-Zeichensetzungsblatt. Setzen Sie den ersten Indikator auf '0' Wenn "
-"Sie möchten, dass die Kennzeichnung \"In:\" generiert wird, dann lassen Sie "
-"den zweiten Indikator leer. Wenn Sie vor dem 773-Text noch etwas anderes "
-"angezeigt haben möchten, dann setzen Sie den zweiten Indikator auf '8' und "
-"fügen Sie ein Unterfeld 'i' mit der Kennzeichnung, die am Beginn des Feldes "
-"stehen soll, hinzu (z.Bsp. \"$iOffprint von:\")."
+msgstr "Wenn die Veröffentlichung bestimmt, das der Autor die Haupteintragung bekommen soll, dann geben sie die autorisierte Form des Autorennamen im Unterfeld 'a' an. Schreiben Sie den Titel in das Unterfeld 't'. Wenn es sich bei der Veröffentlichung um ein unabhängiges Werk handelt, dann schreiben Sie die Information zur Veröffentlichung in das Unterfeld 'd'. Wenn verfügbar, dann sollten Sie die ISSN und die ISBN immer verwenden und zwar entsprechend in den Unterfeldern 'x' und 'z'. Informationen zum Verhältnis (z.Bsp. Bandnummer, Seitenzahl etc.) werden im Unterfeld 'g' hinterlegt. Das Unterfeld 'q' enthält eine verschlüsselte Information des Standortes des Exemplars: Band, Heft und Sektionsnummern werden durch Doppelpunkte getrennt und der ersten Seite folgt a '<' am Ende des Unterfeldes. Prüfen Sie auch das ISBD-Zeichensetzungsblatt. Setzen Sie den ersten Indikator auf '0' Wenn Sie möchten, dass die Kennzeichnung \"In:\" generiert wird, dann lassen Sie den zweiten Indikator leer. Wenn Sie vor dem 773-Text noch etwas anderes angezeigt haben möchten, dann setzen Sie den zweiten Indikator auf '8' und fügen Sie ein Unterfeld 'i' mit der Kennzeichnung, die am Beginn des Feldes stehen soll, hinzu (z.Bsp. \"$iOffprint von:\")."
 
 #: ../../source/cataloging.rst:1258
 msgid "830"
@@ -2380,7 +2366,7 @@ msgstr "Tabelle: Katalogaufnahme"
 
 #: ../../source/cataloging.rst:1272
 msgid "Item/Holdings Record Cataloging Guide"
-msgstr "Exemplar/Bestand Datensatz Katalogaufnahme"
+msgstr "Katalogisierungsleitfaden für Exemplar- und Bestandsdaten"
 
 #: ../../source/cataloging.rst:1274
 msgid "This table represents the default embedded holdings data in Koha. This information can be used for migration or importing data purposes"
@@ -2790,9 +2776,7 @@ msgstr "Normierter Wert, erforderlich für die Ausleihe."
 
 #: ../../source/cataloging.rst:1358
 msgid "**Required**. Coded value, must be defined in :ref:`Item types <item-types-label>`"
-msgstr ""
-"**Erforderlich**. Der normierte Wert muss in den :ref:`Medientypen <item-"
-"types-label>` definiert sein. "
+msgstr "**Erforderlich**. Der normierte Wert muss in den :ref:`Medientypen <item-types-label>` definiert sein. "
 
 #: ../../source/cataloging.rst:1360
 msgid "952$z"
@@ -2816,7 +2800,7 @@ msgstr "\\*\\* - erforderlich für 'Über Koha'"
 
 #: ../../source/cataloging.rst:1372
 msgid "Koha XSLT material type icons"
-msgstr "Koha XSLT Icons für den Materialtyp"
+msgstr "Koha XSLT-Icons für den Materialtyp"
 
 #: ../../source/cataloging.rst:1374
 msgid "When you have any of the XSLT system preferences (:ref:`OPACXSLTDetailsDisplay`, :ref:`OPACXSLTResultsDisplay`, :ref:`XSLTDetailsDisplay`, and/or :ref:`XSLTResultsDisplay`) along with the :ref:`DisplayOPACiconsXSLT` and :ref:`DisplayIconsXSLT` preferences turned on you will see material type icons on the related screen."
@@ -2976,7 +2960,7 @@ msgstr "leader6 = o"
 
 #: ../../source/cataloging.rst:1467
 msgid "Handling On Order Items and Holds"
-msgstr "Handhabung für Bestellexemplare und Vormerkungen"
+msgstr "Handhabung von Bestellexemplaren und Vormerkungen"
 
 #: ../../source/cataloging.rst:1469
 msgid "If you tend to import your MARC records when you have ordered the book (as opposed to when you receive the books), and allow patrons to place holds on those books, you may need to add item records to the \\*.mrc file before importing."
@@ -2984,7 +2968,14 @@ msgstr "Wenn Sie dazu tendieren Ihre MARC-Datensätze nach Bestellung der Büche
 
 #: ../../source/cataloging.rst:1474
 msgid "The easiest way to import your latest order is to first run your records through `MARCEdit <http://marcedit.reeset.net/>`__. Download your MARC records, saving them to your desktop or some other location you use/will remember. If you have MARCEdit already installed you should simply have to double click on your MARC records, and they will automatically open in MARCEdit."
-msgstr "Der einfachste Weg Ihre letzte Bestellung zu importieren, ist die Datensätze zuerst durch `MARCEdit <http://marcedit.reeset.net/>`__. laufen zu lassen. Laden Sie Ihre MARC Datensätze herunter und speichern Sie diese auf Ihrem Desktop oder an einem anderen Ort, wo sie wieder gefunden werden können. Wenn Sie MARCEdit bereits installiert haben, können Sie einfach nur mit einem Doppelklick auf Ihre MARC-Datensätze klicken und dadurch wird MARCEdit automatisch geöffnet. "
+msgstr ""
+"Der einfachste Weg Ihre letzte Bestellung zu importieren, ist die Datensätze "
+"zuerst durch `MARCEdit <http://marcedit.reeset.net/>`__ laufen zu lassen. "
+"Laden Sie Ihre MARC Datensätze herunter und speichern Sie diese auf Ihrem "
+"Desktop oder an einem anderen Ort, wo sie wieder gefunden werden können. "
+"Wenn Sie MARCEdit bereits installiert haben, können Sie einfach nur mit "
+"einem Doppelklick auf Ihre MARC-Datensätze klicken und dadurch wird MARCEdit "
+"automatisch geöffnet. "
 
 #: ../../source/cataloging.rst:1483
 msgid "This tutorial was written with MARCEdit version 5.2.3769.41641 on Windows XP, instructions may be different if your version or operating system is different."

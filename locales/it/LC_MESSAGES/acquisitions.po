@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-11-19 21:57+0000\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-01-29 11:46+0000\n"
 "Last-Translator: bargioni <bargioni@pusc.it>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /it/man18.05/acquisitions.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1605823072.034790\n"
+"X-POOTLE-MTIME: 1611920793.851684\n"
 
 #: ../../source/acquisitions.rst:6
 msgid "Acquisitions"
@@ -323,16 +323,11 @@ msgstr "Le proposte di acquisto possono essere generate in due modi. Puoi creare
 #: ../../source/acquisitions.rst:203
 #, fuzzy
 msgid "You need to be logged in as a staff member with the suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>` in order to view and work with purchase suggestions."
-msgstr ""
-"Per vedere e lavorare con i suggerimenti di acquisto, devi essere entrato "
-"come membro dello staff ed avere il permesso suggestions_manage :ref:`"
-"acquisitions permission <granular-acquisitions-permissions-label>`."
+msgstr "Per vedere e lavorare con i suggerimenti di acquisto, devi essere entrato come membro dello staff ed avere il permesso suggestions_manage :ref:`acquisitions permission <granular-acquisitions-permissions-label>`."
 
 #: ../../source/acquisitions.rst:207
 msgid "When a suggestion is waiting for library review, it will appear on the Acquisitions home page next to the vendor search."
-msgstr ""
-"Quando un suggerimento di acquisto è in attesa al vaglio della biblioteca, "
-"apparirà nella home del modulo Acquisti, vicino alla ricerca per fornitore."
+msgstr "Quando un suggerimento di acquisto è in attesa al vaglio della biblioteca, apparirà nella home del modulo Acquisti, vicino alla ricerca per fornitore."
 
 #: ../../source/acquisitions.rst:210
 msgid "|image794|"
@@ -441,13 +436,7 @@ msgstr "|image1280|"
 
 #: ../../source/acquisitions.rst:296
 msgid "This edit can trigger a notice (defined in the :ref:`Notices & slips <notices-and-slips-label>` tool with the `TO\\_PROCESS <#toprocessnotice>`__ notice) to the fund owner that there is a suggestion ready for them to manage if you have turned on the :ref:`cron job to generate these notices <cron-email-suggestions-to-process-label>`."
-msgstr ""
-"Questa modifica può innescare un avviso (definito in :ref:`Avvisi & Ricevute "
-"<notices-&-slips-label>` con il codice `TO\\_PROCESS "
-"<#toprocessnotice>`__notice) al proprietario del fondo che c'è un "
-"suggerimento pronto per essere gestito da lui. Tutto ciò avviene solo se è "
-"stato configurato il :ref:`cron job specifico per generare questo avviso "
-".<cron-email-suggestions-to-process-label>`"
+msgstr "Questa modifica può innescare un avviso (definito in :ref:`Avvisi & Ricevute <notices-&-slips-label>` con il codice `TO\\_PROCESS <#toprocessnotice>`__notice) al proprietario del fondo che c'è un suggerimento pronto per essere gestito da lui. Tutto ciò avviene solo se è stato configurato il :ref:`cron job specifico per generare questo avviso .<cron-email-suggestions-to-process-label>`"
 
 #: ../../source/acquisitions.rst:302
 #, fuzzy
@@ -535,17 +524,11 @@ msgstr "Se stai usando gli ordini permaneti (ordini che fanna arrivare regolarme
 #: ../../source/acquisitions.rst:367
 #, fuzzy
 msgid "Note that any one basket cannot contain both firm and standing orders."
-msgstr ""
-"Si noti che un basket non può contenere sia ordini puntuali che standing "
-"order."
+msgstr "Si noti che un basket non può contenere sia ordini puntuali che standing order."
 
 #: ../../source/acquisitions.rst:369
 msgid "You can choose to create items either upon placing the order, upon receiving the order, or upon cataloging the item. If you choose an option other than the default, it will apply only to this basket. The default is set by the :ref:`AcqCreateItem <acqcreateitem-label>` system preference."
-msgstr ""
-"Puoi scegliere di creare la copia o al momento dell'ordine, o al "
-"ricevimento, o alla catalogazione. Se scegli un'opzione diversa dal default, "
-"si applicherà solo a questo basket. Il default è determinato dalla "
-"preferenza di sistema :ref:`AcqCreateItem <acqcreateitem-label>`."
+msgstr "Puoi scegliere di creare la copia o al momento dell'ordine, o al ricevimento, o alla catalogazione. Se scegli un'opzione diversa dal default, si applicherà solo a questo basket. Il default è determinato dalla preferenza di sistema :ref:`AcqCreateItem <acqcreateitem-label>`."
 
 #: ../../source/acquisitions.rst:375
 msgid "If you have :ref:`added contracts <add-a-contract-label>` to the vendor you're ordering from, you will also have an option to choose which contract you're ordering these items under."
@@ -594,9 +577,7 @@ msgstr "|image809|"
 
 #: ../../source/acquisitions.rst:401
 msgid "From the record's detailed view, you can click on the 'Add order' button."
-msgstr ""
-"Dalla vista dettaglio del record, puoi fare click sul bottone 'Aggiungi "
-"ordine'."
+msgstr "Dalla vista dettaglio del record, puoi fare click sul bottone 'Aggiungi ordine'."
 
 #: ../../source/acquisitions.rst:403
 #, fuzzy
@@ -623,12 +604,7 @@ msgstr "Crea un ordine usando i records nel deposito temporaneo"
 
 #: ../../source/acquisitions.rst:415
 msgid "If you allow patrons to make purchase suggestions (learn more in the :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` section of this manual), then you can place orders from those suggestions. In order to keep track of suggestions that have been ordered and received you must place the order using this link."
-msgstr ""
-"Se permetti agli utenti di a fare proposte d'acquisto (per saperne di più "
-"vai a :ref:`sezione gestione dei suggerimenti <managing-purchase-suggestions-"
-"label>` di questo manuale), è possibile effettuare ordini da quei "
-"suggerimenti. Al fine di tenere traccia dei suggerimenti che sono stati "
-"ordinati e ricevuti è necessario effettuare l'ordine utilizzando questo link."
+msgstr "Se permetti agli utenti di a fare proposte d'acquisto (per saperne di più vai a :ref:`sezione gestione dei suggerimenti <managing-purchase-suggestions-label>` di questo manuale), è possibile effettuare ordini da quei suggerimenti. Al fine di tenere traccia dei suggerimenti che sono stati ordinati e ricevuti è necessario effettuare l'ordine utilizzando questo link."
 
 #: ../../source/acquisitions.rst:423
 msgid "Suggestions must be accepted before you can order them."
@@ -661,12 +637,7 @@ msgstr "|image813|"
 
 #: ../../source/acquisitions.rst:441
 msgid "Orders added to the basket in this way will notify the patron via email that their suggestion has been ordered (with the 'ORDERED' notice in Tools > :ref:`Notices & slips <existing-notices-and-slips-label>`) and will update the patron's ':ref:`your purchase suggestions <your-purchase-suggestions-label>`' page in the OPAC."
-msgstr ""
-"Gli ordini così aggiunti al raccoglitore, notificheranno via emal all'utente "
-"(con l'avviso 'ORDERED', vedi :ref:`Avvisi e ricevute <existing-notices-and-"
-"slips-label>`) che la sua proposta è stata accettata e verrà aggiornata la "
-"pagina dell'utente ':ref:`Le mie richieste di acquisto <your-purchase-"
-"suggestions-label>`' nell'OPAC."
+msgstr "Gli ordini così aggiunti al raccoglitore, notificheranno via emal all'utente (con l'avviso 'ORDERED', vedi :ref:`Avvisi e ricevute <existing-notices-and-slips-label>`) che la sua proposta è stata accettata e verrà aggiornata la pagina dell'utente ':ref:`Le mie richieste di acquisto <your-purchase-suggestions-label>`' nell'OPAC."
 
 #: ../../source/acquisitions.rst:451
 #, fuzzy
@@ -720,12 +691,7 @@ msgstr "Ti verrà presentata una form da riempire con i dati della copia che vuo
 
 #: ../../source/acquisitions.rst:488
 msgid "If the default form does not have catalog details fields necessary to place an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference which will allow the ACQ :ref:`MARC framework <marc-bibliographic-frameworks-label>` to customize the display of fields when ordering."
-msgstr ""
-"Se la form di default non ha i campi catalografici necessari per generare "
-"l'ordine, attiva la preferenza di sistema "
-":ref:`UseACQFrameworkForBiblioRecords` che permetterà alla griglia ACQ MARC "
-"di personalizzare la visualizzazione dei campi al momento dell'ordine. Vedi "
-":ref:`Griglie MARC <marc-bibliographic-frameworks-label>`"
+msgstr "Se la form di default non ha i campi catalografici necessari per generare l'ordine, attiva la preferenza di sistema :ref:`UseACQFrameworkForBiblioRecords` che permetterà alla griglia ACQ MARC di personalizzare la visualizzazione dei campi al momento dell'ordine. Vedi :ref:`Griglie MARC <marc-bibliographic-frameworks-label>`"
 
 #: ../../source/acquisitions.rst:496
 msgid "Duplicate orders (order from existing orders)"
@@ -734,9 +700,7 @@ msgstr "Duplicazione ordini (ordina da ordini esistenti)"
 #: ../../source/acquisitions.rst:498
 #, fuzzy
 msgid "You can duplicate an existing order line by choosing the 'From existing orders (copy)' option."
-msgstr ""
-"Puoi duplicare una riga di ordine esistente scegliendo l'opzione 'Copia da "
-"ordini esistenti'."
+msgstr "Puoi duplicare una riga di ordine esistente scegliendo l'opzione 'Copia da ordini esistenti'."
 
 #: ../../source/acquisitions.rst:501
 #, fuzzy
@@ -809,6 +773,9 @@ msgstr "Crea un ordine usando i records nel deposito temporaneo"
 #: ../../source/acquisitions.rst:545
 msgid "If your vendor sent you a record file (a .mrc file for example), you can add orders using the records in that file. Choose the 'From a new file' option."
 msgstr ""
+"Se il tuo fornitore ti ha spedito un file (un .mrc, per esempio), puoi "
+"aggiungere ordini usando i record di quel file. Scegli l'opzione 'Da nuovo "
+"file'."
 
 #: ../../source/acquisitions.rst:551
 msgid "Note that you need the stage_marc_import :ref:`tool permission <granular-tools-permissions-label>` in order to be able order from a new file."

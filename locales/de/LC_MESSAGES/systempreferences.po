@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 01:15-0300\n"
-"PO-Revision-Date: 2020-11-15 13:19+0000\n"
+"POT-Creation-Date: 2021-01-08 01:15-0300\n"
+"PO-Revision-Date: 2021-02-26 12:42+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1605446390.814367\n"
+"X-POOTLE-MTIME: 1614343357.875123\n"
 
 #: ../../source/systempreferences.rst:6
 msgid "Global system preferences"
@@ -69,7 +69,11 @@ msgstr "|image4|"
 
 #: ../../source/systempreferences.rst:37
 msgid "If the preference refers to monetary values (like :ref:`maxoutstanding`) the currency displayed will be the default you set in your :ref:`Currencies and Exchange Rates` administration area. In the examples to follow they will all read USD for U.S. Dollars."
-msgstr "Wenn sich die Parameter auf finanzielle Werte beziehen (wie :ref:`maxoutstanding`) wird in der Administration der Währungswert in :ref:`Currencies and Exchange Rates`hinzugefügt. In den folgenden Beispielen wird USD als U.S.Dollars gelesen. "
+msgstr ""
+"Wenn sich die Parameter auf finanzielle Werte beziehen (wie "
+":ref:`maxoutstanding`) wird in der Administration der Währungswert in :ref:`"
+"Währungen und Wechselkurse` hinzugefügt. In den folgenden Beispielen wird "
+"USD als U.S.Dollars gelesen. "
 
 #: ../../source/systempreferences.rst:43 ../../source/systempreferences.rst:405
 #: ../../source/systempreferences.rst:604
@@ -214,6 +218,17 @@ msgstr "**Wichtig**"
 #: ../../source/systempreferences.rst:45
 msgid "For libraries systems with unique URLs for each site the system preference can be overridden by editing your koha-http.conf file this has to be done by a system administrator or someone with access to your system files. For example if all libraries but one want to have search terms highlighted in results you set the OpacHighlightedWords preference to 'Highlight' then edit the koha-http.conf for the library that wants this turned off by adding 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting the web server that one library will no longer see highlighted terms. Consult with your system administrator for more information."
 msgstr ""
+"Für Bibliotheken mit einer URL für jeden Standort können die Systemparameter "
+"über die koha-http.conf-Datei überschrieben werden, allerdings muss dies ein "
+"Systemadministrator oder jemand mit Zugang zu den Systemdateien einrichten. "
+"Beispiel: Wenn alle Bibliotheken bis auf eine die Suchbegriffe in den "
+"Trefferlisten hervorheben möchten, konfigurieren Sie den Systemparameter "
+"OpacHighlightedWords auf hervorheben und bearbeiten den Eintrag für die eine "
+"Bibliothek in koha-http.conf, die dies nicht möchte, indem Sie 'SetEnv "
+"OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"' ergänzen. Nach einem "
+"Neustart des Webservers werden die Suchbegriffe für diese Bibliothek nun "
+"nicht länger hervorgehoben. Besprechen Sie sich mit Ihrem "
+"Systemadministrator für weitere Informationen."
 
 #: ../../source/systempreferences.rst:60
 msgid "Accounting"
@@ -1305,7 +1320,7 @@ msgstr "erstellt von Bibliotheksmitarbeitern"
 
 #: ../../source/systempreferences.rst:235
 msgid "Asks: Show baskets \\_\\_\\_"
-msgstr "Fragen: Zeige Körbe \\_\\_\\_"
+msgstr "Fragen: Zeige Bestellungen \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:239
 msgid "created by staff member"
@@ -1437,7 +1452,7 @@ msgstr "360 000,00 (FR)"
 
 #: ../../source/systempreferences.rst:334
 msgid "gist"
-msgstr "das Wesentliche"
+msgstr "gist"
 
 #: ../../source/systempreferences.rst:336
 #: ../../source/systempreferences.rst:4810
@@ -1726,9 +1741,10 @@ msgid "|image1179|"
 msgstr "|image1179|"
 
 #: ../../source/systempreferences.rst:545
-#, fuzzy
 msgid "Create a project, and give it some details to help you identify it later"
-msgstr "Wenn Sie einen Korb einrichten, sollten Sie ihm einen sprechenden Namen geben der bei der späteren Identifizierung hilft."
+msgstr ""
+"Legen Sie ein Projekt an und geben Sie einige Details an, um die spätere "
+"Identifizierung zu vereinfachen."
 
 #: ../../source/systempreferences.rst:548
 msgid "|image5|"
@@ -2218,9 +2234,8 @@ msgstr "E-Mail senden"
 
 # Administration > Interface options
 #: ../../source/systempreferences.rst:869
-#, fuzzy
 msgid "Asks: Email to redirect all messages to: \\_\\_\\_ (Leave this field empty to send messages to their normal recipient)"
-msgstr "(Lassen Sie dieses Feld leer um E-Mail-Benachrichtigungen an den normalen Empfänger zu senden)"
+msgstr "Fragt: E-Mail-Adresse, an die alle Benachrichtigungen geschickt werden sollen: \\_\\_\\_ (Lassen Sie dieses Feld leer, um E-Mail-Benachrichtigungen an den normalen Empfänger zu senden)"
 
 #: ../../source/systempreferences.rst:874
 msgid "This system preference is used to override any patron email address with this one when sending notices. This is meant to be used in a testing environment to test notices and to avoid spamming patrons."
@@ -2388,9 +2403,8 @@ msgstr "Nein"
 
 # Administration > Login options
 #: ../../source/systempreferences.rst:989
-#, fuzzy
 msgid "Asks: Prevent staff (but not superlibrarians) from viewing and approving/denying patron modification requests for patrons belonging to other libraries. \\_\\_\\_"
-msgstr "Verhindern, dass Bibliotheksmitarbeiter (aber nicht Superlibrarians) Adressänderungswünsche von Benutzern anderer Bibliotheken sehen und verwalten können: "
+msgstr "Fragt: Verhindern, dass Bibliothekspersonal (aber nicht Superlibrarians) Adressänderungswünsche von Benutzern anderer Bibliotheken sehen und verwalten können: \\_\\_\\_"
 
 # Administration > Login options
 #: ../../source/systempreferences.rst:1002
@@ -2409,9 +2423,8 @@ msgstr "Standardwert"
 
 # Administration > Login options
 #: ../../source/systempreferences.rst:1006
-#, fuzzy
 msgid "Asks: \\_\\_\\_ check for change in remote IP address for session security. Disable only when remote IP address changes frequently."
-msgstr "(Deaktivieren Sie dies nur, wenn sich die IP-Adresse häufig ändert.)"
+msgstr "Fragt: Änderung der Zugriffs-IP-Adresse zur Session-Sicherheit prüfen: \\_\\_\\_ (Deaktivieren Sie dies nur, wenn sich die IP-Adresse häufig ändert.)"
 
 #: ../../source/systempreferences.rst:1011
 #: ../../source/systempreferences.rst:3914
@@ -2490,9 +2503,8 @@ msgstr "gespeicherte Codes in der Datenbank"
 
 # Administration > Login options
 #: ../../source/systempreferences.rst:1037
-#, fuzzy
 msgid "Asks: Store login session information \\_\\_\\_"
-msgstr "Speicherort der Session-Informationen: "
+msgstr "Fragt: Speicherort der Session-Informationen: \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:1041
 #, fuzzy
@@ -2553,9 +2565,8 @@ msgstr "Standardwert: Nein"
 
 # Administration > SSL client certificate authentication
 #: ../../source/systempreferences.rst:1085
-#, fuzzy
 msgid "Asks: Use \\_\\_\\_ field for SSL client certificate authentication"
-msgstr "SSL Client Certificate Authentification"
+msgstr "Fragt: Feld für SSL Client Certificate Authentication: \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:1089
 #: ../../source/systempreferences.rst:9855
@@ -2604,9 +2615,8 @@ msgid "Zebra"
 msgstr ""
 
 #: ../../source/systempreferences.rst:1118
-#, fuzzy
 msgid "Share anonymous usage statistics"
-msgstr "Bibliotheksstatistik teilen"
+msgstr "Bibliotheksstatistiken mit der Koha-Community teilen"
 
 #: ../../source/systempreferences.rst:1120
 msgid "As an open source project Koha is used all over the world. These preference will help us keep more accurate statistics on where Koha is being used. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. You will need to enable the :ref:`Share Usage Stats` cronjob to send this information at regular intervals to the community."
@@ -2625,9 +2635,8 @@ msgstr "Standardwert: Nicht benutzen"
 
 # Administration > Share anonymous usage statistics
 #: ../../source/systempreferences.rst:1135
-#, fuzzy
 msgid "Asks: \\_\\_\\_ anonymous Koha usage data with the Koha community."
-msgstr "Teilen Sie anonyme Nutzungsdaten mit der Koha Community: "
+msgstr "Fragt: Teilen Sie anonyme Nutzungsdaten mit der Koha Community:  \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:1139
 #, fuzzy
@@ -2688,9 +2697,8 @@ msgstr "Standardwert: 0"
 
 # Administration > Share anonymous usage statistics
 #: ../../source/systempreferences.rst:1176
-#, fuzzy
 msgid "Asks: Geolocation of the main library: \\_\\_\\_ Note that this value has no effect if the :ref:`UsageStats` systemp preference is set to \"Don't share\""
-msgstr "Dieser Wert wird nicht verwendet wenn die Systemeinstellung UsageStats auf \"Nicht teilen\" gesetzt ist"
+msgstr "Fragt: Geographische Koordinaten der Hauptbibliothek: \\_\\_\\_ HINWEIS: Dieser Parameter hat keine Auswirkung, wenn der :ref:`UsageStats`-Systemparameter nicht aktiv ist."
 
 # Administration > Share anonymous usage statistics
 #: ../../source/systempreferences.rst:1182
@@ -2705,9 +2713,8 @@ msgstr "Default: Nicht warnen"
 
 # Administration > Share anonymous usage statistics
 #: ../../source/systempreferences.rst:1186
-#, fuzzy
 msgid "Asks: \\_\\_\\_ libraries information (name, url, country) Note that this value has no effect if the :ref:`UsageStats` system preference is set to \"Don't share\""
-msgstr "Bitte beachten Sie, dass dieser Parameter keinen Effekt hat, wenn der UsageStats Systemparameter deaktiviert ist."
+msgstr "Fragt: \\_\\_\\_ Bibliotheksinformationen (Name, URL, Land). HINWEIS: Dieser Parameter hat keine Auswirkung, wenn der UsageStats-Systemparameter nicht aktiv ist."
 
 #: ../../source/systempreferences.rst:1192
 #, fuzzy
@@ -2839,9 +2846,8 @@ msgstr "Standardwert: Nicht benutzen"
 
 # Authorities > General
 #: ../../source/systempreferences.rst:1302
-#, fuzzy
 msgid "Asks: \\_\\_\\_ broader term/narrower term hierarchies when viewing authorities."
-msgstr "Hierarchien für weitere/engere Terme zwischen Normdaten."
+msgstr "Fragt: \\_\\_\\_ Hierarchien für weitere/engere Terme zwischen Normdaten."
 
 #: ../../source/systempreferences.rst:1307
 #: ../../source/systempreferences.rst:1673
@@ -2920,9 +2926,12 @@ msgstr "Standardwert: 0"
 
 # Authorities > General
 #: ../../source/systempreferences.rst:1352
-#, fuzzy
 msgid "Asks: When modifying an authority record, do not update attached biblio records if the number exceeds \\_\\_\\_ records. (Above this limit, the merge_authority cron job will merge them.)"
-msgstr "Datensätze. (Über dieser Limite werden Änderungen durch den Cronjob merge_authority durchgeführt.)"
+msgstr ""
+"Fragt: Wenn ein Normdatensatz bearbeitet wird, aktualisiere die verknüpften "
+"Titelsätze nicht automatisch, wenn mehr als \\_\\_\\_ Datensätze. (Über "
+"diesem Limit werden Änderungen durch den Cronjob merge_authority "
+"durchgeführt.)"
 
 #: ../../source/systempreferences.rst:1359
 #, fuzzy
@@ -2936,9 +2945,8 @@ msgstr "Standardwert: Alle"
 
 # Authorities > General
 #: ../../source/systempreferences.rst:1363
-#, fuzzy
 msgid "Asks: When updating biblio records from an attached authority record (\"merging\"), handle subfields of relevant biblio record fields in \\_\\_\\_ mode. In strict mode subfields that are not found in the authority record, are deleted. Loose mode will keep them. Loose mode is the historical behavior and still the default."
-msgstr "Modus. Im strikten Modus werden Unterfelder, die im Normsatz nicht vorhanden sind, gelöscht. Im freien Modus bleiben diese erhalten. Der freie Modus entspricht dem Verhalten vor Einführung des Systemparameters und ist der Standard."
+msgstr "Fragt: Wenn bibliographische Datensätze durch eine Änderung an einem verknüpften Normdatensatz geändert werden, dann verwende für die Änderung der Unterfelder den \\_\\_\\_ Modus. Im strikten Modus werden Unterfelder, die im Normsatz nicht vorhanden sind, gelöscht. Im freien Modus bleiben diese erhalten. Der freie Modus entspricht dem Verhalten vor Einführung des Systemparameters und ist der Standard. "
 
 #: ../../source/systempreferences.rst:1370
 #, fuzzy
@@ -2977,9 +2985,8 @@ msgstr "Allgemein"
 
 # Authorities > General
 #: ../../source/systempreferences.rst:1391
-#, fuzzy
 msgid "`BiblioAddsAuthorities <#biblioaddsauthorities>`__ must be set to \"allow\" for this to have any effect"
-msgstr "werden (BiblioAddsAuthorities muss hierzu aktiviert sein)."
+msgstr "werden (`BiblioAddsAuthorities <#biblioaddsauthorities>` muss hierzu aktiviert sein)."
 
 #: ../../source/systempreferences.rst:1396
 msgid "When this and `BiblioAddsAuthorities <#biblioaddsauthorities>`__ are both turned on, automatically create authority records for headings that don't have any authority link when cataloging. When BiblioAddsAuthorities is on and AutoCreateAuthorities is turned off, do not automatically generate authority records, but allow the user to enter headings that don't match an existing authority. When BiblioAddsAuthorities is off, this has no effect."
@@ -2997,9 +3004,8 @@ msgstr "Standardwert: Ja"
 
 # Authorities > General
 #: ../../source/systempreferences.rst:1411
-#, fuzzy
 msgid "Asks: When editing records, \\_\\_\\_ them to automatically create new authority records if needed, rather than having to reference existing authorities."
-msgstr "automatisch neue Normdatensätze angelegt werden, statt mit existierenden Normdatensätzen verlinken zu müssen."
+msgstr "Fragt: Bei der Bearbeitung von Titeln \\_\\_\\_ automatisch neue Normdatensätze angelegt werden, statt mit existierenden Normdatensätzen verlinken zu müssen."
 
 #: ../../source/systempreferences.rst:1417
 #, fuzzy
@@ -3074,9 +3080,8 @@ msgstr "Verwende"
 
 # Authorities > General
 #: ../../source/systempreferences.rst:1478
-#, fuzzy
 msgid "Asks: \\_\\_\\_ authority record numbers instead of text strings for searches from subject tracings."
-msgstr "Normdatenidentnummern anstelle von Text für die Suche nach Schlagworten."
+msgstr "Fragt: \\_\\_\\_ Normdatenidentnummern anstelle von Text für die Suche nach Schlagworten."
 
 #: ../../source/systempreferences.rst:1485
 msgid "Search links look for subject/author keywords (example: opac-search.pl?q=su:Business%20networks)"
@@ -3107,9 +3112,8 @@ msgstr "Verlinke"
 
 # Authorities > Linker
 #: ../../source/systempreferences.rst:1523
-#, fuzzy
 msgid "Asks: \\_\\_\\_ automatically relink headings that have previously been linked when saving records in the cataloging module."
-msgstr "zuvor bereits in der Katalogisierung verlinkte Ansetzungen erneut."
+msgstr "Fragt: \\_\\_\\_ zuvor bereits in der Katalogisierung verlinkte Ansetzungen erneut."
 
 #: ../../source/systempreferences.rst:1534
 msgid "Longtime users of Koha don't expect the authority and bib records to link consistently. This preference makes it possible to disable authority relinking in the cataloging module only (i.e. relinking is still possible if link\\_bibs\\_to\\_authorities.pl is run). Note that though the default behavior matches the previous behavior of Koha (retaining links to outdated authority records), it does not match the intended behavior (updating biblio/authority link after bibliographic record is edited). Libraries that want the intended behavior of authority control rather than the way Koha used to handle linking should set CatalogModuleRelink to 'Do'. Once setting this to 'Do' the following preferences can also be set."
@@ -3121,9 +3125,8 @@ msgstr ""
 
 # Authorities > Linker
 #: ../../source/systempreferences.rst:1553
-#, fuzzy
 msgid "Asks: \\_\\_\\_ keep existing links to authority records for headings where the linker is unable to find a match."
-msgstr "bestehende Verlinkungen der Ansetzungsformen, wenn der Linker keinen Treffer erzielt."
+msgstr "Fragt: \\_\\_\\_ bestehende Verlinkungen der Ansetzungsformen, wenn der Linker keinen Treffer erzielt."
 
 #: ../../source/systempreferences.rst:1564
 msgid "When set to 'Do', the linker will never remove a link to an authority record, though, depending on the value of :ref:`LinkerRelink`, it may change the link."
@@ -3141,9 +3144,8 @@ msgstr "Standardbetrag"
 
 # Authorities > Linker
 #: ../../source/systempreferences.rst:1575
-#, fuzzy
 msgid "Asks: Use the \\_\\_\\_ linker module for matching headings to authority records."
-msgstr "Linker-Modul um Ansetzungen mit Normdatensätzen zu verlinken."
+msgstr "Fragt: Verwende das \\_\\_\\_ Linker-Modul um Ansetzungen mit Normdatensätzen zu verlinken."
 
 #: ../../source/systempreferences.rst:1580
 msgid "Default"
@@ -3182,9 +3184,8 @@ msgstr "Optionen"
 
 # Authorities > Linker
 #: ../../source/systempreferences.rst:1610
-#, fuzzy
 msgid "Asks: Set the following options for the authority linker \\_\\_\\_"
-msgstr "Verwende folgende Optionen für den Normdaten-Linker"
+msgstr "Fragt: Verwende folgende Optionen für den Normdaten-Linker \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:1614
 msgid "This feature is experimental and shouldn't be used in a production environment until further expanded upon."
@@ -3381,9 +3382,8 @@ msgstr "MARC-Ansicht"
 
 # Cataloging > Display
 #: ../../source/systempreferences.rst:1791
-#, fuzzy
 msgid "Asks: \\_\\_\\_ collapse repeated tags of the same type into one tag entry."
-msgstr "wiederholter Tags der gleichen Art zu einem Tag-Eintrag in der Anzeige."
+msgstr "Fragt: \\_\\_\\_ wiederholter Felder zu einem Eintrag in der Anzeige."
 
 #: ../../source/systempreferences.rst:1795
 msgid "Do -- will combine all identical tag numbers under one heading in the MARC view in the OPAC and Staff Client"
@@ -3901,7 +3901,7 @@ msgstr ""
 #: ../../source/systempreferences.rst:2204
 #, fuzzy
 msgid "EasyAnalyticalRecords"
-msgstr "Einfache Aufsätze"
+msgstr "EasyAnalyticalRecords"
 
 #: ../../source/systempreferences.rst:2206
 #, fuzzy
@@ -4004,9 +4004,8 @@ msgid "Default: generated in the form <branchcode>yymm0001"
 msgstr "in der Form <Bibliothekskürzel>jjmm0001 generiert."
 
 #: ../../source/systempreferences.rst:2293
-#, fuzzy
 msgid "Asks: Barcodes are \\_\\_\\_"
-msgstr "Fragen: Zeige Körbe \\_\\_\\_"
+msgstr "Fragen: Barcodes werden \\_\\_\\_"
 
 # Cataloging > Record Structure
 #: ../../source/systempreferences.rst:2297
@@ -4312,7 +4311,7 @@ msgstr ""
 #: ../../source/systempreferences.rst:2557
 #, fuzzy
 msgid "This preference lets you define what fields can be edited via the :ref:`batch item modification tool <batch-item-modification-label>` if the items\\_batchmod\\_restricted permission is enabled."
-msgstr "Dies öffnet die Stapelverarbeitung für Exemplare :ref:`batch item modification tool <batch-item-modification-label>`, in welcher Sie alle zu diesem Datensatz gehörenden Exemplare im Stapel bearbeiten können."
+msgstr "Dies öffnet die :ref:`Stapelverarbeitung für Exemplare <batch-item-modification-label>`, in welcher Sie alle zu diesem Datensatz gehörenden Exemplare im Stapel bearbeiten können."
 
 # Cataloging > Record Structure
 #: ../../source/systempreferences.rst:2563
@@ -8970,9 +8969,8 @@ msgid "CoceHost"
 msgstr "Host"
 
 #: ../../source/systempreferences.rst:6855
-#, fuzzy
 msgid "Asks: Coce server URL \\_\\_\\_"
-msgstr "Fragen: Zeige Körbe \\_\\_\\_"
+msgstr "Fragen: Cover-Server-URL \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:6859
 msgid "This will be the full URL (starting with http://) to your Coce server."
@@ -9708,9 +9706,8 @@ msgid "Plugins"
 msgstr "Plugins"
 
 #: ../../source/systempreferences.rst:7628
-#, fuzzy
 msgid "UseKohaPlugins"
-msgstr "Koha Plugins"
+msgstr "UseKohaPlugins"
 
 #: ../../source/systempreferences.rst:7632
 msgid "Asks: \\_\\_\\_ the ability to use Koha Plugins."
@@ -10737,9 +10734,8 @@ msgid "Default: Item types, Language, Location and availability, Publication dat
 msgstr ""
 
 #: ../../source/systempreferences.rst:8714
-#, fuzzy
 msgid "Asks: Show search options \\_\\_\\_"
-msgstr "Fragen: Zeige Körbe \\_\\_\\_"
+msgstr "Fragen: Zeige die Suchoptionen \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:8734
 msgid "The settings in this preference will determine which search fields will show when the patron is using the 'Fewer options' mode on the advanced search page."
@@ -13274,9 +13270,8 @@ msgid "the item's home branch"
 msgstr "Heimatbibliothek des Exemplars "
 
 #: ../../source/systempreferences.rst:11118
-#, fuzzy
 msgid "the patron's home branch"
-msgstr "Diese Benutzer in den Mülleimer verschieben"
+msgstr "die Heimatbibliothek des Benutzers"
 
 # OPAC > Policy
 #: ../../source/systempreferences.rst:11120
@@ -14259,9 +14254,8 @@ msgid "When enabled this will add a 'Files' tab to the left of the patron detail
 msgstr ""
 
 #: ../../source/systempreferences.rst:12150
-#, fuzzy
 msgid "EnhancedMessagingPreferences"
-msgstr "Benachrichtigungsparameter"
+msgstr "EnhancedMessagingPreferences"
 
 # Patrons > General
 #: ../../source/systempreferences.rst:12154
@@ -14314,9 +14308,8 @@ msgstr "Erinnerungsbenachrichtigung: diese Benachrichtigung wird im Voraus an de
 
 # Patrons > General
 #: ../../source/systempreferences.rst:12199
-#, fuzzy
 msgid "EnhancedMessagingPreferencesOPAC"
-msgstr "Erlaube"
+msgstr "EnhancedMessagingPreferencesOPAC"
 
 #: ../../source/systempreferences.rst:12203
 msgid "Asks: \\_\\_\\_ patron messaging setting on the OPAC"
@@ -14617,6 +14610,8 @@ msgstr ""
 #: ../../source/systempreferences.rst:12519
 msgid "Additional values can be found here: http://search.cpan.org/search?query=sms%3A%3Asend&mode=all"
 msgstr ""
+"Weitere Informationen finden Sie unter "
+"http://search.cpan.org/search?query=sms%3A%3Asend&mode=all"
 
 #: ../../source/systempreferences.rst:12524
 msgid "Only drivers available as Perl modules will work in this preference, so make sure a Perl module is available before choosing an SMS service."
@@ -15847,9 +15842,8 @@ msgid "When duplicating a subscription sometimes you don't want all of the field
 msgstr ""
 
 #: ../../source/systempreferences.rst:13745
-#, fuzzy
 msgid "SubscriptionHistory"
-msgstr "Abonnementverlauf speichern"
+msgstr "SubscriptionHistory"
 
 #: ../../source/systempreferences.rst:13747
 #, fuzzy
@@ -16457,9 +16451,8 @@ msgid "Asks: Split barcodes on the following separator chars \\_\\_\\_ in batch 
 msgstr ""
 
 #: ../../source/systempreferences.rst:14457
-#, fuzzy
 msgid "When importing barcode files in the :ref:`inventory tool <inventory-tool-label>` or the :ref:`batch item modification tool <batch-item-modification-label>` you can decide which character separates each barcode."
-msgstr "Dies öffnet die Stapelverarbeitung für Exemplare :ref:`batch item modification tool <batch-item-modification-label>`, in welcher Sie alle zu diesem Datensatz gehörenden Exemplare im Stapel bearbeiten können."
+msgstr ""
 
 #: ../../source/systempreferences.rst:14463
 msgid "You must use the regular expression codes for the characters."
@@ -16479,6 +16472,7 @@ msgid "\\\\n is used for a new line"
 msgstr ""
 
 #: ../../source/systempreferences.rst:14471
+#, fuzzy
 msgid "\\\t is used for a tab"
 msgstr "\\\t wird für Tab verwendet"
 
