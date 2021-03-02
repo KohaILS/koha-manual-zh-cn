@@ -131,8 +131,8 @@ Values:
 
 Description:
 
--  If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a
-   patron's account, a printing popup will be displayed automatically instead
+-  If activated, when :ref:`making a payment <pay-and-writeoff-fines-label>` in
+   a patron's account, a printing popup will be displayed automatically instead
    of having to click on the 'print' button.
 
 .. _roundfinesatpayment-label:
