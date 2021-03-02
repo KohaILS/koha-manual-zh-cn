@@ -696,8 +696,8 @@ Patron permissions defined
    -  Manage additional fields for baskets or subscriptions (manage\_additional
       \_fields)
 
-      -  This gives access to the :ref:`additional fields section <additional-
-         fields-label>`
+      -  This gives access to the 
+         :ref:`additional fields section <additional-fields-label>`
 
       -  **Important**
 
