@@ -360,9 +360,10 @@ BiblioItemtypeInfo
 
 Default: Don't display
 
-Asks: \_\_\_ Koha record level itemtype info on detail and result pages in the OPAC and 
-staff interface. This info also displays if the :ref:`item-level_itypes` system preference 
-is set to bibliographic record..
+Asks: \_\_\_ Koha record level itemtype info on detail and result pages in the 
+OPAC and staff interface. This info also displays if the 
+:ref:`item-level\_itypes <item-level_itypes-label>` system preference is set 
+to bibliographic record.
 
 Description:
 
