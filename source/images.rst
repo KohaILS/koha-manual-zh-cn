@@ -215,6 +215,9 @@
 .. |runtimeparameterex4| image:: images/reports/runtimeparameterex4.png
 				:alt: When running the report, the user is asked to pick a date in the calendar (date picker)
 
+.. |runtimeparameterex5| image:: images/reports/runtimeparameterex5.png
+				:alt: When running the report, the user is asked to enter a list of values
+
 .. SEARCH HISTORY
 
 .. SEARCHING
@@ -1204,7 +1207,6 @@
 .. |image890| image:: images/reports/newsql.png
 .. |image891| image:: images/reports/reportfromsql.png
 .. |image892| image:: images/reports/reportsubgroup.png
-.. |image893| image:: images/reports/datepicker.png
 .. |image895| image:: images/reports/duplicatereport.png
 .. |image896| image:: images/reports/savedreports.png
 .. |image897| image:: images/reports/editreportoption.png

@@ -226,34 +226,29 @@ ask\|authorized\_value>>.
    'categorycode', 'biblio\_framework', a list with the Koha authorized
    values will be displayed instead of a free field.
 
-       **Note**
+.. Note ::
 
-       You can have more than one parameter in a given SQL query.
+   You can have more than one parameter in a given SQL query.
 
-       **Note**
+.. Note ::
 
-       You have to put "%" in a text box to 'leave it blank'. Otherwise,
-       it literally looks for "" (empty string) as the value for the
-       field.
-       For example entering nothing for: "title=<<Enter title>>" will
-       display results with title='' (no title).
-       If you want to have to have something not mandatory, use
-       "title like <<Enter title>>" and enter a % at run time instead
-       of nothing.
+   You have to put "%" in a text box to 'leave it blank'. Otherwise,
+   it literally looks for "" (empty string) as the value for the
+   field.
+   
+   For example entering nothing for: "title=<<Enter title>>" will
+   display results with title='' (no title).
+   
+   If you want to have to have something not mandatory, use
+   "title like <<Enter title>>" and enter a % at run time instead
+   of nothing.
 
-       **Note**
-
-       To generate a date picker calendar to the right of the field when
-       running a report you can use the 'date' keyword like this:
-       <<Enter Date\|date>>
-
-       |image893|
 
 List of parameters that can be used in runtime parameters
 
 +-------------------------+---------------------------------------------------+------------------------------+
 | Parameter               | What the user sees                                | What gets inserted in query  |
-+-------------------------+---------------------------------------------------+------------------------------+
++=========================+===================================================+==============================+
 | date                    | date picker                                       | validly formatted date       |
 +-------------------------+---------------------------------------------------+------------------------------+
 | branches                | drop down of branch names                         | branch code                  |
@@ -263,6 +258,8 @@ List of parameters that can be used in runtime parameters
 | categorycode            | drop down of patron category descriptions         | borrower category code       |
 +-------------------------+---------------------------------------------------+------------------------------+
 | biblio\_framework       | drop down of MARC bibliographic frameworks        | framework code               |
++-------------------------+---------------------------------------------------+------------------------------+
+| list                    | large text box                                    | comma separated values       |
 +-------------------------+---------------------------------------------------+------------------------------+
 | (auth-value-category)   | drop down of auth-value descriptions in category  | authorized value             |
 +-------------------------+---------------------------------------------------+------------------------------+
@@ -314,6 +311,20 @@ Example 4
    WHERE dateexpiry <= <<Expiry date|date>>
 
 |runtimeparameterex4|
+
+Example 5
+
+.. code-block:: sql
+
+   SELECT *
+   FROM items
+   WHERE itemnumber IN <<List of itemnumbers (one per line)|list>>
+
+|runtimeparameterex5|
+
+.. Warning ::
+
+   In the case of the list parameter, users must write one value per line.
 
 
 .. ****************************************
