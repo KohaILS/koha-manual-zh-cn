@@ -56,14 +56,56 @@
 
 .. SYSTEM PREFERENCES
 
+.. |856imagemarc| image:: images/admin/globalprefs/856imagemarc.png
+				:alt: 856 field in the cataloging form; 856q contains img and 856u contains a link to an image
+
 .. |acqwarnonduplicateinvoice| image:: images/admin/globalprefs/acqwarnonduplicateinvoice.png
 				:alt: Screenshot of a warning message that says 'This invoice number has already been used. Would you like to receive on an existing invoice?' with an option to receive on the existing invoice or 'Create new invoice anyway'.
+
+.. |DisplayIconsXSLT| image:: images/admin/globalprefs/DisplayIconsXSLT.png
+				:alt: Screenshot of the XSLT icons
+
+.. |IntranetCatalogSearchPulldown-hide| image:: images/admin/globalprefs/IntranetCatalogSearchPulldown-hide.png
+				:alt: The default look of the Search the catalog tab, without the index drop-down list
+
+.. |IntranetCatalogSearchPulldown-show| image:: images/admin/globalprefs/IntranetCatalogSearchPulldown-show.png
+				:alt: When IntranetCatalogSearchPulldown is set to Show, a drop-down list of indexes appears next to the search box
+
+.. |IntranetCirculationHomeHTML| image:: images/admin/globalprefs/IntranetCirculationHomeHTML.png
+				:alt: Screenshot that shows where the content of IntranetCirculationHomeHTML appears on the circulation home page, under the circulation action buttons and above the offline circulation links
+
+.. |IntranetCirculationHomeHTML-html| image:: images/admin/globalprefs/IntranetCirculationHomeHTML-html.png
+				:alt: The HTML code entered in IntranetCirculationHomeHTML
+
+.. |IntranetmainUserblock| image:: images/admin/globalprefs/IntranetmainUserblock.png
+				:alt: Screenshot that shows where the content of IntranetmainUserBlock appears on the staff interface's main page, under the module buttons
+
+.. |IntranetmainUserblock-html| image:: images/admin/globalprefs/IntranetmainUserblock-html.png
+				:alt: The HTML code entered in IntranetmainUserBlock
+
+.. |IntranetNav| image:: images/admin/globalprefs/IntranetNav.png
+				:alt: Screenshot that shows where the content of IntranetNav is displayed at the top of the staff interface pages, to the right of the More menu
+
+.. |IntranetReportsHomeHTML| image:: images/admin/globalprefs/IntranetReportsHomeHTML.png
+				:alt: Screenshot that shows where the content of IntranetReportsHomeHTML appears on the reports module main page, under the report links
+
+.. |lastpatron| image:: images/admin/globalprefs/lastpatron.png
+				:alt: A small 'Last patron' button appears on the right side of the screen
 
 .. |opacSerialDefaultTab-colltab| image:: images/admin/globalprefs/opacSerialDefaultTab-colltab.png
 				:alt: Example of a Serial collection tab in the OPAC
 
 .. |opacSerialDefaultTab-subtab| image:: images/admin/globalprefs/opacSerialDefaultTab-subtab.png
 				:alt: Example of a Subscription tab in the OPAC
+
+.. |StaffDetailItemSelection| image:: images/admin/globalprefs/StaffDetailItemSelection.png
+				:alt: Checkboxes are displayed next to every item in the holdings tab of a detailed bibliographic record
+
+.. |stafffavicon| image:: images/admin/globalprefs/stafffavicon.png
+				:alt: The small green 'k' on the browser tab is the default favicon
+
+.. |stafflogininstructions| image:: images/admin/globalprefs/stafflogininstructions.png
+				:alt: Screenshot that shows where the content of StaffLoginInstructions appears on the staff login page, above the login fields
 
 .. |SubscriptionHistory-brief| image:: images/admin/globalprefs/SubscriptionHistory-brief.png
 				:alt: Brief history of a subscription in the OPAC
@@ -77,6 +119,17 @@
 .. |suppressedstyled| image:: images/admin/globalprefs/suppressedstyled.png
 				:alt: Example of a bibliographic record in the staff interface with the 'Suppressed in OPAC' note at the top; the note is red and large
 
+.. |UseWYSIWYGinSystemPreferences| image:: images/admin/globalprefs/UseWYSIWYGinSystemPreferences.png
+				:alt: Example of a system preference using a WYSIWYG editor (TinyMCE) instead of a plain text editor
+
+.. |viewISBD| image:: images/admin/globalprefs/viewISBD.png
+				:alt: The ISDB tab and record view
+
+.. |viewLabeledMARC| image:: images/admin/globalprefs/viewLabeledMARC.png
+				:alt: The Labeled MARC tab and record view
+
+.. |viewMARC| image:: images/admin/globalprefs/viewMARC.png
+				:alt: The MARC tab and record view
 
 .. CASH MANAGEMENT
 
@@ -384,14 +437,6 @@
 .. |image107| image:: images/admin/globalprefs/displayFacetCount.png
 .. |image108| image:: images/admin/globalprefs/AdvancedSearchTypes.png
 .. |image113| image:: images/admin/globalprefs/Display856uAsImage.png
-.. |image114| image:: images/admin/globalprefs/856imagemarc.png
-.. |image115| image:: images/admin/globalprefs/DisplayIconsXSLT.png
-.. |image116| image:: images/admin/globalprefs/favicon.png
-.. |image117| image:: images/admin/globalprefs/IntranetmainUserblock-html.png
-.. |image118| image:: images/admin/globalprefs/IntranetmainUserblock.png
-.. |image119| image:: images/admin/globalprefs/XSLTDetailsDisplay-off.png
-.. |image120| image:: images/admin/globalprefs/XSLTDetailsDisplay-on.png
-.. |image121| image:: images/admin/globalprefs/StaffDetailItemSelection.png
 .. |image122| image:: images/admin/basicparams/librarylist.png
 .. |image123| image:: images/admin/basicparams/grouplists.png
 .. |image124| image:: images/admin/basicparams/newlibrary.png
@@ -1449,9 +1494,6 @@
 .. |image1195| image:: images/admin/globalprefs/OpacResetPassword.png
 .. |image1196| image:: images/admin/globalprefs/AnonymousPatron.png
 .. |image1197| image:: images/admin/globalprefs/EnableSearchHistory.png
-.. |image1198| image:: images/admin/globalprefs/IntranetCirculationHomeHTML.png
-.. |image1199| image:: images/admin/globalprefs/IntranetReportsHomeHTML.png
-.. |image1200| image:: images/admin/globalprefs/UseWYSIWYGinSystemPreferences.png
 .. |image1201| image:: images/admin/globalprefs/idref1.png
 .. |image1202| image:: images/admin/globalprefs/idref2.png
 .. |image1203| image:: images/admin/patroncirc/blockexpired.png
@@ -1590,7 +1632,6 @@
 .. |image1341| image:: images/opac/emojipicker.png
 .. |image1342| image:: images/tools/notices/preview-data.png
 .. |image1343| image:: images/reports/senditemnumberstobatch.png
-.. |image1345| image:: images/admin/globalprefs/stafflogininstructions.png
 .. |image1346| image:: images/patrons/quickadd.png
 .. |image1347| image:: images/patrons/houseboundtab.png
 .. |image1348| image:: images/patrons/houseboundprofile.png
@@ -1663,7 +1704,6 @@
 .. |image1420| image:: images/acquisitions/receiveitem2.png
 .. |image1421| image:: images/acquisitions/showactivebaskets.png
 .. |image1422| image:: images/acquisitions/showallbaskets.png
-.. |image1423| image:: images/admin/globalprefs/lastpatron.png
 .. |image1426| image:: images/admin/additional/manaconfiguration.png
 .. |image1427| image:: images/admin/additional/manatoken.png
 .. |image1428| image:: images/reports/sqlfrommana.png
