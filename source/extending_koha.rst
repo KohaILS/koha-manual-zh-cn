@@ -57,7 +57,7 @@ This means that you can produce clouds for authors, collective author,
 all kind of subjects, classifications, etc. And since it works on zebra
 indexes, it is quick, even on large DBs. Tags clouds are sent to files.
 It's up to library webmaster to deal with those files in order to
-include them in :ref:`OPACMainUserBlock`, or include
+include them in :ref:`OPACMainUserBlock <news-label>`, or include
 them into their library CMS.
 
 Some libraries even send the file into a Samba shared folder where
