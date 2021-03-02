@@ -1342,11 +1342,6 @@ Clicking any one of these links will open the purchase suggestion form.
    an :ref:`authorized value <authorized-values-label>` category titled
    'OPAC\_SUG' and include reasons as values in that list.
 
--  If you would like the patron to be able to choose which branch they
-   are making a suggestion for you need to set the
-   :ref:`AllowPurchaseSuggestionBranchChoice`
-   preference to 'Allow'
-
 Once the form is submitted the data will be saved to the
 :ref:`Acquisitions <managing-purchase-suggestions-label>` module for the librarians to manage.
 
