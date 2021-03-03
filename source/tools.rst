@@ -2045,135 +2045,174 @@ authority records' tab.
 .. _inventory-tool-label:
 
 Inventory
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  *Get there:* More > Tools > Catalog > Inventory
 
-Koha's Inventory tool can be used in one of three ways:
+Koha's inventory tool can be used in one of three ways:
 
 1. By creating a shelf list that you can then mark items off on;
 
 2. By uploading barcodes gathered by a portable scanner;
 
-3. By comparing barcodes gathered by a portable scanner to a
-   generated shelf list.
+3. By comparing barcodes gathered by a portable scanner or scanned directly to 
+   a generated shelf list.
 
 .. _creating-a-shelf-list-label:
 
 Creating a shelf list
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you do not have the ability to use your barcode scanner on the floor
-of the library, the option available to you is to generate a shelf
-list based on criteria you enter.  You can then print it to use
-while walking around the library checking your collection or use it directly
-in Koha on a portable device.
+If you do not have the ability to use your barcode scanner on the floor of the 
+library, the option available to you is to generate a shelf list based on 
+criteria you enter. You can then print it to use while walking around the 
+library checking your collection or use it directly in Koha on a portable 
+device.
 
-|image315|
+|generateshelflist|
 
 First, choose the criteria for the items you want to print out on a list.
 All parameters are optional, but if none are selected, the resulting list
 might be quite large.
 
-- Library: choose the branch you want to check, as well as if that branch
-  is the home library or the current holding library of the items.
+-  Library: choose the branch you want to check, as well as if that branch
+   is the home library or the current holding library of the items.
 
-- Shelving location (items.location) is: you can filter by location.
+-  Shelving location (items.location) is: you can filter by location.
 
-- Item callnumber between ... and ...: you can also limit the list to a specific
-  range of callnumbers.
+-  Item callnumber between ... and ...: you can also limit the list to a specific
+   range of callnumbers.
+
+-  If filtering by callnumber, make sure to choose the correct classification 
+   scheme
 
 You can filter even more with item statuses (not for loan status, lost status,
 withdrawn status or damaged status). Check the boxes next to the statuses you
 want to include. For example, if you are using the list to shelf read, check
 only the 'for loan' status as the other items probably won't be on the shelves.
 
-- Last inventory date: enter a date here to skip items that have been marked
-  as seen recently.
+-  Last inventory date: enter a date here to skip items that have been marked
+   as seen recently.
 
-- Skip items on loan: check this box to filter out loaned items from the list.
+-  Skip items on loan: check this box to filter out loaned items from the list.
 
-- Export to CSV file: check this box to generate a CSV file for altering in an
-  application on your desktop. If this box is unchecked, the list will be
-  presented on the screen.
+-  Skip items on hold awaiting pickup: check this box to filter out items that 
+   are awaiting pickup by patrons
+
+-  Item types: check the boxes next to the item types you want to include in 
+   your shelf list
+
+-  Export to CSV file: check this box to generate a CSV file for altering in an
+   application on your desktop. If this box is unchecked, the list will be
+   presented on the screen.
 
 Click on 'Submit' to generate your shelf list.
 
-|image316|
+|shelflist|
 
 Once you have found the items on your shelves, return to this
 list and check the boxes next to the items you found. Next, click on one of
 the three buttons to continue:
 
-- Mark seen and quit: updates the 'last seen' date of the checked items to
-  today and returns to the previous screen.
+-  Mark seen and quit: updates the 'last seen' date of the checked items to
+   today and returns to the previous screen.
 
-- Mark seen and continue: updates the 'last seen' date of the checked items to
-  today and shows the next page of the list.
+-  Mark seen and continue: updates the 'last seen' date of the checked items to
+   today and shows the next page of the list.
 
-- Continue without marking: doesn't update any of the items on this page
-  and shows the next page of the list.
+-  Continue without marking: doesn't update any of the items on this page
+   and shows the next page of the list.
 
 .. _uploading-barcodes-with-a-scanner-label:
 
 Uploading barcodes with a scanner
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you have a portable scanner (or a laptop and USB scanner) you can
 walk through the library with the scanner in hand and scan barcodes as
-you come across them (on a laptop, scan the barcodes into a text file or directly into 
-the on screen text box). Once finished you can then upload the text file generated by the scanner to Koha.
+you come across them (on a laptop, scan the barcodes into a text file or 
+directly into the on screen text box). Once finished you can then upload the 
+text file generated by the scanner to Koha.
 
-|image317|
+|importbarcodes|
 
-Choose the text file and the date you want to mark all items as seen and
-then scroll to the very bottom and click 'Submit'. This will update all the
-items' 'last seen' date to the chosen date. By default, this will also check in
-the items scanned as it is assumed that they are on the shelf and so not loaned
-out. If you do not want to check in scanned items, check the 'Do not check in
-items scanned during inventory' before clicking 'Submit'.
+-  Set inventory date to: choose the date you want to mark all items as last 
+   seen.
 
-Once you have the updated the last seen date for all items scanned during the inventory it is possible 
-to use reports to identify items that were not scanned and can therefore be assumed missing.  There are 
-sample reports you can use on the 
+-  Compare barcodes list to results: uncheck for this method.
+
+-  Do not check in item scanned during inventory: unless this is checked, Koha 
+   will check in items scanned, as it is assumed that they are on the shelf and 
+   so not loaned out. If you do not want to check in scanned items, check this 
+   option.
+
+-  Check barcodes list for items shelved out of order: if this option is 
+   checked, Koha will compare the call numbers and make sure they are in the 
+   correct order.
+
+Click 'Submit'. This will update all the items' 'last seen' date to the chosen 
+date. 
+
+Once you have the updated the last seen date for all items scanned during the 
+inventory it is possible to use reports to identify items that were not scanned 
+and can therefore be assumed missing (you can use the 
+:ref:`batch item modification tool <batch-item-modification-label>` to change 
+the LOST status of these items). There are sample reports you can use on the 
 `Koha SQL Reports Library <https://wiki.koha-community.org/wiki/SQL_Reports_Library#Inventory.2F_Shelflists>`_.
 
 .. _comparing-scanned-barcodes-to-a-shelf-list-label:
 
 Comparing scanned barcodes to a shelf list
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Alternatively, you can combine the two methods to automatically compare a list
-of scanned barcodes with a generated list. First, upload you barcode file and
-choose the date you want to appear in the items' 'last seen' field. The 'Compare
-barcodes list to results' checkbox should automatically be checked. If you do
-not want the scanned items to be automatically checked-in if they are checked-out,
-make sure you check the 'Do not check in items scanned during inventory' checkbox.
-Choose the filters (library, shelving location, callnumbers or statuses) to generate a
-list with which to compare your barcodes. Click on 'Submit'.
+of scanned barcodes with a generated list. 
 
-    **Note**
+First, upload you barcode file or scan the barcodes in the box.
 
-    Depending on the number of barcodes you are comparing, this may take a few
-    minutes. It is not recommended to compare lists of more than 1000 barcodes as
-    this may cause a session timeout.
+-  Set inventory date to: choose the date you want to appear in the items' 
+   'last seen' field. 
+
+-  Compare barcodes list to results: should automatically be checked.
+
+-  Do not check in items scanned during inventory: make sure to check this 
+   option if you do not want the scanned items to be automatically checked-in 
+   if they are checked-out.
+
+Choose the filters (library, shelving location, callnumbers, statuses or item 
+types) to generate a list with which to compare your barcodes. Click on 
+'Submit'.
+
+.. Note ::
+
+   Depending on the number of barcodes you are comparing, this may take a few
+   minutes. It is not recommended to compare lists of more than 1000 barcodes 
+   as this may cause a session timeout.
 
 Once Koha has finished comparing the barcodes file to the generated list, it
 will return the number of items updated and a list of problematic items.
 
-- Missing (not scanned): the item is in the generated list but not in the
-  barcodes file.
+.. Note ::
 
-- Found in wrong place: the item is in the barcodes list, but not in the
-  generated list.
+   Unlike when :ref:`creating a shelf list <creating-a-shelf-list-label>`, the 
+   list that will be presented here will only contain the items that Koha has 
+   determined are problematic.
 
-- Still checked out: the item is checked out, but is in the generated list. It
-  was not automatically checked in.
+-  Missing (not scanned): the item is in the generated list but not in the
+   barcodes file.
 
-- Barcode not found: the barcode doesn't exist.
+-  Found in wrong place: the item is in the barcodes list, but not in the
+   generated list.
 
-- Item withdrawn: the item has 'withdrawn' status, but it is in the barcodes
-  file.
+-  Still checked out: the item is checked out, but is in the generated list. It
+   was not automatically checked in.
+
+-  No barcode: the barcode doesn't exist.
+
+-  Unknown not-for-loan status: the item has 'not for loan' status that is not 
+   in the :ref:`NOT\_LOAN authorized values list <existing-values-label>`
+
+-  Item may be shelved out of order: the callnumber is out of order
 
 .. _label-creator-label:
 

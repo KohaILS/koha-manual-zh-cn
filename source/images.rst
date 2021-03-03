@@ -345,6 +345,15 @@
 
 .. TOOLS
 
+.. |generateshelflist| image:: images/tools/inventory/generateshelflist.png
+				:alt: The inventory form, the sections Item location filters, Optional filters for inventory lists or comparing barcodes, and Additional options
+
+.. |importbarcodes| image:: images/tools/inventory/importbarcodes.png
+				:alt: The inventory form, the sections Use a barcode file, Or scan items one by one, and Parameters
+
+.. |shelflist| image:: images/tools/inventory/shelflist.png
+				:alt: A table presenting the items corresponding to the filters
+
 .. WEBSERVICES
 
 .. APPENDICES
@@ -642,9 +651,6 @@
 .. |image312| image:: images/tools/exportmarc/authexport-pt1.png
 .. |image313| image:: images/tools/exportmarc/authexport-pt2.png
 .. |image314| image:: images/tools/exportmarc/authexport-pt3.png
-.. |image315| image:: images/tools/inventory/generateshelflist.png
-.. |image316| image:: images/tools/inventory/shelflist.png
-.. |image317| image:: images/tools/inventory/importbarcodes.png
 .. |image318| image:: images/tools/labelcreator/newtemplate.png
 .. |image319| image:: images/tools/labelcreator/labelform.png
 .. |image320| image:: images/tools/patroncards/units.png
