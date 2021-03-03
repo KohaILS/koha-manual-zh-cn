@@ -452,10 +452,12 @@ Frequency suggestion: nightly
     **PARAMETERS**
 
     -  --too\_old
-       Update, if patron is over the upper age limit of their current category.
+       Update, if patron is over the upper age limit of their current 
+       :ref:`patron category <patron-categories-label>`.
 
     -  --too\_young
-       Update, if patron is below the minimum age limit of their patron category.
+       Update, if patron is below the minimum age limit of their 
+       :ref:`patron category <patron-categories-label>`.
 
     -  --fo=X|--fineover=X
        Update, if the total fine amount on the patron account is over X.

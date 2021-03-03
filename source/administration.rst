@@ -1110,7 +1110,7 @@ Settings for controlling circulation and patron information.
 .. _patron-categories-label:
 
 Patron categories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Patron categories allow you to organize your patrons into different
 roles, age groups, and patron types.
@@ -1118,201 +1118,255 @@ roles, age groups, and patron types.
 -  *Get there:* More > Administration > Patrons and circulation > Patron
    categories
 
-|image148|
+|patroncatlist|
 
-     **Note**
+.. Note :: 
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: patron_categories).
-
-Patrons are assigned to one of six main categories:
-
--  Adult
-
-   -  Most common patron type, usually used for a general 'Patron'
-      category.
-
--  Child
-
-   -  Children patrons can have a guardian to be attached to them.
-
--  Staff
-
-   -  Librarians (and library workers) should be assigned the staff
-      category so that you can :ref:`set their
-      permissions <patron-permissions-label>` and give them access to the
-      staff client.
-
--  Organizational
-
-   -  Organizational patrons are organizations. Organizations can be
-      used as guarantors for Professional patrons.
-
--  Professional
-
-   -  Professional patrons can be linked to Organizational patrons
-
--  Statistical
-
-   -  This patron type is used strictly for statistical purposes, such
-      as in house use of items.
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: patron_categories).
 
 .. _adding-a-patron-category-label:
 
 Adding a patron category
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To add a new patron category click 'New category' at the top of the page
 
-|image149|
+|newpatroncategory|
 
--  The 'Category code' is an identifier for your new code.
+-  Category code: an identifier for your new category.
 
-   -  **Important**
+   -  The category code is limited to 10 characters (numbers and letters) and 
+      must be unique.
 
-          The category code is limited to 10 characters (numbers and
-          letters) and must be unique.
+   -  This field is required in order to save your patron category. If left 
+      blank you will be presented with an error.
 
-   -  **Important**
+-  Description: a plain text version of the category.
 
-          This field is required in order to save your patron category.
-          If left blank you will be presented with an error.
+   -  The description will be visible throughout Koha.
 
--  Enter a plain text version of the category in the 'Description'
-   field.
+   -  This field is required in order to save your patron category. If left 
+      blank you will be presented with an error.
 
-   -  **Important**
+-  Enrollment period:
 
-          This field is required in order to save your patron category.
-          If left blank you will be presented with an error.
+   -  In months: should be filled in if you have a limited enrollment period 
+      for your patrons. For example, student cards expire after 9 months
 
--  Enrollment period (in months) should be filled in if you have a
-   limited enrollment period for your patrons (eg. Student cards expire
-   after 9 months), otherwise, you can choose a date when the cards will
-   expire (until date)
+   -  Until date: you can choose a date when the cards will expire
 
-   -  **Important**
+   -  This field is required in order to save your patron category. If left 
+      blank you will be presented with an error.
 
-          You cannot enter both a month limit and a date until. Choose
-          to enter either one or the other.
+.. Warning ::
 
-   -  **Important**
+   You cannot enter both a month limit and a date until for one category. 
+   Choose to enter either one or the other.
 
-          This field is required in order to save your patron category.
-          If left blank you will be presented with an error.
+-  Age required: minimum age (in years) requirement associated with the 
+   category. For example, an 'Adult' patron category could have a minimum age 
+   of 18 years; this means patrons must be at least 18 to be in the patron 
+   category.
 
--  Some patron categories can have a minimum age (in years) requirement
-   associated with them, enter this age in the 'Age required'
+   -  When creating or updating a patron, a warning will appear if the patron 
+      is too young for this category.
 
--  Patron categories can also have a maximum age (in years) associated
-   with them (such as children), enter this age in the 'Upperage limit'
+      |patronagelimit|
 
--  If you charge a membership fee for your patrons (such as those who
-   live in another region) you can enter that in the 'Enrollment fee'
-   field.
+   -  This value is used by the 
+      :ref:`update\_patrons\_category.pl <cron-update-patron-categories-label>` 
+      cron job to change the category of patrons who are too young.
 
-   -  **Important**
+-  Upperage limit: maximum age (in years) associated with the category. For 
+   example, a 'Children' patron category could have an upperage limit of 18, 
+   meaning patrons can have children cards until they turn 18.
 
-          Only enter numbers and decimals in this field
+   -  When creating or updating a patron, a warning will appear if the patron 
+      is too old for this category.
 
-   -  **Note**
+      |patronagelimit|
 
-          Depending on your value for the
-          :ref:`FeeOnChangePatronCategory`
-          preference this fee will be charged on patron renewal as well
-          as when they are first enrolled.
+   -  This value is used by the 
+      :ref:`update\_patrons\_category.pl <cron-update-patron-categories-label>` 
+      cron job to change the category of patrons who are too old.
 
--  If you want your patron to receive overdue notices, set the 'Overdue
-   notice required' to 'Yes'. This will enable you to set the
-   :ref:`overdue notice triggers <overdue-notice/status-triggers-label>`
-   in the Tools module.
+-  Enrollment fee: enter the amount if you charge a membership fee for your 
+   patrons (such as those who live in another region).
 
--  You can decide on a patron category basis if lost items are shown in
-   the staff client by making a choice from the 'Lost items in staff
-   client' pull down
+.. Warning ::
 
-   |image153|
+   Only enter numbers and decimals in this field.
 
-   -  **Important**
+.. Note ::
 
-          Note that this is only applicable in the staff client, so
-          changing this value on patron categories who do not have
-          access to the staff client won't make any difference
+   Depending on your value for the :ref:`FeeOnChangePatronCategory` system 
+   preference, this fee will be charged on patron renewal as well as when they 
+   are first enrolled.
 
--  If you charge patrons for placing holds on items, enter the fee
-   amount in the 'Hold fee' field.
+-  Overdue notice required: choose 'Yes' if you want patrons from this category 
+   to receive overdue notices. This will enable you to set the
+   :ref:`overdue notice triggers <overdue-notice/status-triggers-label>` in 
+   the :ref:`Tools module <tools-label>`.
 
-   -  **Important**
+-  Lost items in staff interface: decide on a patron category basis if lost 
+   items are shown in the staff interface.
 
-          Only enter numbers and decimals in this field
+   -  Shown: lost items are shown in the staff interface.
 
--  In the 'Category type' field choose one of the six main parent
-   categories
+   -  Hidden by default: lost items are hidden, but staff members can click 
+      'Show all items' to see them.
 
-   |image154|
+.. Note ::
 
-   -  **Important**
+   This is only applicable in the staff interface, so changing this value on 
+   patron categories who do not have access to the staff interface won't make 
+   any difference.
 
-          This field is required in order to save your patron category.
-          If left blank you will be presented with an error.
+-  Hold fee: enter the fee amount if you charge patrons from this category a 
+   fee for placing holds on items.
 
--  The Branch limitations let you limit this patron category to only
-   some branches in your library system. Select 'All branches' if you
-   would like any library to be able to use this category.
+.. Warning ::
 
--  You can decide whether patrons of this category are allowed to reset
-   their password through the OPAC's 'Forgotten password' function. By
+   Only enter numbers and decimals in this field.
+
+-  Category type: choose one of the six main parent categories
+
+       -  Adult: most common patron type, usually used for a general 'Patron' 
+          category.
+
+       -  Child: children patrons can have a guardian to be attached to them.
+
+       -  Staff: library staff
+
+       -  Organizational: organizations can be used as guarantors for Professional 
+          patrons.
+
+       -  Professional: professional patrons can be linked to Organizational 
+          patrons.
+
+       -  Statistical: this patron type is used strictly for statistical purposes, 
+          such as in-house use of items.
+
+   -  This field is required in order to save your patron category.
+      If left blank you will be presented with an error.
+
+-  Branch limitations: if necessary, limit this patron category to only some 
+   branches in your library system. Select 'All branches' if you would like 
+   any library to be able to use this category.
+
+   -  To select more than one branch, hold the Ctrl key while making your 
+      selection.
+
+-  Password reset in OPAC: decide whether patrons of this category are allowed 
+   to reset their password through the OPAC's 'Forgotten password' function. By
    default, it will follow the rule set in the :ref:`OpacResetPassword`
    system preference.
 
--  You can decide whether patrons of this category are allowed to change
-   their password through the OPAC. By default, it will follow the rule
-   set in the :ref:`OpacPasswordChange` system preference.
+   -  Follow system preference :ref:`OpacResetPassword`.
 
--  You can decide if this patron category is blocked from performing
-   actions in the OPAC if their card is expired using the next option.
-   By default it will follow the rule set in the
-   :ref:`BlockExpiredPatronOpacActions` preference
+   -  Allowed: patrons of this category will be able to reset their password 
+      through the OPAC regardless of the setting in :ref:`OpacResetPassword`.
 
-    |image1203|
+   -  Not allowed: patrons of this category will *not* be able to reset their 
+      password through the OPAC regardless of the setting in 
+      :ref:`OpacResetPassword`.
 
--  Next you can choose the default privacy settings for this patron
-   category. This setting can be edited by the patron via the OPAC if
-   you allow it with the :ref:`OPACPrivacy` system
+-  Password change in OPAC: decide whether patrons of this category are allowed 
+   to change their password through the OPAC. By default, it will follow the 
+   rule set in the :ref:`OpacPasswordChange` system preference.
+
+   -  Follow system preference :ref:`OpacPasswordChange`.
+
+   -  Allowed: patrons of this category will be able to change their password 
+      through the OPAC regardless of the setting in :ref:`OpacPasswordChange`.
+
+   -  Not allowed: patrons of this category will be *not* able to change their 
+      password through the OPAC regardless of the setting in 
+      :ref:`OpacPasswordChange`.
+
+-  Minimum password length: enter the minimum password length for patrons of 
+   this category. Leave blank to use the default length set in the 
+   :ref:`minPasswordLength` system preference.
+
+-  Require strong password: decide whether to enforce a strong password policy 
+   (at least one uppercase letter, one lowercase letter and one digit) for 
+   patrons of this category. By default, it will follow the rule set in the 
+   :ref:`RequireStrongPassword` system preference.
+
+   -  Follow the system preference :ref:`RequireStrongPassword`.
+
+   -  Yes: patrons of this category will be required to have a strong password 
+      regardless of the setting in :ref:`RequireStrongPassword`.
+
+   -  No: patrons of this category will *not* be required to have a strong 
+      password regardless of the setting in :ref:`RequireStrongPassword`.
+
+-  Block expired patrons: decide if this patrons from this category are blocked 
+   from performing actions in the OPAC if their card is expired. By default it 
+   will follow the rule set in the :ref:`BlockExpiredPatronOpacActions` 
    preference.
 
-    |image1204|
+   -  Follow the system preference :ref:`BlockExpiredPatronOpacActions`.
 
--  You can set the preference for checking the patron's circulation history
-   when checking out an item. This option will only be available if the
-   :ref:`CheckPrevCheckout` system preference is set to 'Unless overridden by
-   patron category, do' or 'Unless overridden by patron category, do not'.
-   This setting can be overridden on a per-patron basis in their
-   :ref:`individual file <add-a-new-patron-label>`.
+   -  Block: patrons of this category whose membership has expired will be 
+      blocked from renewing and placing holds in the OPAC, regardless of the 
+      setting in :ref:`BlockExpiredPatronOpacActions`.
 
--  Finally you can assign advanced messaging preferences by default to a
-   patron category
+   -  Don't block: patrons of this category whose membership has expired will 
+      *not* be blocked from renewing and placing holds in the OPAC, regardless 
+      of the setting in :ref:`BlockExpiredPatronOpacActions`.
 
-   -  **Important**
+-  Default privacy: choose the default privacy settings for patrons of this
+   category. 
 
-          Requires that you have
-          :ref:`EnhancedMessagingPreferences`
-          enabled
+   -  Default: checkout history will be kept indefinitely, until either the 
+      :ref:`batch\_anonymize.pl script <cron-anonymize-patron-data-label>` is 
+      run or there is a manual 
+      :ref:`batch anonymization <patrons-anonymize-bulk-delete-label>` which 
+      is performed.
 
-   -  These defaults will be applied to new patrons that are added to
-      the system. They will not edit the preferences of the existing
-      patrons. Also, these can be changed for individual patrons, this
-      setting is just a default to make it easier to set up messages for
-      an entire category.
+   -  Never: checkout history is anonymized upon return. Statistics are kept, 
+      but the link between the checkout, the item and the patron is removed.
 
-      -  **Note**
+   -  Forever: checkout history is never anonymized for patrons of this 
+      category, regardless of the cron job or manual anonymization.
 
-             After setting the default for the patron category you can
-             force those changes to all existing patrons by running the
-             *borrowers-force-messaging-defaults* script found in the
-             *misc/maintenance* folder. Ask your system administrator
-             for assistance with this script.
+   -  This setting can be edited by the patron via the OPAC if you allow it 
+      with the :ref:`OPACPrivacy` system preference.
+
+-  Exclude from local holds priority: choose whether holds for patrons of this 
+   category are given a priority.
+
+   -  Yes: holds for patrons of this category are not given special priority,
+      regardless of the setting in 
+      :ref:`LocalHoldsPriority <localholdspriority-preferences-label>`.
+
+   -  No: holds for patrons of this category are subjected to the setting in 
+      :ref:`LocalHoldsPriority <localholdspriority-preferences-label>`.
+
+-  Default messaging preferences for this patron category: assign advanced 
+   messaging preferences by default to the patron category
+
+   -  These default preferences can be changed on an individual basis for 
+      each patron. This setting is just a default to make it easier to set up 
+      messages when creating new patrons. 
+
+.. Note ::
+
+   This requires that you have :ref:`EnhancedMessagingPreferences` system 
+   preference set to 'Allow'.
+
+.. Warning ::
+
+   These defaults will only be applied to new patrons that are added to the 
+   system. They will not edit the preferences of the existing patrons.
+
+   If you need to apply the default preferences to existing patrons, you can 
+   force those changes by running the borrowers-force-messaging-defaults script 
+   found in the misc/maintenance folder. Ask your system administrator for 
+   assistance with this script.
 
 .. _circulation-and-fines-rules-label:
 

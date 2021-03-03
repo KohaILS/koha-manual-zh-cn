@@ -241,7 +241,7 @@ are requiring that the birth date be filled in, Koha will warn you if
 the patron you're adding is too old or young for the patron category you
 have selected:
 
-|image419|
+|patronagelimit|
 
 If the patron's :ref:`category <patron-categories-label>` has an enrollment 
 fee, the fee will be charged to the patron's account when the account is 

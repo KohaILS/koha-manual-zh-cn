@@ -53,6 +53,14 @@
 .. |bor_notes| image:: images/admin/basicparams/bor_notes.png
 				:alt: Screen capture of an authorized value for the BOR\_NOTES category; the authorized value is ADDR and the Description is 'Please bring a proof of address on your next visit to the library.''
 
+.. PATRONS AND CIRCULATION
+
+.. |newpatroncategory| image:: images/admin/patroncirc/newpatroncategory.png
+				:alt: New patron category form
+
+
+.. |patroncatlist| image:: images/admin/patroncirc/patroncatlist.png
+				:alt: Patron categories table
 
 .. SYSTEM PREFERENCES
 
@@ -198,6 +206,9 @@
 
 
 .. PATRONS
+
+.. |patronagelimit| image:: images/patrons/patronagelimit.png
+				:alt: Warning 'The following fields are wrong. Please fix them. Patron's age is incorrect for their category. Ages allowed are 5-17.'
 
 .. POINT OF SALE
 
@@ -469,13 +480,9 @@
 .. |image145| image:: images/admin/basicparams/authvallist.png
 .. |image146| image:: images/admin/basicparams/addauthvalue.png
 .. |image147| image:: images/admin/basicparams/authvals.png
-.. |image148| image:: images/admin/patroncirc/patroncatlist.png
-.. |image149| image:: images/admin/patroncirc/newpatroncat.png
 .. |image150| image:: images/admin/patroncirc/patcaterror.png
 .. |image151| image:: images/admin/patroncirc/patcaterror.png
 .. |image152| image:: images/admin/patroncirc/patcaterror.png
-.. |image153| image:: images/admin/patroncirc/hidelostitemspatron.png
-.. |image154| image:: images/admin/patroncirc/patroncatpulldown.png
 .. |image155| image:: images/admin/patroncirc/patcaterror.png
 .. |image156| image:: images/admin/patroncirc/selectissuinglibrary.png
 				:alt: 'Select a library' drop down menu
@@ -771,8 +778,6 @@
 				:alt: 'Patron messaging preferences' section of the patron form
 .. |image418| image:: images/patrons/duplicatewarn.png
 				:alt: 'Duplicate patron record' warning with options to view existing patron record, to edit existing record or to save as new record
-.. |image419| image:: images/patrons/patronagelimit.png
-				:alt: Warning 'The following fields are wrong. Please fix them. Patron's age is incorrect for their category. Ages allowed are 5-17.'
 .. |image420| image:: images/patrons/statspatcat.png
 .. |image421| image:: images/patrons/newinhouse.png
 .. |image422| image:: images/patrons/patronedit.png
@@ -1498,8 +1503,6 @@
 .. |image1197| image:: images/admin/globalprefs/EnableSearchHistory.png
 .. |image1201| image:: images/admin/globalprefs/idref1.png
 .. |image1202| image:: images/admin/globalprefs/idref2.png
-.. |image1203| image:: images/admin/patroncirc/blockexpired.png
-.. |image1204| image:: images/admin/patroncirc/defaultprivacy.png
 .. |image1205| image:: images/admin/cataloging/itemsearchfields.png
 .. |image1206| image:: images/admin/cataloging/additemsearchfields.png
 .. |image1207| image:: images/admin/cataloging/customsearch.png
