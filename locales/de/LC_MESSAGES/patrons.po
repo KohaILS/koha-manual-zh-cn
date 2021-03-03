@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-02-26 12:42+0000\n"
-"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"POT-Creation-Date: 2021-03-02 06:55-0300\n"
+"PO-Revision-Date: 2021-03-03 08:56+0000\n"
+"Last-Translator: Christian Stelzenmüller <christian.stelzenmueller@bsz-bw.de>"
+"\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,16 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614343333.194782\n"
+"X-POOTLE-MTIME: 1614761811.706539\n"
 
 #: ../../source/patrons.rst:6
 msgid "Patrons"
 msgstr "Benutzer"
 
 #: ../../source/patrons.rst:8
-#, fuzzy
 msgid "Before importing or adding patrons be sure to set up your :ref:`patron categories <patron-categories-label>`."
-msgstr "Stellen Sie vor dem Importieren und / oder Hinzufügen von Benutzern sicher, dass die Benutzertypen angelegt sind: :ref:`Benutzertypen <patron-categories-label>`."
+msgstr ""
+"Stellen Sie vor dem Importieren oder Hinzufügen von Benutzern sicher, dass "
+"die Benutzertypen angelegt sind: :ref:`Benutzertypen <patron-categories-"
+"label>`."
 
 #: ../../source/patrons.rst:14
 msgid "Add a new patron"
@@ -61,16 +64,14 @@ msgid "Required fields are defined in the :ref:`BorrowerMandatoryField` system p
 msgstr "Die obligatorischen Felder sind im Systemparameter :ref:`BorrowerMandatoryField` festgelegt"
 
 #: ../../source/patrons.rst:32
-#, fuzzy
 msgid "First, enter the identifying information regarding your patron"
-msgstr "Geben Sie zuerst Informationen zur Identität des Benutzers ein."
+msgstr "Geben Sie zuerst Informationen zur Identität des Benutzers ein"
 
 #: ../../source/patrons.rst:34
 msgid "|image408|"
 msgstr "|image408|"
 
 #: ../../source/patrons.rst:36
-#, fuzzy
 msgid "'Salutation' is populated by the :ref:`BorrowersTitles` system preference"
 msgstr "Die Anrede ist abhängig vom Systemparameter :ref:`BorrowersTitles`"
 
@@ -115,7 +116,6 @@ msgid "Then on the slip you can have it print the <<borrowers.initials>>, <<borr
 msgstr "Auf der Quittung können in diesem Fall dann die Felder <<borrowers.initials>>, <<borrowers.firstname>> anstelle des vollständigen Namens gedruckt werden (hier: E, Nicole)."
 
 #: ../../source/patrons.rst:68
-#, fuzzy
 msgid "If this patron is a child, you will be asked to attach the child patron to an adult patron (guarantor)"
 msgstr "Wenn es sich bei diesem Benutzer um ein Kind handelt, werden Sie aufgefordert dieses mit einem Erwachsenen zu verknüpfen"
 
@@ -3647,4 +3647,3 @@ msgstr ""
 
 #~ msgid "|image452|"
 #~ msgstr "|image452|"
-

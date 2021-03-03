@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-02 06:21+0000\n"
+"POT-Creation-Date: 2021-03-02 06:55-0300\n"
+"PO-Revision-Date: 2021-03-02 08:47+0000\n"
 "Last-Translator: Frank Chou <frank@sris.com.tw>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614666060.646061\n"
+"X-POOTLE-MTIME: 1614674840.498596\n"
 "X-Pootle-Path: /zh_TW/man18.05/administration.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -1746,9 +1746,8 @@ msgid "If you want to use the article request functionality you need to enable i
 msgstr "若使用申請單篇論文功能，需先啟用 :ref:`ArticleRequests` 系統偏好，並以其他相關偏好組態表單。"
 
 #: ../../source/administration.rst:1419
-#, fuzzy
 msgid "Finally, if you :ref:`charge a rental fee for the item type <adding-item-types-label>` and want to give this specific patron category a discount on that fee, enter the percentage discount (without the % symbol) in the 'Rental discount' field"
-msgstr "最後，若向讀者收取館藏的 `租金 <#rentalcharge>`__ 並對特定的讀者類型給予折扣優待，在 '租金折扣' 欄位輸入折扣的百分比 (不要給 % 符號)"
+msgstr "最後，若向讀者 :ref:`收取館藏類型的租金 <adding-item-types-label>`__ 並對特定的讀者類型給予折扣優待，在 '租金折扣' 欄位輸入折扣的百分比 (不要放 % 符號)"
 
 #: ../../source/administration.rst:1424
 #, fuzzy
@@ -3358,9 +3357,8 @@ msgid "Classification sources"
 msgstr "分類法來源"
 
 #: ../../source/administration.rst:2771
-#, fuzzy
 msgid "Source of classification or shelving scheme are mapped to field 952$2 and 942$2 in Koha's :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>` and stored in the items.cn\\_source and biblioitems.cn\\_source fields in the database."
-msgstr "分類法來源或排架方式屬於 :ref:`容許值 <authorized-values-label>` 類型，對映至 952$2 與 Koha 的 MARC 書目框架的欄位 942$2，儲存在資料庫的 items.cn\\_source 欄位。"
+msgstr "分類法來源或排架方式對映至 952$2 與 Koha 的 :ref:`MARC 書目框架<marc-bibliographic-frameworks-label>的欄位 942$2，儲存在資料庫的 items.cn\\_source 以及biblioitems.cn\\_source欄位。"
 
 #: ../../source/administration.rst:2776
 msgid "*Get there:* More > Administration > Catalog > Classification sources"
@@ -5050,9 +5048,8 @@ msgid "Checkout history (checkoutshistory-table)"
 msgstr ""
 
 #: ../../source/administration.rst:4048
-#, fuzzy
 msgid "Holdings/items (holdings\\_table)"
-msgstr "預約/館藏"
+msgstr "預約/館藏 (holdings\\_table)"
 
 #: ../../source/administration.rst:4049
 msgid "Holdings/items from other libraries (otherholdings\\_table) (when :ref:`SeparateHoldings` is enabled)"
@@ -5561,9 +5558,8 @@ msgid "|addfieldsorderbasket|"
 msgstr ""
 
 #: ../../source/administration.rst:4305
-#, fuzzy
 msgid "Subscriptions (subscription): a field added to subscription will appear when :ref:`creating a new subscription <add-a-subscription-label>` or when :ref:`editing an existing subscription <edit-subscription-label>` in the serials module."
-msgstr "訂閱（訂閱）：添加到訂閱的欄位將在 :ref:`創建一個新的訂閱<add-a-subscription-label>`或編輯期刊模組中的現有訂閱"
+msgstr "訂閱（訂閱）：添加到訂閱的欄位將在 :ref:`建立一個新的訂閱<add-a-subscription-label>`或在期刊模組中 :ref:`編輯現有訂閱 <edit-subscription-label>`"
 
 #: ../../source/administration.rst:4310 ../../source/administration.rst:4371
 msgid "|addsub2|"
@@ -5587,9 +5583,8 @@ msgid "Name: this is the name of the field as you want it to appear."
 msgstr "名稱：想要顯示的欄位名稱"
 
 #: ../../source/administration.rst:4320
-#, fuzzy
 msgid "Authorized value category: if you want to add a drop-down menu to the field choose an :ref:`authorized value category <existing-values-label>` here (you can also :ref:`create a new authorized value category <add-new-authorized-value-category-label>` if you need to)."
-msgstr "容許值範圍：如果要添加欄位下拉選單，請在此處選擇一個容許值範圍(如果需要，也可以 :ref:`新增一個新的容許值範圍<add-new-authorized-value-category-label>`）"
+msgstr "容許值範圍：如果要添加欄位下拉選單，請在此處選擇一個:ref:`容許值類型 <existing-values-label>`. (如果需要，也可以 :ref:`新增一個新的容許值類型<add-new-authorized-value-category-label>`）"
 
 #: ../../source/administration.rst:4325
 msgid "MARC field: for additional subscription fields, it is possible to link the field to a MARC field. The additional field will be automatically populated with the corresponding record's value for this MARC field."
@@ -6026,3 +6021,4 @@ msgstr "檢視訂閱時，書目紀錄內的欄位及資訊將顯示在 '其他�
 
 #~ msgid "At this time you can map only 1 MARC field to 1 Koha field. This means that you won't be able to map both the 100a and the 700a to the author field, you need to choose one or the other."
 #~ msgstr "1 個 MARC 欄位祗能對映至 1 個 Koha 欄位。也就是不能同時把 100a 與 700a 同時對映至著者欄位，祗能選一個。"
+

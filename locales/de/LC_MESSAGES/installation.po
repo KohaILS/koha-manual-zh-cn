@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-02-24 08:20+0000\n"
+"POT-Creation-Date: 2021-03-02 06:55-0300\n"
+"PO-Revision-Date: 2021-03-03 12:21+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,22 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614154802.098208\n"
+"X-POOTLE-MTIME: 1614774110.031014\n"
 
 #: ../../source/installation.rst:6
-#, fuzzy
 msgid "Introduction to the Koha installation process"
 msgstr "Einführung in den Koha Installations-Prozess"
 
 #: ../../source/installation.rst:8
-#, fuzzy
 msgid "This is the Koha installation manual."
-msgstr "Das ist das Koha Installations-Handbuch."
+msgstr "Dies ist das Handbuch zur Koha-Installation."
 
 #: ../../source/installation.rst:10
-#, fuzzy
 msgid "The Koha installation process uses 2 tools:"
-msgstr "Der Koha Installations-Prozess benötigt zwei Werkzeuge:"
+msgstr "Der Koha-Installationsprozess verwendet zwei Werkzeuge:"
 
 #: ../../source/installation.rst:12 ../../source/installation.rst:35
 msgid "Web installer"
@@ -59,12 +56,10 @@ msgid "The web installer starts with a login screen for you to enter the databas
 msgstr "Der Web Installer startet mit einem Anmeldebildschirm. Dort müssen die Daten des Datenbankadministrators eingegeben werden."
 
 #: ../../source/installation.rst:23
-#, fuzzy
 msgid "The installer will then create the tables and fill the tables with data. The next step in the process is to set up a few mandatory first use settings, via the onboarding tool."
 msgstr "Der Installer erstellt anschließend die Tabellen und füllt diese mit Daten. Im nächsten Schritt werden über das Onboarding Tool ein paar erste, verpflichtende Konfigurationseinstellungen vorgenommen."
 
 #: ../../source/installation.rst:26
-#, fuzzy
 msgid "What is the Koha onboarding tool?"
 msgstr "Was ist das Koha Onboarding Tool?"
 
@@ -85,7 +80,6 @@ msgid "Web installer login"
 msgstr "Login zum Web Installer"
 
 #: ../../source/installation.rst:40
-#, fuzzy
 msgid "**Web installer login**"
 msgstr "**Web Installer Login**"
 
@@ -118,7 +112,6 @@ msgid "Language picker"
 msgstr "Sprachauswahl"
 
 #: ../../source/installation.rst:59
-#, fuzzy
 msgid "**Installer start screen**"
 msgstr "**Installationsstartseite**"
 
@@ -147,7 +140,6 @@ msgid "Click the *Continue to the next step* button to load the next stage of th
 msgstr "Klicken Sie auf *Fortfahren zum nächsten Schritt*, um die nächste Stufe des Web-Installers zu laden."
 
 #: ../../source/installation.rst:75
-#, fuzzy
 msgid "Installer perl modules installed"
 msgstr "Installierte Perl-Module"
 
@@ -184,7 +176,6 @@ msgid "|image1168|"
 msgstr "|image1168|"
 
 #: ../../source/installation.rst:97
-#, fuzzy
 msgid "**Database settings:** Check these database settings are correct."
 msgstr "**Datenbankeinstellungen:** Überprüfen Sie, ob die Datenbankeinstellungen korrekt sind."
 
@@ -193,7 +184,6 @@ msgid "Click the *Continue to the next step* button to confirm the database sett
 msgstr "Klicken Sie auf *Mit dem nächsten Schritt fortfahren*, um die Datenbankeinstellungen zu bestätigen."
 
 #: ../../source/installation.rst:102
-#, fuzzy
 msgid "**Connection established**"
 msgstr "**Verbindung hergestellt**"
 
@@ -306,7 +296,6 @@ msgid "|image1174|"
 msgstr "|image1174|"
 
 #: ../../source/installation.rst:176
-#, fuzzy
 msgid "**Default MARC21 standard authority types:** An authority type is a template of an authority record (stores the search fields used to search an institutions catalog for an item). This option will install sample authority types."
 msgstr "**Standard-MARC21-Normdatentypen:** Ein Normdatentyp ist ein Template für ein Normdatensatz (beinhaltet die Suchfelder die für eine Suche nach Exemplaren in einem Katalog benötigt werden). Mit der Wahl dieser Option werden Beispieldaten für Normdatentypen installiert."
 
@@ -319,7 +308,6 @@ msgid "**Selected matching rules for MARC21 bibliographic records:** The MARC21 
 msgstr "**Ausgewählte Abgleichregeln für bibliografische MARC21-Datensätze:** Die MARC21-Abgleichregeln werden verwendet, um beim Import die zu importierenden Datensätze mit den bereits vorhandenen abzugleichen und entsprechend zu reagieren."
 
 #: ../../source/installation.rst:182
-#, fuzzy
 msgid "**'FA', a 'fast add' minimal MARC21 framework suitable for ILL, or on the fly cataloging:** The FA MARC framework displays fewer fields, and allows for faster cataloguing on the fly. Select this checkbox to install this minimal framework."
 msgstr "**'FA', ein minimales MARC21-Framework für \"Schnellaufnahmen\" (Fast Adds), passend z.B. für Fernleihen:** Das FA-MARC-Framework beinhaltet weniger Felder und ermöglicht eine schnellere Katalogisierung. Wählen Sie diese Checkbox aus, um dieses minimale Framework zu installieren."
 
@@ -336,9 +324,13 @@ msgid "**Default classification sources and filling rules:** This will insert se
 msgstr "**Standard-Klassifikationsquellen und -Sortierregeln:** Damit werden verschiedene Klassifikationsquellen hinzugefügt, wie zum Beispiel die Dewey-Decimalklassifikation."
 
 #: ../../source/installation.rst:190
-#, fuzzy
 msgid "**Defines default message transports for email and SMS:** This provides the option to the user of being able to change how the library contacts them. They can choose from the following: email address, printed message, SMS, or phone call. Notices will not work without these."
-msgstr "*Transportarten für Beanchrichtigungen über E-Mail und SMS:** Dies bietet den Benutzern die Möglichkeit, festzulegen, wie die Bibliothek mit ihnen Kontakt aufnimmt. Es kann aus Folgendem ausgewählt werden: E-Mail, Post, SMS oder Telefonanruf. Die Benachrichtigungen funktionieren nicht ohne diese Optionen."
+msgstr ""
+"**Transportarten für Beanchrichtigungen über E-Mail und SMS:** Dies bietet "
+"den Benutzern die Möglichkeit, festzulegen, wie die Bibliothek mit ihnen "
+"Kontakt aufnimmt. Es kann aus Folgendem ausgewählt werden: E-Mail, Post, SMS "
+"oder Telefonanruf. Die Benachrichtigungen funktionieren nicht ohne diese "
+"Optionen."
 
 #: ../../source/installation.rst:192
 msgid "**Patron attributes:** This does not install any data, and it needs to be removed."
@@ -353,7 +345,6 @@ msgid "**Sample notices:** This inserts sample notices into the database, meanin
 msgstr "**Beispiel-Benachrichtigungen:** Dadurch werden Beispiele für Benachrichtigungen in die Datenbank eingefügt. Sie müssen diese Benachrichtigungen lediglich anpassen, bevor Sie sie verwenden. Das manuelle Erstellen kann zeitaufwändig und fehleranfällig sein."
 
 #: ../../source/installation.rst:198
-#, fuzzy
 msgid "**Defines default messages for the enhanced messaging configuration:** The enhanced messaging configuration lets the user choose what messages they receive from the institution. Selecting this will insert sample message types for the due, predue, and advance notice message types."
 msgstr "**Standard-Benachrichtigungsarten für die erweiterten Benachrichtigungen:** Mit den erweiterten Benachrichtigungen kann der Benutzer auswählen, welche Nachrichten er von der Institution erhält. Wenn Sie diese Option auswählen, werden die Standard-Benachrichtigungsarten für Fälligkeits- und Erinnerungsbenachrichtigungen hinzugefügt."
 
@@ -370,7 +361,6 @@ msgid "**Some basic default authorised values for library locations, item lost s
 msgstr "**Einige nützlice Standard-Werte für Normierte Werte, wie Standorte, Verloren-Status, etc.:** Dadurch werden Normierte Werte installiert, die Benutzereingaben filtern, um sicherzustellen, dass sie den angegebenen Kriterien entsprechen, bevor die Bibliothek oder andere Objekte erstellt werden."
 
 #: ../../source/installation.rst:206
-#, fuzzy
 msgid "**CSV profiles:** Using Koha you can export items. The CSV profile defines how you want to export the item(s). CSV/tab exports will not work without these."
 msgstr "**CSV-Profile:** In Koha können Sie an verschiedenen Stellen Exemplare- und Titeldaten exportieren. Die CSV-Profile erlauben es zu definieren, wie diese exportiert werden sollen. Einige Exportfunktionen funktionieren nicht ohne diese."
 
@@ -383,16 +373,19 @@ msgid "**MARC code list for relators:** Not required to use Koha. A relator is a
 msgstr "**MARC-Code-Liste für Funktionsbezeichnungen:** Sind für die Verwendung von Koha nicht erforderlich. Über Funktionsbezeichnungen werden Personen und Körperschaften gekennzeichnet die an der Erschaffung eines Werkes beteiligt waren (z.B. Verfasser). Wenn Sie dies auswählen, wird eine Liste mit Funktionsbezeichnungen in Ihrer Datenbank angelegt."
 
 #: ../../source/installation.rst:212
-#, fuzzy
 msgid "**Some basic currencies with USA dollar as default for ACQ module:** Install US dollar, Great British Pound, Canadian Dollar and Euro currencies. Set the US dollar as the default acquisition currency. Not installing these will mean that a currency will need to be defined before acquisitions can be used."
-msgstr "**Einige Währungen mit US-Dollar als Standard:** Installieren Sie US-Dollar, englisches Pfund, kanadischer Dollar und EURO als Währungen. Setzt den US-Dollar als Voreinstellung. Wenn man diese nicht installiert, sollten diese angelegt werden, bevor man in Koha mit der Erwerbung oder dem Gebührenmodul arbeitet."
+msgstr ""
+"**Einige Währungen mit US-Dollar als Standard:** Installieren Sie US-Dollar, "
+"englisches Pfund, kanadischer Dollar und Euro als Währungen. Setzt den US-"
+"Dollar als Voreinstellung. Wenn man diese nicht installiert, sollte eine "
+"Währung konfiguriert werden, bevor man in Koha mit der Erwerbung oder dem "
+"Gebührenmodul arbeitet."
 
 #: ../../source/installation.rst:214
 msgid "**Useful patron attribute types:** Not required to use Koha. Patrons have a barcode which identifies them. By clicking this checkbox you are making sure that this patron barcode is displayed on the patron summary screen."
 msgstr "**Nützliche Benutzerattribute:** Für die Verwendung von Koha nicht erforderlich. Benutzer haben eine Ausweisnummer, die Sie identifiziert. Wenn Sie diese Checkbox setzen, stellen Sie sicher, dass diese Ausweisnummer in der Kurzübersicht im Benutzerdatensatz angezeigt wird."
 
 #: ../../source/installation.rst:216
-#, fuzzy
 msgid "**Sample patron types and categories:** Not required to use Koha. Selecting this will install sample patron categories into the database. This will mean the create patron category step in the onboarding tool is skipped."
 msgstr "**Beispiel-Benutzertypen:** Für die Verwendung von Koha nicht erforderlich. Wenn dies ausgewählt wird, werden Beispiele für Benutzertypen in der Datenbank installiert. In diesem Fall wird der Schritt zum anlegen eines ersten Benutzertyps im Onboarding-Prozess übersprungen."
 
@@ -405,12 +398,10 @@ msgid "**Sample holidays: Sunday, Christmas, New Year’s** Not required to use 
 msgstr "**Beispiele für Schließtage: Sonntag, Weihnachten, Neujahr**: Nicht für die Verwendung von Koha erforderlich. Wenn dies ausgewählt wird, werden Beispiele für öffentliche Feiertage in der Datenbank angelegt. Hinweis: Hängt von der Auswahl von Beispiel-Bibliotheken ab."
 
 #: ../../source/installation.rst:222
-#, fuzzy
 msgid "**A set of default item types:** Not required for Koha. Selecting this will insert sample item type data into the database, meaning the create item type step in the onboarding tool will be skipped."
 msgstr "**Beispiel-Medientypen:** Nicht für die Verwendung von Koha erforderlich. Wenn dies ausgewählt wird, werden Beispiele für Medientypen in der Datenbank angelegt und der Schritt für das Anlegen eines ersten Medientyps im Onboarding-Prozess wird übersprungen."
 
 #: ../../source/installation.rst:224
-#, fuzzy
 msgid "**Sample libraries:** Not required for Koha. Selecting this will insert sample libraries into the database. Developers will often want this for demo or development purposes. Selecting this means the create library step in the onboarding tool will be skipped."
 msgstr "**Beispiel-Bibliotheken:** Nicht für die Verwendung von Koha erforderlich. Wenn dies ausgewählt wird, werden Beispiele für Bibliotheken in der Datenbank angelegt. Dies ist für Demos oder für die Entwicklung oft nützlich. Wenn dies ausgewählt wird, wird das Anlegen einer ersten Bibliothek im Onboarding-Prozess übersprungen."
 
@@ -435,17 +426,16 @@ msgid "Click the *Import* button to install the default and selected data values
 msgstr "Klicken Sie die Schaltfläche *Importieren*, um die obligatorischen und ausgewählten Daten zu installieren."
 
 #: ../../source/installation.rst:237 ../../source/installation.rst:248
-#, fuzzy
 msgid "UNIMARC setup"
-msgstr "MARC21-Konfiguration"
+msgstr "UNIMARC-Konfiguration"
 
 #: ../../source/installation.rst:239
-#, fuzzy
 msgid "There are only two data values in the UNIMARC advanced setup which are unique:"
-msgstr "Es gibt nur 2 Datenwerte im erweiterten UNIMARC-Setup, die einmalig sind:"
+msgstr ""
+"Es gibt nur zwei Datenwerte in der erweiterten UNIMARC-Konfiguration, die "
+"einmalig sind:"
 
 #: ../../source/installation.rst:241
-#, fuzzy
 msgid "Authority structure for UNIMARC in English"
 msgstr "Normdatenstruktur für UNIMARC in Englisch"
 
@@ -454,7 +444,6 @@ msgid "Default UNIMARC bibliographic framework in English"
 msgstr "Bibliografisches Standard-Framework für UNIMARC in Englisch"
 
 #: ../../source/installation.rst:244
-#, fuzzy
 msgid "Optional values are the same for both UNIMARC and MARC21, therefore their definition will not be repeated."
 msgstr "Die optionalen Daten sind die gleichen für UNIMARC und MARC21, daher wird ihre Beschreibung nicht wiederholt."
 
@@ -463,12 +452,10 @@ msgid "|image1175|"
 msgstr "|image1175|"
 
 #: ../../source/installation.rst:250
-#, fuzzy
 msgid "*Authority structure for UNIMARC in English:* Authority records store the search terms used to find items in the database. Unlike MARC21, when using UNIMARC the authority structure needs to be compatible with UNIMARC. Selecting this option makes it compatible."
 msgstr "*Normdatenstruktur für UNIMARC auf Englisch:* Normdaten werden für die Vereinheitlichung von Begriffen und Namen verwendet und können durch die Angabe von Verweisungsformen und Ober- und Unterbegriffen auch für die Recherche sinnvoll sein. Wenn mit UNIMARC gearbeitet wird, muss auch die Normdatenstruktur zu UNIMARC kompatibel sein. Wenn diese Option ausgewählt wird, werden die passenden Daten installiert."
 
 #: ../../source/installation.rst:252
-#, fuzzy
 msgid "*Default UNIMARC bibliographic framework in English:* In the previous screen you clicked to use the UNIMARC flavour, now by selecting this option you are confirming you want to use that framework."
 msgstr "*Bibliografisches Standard-Framework für UNIMARC auf Englisch:* Auf der vorherigen Seite haben Sie sich für UNIMARC entschieden, nun müssen Sie diese Option wählen, um das entsprechende Framework zu installieren."
 
@@ -481,7 +468,6 @@ msgid "Selected data added"
 msgstr "Ausgewählte Daten hinzugefügt"
 
 #: ../../source/installation.rst:259
-#, fuzzy
 msgid "After you have clicked the *Import* button in either the MARC21 or UNIMARC setup screen this screen will appear. It shows you if the selected/default data values were successfully inserted into the database."
 msgstr "Nachdem Sie auf die Schaltfläche \"Importieren\" von der MARC21- oder UNIMARC-Konfigurationsseite geklickt haben, wird diese Seite angezeigt. Sie zeigt an, ob die gewählten Daten erfolgreich in der Datenbank installiert wurden."
 
@@ -494,9 +480,10 @@ msgid "**Optional data added:** If you selected an optional data value then it w
 msgstr "**Hinzugefügte optionale Daten:** Wenn optionale Daten ausgewählt wurden, werden diese hier angezeigt. Wenn keine optionalen Daten ausgewählt wurden, erscheint diese Überschrift nicht."
 
 #: ../../source/installation.rst:267
-#, fuzzy
 msgid "**MySQL data added:** These data values will always be installed and consequently displayed on this screen."
-msgstr "**Hinzugefügte MySQL-Daten:** Diese Daten werden immer installiert und daher auch immer hier angezeigt."
+msgstr ""
+"**MySQL-Daten:** Diese Daten werden immer installiert und daher auch immer "
+"hier angezeigt."
 
 #: ../../source/installation.rst:269
 msgid "**Mandatory data added:** Same as above."
@@ -555,7 +542,6 @@ msgid "**Name:** Official name of the library, as it is commonly known."
 msgstr "**Name:** Offizieller Name der Bibliothek unter der diese bekannt ist."
 
 #: ../../source/installation.rst:302
-#, fuzzy
 msgid "**Create more libraries:** If more libraries are required, or changes need to be made to this freshly created library, go to Administration -> Libraries and groups"
 msgstr "**Weitere Bibliotheken anlegen:** Wenn weitere Bibliotheken benötigt oder Änderungen an der gerade angelegten gemacht werden sollen, gehen Sie zu Administration > Bibliotheken und Gruppen"
 
@@ -634,7 +620,6 @@ msgid "**Description:** Sentence describing what the patron category is."
 msgstr "**Beschreibung:** Anzeigetext für den Benutzertyp."
 
 #: ../../source/installation.rst:337
-#, fuzzy
 msgid "*Overdue notice required* dropdown button: Set by default to 'no'. This specifies if you want the patron category to receive overdue notices."
 msgstr "Auswahlliste *Mahnschreiben erforderlich*: In der Voreinstellung \"Nein\". Dies gibt an, ob Benutzer dieses Benutzertyps Mahnschreiben erhalten sollen."
 
@@ -643,17 +628,14 @@ msgid "**Category type:** This makes the category created a staff member."
 msgstr "**Kategorie:** Dies legt fest, dass es sich bei dem Benutzertyp um Bibliothekspersonal handelt."
 
 #: ../../source/installation.rst:341
-#, fuzzy
 msgid "**Default privacy:** Set by default to 'default'. The Default privacy controls the amount of time that the reading history of the patron is stored for."
 msgstr "**Standardeinstellung für Datenschutz:** In der Voreinstellung steht dies auf \"Standard\". Diese Einstellung kontrolliert wie lange die Ausleihhistorie eines Benutzers gespeichert wird."
 
 #: ../../source/installation.rst:343
-#, fuzzy
 msgid "**Enrolment period - in months:** This is the number of months that the patrons created from this patron category are enrolled for."
 msgstr "**Gültigkeitsdauer-In-Monaten:** Dies ist die Anzahl von Monaten, die ein Benutzerausweis gültig bleibt, der mit diesem Benutzertyp angelegt wurde."
 
 #: ../../source/installation.rst:345
-#, fuzzy
 msgid "**Enrolment period - until date:** Select a date from the interactive datepicker calendar icon which appears when you click on this input box. The date you choose will be the enrolment end date for patrons created from this patron category."
 msgstr "**Gültigkeitsdauer-Bis-Datum:** Wählen Sie ein Datum über das Datumswidget, das angezeigt wird, wenn Sie in dieses Eingabefeld klicken. Das gewählte Datum ist das Ablaufdatum der Benutzerkonten, die mit diesem Benutzertyp angelegt werden."
 
@@ -690,7 +672,6 @@ msgid "Surname"
 msgstr "Nachname"
 
 #: ../../source/installation.rst:365
-#, fuzzy
 msgid "First name"
 msgstr "Vorname"
 
@@ -731,7 +712,6 @@ msgid "**First name:** First name, or something descriptive"
 msgstr "**Vorname:** Vorname oder etwas Beschreibendes"
 
 #: ../../source/installation.rst:379
-#, fuzzy
 msgid "**Card number:** This number must be unique"
 msgstr "**Ausweisnummer:** Diese Nummer muss einmalig sein"
 
@@ -764,12 +744,10 @@ msgid "Click the *Submit* button to create the patron account"
 msgstr "Klicken Sie auf die Schaltfläche *Absenden* um das Benutzerkonto anzulegen"
 
 #: ../../source/installation.rst:387
-#, fuzzy
 msgid "**Path to create patron:** Patron's can be created or altered by going to Patrons -> New patron"
 msgstr "**Pfad zum Anlegen eines Benutzers:** Benutzer können unter Benutzer > Neuer Benutzer angelegt oder geändert werden"
 
 #: ../../source/installation.rst:388
-#, fuzzy
 msgid "**Assign patron permissions:** After creating a patron go More -> Set permissions to assign permissions."
 msgstr "**Benutzerberechtigungen setzen:** Nachdem ein Benutzer gespeichert wurde, gehen Sie zu Mehr > Berechtigungen setzen um Berechtigungen zu vergeben."
 
@@ -782,7 +760,6 @@ msgid "Create a patron example"
 msgstr "Beispiel für das Anlegen eines Benutzers"
 
 #: ../../source/installation.rst:397
-#, fuzzy
 msgid "Create an item type"
 msgstr "Einen Medientyp anlegen"
 
@@ -839,12 +816,10 @@ msgid "Create item type example"
 msgstr "Beispiel für das Anlegen eines Medientyps"
 
 #: ../../source/installation.rst:424
-#, fuzzy
 msgid "The regular expression filtering item type code input will only accept letters."
 msgstr "Die Prüfung für die korrekte Eingabe des Medientypcodes erlaubt nur Buchstaben."
 
 #: ../../source/installation.rst:427
-#, fuzzy
 msgid "Create a circulation rule"
 msgstr "Ausleihkondition anlegen"
 
@@ -873,17 +848,14 @@ msgid "**Item type creation message:** Indicates if the item type was created su
 msgstr "**Meldung über das Anlegen eines Medientyps:** Gibt an, ob der Medientyp erfolgreich angelegt wurde."
 
 #: ../../source/installation.rst:441
-#, fuzzy
 msgid "*Library branch* dropdown box: This is the library (or libraries) you want to apply the circulation rule to. By default it is set to *all*, however you can select a singular library to apply the rule to from the dropdown box."
 msgstr "Auswahlliste *Bibliothek*: Dies ist die Bibliothek (oder die Bibliotheken), für welche die Ausleihregel gültig sein soll. In der Voreinstellung ist dies auf *Alle* gesetzt, es kann aber auch eine einzelne Bibliothek aus der Auswahlliste gewählt werden."
 
 #: ../../source/installation.rst:442
-#, fuzzy
 msgid "*Patron categories* dropdown box: This is the patron categories you want to apply the circulation rule to. As with *library branch* it is set to *all* by default but more options are avaliable."
 msgstr "Auswahlliste *Benutzertypen*: Dies sind die Benutzertypen, für welche die Ausleihregel gültig sein soll. Wie bei der Auswahlliste *Bibliothek* ist dies auf *Alle* voreingestellt aber weitere Optionen sind verfügbar."
 
 #: ../../source/installation.rst:443
-#, fuzzy
 msgid "*Item type* dropdown box: This is the item types that you want the circulation rule to apply to. Again more options are avaliable than the default selected *all* option."
 msgstr "Auswahlliste *Medientyp*: Dies sind die Medientypen, für welche die Ausleihregel gelten soll. Hier ist wieder *Alle* vorausgewählt, aber es sind weitere Optionen verfügbar."
 
@@ -896,17 +868,14 @@ msgid "**Loan period:** Number of days or hours that an item is allowed out for.
 msgstr "**Leihfrist:** Anzahl an Tagen oder Stunden, für die ein Exemplar ausgeliehen wird. Die Voreinstellung ist 14."
 
 #: ../../source/installation.rst:446
-#, fuzzy
 msgid "*Units* dropdown box: Set by default to *aays*, the unit selecting in this field is applied to the numerical values written into **loan period** and **renewals period**"
 msgstr "Auswahlliste *Einheiten*: In der Voreinstellung *Tage*, die Einheit wird für die numerischen Werte in den Feldern **Leihfrist** und **Verlängerungsfrist** verwendet."
 
 #: ../../source/installation.rst:447
-#, fuzzy
 msgid "**Renewals allowed:** Number of times a item can be renewed. Set to 10 by default."
 msgstr "**Erlaubte Verlängerungen:** Anzahl an möglichen Verlängerungen. Die Voreinstellung ist 10."
 
 #: ../../source/installation.rst:448
-#, fuzzy
 msgid "**Renewals period:** Number of days or hours that a renewal lasts for. Set to 14 by default."
 msgstr "**Verlängerungsfrist:** Anzahl an Tagen oder Stunden, welche die Frist bei einer Verlängerung verlängert wird. Die Voreinstellung ist 14."
 
@@ -919,9 +888,10 @@ msgid "**Path to create circulation rule:** Circulation rules can be created or 
 msgstr "**Pfad zum Anlegen einer Ausleihregel:** Ausleihregeln können unter Administration > Ausleihkonditionen angelegt und bearbeitet werden."
 
 #: ../../source/installation.rst:451
-#, fuzzy
 msgid "Click the *submit* button to create the circulation rule."
-msgstr "Klicken Sie auf die Schaltfläche 'Übermitteln', um die Zirkulationsregel zu erstellen."
+msgstr ""
+"Klicken Sie auf die Schaltfläche \"Abschicken\", um die Ausleihregel zu "
+"erstellen."
 
 #: ../../source/installation.rst:454
 msgid "Onboarding tool complete"
@@ -972,12 +942,10 @@ msgid "**Password:** Enter the password you created"
 msgstr "**Passwort:** Geben Sie das Passwort ein, dass Sie angelegt haben"
 
 #: ../../source/installation.rst:475
-#, fuzzy
 msgid "**Library:** This is the library staff interface you want to log into. The options are either: *my library* or the library you installed/created. Leaving the default selected option of *my library* is fine to log in with first time."
 msgstr "**Bibliothek:** Dies ist die Bibliothek unter der Sie sich anmelden möchten. Die Optionen sind entweder: *Meine Bibliothek* oder die Bibliothek, die angelegt wurde. Für die erste Anmeldung kann man die Einstellung *Meine Bibliothek* belassen."
 
 #: ../../source/installation.rst:476
-#, fuzzy
 msgid "Click the *login* button to access the staff interface"
 msgstr "Klicken Sie auf die Schaltfläche *Login*, um auf die Dienstoberfläche zu gelangen."
 
@@ -1019,4 +987,3 @@ msgstr "Für weitere Informationen zur Verwendung der Dienstoberfläche finden S
 
 #~ msgid "Create a Circulation Rule"
 #~ msgstr "Eine Ausleihkondition anlegen"
-

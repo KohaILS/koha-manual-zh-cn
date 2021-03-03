@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-01-24 18:13+0000\n"
+"PO-Revision-Date: 2021-03-03 12:24+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1611512005.962443\n"
+"X-POOTLE-MTIME: 1614774268.372835\n"
 
 #: ../../source/apis_protocols.rst:6
 msgid "Other APIs and protocols"
@@ -384,7 +384,6 @@ msgid "Alert type could have one of several values: 00 : Unknown 01: local hold 
 msgstr "Alert kann einen von mehreren Werten annehmen: 00: Unbekannt, 01: Lokale Vormerkung, 02: Vormerkung vom anderen Standort, 03: Fernleihbestellung, 04: Transport, 99: Sonstiges"
 
 #: ../../source/apis_protocols.rst:207
-#, fuzzy
 msgid "If an item is resensitized then the value of <resensitize> should be Y otherwise it should be N. Rensensitizing items is done to ensure that if someone tries to steal the item they are detected."
 msgstr "Wenn ein Exemplar gesichert wird, dann sollte der Wert von <resensitize> Y sein, anderenfalls ein N. Exemplare werden gesichert, um eine Meldung auszulösen, wenn jemand versucht das Exemplar zu stehlen."
 
@@ -895,4 +894,3 @@ msgstr "Wenn Plack aktiviert ist, dann werden LDAP-Fehler im plack-error.log aus
 #: ../../source/apis_protocols.rst:623
 msgid "/var/log/koha/<instance>/"
 msgstr "/var/log/koha/<instance>/"
-
