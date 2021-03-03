@@ -16,13 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Pootle-Path: /de/man20.11/patronspreferences.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/patronspreferences.rst:6
 msgid "Patrons"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:8
-msgid "*Get there:* More > Administration > Global system preferences > Patrons"
+msgid ""
+"*Get there:* More > Administration > Global system preferences > Patrons"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:13
@@ -34,7 +37,10 @@ msgid "AllowPatronToControlAutoRenewal"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:20
-msgid "Asks : \\_\\_\\_ to allow/disallow auto-renewal for account. If allowed a patron will be able to update their own account to allow/disallow auto-renewal"
+msgid ""
+"Asks : \\_\\_\\_ to allow/disallow auto-renewal for account. If allowed a "
+"patron will be able to update their own account to allow/disallow auto-"
+"renewal"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:23
@@ -118,11 +124,16 @@ msgid "Description:"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:33
-msgid "If set to 'Allow patrons', patrons will be able to enable or disable automatic renewals from :ref:`their online account on the OPAC <your-summary-label>`."
+msgid ""
+"If set to 'Allow patrons', patrons will be able to enable or disable "
+"automatic renewals from :ref:`their online account on the OPAC <your-summary-"
+"label>`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:36
-msgid "In all cases, staff is able to change this in the :ref:`patron's account <add-a-new-patron-label>`."
+msgid ""
+"In all cases, staff is able to change this in the :ref:`patron's account "
+"<add-a-new-patron-label>`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:41
@@ -130,7 +141,9 @@ msgid "CheckPrevCheckout"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:43
-msgid "Asks: \\_\\_\\_ check borrower checkout history to see if the current item has been checked out before."
+msgid ""
+"Asks: \\_\\_\\_ check borrower checkout history to see if the current item "
+"has been checked out before."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:46
@@ -159,7 +172,12 @@ msgid "Unless overridden by patron category, do not"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:60
-msgid "When the value of this system preference is set to 'do', Koha will look at the patron's circulation history to see if they have checked this item out before. An alert will show up on the screen indicating that patron has indeed checked this item out. Staff will be prompted to allow the checkout to occur."
+msgid ""
+"When the value of this system preference is set to 'do', Koha will look at "
+"the patron's circulation history to see if they have checked this item out "
+"before. An alert will show up on the screen indicating that patron has "
+"indeed checked this item out. Staff will be prompted to allow the checkout "
+"to occur."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:65
@@ -167,15 +185,25 @@ msgid "|image1390|"
 msgstr "|image1390|"
 
 #: ../../source/patronspreferences.rst:67
-msgid "If the value is set to 'do not', Koha will not check the patron's circulation history."
+msgid ""
+"If the value is set to 'do not', Koha will not check the patron's "
+"circulation history."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:70
-msgid "When the value is set to 'Unless overridden by patron category, do', this will check the patron's circulation history unless the patron's :ref:`personal setting <add-a-new-patron-label>` or the :ref:`patron category setting <adding-a-patron-category-label>` specifically say not to."
+msgid ""
+"When the value is set to 'Unless overridden by patron category, do', this "
+"will check the patron's circulation history unless the patron's :ref:"
+"`personal setting <add-a-new-patron-label>` or the :ref:`patron category "
+"setting <adding-a-patron-category-label>` specifically say not to."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:75
-msgid "Lastly, if the value is set to 'Unless overridden by patron category, do not', Koha will not check circulation history unless the patron's :ref:`personal setting <add-a-new-patron-label>` or the :ref:`patron category setting <adding-a-patron-category-label>` specifically say to check."
+msgid ""
+"Lastly, if the value is set to 'Unless overridden by patron category, do "
+"not', Koha will not check circulation history unless the patron's :ref:"
+"`personal setting <add-a-new-patron-label>` or the :ref:`patron category "
+"setting <adding-a-patron-category-label>` specifically say to check."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:81
@@ -196,7 +224,9 @@ msgid "**Note**"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:83
-msgid "This system preference will not work for patrons that have chosen to anonymize their reading history."
+msgid ""
+"This system preference will not work for patrons that have chosen to "
+"anonymize their reading history."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:89
@@ -204,7 +234,9 @@ msgid "DefaultPatronSearchFields"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:91
-msgid "Asks: \\_\\_\\_ Comma separated list defining the default fields to be used during a patron search"
+msgid ""
+"Asks: \\_\\_\\_ Comma separated list defining the default fields to be used "
+"during a patron search"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:94
@@ -212,15 +244,21 @@ msgid "Default: surname,firstname,othernames,cardnumber,userid"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:96
-msgid "**Important** possible values can be found in the borrowers table of Koha's schema located at http://schema.koha-community.org/"
+msgid ""
+"**Important** possible values can be found in the borrowers table of Koha's "
+"schema located at http://schema.koha-community.org/"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:101
-msgid "This system preference enables you to define which fields are searched when you do a basic patron search."
+msgid ""
+"This system preference enables you to define which fields are searched when "
+"you do a basic patron search."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:104
-msgid "These fields will also appear in the drop down menu in the patron search, so you can search only the specific field."
+msgid ""
+"These fields will also appear in the drop down menu in the patron search, so "
+"you can search only the specific field."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:110
@@ -228,7 +266,9 @@ msgid "EnableBorrowerFiles"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:112
-msgid "Asks: \\_\\_\\_ enable the ability to upload and attach arbitrary files to a borrower record."
+msgid ""
+"Asks: \\_\\_\\_ enable the ability to upload and attach arbitrary files to a "
+"borrower record."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:115
@@ -246,7 +286,9 @@ msgid "Don't"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:125
-msgid "When enabled this will add a 'Files' tab to the left of the patron detail page where you can view and upload files to the patron record."
+msgid ""
+"When enabled this will add a 'Files' tab to the left of the patron detail "
+"page where you can view and upload files to the patron record."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:131
@@ -254,7 +296,9 @@ msgid "ExtendedPatronAttributes"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:133
-msgid "Asks: \\_\\_\\_ searching, editing and display of custom attributes on patrons."
+msgid ""
+"Asks: \\_\\_\\_ searching, editing and display of custom attributes on "
+"patrons."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:136
@@ -276,15 +320,21 @@ msgid "Define attributes in Koha administration"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:146
-msgid "Get there: More > Administration > :ref:`Patron Attribute Types <patron-attribute-types-label>`"
+msgid ""
+"Get there: More > Administration > :ref:`Patron Attribute Types <patron-"
+"attribute-types-label>`"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:151
-msgid "Patron attributes are library-defined custom fields that can be applied to patron records."
+msgid ""
+"Patron attributes are library-defined custom fields that can be applied to "
+"patron records."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:156
-msgid "Use custom attributes for fields that the default patron record does not support such as driver's license number or student ID number."
+msgid ""
+"Use custom attributes for fields that the default patron record does not "
+"support such as driver's license number or student ID number."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:162
@@ -292,7 +342,9 @@ msgid "FeeOnChangePatronCategory"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:164
-msgid "Asks: \\_\\_\\_ charge a fee when a patron changes to a category with an enrollment fee."
+msgid ""
+"Asks: \\_\\_\\_ charge a fee when a patron changes to a category with an "
+"enrollment fee."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:167
@@ -301,7 +353,9 @@ msgid "Default: Do"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:177
-msgid "You can set enrollment fees in the :ref:`patron categories <adding-a-patron-category-label>`"
+msgid ""
+"You can set enrollment fees in the :ref:`patron categories <adding-a-patron-"
+"category-label>`"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:182
@@ -339,7 +393,10 @@ msgid "**Important**"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:190
-msgid "If you have the :ref:`OPACPrivacy` preference set to 'Allow' and the patron has decided to not have their history kept, staff will only see currently checked out items."
+msgid ""
+"If you have the :ref:`OPACPrivacy` preference set to 'Allow' and the patron "
+"has decided to not have their history kept, staff will only see currently "
+"checked out items."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:196
@@ -361,7 +418,10 @@ msgid "Don't allow"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:202
-msgid "Reading history is still stored, regardless of staff being allowed access or not unless the patron has chosen to have their history anonymized via their :ref:`privacy page <your-privacy-label>`."
+msgid ""
+"Reading history is still stored, regardless of staff being allowed access or "
+"not unless the patron has chosen to have their history anonymized via their :"
+"ref:`privacy page <your-privacy-label>`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:209
@@ -369,7 +429,9 @@ msgid "MaxFine"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:211
-msgid "Asks: The late fine for all checkouts will only go up to \\_\\_\\_ [currency]."
+msgid ""
+"Asks: The late fine for all checkouts will only go up to \\_\\_\\_ "
+"[currency]."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:213
@@ -377,7 +439,11 @@ msgid "Default: empty (empty value means no limit)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:217
-msgid "This preference controls the default cap on fines accrued by the patron. Leaving this preference blank means that there is no cap on the amount of fines a patron can accrue. If you'd like, single item caps can be specified in the :ref:`circulation rules matrix <circulation-and-fines-rules-label>`."
+msgid ""
+"This preference controls the default cap on fines accrued by the patron. "
+"Leaving this preference blank means that there is no cap on the amount of "
+"fines a patron can accrue. If you'd like, single item caps can be specified "
+"in the :ref:`circulation rules matrix <circulation-and-fines-rules-label>`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:226
@@ -385,11 +451,19 @@ msgid "patronimages"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:228
-msgid "Asks: \\_\\_\\_ images to be uploaded and shown for patrons on the staff client."
+msgid ""
+"Asks: \\_\\_\\_ images to be uploaded and shown for patrons on the staff "
+"client."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:241
-msgid "If this preference is set to 'Allow' the staff will be able to upload images of patrons either :ref:`one by one <add-patron-images-label>` or :ref:`in bulk <upload-patron-images-label>`. Patrons images will show on the detail page to the left of the patron information. They can also show in the OPAC if you set the :ref:`OPACpatronimages` preference or in the self check out module if you set the :ref:`ShowPatronImageInWebBasedSelfCheck` preference."
+msgid ""
+"If this preference is set to 'Allow' the staff will be able to upload images "
+"of patrons either :ref:`one by one <add-patron-images-label>` or :ref:`in "
+"bulk <upload-patron-images-label>`. Patrons images will show on the detail "
+"page to the left of the patron information. They can also show in the OPAC "
+"if you set the :ref:`OPACpatronimages` preference or in the self check out "
+"module if you set the :ref:`ShowPatronImageInWebBasedSelfCheck` preference."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:253
@@ -405,7 +479,9 @@ msgid "Default: 20"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:261
-msgid "This preference will let you define how many patrons to show on patron search results pages."
+msgid ""
+"This preference will let you define how many patrons to show on patron "
+"search results pages."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:267
@@ -413,7 +489,9 @@ msgid "ProtectSuperLibrarianPrivileges"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:270
-msgid "Asks: \\_\\_\\_ to access/change superlibrarian privileges. Note: A permitted user"
+msgid ""
+"Asks: \\_\\_\\_ to access/change superlibrarian privileges. Note: A "
+"permitted user"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:270
@@ -437,7 +515,9 @@ msgid "StatisticsFields"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:285
-msgid "Asks: Show the following fields from the items database table as columns on the statistics tab on the patron record: \\_\\_\\_"
+msgid ""
+"Asks: Show the following fields from the items database table as columns on "
+"the statistics tab on the patron record: \\_\\_\\_"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:288
@@ -453,7 +533,9 @@ msgid "Enter the values separated by bars (\\|)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:298
-msgid "This preference lets you set which fields will show on the patron record on the :ref:`Statistics tab <statistics-label>`."
+msgid ""
+"This preference lets you set which fields will show on the patron record on "
+"the :ref:`Statistics tab <statistics-label>`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:304
@@ -461,7 +543,9 @@ msgid "TrackLastPatronActivity"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:306
-msgid "Asks: \\_\\_\\_ track last patron activity. Everytime a patron will connect, the borrowers.lastseen will be updated with the current time."
+msgid ""
+"Asks: \\_\\_\\_ track last patron activity. Everytime a patron will connect, "
+"the borrowers.lastseen will be updated with the current time."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:320
@@ -469,7 +553,9 @@ msgid "useDischarge"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:322
-msgid "Asks: \\_\\_\\_ librarians to discharge borrowers and borrowers to request a discharge."
+msgid ""
+"Asks: \\_\\_\\_ librarians to discharge borrowers and borrowers to request a "
+"discharge."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:325
@@ -479,15 +565,21 @@ msgid "Default: Don't allow"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:335
-msgid "A discharge is a certificate that says the patron has no current checkouts, no holds and owes no money."
+msgid ""
+"A discharge is a certificate that says the patron has no current checkouts, "
+"no holds and owes no money."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:340
-msgid "In France a \"quitus\" (\"discharge\") is needed if you want to register for an account in a library or a university."
+msgid ""
+"In France a \"quitus\" (\"discharge\") is needed if you want to register for "
+"an account in a library or a university."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:345
-msgid "Academic libraries often require that you have a clear record at the library before you can graduate."
+msgid ""
+"Academic libraries often require that you have a clear record at the library "
+"before you can graduate."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:351
@@ -515,7 +607,13 @@ msgid "current membership expiry date."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:370
-msgid "This preference controls what the patron's new expiration date will be when you :ref:`renew their card <renew-patron-account-label>`. Using the 'current date' will add the subscription period to today's date when calculating the new expiration date. Using 'current membership expiry date' will add the subscription period to the old expiration date for the patron when renewing their account."
+msgid ""
+"This preference controls what the patron's new expiration date will be when "
+"you :ref:`renew their card <renew-patron-account-label>`. Using the 'current "
+"date' will add the subscription period to today's date when calculating the "
+"new expiration date. Using 'current membership expiry date' will add the "
+"subscription period to the old expiration date for the patron when renewing "
+"their account."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:380
@@ -523,15 +621,23 @@ msgid "MembershipExpiryDaysNotice"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:382
-msgid "Asks: Send an account expiration notice when a patron's card will expire in \\_\\_\\_ days."
+msgid ""
+"Asks: Send an account expiration notice when a patron's card will expire in "
+"\\_\\_\\_ days."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:387
-msgid "If you would like to notify patrons that their accounts are about to expire then you can enter a number of days before expiration in this preference. The notice text can be customized in the :ref:`Notices & slips <notices-and-slips-label>` tool."
+msgid ""
+"If you would like to notify patrons that their accounts are about to expire "
+"then you can enter a number of days before expiration in this preference. "
+"The notice text can be customized in the :ref:`Notices & slips <notices-and-"
+"slips-label>` tool."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:394
-msgid "You will need to enable the :ref:`membership expiry cron job <cron-notify-patrons-of-expiration-label>` for this notice to be sent."
+msgid ""
+"You will need to enable the :ref:`membership expiry cron job <cron-notify-"
+"patrons-of-expiration-label>` for this notice to be sent."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:400
@@ -539,7 +645,9 @@ msgid "NotifyBorrowerDeparture"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:402
-msgid "Asks: Show a notice that a patron is about to expire \\_\\_\\_ days beforehand."
+msgid ""
+"Asks: Show a notice that a patron is about to expire \\_\\_\\_ days "
+"beforehand."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:405
@@ -547,7 +655,10 @@ msgid "Default: 30"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:409
-msgid "When the patron attempts to check out materials, a warning will appear in the check out screen of the staff client telling the librarian that the patron's account is about to expire."
+msgid ""
+"When the patron attempts to check out materials, a warning will appear in "
+"the check out screen of the staff client telling the librarian that the "
+"patron's account is about to expire."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:415
@@ -563,7 +674,8 @@ msgid "AutoEmailOpacUser"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:427
-msgid "Asks: \\_\\_\\_ an email to newly created patrons with their account details."
+msgid ""
+"Asks: \\_\\_\\_ an email to newly created patrons with their account details."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:429
@@ -582,7 +694,13 @@ msgid "Send"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:439
-msgid "AutoEmailOpacUser allows library users to be notified by email of their account details when a new account is opened at the email address specified in the :ref:`AutoEmailPrimaryAddress` preference. The email contains the username and password given to or chosen by the patron when signing up for their account and can be customized by editing the `ACCTDETAILS <#ACCTDETAILS>`__ notice."
+msgid ""
+"AutoEmailOpacUser allows library users to be notified by email of their "
+"account details when a new account is opened at the email address specified "
+"in the :ref:`AutoEmailPrimaryAddress` preference. The email contains the "
+"username and password given to or chosen by the patron when signing up for "
+"their account and can be customized by editing the `ACCTDETAILS "
+"<#ACCTDETAILS>`__ notice."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:450
@@ -618,7 +736,10 @@ msgid "first valid"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:470
-msgid "If you choose 'first valid' as the value for AutoEmailPrimaryAddress the system will check the email fields in this order: home, work, then alternate. Otherwise the system will use the email address you specify."
+msgid ""
+"If you choose 'first valid' as the value for AutoEmailPrimaryAddress the "
+"system will check the email fields in this order: home, work, then "
+"alternate. Otherwise the system will use the email address you specify."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:478
@@ -626,24 +747,38 @@ msgid "EnhancedMessagingPreferences"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:480
-msgid "Asks: \\_\\_\\_ staff to manage which notices patrons will receive and when they will receive them."
+msgid ""
+"Asks: \\_\\_\\_ staff to manage which notices patrons will receive and when "
+"they will receive them."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:493
-msgid "This only applies to certain kinds of notices, overdue notices will be sent based on the :ref:`library's rules <overdue-notice/status-triggers-label>`, not the patron's choice."
+msgid ""
+"This only applies to certain kinds of notices, overdue notices will be sent "
+"based on the :ref:`library's rules <overdue-notice/status-triggers-label>`, "
+"not the patron's choice."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:499
-msgid "To manage if patrons have also access to these settings, use :ref:`EnhancedMessagingPreferencesOPAC`."
+msgid ""
+"To manage if patrons have also access to these settings, use :ref:"
+"`EnhancedMessagingPreferencesOPAC`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:504
-msgid "These messages are in addition to the overdue notices that the library sends. The difference between these notices and overdues is that the patron can opt-in and out of these. Setting this preference to 'Allow' will allow staff to choose for patrons to receive any one of the following messages:"
+msgid ""
+"These messages are in addition to the overdue notices that the library "
+"sends. The difference between these notices and overdues is that the patron "
+"can opt-in and out of these. Setting this preference to 'Allow' will allow "
+"staff to choose for patrons to receive any one of the following messages:"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:510
 #: ../../source/patronspreferences.rst:553
-msgid "Item checkout: A notice that lists all the of the items the patron has just checked out and/or renewed, this is an electronic form of the checkout receipt"
+msgid ""
+"Item checkout: A notice that lists all the of the items the patron has just "
+"checked out and/or renewed, this is an electronic form of the checkout "
+"receipt"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:514
@@ -653,16 +788,22 @@ msgstr ""
 
 #: ../../source/patronspreferences.rst:516
 #: ../../source/patronspreferences.rst:559
-msgid "Hold filled: A notice when you have confirmed the hold is waiting for the patron"
+msgid ""
+"Hold filled: A notice when you have confirmed the hold is waiting for the "
+"patron"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:519
 #: ../../source/patronspreferences.rst:562
-msgid "Item checkin: A notice that lists all the of the items the patron has just checked in"
+msgid ""
+"Item checkin: A notice that lists all the of the items the patron has just "
+"checked in"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:522
-msgid "Advanced notice: A notice in advance of the patron's items being due (staff can choose the number of days in advance)"
+msgid ""
+"Advanced notice: A notice in advance of the patron's items being due (staff "
+"can choose the number of days in advance)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:528
@@ -686,15 +827,23 @@ msgid "Show"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:542
-msgid ":ref:`EnhancedMessagingPreferences` must be enabled for messaging options to show in the OPAC"
+msgid ""
+":ref:`EnhancedMessagingPreferences` must be enabled for messaging options to "
+"show in the OPAC"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:547
-msgid "These messages are in addition to the overdue notices that the library sends. The difference between these notices and overdues is that the patron can opt-in and out of these. Setting this preference to 'Allow' will allow patrons to choose to receive any one of the following messages:"
+msgid ""
+"These messages are in addition to the overdue notices that the library "
+"sends. The difference between these notices and overdues is that the patron "
+"can opt-in and out of these. Setting this preference to 'Allow' will allow "
+"patrons to choose to receive any one of the following messages:"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:565
-msgid "Advanced notice: A notice in advance of the patron's items being due (The patron can choose the number of days in advance)"
+msgid ""
+"Advanced notice: A notice in advance of the patron's items being due (The "
+"patron can choose the number of days in advance)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:571
@@ -702,7 +851,9 @@ msgid "FallbackToSMSIfNoEmail"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:573
-msgid "Asks: \\_\\_\\_ Send purchase suggestion messages by SMS if no patron email is defined."
+msgid ""
+"Asks: \\_\\_\\_ Send purchase suggestion messages by SMS if no patron email "
+"is defined."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:576
@@ -716,7 +867,10 @@ msgid "Disable"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:586
-msgid "This system preference only applies to notices related to suggestions. If a patron has no email address and has an SMS alert number, the suggestions notices will be sent to their SMS number."
+msgid ""
+"This system preference only applies to notices related to suggestions. If a "
+"patron has no email address and has an SMS alert number, the suggestions "
+"notices will be sent to their SMS number."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:593
@@ -732,11 +886,16 @@ msgid "This may not work with all providers."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:603
-msgid "Please refer to your national laws concerning the sending of bulk SMS messages before enabling this feature."
+msgid ""
+"Please refer to your national laws concerning the sending of bulk SMS "
+"messages before enabling this feature."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:608
-msgid "There are two options for using SMS in Koha. You can use the Email protocol for free by entering 'Email' as the SMSSendDriver or you can pay for a SMS driver. Some examples of values for the driver are:"
+msgid ""
+"There are two options for using SMS in Koha. You can use the Email protocol "
+"for free by entering 'Email' as the SMSSendDriver or you can pay for a SMS "
+"driver. Some examples of values for the driver are:"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:612
@@ -756,15 +915,22 @@ msgid "SMS::Send::IN::Unicel"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:620
-msgid "Additional values can be found here: http://search.cpan.org/search?query=sms%3A%3Asend&mode=all"
+msgid ""
+"Additional values can be found here: http://search.cpan.org/search?query=sms"
+"%3A%3Asend&mode=all"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:625
-msgid "Only drivers available as Perl modules will work in this preference, so make sure a Perl module is available before choosing an SMS service."
+msgid ""
+"Only drivers available as Perl modules will work in this preference, so make "
+"sure a Perl module is available before choosing an SMS service."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:629
-msgid "Once a driver is entered in the preference an option will appear in the staff client and the OPAC on the patron messaging form to choose to receive messages as SMS"
+msgid ""
+"Once a driver is entered in the preference an option will appear in the "
+"staff client and the OPAC on the patron messaging form to choose to receive "
+"messages as SMS"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:633
@@ -780,11 +946,17 @@ msgid "SMSSendUsername, SMSSendPassword and EmailSMSSendDriverFromAddress"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:646
-msgid "Asks: Define a username/login \\_\\_\\_ and a password \\_\\_\\_.  Override from address with \\_\\_\\_ for emails sent using \"Email\" send driver."
+msgid ""
+"Asks: Define a username/login \\_\\_\\_ and a password \\_\\_\\_.  Override "
+"from address with \\_\\_\\_ for emails sent using \"Email\" send driver."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:651
-msgid "Some SMS gateway providers require username and password credentials and these can be entered here.  Additionally, one specific email address may be required as sender (from address) for all emails sent by the Email SMS send driver."
+msgid ""
+"Some SMS gateway providers require username and password credentials and "
+"these can be entered here.  Additionally, one specific email address may be "
+"required as sender (from address) for all emails sent by the Email SMS send "
+"driver."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:659
@@ -792,15 +964,21 @@ msgid "TalkingTechItivaPhoneNotification"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:661
-msgid "Asks: \\_\\_\\_ patron phone notifications using Talking Tech i-tiva (overdue notices, advance notices and holds notices are currently supported)."
+msgid ""
+"Asks: \\_\\_\\_ patron phone notifications using Talking Tech i-tiva "
+"(overdue notices, advance notices and holds notices are currently supported)."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:674
-msgid "To learn more about setting up this third party product view the :ref:`Talking Tech <talking-tech-label>` chapter."
+msgid ""
+"To learn more about setting up this third party product view the :ref:"
+"`Talking Tech <talking-tech-label>` chapter."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:679
-msgid "Requires that you have :ref:`EnhancedMessagingPreferences` set to Allow to use."
+msgid ""
+"Requires that you have :ref:`EnhancedMessagingPreferences` set to Allow to "
+"use."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:686
@@ -812,7 +990,9 @@ msgid "Asks: \\_\\_\\_ email receipts to patrons for payments and writeoffs."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:700
-msgid "If set to 'Send', Koha will send emails to the patrons for each payment or writeoff done in their account."
+msgid ""
+"If set to 'Send', Koha will send emails to the patrons for each payment or "
+"writeoff done in their account."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:705
@@ -820,7 +1000,9 @@ msgid "The letters used are ACCOUNT\\_PAYMENT and ACCOUNT\\_WRITEOFF"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:707
-msgid "You can edit them in the :ref:`Notices & slips <notices-and-slips-label>` tool."
+msgid ""
+"You can edit them in the :ref:`Notices & slips <notices-and-slips-label>` "
+"tool."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:712
@@ -832,15 +1014,24 @@ msgid "autoMemberNum"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:719
-msgid "Asks: \\_\\_\\_ default the card number field on the patron addition screen to the next available card number"
+msgid ""
+"Asks: \\_\\_\\_ default the card number field on the patron addition screen "
+"to the next available card number"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:728
-msgid "If the largest currently used card number is 26345000012941, then this field will default to 26345000012942 for the next patron"
+msgid ""
+"If the largest currently used card number is 26345000012941, then this field "
+"will default to 26345000012942 for the next patron"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:735
-msgid "This preference determines if the patron's barcode is automatically calculated. This prevents the person setting up the library card account from having to assign a number to the new card. If set to 'Do' the system will calculate a new patron barcode by adding 1 to the maximum barcode already present in the database."
+msgid ""
+"This preference determines if the patron's barcode is automatically "
+"calculated. This prevents the person setting up the library card account "
+"from having to assign a number to the new card. If set to 'Do' the system "
+"will calculate a new patron barcode by adding 1 to the maximum barcode "
+"already present in the database."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:744
@@ -848,7 +1039,9 @@ msgid "BorrowerMandatoryField"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:746
-msgid "Asks: The following database columns must be filled in on the patron entry screen: \\_\\_\\_"
+msgid ""
+"Asks: The following database columns must be filled in on the patron entry "
+"screen: \\_\\_\\_"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:749
@@ -856,7 +1049,12 @@ msgid "Default: surname\\|cardnumber\\|"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:753
-msgid "This preference enables the system administrator to choose which fields your library would like required for patron accounts. Enter field names separated by \\| (bar). This ensures that basic information is included in each patron record. If a patron leaves one of the required fields blank an error message will issue and the account will not be created."
+msgid ""
+"This preference enables the system administrator to choose which fields your "
+"library would like required for patron accounts. Enter field names separated "
+"by \\| (bar). This ensures that basic information is included in each patron "
+"record. If a patron leaves one of the required fields blank an error message "
+"will issue and the account will not be created."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:762
@@ -866,11 +1064,17 @@ msgstr ""
 
 #: ../../source/patronspreferences.rst:766
 #: ../../source/patronspreferences.rst:816
-msgid "For help with field names, ask your system administrator or `view the database structure <http://schema.koha-community.org/master/tables/borrowers.html>`__ associated with the borrowers table."
+msgid ""
+"For help with field names, ask your system administrator or `view the "
+"database structure <http://schema.koha-community.org/master/tables/borrowers."
+"html>`__ associated with the borrowers table."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:773
-msgid "If either :ref:`PatronQuickAddFields` or :ref:`BorrowerMandatoryField` (or both) is set, a button labeled \"Quick add new patron\" will be displayed in the \"Patrons\" toolbar."
+msgid ""
+"If either :ref:`PatronQuickAddFields` or :ref:`BorrowerMandatoryField` (or "
+"both) is set, a button labeled \"Quick add new patron\" will be displayed in "
+"the \"Patrons\" toolbar."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:780
@@ -886,7 +1090,10 @@ msgid "Default: Mr\\|Mrs\\|Miss\\|Ms"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:788
-msgid "This preference allows the staff to choose the titles that can be assigned to patrons. The choices present as a drop down list when creating a patron record."
+msgid ""
+"This preference allows the staff to choose the titles that can be assigned "
+"to patrons. The choices present as a drop down list when creating a patron "
+"record."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:794
@@ -899,11 +1106,16 @@ msgid "BorrowerUnwantedField"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:801
-msgid "Asks: The following database columns will not appear on the patron entry screen: \\_\\_\\_"
+msgid ""
+"Asks: The following database columns will not appear on the patron entry "
+"screen: \\_\\_\\_"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:806
-msgid "This preference enables the system administrator to choose which fields your library doesn't need to see on the patron entry form. Enter field names separated by \\| (bar)."
+msgid ""
+"This preference enables the system administrator to choose which fields your "
+"library doesn't need to see on the patron entry form. Enter field names "
+"separated by \\| (bar)."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:824
@@ -915,7 +1127,11 @@ msgid "Asks: Card numbers for patrons must be \\_\\_\\_ characters long."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:830
-msgid "The length can be a single number to specify an exact length, a range separated by a comma (i.e., 'Min,Max'), or a maximum with no minimum (i.e., ^,Max'). If 'cardnumber' is included in the :ref:`BorrowerMandatoryField` list, the minimum length, if not specified here, defaults to one."
+msgid ""
+"The length can be a single number to specify an exact length, a range "
+"separated by a comma (i.e., 'Min,Max'), or a maximum with no minimum (i.e., "
+"^,Max'). If 'cardnumber' is included in the :ref:`BorrowerMandatoryField` "
+"list, the minimum length, if not specified here, defaults to one."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:839
@@ -923,7 +1139,9 @@ msgid "CollapseFieldsPatronAddForm"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:841
-msgid "Asks: When adding new patrons or editing existing patrons, collapse the following fields from the full form (can still be expanded later)"
+msgid ""
+"Asks: When adding new patrons or editing existing patrons, collapse the "
+"following fields from the full form (can still be expanded later)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:846
@@ -983,11 +1201,16 @@ msgid "Patron restrictions (existing patrons)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:876
-msgid "This system preference allows you to temporarily hide sections from the patron add form and the patron editing form. The sections will be collapsed and staff will be able to expand them if needed."
+msgid ""
+"This system preference allows you to temporarily hide sections from the "
+"patron add form and the patron editing form. The sections will be collapsed "
+"and staff will be able to expand them if needed."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:880
-msgid "If you would rather completely hide sections, without the possibility of expanding them, enter the field names in :ref:`BorrowerUnwantedField`."
+msgid ""
+"If you would rather completely hide sections, without the possibility of "
+"expanding them, enter the field names in :ref:`BorrowerUnwantedField`."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:886
@@ -995,7 +1218,9 @@ msgid "PatronDuplicateMatchingAddFields"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:888
-msgid "Asks: The following database columns: \\_\\_\\_ will be used to detect possible duplicates when adding a new patron."
+msgid ""
+"Asks: The following database columns: \\_\\_\\_ will be used to detect "
+"possible duplicates when adding a new patron."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:891
@@ -1003,7 +1228,9 @@ msgid "Default: surname\\|firstname\\|dateofbirth"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:895
-msgid "This system preference allows you to choose which fields will be used to detect duplicate patrons."
+msgid ""
+"This system preference allows you to choose which fields will be used to "
+"detect duplicate patrons."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:902
@@ -1011,7 +1238,11 @@ msgid "PatronQuickAddFields"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:904
-msgid "Asks: \\_\\_\\_ (separate columns with \\|) add these fields to the patron quick add form when entering a new patron. Displays only mandatory fields and fields specified here. If applicable, the guarantor form will be shown as well, individual fields in that form will be ignored."
+msgid ""
+"Asks: \\_\\_\\_ (separate columns with \\|) add these fields to the patron "
+"quick add form when entering a new patron. Displays only mandatory fields "
+"and fields specified here. If applicable, the guarantor form will be shown "
+"as well, individual fields in that form will be ignored."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:909
@@ -1021,15 +1252,26 @@ msgid "Default: blank"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:913
-msgid "See the `database schema (borrowers table) <http://schema.koha-community.org/>`__ to know the field names."
+msgid ""
+"See the `database schema (borrowers table) <http://schema.koha-community.org/"
+">`__ to know the field names."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:916
-msgid "**Note** If either :ref:`PatronQuickAddFields` or :ref:`BorrowerMandatoryField` (or both) is set, a button labeled \"Quick add new patron\" will be displayed in the \"Patrons\" toolbar."
+msgid ""
+"**Note** If either :ref:`PatronQuickAddFields` or :ref:"
+"`BorrowerMandatoryField` (or both) is set, a button labeled \"Quick add new "
+"patron\" will be displayed in the \"Patrons\" toolbar."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:923
-msgid "It is possible to add custom :ref:`patron attributes <patron-attribute-types-label>` in the quick add form with the following syntax: patron_attr_N (for example patron_attr_2). The N refers to the id of the attribute and requires a bit of guesswork (normally it will be the order in which you entered them in the :ref:`patron attribute types section of the administration module <patron-attribute-types-label>`)."
+msgid ""
+"It is possible to add custom :ref:`patron attributes <patron-attribute-types-"
+"label>` in the quick add form with the following syntax: patron_attr_N (for "
+"example patron_attr_2). The N refers to the id of the attribute and requires "
+"a bit of guesswork (normally it will be the order in which you entered them "
+"in the :ref:`patron attribute types section of the administration module "
+"<patron-attribute-types-label>`)."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:933
@@ -1049,11 +1291,15 @@ msgid "AllowStaffToSetCheckoutsVisibilityForGuarantor"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:955
-msgid "Asks: \\_\\_\\_ staff to set the ability for a patron's checkouts to be viewed by linked patrons in the OPAC."
+msgid ""
+"Asks: \\_\\_\\_ staff to set the ability for a patron's checkouts to be "
+"viewed by linked patrons in the OPAC."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:968
-msgid "This system preference controls whether the staff can see the option to show the checkouts to linked patrons in the OPAC."
+msgid ""
+"This system preference controls whether the staff can see the option to show "
+"the checkouts to linked patrons in the OPAC."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:971
@@ -1066,11 +1312,15 @@ msgid "AllowStaffToSetCFinesVisibilityForGuarantor"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:978
-msgid "Asks: \\_\\_\\_ staff to set the ability for a patron's fines to be viewed by linked patrons in the OPAC."
+msgid ""
+"Asks: \\_\\_\\_ staff to set the ability for a patron's fines to be viewed "
+"by linked patrons in the OPAC."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:991
-msgid "This system preference controls whether the staff can see the option to show the fines to linked patrons in the OPAC."
+msgid ""
+"This system preference controls whether the staff can see the option to show "
+"the fines to linked patrons in the OPAC."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:999
@@ -1086,7 +1336,14 @@ msgid "Default: father\\|mother"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1007
-msgid "This preference enables the system administrator to define valid relationships between a guarantor (usually a parent) and a guarantee (usually a child). Defining values for this field does not make the guarantor field required when adding a guarantee type patron. This preference creates a drop down list identifying the relationship of the guarantor to the guarantee. To disable the ability to add children types in Koha you can leave this field blank."
+msgid ""
+"This preference enables the system administrator to define valid "
+"relationships between a guarantor (usually a parent) and a guarantee "
+"(usually a child). Defining values for this field does not make the "
+"guarantor field required when adding a guarantee type patron. This "
+"preference creates a drop down list identifying the relationship of the "
+"guarantor to the guarantee. To disable the ability to add children types in "
+"Koha you can leave this field blank."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1022
@@ -1094,7 +1351,10 @@ msgid "PrefillGuaranteeField"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1024
-msgid "Asks: When adding a guarantee to a guarantor patron fill the following fields in the guarantee's member entry form from the guarantor's record: \\_\\_\\_"
+msgid ""
+"Asks: When adding a guarantee to a guarantor patron fill the following "
+"fields in the guarantee's member entry form from the guarantor's record: \\_"
+"\\_\\_"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1027
@@ -1134,7 +1394,9 @@ msgid "Main address - street number"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1047
-msgid "This system preference is used to copy information from a guarantor account to a guarantee account when using the 'Add guarantee' button"
+msgid ""
+"This system preference is used to copy information from a guarantor account "
+"to a guarantee account when using the 'Add guarantee' button"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1053
@@ -1146,7 +1408,12 @@ msgid "GDPR\\_Policy"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1060
-msgid "Asks: Set GDPR policy to \\_\\_\\_ GDPR is the EU General Data Protection Regulation. When you enforce, patrons need to give consent before using the OPAC. If you set to permissive, Koha will warn but not enforce. NOTE: If you enable this you will also have to set the URL of your public privacy policy with the PrivacyPolicyURL setting."
+msgid ""
+"Asks: Set GDPR policy to \\_\\_\\_ GDPR is the EU General Data Protection "
+"Regulation. When you enforce, patrons need to give consent before using the "
+"OPAC. If you set to permissive, Koha will warn but not enforce. NOTE: If you "
+"enable this you will also have to set the URL of your public privacy policy "
+"with the PrivacyPolicyURL setting."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1066
@@ -1166,7 +1433,17 @@ msgid "Permissive"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1078
-msgid "This system preference enables a GDPR consent form to appear on the OPAC when a patron attempts to login. If this preference is set as Enforced then when a patron attempts to log into the OPAC a GDPR consent form be presented to them. The patron will have to provide consent to the library's GDPR policy before they can gain access to their account details. If the patron does not consent to the GDPR policy they will be logged out of their account. If the preference is set to Permissive then the patron will be presented with the GDPR consent form but they will not be required to give consent to access their patron account. If the preference is set to Disabled then no GDPR consent form will appear when patron logs into the OPAC."
+msgid ""
+"This system preference enables a GDPR consent form to appear on the OPAC "
+"when a patron attempts to login. If this preference is set as Enforced then "
+"when a patron attempts to log into the OPAC a GDPR consent form be presented "
+"to them. The patron will have to provide consent to the library's GDPR "
+"policy before they can gain access to their account details. If the patron "
+"does not consent to the GDPR policy they will be logged out of their "
+"account. If the preference is set to Permissive then the patron will be "
+"presented with the GDPR consent form but they will not be required to give "
+"consent to access their patron account. If the preference is set to Disabled "
+"then no GDPR consent form will appear when patron logs into the OPAC."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1092
@@ -1174,7 +1451,9 @@ msgid "PrivacyPolicyURL"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1094
-msgid "Asks: Use the following URL \\_\\_\\_ to refer to your local privacy policy in messages about privacy and data protection."
+msgid ""
+"Asks: Use the following URL \\_\\_\\_ to refer to your local privacy policy "
+"in messages about privacy and data protection."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1101
@@ -1182,7 +1461,8 @@ msgid "If you enforce GDPR policy, make sure that this page is not blocked."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1105
-msgid "The URL is only displayed if :ref:`GDPR\\_Policy <gdpr-policy-label>` is set."
+msgid ""
+"The URL is only displayed if :ref:`GDPR\\_Policy <gdpr-policy-label>` is set."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1111
@@ -1190,23 +1470,36 @@ msgid "UnsubscribeReflectionDelay, PatronAnonymizeDelay and PatronRemovalDelay"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1113
-msgid "Asks: Lock/expire patrons that submitted an unsubscribe request (refused consent) after \\_\\_\\_ days, anonymize locked/expired accounts after \\_\\_\\_ days and remove anonymized patron accounts after \\_\\_\\_ days."
+msgid ""
+"Asks: Lock/expire patrons that submitted an unsubscribe request (refused "
+"consent) after \\_\\_\\_ days, anonymize locked/expired accounts after \\_\\_"
+"\\_ days and remove anonymized patron accounts after \\_\\_\\_ days."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1119
-msgid "This system preference is used to purge accounts of patrons who have opted out/refused consent in the GDPR consent form (see :ref:`GDPR\\_Policy <gdpr-policy-label>`)."
+msgid ""
+"This system preference is used to purge accounts of patrons who have opted "
+"out/refused consent in the GDPR consent form (see :ref:`GDPR\\_Policy <gdpr-"
+"policy-label>`)."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1122
-msgid "The first box is the number of days after which an opt-out patron's account should be locked (equivalent of having entered the wrong password too many times)"
+msgid ""
+"The first box is the number of days after which an opt-out patron's account "
+"should be locked (equivalent of having entered the wrong password too many "
+"times)"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1126
-msgid "The second box is the number of days after which locked account should be anonymized"
+msgid ""
+"The second box is the number of days after which locked account should be "
+"anonymized"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1129
-msgid "The third box is the number of days after which anonymized accounts are deleted"
+msgid ""
+"The third box is the number of days after which anonymized accounts are "
+"deleted"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1135
@@ -1218,11 +1511,14 @@ msgid "FailedLoginAttempts"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1142
-msgid "Asks: Block a patron's account if it reaches \\_\\_\\_ failed login attempts."
+msgid ""
+"Asks: Block a patron's account if it reaches \\_\\_\\_ failed login attempts."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1148
-msgid "This is used to block a patron's account after they entered the wrong password too many times"
+msgid ""
+"This is used to block a patron's account after they entered the wrong "
+"password too many times"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1154
@@ -1230,7 +1526,9 @@ msgid "minPasswordLength"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1156
-msgid "Asks: Login passwords for staff and patrons must be at least \\_\\_\\_ characters long."
+msgid ""
+"Asks: Login passwords for staff and patrons must be at least \\_\\_\\_ "
+"characters long."
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1159
@@ -1262,6 +1560,7 @@ msgid "Require"
 msgstr ""
 
 #: ../../source/patronspreferences.rst:1182
-msgid "If set to 'require' this system preference will require patron and staff passwords to contain at least one digit, one lowercase and one uppercase."
+msgid ""
+"If set to 'require' this system preference will require patron and staff "
+"passwords to contain at least one digit, one lowercase and one uppercase."
 msgstr ""
-

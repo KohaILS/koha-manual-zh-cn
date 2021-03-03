@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha Manual\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-02 01:15-0300\n"
 "PO-Revision-Date: 2021-02-24 08:37+0000\n"
@@ -18,14 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
 "X-POOTLE-MTIME: 1614155849.006186\n"
+"X-Pootle-Path: /de/man20.11/about.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/about.rst:6
 msgid "About Koha"
 msgstr "Über Koha"
 
 #: ../../source/about.rst:8
-msgid "The **About Koha** area will give you important server information as well as general information about Koha."
-msgstr "Im Abschnitt Über Koha erhalten Sie wichtige Serverinformationen sowie allgemeine Informationen zu Koha."
+msgid ""
+"The **About Koha** area will give you important server information as well "
+"as general information about Koha."
+msgstr ""
+"Im Abschnitt Über Koha erhalten Sie wichtige Serverinformationen sowie "
+"allgemeine Informationen zu Koha."
 
 #: ../../source/about.rst:11
 msgid "*Get there:* More > About Koha"
@@ -36,8 +42,25 @@ msgid "Server information"
 msgstr "Serverinformationen"
 
 #: ../../source/about.rst:18
-msgid "Under the **Server information** tab you will find information about the Koha version and the machine you have installed Koha on. This information is very important for debugging problems. When reporting issues to your support provider or to the various other support avenues (mailing lists, chat room, etc), it's always good to give the information from this screen. The time zone is handled via Koha or server configuration. For more information how to specify time zones per instance, see https://wiki.koha-community.org/wiki/Time_Zone_Configuration"
-msgstr "Im Abschnitt 'Serverinformationen' finden Sie Informationen über die Koha-Version und die Maschine auf der Koha installiert wurde. Diese Informationen sind für das Debuggen von Problemen sehr wichtig. Wenn Sie Fehler an Ihren Supportdienstleister oder an andere Kanäle (Mailinglisten, Chaträume, etc.) melden, ist es stets vorteilhaft diese Informationen mit zu liefern. Die Zeitzone wird durch Koha oder die Serverkonfiguration definiert. Unter folgendem Link erhalten Sie weitere Informationen zum Definieren von Zeitzonen pro Installation: https://wiki.koha-community.org/wiki/Time_Zone_Configuration"
+msgid ""
+"Under the **Server information** tab you will find information about the "
+"Koha version and the machine you have installed Koha on. This information is "
+"very important for debugging problems. When reporting issues to your support "
+"provider or to the various other support avenues (mailing lists, chat room, "
+"etc), it's always good to give the information from this screen. The time "
+"zone is handled via Koha or server configuration. For more information how "
+"to specify time zones per instance, see https://wiki.koha-community.org/wiki/"
+"Time_Zone_Configuration"
+msgstr ""
+"Im Abschnitt 'Serverinformationen' finden Sie Informationen über die Koha-"
+"Version und die Maschine auf der Koha installiert wurde. Diese Informationen "
+"sind für das Debuggen von Problemen sehr wichtig. Wenn Sie Fehler an Ihren "
+"Supportdienstleister oder an andere Kanäle (Mailinglisten, Chaträume, etc.) "
+"melden, ist es stets vorteilhaft diese Informationen mit zu liefern. Die "
+"Zeitzone wird durch Koha oder die Serverkonfiguration definiert. Unter "
+"folgendem Link erhalten Sie weitere Informationen zum Definieren von "
+"Zeitzonen pro Installation: https://wiki.koha-community.org/wiki/"
+"Time_Zone_Configuration"
 
 #: ../../source/about.rst:28
 msgid "|image1065|"
@@ -48,26 +71,45 @@ msgid "Perl modules"
 msgstr "Perl-Module"
 
 #: ../../source/about.rst:35
-msgid "In order to take advantage of all of the functionalities of Koha, you will need to keep your Perl modules up to date. The **Perl modules** tab will show you all of the modules required by Koha, the version you have installed and whether you need to upgrade certain modules."
-msgstr "Um von allen Funktionalitäten von Koha profitieren zu können, sollten die Perl-Module auf dem aktuellen Stand gehalten werden. Im Reiter 'Perl-Module' sehen Sie alle Programmbibliotheken, die von Koha benötigt werden. Außerdem sehen Sie die installierte Version und ob bestimmte Module aktualisiert werden müssen."
+msgid ""
+"In order to take advantage of all of the functionalities of Koha, you will "
+"need to keep your Perl modules up to date. The **Perl modules** tab will "
+"show you all of the modules required by Koha, the version you have installed "
+"and whether you need to upgrade certain modules."
+msgstr ""
+"Um von allen Funktionalitäten von Koha profitieren zu können, sollten die "
+"Perl-Module auf dem aktuellen Stand gehalten werden. Im Reiter 'Perl-Module' "
+"sehen Sie alle Programmbibliotheken, die von Koha benötigt werden. Außerdem "
+"sehen Sie die installierte Version und ob bestimmte Module aktualisiert "
+"werden müssen."
 
 #: ../../source/about.rst:40
 msgid "|image1066|"
 msgstr "|image1066|"
 
 #: ../../source/about.rst:42
-msgid "Items listed in bold are required by Koha, items highlighted in red are missing completely and items highlighted in yellow simply need to be upgraded."
-msgstr "Fettgedruckte Elemente werden von Koha benötigt, rot unterlegte Elemente sind nicht vorhanden (nicht installiert), und gelb unterlegte Elemente sollten aktualisiert werden."
+msgid ""
+"Items listed in bold are required by Koha, items highlighted in red are "
+"missing completely and items highlighted in yellow simply need to be "
+"upgraded."
+msgstr ""
+"Fettgedruckte Elemente werden von Koha benötigt, rot unterlegte Elemente "
+"sind nicht vorhanden (nicht installiert), und gelb unterlegte Elemente "
+"sollten aktualisiert werden."
 
 #: ../../source/about.rst:49
 msgid "System information"
 msgstr "Systeminformation"
 
 #: ../../source/about.rst:51
-msgid "This tab will provide you with warnings if you are using system preferences that have since been deprecated or system preferences that you have set without other required preferences"
-msgstr "Dieser Reiter zeigt Warnungen an, falls veraltete, widersprüchliche oder unvollständig kombinierte Systemparameter gesetzt sind."
+msgid ""
+"This tab will provide you with warnings if you are using system preferences "
+"that have since been deprecated or system preferences that you have set "
+"without other required preferences"
+msgstr ""
+"Dieser Reiter zeigt Warnungen an, falls veraltete, widersprüchliche oder "
+"unvollständig kombinierte Systemparameter gesetzt sind."
 
 #: ../../source/about.rst:55
 msgid "|image1067|"
 msgstr "|image1067|"
-

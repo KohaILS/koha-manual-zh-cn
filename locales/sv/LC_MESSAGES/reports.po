@@ -1,7 +1,7 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-sv\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2019-03-13 15:05-0300\n"
@@ -10,13 +10,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /sv/man20.11/reports.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/reports.rst:6
 msgid "Reports"
 msgstr "Rapporter"
 
 #: ../../source/reports.rst:8
-msgid "Reports in Koha are a way to gather data. Reports are used to generate statistics, member lists, shelving lists, or any list of data in your database."
+msgid ""
+"Reports in Koha are a way to gather data. Reports are used to generate "
+"statistics, member lists, shelving lists, or any list of data in your "
+"database."
 msgstr ""
 
 #: ../../source/reports.rst:12
@@ -30,8 +35,15 @@ msgstr "Anpassade rapporter "
 
 #: ../../source/reports.rst:19
 #, fuzzy
-msgid "Koha's data is stored in a MySQL database which means that librarians can generate nearly any report they would like by either using the :ref:`guided reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL query <report-from-sql-label>`."
-msgstr "Kohas data lagras i en MySQL-databas, vilket innebär att bibliotekarier kan generera nästan vilka rapporter som helst med hjälp av Rapportguiden eller genom att skriva egna SQL-frågor."
+msgid ""
+"Koha's data is stored in a MySQL database which means that librarians can "
+"generate nearly any report they would like by either using the :ref:`guided "
+"reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL "
+"query <report-from-sql-label>`."
+msgstr ""
+"Kohas data lagras i en MySQL-databas, vilket innebär att bibliotekarier kan "
+"generera nästan vilka rapporter som helst med hjälp av Rapportguiden eller "
+"genom att skriva egna SQL-frågor."
 
 #: ../../source/reports.rst:27
 #, fuzzy
@@ -43,16 +55,28 @@ msgid "Guided report wizard"
 msgstr "Rapportguide"
 
 #: ../../source/reports.rst:34
-msgid "The guided report wizard will walk you through a six step process to generate a report."
-msgstr "Rapportguiden leder dig genom en process i sex steg för att generera en rapport."
+msgid ""
+"The guided report wizard will walk you through a six step process to "
+"generate a report."
+msgstr ""
+"Rapportguiden leder dig genom en process i sex steg för att generera en "
+"rapport."
 
 #: ../../source/reports.rst:37
 #, fuzzy
-msgid "Step 1: Choose the module you want to report on. This will determine what tables and fields are available for you to query."
-msgstr "Välj för vilken modul du vill köra rapporten. Det avgör vilka tabeller och fält som finns tillgängliga att utföra frågor på."
+msgid ""
+"Step 1: Choose the module you want to report on. This will determine what "
+"tables and fields are available for you to query."
+msgstr ""
+"Välj för vilken modul du vill köra rapporten. Det avgör vilka tabeller och "
+"fält som finns tillgängliga att utföra frågor på."
 
 #: ../../source/reports.rst:40
-msgid "'Report is public' should be left to the default of 'No' in most cases especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
+msgid ""
+"'Report is public' should be left to the default of 'No' in most cases "
+"especially if the report contains patron or other sensitive information. A "
+"public report can be accessed using the :ref:`JSON reports services <json-"
+"reports-services-label>` by anyone and without authentication."
 msgstr ""
 
 #: ../../source/reports.rst:45
@@ -74,7 +98,11 @@ msgid "**Note**"
 msgstr "Kommentar"
 
 #: ../../source/reports.rst:49 ../../source/reports.rst:189
-msgid "If your system administrator has set up memcache on your server you might see one more option for the Cache expiry. This is related to your public reports. If you make the report public then it's constantly running and will cause a large load on your system. Setting this value prevents that."
+msgid ""
+"If your system administrator has set up memcache on your server you might "
+"see one more option for the Cache expiry. This is related to your public "
+"reports. If you make the report public then it's constantly running and will "
+"cause a large load on your system. Setting this value prevents that."
 msgstr ""
 
 #: ../../source/reports.rst:55
@@ -83,7 +111,8 @@ msgstr "|image1292|"
 
 #: ../../source/reports.rst:57
 #, fuzzy
-msgid "Step 2: Choose a report type. For now, Tabular is the only option available."
+msgid ""
+"Step 2: Choose a report type. For now, Tabular is the only option available."
 msgstr "Välj en rapporttyp. För tillfället är Tabell det enda alternativet."
 
 #: ../../source/reports.rst:60
@@ -92,8 +121,14 @@ msgstr "|image882|"
 
 #: ../../source/reports.rst:62
 #, fuzzy
-msgid "Step 3: Choose the fields you want in your report. You can select multiple fields and add them all at once by using CTRL+click on each item you want to add before clicking the Add button."
-msgstr "Välj vilka fält du vill ha med i rapporten. Du kan välja flera fält och lägga till dem med CTRL+klick för varje exemplar du vill lägga till innan du klickar på knappen Lägg till."
+msgid ""
+"Step 3: Choose the fields you want in your report. You can select multiple "
+"fields and add them all at once by using CTRL+click on each item you want to "
+"add before clicking the Add button."
+msgstr ""
+"Välj vilka fält du vill ha med i rapporten. Du kan välja flera fält och "
+"lägga till dem med CTRL+klick för varje exemplar du vill lägga till innan du "
+"klickar på knappen Lägg till."
 
 #: ../../source/reports.rst:66
 msgid "|image883|"
@@ -101,8 +136,14 @@ msgstr "|image883|"
 
 #: ../../source/reports.rst:68
 #, fuzzy
-msgid "Step 4: Choose any limits you might want to apply to your report (such as item types or branches). If you don't want to apply any limits, simply click 'Next' instead of choosing an option."
-msgstr "Välj de begränsningar du vill tillämpa för rapporten (som exemplarstyper eller filialer). Om du inte vill tillämpa några begränsningar klickar du bara på Nästa inställer för att välja något."
+msgid ""
+"Step 4: Choose any limits you might want to apply to your report (such as "
+"item types or branches). If you don't want to apply any limits, simply click "
+"'Next' instead of choosing an option."
+msgstr ""
+"Välj de begränsningar du vill tillämpa för rapporten (som exemplarstyper "
+"eller filialer). Om du inte vill tillämpa några begränsningar klickar du "
+"bara på Nästa inställer för att välja något."
 
 #: ../../source/reports.rst:72
 msgid "|image884|"
@@ -110,8 +151,12 @@ msgstr "|image884|"
 
 #: ../../source/reports.rst:74
 #, fuzzy
-msgid "Step 5: Perform math functions. If you don't want to do any calculations, simply click 'Next' instead of choosing an option."
-msgstr "Utför matematiska funktioner. Om du inte vill utföra några beräkningar klickar du på Nästa, utan att göra några val."
+msgid ""
+"Step 5: Perform math functions. If you don't want to do any calculations, "
+"simply click 'Next' instead of choosing an option."
+msgstr ""
+"Utför matematiska funktioner. Om du inte vill utföra några beräkningar "
+"klickar du på Nästa, utan att göra några val."
 
 #: ../../source/reports.rst:77
 msgid "|image885|"
@@ -119,8 +164,12 @@ msgstr "|image885|"
 
 #: ../../source/reports.rst:79
 #, fuzzy
-msgid "Step 6: Choose data order. If you want the data to print out in the order it's found in the database, simply click 'Finish'."
-msgstr "Välj dataordning. Om du vill att data ska skrivas ut i den ordning det hittas i databasen klickar du bara på Slutför."
+msgid ""
+"Step 6: Choose data order. If you want the data to print out in the order "
+"it's found in the database, simply click 'Finish'."
+msgstr ""
+"Välj dataordning. Om du vill att data ska skrivas ut i den ordning det "
+"hittas i databasen klickar du bara på Slutför."
 
 #: ../../source/reports.rst:82
 msgid "|image886|"
@@ -128,16 +177,27 @@ msgstr "|image886|"
 
 #: ../../source/reports.rst:84
 #, fuzzy
-msgid "When you are finished you will be presented with the SQL generated by the report wizard. From here you can choose to save the report by clicking 'Finish' or copy the SQL and make edits to it by hand."
-msgstr "När du är klar får du se den SQL-kod som genererats av rapportguiden. Du kan då välja att spara rapporten genom att klicka på 'Spara' eller kopiera SQL-koden och redigera den."
+msgid ""
+"When you are finished you will be presented with the SQL generated by the "
+"report wizard. From here you can choose to save the report by clicking "
+"'Finish' or copy the SQL and make edits to it by hand."
+msgstr ""
+"När du är klar får du se den SQL-kod som genererats av rapportguiden. Du kan "
+"då välja att spara rapporten genom att klicka på 'Spara' eller kopiera SQL-"
+"koden och redigera den."
 
 #: ../../source/reports.rst:88
 msgid "|image887|"
 msgstr "|image887|"
 
 #: ../../source/reports.rst:90
-msgid "If you choose to save the report you will be asked to name your report, sort it in to groups and subgroups and enter any notes regarding it."
-msgstr "Om du väljer att spara rapporten ombeds du att ge den ett namn, lägga in den i grupper och undergrupper samt skriva in eventuella kommentarer om rapporten."
+msgid ""
+"If you choose to save the report you will be asked to name your report, sort "
+"it in to groups and subgroups and enter any notes regarding it."
+msgstr ""
+"Om du väljer att spara rapporten ombeds du att ge den ett namn, lägga in den "
+"i grupper och undergrupper samt skriva in eventuella kommentarer om "
+"rapporten."
 
 #: ../../source/reports.rst:93
 msgid "|image888|"
@@ -145,32 +205,62 @@ msgstr "|image888|"
 
 #: ../../source/reports.rst:95
 #, fuzzy
-msgid "Once your report is saved it will appear on the 'Use saved' page with all other saved reports."
-msgstr "När rapporten har sparats visas den på sidan 'Använd sparad' tillsammans med alla andra sparade rapporter."
+msgid ""
+"Once your report is saved it will appear on the 'Use saved' page with all "
+"other saved reports."
+msgstr ""
+"När rapporten har sparats visas den på sidan 'Använd sparad' tillsammans med "
+"alla andra sparade rapporter."
 
 #: ../../source/reports.rst:98 ../../source/reports.rst:357
 msgid "|image889|"
 msgstr "|image889|"
 
 #: ../../source/reports.rst:102 ../../source/reports.rst:361
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: table_reports)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: table_reports)."
 msgstr ""
 
 #: ../../source/reports.rst:106
-msgid "From here you can make edits, run the report, or schedule a time to have the report run. To find the report you created you can sort by any of the columns by clicking the on the column header (creation date is the best bet for finding the report you just added). You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
-msgstr "Härifrån kan du redigera, köra rapporten eller schemalägga en tid då rapporten ska köras. För att hitta den rapport du skapade kan du sortera efter alla kolumner genom att klicka på kolumnrubriken (datumkolumnen skapad är det enklaste sättet att hitta rapporten du just la till). Du kan också filtrera dina resultat med filtermenyn på vänster sida eller använda flikarna för att hitta rapporter baserat på dina anpassade grupper."
+msgid ""
+"From here you can make edits, run the report, or schedule a time to have the "
+"report run. To find the report you created you can sort by any of the "
+"columns by clicking the on the column header (creation date is the best bet "
+"for finding the report you just added). You can also filter your results "
+"using the filter menu on the left or use the tabs to find reports based on "
+"your custom groups."
+msgstr ""
+"Härifrån kan du redigera, köra rapporten eller schemalägga en tid då "
+"rapporten ska köras. För att hitta den rapport du skapade kan du sortera "
+"efter alla kolumner genom att klicka på kolumnrubriken (datumkolumnen skapad "
+"är det enklaste sättet att hitta rapporten du just la till). Du kan också "
+"filtrera dina resultat med filtermenyn på vänster sida eller använda "
+"flikarna för att hitta rapporter baserat på dina anpassade grupper."
 
 #: ../../source/reports.rst:116
 msgid "Report from SQL"
 msgstr "Rapport från SQL"
 
 #: ../../source/reports.rst:118
-msgid "In addition to the report wizard, you have the option to write your own queries using SQL. To find reports written by other Koha users, visit the Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can also find your database structure in /installer/data/mysql/kohastructure.sql or online at: `http://schema.koha-community.org <http://schema.koha-community.org/>`__."
+msgid ""
+"In addition to the report wizard, you have the option to write your own "
+"queries using SQL. To find reports written by other Koha users, visit the "
+"Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can "
+"also find your database structure in /installer/data/mysql/kohastructure.sql "
+"or online at: `http://schema.koha-community.org <http://schema.koha-"
+"community.org/>`__."
 msgstr ""
 
 #: ../../source/reports.rst:125
-msgid "To add your query, click the link to 'Create from SQL' on the main reports module or the 'New report' button at the top of the 'Saved reports' page."
-msgstr "För att lägga till frågan klickar du på länken 'Skapa från SQL' i huvudmodulen för rapporter eller på knappen 'Ny rapport' längst upp i sidan 'Sparade rapporter'."
+msgid ""
+"To add your query, click the link to 'Create from SQL' on the main reports "
+"module or the 'New report' button at the top of the 'Saved reports' page."
+msgstr ""
+"För att lägga till frågan klickar du på länken 'Skapa från SQL' i "
+"huvudmodulen för rapporter eller på knappen 'Ny rapport' längst upp i sidan "
+"'Sparade rapporter'."
 
 #: ../../source/reports.rst:129
 msgid "|image890|"
@@ -185,31 +275,64 @@ msgid "|image891|"
 msgstr "|image891|"
 
 #: ../../source/reports.rst:135
-msgid "The 'Name' is what will appear on the Saved Reports page to help you identify the report later. It will also be searchable using the filters found the left of the Saved Reports page."
-msgstr "'Namn' är det som kommer att visas på sidan för sparade rapporter för att göra det enklare att hitta rapporten sedan. Det kommer också att vara sökbart med de filter som finns till vänster om sidan Sparade rapporter."
+msgid ""
+"The 'Name' is what will appear on the Saved Reports page to help you "
+"identify the report later. It will also be searchable using the filters "
+"found the left of the Saved Reports page."
+msgstr ""
+"'Namn' är det som kommer att visas på sidan för sparade rapporter för att "
+"göra det enklare att hitta rapporten sedan. Det kommer också att vara "
+"sökbart med de filter som finns till vänster om sidan Sparade rapporter."
 
 #: ../../source/reports.rst:139
 #, fuzzy
-msgid "You can use the 'Report group' to organize your reports so that you can easily filter reports by groups. Report groups are set in the `REPORT\\_GROUP <#reportgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button."
-msgstr "Du kan använda 'Rapportgrupp' för att organisera dina rapporter så att du enkelt kan filtrera rapporter per grupper. Rapportgrupper ställs in i den auktoriserade värdekategorin REPORT_GROUP, men kan även läggas till när rapporten skapas genom att välja radioknappen 'eller skapa'. "
+msgid ""
+"You can use the 'Report group' to organize your reports so that you can "
+"easily filter reports by groups. Report groups are set in the `REPORT"
+"\\_GROUP <#reportgroup>`__ authorized value category or can be added on the "
+"fly when creating the report by choosing the 'or create' radio button."
+msgstr ""
+"Du kan använda 'Rapportgrupp' för att organisera dina rapporter så att du "
+"enkelt kan filtrera rapporter per grupper. Rapportgrupper ställs in i den "
+"auktoriserade värdekategorin REPORT_GROUP, men kan även läggas till när "
+"rapporten skapas genom att välja radioknappen 'eller skapa'. "
 
 #: ../../source/reports.rst:145
 msgid "|image1293|"
 msgstr "|image1293|"
 
 #: ../../source/reports.rst:147
-msgid "Report groups set up in the authorised value category need to have unique authorised values and descriptions."
+msgid ""
+"Report groups set up in the authorised value category need to have unique "
+"authorised values and descriptions."
 msgstr ""
 
 #: ../../source/reports.rst:152
 #, fuzzy
-msgid "If you're adding a report group on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
-msgstr "Tips: om du lägger till en rapport lite snabbt, kom ihåg att din kod ska innehålla färre än tio tecken och inte får innehålla särskilda tecken eller mellanslag."
+msgid ""
+"If you're adding a report group on the fly, remember that you code should be "
+"fewer than 10 characters and should not include special characters or spaces."
+msgstr ""
+"Tips: om du lägger till en rapport lite snabbt, kom ihåg att din kod ska "
+"innehålla färre än tio tecken och inte får innehålla särskilda tecken eller "
+"mellanslag."
 
 #: ../../source/reports.rst:156
 #, fuzzy
-msgid "You can use 'Report subgroup' to further organize your reports so that you can easily filter reports by groups and subgroups. Report subgroups are set in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button.  Report subgroups are set up with unique values in 'Authorised value', and 'Description'. The 'Description (OPAC)'' field needs to contain the authorised value for the report group that the subgroup falls under."
-msgstr "Du kan använda 'Rapportundergrupp' för att organisera dina rapporter ytterligare, så att du enkelt kan filtrera rapporter per grupper och undergrupper. Rapportundergrupper ställs in i den auktoriserade värdekategorin REPORT_SUBGROUP, men kan även läggas till när rapporten skapas genom att välja radioknappen 'eller skapa'. "
+msgid ""
+"You can use 'Report subgroup' to further organize your reports so that you "
+"can easily filter reports by groups and subgroups. Report subgroups are set "
+"in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or "
+"can be added on the fly when creating the report by choosing the 'or create' "
+"radio button.  Report subgroups are set up with unique values in 'Authorised "
+"value', and 'Description'. The 'Description (OPAC)'' field needs to contain "
+"the authorised value for the report group that the subgroup falls under."
+msgstr ""
+"Du kan använda 'Rapportundergrupp' för att organisera dina rapporter "
+"ytterligare, så att du enkelt kan filtrera rapporter per grupper och "
+"undergrupper. Rapportundergrupper ställs in i den auktoriserade "
+"värdekategorin REPORT_SUBGROUP, men kan även läggas till när rapporten "
+"skapas genom att välja radioknappen 'eller skapa'. "
 
 #: ../../source/reports.rst:165
 msgid "|image892|"
@@ -217,25 +340,44 @@ msgstr "|image892|"
 
 #: ../../source/reports.rst:169
 #, fuzzy
-msgid "If you're adding a report subgroup on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
-msgstr "Tips: om du lägger till en rapportundergrupp lite snabbt, kom ihåg att din kod ska innehålla färre än tio tecken och inte får innehålla särskilda tecken eller mellanslag."
+msgid ""
+"If you're adding a report subgroup on the fly, remember that you code should "
+"be fewer than 10 characters and should not include special characters or "
+"spaces."
+msgstr ""
+"Tips: om du lägger till en rapportundergrupp lite snabbt, kom ihåg att din "
+"kod ska innehålla färre än tio tecken och inte får innehålla särskilda "
+"tecken eller mellanslag."
 
 #: ../../source/reports.rst:176
 msgid "'Report is public' should be left to the default of 'No' in most cases"
 msgstr ""
 
 #: ../../source/reports.rst:174
-msgid "especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
+msgid ""
+"especially if the report contains patron or other sensitive information. A "
+"public report can be accessed using the :ref:`JSON reports services <json-"
+"reports-services-label>` by anyone and without authentication."
 msgstr ""
 
 #: ../../source/reports.rst:178
 #, fuzzy
-msgid "'Notes' will also appear on the saved reports page, this can be used to provide more details about the report or tips on how to enter values when it runs"
-msgstr "'Kommentarer' visas även på sidan med sparade rapporter och kan användas för att ge mer information om rapporten eller tips om hur värden ska anges vid körning"
+msgid ""
+"'Notes' will also appear on the saved reports page, this can be used to "
+"provide more details about the report or tips on how to enter values when it "
+"runs"
+msgstr ""
+"'Kommentarer' visas även på sidan med sparade rapporter och kan användas för "
+"att ge mer information om rapporten eller tips om hur värden ska anges vid "
+"körning"
 
 #: ../../source/reports.rst:182
-msgid "The type should always be 'Tabular' at this time since the other formats have not been implemented"
-msgstr "Typen ska alltid vara 'Tabellformat', eftersom inga andra format implementerats än"
+msgid ""
+"The type should always be 'Tabular' at this time since the other formats "
+"have not been implemented"
+msgstr ""
+"Typen ska alltid vara 'Tabellformat', eftersom inga andra format "
+"implementerats än"
 
 #: ../../source/reports.rst:185
 msgid "In the 'SQL' box you will type or paste the SQL for the report"
@@ -247,8 +389,17 @@ msgstr "|image1294|"
 
 #: ../../source/reports.rst:197
 #, fuzzy
-msgid "Once everything is entered click the 'Save report' button and you'll be presented with options to run it. Once a report is saved you do not have to recreate it you can simply find it on the Saved Reports page and :ref:`run <running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` it."
-msgstr "När all information matats in klickar du på knappen 'Spara rapport', du får då se alternativ för att köra den. När en rapport sparats behöver du inte återskapa den, du behöver bara leta upp den på sidan Sparade rapporter och köra eller redigera den."
+msgid ""
+"Once everything is entered click the 'Save report' button and you'll be "
+"presented with options to run it. Once a report is saved you do not have to "
+"recreate it you can simply find it on the Saved Reports page and :ref:`run "
+"<running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` "
+"it."
+msgstr ""
+"När all information matats in klickar du på knappen 'Spara rapport', du får "
+"då se alternativ för att köra den. När en rapport sparats behöver du inte "
+"återskapa den, du behöver bara leta upp den på sidan Sparade rapporter och "
+"köra eller redigera den."
 
 #: ../../source/reports.rst:205
 #, fuzzy
@@ -262,24 +413,44 @@ msgstr "Inköpsparametrar"
 
 #: ../../source/reports.rst:209
 #, fuzzy
-msgid "If you feel that your report might be too resource intensive you might want to consider using runtime parameters to your query. Runtime parameters basically make a filter appear before the report is run to save your system resources."
-msgstr "Om du tror att rapporten tar för mycket resurser kan du välja att använda körningsparametrar i frågan. Körningsparametrar fungerar som ett filter innan frågan körs för att spara systemresurser. Det finns en särskild syntax som Koha tolkar som 'fråga efter värden vid körning av rapporten'. Syntaxen är &lt;&lt;Fråga att ställa authorized_value&gt;&gt;. "
+msgid ""
+"If you feel that your report might be too resource intensive you might want "
+"to consider using runtime parameters to your query. Runtime parameters "
+"basically make a filter appear before the report is run to save your system "
+"resources."
+msgstr ""
+"Om du tror att rapporten tar för mycket resurser kan du välja att använda "
+"körningsparametrar i frågan. Körningsparametrar fungerar som ett filter "
+"innan frågan körs för att spara systemresurser. Det finns en särskild syntax "
+"som Koha tolkar som 'fråga efter värden vid körning av rapporten'. Syntaxen "
+"är &lt;&lt;Fråga att ställa authorized_value&gt;&gt;. "
 
 #: ../../source/reports.rst:214
-msgid "There is a specific syntax that Koha will understand as 'ask for values when running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
+msgid ""
+"There is a specific syntax that Koha will understand as 'ask for values when "
+"running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
 msgstr ""
 
 #: ../../source/reports.rst:218
 #, fuzzy
-msgid "The << and >> are just delimiters. You must put << at the beginning and >> at the end of your parameter"
-msgstr "&lt;&lt; och &gt;&gt; är bara avgränsare. Du måste placera &lt;&lt; i början och &gt;&gt; i slutet av parametern"
+msgid ""
+"The << and >> are just delimiters. You must put << at the beginning and >> "
+"at the end of your parameter"
+msgstr ""
+"&lt;&lt; och &gt;&gt; är bara avgränsare. Du måste placera &lt;&lt; i början "
+"och &gt;&gt; i slutet av parametern"
 
 #: ../../source/reports.rst:221
-msgid "The 'Question to ask' will be displayed on the left of the string to enter."
+msgid ""
+"The 'Question to ask' will be displayed on the left of the string to enter."
 msgstr "'Fråga att ställa' visas till vänster om strängen som ska matas in."
 
 #: ../../source/reports.rst:224
-msgid "The authorized\\_value can be omitted if not applicable. If it contains an authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio\\_framework', a list with the Koha authorized values will be displayed instead of a free field."
+msgid ""
+"The authorized\\_value can be omitted if not applicable. If it contains an "
+"authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio"
+"\\_framework', a list with the Koha authorized values will be displayed "
+"instead of a free field."
 msgstr ""
 
 #: ../../source/reports.rst:231
@@ -287,13 +458,24 @@ msgid "You can have more than one parameter in a given SQL query."
 msgstr ""
 
 #: ../../source/reports.rst:235
-msgid "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field. For example entering nothing for: \"title=<<Enter title>>\" will display results with title='' (no title). If you want to have to have something not mandatory, use \"title like <<Enter title>>\" and enter a % at run time instead of nothing."
+msgid ""
+"You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it "
+"literally looks for \"\" (empty string) as the value for the field. For "
+"example entering nothing for: \"title=<<Enter title>>\" will display results "
+"with title='' (no title). If you want to have to have something not "
+"mandatory, use \"title like <<Enter title>>\" and enter a % at run time "
+"instead of nothing."
 msgstr ""
 
 #: ../../source/reports.rst:246
 #, fuzzy
-msgid "To generate a date picker calendar to the right of the field when running a report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
-msgstr "Tips: för att generera en kalender där du kan välja datum till höger om fältet när en rapport körs, kan du använda nyckelordet 'date' (datum) på detta sätt: &lt;&lt;Ange datum|datum&gt;&gt; "
+msgid ""
+"To generate a date picker calendar to the right of the field when running a "
+"report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
+msgstr ""
+"Tips: för att generera en kalender där du kan välja datum till höger om "
+"fältet när en rapport körs, kan du använda nyckelordet 'date' (datum) på "
+"detta sätt: &lt;&lt;Ange datum|datum&gt;&gt; "
 
 #: ../../source/reports.rst:250
 msgid "|image893|"
@@ -317,15 +499,22 @@ msgid "What gets inserted in query"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "date branches itemtypes categorycode biblio\\_framework (auth-value-category) (nothing)"
+msgid ""
+"date branches itemtypes categorycode biblio\\_framework (auth-value-"
+"category) (nothing)"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "date picker drop down of branch names drop down of item type names drop down of patron category descriptions drop down of MARC bibliographic frameworks drop down of auth-value descriptions in category text box"
+msgid ""
+"date picker drop down of branch names drop down of item type names drop down "
+"of patron category descriptions drop down of MARC bibliographic frameworks "
+"drop down of auth-value descriptions in category text box"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "validly formatted date branch code item type borrower category code framework code authorized value entered text"
+msgid ""
+"validly formatted date branch code item type borrower category code "
+"framework code authorized value entered text"
 msgstr ""
 
 #: ../../source/reports.rst:266
@@ -335,16 +524,28 @@ msgstr "Exempel: "
 
 #: ../../source/reports.rst:268
 #, fuzzy
-msgid "SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's library\\|branches>> AND surname like <<Enter filter for patron surname (% if none)>>"
-msgstr "SELECT surname,firstname FROM borrowers WHERE branchcode=&lt;&lt;Enter patrons library|branches&gt;&gt; AND surname like &lt;&lt;Enter filter for patron surname (%% if none)&gt;&gt;"
+msgid ""
+"SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's "
+"library\\|branches>> AND surname like <<Enter filter for patron surname (% "
+"if none)>>"
+msgstr ""
+"SELECT surname,firstname FROM borrowers WHERE branchcode=&lt;&lt;Enter "
+"patrons library|branches&gt;&gt; AND surname like &lt;&lt;Enter filter for "
+"patron surname (%% if none)&gt;&gt;"
 
 #: ../../source/reports.rst:272
 #, fuzzy
-msgid "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here>>"
-msgstr "SELECT * FROM items WHERE homebranch = &lt;&lt;Pick your branch|branches&gt;&gt; and barcode like &lt;&lt;Partial barcode value here&gt;&gt;"
+msgid ""
+"SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and "
+"barcode like <<Partial barcode value here>>"
+msgstr ""
+"SELECT * FROM items WHERE homebranch = &lt;&lt;Pick your branch|branches&gt;"
+"&gt; and barcode like &lt;&lt;Partial barcode value here&gt;&gt;"
 
 #: ../../source/reports.rst:275
-msgid "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>>"
+msgid ""
+"SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the "
+"frameworkcode\\|biblio\\_framework>>"
 msgstr ""
 
 #: ../../source/reports.rst:299
@@ -353,7 +554,9 @@ msgid "SQL report from Mana"
 msgstr "Rapport från SQL"
 
 #: ../../source/reports.rst:301
-msgid "In the \"Create report from SQL\", you can search Mana KB for pre-made reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
+msgid ""
+"In the \"Create report from SQL\", you can search Mana KB for pre-made "
+"reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
 msgstr ""
 
 #: ../../source/reports.rst:304
@@ -362,7 +565,9 @@ msgid "|image1428|"
 msgstr "|image1428|"
 
 #: ../../source/reports.rst:308
-msgid "This option will only appear if you've :ref:`configured Mana KB <share-with-mana-kb-label>` in the administration module."
+msgid ""
+"This option will only appear if you've :ref:`configured Mana KB <share-with-"
+"mana-kb-label>` in the administration module."
 msgstr ""
 
 #: ../../source/reports.rst:310
@@ -400,11 +605,14 @@ msgid "|image1430|"
 msgstr "|image1430|"
 
 #: ../../source/reports.rst:328
-msgid "Click on \"Import\" to import a copy of the report in your own saved reports."
+msgid ""
+"Click on \"Import\" to import a copy of the report in your own saved reports."
 msgstr ""
 
 #: ../../source/reports.rst:330
-msgid "You can then edit it, duplicate it, delete it, run it as you would any of your own reports."
+msgid ""
+"You can then edit it, duplicate it, delete it, run it as you would any of "
+"your own reports."
 msgstr ""
 
 #: ../../source/reports.rst:336
@@ -414,16 +622,28 @@ msgstr "Dubblettrapport"
 
 #: ../../source/reports.rst:338
 #, fuzzy
-msgid "Reports can also be added by duplicating an existing report. Visit the 'Saved reports' page to see all of the reports listed on your system already."
-msgstr "Rapporter kan även läggas till genom att kopiera en befintlig rapport. Gå till sidan 'Sparade rapporter' för att se alla rapporter i ditt system."
+msgid ""
+"Reports can also be added by duplicating an existing report. Visit the "
+"'Saved reports' page to see all of the reports listed on your system already."
+msgstr ""
+"Rapporter kan även läggas till genom att kopiera en befintlig rapport. Gå "
+"till sidan 'Sparade rapporter' för att se alla rapporter i ditt system."
 
 #: ../../source/reports.rst:342
 msgid "|image895|"
 msgstr "|image895|"
 
 #: ../../source/reports.rst:344
-msgid "To the right of every report there is an 'Actions' pull down. Clicking that and choose 'Duplicate' to use an existing report as the basis for your new report. That will populate the new report form with the existing SQL for easy editing and resaving."
-msgstr "Till höger om varje rapport finns rullgardinsmenyn 'Åtgärder'. Klicka på den och välj 'Kopiera' för att använda en befintlig rapport som grund för din nya rapport. Det ger dig en rapport med alla SQL-data ifyllda som sedan är lätt att redigera och spara om."
+msgid ""
+"To the right of every report there is an 'Actions' pull down. Clicking that "
+"and choose 'Duplicate' to use an existing report as the basis for your new "
+"report. That will populate the new report form with the existing SQL for "
+"easy editing and resaving."
+msgstr ""
+"Till höger om varje rapport finns rullgardinsmenyn 'Åtgärder'. Klicka på den "
+"och välj 'Kopiera' för att använda en befintlig rapport som grund för din "
+"nya rapport. Det ger dig en rapport med alla SQL-data ifyllda som sedan är "
+"lätt att redigera och spara om."
 
 #: ../../source/reports.rst:352
 #, fuzzy
@@ -432,16 +652,32 @@ msgstr "Redigera anpassade rapporter"
 
 #: ../../source/reports.rst:354
 #, fuzzy
-msgid "Every report can be edited from the reports lists. To see the list of reports already stored in Koha, click 'Use saved.'"
-msgstr "Alla rapporter kan redigeras från rapportlistan. För att se listan med rapporter som sparats i Koha, klickar du på 'Använd sparade'."
+msgid ""
+"Every report can be edited from the reports lists. To see the list of "
+"reports already stored in Koha, click 'Use saved.'"
+msgstr ""
+"Alla rapporter kan redigeras från rapportlistan. För att se listan med "
+"rapporter som sparats i Koha, klickar du på 'Använd sparade'."
 
 #: ../../source/reports.rst:365
-msgid "To find the report you'd like to edit you can sort by any of the columns by clicking the on the column header. You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
-msgstr "För att hitta den rapport du vill redigera kan du sortera kolumnerna genom att klicka på kolumnrubriken. Du kan också filtrera resultaten med filtermenyn till vänster eller använda flikarna för att hitta rapporter baserade på dina anpassade grupper."
+msgid ""
+"To find the report you'd like to edit you can sort by any of the columns by "
+"clicking the on the column header. You can also filter your results using "
+"the filter menu on the left or use the tabs to find reports based on your "
+"custom groups."
+msgstr ""
+"För att hitta den rapport du vill redigera kan du sortera kolumnerna genom "
+"att klicka på kolumnrubriken. Du kan också filtrera resultaten med "
+"filtermenyn till vänster eller använda flikarna för att hitta rapporter "
+"baserade på dina anpassade grupper."
 
 #: ../../source/reports.rst:370
-msgid "From this list you can edit any custom report by clicking 'Actions' to the right of the report and choosing 'Edit' from the menu that appears."
-msgstr "Från denna lista kan du redigera anpassade rapporter genom att klicka på 'Åtgärder' till höger om rapporten och välja 'Redigera' från menyn som visas."
+msgid ""
+"From this list you can edit any custom report by clicking 'Actions' to the "
+"right of the report and choosing 'Edit' from the menu that appears."
+msgstr ""
+"Från denna lista kan du redigera anpassade rapporter genom att klicka på "
+"'Åtgärder' till höger om rapporten och välja 'Redigera' från menyn som visas."
 
 #: ../../source/reports.rst:373
 msgid "|image897|"
@@ -461,8 +697,14 @@ msgid "Running custom reports"
 msgstr "Köra anpassade rapporter"
 
 #: ../../source/reports.rst:384
-msgid "Once custom reports are saved to Koha, you can run them by going to the Saved Reports page and clicking the 'Actions' button to the right of the report and choosing 'Run'."
-msgstr "När anpassade rapporter sparats till Koha kan du köra dem genom att gå till sidan Sparade rapporter och klicka på knappen 'Åtgärder' till höger om rapporten och välja 'Kör'."
+msgid ""
+"Once custom reports are saved to Koha, you can run them by going to the "
+"Saved Reports page and clicking the 'Actions' button to the right of the "
+"report and choosing 'Run'."
+msgstr ""
+"När anpassade rapporter sparats till Koha kan du köra dem genom att gå till "
+"sidan Sparade rapporter och klicka på knappen 'Åtgärder' till höger om "
+"rapporten och välja 'Kör'."
 
 #: ../../source/reports.rst:388
 msgid "|image899|"
@@ -471,7 +713,9 @@ msgstr "|image899|"
 #: ../../source/reports.rst:390
 #, fuzzy
 msgid "When you report runs you will either be asked for some values"
-msgstr "När din rapport körs kommer du antingen att tillfrågas om några värden eller få se resultatet på en gång"
+msgstr ""
+"När din rapport körs kommer du antingen att tillfrågas om några värden eller "
+"få se resultatet på en gång"
 
 #: ../../source/reports.rst:392
 msgid "|image900|"
@@ -486,13 +730,28 @@ msgid "|image901|"
 msgstr "|image901|"
 
 #: ../../source/reports.rst:398
-msgid "From the results you can choose to rerun the report by clicking 'Run report' at the top, edit the report by clicking the 'Edit' button or starting over and creating a new report by using the 'New' button. You can also download your results by choosing a file type at the bottom of the results next to the 'Download the report' label and clicking 'Download.'"
-msgstr "Från resultaten kan du välja att köra om rapporten genom att klicka på 'Kör rapport' längst upp, redigera rapporten genom att klicka på knappen 'Redigera' eller börja om och skapa en ny rapport genom att klicka på knappen 'New'. Du kan också ladda ner dina resultat genom att välja en filtyp längst ner i resultatrutan, intill 'Ladda ner rapporten', och klicka på 'Ladda ner'."
+msgid ""
+"From the results you can choose to rerun the report by clicking 'Run report' "
+"at the top, edit the report by clicking the 'Edit' button or starting over "
+"and creating a new report by using the 'New' button. You can also download "
+"your results by choosing a file type at the bottom of the results next to "
+"the 'Download the report' label and clicking 'Download.'"
+msgstr ""
+"Från resultaten kan du välja att köra om rapporten genom att klicka på 'Kör "
+"rapport' längst upp, redigera rapporten genom att klicka på knappen "
+"'Redigera' eller börja om och skapa en ny rapport genom att klicka på "
+"knappen 'New'. Du kan också ladda ner dina resultat genom att välja en "
+"filtyp längst ner i resultatrutan, intill 'Ladda ner rapporten', och klicka "
+"på 'Ladda ner'."
 
 #: ../../source/reports.rst:407
 #, fuzzy
-msgid "A comma separated text file is a CSV file and it can be opened by any spreadsheet application."
-msgstr "Tips: en kommaseparerad textfil är en CSV-fil och kan öppnas med kalkylarksprogram."
+msgid ""
+"A comma separated text file is a CSV file and it can be opened by any "
+"spreadsheet application."
+msgstr ""
+"Tips: en kommaseparerad textfil är en CSV-fil och kan öppnas med "
+"kalkylarksprogram."
 
 #: ../../source/reports.rst:413
 #, fuzzy
@@ -500,7 +759,12 @@ msgid "Send report output to batch modification tools"
 msgstr "Återgå till satsvis exemplarredigering"
 
 #: ../../source/reports.rst:415
-msgid "After running a report that contains itemnumbers, biblionumbers and/or patron cardnumbers the list of numbers can be imported directly into the relevant batch modification tool by clicking the 'Batch operations with X visible records' button in the report results.  The X depends on the number of records you have chosen to display on screen (up to 1000)."
+msgid ""
+"After running a report that contains itemnumbers, biblionumbers and/or "
+"patron cardnumbers the list of numbers can be imported directly into the "
+"relevant batch modification tool by clicking the 'Batch operations with X "
+"visible records' button in the report results.  The X depends on the number "
+"of records you have chosen to display on screen (up to 1000)."
 msgstr ""
 
 #: ../../source/reports.rst:418
@@ -514,8 +778,16 @@ msgstr "Statistiska rapporter "
 
 #: ../../source/reports.rst:425
 #, fuzzy
-msgid "Statistic reports will show you counts and sums. These reports are all about numbers and statistics, for reports that return more detailed data, use the :ref:`guided report wizard`. These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
-msgstr "Statistikrapporter visar antal och summor. Dessa rapporter handlar bara om nummer och statistik, för rapporter som ger mer detaljerad information använder du Rapportguiden."
+msgid ""
+"Statistic reports will show you counts and sums. These reports are all about "
+"numbers and statistics, for reports that return more detailed data, use the :"
+"ref:`guided report wizard`. These reports are limited in what data they can "
+"look at, so it's often recommended to use :ref:`custom reports <custom-"
+"reports-label>` for official end of the year statistics."
+msgstr ""
+"Statistikrapporter visar antal och summor. Dessa rapporter handlar bara om "
+"nummer och statistik, för rapporter som ger mer detaljerad information "
+"använder du Rapportguiden."
 
 #: ../../source/reports.rst:435
 msgid "Acquisitions statistics"
@@ -525,14 +797,24 @@ msgstr "Inköpsstatistik"
 #: ../../source/reports.rst:498 ../../source/reports.rst:522
 #: ../../source/reports.rst:581 ../../source/reports.rst:605
 #, fuzzy
-msgid "These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
-msgstr "Dessa rapporter är begränsade när det gäller vilka data de kan se, så det rekommenderas ofta att använda anpassade rapporter för officiell årlig statistik."
+msgid ""
+"These reports are limited in what data they can look at, so it's often "
+"recommended to use :ref:`custom reports <custom-reports-label>` for official "
+"end of the year statistics."
+msgstr ""
+"Dessa rapporter är begränsade när det gäller vilka data de kan se, så det "
+"rekommenderas ofta att använda anpassade rapporter för officiell årlig "
+"statistik."
 
 #: ../../source/reports.rst:443 ../../source/reports.rst:477
 #: ../../source/reports.rst:502 ../../source/reports.rst:526
 #, fuzzy
-msgid "Using the form provided, choose which value you would like to appear in the column and which will appear in the row."
-msgstr "I formuläret väljer du värdet du vill visa i kolumnen och vilket värde som ska visas på raden."
+msgid ""
+"Using the form provided, choose which value you would like to appear in the "
+"column and which will appear in the row."
+msgstr ""
+"I formuläret väljer du värdet du vill visa i kolumnen och vilket värde som "
+"ska visas på raden."
 
 #: ../../source/reports.rst:446
 msgid "|image902|"
@@ -544,8 +826,11 @@ msgstr "|image902|"
 #: ../../source/reports.rst:633 ../../source/reports.rst:651
 #: ../../source/reports.rst:669 ../../source/reports.rst:687
 #: ../../source/reports.rst:705 ../../source/reports.rst:765
-msgid "If you choose to output to the browser your results will print to the screen."
-msgstr "Om du väljer att skicka till webbläsaren kommer resultaten att visas på skärmen."
+msgid ""
+"If you choose to output to the browser your results will print to the screen."
+msgstr ""
+"Om du väljer att skicka till webbläsaren kommer resultaten att visas på "
+"skärmen."
 
 #: ../../source/reports.rst:451
 msgid "|image903|"
@@ -557,20 +842,30 @@ msgstr "|image903|"
 #: ../../source/reports.rst:656 ../../source/reports.rst:674
 #: ../../source/reports.rst:692 ../../source/reports.rst:710
 #: ../../source/reports.rst:770
-msgid "You can also choose to export to a file that you can manipulate to your needs."
+msgid ""
+"You can also choose to export to a file that you can manipulate to your "
+"needs."
 msgstr "Du kan även exportera till en fil som du kan bearbeta efter behov."
 
 #: ../../source/reports.rst:456
-msgid "When generating your report, note that you get to choose between counting or summing the values."
-msgstr "När du genererar rapporten kan du välja mellan att räkna eller summera värdena."
+msgid ""
+"When generating your report, note that you get to choose between counting or "
+"summing the values."
+msgstr ""
+"När du genererar rapporten kan du välja mellan att räkna eller summera "
+"värdena."
 
 #: ../../source/reports.rst:459
 msgid "|image904|"
 msgstr "|image904|"
 
 #: ../../source/reports.rst:461
-msgid "Choosing amount will change your results to appear as the sum of the amounts spent."
-msgstr "Väljer du belopp ändras resultaten så att de visas som summan av använda belopp."
+msgid ""
+"Choosing amount will change your results to appear as the sum of the amounts "
+"spent."
+msgstr ""
+"Väljer du belopp ändras resultaten så att de visas som summan av använda "
+"belopp."
 
 #: ../../source/reports.rst:464
 msgid "|image905|"
@@ -589,8 +884,13 @@ msgid "|image907|"
 msgstr "|image907|"
 
 #: ../../source/reports.rst:487
-msgid "Based on your selections, you may see some query information above your results table. You can also choose to export to a file that you can manipulate to your needs."
-msgstr "Baserat på dina val, kan du se frågeinformation ovanför resultattabellen. Du kan också välja att exportera till en fil som du kan redigera efter behov."
+msgid ""
+"Based on your selections, you may see some query information above your "
+"results table. You can also choose to export to a file that you can "
+"manipulate to your needs."
+msgstr ""
+"Baserat på dina val, kan du se frågeinformation ovanför resultattabellen. Du "
+"kan också välja att exportera till en fil som du kan redigera efter behov."
 
 #: ../../source/reports.rst:494
 msgid "Catalog statistics"
@@ -618,37 +918,64 @@ msgstr "|image911|"
 
 #: ../../source/reports.rst:541
 #, fuzzy
-msgid "To get a complete picture of your monthly or daily circulation, you can run the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
-msgstr "Tips: för att få en helhetsbild av din låneverksamhet per dag eller månad, kan du köra rapporten två gånger, en gång med 'Typ' satt till 'Lån' och sedan en gång till för 'Omlån'."
+msgid ""
+"To get a complete picture of your monthly or daily circulation, you can run "
+"the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
+msgstr ""
+"Tips: för att få en helhetsbild av din låneverksamhet per dag eller månad, "
+"kan du köra rapporten två gånger, en gång med 'Typ' satt till 'Lån' och "
+"sedan en gång till för 'Omlån'."
 
 #: ../../source/reports.rst:545
 #, fuzzy
-msgid "This report uses 'Period,' or date, filtering that allows you to limit to a month by simply selecting the first day of the first month through the first day of the next month. For example, 10/1 to 11/1 to find statistics for the month of October."
-msgstr "Denna rapport använder filtrering per 'Period', eller datum, som gör att du kan begränsa resultat till en viss månad bara genom att välja alla dagar från den första dagen i en viss månad till den första dagen i nästa månad. Exempelvis 10/1 till 11/1 för att se statistik för oktober månad. "
+msgid ""
+"This report uses 'Period,' or date, filtering that allows you to limit to a "
+"month by simply selecting the first day of the first month through the first "
+"day of the next month. For example, 10/1 to 11/1 to find statistics for the "
+"month of October."
+msgstr ""
+"Denna rapport använder filtrering per 'Period', eller datum, som gör att du "
+"kan begränsa resultat till en viss månad bara genom att välja alla dagar "
+"från den första dagen i en viss månad till den första dagen i nästa månad. "
+"Exempelvis 10/1 till 11/1 för att se statistik för oktober månad. "
 
 #: ../../source/reports.rst:550
 #, fuzzy
-msgid "To find daily statistics, set your date range.</br> Example: \"I want circulation data starting with date XXX up to, but not including, date XXX.\""
-msgstr "För att hitta daglig statistik ställer du in datumintervallet. Exempel: \"Jag vill ha lånedata från datumet XXX och fram till, men inte inklusive, datumet XXX.\""
+msgid ""
+"To find daily statistics, set your date range.</br> Example: \"I want "
+"circulation data starting with date XXX up to, but not including, date XXX.\""
+msgstr ""
+"För att hitta daglig statistik ställer du in datumintervallet. Exempel: "
+"\"Jag vill ha lånedata från datumet XXX och fram till, men inte inklusive, "
+"datumet XXX.\""
 
 #: ../../source/reports.rst:554
 msgid "For a whole month, an example range would be: 11/01/2009 to 12/01/2009"
-msgstr "För en hel månad är ett exempel på ett intervall: 11/01/2009 till 12/01/2009"
+msgstr ""
+"För en hel månad är ett exempel på ett intervall: 11/01/2009 till 12/01/2009"
 
 #: ../../source/reports.rst:557
 msgid "For a whole year, an example range would be: 01/01/2009 to 01/01/2010"
-msgstr "För ett helt år är ett exempel på ett intervall: 01/01/2009 till 01/01/2010"
+msgstr ""
+"För ett helt år är ett exempel på ett intervall: 01/01/2009 till 01/01/2010"
 
 #: ../../source/reports.rst:560
-msgid "For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what circulated on the 15th"
-msgstr "För en enda dag är ett exempel: 11/15/2009 till 11/16/2009 för att hitta det som lånades ut och återlämnades den 15:e"
+msgid ""
+"For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what "
+"circulated on the 15th"
+msgstr ""
+"För en enda dag är ett exempel: 11/15/2009 till 11/16/2009 för att hitta det "
+"som lånades ut och återlämnades den 15:e"
 
 #: ../../source/reports.rst:566
 msgid "Tracking in house use"
 msgstr ""
 
 #: ../../source/reports.rst:568
-msgid "Using the Circulation statistics reporting wizard you can run reports on in house usage of items simply by choosing 'Local use' from the 'Type' pull down:"
+msgid ""
+"Using the Circulation statistics reporting wizard you can run reports on in "
+"house usage of items simply by choosing 'Local use' from the 'Type' pull "
+"down:"
 msgstr ""
 
 #: ../../source/reports.rst:572
@@ -660,7 +987,9 @@ msgid "Serials statistics"
 msgstr "Periodikastatistik"
 
 #: ../../source/reports.rst:585
-msgid "Using the form provided, choose how you would like to list the serials in your system."
+msgid ""
+"Using the form provided, choose how you would like to list the serials in "
+"your system."
 msgstr "I formuläret väljer du hur du vill lista periodika i ditt system."
 
 #: ../../source/reports.rst:588
@@ -676,8 +1005,16 @@ msgid "Holds statistics"
 msgstr "Reservationsstatistik"
 
 #: ../../source/reports.rst:609
-msgid "Using the form provided you can see statistics for holds placed, filled, cancelled and more at your library. From the form choose what value you want to display in the column and what value to show in the row. You can also choose from the filters on the far right of the form."
-msgstr "I formuläret kan du se statistik för reservationer, slutförda reservationer, annullerade reservationer och annat för ditt bibliotek. I formuläret väljer du värdet du vill visa i kolumnen och vilket värde som ska visas på raden. Du kan också välja från filtren längst till höger i formuläret."
+msgid ""
+"Using the form provided you can see statistics for holds placed, filled, "
+"cancelled and more at your library. From the form choose what value you want "
+"to display in the column and what value to show in the row. You can also "
+"choose from the filters on the far right of the form."
+msgstr ""
+"I formuläret kan du se statistik för reservationer, slutförda reservationer, "
+"annullerade reservationer och annat för ditt bibliotek. I formuläret väljer "
+"du värdet du vill visa i kolumnen och vilket värde som ska visas på raden. "
+"Du kan också välja från filtren längst till höger i formuläret."
 
 #: ../../source/reports.rst:614
 msgid "|image915|"
@@ -708,7 +1045,9 @@ msgid "Most circulated items"
 msgstr "Mest utlånade exemplar"
 
 #: ../../source/reports.rst:646
-msgid "This report will simply list the items that have the been checked out the most."
+msgid ""
+"This report will simply list the items that have the been checked out the "
+"most."
 msgstr "Denna rapport listar helt enkelt bara de exemplar som lånats ut mest."
 
 #: ../../source/reports.rst:649
@@ -724,8 +1063,12 @@ msgid "Patrons with no checkouts"
 msgstr "Låntagare som inte lånat"
 
 #: ../../source/reports.rst:664
-msgid "This report will list for you the patrons in your system who haven't checked any items out."
-msgstr "Denna rapport listar de låntagare i ditt system som inte lånat några exemplar."
+msgid ""
+"This report will list for you the patrons in your system who haven't checked "
+"any items out."
+msgstr ""
+"Denna rapport listar de låntagare i ditt system som inte lånat några "
+"exemplar."
 
 #: ../../source/reports.rst:667
 msgid "|image921|"
@@ -740,7 +1083,9 @@ msgid "Items with no checkouts"
 msgstr "Exemplar utan lån"
 
 #: ../../source/reports.rst:682
-msgid "This report will list items in your collection that have never been checked out."
+msgid ""
+"This report will list items in your collection that have never been checked "
+"out."
 msgstr "Denna rapport listar exemplar i din samling som aldrig lånats ut."
 
 #: ../../source/reports.rst:685
@@ -757,8 +1102,11 @@ msgstr "Katalog per exemplartyp"
 
 #: ../../source/reports.rst:700
 #, fuzzy
-msgid "This report will list the total number of items of each item type per branch."
-msgstr "Denna rapport listar det totala antalet exemplar för varje exemplartyp och bibliotek."
+msgid ""
+"This report will list the total number of items of each item type per branch."
+msgstr ""
+"Denna rapport listar det totala antalet exemplar för varje exemplartyp och "
+"bibliotek."
 
 #: ../../source/reports.rst:703
 msgid "|image925|"
@@ -774,7 +1122,9 @@ msgstr "Förlorade exemplar"
 
 #: ../../source/reports.rst:718
 #, fuzzy
-msgid "This report will allow you to generate a list of items that have been marked as Lost within the system"
+msgid ""
+"This report will allow you to generate a list of items that have been marked "
+"as Lost within the system"
 msgstr "Denna rapport listar helt enkelt bara de exemplar som lånats ut mest."
 
 #: ../../source/reports.rst:721
@@ -782,7 +1132,9 @@ msgid "|image927|"
 msgstr "|image927|"
 
 #: ../../source/reports.rst:723
-msgid "Once you have chosen parameters, you will see the corresponding list of items."
+msgid ""
+"Once you have chosen parameters, you will see the corresponding list of "
+"items."
 msgstr ""
 
 #: ../../source/reports.rst:725
@@ -791,7 +1143,10 @@ msgid "|image1501|"
 msgstr "|image1501|"
 
 #: ../../source/reports.rst:729
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: lostitems-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: lostitems-table)."
 msgstr ""
 
 #: ../../source/reports.rst:736
@@ -799,7 +1154,9 @@ msgid "Orders by fund"
 msgstr ""
 
 #: ../../source/reports.rst:738
-msgid "If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be able to see all the items that were ordered in each fund."
+msgid ""
+"If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be "
+"able to see all the items that were ordered in each fund."
 msgstr ""
 
 #: ../../source/reports.rst:741
@@ -808,7 +1165,10 @@ msgid "|image1499|"
 msgstr "|image1499|"
 
 #: ../../source/reports.rst:743
-msgid "Once you choose the fund you wish to view, you can export the results or view them in the browser. If you choose to view them directly, you will be shown the list of orders."
+msgid ""
+"Once you choose the fund you wish to view, you can export the results or "
+"view them in the browser. If you choose to view them directly, you will be "
+"shown the list of orders."
 msgstr ""
 
 #: ../../source/reports.rst:747
@@ -817,7 +1177,10 @@ msgid "|image1500|"
 msgstr "|image1500|"
 
 #: ../../source/reports.rst:751
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: funds-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: funds-table)."
 msgstr ""
 
 #: ../../source/reports.rst:758
@@ -826,8 +1189,12 @@ msgstr "Genomsnittlig lånetid"
 
 #: ../../source/reports.rst:760
 #, fuzzy
-msgid "This report will list the average time items are out on loan based on the criteria you enter:"
-msgstr "Denna rapport listar den genomsnittliga tiden som exemplar är utlånade baserat på de kriterier du anger"
+msgid ""
+"This report will list the average time items are out on loan based on the "
+"criteria you enter:"
+msgstr ""
+"Denna rapport listar den genomsnittliga tiden som exemplar är utlånade "
+"baserat på de kriterier du anger"
 
 #: ../../source/reports.rst:763
 msgid "|image928|"
@@ -844,8 +1211,18 @@ msgstr "Fördefinierade rapportfilter"
 
 #: ../../source/reports.rst:778
 #, fuzzy
-msgid "The report dictionary is a way to pre-define common filters you'd like to apply to your reports. This is a good way to add in filters that the report wizard doesn't include by default. To add a new definition, or filter, click 'New definition' on the reports dictionary page and follow the 4 step process."
-msgstr "Fördefinierade rapportfilter är ett sätt att fördefiniera vanliga filter su vill tillämpa på dina rapporter. Det är ett bra sätt att lägga till filter som rapportguiden inte inkluderar som standard. För att lägga till en ny definition eller ett filer, klickar du på 'Ny definition' på sidan Fördefinierade rapportfilter och följer de fyra stegen i processen."
+msgid ""
+"The report dictionary is a way to pre-define common filters you'd like to "
+"apply to your reports. This is a good way to add in filters that the report "
+"wizard doesn't include by default. To add a new definition, or filter, click "
+"'New definition' on the reports dictionary page and follow the 4 step "
+"process."
+msgstr ""
+"Fördefinierade rapportfilter är ett sätt att fördefiniera vanliga filter su "
+"vill tillämpa på dina rapporter. Det är ett bra sätt att lägga till filter "
+"som rapportguiden inte inkluderar som standard. För att lägga till en ny "
+"definition eller ett filer, klickar du på 'Ny definition' på sidan "
+"Fördefinierade rapportfilter och följer de fyra stegen i processen."
 
 #: ../../source/reports.rst:784
 msgid "Step 1: Name the definition and provide a description if necessary"
@@ -865,15 +1242,20 @@ msgstr "|image931|"
 
 #: ../../source/reports.rst:792
 msgid "Step 3: Choose columns to query from the tables presented."
-msgstr "Steg 3: välj kolumnerna du är intresserad av från de visade tabellerna."
+msgstr ""
+"Steg 3: välj kolumnerna du är intresserad av från de visade tabellerna."
 
 #: ../../source/reports.rst:794
 msgid "|image932|"
 msgstr "|image932|"
 
 #: ../../source/reports.rst:796
-msgid "Step 4: Choose the value(s) from the field(s). These will be automatically populated with options available in your database."
-msgstr "Steg 4: välj värden från fälten. Dessa kommer automatiskt att fyllas i med alternativ från din databas."
+msgid ""
+"Step 4: Choose the value(s) from the field(s). These will be automatically "
+"populated with options available in your database."
+msgstr ""
+"Steg 4: välj värden från fälten. Dessa kommer automatiskt att fyllas i med "
+"alternativ från din databas."
 
 #: ../../source/reports.rst:799
 msgid "|image933|"
@@ -889,15 +1271,22 @@ msgstr "|image934|"
 
 #: ../../source/reports.rst:805
 msgid "Your definitions will all appear on the Reports Dictionary page"
-msgstr "Dina definitioner kommer att visas på sidan Fördefinierade rapportfilter"
+msgstr ""
+"Dina definitioner kommer att visas på sidan Fördefinierade rapportfilter"
 
 #: ../../source/reports.rst:807
 msgid "|image935|"
 msgstr "|image935|"
 
 #: ../../source/reports.rst:809
-msgid "Then when generating reports on the module you created the value for you will see an option to limit by the definition at the bottom of the usual filters."
-msgstr "När du sedan genererar rapporter för modulen för vilken du skapade värdet, kommer du att se ett alternativ att begränsa på definitionen längst ner, under de vanliga filtren."
+msgid ""
+"Then when generating reports on the module you created the value for you "
+"will see an option to limit by the definition at the bottom of the usual "
+"filters."
+msgstr ""
+"När du sedan genererar rapporter för modulen för vilken du skapade värdet, "
+"kommer du att se ett alternativ att begränsa på definitionen längst ner, "
+"under de vanliga filtren."
 
 #: ../../source/reports.rst:813
 msgid "|image936|"
@@ -905,4 +1294,3 @@ msgstr "|image936|"
 
 #~ msgid "|image896|"
 #~ msgstr "|image896|"
-

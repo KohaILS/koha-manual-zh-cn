@@ -1,7 +1,7 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-sv\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2019-04-16 12:37+0000\n"
@@ -14,6 +14,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
 "X-POOTLE-MTIME: 1555418239.291810\n"
+"X-Pootle-Path: /sv/man20.11/installation.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/installation.rst:6
 #, fuzzy
@@ -49,15 +51,22 @@ msgid "What is the Koha web installer?"
 msgstr "Välkommen till Kohas webbinstallerare"
 
 #: ../../source/installation.rst:19
-msgid "The web installer sets up the database tables that store the all the data you work with in Koha, for example the library branches, patrons and items."
+msgid ""
+"The web installer sets up the database tables that store the all the data "
+"you work with in Koha, for example the library branches, patrons and items."
 msgstr ""
 
 #: ../../source/installation.rst:21
-msgid "The web installer starts with a login screen for you to enter the database administrator account credentials."
+msgid ""
+"The web installer starts with a login screen for you to enter the database "
+"administrator account credentials."
 msgstr ""
 
 #: ../../source/installation.rst:23
-msgid "The installer will then create the tables and fill the tables with data. The next step in the process is to set up a few mandatory first use settings, via the onboarding tool."
+msgid ""
+"The installer will then create the tables and fill the tables with data. The "
+"next step in the process is to set up a few mandatory first use settings, "
+"via the onboarding tool."
 msgstr ""
 
 #: ../../source/installation.rst:26
@@ -66,15 +75,21 @@ msgid "What is the Koha onboarding tool?"
 msgstr "Välkommen till Kohas webbinstallerare"
 
 #: ../../source/installation.rst:28
-msgid "The onboarding tool makes sure you have at least one library, patron category, patron, item type and circulation rule before you start using Koha."
+msgid ""
+"The onboarding tool makes sure you have at least one library, patron "
+"category, patron, item type and circulation rule before you start using Koha."
 msgstr ""
 
 #: ../../source/installation.rst:30
-msgid "If you installed sample data for library, patron category, and/or item type then the screens to create these will be skipped."
+msgid ""
+"If you installed sample data for library, patron category, and/or item type "
+"then the screens to create these will be skipped."
 msgstr ""
 
 #: ../../source/installation.rst:32
-msgid "You will, however, always have to create a patron (to log into the staff interface at the end of the onboarding tool) and a circulation rule."
+msgid ""
+"You will, however, always have to create a patron (to log into the staff "
+"interface at the end of the onboarding tool) and a circulation rule."
 msgstr ""
 
 #: ../../source/installation.rst:38 ../../source/installation.rst:46
@@ -88,7 +103,8 @@ msgid "**Web installer login**"
 msgstr "Administratörsinloggning"
 
 #: ../../source/installation.rst:42
-msgid "This login screen is the first screen that appears when installing Koha."
+msgid ""
+"This login screen is the first screen that appears when installing Koha."
 msgstr ""
 
 #: ../../source/installation.rst:44
@@ -96,15 +112,21 @@ msgid "|image1152|"
 msgstr "|image1152|"
 
 #: ../../source/installation.rst:48
-msgid "**Koha version name**: This will display whatever Koha version number you are installing."
+msgid ""
+"**Koha version name**: This will display whatever Koha version number you "
+"are installing."
 msgstr ""
 
 #: ../../source/installation.rst:50
-msgid "**Username**: This is database administrator username which is *koha_kohadev* by default."
+msgid ""
+"**Username**: This is database administrator username which is "
+"*koha_kohadev* by default."
 msgstr ""
 
 #: ../../source/installation.rst:52
-msgid "**Password**: This is the database administrator password which is *password* by default."
+msgid ""
+"**Password**: This is the database administrator password which is "
+"*password* by default."
 msgstr ""
 
 #: ../../source/installation.rst:54
@@ -135,15 +157,21 @@ msgid "Web installer start screen"
 msgstr "Webbinstallerare &rsaquo; Lyckades"
 
 #: ../../source/installation.rst:67
-msgid "*Language picker* dropdown box: This is specifying the language you want Koha to be in."
+msgid ""
+"*Language picker* dropdown box: This is specifying the language you want "
+"Koha to be in."
 msgstr ""
 
 #: ../../source/installation.rst:70
-msgid "Installing other languages that have translations for the installer (DE or FR, for example) will allow those languages to be used for the web installer."
+msgid ""
+"Installing other languages that have translations for the installer (DE or "
+"FR, for example) will allow those languages to be used for the web installer."
 msgstr ""
 
 #: ../../source/installation.rst:72
-msgid "Click the *Continue to the next step* button to load the next stage of the web installer."
+msgid ""
+"Click the *Continue to the next step* button to load the next stage of the "
+"web installer."
 msgstr ""
 
 #: ../../source/installation.rst:75
@@ -152,7 +180,9 @@ msgid "Installer perl modules installed"
 msgstr "Alla Perl-moduler verkar vara installerade."
 
 #: ../../source/installation.rst:77
-msgid "This screen tells you that the installer has all the dependencies it needs, to create the database in the next screen."
+msgid ""
+"This screen tells you that the installer has all the dependencies it needs, "
+"to create the database in the next screen."
 msgstr ""
 
 #: ../../source/installation.rst:79
@@ -165,7 +195,9 @@ msgid "Perl modules installed"
 msgstr "Perl-moduler"
 
 #: ../../source/installation.rst:83
-msgid "Click on the *Continue to the next step* button to load the next stage of the web installer."
+msgid ""
+"Click on the *Continue to the next step* button to load the next stage of "
+"the web installer."
 msgstr ""
 
 #: ../../source/installation.rst:86 ../../source/installation.rst:95
@@ -174,11 +206,15 @@ msgid "Database settings"
 msgstr "Databasinställningar:"
 
 #: ../../source/installation.rst:88
-msgid "This screen informs you of the database settings and asks you to confirm them by clicking the *Continue to the next step* button."
+msgid ""
+"This screen informs you of the database settings and asks you to confirm "
+"them by clicking the *Continue to the next step* button."
 msgstr ""
 
 #: ../../source/installation.rst:91
-msgid "For the majority of users these settings should be correct, if not then you should contact your support provider."
+msgid ""
+"For the majority of users these settings should be correct, if not then you "
+"should contact your support provider."
 msgstr ""
 
 #: ../../source/installation.rst:93
@@ -190,7 +226,8 @@ msgid "**Database settings:** Check these database settings are correct."
 msgstr ""
 
 #: ../../source/installation.rst:98
-msgid "Click the *Continue to the next step* button to confirm the database settings"
+msgid ""
+"Click the *Continue to the next step* button to confirm the database settings"
 msgstr ""
 
 #: ../../source/installation.rst:102
@@ -212,16 +249,23 @@ msgid "Database connection established"
 msgstr "Anslutning upprättad."
 
 #: ../../source/installation.rst:110
-msgid "**Connection established message:** This informs you that the database has been successfully created."
+msgid ""
+"**Connection established message:** This informs you that the database has "
+"been successfully created."
 msgstr ""
 
 #: ../../source/installation.rst:111 ../../source/installation.rst:124
 #, fuzzy
 msgid "Click the *Continue to the next step* button to load the next stage"
-msgstr "Markera rutan till vänster om de titlar du vill lägga till i den nya listan"
+msgstr ""
+"Markera rutan till vänster om de titlar du vill lägga till i den nya listan"
 
 #: ../../source/installation.rst:113
-msgid "If you have database connection difficulties here, the installer will not proceed. Double check the connection information in your koha-conf.xml file, and verify that the permissions and credentials on the database itself are correct."
+msgid ""
+"If you have database connection difficulties here, the installer will not "
+"proceed. Double check the connection information in your koha-conf.xml file, "
+"and verify that the permissions and credentials on the database itself are "
+"correct."
 msgstr ""
 
 #: ../../source/installation.rst:116
@@ -229,7 +273,9 @@ msgid "Ready to fill tables with data"
 msgstr ""
 
 #: ../../source/installation.rst:118
-msgid "This screen is informing you everything is set up for you to create the database tables in the next screen."
+msgid ""
+"This screen is informing you everything is set up for you to create the "
+"database tables in the next screen."
 msgstr ""
 
 #: ../../source/installation.rst:120
@@ -264,7 +310,8 @@ msgid "Ready for basic configurations"
 msgstr "Vi är redo att göra en del grundläggande inställningar."
 
 #: ../../source/installation.rst:141
-msgid "This screen leads onto installing basic configurations necessary to use Koha."
+msgid ""
+"This screen leads onto installing basic configurations necessary to use Koha."
 msgstr ""
 
 #: ../../source/installation.rst:143
@@ -277,7 +324,9 @@ msgid "Select MARC flavour"
 msgstr "Välj MARC-typ"
 
 #: ../../source/installation.rst:152
-msgid "You must choose your MARC flavour (format you want the bibliographic (catalog) records to be stored in the database) on this screen:"
+msgid ""
+"You must choose your MARC flavour (format you want the bibliographic "
+"(catalog) records to be stored in the database) on this screen:"
 msgstr ""
 
 #: ../../source/installation.rst:154
@@ -285,11 +334,15 @@ msgid "|image1173|"
 msgstr "|image1173|"
 
 #: ../../source/installation.rst:158
-msgid "**Unimarc:** This is frequently used in European countries (except for the UK) such as Italy."
+msgid ""
+"**Unimarc:** This is frequently used in European countries (except for the "
+"UK) such as Italy."
 msgstr ""
 
 #: ../../source/installation.rst:160
-msgid "**MARC21:** Selected by default, as it is more commonly used globally than UNIMARC."
+msgid ""
+"**MARC21:** Selected by default, as it is more commonly used globally than "
+"UNIMARC."
 msgstr ""
 
 #: ../../source/installation.rst:162
@@ -302,7 +355,9 @@ msgid "MARC21 and UNIMARC setup"
 msgstr ""
 
 #: ../../source/installation.rst:167
-msgid "In the previous screen you either choose MARC21 or UNIMARC as your MARC flavour. This page outlines both."
+msgid ""
+"In the previous screen you either choose MARC21 or UNIMARC as your MARC "
+"flavour. This page outlines both."
 msgstr ""
 
 #: ../../source/installation.rst:170 ../../source/installation.rst:174
@@ -315,123 +370,224 @@ msgid "|image1174|"
 msgstr "|image1174|"
 
 #: ../../source/installation.rst:176
-msgid "**Default MARC21 standard authority types:** An authority type is a template of an authority record (stores the search fields used to search an institutions catalog for an item). This option will install sample authority types."
+msgid ""
+"**Default MARC21 standard authority types:** An authority type is a template "
+"of an authority record (stores the search fields used to search an "
+"institutions catalog for an item). This option will install sample authority "
+"types."
 msgstr ""
 
 #: ../../source/installation.rst:178
-msgid "**Default MARC21 bibliographic framework:** Following on from the MARC21 selection in the previous screen selecting this checkbox (and the *Import* button) will actually setup the MARC21 bibliographic framework as the desired MARC flavour."
+msgid ""
+"**Default MARC21 bibliographic framework:** Following on from the MARC21 "
+"selection in the previous screen selecting this checkbox (and the *Import* "
+"button) will actually setup the MARC21 bibliographic framework as the "
+"desired MARC flavour."
 msgstr ""
 
 #: ../../source/installation.rst:180
-msgid "**Selected matching rules for MARC21 bibliographic records:** The MARC21 matching rules are used to find all the information about specific bibliographic records using the authority type search values."
+msgid ""
+"**Selected matching rules for MARC21 bibliographic records:** The MARC21 "
+"matching rules are used to find all the information about specific "
+"bibliographic records using the authority type search values."
 msgstr ""
 
 #: ../../source/installation.rst:182
-msgid "**'FA', a 'fast add' minimal MARC21 framework suitable for ILL, or on the fly cataloging:** The FA MARC framework displays fewer fields, and allows for faster cataloguing on the fly. Select this checkbox to install this minimal framework."
+msgid ""
+"**'FA', a 'fast add' minimal MARC21 framework suitable for ILL, or on the "
+"fly cataloging:** The FA MARC framework displays fewer fields, and allows "
+"for faster cataloguing on the fly. Select this checkbox to install this "
+"minimal framework."
 msgstr ""
 
 #: ../../source/installation.rst:184
-msgid "**Sample MARC21 bibliographic frameworks for some common types of bibliographic material:** This installs the template you will use to create items."
+msgid ""
+"**Sample MARC21 bibliographic frameworks for some common types of "
+"bibliographic material:** This installs the template you will use to create "
+"items."
 msgstr ""
 
 #: ../../source/installation.rst:186
-msgid "**Default Koha system authorised values:** This installs mandatory authorised values that every Koha installation needs."
+msgid ""
+"**Default Koha system authorised values:** This installs mandatory "
+"authorised values that every Koha installation needs."
 msgstr ""
 
 #: ../../source/installation.rst:188
-msgid "**Default classification sources and filling rules:** This will insert several common library classification sources such as dewey decimal."
+msgid ""
+"**Default classification sources and filling rules:** This will insert "
+"several common library classification sources such as dewey decimal."
 msgstr ""
 
 #: ../../source/installation.rst:190
-msgid "**Defines default message transports for email and SMS:** This provides the option to the user of being able to change how the library contacts them. They can choose from the following: email address, printed message, SMS, or phone call. Notices will not work without these."
+msgid ""
+"**Defines default message transports for email and SMS:** This provides the "
+"option to the user of being able to change how the library contacts them. "
+"They can choose from the following: email address, printed message, SMS, or "
+"phone call. Notices will not work without these."
 msgstr ""
 
 #: ../../source/installation.rst:192
-msgid "**Patron attributes:** This does not install any data, and it needs to be removed."
+msgid ""
+"**Patron attributes:** This does not install any data, and it needs to be "
+"removed."
 msgstr ""
 
 #: ../../source/installation.rst:194
-msgid "**Sample frequencies for subscriptions:** For items that arrive on a regular and predictable basis (e.g. monthly magazines), installing sample frequencies is useful because you can simply select a pre-installed sample frequency when you create the item."
+msgid ""
+"**Sample frequencies for subscriptions:** For items that arrive on a regular "
+"and predictable basis (e.g. monthly magazines), installing sample "
+"frequencies is useful because you can simply select a pre-installed sample "
+"frequency when you create the item."
 msgstr ""
 
 #: ../../source/installation.rst:196
-msgid "**Sample notices:** This inserts sample notices into the database, meaning all you have to do is customize these sample notices before you use them. Creating these by hand can be very time consuming and error prone."
+msgid ""
+"**Sample notices:** This inserts sample notices into the database, meaning "
+"all you have to do is customize these sample notices before you use them. "
+"Creating these by hand can be very time consuming and error prone."
 msgstr ""
 
 #: ../../source/installation.rst:198
-msgid "**Defines default messages for the enhanced messaging configuration:** The enhanced messaging configuration lets the user choose what messages they receive from the institution. Selecting this will insert sample message types for the due, predue, and advance notice message types."
+msgid ""
+"**Defines default messages for the enhanced messaging configuration:** The "
+"enhanced messaging configuration lets the user choose what messages they "
+"receive from the institution. Selecting this will insert sample message "
+"types for the due, predue, and advance notice message types."
 msgstr ""
 
 #: ../../source/installation.rst:200
-msgid "**Defines default message transports for sending item due messages and advance notice messages through email and SMS:** This inserts the SMS and email transport types. Mandatory if you want to send notices by email or SMS."
+msgid ""
+"**Defines default message transports for sending item due messages and "
+"advance notice messages through email and SMS:** This inserts the SMS and "
+"email transport types. Mandatory if you want to send notices by email or SMS."
 msgstr ""
 
 #: ../../source/installation.rst:202
-msgid "**Sample numbering patterns for subscriptions:** This option will install sample numbering patterns, saving you having to manually insert them for magazines and other periodicals."
+msgid ""
+"**Sample numbering patterns for subscriptions:** This option will install "
+"sample numbering patterns, saving you having to manually insert them for "
+"magazines and other periodicals."
 msgstr ""
 
 #: ../../source/installation.rst:204
-msgid "**Some basic default authorised values for library locations, item lost status, etc. You can change these at any time after installation:** This installs authorised values, which filter user inputs, to make sure they match specified criteria before the library or other object is created."
+msgid ""
+"**Some basic default authorised values for library locations, item lost "
+"status, etc. You can change these at any time after installation:** This "
+"installs authorised values, which filter user inputs, to make sure they "
+"match specified criteria before the library or other object is created."
 msgstr ""
 
 #: ../../source/installation.rst:206
-msgid "**CSV profiles:** Using Koha you can export items. The CSV profile defines how you want to export the item(s). CSV/tab exports will not work without these."
+msgid ""
+"**CSV profiles:** Using Koha you can export items. The CSV profile defines "
+"how you want to export the item(s). CSV/tab exports will not work without "
+"these."
 msgstr ""
 
 #: ../../source/installation.rst:208
-msgid "**Coded values conforming to the Z39.71-2006 holdings statements for bibliographic items:** Not required to use Koha. A holding statement tells the user if the library has a specific item and where it is located. Selecting will install sample code values for items in the holding statements."
+msgid ""
+"**Coded values conforming to the Z39.71-2006 holdings statements for "
+"bibliographic items:** Not required to use Koha. A holding statement tells "
+"the user if the library has a specific item and where it is located. "
+"Selecting will install sample code values for items in the holding "
+"statements."
 msgstr ""
 
 #: ../../source/installation.rst:210
-msgid "**MARC code list for relators:** Not required to use Koha. A relator is a person who was involved in the development of the item (e.g. author). Selecting this will insert sample relator records into the database."
+msgid ""
+"**MARC code list for relators:** Not required to use Koha. A relator is a "
+"person who was involved in the development of the item (e.g. author). "
+"Selecting this will insert sample relator records into the database."
 msgstr ""
 
 #: ../../source/installation.rst:212
-msgid "**Some basic currencies with USA dollar as default for ACQ module:** Install US dollar, Great British Pound, Canadian Dollar and Euro currencies. Set the US dollar as the default acquisition currency. Not installing these will mean that a currency will need to be defined before acquisitions can be used."
+msgid ""
+"**Some basic currencies with USA dollar as default for ACQ module:** Install "
+"US dollar, Great British Pound, Canadian Dollar and Euro currencies. Set the "
+"US dollar as the default acquisition currency. Not installing these will "
+"mean that a currency will need to be defined before acquisitions can be used."
 msgstr ""
 
 #: ../../source/installation.rst:214
-msgid "**Useful patron attribute types:** Not required to use Koha. Patrons have a barcode which identifies them. By clicking this checkbox you are making sure that this patron barcode is displayed on the patron summary screen."
+msgid ""
+"**Useful patron attribute types:** Not required to use Koha. Patrons have a "
+"barcode which identifies them. By clicking this checkbox you are making sure "
+"that this patron barcode is displayed on the patron summary screen."
 msgstr ""
 
 #: ../../source/installation.rst:216
-msgid "**Sample patron types and categories:** Not required to use Koha. Selecting this will install sample patron categories into the database. This will mean the create patron category step in the onboarding tool is skipped."
+msgid ""
+"**Sample patron types and categories:** Not required to use Koha. Selecting "
+"this will install sample patron categories into the database. This will mean "
+"the create patron category step in the onboarding tool is skipped."
 msgstr ""
 
 #: ../../source/installation.rst:218
-msgid "**Sample label and patron card data:** Not required to use Koha, but recommended for most new installs. Selecting this will install sample data for labels and patron cards and will make it easier to create a labels and patron cards in the future."
+msgid ""
+"**Sample label and patron card data:** Not required to use Koha, but "
+"recommended for most new installs. Selecting this will install sample data "
+"for labels and patron cards and will make it easier to create a labels and "
+"patron cards in the future."
 msgstr ""
 
 #: ../../source/installation.rst:220
-msgid "**Sample holidays: Sunday, Christmas, New Year’s** Not required to use Koha. Selecting this will insert sample repeatable public holidays (e.g. Christmas) into the database."
+msgid ""
+"**Sample holidays: Sunday, Christmas, New Year’s** Not required to use Koha. "
+"Selecting this will insert sample repeatable public holidays (e.g. "
+"Christmas) into the database."
 msgstr ""
 
 #: ../../source/installation.rst:222
-msgid "**A set of default item types:** Not required for Koha. Selecting this will insert sample item type data into the database, meaning the create item type step in the onboarding tool will be skipped."
+msgid ""
+"**A set of default item types:** Not required for Koha. Selecting this will "
+"insert sample item type data into the database, meaning the create item type "
+"step in the onboarding tool will be skipped."
 msgstr ""
 
 #: ../../source/installation.rst:224
-msgid "**Sample libraries:** Not required for Koha. Selecting this will insert sample libraries into the database. Developers will often want this for demo or development purposes. Selecting this means the create library step in the onboarding tool will be skipped."
+msgid ""
+"**Sample libraries:** Not required for Koha. Selecting this will insert "
+"sample libraries into the database. Developers will often want this for demo "
+"or development purposes. Selecting this means the create library step in the "
+"onboarding tool will be skipped."
 msgstr ""
 
 #: ../../source/installation.rst:226
-msgid "**Sample news items:** Not required for Koha. Selecting this will insert sample news items that are displayed on the OPAC (Online Public Access Catalog) and staff client into the database."
+msgid ""
+"**Sample news items:** Not required for Koha. Selecting this will insert "
+"sample news items that are displayed on the OPAC (Online Public Access "
+"Catalog) and staff client into the database."
 msgstr ""
 
 #: ../../source/installation.rst:228
-msgid "**Sample patrons:** Not required for Koha. Patrons are the people who use the Koha Library Management System, for example: library users and staff. Selecting this will insert a number of sample patrons into the database. Developers will often want this for demo or development purposes."
+msgid ""
+"**Sample patrons:** Not required for Koha. Patrons are the people who use "
+"the Koha Library Management System, for example: library users and staff. "
+"Selecting this will insert a number of sample patrons into the database. "
+"Developers will often want this for demo or development purposes."
 msgstr ""
 
 #: ../../source/installation.rst:230
-msgid "**Sample quotes:** Not required for Koha. Quotes of the day can be displayed to library users on the OPAC (Online Public Access Catalog) interface. Selecting this will install a few library related sample quotes."
+msgid ""
+"**Sample quotes:** Not required for Koha. Quotes of the day can be displayed "
+"to library users on the OPAC (Online Public Access Catalog) interface. "
+"Selecting this will install a few library related sample quotes."
 msgstr ""
 
 #: ../../source/installation.rst:232
-msgid "**Allow access to the following servers to search and download record information:** Not required to use Koha, but recommended for most new installs. Selecting this configures Koha to allow access to a selection of Z39.50 targets, which allow searching the target servers for MARC21 records to import them into your Koha instance. This can avoid the need to manually input all record information manually, or greatly speed up the process."
+msgid ""
+"**Allow access to the following servers to search and download record "
+"information:** Not required to use Koha, but recommended for most new "
+"installs. Selecting this configures Koha to allow access to a selection of "
+"Z39.50 targets, which allow searching the target servers for MARC21 records "
+"to import them into your Koha instance. This can avoid the need to manually "
+"input all record information manually, or greatly speed up the process."
 msgstr ""
 
 #: ../../source/installation.rst:234
-msgid "Click the *Import* button to install the default and selected data values."
+msgid ""
+"Click the *Import* button to install the default and selected data values."
 msgstr ""
 
 #: ../../source/installation.rst:237 ../../source/installation.rst:248
@@ -440,7 +596,9 @@ msgid "UNIMARC setup"
 msgstr "MARC-struktur"
 
 #: ../../source/installation.rst:239
-msgid "There are only two data values in the UNIMARC advanced setup which are unique:"
+msgid ""
+"There are only two data values in the UNIMARC advanced setup which are "
+"unique:"
 msgstr ""
 
 #: ../../source/installation.rst:241
@@ -453,7 +611,9 @@ msgid "Default UNIMARC bibliographic framework in English"
 msgstr "Test av MARC bibliografiskt ramverk"
 
 #: ../../source/installation.rst:244
-msgid "Optional values are the same for both UNIMARC and MARC21, therefore their definition will not be repeated."
+msgid ""
+"Optional values are the same for both UNIMARC and MARC21, therefore their "
+"definition will not be repeated."
 msgstr ""
 
 #: ../../source/installation.rst:246
@@ -461,11 +621,18 @@ msgid "|image1175|"
 msgstr "|image1175|"
 
 #: ../../source/installation.rst:250
-msgid "*Authority structure for UNIMARC in English:* Authority records store the search terms used to find items in the database. Unlike MARC21, when using UNIMARC the authority structure needs to be compatible with UNIMARC. Selecting this option makes it compatible."
+msgid ""
+"*Authority structure for UNIMARC in English:* Authority records store the "
+"search terms used to find items in the database. Unlike MARC21, when using "
+"UNIMARC the authority structure needs to be compatible with UNIMARC. "
+"Selecting this option makes it compatible."
 msgstr ""
 
 #: ../../source/installation.rst:252
-msgid "*Default UNIMARC bibliographic framework in English:* In the previous screen you clicked to use the UNIMARC flavour, now by selecting this option you are confirming you want to use that framework."
+msgid ""
+"*Default UNIMARC bibliographic framework in English:* In the previous screen "
+"you clicked to use the UNIMARC flavour, now by selecting this option you are "
+"confirming you want to use that framework."
 msgstr ""
 
 #: ../../source/installation.rst:254
@@ -477,7 +644,10 @@ msgid "Selected data added"
 msgstr "Valda uppgifter har lagts till"
 
 #: ../../source/installation.rst:259
-msgid "After you have clicked the *Import* button in either the MARC21 or UNIMARC setup screen this screen will appear. It shows you if the selected/default data values were successfully inserted into the database."
+msgid ""
+"After you have clicked the *Import* button in either the MARC21 or UNIMARC "
+"setup screen this screen will appear. It shows you if the selected/default "
+"data values were successfully inserted into the database."
 msgstr ""
 
 #: ../../source/installation.rst:261
@@ -485,11 +655,16 @@ msgid "|image1176|"
 msgstr "|image1176|"
 
 #: ../../source/installation.rst:265
-msgid "**Optional data added:** If you selected an optional data value then it will be displayed here. If you did not choose any optional data value then the **optional data added** title will not be displayed."
+msgid ""
+"**Optional data added:** If you selected an optional data value then it will "
+"be displayed here. If you did not choose any optional data value then the "
+"**optional data added** title will not be displayed."
 msgstr ""
 
 #: ../../source/installation.rst:267
-msgid "**MySQL data added:** These data values will always be installed and consequently displayed on this screen."
+msgid ""
+"**MySQL data added:** These data values will always be installed and "
+"consequently displayed on this screen."
 msgstr ""
 
 #: ../../source/installation.rst:269
@@ -498,11 +673,15 @@ msgid "**Mandatory data added:** Same as above."
 msgstr "Obligatoriska uppgifter har lagts till"
 
 #: ../../source/installation.rst:271
-msgid "**Installation message:** Tells you if the Koha database was successfully created ready for you to use the onboarding tool."
+msgid ""
+"**Installation message:** Tells you if the Koha database was successfully "
+"created ready for you to use the onboarding tool."
 msgstr ""
 
 #: ../../source/installation.rst:273
-msgid "Click the *Set up some of Koha's basic requirements* button to go to a redirection screen, which in turn will take you to the onboarding tool."
+msgid ""
+"Click the *Set up some of Koha's basic requirements* button to go to a "
+"redirection screen, which in turn will take you to the onboarding tool."
 msgstr ""
 
 #: ../../source/installation.rst:276 ../../source/installation.rst:282
@@ -510,7 +689,9 @@ msgid "Redirect to onboarding tool"
 msgstr ""
 
 #: ../../source/installation.rst:278
-msgid "If you wait for around 10 seconds this screen should redirect you to the onboarding tool start screen."
+msgid ""
+"If you wait for around 10 seconds this screen should redirect you to the "
+"onboarding tool start screen."
 msgstr ""
 
 #: ../../source/installation.rst:280
@@ -518,7 +699,9 @@ msgid "|image1177|"
 msgstr "|image1177|"
 
 #: ../../source/installation.rst:285
-msgid "If after waiting you are not redirected select the link pointed out by the arrow in the above screenshot."
+msgid ""
+"If after waiting you are not redirected select the link pointed out by the "
+"arrow in the above screenshot."
 msgstr ""
 
 #: ../../source/installation.rst:291
@@ -527,11 +710,16 @@ msgid "Create a library"
 msgstr "Aktuellt bibliotek"
 
 #: ../../source/installation.rst:292
-msgid "The installer will prompt to create the first library or branch if the sample libraries were not installed."
+msgid ""
+"The installer will prompt to create the first library or branch if the "
+"sample libraries were not installed."
 msgstr ""
 
 #: ../../source/installation.rst:294
-msgid "A library in Koha is the digital representation of a \"physical\" place. More libraries can be added later by going to Administration -> Libraries and groups."
+msgid ""
+"A library in Koha is the digital representation of a \"physical\" place. "
+"More libraries can be added later by going to Administration -> Libraries "
+"and groups."
 msgstr ""
 
 #: ../../source/installation.rst:296
@@ -552,7 +740,10 @@ msgid "**Name:** Official name of the library, as it is commonly known."
 msgstr ""
 
 #: ../../source/installation.rst:302
-msgid "**Create more libraries:** If more libraries are required, or changes need to be made to this freshly created library, go to Administration -> Libraries and groups"
+msgid ""
+"**Create more libraries:** If more libraries are required, or changes need "
+"to be made to this freshly created library, go to Administration -> "
+"Libraries and groups"
 msgstr ""
 
 #: ../../source/installation.rst:303
@@ -577,7 +768,9 @@ msgid "Create library example"
 msgstr "Skapa en ny mall"
 
 #: ../../source/installation.rst:311
-msgid "**Library code:** The regular expression that filters the acceptable inputs for library code only accepts up to 10 letters."
+msgid ""
+"**Library code:** The regular expression that filters the acceptable inputs "
+"for library code only accepts up to 10 letters."
 msgstr ""
 
 #: ../../source/installation.rst:314 ../../source/installation.rst:329
@@ -586,7 +779,12 @@ msgid "Create a patron category"
 msgstr "Skapa en ny kategori"
 
 #: ../../source/installation.rst:316
-msgid "All patrons in Koha must have a patron category. The patron category is like a jelly mold; multiple individual patron accounts can share common characteristics, such as circulation rules, notice frequency, holds allowed, and much more. Koha requires at least one patron category in order to add patrons."
+msgid ""
+"All patrons in Koha must have a patron category. The patron category is like "
+"a jelly mold; multiple individual patron accounts can share common "
+"characteristics, such as circulation rules, notice frequency, holds allowed, "
+"and much more. Koha requires at least one patron category in order to add "
+"patrons."
 msgstr ""
 
 #: ../../source/installation.rst:318
@@ -619,14 +817,18 @@ msgstr "Standardsekretess"
 #: ../../source/installation.rst:325
 #, fuzzy
 msgid "Enrolment period: In months OR Until date"
-msgstr "Vänligen välj endast en inställning för medlemsperiod. Antal månader eller exakt datum."
+msgstr ""
+"Vänligen välj endast en inställning för medlemsperiod. Antal månader eller "
+"exakt datum."
 
 #: ../../source/installation.rst:327
 msgid "|image1155|"
 msgstr "|image1155|"
 
 #: ../../source/installation.rst:331
-msgid "**Library creation message:** Indicates whether the library was created successfully."
+msgid ""
+"**Library creation message:** Indicates whether the library was created "
+"successfully."
 msgstr ""
 
 #: ../../source/installation.rst:333
@@ -638,7 +840,9 @@ msgid "**Description:** Sentence describing what the patron category is."
 msgstr ""
 
 #: ../../source/installation.rst:337
-msgid "*Overdue notice required* dropdown button: Set by default to 'no'. This specifies if you want the patron category to receive overdue notices."
+msgid ""
+"*Overdue notice required* dropdown button: Set by default to 'no'. This "
+"specifies if you want the patron category to receive overdue notices."
 msgstr ""
 
 #: ../../source/installation.rst:339
@@ -646,19 +850,30 @@ msgid "**Category type:** This makes the category created a staff member."
 msgstr ""
 
 #: ../../source/installation.rst:341
-msgid "**Default privacy:** Set by default to 'default'. The Default privacy controls the amount of time that the reading history of the patron is stored for."
+msgid ""
+"**Default privacy:** Set by default to 'default'. The Default privacy "
+"controls the amount of time that the reading history of the patron is stored "
+"for."
 msgstr ""
 
 #: ../../source/installation.rst:343
-msgid "**Enrolment period - in months:** This is the number of months that the patrons created from this patron category are enrolled for."
+msgid ""
+"**Enrolment period - in months:** This is the number of months that the "
+"patrons created from this patron category are enrolled for."
 msgstr ""
 
 #: ../../source/installation.rst:345
-msgid "**Enrolment period - until date:** Select a date from the interactive datepicker calendar icon which appears when you click on this input box. The date you choose will be the enrolment end date for patrons created from this patron category."
+msgid ""
+"**Enrolment period - until date:** Select a date from the interactive "
+"datepicker calendar icon which appears when you click on this input box. The "
+"date you choose will be the enrolment end date for patrons created from this "
+"patron category."
 msgstr ""
 
 #: ../../source/installation.rst:347
-msgid "**Path to create patron category:** More patron categories can be created or altered by going to Administration -> Patron categories."
+msgid ""
+"**Path to create patron category:** More patron categories can be created or "
+"altered by going to Administration -> Patron categories."
 msgstr ""
 
 #: ../../source/installation.rst:349
@@ -676,11 +891,16 @@ msgid "Create a patron"
 msgstr "Skapa en låntagare"
 
 #: ../../source/installation.rst:358
-msgid "A superlibrarian patron user is required to log into the Koha staff interface, once the onboarding process has been completed."
+msgid ""
+"A superlibrarian patron user is required to log into the Koha staff "
+"interface, once the onboarding process has been completed."
 msgstr ""
 
 #: ../../source/installation.rst:360
-msgid "It is very important to document the username and password created here as they are the account credentials required to login as an administrator (superlibrarian) of Koha."
+msgid ""
+"It is very important to document the username and password created here as "
+"they are the account credentials required to login as an administrator "
+"(superlibrarian) of Koha."
 msgstr ""
 
 #: ../../source/installation.rst:362
@@ -721,7 +941,9 @@ msgid "|image1157|"
 msgstr "|image1157|"
 
 #: ../../source/installation.rst:376
-msgid "**Patron category creation message:** This indicates that if the patron category was created successfully."
+msgid ""
+"**Patron category creation message:** This indicates that if the patron "
+"category was created successfully."
 msgstr ""
 
 #: ../../source/installation.rst:377
@@ -737,23 +959,37 @@ msgid "**Card number:** This number must be unique"
 msgstr ""
 
 #: ../../source/installation.rst:380
-msgid "*Library* dropdown box: If a library has been created using this onboarding tool, it will be the only option. Otherwise select a random library from the sample libraries installed by the web installer."
+msgid ""
+"*Library* dropdown box: If a library has been created using this onboarding "
+"tool, it will be the only option. Otherwise select a random library from the "
+"sample libraries installed by the web installer."
 msgstr ""
 
 #: ../../source/installation.rst:381
-msgid "*Patron category* dropdown box: If a patron category was created using this onboarding tool, it will be the only option. Otherwise select the *Staff* patron category."
+msgid ""
+"*Patron category* dropdown box: If a patron category was created using this "
+"onboarding tool, it will be the only option. Otherwise select the *Staff* "
+"patron category."
 msgstr ""
 
 #: ../../source/installation.rst:382
-msgid "**Superlibrarian permission:** This non-editable setting allows access to all librarian and web based Koha administration tasks in the staff interface. This user is the most powerful user in any Koha, so protect the credentials well."
+msgid ""
+"**Superlibrarian permission:** This non-editable setting allows access to "
+"all librarian and web based Koha administration tasks in the staff "
+"interface. This user is the most powerful user in any Koha, so protect the "
+"credentials well."
 msgstr ""
 
 #: ../../source/installation.rst:383
-msgid "**Username:** The username to log into the staff interface and OPAC (Online Patron Access Catalogue) with."
+msgid ""
+"**Username:** The username to log into the staff interface and OPAC (Online "
+"Patron Access Catalogue) with."
 msgstr ""
 
 #: ../../source/installation.rst:384
-msgid "**Password:** A password consisting of letters, numbers, and spaces only which is greater than 8 characters."
+msgid ""
+"**Password:** A password consisting of letters, numbers, and spaces only "
+"which is greater than 8 characters."
 msgstr ""
 
 #: ../../source/installation.rst:385
@@ -766,11 +1002,15 @@ msgid "Click the *Submit* button to create the patron account"
 msgstr "Klicka på knappen 'Radera' för att ta bort aktuell bild."
 
 #: ../../source/installation.rst:387
-msgid "**Path to create patron:** Patron's can be created or altered by going to Patrons -> New patron"
+msgid ""
+"**Path to create patron:** Patron's can be created or altered by going to "
+"Patrons -> New patron"
 msgstr ""
 
 #: ../../source/installation.rst:388
-msgid "**Assign patron permissions:** After creating a patron go More -> Set permissions to assign permissions."
+msgid ""
+"**Assign patron permissions:** After creating a patron go More -> Set "
+"permissions to assign permissions."
 msgstr ""
 
 #: ../../source/installation.rst:392
@@ -788,11 +1028,15 @@ msgid "Create an item type"
 msgstr "Skapa en ny ort"
 
 #: ../../source/installation.rst:399
-msgid "If you did not install sample item types in the web installer then this screen will be displayed."
+msgid ""
+"If you did not install sample item types in the web installer then this "
+"screen will be displayed."
 msgstr ""
 
 #: ../../source/installation.rst:401
-msgid "As with the patron category the item type is basically a template which you use to make multiple items with common characteristics."
+msgid ""
+"As with the patron category the item type is basically a template which you "
+"use to make multiple items with common characteristics."
 msgstr ""
 
 #: ../../source/installation.rst:403
@@ -814,7 +1058,9 @@ msgid "Create item type"
 msgstr "Skapa exemplar vid:"
 
 #: ../../source/installation.rst:412
-msgid "**Administrator account creation message:** Indicates if the administrator patron was created successfully"
+msgid ""
+"**Administrator account creation message:** Indicates if the administrator "
+"patron was created successfully"
 msgstr ""
 
 #: ../../source/installation.rst:413
@@ -827,7 +1073,9 @@ msgid "**Description:** Sentence describing what the item type is."
 msgstr "Beskrivningen definierar exemplartypen med vanlig text"
 
 #: ../../source/installation.rst:415
-msgid "**Path to create item type:** Item types can be created or altered by going to Administrator->Item types"
+msgid ""
+"**Path to create item type:** Item types can be created or altered by going "
+"to Administrator->Item types"
 msgstr ""
 
 #: ../../source/installation.rst:416
@@ -845,7 +1093,9 @@ msgid "Create item type example"
 msgstr "Skapa en ny mall"
 
 #: ../../source/installation.rst:424
-msgid "The regular expression filtering item type code input will only accept letters."
+msgid ""
+"The regular expression filtering item type code input will only accept "
+"letters."
 msgstr ""
 
 #: ../../source/installation.rst:427
@@ -854,11 +1104,16 @@ msgid "Create a circulation rule"
 msgstr "Hantera låneregler"
 
 #: ../../source/installation.rst:429
-msgid "This screen will always be displayed no matter what sample data you installed with the web installer."
+msgid ""
+"This screen will always be displayed no matter what sample data you "
+"installed with the web installer."
 msgstr ""
 
 #: ../../source/installation.rst:431
-msgid "Here you are creating a rule which applies the pre-defined organisational decisions of your library as to what restrictions you place on patrons borrowing items."
+msgid ""
+"Here you are creating a rule which applies the pre-defined organisational "
+"decisions of your library as to what restrictions you place on patrons "
+"borrowing items."
 msgstr ""
 
 #: ../../source/installation.rst:433
@@ -875,47 +1130,74 @@ msgid "Numbers are the only valid input for all input fields in this form."
 msgstr ""
 
 #: ../../source/installation.rst:440
-msgid "**Item type creation message:** Indicates if the item type was created successfully"
+msgid ""
+"**Item type creation message:** Indicates if the item type was created "
+"successfully"
 msgstr ""
 
 #: ../../source/installation.rst:441
-msgid "*Library branch* dropdown box: This is the library (or libraries) you want to apply the circulation rule to. By default it is set to *all*, however you can select a singular library to apply the rule to from the dropdown box."
+msgid ""
+"*Library branch* dropdown box: This is the library (or libraries) you want "
+"to apply the circulation rule to. By default it is set to *all*, however you "
+"can select a singular library to apply the rule to from the dropdown box."
 msgstr ""
 
 #: ../../source/installation.rst:442
-msgid "*Patron categories* dropdown box: This is the patron categories you want to apply the circulation rule to. As with *library branch* it is set to *all* by default but more options are avaliable."
+msgid ""
+"*Patron categories* dropdown box: This is the patron categories you want to "
+"apply the circulation rule to. As with *library branch* it is set to *all* "
+"by default but more options are avaliable."
 msgstr ""
 
 #: ../../source/installation.rst:443
-msgid "*Item type* dropdown box: This is the item types that you want the circulation rule to apply to. Again more options are avaliable than the default selected *all* option."
+msgid ""
+"*Item type* dropdown box: This is the item types that you want the "
+"circulation rule to apply to. Again more options are avaliable than the "
+"default selected *all* option."
 msgstr ""
 
 #: ../../source/installation.rst:444
-msgid "**Current checkouts allowed:** This is the number of items allowed from the selected library, for selected patron categories and of the selected item type. Set to 50 by default."
+msgid ""
+"**Current checkouts allowed:** This is the number of items allowed from the "
+"selected library, for selected patron categories and of the selected item "
+"type. Set to 50 by default."
 msgstr ""
 
 #: ../../source/installation.rst:445
-msgid "**Loan period:** Number of days or hours that an item is allowed out for. Set to 14 by default."
+msgid ""
+"**Loan period:** Number of days or hours that an item is allowed out for. "
+"Set to 14 by default."
 msgstr ""
 
 #: ../../source/installation.rst:446
-msgid "*Units* dropdown box: Set by default to *aays*, the unit selecting in this field is applied to the numerical values written into **loan period** and **renewals period**"
+msgid ""
+"*Units* dropdown box: Set by default to *aays*, the unit selecting in this "
+"field is applied to the numerical values written into **loan period** and "
+"**renewals period**"
 msgstr ""
 
 #: ../../source/installation.rst:447
-msgid "**Renewals allowed:** Number of times a item can be renewed. Set to 10 by default."
+msgid ""
+"**Renewals allowed:** Number of times a item can be renewed. Set to 10 by "
+"default."
 msgstr ""
 
 #: ../../source/installation.rst:448
-msgid "**Renewals period:** Number of days or hours that a renewal lasts for. Set to 14 by default."
+msgid ""
+"**Renewals period:** Number of days or hours that a renewal lasts for. Set "
+"to 14 by default."
 msgstr ""
 
 #: ../../source/installation.rst:449
-msgid "*On shelf holds allowed* dropdown box: If items can be held whilst they are on the shelf."
+msgid ""
+"*On shelf holds allowed* dropdown box: If items can be held whilst they are "
+"on the shelf."
 msgstr ""
 
 #: ../../source/installation.rst:450
-msgid "**Path to create circulation rule:** Circulation rules can be created or altered by going to Administration -> Circulation and fines rules"
+msgid ""
+"**Path to create circulation rule:** Circulation rules can be created or "
+"altered by going to Administration -> Circulation and fines rules"
 msgstr ""
 
 #: ../../source/installation.rst:451
@@ -929,7 +1211,9 @@ msgid "Onboarding tool complete"
 msgstr "Uppackning slutförd"
 
 #: ../../source/installation.rst:456
-msgid "This page tells you if the circulation rule was created successfully, and that the Koha installation is complete"
+msgid ""
+"This page tells you if the circulation rule was created successfully, and "
+"that the Koha installation is complete"
 msgstr ""
 
 #: ../../source/installation.rst:458
@@ -938,15 +1222,20 @@ msgstr "|image1162|"
 
 #: ../../source/installation.rst:460
 #, fuzzy
-msgid "**Web installer message:** Indicates if the web installation is complete"
+msgid ""
+"**Web installer message:** Indicates if the web installation is complete"
 msgstr "Webbinstallerare &rsaquo; Installation slutförd"
 
 #: ../../source/installation.rst:461
-msgid "**Circulation rule creation message:** Indicates if the circulation rule was created successfully."
+msgid ""
+"**Circulation rule creation message:** Indicates if the circulation rule was "
+"created successfully."
 msgstr ""
 
 #: ../../source/installation.rst:462
-msgid "**Start using Koha:** Click to login to Koha using the Koha administrator account you created using the onboarding tool."
+msgid ""
+"**Start using Koha:** Click to login to Koha using the Koha administrator "
+"account you created using the onboarding tool."
 msgstr ""
 
 #: ../../source/installation.rst:465
@@ -954,7 +1243,10 @@ msgid "Login to access staff interface"
 msgstr ""
 
 #: ../../source/installation.rst:467
-msgid "You have now finished using the onboarding tool and can log into the staff interface using the patron account credentials you created in the onboarding tool"
+msgid ""
+"You have now finished using the onboarding tool and can log into the staff "
+"interface using the patron account credentials you created in the onboarding "
+"tool"
 msgstr ""
 
 #: ../../source/installation.rst:469
@@ -976,7 +1268,11 @@ msgid "**Password:** Enter the password you created"
 msgstr "Ange det nya lösenordet igen"
 
 #: ../../source/installation.rst:475
-msgid "**Library:** This is the library staff interface you want to log into. The options are either: *my library* or the library you installed/created. Leaving the default selected option of *my library* is fine to log in with first time."
+msgid ""
+"**Library:** This is the library staff interface you want to log into. The "
+"options are either: *my library* or the library you installed/created. "
+"Leaving the default selected option of *my library* is fine to log in with "
+"first time."
 msgstr ""
 
 #: ../../source/installation.rst:476
@@ -1007,7 +1303,9 @@ msgid "|image1165|"
 msgstr "|image1165|"
 
 #: ../../source/installation.rst:494
-msgid "For more information about how to use the staff interface, please visit `<https://koha-community.org/documentation/>`_"
+msgid ""
+"For more information about how to use the staff interface, please visit "
+"`<https://koha-community.org/documentation/>`_"
 msgstr ""
 
 #, fuzzy
@@ -1025,4 +1323,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "Create a Circulation Rule"
 #~ msgstr "Standardregler för lån"
-

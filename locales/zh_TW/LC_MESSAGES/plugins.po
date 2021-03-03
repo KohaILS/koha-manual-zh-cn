@@ -1,7 +1,7 @@
 # Compendium of zh_TW.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha man18.05\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2019-08-28 13:14+0000\n"
@@ -22,8 +22,16 @@ msgid "Plugin System"
 msgstr "外掛系統"
 
 #: ../../source/plugins.rst:8
-msgid "Koha's Plugin System allows for you to add additional tools and reports to Koha that are specific to your library. Plugins are installed by uploading KPZ ( Koha Plugin Zip ) packages. A KPZ file is just a zip file containing the perl files, template files, and any other files necessary to make the plugin work."
-msgstr "Koha 的外掛系統允許您新增工具與報表供您的圖書館使用。可經由上傳 KPZ ( Koha Plugin Zip ) 套件安裝外掛。KPZ 檔案是一個包括 perl 檔案、模版檔與其他檔案的壓縮檔。"
+msgid ""
+"Koha's Plugin System allows for you to add additional tools and reports to "
+"Koha that are specific to your library. Plugins are installed by uploading "
+"KPZ ( Koha Plugin Zip ) packages. A KPZ file is just a zip file containing "
+"the perl files, template files, and any other files necessary to make the "
+"plugin work."
+msgstr ""
+"Koha 的外掛系統允許您新增工具與報表供您的圖書館使用。可經由上傳 KPZ ( Koha "
+"Plugin Zip ) 套件安裝外掛。KPZ 檔案是一個包括 perl 檔案、模版檔與其他檔案的壓"
+"縮檔。"
 
 #: ../../source/plugins.rst:14
 msgid "The plugin system needs to be turned on by a system administrator."
@@ -34,12 +42,18 @@ msgid "Set up"
 msgstr "設定"
 
 #: ../../source/plugins.rst:21
-msgid "To set up the Koha plugin system you must first make some changes to your install."
+msgid ""
+"To set up the Koha plugin system you must first make some changes to your "
+"install."
 msgstr "必須先改變安裝才能設定 Koha 的外掛系統。"
 
 #: ../../source/plugins.rst:24
-msgid "Change <enable\\_plugins>0</enable\\_plugins> to <enable\\_plugins>1</enable\\_plugins> in your koha-conf.xml file"
-msgstr "把 <enable\\_plugins>0</enable\\_plugins> 變更為 <enable\\_plugins>1</enable\\_plugins> 於您的 koha-conf.xml 檔案"
+msgid ""
+"Change <enable\\_plugins>0</enable\\_plugins> to <enable\\_plugins>1</enable"
+"\\_plugins> in your koha-conf.xml file"
+msgstr ""
+"把 <enable\\_plugins>0</enable\\_plugins> 變更為 <enable\\_plugins>1</enable"
+"\\_plugins> 於您的 koha-conf.xml 檔案"
 
 #: ../../source/plugins.rst:27
 msgid "Restart your webserver"
@@ -47,14 +61,24 @@ msgstr "重新啟動您的網站伺服器"
 
 #: ../../source/plugins.rst:29
 #, fuzzy
-msgid "On the Tools page you will see the Tools Plugins and on the Reports page you will see the Reports Plugins."
-msgstr "設定完成後需要改變您的 UseKohaPlugins 系統偏好。在工具頁面將看到外掛工具並在報表頁面看到報表外掛。"
+msgid ""
+"On the Tools page you will see the Tools Plugins and on the Reports page you "
+"will see the Reports Plugins."
+msgstr ""
+"設定完成後需要改變您的 UseKohaPlugins 系統偏好。在工具頁面將看到外掛工具並在"
+"報表頁面看到報表外掛。"
 
 #~ msgid "Search History"
 #~ msgstr "搜尋記錄"
 
-#~ msgid "If you have your :ref:`EnableSearchHistory` preference set to keep your search history then you can access this information by clicking on your username in the top right of the staff client and choosing 'Search history'."
-#~ msgstr "若設定 EnableSearchHistory 偏好以儲存搜尋記錄，則可勾選館員介面上方的使用者名稱，選擇 '搜尋記錄'，近用此資訊。"
+#~ msgid ""
+#~ "If you have your :ref:`EnableSearchHistory` preference set to keep your "
+#~ "search history then you can access this information by clicking on your "
+#~ "username in the top right of the staff client and choosing 'Search "
+#~ "history'."
+#~ msgstr ""
+#~ "若設定 EnableSearchHistory 偏好以儲存搜尋記錄，則可勾選館員介面上方的使用"
+#~ "者名稱，選擇 '搜尋記錄'，近用此資訊。"
 
 #~ msgid "|image1062|"
 #~ msgstr "|image1062|"
@@ -74,7 +98,9 @@ msgstr "設定完成後需要改變您的 UseKohaPlugins 系統偏好。在工�
 #~ msgid "About Koha"
 #~ msgstr "關於 Koha"
 
-#~ msgid "The 'About Koha' area will give you important server information as well as general information about Koha."
+#~ msgid ""
+#~ "The 'About Koha' area will give you important server information as well "
+#~ "as general information about Koha."
 #~ msgstr "在 '關於 Koha' 區塊將提供重要的伺服器資訊及 Koha 的整體資訊。"
 
 #~ msgid "*Get there:* More > About Koha"
@@ -83,8 +109,20 @@ msgstr "設定完成後需要改變您的 UseKohaPlugins 系統偏好。在工�
 #~ msgid "Server Information"
 #~ msgstr "伺服器資訊"
 
-#~ msgid "Under the 'Server Information' tab you will find information about the Koha version and the machine you have installed Koha on. This information is very important for debugging problems. When reporting issues to your support provider or to the various other support avenues (mailing lists, chat room, etc), it's always good to give the information from this screen. The time zone is handled via Koha or server configuration. For more information how to specify time zones per instance, see https://wiki.koha-community.org/wiki/Time_Zone_Configuration"
-#~ msgstr "您可在 '伺服器資訊' 分頁找到安裝的 Koha 版本及機器資訊。對除錯極有幫助。向支援廠商或其他支援資源(郵寄名單、聊天室等)報告問題時，應同時提供該等資訊。由 Koha 或伺服器組態處理時區。時區詳情，見 https://wiki.koha-community.org/wiki/Time_Zone_Configuration"
+#~ msgid ""
+#~ "Under the 'Server Information' tab you will find information about the "
+#~ "Koha version and the machine you have installed Koha on. This information "
+#~ "is very important for debugging problems. When reporting issues to your "
+#~ "support provider or to the various other support avenues (mailing lists, "
+#~ "chat room, etc), it's always good to give the information from this "
+#~ "screen. The time zone is handled via Koha or server configuration. For "
+#~ "more information how to specify time zones per instance, see https://wiki."
+#~ "koha-community.org/wiki/Time_Zone_Configuration"
+#~ msgstr ""
+#~ "您可在 '伺服器資訊' 分頁找到安裝的 Koha 版本及機器資訊。對除錯極有幫助。向"
+#~ "支援廠商或其他支援資源(郵寄名單、聊天室等)報告問題時，應同時提供該等資訊。"
+#~ "由 Koha 或伺服器組態處理時區。時區詳情，見 https://wiki.koha-community."
+#~ "org/wiki/Time_Zone_Configuration"
 
 #~ msgid "|image1065|"
 #~ msgstr "|image1065|"
@@ -92,21 +130,34 @@ msgstr "設定完成後需要改變您的 UseKohaPlugins 系統偏好。在工�
 #~ msgid "Perl Modules"
 #~ msgstr "Perl 模組"
 
-#~ msgid "In order to take advantage of all of the functionalities of Koha, you will need to keep your Perl modules up to date. The 'Perl Modules' tab will show you all of the modules required by Koha, the version you have installed and whether you need to upgrade certain modules."
-#~ msgstr "為了使用 Koha 的全部功能，需讓 Perl 模組在最新的狀態。'Perl 模組' 分頁將顯示 Koha 需用到的模組，現在安裝的版本以及需要更新的模組。"
+#~ msgid ""
+#~ "In order to take advantage of all of the functionalities of Koha, you "
+#~ "will need to keep your Perl modules up to date. The 'Perl Modules' tab "
+#~ "will show you all of the modules required by Koha, the version you have "
+#~ "installed and whether you need to upgrade certain modules."
+#~ msgstr ""
+#~ "為了使用 Koha 的全部功能，需讓 Perl 模組在最新的狀態。'Perl 模組' 分頁將顯"
+#~ "示 Koha 需用到的模組，現在安裝的版本以及需要更新的模組。"
 
 #~ msgid "|image1066|"
 #~ msgstr "|image1066|"
 
-#~ msgid "Items listed in bold are required by Koha, items highlighted in red are missing completely and items highlighted in yellow simply need to be upgraded."
-#~ msgstr "以粗體顯示的內容為 Koha 的必備要件，以紅色顯示表示未安裝，以黃色顯示則需要更新。"
+#~ msgid ""
+#~ "Items listed in bold are required by Koha, items highlighted in red are "
+#~ "missing completely and items highlighted in yellow simply need to be "
+#~ "upgraded."
+#~ msgstr ""
+#~ "以粗體顯示的內容為 Koha 的必備要件，以紅色顯示表示未安裝，以黃色顯示則需要"
+#~ "更新。"
 
 #~ msgid "System Information"
 #~ msgstr "系統資訊"
 
-#~ msgid "This tab will provide you with warnings if you are using system preferences that have since been deprecated or system preferences that you have set without other required preferences"
+#~ msgid ""
+#~ "This tab will provide you with warnings if you are using system "
+#~ "preferences that have since been deprecated or system preferences that "
+#~ "you have set without other required preferences"
 #~ msgstr "此分頁顯示警語，系統偏好未設定或無相關設定時，均顯示於此"
 
 #~ msgid "|image1067|"
 #~ msgstr "|image1067|"
-

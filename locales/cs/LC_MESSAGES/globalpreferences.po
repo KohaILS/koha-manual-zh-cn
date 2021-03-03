@@ -16,13 +16,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Pootle-Path: /cs/man20.11/globalpreferences.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/globalpreferences.rst:6
 msgid "Global system preferences"
 msgstr ""
 
 #: ../../source/globalpreferences.rst:8
-msgid "Global system preferences control the way your Koha system works in general. Set these preferences before anything else in Koha."
+msgid ""
+"Global system preferences control the way your Koha system works in general. "
+"Set these preferences before anything else in Koha."
 msgstr ""
 
 #: ../../source/globalpreferences.rst:11
@@ -34,7 +38,10 @@ msgid "|image0|"
 msgstr "|image0|"
 
 #: ../../source/globalpreferences.rst:15
-msgid "System preferences can be searched (using any part of the preference name or description) using the search box on the 'Administration' page or the search box at the top of each system preferences page."
+msgid ""
+"System preferences can be searched (using any part of the preference name or "
+"description) using the search box on the 'Administration' page or the search "
+"box at the top of each system preferences page."
 msgstr ""
 
 #: ../../source/globalpreferences.rst:19
@@ -42,7 +49,9 @@ msgid "|image1|"
 msgstr "|image1|"
 
 #: ../../source/globalpreferences.rst:21
-msgid "When editing preferences a ^(modified)^ tag will appear next to items you change until you click the 'Save All' button:"
+msgid ""
+"When editing preferences a ^(modified)^ tag will appear next to items you "
+"change until you click the 'Save All' button:"
 msgstr ""
 
 #: ../../source/globalpreferences.rst:24
@@ -50,7 +59,9 @@ msgid "|image2|"
 msgstr "|image2|"
 
 #: ../../source/globalpreferences.rst:26
-msgid "After saving your preferences you'll get a confirmation message telling you what preferences were saved:"
+msgid ""
+"After saving your preferences you'll get a confirmation message telling you "
+"what preferences were saved:"
 msgstr ""
 
 #: ../../source/globalpreferences.rst:29
@@ -58,7 +69,9 @@ msgid "|image3|"
 msgstr "|image3|"
 
 #: ../../source/globalpreferences.rst:31
-msgid "Each section of preferences can be sorted alphabetically by clicking the small down arrow to the right of the word 'Preference' in the header column"
+msgid ""
+"Each section of preferences can be sorted alphabetically by clicking the "
+"small down arrow to the right of the word 'Preference' in the header column"
 msgstr ""
 
 #: ../../source/globalpreferences.rst:35
@@ -66,7 +79,11 @@ msgid "|image4|"
 msgstr "|image4|"
 
 #: ../../source/globalpreferences.rst:37
-msgid "If the preference refers to monetary values (like :ref:`maxoutstanding`) the currency displayed will be the default you set in your :ref:`Currencies and Exchange Rates` administration area. In the examples to follow they will all read USD for U.S. Dollars."
+msgid ""
+"If the preference refers to monetary values (like :ref:`maxoutstanding`) the "
+"currency displayed will be the default you set in your :ref:`Currencies and "
+"Exchange Rates` administration area. In the examples to follow they will all "
+"read USD for U.S. Dollars."
 msgstr ""
 
 #: ../../source/globalpreferences.rst:43
@@ -74,6 +91,14 @@ msgid "**Important**"
 msgstr ""
 
 #: ../../source/globalpreferences.rst:45
-msgid "For libraries systems with unique URLs for each site the system preference can be overridden by editing your koha-http.conf file this has to be done by a system administrator or someone with access to your system files. For example if all libraries but one want to have search terms highlighted in results you set the OpacHighlightedWords preference to 'Highlight' then edit the koha-http.conf for the library that wants this turned off by adding 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting the web server that one library will no longer see highlighted terms. Consult with your system administrator for more information."
+msgid ""
+"For libraries systems with unique URLs for each site the system preference "
+"can be overridden by editing your koha-http.conf file this has to be done by "
+"a system administrator or someone with access to your system files. For "
+"example if all libraries but one want to have search terms highlighted in "
+"results you set the OpacHighlightedWords preference to 'Highlight' then edit "
+"the koha-http.conf for the library that wants this turned off by adding "
+"'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting "
+"the web server that one library will no longer see highlighted terms. "
+"Consult with your system administrator for more information."
 msgstr ""
-

@@ -5,27 +5,34 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha Manual 18.11\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-02 01:15-0300\n"
 "PO-Revision-Date: 2020-08-05 21:25+0000\n"
-"Last-Translator: KnowledgeWare Technologies Est. <massoudalshareef@kwareict.com>\n"
+"Last-Translator: KnowledgeWare Technologies Est. <massoudalshareef@kwareict."
+"com>\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.8\n"
 "X-POOTLE-MTIME: 1596662733.373456\n"
+"X-Pootle-Path: /ar/man20.11/about.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/about.rst:6
 msgid "About Koha"
 msgstr "حول كوها"
 
 #: ../../source/about.rst:8
-msgid "The **About Koha** area will give you important server information as well as general information about Koha."
-msgstr "يقدم لك قسم **حول كوها** معلومات خادم هامة فضلاً عن المعلومات العامة حول كوها."
+msgid ""
+"The **About Koha** area will give you important server information as well "
+"as general information about Koha."
+msgstr ""
+"يقدم لك قسم **حول كوها** معلومات خادم هامة فضلاً عن المعلومات العامة حول كوها."
 
 #: ../../source/about.rst:11
 msgid "*Get there:* More > About Koha"
@@ -36,8 +43,23 @@ msgid "Server information"
 msgstr "معلومات الخادم"
 
 #: ../../source/about.rst:18
-msgid "Under the **Server information** tab you will find information about the Koha version and the machine you have installed Koha on. This information is very important for debugging problems. When reporting issues to your support provider or to the various other support avenues (mailing lists, chat room, etc), it's always good to give the information from this screen. The time zone is handled via Koha or server configuration. For more information how to specify time zones per instance, see https://wiki.koha-community.org/wiki/Time_Zone_Configuration"
-msgstr "أدنى تبويب **معلومات الخادم** ستجد معلومات حول إصدار كوها والآلة التي قمت بتثبيت كوها عليها. هذه المعلومات ذات أهمية بالغة لإصلاح المشكلات. عند التبليغ عن وجود مشكلات إلى مقدم خدمة الدعم الخاص بك، أو إلى أي من مراكز الدعم الأخرى (القوائم البريدية، غرف المحادثة، إلخ)، من الجيد دوماً تقديم معلومات من هذه الشاشة. تتم معالجة المنطقة الزمنية عبر تهيئة كوها أو الخادم. للمزيد من المعلومات حول كيفية تحديد المناطق الزمنية لكل تثبيت، انظر https://wiki.koha-community.org/wiki/Time_Zone_Configuration"
+msgid ""
+"Under the **Server information** tab you will find information about the "
+"Koha version and the machine you have installed Koha on. This information is "
+"very important for debugging problems. When reporting issues to your support "
+"provider or to the various other support avenues (mailing lists, chat room, "
+"etc), it's always good to give the information from this screen. The time "
+"zone is handled via Koha or server configuration. For more information how "
+"to specify time zones per instance, see https://wiki.koha-community.org/wiki/"
+"Time_Zone_Configuration"
+msgstr ""
+"أدنى تبويب **معلومات الخادم** ستجد معلومات حول إصدار كوها والآلة التي قمت "
+"بتثبيت كوها عليها. هذه المعلومات ذات أهمية بالغة لإصلاح المشكلات. عند "
+"التبليغ عن وجود مشكلات إلى مقدم خدمة الدعم الخاص بك، أو إلى أي من مراكز "
+"الدعم الأخرى (القوائم البريدية، غرف المحادثة، إلخ)، من الجيد دوماً تقديم "
+"معلومات من هذه الشاشة. تتم معالجة المنطقة الزمنية عبر تهيئة كوها أو الخادم. "
+"للمزيد من المعلومات حول كيفية تحديد المناطق الزمنية لكل تثبيت، انظر https://"
+"wiki.koha-community.org/wiki/Time_Zone_Configuration"
 
 #: ../../source/about.rst:28
 msgid "|image1065|"
@@ -48,26 +70,42 @@ msgid "Perl modules"
 msgstr "أنظمة بيرل الفرعية"
 
 #: ../../source/about.rst:35
-msgid "In order to take advantage of all of the functionalities of Koha, you will need to keep your Perl modules up to date. The **Perl modules** tab will show you all of the modules required by Koha, the version you have installed and whether you need to upgrade certain modules."
-msgstr "للاستفادة من جميع وظائف كوها، يجب عليك تحديث أنظمة بيرل الفرعية دائماً. سيقوم تبويب **أنظمة بيرل الفرعية** بعرض كل الأنظمة الفرعية المطلوبة بواسطة كوها، والإصدار الذي قمت بتثبيته، وما إذا كنت بحاجة إلى ترقية أنظمة فرعية معينة."
+msgid ""
+"In order to take advantage of all of the functionalities of Koha, you will "
+"need to keep your Perl modules up to date. The **Perl modules** tab will "
+"show you all of the modules required by Koha, the version you have installed "
+"and whether you need to upgrade certain modules."
+msgstr ""
+"للاستفادة من جميع وظائف كوها، يجب عليك تحديث أنظمة بيرل الفرعية دائماً. سيقوم "
+"تبويب **أنظمة بيرل الفرعية** بعرض كل الأنظمة الفرعية المطلوبة بواسطة كوها، "
+"والإصدار الذي قمت بتثبيته، وما إذا كنت بحاجة إلى ترقية أنظمة فرعية معينة."
 
 #: ../../source/about.rst:40
 msgid "|image1066|"
 msgstr "|image1066|"
 
 #: ../../source/about.rst:42
-msgid "Items listed in bold are required by Koha, items highlighted in red are missing completely and items highlighted in yellow simply need to be upgraded."
-msgstr "المواد المدرجة بالخط العريض مطلوبة بواسطة كوها، والمواد المظللة باللون الأحمر مفقودة تماماً، والمواد المظللة باللون الأصفر يجب ترقيتها."
+msgid ""
+"Items listed in bold are required by Koha, items highlighted in red are "
+"missing completely and items highlighted in yellow simply need to be "
+"upgraded."
+msgstr ""
+"المواد المدرجة بالخط العريض مطلوبة بواسطة كوها، والمواد المظللة باللون "
+"الأحمر مفقودة تماماً، والمواد المظللة باللون الأصفر يجب ترقيتها."
 
 #: ../../source/about.rst:49
 msgid "System information"
 msgstr "معلومات النظام"
 
 #: ../../source/about.rst:51
-msgid "This tab will provide you with warnings if you are using system preferences that have since been deprecated or system preferences that you have set without other required preferences"
-msgstr "سيزودك هذا التبويب بالتحذيرات إذا ما كنت تستخدم تفضيلات النظام التي أصبحت مهملة أو تلك التي قمت بضبطها بدون أن ضبط تفضيلات أخرى مطلوبة معها."
+msgid ""
+"This tab will provide you with warnings if you are using system preferences "
+"that have since been deprecated or system preferences that you have set "
+"without other required preferences"
+msgstr ""
+"سيزودك هذا التبويب بالتحذيرات إذا ما كنت تستخدم تفضيلات النظام التي أصبحت "
+"مهملة أو تلك التي قمت بضبطها بدون أن ضبط تفضيلات أخرى مطلوبة معها."
 
 #: ../../source/about.rst:55
 msgid "|image1067|"
 msgstr "|image1067|"
-

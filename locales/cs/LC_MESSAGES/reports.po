@@ -1,7 +1,7 @@
 # Compendium of cs.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha man18.05\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2018-05-15 19:48-0300\n"
@@ -18,8 +18,14 @@ msgid "Reports"
 msgstr "Výstupy"
 
 #: ../../source/reports.rst:8
-msgid "Reports in Koha are a way to gather data. Reports are used to generate statistics, member lists, shelving lists, or any list of data in your database."
-msgstr "Výstupy (sestavy) jsou způsobem jak shromáždit data. Užívají se pro generování statistik, seznamy členů, seznamy podle regálů, nebo jakékoliv data z vaší databáze.  "
+msgid ""
+"Reports in Koha are a way to gather data. Reports are used to generate "
+"statistics, member lists, shelving lists, or any list of data in your "
+"database."
+msgstr ""
+"Výstupy (sestavy) jsou způsobem jak shromáždit data. Užívají se pro "
+"generování statistik, seznamy členů, seznamy podle regálů, nebo jakékoliv "
+"data z vaší databáze.  "
 
 #: ../../source/reports.rst:12
 #, fuzzy
@@ -33,8 +39,15 @@ msgstr "Zákaznické sestavy"
 
 #: ../../source/reports.rst:19
 #, fuzzy
-msgid "Koha's data is stored in a MySQL database which means that librarians can generate nearly any report they would like by either using the :ref:`guided reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL query <report-from-sql-label>`."
-msgstr "Veškeré údaje se v systému Koha ukládají do databáze MySQL, což znamená, že knihovníci mohou vytvářet téměř libovolný výstup buď pomocí Průvodce výstupy, nebo napsáním vlastního SQL dotazu."
+msgid ""
+"Koha's data is stored in a MySQL database which means that librarians can "
+"generate nearly any report they would like by either using the :ref:`guided "
+"reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL "
+"query <report-from-sql-label>`."
+msgstr ""
+"Veškeré údaje se v systému Koha ukládají do databáze MySQL, což znamená, že "
+"knihovníci mohou vytvářet téměř libovolný výstup buď pomocí Průvodce "
+"výstupy, nebo napsáním vlastního SQL dotazu."
 
 #: ../../source/reports.rst:27
 #, fuzzy
@@ -47,15 +60,26 @@ msgid "Guided report wizard"
 msgstr "Průvodce tvorbou sestavy"
 
 #: ../../source/reports.rst:34
-msgid "The guided report wizard will walk you through a six step process to generate a report."
-msgstr "Naváděný tvůrce výkazů vás provede v šesti krocích ke generování sestavy."
+msgid ""
+"The guided report wizard will walk you through a six step process to "
+"generate a report."
+msgstr ""
+"Naváděný tvůrce výkazů vás provede v šesti krocích ke generování sestavy."
 
 #: ../../source/reports.rst:37
-msgid "Step 1: Choose the module you want to report on. This will determine what tables and fields are available for you to query."
-msgstr "Krok 1: Vyberte modul, o kterém chcete informovat. To bude určovat, jaké tabulky a pole Vám budou k dispozici na dotaz."
+msgid ""
+"Step 1: Choose the module you want to report on. This will determine what "
+"tables and fields are available for you to query."
+msgstr ""
+"Krok 1: Vyberte modul, o kterém chcete informovat. To bude určovat, jaké "
+"tabulky a pole Vám budou k dispozici na dotaz."
 
 #: ../../source/reports.rst:40
-msgid "'Report is public' should be left to the default of 'No' in most cases especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
+msgid ""
+"'Report is public' should be left to the default of 'No' in most cases "
+"especially if the report contains patron or other sensitive information. A "
+"public report can be accessed using the :ref:`JSON reports services <json-"
+"reports-services-label>` by anyone and without authentication."
 msgstr ""
 
 #: ../../source/reports.rst:45
@@ -77,7 +101,11 @@ msgid "**Note**"
 msgstr "**Poznámka**"
 
 #: ../../source/reports.rst:49 ../../source/reports.rst:189
-msgid "If your system administrator has set up memcache on your server you might see one more option for the Cache expiry. This is related to your public reports. If you make the report public then it's constantly running and will cause a large load on your system. Setting this value prevents that."
+msgid ""
+"If your system administrator has set up memcache on your server you might "
+"see one more option for the Cache expiry. This is related to your public "
+"reports. If you make the report public then it's constantly running and will "
+"cause a large load on your system. Setting this value prevents that."
 msgstr ""
 
 #: ../../source/reports.rst:55
@@ -86,8 +114,10 @@ msgid "|image1292|"
 msgstr "|image1292|"
 
 #: ../../source/reports.rst:57
-msgid "Step 2: Choose a report type. For now, Tabular is the only option available."
-msgstr "Krok 2: Vyberte typ zprávy. Prozatím  je k dispozici pouze volba tabelární."
+msgid ""
+"Step 2: Choose a report type. For now, Tabular is the only option available."
+msgstr ""
+"Krok 2: Vyberte typ zprávy. Prozatím  je k dispozici pouze volba tabelární."
 
 #: ../../source/reports.rst:60
 #, fuzzy
@@ -96,8 +126,14 @@ msgstr "|image882|"
 
 #: ../../source/reports.rst:62
 #, fuzzy
-msgid "Step 3: Choose the fields you want in your report. You can select multiple fields and add them all at once by using CTRL+click on each item you want to add before clicking the Add button."
-msgstr "Krok 3: Vyberte pole, která chcete v sestavě. Můžete vybrat více polí a přidat je všechny najednou pomocí kombinace kláves CTRL + Klepněte na každou položku, kterou chcete přidat před klepnutím na tlačítko Přidat."
+msgid ""
+"Step 3: Choose the fields you want in your report. You can select multiple "
+"fields and add them all at once by using CTRL+click on each item you want to "
+"add before clicking the Add button."
+msgstr ""
+"Krok 3: Vyberte pole, která chcete v sestavě. Můžete vybrat více polí a "
+"přidat je všechny najednou pomocí kombinace kláves CTRL + Klepněte na každou "
+"položku, kterou chcete přidat před klepnutím na tlačítko Přidat."
 
 #: ../../source/reports.rst:66
 #, fuzzy
@@ -106,8 +142,14 @@ msgstr "|image883|"
 
 #: ../../source/reports.rst:68
 #, fuzzy
-msgid "Step 4: Choose any limits you might want to apply to your report (such as item types or branches). If you don't want to apply any limits, simply click 'Next' instead of choosing an option."
-msgstr "Krok 4: Vyberte si limity, které budete chtít použít do sestavy (například typy jednotek nebo poboček). Pokud nechcete použít žádné limity, jednoduše klepněte na tlačítko Další namísto této možnosti."
+msgid ""
+"Step 4: Choose any limits you might want to apply to your report (such as "
+"item types or branches). If you don't want to apply any limits, simply click "
+"'Next' instead of choosing an option."
+msgstr ""
+"Krok 4: Vyberte si limity, které budete chtít použít do sestavy (například "
+"typy jednotek nebo poboček). Pokud nechcete použít žádné limity, jednoduše "
+"klepněte na tlačítko Další namísto této možnosti."
 
 #: ../../source/reports.rst:72
 #, fuzzy
@@ -116,8 +158,12 @@ msgstr "|image884|"
 
 #: ../../source/reports.rst:74
 #, fuzzy
-msgid "Step 5: Perform math functions. If you don't want to do any calculations, simply click 'Next' instead of choosing an option."
-msgstr "Krok 5: Proveďte matematické funkce. Pokud nechcete dělat žádné výpočty, jednoduše klepněte na tlačítko Další namísto této možnosti."
+msgid ""
+"Step 5: Perform math functions. If you don't want to do any calculations, "
+"simply click 'Next' instead of choosing an option."
+msgstr ""
+"Krok 5: Proveďte matematické funkce. Pokud nechcete dělat žádné výpočty, "
+"jednoduše klepněte na tlačítko Další namísto této možnosti."
 
 #: ../../source/reports.rst:77
 #, fuzzy
@@ -126,8 +172,12 @@ msgstr "|image885|"
 
 #: ../../source/reports.rst:79
 #, fuzzy
-msgid "Step 6: Choose data order. If you want the data to print out in the order it's found in the database, simply click 'Finish'."
-msgstr "Krok 6: Zvolte třídění dat. Pokud chcete data vytisknout v pořadí jaké je databázi, jednoduše klepněte na tlačítko Dokončit."
+msgid ""
+"Step 6: Choose data order. If you want the data to print out in the order "
+"it's found in the database, simply click 'Finish'."
+msgstr ""
+"Krok 6: Zvolte třídění dat. Pokud chcete data vytisknout v pořadí jaké je "
+"databázi, jednoduše klepněte na tlačítko Dokončit."
 
 #: ../../source/reports.rst:82
 #, fuzzy
@@ -136,8 +186,14 @@ msgstr "|image886|"
 
 #: ../../source/reports.rst:84
 #, fuzzy
-msgid "When you are finished you will be presented with the SQL generated by the report wizard. From here you can choose to save the report by clicking 'Finish' or copy the SQL and make edits to it by hand."
-msgstr "Až budete hotovi, objeví se s SQL generované Průvodcem sestavou. Odtud si můžete vybrat sestavu a uložit klepnutím na tlačítko \"Uložit\" nebo zkopírovat SQL a provádět úpravy ručně."
+msgid ""
+"When you are finished you will be presented with the SQL generated by the "
+"report wizard. From here you can choose to save the report by clicking "
+"'Finish' or copy the SQL and make edits to it by hand."
+msgstr ""
+"Až budete hotovi, objeví se s SQL generované Průvodcem sestavou. Odtud si "
+"můžete vybrat sestavu a uložit klepnutím na tlačítko \"Uložit\" nebo "
+"zkopírovat SQL a provádět úpravy ručně."
 
 #: ../../source/reports.rst:88
 #, fuzzy
@@ -145,8 +201,13 @@ msgid "|image887|"
 msgstr "|image887|"
 
 #: ../../source/reports.rst:90
-msgid "If you choose to save the report you will be asked to name your report, sort it in to groups and subgroups and enter any notes regarding it."
-msgstr "Pokud se rozhodnete uložit sestavu, budete požádáni o zadání názvu sestavy, o setřídění do skupin a podskupin, a zadejte případné poznámky týkající se sestavy."
+msgid ""
+"If you choose to save the report you will be asked to name your report, sort "
+"it in to groups and subgroups and enter any notes regarding it."
+msgstr ""
+"Pokud se rozhodnete uložit sestavu, budete požádáni o zadání názvu sestavy, "
+"o setřídění do skupin a podskupin, a zadejte případné poznámky týkající se "
+"sestavy."
 
 #: ../../source/reports.rst:93
 #, fuzzy
@@ -155,8 +216,12 @@ msgstr "|image888|"
 
 #: ../../source/reports.rst:95
 #, fuzzy
-msgid "Once your report is saved it will appear on the 'Use saved' page with all other saved reports."
-msgstr "Jakmile svůj výstup uložíte, bude dostupný se na stránce \"Použít uložené\" se všemi ostatními uloženými výstupy."
+msgid ""
+"Once your report is saved it will appear on the 'Use saved' page with all "
+"other saved reports."
+msgstr ""
+"Jakmile svůj výstup uložíte, bude dostupný se na stránce \"Použít uložené\" "
+"se všemi ostatními uloženými výstupy."
 
 #: ../../source/reports.rst:98 ../../source/reports.rst:357
 #, fuzzy
@@ -164,24 +229,50 @@ msgid "|image889|"
 msgstr "|image889|"
 
 #: ../../source/reports.rst:102 ../../source/reports.rst:361
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: table_reports)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: table_reports)."
 msgstr ""
 
 #: ../../source/reports.rst:106
-msgid "From here you can make edits, run the report, or schedule a time to have the report run. To find the report you created you can sort by any of the columns by clicking the on the column header (creation date is the best bet for finding the report you just added). You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
-msgstr "Odtud můžete provádět úpravy, spouštět výstupy a také plánovat časované spouštění výstupů. Chcete-li vyhledat výstup, který jste vytvořili, můžete řadit podle kteréhokoli sloupce kliknutím na záhlaví sloupce (datum vytvoření je nejlepší volba pro nalezení výstupu, který jste právě přidali). Můžete také zúžit výsledky pomocí filtrů na levé straně, nebo pomocí záložek, pod kterými se nacházejí jednotlivé skupiny výstupů."
+msgid ""
+"From here you can make edits, run the report, or schedule a time to have the "
+"report run. To find the report you created you can sort by any of the "
+"columns by clicking the on the column header (creation date is the best bet "
+"for finding the report you just added). You can also filter your results "
+"using the filter menu on the left or use the tabs to find reports based on "
+"your custom groups."
+msgstr ""
+"Odtud můžete provádět úpravy, spouštět výstupy a také plánovat časované "
+"spouštění výstupů. Chcete-li vyhledat výstup, který jste vytvořili, můžete "
+"řadit podle kteréhokoli sloupce kliknutím na záhlaví sloupce (datum "
+"vytvoření je nejlepší volba pro nalezení výstupu, který jste právě přidali). "
+"Můžete také zúžit výsledky pomocí filtrů na levé straně, nebo pomocí "
+"záložek, pod kterými se nacházejí jednotlivé skupiny výstupů."
 
 #: ../../source/reports.rst:116
 msgid "Report from SQL"
 msgstr "Výstup pomocí SQL"
 
 #: ../../source/reports.rst:118
-msgid "In addition to the report wizard, you have the option to write your own queries using SQL. To find reports written by other Koha users, visit the Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can also find your database structure in /installer/data/mysql/kohastructure.sql or online at: `http://schema.koha-community.org <http://schema.koha-community.org/>`__."
+msgid ""
+"In addition to the report wizard, you have the option to write your own "
+"queries using SQL. To find reports written by other Koha users, visit the "
+"Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can "
+"also find your database structure in /installer/data/mysql/kohastructure.sql "
+"or online at: `http://schema.koha-community.org <http://schema.koha-"
+"community.org/>`__."
 msgstr ""
 
 #: ../../source/reports.rst:125
-msgid "To add your query, click the link to 'Create from SQL' on the main reports module or the 'New report' button at the top of the 'Saved reports' page."
-msgstr "Chcete-li přidat váš dotaz, klikněte na odkaz \"Vytvořit z SQL\" na hlavním stránce modulu výstupů nebo na tlačítko \"Nový výstup\" v horní části stránky \"Uložené výstupy\"."
+msgid ""
+"To add your query, click the link to 'Create from SQL' on the main reports "
+"module or the 'New report' button at the top of the 'Saved reports' page."
+msgstr ""
+"Chcete-li přidat váš dotaz, klikněte na odkaz \"Vytvořit z SQL\" na hlavním "
+"stránce modulu výstupů nebo na tlačítko \"Nový výstup\" v horní části "
+"stránky \"Uložené výstupy\"."
 
 #: ../../source/reports.rst:129
 #, fuzzy
@@ -198,13 +289,27 @@ msgid "|image891|"
 msgstr "|image891|"
 
 #: ../../source/reports.rst:135
-msgid "The 'Name' is what will appear on the Saved Reports page to help you identify the report later. It will also be searchable using the filters found the left of the Saved Reports page."
-msgstr "\"Jméno\" je něco, co se objeví na stránce \"Uložené výstupy\" aby vám to později pomohlo identifikovat výstup. Podle jména je možné výstupy také vyhledávat pomocí filtrů (vlevo) na stránce \"Uložené výstupy\"."
+msgid ""
+"The 'Name' is what will appear on the Saved Reports page to help you "
+"identify the report later. It will also be searchable using the filters "
+"found the left of the Saved Reports page."
+msgstr ""
+"\"Jméno\" je něco, co se objeví na stránce \"Uložené výstupy\" aby vám to "
+"později pomohlo identifikovat výstup. Podle jména je možné výstupy také "
+"vyhledávat pomocí filtrů (vlevo) na stránce \"Uložené výstupy\"."
 
 #: ../../source/reports.rst:139
 #, fuzzy
-msgid "You can use the 'Report group' to organize your reports so that you can easily filter reports by groups. Report groups are set in the `REPORT\\_GROUP <#reportgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button."
-msgstr "Můžete použít \"Skupiny výstupů\" pro organizování Vašich Výstupů, takže můžete snadno filtrovat výstupy podle skupin. Skupiny zpráv se nastavují v kategorii REPORT_GROUP v ověřených hodnotách, nebo mohou být přidány při vytváření výstupu výběrem možnosti \"nebo vytvořit novou\". "
+msgid ""
+"You can use the 'Report group' to organize your reports so that you can "
+"easily filter reports by groups. Report groups are set in the `REPORT"
+"\\_GROUP <#reportgroup>`__ authorized value category or can be added on the "
+"fly when creating the report by choosing the 'or create' radio button."
+msgstr ""
+"Můžete použít \"Skupiny výstupů\" pro organizování Vašich Výstupů, takže "
+"můžete snadno filtrovat výstupy podle skupin. Skupiny zpráv se nastavují v "
+"kategorii REPORT_GROUP v ověřených hodnotách, nebo mohou být přidány při "
+"vytváření výstupu výběrem možnosti \"nebo vytvořit novou\". "
 
 #: ../../source/reports.rst:145
 #, fuzzy
@@ -212,17 +317,35 @@ msgid "|image1293|"
 msgstr "|image1293|"
 
 #: ../../source/reports.rst:147
-msgid "Report groups set up in the authorised value category need to have unique authorised values and descriptions."
+msgid ""
+"Report groups set up in the authorised value category need to have unique "
+"authorised values and descriptions."
 msgstr ""
 
 #: ../../source/reports.rst:152
-msgid "If you're adding a report group on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
-msgstr "Pokud přidáváte skupinu sestavy za běhu, pamatujte, že váš kód by měl být méně než 10 znaků a nesmí obsahovat speciální znaky ani mezery."
+msgid ""
+"If you're adding a report group on the fly, remember that you code should be "
+"fewer than 10 characters and should not include special characters or spaces."
+msgstr ""
+"Pokud přidáváte skupinu sestavy za běhu, pamatujte, že váš kód by měl být "
+"méně než 10 znaků a nesmí obsahovat speciální znaky ani mezery."
 
 #: ../../source/reports.rst:156
 #, fuzzy
-msgid "You can use 'Report subgroup' to further organize your reports so that you can easily filter reports by groups and subgroups. Report subgroups are set in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button.  Report subgroups are set up with unique values in 'Authorised value', and 'Description'. The 'Description (OPAC)'' field needs to contain the authorised value for the report group that the subgroup falls under."
-msgstr "Můžete použít \"Podskupinu výstupů\" a tak dále organizovat své výstupy, takže můžete snadno filtrovat výstupy podle skupin a podskupin. Podskupiny výstupů jsou nastaveny v kategorii REPORT_SUBGROUP v ověřených hodnotách, nebo mohou být přidány při vytváření výstupu výběrem možnosti \"nebo vytvořit novou\". "
+msgid ""
+"You can use 'Report subgroup' to further organize your reports so that you "
+"can easily filter reports by groups and subgroups. Report subgroups are set "
+"in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or "
+"can be added on the fly when creating the report by choosing the 'or create' "
+"radio button.  Report subgroups are set up with unique values in 'Authorised "
+"value', and 'Description'. The 'Description (OPAC)'' field needs to contain "
+"the authorised value for the report group that the subgroup falls under."
+msgstr ""
+"Můžete použít \"Podskupinu výstupů\" a tak dále organizovat své výstupy, "
+"takže můžete snadno filtrovat výstupy podle skupin a podskupin. Podskupiny "
+"výstupů jsou nastaveny v kategorii REPORT_SUBGROUP v ověřených hodnotách, "
+"nebo mohou být přidány při vytváření výstupu výběrem možnosti \"nebo "
+"vytvořit novou\". "
 
 #: ../../source/reports.rst:165
 #, fuzzy
@@ -230,25 +353,42 @@ msgid "|image892|"
 msgstr "|image892|"
 
 #: ../../source/reports.rst:169
-msgid "If you're adding a report subgroup on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
-msgstr "Pokud přidáváte podskupinu sestav za běhu, nezapomeňte, že kód podskupiny by měl být méně než 10 znaků a nesmí obsahovat speciální znaky ani mezery."
+msgid ""
+"If you're adding a report subgroup on the fly, remember that you code should "
+"be fewer than 10 characters and should not include special characters or "
+"spaces."
+msgstr ""
+"Pokud přidáváte podskupinu sestav za běhu, nezapomeňte, že kód podskupiny by "
+"měl být méně než 10 znaků a nesmí obsahovat speciální znaky ani mezery."
 
 #: ../../source/reports.rst:176
 msgid "'Report is public' should be left to the default of 'No' in most cases"
 msgstr ""
 
 #: ../../source/reports.rst:174
-msgid "especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
+msgid ""
+"especially if the report contains patron or other sensitive information. A "
+"public report can be accessed using the :ref:`JSON reports services <json-"
+"reports-services-label>` by anyone and without authentication."
 msgstr ""
 
 #: ../../source/reports.rst:178
 #, fuzzy
-msgid "'Notes' will also appear on the saved reports page, this can be used to provide more details about the report or tips on how to enter values when it runs"
-msgstr "'Poznámky' jsou součástí stránky Uložené výstupy a mohou být využity k podrobnějšímu popisu výstupu nebo k poskytnutí tipů k zadávání vstupních dat."
+msgid ""
+"'Notes' will also appear on the saved reports page, this can be used to "
+"provide more details about the report or tips on how to enter values when it "
+"runs"
+msgstr ""
+"'Poznámky' jsou součástí stránky Uložené výstupy a mohou být využity k "
+"podrobnějšímu popisu výstupu nebo k poskytnutí tipů k zadávání vstupních dat."
 
 #: ../../source/reports.rst:182
-msgid "The type should always be 'Tabular' at this time since the other formats have not been implemented"
-msgstr "Typ by měl být vždy \"Tabulka\". Ostatní možnosti doposud nebyly implementovány"
+msgid ""
+"The type should always be 'Tabular' at this time since the other formats "
+"have not been implemented"
+msgstr ""
+"Typ by měl být vždy \"Tabulka\". Ostatní možnosti doposud nebyly "
+"implementovány"
 
 #: ../../source/reports.rst:185
 msgid "In the 'SQL' box you will type or paste the SQL for the report"
@@ -261,8 +401,17 @@ msgstr "|image1294|"
 
 #: ../../source/reports.rst:197
 #, fuzzy
-msgid "Once everything is entered click the 'Save report' button and you'll be presented with options to run it. Once a report is saved you do not have to recreate it you can simply find it on the Saved Reports page and :ref:`run <running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` it."
-msgstr "Pokud je všechno zadáno, klikněte na \"Uložit výstup\" a zobrazí se Vám možnosti spuštění. Pokud je výstup jednou uložený, nemusíte jej znovu vytvářet, ale jen jej vyhledáte na stránce Uložené výstupy a spustíte ho nebo upravíte."
+msgid ""
+"Once everything is entered click the 'Save report' button and you'll be "
+"presented with options to run it. Once a report is saved you do not have to "
+"recreate it you can simply find it on the Saved Reports page and :ref:`run "
+"<running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` "
+"it."
+msgstr ""
+"Pokud je všechno zadáno, klikněte na \"Uložit výstup\" a zobrazí se Vám "
+"možnosti spuštění. Pokud je výstup jednou uložený, nemusíte jej znovu "
+"vytvářet, ale jen jej vyhledáte na stránce Uložené výstupy a spustíte ho "
+"nebo upravíte."
 
 #: ../../source/reports.rst:205
 #, fuzzy
@@ -274,24 +423,42 @@ msgid "**Runtime parameters**"
 msgstr ""
 
 #: ../../source/reports.rst:209
-msgid "If you feel that your report might be too resource intensive you might want to consider using runtime parameters to your query. Runtime parameters basically make a filter appear before the report is run to save your system resources."
-msgstr "Pokud máte pocit, že vaše zpráva může být příliš náročná na zdroje, zvažte použití runtime parametrů vašeho dotazu. Runtime parametry v podstatě dělají filtr před spuštění sestavy a tak šetříte systémové prostředky."
+msgid ""
+"If you feel that your report might be too resource intensive you might want "
+"to consider using runtime parameters to your query. Runtime parameters "
+"basically make a filter appear before the report is run to save your system "
+"resources."
+msgstr ""
+"Pokud máte pocit, že vaše zpráva může být příliš náročná na zdroje, zvažte "
+"použití runtime parametrů vašeho dotazu. Runtime parametry v podstatě dělají "
+"filtr před spuštění sestavy a tak šetříte systémové prostředky."
 
 #: ../../source/reports.rst:214
-msgid "There is a specific syntax that Koha will understand as 'ask for values when running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
+msgid ""
+"There is a specific syntax that Koha will understand as 'ask for values when "
+"running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
 msgstr ""
 
 #: ../../source/reports.rst:218
 #, fuzzy
-msgid "The << and >> are just delimiters. You must put << at the beginning and >> at the end of your parameter"
-msgstr "Značky &lt;&lt; a &gt;&gt; jsou jen oddělovače. Musíte dát &lt;&lt; na začátku a &gt;&gt; na konci vašeho parametru"
+msgid ""
+"The << and >> are just delimiters. You must put << at the beginning and >> "
+"at the end of your parameter"
+msgstr ""
+"Značky &lt;&lt; a &gt;&gt; jsou jen oddělovače. Musíte dát &lt;&lt; na "
+"začátku a &gt;&gt; na konci vašeho parametru"
 
 #: ../../source/reports.rst:221
-msgid "The 'Question to ask' will be displayed on the left of the string to enter."
+msgid ""
+"The 'Question to ask' will be displayed on the left of the string to enter."
 msgstr "\"Položený dotaz\" se zobrazí vlevo od řetězce ke vložení."
 
 #: ../../source/reports.rst:224
-msgid "The authorized\\_value can be omitted if not applicable. If it contains an authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio\\_framework', a list with the Koha authorized values will be displayed instead of a free field."
+msgid ""
+"The authorized\\_value can be omitted if not applicable. If it contains an "
+"authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio"
+"\\_framework', a list with the Koha authorized values will be displayed "
+"instead of a free field."
 msgstr ""
 
 #: ../../source/reports.rst:231
@@ -300,13 +467,34 @@ msgstr ""
 
 #: ../../source/reports.rst:235
 #, fuzzy
-msgid "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field. For example entering nothing for: \"title=<<Enter title>>\" will display results with title='' (no title). If you want to have to have something not mandatory, use \"title like <<Enter title>>\" and enter a % at run time instead of nothing."
-msgstr "Authorized_value lze vynechat, jestliže se nedá použít. Pokud obsahuje seznam pololených hodnot v Koha kategorie autorizované hodnoty, nebo pobočky, nebo typ výtisku, kód kategorie, zobrazí se místo volného pole Poznámka, takže můžete mít více než jeden parametr v dané SQL Poznámce, takže prázdné zadání za běhu nebude pravděpodobně fungovat podle očekávání. To se považuje za \"prázdná hodnota\" a nikoliv jako \"ignorovat tento parametr\". Například prázdným zadáním pro: \"title=&lt;&lt;zadejte název&gt;&gt;\" se zobrazí výsledky s title=''(bez názvu)\". Pokud chcete mít něco, co není povinné, použijte \"title like &lt;&lt;zadejte název&gt;&gt;\" a zadejte %% při běhu namísto ničeho"
+msgid ""
+"You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it "
+"literally looks for \"\" (empty string) as the value for the field. For "
+"example entering nothing for: \"title=<<Enter title>>\" will display results "
+"with title='' (no title). If you want to have to have something not "
+"mandatory, use \"title like <<Enter title>>\" and enter a % at run time "
+"instead of nothing."
+msgstr ""
+"Authorized_value lze vynechat, jestliže se nedá použít. Pokud obsahuje "
+"seznam pololených hodnot v Koha kategorie autorizované hodnoty, nebo "
+"pobočky, nebo typ výtisku, kód kategorie, zobrazí se místo volného pole "
+"Poznámka, takže můžete mít více než jeden parametr v dané SQL Poznámce, "
+"takže prázdné zadání za běhu nebude pravděpodobně fungovat podle očekávání. "
+"To se považuje za \"prázdná hodnota\" a nikoliv jako \"ignorovat tento "
+"parametr\". Například prázdným zadáním pro: \"title=&lt;&lt;zadejte název&gt;"
+"&gt;\" se zobrazí výsledky s title=''(bez názvu)\". Pokud chcete mít něco, "
+"co není povinné, použijte \"title like &lt;&lt;zadejte název&gt;&gt;\" a "
+"zadejte %% při běhu namísto ničeho"
 
 #: ../../source/reports.rst:246
 #, fuzzy
-msgid "To generate a date picker calendar to the right of the field when running a report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
-msgstr "Tip: Chcete-li vytvořit kalendář pro výběr data vpravo od pole při spuštění sestavy můžete použít klíčové slovo \"datum\" takto: &lt;&lt;zadejte datum | datum&gt;&gt; "
+msgid ""
+"To generate a date picker calendar to the right of the field when running a "
+"report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
+msgstr ""
+"Tip: Chcete-li vytvořit kalendář pro výběr data vpravo od pole při spuštění "
+"sestavy můžete použít klíčové slovo \"datum\" takto: &lt;&lt;zadejte datum | "
+"datum&gt;&gt; "
 
 #: ../../source/reports.rst:250
 #, fuzzy
@@ -330,15 +518,22 @@ msgid "What gets inserted in query"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "date branches itemtypes categorycode biblio\\_framework (auth-value-category) (nothing)"
+msgid ""
+"date branches itemtypes categorycode biblio\\_framework (auth-value-"
+"category) (nothing)"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "date picker drop down of branch names drop down of item type names drop down of patron category descriptions drop down of MARC bibliographic frameworks drop down of auth-value descriptions in category text box"
+msgid ""
+"date picker drop down of branch names drop down of item type names drop down "
+"of patron category descriptions drop down of MARC bibliographic frameworks "
+"drop down of auth-value descriptions in category text box"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "validly formatted date branch code item type borrower category code framework code authorized value entered text"
+msgid ""
+"validly formatted date branch code item type borrower category code "
+"framework code authorized value entered text"
 msgstr ""
 
 #: ../../source/reports.rst:266
@@ -347,16 +542,28 @@ msgstr "Příklady:"
 
 #: ../../source/reports.rst:268
 #, fuzzy
-msgid "SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's library\\|branches>> AND surname like <<Enter filter for patron surname (% if none)>>"
-msgstr "SELECT surname,firstname FROM borrowers WHERE branchcode=&lt;&lt;Uveď čtenářovu knihovnu|pobočku&gt;&gt; AND surname like &lt;&lt;Vlož filtr pro čtenářovo příjmení (%% není-li)&gt;&gt;"
+msgid ""
+"SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's "
+"library\\|branches>> AND surname like <<Enter filter for patron surname (% "
+"if none)>>"
+msgstr ""
+"SELECT surname,firstname FROM borrowers WHERE branchcode=&lt;&lt;Uveď "
+"čtenářovu knihovnu|pobočku&gt;&gt; AND surname like &lt;&lt;Vlož filtr pro "
+"čtenářovo příjmení (%% není-li)&gt;&gt;"
 
 #: ../../source/reports.rst:272
 #, fuzzy
-msgid "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here>>"
-msgstr "SELECT * FROM items WHERE homebranch = &lt;&lt;Vyber svou pobočku|pobočky&gt;&gt; and barcode like &lt;&lt;Částečná hodnota čárového kódu zde&gt;&gt;"
+msgid ""
+"SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and "
+"barcode like <<Partial barcode value here>>"
+msgstr ""
+"SELECT * FROM items WHERE homebranch = &lt;&lt;Vyber svou pobočku|pobočky&gt;"
+"&gt; and barcode like &lt;&lt;Částečná hodnota čárového kódu zde&gt;&gt;"
 
 #: ../../source/reports.rst:275
-msgid "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>>"
+msgid ""
+"SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the "
+"frameworkcode\\|biblio\\_framework>>"
 msgstr ""
 
 #: ../../source/reports.rst:299
@@ -365,7 +572,9 @@ msgid "SQL report from Mana"
 msgstr "Výstup pomocí SQL"
 
 #: ../../source/reports.rst:301
-msgid "In the \"Create report from SQL\", you can search Mana KB for pre-made reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
+msgid ""
+"In the \"Create report from SQL\", you can search Mana KB for pre-made "
+"reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
 msgstr ""
 
 #: ../../source/reports.rst:304
@@ -374,7 +583,9 @@ msgid "|image1428|"
 msgstr "|image1428|"
 
 #: ../../source/reports.rst:308
-msgid "This option will only appear if you've :ref:`configured Mana KB <share-with-mana-kb-label>` in the administration module."
+msgid ""
+"This option will only appear if you've :ref:`configured Mana KB <share-with-"
+"mana-kb-label>` in the administration module."
 msgstr ""
 
 #: ../../source/reports.rst:310
@@ -412,11 +623,14 @@ msgid "|image1430|"
 msgstr "|image1430|"
 
 #: ../../source/reports.rst:328
-msgid "Click on \"Import\" to import a copy of the report in your own saved reports."
+msgid ""
+"Click on \"Import\" to import a copy of the report in your own saved reports."
 msgstr ""
 
 #: ../../source/reports.rst:330
-msgid "You can then edit it, duplicate it, delete it, run it as you would any of your own reports."
+msgid ""
+"You can then edit it, duplicate it, delete it, run it as you would any of "
+"your own reports."
 msgstr ""
 
 #: ../../source/reports.rst:336
@@ -425,8 +639,13 @@ msgid "Duplicate report"
 msgstr "Duplikovat výstup"
 
 #: ../../source/reports.rst:338
-msgid "Reports can also be added by duplicating an existing report. Visit the 'Saved reports' page to see all of the reports listed on your system already."
-msgstr "Sestavy také mohou být přidány tím, že kopírují existující sestavy. Navštivte stránku \"Uložené sestavy\" abyste viděli všechny sestavy již uložené ve vašem systému."
+msgid ""
+"Reports can also be added by duplicating an existing report. Visit the "
+"'Saved reports' page to see all of the reports listed on your system already."
+msgstr ""
+"Sestavy také mohou být přidány tím, že kopírují existující sestavy. "
+"Navštivte stránku \"Uložené sestavy\" abyste viděli všechny sestavy již "
+"uložené ve vašem systému."
 
 #: ../../source/reports.rst:342
 #, fuzzy
@@ -434,8 +653,15 @@ msgid "|image895|"
 msgstr "|image895|"
 
 #: ../../source/reports.rst:344
-msgid "To the right of every report there is an 'Actions' pull down. Clicking that and choose 'Duplicate' to use an existing report as the basis for your new report. That will populate the new report form with the existing SQL for easy editing and resaving."
-msgstr "Na pravé straně každého výstupu je odkaz je rozbalovací menu \"Akce\", pod kterým se nachází i možnost \"Duplikovat\", tak je možné vytvořit nový výstup na základě již existujícího."
+msgid ""
+"To the right of every report there is an 'Actions' pull down. Clicking that "
+"and choose 'Duplicate' to use an existing report as the basis for your new "
+"report. That will populate the new report form with the existing SQL for "
+"easy editing and resaving."
+msgstr ""
+"Na pravé straně každého výstupu je odkaz je rozbalovací menu \"Akce\", pod "
+"kterým se nachází i možnost \"Duplikovat\", tak je možné vytvořit nový "
+"výstup na základě již existujícího."
 
 #: ../../source/reports.rst:352
 #, fuzzy
@@ -444,16 +670,32 @@ msgstr "Upravit vlastní výstupy"
 
 #: ../../source/reports.rst:354
 #, fuzzy
-msgid "Every report can be edited from the reports lists. To see the list of reports already stored in Koha, click 'Use saved.'"
-msgstr "Každé výstup lze upravovat ze seznamu výstupů. K zobrazení výstupů uložených v systému Koha klikněte na 'Použít uložené.'"
+msgid ""
+"Every report can be edited from the reports lists. To see the list of "
+"reports already stored in Koha, click 'Use saved.'"
+msgstr ""
+"Každé výstup lze upravovat ze seznamu výstupů. K zobrazení výstupů uložených "
+"v systému Koha klikněte na 'Použít uložené.'"
 
 #: ../../source/reports.rst:365
-msgid "To find the report you'd like to edit you can sort by any of the columns by clicking the on the column header. You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
-msgstr "Chcete-li vyhledat výstup, který chcete upravit, můžete řadit podle kteréhokoli sloupce kliknutím na záhlaví sloupce. Můžete také filtrovat výsledky pomocí menu filtrů na levé straně, nebo pomocí záložek s jednotlivými skupinami výstupů."
+msgid ""
+"To find the report you'd like to edit you can sort by any of the columns by "
+"clicking the on the column header. You can also filter your results using "
+"the filter menu on the left or use the tabs to find reports based on your "
+"custom groups."
+msgstr ""
+"Chcete-li vyhledat výstup, který chcete upravit, můžete řadit podle "
+"kteréhokoli sloupce kliknutím na záhlaví sloupce. Můžete také filtrovat "
+"výsledky pomocí menu filtrů na levé straně, nebo pomocí záložek s "
+"jednotlivými skupinami výstupů."
 
 #: ../../source/reports.rst:370
-msgid "From this list you can edit any custom report by clicking 'Actions' to the right of the report and choosing 'Edit' from the menu that appears."
-msgstr "Z tohoto seznamu můžete upravit jakoukoliv vlastní sestavu kliknutím na tlačítko \"Akce\" napravo a vybráním možnosti \"Upravit\"."
+msgid ""
+"From this list you can edit any custom report by clicking 'Actions' to the "
+"right of the report and choosing 'Edit' from the menu that appears."
+msgstr ""
+"Z tohoto seznamu můžete upravit jakoukoliv vlastní sestavu kliknutím na "
+"tlačítko \"Akce\" napravo a vybráním možnosti \"Upravit\"."
 
 #: ../../source/reports.rst:373
 #, fuzzy
@@ -475,8 +717,14 @@ msgid "Running custom reports"
 msgstr "Spouštění uživatelských výstupů"
 
 #: ../../source/reports.rst:384
-msgid "Once custom reports are saved to Koha, you can run them by going to the Saved Reports page and clicking the 'Actions' button to the right of the report and choosing 'Run'."
-msgstr "Jakmile uložíte Vámi vytvořený výstup, můžete jej později spustit tak, že přejdete na stránku \"Uložené výstupy\" a kliknete na tlačítko \"Akce\" napravo a vyberete možnost \"Spustit\"."
+msgid ""
+"Once custom reports are saved to Koha, you can run them by going to the "
+"Saved Reports page and clicking the 'Actions' button to the right of the "
+"report and choosing 'Run'."
+msgstr ""
+"Jakmile uložíte Vámi vytvořený výstup, můžete jej později spustit tak, že "
+"přejdete na stránku \"Uložené výstupy\" a kliknete na tlačítko \"Akce\" "
+"napravo a vyberete možnost \"Spustit\"."
 
 #: ../../source/reports.rst:388
 #, fuzzy
@@ -502,20 +750,40 @@ msgid "|image901|"
 msgstr "|image901|"
 
 #: ../../source/reports.rst:398
-msgid "From the results you can choose to rerun the report by clicking 'Run report' at the top, edit the report by clicking the 'Edit' button or starting over and creating a new report by using the 'New' button. You can also download your results by choosing a file type at the bottom of the results next to the 'Download the report' label and clicking 'Download.'"
-msgstr "Z výsledků si můžete vybrat znovuspuštění zprávy klepnutím na tlačítko \"Spustit zprávu\" v horní části, upravit zprávu kliknutím na tlačítko \"Upravit\", nebo začít znovu a vytvořit novou zprávu pomocí tlačítka \"Nová\". Můžete si také stáhnout své výsledky výběrem typu souboru v dolní části výsledků vedle popisky 'Stáhnout zprávu \"a klepnutím na tlačítko\" Stáhnout \"."
+msgid ""
+"From the results you can choose to rerun the report by clicking 'Run report' "
+"at the top, edit the report by clicking the 'Edit' button or starting over "
+"and creating a new report by using the 'New' button. You can also download "
+"your results by choosing a file type at the bottom of the results next to "
+"the 'Download the report' label and clicking 'Download.'"
+msgstr ""
+"Z výsledků si můžete vybrat znovuspuštění zprávy klepnutím na tlačítko "
+"\"Spustit zprávu\" v horní části, upravit zprávu kliknutím na tlačítko "
+"\"Upravit\", nebo začít znovu a vytvořit novou zprávu pomocí tlačítka \"Nová"
+"\". Můžete si také stáhnout své výsledky výběrem typu souboru v dolní části "
+"výsledků vedle popisky 'Stáhnout zprávu \"a klepnutím na tlačítko\" Stáhnout "
+"\"."
 
 #: ../../source/reports.rst:407
 #, fuzzy
-msgid "A comma separated text file is a CSV file and it can be opened by any spreadsheet application."
-msgstr "Textový soubor s čárkovým oddělováním je soubor CSV a lze jej otevřít jakýmkoliv tabulkovým procesorem."
+msgid ""
+"A comma separated text file is a CSV file and it can be opened by any "
+"spreadsheet application."
+msgstr ""
+"Textový soubor s čárkovým oddělováním je soubor CSV a lze jej otevřít "
+"jakýmkoliv tabulkovým procesorem."
 
 #: ../../source/reports.rst:413
 msgid "Send report output to batch modification tools"
 msgstr ""
 
 #: ../../source/reports.rst:415
-msgid "After running a report that contains itemnumbers, biblionumbers and/or patron cardnumbers the list of numbers can be imported directly into the relevant batch modification tool by clicking the 'Batch operations with X visible records' button in the report results.  The X depends on the number of records you have chosen to display on screen (up to 1000)."
+msgid ""
+"After running a report that contains itemnumbers, biblionumbers and/or "
+"patron cardnumbers the list of numbers can be imported directly into the "
+"relevant batch modification tool by clicking the 'Batch operations with X "
+"visible records' button in the report results.  The X depends on the number "
+"of records you have chosen to display on screen (up to 1000)."
 msgstr ""
 
 #: ../../source/reports.rst:418
@@ -530,8 +798,15 @@ msgstr "Statistické sestavy"
 
 #: ../../source/reports.rst:425
 #, fuzzy
-msgid "Statistic reports will show you counts and sums. These reports are all about numbers and statistics, for reports that return more detailed data, use the :ref:`guided report wizard`. These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
-msgstr "Statistické výstupy ukazují počty a součty. Tyto výstupy jsou celé o číslech a statistice, pro získání podrobnějších dat využijte Průvodce tvorbou výstupů"
+msgid ""
+"Statistic reports will show you counts and sums. These reports are all about "
+"numbers and statistics, for reports that return more detailed data, use the :"
+"ref:`guided report wizard`. These reports are limited in what data they can "
+"look at, so it's often recommended to use :ref:`custom reports <custom-"
+"reports-label>` for official end of the year statistics."
+msgstr ""
+"Statistické výstupy ukazují počty a součty. Tyto výstupy jsou celé o číslech "
+"a statistice, pro získání podrobnějších dat využijte Průvodce tvorbou výstupů"
 
 #: ../../source/reports.rst:435
 #, fuzzy
@@ -542,14 +817,23 @@ msgstr "Statistiky akvizice"
 #: ../../source/reports.rst:498 ../../source/reports.rst:522
 #: ../../source/reports.rst:581 ../../source/reports.rst:605
 #, fuzzy
-msgid "These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
-msgstr "Data použitá pro vytváření těchto výstupů mohou být omezena, doporučujeme proto pro oficiální výroční statistiku využít vlastní výstupy."
+msgid ""
+"These reports are limited in what data they can look at, so it's often "
+"recommended to use :ref:`custom reports <custom-reports-label>` for official "
+"end of the year statistics."
+msgstr ""
+"Data použitá pro vytváření těchto výstupů mohou být omezena, doporučujeme "
+"proto pro oficiální výroční statistiku využít vlastní výstupy."
 
 #: ../../source/reports.rst:443 ../../source/reports.rst:477
 #: ../../source/reports.rst:502 ../../source/reports.rst:526
 #, fuzzy
-msgid "Using the form provided, choose which value you would like to appear in the column and which will appear in the row."
-msgstr "Na předloženém formuláři vyberte hodnotu, kterou chcete zobrazit ve sloupci a které v řádce."
+msgid ""
+"Using the form provided, choose which value you would like to appear in the "
+"column and which will appear in the row."
+msgstr ""
+"Na předloženém formuláři vyberte hodnotu, kterou chcete zobrazit ve sloupci "
+"a které v řádce."
 
 #: ../../source/reports.rst:446
 #, fuzzy
@@ -562,8 +846,11 @@ msgstr "|image902|"
 #: ../../source/reports.rst:633 ../../source/reports.rst:651
 #: ../../source/reports.rst:669 ../../source/reports.rst:687
 #: ../../source/reports.rst:705 ../../source/reports.rst:765
-msgid "If you choose to output to the browser your results will print to the screen."
-msgstr "Pokud se rozhodnete pro výstup do prohlížeče, vaše výsledky se budou tisknout na obrazovku."
+msgid ""
+"If you choose to output to the browser your results will print to the screen."
+msgstr ""
+"Pokud se rozhodnete pro výstup do prohlížeče, vaše výsledky se budou "
+"tisknout na obrazovku."
 
 #: ../../source/reports.rst:451
 #, fuzzy
@@ -576,12 +863,20 @@ msgstr "|image903|"
 #: ../../source/reports.rst:656 ../../source/reports.rst:674
 #: ../../source/reports.rst:692 ../../source/reports.rst:710
 #: ../../source/reports.rst:770
-msgid "You can also choose to export to a file that you can manipulate to your needs."
-msgstr "Můžete si také zvolit export do souboru, s kterým můžete manipulovat podle vašich potřeb."
+msgid ""
+"You can also choose to export to a file that you can manipulate to your "
+"needs."
+msgstr ""
+"Můžete si také zvolit export do souboru, s kterým můžete manipulovat podle "
+"vašich potřeb."
 
 #: ../../source/reports.rst:456
-msgid "When generating your report, note that you get to choose between counting or summing the values."
-msgstr "Při generování sestavy, uvedomte si, že dostanete na výběr mezi vypočítáním nebo sečtením hodnot."
+msgid ""
+"When generating your report, note that you get to choose between counting or "
+"summing the values."
+msgstr ""
+"Při generování sestavy, uvedomte si, že dostanete na výběr mezi vypočítáním "
+"nebo sečtením hodnot."
 
 #: ../../source/reports.rst:459
 #, fuzzy
@@ -589,8 +884,12 @@ msgid "|image904|"
 msgstr "|image904|"
 
 #: ../../source/reports.rst:461
-msgid "Choosing amount will change your results to appear as the sum of the amounts spent."
-msgstr "Volba částky změní vaše výsledky, které se zobrazí jako součet vynaložených částek."
+msgid ""
+"Choosing amount will change your results to appear as the sum of the amounts "
+"spent."
+msgstr ""
+"Volba částky změní vaše výsledky, které se zobrazí jako součet vynaložených "
+"částek."
 
 #: ../../source/reports.rst:464
 #, fuzzy
@@ -613,8 +912,14 @@ msgid "|image907|"
 msgstr "|image907|"
 
 #: ../../source/reports.rst:487
-msgid "Based on your selections, you may see some query information above your results table. You can also choose to export to a file that you can manipulate to your needs."
-msgstr "Na základě Vašeho výběru je možné, že uvidíte některé informace o dotazu nad tabulkou s výsledky. Můžete také vybrat, zda-li chcete výsledky exportovat do souboru, např. z důvodu dalšího zpracování."
+msgid ""
+"Based on your selections, you may see some query information above your "
+"results table. You can also choose to export to a file that you can "
+"manipulate to your needs."
+msgstr ""
+"Na základě Vašeho výběru je možné, že uvidíte některé informace o dotazu nad "
+"tabulkou s výsledky. Můžete také vybrat, zda-li chcete výsledky exportovat "
+"do souboru, např. z důvodu dalšího zpracování."
 
 #: ../../source/reports.rst:494
 #, fuzzy
@@ -647,17 +952,33 @@ msgid "|image911|"
 msgstr "|image911|"
 
 #: ../../source/reports.rst:541
-msgid "To get a complete picture of your monthly or daily circulation, you can run the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
-msgstr "Chcete-li získat úplný obraz o vašem měsíčním nebo denním provozu, můžete sestavu spustit dvakrát, jednou pro \"Typ\"  \"Výpůjčky\" a znovu pro \"Prodloužení\"."
+msgid ""
+"To get a complete picture of your monthly or daily circulation, you can run "
+"the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
+msgstr ""
+"Chcete-li získat úplný obraz o vašem měsíčním nebo denním provozu, můžete "
+"sestavu spustit dvakrát, jednou pro \"Typ\"  \"Výpůjčky\" a znovu pro "
+"\"Prodloužení\"."
 
 #: ../../source/reports.rst:545
-msgid "This report uses 'Period,' or date, filtering that allows you to limit to a month by simply selecting the first day of the first month through the first day of the next month. For example, 10/1 to 11/1 to find statistics for the month of October."
-msgstr "Tato zpráva používá \"Období\" nebo datum, tj. filtrování, které umožňuje omezit měsíc pouhým výběrem první prvního dne měsíce a prvním dnem následujícího měsíce. Například 10/1 11/1 najde statistiky pro měsíc říjen."
+msgid ""
+"This report uses 'Period,' or date, filtering that allows you to limit to a "
+"month by simply selecting the first day of the first month through the first "
+"day of the next month. For example, 10/1 to 11/1 to find statistics for the "
+"month of October."
+msgstr ""
+"Tato zpráva používá \"Období\" nebo datum, tj. filtrování, které umožňuje "
+"omezit měsíc pouhým výběrem první prvního dne měsíce a prvním dnem "
+"následujícího měsíce. Například 10/1 11/1 najde statistiky pro měsíc říjen."
 
 #: ../../source/reports.rst:550
 #, fuzzy
-msgid "To find daily statistics, set your date range.</br> Example: \"I want circulation data starting with date XXX up to, but not including, date XXX.\""
-msgstr "Chcete-li najít denní statistiky, nastavte rozsah datumů. Příklad: \"Chci údaje o výpůjčkách dat počínaje datem XXX až do, ale ne včetně, datumu XXX.\""
+msgid ""
+"To find daily statistics, set your date range.</br> Example: \"I want "
+"circulation data starting with date XXX up to, but not including, date XXX.\""
+msgstr ""
+"Chcete-li najít denní statistiky, nastavte rozsah datumů. Příklad: \"Chci "
+"údaje o výpůjčkách dat počínaje datem XXX až do, ale ne včetně, datumu XXX.\""
 
 #: ../../source/reports.rst:554
 msgid "For a whole month, an example range would be: 11/01/2009 to 12/01/2009"
@@ -668,8 +989,12 @@ msgid "For a whole year, an example range would be: 01/01/2009 to 01/01/2010"
 msgstr "Příklad rozsahu pro celý rok: od 01/01/2009 do 01/01/2010"
 
 #: ../../source/reports.rst:560
-msgid "For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what circulated on the 15th"
-msgstr "Příklad pro jeden den: od 11/15/2009 do 11/16/2009 pro nalezení výpůjček z patnáctého listopadu"
+msgid ""
+"For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what "
+"circulated on the 15th"
+msgstr ""
+"Příklad pro jeden den: od 11/15/2009 do 11/16/2009 pro nalezení výpůjček z "
+"patnáctého listopadu"
 
 #: ../../source/reports.rst:566
 msgid "Tracking in house use"
@@ -677,8 +1002,14 @@ msgstr "Sledování vnitřního užívání"
 
 #: ../../source/reports.rst:568
 #, fuzzy
-msgid "Using the Circulation statistics reporting wizard you can run reports on in house usage of items simply by choosing 'Local use' from the 'Type' pull down:"
-msgstr "Pomocí Průvodce tvorby výpůjčních statistik můžete spustit sestavy o vnitřním užívání jednotek pouhým výběrem \"Místní použití\" z rozbalovací nabídky \"Typ\""
+msgid ""
+"Using the Circulation statistics reporting wizard you can run reports on in "
+"house usage of items simply by choosing 'Local use' from the 'Type' pull "
+"down:"
+msgstr ""
+"Pomocí Průvodce tvorby výpůjčních statistik můžete spustit sestavy o "
+"vnitřním užívání jednotek pouhým výběrem \"Místní použití\" z rozbalovací "
+"nabídky \"Typ\""
 
 #: ../../source/reports.rst:572
 #, fuzzy
@@ -691,8 +1022,12 @@ msgid "Serials statistics"
 msgstr "Statistiky periodik"
 
 #: ../../source/reports.rst:585
-msgid "Using the form provided, choose how you would like to list the serials in your system."
-msgstr "Na předloženém formuláři zvolte, jaký chcete seznam periodik ve vašem systému."
+msgid ""
+"Using the form provided, choose how you would like to list the serials in "
+"your system."
+msgstr ""
+"Na předloženém formuláři zvolte, jaký chcete seznam periodik ve vašem "
+"systému."
 
 #: ../../source/reports.rst:588
 #, fuzzy
@@ -710,8 +1045,16 @@ msgid "Holds statistics"
 msgstr "Statistiky rezervací"
 
 #: ../../source/reports.rst:609
-msgid "Using the form provided you can see statistics for holds placed, filled, cancelled and more at your library. From the form choose what value you want to display in the column and what value to show in the row. You can also choose from the filters on the far right of the form."
-msgstr "Pomocí předloženého formuláře, si můžete prohlédnout statistiky pro rezervace, splněné, zrušené i další ve vaší knihovně. Z formuláře si vyberte, jakou hodnotu chcete zobrazit ve sloupci a jaké hodnoty v řádku. Můžete si také vybrat z filtrů na pravé straně formuláře."
+msgid ""
+"Using the form provided you can see statistics for holds placed, filled, "
+"cancelled and more at your library. From the form choose what value you want "
+"to display in the column and what value to show in the row. You can also "
+"choose from the filters on the far right of the form."
+msgstr ""
+"Pomocí předloženého formuláře, si můžete prohlédnout statistiky pro "
+"rezervace, splněné, zrušené i další ve vaší knihovně. Z formuláře si "
+"vyberte, jakou hodnotu chcete zobrazit ve sloupci a jaké hodnoty v řádku. "
+"Můžete si také vybrat z filtrů na pravé straně formuláře."
 
 #: ../../source/reports.rst:614
 #, fuzzy
@@ -747,7 +1090,9 @@ msgid "Most circulated items"
 msgstr "Nejvíce půjčované jednotky"
 
 #: ../../source/reports.rst:646
-msgid "This report will simply list the items that have the been checked out the most."
+msgid ""
+"This report will simply list the items that have the been checked out the "
+"most."
 msgstr "Tato zpráva zobrazí seznam nejpůjčovanějších výtisků."
 
 #: ../../source/reports.rst:649
@@ -765,7 +1110,9 @@ msgid "Patrons with no checkouts"
 msgstr "Čtenáři bez výpůjček"
 
 #: ../../source/reports.rst:664
-msgid "This report will list for you the patrons in your system who haven't checked any items out."
+msgid ""
+"This report will list for you the patrons in your system who haven't checked "
+"any items out."
 msgstr "Tato zpráva zobrazí seznam čtenářů, kteří nemají žádné výpujčky."
 
 #: ../../source/reports.rst:667
@@ -783,8 +1130,12 @@ msgid "Items with no checkouts"
 msgstr "Nepůjčované jednotky"
 
 #: ../../source/reports.rst:682
-msgid "This report will list items in your collection that have never been checked out."
-msgstr "Tato zpráva zobrazí seznam výtisků ve vašem fondu, které nikdy nebyly vypůjčeny."
+msgid ""
+"This report will list items in your collection that have never been checked "
+"out."
+msgstr ""
+"Tato zpráva zobrazí seznam výtisků ve vašem fondu, které nikdy nebyly "
+"vypůjčeny."
 
 #: ../../source/reports.rst:685
 #, fuzzy
@@ -802,8 +1153,10 @@ msgid "Catalog by item type"
 msgstr "Katalog podle typu jednotky"
 
 #: ../../source/reports.rst:700
-msgid "This report will list the total number of items of each item type per branch."
-msgstr "Tato zpráva vypíše celkový počet kusů každého typu jednotky na pobočku."
+msgid ""
+"This report will list the total number of items of each item type per branch."
+msgstr ""
+"Tato zpráva vypíše celkový počet kusů každého typu jednotky na pobočku."
 
 #: ../../source/reports.rst:703
 #, fuzzy
@@ -821,8 +1174,12 @@ msgid "Lost items"
 msgstr "Ztracené jednotky"
 
 #: ../../source/reports.rst:718
-msgid "This report will allow you to generate a list of items that have been marked as Lost within the system"
-msgstr "Tato sestava vám umožní vytvořit seznam jednotek, které byly označeny jako ztracené"
+msgid ""
+"This report will allow you to generate a list of items that have been marked "
+"as Lost within the system"
+msgstr ""
+"Tato sestava vám umožní vytvořit seznam jednotek, které byly označeny jako "
+"ztracené"
 
 #: ../../source/reports.rst:721
 #, fuzzy
@@ -830,7 +1187,9 @@ msgid "|image927|"
 msgstr "|image927|"
 
 #: ../../source/reports.rst:723
-msgid "Once you have chosen parameters, you will see the corresponding list of items."
+msgid ""
+"Once you have chosen parameters, you will see the corresponding list of "
+"items."
 msgstr ""
 
 #: ../../source/reports.rst:725
@@ -839,7 +1198,10 @@ msgid "|image1501|"
 msgstr "|image1501|"
 
 #: ../../source/reports.rst:729
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: lostitems-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: lostitems-table)."
 msgstr ""
 
 #: ../../source/reports.rst:736
@@ -847,7 +1209,9 @@ msgid "Orders by fund"
 msgstr ""
 
 #: ../../source/reports.rst:738
-msgid "If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be able to see all the items that were ordered in each fund."
+msgid ""
+"If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be "
+"able to see all the items that were ordered in each fund."
 msgstr ""
 
 #: ../../source/reports.rst:741
@@ -856,7 +1220,10 @@ msgid "|image1499|"
 msgstr "|image1499|"
 
 #: ../../source/reports.rst:743
-msgid "Once you choose the fund you wish to view, you can export the results or view them in the browser. If you choose to view them directly, you will be shown the list of orders."
+msgid ""
+"Once you choose the fund you wish to view, you can export the results or "
+"view them in the browser. If you choose to view them directly, you will be "
+"shown the list of orders."
 msgstr ""
 
 #: ../../source/reports.rst:747
@@ -865,7 +1232,10 @@ msgid "|image1500|"
 msgstr "|image1500|"
 
 #: ../../source/reports.rst:751
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: funds-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: funds-table)."
 msgstr ""
 
 #: ../../source/reports.rst:758
@@ -874,8 +1244,12 @@ msgid "Average loan time"
 msgstr "Průměrná doba výpůjčky"
 
 #: ../../source/reports.rst:760
-msgid "This report will list the average time items are out on loan based on the criteria you enter:"
-msgstr "Tato sestava vypíše průměrnou dobu výpůjček na základě kritérií, které zadáte:"
+msgid ""
+"This report will list the average time items are out on loan based on the "
+"criteria you enter:"
+msgstr ""
+"Tato sestava vypíše průměrnou dobu výpůjček na základě kritérií, které "
+"zadáte:"
 
 #: ../../source/reports.rst:763
 #, fuzzy
@@ -894,8 +1268,18 @@ msgstr "Slovník sestav"
 
 #: ../../source/reports.rst:778
 #, fuzzy
-msgid "The report dictionary is a way to pre-define common filters you'd like to apply to your reports. This is a good way to add in filters that the report wizard doesn't include by default. To add a new definition, or filter, click 'New definition' on the reports dictionary page and follow the 4 step process."
-msgstr "\"Slovník sestav\" je způsob, jak předem definovat společné filtry, které chcete použít pro vaše výstupy. Je to dobrý způsob, jak přidat filtry, které \"Tvůrce výstupů\" nezahrnuje ve výchozím nastavení. Chcete-li přidat novou definici, nebo filtr, klepněte na tlačítko \"Nová definice\" na stránce Slovník sestav a postupujte podle průvodce."
+msgid ""
+"The report dictionary is a way to pre-define common filters you'd like to "
+"apply to your reports. This is a good way to add in filters that the report "
+"wizard doesn't include by default. To add a new definition, or filter, click "
+"'New definition' on the reports dictionary page and follow the 4 step "
+"process."
+msgstr ""
+"\"Slovník sestav\" je způsob, jak předem definovat společné filtry, které "
+"chcete použít pro vaše výstupy. Je to dobrý způsob, jak přidat filtry, které "
+"\"Tvůrce výstupů\" nezahrnuje ve výchozím nastavení. Chcete-li přidat novou "
+"definici, nebo filtr, klepněte na tlačítko \"Nová definice\" na stránce "
+"Slovník sestav a postupujte podle průvodce."
 
 #: ../../source/reports.rst:784
 msgid "Step 1: Name the definition and provide a description if necessary"
@@ -925,8 +1309,12 @@ msgid "|image932|"
 msgstr "|image932|"
 
 #: ../../source/reports.rst:796
-msgid "Step 4: Choose the value(s) from the field(s). These will be automatically populated with options available in your database."
-msgstr "Krok 4: Vyberte hodnotu(y) z pole(lí). Tyto budou automaticky dosazeny s možnostmi dostupnými ve vaší databázi."
+msgid ""
+"Step 4: Choose the value(s) from the field(s). These will be automatically "
+"populated with options available in your database."
+msgstr ""
+"Krok 4: Vyberte hodnotu(y) z pole(lí). Tyto budou automaticky dosazeny s "
+"možnostmi dostupnými ve vaší databázi."
 
 #: ../../source/reports.rst:799
 #, fuzzy
@@ -952,8 +1340,13 @@ msgid "|image935|"
 msgstr "|image935|"
 
 #: ../../source/reports.rst:809
-msgid "Then when generating reports on the module you created the value for you will see an option to limit by the definition at the bottom of the usual filters."
-msgstr "Potom při generování výstupu v modulu, ve kterém jste vytvořili hodnoty, uvidíte volbu \"Omezit podle definice\" v dolní části běžných filtrů."
+msgid ""
+"Then when generating reports on the module you created the value for you "
+"will see an option to limit by the definition at the bottom of the usual "
+"filters."
+msgstr ""
+"Potom při generování výstupu v modulu, ve kterém jste vytvořili hodnoty, "
+"uvidíte volbu \"Omezit podle definice\" v dolní části běžných filtrů."
 
 #: ../../source/reports.rst:813
 #, fuzzy
@@ -964,20 +1357,41 @@ msgstr "|image936|"
 #~ msgid "|image896|"
 #~ msgstr "|image896|"
 
-#~ msgid "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field."
-#~ msgstr "Musíte dát \"%\" do textového pole, když to chcete ignorovat. V opačném případě (nezadání \"%\") doslova hledá \"\" (prázdný řetězec) jako hodnotu pro pole."
+#~ msgid ""
+#~ "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it "
+#~ "literally looks for \"\" (empty string) as the value for the field."
+#~ msgstr ""
+#~ "Musíte dát \"%\" do textového pole, když to chcete ignorovat. V opačném "
+#~ "případě (nezadání \"%\") doslova hledá \"\" (prázdný řetězec) jako "
+#~ "hodnotu pro pole."
 
 #~ msgid "**Important**"
 #~ msgstr "**Důležité**"
 
 #, fuzzy
-#~ msgid "In addition to using any authorized value code to generate a dropdown, you can use the following values as well: Framework codes (biblio\\_framework), Branches (branches), Item Types (itemtypes) and Patron Categories (categorycode). For example a branch pull down would be generated like this <<Branch\\|branches>>"
-#~ msgstr "Důležité: Kromě použití autorizovaného hodnotu kódu pro generování rozevírací seznamu, můžete použít následující hodnoty stejně: Pobočky (branches), Typy výtisků (itemtypes) a Kategorie čtenářů (category code). Například pobočková roletka bude generována takto &lt;&lt;Pobočka|branches &gt;&gt;"
+#~ msgid ""
+#~ "In addition to using any authorized value code to generate a dropdown, "
+#~ "you can use the following values as well: Framework codes (biblio"
+#~ "\\_framework), Branches (branches), Item Types (itemtypes) and Patron "
+#~ "Categories (categorycode). For example a branch pull down would be "
+#~ "generated like this <<Branch\\|branches>>"
+#~ msgstr ""
+#~ "Důležité: Kromě použití autorizovaného hodnotu kódu pro generování "
+#~ "rozevírací seznamu, můžete použít následující hodnoty stejně: Pobočky "
+#~ "(branches), Typy výtisků (itemtypes) a Kategorie čtenářů (category code). "
+#~ "Například pobočková roletka bude generována takto &lt;&lt;Pobočka|"
+#~ "branches &gt;&gt;"
 
 #, fuzzy
 #~ msgid "|image894|"
 #~ msgstr "|image894|"
 
-#~ msgid "There is a limit of 10,000 records put on SQL statements entered in Koha. To get around this you want to add 'LIMIT 100000' to the end of your SQL statement (or any other number above 10,000)."
-#~ msgstr ": Existuje limit 10 000 záznamů, které lze vložit do SQL příkazů v systému Koha. Chcete-li tento limit obejít musíte zadat 'LIMIT 100000' (nebo jakékoliv jiné číslo větší než 10 000) na konec vašeho SQL příkazu."
-
+#~ msgid ""
+#~ "There is a limit of 10,000 records put on SQL statements entered in Koha. "
+#~ "To get around this you want to add 'LIMIT 100000' to the end of your SQL "
+#~ "statement (or any other number above 10,000)."
+#~ msgstr ""
+#~ ": Existuje limit 10 000 záznamů, které lze vložit do SQL příkazů v "
+#~ "systému Koha. Chcete-li tento limit obejít musíte zadat 'LIMIT "
+#~ "100000' (nebo jakékoliv jiné číslo větší než 10 000) na konec vašeho SQL "
+#~ "příkazu."

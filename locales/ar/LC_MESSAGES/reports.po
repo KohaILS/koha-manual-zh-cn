@@ -1,17 +1,19 @@
 # Compendium of ar.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha man18.05\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2020-08-09 21:44+0000\n"
-"Last-Translator: KnowledgeWare Technologies Est. <massoudalshareef@kwareict.com>\n"
+"Last-Translator: KnowledgeWare Technologies Est. <massoudalshareef@kwareict."
+"com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /ar/man18.05/reports.po\n"
 "X-Pootle-Revision: 1\n"
@@ -22,8 +24,14 @@ msgid "Reports"
 msgstr "التقارير"
 
 #: ../../source/reports.rst:8
-msgid "Reports in Koha are a way to gather data. Reports are used to generate statistics, member lists, shelving lists, or any list of data in your database."
-msgstr "التقارير في نظام كوها هي وسيلة لجمع البيانات. وتستخدم لتوليد التقارير والاحصاءات وقوائم الأعضاء وقوائم الرفوف، أو أي قائمة من البيانات في قاعدة البيانات الخاصة بك."
+msgid ""
+"Reports in Koha are a way to gather data. Reports are used to generate "
+"statistics, member lists, shelving lists, or any list of data in your "
+"database."
+msgstr ""
+"التقارير في نظام كوها هي وسيلة لجمع البيانات. وتستخدم لتوليد التقارير "
+"والاحصاءات وقوائم الأعضاء وقوائم الرفوف، أو أي قائمة من البيانات في قاعدة "
+"البيانات الخاصة بك."
 
 #: ../../source/reports.rst:12
 msgid "*Get there:* More > Reports"
@@ -35,8 +43,16 @@ msgstr "تقارير مخصصة"
 
 #: ../../source/reports.rst:19
 #, fuzzy
-msgid "Koha's data is stored in a MySQL database which means that librarians can generate nearly any report they would like by either using the :ref:`guided reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL query <report-from-sql-label>`."
-msgstr "يتم تخزين بيانات كوها في قاعدة بيانات MySQL مما يعني أن موظفي المكتبة بامكانهم تقريباً توليد أي تقرير يرغبون به إما من خلال استخدام :ref:`معالج التقارير الموجهة <guided-report-wizard-label>أو بكتابة :ref:`استعلام SQL الخاص بهم<report-from-sql-label>."
+msgid ""
+"Koha's data is stored in a MySQL database which means that librarians can "
+"generate nearly any report they would like by either using the :ref:`guided "
+"reports wizard <guided-report-wizard-label>` or writing their own :ref:`SQL "
+"query <report-from-sql-label>`."
+msgstr ""
+"يتم تخزين بيانات كوها في قاعدة بيانات MySQL مما يعني أن موظفي المكتبة "
+"بامكانهم تقريباً توليد أي تقرير يرغبون به إما من خلال استخدام :ref:`معالج "
+"التقارير الموجهة <guided-report-wizard-label>أو بكتابة :ref:`استعلام SQL "
+"الخاص بهم<report-from-sql-label>."
 
 #: ../../source/reports.rst:27
 msgid "Add custom report"
@@ -47,16 +63,30 @@ msgid "Guided report wizard"
 msgstr "معالج التقارير المرشدة"
 
 #: ../../source/reports.rst:34
-msgid "The guided report wizard will walk you through a six step process to generate a report."
+msgid ""
+"The guided report wizard will walk you through a six step process to "
+"generate a report."
 msgstr "سيصطحبك معالج التقارير المرشدة في عملية من ست خطوات لتوليد التقرير."
 
 #: ../../source/reports.rst:37
-msgid "Step 1: Choose the module you want to report on. This will determine what tables and fields are available for you to query."
-msgstr "الخطوة 1: اختيار الوحدة التي تريد أن تقدم تقريرا عن. وهذا سوف يحديد ما الجداول والحقول المتاحة لك للاستعلام."
+msgid ""
+"Step 1: Choose the module you want to report on. This will determine what "
+"tables and fields are available for you to query."
+msgstr ""
+"الخطوة 1: اختيار الوحدة التي تريد أن تقدم تقريرا عن. وهذا سوف يحديد ما "
+"الجداول والحقول المتاحة لك للاستعلام."
 
 #: ../../source/reports.rst:40
-msgid "'Report is public' should be left to the default of 'No' in most cases especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
-msgstr "يجب ترك \"التقرير عام\" على الافتراضي \"لا\" في غالبية الحالات وخاصة إذا كان التقرير يحتوي على مستفيد أو أي معلومات حساسة أخرى. يمكن الوصول إلى التقرير العام باستخدام :ref:`خدمات تقارير JSON <json-reports-services-label> بواسطة أي شخص وبدون استيثاق."
+msgid ""
+"'Report is public' should be left to the default of 'No' in most cases "
+"especially if the report contains patron or other sensitive information. A "
+"public report can be accessed using the :ref:`JSON reports services <json-"
+"reports-services-label>` by anyone and without authentication."
+msgstr ""
+"يجب ترك \"التقرير عام\" على الافتراضي \"لا\" في غالبية الحالات وخاصة إذا كان "
+"التقرير يحتوي على مستفيد أو أي معلومات حساسة أخرى. يمكن الوصول إلى التقرير "
+"العام باستخدام :ref:`خدمات تقارير JSON <json-reports-services-label> بواسطة "
+"أي شخص وبدون استيثاق."
 
 #: ../../source/reports.rst:45
 msgid "|image881|"
@@ -76,16 +106,26 @@ msgid "**Note**"
 msgstr "**ملاحظة**"
 
 #: ../../source/reports.rst:49 ../../source/reports.rst:189
-msgid "If your system administrator has set up memcache on your server you might see one more option for the Cache expiry. This is related to your public reports. If you make the report public then it's constantly running and will cause a large load on your system. Setting this value prevents that."
-msgstr "إذا قام مدير النظام الخاص بك بتنصيب تخبئة ذاكرة على خادمك فيمكن أن ترى خيارًا إضافيًا لانتهاء التخبئة. يتعلق ذلك بتقاريرك العامة. إذا جعلت التقرير عام فسيتم تشغيله باستمرار وسوف يتسبب في حِمل كبير على نظامك. ضبط هذه القيمة يمنع حدوث ذلك."
+msgid ""
+"If your system administrator has set up memcache on your server you might "
+"see one more option for the Cache expiry. This is related to your public "
+"reports. If you make the report public then it's constantly running and will "
+"cause a large load on your system. Setting this value prevents that."
+msgstr ""
+"إذا قام مدير النظام الخاص بك بتنصيب تخبئة ذاكرة على خادمك فيمكن أن ترى خيارًا "
+"إضافيًا لانتهاء التخبئة. يتعلق ذلك بتقاريرك العامة. إذا جعلت التقرير عام "
+"فسيتم تشغيله باستمرار وسوف يتسبب في حِمل كبير على نظامك. ضبط هذه القيمة يمنع "
+"حدوث ذلك."
 
 #: ../../source/reports.rst:55
 msgid "|image1292|"
 msgstr "|image1292|"
 
 #: ../../source/reports.rst:57
-msgid "Step 2: Choose a report type. For now, Tabular is the only option available."
-msgstr "الخطوة 2: اختيار نوع التقرير. في الوقت الحالي، جدولي هو الخيار الوحيد المتاح."
+msgid ""
+"Step 2: Choose a report type. For now, Tabular is the only option available."
+msgstr ""
+"الخطوة 2: اختيار نوع التقرير. في الوقت الحالي، جدولي هو الخيار الوحيد المتاح."
 
 #: ../../source/reports.rst:60
 msgid "|image882|"
@@ -93,8 +133,14 @@ msgstr "|image882|"
 
 #: ../../source/reports.rst:62
 #, fuzzy
-msgid "Step 3: Choose the fields you want in your report. You can select multiple fields and add them all at once by using CTRL+click on each item you want to add before clicking the Add button."
-msgstr "الخطوة 3: اختر الحقول التي تريدها في التقرير الخاص بك. يمكنك تحديد حقول متعددة وإضافتها في كل مرة بأستخدام أمر CTRL + انقر على كل مادة تريد إضافتها قبل النقر فوق الزر إضافة."
+msgid ""
+"Step 3: Choose the fields you want in your report. You can select multiple "
+"fields and add them all at once by using CTRL+click on each item you want to "
+"add before clicking the Add button."
+msgstr ""
+"الخطوة 3: اختر الحقول التي تريدها في التقرير الخاص بك. يمكنك تحديد حقول "
+"متعددة وإضافتها في كل مرة بأستخدام أمر CTRL + انقر على كل مادة تريد إضافتها "
+"قبل النقر فوق الزر إضافة."
 
 #: ../../source/reports.rst:66
 msgid "|image883|"
@@ -102,8 +148,14 @@ msgstr "|image883|"
 
 #: ../../source/reports.rst:68
 #, fuzzy
-msgid "Step 4: Choose any limits you might want to apply to your report (such as item types or branches). If you don't want to apply any limits, simply click 'Next' instead of choosing an option."
-msgstr "الخطوة 4: اختر أي الحدود قد ترغب في تطبيقها على التقرير الخاص بك (مثل أنواع المواد أو الفروع). إذا كنت لا ترغب في تطبيق أية حدود، انقر فوق التالي بدلا من مجرد جعل خيار."
+msgid ""
+"Step 4: Choose any limits you might want to apply to your report (such as "
+"item types or branches). If you don't want to apply any limits, simply click "
+"'Next' instead of choosing an option."
+msgstr ""
+"الخطوة 4: اختر أي الحدود قد ترغب في تطبيقها على التقرير الخاص بك (مثل أنواع "
+"المواد أو الفروع). إذا كنت لا ترغب في تطبيق أية حدود، انقر فوق التالي بدلا "
+"من مجرد جعل خيار."
 
 #: ../../source/reports.rst:72
 msgid "|image884|"
@@ -111,8 +163,12 @@ msgstr "|image884|"
 
 #: ../../source/reports.rst:74
 #, fuzzy
-msgid "Step 5: Perform math functions. If you don't want to do any calculations, simply click 'Next' instead of choosing an option."
-msgstr "الخطوة 5: إجراء الوظائف الحسابية. إذا كنت لا تريد أن تفعل أي حسابات، انقر فوق التالي بدلا من مجرد جعل خيار."
+msgid ""
+"Step 5: Perform math functions. If you don't want to do any calculations, "
+"simply click 'Next' instead of choosing an option."
+msgstr ""
+"الخطوة 5: إجراء الوظائف الحسابية. إذا كنت لا تريد أن تفعل أي حسابات، انقر "
+"فوق التالي بدلا من مجرد جعل خيار."
 
 #: ../../source/reports.rst:77
 msgid "|image885|"
@@ -120,8 +176,12 @@ msgstr "|image885|"
 
 #: ../../source/reports.rst:79
 #, fuzzy
-msgid "Step 6: Choose data order. If you want the data to print out in the order it's found in the database, simply click 'Finish'."
-msgstr "الخطوة 6: اختر طلب البيانات. إذا كنت ترغب في طباعة البيانات إلى الخارج ووجدت الطلب في قاعدة البيانات، انقر فوق إنهاء ببساطة."
+msgid ""
+"Step 6: Choose data order. If you want the data to print out in the order "
+"it's found in the database, simply click 'Finish'."
+msgstr ""
+"الخطوة 6: اختر طلب البيانات. إذا كنت ترغب في طباعة البيانات إلى الخارج ووجدت "
+"الطلب في قاعدة البيانات، انقر فوق إنهاء ببساطة."
 
 #: ../../source/reports.rst:82
 msgid "|image886|"
@@ -129,16 +189,26 @@ msgstr "|image886|"
 
 #: ../../source/reports.rst:84
 #, fuzzy
-msgid "When you are finished you will be presented with the SQL generated by the report wizard. From here you can choose to save the report by clicking 'Finish' or copy the SQL and make edits to it by hand."
-msgstr "عند الانتهاء سيظهر لك ملف SQL المولد بواسطة معالج التقارير. من هنا يمكنك اختيار حفظ التقرير بالنقر على \"حفظ\" أو نسخ ملف SQL والقيام بالتعديلات يدوياً."
+msgid ""
+"When you are finished you will be presented with the SQL generated by the "
+"report wizard. From here you can choose to save the report by clicking "
+"'Finish' or copy the SQL and make edits to it by hand."
+msgstr ""
+"عند الانتهاء سيظهر لك ملف SQL المولد بواسطة معالج التقارير. من هنا يمكنك "
+"اختيار حفظ التقرير بالنقر على \"حفظ\" أو نسخ ملف SQL والقيام بالتعديلات "
+"يدوياً."
 
 #: ../../source/reports.rst:88
 msgid "|image887|"
 msgstr "|image887|"
 
 #: ../../source/reports.rst:90
-msgid "If you choose to save the report you will be asked to name your report, sort it in to groups and subgroups and enter any notes regarding it."
-msgstr "إذا قمت باختيار حفظ التقرير سيطلب منك تسمية تقريرك، وفرزه في مجموعات ومجموعات فرعية وإدخال أي ملاحظات بخصوصه."
+msgid ""
+"If you choose to save the report you will be asked to name your report, sort "
+"it in to groups and subgroups and enter any notes regarding it."
+msgstr ""
+"إذا قمت باختيار حفظ التقرير سيطلب منك تسمية تقريرك، وفرزه في مجموعات "
+"ومجموعات فرعية وإدخال أي ملاحظات بخصوصه."
 
 #: ../../source/reports.rst:93
 msgid "|image888|"
@@ -146,20 +216,38 @@ msgstr "|image888|"
 
 #: ../../source/reports.rst:95
 #, fuzzy
-msgid "Once your report is saved it will appear on the 'Use saved' page with all other saved reports."
-msgstr "بمجرد حفظ تقريرك سيظهر في صفحة \"استخدم المحفوظ\" مع التقارير المحفوظة الأخرى"
+msgid ""
+"Once your report is saved it will appear on the 'Use saved' page with all "
+"other saved reports."
+msgstr ""
+"بمجرد حفظ تقريرك سيظهر في صفحة \"استخدم المحفوظ\" مع التقارير المحفوظة الأخرى"
 
 #: ../../source/reports.rst:98 ../../source/reports.rst:357
 msgid "|image889|"
 msgstr "|image889|"
 
 #: ../../source/reports.rst:102 ../../source/reports.rst:361
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: table_reports)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: table_reports)."
 msgstr ""
 
 #: ../../source/reports.rst:106
-msgid "From here you can make edits, run the report, or schedule a time to have the report run. To find the report you created you can sort by any of the columns by clicking the on the column header (creation date is the best bet for finding the report you just added). You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
-msgstr "من هنا يمكنك إجراء التعديلات، تشغيل التقرير، أو جدولة وقت لتشغيل الوقت. للعثور على التقرير الذي قمت بإنشائه يمكنك الفرز بواسطة أي من الأعمدة عن طريق النقر على رأس العمود ( تاريخ الإنشاء هو أفضل رهان للعثور على التقرير الذي قمت بإضافته للتو). كما يمكنك ترشيح النتائج باستخدام قائمة الترشيح الموجود ناحية اليمين أو استخدم التبويبات للعثور على التقارير بناءً على مجموعاتك المخصصة."
+msgid ""
+"From here you can make edits, run the report, or schedule a time to have the "
+"report run. To find the report you created you can sort by any of the "
+"columns by clicking the on the column header (creation date is the best bet "
+"for finding the report you just added). You can also filter your results "
+"using the filter menu on the left or use the tabs to find reports based on "
+"your custom groups."
+msgstr ""
+"من هنا يمكنك إجراء التعديلات، تشغيل التقرير، أو جدولة وقت لتشغيل الوقت. "
+"للعثور على التقرير الذي قمت بإنشائه يمكنك الفرز بواسطة أي من الأعمدة عن طريق "
+"النقر على رأس العمود ( تاريخ الإنشاء هو أفضل رهان للعثور على التقرير الذي "
+"قمت بإضافته للتو). كما يمكنك ترشيح النتائج باستخدام قائمة الترشيح الموجود "
+"ناحية اليمين أو استخدم التبويبات للعثور على التقارير بناءً على مجموعاتك "
+"المخصصة."
 
 #: ../../source/reports.rst:116
 msgid "Report from SQL"
@@ -167,12 +255,28 @@ msgstr "تقرير من SQL"
 
 #: ../../source/reports.rst:118
 #, fuzzy
-msgid "In addition to the report wizard, you have the option to write your own queries using SQL. To find reports written by other Koha users, visit the Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can also find your database structure in /installer/data/mysql/kohastructure.sql or online at: `http://schema.koha-community.org <http://schema.koha-community.org/>`__."
-msgstr "بالإضافة إلى معالج التقارير، لديك خيار كتابة الاستعلام الخاص بك باستخدام SQL. للعثور على التقارير المكتوبة بواسطة مستخدمي كوها الآخرين، قم بزيارة كوها ويكي: http://wiki.koha-community.org/wiki/SQL_Reports_Library. كما يمكنك أيضًا العثور على بنية قاعدة البيانات الخاصة بك في /installer/data/mysql/kohastructure.sql أو على الإنترنت على: `http://schema.koha-community.org <http://schema.koha-community.org/>`__."
+msgid ""
+"In addition to the report wizard, you have the option to write your own "
+"queries using SQL. To find reports written by other Koha users, visit the "
+"Koha wiki: http://wiki.koha-community.org/wiki/SQL_Reports_Library. You can "
+"also find your database structure in /installer/data/mysql/kohastructure.sql "
+"or online at: `http://schema.koha-community.org <http://schema.koha-"
+"community.org/>`__."
+msgstr ""
+"بالإضافة إلى معالج التقارير، لديك خيار كتابة الاستعلام الخاص بك باستخدام "
+"SQL. للعثور على التقارير المكتوبة بواسطة مستخدمي كوها الآخرين، قم بزيارة "
+"كوها ويكي: http://wiki.koha-community.org/wiki/SQL_Reports_Library. كما "
+"يمكنك أيضًا العثور على بنية قاعدة البيانات الخاصة بك في /installer/data/mysql/"
+"kohastructure.sql أو على الإنترنت على: `http://schema.koha-community.org "
+"<http://schema.koha-community.org/>`__."
 
 #: ../../source/reports.rst:125
-msgid "To add your query, click the link to 'Create from SQL' on the main reports module or the 'New report' button at the top of the 'Saved reports' page."
-msgstr "لإضافة استعلام، قم بالنقر على رابط \"إنشاء من SQL\" في نظام التقارير الفرعي الرئيسي أو زر \"تقرير جديد\" أعلى صفحة \"التقارير المحفوظة\""
+msgid ""
+"To add your query, click the link to 'Create from SQL' on the main reports "
+"module or the 'New report' button at the top of the 'Saved reports' page."
+msgstr ""
+"لإضافة استعلام، قم بالنقر على رابط \"إنشاء من SQL\" في نظام التقارير الفرعي "
+"الرئيسي أو زر \"تقرير جديد\" أعلى صفحة \"التقارير المحفوظة\""
 
 #: ../../source/reports.rst:129
 msgid "|image890|"
@@ -187,54 +291,110 @@ msgid "|image891|"
 msgstr "|image891|"
 
 #: ../../source/reports.rst:135
-msgid "The 'Name' is what will appear on the Saved Reports page to help you identify the report later. It will also be searchable using the filters found the left of the Saved Reports page."
-msgstr "'الاسم' هو ما سوف يظهر على صفحة التقارير المحفوظة لمساعدتك على معرفة التقرير لاحقاً. وسيكون قابلاً للبحث باستخدام عوامل التصفية الموجودة على يمين صفحة التقارير المحفوظة."
+msgid ""
+"The 'Name' is what will appear on the Saved Reports page to help you "
+"identify the report later. It will also be searchable using the filters "
+"found the left of the Saved Reports page."
+msgstr ""
+"'الاسم' هو ما سوف يظهر على صفحة التقارير المحفوظة لمساعدتك على معرفة التقرير "
+"لاحقاً. وسيكون قابلاً للبحث باستخدام عوامل التصفية الموجودة على يمين صفحة "
+"التقارير المحفوظة."
 
 #: ../../source/reports.rst:139
-msgid "You can use the 'Report group' to organize your reports so that you can easily filter reports by groups. Report groups are set in the `REPORT\\_GROUP <#reportgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button."
-msgstr "يمكنك استخدام \"مجموعة التقرير\" لتنظيم تقاريرك لكي تتمكن من تنقيح تقاريرك بسهولة بواسطة المجموعات. يتم ضبط مجموعات التقرير في فئة قيمة الاستناد `REPORT\\_GROUP <#reportgroup>` أو يمكن إضافتها على الطاير عند إنشاء التقرير عن طريق اختيار زر \"أو إنشاء\"."
+msgid ""
+"You can use the 'Report group' to organize your reports so that you can "
+"easily filter reports by groups. Report groups are set in the `REPORT"
+"\\_GROUP <#reportgroup>`__ authorized value category or can be added on the "
+"fly when creating the report by choosing the 'or create' radio button."
+msgstr ""
+"يمكنك استخدام \"مجموعة التقرير\" لتنظيم تقاريرك لكي تتمكن من تنقيح تقاريرك "
+"بسهولة بواسطة المجموعات. يتم ضبط مجموعات التقرير في فئة قيمة الاستناد `REPORT"
+"\\_GROUP <#reportgroup>` أو يمكن إضافتها على الطاير عند إنشاء التقرير عن "
+"طريق اختيار زر \"أو إنشاء\"."
 
 #: ../../source/reports.rst:145
 msgid "|image1293|"
 msgstr "|image1293|"
 
 #: ../../source/reports.rst:147
-msgid "Report groups set up in the authorised value category need to have unique authorised values and descriptions."
-msgstr "مجموعات التقارير التي يتم تنصيبها في فئة قيمة الاستناد يجب أن يكون لها وصف وقيم استناد فريدة."
+msgid ""
+"Report groups set up in the authorised value category need to have unique "
+"authorised values and descriptions."
+msgstr ""
+"مجموعات التقارير التي يتم تنصيبها في فئة قيمة الاستناد يجب أن يكون لها وصف "
+"وقيم استناد فريدة."
 
 #: ../../source/reports.rst:152
-msgid "If you're adding a report group on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
-msgstr "فكر مفيدة: إذا كنت تضيف مجموعة تقرير على الطاير، تذكر بأن الرمز يجب أن يكون أقل من 10 أحرف ولا يجب أن يحتوي على أحرف خاصة أو مسافات."
+msgid ""
+"If you're adding a report group on the fly, remember that you code should be "
+"fewer than 10 characters and should not include special characters or spaces."
+msgstr ""
+"فكر مفيدة: إذا كنت تضيف مجموعة تقرير على الطاير، تذكر بأن الرمز يجب أن يكون "
+"أقل من 10 أحرف ولا يجب أن يحتوي على أحرف خاصة أو مسافات."
 
 #: ../../source/reports.rst:156
 #, fuzzy
-msgid "You can use 'Report subgroup' to further organize your reports so that you can easily filter reports by groups and subgroups. Report subgroups are set in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or can be added on the fly when creating the report by choosing the 'or create' radio button.  Report subgroups are set up with unique values in 'Authorised value', and 'Description'. The 'Description (OPAC)'' field needs to contain the authorised value for the report group that the subgroup falls under."
-msgstr "يمكنك استخدام \"مجموعات التقرير الفرعية\" للمزيد من التنظيم لتقاريرك لكي تتمكن بسهولة من تنقيح التقارير بواسطة المجموعات والمجموعات الفرعية. يتم ضبط مجموعات التقرير الفرعية في فئة قيمة الاستناد `REPORT\\_SUBGROUP <#reportsubgroup>` أو يمكن إضافتها على الطاير عند إنشاء التقرير عن طريق اختيار زر \"أو إنشاء\". يتم تنصيب مجموعات التقرير الفرعية بقيم فريدة في قيمة الاستناد والوصف. يجب أن يحتوي حقل الوصف (الأوباك) على قيمة استناد لمجموعة التقرير التي تنتمي لها المجموعة الفرعية."
+msgid ""
+"You can use 'Report subgroup' to further organize your reports so that you "
+"can easily filter reports by groups and subgroups. Report subgroups are set "
+"in the `REPORT\\_SUBGROUP <#reportsubgroup>`__ authorized value category or "
+"can be added on the fly when creating the report by choosing the 'or create' "
+"radio button.  Report subgroups are set up with unique values in 'Authorised "
+"value', and 'Description'. The 'Description (OPAC)'' field needs to contain "
+"the authorised value for the report group that the subgroup falls under."
+msgstr ""
+"يمكنك استخدام \"مجموعات التقرير الفرعية\" للمزيد من التنظيم لتقاريرك لكي "
+"تتمكن بسهولة من تنقيح التقارير بواسطة المجموعات والمجموعات الفرعية. يتم ضبط "
+"مجموعات التقرير الفرعية في فئة قيمة الاستناد `REPORT\\_SUBGROUP "
+"<#reportsubgroup>` أو يمكن إضافتها على الطاير عند إنشاء التقرير عن طريق "
+"اختيار زر \"أو إنشاء\". يتم تنصيب مجموعات التقرير الفرعية بقيم فريدة في قيمة "
+"الاستناد والوصف. يجب أن يحتوي حقل الوصف (الأوباك) على قيمة استناد لمجموعة "
+"التقرير التي تنتمي لها المجموعة الفرعية."
 
 #: ../../source/reports.rst:165
 msgid "|image892|"
 msgstr "|image892|"
 
 #: ../../source/reports.rst:169
-msgid "If you're adding a report subgroup on the fly, remember that you code should be fewer than 10 characters and should not include special characters or spaces."
-msgstr "فكر مفيدة: إذا كنت تضيف مجموعة تقرير فرعية على الطاير، تذكر بأن الرمز يجب أن يكون أقل من 10 أحرف ولا يجب أن يحتوي على أحرف خاصة أو مسافات."
+msgid ""
+"If you're adding a report subgroup on the fly, remember that you code should "
+"be fewer than 10 characters and should not include special characters or "
+"spaces."
+msgstr ""
+"فكر مفيدة: إذا كنت تضيف مجموعة تقرير فرعية على الطاير، تذكر بأن الرمز يجب أن "
+"يكون أقل من 10 أحرف ولا يجب أن يحتوي على أحرف خاصة أو مسافات."
 
 #: ../../source/reports.rst:176
 msgid "'Report is public' should be left to the default of 'No' in most cases"
 msgstr "يجب ترك \"التقرير عام\" على الافتراضي \"لا\" في معظم الحالات"
 
 #: ../../source/reports.rst:174
-msgid "especially if the report contains patron or other sensitive information. A public report can be accessed using the :ref:`JSON reports services <json-reports-services-label>` by anyone and without authentication."
-msgstr "وخاصة إذا كان التقرير يحتوي على مستفيد أو أي معلومات حساسة أخرى. يمكن الوصول إلى التقرير العام باستخدام :ref:`خدمات تقارير JSON <json-reports-services-label> بواسطة أي شخص وبدون استيثاق."
+msgid ""
+"especially if the report contains patron or other sensitive information. A "
+"public report can be accessed using the :ref:`JSON reports services <json-"
+"reports-services-label>` by anyone and without authentication."
+msgstr ""
+"وخاصة إذا كان التقرير يحتوي على مستفيد أو أي معلومات حساسة أخرى. يمكن الوصول "
+"إلى التقرير العام باستخدام :ref:`خدمات تقارير JSON <json-reports-services-"
+"label> بواسطة أي شخص وبدون استيثاق."
 
 #: ../../source/reports.rst:178
 #, fuzzy
-msgid "'Notes' will also appear on the saved reports page, this can be used to provide more details about the report or tips on how to enter values when it runs"
-msgstr "'الملاحظات' أيضاً ستظهر في صفحة التقارير المحفوظة ، ومن الممكن استخدامه لتزويد التقارير بتفاصيل أكثر او تعليمات عن كيفية إدخال القيم عند تشغيله"
+msgid ""
+"'Notes' will also appear on the saved reports page, this can be used to "
+"provide more details about the report or tips on how to enter values when it "
+"runs"
+msgstr ""
+"'الملاحظات' أيضاً ستظهر في صفحة التقارير المحفوظة ، ومن الممكن استخدامه "
+"لتزويد التقارير بتفاصيل أكثر او تعليمات عن كيفية إدخال القيم عند تشغيله"
 
 #: ../../source/reports.rst:182
-msgid "The type should always be 'Tabular' at this time since the other formats have not been implemented"
-msgstr "يجب أن يكون النوع دائماً \"مجدول\" في الوقت الحالي حيث أن التنسيقات الأخرى لم يتم تنفيذها بعد"
+msgid ""
+"The type should always be 'Tabular' at this time since the other formats "
+"have not been implemented"
+msgstr ""
+"يجب أن يكون النوع دائماً \"مجدول\" في الوقت الحالي حيث أن التنسيقات الأخرى لم "
+"يتم تنفيذها بعد"
 
 #: ../../source/reports.rst:185
 msgid "In the 'SQL' box you will type or paste the SQL for the report"
@@ -246,8 +406,17 @@ msgstr "|image1294|"
 
 #: ../../source/reports.rst:197
 #, fuzzy
-msgid "Once everything is entered click the 'Save report' button and you'll be presented with options to run it. Once a report is saved you do not have to recreate it you can simply find it on the Saved Reports page and :ref:`run <running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` it."
-msgstr "بمجرد إدخال كل شيء قم بالنقر على زر \"حفظ التقرير\" وستظهر لك خيارات تشغليه. بمجرد حفظ التقرير لا يجب عليك إعادة إنشائه، يمكنك ببساطة العثور عليه في صفحة التقارير المحفوظة و:ref:`تشغيله <running-custom-reports-label>أو :ref:`تحريره <edit-custom-reports-label>."
+msgid ""
+"Once everything is entered click the 'Save report' button and you'll be "
+"presented with options to run it. Once a report is saved you do not have to "
+"recreate it you can simply find it on the Saved Reports page and :ref:`run "
+"<running-custom-reports-label>` or :ref:`edit <edit-custom-reports-label>` "
+"it."
+msgstr ""
+"بمجرد إدخال كل شيء قم بالنقر على زر \"حفظ التقرير\" وستظهر لك خيارات تشغليه. "
+"بمجرد حفظ التقرير لا يجب عليك إعادة إنشائه، يمكنك ببساطة العثور عليه في صفحة "
+"التقارير المحفوظة و:ref:`تشغيله <running-custom-reports-label>أو :ref:"
+"`تحريره <edit-custom-reports-label>."
 
 #: ../../source/reports.rst:205
 #, fuzzy
@@ -259,23 +428,42 @@ msgid "**Runtime parameters**"
 msgstr ""
 
 #: ../../source/reports.rst:209
-msgid "If you feel that your report might be too resource intensive you might want to consider using runtime parameters to your query. Runtime parameters basically make a filter appear before the report is run to save your system resources."
-msgstr "إذا ما شعرتَ بأن تقريركَ سيستهلك الكثير من موارد نظامك ، فربما تود أن تدرس استخدام معاملات وقت التشغيل في إستعلامك. معاملات وقت التشغيل أساساً تقوم بعرض عامل تصفية يظهر قبل أن يبدأ تشغيل التقرير لتحفظ موارد نظامك."
+msgid ""
+"If you feel that your report might be too resource intensive you might want "
+"to consider using runtime parameters to your query. Runtime parameters "
+"basically make a filter appear before the report is run to save your system "
+"resources."
+msgstr ""
+"إذا ما شعرتَ بأن تقريركَ سيستهلك الكثير من موارد نظامك ، فربما تود أن تدرس "
+"استخدام معاملات وقت التشغيل في إستعلامك. معاملات وقت التشغيل أساساً تقوم بعرض "
+"عامل تصفية يظهر قبل أن يبدأ تشغيل التقرير لتحفظ موارد نظامك."
 
 #: ../../source/reports.rst:214
-msgid "There is a specific syntax that Koha will understand as 'ask for values when running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
-msgstr "هناك جملة محددة سوف يترجمها كوها \"اطلب القيم عند تشغيل التقرير\". الجملة هي: <<Question to ask\\|authorized\\_value>"
+msgid ""
+"There is a specific syntax that Koha will understand as 'ask for values when "
+"running the report'. The syntax is <<Question to ask\\|authorized\\_value>>."
+msgstr ""
+"هناك جملة محددة سوف يترجمها كوها \"اطلب القيم عند تشغيل التقرير\". الجملة "
+"هي: <<Question to ask\\|authorized\\_value>"
 
 #: ../../source/reports.rst:218
-msgid "The << and >> are just delimiters. You must put << at the beginning and >> at the end of your parameter"
-msgstr "<< and > مجرد محدد. يجب عليك وضع << at the beginning and >وفي نهاية المعامل."
+msgid ""
+"The << and >> are just delimiters. You must put << at the beginning and >> "
+"at the end of your parameter"
+msgstr ""
+"<< and > مجرد محدد. يجب عليك وضع << at the beginning and >وفي نهاية المعامل."
 
 #: ../../source/reports.rst:221
-msgid "The 'Question to ask' will be displayed on the left of the string to enter."
+msgid ""
+"The 'Question to ask' will be displayed on the left of the string to enter."
 msgstr " 'طرح سؤال' سوف تكون معروضة على الجانب الأيسر من السلسلة للدخول."
 
 #: ../../source/reports.rst:224
-msgid "The authorized\\_value can be omitted if not applicable. If it contains an authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio\\_framework', a list with the Koha authorized values will be displayed instead of a free field."
+msgid ""
+"The authorized\\_value can be omitted if not applicable. If it contains an "
+"authorized value category, 'branches', 'itemtype', 'categorycode', 'biblio"
+"\\_framework', a list with the Koha authorized values will be displayed "
+"instead of a free field."
 msgstr ""
 
 #: ../../source/reports.rst:231
@@ -283,12 +471,27 @@ msgid "You can have more than one parameter in a given SQL query."
 msgstr ""
 
 #: ../../source/reports.rst:235
-msgid "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field. For example entering nothing for: \"title=<<Enter title>>\" will display results with title='' (no title). If you want to have to have something not mandatory, use \"title like <<Enter title>>\" and enter a % at run time instead of nothing."
-msgstr "يجب عليك وضع \"%\" في مربع النص لـ 'تتركه خالياً', وإلا فسيبحث حرفياً عن \"\" (مقطع فارغ) كقيمة للحقل. على سبيل المثال: عدم إدخال شيء لـ:\"title=<<Enter title>>\" سيؤدي إلى عرض النتائج بـ  title='' (بدون عنوان). إذا كنت تريد شيئاً غير إلزامي، قم باستخدام \"title like <<Enter title>>\" وإدخال % في وقت التشغيل بدلاً من لا شيء."
+msgid ""
+"You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it "
+"literally looks for \"\" (empty string) as the value for the field. For "
+"example entering nothing for: \"title=<<Enter title>>\" will display results "
+"with title='' (no title). If you want to have to have something not "
+"mandatory, use \"title like <<Enter title>>\" and enter a % at run time "
+"instead of nothing."
+msgstr ""
+"يجب عليك وضع \"%\" في مربع النص لـ 'تتركه خالياً', وإلا فسيبحث حرفياً عن "
+"\"\" (مقطع فارغ) كقيمة للحقل. على سبيل المثال: عدم إدخال شيء لـ:"
+"\"title=<<Enter title>>\" سيؤدي إلى عرض النتائج بـ  title='' (بدون عنوان). "
+"إذا كنت تريد شيئاً غير إلزامي، قم باستخدام \"title like <<Enter title>>\" "
+"وإدخال % في وقت التشغيل بدلاً من لا شيء."
 
 #: ../../source/reports.rst:246
-msgid "To generate a date picker calendar to the right of the field when running a report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
-msgstr "لتوليد روزنامة لتحديد التاريخ على يسار الحقل أثناء تشغيل تقرير يمكنك استخدام كلمة \"تاريخ\" المفتاحية هكذا: <<Enter Date\\|date>>"
+msgid ""
+"To generate a date picker calendar to the right of the field when running a "
+"report you can use the 'date' keyword like this: <<Enter Date\\|date>>"
+msgstr ""
+"لتوليد روزنامة لتحديد التاريخ على يسار الحقل أثناء تشغيل تقرير يمكنك استخدام "
+"كلمة \"تاريخ\" المفتاحية هكذا: <<Enter Date\\|date>>"
 
 #: ../../source/reports.rst:250
 msgid "|image893|"
@@ -311,15 +514,22 @@ msgid "What gets inserted in query"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "date branches itemtypes categorycode biblio\\_framework (auth-value-category) (nothing)"
+msgid ""
+"date branches itemtypes categorycode biblio\\_framework (auth-value-"
+"category) (nothing)"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "date picker drop down of branch names drop down of item type names drop down of patron category descriptions drop down of MARC bibliographic frameworks drop down of auth-value descriptions in category text box"
+msgid ""
+"date picker drop down of branch names drop down of item type names drop down "
+"of patron category descriptions drop down of MARC bibliographic frameworks "
+"drop down of auth-value descriptions in category text box"
 msgstr ""
 
 #: ../../source/reports.rst:257
-msgid "validly formatted date branch code item type borrower category code framework code authorized value entered text"
+msgid ""
+"validly formatted date branch code item type borrower category code "
+"framework code authorized value entered text"
 msgstr ""
 
 #: ../../source/reports.rst:266
@@ -328,17 +538,31 @@ msgstr "أمثلة:"
 
 #: ../../source/reports.rst:268
 #, fuzzy
-msgid "SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's library\\|branches>> AND surname like <<Enter filter for patron surname (% if none)>>"
-msgstr "SELECT surname,firstname FROM borrowers WHERE branchcode=<<Enter patrons library\\|branches>> AND surname like <<Enter filter for patron surname (% if none)>>"
+msgid ""
+"SELECT surname, firstname FROM borrowers WHERE branchcode=<<Enter patron's "
+"library\\|branches>> AND surname like <<Enter filter for patron surname (% "
+"if none)>>"
+msgstr ""
+"SELECT surname,firstname FROM borrowers WHERE branchcode=<<Enter patrons "
+"library\\|branches>> AND surname like <<Enter filter for patron surname (% "
+"if none)>>"
 
 #: ../../source/reports.rst:272
-msgid "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here>>"
-msgstr "SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and barcode like <<Partial barcode value here>>"
+msgid ""
+"SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and "
+"barcode like <<Partial barcode value here>>"
+msgstr ""
+"SELECT \\* FROM items WHERE homebranch = <<Pick your branch\\|branches>> and "
+"barcode like <<Partial barcode value here>>"
 
 #: ../../source/reports.rst:275
 #, fuzzy
-msgid "SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the frameworkcode\\|biblio\\_framework>>"
-msgstr "حدد العنوان، والمؤلف من التسجيلة البيبلوغرافية حيث رمز الإطار =<<Enter the frameworkcode\\|biblio\\_framework>"
+msgid ""
+"SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the "
+"frameworkcode\\|biblio\\_framework>>"
+msgstr ""
+"حدد العنوان، والمؤلف من التسجيلة البيبلوغرافية حيث رمز الإطار =<<Enter the "
+"frameworkcode\\|biblio\\_framework>"
 
 #: ../../source/reports.rst:299
 #, fuzzy
@@ -346,7 +570,9 @@ msgid "SQL report from Mana"
 msgstr "تقرير من SQL"
 
 #: ../../source/reports.rst:301
-msgid "In the \"Create report from SQL\", you can search Mana KB for pre-made reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
+msgid ""
+"In the \"Create report from SQL\", you can search Mana KB for pre-made "
+"reports by clicking on \"New report\" and choosing \"New SQL from Mana\"."
 msgstr ""
 
 #: ../../source/reports.rst:304
@@ -355,7 +581,9 @@ msgid "|image1428|"
 msgstr "|image1428|"
 
 #: ../../source/reports.rst:308
-msgid "This option will only appear if you've :ref:`configured Mana KB <share-with-mana-kb-label>` in the administration module."
+msgid ""
+"This option will only appear if you've :ref:`configured Mana KB <share-with-"
+"mana-kb-label>` in the administration module."
 msgstr ""
 
 #: ../../source/reports.rst:310
@@ -393,11 +621,14 @@ msgid "|image1430|"
 msgstr "|image1430|"
 
 #: ../../source/reports.rst:328
-msgid "Click on \"Import\" to import a copy of the report in your own saved reports."
+msgid ""
+"Click on \"Import\" to import a copy of the report in your own saved reports."
 msgstr ""
 
 #: ../../source/reports.rst:330
-msgid "You can then edit it, duplicate it, delete it, run it as you would any of your own reports."
+msgid ""
+"You can then edit it, duplicate it, delete it, run it as you would any of "
+"your own reports."
 msgstr ""
 
 #: ../../source/reports.rst:336
@@ -406,16 +637,27 @@ msgid "Duplicate report"
 msgstr "نسخ التقرير"
 
 #: ../../source/reports.rst:338
-msgid "Reports can also be added by duplicating an existing report. Visit the 'Saved reports' page to see all of the reports listed on your system already."
-msgstr "كما يمكن إضافة التقارير أيضاً عن طريق نسخ تقرير حالي. قم بزيارة صفحة \"التقارير المحفوظة\" لرؤية كل التقارير المدرجة في نظامك."
+msgid ""
+"Reports can also be added by duplicating an existing report. Visit the "
+"'Saved reports' page to see all of the reports listed on your system already."
+msgstr ""
+"كما يمكن إضافة التقارير أيضاً عن طريق نسخ تقرير حالي. قم بزيارة صفحة "
+"\"التقارير المحفوظة\" لرؤية كل التقارير المدرجة في نظامك."
 
 #: ../../source/reports.rst:342
 msgid "|image895|"
 msgstr "|image895|"
 
 #: ../../source/reports.rst:344
-msgid "To the right of every report there is an 'Actions' pull down. Clicking that and choose 'Duplicate' to use an existing report as the basis for your new report. That will populate the new report form with the existing SQL for easy editing and resaving."
-msgstr "على يسار كل تقرير توجد قائمة \"إجراءات\" منسدلة. قم بالنقر على ذلك واختيار \"تكرار\" لاستخدام تقرير حالي كأساس لتقريرك الجديد. سيقوم ذلك بملء التقرير الجديد من ال QL الحالي لسهولة التحرير وإعادة الحفظ."
+msgid ""
+"To the right of every report there is an 'Actions' pull down. Clicking that "
+"and choose 'Duplicate' to use an existing report as the basis for your new "
+"report. That will populate the new report form with the existing SQL for "
+"easy editing and resaving."
+msgstr ""
+"على يسار كل تقرير توجد قائمة \"إجراءات\" منسدلة. قم بالنقر على ذلك واختيار "
+"\"تكرار\" لاستخدام تقرير حالي كأساس لتقريرك الجديد. سيقوم ذلك بملء التقرير "
+"الجديد من ال QL الحالي لسهولة التحرير وإعادة الحفظ."
 
 #: ../../source/reports.rst:352
 #, fuzzy
@@ -424,16 +666,31 @@ msgstr "تحرير التقارير المخصصة"
 
 #: ../../source/reports.rst:354
 #, fuzzy
-msgid "Every report can be edited from the reports lists. To see the list of reports already stored in Koha, click 'Use saved.'"
-msgstr "يمكن تحرير التقرير من قوائم التقارير. لرؤية قائمة التقارير المحفوظة بالفعل في كوها، قم بالنقر على \"استخدم المحفوظ\""
+msgid ""
+"Every report can be edited from the reports lists. To see the list of "
+"reports already stored in Koha, click 'Use saved.'"
+msgstr ""
+"يمكن تحرير التقرير من قوائم التقارير. لرؤية قائمة التقارير المحفوظة بالفعل "
+"في كوها، قم بالنقر على \"استخدم المحفوظ\""
 
 #: ../../source/reports.rst:365
-msgid "To find the report you'd like to edit you can sort by any of the columns by clicking the on the column header. You can also filter your results using the filter menu on the left or use the tabs to find reports based on your custom groups."
-msgstr "للعثور على التقرير الذي ترغب في تحريره يمكنك الفرز بواسطة أي من الأعمدة بالنقر على رأس العمود. كما يمكنك ترشيح نتائجك باستخدام قائمة الترشيح جهة اليمين أو استخدم التبويبات العثور على التقارير بناء على مجموعاتك المخصصة."
+msgid ""
+"To find the report you'd like to edit you can sort by any of the columns by "
+"clicking the on the column header. You can also filter your results using "
+"the filter menu on the left or use the tabs to find reports based on your "
+"custom groups."
+msgstr ""
+"للعثور على التقرير الذي ترغب في تحريره يمكنك الفرز بواسطة أي من الأعمدة "
+"بالنقر على رأس العمود. كما يمكنك ترشيح نتائجك باستخدام قائمة الترشيح جهة "
+"اليمين أو استخدم التبويبات العثور على التقارير بناء على مجموعاتك المخصصة."
 
 #: ../../source/reports.rst:370
-msgid "From this list you can edit any custom report by clicking 'Actions' to the right of the report and choosing 'Edit' from the menu that appears."
-msgstr "من هذه القائمة يمكنك تحرير أي تقرير مخصص عن طريق النقر على \"إجراءات\" على يسار التقرير واختيار \"تحرير\" من القائمة التي تظر لك."
+msgid ""
+"From this list you can edit any custom report by clicking 'Actions' to the "
+"right of the report and choosing 'Edit' from the menu that appears."
+msgstr ""
+"من هذه القائمة يمكنك تحرير أي تقرير مخصص عن طريق النقر على \"إجراءات\" على "
+"يسار التقرير واختيار \"تحرير\" من القائمة التي تظر لك."
 
 #: ../../source/reports.rst:373
 msgid "|image897|"
@@ -453,8 +710,14 @@ msgid "Running custom reports"
 msgstr "تشغيل التقارير المخصصة"
 
 #: ../../source/reports.rst:384
-msgid "Once custom reports are saved to Koha, you can run them by going to the Saved Reports page and clicking the 'Actions' button to the right of the report and choosing 'Run'."
-msgstr "بمجرد حفظ التقارير المخصصة إلى كوها، يمكنك تشغيلها عن طريق الذهاب إلى صفحة التقارير المحفوظة والتقر على زر \"إجراءات\" على يسار التقرير واختيار \"تشغيل\""
+msgid ""
+"Once custom reports are saved to Koha, you can run them by going to the "
+"Saved Reports page and clicking the 'Actions' button to the right of the "
+"report and choosing 'Run'."
+msgstr ""
+"بمجرد حفظ التقارير المخصصة إلى كوها، يمكنك تشغيلها عن طريق الذهاب إلى صفحة "
+"التقارير المحفوظة والتقر على زر \"إجراءات\" على يسار التقرير واختيار \"تشغيل"
+"\""
 
 #: ../../source/reports.rst:388
 msgid "|image899|"
@@ -477,13 +740,26 @@ msgid "|image901|"
 msgstr "|image901|"
 
 #: ../../source/reports.rst:398
-msgid "From the results you can choose to rerun the report by clicking 'Run report' at the top, edit the report by clicking the 'Edit' button or starting over and creating a new report by using the 'New' button. You can also download your results by choosing a file type at the bottom of the results next to the 'Download the report' label and clicking 'Download.'"
-msgstr "من النتائج يمكنك اختيار إعادة تشغيل التقرير عن طريق النقر على \"تشغيل التقرير\" في الأعلى، تحرير التقرير عن طريق النقر على زر \"تحرير\" أو البدء من جديد وإنشاء تقرير جديد عن طريق استخدام زر \"جديد\". كما يمكنك تنزيل نتائجك عن طريق اختيار نوع الملف من أدنى النتائج بجانب ملصق \"تنزيل التقرير\" والنقر على \"تنزيل\" "
+msgid ""
+"From the results you can choose to rerun the report by clicking 'Run report' "
+"at the top, edit the report by clicking the 'Edit' button or starting over "
+"and creating a new report by using the 'New' button. You can also download "
+"your results by choosing a file type at the bottom of the results next to "
+"the 'Download the report' label and clicking 'Download.'"
+msgstr ""
+"من النتائج يمكنك اختيار إعادة تشغيل التقرير عن طريق النقر على \"تشغيل التقرير"
+"\" في الأعلى، تحرير التقرير عن طريق النقر على زر \"تحرير\" أو البدء من جديد "
+"وإنشاء تقرير جديد عن طريق استخدام زر \"جديد\". كما يمكنك تنزيل نتائجك عن "
+"طريق اختيار نوع الملف من أدنى النتائج بجانب ملصق \"تنزيل التقرير\" والنقر "
+"على \"تنزيل\" "
 
 #: ../../source/reports.rst:407
 #, fuzzy
-msgid "A comma separated text file is a CSV file and it can be opened by any spreadsheet application."
-msgstr "ملف النص مفصول بفواصل ملف CSV ويمكن فتحه من قبل أي تطبيق جدول البيانات."
+msgid ""
+"A comma separated text file is a CSV file and it can be opened by any "
+"spreadsheet application."
+msgstr ""
+"ملف النص مفصول بفواصل ملف CSV ويمكن فتحه من قبل أي تطبيق جدول البيانات."
 
 #: ../../source/reports.rst:413
 #, fuzzy
@@ -492,8 +768,16 @@ msgstr "إرسال أرقام المادة إلى تعديل المواد بال
 
 #: ../../source/reports.rst:415
 #, fuzzy
-msgid "After running a report that contains itemnumbers, biblionumbers and/or patron cardnumbers the list of numbers can be imported directly into the relevant batch modification tool by clicking the 'Batch operations with X visible records' button in the report results.  The X depends on the number of records you have chosen to display on screen (up to 1000)."
-msgstr "بعد تشغيل التقرير الذي يحتوي على أرقام المادة يمكن استيراد قائمة بالأرقام مباشرة إلى :ref:`تعديل المواد بالدفعة بالنقر على زر التعديل بالدفعة في نتائج التقارير"
+msgid ""
+"After running a report that contains itemnumbers, biblionumbers and/or "
+"patron cardnumbers the list of numbers can be imported directly into the "
+"relevant batch modification tool by clicking the 'Batch operations with X "
+"visible records' button in the report results.  The X depends on the number "
+"of records you have chosen to display on screen (up to 1000)."
+msgstr ""
+"بعد تشغيل التقرير الذي يحتوي على أرقام المادة يمكن استيراد قائمة بالأرقام "
+"مباشرة إلى :ref:`تعديل المواد بالدفعة بالنقر على زر التعديل بالدفعة في نتائج "
+"التقارير"
 
 #: ../../source/reports.rst:418
 msgid "|image1343|"
@@ -506,8 +790,18 @@ msgstr "التقارير الإحصائية"
 
 #: ../../source/reports.rst:425
 #, fuzzy
-msgid "Statistic reports will show you counts and sums. These reports are all about numbers and statistics, for reports that return more detailed data, use the :ref:`guided report wizard`. These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
-msgstr "ستعرض لك التقارير الإحصائية الحسابات والمبالغ. تتمحور هذه التقارير حول الأرقام والإحصائيات، للتقارير التي تعيد بيانات أكثر تفصيلاً، استخدم :ref:`معالج التقارير الموجهة. هذه التقارير محدودة في البيانات التي تبحث عنها، لذا فمن الأفضل استخدام :ref:`التقارير المخصصة <custom-reports-label> للنهاية الرسمية لإحصائيات السنة."
+msgid ""
+"Statistic reports will show you counts and sums. These reports are all about "
+"numbers and statistics, for reports that return more detailed data, use the :"
+"ref:`guided report wizard`. These reports are limited in what data they can "
+"look at, so it's often recommended to use :ref:`custom reports <custom-"
+"reports-label>` for official end of the year statistics."
+msgstr ""
+"ستعرض لك التقارير الإحصائية الحسابات والمبالغ. تتمحور هذه التقارير حول "
+"الأرقام والإحصائيات، للتقارير التي تعيد بيانات أكثر تفصيلاً، استخدم :ref:"
+"`معالج التقارير الموجهة. هذه التقارير محدودة في البيانات التي تبحث عنها، لذا "
+"فمن الأفضل استخدام :ref:`التقارير المخصصة <custom-reports-label> للنهاية "
+"الرسمية لإحصائيات السنة."
 
 #: ../../source/reports.rst:435
 #, fuzzy
@@ -517,14 +811,23 @@ msgstr "إحصائيات التزويد"
 #: ../../source/reports.rst:439 ../../source/reports.rst:473
 #: ../../source/reports.rst:498 ../../source/reports.rst:522
 #: ../../source/reports.rst:581 ../../source/reports.rst:605
-msgid "These reports are limited in what data they can look at, so it's often recommended to use :ref:`custom reports <custom-reports-label>` for official end of the year statistics."
-msgstr "وتقتصر هذه التقارير على ما يمكن أن تنظر له البيانات، لذا من الأفضل استخدام :ref:` تقارير مخصصة <custom-reports-label> للنهاية الرسمية لإحصاءات السنة."
+msgid ""
+"These reports are limited in what data they can look at, so it's often "
+"recommended to use :ref:`custom reports <custom-reports-label>` for official "
+"end of the year statistics."
+msgstr ""
+"وتقتصر هذه التقارير على ما يمكن أن تنظر له البيانات، لذا من الأفضل استخدام :"
+"ref:` تقارير مخصصة <custom-reports-label> للنهاية الرسمية لإحصاءات السنة."
 
 #: ../../source/reports.rst:443 ../../source/reports.rst:477
 #: ../../source/reports.rst:502 ../../source/reports.rst:526
 #, fuzzy
-msgid "Using the form provided, choose which value you would like to appear in the column and which will appear in the row."
-msgstr "باستخدام النموذج المعد لذلك ، اختر أي القيم التي ترغب أن تظهر في العمود ، وايها تود أن تظهر في الصف."
+msgid ""
+"Using the form provided, choose which value you would like to appear in the "
+"column and which will appear in the row."
+msgstr ""
+"باستخدام النموذج المعد لذلك ، اختر أي القيم التي ترغب أن تظهر في العمود ، "
+"وايها تود أن تظهر في الصف."
 
 #: ../../source/reports.rst:446
 msgid "|image902|"
@@ -536,8 +839,10 @@ msgstr "|image902|"
 #: ../../source/reports.rst:633 ../../source/reports.rst:651
 #: ../../source/reports.rst:669 ../../source/reports.rst:687
 #: ../../source/reports.rst:705 ../../source/reports.rst:765
-msgid "If you choose to output to the browser your results will print to the screen."
-msgstr "إذا ما اخترت أن تكون المخرجات على المتصفح ، فإن النتائج ستُطبع على الشاشة."
+msgid ""
+"If you choose to output to the browser your results will print to the screen."
+msgstr ""
+"إذا ما اخترت أن تكون المخرجات على المتصفح ، فإن النتائج ستُطبع على الشاشة."
 
 #: ../../source/reports.rst:451
 msgid "|image903|"
@@ -549,11 +854,15 @@ msgstr "|image903|"
 #: ../../source/reports.rst:656 ../../source/reports.rst:674
 #: ../../source/reports.rst:692 ../../source/reports.rst:710
 #: ../../source/reports.rst:770
-msgid "You can also choose to export to a file that you can manipulate to your needs."
+msgid ""
+"You can also choose to export to a file that you can manipulate to your "
+"needs."
 msgstr "يمكنك أيضا اختيار التصدير إلى ملف تستطيع تعديله ليناسب احتياجاتك."
 
 #: ../../source/reports.rst:456
-msgid "When generating your report, note that you get to choose between counting or summing the values."
+msgid ""
+"When generating your report, note that you get to choose between counting or "
+"summing the values."
 msgstr "عند توليد تقريرك، لاحظ أنه يمكنك الاختيار ما بين عد أو جمع القيم."
 
 #: ../../source/reports.rst:459
@@ -561,7 +870,9 @@ msgid "|image904|"
 msgstr "|image904|"
 
 #: ../../source/reports.rst:461
-msgid "Choosing amount will change your results to appear as the sum of the amounts spent."
+msgid ""
+"Choosing amount will change your results to appear as the sum of the amounts "
+"spent."
 msgstr "وسوف يختار كمية تغيير النتائج لتظهر على أنها مجموع المبالغ التي أنفقت."
 
 #: ../../source/reports.rst:464
@@ -582,8 +893,13 @@ msgid "|image907|"
 msgstr "|image907|"
 
 #: ../../source/reports.rst:487
-msgid "Based on your selections, you may see some query information above your results table. You can also choose to export to a file that you can manipulate to your needs."
-msgstr "بناء على اختياراتك, يمكن أن ترى بعض معلومات الاستعلام فوق جدول نتائجك. بإمكانك أيضا أن تختار ملف للتصدير ذلك يمكنك منمعالجة احتياجاتك."
+msgid ""
+"Based on your selections, you may see some query information above your "
+"results table. You can also choose to export to a file that you can "
+"manipulate to your needs."
+msgstr ""
+"بناء على اختياراتك, يمكن أن ترى بعض معلومات الاستعلام فوق جدول نتائجك. "
+"بإمكانك أيضا أن تختار ملف للتصدير ذلك يمكنك منمعالجة احتياجاتك."
 
 #: ../../source/reports.rst:494
 #, fuzzy
@@ -612,16 +928,32 @@ msgid "|image911|"
 msgstr "|image911|"
 
 #: ../../source/reports.rst:541
-msgid "To get a complete picture of your monthly or daily circulation, you can run the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
-msgstr "للحصول على صورة كاملة عن الإعارة الشهرية أو اليومية الخاصة بك، يمكنك تشغيل التقرير مرتين، مرة ل 'نوع' من 'الإعارة' ومرة أخرى ل 'التجديد'."
+msgid ""
+"To get a complete picture of your monthly or daily circulation, you can run "
+"the report twice, once for 'Type' of 'Checkout' and again for 'Renewal.'"
+msgstr ""
+"للحصول على صورة كاملة عن الإعارة الشهرية أو اليومية الخاصة بك، يمكنك تشغيل "
+"التقرير مرتين، مرة ل 'نوع' من 'الإعارة' ومرة أخرى ل 'التجديد'."
 
 #: ../../source/reports.rst:545
-msgid "This report uses 'Period,' or date, filtering that allows you to limit to a month by simply selecting the first day of the first month through the first day of the next month. For example, 10/1 to 11/1 to find statistics for the month of October."
-msgstr "يستخدم هذا التقرير 'الفترة'، أو التاريخ، التصفية التي تسمح لك بتحديد الشهر ببساطة عن طريق اختيار اليوم الأول من الشهر الأول من خلال اليوم الأول من الشهر المقبل. على سبيل المثال، 10/1 إلى 1/11 إلى العثور على إحصائيات لشهر اكتوبر تشرين الاول."
+msgid ""
+"This report uses 'Period,' or date, filtering that allows you to limit to a "
+"month by simply selecting the first day of the first month through the first "
+"day of the next month. For example, 10/1 to 11/1 to find statistics for the "
+"month of October."
+msgstr ""
+"يستخدم هذا التقرير 'الفترة'، أو التاريخ، التصفية التي تسمح لك بتحديد الشهر "
+"ببساطة عن طريق اختيار اليوم الأول من الشهر الأول من خلال اليوم الأول من "
+"الشهر المقبل. على سبيل المثال، 10/1 إلى 1/11 إلى العثور على إحصائيات لشهر "
+"اكتوبر تشرين الاول."
 
 #: ../../source/reports.rst:550
-msgid "To find daily statistics, set your date range.</br> Example: \"I want circulation data starting with date XXX up to, but not including, date XXX.\""
-msgstr "للعثور على الإحصائيات اليومية، قم بضبط نطاق التاريخ الخاص بك </br> مثال: \"أريد بيانات الإعارة بدءًا من تاريخ XXX حتى التاريخ XXX لكن لا تشمله\""
+msgid ""
+"To find daily statistics, set your date range.</br> Example: \"I want "
+"circulation data starting with date XXX up to, but not including, date XXX.\""
+msgstr ""
+"للعثور على الإحصائيات اليومية، قم بضبط نطاق التاريخ الخاص بك </br> مثال: "
+"\"أريد بيانات الإعارة بدءًا من تاريخ XXX حتى التاريخ XXX لكن لا تشمله\""
 
 #: ../../source/reports.rst:554
 msgid "For a whole month, an example range would be: 11/01/2009 to 12/01/2009"
@@ -632,8 +964,12 @@ msgid "For a whole year, an example range would be: 01/01/2009 to 01/01/2010"
 msgstr " لمدة عام كامل، على سبيل المثال سيكون المدى: 01/01/2009 إلى 2010/01/01"
 
 #: ../../source/reports.rst:560
-msgid "For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what circulated on the 15th"
-msgstr "ليوم واحد، على سبيل المثال سيكون: 2009/11/15 إلى 2009/11/16 للعثور على ما تم استعارته على 15th"
+msgid ""
+"For a single day, an example would be: 11/15/2009 to 11/16/2009 to find what "
+"circulated on the 15th"
+msgstr ""
+"ليوم واحد، على سبيل المثال سيكون: 2009/11/15 إلى 2009/11/16 للعثور على ما تم "
+"استعارته على 15th"
 
 #: ../../source/reports.rst:566
 msgid "Tracking in house use"
@@ -641,8 +977,14 @@ msgstr " تتبع مسار الاستخدام من المنزل"
 
 #: ../../source/reports.rst:568
 #, fuzzy
-msgid "Using the Circulation statistics reporting wizard you can run reports on in house usage of items simply by choosing 'Local use' from the 'Type' pull down:"
-msgstr "باستخدام تقرير معالج إحصاءات التداول يمكنك تنفيذ تقارير عن الاستخدام في المنزل من المواد ببساطة عن طريق اختيار 'استخدام المحلي' من 'نوع' من القائمة المنسدلة:"
+msgid ""
+"Using the Circulation statistics reporting wizard you can run reports on in "
+"house usage of items simply by choosing 'Local use' from the 'Type' pull "
+"down:"
+msgstr ""
+"باستخدام تقرير معالج إحصاءات التداول يمكنك تنفيذ تقارير عن الاستخدام في "
+"المنزل من المواد ببساطة عن طريق اختيار 'استخدام المحلي' من 'نوع' من القائمة "
+"المنسدلة:"
 
 #: ../../source/reports.rst:572
 msgid "|image912|"
@@ -654,7 +996,9 @@ msgid "Serials statistics"
 msgstr "إحصائيات الدوريات"
 
 #: ../../source/reports.rst:585
-msgid "Using the form provided, choose how you would like to list the serials in your system."
+msgid ""
+"Using the form provided, choose how you would like to list the serials in "
+"your system."
 msgstr "باستخدام النموذج المعد لذلك اختر كيف ترغب بسرد الدوريات في نظامك."
 
 #: ../../source/reports.rst:588
@@ -671,8 +1015,16 @@ msgid "Holds statistics"
 msgstr "أحصائيات الحجز"
 
 #: ../../source/reports.rst:609
-msgid "Using the form provided you can see statistics for holds placed, filled, cancelled and more at your library. From the form choose what value you want to display in the column and what value to show in the row. You can also choose from the filters on the far right of the form."
-msgstr "باستخدام النموذج المعد لذلك بإمكانك أن ترى الإحصاءات للحجوزات القائمة ، الحجوزات المملوءة، الملغاة والمزيد في مكتبتك. من النموذج اختر ما القيمة التي تود أن تعرضها في العمود وما هي القيمة التي تود أن تعرضها في الصف. بإمكانك أيضاً أن تختار من المصفيات في أقصى يسار النموذج."
+msgid ""
+"Using the form provided you can see statistics for holds placed, filled, "
+"cancelled and more at your library. From the form choose what value you want "
+"to display in the column and what value to show in the row. You can also "
+"choose from the filters on the far right of the form."
+msgstr ""
+"باستخدام النموذج المعد لذلك بإمكانك أن ترى الإحصاءات للحجوزات القائمة ، "
+"الحجوزات المملوءة، الملغاة والمزيد في مكتبتك. من النموذج اختر ما القيمة التي "
+"تود أن تعرضها في العمود وما هي القيمة التي تود أن تعرضها في الصف. بإمكانك "
+"أيضاً أن تختار من المصفيات في أقصى يسار النموذج."
 
 #: ../../source/reports.rst:614
 msgid "|image915|"
@@ -688,7 +1040,8 @@ msgstr "المستفيدون الأكثر إستعارةً"
 
 #: ../../source/reports.rst:629
 msgid "This report will simply list the patrons who have the most checkouts."
-msgstr "هذا التقرير بكل بساطة قائمة بالمستفيدين اللذين تم إعارتهم أكثر من غيرهم."
+msgstr ""
+"هذا التقرير بكل بساطة قائمة بالمستفيدين اللذين تم إعارتهم أكثر من غيرهم."
 
 #: ../../source/reports.rst:631
 msgid "|image917|"
@@ -704,7 +1057,9 @@ msgid "Most circulated items"
 msgstr "المواد الأكثر إعارة"
 
 #: ../../source/reports.rst:646
-msgid "This report will simply list the items that have the been checked out the most."
+msgid ""
+"This report will simply list the items that have the been checked out the "
+"most."
 msgstr "هذا التقرير بكل بساطة قائمة بالمواد التي تم إعارتها أكثر من غيرها."
 
 #: ../../source/reports.rst:649
@@ -720,8 +1075,12 @@ msgid "Patrons with no checkouts"
 msgstr "مستفيدون بلا إعارات"
 
 #: ../../source/reports.rst:664
-msgid "This report will list for you the patrons in your system who haven't checked any items out."
-msgstr " هذا التقرير قائمة لك بالمستفيدين في النظام الخاص بك الذين لم يتم إعارتهم أياً من المواد."
+msgid ""
+"This report will list for you the patrons in your system who haven't checked "
+"any items out."
+msgstr ""
+" هذا التقرير قائمة لك بالمستفيدين في النظام الخاص بك الذين لم يتم إعارتهم "
+"أياً من المواد."
 
 #: ../../source/reports.rst:667
 msgid "|image921|"
@@ -736,7 +1095,9 @@ msgid "Items with no checkouts"
 msgstr "مواد بدون إعارات"
 
 #: ../../source/reports.rst:682
-msgid "This report will list items in your collection that have never been checked out."
+msgid ""
+"This report will list items in your collection that have never been checked "
+"out."
 msgstr "هذا التقرير قائمة بالمواد في المجموعة الخاصة بك التي لا تعار."
 
 #: ../../source/reports.rst:685
@@ -753,7 +1114,8 @@ msgid "Catalog by item type"
 msgstr "فهرسة بواسطة نوع المادة"
 
 #: ../../source/reports.rst:700
-msgid "This report will list the total number of items of each item type per branch."
+msgid ""
+"This report will list the total number of items of each item type per branch."
 msgstr "هذا التقرير قائمة بالأعدد الإجمالية للمواد كل نوع مادة لكل فرع."
 
 #: ../../source/reports.rst:703
@@ -770,15 +1132,21 @@ msgid "Lost items"
 msgstr "مواد مفقودة"
 
 #: ../../source/reports.rst:718
-msgid "This report will allow you to generate a list of items that have been marked as Lost within the system"
-msgstr "هذا التقرير سوف يسمح لك لتوليد قائمة من المواد التي تم وضع علامة عليها فقدت داخل النظام"
+msgid ""
+"This report will allow you to generate a list of items that have been marked "
+"as Lost within the system"
+msgstr ""
+"هذا التقرير سوف يسمح لك لتوليد قائمة من المواد التي تم وضع علامة عليها فقدت "
+"داخل النظام"
 
 #: ../../source/reports.rst:721
 msgid "|image927|"
 msgstr "|image927|"
 
 #: ../../source/reports.rst:723
-msgid "Once you have chosen parameters, you will see the corresponding list of items."
+msgid ""
+"Once you have chosen parameters, you will see the corresponding list of "
+"items."
 msgstr ""
 
 #: ../../source/reports.rst:725
@@ -787,7 +1155,10 @@ msgid "|image1501|"
 msgstr "|image1501|"
 
 #: ../../source/reports.rst:729
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: lostitems-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: lostitems-table)."
 msgstr ""
 
 #: ../../source/reports.rst:736
@@ -795,7 +1166,9 @@ msgid "Orders by fund"
 msgstr ""
 
 #: ../../source/reports.rst:738
-msgid "If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be able to see all the items that were ordered in each fund."
+msgid ""
+"If you use the :ref:`Acquisitions module<acquisitions-label>`, you will be "
+"able to see all the items that were ordered in each fund."
 msgstr ""
 
 #: ../../source/reports.rst:741
@@ -804,7 +1177,10 @@ msgid "|image1499|"
 msgstr "|image1499|"
 
 #: ../../source/reports.rst:743
-msgid "Once you choose the fund you wish to view, you can export the results or view them in the browser. If you choose to view them directly, you will be shown the list of orders."
+msgid ""
+"Once you choose the fund you wish to view, you can export the results or "
+"view them in the browser. If you choose to view them directly, you will be "
+"shown the list of orders."
 msgstr ""
 
 #: ../../source/reports.rst:747
@@ -813,7 +1189,10 @@ msgid "|image1500|"
 msgstr "|image1500|"
 
 #: ../../source/reports.rst:751
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: funds-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: funds-table)."
 msgstr ""
 
 #: ../../source/reports.rst:758
@@ -822,8 +1201,12 @@ msgid "Average loan time"
 msgstr "متوسط وقت الإعارة"
 
 #: ../../source/reports.rst:760
-msgid "This report will list the average time items are out on loan based on the criteria you enter:"
-msgstr "هذا التقرير قائمة بمتوسط وقت الإعارة لأساس المواد المُعارة على سبيل الاعارة استنادا إلى المعايير التي تدخلها:"
+msgid ""
+"This report will list the average time items are out on loan based on the "
+"criteria you enter:"
+msgstr ""
+"هذا التقرير قائمة بمتوسط وقت الإعارة لأساس المواد المُعارة على سبيل الاعارة "
+"استنادا إلى المعايير التي تدخلها:"
 
 #: ../../source/reports.rst:763
 msgid "|image928|"
@@ -840,8 +1223,17 @@ msgstr "قاموس التقارير"
 
 #: ../../source/reports.rst:778
 #, fuzzy
-msgid "The report dictionary is a way to pre-define common filters you'd like to apply to your reports. This is a good way to add in filters that the report wizard doesn't include by default. To add a new definition, or filter, click 'New definition' on the reports dictionary page and follow the 4 step process."
-msgstr "قاموس التقرير هو وسيلة إلى ما قبل تحديد المرشحات العامة الذي ترغب في تطبيقه على التقارير الخاصة بك. هذا هو وسيلة جيدة لإضافة الفلاتر في أن معالج التقرير لا يتضمن بشكل افتراضي. لإضافة تعريف جديد، أو فلتر، انقر 'تعريف جديد'، على صفحة قاموس التقارير ومتابعة عملية الخطوة 4."
+msgid ""
+"The report dictionary is a way to pre-define common filters you'd like to "
+"apply to your reports. This is a good way to add in filters that the report "
+"wizard doesn't include by default. To add a new definition, or filter, click "
+"'New definition' on the reports dictionary page and follow the 4 step "
+"process."
+msgstr ""
+"قاموس التقرير هو وسيلة إلى ما قبل تحديد المرشحات العامة الذي ترغب في تطبيقه "
+"على التقارير الخاصة بك. هذا هو وسيلة جيدة لإضافة الفلاتر في أن معالج التقرير "
+"لا يتضمن بشكل افتراضي. لإضافة تعريف جديد، أو فلتر، انقر 'تعريف جديد'، على "
+"صفحة قاموس التقارير ومتابعة عملية الخطوة 4."
 
 #: ../../source/reports.rst:784
 msgid "Step 1: Name the definition and provide a description if necessary"
@@ -868,8 +1260,12 @@ msgid "|image932|"
 msgstr "|image932|"
 
 #: ../../source/reports.rst:796
-msgid "Step 4: Choose the value(s) from the field(s). These will be automatically populated with options available in your database."
-msgstr "الخطوة 4: اختر القيمة ( القيم) من هذا الحقل ( الحقول).وسيتم ملؤها تلقائيا مع وجود الخيارات المتاحة في قاعدة البيانات الخاصة بك"
+msgid ""
+"Step 4: Choose the value(s) from the field(s). These will be automatically "
+"populated with options available in your database."
+msgstr ""
+"الخطوة 4: اختر القيمة ( القيم) من هذا الحقل ( الحقول).وسيتم ملؤها تلقائيا مع "
+"وجود الخيارات المتاحة في قاعدة البيانات الخاصة بك"
 
 #: ../../source/reports.rst:799
 msgid "|image933|"
@@ -892,8 +1288,13 @@ msgid "|image935|"
 msgstr "|image935|"
 
 #: ../../source/reports.rst:809
-msgid "Then when generating reports on the module you created the value for you will see an option to limit by the definition at the bottom of the usual filters."
-msgstr "ثم عند إنشاء تقارير عن الوحدة التي قمت بإنشائها القيمة ستريك الخيار للحد من التعريف في الجزء السفلي من الفلترات المعتادة."
+msgid ""
+"Then when generating reports on the module you created the value for you "
+"will see an option to limit by the definition at the bottom of the usual "
+"filters."
+msgstr ""
+"ثم عند إنشاء تقارير عن الوحدة التي قمت بإنشائها القيمة ستريك الخيار للحد من "
+"التعريف في الجزء السفلي من الفلترات المعتادة."
 
 #: ../../source/reports.rst:813
 msgid "|image936|"
@@ -902,18 +1303,36 @@ msgstr "|image936|"
 #~ msgid "|image896|"
 #~ msgstr "|image896|"
 
-#~ msgid "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it literally looks for \"\" (empty string) as the value for the field."
-#~ msgstr "نصيحة: لديك لوضع \"%%\" في مربع النص ل'تركه فارغا'. خلاف ذلك، يبدو حرفيا ل \"\" (سلسلة فارغة) كقيمة الحقل."
+#~ msgid ""
+#~ "You have to put \"%\" in a text box to 'leave it blank'. Otherwise, it "
+#~ "literally looks for \"\" (empty string) as the value for the field."
+#~ msgstr ""
+#~ "نصيحة: لديك لوضع \"%%\" في مربع النص ل'تركه فارغا'. خلاف ذلك، يبدو حرفيا "
+#~ "ل \"\" (سلسلة فارغة) كقيمة الحقل."
 
 #~ msgid "**Important**"
 #~ msgstr "**هام**"
 
-#~ msgid "In addition to using any authorized value code to generate a dropdown, you can use the following values as well: Framework codes (biblio\\_framework), Branches (branches), Item Types (itemtypes) and Patron Categories (categorycode). For example a branch pull down would be generated like this <<Branch\\|branches>>"
-#~ msgstr "بالإضافة إلى استخدام رموز قيم استناد لتوليد القوائم المنسدلة ،يمكنك استخدام القيم التالية أيضاً: رموز الإطار (biblio\\_framework)، الفروع (branches)، أنواع المواد(itemtypes)و فئات المستفيدين (categorycode). على سبيل المثال: سيتم توليد قائمة منسدلة للفرع هكذا: <<Branch\\|branches>>"
+#~ msgid ""
+#~ "In addition to using any authorized value code to generate a dropdown, "
+#~ "you can use the following values as well: Framework codes (biblio"
+#~ "\\_framework), Branches (branches), Item Types (itemtypes) and Patron "
+#~ "Categories (categorycode). For example a branch pull down would be "
+#~ "generated like this <<Branch\\|branches>>"
+#~ msgstr ""
+#~ "بالإضافة إلى استخدام رموز قيم استناد لتوليد القوائم المنسدلة ،يمكنك "
+#~ "استخدام القيم التالية أيضاً: رموز الإطار (biblio\\_framework)، الفروع "
+#~ "(branches)، أنواع المواد(itemtypes)و فئات المستفيدين (categorycode). على "
+#~ "سبيل المثال: سيتم توليد قائمة منسدلة للفرع هكذا: <<Branch\\|branches>>"
 
 #~ msgid "|image894|"
 #~ msgstr "|image894|"
 
-#~ msgid "There is a limit of 10,000 records put on SQL statements entered in Koha. To get around this you want to add 'LIMIT 100000' to the end of your SQL statement (or any other number above 10,000)."
-#~ msgstr "هناك حد من 10000 تسجيللات وضعت على عبارات SQL التي تم إدخالها في كوها. للالتفاف على هذا تريد إضافة 'LIMIT 100000' إلى نهاية عبارة SQL (أو أي رقم آخر فوق 10000."
-
+#~ msgid ""
+#~ "There is a limit of 10,000 records put on SQL statements entered in Koha. "
+#~ "To get around this you want to add 'LIMIT 100000' to the end of your SQL "
+#~ "statement (or any other number above 10,000)."
+#~ msgstr ""
+#~ "هناك حد من 10000 تسجيللات وضعت على عبارات SQL التي تم إدخالها في كوها. "
+#~ "للالتفاف على هذا تريد إضافة 'LIMIT 100000' إلى نهاية عبارة SQL (أو أي رقم "
+#~ "آخر فوق 10000."

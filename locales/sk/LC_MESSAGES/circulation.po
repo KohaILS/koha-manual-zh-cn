@@ -1,7 +1,7 @@
 # Compendium of sk.
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-sk\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2020-08-24 05:37+0000\n"
@@ -14,23 +14,45 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.8\n"
 "X-POOTLE-MTIME: 1598247426.264103\n"
+"X-Pootle-Path: /sk/man20.11/circulation.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/circulation.rst:6
 msgid "Circulation"
 msgstr "Obeh"
 
 #: ../../source/circulation.rst:8
-msgid "Circulation functions can be accessed in several different ways. On the main page of the staff client there are some quick links in the center of the page to check items out, in or transfer them. For a complete listing of Circulation functions you can visit the Circulation page which is linked from the top left of every page or from the center of the main page."
-msgstr "K funkciám obehu sa možno dostať viacerými rôznymi spôsobmi. Na hlavnej stránke knihovníckeho rozhrania sú k dispozícii rýchle odkazy v strede stránky pre vypožičanie, návrat alebo presun exemplárov. Pre úplný zoznam funkcií obehu môžete navštíviť stránku Obehu, ktorý sa nachádza v ľavom hornom rohu každej stránky alebo v strede hlavnej stránky."
+msgid ""
+"Circulation functions can be accessed in several different ways. On the main "
+"page of the staff client there are some quick links in the center of the "
+"page to check items out, in or transfer them. For a complete listing of "
+"Circulation functions you can visit the Circulation page which is linked "
+"from the top left of every page or from the center of the main page."
+msgstr ""
+"K funkciám obehu sa možno dostať viacerými rôznymi spôsobmi. Na hlavnej "
+"stránke knihovníckeho rozhrania sú k dispozícii rýchle odkazy v strede "
+"stránky pre vypožičanie, návrat alebo presun exemplárov. Pre úplný zoznam "
+"funkcií obehu môžete navštíviť stránku Obehu, ktorý sa nachádza v ľavom "
+"hornom rohu každej stránky alebo v strede hlavnej stránky."
 
 #: ../../source/circulation.rst:15
 #, fuzzy
-msgid "Before circulating your collection you will want to set your :ref:`Global system preferences <global-system-preferences-label>`, :ref:`Basic parameters <basic-parameters-label>` and :ref:`Patrons and circulation rules <patrons-and-circulation-label>`."
-msgstr "Pred spustením obehu Vašej zbierky, mali by ste nastaviť Všeobecné systémové vlastnosti, základné parametre a čitateľov &amp; pravidlá cirkulácie."
+msgid ""
+"Before circulating your collection you will want to set your :ref:`Global "
+"system preferences <global-system-preferences-label>`, :ref:`Basic "
+"parameters <basic-parameters-label>` and :ref:`Patrons and circulation rules "
+"<patrons-and-circulation-label>`."
+msgstr ""
+"Pred spustením obehu Vašej zbierky, mali by ste nastaviť Všeobecné systémové "
+"vlastnosti, základné parametre a čitateľov &amp; pravidlá cirkulácie."
 
 #: ../../source/circulation.rst:20
-msgid "While in Circulation you can jump between the tabs on the quick search box at the top of the screen by using the following hot keys:"
-msgstr "Kým ste v Obehu, môžete preskočiť medzi záložkami rýchleho hľadania na vrchu zobrazenia pomocou nasledujúcich klávesových skratiek:"
+msgid ""
+"While in Circulation you can jump between the tabs on the quick search box "
+"at the top of the screen by using the following hot keys:"
+msgstr ""
+"Kým ste v Obehu, môžete preskočiť medzi záložkami rýchleho hľadania na vrchu "
+"zobrazenia pomocou nasledujúcich klávesových skratiek:"
 
 #: ../../source/circulation.rst:23
 msgid "jump to the catalog search with Alt+Q"
@@ -81,7 +103,9 @@ msgid "Check out (issuing)"
 msgstr "Výpožička (Výdaj)"
 
 #: ../../source/circulation.rst:40
-msgid "To begin the checkout process you must enter the patron barcode or part of their name. The checkout option appears in three main places:"
+msgid ""
+"To begin the checkout process you must enter the patron barcode or part of "
+"their name. The checkout option appears in three main places:"
 msgstr ""
 
 #: ../../source/circulation.rst:43
@@ -103,7 +127,11 @@ msgid "|image484|"
 msgstr "|image484|"
 
 #: ../../source/circulation.rst:51
-msgid "Those two options allow you to search for a patron either by card number, name, user ID, email, etc. If you only have one result, Koha will automatically go to the patron's file. If your search gives you more than one result, it will ask you to choose which patron you want to check out to."
+msgid ""
+"Those two options allow you to search for a patron either by card number, "
+"name, user ID, email, etc. If you only have one result, Koha will "
+"automatically go to the patron's file. If your search gives you more than "
+"one result, it will ask you to choose which patron you want to check out to."
 msgstr ""
 
 #: ../../source/circulation.rst:56
@@ -112,11 +140,16 @@ msgid "|image1494|"
 msgstr "|image1494|"
 
 #: ../../source/circulation.rst:60
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module- Under Circulation Tab (table id: table_borrowers)"
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module- "
+"Under Circulation Tab (table id: table_borrowers)"
 msgstr ""
 
 #: ../../source/circulation.rst:63
-msgid "Check mark which columns to hide by default, uncheck columns that should display."
+msgid ""
+"Check mark which columns to hide by default, uncheck columns that should "
+"display."
 msgstr ""
 
 #: ../../source/circulation.rst:65
@@ -134,7 +167,9 @@ msgid "|image483|"
 msgstr "|image483|"
 
 #: ../../source/circulation.rst:71
-msgid "If you have enabled :ref:`batch checkouts <batch-checkout-label>` then click the batch check out option on the patron record"
+msgid ""
+"If you have enabled :ref:`batch checkouts <batch-checkout-label>` then click "
+"the batch check out option on the patron record"
 msgstr ""
 
 #: ../../source/circulation.rst:74
@@ -147,33 +182,53 @@ msgid "Checking items out"
 msgstr "Návrat exemplárov"
 
 #: ../../source/circulation.rst:83
-msgid "To check an item out to a patron, first search for that patron using one of the many options listed above. You will then be presented with the checkout screen."
-msgstr "Pre vypožičanie exemplára čitateľovi, najprv vyhľadajte tohto čitateľa s použitím jednej z viacerých vyššie uvedených možností. Následne sa vám zobrazí obrazovka výpožičiek."
+msgid ""
+"To check an item out to a patron, first search for that patron using one of "
+"the many options listed above. You will then be presented with the checkout "
+"screen."
+msgstr ""
+"Pre vypožičanie exemplára čitateľovi, najprv vyhľadajte tohto čitateľa s "
+"použitím jednej z viacerých vyššie uvedených možností. Následne sa vám "
+"zobrazí obrazovka výpožičiek."
 
 #: ../../source/circulation.rst:87
 msgid "|image485|"
 msgstr "|image485|"
 
 #: ../../source/circulation.rst:89
-msgid "If you have chosen to 'Always show checkouts immediately' then you will see the list of checkouts below the check out box."
-msgstr "Ak ste si zvolili 'Vždy zobraziť výpožičky okamžite', tak uvidíte zoznam výpožičie pod políčkom výpožičiek."
+msgid ""
+"If you have chosen to 'Always show checkouts immediately' then you will see "
+"the list of checkouts below the check out box."
+msgstr ""
+"Ak ste si zvolili 'Vždy zobraziť výpožičky okamžite', tak uvidíte zoznam "
+"výpožičie pod políčkom výpožičiek."
 
 #: ../../source/circulation.rst:92
 msgid "|image486|"
 msgstr "|image486|"
 
 #: ../../source/circulation.rst:96
-msgid "The :ref:`previousIssuesDefaultSortOrder` system preference controls in which order these previous checkouts appear (earliest to latest, or latest to earliest)."
+msgid ""
+"The :ref:`previousIssuesDefaultSortOrder` system preference controls in "
+"which order these previous checkouts appear (earliest to latest, or latest "
+"to earliest)."
 msgstr ""
 
 #: ../../source/circulation.rst:102
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: issues-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: issues-table)."
 msgstr ""
 
 #: ../../source/circulation.rst:106
 #, fuzzy
-msgid "At the top of the check out screen is a box for you to type or scan the item's barcode into."
-msgstr "Na vrchu zobrazenia Výpožičiek je políčko, do ktorého môžete zoskenovať alebo vpísať čiarový kód exemplára. "
+msgid ""
+"At the top of the check out screen is a box for you to type or scan the "
+"item's barcode into."
+msgstr ""
+"Na vrchu zobrazenia Výpožičiek je políčko, do ktorého môžete zoskenovať "
+"alebo vpísať čiarový kód exemplára. "
 
 #: ../../source/circulation.rst:109 ../../source/circulation.rst:637
 #: ../../source/circulation.rst:1186 ../../source/circulation.rst:1349
@@ -186,25 +241,45 @@ msgstr "Dôležité "
 
 #: ../../source/circulation.rst:111
 #, fuzzy
-msgid "Many modern barcode scanners will send a 'return' to the browser, making it so that the 'Check out' button is automatically clicked"
-msgstr "Dôležité: Mnohé moderné skenery čiarových kódov odošlú ENTER do prehliadača, takže sa akoby automaticky stlačí tlačidlo 'Vypožičať'"
+msgid ""
+"Many modern barcode scanners will send a 'return' to the browser, making it "
+"so that the 'Check out' button is automatically clicked"
+msgstr ""
+"Dôležité: Mnohé moderné skenery čiarových kódov odošlú ENTER do prehliadača, "
+"takže sa akoby automaticky stlačí tlačidlo 'Vypožičať'"
 
 #: ../../source/circulation.rst:114
 #, fuzzy
-msgid "If the barcode is not found you will be prompted to use fast cataloging to add the item. Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in this manual."
-msgstr "Ak sa čiarový kód nenájde, budete musieť použiť rýchlu katalogizáciu pre pridanie exemplára. Čítajte viac o rýchlej katalogizácii neskôr v tejto príručke."
+msgid ""
+"If the barcode is not found you will be prompted to use fast cataloging to "
+"add the item. Learn more about :ref:`fast cataloging <fast-add-cataloging-"
+"label>` later in this manual."
+msgstr ""
+"Ak sa čiarový kód nenájde, budete musieť použiť rýchlu katalogizáciu pre "
+"pridanie exemplára. Čítajte viac o rýchlej katalogizácii neskôr v tejto "
+"príručke."
 
 #: ../../source/circulation.rst:118
 #, fuzzy
-msgid "If you have :ref:`itemBarcodeFallbackSearch` set to 'Enable', then you can enter a keyword search in this box instead of just a barcode (this will make it possible to check out using title and/or call number)."
-msgstr "Ak máte itemBarcodeFallbackSearch nastavený na 'Umožniť', tak môžete zadať hľadanie kľúčového slova do tohto políčka namiesto zadania iba čiarového kódu (takto sa umožní výpožička s využitím názvu a/alebo signatúry)."
+msgid ""
+"If you have :ref:`itemBarcodeFallbackSearch` set to 'Enable', then you can "
+"enter a keyword search in this box instead of just a barcode (this will make "
+"it possible to check out using title and/or call number)."
+msgstr ""
+"Ak máte itemBarcodeFallbackSearch nastavený na 'Umožniť', tak môžete zadať "
+"hľadanie kľúčového slova do tohto políčka namiesto zadania iba čiarového "
+"kódu (takto sa umožní výpožička s využitím názvu a/alebo signatúry)."
 
 #: ../../source/circulation.rst:123
-msgid "If you have :ref:`AutoSwitchPatron` set to 'Enable', scanning a patron barcode here will take you to that patron's file."
+msgid ""
+"If you have :ref:`AutoSwitchPatron` set to 'Enable', scanning a patron "
+"barcode here will take you to that patron's file."
 msgstr ""
 
 #: ../../source/circulation.rst:126
-msgid "To see more checkout options click the 'Checkout settings' link to expand the checkout area."
+msgid ""
+"To see more checkout options click the 'Checkout settings' link to expand "
+"the checkout area."
 msgstr ""
 
 #: ../../source/circulation.rst:129
@@ -212,26 +287,51 @@ msgid "|image1255|"
 msgstr "|image1255|"
 
 #: ../../source/circulation.rst:131
-msgid "Below the box for the barcode there may be options for you to override the default due date for the item."
-msgstr "Pod políčkom pre čiarový kód je daná možnosť obísť predvolený termín návratu exemplára."
+msgid ""
+"Below the box for the barcode there may be options for you to override the "
+"default due date for the item."
+msgstr ""
+"Pod políčkom pre čiarový kód je daná možnosť obísť predvolený termín návratu "
+"exemplára."
 
 #: ../../source/circulation.rst:134
 #, fuzzy
-msgid "This option will only appear if you have set the :ref:`SpecifyDueDate` system preference to allow staff to override the due date"
-msgstr "Táto možnosť sa objaví len ak chcete nastaviť nastavenie systému SpecifyDueDate, aby sa zamestnancom dovolilo obísť termín návratu"
+msgid ""
+"This option will only appear if you have set the :ref:`SpecifyDueDate` "
+"system preference to allow staff to override the due date"
+msgstr ""
+"Táto možnosť sa objaví len ak chcete nastaviť nastavenie systému "
+"SpecifyDueDate, aby sa zamestnancom dovolilo obísť termín návratu"
 
 #: ../../source/circulation.rst:138
-msgid "Below the box for the barcode you will see a checkbox for 'Automatic renewal'. This will allow this item to automatically renew if the :ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there are no holds on the item."
-msgstr "Pod políčkom pre čiarový kód uvidíte zaškrtávacie políčko pre 'Automatickú obnovu'. Toto umožní automatickú obnovu exemplára, ak beží príslušný cronjob <cron-automatic-renewal-label>` a na exemplár sa neviažu žiadne rezervácie."
+msgid ""
+"Below the box for the barcode you will see a checkbox for 'Automatic "
+"renewal'. This will allow this item to automatically renew if the :ref:"
+"`appropriate cron job <cron-automatic-renewal-label>` is running and there "
+"are no holds on the item."
+msgstr ""
+"Pod políčkom pre čiarový kód uvidíte zaškrtávacie políčko pre 'Automatickú "
+"obnovu'. Toto umožní automatickú obnovu exemplára, ak beží príslušný cronjob "
+"<cron-automatic-renewal-label>` a na exemplár sa neviažu žiadne rezervácie."
 
 #: ../../source/circulation.rst:143
-msgid "Next is an option to not decrease the loan length based on holds. This overrides the :ref:`decreaseLoanHighHolds` system preference."
+msgid ""
+"Next is an option to not decrease the loan length based on holds. This "
+"overrides the :ref:`decreaseLoanHighHolds` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:146
 #, fuzzy
-msgid "If you're allowing the :ref:`checkout of items on site <onsitecheckouts-label>` to patrons (these are usually items that are not for loan that you would like to check for in library use) then you will see the 'On-site checkout' checkbox after clicking the 'Checkout settings' link to expand your circulation options."
-msgstr "Ak povoľujete výpožičky exemplárov čitateľom na mieste (toto sú zvyčajne nevypožičateľné exempláre, ktoré chcete vypožičať v rámci knižnice), zobrazí sa vám zaškrtávacie políčko 'Výpožička na mieste'."
+msgid ""
+"If you're allowing the :ref:`checkout of items on site <onsitecheckouts-"
+"label>` to patrons (these are usually items that are not for loan that you "
+"would like to check for in library use) then you will see the 'On-site "
+"checkout' checkbox after clicking the 'Checkout settings' link to expand "
+"your circulation options."
+msgstr ""
+"Ak povoľujete výpožičky exemplárov čitateľom na mieste (toto sú zvyčajne "
+"nevypožičateľné exempláre, ktoré chcete vypožičať v rámci knižnice), zobrazí "
+"sa vám zaškrtávacie políčko 'Výpožička na mieste'."
 
 #: ../../source/circulation.rst:152
 msgid "|image1256|"
@@ -239,11 +339,18 @@ msgstr "|image1256|"
 
 #: ../../source/circulation.rst:154
 #, fuzzy
-msgid "At the bottom of the page there is a summary of the patron's current checked out items along with the due date (and time if the item is an hourly loan). Items checked out today will appear at the top."
-msgstr "Na spodku stránky je súhrn o aktuálnych vypožičaných exemplároch čitateľa spolu s termínom návratu (a časom, ak sa exemplár požičiava na hodiny), exempláre vypožičané dnes sa objavia navrchu."
+msgid ""
+"At the bottom of the page there is a summary of the patron's current checked "
+"out items along with the due date (and time if the item is an hourly loan). "
+"Items checked out today will appear at the top."
+msgstr ""
+"Na spodku stránky je súhrn o aktuálnych vypožičaných exemplároch čitateľa "
+"spolu s termínom návratu (a časom, ak sa exemplár požičiava na hodiny), "
+"exempláre vypožičané dnes sa objavia navrchu."
 
 #: ../../source/circulation.rst:160
-msgid "Items that are hourly loan items will include the time with the due date."
+msgid ""
+"Items that are hourly loan items will include the time with the due date."
 msgstr ""
 
 #: ../../source/circulation.rst:163
@@ -251,19 +358,28 @@ msgid "|image487|"
 msgstr "|image487|"
 
 #: ../../source/circulation.rst:165
-msgid "If you checked out an item for on site use you will see that highlighted in red in the checkout summary."
-msgstr "Ak ste vypožičali exemplár na použitie na mieste, uvidíte ho zvýraznený červenou v súhrne výpožičiek."
+msgid ""
+"If you checked out an item for on site use you will see that highlighted in "
+"red in the checkout summary."
+msgstr ""
+"Ak ste vypožičali exemplár na použitie na mieste, uvidíte ho zvýraznený "
+"červenou v súhrne výpožičiek."
 
 #: ../../source/circulation.rst:168
 msgid "|image488|"
 msgstr "|image488|"
 
 #: ../../source/circulation.rst:172
-msgid "The :ref:`todaysIssuesDefaultSortOrder` system preference controls in which order these new checkouts appear (earliest to latest, or latest to earliest)."
+msgid ""
+"The :ref:`todaysIssuesDefaultSortOrder` system preference controls in which "
+"order these new checkouts appear (earliest to latest, or latest to earliest)."
 msgstr ""
 
 #: ../../source/circulation.rst:176
-msgid "The 'Export' button at the top of the table allows you to export the patron's current checkouts in either Microsoft Excel or CSV format, or even copy or print their checkouts."
+msgid ""
+"The 'Export' button at the top of the table allows you to export the "
+"patron's current checkouts in either Microsoft Excel or CSV format, or even "
+"copy or print their checkouts."
 msgstr ""
 
 #: ../../source/circulation.rst:180
@@ -272,8 +388,10 @@ msgstr "|image489|"
 
 #: ../../source/circulation.rst:182
 #, fuzzy
-msgid "Also at the bottom of the page is the list of items the patron has on hold."
-msgstr "Takisto na spodku stránky je zoznam exemplárov, ktoré si čitateľ zarezervoval"
+msgid ""
+"Also at the bottom of the page is the list of items the patron has on hold."
+msgstr ""
+"Takisto na spodku stránky je zoznam exemplárov, ktoré si čitateľ zarezervoval"
 
 #: ../../source/circulation.rst:185 ../../source/circulation.rst:895
 msgid "|image490|"
@@ -281,17 +399,31 @@ msgstr "|image490|"
 
 #: ../../source/circulation.rst:187
 #, fuzzy
-msgid "If you have the :ref:`SuspendHoldsIntranet` system preference set to 'allow', you can suspend or resume patrons holds using the options at the bottom of the holds list ."
-msgstr "Ak máte SpecifyReturnDate nastavené na 'Povoliť', budete môcť ľubovoľne nastavovať termín návratu pod políčkom návratu."
+msgid ""
+"If you have the :ref:`SuspendHoldsIntranet` system preference set to "
+"'allow', you can suspend or resume patrons holds using the options at the "
+"bottom of the holds list ."
+msgstr ""
+"Ak máte SpecifyReturnDate nastavené na 'Povoliť', budete môcť ľubovoľne "
+"nastavovať termín návratu pod políčkom návratu."
 
 #: ../../source/circulation.rst:193
 #, fuzzy
-msgid "If you have your :ref:`AutoResumeSuspendedHolds` system preference set to \"Don't allow\", you will not have the option to put an end date on the hold suspension"
-msgstr "Ak máte nastavenie AutoResumeSuspendedHolds na \"Nepovoliť\", tak nebudete môcť zadať koncový dátum na prerušenie rezervácie"
+msgid ""
+"If you have your :ref:`AutoResumeSuspendedHolds` system preference set to "
+"\"Don't allow\", you will not have the option to put an end date on the hold "
+"suspension"
+msgstr ""
+"Ak máte nastavenie AutoResumeSuspendedHolds na \"Nepovoliť\", tak nebudete "
+"môcť zadať koncový dátum na prerušenie rezervácie"
 
 #: ../../source/circulation.rst:197
-msgid "If there are notes on the patron record these will appear to the right of the checkout box"
-msgstr "Ak sú v zázname o čitateľovi poznámky, objavia sa napravo od políčka výpožičiek"
+msgid ""
+"If there are notes on the patron record these will appear to the right of "
+"the checkout box"
+msgstr ""
+"Ak sú v zázname o čitateľovi poznámky, objavia sa napravo od políčka "
+"výpožičiek"
 
 #: ../../source/circulation.rst:200
 msgid "|image491|"
@@ -299,8 +431,14 @@ msgstr "|image491|"
 
 #: ../../source/circulation.rst:202
 #, fuzzy
-msgid "If the patron has a hold waiting at the library, that too will appear to the right of the check out box making it easy for the circulation staff to see that there is another item to give to the patron."
-msgstr "Ak má čitateľ rezerváciu čakajúcu v knižnici, aj to sa objaví napravo od políčka výpožičky, aby knihovník obsluhujúci obeh ľahko videl, že má čitateľovi vydať ďalší exemplár"
+msgid ""
+"If the patron has a hold waiting at the library, that too will appear to the "
+"right of the check out box making it easy for the circulation staff to see "
+"that there is another item to give to the patron."
+msgstr ""
+"Ak má čitateľ rezerváciu čakajúcu v knižnici, aj to sa objaví napravo od "
+"políčka výpožičky, aby knihovník obsluhujúci obeh ľahko videl, že má "
+"čitateľovi vydať ďalší exemplár"
 
 #: ../../source/circulation.rst:206
 msgid "|image492|"
@@ -308,8 +446,12 @@ msgstr "|image492|"
 
 #: ../../source/circulation.rst:208
 #, fuzzy
-msgid "The details of the checkouts will appear on the record detail page in the staff client as well."
-msgstr "Podrobnosti o výpožičkách sa zobrazia aj na stránke podrobností o záznamoch v intranete."
+msgid ""
+"The details of the checkouts will appear on the record detail page in the "
+"staff client as well."
+msgstr ""
+"Podrobnosti o výpožičkách sa zobrazia aj na stránke podrobností o záznamoch "
+"v intranete."
 
 #: ../../source/circulation.rst:211
 msgid "|image493|"
@@ -321,34 +463,65 @@ msgid "Printing receipts"
 msgstr "Tlačia sa potvrdenky"
 
 #: ../../source/circulation.rst:218
-msgid "Once you have checked out all of the items for the patron you can print them a receipt by choosing one of two methods."
-msgstr "Len čo ste čitateľovi vypožičali všetky exempláre, môžete o tom vytlačiť potvrdenku zvolením jednej z dvoch metód."
+msgid ""
+"Once you have checked out all of the items for the patron you can print them "
+"a receipt by choosing one of two methods."
+msgstr ""
+"Len čo ste čitateľovi vypožičali všetky exempláre, môžete o tom vytlačiť "
+"potvrdenku zvolením jednej z dvoch metód."
 
 #: ../../source/circulation.rst:221
 #, fuzzy
-msgid "If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'open a print quick slip window' you can simply hit enter on your keyboard or scan a blank piece of paper with your barcode scanner. The idea being that you're \"checking out\" a blank barcode which triggers Koha to print the 'Quick slip.'"
-msgstr "Ak máte nastavenie CircAutoPrintQuickSlip na 'otvoriť okno tlače rýchleho ústrižku' alebo 'otvoriť okno tlače ústrižku', tak jednoducho musíte stlačiť Enter alebo zoskenovať čistý papier s Vaším skenerom. Tým akoby spustíte \"výpožičku\" cez čiarový kód a vytlačí sa 'Rýchly ústrižok' alebo 'Ústrižok.'"
+msgid ""
+"If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'open a "
+"print quick slip window' you can simply hit enter on your keyboard or scan a "
+"blank piece of paper with your barcode scanner. The idea being that you're "
+"\"checking out\" a blank barcode which triggers Koha to print the 'Quick "
+"slip.'"
+msgstr ""
+"Ak máte nastavenie CircAutoPrintQuickSlip na 'otvoriť okno tlače rýchleho "
+"ústrižku' alebo 'otvoriť okno tlače ústrižku', tak jednoducho musíte stlačiť "
+"Enter alebo zoskenovať čistý papier s Vaším skenerom. Tým akoby spustíte "
+"\"výpožičku\" cez čiarový kód a vytlačí sa 'Rýchly ústrižok' alebo "
+"'Ústrižok.'"
 
 #: ../../source/circulation.rst:227
-msgid "You can also click the Print button at the top of the screen and choose 'Print slip' or 'Print quick slip'."
-msgstr "Môžete tiež kliknúť na tlačidlo Tlačiť na vrchu obrazovky a zvoliť 'Vytlačiť ústrižok' alebo 'Vytlačiť rýchly ústrižok'."
+msgid ""
+"You can also click the Print button at the top of the screen and choose "
+"'Print slip' or 'Print quick slip'."
+msgstr ""
+"Môžete tiež kliknúť na tlačidlo Tlačiť na vrchu obrazovky a zvoliť 'Vytlačiť "
+"ústrižok' alebo 'Vytlačiť rýchly ústrižok'."
 
 #: ../../source/circulation.rst:230
 msgid "|image494|"
 msgstr "|image494|"
 
 #: ../../source/circulation.rst:232
-msgid "If you choose 'Print slip' it will print all of the items the patron has checked out, including those they checked out at an earlier date. Choosing 'Print quick slip' will print only the items that were checked out today."
-msgstr "Ak si zvolíte 'Vytlačiť ústrižok', vytlačia sa všetky exempláre vypožičané čitateľom, vrátane tých, ktoré si vypožičali v skoršom dátume. Voľbou 'Rýchly ústrižok' sa vytlačia iba exempláre vypožičané dnes."
+msgid ""
+"If you choose 'Print slip' it will print all of the items the patron has "
+"checked out, including those they checked out at an earlier date. Choosing "
+"'Print quick slip' will print only the items that were checked out today."
+msgstr ""
+"Ak si zvolíte 'Vytlačiť ústrižok', vytlačia sa všetky exempláre vypožičané "
+"čitateľom, vrátane tých, ktoré si vypožičali v skoršom dátume. Voľbou "
+"'Rýchly ústrižok' sa vytlačia iba exempláre vypožičané dnes."
 
 #: ../../source/circulation.rst:237
-msgid "'Print summary' will generate a full page summary for the patron's circulation information and 'Print overdues' will print out a slip that lists all items that are overdue."
+msgid ""
+"'Print summary' will generate a full page summary for the patron's "
+"circulation information and 'Print overdues' will print out a slip that "
+"lists all items that are overdue."
 msgstr ""
 
 #: ../../source/circulation.rst:241
 #, fuzzy
-msgid "What prints on the slips can be customized by altering the slip templates under the :ref:`Notices & slips` tool."
-msgstr "To, čo sa vytlačí na ústrižky sa dá prispôsobiť pomocou zmeny šablón ústrižkov v nástroji Oznámenia & Ústrižky."
+msgid ""
+"What prints on the slips can be customized by altering the slip templates "
+"under the :ref:`Notices & slips` tool."
+msgstr ""
+"To, čo sa vytlačí na ústrižky sa dá prispôsobiť pomocou zmeny šablón "
+"ústrižkov v nástroji Oznámenia & Ústrižky."
 
 #: ../../source/circulation.rst:247
 #, fuzzy
@@ -357,8 +530,16 @@ msgstr "Vymazať informáciu o čitateľovi"
 
 #: ../../source/circulation.rst:249
 #, fuzzy
-msgid "When you're done checking an item out if you have the :ref:`DisplayClearScreenButton` preference set to 'Show' you can clear the current patron by clicking the X in the top right of the patron's info to remove the current patron from the screen and start over."
-msgstr "Po dokončení výpožičky exemplára a pri nastavení DisplayClearScreenButton na 'Zobraziť', môžete vymazať súčasného čitateľa kliknutím na X vpravo hore pri informácii o čitateľovi, čím sa čitateľ odoberie zo zobrazenia a začnete odznova."
+msgid ""
+"When you're done checking an item out if you have the :ref:"
+"`DisplayClearScreenButton` preference set to 'Show' you can clear the "
+"current patron by clicking the X in the top right of the patron's info to "
+"remove the current patron from the screen and start over."
+msgstr ""
+"Po dokončení výpožičky exemplára a pri nastavení DisplayClearScreenButton na "
+"'Zobraziť', môžete vymazať súčasného čitateľa kliknutím na X vpravo hore pri "
+"informácii o čitateľovi, čím sa čitateľ odoberie zo zobrazenia a začnete "
+"odznova."
 
 #: ../../source/circulation.rst:255
 msgid "|image495|"
@@ -366,8 +547,14 @@ msgstr "|image495|"
 
 #: ../../source/circulation.rst:257
 #, fuzzy
-msgid "If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'clear the screen' then you simply need to hit enter or scan a blank barcode and the screen will be cleared of the current patron."
-msgstr "Ak máte nastavenie CircAutoPrintQuickSlip na 'vymazať zobrazenie', tak jednoducho musíte stlačiť Enter alebo zoskenovať čistý čiarový kód a zobrazenie sa očistí od súčasného čitateľa."
+msgid ""
+"If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'clear the "
+"screen' then you simply need to hit enter or scan a blank barcode and the "
+"screen will be cleared of the current patron."
+msgstr ""
+"Ak máte nastavenie CircAutoPrintQuickSlip na 'vymazať zobrazenie', tak "
+"jednoducho musíte stlačiť Enter alebo zoskenovať čistý čiarový kód a "
+"zobrazenie sa očistí od súčasného čitateľa."
 
 #: ../../source/circulation.rst:265
 #, fuzzy
@@ -375,7 +562,12 @@ msgid "Batch checkouts"
 msgstr "Hromadná výpožička"
 
 #: ../../source/circulation.rst:267
-msgid "If you would like to perform a batch check out you can do so by turning on the :ref:`BatchCheckouts` system preference and assigning the proper patron categories via the :ref:`BatchCheckoutsValidCategories` preference. This will allow you to use an RFID pad that reads multiple barcodes or perform a batch check out for training internal use."
+msgid ""
+"If you would like to perform a batch check out you can do so by turning on "
+"the :ref:`BatchCheckouts` system preference and assigning the proper patron "
+"categories via the :ref:`BatchCheckoutsValidCategories` preference. This "
+"will allow you to use an RFID pad that reads multiple barcodes or perform a "
+"batch check out for training internal use."
 msgstr ""
 
 #: ../../source/circulation.rst:274
@@ -383,7 +575,10 @@ msgid "|image1257|"
 msgstr "|image1257|"
 
 #: ../../source/circulation.rst:276
-msgid "From this screen you can scan several barcodes or load a file of barcodes. If those items cannot be checked out they will provide a warning on the following screen"
+msgid ""
+"From this screen you can scan several barcodes or load a file of barcodes. "
+"If those items cannot be checked out they will provide a warning on the "
+"following screen"
 msgstr ""
 
 #: ../../source/circulation.rst:280
@@ -391,7 +586,9 @@ msgid "|image496|"
 msgstr "|image496|"
 
 #: ../../source/circulation.rst:282
-msgid "If you are using a statistical patron type then you'll see that local use was recorded for each item you scanned."
+msgid ""
+"If you are using a statistical patron type then you'll see that local use "
+"was recorded for each item you scanned."
 msgstr ""
 
 #: ../../source/circulation.rst:285
@@ -404,16 +601,29 @@ msgid "Check out messages"
 msgstr "Hlásenie o výpožičke"
 
 #: ../../source/circulation.rst:292
-msgid "If you check out an item that has multiple pieces and you have cataloged that information in subfield 3 of the item record (in MARC21) a message will pop up when you check out that item telling you how many pieces should be there."
-msgstr "Ak vypožičiavate exemplár, ktorý má viacero kusov a túto informáciu ste zaregistrovali v podpoli 3 záznamu (v MARC21), vyskočí správa pri jeho výpožičke o tom, koľko kusov by mal obsahovať."
+msgid ""
+"If you check out an item that has multiple pieces and you have cataloged "
+"that information in subfield 3 of the item record (in MARC21) a message will "
+"pop up when you check out that item telling you how many pieces should be "
+"there."
+msgstr ""
+"Ak vypožičiavate exemplár, ktorý má viacero kusov a túto informáciu ste "
+"zaregistrovali v podpoli 3 záznamu (v MARC21), vyskočí správa pri jeho "
+"výpožičke o tom, koľko kusov by mal obsahovať."
 
 #: ../../source/circulation.rst:297
 msgid "|image498|"
 msgstr "|image498|"
 
 #: ../../source/circulation.rst:299
-msgid "There are times when Koha will prevent the librarian from being able to check out items to a patron. When this happens a warning will appear notifying the librarian of why the patron cannot check items out."
-msgstr "Sú chvíle, keď Koha zabráni knihovníkovi vypožičať exempláre čitateľovi. Keď sa to stane, objaví sa upozornenie propomínajúce knihovníkovi prečo čitateľ nemôže vypožičať exempláre."
+msgid ""
+"There are times when Koha will prevent the librarian from being able to "
+"check out items to a patron. When this happens a warning will appear "
+"notifying the librarian of why the patron cannot check items out."
+msgstr ""
+"Sú chvíle, keď Koha zabráni knihovníkovi vypožičať exempláre čitateľovi. Keď "
+"sa to stane, objaví sa upozornenie propomínajúce knihovníkovi prečo čitateľ "
+"nemôže vypožičať exempláre."
 
 #: ../../source/circulation.rst:303
 #, fuzzy
@@ -426,8 +636,12 @@ msgstr "|image499|"
 
 #: ../../source/circulation.rst:307
 #, fuzzy
-msgid "You can set the amount at which patron checkouts are blocked with the :ref:`noissuescharge` system preference"
-msgstr "Môžete nastaviť čiastku, pri ktorej sa výpožičky čitateľa blokujú pomocou nastavenia systému noissuescharge"
+msgid ""
+"You can set the amount at which patron checkouts are blocked with the :ref:"
+"`noissuescharge` system preference"
+msgstr ""
+"Môžete nastaviť čiastku, pri ktorej sa výpožičky čitateľa blokujú pomocou "
+"nastavenia systému noissuescharge"
 
 #: ../../source/circulation.rst:310
 #, fuzzy
@@ -440,11 +654,18 @@ msgstr "|image500|"
 
 #: ../../source/circulation.rst:314
 #, fuzzy
-msgid "This can be set by the librarian editing a patron record and adding a `restriction <#patronflags>`__ or by the :ref:`Overdue/Notice Status Triggers <overdue-notice/status-triggers-label>`"
-msgstr "Toto môže nastaviť knihovník úpravou záznamu o čitateľovi a pridaním obmedzenia alebo Oznámenia o omeškaní/Spúšťačov stavov"
+msgid ""
+"This can be set by the librarian editing a patron record and adding a "
+"`restriction <#patronflags>`__ or by the :ref:`Overdue/Notice Status "
+"Triggers <overdue-notice/status-triggers-label>`"
+msgstr ""
+"Toto môže nastaviť knihovník úpravou záznamu o čitateľovi a pridaním "
+"obmedzenia alebo Oznámenia o omeškaní/Spúšťačov stavov"
 
 #: ../../source/circulation.rst:318
-msgid "If the staff member has the right permission they can override the restriction temporarily"
+msgid ""
+"If the staff member has the right permission they can override the "
+"restriction temporarily"
 msgstr "Ak má knihovník správne oprávnenie, môže dočasne prekonať obmedzenie"
 
 #: ../../source/circulation.rst:321
@@ -462,8 +683,12 @@ msgstr "|image502|"
 
 #: ../../source/circulation.rst:327 ../../source/circulation.rst:334
 #, fuzzy
-msgid "This can be set by the librarian editing a patron record and adding a `flag <#patronflags>`__"
-msgstr "Toto sa môže nastaviť knihovník úpravou záznamu o čitateľovi a pridaním príznaku"
+msgid ""
+"This can be set by the librarian editing a patron record and adding a `flag "
+"<#patronflags>`__"
+msgstr ""
+"Toto sa môže nastaviť knihovník úpravou záznamu o čitateľovi a pridaním "
+"príznaku"
 
 #: ../../source/circulation.rst:330
 #, fuzzy
@@ -480,8 +705,14 @@ msgid "Check out warnings"
 msgstr "Upozornenia pri výpožičkách"
 
 #: ../../source/circulation.rst:342
-msgid "Sometimes checkouts will trigger warning messages that will appear in a yellow box above the check out field. These warnings need to be acknowledged before you will be able to continue checking items out."
-msgstr "Niekedy výpožičky spustia upozornenia, ktoré sa objavia v žltých poliach nad poľom výpožičky. Tieto upozornenia musíte zohľadniť skôr ako budete môcť pokračovať s výpožičkami exemplárov."
+msgid ""
+"Sometimes checkouts will trigger warning messages that will appear in a "
+"yellow box above the check out field. These warnings need to be acknowledged "
+"before you will be able to continue checking items out."
+msgstr ""
+"Niekedy výpožičky spustia upozornenia, ktoré sa objavia v žltých poliach nad "
+"poľom výpožičky. Tieto upozornenia musíte zohľadniť skôr ako budete môcť "
+"pokračovať s výpožičkami exemplárov."
 
 #: ../../source/circulation.rst:346
 msgid "Patron has outstanding fines"
@@ -524,7 +755,9 @@ msgid "|image508|"
 msgstr "|image508|"
 
 #: ../../source/circulation.rst:366
-msgid "This warning will allow you to place a hold on the item for the patron you're trying to check it out to."
+msgid ""
+"This warning will allow you to place a hold on the item for the patron "
+"you're trying to check it out to."
 msgstr ""
 
 #: ../../source/circulation.rst:369
@@ -537,7 +770,9 @@ msgstr "|image509|"
 
 #: ../../source/circulation.rst:373
 #, fuzzy
-msgid "Patron has too many things checked out and :ref:`AllowTooManyOverride` is set to 'Allow'"
+msgid ""
+"Patron has too many things checked out and :ref:`AllowTooManyOverride` is "
+"set to 'Allow'"
 msgstr "Čitateľ má priveľa výpožičiek"
 
 #: ../../source/circulation.rst:376
@@ -545,7 +780,9 @@ msgid "|image510|"
 msgstr "|image510|"
 
 #: ../../source/circulation.rst:378
-msgid "Patron has too many things checked out and :ref:`AllowTooManyOverride` is set to \"Don't allow\""
+msgid ""
+"Patron has too many things checked out and :ref:`AllowTooManyOverride` is "
+"set to \"Don't allow\""
 msgstr ""
 
 #: ../../source/circulation.rst:382
@@ -563,7 +800,9 @@ msgstr "|image512|"
 
 #: ../../source/circulation.rst:388
 #, fuzzy
-msgid "This can be overridden with the :ref:`AllowRenewalLimitOverride` system preference"
+msgid ""
+"This can be overridden with the :ref:`AllowRenewalLimitOverride` system "
+"preference"
 msgstr "Toto sa dá obísť nastavením systému AllowRenewalLimitOverride"
 
 #: ../../source/circulation.rst:392
@@ -576,7 +815,9 @@ msgstr "|image513|"
 
 #: ../../source/circulation.rst:396
 #, fuzzy
-msgid "Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in this manual."
+msgid ""
+"Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in "
+"this manual."
 msgstr "Naučte sa viac o rýchlej katalogizácii neskôr v tomto súbore."
 
 #: ../../source/circulation.rst:399
@@ -586,8 +827,12 @@ msgstr "Vypožičiavaný exemplár je označený ako 'stratený' "
 
 #: ../../source/circulation.rst:401
 #, fuzzy
-msgid "Depending on the value in your :ref:`IssueLostItem` preference, you may just see a warning"
-msgstr "V závislosti od hodnoty vo vašom nastavení IssueLostItem, môže sa vám len zobraziť upozornenie alebo potvrdzovací dialóg"
+msgid ""
+"Depending on the value in your :ref:`IssueLostItem` preference, you may just "
+"see a warning"
+msgstr ""
+"V závislosti od hodnoty vo vašom nastavení IssueLostItem, môže sa vám len "
+"zobraziť upozornenie alebo potvrdzovací dialóg"
 
 #: ../../source/circulation.rst:404
 msgid "|image514|"
@@ -611,7 +856,9 @@ msgid "|image516|"
 msgstr "|image516|"
 
 #: ../../source/circulation.rst:414
-msgid "Item being checked out meets the :ref:`decreaseLoanHighHolds <decreaseloanhighholds-preferences-label>` system preference criteria"
+msgid ""
+"Item being checked out meets the :ref:`decreaseLoanHighHolds "
+"<decreaseloanhighholds-preferences-label>` system preference criteria"
 msgstr ""
 
 #: ../../source/circulation.rst:418
@@ -625,20 +872,31 @@ msgstr "Obnoviť"
 
 #: ../../source/circulation.rst:425
 #, fuzzy
-msgid "Checked out items can be renewed (checked out for another period of time) based on your :ref:`circulation rules <circulation-and-fines-rules-label>` and :ref:`renewal preferences <renewalperiodbase-label>`."
-msgstr "Vypožičané exempláre možno obnoviť (predĺžiť na ďalšie obdobie) na základe vašich pravidiel obehu a nastavení predĺženia."
+msgid ""
+"Checked out items can be renewed (checked out for another period of time) "
+"based on your :ref:`circulation rules <circulation-and-fines-rules-label>` "
+"and :ref:`renewal preferences <renewalperiodbase-label>`."
+msgstr ""
+"Vypožičané exempláre možno obnoviť (predĺžiť na ďalšie obdobie) na základe "
+"vašich pravidiel obehu a nastavení predĺženia."
 
 #: ../../source/circulation.rst:429
-msgid "If :ref:`you allow it <opacrenewalallowed-label>`, patrons can renew their own items via the OPAC, but sometimes you'll need to help them by renewing their items via the staff client."
+msgid ""
+"If :ref:`you allow it <opacrenewalallowed-label>`, patrons can renew their "
+"own items via the OPAC, but sometimes you'll need to help them by renewing "
+"their items via the staff client."
 msgstr ""
 
 #: ../../source/circulation.rst:433
 #, fuzzy
 msgid "To renew items checked out to a patron, you can do one of two things."
-msgstr "Tento exemplár je vypožičaný inému čitateľovi. %s Vrátiť a vypožičať? %s"
+msgstr ""
+"Tento exemplár je vypožičaný inému čitateľovi. %s Vrátiť a vypožičať? %s"
 
 #: ../../source/circulation.rst:435
-msgid "The first is to visit their details page or checkout page and review their checkout summary at the bottom."
+msgid ""
+"The first is to visit their details page or checkout page and review their "
+"checkout summary at the bottom."
 msgstr ""
 
 #: ../../source/circulation.rst:438
@@ -646,7 +904,12 @@ msgid "|image518|"
 msgstr "|image518|"
 
 #: ../../source/circulation.rst:440
-msgid "In the Renew column you will see how many times each item has been renewed and a checkbox to renew the item for the patron. Check the boxed of the items you would like to renew and click the 'Renew or return checked items' button, or to renew all items checked out to the patron simply click the 'Renew all' button."
+msgid ""
+"In the Renew column you will see how many times each item has been renewed "
+"and a checkbox to renew the item for the patron. Check the boxed of the "
+"items you would like to renew and click the 'Renew or return checked items' "
+"button, or to renew all items checked out to the patron simply click the "
+"'Renew all' button."
 msgstr ""
 
 #: ../../source/circulation.rst:446
@@ -654,7 +917,12 @@ msgid "|image519|"
 msgstr "|image519|"
 
 #: ../../source/circulation.rst:448
-msgid "Sometimes renewals will be blocked based on your circulation rules, to override this block you must have your :ref:`AllowRenewalLimitOverride` preference set to 'Allow'. If you allow renewal limit overrides, you will see a checkbox at the bottom left of the circulation summary. Check that box and then choose the items you would like to renew."
+msgid ""
+"Sometimes renewals will be blocked based on your circulation rules, to "
+"override this block you must have your :ref:`AllowRenewalLimitOverride` "
+"preference set to 'Allow'. If you allow renewal limit overrides, you will "
+"see a checkbox at the bottom left of the circulation summary. Check that box "
+"and then choose the items you would like to renew."
 msgstr ""
 
 #: ../../source/circulation.rst:455
@@ -662,12 +930,16 @@ msgid "|image520|"
 msgstr "|image520|"
 
 #: ../../source/circulation.rst:457
-msgid "Checking that box will add checkboxes in the renew column above where before the item was not renewable."
+msgid ""
+"Checking that box will add checkboxes in the renew column above where before "
+"the item was not renewable."
 msgstr ""
 
 #: ../../source/circulation.rst:460
 #, fuzzy
-msgid "The second option is to visit the 'Renew' page found under the Circulation menu."
+msgid ""
+"The second option is to visit the 'Renew' page found under the Circulation "
+"menu."
 msgstr "Stránka Návratu v ponuke Obehu"
 
 #: ../../source/circulation.rst:463
@@ -732,8 +1004,11 @@ msgid "|image527|"
 msgstr "|image527|"
 
 #: ../../source/circulation.rst:496
-msgid "The check in link on the patron's checkout summary (and on the checkout summary page)"
-msgstr "Odkaz návratu v súhrne výpožičiek čitateľa (a na stránke súhrnu výpožičiek)"
+msgid ""
+"The check in link on the patron's checkout summary (and on the checkout "
+"summary page)"
+msgstr ""
+"Odkaz návratu v súhrne výpožičiek čitateľa (a na stránke súhrnu výpožičiek)"
 
 #: ../../source/circulation.rst:499
 msgid "|image528|"
@@ -753,34 +1028,63 @@ msgid "Checking items in"
 msgstr "Návrat exemplárov"
 
 #: ../../source/circulation.rst:510
-msgid "To check an item in scan the barcode for the item into the box provided. A summary of all items checked in will appear below the checkin box"
-msgstr "Pre vrátenie exemplára, zoskenujte jeho čiarový kód do pripraveného políčka. Súhrn všetkých vrátených exemplárov sa objaví pod políčkom návratu"
+msgid ""
+"To check an item in scan the barcode for the item into the box provided. A "
+"summary of all items checked in will appear below the checkin box"
+msgstr ""
+"Pre vrátenie exemplára, zoskenujte jeho čiarový kód do pripraveného políčka. "
+"Súhrn všetkých vrátených exemplárov sa objaví pod políčkom návratu"
 
 #: ../../source/circulation.rst:513
 msgid "|image530|"
 msgstr "|image530|"
 
 #: ../../source/circulation.rst:517
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: checkedintable)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: checkedintable)."
 msgstr ""
 
 #: ../../source/circulation.rst:521
-msgid "If you are checking items in that were put in the book drop while the library was closed you can check the 'Book drop mode' box before scanning items. This will effectively roll back the returned date to the last date the library was open."
-msgstr "Ak spracúvate návrat exemplárov, ktoré boli vhodené do schránky kým knižnica bola zatvorená, môžete zaškrtnúť políčko 'Režim návratu cez schránku' pred skenovaním exemplárov. Týmto sa účinný termín návratu presunie späť na posledný dátum, kedy knižnica bola otvorená."
+msgid ""
+"If you are checking items in that were put in the book drop while the "
+"library was closed you can check the 'Book drop mode' box before scanning "
+"items. This will effectively roll back the returned date to the last date "
+"the library was open."
+msgstr ""
+"Ak spracúvate návrat exemplárov, ktoré boli vhodené do schránky kým knižnica "
+"bola zatvorená, môžete zaškrtnúť políčko 'Režim návratu cez schránku' pred "
+"skenovaním exemplárov. Týmto sa účinný termín návratu presunie späť na "
+"posledný dátum, kedy knižnica bola otvorená."
 
 #: ../../source/circulation.rst:526
 #, fuzzy
-msgid "This requires that you have your closings added to the :ref:`calendar tool <calendar-label>`"
-msgstr "Toto vyžaduje, aby ste mali pridané zatvorenia do nástroja Sviatkov a Kalendára"
+msgid ""
+"This requires that you have your closings added to the :ref:`calendar tool "
+"<calendar-label>`"
+msgstr ""
+"Toto vyžaduje, aby ste mali pridané zatvorenia do nástroja Sviatkov a "
+"Kalendára"
 
 #: ../../source/circulation.rst:528
-msgid "You can also choose to forgive all overdue charges for items you are checking in by checking the 'Forgive overdue charges' box before scanning items."
-msgstr "Môžete tiež zvoliť odpustenie všetkých poplatkov za omeškanie pre vracajúce sa exempláre zaškrtnutím políčka 'Odpustiť poplatky za omeškanie' pred skenovaním exemplárov."
+msgid ""
+"You can also choose to forgive all overdue charges for items you are "
+"checking in by checking the 'Forgive overdue charges' box before scanning "
+"items."
+msgstr ""
+"Môžete tiež zvoliť odpustenie všetkých poplatkov za omeškanie pre vracajúce "
+"sa exempláre zaškrtnutím políčka 'Odpustiť poplatky za omeškanie' pred "
+"skenovaním exemplárov."
 
 #: ../../source/circulation.rst:532
 #, fuzzy
-msgid "If you have the :ref:`SpecifyReturnDate` preference set to 'Allow' you will be able to arbitrarily set the return date from below the check in box."
-msgstr "Ak máte SpecifyReturnDate nastavené na 'Povoliť', budete môcť ľubovoľne nastavovať termín návratu pod políčkom návratu."
+msgid ""
+"If you have the :ref:`SpecifyReturnDate` preference set to 'Allow' you will "
+"be able to arbitrarily set the return date from below the check in box."
+msgstr ""
+"Ak máte SpecifyReturnDate nastavené na 'Povoliť', budete môcť ľubovoľne "
+"nastavovať termín návratu pod políčkom návratu."
 
 #: ../../source/circulation.rst:536
 msgid "|image1258|"
@@ -796,15 +1100,21 @@ msgid "There are several messages that can appear when checking items in:"
 msgstr "Existuje niekoľko hlásení, ktoré sa objavia pri návrate exemplárov:"
 
 #: ../../source/circulation.rst:545
-msgid "If you are checking an item in at a library other than the home branch, a message will appear asking you to transfer the book to the home library"
-msgstr "Pokiaľ prehľadávate knihy v inej, ako vlastnej knižnici, zobrazí sa oznámenie, či chcete knihu zaslať do vlastnej knižnice."
+msgid ""
+"If you are checking an item in at a library other than the home branch, a "
+"message will appear asking you to transfer the book to the home library"
+msgstr ""
+"Pokiaľ prehľadávate knihy v inej, ako vlastnej knižnici, zobrazí sa "
+"oznámenie, či chcete knihu zaslať do vlastnej knižnice."
 
 #: ../../source/circulation.rst:549
 msgid "|image531|"
 msgstr "|image531|"
 
 #: ../../source/circulation.rst:551
-msgid "After this item is checked in the status of the item will be changed in the catalog to 'in transit'"
+msgid ""
+"After this item is checked in the status of the item will be changed in the "
+"catalog to 'in transit'"
 msgstr "Po vrátení tohto exemplára sa jeho stav v katalógu zmení na 'na ceste'"
 
 #: ../../source/circulation.rst:554
@@ -813,36 +1123,59 @@ msgstr "|image532|"
 
 #: ../../source/circulation.rst:556
 #, fuzzy
-msgid "To mark an item as back at the home branch, check the item in at the home branch"
-msgstr "Pre označenie exemplára ako vráteného späť do domovskej pobočky, vykonajte návrat exemplára v domovskej pobočke "
+msgid ""
+"To mark an item as back at the home branch, check the item in at the home "
+"branch"
+msgstr ""
+"Pre označenie exemplára ako vráteného späť do domovskej pobočky, vykonajte "
+"návrat exemplára v domovskej pobočke "
 
 #: ../../source/circulation.rst:559
 msgid "|image533|"
 msgstr "|image533|"
 
 #: ../../source/circulation.rst:561
-msgid "A message will appear tell you that the item is not checked out, but the status will now say available in the catalog. This step is necessary to mark items as received by the home branch."
-msgstr "Objaví sa hlásenie, ktoré Vám oznámi, že exemplár nie je vypožičaný, ale stav teraz povie, že je dostupný v katalógu. Tento krok je nevyhnutný pre označenie exemplárov ako prijatých v domovskej pobočke."
+msgid ""
+"A message will appear tell you that the item is not checked out, but the "
+"status will now say available in the catalog. This step is necessary to mark "
+"items as received by the home branch."
+msgstr ""
+"Objaví sa hlásenie, ktoré Vám oznámi, že exemplár nie je vypožičaný, ale "
+"stav teraz povie, že je dostupný v katalógu. Tento krok je nevyhnutný pre "
+"označenie exemplárov ako prijatých v domovskej pobočke."
 
 #: ../../source/circulation.rst:565
-msgid "If you are checking in an item that should have multiple parts or pieces a message will appear warning you about the number of pieces you should have in your hand"
-msgstr "Ak vraciate exemplár, ktorý má viacero častí alebo kusov, objaví sa upozornneie o počte kusov, ktoré by ste mali držať v ruke"
+msgid ""
+"If you are checking in an item that should have multiple parts or pieces a "
+"message will appear warning you about the number of pieces you should have "
+"in your hand"
+msgstr ""
+"Ak vraciate exemplár, ktorý má viacero častí alebo kusov, objaví sa "
+"upozornneie o počte kusov, ktoré by ste mali držať v ruke"
 
 #: ../../source/circulation.rst:569
 msgid "|image534|"
 msgstr "|image534|"
 
 #: ../../source/circulation.rst:571
-msgid "If you're checking an item in that has a hold on it, you will be prompted to confirm the hold"
-msgstr "Ak vraciate exemplár, na ktorý sa vzťahuje rezervácia, budete vyzvaní potvrdiť rezerváciu"
+msgid ""
+"If you're checking an item in that has a hold on it, you will be prompted to "
+"confirm the hold"
+msgstr ""
+"Ak vraciate exemplár, na ktorý sa vzťahuje rezervácia, budete vyzvaní "
+"potvrdiť rezerváciu"
 
 #: ../../source/circulation.rst:574
 msgid "|image535|"
 msgstr "|image535|"
 
 #: ../../source/circulation.rst:576
-msgid "Clicking the Confirm hold button will mark the item as waiting for pickup from the library"
-msgstr "Kliknutie na tlačidlo Potvrdiť rezerváciu označí exemplár ako čakajúci na vyzdvihnutie z knižnice"
+msgid ""
+"Clicking the Confirm hold button will mark the item as waiting for pickup "
+"from the library"
+msgstr ""
+"Kliknutie na tlačidlo Potvrdiť rezerváciu označí exemplár ako čakajúci na "
+"vyzdvihnutie z knižnice"
 
 #: ../../source/circulation.rst:579
 msgid "|image536|"
@@ -850,25 +1183,43 @@ msgstr "|image536|"
 
 #: ../../source/circulation.rst:581
 #, fuzzy
-msgid "Clicking the 'Print slip and confirm' button will mark the item as waiting for pickup at the library and present the library with a receipt to print and place on the book with the patron's information"
-msgstr "Kliknutie na tlačidlo Vytlačiť ústrižok a potvrdiť označí exemplár ako čakajúci na vyzdvihnutie v knižnici a zhotoví potvrdenku na tlač a umiestnenie do knihy s informáciou o čitateľovi"
+msgid ""
+"Clicking the 'Print slip and confirm' button will mark the item as waiting "
+"for pickup at the library and present the library with a receipt to print "
+"and place on the book with the patron's information"
+msgstr ""
+"Kliknutie na tlačidlo Vytlačiť ústrižok a potvrdiť označí exemplár ako "
+"čakajúci na vyzdvihnutie v knižnici a zhotoví potvrdenku na tlač a "
+"umiestnenie do knihy s informáciou o čitateľovi"
 
 #: ../../source/circulation.rst:586 ../../source/circulation.rst:604
-msgid "Ignoring the hold will leave the item on hold, but leave its status as Available (it will not cancel the hold)"
-msgstr "Ignorovanie rezervácie ponechá exemplár rezervovaný, ale ponechá mu stav ako Dostupný (nezruší sa tým rezervácia)"
+msgid ""
+"Ignoring the hold will leave the item on hold, but leave its status as "
+"Available (it will not cancel the hold)"
+msgstr ""
+"Ignorovanie rezervácie ponechá exemplár rezervovaný, ale ponechá mu stav ako "
+"Dostupný (nezruší sa tým rezervácia)"
 
 #: ../../source/circulation.rst:589
 #, fuzzy
-msgid "If you're checking in an item that has a hold on it at another branch you will be prompted to confirm and transfer the item"
-msgstr "Ak vraciate exemplár, na ktorý sa vzťahuje rezervácia v inej pobočke, budete vyzvaní potvrdiť a presunúť exemplár "
+msgid ""
+"If you're checking in an item that has a hold on it at another branch you "
+"will be prompted to confirm and transfer the item"
+msgstr ""
+"Ak vraciate exemplár, na ktorý sa vzťahuje rezervácia v inej pobočke, budete "
+"vyzvaní potvrdiť a presunúť exemplár "
 
 #: ../../source/circulation.rst:592
 msgid "|image537|"
 msgstr "|image537|"
 
 #: ../../source/circulation.rst:594
-msgid "Clicking the 'Confirm hold and transfer' button will mark the item as in transit to the library where the hold was placed"
-msgstr "Kliknutie na tlačidlo 'Potvrdiť rezerváciu a presunúť 'označí exemplár ako na ceste do knižnice, kde bola rezervácia zadaná"
+msgid ""
+"Clicking the 'Confirm hold and transfer' button will mark the item as in "
+"transit to the library where the hold was placed"
+msgstr ""
+"Kliknutie na tlačidlo 'Potvrdiť rezerváciu a presunúť 'označí exemplár ako "
+"na ceste do knižnice, kde bola rezervácia zadaná"
 
 #: ../../source/circulation.rst:597
 msgid "|image538|"
@@ -876,13 +1227,25 @@ msgstr "|image538|"
 
 #: ../../source/circulation.rst:599
 #, fuzzy
-msgid "Clicking the 'Print slip, transfer and confirm' button will mark the item as in transit to the library where the hold was placed and present the library with a receipt to print and place on the book with the patron's information"
-msgstr "Kliknutie na tlačidlo Vytlačiť ústrižok, Presunúť a Potvrdiť označí exemplár ako na ceste do knižnice, kde bola rezervácia zadaná a zhotoví potvrdenku na tlač a umiestnenie do knihy s informáciou o čitateľovi"
+msgid ""
+"Clicking the 'Print slip, transfer and confirm' button will mark the item as "
+"in transit to the library where the hold was placed and present the library "
+"with a receipt to print and place on the book with the patron's information"
+msgstr ""
+"Kliknutie na tlačidlo Vytlačiť ústrižok, Presunúť a Potvrdiť označí exemplár "
+"ako na ceste do knižnice, kde bola rezervácia zadaná a zhotoví potvrdenku na "
+"tlač a umiestnenie do knihy s informáciou o čitateľovi"
 
 #: ../../source/circulation.rst:607
 #, fuzzy
-msgid "If you have the system showing you fines at the time of checkin (:ref:`FineNotifyAtCheckin`) you will see a message telling you about the fine and providing you a link to the payment page for that patron"
-msgstr "Ak vám vo chvíli návratu systém zobrazuje pokuty (FineNotifyAtCheckin), uvidíte hlásenie, ktoré obsahuje výšku pokuty a odkaz na stránku platieb daného čitateľa"
+msgid ""
+"If you have the system showing you fines at the time of checkin (:ref:"
+"`FineNotifyAtCheckin`) you will see a message telling you about the fine and "
+"providing you a link to the payment page for that patron"
+msgstr ""
+"Ak vám vo chvíli návratu systém zobrazuje pokuty (FineNotifyAtCheckin), "
+"uvidíte hlásenie, ktoré obsahuje výšku pokuty a odkaz na stránku platieb "
+"daného čitateľa"
 
 #: ../../source/circulation.rst:612
 msgid "|image539|"
@@ -894,8 +1257,12 @@ msgid "Circulation messages"
 msgstr "Hlásenia o obehu"
 
 #: ../../source/circulation.rst:619
-msgid "Circulation messages are short messages that librarians can leave for their patrons or their colleagues that will appear at the time of circulation."
-msgstr "Hlásenia o obehu sú krátke správy, ktoré môžu dať knihovníci svojim čitateľom alebo kolegom a objavia sa v čase obehu."
+msgid ""
+"Circulation messages are short messages that librarians can leave for their "
+"patrons or their colleagues that will appear at the time of circulation."
+msgstr ""
+"Hlásenia o obehu sú krátke správy, ktoré môžu dať knihovníci svojim "
+"čitateľom alebo kolegom a objavia sa v čase obehu."
 
 #: ../../source/circulation.rst:626
 #, fuzzy
@@ -904,19 +1271,29 @@ msgstr "Nastavujú sa Správy"
 
 #: ../../source/circulation.rst:628
 #, fuzzy
-msgid "Circulation messages are set up as :ref:`authorized values <authorized-values-label>`. To add or edit circulation messages you want to work with the `BOR\\_NOTES <#bornotes>`__ value."
-msgstr "Hlásenia o obehu sú nastavené ako Povolené hodnoty. Pre pridanie alebo úpravu Hlásení o obehu, pracujte s hodnotou BOR_NOTES."
+msgid ""
+"Circulation messages are set up as :ref:`authorized values <authorized-"
+"values-label>`. To add or edit circulation messages you want to work with "
+"the `BOR\\_NOTES <#bornotes>`__ value."
+msgstr ""
+"Hlásenia o obehu sú nastavené ako Povolené hodnoty. Pre pridanie alebo "
+"úpravu Hlásení o obehu, pracujte s hodnotou BOR_NOTES."
 
 #: ../../source/circulation.rst:632
 msgid "|image540|"
 msgstr "|image540|"
 
 #: ../../source/circulation.rst:634
-msgid "The 'Description' field can hold a canned message that you would like to appear on the patron's record."
+msgid ""
+"The 'Description' field can hold a canned message that you would like to "
+"appear on the patron's record."
 msgstr ""
 
 #: ../../source/circulation.rst:639
-msgid "The 'Description' field is limited to 80 characters, but the patron message field can hold more than that. Enter 80 characters in the 'Description' field and then type the rest on the patron record."
+msgid ""
+"The 'Description' field is limited to 80 characters, but the patron message "
+"field can hold more than that. Enter 80 characters in the 'Description' "
+"field and then type the rest on the patron record."
 msgstr ""
 
 #: ../../source/circulation.rst:646
@@ -926,8 +1303,13 @@ msgstr "Pridávanie správy"
 
 #: ../../source/circulation.rst:648
 #, fuzzy
-msgid "When on the patron's check out tab you will see a link to 'Add a new message' to the right of the check out box and a button at the top to 'Add message'."
-msgstr "Na záložke čitateľových výpožičiek uvidíte odkaz na 'Pridať novú správu' napravo od políčka výpožičiek."
+msgid ""
+"When on the patron's check out tab you will see a link to 'Add a new "
+"message' to the right of the check out box and a button at the top to 'Add "
+"message'."
+msgstr ""
+"Na záložke čitateľových výpožičiek uvidíte odkaz na 'Pridať novú správu' "
+"napravo od políčka výpožičiek."
 
 #: ../../source/circulation.rst:652
 msgid "|image541|"
@@ -935,8 +1317,13 @@ msgstr "|image541|"
 
 #: ../../source/circulation.rst:654
 #, fuzzy
-msgid "When you click either of these options you will be asked to choose if the message is for the librarians or the patron and the message you would like to leave."
-msgstr "Keď kliknete na 'Pridať novú správu', budete si mať zvoliť či je správa určená knihovníkom alebo čitateľovi a akú správu budete chcieť nechať."
+msgid ""
+"When you click either of these options you will be asked to choose if the "
+"message is for the librarians or the patron and the message you would like "
+"to leave."
+msgstr ""
+"Keď kliknete na 'Pridať novú správu', budete si mať zvoliť či je správa "
+"určená knihovníkom alebo čitateľovi a akú správu budete chcieť nechať."
 
 #: ../../source/circulation.rst:658
 msgid "|image542|"
@@ -952,7 +1339,11 @@ msgid "Viewing messages"
 msgstr "Prezeranie Správ"
 
 #: ../../source/circulation.rst:669
-msgid "Circulation messages meant for the staff and/or the patron will appear on the patron's checkout screen to the right of the checkout box. Messages in bold and red are meant for the library staff only, whereas messages in regular italics font are meant for the patron and the librarian."
+msgid ""
+"Circulation messages meant for the staff and/or the patron will appear on "
+"the patron's checkout screen to the right of the checkout box. Messages in "
+"bold and red are meant for the library staff only, whereas messages in "
+"regular italics font are meant for the patron and the librarian."
 msgstr ""
 
 #: ../../source/circulation.rst:675
@@ -961,8 +1352,12 @@ msgstr "|image543|"
 
 #: ../../source/circulation.rst:677
 #, fuzzy
-msgid "Circulation messages meant for the patron will also appear when they log into the OPAC."
-msgstr "Hlásenia o obehu určené čitateľovi sa objavia pri jeho/jej prihlásení do OPACu."
+msgid ""
+"Circulation messages meant for the patron will also appear when they log "
+"into the OPAC."
+msgstr ""
+"Hlásenia o obehu určené čitateľovi sa objavia pri jeho/jej prihlásení do "
+"OPACu."
 
 #: ../../source/circulation.rst:680
 msgid "|image544|"
@@ -973,7 +1368,12 @@ msgid "Holds"
 msgstr "Rezervácie"
 
 #: ../../source/circulation.rst:687
-msgid "Koha allows patrons to put things on hold. A 'Hold' is a way to reserve an item. Depending on your :ref:`circulation and fines rules <circulation-and-fines-rules-label>` and :ref:`hold preference <holds-policy-label>` settings patrons will be able to place items on hold for pickup at the library at a later date/time."
+msgid ""
+"Koha allows patrons to put things on hold. A 'Hold' is a way to reserve an "
+"item. Depending on your :ref:`circulation and fines rules <circulation-and-"
+"fines-rules-label>` and :ref:`hold preference <holds-policy-label>` settings "
+"patrons will be able to place items on hold for pickup at the library at a "
+"later date/time."
 msgstr ""
 
 #: ../../source/circulation.rst:696
@@ -983,8 +1383,14 @@ msgstr "Zadávanie rezervácií v intranete"
 
 #: ../../source/circulation.rst:698
 #, fuzzy
-msgid "There are several ways to place holds from the staff client. The most obvious is using the 'Place hold' button at the top of any bibliographic record."
-msgstr "Jestvuje viacero spôsobov, akými sa dajú zadať rezervácie v intranete. Najzrejmejším je použitie tlačidla 'Zarezervovať' navrchu knižničného záznamu."
+msgid ""
+"There are several ways to place holds from the staff client. The most "
+"obvious is using the 'Place hold' button at the top of any bibliographic "
+"record."
+msgstr ""
+"Jestvuje viacero spôsobov, akými sa dajú zadať rezervácie v intranete. "
+"Najzrejmejším je použitie tlačidla 'Zarezervovať' navrchu knižničného "
+"záznamu."
 
 #: ../../source/circulation.rst:702
 msgid "|image545|"
@@ -992,48 +1398,81 @@ msgstr "|image545|"
 
 #: ../../source/circulation.rst:704
 #, fuzzy
-msgid "You can also click the smaller 'Place hold' link found at the top of your catalog search results, or the 'Holds' link found below each result."
-msgstr "Môžete tiež kliknúť na menší odkaz 'Zarezervovať' umiestnený nad výsledkami Vášho hľadania v katalógu, alebo na odkaz 'Rezervácie' umiestnený pod každým výsledkom."
+msgid ""
+"You can also click the smaller 'Place hold' link found at the top of your "
+"catalog search results, or the 'Holds' link found below each result."
+msgstr ""
+"Môžete tiež kliknúť na menší odkaz 'Zarezervovať' umiestnený nad výsledkami "
+"Vášho hľadania v katalógu, alebo na odkaz 'Rezervácie' umiestnený pod každým "
+"výsledkom."
 
 #: ../../source/circulation.rst:708
 msgid "|image546|"
 msgstr "|image546|"
 
 #: ../../source/circulation.rst:710
-msgid "You will be asked to search for a patron by barcode or any part of their name to start the hold process."
-msgstr "Dostanete výzvu, aby ste hľadali čitateľa podľa čiarového kódu alebo časti mena pre začatie procesu rezervácie."
+msgid ""
+"You will be asked to search for a patron by barcode or any part of their "
+"name to start the hold process."
+msgstr ""
+"Dostanete výzvu, aby ste hľadali čitateľa podľa čiarového kódu alebo časti "
+"mena pre začatie procesu rezervácie."
 
 #: ../../source/circulation.rst:713
 msgid "|image547|"
 msgstr "|image547|"
 
 #: ../../source/circulation.rst:715
-msgid "If you'd like to search for the patron first and then the bib record for the hold, you can open the patron record and click on the 'Search to Hold' button at the top of the patron record."
-msgstr "Ak by ste chceli najprv vyhľadať čitateľa a potom knižničný záznam pre rezerváciu, môžete otvoriť záznam o čitateľovi a kliknúť na tlačidlo 'Hľadať pre rezerváciu' na vrchu záznamu o čitateľovi."
+msgid ""
+"If you'd like to search for the patron first and then the bib record for the "
+"hold, you can open the patron record and click on the 'Search to Hold' "
+"button at the top of the patron record."
+msgstr ""
+"Ak by ste chceli najprv vyhľadať čitateľa a potom knižničný záznam pre "
+"rezerváciu, môžete otvoriť záznam o čitateľovi a kliknúť na tlačidlo 'Hľadať "
+"pre rezerváciu' na vrchu záznamu o čitateľovi."
 
 #: ../../source/circulation.rst:719
 msgid "|image548|"
 msgstr "|image548|"
 
 #: ../../source/circulation.rst:721
-msgid "After clicking the button you will be brought to the catalog search page where you can find the book(s) you want to place a hold on. Under each title on the results you'll see an option to 'Hold for Patron Name.'"
-msgstr "Po kliknutí na tlačidlo sa dostanete na stránku hľadania v katalógu, kde môžete nájsť knihy, ktoré chcete zarezervovať. Pod každým titulom vo výsledkoch uvidíte možnosť 'Rezervovať pre čitateľa.'"
+msgid ""
+"After clicking the button you will be brought to the catalog search page "
+"where you can find the book(s) you want to place a hold on. Under each title "
+"on the results you'll see an option to 'Hold for Patron Name.'"
+msgstr ""
+"Po kliknutí na tlačidlo sa dostanete na stránku hľadania v katalógu, kde "
+"môžete nájsť knihy, ktoré chcete zarezervovať. Pod každým titulom vo "
+"výsledkoch uvidíte možnosť 'Rezervovať pre čitateľa.'"
 
 #: ../../source/circulation.rst:725
 msgid "|image549|"
 msgstr "|image549|"
 
 #: ../../source/circulation.rst:727
-msgid "If you want to place a hold on multiple items, simply check the boxes to the left of them and click the arrow to the right of the 'Place Hold' button."
-msgstr "Ak chcete zadať rezerváciu u viacerých exemplárov, jednoducho zaškrtnite políčka naľavo od nich a klinite na šípku napravo od tlačidla 'Zarezervovať'."
+msgid ""
+"If you want to place a hold on multiple items, simply check the boxes to the "
+"left of them and click the arrow to the right of the 'Place Hold' button."
+msgstr ""
+"Ak chcete zadať rezerváciu u viacerých exemplárov, jednoducho zaškrtnite "
+"políčka naľavo od nich a klinite na šípku napravo od tlačidla 'Zarezervovať'."
 
 #: ../../source/circulation.rst:731
 msgid "|image550|"
 msgstr "|image550|"
 
 #: ../../source/circulation.rst:733
-msgid "Depending on how many items you choose to place a hold on at once you will see a different place hold form. If you are placing a hold on one bibliographic record you will see a list of all of the items you can place a hold on."
-msgstr "Podľa množstva exemplárov, na ktoré chcete zadať rezerváciu odrazu sa Vám zobrazí odlišný formulár odlišného zadávania rezervácií. Ak zadávate rezervácie na jeden knižničný záznam, uvidíte zoznam všetkých exemplárov, ktoré môžete zarezervovať."
+msgid ""
+"Depending on how many items you choose to place a hold on at once you will "
+"see a different place hold form. If you are placing a hold on one "
+"bibliographic record you will see a list of all of the items you can place a "
+"hold on."
+msgstr ""
+"Podľa množstva exemplárov, na ktoré chcete zadať rezerváciu odrazu sa Vám "
+"zobrazí odlišný formulár odlišného zadávania rezervácií. Ak zadávate "
+"rezervácie na jeden knižničný záznam, uvidíte zoznam všetkých exemplárov, "
+"ktoré môžete zarezervovať."
 
 #: ../../source/circulation.rst:738
 msgid "|image551|"
@@ -1041,14 +1480,18 @@ msgstr "|image551|"
 
 #: ../../source/circulation.rst:740
 msgid "Enter any notes that might apply to this hold"
-msgstr "Zadajte akékoľvek poznámky, ktoré by sa mohli vzťahovať na túto rezerváciu"
+msgstr ""
+"Zadajte akékoľvek poznámky, ktoré by sa mohli vzťahovať na túto rezerváciu"
 
 #: ../../source/circulation.rst:742
 msgid "Choose the library where the patron will pick up the item"
 msgstr "Zvoľte knižnicu, v ktorej si čitateľ vyzdvihne exemplár"
 
 #: ../../source/circulation.rst:744
-msgid "If you have the :ref:`AllowHoldItemTypeSelection` preference set to 'Allow' and the record had more than one item type attached you will see an option to choose to limit the hold to a specific item type"
+msgid ""
+"If you have the :ref:`AllowHoldItemTypeSelection` preference set to 'Allow' "
+"and the record had more than one item type attached you will see an option "
+"to choose to limit the hold to a specific item type"
 msgstr ""
 
 #: ../../source/circulation.rst:750
@@ -1057,31 +1500,59 @@ msgstr "|image1259|"
 
 #: ../../source/circulation.rst:752
 #, fuzzy
-msgid "If the patron wants the hold to start on a date other than today, enter that in the 'Hold starts on date' field"
-msgstr "Ak chce čitateľ začať rezerváciu v iný ako dnešný dátum, zadajte ho do poľa 'Rezervácia začína dňa' "
+msgid ""
+"If the patron wants the hold to start on a date other than today, enter that "
+"in the 'Hold starts on date' field"
+msgstr ""
+"Ak chce čitateľ začať rezerváciu v iný ako dnešný dátum, zadajte ho do poľa "
+"'Rezervácia začína dňa' "
 
 #: ../../source/circulation.rst:755
 #, fuzzy
-msgid "This option will only appear if the :ref:`AllowHoldDateInFuture` system preference is set to 'Allow'"
-msgstr "Táto možnosť sa zobrazí iba vtedy, keď je nastavenie systému AllowHoldDateInFuture nastavené na 'Povoliť'"
+msgid ""
+"This option will only appear if the :ref:`AllowHoldDateInFuture` system "
+"preference is set to 'Allow'"
+msgstr ""
+"Táto možnosť sa zobrazí iba vtedy, keď je nastavenie systému "
+"AllowHoldDateInFuture nastavené na 'Povoliť'"
 
 #: ../../source/circulation.rst:759
 #, fuzzy
-msgid "If the patron has specified that they don't want the item after a certain date, or if you have limits on hold lengths, you can enter an expiration date for the hold in the 'Hold expires on date'"
-msgstr "Ak sa čitateľ vyjadril, že nemá záujem o exemplár po určitom dátume, alebo ak máte obmedzenia ohľadom dĺžky rezervácie, môžete zadať dátum vypršania pre rezerváciu v 'Rezervácia skončí dňa' "
+msgid ""
+"If the patron has specified that they don't want the item after a certain "
+"date, or if you have limits on hold lengths, you can enter an expiration "
+"date for the hold in the 'Hold expires on date'"
+msgstr ""
+"Ak sa čitateľ vyjadril, že nemá záujem o exemplár po určitom dátume, alebo "
+"ak máte obmedzenia ohľadom dĺžky rezervácie, môžete zadať dátum vypršania "
+"pre rezerváciu v 'Rezervácia skončí dňa' "
 
 #: ../../source/circulation.rst:763
 #, fuzzy
-msgid "To have expired holds cancelled automatically you will need to have the :ref:`Expired holds` cron job set to run on a regular basis."
-msgstr "Pre automatické zrušenie vypršaných rezervácií budete musieť mať nastavený cronjob Expired Holds tak, aby bežal pravidelne."
+msgid ""
+"To have expired holds cancelled automatically you will need to have the :ref:"
+"`Expired holds` cron job set to run on a regular basis."
+msgstr ""
+"Pre automatické zrušenie vypršaných rezervácií budete musieť mať nastavený "
+"cronjob Expired Holds tak, aby bežal pravidelne."
 
 #: ../../source/circulation.rst:767
-msgid "Next choose if you want to place a hold on the next available item or a specific item by clicking the radio button next to an individual item."
-msgstr "Ďalej zvoľte, či chcete zadať rezerváciu na ďalší dostupný exemplár alebo na špecifický exemplár kliknutím na prepínač vedľa príslušného exemplára."
+msgid ""
+"Next choose if you want to place a hold on the next available item or a "
+"specific item by clicking the radio button next to an individual item."
+msgstr ""
+"Ďalej zvoľte, či chcete zadať rezerváciu na ďalší dostupný exemplár alebo na "
+"špecifický exemplár kliknutím na prepínač vedľa príslušného exemplára."
 
 #: ../../source/circulation.rst:771
-msgid "If you're placing a hold on multiple items you will be presented with the next available option for all titles. If no items are available for hold it will say so on the confirmation screen."
-msgstr "Ak zadávate rezerváciu na viacero exemplárov, zobrazí sa vám možnosť ďalšieho dostupného pre všetky tituly. Ak nie sú dostupné žiadne exempláre na rezerváciu, dá Vám to na vedomie potvrdzovacím dial."
+msgid ""
+"If you're placing a hold on multiple items you will be presented with the "
+"next available option for all titles. If no items are available for hold it "
+"will say so on the confirmation screen."
+msgstr ""
+"Ak zadávate rezerváciu na viacero exemplárov, zobrazí sa vám možnosť "
+"ďalšieho dostupného pre všetky tituly. Ak nie sú dostupné žiadne exempláre "
+"na rezerváciu, dá Vám to na vedomie potvrdzovacím dial."
 
 #: ../../source/circulation.rst:775
 msgid "|image552|"
@@ -1089,8 +1560,16 @@ msgstr "|image552|"
 
 #: ../../source/circulation.rst:777
 #, fuzzy
-msgid "Once your hold is placed, if you'd like to have Koha forget that you used the 'Search to hold' function, you can choose to have Koha 'forget' the patron's name by clicking the arrow to the right of the 'Place hold' button on the search results and choosing the 'Forget' option."
-msgstr "Len čo je rezervácia zadaná, a ak chcete, aby Koha zabudla na použítú funkciu 'Hľadať pre rezerváciu', môžete si zvoliť, aby Koha 'zabudla' na meno čitateľa kliknutím na šípku napravo od tlačidla 'Zarezervovať' vo výsledkoch hľadania a voľbou možnosti 'Zabudnúť'."
+msgid ""
+"Once your hold is placed, if you'd like to have Koha forget that you used "
+"the 'Search to hold' function, you can choose to have Koha 'forget' the "
+"patron's name by clicking the arrow to the right of the 'Place hold' button "
+"on the search results and choosing the 'Forget' option."
+msgstr ""
+"Len čo je rezervácia zadaná, a ak chcete, aby Koha zabudla na použítú "
+"funkciu 'Hľadať pre rezerváciu', môžete si zvoliť, aby Koha 'zabudla' na "
+"meno čitateľa kliknutím na šípku napravo od tlačidla 'Zarezervovať' vo "
+"výsledkoch hľadania a voľbou možnosti 'Zabudnúť'."
 
 #: ../../source/circulation.rst:782
 msgid "|image553|"
@@ -1103,8 +1582,12 @@ msgstr "Spracovanie rezervácií"
 
 #: ../../source/circulation.rst:789
 #, fuzzy
-msgid "Holds can be altered and cancelled from the holds tab found on the left of the bibliographic record."
-msgstr "Rezervácie sa môžu zmeniť alebo zrušiť v záložke Rezervácií, ktorá sa nachádza naľavo od knižničného záznamu."
+msgid ""
+"Holds can be altered and cancelled from the holds tab found on the left of "
+"the bibliographic record."
+msgstr ""
+"Rezervácie sa môžu zmeniť alebo zrušiť v záložke Rezervácií, ktorá sa "
+"nachádza naľavo od knižničného záznamu."
 
 #: ../../source/circulation.rst:792
 msgid "|image554|"
@@ -1112,8 +1595,12 @@ msgstr "|image554|"
 
 #: ../../source/circulation.rst:794
 #, fuzzy
-msgid "From the list of holds you can change the order of the holds, the pickup location, suspend and/or cancel the hold."
-msgstr "Zo zoznamu rezervácií môžete zmeniť poradie rezervácií, miesto vyzdvihnutia a/alebo zrušiť rezerváciu."
+msgid ""
+"From the list of holds you can change the order of the holds, the pickup "
+"location, suspend and/or cancel the hold."
+msgstr ""
+"Zo zoznamu rezervácií môžete zmeniť poradie rezervácií, miesto vyzdvihnutia "
+"a/alebo zrušiť rezerváciu."
 
 #: ../../source/circulation.rst:797
 msgid "|image555|"
@@ -1121,42 +1608,85 @@ msgstr "|image555|"
 
 #: ../../source/circulation.rst:801
 #, fuzzy
-msgid "If you have your :ref:`AutoResumeSuspendedHolds` preference set to \"Don't allow\" then you will not have the option to put an end date on the hold suspension."
-msgstr "Ak máte nastavenie AutoResumeSuspendedHolds na \"Nepovoliť\", tak nebudete môcť zadať koncový dátum na prerušenie rezervácie"
+msgid ""
+"If you have your :ref:`AutoResumeSuspendedHolds` preference set to \"Don't "
+"allow\" then you will not have the option to put an end date on the hold "
+"suspension."
+msgstr ""
+"Ak máte nastavenie AutoResumeSuspendedHolds na \"Nepovoliť\", tak nebudete "
+"môcť zadať koncový dátum na prerušenie rezervácie"
 
 #: ../../source/circulation.rst:808
 #, fuzzy
-msgid "If you have your :ref:`AllowHoldDateInFuture` preference set to \"Don't allow\" you will not have the option to edit the date the hold was placed (the column labelled Date)."
-msgstr "Ak máte nastavenie AutoResumeSuspendedHolds na \"Nepovoliť\", tak nebudete môcť zadať koncový dátum na prerušenie rezervácie"
+msgid ""
+"If you have your :ref:`AllowHoldDateInFuture` preference set to \"Don't allow"
+"\" you will not have the option to edit the date the hold was placed (the "
+"column labelled Date)."
+msgstr ""
+"Ak máte nastavenie AutoResumeSuspendedHolds na \"Nepovoliť\", tak nebudete "
+"môcť zadať koncový dátum na prerušenie rezervácie"
 
 #: ../../source/circulation.rst:815
-msgid "If you have the :ref:`HoldsSplitQueue` system preference set you will see the holds list split across different tables by either pickup library, itemtype or both."
+msgid ""
+"If you have the :ref:`HoldsSplitQueue` system preference set you will see "
+"the holds list split across different tables by either pickup library, "
+"itemtype or both."
 msgstr ""
 
 #: ../../source/circulation.rst:821
 #, fuzzy
-msgid "Depending on how you have your :ref:`HidePatronName` system preference set the list may show card numbers instead of names in the patron column like in the image above."
-msgstr "V závislosti od nastavenia Vášho HidePatronName môže zoznam zobraziť čísla preukazov namiesto mien v stĺpci čitateľa ako to vidíte na obrázku hore."
+msgid ""
+"Depending on how you have your :ref:`HidePatronName` system preference set "
+"the list may show card numbers instead of names in the patron column like in "
+"the image above."
+msgstr ""
+"V závislosti od nastavenia Vášho HidePatronName môže zoznam zobraziť čísla "
+"preukazov namiesto mien v stĺpci čitateľa ako to vidíte na obrázku hore."
 
 #: ../../source/circulation.rst:825
-msgid "To rearrange or delete holds, simply make a selection from the 'Priority' pull down or click the arrows to the right of the priority pull down."
-msgstr "Zmenu usporiadania alebo odstránenie rezervácií môžete jednoducho urobiť výberom z ponuky 'Prednosť' alebo kliknutím na šípky napravo od ponuky prednosti."
+msgid ""
+"To rearrange or delete holds, simply make a selection from the 'Priority' "
+"pull down or click the arrows to the right of the priority pull down."
+msgstr ""
+"Zmenu usporiadania alebo odstránenie rezervácií môžete jednoducho urobiť "
+"výberom z ponuky 'Prednosť' alebo kliknutím na šípky napravo od ponuky "
+"prednosti."
 
 #: ../../source/circulation.rst:829
 msgid "|image556|"
 msgstr "|image556|"
 
 #: ../../source/circulation.rst:831
-msgid "If you use the priority pull down to rearrange or delete holds you will need to click the 'Update hold(s)' button to save your changes."
-msgstr "Ak používate ponuku prednosti pre zmenu alebo odstránenie rezervácií, budete potrebovať kliknúť na tlačidlo 'Aktualizovať rezervácie' pre uloženie zmien."
+msgid ""
+"If you use the priority pull down to rearrange or delete holds you will need "
+"to click the 'Update hold(s)' button to save your changes."
+msgstr ""
+"Ak používate ponuku prednosti pre zmenu alebo odstránenie rezervácií, budete "
+"potrebovať kliknúť na tlačidlo 'Aktualizovať rezervácie' pre uloženie zmien."
 
 #: ../../source/circulation.rst:834
-msgid "Clicking the down arrow to the right of the hold will stick the hold at the bottom of the list even if more requests are made."
-msgstr "Kliknutie na šípku nadol napravo od rezervácie prilepí rezerváciu na spodok zoznamu aj keď sú zadané viaceré žiadosti."
+msgid ""
+"Clicking the down arrow to the right of the hold will stick the hold at the "
+"bottom of the list even if more requests are made."
+msgstr ""
+"Kliknutie na šípku nadol napravo od rezervácie prilepí rezerváciu na spodok "
+"zoznamu aj keď sú zadané viaceré žiadosti."
 
 #: ../../source/circulation.rst:837
-msgid "For example, your library has home-bound patrons that are allowed to keep books out for months at a time. It would not be fair to other patrons if a home-bound patron were able to check out a brand new book and keep it for months. For this reason, the home-bound patron's hold request would stay at the bottom of the queue until everyone else who wanted to read that book has already done so."
-msgstr "Napríklad, Vaša knižnica má čitateľov naviazaných na domov, ktorí majú dovolené držať knihy na veľa mesiacov. Nebolo by spravodlivé voči ostatným čitateľom, keby si domáci čitateľ mohol vypožičať úplne novú knihu a držať ju dlhé mesiace. Z tohto dôvodu, žiadosť o rezerváciu od domáceho čitateľa sa dostane na spodok fronty až kým všetci ostatní, ktorú chceli čítať danú knihu tak neurobili."
+msgid ""
+"For example, your library has home-bound patrons that are allowed to keep "
+"books out for months at a time. It would not be fair to other patrons if a "
+"home-bound patron were able to check out a brand new book and keep it for "
+"months. For this reason, the home-bound patron's hold request would stay at "
+"the bottom of the queue until everyone else who wanted to read that book has "
+"already done so."
+msgstr ""
+"Napríklad, Vaša knižnica má čitateľov naviazaných na domov, ktorí majú "
+"dovolené držať knihy na veľa mesiacov. Nebolo by spravodlivé voči ostatným "
+"čitateľom, keby si domáci čitateľ mohol vypožičať úplne novú knihu a držať "
+"ju dlhé mesiace. Z tohto dôvodu, žiadosť o rezerváciu od domáceho čitateľa "
+"sa dostane na spodok fronty až kým všetci ostatní, ktorú chceli čítať danú "
+"knihu tak neurobili."
 
 #: ../../source/circulation.rst:844
 msgid "|image557|"
@@ -1164,15 +1694,27 @@ msgstr "|image557|"
 
 #: ../../source/circulation.rst:846
 #, fuzzy
-msgid "If a patron asks to have their hold suspended and you have the :ref:`SuspendHoldsIntranet` system preference set to 'allow' you can do so by clicking the 'Suspend' button to far right. If the patron gives you a date for the items to become unsuspended you can enter that in the date box and click the 'Update hold(s)' button to save your changes."
-msgstr "Ak si čitateľ želá prerušiť svoju rezerváciu, môžete to urobiť kliknutím na tlačidlo Prerušiť úplne vpravo. Ak Vám čitateľ udá dátum pre ukončenie prerušenia exemplárov, môžete ho zadať do políčka dátumu a kliknúť na tlačidlo 'Aktualizovať rezervácie', aby sa zmeny uložili."
+msgid ""
+"If a patron asks to have their hold suspended and you have the :ref:"
+"`SuspendHoldsIntranet` system preference set to 'allow' you can do so by "
+"clicking the 'Suspend' button to far right. If the patron gives you a date "
+"for the items to become unsuspended you can enter that in the date box and "
+"click the 'Update hold(s)' button to save your changes."
+msgstr ""
+"Ak si čitateľ želá prerušiť svoju rezerváciu, môžete to urobiť kliknutím na "
+"tlačidlo Prerušiť úplne vpravo. Ak Vám čitateľ udá dátum pre ukončenie "
+"prerušenia exemplárov, môžete ho zadať do políčka dátumu a kliknúť na "
+"tlačidlo 'Aktualizovať rezervácie', aby sa zmeny uložili."
 
 #: ../../source/circulation.rst:853
 msgid "|image558|"
 msgstr "|image558|"
 
 #: ../../source/circulation.rst:855
-msgid "To delete or cancel a hold click the red 'X' to the right of the hold line. To delete/cancel a bunch of holds you can choose 'del' from pull down to the left of each line and then click 'Update hold(s)' at the bottom of the list."
+msgid ""
+"To delete or cancel a hold click the red 'X' to the right of the hold line. "
+"To delete/cancel a bunch of holds you can choose 'del' from pull down to the "
+"left of each line and then click 'Update hold(s)' at the bottom of the list."
 msgstr ""
 
 #: ../../source/circulation.rst:860
@@ -1180,7 +1722,11 @@ msgid "|image559|"
 msgstr "|image559|"
 
 #: ../../source/circulation.rst:862
-msgid "If your library uses the :ref:`patron clubs feature <patron-clubs-label>`, use the clubs tab to place a hold for a club. To place a hold for a club, click the clubs tab, search for and select the club name, and click the 'Place hold' button."
+msgid ""
+"If your library uses the :ref:`patron clubs feature <patron-clubs-label>`, "
+"use the clubs tab to place a hold for a club. To place a hold for a club, "
+"click the clubs tab, search for and select the club name, and click the "
+"'Place hold' button."
 msgstr ""
 
 #: ../../source/circulation.rst:864
@@ -1195,13 +1741,23 @@ msgstr "Prijímanie rezervácií"
 
 #: ../../source/circulation.rst:871
 #, fuzzy
-msgid "When items that are on hold are :ref:`checked in <check-in-(returning)-label>` or :ref:`out <check-out-(issuing)-label>` the system will remind the circulation librarian that the item is on hold and offer them options for managing the hold."
-msgstr "Keď sa zarezervované exempláre vrátia alebo vypožičajú, systém upovedomí knihovníka na rezerváciu a ponúkne možnosti jej spracovania."
+msgid ""
+"When items that are on hold are :ref:`checked in <check-in-(returning)-"
+"label>` or :ref:`out <check-out-(issuing)-label>` the system will remind the "
+"circulation librarian that the item is on hold and offer them options for "
+"managing the hold."
+msgstr ""
+"Keď sa zarezervované exempláre vrátia alebo vypožičajú, systém upovedomí "
+"knihovníka na rezerváciu a ponúkne možnosti jej spracovania."
 
 #: ../../source/circulation.rst:875
 #, fuzzy
-msgid "When you check in an item that has a hold on it the system will ask you to either confirm and transfer the item"
-msgstr "Keď sa Vám vráti exemplár, na ktorom je rezervácia, systém sa Vás opýta, či chcete potvrdiť presun exemplára alebo len jeho rezerváciu"
+msgid ""
+"When you check in an item that has a hold on it the system will ask you to "
+"either confirm and transfer the item"
+msgstr ""
+"Keď sa Vám vráti exemplár, na ktorom je rezervácia, systém sa Vás opýta, či "
+"chcete potvrdiť presun exemplára alebo len jeho rezerváciu"
 
 #: ../../source/circulation.rst:878
 msgid "|image560|"
@@ -1218,15 +1774,33 @@ msgstr "|image561|"
 
 #: ../../source/circulation.rst:884
 #, fuzzy
-msgid "Clicking the 'Confirm' button will mark the item as on hold for the patron. If the item needs to be transferred the item will also be marked as in transit to the proper branch. Clicking 'Ignore' will retain the hold, but allow you to check the item out to another patron. Choosing to confirm and print will present you with a printable page that you can slip inside the book with the necessary hold and/or transfer information."
-msgstr "Kliknutím na tlačidlo Potvrdiť sa exemplár označí ako rezervovaný čitateľovi. Ak treba exemplár presunúť, exemplár bude tiež označený ako na ceste do príslušnej knižnice. Kliknutím na 'Ignorovať' sa rezervácia pozdrží, no umožní Vám vypožičať tento exemplár inému čitateľovi. Voľbou potvrdenia a tlače sa Vám zobrazí tlačiteľná stránka, ktorú môžete vložiť do knihy s potrebnými informáciami o rezervácii a/alebo presune."
+msgid ""
+"Clicking the 'Confirm' button will mark the item as on hold for the patron. "
+"If the item needs to be transferred the item will also be marked as in "
+"transit to the proper branch. Clicking 'Ignore' will retain the hold, but "
+"allow you to check the item out to another patron. Choosing to confirm and "
+"print will present you with a printable page that you can slip inside the "
+"book with the necessary hold and/or transfer information."
+msgstr ""
+"Kliknutím na tlačidlo Potvrdiť sa exemplár označí ako rezervovaný "
+"čitateľovi. Ak treba exemplár presunúť, exemplár bude tiež označený ako na "
+"ceste do príslušnej knižnice. Kliknutím na 'Ignorovať' sa rezervácia "
+"pozdrží, no umožní Vám vypožičať tento exemplár inému čitateľovi. Voľbou "
+"potvrdenia a tlače sa Vám zobrazí tlačiteľná stránka, ktorú môžete vložiť do "
+"knihy s potrebnými informáciami o rezervácii a/alebo presune."
 
 #: ../../source/circulation.rst:892
-msgid "Once confirmed the hold will show on the patron record and on the checkout screen under the 'Hold' tab."
-msgstr "Hneď po potvrdení sa rezervácia zobrazí v zázname o čitateľovi a na zobrazení výpožičiek pod záložkou 'Rezervácie'."
+msgid ""
+"Once confirmed the hold will show on the patron record and on the checkout "
+"screen under the 'Hold' tab."
+msgstr ""
+"Hneď po potvrdení sa rezervácia zobrazí v zázname o čitateľovi a na "
+"zobrazení výpožičiek pod záložkou 'Rezervácie'."
 
 #: ../../source/circulation.rst:897
-msgid "From here if the patron would like you suspend their holds you can do so one by one or in bulk."
+msgid ""
+"From here if the patron would like you suspend their holds you can do so one "
+"by one or in bulk."
 msgstr ""
 
 #: ../../source/circulation.rst:900
@@ -1238,16 +1812,30 @@ msgid "|image563|"
 msgstr "|image563|"
 
 #: ../../source/circulation.rst:904
-msgid "In some cases a patron may come in to pick up a hold for their partner (or someone else in their household). In this case you want to make sure that the hold is cancelled when you check the item out to someone else. When trying to check out an item that is already waiting for someone else you will be presented with a warning message."
-msgstr "V niektorých prípadoch si čitateľ môže prísť vyzdvihnúť rezerváciu pre inú osobu (napríklad rodinného príslušníka alebo kolegu). V tomto prípade sa ubezpečte, že táto rezervácia je zrušená pri jej výpožičke niekomu inému. Pri pokuse vypožičať exemplár čakajúci na niekoho iného, zobrazí sa Vám patričné upozornenie."
+msgid ""
+"In some cases a patron may come in to pick up a hold for their partner (or "
+"someone else in their household). In this case you want to make sure that "
+"the hold is cancelled when you check the item out to someone else. When "
+"trying to check out an item that is already waiting for someone else you "
+"will be presented with a warning message."
+msgstr ""
+"V niektorých prípadoch si čitateľ môže prísť vyzdvihnúť rezerváciu pre inú "
+"osobu (napríklad rodinného príslušníka alebo kolegu). V tomto prípade sa "
+"ubezpečte, že táto rezervácia je zrušená pri jej výpožičke niekomu inému. "
+"Pri pokuse vypožičať exemplár čakajúci na niekoho iného, zobrazí sa Vám "
+"patričné upozornenie."
 
 #: ../../source/circulation.rst:910
 msgid "|image564|"
 msgstr "|image564|"
 
 #: ../../source/circulation.rst:912
-msgid "From here you can check the item out to the patron at the desk and cancel the hold for the patron."
-msgstr "Odtiaľto môžete exemplár vypožičať čitateľovi pri pulte a zrušiť rezerváciu pre čitateľa."
+msgid ""
+"From here you can check the item out to the patron at the desk and cancel "
+"the hold for the patron."
+msgstr ""
+"Odtiaľto môžete exemplár vypožičať čitateľovi pri pulte a zrušiť rezerváciu "
+"pre čitateľa."
 
 #: ../../source/circulation.rst:918
 msgid "Transfers"
@@ -1255,8 +1843,12 @@ msgstr "Presuny"
 
 #: ../../source/circulation.rst:920
 #, fuzzy
-msgid "If you work in a multi-branch system you can transfer items from one library to another by using the Transfer tool."
-msgstr "Ak pracujete v mnoho-knižničnom systéme, môžete presúvať exempláre z jednej knižnice do druhej pomocou nástroja Presunov. Pre presun exemplára"
+msgid ""
+"If you work in a multi-branch system you can transfer items from one library "
+"to another by using the Transfer tool."
+msgstr ""
+"Ak pracujete v mnoho-knižničnom systéme, môžete presúvať exempláre z jednej "
+"knižnice do druhej pomocou nástroja Presunov. Pre presun exemplára"
 
 #: ../../source/circulation.rst:923
 #, fuzzy
@@ -1283,7 +1875,8 @@ msgstr "Zadajte knižnicu, do ktorej si želáte presunúť exemplár"
 
 #: ../../source/circulation.rst:933
 msgid "Scan or type the barcode on the item you would like to transfer"
-msgstr "Naskenujte alebo vpíšte čiarový kód exemplára, ktorý by ste chceli presunúť"
+msgstr ""
+"Naskenujte alebo vpíšte čiarový kód exemplára, ktorý by ste chceli presunúť"
 
 #: ../../source/circulation.rst:935
 msgid "Click 'Submit'"
@@ -1303,8 +1896,12 @@ msgstr "|image567|"
 
 #: ../../source/circulation.rst:943
 #, fuzzy
-msgid "When the item arrives at the other branch the librarian must check the item in to acknowledge that it is no longer in transit"
-msgstr "Keď exemplár dôjde do ďalšej knižnice, knihovník ho musí prijať, aby sa tým uznalo, že už nie je na ceste"
+msgid ""
+"When the item arrives at the other branch the librarian must check the item "
+"in to acknowledge that it is no longer in transit"
+msgstr ""
+"Keď exemplár dôjde do ďalšej knižnice, knihovník ho musí prijať, aby sa tým "
+"uznalo, že už nie je na ceste"
 
 #: ../../source/circulation.rst:946
 #, fuzzy
@@ -1317,8 +1914,12 @@ msgstr "|image568|"
 
 #: ../../source/circulation.rst:950
 #, fuzzy
-msgid "The item shows the same 'Home library' but has updated the 'Current location' to note where it resides at this time"
-msgstr "Exemplár ukazuje rovnakú 'Domovskú knižnicu', ale aktualizoval 'Momentálnu lokáciu', aby sa vedelo, kde sa práve nachádza"
+msgid ""
+"The item shows the same 'Home library' but has updated the 'Current "
+"location' to note where it resides at this time"
+msgstr ""
+"Exemplár ukazuje rovnakú 'Domovskú knižnicu', ale aktualizoval 'Momentálnu "
+"lokáciu', aby sa vedelo, kde sa práve nachádza"
 
 #: ../../source/circulation.rst:956
 msgid "Set library"
@@ -1326,23 +1927,37 @@ msgstr "Nastaviť knižnicu"
 
 #: ../../source/circulation.rst:958
 #, fuzzy
-msgid "By default you will enter the staff client as if you are at your home library. This library will appear in the top right of the staff client."
-msgstr "Predvolene vstupujete do intranetu akoby ste boli v domovskej knižnici. Táto knižnica sa zobrazí vpravo hore v knihovníckom rozhraní."
+msgid ""
+"By default you will enter the staff client as if you are at your home "
+"library. This library will appear in the top right of the staff client."
+msgstr ""
+"Predvolene vstupujete do intranetu akoby ste boli v domovskej knižnici. Táto "
+"knižnica sa zobrazí vpravo hore v knihovníckom rozhraní."
 
 #: ../../source/circulation.rst:961
 msgid "|image569|"
 msgstr "|image569|"
 
 #: ../../source/circulation.rst:963
-msgid "This is the library that all circulation transactions will take place at. If you are at another library (or on a bookmobile) you will want to set your library before you start circulating items. To do this you can click 'Set' at the top right or on the Circulation page."
-msgstr "Toto je knižnica, v ktorej sa uskutočnia všetky transakcie obehu. Ak sa nachádzate v inej knižnici, musíte nastaviť knižnicu skôr ako pustíte exempláre do obehu. To dosiahnete kliknutím na 'Nastaviť' vpravo hore alebo na stránke Obehu."
+msgid ""
+"This is the library that all circulation transactions will take place at. If "
+"you are at another library (or on a bookmobile) you will want to set your "
+"library before you start circulating items. To do this you can click 'Set' "
+"at the top right or on the Circulation page."
+msgstr ""
+"Toto je knižnica, v ktorej sa uskutočnia všetky transakcie obehu. Ak sa "
+"nachádzate v inej knižnici, musíte nastaviť knižnicu skôr ako pustíte "
+"exempláre do obehu. To dosiahnete kliknutím na 'Nastaviť' vpravo hore alebo "
+"na stránke Obehu."
 
 #: ../../source/circulation.rst:968
 msgid "|image570|"
 msgstr "|image570|"
 
 #: ../../source/circulation.rst:970
-msgid "Once you have saved your changes you new library will appear in the top right."
+msgid ""
+"Once you have saved your changes you new library will appear in the top "
+"right."
 msgstr "Hneď po uložení Vašich zmien sa Vaša nová knižnica objaví vpravo hore."
 
 #: ../../source/circulation.rst:976
@@ -1352,8 +1967,22 @@ msgstr "Rýchle pridanie do katalogizácie"
 
 #: ../../source/circulation.rst:978
 #, fuzzy
-msgid "Sometimes circulation librarians need to quickly add a record to the system for an item they are about to check out. This is called 'Fast add'. To allow circulation librarians access to the Fast add cataloging tool, simply make sure they have the `fast\\_cataloging <#fastaddpermissions>`__ permissions. There are two ways to add titles via fast add. If you know that you're about to check out an item that isn't in you catalog you can go to the Circulation module and click 'Fast cataloging.'"
-msgstr "Niekedy knihovníci pri obehu potrebujú rýchlo pridať záznam do systému pre exemplár, ktorý sa chystajú vypožičať. Toto sa nazýva 'Rýchle pridanie'. Pre dovolenie prístupu knihovníkom k nástroju Rýchleho pridania do katalogizácie, presvedčte sa jednoducho, či majú oprávnenie pre fast_cataloging. Jestvujú dva spôsoby pridávania titulov cez rýchle pridanie. Ak viete, že idete vypožičať exemplár, ktorý ešte nie je vo Vašom katalógu, môžete ísť do modulu Obehu a kliknúť na 'Rýchlu katalogizáciu.'"
+msgid ""
+"Sometimes circulation librarians need to quickly add a record to the system "
+"for an item they are about to check out. This is called 'Fast add'. To allow "
+"circulation librarians access to the Fast add cataloging tool, simply make "
+"sure they have the `fast\\_cataloging <#fastaddpermissions>`__ permissions. "
+"There are two ways to add titles via fast add. If you know that you're about "
+"to check out an item that isn't in you catalog you can go to the Circulation "
+"module and click 'Fast cataloging.'"
+msgstr ""
+"Niekedy knihovníci pri obehu potrebujú rýchlo pridať záznam do systému pre "
+"exemplár, ktorý sa chystajú vypožičať. Toto sa nazýva 'Rýchle pridanie'. Pre "
+"dovolenie prístupu knihovníkom k nástroju Rýchleho pridania do "
+"katalogizácie, presvedčte sa jednoducho, či majú oprávnenie pre "
+"fast_cataloging. Jestvujú dva spôsoby pridávania titulov cez rýchle "
+"pridanie. Ak viete, že idete vypožičať exemplár, ktorý ešte nie je vo Vašom "
+"katalógu, môžete ísť do modulu Obehu a kliknúť na 'Rýchlu katalogizáciu.'"
 
 #: ../../source/circulation.rst:987
 msgid "|image571|"
@@ -1369,36 +1998,62 @@ msgid "|image572|"
 msgstr "|image572|"
 
 #: ../../source/circulation.rst:993
-msgid "After adding your cataloging data you will be asked to enter item data. Enter the items barcode, collection code, etc and save the item before checking it out."
-msgstr "Po pridaní Vašich katalogizačných údajov budete vyzvaní k zadaniu údajov o exemplároch. Vpíšte ich čiarový kód, kód zbierky atď a uložte exemplár pred jeho výpožičkou."
+msgid ""
+"After adding your cataloging data you will be asked to enter item data. "
+"Enter the items barcode, collection code, etc and save the item before "
+"checking it out."
+msgstr ""
+"Po pridaní Vašich katalogizačných údajov budete vyzvaní k zadaniu údajov o "
+"exemplároch. Vpíšte ich čiarový kód, kód zbierky atď a uložte exemplár pred "
+"jeho výpožičkou."
 
 #: ../../source/circulation.rst:997
-msgid "The other way to fast catalog is from the checkout screen. When you enter a barcode at checkout that Koha can't find, it will prompt you to use fast cataloging to add the item to Koha and check it out."
-msgstr "Ďalším spôsobom rýchlej katalogizácie je zo zobrazenia výpožičiek. Keď pri výpožičke zadáte čiarový kód, ktorý Koha nevie nájsť, vyzve vás, aby ste použili možnosť rýchlej katalogizácie pre pridanie exemplára do Kohy a jeho výpožičku."
+msgid ""
+"The other way to fast catalog is from the checkout screen. When you enter a "
+"barcode at checkout that Koha can't find, it will prompt you to use fast "
+"cataloging to add the item to Koha and check it out."
+msgstr ""
+"Ďalším spôsobom rýchlej katalogizácie je zo zobrazenia výpožičiek. Keď pri "
+"výpožičke zadáte čiarový kód, ktorý Koha nevie nájsť, vyzve vás, aby ste "
+"použili možnosť rýchlej katalogizácie pre pridanie exemplára do Kohy a jeho "
+"výpožičku."
 
 #: ../../source/circulation.rst:1001
 msgid "|image573|"
 msgstr "|image573|"
 
 #: ../../source/circulation.rst:1003
-msgid "Clicking 'Fast cataloging' will bring you to the fast cataloging form where you can enter the title information"
-msgstr "Kliknutím na 'Rýchlu katalogizáciu' sa dostanete k formuláru rýchlej katalogizácie, kde môžete zadať informácie o titule"
+msgid ""
+"Clicking 'Fast cataloging' will bring you to the fast cataloging form where "
+"you can enter the title information"
+msgstr ""
+"Kliknutím na 'Rýchlu katalogizáciu' sa dostanete k formuláru rýchlej "
+"katalogizácie, kde môžete zadať informácie o titule"
 
 #: ../../source/circulation.rst:1006
 msgid "|image574|"
 msgstr "|image574|"
 
 #: ../../source/circulation.rst:1008
-msgid "After clicking 'Save' you will be brought to the item record where the barcode will already be filled in with the barcode you're trying to check out."
-msgstr "Po kliknutí na 'Uložiť' sa Vám otvorí záznamy o exemplári, kde bude čiarový kód, ktorý chcete vypožičať, už vyplnený."
+msgid ""
+"After clicking 'Save' you will be brought to the item record where the "
+"barcode will already be filled in with the barcode you're trying to check "
+"out."
+msgstr ""
+"Po kliknutí na 'Uložiť' sa Vám otvorí záznamy o exemplári, kde bude čiarový "
+"kód, ktorý chcete vypožičať, už vyplnený."
 
 #: ../../source/circulation.rst:1012
 msgid "|image575|"
 msgstr "|image575|"
 
 #: ../../source/circulation.rst:1014
-msgid "After clicking the 'Add item' button the item will automatically be checked out the patron you were trying to check the book out to originally."
-msgstr "Po kliknutí na tlačidlo 'Pridať exemplár' sa exemplár automaticky vypožičia čitateľovi, ktorému ste ho pôvodne chceli vypožičať."
+msgid ""
+"After clicking the 'Add item' button the item will automatically be checked "
+"out the patron you were trying to check the book out to originally."
+msgstr ""
+"Po kliknutí na tlačidlo 'Pridať exemplár' sa exemplár automaticky vypožičia "
+"čitateľovi, ktorému ste ho pôvodne chceli vypožičať."
 
 #: ../../source/circulation.rst:1018
 msgid "|image576|"
@@ -1409,7 +2064,9 @@ msgid "Circulation reports"
 msgstr "Výkazy o obehu"
 
 #: ../../source/circulation.rst:1025
-msgid "Most reports can be found via the Reports module, but some of the more common circulation reports are available right from the Circulation module."
+msgid ""
+"Most reports can be found via the Reports module, but some of the more "
+"common circulation reports are available right from the Circulation module."
 msgstr ""
 
 #: ../../source/circulation.rst:1029
@@ -1422,7 +2079,9 @@ msgstr "Fronta rezervácií"
 
 #: ../../source/circulation.rst:1036
 #, fuzzy
-msgid "This report will show you all holds waiting to be pulled off the shelf at your library."
+msgid ""
+"This report will show you all holds waiting to be pulled off the shelf at "
+"your library."
 msgstr "Tento výkaz vám zobrazí všetky rezervácie vo vašej knižnici."
 
 #: ../../source/circulation.rst:1040
@@ -1430,39 +2089,101 @@ msgid "|image577|"
 msgstr "|image577|"
 
 #: ../../source/circulation.rst:1044
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holds-table)."
 msgstr ""
 
 #: ../../source/circulation.rst:1048
 #, fuzzy
-msgid "To generate this report, you must have the :ref:`Build holds queue cron job <cron-holds-queue-report-label>` running. This cron job is a script that should be run periodically if your library system allows borrowers to place on-shelf holds. This script decides which library should be responsible for fulfilling a given hold request."
-msgstr "Pre vygenerovanie tohto výkazu, musíte mať spustený cronjob Build Holds Queue. Tento cronjob je skrip, ktorý by sa mal spúšťať periodicky, ak váš knižnčný systém dovoľuje čitateľom zadávať rezervácie v policiach. Tento skript rozdhoduje o tom, ktorá knižnica je zodpovedná za vykonanie danej rezervačnej požiadavky."
+msgid ""
+"To generate this report, you must have the :ref:`Build holds queue cron job "
+"<cron-holds-queue-report-label>` running. This cron job is a script that "
+"should be run periodically if your library system allows borrowers to place "
+"on-shelf holds. This script decides which library should be responsible for "
+"fulfilling a given hold request."
+msgstr ""
+"Pre vygenerovanie tohto výkazu, musíte mať spustený cronjob Build Holds "
+"Queue. Tento cronjob je skrip, ktorý by sa mal spúšťať periodicky, ak váš "
+"knižnčný systém dovoľuje čitateľom zadávať rezervácie v policiach. Tento "
+"skript rozdhoduje o tom, ktorá knižnica je zodpovedná za vykonanie danej "
+"rezervačnej požiadavky."
 
 #: ../../source/circulation.rst:1054
-msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`UseTransportCostMatrix`."
+msgid ""
+"It's behavior is controlled by the system preferences :ref:"
+"`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:"
+"`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:"
+"`UseTransportCostMatrix`."
 msgstr ""
 
 #: ../../source/circulation.rst:1059
 #, fuzzy
-msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
-msgstr "Ak nechcete, aby sa všetky vaše knižnice zúčastňovali na procese vykonávania rezervácií v policiach, mali by ste tu vymenovať knižnice *zúčastnené* v procese zadaním kódov pobočiek všetkých zúčastnených knižníc oddelených čiarkou ( napr. \"MPL,CPL,SPL,BML\" atď. )."
+msgid ""
+"If you do not want all of your libraries to participate in the on-shelf "
+"holds fulfillment process, you should list the libraries that \\*do\\* "
+"participate in the process here by inputting all the participating library's "
+"branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
+msgstr ""
+"Ak nechcete, aby sa všetky vaše knižnice zúčastňovali na procese vykonávania "
+"rezervácií v policiach, mali by ste tu vymenovať knižnice *zúčastnené* v "
+"procese zadaním kódov pobočiek všetkých zúčastnených knižníc oddelených "
+"čiarkou ( napr. \"MPL,CPL,SPL,BML\" atď. )."
 
 #: ../../source/circulation.rst:1065
 #, fuzzy
-msgid "By default, the holds queue will be generated such that the system will first attempt to hold fulfillment using items already at the pickup library if possible. If there are no items available at the pickup library to fill a hold, build\\_holds\\_queue.pl will then use the list of libraries defined in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled (which it is by default), the script will assign fulfillment requests in the order the branches are placed in the StaticHoldsQueueWeight system preference."
-msgstr "Predvolene sa fronta rezervácií vygeneruje tak, že sa systém najprv pokúsi použiť exempláre, ktoré sa už podľa možnosti nachádzajú v knižnice vyzdvihnutia. Ak tam nie sú dostupné žiadne exempláre, ktoré by naplnili rezerváciu, build_holds_queue.pl, tak sa použije zoznam knižníc definovaný v StaticHoldsQueueWeight. Ak je RandomizeHoldsQueueWeight vypnutý ( predvolene je ), skript priradí vykonávacie požiadavky v poradí, v akom sú knižnice umiestnené v systémovom nastavení StaticHodlsQueueWeight."
+msgid ""
+"By default, the holds queue will be generated such that the system will "
+"first attempt to hold fulfillment using items already at the pickup library "
+"if possible. If there are no items available at the pickup library to fill a "
+"hold, build\\_holds\\_queue.pl will then use the list of libraries defined "
+"in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled (which "
+"it is by default), the script will assign fulfillment requests in the order "
+"the branches are placed in the StaticHoldsQueueWeight system preference."
+msgstr ""
+"Predvolene sa fronta rezervácií vygeneruje tak, že sa systém najprv pokúsi "
+"použiť exempláre, ktoré sa už podľa možnosti nachádzajú v knižnice "
+"vyzdvihnutia. Ak tam nie sú dostupné žiadne exempláre, ktoré by naplnili "
+"rezerváciu, build_holds_queue.pl, tak sa použije zoznam knižníc definovaný v "
+"StaticHoldsQueueWeight. Ak je RandomizeHoldsQueueWeight vypnutý ( predvolene "
+"je ), skript priradí vykonávacie požiadavky v poradí, v akom sú knižnice "
+"umiestnené v systémovom nastavení StaticHodlsQueueWeight."
 
 #: ../../source/circulation.rst:1074
 #, fuzzy
-msgid "For example, if your system has three libraries, of varying sizes ( small, medium and large) and you want the burden of holds fulfillment to be on larger libraries before smaller libraries, you would want StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
-msgstr "Napríklad, ak váš systém má tri knižnice rozličných veľkostí (malú, strednú a veľkú) a chcete preniesť záťaž rezervácií preniesť na väčšie knižnice namiesto menších, môžete nastaviť StaticHoldsQueueWeight tak, aby vyzerala približne takto \"LRG,MED,SML\"."
+msgid ""
+"For example, if your system has three libraries, of varying sizes ( small, "
+"medium and large) and you want the burden of holds fulfillment to be on "
+"larger libraries before smaller libraries, you would want "
+"StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
+msgstr ""
+"Napríklad, ak váš systém má tri knižnice rozličných veľkostí (malú, strednú "
+"a veľkú) a chcete preniesť záťaž rezervácií preniesť na väčšie knižnice "
+"namiesto menších, môžete nastaviť StaticHoldsQueueWeight tak, aby vyzerala "
+"približne takto \"LRG,MED,SML\"."
 
 #: ../../source/circulation.rst:1079
-msgid "If you want the burden of holds fulfillment to be spread out equally throughout your library system, simply enable RandomizeHoldsQueueWeight. When this system preference is enabled, the order in which libraries will be requested to fulfill an on-shelf hold will be randomized each time the list is regenerated."
-msgstr "Ak chcete záťaž vykonávania rezervácií rovnomerne rozložiť na váš knižničný systém, jednoducho zapnite RandomizeHoldsQueueWeight. Keď je toto systémové nastavenie zapnuté, poradie, v ktorom budú knižnice žiadané o vykonanie rezervácie v policiach, bude určované náhodne vždy, keď sa zoznam opäť vygeneruje."
+msgid ""
+"If you want the burden of holds fulfillment to be spread out equally "
+"throughout your library system, simply enable RandomizeHoldsQueueWeight. "
+"When this system preference is enabled, the order in which libraries will be "
+"requested to fulfill an on-shelf hold will be randomized each time the list "
+"is regenerated."
+msgstr ""
+"Ak chcete záťaž vykonávania rezervácií rovnomerne rozložiť na váš knižničný "
+"systém, jednoducho zapnite RandomizeHoldsQueueWeight. Keď je toto systémové "
+"nastavenie zapnuté, poradie, v ktorom budú knižnice žiadané o vykonanie "
+"rezervácie v policiach, bude určované náhodne vždy, keď sa zoznam opäť "
+"vygeneruje."
 
 #: ../../source/circulation.rst:1085
-msgid "An alternative to static and randomized is using the :ref:`Tansport cost matrix <transport-cost-matrix-label>`. It takes precedence in controlling where holds are filled from and allows you to define the 'cost' of transport between any two libraries. To use the Transport cost matrix simply set your :ref:`UseTransportCostMatrix` preference to 'Use'."
+msgid ""
+"An alternative to static and randomized is using the :ref:`Tansport cost "
+"matrix <transport-cost-matrix-label>`. It takes precedence in controlling "
+"where holds are filled from and allows you to define the 'cost' of transport "
+"between any two libraries. To use the Transport cost matrix simply set your :"
+"ref:`UseTransportCostMatrix` preference to 'Use'."
 msgstr ""
 
 #: ../../source/circulation.rst:1094
@@ -1471,11 +2192,22 @@ msgstr "Rezervácie na stiahnutie"
 
 #: ../../source/circulation.rst:1096
 #, fuzzy
-msgid "This report will show you all of the items that have holds on them that are available at the library for pulling. If the items are available at multiple libraries then all libraries with that item available will see the hold to pull until one library triggers the hold."
-msgstr "Tento výkaz vám zobrazí všetky exempláre, na ktoré sa viaže rezervácia a sú v knižnici dostupné na vybratie. Ak sú exempláre dostupné vo viacerých knižniciach, potom všetky knižnice s daným dostupným exemplárom budú vidieť rezerváciu na vybratie až kým knižnica nespustí rezerváciu."
+msgid ""
+"This report will show you all of the items that have holds on them that are "
+"available at the library for pulling. If the items are available at multiple "
+"libraries then all libraries with that item available will see the hold to "
+"pull until one library triggers the hold."
+msgstr ""
+"Tento výkaz vám zobrazí všetky exempláre, na ktoré sa viaže rezervácia a sú "
+"v knižnici dostupné na vybratie. Ak sú exempláre dostupné vo viacerých "
+"knižniciach, potom všetky knižnice s daným dostupným exemplárom budú vidieť "
+"rezerváciu na vybratie až kým knižnica nespustí rezerváciu."
 
 #: ../../source/circulation.rst:1101
-msgid "If enabled, clicking the *Mark item as lost* button will mark item as lost and notify the requesting patron depending on the value of the :ref:`CanMarkHoldsToPullAsLost` system preference."
+msgid ""
+"If enabled, clicking the *Mark item as lost* button will mark item as lost "
+"and notify the requesting patron depending on the value of the :ref:"
+"`CanMarkHoldsToPullAsLost` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1105
@@ -1483,17 +2215,25 @@ msgid "|image578|"
 msgstr "|image578|"
 
 #: ../../source/circulation.rst:1109
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-to-pull)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holds-to-pull)."
 msgstr ""
 
 #: ../../source/circulation.rst:1113
-msgid "You can choose which :ref:`LOST value<existing-values-label>` to set the item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference."
+msgid ""
+"You can choose which :ref:`LOST value<existing-values-label>` to set the "
+"item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1116
 #, fuzzy
-msgid "You can limit the results you see by using the Refine box on the left side of the page:"
-msgstr "Môžete obmedziť zobrazené výsledky pomocou ponuky Zúžiť v ľavej časti stránky"
+msgid ""
+"You can limit the results you see by using the Refine box on the left side "
+"of the page:"
+msgstr ""
+"Môžete obmedziť zobrazené výsledky pomocou ponuky Zúžiť v ľavej časti stránky"
 
 #: ../../source/circulation.rst:1119
 msgid "|image579|"
@@ -1504,28 +2244,48 @@ msgid "Holds awaiting pickup"
 msgstr "Rezevácie na vyzdvihnutie"
 
 #: ../../source/circulation.rst:1126
-msgid "This report will show all of the holds that are waiting for patrons to pick them up."
-msgstr "Tento výkaz zobrazí všetky rezervácie, ktoré čakajú na vyzdvihnutie čitateľmi."
+msgid ""
+"This report will show all of the holds that are waiting for patrons to pick "
+"them up."
+msgstr ""
+"Tento výkaz zobrazí všetky rezervácie, ktoré čakajú na vyzdvihnutie "
+"čitateľmi."
 
 #: ../../source/circulation.rst:1129
 msgid "|image580|"
 msgstr "|image580|"
 
 #: ../../source/circulation.rst:1133
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdst)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holdst)."
 msgstr ""
 
 #: ../../source/circulation.rst:1137
 #, fuzzy
-msgid "Items that have been on the hold shelf longer than you normally allow (based on the :ref:`ReservesMaxPickUpDelay` preference value) will appear on the 'Holds over' tab, they will not automatically be cancelled unless you have set the :ref:`cron job <cron-expired-holds-label>` to do that for you, but you can cancel all holds using the button at the top of the list."
-msgstr "Exempláre, ktoré boli na poličke rezervácií dlhšie ako zvyčajne dovolené (podľa hodnoty nastavenia ReservesMaxPickUpDelay), sa objavia v záložke 'Rezervácie po termíne' a nebudú automaticky zrušené, ak ste si to tak nenastavili v cronjobe, ale môžete zrušiť všetky rezervácie pomocou tlačidla navrchu zoznamu."
+msgid ""
+"Items that have been on the hold shelf longer than you normally allow (based "
+"on the :ref:`ReservesMaxPickUpDelay` preference value) will appear on the "
+"'Holds over' tab, they will not automatically be cancelled unless you have "
+"set the :ref:`cron job <cron-expired-holds-label>` to do that for you, but "
+"you can cancel all holds using the button at the top of the list."
+msgstr ""
+"Exempláre, ktoré boli na poličke rezervácií dlhšie ako zvyčajne dovolené "
+"(podľa hodnoty nastavenia ReservesMaxPickUpDelay), sa objavia v záložke "
+"'Rezervácie po termíne' a nebudú automaticky zrušené, ak ste si to tak "
+"nenastavili v cronjobe, ale môžete zrušiť všetky rezervácie pomocou tlačidla "
+"navrchu zoznamu."
 
 #: ../../source/circulation.rst:1144
 msgid "|image581|"
 msgstr "|image581|"
 
 #: ../../source/circulation.rst:1148
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdso)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holdso)."
 msgstr ""
 
 #: ../../source/circulation.rst:1155
@@ -1533,15 +2293,28 @@ msgid "Hold ratios"
 msgstr "Pomery rezervácií"
 
 #: ../../source/circulation.rst:1157
-msgid "Hold ratios help with collection development. Using this report you will be able to see how many of your patrons have holds on items and whether you should buy more. By default it will be set to the library needing 3 items per hold that has been placed. The report will tell you how many additional items need to be purchased to meet this quota."
-msgstr "Pomery rezervácií pomáhajú s vývojom zbierky. Pomocou tohto výkazu budete môcť vidieť, koľko z Vašich čitateľov má rezervácie exemeplárov a či by ste ich mali nakúpiť viac. Predvolene je nastavené, že knižnica bude potrebovať 3 exempláre na danú rezerváciu. Výkaz Vám povie, koľko dodatočných exemplárov musíte zakúpiť, aby ste splnili túto kvótu."
+msgid ""
+"Hold ratios help with collection development. Using this report you will be "
+"able to see how many of your patrons have holds on items and whether you "
+"should buy more. By default it will be set to the library needing 3 items "
+"per hold that has been placed. The report will tell you how many additional "
+"items need to be purchased to meet this quota."
+msgstr ""
+"Pomery rezervácií pomáhajú s vývojom zbierky. Pomocou tohto výkazu budete "
+"môcť vidieť, koľko z Vašich čitateľov má rezervácie exemeplárov a či by ste "
+"ich mali nakúpiť viac. Predvolene je nastavené, že knižnica bude potrebovať "
+"3 exempláre na danú rezerváciu. Výkaz Vám povie, koľko dodatočných "
+"exemplárov musíte zakúpiť, aby ste splnili túto kvótu."
 
 #: ../../source/circulation.rst:1163
 msgid "|image582|"
 msgstr "|image582|"
 
 #: ../../source/circulation.rst:1167
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-ratios)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holds-ratios)."
 msgstr ""
 
 #: ../../source/circulation.rst:1174
@@ -1549,16 +2322,24 @@ msgid "Transfers to receive"
 msgstr "Presuny na prijatie"
 
 #: ../../source/circulation.rst:1176
-msgid "This report will list all of the items that Koha thinks are in transit to your library."
-msgstr "Tento výkaz vymenuje všetky exempláre, o ktorých si Koha myslí, že sú na ceste do Vašej knižnice."
+msgid ""
+"This report will list all of the items that Koha thinks are in transit to "
+"your library."
+msgstr ""
+"Tento výkaz vymenuje všetky exempláre, o ktorých si Koha myslí, že sú na "
+"ceste do Vašej knižnice."
 
 #: ../../source/circulation.rst:1179
 msgid "|image583|"
 msgstr "|image583|"
 
 #: ../../source/circulation.rst:1181
-msgid "If your transfers are late in arriving at your library you will see a message stating how late your items are."
-msgstr "Ak sú Vaše presuny oneskorené v príchode do Vašej knižnice, uvidíte správu s údajom o dĺžke oneskorenia exemplára."
+msgid ""
+"If your transfers are late in arriving at your library you will see a "
+"message stating how late your items are."
+msgstr ""
+"Ak sú Vaše presuny oneskorené v príchode do Vašej knižnice, uvidíte správu s "
+"údajom o dĺžke oneskorenia exemplára."
 
 #: ../../source/circulation.rst:1184
 msgid "|image584|"
@@ -1566,15 +2347,24 @@ msgstr "|image584|"
 
 #: ../../source/circulation.rst:1188
 #, fuzzy
-msgid "An item is considered late based on the number of days you have entered in the :ref:`TransfersMaxDaysWarning` system preference."
-msgstr "Dôležité: Exemplár sa považuje za oneskorený v závislosti na počte dní, ktoré ste zadali v nastavení systému TransfersMaxDaysWarning."
+msgid ""
+"An item is considered late based on the number of days you have entered in "
+"the :ref:`TransfersMaxDaysWarning` system preference."
+msgstr ""
+"Dôležité: Exemplár sa považuje za oneskorený v závislosti na počte dní, "
+"ktoré ste zadali v nastavení systému TransfersMaxDaysWarning."
 
 #: ../../source/circulation.rst:1196
 msgid "Article requests"
 msgstr "Vyžiadané články"
 
 #: ../../source/circulation.rst:1198
-msgid "Article requests are somewhat similar to holds, but are not requests for an item to check out. Instead, article requests are requests for a photocopy of a particular section of a book or an article from a serial issue. This is very common in academic libraries where researchers may request a copy of a single article found in a journal."
+msgid ""
+"Article requests are somewhat similar to holds, but are not requests for an "
+"item to check out. Instead, article requests are requests for a photocopy of "
+"a particular section of a book or an article from a serial issue. This is "
+"very common in academic libraries where researchers may request a copy of a "
+"single article found in a journal."
 msgstr ""
 
 #: ../../source/circulation.rst:1207
@@ -1593,37 +2383,58 @@ msgid "Set to 'Enable' patrons to place article requests."
 msgstr "čitateľom podať žiadosť o články."
 
 #: ../../source/circulation.rst:1213
-msgid "Next you will need to decide how your patrons will make requests, either record only, item only, or both record and item level."
+msgid ""
+"Next you will need to decide how your patrons will make requests, either "
+"record only, item only, or both record and item level."
 msgstr ""
 
 #: ../../source/circulation.rst:1216
-msgid "You can set 3 different system preferences for mandatory fields to be filled in depending on how your records are requested."
+msgid ""
+"You can set 3 different system preferences for mandatory fields to be filled "
+"in depending on how your records are requested."
 msgstr ""
 
 # Circulation > Article Requests
 #: ../../source/circulation.rst:1219
 #, fuzzy
-msgid ":ref:`ArticleRequestsMandatoryFields`: make the following fields mandatory for records that are record level or item level requestable"
-msgstr "Pre záznamy, o ktoré možno žiadať na úrovni záznamu alebo exemplára, urobte nasledovné polia povinnými"
+msgid ""
+":ref:`ArticleRequestsMandatoryFields`: make the following fields mandatory "
+"for records that are record level or item level requestable"
+msgstr ""
+"Pre záznamy, o ktoré možno žiadať na úrovni záznamu alebo exemplára, urobte "
+"nasledovné polia povinnými"
 
 # Circulation > Article Requests
 #: ../../source/circulation.rst:1222
 #, fuzzy
-msgid ":ref:`ArticleRequestsMandatoryFieldsItemsOnly` make the following fields mandatory for records that are only item level requestable"
-msgstr "Pre záznamy, o ktoré možno žiadať iba na úrovni exemplára, urobte nasledovné polia povinnými"
+msgid ""
+":ref:`ArticleRequestsMandatoryFieldsItemsOnly` make the following fields "
+"mandatory for records that are only item level requestable"
+msgstr ""
+"Pre záznamy, o ktoré možno žiadať iba na úrovni exemplára, urobte nasledovné "
+"polia povinnými"
 
 # Circulation > Article Requests
 #: ../../source/circulation.rst:1225
 #, fuzzy
-msgid ":ref:`ArticleRequestsMandatoryFieldsRecordOnly` make the following fields mandatory for records that are only record level requestable"
-msgstr "Pre záznamy, o ktoré možno žiadať iba na úrovni záznamu, urobte nasledovné polia povinnými"
+msgid ""
+":ref:`ArticleRequestsMandatoryFieldsRecordOnly` make the following fields "
+"mandatory for records that are only record level requestable"
+msgstr ""
+"Pre záznamy, o ktoré možno žiadať iba na úrovni záznamu, urobte nasledovné "
+"polia povinnými"
 
 #: ../../source/circulation.rst:1229
-msgid "Next you will want to go into your :ref:`circulation and fines rules matrix <circulation-and-fines-rules-label>` and select each rule for which you want to allow requests."
+msgid ""
+"Next you will want to go into your :ref:`circulation and fines rules matrix "
+"<circulation-and-fines-rules-label>` and select each rule for which you want "
+"to allow requests."
 msgstr ""
 
 #: ../../source/circulation.rst:1233
-msgid "You can allow requests to be made at the record level, item level, yes (which means both) and no (which means no article requests may be placed)."
+msgid ""
+"You can allow requests to be made at the record level, item level, yes "
+"(which means both) and no (which means no article requests may be placed)."
 msgstr ""
 
 #: ../../source/circulation.rst:1240
@@ -1636,7 +2447,10 @@ msgid "Now you can place requests on both the staff client and OPAC."
 msgstr ""
 
 #: ../../source/circulation.rst:1244
-msgid "In the staff client, on the record details page, you will see a 'Request article' button at the top and an 'Article requests' tab to the left. The two options lead to the same page."
+msgid ""
+"In the staff client, on the record details page, you will see a 'Request "
+"article' button at the top and an 'Article requests' tab to the left. The "
+"two options lead to the same page."
 msgstr ""
 
 #: ../../source/circulation.rst:1248
@@ -1644,7 +2458,9 @@ msgid "|image1394|"
 msgstr "|image1394|"
 
 #: ../../source/circulation.rst:1250
-msgid "Just like a hold, you will be prompted to enter the patron's card number or name."
+msgid ""
+"Just like a hold, you will be prompted to enter the patron's card number or "
+"name."
 msgstr ""
 
 #: ../../source/circulation.rst:1253
@@ -1660,7 +2476,11 @@ msgid "|image1396|"
 msgstr "|image1396|"
 
 #: ../../source/circulation.rst:1261
-msgid "Remember, the mandatory fields are set through the three system preferences :ref:`ArticleRequestsMandatoryFields`, :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, and :ref:`ArticleRequestsMandatoryFieldsRecordOnly`."
+msgid ""
+"Remember, the mandatory fields are set through the three system preferences :"
+"ref:`ArticleRequestsMandatoryFields`, :ref:"
+"`ArticleRequestsMandatoryFieldsItemsOnly`, and :ref:"
+"`ArticleRequestsMandatoryFieldsRecordOnly`."
 msgstr ""
 
 #: ../../source/circulation.rst:1266
@@ -1672,7 +2492,9 @@ msgid "Then, click on 'Place request'."
 msgstr ""
 
 #: ../../source/circulation.rst:1270
-msgid "From the OPAC, patrons can place requests themselves either from the results list"
+msgid ""
+"From the OPAC, patrons can place requests themselves either from the results "
+"list"
 msgstr ""
 
 #: ../../source/circulation.rst:1273
@@ -1688,7 +2510,8 @@ msgid "|image1398|"
 msgstr "|image1398|"
 
 #: ../../source/circulation.rst:1279
-msgid "As with a hold, if the patron is not logged in, they will be asked to do so."
+msgid ""
+"As with a hold, if the patron is not logged in, they will be asked to do so."
 msgstr ""
 
 #: ../../source/circulation.rst:1282
@@ -1704,7 +2527,9 @@ msgid "If allowed, the patron can choose the specific item to request."
 msgstr ""
 
 #: ../../source/circulation.rst:1288
-msgid "From their acocunt, the patron will be able to follow the progress of their request from 'pending'"
+msgid ""
+"From their acocunt, the patron will be able to follow the progress of their "
+"request from 'pending'"
 msgstr ""
 
 #: ../../source/circulation.rst:1291
@@ -1720,11 +2545,15 @@ msgid "|image1401|"
 msgstr "|image1401|"
 
 #: ../../source/circulation.rst:1297
-msgid "The patron will also receive an email notification when the status of the request changes."
+msgid ""
+"The patron will also receive an email notification when the status of the "
+"request changes."
 msgstr ""
 
 #: ../../source/circulation.rst:1300
-msgid "Once the request is completed the patron will receive an email notification and the article request will no longer appear in their account."
+msgid ""
+"Once the request is completed the patron will receive an email notification "
+"and the article request will no longer appear in their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1304
@@ -1733,7 +2562,10 @@ msgid "Managing article requests"
 msgstr "Vyžiadané články"
 
 #: ../../source/circulation.rst:1306
-msgid "Once the article request has been placed, staff will see new requests at the bottom of the home page on the staff client. (In the same location as tags, comments and modifications)."
+msgid ""
+"Once the article request has been placed, staff will see new requests at the "
+"bottom of the home page on the staff client. (In the same location as tags, "
+"comments and modifications)."
 msgstr ""
 
 #: ../../source/circulation.rst:1310
@@ -1750,7 +2582,12 @@ msgid "|image1403|"
 msgstr "|image1403|"
 
 #: ../../source/circulation.rst:1316
-msgid "The first step would be for a staff member to process the request, that moves the request to the processing tab and alerts other staff members that the request is in process. In the actions column, click on the dropdown menu and select 'Process request'. This will move the request to the processing tab."
+msgid ""
+"The first step would be for a staff member to process the request, that "
+"moves the request to the processing tab and alerts other staff members that "
+"the request is in process. In the actions column, click on the dropdown menu "
+"and select 'Process request'. This will move the request to the processing "
+"tab."
 msgstr ""
 
 #: ../../source/circulation.rst:1321
@@ -1758,15 +2595,23 @@ msgid "|image1404|"
 msgstr "|image1404|"
 
 #: ../../source/circulation.rst:1323
-msgid "Next staff will go to the shelf and make a copy of the requested article."
+msgid ""
+"Next staff will go to the shelf and make a copy of the requested article."
 msgstr ""
 
 #: ../../source/circulation.rst:1325
-msgid "Once that is complete, staff can print the article request slip (this can be customized in :ref:`notices and slips <notices-and-slips-label>` under AR\\_SLIP) and staple or paper clip it to the article. In the actions column, you can select the dropdown and select print slip."
+msgid ""
+"Once that is complete, staff can print the article request slip (this can be "
+"customized in :ref:`notices and slips <notices-and-slips-label>` under AR"
+"\\_SLIP) and staple or paper clip it to the article. In the actions column, "
+"you can select the dropdown and select print slip."
 msgstr ""
 
 #: ../../source/circulation.rst:1330
-msgid "Finally, staff will select the complete article request from the actions dropdown menu which will send a notice to the patron who made the request letting them know the request is ready for pickup."
+msgid ""
+"Finally, staff will select the complete article request from the actions "
+"dropdown menu which will send a notice to the patron who made the request "
+"letting them know the request is ready for pickup."
 msgstr ""
 
 #: ../../source/circulation.rst:1334
@@ -1775,7 +2620,10 @@ msgid "This removes the article request from the processing tab."
 msgstr "Momentálne sa nespracúvajú nijaké žiadosti o článok. "
 
 #: ../../source/circulation.rst:1338
-msgid "Actions can also be made in bulk by checking the boxes next to the requests to process or by clicking 'Select all', and choosing the new status from the actions menu on top of the table."
+msgid ""
+"Actions can also be made in bulk by checking the boxes next to the requests "
+"to process or by clicking 'Select all', and choosing the new status from the "
+"actions menu on top of the table."
 msgstr ""
 
 #: ../../source/circulation.rst:1342
@@ -1788,32 +2636,49 @@ msgstr "Omeškania"
 
 #: ../../source/circulation.rst:1351
 #, fuzzy
-msgid "For libraries with a large patron base, this report may take a significant amount of time to run."
-msgstr "Dôležité: Pre knižnice s veľkou čitateľskou základňou, výroba tohto výkazu môže vyžiadať značný čas."
+msgid ""
+"For libraries with a large patron base, this report may take a significant "
+"amount of time to run."
+msgstr ""
+"Dôležité: Pre knižnice s veľkou čitateľskou základňou, výroba tohto výkazu "
+"môže vyžiadať značný čas."
 
 #: ../../source/circulation.rst:1356
 #, fuzzy
-msgid "Large libraries can choose to filter the report before it runs by setting the :ref:`FilterBeforeOverdueReport` system preference to 'Require'."
-msgstr "Tip: Veľké knižnice si môžu zvoliť filtrovanie výkazu pred jeho spustením pomocou nastavenia 'Vyžadovať' v nastavení systému FilterBeforeOverdueReport."
+msgid ""
+"Large libraries can choose to filter the report before it runs by setting "
+"the :ref:`FilterBeforeOverdueReport` system preference to 'Require'."
+msgstr ""
+"Tip: Veľké knižnice si môžu zvoliť filtrovanie výkazu pred jeho spustením "
+"pomocou nastavenia 'Vyžadovať' v nastavení systému FilterBeforeOverdueReport."
 
 #: ../../source/circulation.rst:1361
 msgid "This report will list all items that are overdue at your library."
-msgstr "Tento výkaz vymenuje všetky exempláre, ktoré sú omeškané vo Vašej knižnici."
+msgstr ""
+"Tento výkaz vymenuje všetky exempláre, ktoré sú omeškané vo Vašej knižnici."
 
 #: ../../source/circulation.rst:1363
 msgid "|image585|"
 msgstr "|image585|"
 
 #: ../../source/circulation.rst:1367
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: circ-overdues)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: circ-overdues)."
 msgstr ""
 
 #: ../../source/circulation.rst:1371
-msgid "The report can be filtered using the menu options found on the left of the report."
+msgid ""
+"The report can be filtered using the menu options found on the left of the "
+"report."
 msgstr "Výkaz sa dá filtrovať pomocou možností ponuky vľavo od výkazu."
 
 #: ../../source/circulation.rst:1376
-msgid "The 'Show any items currently checked out' checkbox basically switches this from a report of overdues to a report of checkouts. It will show all titles checked out regardless of due date."
+msgid ""
+"The 'Show any items currently checked out' checkbox basically switches this "
+"from a report of overdues to a report of checkouts. It will show all titles "
+"checked out regardless of due date."
 msgstr ""
 
 #: ../../source/circulation.rst:1383
@@ -1821,8 +2686,12 @@ msgid "Overdues with fines"
 msgstr "Omeškania s pokutou"
 
 #: ../../source/circulation.rst:1385
-msgid "This report will show you any overdues at your library that have accrued fines on them."
-msgstr "Tento výkaz vám zobrazí akékoľvek omeškania vo vašej knižnici, ktoré boli spoplatnené pokutami."
+msgid ""
+"This report will show you any overdues at your library that have accrued "
+"fines on them."
+msgstr ""
+"Tento výkaz vám zobrazí akékoľvek omeškania vo vašej knižnici, ktoré boli "
+"spoplatnené pokutami."
 
 #: ../../source/circulation.rst:1388
 msgid "|image586|"
@@ -1830,13 +2699,25 @@ msgstr "|image586|"
 
 #: ../../source/circulation.rst:1390
 #, fuzzy
-msgid "If you would like to limit the report you can use the pull down menu at the top to limit to a specific shelving location at your branch. To see overdues with fines at other branches you will have to :ref:`change your branch <set-library-label>` or log in at that branch."
-msgstr "Ak chcete výkaz obmedziť, môžete použiť rozbaľovaciu ponuku navrchu pre obmedzenie na špecifickú lokáciu v polici vo vašej knižnici. Pre zobrazenie omeškaní s pokutou v iných knižniciach, budete musieť zmeniť svoju knižnicu alebo sa prihlásiť v tej knižnici."
+msgid ""
+"If you would like to limit the report you can use the pull down menu at the "
+"top to limit to a specific shelving location at your branch. To see overdues "
+"with fines at other branches you will have to :ref:`change your branch <set-"
+"library-label>` or log in at that branch."
+msgstr ""
+"Ak chcete výkaz obmedziť, môžete použiť rozbaľovaciu ponuku navrchu pre "
+"obmedzenie na špecifickú lokáciu v polici vo vašej knižnici. Pre zobrazenie "
+"omeškaní s pokutou v iných knižniciach, budete musieť zmeniť svoju knižnicu "
+"alebo sa prihlásiť v tej knižnici."
 
 #: ../../source/circulation.rst:1397
 #, fuzzy
-msgid "If you do not charge fines and/or don't have the :ref:`fines cron job <cron-fines-label>` running you will see no data on this report."
-msgstr "Dôležité: Ak nevyberáte pokuty a/alebo nemáte spustený cronjob pokút, v tomto výkaze neuvidíte žiadne údaje."
+msgid ""
+"If you do not charge fines and/or don't have the :ref:`fines cron job <cron-"
+"fines-label>` running you will see no data on this report."
+msgstr ""
+"Dôležité: Ak nevyberáte pokuty a/alebo nemáte spustený cronjob pokút, v "
+"tomto výkaze neuvidíte žiadne údaje."
 
 #: ../../source/circulation.rst:1403
 msgid "Pending on-site checkouts"
@@ -1844,16 +2725,25 @@ msgstr "Nevybavené výpožičky na mieste"
 
 #: ../../source/circulation.rst:1405
 #, fuzzy
-msgid "If you are using the on site checkouts functionality (:ref:`OnSiteCheckouts`) then you'll have a report to view all items that are currently checked out on site."
-msgstr "Ak používate funkciu miestnych výpožičiek (OnSiteCheckouts), uvidíte výkaz, v ktorom uvidíte všetky exempláre momentálne vypožičané na mieste."
+msgid ""
+"If you are using the on site checkouts functionality (:ref:"
+"`OnSiteCheckouts`) then you'll have a report to view all items that are "
+"currently checked out on site."
+msgstr ""
+"Ak používate funkciu miestnych výpožičiek (OnSiteCheckouts), uvidíte výkaz, "
+"v ktorom uvidíte všetky exempláre momentálne vypožičané na mieste."
 
 #: ../../source/circulation.rst:1409
 msgid "|image1260|"
 msgstr "|image1260|"
 
 #: ../../source/circulation.rst:1411
-msgid "This will list the due date (overdues in red), who has the item, item information and what library the item is at."
-msgstr "Toto vypíše zoznam termínu (omeškania červenou), kto má exemplár, informáciu o exemplári a v ktorej knižnici sa exemplár nachádza."
+msgid ""
+"This will list the due date (overdues in red), who has the item, item "
+"information and what library the item is at."
+msgstr ""
+"Toto vypíše zoznam termínu (omeškania červenou), kto má exemplár, informáciu "
+"o exemplári a v ktorej knižnici sa exemplár nachádza."
 
 #: ../../source/circulation.rst:1417
 msgid "Tracking in-house use"
@@ -1864,11 +2754,21 @@ msgid "Many libraries track the use of items within the library."
 msgstr ""
 
 #: ../../source/circulation.rst:1423
-msgid "This is different from tracking on-site usage. In-house use is the use of items in the library by patrons without them having to check them out. On-site use is the use of items on site that must first be checked out. To learn more about on site usage please review the :ref:`OnSiteCheckouts` preference."
+msgid ""
+"This is different from tracking on-site usage. In-house use is the use of "
+"items in the library by patrons without them having to check them out. On-"
+"site use is the use of items on site that must first be checked out. To "
+"learn more about on site usage please review the :ref:`OnSiteCheckouts` "
+"preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1429
-msgid "Tracking the use of items in the library without checking them out can be done in Koha one of two ways. The first is to create one or more :ref:`Statistical Patrons <add-a-statistical-patron-label>`. When collecting items that have been used within the library, you will want to check them out to your statistical patron:"
+msgid ""
+"Tracking the use of items in the library without checking them out can be "
+"done in Koha one of two ways. The first is to create one or more :ref:"
+"`Statistical Patrons <add-a-statistical-patron-label>`. When collecting "
+"items that have been used within the library, you will want to check them "
+"out to your statistical patron:"
 msgstr ""
 
 #: ../../source/circulation.rst:1435
@@ -1876,7 +2776,9 @@ msgid "|image587|"
 msgstr "|image587|"
 
 #: ../../source/circulation.rst:1437
-msgid "Instead of marking the item as 'checked out' the system will record that the item was used in house:"
+msgid ""
+"Instead of marking the item as 'checked out' the system will record that the "
+"item was used in house:"
 msgstr ""
 
 #: ../../source/circulation.rst:1440
@@ -1884,11 +2786,16 @@ msgid "|image588|"
 msgstr "|image588|"
 
 #: ../../source/circulation.rst:1442
-msgid "Repeat these steps for all items that have been used within the library to keep accurate statistics for item use."
+msgid ""
+"Repeat these steps for all items that have been used within the library to "
+"keep accurate statistics for item use."
 msgstr ""
 
 #: ../../source/circulation.rst:1445
-msgid "The other way to record local use of items is to set your :ref:`RecordLocalUseOnReturn` preference to 'Record.' Then whenever you check an item in that is not checked out and not on hold a local use will be recorded."
+msgid ""
+"The other way to record local use of items is to set your :ref:"
+"`RecordLocalUseOnReturn` preference to 'Record.' Then whenever you check an "
+"item in that is not checked out and not on hold a local use will be recorded."
 msgstr ""
 
 #: ../../source/circulation.rst:1450
@@ -1896,7 +2803,9 @@ msgid "|image589|"
 msgstr "|image589|"
 
 #: ../../source/circulation.rst:1454
-msgid "If you have :ref:`RecordLocalUseOnReturn` set to 'Record' you can still use your statistical patrons to record local use as well."
+msgid ""
+"If you have :ref:`RecordLocalUseOnReturn` set to 'Record' you can still use "
+"your statistical patrons to record local use as well."
 msgstr ""
 
 #: ../../source/circulation.rst:1461
@@ -1905,32 +2814,48 @@ msgid "Self checkout"
 msgstr "Pomoc pri samoobslužnej výpožičke"
 
 #: ../../source/circulation.rst:1463
-msgid "Koha comes with a very basic self checkout module. To enable this module you need to set the :ref:`WebBasedSelfCheck` system preference to 'Enable.' To use this module you have to log in as a :ref:`staff member <add-a-staff-patron-label>` with :ref:`self\\_check permissions <patron-permissions-label>`."
+msgid ""
+"Koha comes with a very basic self checkout module. To enable this module you "
+"need to set the :ref:`WebBasedSelfCheck` system preference to 'Enable.' To "
+"use this module you have to log in as a :ref:`staff member <add-a-staff-"
+"patron-label>` with :ref:`self\\_check permissions <patron-permissions-"
+"label>`."
 msgstr ""
 
 #: ../../source/circulation.rst:1471
-msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day"
+msgid ""
+"Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for "
+"this action so that you don't leave a real staff client logged into a "
+"computer all day"
 msgstr ""
 
 #: ../../source/circulation.rst:1475
-msgid "There is no link to the Self checkout module, but a simple addition to the :ref:`OPACUserJS` system preference can add one."
+msgid ""
+"There is no link to the Self checkout module, but a simple addition to the :"
+"ref:`OPACUserJS` system preference can add one."
 msgstr ""
 
 #: ../../source/circulation.rst:1490
 #, fuzzy
 msgid "The link will then appear at the bottom of the log in page:"
-msgstr "Odkaz na reklamácie sa nachádza aj naľavo od stránky detailov o predplatnom"
+msgstr ""
+"Odkaz na reklamácie sa nachádza aj naľavo od stránky detailov o predplatnom"
 
 #: ../../source/circulation.rst:1492
 msgid "|image591|"
 msgstr "|image591|"
 
 #: ../../source/circulation.rst:1494
-msgid "You can also access this module by going to: http://YOUR\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sco/sco-main.pl"
+msgid ""
+"You can also access this module by going to: http://YOUR\\_KOHA\\_OPAC\\_URL/"
+"cgi-bin/koha/sco/sco-main.pl"
 msgstr ""
 
 #: ../../source/circulation.rst:1497
-msgid "When on the self checkout page, depending on the value in your :ref:`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference you will be asked to enter your cardnumber"
+msgid ""
+"When on the self checkout page, depending on the value in your :ref:"
+"`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference you will "
+"be asked to enter your cardnumber"
 msgstr ""
 
 #: ../../source/circulation.rst:1501
@@ -1947,7 +2872,9 @@ msgid "|image593|"
 msgstr "|image593|"
 
 #: ../../source/circulation.rst:1507
-msgid "Once you're logged in to the self check module you will be asked to scan the items you are checking out"
+msgid ""
+"Once you're logged in to the self check module you will be asked to scan the "
+"items you are checking out"
 msgstr ""
 
 #: ../../source/circulation.rst:1510
@@ -1964,7 +2891,10 @@ msgid "|image595|"
 msgstr "|image595|"
 
 #: ../../source/circulation.rst:1516
-msgid "When you are finished scanning items it is important to click the 'Finish' button. This will prompt you to print a receipt and log you out of the self check module."
+msgid ""
+"When you are finished scanning items it is important to click the 'Finish' "
+"button. This will prompt you to print a receipt and log you out of the self "
+"check module."
 msgstr ""
 
 #: ../../source/circulation.rst:1520
@@ -1972,7 +2902,12 @@ msgid "|image596|"
 msgstr "|image596|"
 
 #: ../../source/circulation.rst:1522
-msgid "When attempting to check items out there are some instances where error messages will appear and the patron will be directed to the librarian. This will happen even if you are allowing overrides on circulation functions. Only a librarian can override a circulation block and so patrons must go to the librarian for help in these situations."
+msgid ""
+"When attempting to check items out there are some instances where error "
+"messages will appear and the patron will be directed to the librarian. This "
+"will happen even if you are allowing overrides on circulation functions. "
+"Only a librarian can override a circulation block and so patrons must go to "
+"the librarian for help in these situations."
 msgstr ""
 
 #: ../../source/circulation.rst:1528
@@ -1985,19 +2920,30 @@ msgid "Self check-in"
 msgstr "%s Samoobslužná výpožička"
 
 #: ../../source/circulation.rst:1535
-msgid "In order to use the self check-in module, you must first set the :ref: `SelfCheckInModule <selfscheckinmodule-label>` system preference to 'Enable'."
+msgid ""
+"In order to use the self check-in module, you must first set the :ref: "
+"`SelfCheckInModule <selfscheckinmodule-label>` system preference to 'Enable'."
 msgstr ""
 
 #: ../../source/circulation.rst:1539
-msgid "Then, you will have to :ref:`create a patron <add-a-staff-patron-label>` with the :ref:`self\\_checkin\\_module permission <granular-self-check-permissions-label>`."
+msgid ""
+"Then, you will have to :ref:`create a patron <add-a-staff-patron-label>` "
+"with the :ref:`self\\_checkin\\_module permission <granular-self-check-"
+"permissions-label>`."
 msgstr ""
 
 #: ../../source/circulation.rst:1544
-msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day. You can give this patron only the aforementionned permission so it cannot be used for anything else."
+msgid ""
+"Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for "
+"this action so that you don't leave a real staff client logged into a "
+"computer all day. You can give this patron only the aforementionned "
+"permission so it cannot be used for anything else."
 msgstr ""
 
 #: ../../source/circulation.rst:1549
-msgid "Once this is done, you can head over to the self check-in page: http://YOUR\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sci/sci-main.pl"
+msgid ""
+"Once this is done, you can head over to the self check-in page: http://YOUR"
+"\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sci/sci-main.pl"
 msgstr ""
 
 #: ../../source/circulation.rst:1552
@@ -2005,7 +2951,9 @@ msgid "Log in with your staff patron with self check-in permissions"
 msgstr ""
 
 #: ../../source/circulation.rst:1554
-msgid "Once the computer or kiosk is set and the self check-in user logged in, patrons will be able to check-in their items themselves."
+msgid ""
+"Once the computer or kiosk is set and the self check-in user logged in, "
+"patrons will be able to check-in their items themselves."
 msgstr ""
 
 #: ../../source/circulation.rst:1557
@@ -2013,25 +2961,38 @@ msgid "|image1331|"
 msgstr "|image1331|"
 
 #: ../../source/circulation.rst:1559
-msgid "The patron will either scan the item's barcode, if the computer is attached to a barcode scanner, or type in their item's barcode in the box and click 'Add' or press enter."
+msgid ""
+"The patron will either scan the item's barcode, if the computer is attached "
+"to a barcode scanner, or type in their item's barcode in the box and click "
+"'Add' or press enter."
 msgstr ""
 
 #: ../../source/circulation.rst:1565
 #, fuzzy
 msgid "Most barcode scanners will automatically hit return after scanning."
-msgstr "Väčšina poplatkov a pokút bude vyrúbených automaticky ak cronjob pokút beží:"
+msgstr ""
+"Väčšina poplatkov a pokút bude vyrúbených automaticky ak cronjob pokút beží:"
 
 #: ../../source/circulation.rst:1567
 #, fuzzy
-msgid "Once they have scanned or entered all their items' barcodes, they can click on the 'Check-in' button to return all the items at once."
-msgstr "Len čo pridáte všetky tieto exempláre, kliknite na tlačidlo 'Hotovo'. Výsledná stránka Vám vymenuje Vami vybrané exempláre."
+msgid ""
+"Once they have scanned or entered all their items' barcodes, they can click "
+"on the 'Check-in' button to return all the items at once."
+msgstr ""
+"Len čo pridáte všetky tieto exempláre, kliknite na tlačidlo 'Hotovo'. "
+"Výsledná stránka Vám vymenuje Vami vybrané exempláre."
 
 #: ../../source/circulation.rst:1572
-msgid "If the patron doesn't click the 'Check-in' button, the items will not be returned and will stay in their account."
+msgid ""
+"If the patron doesn't click the 'Check-in' button, the items will not be "
+"returned and will stay in their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1577
-msgid "The self check-in module will not warn user if the item is late, if they have fines, if the item is on hold for someone else, or if they have messages in their account."
+msgid ""
+"The self check-in module will not warn user if the item is late, if they "
+"have fines, if the item is on hold for someone else, or if they have "
+"messages in their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1581
@@ -2047,23 +3008,37 @@ msgid "|image1333|"
 msgstr "|image1333|"
 
 #: ../../source/circulation.rst:1589
-msgid "If the patron doesn't click 'Finish', the screen will refresh after the timeout period specified in the :ref:`SelfCheckInTimeout` system preference."
+msgid ""
+"If the patron doesn't click 'Finish', the screen will refresh after the "
+"timeout period specified in the :ref:`SelfCheckInTimeout` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1594
-msgid "Even if the patron doesn't click 'Finish' the item will still be checked in from their account."
+msgid ""
+"Even if the patron doesn't click 'Finish' the item will still be checked in "
+"from their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1597
-msgid "You can cutomize the look of your self check-in screens by using the :ref:`SelfCheckInUserCSS` system preference or the :ref:`SelfCheckInUserJS` system preference."
+msgid ""
+"You can cutomize the look of your self check-in screens by using the :ref:"
+"`SelfCheckInUserCSS` system preference or the :ref:`SelfCheckInUserJS` "
+"system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1601
-msgid "You can add content, like instructions on how to use the self check-in system for example, by using the :ref:`SelfCheckInMainUserBlock` system preference."
+msgid ""
+"You can add content, like instructions on how to use the self check-in "
+"system for example, by using the :ref:`SelfCheckInMainUserBlock` system "
+"preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1604
-msgid "Statistics about the transactions made through the self check-in module are logged into the action\\_logs table in the Koha database. You can therefore :ref:`build a custom report <custom-reports-label>` to get the statistics you need."
+msgid ""
+"Statistics about the transactions made through the self check-in module are "
+"logged into the action\\_logs table in the Koha database. You can therefore :"
+"ref:`build a custom report <custom-reports-label>` to get the statistics you "
+"need."
 msgstr ""
 
 #: ../../source/circulation.rst:1612
@@ -2072,7 +3047,9 @@ msgid "Offline circulation utilities"
 msgstr "Obeh offline"
 
 #: ../../source/circulation.rst:1614
-msgid "Koha allows for you to continue circulation actions while offline by using any one of three utilities."
+msgid ""
+"Koha allows for you to continue circulation actions while offline by using "
+"any one of three utilities."
 msgstr ""
 
 #: ../../source/circulation.rst:1620
@@ -2082,11 +3059,24 @@ msgstr "Načítanie súboru obehu offline"
 
 #: ../../source/circulation.rst:1622
 #, fuzzy
-msgid "If the :ref:`AllowOfflineCirculation` preference is set to 'Enable' the library staff can continue to perform circulation actions within Koha when the system is offline. You will want to visit http://your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl at least once while online and bookmark that page. That is the page you will go to when you are offline."
-msgstr "Ak je AllowOfflineCirculation nastavené na 'Zapnúť', zamestnanci knižnice môžu pokračovať vo vykonávaní obehu v Kohe, keď je systém v režime offline. "
+msgid ""
+"If the :ref:`AllowOfflineCirculation` preference is set to 'Enable' the "
+"library staff can continue to perform circulation actions within Koha when "
+"the system is offline. You will want to visit http://your-koha-staff-client-"
+"url/cgi-bin/koha/circ/offline.pl at least once while online and bookmark "
+"that page. That is the page you will go to when you are offline."
+msgstr ""
+"Ak je AllowOfflineCirculation nastavené na 'Zapnúť', zamestnanci knižnice "
+"môžu pokračovať vo vykonávaní obehu v Kohe, keď je systém v režime offline. "
 
 #: ../../source/circulation.rst:1631 ../../source/circulation.rst:1656
-msgid "The offline interface uses HTML LocalStorage, which depending on the browser and user setting, is limited to 2.5MB or 5MB per domain. This means that larger systems will not be able to synchronize their data and are recommended to use either the :ref:`Firefox <firefox-plugin-label>` or :ref:`Windows <offline-circ-tool-for-windows-label>` application for offline circulation."
+msgid ""
+"The offline interface uses HTML LocalStorage, which depending on the browser "
+"and user setting, is limited to 2.5MB or 5MB per domain. This means that "
+"larger systems will not be able to synchronize their data and are "
+"recommended to use either the :ref:`Firefox <firefox-plugin-label>` or :ref:"
+"`Windows <offline-circ-tool-for-windows-label>` application for offline "
+"circulation."
 msgstr ""
 
 #: ../../source/circulation.rst:1642
@@ -2094,40 +3084,61 @@ msgid "Setup"
 msgstr "Inštalácia"
 
 #: ../../source/circulation.rst:1644
-msgid "Before the first time the system goes offline go to Circulation and choose 'Built-in offline circulation interface'"
-msgstr "Pred prvým prechodom systému do režimu offline prejdite na Obeh a zvoľte 'Vstavané rozhranie obehu offline'"
+msgid ""
+"Before the first time the system goes offline go to Circulation and choose "
+"'Built-in offline circulation interface'"
+msgstr ""
+"Pred prvým prechodom systému do režimu offline prejdite na Obeh a zvoľte "
+"'Vstavané rozhranie obehu offline'"
 
 #: ../../source/circulation.rst:1647
 msgid "|image598|"
 msgstr "|image598|"
 
 #: ../../source/circulation.rst:1649
-msgid "And synchronize your data on every circulation computer by clicking the 'Synchronize' link on the right of the screen."
-msgstr "Len čo bude nastavené Vaša podmienka, môžete ju deaktivovať kliknutím na odkaz 'Deaktivovať' napravo od pravidla."
+msgid ""
+"And synchronize your data on every circulation computer by clicking the "
+"'Synchronize' link on the right of the screen."
+msgstr ""
+"Len čo bude nastavené Vaša podmienka, môžete ju deaktivovať kliknutím na "
+"odkaz 'Deaktivovať' napravo od pravidla."
 
 #: ../../source/circulation.rst:1652
 msgid "|image599|"
 msgstr "|image599|"
 
 #: ../../source/circulation.rst:1664
-msgid "This will allow you download a local copy of your patrons and circulation data. Click the 'Download records' link at the top of the page to synchronize your data."
-msgstr "Toto vám umožní stiahnuť miestnu kópiu vašich čitateľských a obežných údajov. Kliknite na odkaz Stiahnuť záznamy navrchu stránky a zosynchronizujte svoje údaje."
+msgid ""
+"This will allow you download a local copy of your patrons and circulation "
+"data. Click the 'Download records' link at the top of the page to "
+"synchronize your data."
+msgstr ""
+"Toto vám umožní stiahnuť miestnu kópiu vašich čitateľských a obežných "
+"údajov. Kliknite na odkaz Stiahnuť záznamy navrchu stránky a "
+"zosynchronizujte svoje údaje."
 
 #: ../../source/circulation.rst:1668
 msgid "|image600|"
 msgstr "|image600|"
 
 #: ../../source/circulation.rst:1670
-msgid "Once your data is downloaded you will see the dates your data was last synced to the right of each data set."
-msgstr "Len čo sa vaše údaje stiahnu, uvidíte dátumy poslednej synchronizácie vašich údajov napravo od každej sady údajov."
+msgid ""
+"Once your data is downloaded you will see the dates your data was last "
+"synced to the right of each data set."
+msgstr ""
+"Len čo sa vaše údaje stiahnu, uvidíte dátumy poslednej synchronizácie vašich "
+"údajov napravo od každej sady údajov."
 
 #: ../../source/circulation.rst:1673
 msgid "|image1261|"
 msgstr "|image1261|"
 
 #: ../../source/circulation.rst:1675
-msgid "This should be done regularly in preparation for any unexpected connection losses."
-msgstr "Toto treba vykonať pravidelne, aby sa vyhlo neočakávaným stratám spojenia."
+msgid ""
+"This should be done regularly in preparation for any unexpected connection "
+"losses."
+msgstr ""
+"Toto treba vykonať pravidelne, aby sa vyhlo neočakávaným stratám spojenia."
 
 #: ../../source/circulation.rst:1680
 msgid "Circulating"
@@ -2135,20 +3146,35 @@ msgstr "V obehu"
 
 #: ../../source/circulation.rst:1682
 #, fuzzy
-msgid "When your system goes offline visit the Offline Circulation page (http://your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl) in Koha and click 'Check out' or 'Check in' to perform offline actions."
-msgstr "Ak váš systém prechádza do režimu offline, navštívte stránku Obehu offline v Kohe a kliknite na 'Výpožička' alebo 'Návrat' pre uskutočnenie akcií offline."
+msgid ""
+"When your system goes offline visit the Offline Circulation page (http://"
+"your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl) in Koha and click "
+"'Check out' or 'Check in' to perform offline actions."
+msgstr ""
+"Ak váš systém prechádza do režimu offline, navštívte stránku Obehu offline v "
+"Kohe a kliknite na 'Výpožička' alebo 'Návrat' pre uskutočnenie akcií offline."
 
 #: ../../source/circulation.rst:1686
-msgid "Checking out is done by searching for the patron by barcode or name at the top of the 'Check out' screen. After selecting a patron you will be presented with the synced patron info, including fines and check outs."
-msgstr "Výpožičku začínajte vyhľadaním čitateľa pomocou čiarového kódu alebo mena navrchu obrazovky v riadku 'Výpožička'. Po zvolení čitateľa sa vám zobrazí synchronizovaná informácia o čitateľovi, vrátane poplatkov a výpožičiek."
+msgid ""
+"Checking out is done by searching for the patron by barcode or name at the "
+"top of the 'Check out' screen. After selecting a patron you will be "
+"presented with the synced patron info, including fines and check outs."
+msgstr ""
+"Výpožičku začínajte vyhľadaním čitateľa pomocou čiarového kódu alebo mena "
+"navrchu obrazovky v riadku 'Výpožička'. Po zvolení čitateľa sa vám zobrazí "
+"synchronizovaná informácia o čitateľovi, vrátane poplatkov a výpožičiek."
 
 #: ../../source/circulation.rst:1690
 msgid "|image601|"
 msgstr "|image601|"
 
 #: ../../source/circulation.rst:1692
-msgid "Scan the barcode of the item you would like to check out and enter a due date. If you don't enter a due date Koha will prompt you for one."
-msgstr "Zoskenujte čiarový kód exemplára, ktorý chcete vypožičať a zadajte termín návratu. Ak nezadáte svoj termín, Koha vás vyzve, aby ste ho zadali."
+msgid ""
+"Scan the barcode of the item you would like to check out and enter a due "
+"date. If you don't enter a due date Koha will prompt you for one."
+msgstr ""
+"Zoskenujte čiarový kód exemplára, ktorý chcete vypožičať a zadajte termín "
+"návratu. Ak nezadáte svoj termín, Koha vás vyzve, aby ste ho zadali."
 
 #: ../../source/circulation.rst:1695
 msgid "|image602|"
@@ -2169,8 +3195,13 @@ msgstr "Obeh Kohy offline"
 
 #: ../../source/circulation.rst:1706
 #, fuzzy
-msgid "Once the system is back online visit the 'Synchronize' page on the Offline circulation module and click 'Upload transactions'"
-msgstr "Len čo sa systém znovu dostane do stavu online, navštívte stránku synchronizovať na stránke modulu Obehu offline a kliknite na 'Načítať transakcie'"
+msgid ""
+"Once the system is back online visit the 'Synchronize' page on the Offline "
+"circulation module and click 'Upload transactions'"
+msgstr ""
+"Len čo sa systém znovu dostane do stavu online, navštívte stránku "
+"synchronizovať na stránke modulu Obehu offline a kliknite na 'Načítať "
+"transakcie'"
 
 #: ../../source/circulation.rst:1709
 msgid "|image604|"
@@ -2178,15 +3209,22 @@ msgstr "|image604|"
 
 #: ../../source/circulation.rst:1711
 #, fuzzy
-msgid "After the files are uploaded you can click 'View pending offline circulation actions' on the right."
-msgstr "Po načítaní súborov môžete kliknúť na 'Zobraziť nespracované akcie obehu offline' vpravo, aby sa mohli spracovať."
+msgid ""
+"After the files are uploaded you can click 'View pending offline circulation "
+"actions' on the right."
+msgstr ""
+"Po načítaní súborov môžete kliknúť na 'Zobraziť nespracované akcie obehu "
+"offline' vpravo, aby sa mohli spracovať."
 
 #: ../../source/circulation.rst:1714
 msgid "|image605|"
 msgstr "|image605|"
 
 #: ../../source/circulation.rst:1716 ../../source/circulation.rst:1956
-msgid "After clicking 'View pending offline circulation actions' you will be brought to a summary of all of the actions you loaded in to Koha in your \\*.koc file."
+msgid ""
+"After clicking 'View pending offline circulation actions' you will be "
+"brought to a summary of all of the actions you loaded in to Koha in your \\*."
+"koc file."
 msgstr ""
 
 #: ../../source/circulation.rst:1720
@@ -2195,13 +3233,23 @@ msgstr "|image606|"
 
 #: ../../source/circulation.rst:1722 ../../source/circulation.rst:1880
 #: ../../source/circulation.rst:1962
-msgid "Once all of the logs from all of the circulation computers are loaded you will be able to check them all or select just those you want to process into Koha."
-msgstr "Len čo sa načítajú všetky denníky zo všetkých počítačov registrujúcich obeh, budete ich môcť skontrolovať všetky alebo vybrať len tie, ktoré chcete ďalej zapracovať do Kohy."
+msgid ""
+"Once all of the logs from all of the circulation computers are loaded you "
+"will be able to check them all or select just those you want to process into "
+"Koha."
+msgstr ""
+"Len čo sa načítajú všetky denníky zo všetkých počítačov registrujúcich obeh, "
+"budete ich môcť skontrolovať všetky alebo vybrať len tie, ktoré chcete ďalej "
+"zapracovať do Kohy."
 
 #: ../../source/circulation.rst:1726
 #, fuzzy
-msgid "Click on the 'Process' button and Koha will record every stored transaction one by one. For each transaction, the status will change to:"
-msgstr "Kliknite na tlačidlo Spracovať a Koha zaznamená všetky triediace transakcie jednu po druhej. U každej transakcie sa stav zmení na: "
+msgid ""
+"Click on the 'Process' button and Koha will record every stored transaction "
+"one by one. For each transaction, the status will change to:"
+msgstr ""
+"Kliknite na tlačidlo Spracovať a Koha zaznamená všetky triediace transakcie "
+"jednu po druhej. U každej transakcie sa stav zmení na: "
 
 #: ../../source/circulation.rst:1730 ../../source/circulation.rst:1888
 #: ../../source/circulation.rst:1909 ../../source/circulation.rst:1970
@@ -2238,11 +3286,18 @@ msgid "Firefox plugin"
 msgstr "Zobraziť výkazové moduly"
 
 #: ../../source/circulation.rst:1747
-msgid "There is an offline circulation tool that you can add to your Firefox browser as an addon. To do so, just go to https://addons.mozilla.org/en/firefox/addon/koct/ page and click on the \"install now\" button. You may have to confirm the installation, just click on \"install now\" and then restart Firefox to complete the installation."
+msgid ""
+"There is an offline circulation tool that you can add to your Firefox "
+"browser as an addon. To do so, just go to https://addons.mozilla.org/en/"
+"firefox/addon/koct/ page and click on the \"install now\" button. You may "
+"have to confirm the installation, just click on \"install now\" and then "
+"restart Firefox to complete the installation."
 msgstr ""
 
 #: ../../source/circulation.rst:1754
-msgid "Once you have installed the plugin and restarted Firefox, you will see the Koha logo in the download bar at the bottom right of Firefox."
+msgid ""
+"Once you have installed the plugin and restarted Firefox, you will see the "
+"Koha logo in the download bar at the bottom right of Firefox."
 msgstr ""
 
 #: ../../source/circulation.rst:1757
@@ -2272,7 +3327,9 @@ msgid "The 'Check in' section is where you check in items"
 msgstr "Vypožičať a vrátiť exempláre"
 
 #: ../../source/circulation.rst:1769
-msgid "The ‘Transactions’ section is where you can track the transactions done while in offline mode"
+msgid ""
+"The ‘Transactions’ section is where you can track the transactions done "
+"while in offline mode"
 msgstr ""
 
 #: ../../source/circulation.rst:1771
@@ -2284,11 +3341,16 @@ msgid "|image610|"
 msgstr "|image610|"
 
 #: ../../source/circulation.rst:1775
-msgid "If you'd like to clear the transactions, click the 'Clear' box before hitting the 'OK' button."
+msgid ""
+"If you'd like to clear the transactions, click the 'Clear' box before "
+"hitting the 'OK' button."
 msgstr ""
 
 #: ../../source/circulation.rst:1778
-msgid "The first thing you want to do then is to set up the plugin. Proceed to the settings page, linked in the top right of the page or under ‘Configuration page’ in the Transactions section."
+msgid ""
+"The first thing you want to do then is to set up the plugin. Proceed to the "
+"settings page, linked in the top right of the page or under ‘Configuration "
+"page’ in the Transactions section."
 msgstr ""
 
 #: ../../source/circulation.rst:1780
@@ -2319,19 +3381,29 @@ msgid "Branch code = the code for the branch where you are located"
 msgstr ""
 
 #: ../../source/circulation.rst:1792
-msgid "Commit Type = If you select ‘Send data to Koha’, your account will need to be approved by an administrator. If you select ‘Apply directly to Koha’, your account will not need to be approved."
+msgid ""
+"Commit Type = If you select ‘Send data to Koha’, your account will need to "
+"be approved by an administrator. If you select ‘Apply directly to Koha’, "
+"your account will not need to be approved."
 msgstr ""
 
 #: ../../source/circulation.rst:1796
-msgid "To save the settings, you will have to close the plugin window and re-open it by clicking again on the Koha logo in the add-on bar."
+msgid ""
+"To save the settings, you will have to close the plugin window and re-open "
+"it by clicking again on the Koha logo in the add-on bar."
 msgstr ""
 
 #: ../../source/circulation.rst:1801
-msgid "You can create a staff account dedicated to the offline circulation. So that, no matter who is at the circulation desk, they can all use the same login. Along those lines, you can use a group login that you already have in place for circulation as well."
+msgid ""
+"You can create a staff account dedicated to the offline circulation. So "
+"that, no matter who is at the circulation desk, they can all use the same "
+"login. Along those lines, you can use a group login that you already have in "
+"place for circulation as well."
 msgstr ""
 
 #: ../../source/circulation.rst:1806
-msgid "Once you have everything set up you can start checking items in and out."
+msgid ""
+"Once you have everything set up you can start checking items in and out."
 msgstr ""
 
 #: ../../source/circulation.rst:1808
@@ -2383,7 +3455,10 @@ msgid "Click 'Checkin'"
 msgstr "Kliknite na 'Uložiť'"
 
 #: ../../source/circulation.rst:1830
-msgid "Each time, you check out or check in an item, a new transaction is recorded in the local plugin database. This is recorded in the Transactions section bellow."
+msgid ""
+"Each time, you check out or check in an item, a new transaction is recorded "
+"in the local plugin database. This is recorded in the Transactions section "
+"bellow."
 msgstr ""
 
 #: ../../source/circulation.rst:1833
@@ -2391,19 +3466,35 @@ msgid "|image615|"
 msgstr "|image615|"
 
 #: ../../source/circulation.rst:1837
-msgid "The status will be \"Local.\" as long as you are offline and don't process the transactions into Koha."
+msgid ""
+"The status will be \"Local.\" as long as you are offline and don't process "
+"the transactions into Koha."
 msgstr ""
 
 #: ../../source/circulation.rst:1840
-msgid "When your Internet connection comes back up you will want to get these transactions in to Koha. Before processing these transactions you should be aware of a few issues."
+msgid ""
+"When your Internet connection comes back up you will want to get these "
+"transactions in to Koha. Before processing these transactions you should be "
+"aware of a few issues."
 msgstr ""
 
 #: ../../source/circulation.rst:1844
-msgid "Because you are not connected to your Koha database when using this plugin holds will need additional processing. If an item you check in while offline has a hold, the hold is kept on the item. Since, you can't confirm holds found during the processing of every check in, the holds stay on the item and will need to be managed later. If you only checked in a few items you can just keep a record of them all. If you checked in a lot of items you can use the Holds queue once it rebuilds to see what holds made it to the shelf erroneously."
+msgid ""
+"Because you are not connected to your Koha database when using this plugin "
+"holds will need additional processing. If an item you check in while offline "
+"has a hold, the hold is kept on the item. Since, you can't confirm holds "
+"found during the processing of every check in, the holds stay on the item "
+"and will need to be managed later. If you only checked in a few items you "
+"can just keep a record of them all. If you checked in a lot of items you can "
+"use the Holds queue once it rebuilds to see what holds made it to the shelf "
+"erroneously."
 msgstr ""
 
 #: ../../source/circulation.rst:1853
-msgid "Similarly, if an patron card was expired, the offline circulation tool won't know about it, so the checkout will be recorded regardless of the patron's account being blocked normally."
+msgid ""
+"Similarly, if an patron card was expired, the offline circulation tool won't "
+"know about it, so the checkout will be recorded regardless of the patron's "
+"account being blocked normally."
 msgstr ""
 
 #: ../../source/circulation.rst:1857
@@ -2415,7 +3506,16 @@ msgid "Apply to Koha"
 msgstr ""
 
 #: ../../source/circulation.rst:1863
-msgid "If you checked in/out on more than one computer at the same time, what you want is to process every transaction consistently. Let's say for instance that one patron checked a book out on one computer and then checked the same book in on another computer. To be consistent, you need to record the check out first and then the check in. Not the opposite! To do so, you need to group every transaction in one place, sort them all and then, process everything. So, you need to use the \"Apply to Koha\" option from every plugin/computer you worked with. This way, the log will go to Koha and be accessible from the Offline Circulation page."
+msgid ""
+"If you checked in/out on more than one computer at the same time, what you "
+"want is to process every transaction consistently. Let's say for instance "
+"that one patron checked a book out on one computer and then checked the same "
+"book in on another computer. To be consistent, you need to record the check "
+"out first and then the check in. Not the opposite! To do so, you need to "
+"group every transaction in one place, sort them all and then, process "
+"everything. So, you need to use the \"Apply to Koha\" option from every "
+"plugin/computer you worked with. This way, the log will go to Koha and be "
+"accessible from the Offline Circulation page."
 msgstr ""
 
 #: ../../source/circulation.rst:1874
@@ -2433,8 +3533,12 @@ msgstr "|image617|"
 
 #: ../../source/circulation.rst:1884 ../../source/circulation.rst:1966
 #, fuzzy
-msgid "Click on the Process button and Koha will record every stored transaction one by one. For each transaction, the status will change to:"
-msgstr "Kliknite na tlačidlo Spracovať a Koha zaznamená všetky triediace transakcie jednu po druhej. U každej transakcie sa stav zmení na: "
+msgid ""
+"Click on the Process button and Koha will record every stored transaction "
+"one by one. For each transaction, the status will change to:"
+msgstr ""
+"Kliknite na tlačidlo Spracovať a Koha zaznamená všetky triediace transakcie "
+"jednu po druhej. U každej transakcie sa stav zmení na: "
 
 #: ../../source/circulation.rst:1898
 msgid "|image618|"
@@ -2445,11 +3549,15 @@ msgid "Apply directly"
 msgstr "Použiť priamo"
 
 #: ../../source/circulation.rst:1902
-msgid "If you performed all of the circulation actions on one computer then everything is sorted already so you can choose to \"Apply directly\""
+msgid ""
+"If you performed all of the circulation actions on one computer then "
+"everything is sorted already so you can choose to \"Apply directly\""
 msgstr ""
 
 #: ../../source/circulation.rst:1906
-msgid "The status column will be updated to let you know if the transactions were applied"
+msgid ""
+"The status column will be updated to let you know if the transactions were "
+"applied"
 msgstr ""
 
 #: ../../source/circulation.rst:1921
@@ -2458,11 +3566,16 @@ msgid "Offline circ tool for Windows"
 msgstr "Obeh offline"
 
 #: ../../source/circulation.rst:1923
-msgid "The Offline circulation utility can be downloaded at: https://github.com/bywatersolutions/koha-offline-circulation/releases"
+msgid ""
+"The Offline circulation utility can be downloaded at: https://github.com/"
+"bywatersolutions/koha-offline-circulation/releases"
 msgstr ""
 
 #: ../../source/circulation.rst:1926
-msgid "To generate a borrowers.db file for loading in to the Windows tool you will need to run the :ref:`file generator via a cron job <cron-generate-patron-file-for-offline-circulation-label>`."
+msgid ""
+"To generate a borrowers.db file for loading in to the Windows tool you will "
+"need to run the :ref:`file generator via a cron job <cron-generate-patron-"
+"file-for-offline-circulation-label>`."
 msgstr ""
 
 #: ../../source/circulation.rst:1933
@@ -2472,8 +3585,13 @@ msgstr "Načítať súbor údajov obehu offline (.koc)"
 
 #: ../../source/circulation.rst:1935
 #, fuzzy
-msgid "The :ref:`offline circulation tool for Windows <offline-circ-tool-for-windows-label>` will generate a KOC file that you can upload into Koha once your system comes back up."
-msgstr "Nástroj offline obehu pre Windows generuje súbor KOC, ktorý môžete načítať do Kohy, len čo Váš systém znova nabehne."
+msgid ""
+"The :ref:`offline circulation tool for Windows <offline-circ-tool-for-"
+"windows-label>` will generate a KOC file that you can upload into Koha once "
+"your system comes back up."
+msgstr ""
+"Nástroj offline obehu pre Windows generuje súbor KOC, ktorý môžete načítať "
+"do Kohy, len čo Váš systém znova nabehne."
 
 #: ../../source/circulation.rst:1939
 msgid "On the Circulation menu click 'Upload offline circulation file (.koc)'"
@@ -2501,8 +3619,12 @@ msgid "|image623|"
 msgstr "|image623|"
 
 #: ../../source/circulation.rst:1951
-msgid "When this is complete you'll be able to upload another file or tend to pending offline circulation actions."
-msgstr "Keď sa to dokončí, budete môcť načítať ďalší súbor alebo prejsť na zostávajúce úkony obehu offline."
+msgid ""
+"When this is complete you'll be able to upload another file or tend to "
+"pending offline circulation actions."
+msgstr ""
+"Keď sa to dokončí, budete môcť načítať ďalší súbor alebo prejsť na "
+"zostávajúce úkony obehu offline."
 
 #: ../../source/circulation.rst:1954
 msgid "|image624|"
@@ -2517,12 +3639,24 @@ msgid "|image626|"
 msgstr "|image626|"
 
 #, fuzzy
-#~ msgid "If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__ preference, you will also see the option to export the patron's current checkout information using a CSV profile or ISO2709 (MARC21) format."
-#~ msgstr "Ak ste nastavili váš ExportWithCsvProfile, uvidíte tiež možnosť exportovať aktuálnu informáciu o výpožičkách čitateľa pomocou profilu CSV alebo formátu ISO2709 (MARC21)."
+#~ msgid ""
+#~ "If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__ "
+#~ "preference, you will also see the option to export the patron's current "
+#~ "checkout information using a CSV profile or ISO2709 (MARC21) format."
+#~ msgstr ""
+#~ "Ak ste nastavili váš ExportWithCsvProfile, uvidíte tiež možnosť "
+#~ "exportovať aktuálnu informáciu o výpožičkách čitateľa pomocou profilu CSV "
+#~ "alebo formátu ISO2709 (MARC21)."
 
 #, fuzzy
-#~ msgid "From the holds list you can suspend or resume patrons holds using the options at the bottom of the list if you have the :ref:`SuspendHoldsIntranet` preference set to 'allow.'"
-#~ msgstr "Zo zoznamu rezervácií môžete pozastaviť alebo obnoviť rezervácie čitateľa pomocou možností umiestnených pod zoznamom, ak máte nastavenie SuspendHoldsIntranet zapnuté na 'povoliť.'"
+#~ msgid ""
+#~ "From the holds list you can suspend or resume patrons holds using the "
+#~ "options at the bottom of the list if you have the :ref:"
+#~ "`SuspendHoldsIntranet` preference set to 'allow.'"
+#~ msgstr ""
+#~ "Zo zoznamu rezervácií môžete pozastaviť alebo obnoviť rezervácie čitateľa "
+#~ "pomocou možností umiestnených pod zoznamom, ak máte nastavenie "
+#~ "SuspendHoldsIntranet zapnuté na 'povoliť.'"
 
 #~ msgid "|image612|"
 #~ msgstr "|image612|"
@@ -2541,6 +3675,13 @@ msgstr "|image626|"
 #~ msgstr "|image620|"
 
 #, fuzzy
-#~ msgid "Leaving StaticHoldsQueueWeight empty is contraindicated at this time. Doing so will cause the build\\_holds\\_queue script to ignore RandomizeHoldsQueueWeight, causing the script to request hold fulfillment not randomly, but by alphabetical order."
-#~ msgstr "Ponechanie StaticHodlsQueueWeight prázdne je nateraz vylúčené. V opačnom prípade by skript build_holds_queue ignoroval RandomizeHoldsQueueWeight, čím by skript požadoval vykonávanie požiadaviek rezervácií nie náhodne, ale v abecednom poradí."
-
+#~ msgid ""
+#~ "Leaving StaticHoldsQueueWeight empty is contraindicated at this time. "
+#~ "Doing so will cause the build\\_holds\\_queue script to ignore "
+#~ "RandomizeHoldsQueueWeight, causing the script to request hold fulfillment "
+#~ "not randomly, but by alphabetical order."
+#~ msgstr ""
+#~ "Ponechanie StaticHodlsQueueWeight prázdne je nateraz vylúčené. V opačnom "
+#~ "prípade by skript build_holds_queue ignoroval RandomizeHoldsQueueWeight, "
+#~ "čím by skript požadoval vykonávanie požiadaviek rezervácií nie náhodne, "
+#~ "ale v abecednom poradí."

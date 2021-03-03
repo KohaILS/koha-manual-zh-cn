@@ -1,7 +1,7 @@
 # Compendium of pt.
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-pt\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2019-03-14 15:19-0300\n"
@@ -10,23 +10,45 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /pt/man20.11/circulation.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/circulation.rst:6
 msgid "Circulation"
 msgstr "Empréstimo"
 
 #: ../../source/circulation.rst:8
-msgid "Circulation functions can be accessed in several different ways. On the main page of the staff client there are some quick links in the center of the page to check items out, in or transfer them. For a complete listing of Circulation functions you can visit the Circulation page which is linked from the top left of every page or from the center of the main page."
-msgstr "Funções de circulação pode ser acedidas de diferentes formas. Na página principal do interface dos técnicos existem alguns link rápidos no centro para empréstimos, devoluções e transferências. Para um listagem completa das funções de circulação pode visitar a página principal desse módulo através do menu superior existente em cada página."
+msgid ""
+"Circulation functions can be accessed in several different ways. On the main "
+"page of the staff client there are some quick links in the center of the "
+"page to check items out, in or transfer them. For a complete listing of "
+"Circulation functions you can visit the Circulation page which is linked "
+"from the top left of every page or from the center of the main page."
+msgstr ""
+"Funções de circulação pode ser acedidas de diferentes formas. Na página "
+"principal do interface dos técnicos existem alguns link rápidos no centro "
+"para empréstimos, devoluções e transferências. Para um listagem completa das "
+"funções de circulação pode visitar a página principal desse módulo através "
+"do menu superior existente em cada página."
 
 #: ../../source/circulation.rst:15
 #, fuzzy
-msgid "Before circulating your collection you will want to set your :ref:`Global system preferences <global-system-preferences-label>`, :ref:`Basic parameters <basic-parameters-label>` and :ref:`Patrons and circulation rules <patrons-and-circulation-label>`."
-msgstr "Antes de circular a sua coleção terá que definir as preferências de sistema globais, os parâmetros básicos e as regras de circulação."
+msgid ""
+"Before circulating your collection you will want to set your :ref:`Global "
+"system preferences <global-system-preferences-label>`, :ref:`Basic "
+"parameters <basic-parameters-label>` and :ref:`Patrons and circulation rules "
+"<patrons-and-circulation-label>`."
+msgstr ""
+"Antes de circular a sua coleção terá que definir as preferências de sistema "
+"globais, os parâmetros básicos e as regras de circulação."
 
 #: ../../source/circulation.rst:20
-msgid "While in Circulation you can jump between the tabs on the quick search box at the top of the screen by using the following hot keys:"
-msgstr "Quando estiver na página de empréstimo, pode alternar nos separados da caixa de pesquisa no topo do ecrã usando as teclas:"
+msgid ""
+"While in Circulation you can jump between the tabs on the quick search box "
+"at the top of the screen by using the following hot keys:"
+msgstr ""
+"Quando estiver na página de empréstimo, pode alternar nos separados da caixa "
+"de pesquisa no topo do ecrã usando as teclas:"
 
 #: ../../source/circulation.rst:23
 msgid "jump to the catalog search with Alt+Q"
@@ -77,7 +99,9 @@ msgid "Check out (issuing)"
 msgstr "Emprestar"
 
 #: ../../source/circulation.rst:40
-msgid "To begin the checkout process you must enter the patron barcode or part of their name. The checkout option appears in three main places:"
+msgid ""
+"To begin the checkout process you must enter the patron barcode or part of "
+"their name. The checkout option appears in three main places:"
 msgstr ""
 
 #: ../../source/circulation.rst:43
@@ -99,7 +123,11 @@ msgid "|image484|"
 msgstr "|image484|"
 
 #: ../../source/circulation.rst:51
-msgid "Those two options allow you to search for a patron either by card number, name, user ID, email, etc. If you only have one result, Koha will automatically go to the patron's file. If your search gives you more than one result, it will ask you to choose which patron you want to check out to."
+msgid ""
+"Those two options allow you to search for a patron either by card number, "
+"name, user ID, email, etc. If you only have one result, Koha will "
+"automatically go to the patron's file. If your search gives you more than "
+"one result, it will ask you to choose which patron you want to check out to."
 msgstr ""
 
 #: ../../source/circulation.rst:56
@@ -108,11 +136,16 @@ msgid "|image1494|"
 msgstr "|image1494|"
 
 #: ../../source/circulation.rst:60
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module- Under Circulation Tab (table id: table_borrowers)"
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module- "
+"Under Circulation Tab (table id: table_borrowers)"
 msgstr ""
 
 #: ../../source/circulation.rst:63
-msgid "Check mark which columns to hide by default, uncheck columns that should display."
+msgid ""
+"Check mark which columns to hide by default, uncheck columns that should "
+"display."
 msgstr ""
 
 #: ../../source/circulation.rst:65
@@ -130,7 +163,9 @@ msgid "|image483|"
 msgstr "|image483|"
 
 #: ../../source/circulation.rst:71
-msgid "If you have enabled :ref:`batch checkouts <batch-checkout-label>` then click the batch check out option on the patron record"
+msgid ""
+"If you have enabled :ref:`batch checkouts <batch-checkout-label>` then click "
+"the batch check out option on the patron record"
 msgstr ""
 
 #: ../../source/circulation.rst:74
@@ -143,33 +178,52 @@ msgid "Checking items out"
 msgstr "Devolver exemplares"
 
 #: ../../source/circulation.rst:83
-msgid "To check an item out to a patron, first search for that patron using one of the many options listed above. You will then be presented with the checkout screen."
-msgstr "Para emprestar um exemplar a um leitor, primeiro pesquise esse leitor usando uma das muitas opções. Posteriormente aparecerá o ecrã de empréstimo."
+msgid ""
+"To check an item out to a patron, first search for that patron using one of "
+"the many options listed above. You will then be presented with the checkout "
+"screen."
+msgstr ""
+"Para emprestar um exemplar a um leitor, primeiro pesquise esse leitor usando "
+"uma das muitas opções. Posteriormente aparecerá o ecrã de empréstimo."
 
 #: ../../source/circulation.rst:87
 msgid "|image485|"
 msgstr "|image485|"
 
 #: ../../source/circulation.rst:89
-msgid "If you have chosen to 'Always show checkouts immediately' then you will see the list of checkouts below the check out box."
-msgstr "Se escolher 'Mostrar os empréstimos imediatamente' então vai ver a lista de todos os empréstimos abaixo da caixa de empréstimos."
+msgid ""
+"If you have chosen to 'Always show checkouts immediately' then you will see "
+"the list of checkouts below the check out box."
+msgstr ""
+"Se escolher 'Mostrar os empréstimos imediatamente' então vai ver a lista de "
+"todos os empréstimos abaixo da caixa de empréstimos."
 
 #: ../../source/circulation.rst:92
 msgid "|image486|"
 msgstr "|image486|"
 
 #: ../../source/circulation.rst:96
-msgid "The :ref:`previousIssuesDefaultSortOrder` system preference controls in which order these previous checkouts appear (earliest to latest, or latest to earliest)."
+msgid ""
+"The :ref:`previousIssuesDefaultSortOrder` system preference controls in "
+"which order these previous checkouts appear (earliest to latest, or latest "
+"to earliest)."
 msgstr ""
 
 #: ../../source/circulation.rst:102
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: issues-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: issues-table)."
 msgstr ""
 
 #: ../../source/circulation.rst:106
 #, fuzzy
-msgid "At the top of the check out screen is a box for you to type or scan the item's barcode into."
-msgstr "Na parte superior da tela do Empréstimos, existe uma caixa para digitar ou ler códigos de barras do exemplar em questão. "
+msgid ""
+"At the top of the check out screen is a box for you to type or scan the "
+"item's barcode into."
+msgstr ""
+"Na parte superior da tela do Empréstimos, existe uma caixa para digitar ou "
+"ler códigos de barras do exemplar em questão. "
 
 #: ../../source/circulation.rst:109 ../../source/circulation.rst:637
 #: ../../source/circulation.rst:1186 ../../source/circulation.rst:1349
@@ -182,25 +236,46 @@ msgstr "Importante "
 
 #: ../../source/circulation.rst:111
 #, fuzzy
-msgid "Many modern barcode scanners will send a 'return' to the browser, making it so that the 'Check out' button is automatically clicked"
-msgstr "Importante: Muitos dos scanners de códigos de barras enviam um pedido ao browser, e o botão 'Emprestar' é automaticamente carregado"
+msgid ""
+"Many modern barcode scanners will send a 'return' to the browser, making it "
+"so that the 'Check out' button is automatically clicked"
+msgstr ""
+"Importante: Muitos dos scanners de códigos de barras enviam um pedido ao "
+"browser, e o botão 'Emprestar' é automaticamente carregado"
 
 #: ../../source/circulation.rst:114
 #, fuzzy
-msgid "If the barcode is not found you will be prompted to use fast cataloging to add the item. Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in this manual."
-msgstr "Se o código de barras não for encontrado será perguntado se deseja usar a catalogação rápida para adicionar o exemplar. Aprenda mais sobre catalogação rápida posteriormente neste manual."
+msgid ""
+"If the barcode is not found you will be prompted to use fast cataloging to "
+"add the item. Learn more about :ref:`fast cataloging <fast-add-cataloging-"
+"label>` later in this manual."
+msgstr ""
+"Se o código de barras não for encontrado será perguntado se deseja usar a "
+"catalogação rápida para adicionar o exemplar. Aprenda mais sobre catalogação "
+"rápida posteriormente neste manual."
 
 #: ../../source/circulation.rst:118
 #, fuzzy
-msgid "If you have :ref:`itemBarcodeFallbackSearch` set to 'Enable', then you can enter a keyword search in this box instead of just a barcode (this will make it possible to check out using title and/or call number)."
-msgstr "Se tiver a preferência de sistema itemBarcodeFallbackSearch definida para 'Ativar' então pode inserir um termo de pesquisa nesta caixa em vez do código de barras (permite assim efetuar empréstimos usando o título ou a cota)."
+msgid ""
+"If you have :ref:`itemBarcodeFallbackSearch` set to 'Enable', then you can "
+"enter a keyword search in this box instead of just a barcode (this will make "
+"it possible to check out using title and/or call number)."
+msgstr ""
+"Se tiver a preferência de sistema itemBarcodeFallbackSearch definida para "
+"'Ativar' então pode inserir um termo de pesquisa nesta caixa em vez do "
+"código de barras (permite assim efetuar empréstimos usando o título ou a "
+"cota)."
 
 #: ../../source/circulation.rst:123
-msgid "If you have :ref:`AutoSwitchPatron` set to 'Enable', scanning a patron barcode here will take you to that patron's file."
+msgid ""
+"If you have :ref:`AutoSwitchPatron` set to 'Enable', scanning a patron "
+"barcode here will take you to that patron's file."
 msgstr ""
 
 #: ../../source/circulation.rst:126
-msgid "To see more checkout options click the 'Checkout settings' link to expand the checkout area."
+msgid ""
+"To see more checkout options click the 'Checkout settings' link to expand "
+"the checkout area."
 msgstr ""
 
 #: ../../source/circulation.rst:129
@@ -208,27 +283,52 @@ msgid "|image1255|"
 msgstr "|image1255|"
 
 #: ../../source/circulation.rst:131
-msgid "Below the box for the barcode there may be options for you to override the default due date for the item."
-msgstr "Abaixo da caixa para o código de barras podem estar opções para substituir a data de devolução do exemplar."
+msgid ""
+"Below the box for the barcode there may be options for you to override the "
+"default due date for the item."
+msgstr ""
+"Abaixo da caixa para o código de barras podem estar opções para substituir a "
+"data de devolução do exemplar."
 
 #: ../../source/circulation.rst:134
 #, fuzzy
-msgid "This option will only appear if you have set the :ref:`SpecifyDueDate` system preference to allow staff to override the due date"
-msgstr "Esta opção só aparecerá se você tiver definido a preferência de sistema SpecifyDueDate para permitir aos funcionários substituir a data de devolução"
+msgid ""
+"This option will only appear if you have set the :ref:`SpecifyDueDate` "
+"system preference to allow staff to override the due date"
+msgstr ""
+"Esta opção só aparecerá se você tiver definido a preferência de sistema "
+"SpecifyDueDate para permitir aos funcionários substituir a data de devolução"
 
 #: ../../source/circulation.rst:138
 #, fuzzy
-msgid "Below the box for the barcode you will see a checkbox for 'Automatic renewal'. This will allow this item to automatically renew if the :ref:`appropriate cron job <cron-automatic-renewal-label>` is running and there are no holds on the item."
-msgstr "Abaixo da caixa para o código de barras irá ver a opção 'Renovação automática'. Isto permite que o exemplar seja automaticamente renovado se a respetiva tarefa estiver a correr e não houver reservas sobre o mesmo."
+msgid ""
+"Below the box for the barcode you will see a checkbox for 'Automatic "
+"renewal'. This will allow this item to automatically renew if the :ref:"
+"`appropriate cron job <cron-automatic-renewal-label>` is running and there "
+"are no holds on the item."
+msgstr ""
+"Abaixo da caixa para o código de barras irá ver a opção 'Renovação "
+"automática'. Isto permite que o exemplar seja automaticamente renovado se a "
+"respetiva tarefa estiver a correr e não houver reservas sobre o mesmo."
 
 #: ../../source/circulation.rst:143
-msgid "Next is an option to not decrease the loan length based on holds. This overrides the :ref:`decreaseLoanHighHolds` system preference."
+msgid ""
+"Next is an option to not decrease the loan length based on holds. This "
+"overrides the :ref:`decreaseLoanHighHolds` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:146
 #, fuzzy
-msgid "If you're allowing the :ref:`checkout of items on site <onsitecheckouts-label>` to patrons (these are usually items that are not for loan that you would like to check for in library use) then you will see the 'On-site checkout' checkbox after clicking the 'Checkout settings' link to expand your circulation options."
-msgstr "Se permitir o empréstimo online aos leitores (normalmente são exemplares que não são para empréstimo que quer emprestar para uso na biblioteca) verá uma caixa de seleção 'Empréstimo online'."
+msgid ""
+"If you're allowing the :ref:`checkout of items on site <onsitecheckouts-"
+"label>` to patrons (these are usually items that are not for loan that you "
+"would like to check for in library use) then you will see the 'On-site "
+"checkout' checkbox after clicking the 'Checkout settings' link to expand "
+"your circulation options."
+msgstr ""
+"Se permitir o empréstimo online aos leitores (normalmente são exemplares que "
+"não são para empréstimo que quer emprestar para uso na biblioteca) verá uma "
+"caixa de seleção 'Empréstimo online'."
 
 #: ../../source/circulation.rst:152
 msgid "|image1256|"
@@ -236,11 +336,18 @@ msgstr "|image1256|"
 
 #: ../../source/circulation.rst:154
 #, fuzzy
-msgid "At the bottom of the page there is a summary of the patron's current checked out items along with the due date (and time if the item is an hourly loan). Items checked out today will appear at the top."
-msgstr "Na parte inferior da página há um resumo actual dos exemplares emprestados ao leitor junto com a data de devolução (e hora se for um empréstimo horário), exemplares emprestados hoje aparecerão no topo."
+msgid ""
+"At the bottom of the page there is a summary of the patron's current checked "
+"out items along with the due date (and time if the item is an hourly loan). "
+"Items checked out today will appear at the top."
+msgstr ""
+"Na parte inferior da página há um resumo actual dos exemplares emprestados "
+"ao leitor junto com a data de devolução (e hora se for um empréstimo "
+"horário), exemplares emprestados hoje aparecerão no topo."
 
 #: ../../source/circulation.rst:160
-msgid "Items that are hourly loan items will include the time with the due date."
+msgid ""
+"Items that are hourly loan items will include the time with the due date."
 msgstr ""
 
 #: ../../source/circulation.rst:163
@@ -248,19 +355,28 @@ msgid "|image487|"
 msgstr "|image487|"
 
 #: ../../source/circulation.rst:165
-msgid "If you checked out an item for on site use you will see that highlighted in red in the checkout summary."
-msgstr "Se emprestou um exemplar para uso local verá que o exemplar vai aparecer realçado em vermelho nos empréstimos."
+msgid ""
+"If you checked out an item for on site use you will see that highlighted in "
+"red in the checkout summary."
+msgstr ""
+"Se emprestou um exemplar para uso local verá que o exemplar vai aparecer "
+"realçado em vermelho nos empréstimos."
 
 #: ../../source/circulation.rst:168
 msgid "|image488|"
 msgstr "|image488|"
 
 #: ../../source/circulation.rst:172
-msgid "The :ref:`todaysIssuesDefaultSortOrder` system preference controls in which order these new checkouts appear (earliest to latest, or latest to earliest)."
+msgid ""
+"The :ref:`todaysIssuesDefaultSortOrder` system preference controls in which "
+"order these new checkouts appear (earliest to latest, or latest to earliest)."
 msgstr ""
 
 #: ../../source/circulation.rst:176
-msgid "The 'Export' button at the top of the table allows you to export the patron's current checkouts in either Microsoft Excel or CSV format, or even copy or print their checkouts."
+msgid ""
+"The 'Export' button at the top of the table allows you to export the "
+"patron's current checkouts in either Microsoft Excel or CSV format, or even "
+"copy or print their checkouts."
 msgstr ""
 
 #: ../../source/circulation.rst:180
@@ -269,8 +385,11 @@ msgstr "|image489|"
 
 #: ../../source/circulation.rst:182
 #, fuzzy
-msgid "Also at the bottom of the page is the list of items the patron has on hold."
-msgstr "Também aparece no fundo da página a lista de exemplares que o leitor tem reservado"
+msgid ""
+"Also at the bottom of the page is the list of items the patron has on hold."
+msgstr ""
+"Também aparece no fundo da página a lista de exemplares que o leitor tem "
+"reservado"
 
 #: ../../source/circulation.rst:185 ../../source/circulation.rst:895
 msgid "|image490|"
@@ -278,17 +397,33 @@ msgstr "|image490|"
 
 #: ../../source/circulation.rst:187
 #, fuzzy
-msgid "If you have the :ref:`SuspendHoldsIntranet` system preference set to 'allow', you can suspend or resume patrons holds using the options at the bottom of the holds list ."
-msgstr "Se tiver definido a preferência de sistema SpecifyReturnDate para 'Permitir' poderá definir arbitrariamente a data de retorno embaixo da caixa de devolução."
+msgid ""
+"If you have the :ref:`SuspendHoldsIntranet` system preference set to "
+"'allow', you can suspend or resume patrons holds using the options at the "
+"bottom of the holds list ."
+msgstr ""
+"Se tiver definido a preferência de sistema SpecifyReturnDate para 'Permitir' "
+"poderá definir arbitrariamente a data de retorno embaixo da caixa de "
+"devolução."
 
 #: ../../source/circulation.rst:193
 #, fuzzy
-msgid "If you have your :ref:`AutoResumeSuspendedHolds` system preference set to \"Don't allow\", you will not have the option to put an end date on the hold suspension"
-msgstr "Se tem a preferência do sistemas AutoResumeSuspendedHolds definida para \"Não permitir\" então não terá a opção para inserir uma data de fim para a suspensão de reserva"
+msgid ""
+"If you have your :ref:`AutoResumeSuspendedHolds` system preference set to "
+"\"Don't allow\", you will not have the option to put an end date on the hold "
+"suspension"
+msgstr ""
+"Se tem a preferência do sistemas AutoResumeSuspendedHolds definida para "
+"\"Não permitir\" então não terá a opção para inserir uma data de fim para a "
+"suspensão de reserva"
 
 #: ../../source/circulation.rst:197
-msgid "If there are notes on the patron record these will appear to the right of the checkout box"
-msgstr "Se existem notas no registo do leitor as mesmas aparecem à direita da caixa de empréstimo"
+msgid ""
+"If there are notes on the patron record these will appear to the right of "
+"the checkout box"
+msgstr ""
+"Se existem notas no registo do leitor as mesmas aparecem à direita da caixa "
+"de empréstimo"
 
 #: ../../source/circulation.rst:200
 msgid "|image491|"
@@ -296,8 +431,14 @@ msgstr "|image491|"
 
 #: ../../source/circulation.rst:202
 #, fuzzy
-msgid "If the patron has a hold waiting at the library, that too will appear to the right of the check out box making it easy for the circulation staff to see that there is another item to give to the patron."
-msgstr "Se o leitor tem uma reserva em espera na biblioteca, aparecerá uma mensagem do lado direito da caixa de empréstimo para que o técnico possa ver se existe outro item a fornecer ao leitor"
+msgid ""
+"If the patron has a hold waiting at the library, that too will appear to the "
+"right of the check out box making it easy for the circulation staff to see "
+"that there is another item to give to the patron."
+msgstr ""
+"Se o leitor tem uma reserva em espera na biblioteca, aparecerá uma mensagem "
+"do lado direito da caixa de empréstimo para que o técnico possa ver se "
+"existe outro item a fornecer ao leitor"
 
 #: ../../source/circulation.rst:206
 msgid "|image492|"
@@ -305,8 +446,12 @@ msgstr "|image492|"
 
 #: ../../source/circulation.rst:208
 #, fuzzy
-msgid "The details of the checkouts will appear on the record detail page in the staff client as well."
-msgstr "Os detalhes dos empréstimos também vão aparecer na página de detalhes do registo no interface dos técnicos."
+msgid ""
+"The details of the checkouts will appear on the record detail page in the "
+"staff client as well."
+msgstr ""
+"Os detalhes dos empréstimos também vão aparecer na página de detalhes do "
+"registo no interface dos técnicos."
 
 #: ../../source/circulation.rst:211
 msgid "|image493|"
@@ -318,34 +463,65 @@ msgid "Printing receipts"
 msgstr "Imprimir recibos"
 
 #: ../../source/circulation.rst:218
-msgid "Once you have checked out all of the items for the patron you can print them a receipt by choosing one of two methods."
-msgstr "Após ter emprestado todos os exemplares desejados pelo leitor, é possível imprimir um recibo escolhendo um dos dois métodos."
+msgid ""
+"Once you have checked out all of the items for the patron you can print them "
+"a receipt by choosing one of two methods."
+msgstr ""
+"Após ter emprestado todos os exemplares desejados pelo leitor, é possível "
+"imprimir um recibo escolhendo um dos dois métodos."
 
 #: ../../source/circulation.rst:221
 #, fuzzy
-msgid "If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'open a print quick slip window' you can simply hit enter on your keyboard or scan a blank piece of paper with your barcode scanner. The idea being that you're \"checking out\" a blank barcode which triggers Koha to print the 'Quick slip.'"
-msgstr "Se tem a preferência do sistemas CircAutoPrintQuickSlip definida para 'abrir uma janela de recibo rápido' basta carregar em enter ou ler um pedaço de papel branco com o leitor de códigos. A ideia é emprestar um código de barras vazio para activar a impressão."
+msgid ""
+"If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'open a "
+"print quick slip window' you can simply hit enter on your keyboard or scan a "
+"blank piece of paper with your barcode scanner. The idea being that you're "
+"\"checking out\" a blank barcode which triggers Koha to print the 'Quick "
+"slip.'"
+msgstr ""
+"Se tem a preferência do sistemas CircAutoPrintQuickSlip definida para 'abrir "
+"uma janela de recibo rápido' basta carregar em enter ou ler um pedaço de "
+"papel branco com o leitor de códigos. A ideia é emprestar um código de "
+"barras vazio para activar a impressão."
 
 #: ../../source/circulation.rst:227
-msgid "You can also click the Print button at the top of the screen and choose 'Print slip' or 'Print quick slip'."
-msgstr "Pode também clicar no botão de impressão no topo do ecrã e escolher em o recibo e o recibo rápido."
+msgid ""
+"You can also click the Print button at the top of the screen and choose "
+"'Print slip' or 'Print quick slip'."
+msgstr ""
+"Pode também clicar no botão de impressão no topo do ecrã e escolher em o "
+"recibo e o recibo rápido."
 
 #: ../../source/circulation.rst:230
 msgid "|image494|"
 msgstr "|image494|"
 
 #: ../../source/circulation.rst:232
-msgid "If you choose 'Print slip' it will print all of the items the patron has checked out, including those they checked out at an earlier date. Choosing 'Print quick slip' will print only the items that were checked out today."
-msgstr "Se escolher 'Imprimir recibo' irá imprimir todos os exemplares que o leitor tem na sua posse, incluindo os que foram emprestados numa data anterior à de hoje. Se escolher 'Imprimir recibo rápido' apenas os emprestados hoje aparecerão."
+msgid ""
+"If you choose 'Print slip' it will print all of the items the patron has "
+"checked out, including those they checked out at an earlier date. Choosing "
+"'Print quick slip' will print only the items that were checked out today."
+msgstr ""
+"Se escolher 'Imprimir recibo' irá imprimir todos os exemplares que o leitor "
+"tem na sua posse, incluindo os que foram emprestados numa data anterior à de "
+"hoje. Se escolher 'Imprimir recibo rápido' apenas os emprestados hoje "
+"aparecerão."
 
 #: ../../source/circulation.rst:237
-msgid "'Print summary' will generate a full page summary for the patron's circulation information and 'Print overdues' will print out a slip that lists all items that are overdue."
+msgid ""
+"'Print summary' will generate a full page summary for the patron's "
+"circulation information and 'Print overdues' will print out a slip that "
+"lists all items that are overdue."
 msgstr ""
 
 #: ../../source/circulation.rst:241
 #, fuzzy
-msgid "What prints on the slips can be customized by altering the slip templates under the :ref:`Notices & slips` tool."
-msgstr "Que impressões de recibos podem ser personalizadas alterando os modelos de recibos na ferramenta de avisos e recibos."
+msgid ""
+"What prints on the slips can be customized by altering the slip templates "
+"under the :ref:`Notices & slips` tool."
+msgstr ""
+"Que impressões de recibos podem ser personalizadas alterando os modelos de "
+"recibos na ferramenta de avisos e recibos."
 
 #: ../../source/circulation.rst:247
 #, fuzzy
@@ -354,8 +530,16 @@ msgstr "Limpar informação de leitor"
 
 #: ../../source/circulation.rst:249
 #, fuzzy
-msgid "When you're done checking an item out if you have the :ref:`DisplayClearScreenButton` preference set to 'Show' you can clear the current patron by clicking the X in the top right of the patron's info to remove the current patron from the screen and start over."
-msgstr "Quando terminar o empréstimo de um exemplo, se tiver a preferência de sistema DisplayClearScreenButton definida para 'Mostrar' pode sair do leitor ao clicar no X no topo do lado direito da informação do leitor e começar de novo."
+msgid ""
+"When you're done checking an item out if you have the :ref:"
+"`DisplayClearScreenButton` preference set to 'Show' you can clear the "
+"current patron by clicking the X in the top right of the patron's info to "
+"remove the current patron from the screen and start over."
+msgstr ""
+"Quando terminar o empréstimo de um exemplo, se tiver a preferência de "
+"sistema DisplayClearScreenButton definida para 'Mostrar' pode sair do leitor "
+"ao clicar no X no topo do lado direito da informação do leitor e começar de "
+"novo."
 
 #: ../../source/circulation.rst:255
 msgid "|image495|"
@@ -363,8 +547,14 @@ msgstr "|image495|"
 
 #: ../../source/circulation.rst:257
 #, fuzzy
-msgid "If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'clear the screen' then you simply need to hit enter or scan a blank barcode and the screen will be cleared of the current patron."
-msgstr "Se tem a preferência do sistemas CircAutoPrintQuickSlip definida para 'limpar o ecrã' só tem que inserir um código de barras vazio e o ecrã será limpo do leitor corrente."
+msgid ""
+"If you have the :ref:`CircAutoPrintQuickSlip` preference set to 'clear the "
+"screen' then you simply need to hit enter or scan a blank barcode and the "
+"screen will be cleared of the current patron."
+msgstr ""
+"Se tem a preferência do sistemas CircAutoPrintQuickSlip definida para "
+"'limpar o ecrã' só tem que inserir um código de barras vazio e o ecrã será "
+"limpo do leitor corrente."
 
 #: ../../source/circulation.rst:265
 #, fuzzy
@@ -372,7 +562,12 @@ msgid "Batch checkouts"
 msgstr "Lote de empréstimo"
 
 #: ../../source/circulation.rst:267
-msgid "If you would like to perform a batch check out you can do so by turning on the :ref:`BatchCheckouts` system preference and assigning the proper patron categories via the :ref:`BatchCheckoutsValidCategories` preference. This will allow you to use an RFID pad that reads multiple barcodes or perform a batch check out for training internal use."
+msgid ""
+"If you would like to perform a batch check out you can do so by turning on "
+"the :ref:`BatchCheckouts` system preference and assigning the proper patron "
+"categories via the :ref:`BatchCheckoutsValidCategories` preference. This "
+"will allow you to use an RFID pad that reads multiple barcodes or perform a "
+"batch check out for training internal use."
 msgstr ""
 
 #: ../../source/circulation.rst:274
@@ -380,7 +575,10 @@ msgid "|image1257|"
 msgstr "|image1257|"
 
 #: ../../source/circulation.rst:276
-msgid "From this screen you can scan several barcodes or load a file of barcodes. If those items cannot be checked out they will provide a warning on the following screen"
+msgid ""
+"From this screen you can scan several barcodes or load a file of barcodes. "
+"If those items cannot be checked out they will provide a warning on the "
+"following screen"
 msgstr ""
 
 #: ../../source/circulation.rst:280
@@ -388,7 +586,9 @@ msgid "|image496|"
 msgstr "|image496|"
 
 #: ../../source/circulation.rst:282
-msgid "If you are using a statistical patron type then you'll see that local use was recorded for each item you scanned."
+msgid ""
+"If you are using a statistical patron type then you'll see that local use "
+"was recorded for each item you scanned."
 msgstr ""
 
 #: ../../source/circulation.rst:285
@@ -401,16 +601,30 @@ msgid "Check out messages"
 msgstr "Mensagens de empréstimo"
 
 #: ../../source/circulation.rst:292
-msgid "If you check out an item that has multiple pieces and you have cataloged that information in subfield 3 of the item record (in MARC21) a message will pop up when you check out that item telling you how many pieces should be there."
-msgstr "Se emprestar um exemplar que tem várias partes e se catalogou essa informação no subcampo 3 do exemplar (MARC21) uma mensagem aparecerá aquando do empréstimo a avisar quantas partes devem estar."
+msgid ""
+"If you check out an item that has multiple pieces and you have cataloged "
+"that information in subfield 3 of the item record (in MARC21) a message will "
+"pop up when you check out that item telling you how many pieces should be "
+"there."
+msgstr ""
+"Se emprestar um exemplar que tem várias partes e se catalogou essa "
+"informação no subcampo 3 do exemplar (MARC21) uma mensagem aparecerá aquando "
+"do empréstimo a avisar quantas partes devem estar."
 
 #: ../../source/circulation.rst:297
 msgid "|image498|"
 msgstr "|image498|"
 
 #: ../../source/circulation.rst:299
-msgid "There are times when Koha will prevent the librarian from being able to check out items to a patron. When this happens a warning will appear notifying the librarian of why the patron cannot check items out."
-msgstr "Há momentos em que Koha vai impedir que o bibliotecário de ser capaz de emprestar itens a um leitor. Quando isso acontece, aparece um aviso notificando o bibliotecário do porquê de o leitor não poder receber mais itens."
+msgid ""
+"There are times when Koha will prevent the librarian from being able to "
+"check out items to a patron. When this happens a warning will appear "
+"notifying the librarian of why the patron cannot check items out."
+msgstr ""
+"Há momentos em que Koha vai impedir que o bibliotecário de ser capaz de "
+"emprestar itens a um leitor. Quando isso acontece, aparece um aviso "
+"notificando o bibliotecário do porquê de o leitor não poder receber mais "
+"itens."
 
 #: ../../source/circulation.rst:303
 #, fuzzy
@@ -423,8 +637,12 @@ msgstr "|image499|"
 
 #: ../../source/circulation.rst:307
 #, fuzzy
-msgid "You can set the amount at which patron checkouts are blocked with the :ref:`noissuescharge` system preference"
-msgstr "Pode definir o montante que bloqueia os empréstimos do leitor com a preferência do sistema noissuescharge"
+msgid ""
+"You can set the amount at which patron checkouts are blocked with the :ref:"
+"`noissuescharge` system preference"
+msgstr ""
+"Pode definir o montante que bloqueia os empréstimos do leitor com a "
+"preferência do sistema noissuescharge"
 
 #: ../../source/circulation.rst:310
 #, fuzzy
@@ -437,12 +655,21 @@ msgstr "|image500|"
 
 #: ../../source/circulation.rst:314
 #, fuzzy
-msgid "This can be set by the librarian editing a patron record and adding a `restriction <#patronflags>`__ or by the :ref:`Overdue/Notice Status Triggers <overdue-notice/status-triggers-label>`"
-msgstr "Isso pode ser definido pela edição de um registo de leitor e adicionando uma restrição ou pelo módulo de avisos de atraso"
+msgid ""
+"This can be set by the librarian editing a patron record and adding a "
+"`restriction <#patronflags>`__ or by the :ref:`Overdue/Notice Status "
+"Triggers <overdue-notice/status-triggers-label>`"
+msgstr ""
+"Isso pode ser definido pela edição de um registo de leitor e adicionando uma "
+"restrição ou pelo módulo de avisos de atraso"
 
 #: ../../source/circulation.rst:318
-msgid "If the staff member has the right permission they can override the restriction temporarily"
-msgstr "Se o bibliotecário tiver as permissões certas pode sobrepor a restrição temporariamente"
+msgid ""
+"If the staff member has the right permission they can override the "
+"restriction temporarily"
+msgstr ""
+"Se o bibliotecário tiver as permissões certas pode sobrepor a restrição "
+"temporariamente"
 
 #: ../../source/circulation.rst:321
 msgid "|image501|"
@@ -459,8 +686,12 @@ msgstr "|image502|"
 
 #: ../../source/circulation.rst:327 ../../source/circulation.rst:334
 #, fuzzy
-msgid "This can be set by the librarian editing a patron record and adding a `flag <#patronflags>`__"
-msgstr "Isso pode ser definido pela edição de um registo de leitor e adicionando um sinal"
+msgid ""
+"This can be set by the librarian editing a patron record and adding a `flag "
+"<#patronflags>`__"
+msgstr ""
+"Isso pode ser definido pela edição de um registo de leitor e adicionando um "
+"sinal"
 
 #: ../../source/circulation.rst:330
 #, fuzzy
@@ -477,8 +708,14 @@ msgid "Check out warnings"
 msgstr "Avisos de empréstimo"
 
 #: ../../source/circulation.rst:342
-msgid "Sometimes checkouts will trigger warning messages that will appear in a yellow box above the check out field. These warnings need to be acknowledged before you will be able to continue checking items out."
-msgstr "Por vezes os empréstimos accionam mensagens de avisos que irão aparecer numa caixa amarela acima do campo de empréstimo. Estes avisos precisam de ser conhecidos antes de continuar com o empréstimo."
+msgid ""
+"Sometimes checkouts will trigger warning messages that will appear in a "
+"yellow box above the check out field. These warnings need to be acknowledged "
+"before you will be able to continue checking items out."
+msgstr ""
+"Por vezes os empréstimos accionam mensagens de avisos que irão aparecer numa "
+"caixa amarela acima do campo de empréstimo. Estes avisos precisam de ser "
+"conhecidos antes de continuar com o empréstimo."
 
 #: ../../source/circulation.rst:346
 msgid "Patron has outstanding fines"
@@ -521,7 +758,9 @@ msgid "|image508|"
 msgstr "|image508|"
 
 #: ../../source/circulation.rst:366
-msgid "This warning will allow you to place a hold on the item for the patron you're trying to check it out to."
+msgid ""
+"This warning will allow you to place a hold on the item for the patron "
+"you're trying to check it out to."
 msgstr ""
 
 #: ../../source/circulation.rst:369
@@ -534,7 +773,9 @@ msgstr "|image509|"
 
 #: ../../source/circulation.rst:373
 #, fuzzy
-msgid "Patron has too many things checked out and :ref:`AllowTooManyOverride` is set to 'Allow'"
+msgid ""
+"Patron has too many things checked out and :ref:`AllowTooManyOverride` is "
+"set to 'Allow'"
 msgstr "Leitor tem muitos exemplares emprestados"
 
 #: ../../source/circulation.rst:376
@@ -542,7 +783,9 @@ msgid "|image510|"
 msgstr "|image510|"
 
 #: ../../source/circulation.rst:378
-msgid "Patron has too many things checked out and :ref:`AllowTooManyOverride` is set to \"Don't allow\""
+msgid ""
+"Patron has too many things checked out and :ref:`AllowTooManyOverride` is "
+"set to \"Don't allow\""
 msgstr ""
 
 #: ../../source/circulation.rst:382
@@ -560,8 +803,12 @@ msgstr "|image512|"
 
 #: ../../source/circulation.rst:388
 #, fuzzy
-msgid "This can be overridden with the :ref:`AllowRenewalLimitOverride` system preference"
-msgstr "Isto pode ser sobreposto com a preferência de sistema AllowRenewalLimitOverride"
+msgid ""
+"This can be overridden with the :ref:`AllowRenewalLimitOverride` system "
+"preference"
+msgstr ""
+"Isto pode ser sobreposto com a preferência de sistema "
+"AllowRenewalLimitOverride"
 
 #: ../../source/circulation.rst:392
 msgid "Barcode not found"
@@ -573,7 +820,9 @@ msgstr "|image513|"
 
 #: ../../source/circulation.rst:396
 #, fuzzy
-msgid "Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in this manual."
+msgid ""
+"Learn more about :ref:`fast cataloging <fast-add-cataloging-label>` later in "
+"this manual."
 msgstr "Aprenda mais sobre catalogação rápida neste ficheiro."
 
 #: ../../source/circulation.rst:399
@@ -583,8 +832,12 @@ msgstr "Exemplar a ser emprestado está marcado como 'perdido' "
 
 #: ../../source/circulation.rst:401
 #, fuzzy
-msgid "Depending on the value in your :ref:`IssueLostItem` preference, you may just see a warning"
-msgstr "Dependendo do valor da preferência IssueLostItem, pode ver um aviso ou um caixa de confirmação"
+msgid ""
+"Depending on the value in your :ref:`IssueLostItem` preference, you may just "
+"see a warning"
+msgstr ""
+"Dependendo do valor da preferência IssueLostItem, pode ver um aviso ou um "
+"caixa de confirmação"
 
 #: ../../source/circulation.rst:404
 msgid "|image514|"
@@ -608,7 +861,9 @@ msgid "|image516|"
 msgstr "|image516|"
 
 #: ../../source/circulation.rst:414
-msgid "Item being checked out meets the :ref:`decreaseLoanHighHolds <decreaseloanhighholds-preferences-label>` system preference criteria"
+msgid ""
+"Item being checked out meets the :ref:`decreaseLoanHighHolds "
+"<decreaseloanhighholds-preferences-label>` system preference criteria"
 msgstr ""
 
 #: ../../source/circulation.rst:418
@@ -622,20 +877,31 @@ msgstr "Renovar"
 
 #: ../../source/circulation.rst:425
 #, fuzzy
-msgid "Checked out items can be renewed (checked out for another period of time) based on your :ref:`circulation rules <circulation-and-fines-rules-label>` and :ref:`renewal preferences <renewalperiodbase-label>`."
-msgstr "Exemplares emprestados podem ser renovados (emprestados por outro período de tempo) de acordo com as regras de circulação e preferências de renovação."
+msgid ""
+"Checked out items can be renewed (checked out for another period of time) "
+"based on your :ref:`circulation rules <circulation-and-fines-rules-label>` "
+"and :ref:`renewal preferences <renewalperiodbase-label>`."
+msgstr ""
+"Exemplares emprestados podem ser renovados (emprestados por outro período de "
+"tempo) de acordo com as regras de circulação e preferências de renovação."
 
 #: ../../source/circulation.rst:429
-msgid "If :ref:`you allow it <opacrenewalallowed-label>`, patrons can renew their own items via the OPAC, but sometimes you'll need to help them by renewing their items via the staff client."
+msgid ""
+"If :ref:`you allow it <opacrenewalallowed-label>`, patrons can renew their "
+"own items via the OPAC, but sometimes you'll need to help them by renewing "
+"their items via the staff client."
 msgstr ""
 
 #: ../../source/circulation.rst:433
 #, fuzzy
 msgid "To renew items checked out to a patron, you can do one of two things."
-msgstr "Este exemplar está emprestado a outro leitor. %s Devolver e emprestar? %s"
+msgstr ""
+"Este exemplar está emprestado a outro leitor. %s Devolver e emprestar? %s"
 
 #: ../../source/circulation.rst:435
-msgid "The first is to visit their details page or checkout page and review their checkout summary at the bottom."
+msgid ""
+"The first is to visit their details page or checkout page and review their "
+"checkout summary at the bottom."
 msgstr ""
 
 #: ../../source/circulation.rst:438
@@ -643,7 +909,12 @@ msgid "|image518|"
 msgstr "|image518|"
 
 #: ../../source/circulation.rst:440
-msgid "In the Renew column you will see how many times each item has been renewed and a checkbox to renew the item for the patron. Check the boxed of the items you would like to renew and click the 'Renew or return checked items' button, or to renew all items checked out to the patron simply click the 'Renew all' button."
+msgid ""
+"In the Renew column you will see how many times each item has been renewed "
+"and a checkbox to renew the item for the patron. Check the boxed of the "
+"items you would like to renew and click the 'Renew or return checked items' "
+"button, or to renew all items checked out to the patron simply click the "
+"'Renew all' button."
 msgstr ""
 
 #: ../../source/circulation.rst:446
@@ -651,7 +922,12 @@ msgid "|image519|"
 msgstr "|image519|"
 
 #: ../../source/circulation.rst:448
-msgid "Sometimes renewals will be blocked based on your circulation rules, to override this block you must have your :ref:`AllowRenewalLimitOverride` preference set to 'Allow'. If you allow renewal limit overrides, you will see a checkbox at the bottom left of the circulation summary. Check that box and then choose the items you would like to renew."
+msgid ""
+"Sometimes renewals will be blocked based on your circulation rules, to "
+"override this block you must have your :ref:`AllowRenewalLimitOverride` "
+"preference set to 'Allow'. If you allow renewal limit overrides, you will "
+"see a checkbox at the bottom left of the circulation summary. Check that box "
+"and then choose the items you would like to renew."
 msgstr ""
 
 #: ../../source/circulation.rst:455
@@ -659,12 +935,16 @@ msgid "|image520|"
 msgstr "|image520|"
 
 #: ../../source/circulation.rst:457
-msgid "Checking that box will add checkboxes in the renew column above where before the item was not renewable."
+msgid ""
+"Checking that box will add checkboxes in the renew column above where before "
+"the item was not renewable."
 msgstr ""
 
 #: ../../source/circulation.rst:460
 #, fuzzy
-msgid "The second option is to visit the 'Renew' page found under the Circulation menu."
+msgid ""
+"The second option is to visit the 'Renew' page found under the Circulation "
+"menu."
 msgstr "A página de devolução no menu de empréstimo"
 
 #: ../../source/circulation.rst:463
@@ -674,7 +954,8 @@ msgstr "|image521|"
 #: ../../source/circulation.rst:465
 #, fuzzy
 msgid "And scan the barcodes of the items you would like to renew."
-msgstr "Digitar ou inserir o código de barras do exemplar que deseja transferir"
+msgstr ""
+"Digitar ou inserir o código de barras do exemplar que deseja transferir"
 
 #: ../../source/circulation.rst:467
 msgid "|image522|"
@@ -683,7 +964,9 @@ msgstr "|image522|"
 #: ../../source/circulation.rst:469
 #, fuzzy
 msgid "If the item is renewed you will receive a confirmation message."
-msgstr "Depois de carregar o ficheiro, será presenteado com uma mensagem de confirmação."
+msgstr ""
+"Depois de carregar o ficheiro, será presenteado com uma mensagem de "
+"confirmação."
 
 #: ../../source/circulation.rst:471
 msgid "|image523|"
@@ -701,7 +984,9 @@ msgstr "|image524|"
 #: ../../source/circulation.rst:477
 #, fuzzy
 msgid "If the item is not actually checked out you will also receive an error."
-msgstr "Assim que um exemplar é emprestado irá aparecerá abaixo da informação do leitor."
+msgstr ""
+"Assim que um exemplar é emprestado irá aparecerá abaixo da informação do "
+"leitor."
 
 #: ../../source/circulation.rst:479
 msgid "|image525|"
@@ -733,8 +1018,12 @@ msgid "|image527|"
 msgstr "|image527|"
 
 #: ../../source/circulation.rst:496
-msgid "The check in link on the patron's checkout summary (and on the checkout summary page)"
-msgstr "A ligação de devolução no sumário de devolução do leitor (e no sumário de empréstimo)"
+msgid ""
+"The check in link on the patron's checkout summary (and on the checkout "
+"summary page)"
+msgstr ""
+"A ligação de devolução no sumário de devolução do leitor (e no sumário de "
+"empréstimo)"
 
 #: ../../source/circulation.rst:499
 msgid "|image528|"
@@ -754,34 +1043,64 @@ msgid "Checking items in"
 msgstr "Devolver exemplares"
 
 #: ../../source/circulation.rst:510
-msgid "To check an item in scan the barcode for the item into the box provided. A summary of all items checked in will appear below the checkin box"
-msgstr "Para devolver um item digitalize o código de barras para o item na caixa fornecida. Um resumo de todos os itens devolvidos aparecerá debaixo da caixa de devolução"
+msgid ""
+"To check an item in scan the barcode for the item into the box provided. A "
+"summary of all items checked in will appear below the checkin box"
+msgstr ""
+"Para devolver um item digitalize o código de barras para o item na caixa "
+"fornecida. Um resumo de todos os itens devolvidos aparecerá debaixo da caixa "
+"de devolução"
 
 #: ../../source/circulation.rst:513
 msgid "|image530|"
 msgstr "|image530|"
 
 #: ../../source/circulation.rst:517
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: checkedintable)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: checkedintable)."
 msgstr ""
 
 #: ../../source/circulation.rst:521
-msgid "If you are checking items in that were put in the book drop while the library was closed you can check the 'Book drop mode' box before scanning items. This will effectively roll back the returned date to the last date the library was open."
-msgstr "Se está a devolver itens que foram colocados na caixa de retorno enquanto a biblioteca estava fechada pode seleccionar o modo 'Dropbox' antes de ler os itens. Com este método a data de retorno será a última data que a biblioteca esteve aberta."
+msgid ""
+"If you are checking items in that were put in the book drop while the "
+"library was closed you can check the 'Book drop mode' box before scanning "
+"items. This will effectively roll back the returned date to the last date "
+"the library was open."
+msgstr ""
+"Se está a devolver itens que foram colocados na caixa de retorno enquanto a "
+"biblioteca estava fechada pode seleccionar o modo 'Dropbox' antes de ler os "
+"itens. Com este método a data de retorno será a última data que a biblioteca "
+"esteve aberta."
 
 #: ../../source/circulation.rst:526
 #, fuzzy
-msgid "This requires that you have your closings added to the :ref:`calendar tool <calendar-label>`"
-msgstr "Isto requer que tenha os dias de fecho adicionados à ferramenta de feriados e calendário"
+msgid ""
+"This requires that you have your closings added to the :ref:`calendar tool "
+"<calendar-label>`"
+msgstr ""
+"Isto requer que tenha os dias de fecho adicionados à ferramenta de feriados "
+"e calendário"
 
 #: ../../source/circulation.rst:528
-msgid "You can also choose to forgive all overdue charges for items you are checking in by checking the 'Forgive overdue charges' box before scanning items."
-msgstr "Pode escolher perdoar todas as coimas de atraso para os itens que estão emprestados clicando na caixa respectiva antes de ler o itens."
+msgid ""
+"You can also choose to forgive all overdue charges for items you are "
+"checking in by checking the 'Forgive overdue charges' box before scanning "
+"items."
+msgstr ""
+"Pode escolher perdoar todas as coimas de atraso para os itens que estão "
+"emprestados clicando na caixa respectiva antes de ler o itens."
 
 #: ../../source/circulation.rst:532
 #, fuzzy
-msgid "If you have the :ref:`SpecifyReturnDate` preference set to 'Allow' you will be able to arbitrarily set the return date from below the check in box."
-msgstr "Se tiver definido a preferência de sistema SpecifyReturnDate para 'Permitir' poderá definir arbitrariamente a data de retorno embaixo da caixa de devolução."
+msgid ""
+"If you have the :ref:`SpecifyReturnDate` preference set to 'Allow' you will "
+"be able to arbitrarily set the return date from below the check in box."
+msgstr ""
+"Se tiver definido a preferência de sistema SpecifyReturnDate para 'Permitir' "
+"poderá definir arbitrariamente a data de retorno embaixo da caixa de "
+"devolução."
 
 #: ../../source/circulation.rst:536
 msgid "|image1258|"
@@ -798,16 +1117,25 @@ msgstr "Existem várias mensagens que podem aparecer quando retornar itens:"
 
 #: ../../source/circulation.rst:545
 #, fuzzy
-msgid "If you are checking an item in at a library other than the home branch, a message will appear asking you to transfer the book to the home library"
-msgstr "Se está a devolver um exemplar a biblioteca que não seja a biblioteca origem, irá aparecer uma mensagem a perguntar se deseja transferir o livro para a biblioteca a que pertence "
+msgid ""
+"If you are checking an item in at a library other than the home branch, a "
+"message will appear asking you to transfer the book to the home library"
+msgstr ""
+"Se está a devolver um exemplar a biblioteca que não seja a biblioteca "
+"origem, irá aparecer uma mensagem a perguntar se deseja transferir o livro "
+"para a biblioteca a que pertence "
 
 #: ../../source/circulation.rst:549
 msgid "|image531|"
 msgstr "|image531|"
 
 #: ../../source/circulation.rst:551
-msgid "After this item is checked in the status of the item will be changed in the catalog to 'in transit'"
-msgstr "Após este exemplar ser devolvido, o estado do exemplar será alterado no catálogo de 'em trânsito'"
+msgid ""
+"After this item is checked in the status of the item will be changed in the "
+"catalog to 'in transit'"
+msgstr ""
+"Após este exemplar ser devolvido, o estado do exemplar será alterado no "
+"catálogo de 'em trânsito'"
 
 #: ../../source/circulation.rst:554
 msgid "|image532|"
@@ -815,20 +1143,35 @@ msgstr "|image532|"
 
 #: ../../source/circulation.rst:556
 #, fuzzy
-msgid "To mark an item as back at the home branch, check the item in at the home branch"
-msgstr "Para marcar um exemplar como de volta à sua biblioteca, retorne o exemplar na biblioteca em questão "
+msgid ""
+"To mark an item as back at the home branch, check the item in at the home "
+"branch"
+msgstr ""
+"Para marcar um exemplar como de volta à sua biblioteca, retorne o exemplar "
+"na biblioteca em questão "
 
 #: ../../source/circulation.rst:559
 msgid "|image533|"
 msgstr "|image533|"
 
 #: ../../source/circulation.rst:561
-msgid "A message will appear tell you that the item is not checked out, but the status will now say available in the catalog. This step is necessary to mark items as received by the home branch."
-msgstr "Uma mensagem vai aparecer a identificar que o exemplar não está emprestado, mas o estado estará como disponível no catálogo. Este passo é necessário para marcar exemplares como recebidos pela biblioteca origem."
+msgid ""
+"A message will appear tell you that the item is not checked out, but the "
+"status will now say available in the catalog. This step is necessary to mark "
+"items as received by the home branch."
+msgstr ""
+"Uma mensagem vai aparecer a identificar que o exemplar não está emprestado, "
+"mas o estado estará como disponível no catálogo. Este passo é necessário "
+"para marcar exemplares como recebidos pela biblioteca origem."
 
 #: ../../source/circulation.rst:565
-msgid "If you are checking in an item that should have multiple parts or pieces a message will appear warning you about the number of pieces you should have in your hand"
-msgstr "Se está a devolver um exemplar que deve ter múltiplas partes irá aparece uma mensagem a avisar sobre o número de parte que você deve ter na mão"
+msgid ""
+"If you are checking in an item that should have multiple parts or pieces a "
+"message will appear warning you about the number of pieces you should have "
+"in your hand"
+msgstr ""
+"Se está a devolver um exemplar que deve ter múltiplas partes irá aparece uma "
+"mensagem a avisar sobre o número de parte que você deve ter na mão"
 
 #: ../../source/circulation.rst:569
 msgid "|image534|"
@@ -836,16 +1179,24 @@ msgstr "|image534|"
 
 #: ../../source/circulation.rst:571
 #, fuzzy
-msgid "If you're checking an item in that has a hold on it, you will be prompted to confirm the hold"
-msgstr "Se está a devolver um exemplar que tem uma reserva sobre ele, aparecerá algo para confirmar a reserva "
+msgid ""
+"If you're checking an item in that has a hold on it, you will be prompted to "
+"confirm the hold"
+msgstr ""
+"Se está a devolver um exemplar que tem uma reserva sobre ele, aparecerá algo "
+"para confirmar a reserva "
 
 #: ../../source/circulation.rst:574
 msgid "|image535|"
 msgstr "|image535|"
 
 #: ../../source/circulation.rst:576
-msgid "Clicking the Confirm hold button will mark the item as waiting for pickup from the library"
-msgstr "Ao clicar no botão de confirmar, vai marcar o exemplar como estando à espera de recolha na biblioteca"
+msgid ""
+"Clicking the Confirm hold button will mark the item as waiting for pickup "
+"from the library"
+msgstr ""
+"Ao clicar no botão de confirmar, vai marcar o exemplar como estando à espera "
+"de recolha na biblioteca"
 
 #: ../../source/circulation.rst:579
 msgid "|image536|"
@@ -853,17 +1204,31 @@ msgstr "|image536|"
 
 #: ../../source/circulation.rst:581
 #, fuzzy
-msgid "Clicking the 'Print slip and confirm' button will mark the item as waiting for pickup at the library and present the library with a receipt to print and place on the book with the patron's information"
-msgstr "Ao clicar no botão de imprimir recibo e confirmar, vai marcar o exemplar como estando à espera de recolha na biblioteca onde existirá um recibo a acompanhar o processo"
+msgid ""
+"Clicking the 'Print slip and confirm' button will mark the item as waiting "
+"for pickup at the library and present the library with a receipt to print "
+"and place on the book with the patron's information"
+msgstr ""
+"Ao clicar no botão de imprimir recibo e confirmar, vai marcar o exemplar "
+"como estando à espera de recolha na biblioteca onde existirá um recibo a "
+"acompanhar o processo"
 
 #: ../../source/circulation.rst:586 ../../source/circulation.rst:604
-msgid "Ignoring the hold will leave the item on hold, but leave its status as Available (it will not cancel the hold)"
-msgstr "Ignorar a reservar vai deixar o estado do item como disponível, mas deixa o item em reserva (não cancela)"
+msgid ""
+"Ignoring the hold will leave the item on hold, but leave its status as "
+"Available (it will not cancel the hold)"
+msgstr ""
+"Ignorar a reservar vai deixar o estado do item como disponível, mas deixa o "
+"item em reserva (não cancela)"
 
 #: ../../source/circulation.rst:589
 #, fuzzy
-msgid "If you're checking in an item that has a hold on it at another branch you will be prompted to confirm and transfer the item"
-msgstr "Se está a devolver um exemplar que tem um reserva noutra biblioteca aparecerá algo para confirmar e transferir o documento "
+msgid ""
+"If you're checking in an item that has a hold on it at another branch you "
+"will be prompted to confirm and transfer the item"
+msgstr ""
+"Se está a devolver um exemplar que tem um reserva noutra biblioteca "
+"aparecerá algo para confirmar e transferir o documento "
 
 #: ../../source/circulation.rst:592
 msgid "|image537|"
@@ -871,8 +1236,12 @@ msgstr "|image537|"
 
 #: ../../source/circulation.rst:594
 #, fuzzy
-msgid "Clicking the 'Confirm hold and transfer' button will mark the item as in transit to the library where the hold was placed"
-msgstr "Ao clicar em confirmar reserva e transferir, vai marcar o exemplar como estando em trânsito da biblioteca para o sítio onde a reserva foi colocada"
+msgid ""
+"Clicking the 'Confirm hold and transfer' button will mark the item as in "
+"transit to the library where the hold was placed"
+msgstr ""
+"Ao clicar em confirmar reserva e transferir, vai marcar o exemplar como "
+"estando em trânsito da biblioteca para o sítio onde a reserva foi colocada"
 
 #: ../../source/circulation.rst:597
 msgid "|image538|"
@@ -880,13 +1249,24 @@ msgstr "|image538|"
 
 #: ../../source/circulation.rst:599
 #, fuzzy
-msgid "Clicking the 'Print slip, transfer and confirm' button will mark the item as in transit to the library where the hold was placed and present the library with a receipt to print and place on the book with the patron's information"
-msgstr "Ao clicar no botão de imprimir recibo, transferir e confirmar acontece o mesmo que usando os processos separados."
+msgid ""
+"Clicking the 'Print slip, transfer and confirm' button will mark the item as "
+"in transit to the library where the hold was placed and present the library "
+"with a receipt to print and place on the book with the patron's information"
+msgstr ""
+"Ao clicar no botão de imprimir recibo, transferir e confirmar acontece o "
+"mesmo que usando os processos separados."
 
 #: ../../source/circulation.rst:607
 #, fuzzy
-msgid "If you have the system showing you fines at the time of checkin (:ref:`FineNotifyAtCheckin`) you will see a message telling you about the fine and providing you a link to the payment page for that patron"
-msgstr "Se tiver o sistema a mostrar as multas aquando da devolução (FineNotifyAtCheckin) verá uma mensagem a dizer que existe uma multa e com uma ligação para a página de pagamento para aquele leitor"
+msgid ""
+"If you have the system showing you fines at the time of checkin (:ref:"
+"`FineNotifyAtCheckin`) you will see a message telling you about the fine and "
+"providing you a link to the payment page for that patron"
+msgstr ""
+"Se tiver o sistema a mostrar as multas aquando da devolução "
+"(FineNotifyAtCheckin) verá uma mensagem a dizer que existe uma multa e com "
+"uma ligação para a página de pagamento para aquele leitor"
 
 #: ../../source/circulation.rst:612
 msgid "|image539|"
@@ -898,8 +1278,13 @@ msgid "Circulation messages"
 msgstr "Mensagens de empréstimo"
 
 #: ../../source/circulation.rst:619
-msgid "Circulation messages are short messages that librarians can leave for their patrons or their colleagues that will appear at the time of circulation."
-msgstr "As mensagens de empréstimos são mensagens curtas que os bibliotecários pode deixar para os funcionários ou os outros colegas que aparecerão na altura da circulação."
+msgid ""
+"Circulation messages are short messages that librarians can leave for their "
+"patrons or their colleagues that will appear at the time of circulation."
+msgstr ""
+"As mensagens de empréstimos são mensagens curtas que os bibliotecários pode "
+"deixar para os funcionários ou os outros colegas que aparecerão na altura da "
+"circulação."
 
 #: ../../source/circulation.rst:626
 #, fuzzy
@@ -908,19 +1293,29 @@ msgstr "Definir os avisos"
 
 #: ../../source/circulation.rst:628
 #, fuzzy
-msgid "Circulation messages are set up as :ref:`authorized values <authorized-values-label>`. To add or edit circulation messages you want to work with the `BOR\\_NOTES <#bornotes>`__ value."
-msgstr "As mensagem são configuradas como valores autorizados. Para adicionar ou editar as mensagem é necessário trabalhar com o valor BOR_NOTES."
+msgid ""
+"Circulation messages are set up as :ref:`authorized values <authorized-"
+"values-label>`. To add or edit circulation messages you want to work with "
+"the `BOR\\_NOTES <#bornotes>`__ value."
+msgstr ""
+"As mensagem são configuradas como valores autorizados. Para adicionar ou "
+"editar as mensagem é necessário trabalhar com o valor BOR_NOTES."
 
 #: ../../source/circulation.rst:632
 msgid "|image540|"
 msgstr "|image540|"
 
 #: ../../source/circulation.rst:634
-msgid "The 'Description' field can hold a canned message that you would like to appear on the patron's record."
+msgid ""
+"The 'Description' field can hold a canned message that you would like to "
+"appear on the patron's record."
 msgstr ""
 
 #: ../../source/circulation.rst:639
-msgid "The 'Description' field is limited to 80 characters, but the patron message field can hold more than that. Enter 80 characters in the 'Description' field and then type the rest on the patron record."
+msgid ""
+"The 'Description' field is limited to 80 characters, but the patron message "
+"field can hold more than that. Enter 80 characters in the 'Description' "
+"field and then type the rest on the patron record."
 msgstr ""
 
 #: ../../source/circulation.rst:646
@@ -930,8 +1325,13 @@ msgstr "Adicionar uma nova mensagem"
 
 #: ../../source/circulation.rst:648
 #, fuzzy
-msgid "When on the patron's check out tab you will see a link to 'Add a new message' to the right of the check out box and a button at the top to 'Add message'."
-msgstr "Quando estiver no separador de empréstimo para um leitor verá uma ligação 'Adicionar nova mensagem' à direita da caixa de empréstimo."
+msgid ""
+"When on the patron's check out tab you will see a link to 'Add a new "
+"message' to the right of the check out box and a button at the top to 'Add "
+"message'."
+msgstr ""
+"Quando estiver no separador de empréstimo para um leitor verá uma ligação "
+"'Adicionar nova mensagem' à direita da caixa de empréstimo."
 
 #: ../../source/circulation.rst:652
 msgid "|image541|"
@@ -939,8 +1339,14 @@ msgstr "|image541|"
 
 #: ../../source/circulation.rst:654
 #, fuzzy
-msgid "When you click either of these options you will be asked to choose if the message is for the librarians or the patron and the message you would like to leave."
-msgstr "Quando clicar em 'Adicionar uma nova mensagem' será solicitado a escolher se a mensagem é para os bibliotecários ou o leitor e a mensagem que você gostaria de deixar."
+msgid ""
+"When you click either of these options you will be asked to choose if the "
+"message is for the librarians or the patron and the message you would like "
+"to leave."
+msgstr ""
+"Quando clicar em 'Adicionar uma nova mensagem' será solicitado a escolher se "
+"a mensagem é para os bibliotecários ou o leitor e a mensagem que você "
+"gostaria de deixar."
 
 #: ../../source/circulation.rst:658
 msgid "|image542|"
@@ -956,7 +1362,11 @@ msgid "Viewing messages"
 msgstr "Ver mensagens"
 
 #: ../../source/circulation.rst:669
-msgid "Circulation messages meant for the staff and/or the patron will appear on the patron's checkout screen to the right of the checkout box. Messages in bold and red are meant for the library staff only, whereas messages in regular italics font are meant for the patron and the librarian."
+msgid ""
+"Circulation messages meant for the staff and/or the patron will appear on "
+"the patron's checkout screen to the right of the checkout box. Messages in "
+"bold and red are meant for the library staff only, whereas messages in "
+"regular italics font are meant for the patron and the librarian."
 msgstr ""
 
 #: ../../source/circulation.rst:675
@@ -965,8 +1375,12 @@ msgstr "|image543|"
 
 #: ../../source/circulation.rst:677
 #, fuzzy
-msgid "Circulation messages meant for the patron will also appear when they log into the OPAC."
-msgstr "As mensagens de empréstimos são mensagens destinadas ao leitor, e que aparecerem quando este entrar no OPAC."
+msgid ""
+"Circulation messages meant for the patron will also appear when they log "
+"into the OPAC."
+msgstr ""
+"As mensagens de empréstimos são mensagens destinadas ao leitor, e que "
+"aparecerem quando este entrar no OPAC."
 
 #: ../../source/circulation.rst:680
 msgid "|image544|"
@@ -978,7 +1392,12 @@ msgid "Holds"
 msgstr "Reservas"
 
 #: ../../source/circulation.rst:687
-msgid "Koha allows patrons to put things on hold. A 'Hold' is a way to reserve an item. Depending on your :ref:`circulation and fines rules <circulation-and-fines-rules-label>` and :ref:`hold preference <holds-policy-label>` settings patrons will be able to place items on hold for pickup at the library at a later date/time."
+msgid ""
+"Koha allows patrons to put things on hold. A 'Hold' is a way to reserve an "
+"item. Depending on your :ref:`circulation and fines rules <circulation-and-"
+"fines-rules-label>` and :ref:`hold preference <holds-policy-label>` settings "
+"patrons will be able to place items on hold for pickup at the library at a "
+"later date/time."
 msgstr ""
 
 #: ../../source/circulation.rst:696
@@ -988,8 +1407,13 @@ msgstr "Reservar no interface dos técnico"
 
 #: ../../source/circulation.rst:698
 #, fuzzy
-msgid "There are several ways to place holds from the staff client. The most obvious is using the 'Place hold' button at the top of any bibliographic record."
-msgstr "Existem várias formas de reservar na interface dos técnicos. A mais óbvia é usar o botão 'Reservar' no topo de qualquer registo bibliográfico."
+msgid ""
+"There are several ways to place holds from the staff client. The most "
+"obvious is using the 'Place hold' button at the top of any bibliographic "
+"record."
+msgstr ""
+"Existem várias formas de reservar na interface dos técnicos. A mais óbvia é "
+"usar o botão 'Reservar' no topo de qualquer registo bibliográfico."
 
 #: ../../source/circulation.rst:702
 msgid "|image545|"
@@ -997,48 +1421,80 @@ msgstr "|image545|"
 
 #: ../../source/circulation.rst:704
 #, fuzzy
-msgid "You can also click the smaller 'Place hold' link found at the top of your catalog search results, or the 'Holds' link found below each result."
-msgstr "Pode também clicar na ligação 'Reservar' que se encontra no topo dos resultados de pesquisa, ou na ligação 'Reservas' debaixo de cada resultado."
+msgid ""
+"You can also click the smaller 'Place hold' link found at the top of your "
+"catalog search results, or the 'Holds' link found below each result."
+msgstr ""
+"Pode também clicar na ligação 'Reservar' que se encontra no topo dos "
+"resultados de pesquisa, ou na ligação 'Reservas' debaixo de cada resultado."
 
 #: ../../source/circulation.rst:708
 msgid "|image546|"
 msgstr "|image546|"
 
 #: ../../source/circulation.rst:710
-msgid "You will be asked to search for a patron by barcode or any part of their name to start the hold process."
-msgstr "Será pedido para pesquisar por um leitor por código de cartão ou qualquer parte do seu nome para começar o processo de reserva."
+msgid ""
+"You will be asked to search for a patron by barcode or any part of their "
+"name to start the hold process."
+msgstr ""
+"Será pedido para pesquisar por um leitor por código de cartão ou qualquer "
+"parte do seu nome para começar o processo de reserva."
 
 #: ../../source/circulation.rst:713
 msgid "|image547|"
 msgstr "|image547|"
 
 #: ../../source/circulation.rst:715
-msgid "If you'd like to search for the patron first and then the bib record for the hold, you can open the patron record and click on the 'Search to Hold' button at the top of the patron record."
-msgstr "Se deseja pesquisar pelo leitor primeiro e depois pelo registo que deseja reserva, pode abrir o registo do leitor e clicar no botão 'Pesquisar para reservar' no topo do registo."
+msgid ""
+"If you'd like to search for the patron first and then the bib record for the "
+"hold, you can open the patron record and click on the 'Search to Hold' "
+"button at the top of the patron record."
+msgstr ""
+"Se deseja pesquisar pelo leitor primeiro e depois pelo registo que deseja "
+"reserva, pode abrir o registo do leitor e clicar no botão 'Pesquisar para "
+"reservar' no topo do registo."
 
 #: ../../source/circulation.rst:719
 msgid "|image548|"
 msgstr "|image548|"
 
 #: ../../source/circulation.rst:721
-msgid "After clicking the button you will be brought to the catalog search page where you can find the book(s) you want to place a hold on. Under each title on the results you'll see an option to 'Hold for Patron Name.'"
-msgstr "Depois de clicar no botão será direccionado para a página de pesquisa de catálogo onde pode encontrar o(s) exemplar(es) que deseja reservar. Debaixo de cada título nos resultados aparecerá uma opção para colocar em reserva para determinado leitor."
+msgid ""
+"After clicking the button you will be brought to the catalog search page "
+"where you can find the book(s) you want to place a hold on. Under each title "
+"on the results you'll see an option to 'Hold for Patron Name.'"
+msgstr ""
+"Depois de clicar no botão será direccionado para a página de pesquisa de "
+"catálogo onde pode encontrar o(s) exemplar(es) que deseja reservar. Debaixo "
+"de cada título nos resultados aparecerá uma opção para colocar em reserva "
+"para determinado leitor."
 
 #: ../../source/circulation.rst:725
 msgid "|image549|"
 msgstr "|image549|"
 
 #: ../../source/circulation.rst:727
-msgid "If you want to place a hold on multiple items, simply check the boxes to the left of them and click the arrow to the right of the 'Place Hold' button."
-msgstr "Você pode muito facilmente reservar múltiplos exemplares de uma lista, clicando nas caixas de selecção e posteriormente no botão 'Reservar'."
+msgid ""
+"If you want to place a hold on multiple items, simply check the boxes to the "
+"left of them and click the arrow to the right of the 'Place Hold' button."
+msgstr ""
+"Você pode muito facilmente reservar múltiplos exemplares de uma lista, "
+"clicando nas caixas de selecção e posteriormente no botão 'Reservar'."
 
 #: ../../source/circulation.rst:731
 msgid "|image550|"
 msgstr "|image550|"
 
 #: ../../source/circulation.rst:733
-msgid "Depending on how many items you choose to place a hold on at once you will see a different place hold form. If you are placing a hold on one bibliographic record you will see a list of all of the items you can place a hold on."
-msgstr "Dependendo no número de exemplares que escolhe para reservar verá um formulário de reserva diferente. Se apenas tentar reservar um registo bibliográfico verá uma lista de todos os exemplares que pode reservar."
+msgid ""
+"Depending on how many items you choose to place a hold on at once you will "
+"see a different place hold form. If you are placing a hold on one "
+"bibliographic record you will see a list of all of the items you can place a "
+"hold on."
+msgstr ""
+"Dependendo no número de exemplares que escolhe para reservar verá um "
+"formulário de reserva diferente. Se apenas tentar reservar um registo "
+"bibliográfico verá uma lista de todos os exemplares que pode reservar."
 
 #: ../../source/circulation.rst:738
 msgid "|image551|"
@@ -1053,7 +1509,10 @@ msgid "Choose the library where the patron will pick up the item"
 msgstr "Escolha a biblioteca onde o leitor irá levantar o exemplar"
 
 #: ../../source/circulation.rst:744
-msgid "If you have the :ref:`AllowHoldItemTypeSelection` preference set to 'Allow' and the record had more than one item type attached you will see an option to choose to limit the hold to a specific item type"
+msgid ""
+"If you have the :ref:`AllowHoldItemTypeSelection` preference set to 'Allow' "
+"and the record had more than one item type attached you will see an option "
+"to choose to limit the hold to a specific item type"
 msgstr ""
 
 #: ../../source/circulation.rst:750
@@ -1062,31 +1521,59 @@ msgstr "|image1259|"
 
 #: ../../source/circulation.rst:752
 #, fuzzy
-msgid "If the patron wants the hold to start on a date other than today, enter that in the 'Hold starts on date' field"
-msgstr "Se o leitor quer que a reserva comece numa data que não hoje, insira a data no campo 'Reserva começa na data' "
+msgid ""
+"If the patron wants the hold to start on a date other than today, enter that "
+"in the 'Hold starts on date' field"
+msgstr ""
+"Se o leitor quer que a reserva comece numa data que não hoje, insira a data "
+"no campo 'Reserva começa na data' "
 
 #: ../../source/circulation.rst:755
 #, fuzzy
-msgid "This option will only appear if the :ref:`AllowHoldDateInFuture` system preference is set to 'Allow'"
-msgstr "Esta opção só aparecerá se tiver definido a preferência de sistema SpecifyDueDate para permitir"
+msgid ""
+"This option will only appear if the :ref:`AllowHoldDateInFuture` system "
+"preference is set to 'Allow'"
+msgstr ""
+"Esta opção só aparecerá se tiver definido a preferência de sistema "
+"SpecifyDueDate para permitir"
 
 #: ../../source/circulation.rst:759
 #, fuzzy
-msgid "If the patron has specified that they don't want the item after a certain date, or if you have limits on hold lengths, you can enter an expiration date for the hold in the 'Hold expires on date'"
-msgstr "Se o leitor especificar que não quer o exemplar após uma certa data, ou se tem limites na duração das reservas, pode inserir uma data de expiração da reserva no campo 'Reserva expira na data' "
+msgid ""
+"If the patron has specified that they don't want the item after a certain "
+"date, or if you have limits on hold lengths, you can enter an expiration "
+"date for the hold in the 'Hold expires on date'"
+msgstr ""
+"Se o leitor especificar que não quer o exemplar após uma certa data, ou se "
+"tem limites na duração das reservas, pode inserir uma data de expiração da "
+"reserva no campo 'Reserva expira na data' "
 
 #: ../../source/circulation.rst:763
 #, fuzzy
-msgid "To have expired holds cancelled automatically you will need to have the :ref:`Expired holds` cron job set to run on a regular basis."
-msgstr "Para ter todos as reservas expiradas canceladas automaticamente necessita de ter a tarefa Expired Holds a correr numa base diária."
+msgid ""
+"To have expired holds cancelled automatically you will need to have the :ref:"
+"`Expired holds` cron job set to run on a regular basis."
+msgstr ""
+"Para ter todos as reservas expiradas canceladas automaticamente necessita de "
+"ter a tarefa Expired Holds a correr numa base diária."
 
 #: ../../source/circulation.rst:767
-msgid "Next choose if you want to place a hold on the next available item or a specific item by clicking the radio button next to an individual item."
-msgstr "De seguida escolha se deseja colocar a reserva o próximo exemplar disponível ou num exemplar especifico ao clicar no botão junto a um exemplar individual."
+msgid ""
+"Next choose if you want to place a hold on the next available item or a "
+"specific item by clicking the radio button next to an individual item."
+msgstr ""
+"De seguida escolha se deseja colocar a reserva o próximo exemplar disponível "
+"ou num exemplar especifico ao clicar no botão junto a um exemplar individual."
 
 #: ../../source/circulation.rst:771
-msgid "If you're placing a hold on multiple items you will be presented with the next available option for all titles. If no items are available for hold it will say so on the confirmation screen."
-msgstr "Se está a reservar vários exemplares será apresentado com a opção de próximo disponível para todos. Se nenhum exemplar estiver disponível será avisado de tal situação."
+msgid ""
+"If you're placing a hold on multiple items you will be presented with the "
+"next available option for all titles. If no items are available for hold it "
+"will say so on the confirmation screen."
+msgstr ""
+"Se está a reservar vários exemplares será apresentado com a opção de próximo "
+"disponível para todos. Se nenhum exemplar estiver disponível será avisado de "
+"tal situação."
 
 #: ../../source/circulation.rst:775
 msgid "|image552|"
@@ -1094,8 +1581,16 @@ msgstr "|image552|"
 
 #: ../../source/circulation.rst:777
 #, fuzzy
-msgid "Once your hold is placed, if you'd like to have Koha forget that you used the 'Search to hold' function, you can choose to have Koha 'forget' the patron's name by clicking the arrow to the right of the 'Place hold' button on the search results and choosing the 'Forget' option."
-msgstr "Assim que a reserva for colocada, se desejar que o Koha esqueça que usou a função 'Pesquisar para reserva', pode escolher que o Koha esqueça o nome do leitor clicando na seta à direita do botão 'Reservar' nos resultados de pesquisa e escolhendo a opção 'Esquecer'."
+msgid ""
+"Once your hold is placed, if you'd like to have Koha forget that you used "
+"the 'Search to hold' function, you can choose to have Koha 'forget' the "
+"patron's name by clicking the arrow to the right of the 'Place hold' button "
+"on the search results and choosing the 'Forget' option."
+msgstr ""
+"Assim que a reserva for colocada, se desejar que o Koha esqueça que usou a "
+"função 'Pesquisar para reserva', pode escolher que o Koha esqueça o nome do "
+"leitor clicando na seta à direita do botão 'Reservar' nos resultados de "
+"pesquisa e escolhendo a opção 'Esquecer'."
 
 #: ../../source/circulation.rst:782
 msgid "|image553|"
@@ -1108,8 +1603,12 @@ msgstr "Gestão de reservas"
 
 #: ../../source/circulation.rst:789
 #, fuzzy
-msgid "Holds can be altered and cancelled from the holds tab found on the left of the bibliographic record."
-msgstr "As reservas podem ser alteradas e canceladas a partir do separador de reservas à esquerda do registo bibliográfico."
+msgid ""
+"Holds can be altered and cancelled from the holds tab found on the left of "
+"the bibliographic record."
+msgstr ""
+"As reservas podem ser alteradas e canceladas a partir do separador de "
+"reservas à esquerda do registo bibliográfico."
 
 #: ../../source/circulation.rst:792
 msgid "|image554|"
@@ -1117,8 +1616,12 @@ msgstr "|image554|"
 
 #: ../../source/circulation.rst:794
 #, fuzzy
-msgid "From the list of holds you can change the order of the holds, the pickup location, suspend and/or cancel the hold."
-msgstr "Na lista de reservas pode alterar a ordem das reservas, a biblioteca de levantamento e/ou cancelar a reserva."
+msgid ""
+"From the list of holds you can change the order of the holds, the pickup "
+"location, suspend and/or cancel the hold."
+msgstr ""
+"Na lista de reservas pode alterar a ordem das reservas, a biblioteca de "
+"levantamento e/ou cancelar a reserva."
 
 #: ../../source/circulation.rst:797
 msgid "|image555|"
@@ -1126,42 +1629,86 @@ msgstr "|image555|"
 
 #: ../../source/circulation.rst:801
 #, fuzzy
-msgid "If you have your :ref:`AutoResumeSuspendedHolds` preference set to \"Don't allow\" then you will not have the option to put an end date on the hold suspension."
-msgstr "Se tem a preferência do sistemas AutoResumeSuspendedHolds definida para \"Não permitir\" então não terá a opção para inserir uma data de fim para a suspensão de reserva"
+msgid ""
+"If you have your :ref:`AutoResumeSuspendedHolds` preference set to \"Don't "
+"allow\" then you will not have the option to put an end date on the hold "
+"suspension."
+msgstr ""
+"Se tem a preferência do sistemas AutoResumeSuspendedHolds definida para "
+"\"Não permitir\" então não terá a opção para inserir uma data de fim para a "
+"suspensão de reserva"
 
 #: ../../source/circulation.rst:808
 #, fuzzy
-msgid "If you have your :ref:`AllowHoldDateInFuture` preference set to \"Don't allow\" you will not have the option to edit the date the hold was placed (the column labelled Date)."
-msgstr "Se tem a preferência do sistemas AutoResumeSuspendedHolds definida para \"Não permitir\" então não terá a opção para inserir uma data de fim para a suspensão de reserva"
+msgid ""
+"If you have your :ref:`AllowHoldDateInFuture` preference set to \"Don't allow"
+"\" you will not have the option to edit the date the hold was placed (the "
+"column labelled Date)."
+msgstr ""
+"Se tem a preferência do sistemas AutoResumeSuspendedHolds definida para "
+"\"Não permitir\" então não terá a opção para inserir uma data de fim para a "
+"suspensão de reserva"
 
 #: ../../source/circulation.rst:815
-msgid "If you have the :ref:`HoldsSplitQueue` system preference set you will see the holds list split across different tables by either pickup library, itemtype or both."
+msgid ""
+"If you have the :ref:`HoldsSplitQueue` system preference set you will see "
+"the holds list split across different tables by either pickup library, "
+"itemtype or both."
 msgstr ""
 
 #: ../../source/circulation.rst:821
 #, fuzzy
-msgid "Depending on how you have your :ref:`HidePatronName` system preference set the list may show card numbers instead of names in the patron column like in the image above."
-msgstr "Dependendo da preferência de sistema HidePatronName a lista apresentará os número de cartão em vez dos nomes na coluna dos leitores como a imagem acima apresenta."
+msgid ""
+"Depending on how you have your :ref:`HidePatronName` system preference set "
+"the list may show card numbers instead of names in the patron column like in "
+"the image above."
+msgstr ""
+"Dependendo da preferência de sistema HidePatronName a lista apresentará os "
+"número de cartão em vez dos nomes na coluna dos leitores como a imagem acima "
+"apresenta."
 
 #: ../../source/circulation.rst:825
-msgid "To rearrange or delete holds, simply make a selection from the 'Priority' pull down or click the arrows to the right of the priority pull down."
-msgstr "Para ordenar ou eliminar reservas, faça uma selecção no menu de 'Prioridade' ou clique nas setas à direita do campo de prioridade."
+msgid ""
+"To rearrange or delete holds, simply make a selection from the 'Priority' "
+"pull down or click the arrows to the right of the priority pull down."
+msgstr ""
+"Para ordenar ou eliminar reservas, faça uma selecção no menu de 'Prioridade' "
+"ou clique nas setas à direita do campo de prioridade."
 
 #: ../../source/circulation.rst:829
 msgid "|image556|"
 msgstr "|image556|"
 
 #: ../../source/circulation.rst:831
-msgid "If you use the priority pull down to rearrange or delete holds you will need to click the 'Update hold(s)' button to save your changes."
-msgstr "Se utiliza o menu prioridade para rearranjar ou eliminar reservas necessita de clicar em 'Actualizar reservas' para guardar as alterações."
+msgid ""
+"If you use the priority pull down to rearrange or delete holds you will need "
+"to click the 'Update hold(s)' button to save your changes."
+msgstr ""
+"Se utiliza o menu prioridade para rearranjar ou eliminar reservas necessita "
+"de clicar em 'Actualizar reservas' para guardar as alterações."
 
 #: ../../source/circulation.rst:834
-msgid "Clicking the down arrow to the right of the hold will stick the hold at the bottom of the list even if more requests are made."
-msgstr "Clicando na seta à direita da reserva irá manter a reserva no fundo da lista mesmo que outros pedidos sejam recebidos."
+msgid ""
+"Clicking the down arrow to the right of the hold will stick the hold at the "
+"bottom of the list even if more requests are made."
+msgstr ""
+"Clicando na seta à direita da reserva irá manter a reserva no fundo da lista "
+"mesmo que outros pedidos sejam recebidos."
 
 #: ../../source/circulation.rst:837
-msgid "For example, your library has home-bound patrons that are allowed to keep books out for months at a time. It would not be fair to other patrons if a home-bound patron were able to check out a brand new book and keep it for months. For this reason, the home-bound patron's hold request would stay at the bottom of the queue until everyone else who wanted to read that book has already done so."
-msgstr "Por exemplo, a biblioteca tem leitores que estão autorizados a manter os livros por meses num momento. Não seria justo com os outros leitores se um leitor caseiro conseguisse realizar um empréstimo a um novo livro e mantê-lo durante meses. Por esta razão, o pedido de um leitor fica no fim da fila de espera até que todos os outros que queriam ler esse livro o façam."
+msgid ""
+"For example, your library has home-bound patrons that are allowed to keep "
+"books out for months at a time. It would not be fair to other patrons if a "
+"home-bound patron were able to check out a brand new book and keep it for "
+"months. For this reason, the home-bound patron's hold request would stay at "
+"the bottom of the queue until everyone else who wanted to read that book has "
+"already done so."
+msgstr ""
+"Por exemplo, a biblioteca tem leitores que estão autorizados a manter os "
+"livros por meses num momento. Não seria justo com os outros leitores se um "
+"leitor caseiro conseguisse realizar um empréstimo a um novo livro e mantê-lo "
+"durante meses. Por esta razão, o pedido de um leitor fica no fim da fila de "
+"espera até que todos os outros que queriam ler esse livro o façam."
 
 #: ../../source/circulation.rst:844
 msgid "|image557|"
@@ -1169,15 +1716,27 @@ msgstr "|image557|"
 
 #: ../../source/circulation.rst:846
 #, fuzzy
-msgid "If a patron asks to have their hold suspended and you have the :ref:`SuspendHoldsIntranet` system preference set to 'allow' you can do so by clicking the 'Suspend' button to far right. If the patron gives you a date for the items to become unsuspended you can enter that in the date box and click the 'Update hold(s)' button to save your changes."
-msgstr "Se o leitor pedir para suspender a sua reserva, pode executar essa operação clicando no botão 'Suspender'. Se o leitor der uma data para que remover a suspensão pode inserir a mesma na caixa da data e clicar em 'Actualizar reservas' para guardar as alterações."
+msgid ""
+"If a patron asks to have their hold suspended and you have the :ref:"
+"`SuspendHoldsIntranet` system preference set to 'allow' you can do so by "
+"clicking the 'Suspend' button to far right. If the patron gives you a date "
+"for the items to become unsuspended you can enter that in the date box and "
+"click the 'Update hold(s)' button to save your changes."
+msgstr ""
+"Se o leitor pedir para suspender a sua reserva, pode executar essa operação "
+"clicando no botão 'Suspender'. Se o leitor der uma data para que remover a "
+"suspensão pode inserir a mesma na caixa da data e clicar em 'Actualizar "
+"reservas' para guardar as alterações."
 
 #: ../../source/circulation.rst:853
 msgid "|image558|"
 msgstr "|image558|"
 
 #: ../../source/circulation.rst:855
-msgid "To delete or cancel a hold click the red 'X' to the right of the hold line. To delete/cancel a bunch of holds you can choose 'del' from pull down to the left of each line and then click 'Update hold(s)' at the bottom of the list."
+msgid ""
+"To delete or cancel a hold click the red 'X' to the right of the hold line. "
+"To delete/cancel a bunch of holds you can choose 'del' from pull down to the "
+"left of each line and then click 'Update hold(s)' at the bottom of the list."
 msgstr ""
 
 #: ../../source/circulation.rst:860
@@ -1185,7 +1744,11 @@ msgid "|image559|"
 msgstr "|image559|"
 
 #: ../../source/circulation.rst:862
-msgid "If your library uses the :ref:`patron clubs feature <patron-clubs-label>`, use the clubs tab to place a hold for a club. To place a hold for a club, click the clubs tab, search for and select the club name, and click the 'Place hold' button."
+msgid ""
+"If your library uses the :ref:`patron clubs feature <patron-clubs-label>`, "
+"use the clubs tab to place a hold for a club. To place a hold for a club, "
+"click the clubs tab, search for and select the club name, and click the "
+"'Place hold' button."
 msgstr ""
 
 #: ../../source/circulation.rst:864
@@ -1200,13 +1763,24 @@ msgstr "Recepção de reservas"
 
 #: ../../source/circulation.rst:871
 #, fuzzy
-msgid "When items that are on hold are :ref:`checked in <check-in-(returning)-label>` or :ref:`out <check-out-(issuing)-label>` the system will remind the circulation librarian that the item is on hold and offer them options for managing the hold."
-msgstr "Quando exemplares que estão reservados são devolvidos ou emprestados no sistema aparecerá uma aviso que o exemplar está reservado e oferece opções para gerir a reserva."
+msgid ""
+"When items that are on hold are :ref:`checked in <check-in-(returning)-"
+"label>` or :ref:`out <check-out-(issuing)-label>` the system will remind the "
+"circulation librarian that the item is on hold and offer them options for "
+"managing the hold."
+msgstr ""
+"Quando exemplares que estão reservados são devolvidos ou emprestados no "
+"sistema aparecerá uma aviso que o exemplar está reservado e oferece opções "
+"para gerir a reserva."
 
 #: ../../source/circulation.rst:875
 #, fuzzy
-msgid "When you check in an item that has a hold on it the system will ask you to either confirm and transfer the item"
-msgstr "Se está a devolver um exemplar que tem um reserva, aparecerá algo para confirmar e transferir exemplar ou apenas para confirmar a reserva"
+msgid ""
+"When you check in an item that has a hold on it the system will ask you to "
+"either confirm and transfer the item"
+msgstr ""
+"Se está a devolver um exemplar que tem um reserva, aparecerá algo para "
+"confirmar e transferir exemplar ou apenas para confirmar a reserva"
 
 #: ../../source/circulation.rst:878
 msgid "|image560|"
@@ -1223,36 +1797,69 @@ msgstr "|image561|"
 
 #: ../../source/circulation.rst:884
 #, fuzzy
-msgid "Clicking the 'Confirm' button will mark the item as on hold for the patron. If the item needs to be transferred the item will also be marked as in transit to the proper branch. Clicking 'Ignore' will retain the hold, but allow you to check the item out to another patron. Choosing to confirm and print will present you with a printable page that you can slip inside the book with the necessary hold and/or transfer information."
-msgstr "Ao clicar no botão de confirmar irá marcar o exemplar como reservado para o leitor. Se o exemplar precisa de ser transferido, o exemplar também aparecerá marcado como em trânsito para a biblioteca certa. Ao clicar em ignorar a reserva será mantida, mas permitirá emprestar o exemplar para outro leitor. Confirmar e imprimir irá apresentar uma página para impressão que pode ser colocada dentro do livro com a reserva ou a informação de transferência."
+msgid ""
+"Clicking the 'Confirm' button will mark the item as on hold for the patron. "
+"If the item needs to be transferred the item will also be marked as in "
+"transit to the proper branch. Clicking 'Ignore' will retain the hold, but "
+"allow you to check the item out to another patron. Choosing to confirm and "
+"print will present you with a printable page that you can slip inside the "
+"book with the necessary hold and/or transfer information."
+msgstr ""
+"Ao clicar no botão de confirmar irá marcar o exemplar como reservado para o "
+"leitor. Se o exemplar precisa de ser transferido, o exemplar também "
+"aparecerá marcado como em trânsito para a biblioteca certa. Ao clicar em "
+"ignorar a reserva será mantida, mas permitirá emprestar o exemplar para "
+"outro leitor. Confirmar e imprimir irá apresentar uma página para impressão "
+"que pode ser colocada dentro do livro com a reserva ou a informação de "
+"transferência."
 
 #: ../../source/circulation.rst:892
-msgid "Once confirmed the hold will show on the patron record and on the checkout screen under the 'Hold' tab."
-msgstr "Assim que confirmar a reserva, a mesma aparecerá no registo do leitor e no ecrã de empréstimo no separador 'Reservas'"
+msgid ""
+"Once confirmed the hold will show on the patron record and on the checkout "
+"screen under the 'Hold' tab."
+msgstr ""
+"Assim que confirmar a reserva, a mesma aparecerá no registo do leitor e no "
+"ecrã de empréstimo no separador 'Reservas'"
 
 #: ../../source/circulation.rst:897
-msgid "From here if the patron would like you suspend their holds you can do so one by one or in bulk."
+msgid ""
+"From here if the patron would like you suspend their holds you can do so one "
+"by one or in bulk."
 msgstr ""
 
 #: ../../source/circulation.rst:900
 msgid "The item record will also show that the item is on hold."
-msgstr "O registo do exemplar também irá mostrar que o mesmo se encontra reservado."
+msgstr ""
+"O registo do exemplar também irá mostrar que o mesmo se encontra reservado."
 
 #: ../../source/circulation.rst:902
 msgid "|image563|"
 msgstr "|image563|"
 
 #: ../../source/circulation.rst:904
-msgid "In some cases a patron may come in to pick up a hold for their partner (or someone else in their household). In this case you want to make sure that the hold is cancelled when you check the item out to someone else. When trying to check out an item that is already waiting for someone else you will be presented with a warning message."
-msgstr "Nalguns casos o leitor pode vir levantar um reservar para o seu parceiro. Neste caso você quer ter a certeza que a reserva é cancelada quando empresta o exemplar a outra pessoa. Quanto tenta emprestar um exemplar que está já em espera para outro leitor será apresentada uma mensagem de aviso."
+msgid ""
+"In some cases a patron may come in to pick up a hold for their partner (or "
+"someone else in their household). In this case you want to make sure that "
+"the hold is cancelled when you check the item out to someone else. When "
+"trying to check out an item that is already waiting for someone else you "
+"will be presented with a warning message."
+msgstr ""
+"Nalguns casos o leitor pode vir levantar um reservar para o seu parceiro. "
+"Neste caso você quer ter a certeza que a reserva é cancelada quando empresta "
+"o exemplar a outra pessoa. Quanto tenta emprestar um exemplar que está já em "
+"espera para outro leitor será apresentada uma mensagem de aviso."
 
 #: ../../source/circulation.rst:910
 msgid "|image564|"
 msgstr "|image564|"
 
 #: ../../source/circulation.rst:912
-msgid "From here you can check the item out to the patron at the desk and cancel the hold for the patron."
-msgstr "A partir daqui pode emprestar o exemplar ao leitor no balcão e cancelar a reserva para o leitor."
+msgid ""
+"From here you can check the item out to the patron at the desk and cancel "
+"the hold for the patron."
+msgstr ""
+"A partir daqui pode emprestar o exemplar ao leitor no balcão e cancelar a "
+"reserva para o leitor."
 
 #: ../../source/circulation.rst:918
 msgid "Transfers"
@@ -1260,8 +1867,13 @@ msgstr "Transferências"
 
 #: ../../source/circulation.rst:920
 #, fuzzy
-msgid "If you work in a multi-branch system you can transfer items from one library to another by using the Transfer tool."
-msgstr "Se trabalha num sistema multi-bibliotecas pode transferir exemplar de uma biblioteca para outra usando a ferramenta de transferências. Para transferir um exemplar"
+msgid ""
+"If you work in a multi-branch system you can transfer items from one library "
+"to another by using the Transfer tool."
+msgstr ""
+"Se trabalha num sistema multi-bibliotecas pode transferir exemplar de uma "
+"biblioteca para outra usando a ferramenta de transferências. Para transferir "
+"um exemplar"
 
 #: ../../source/circulation.rst:923
 #, fuzzy
@@ -1288,7 +1900,8 @@ msgstr "Escolher a biblioteca para transferir o livro"
 
 #: ../../source/circulation.rst:933
 msgid "Scan or type the barcode on the item you would like to transfer"
-msgstr "Digitar ou inserir o código de barras do exemplar que deseja transferir"
+msgstr ""
+"Digitar ou inserir o código de barras do exemplar que deseja transferir"
 
 #: ../../source/circulation.rst:935
 msgid "Click 'Submit'"
@@ -1308,8 +1921,12 @@ msgstr "|image567|"
 
 #: ../../source/circulation.rst:943
 #, fuzzy
-msgid "When the item arrives at the other branch the librarian must check the item in to acknowledge that it is no longer in transit"
-msgstr "Quando o exemplar chegar à outra biblioteca o técnico deve devolver o exemplar para que o mesmo não esteja mais em trânsito"
+msgid ""
+"When the item arrives at the other branch the librarian must check the item "
+"in to acknowledge that it is no longer in transit"
+msgstr ""
+"Quando o exemplar chegar à outra biblioteca o técnico deve devolver o "
+"exemplar para que o mesmo não esteja mais em trânsito"
 
 #: ../../source/circulation.rst:946
 #, fuzzy
@@ -1322,8 +1939,12 @@ msgstr "|image568|"
 
 #: ../../source/circulation.rst:950
 #, fuzzy
-msgid "The item shows the same 'Home library' but has updated the 'Current location' to note where it resides at this time"
-msgstr "O exemplar mostra a mesma 'Biblioteca origem' mas tem a 'Localização corrente' actualizado para a biblioteca onde se encontra"
+msgid ""
+"The item shows the same 'Home library' but has updated the 'Current "
+"location' to note where it resides at this time"
+msgstr ""
+"O exemplar mostra a mesma 'Biblioteca origem' mas tem a 'Localização "
+"corrente' actualizado para a biblioteca onde se encontra"
 
 #: ../../source/circulation.rst:956
 msgid "Set library"
@@ -1331,24 +1952,40 @@ msgstr "Escolher a biblioteca"
 
 #: ../../source/circulation.rst:958
 #, fuzzy
-msgid "By default you will enter the staff client as if you are at your home library. This library will appear in the top right of the staff client."
-msgstr "Por omissão entrará no interface dos técnicos ligado à sua biblioteca. Esta aparecerá no topo superior direito do interface."
+msgid ""
+"By default you will enter the staff client as if you are at your home "
+"library. This library will appear in the top right of the staff client."
+msgstr ""
+"Por omissão entrará no interface dos técnicos ligado à sua biblioteca. Esta "
+"aparecerá no topo superior direito do interface."
 
 #: ../../source/circulation.rst:961
 msgid "|image569|"
 msgstr "|image569|"
 
 #: ../../source/circulation.rst:963
-msgid "This is the library that all circulation transactions will take place at. If you are at another library (or on a bookmobile) you will want to set your library before you start circulating items. To do this you can click 'Set' at the top right or on the Circulation page."
-msgstr "Esta é a biblioteca onde todas as operações de circulação serão feitas. Se está noutra biblioteca deve definir a sua biblioteca antes de começar a circular exemplar. Para realizar esta operação clique em 'Defnir' no topo direito ou na página de empréstimo."
+msgid ""
+"This is the library that all circulation transactions will take place at. If "
+"you are at another library (or on a bookmobile) you will want to set your "
+"library before you start circulating items. To do this you can click 'Set' "
+"at the top right or on the Circulation page."
+msgstr ""
+"Esta é a biblioteca onde todas as operações de circulação serão feitas. Se "
+"está noutra biblioteca deve definir a sua biblioteca antes de começar a "
+"circular exemplar. Para realizar esta operação clique em 'Defnir' no topo "
+"direito ou na página de empréstimo."
 
 #: ../../source/circulation.rst:968
 msgid "|image570|"
 msgstr "|image570|"
 
 #: ../../source/circulation.rst:970
-msgid "Once you have saved your changes you new library will appear in the top right."
-msgstr "Assim que tiver guardado as alterações a nova biblioteca aparecerá no topo direito."
+msgid ""
+"Once you have saved your changes you new library will appear in the top "
+"right."
+msgstr ""
+"Assim que tiver guardado as alterações a nova biblioteca aparecerá no topo "
+"direito."
 
 #: ../../source/circulation.rst:976
 #, fuzzy
@@ -1357,8 +1994,22 @@ msgstr "Catalogação rápida"
 
 #: ../../source/circulation.rst:978
 #, fuzzy
-msgid "Sometimes circulation librarians need to quickly add a record to the system for an item they are about to check out. This is called 'Fast add'. To allow circulation librarians access to the Fast add cataloging tool, simply make sure they have the `fast\\_cataloging <#fastaddpermissions>`__ permissions. There are two ways to add titles via fast add. If you know that you're about to check out an item that isn't in you catalog you can go to the Circulation module and click 'Fast cataloging.'"
-msgstr "Por vezes os bibliotecários de circulação precisam de adicionar rapidamente um registo ao sistema para um exemplar que estão a exportar. Isto é designado por 'Adição rápida'. Para permitir que os bibliotecários acedam à ferramenta de catalogação rápida, garanta que têm a permissão fast_cataloging. Existem duas formas de adicionar títulos de forma rápida. De sabe que vai emprestar um exemplar que não estar catalogado basta ir ao módulo de circulação e carregar em 'Catalogação rápida'."
+msgid ""
+"Sometimes circulation librarians need to quickly add a record to the system "
+"for an item they are about to check out. This is called 'Fast add'. To allow "
+"circulation librarians access to the Fast add cataloging tool, simply make "
+"sure they have the `fast\\_cataloging <#fastaddpermissions>`__ permissions. "
+"There are two ways to add titles via fast add. If you know that you're about "
+"to check out an item that isn't in you catalog you can go to the Circulation "
+"module and click 'Fast cataloging.'"
+msgstr ""
+"Por vezes os bibliotecários de circulação precisam de adicionar rapidamente "
+"um registo ao sistema para um exemplar que estão a exportar. Isto é "
+"designado por 'Adição rápida'. Para permitir que os bibliotecários acedam à "
+"ferramenta de catalogação rápida, garanta que têm a permissão "
+"fast_cataloging. Existem duas formas de adicionar títulos de forma rápida. "
+"De sabe que vai emprestar um exemplar que não estar catalogado basta ir ao "
+"módulo de circulação e carregar em 'Catalogação rápida'."
 
 #: ../../source/circulation.rst:987
 msgid "|image571|"
@@ -1367,43 +2018,69 @@ msgstr "|image571|"
 #: ../../source/circulation.rst:989
 #, fuzzy
 msgid "The cataloging interface will open up with the short cataloging record:"
-msgstr "O interface de catalogação irá abrir com a catalogação rápida do registo"
+msgstr ""
+"O interface de catalogação irá abrir com a catalogação rápida do registo"
 
 #: ../../source/circulation.rst:991
 msgid "|image572|"
 msgstr "|image572|"
 
 #: ../../source/circulation.rst:993
-msgid "After adding your cataloging data you will be asked to enter item data. Enter the items barcode, collection code, etc and save the item before checking it out."
-msgstr "Depois de adicionar os dados de catalogação será pedido para inserir os dados dos exemplares. Insira os códigos de barra, os códigos de coleção, etc, e guarda antes de proceder à circulação dos exemplares."
+msgid ""
+"After adding your cataloging data you will be asked to enter item data. "
+"Enter the items barcode, collection code, etc and save the item before "
+"checking it out."
+msgstr ""
+"Depois de adicionar os dados de catalogação será pedido para inserir os "
+"dados dos exemplares. Insira os códigos de barra, os códigos de coleção, "
+"etc, e guarda antes de proceder à circulação dos exemplares."
 
 #: ../../source/circulation.rst:997
-msgid "The other way to fast catalog is from the checkout screen. When you enter a barcode at checkout that Koha can't find, it will prompt you to use fast cataloging to add the item to Koha and check it out."
-msgstr "A outra forma de catalogação rápida é a partir do ecrã de empréstimo. Quando inserir um código de barras que o Koha não encontra, será perguntado se deseja usar a catalogação rápida e proceder ao empréstimo."
+msgid ""
+"The other way to fast catalog is from the checkout screen. When you enter a "
+"barcode at checkout that Koha can't find, it will prompt you to use fast "
+"cataloging to add the item to Koha and check it out."
+msgstr ""
+"A outra forma de catalogação rápida é a partir do ecrã de empréstimo. Quando "
+"inserir um código de barras que o Koha não encontra, será perguntado se "
+"deseja usar a catalogação rápida e proceder ao empréstimo."
 
 #: ../../source/circulation.rst:1001
 msgid "|image573|"
 msgstr "|image573|"
 
 #: ../../source/circulation.rst:1003
-msgid "Clicking 'Fast cataloging' will bring you to the fast cataloging form where you can enter the title information"
-msgstr "Ao clicar em 'Catalogação rápida' irá aparecer um formulário de catalogação rápida onde pode introduzir a informação do título"
+msgid ""
+"Clicking 'Fast cataloging' will bring you to the fast cataloging form where "
+"you can enter the title information"
+msgstr ""
+"Ao clicar em 'Catalogação rápida' irá aparecer um formulário de catalogação "
+"rápida onde pode introduzir a informação do título"
 
 #: ../../source/circulation.rst:1006
 msgid "|image574|"
 msgstr "|image574|"
 
 #: ../../source/circulation.rst:1008
-msgid "After clicking 'Save' you will be brought to the item record where the barcode will already be filled in with the barcode you're trying to check out."
-msgstr "Depois de guardar, voltará ao exemplar cujo código de barras estará preenchido com o código que deseja emprestar."
+msgid ""
+"After clicking 'Save' you will be brought to the item record where the "
+"barcode will already be filled in with the barcode you're trying to check "
+"out."
+msgstr ""
+"Depois de guardar, voltará ao exemplar cujo código de barras estará "
+"preenchido com o código que deseja emprestar."
 
 #: ../../source/circulation.rst:1012
 msgid "|image575|"
 msgstr "|image575|"
 
 #: ../../source/circulation.rst:1014
-msgid "After clicking the 'Add item' button the item will automatically be checked out the patron you were trying to check the book out to originally."
-msgstr "Após clicar no botão para adicionar exemplar, o mesmo será automaticamente emprestado ao leitor que está a tentar emprestar."
+msgid ""
+"After clicking the 'Add item' button the item will automatically be checked "
+"out the patron you were trying to check the book out to originally."
+msgstr ""
+"Após clicar no botão para adicionar exemplar, o mesmo será automaticamente "
+"emprestado ao leitor que está a tentar emprestar."
 
 #: ../../source/circulation.rst:1018
 msgid "|image576|"
@@ -1414,7 +2091,9 @@ msgid "Circulation reports"
 msgstr "Relatórios de empréstimo"
 
 #: ../../source/circulation.rst:1025
-msgid "Most reports can be found via the Reports module, but some of the more common circulation reports are available right from the Circulation module."
+msgid ""
+"Most reports can be found via the Reports module, but some of the more "
+"common circulation reports are available right from the Circulation module."
 msgstr ""
 
 #: ../../source/circulation.rst:1029
@@ -1427,7 +2106,9 @@ msgstr "Fila de espera"
 
 #: ../../source/circulation.rst:1036
 #, fuzzy
-msgid "This report will show you all holds waiting to be pulled off the shelf at your library."
+msgid ""
+"This report will show you all holds waiting to be pulled off the shelf at "
+"your library."
 msgstr "Este relatório irá mostrar todos as reservas na biblioteca."
 
 #: ../../source/circulation.rst:1040
@@ -1435,39 +2116,101 @@ msgid "|image577|"
 msgstr "|image577|"
 
 #: ../../source/circulation.rst:1044
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holds-table)."
 msgstr ""
 
 #: ../../source/circulation.rst:1048
 #, fuzzy
-msgid "To generate this report, you must have the :ref:`Build holds queue cron job <cron-holds-queue-report-label>` running. This cron job is a script that should be run periodically if your library system allows borrowers to place on-shelf holds. This script decides which library should be responsible for fulfilling a given hold request."
-msgstr "Para gerar este relatório, tem que ter a tarefa Build Holds Queue a correr. Essa tarefa é um script que deve ser corrido periodicamente se o sistema permite que os leitores reservem. Este script decide qual a biblioteca que deve ser responsável por preencher determinado pedido."
+msgid ""
+"To generate this report, you must have the :ref:`Build holds queue cron job "
+"<cron-holds-queue-report-label>` running. This cron job is a script that "
+"should be run periodically if your library system allows borrowers to place "
+"on-shelf holds. This script decides which library should be responsible for "
+"fulfilling a given hold request."
+msgstr ""
+"Para gerar este relatório, tem que ter a tarefa Build Holds Queue a correr. "
+"Essa tarefa é um script que deve ser corrido periodicamente se o sistema "
+"permite que os leitores reservem. Este script decide qual a biblioteca que "
+"deve ser responsável por preencher determinado pedido."
 
 #: ../../source/circulation.rst:1054
-msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`UseTransportCostMatrix`."
+msgid ""
+"It's behavior is controlled by the system preferences :ref:"
+"`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:"
+"`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:"
+"`UseTransportCostMatrix`."
 msgstr ""
 
 #: ../../source/circulation.rst:1059
 #, fuzzy
-msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
-msgstr "Se não deseja que todas as bibliotecas participem no processo de preenchimento automático das reservas, deve listar as bibliotecas que participam no processo aqui ao introduzir todos os código de biblioteca, separados pode vírgulas (por exemplo: \"MPL,CPL,SPL,BML\")."
+msgid ""
+"If you do not want all of your libraries to participate in the on-shelf "
+"holds fulfillment process, you should list the libraries that \\*do\\* "
+"participate in the process here by inputting all the participating library's "
+"branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
+msgstr ""
+"Se não deseja que todas as bibliotecas participem no processo de "
+"preenchimento automático das reservas, deve listar as bibliotecas que "
+"participam no processo aqui ao introduzir todos os código de biblioteca, "
+"separados pode vírgulas (por exemplo: \"MPL,CPL,SPL,BML\")."
 
 #: ../../source/circulation.rst:1065
 #, fuzzy
-msgid "By default, the holds queue will be generated such that the system will first attempt to hold fulfillment using items already at the pickup library if possible. If there are no items available at the pickup library to fill a hold, build\\_holds\\_queue.pl will then use the list of libraries defined in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled (which it is by default), the script will assign fulfillment requests in the order the branches are placed in the StaticHoldsQueueWeight system preference."
-msgstr "Por omissão, a lista de reservas será gerada de forma a que o sistema tente preencher as reservas com exemplares já na biblioteca de levantamento se possível. Se não existem exemplares disponíveis para preencher a reserva, o script build_holds_queue.pl usa a lista de bibliotecas definida em StaticHoldsQueueWeight. Se a preferência RandomizeHoldsQueueWeight não está activa (o que acontece por omissão), o script irá assumir pedidos de preenchimento pela ordem que as bibliotecas são colocadas na preferência de sistema StaticHoldsQueueWeight."
+msgid ""
+"By default, the holds queue will be generated such that the system will "
+"first attempt to hold fulfillment using items already at the pickup library "
+"if possible. If there are no items available at the pickup library to fill a "
+"hold, build\\_holds\\_queue.pl will then use the list of libraries defined "
+"in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled (which "
+"it is by default), the script will assign fulfillment requests in the order "
+"the branches are placed in the StaticHoldsQueueWeight system preference."
+msgstr ""
+"Por omissão, a lista de reservas será gerada de forma a que o sistema tente "
+"preencher as reservas com exemplares já na biblioteca de levantamento se "
+"possível. Se não existem exemplares disponíveis para preencher a reserva, o "
+"script build_holds_queue.pl usa a lista de bibliotecas definida em "
+"StaticHoldsQueueWeight. Se a preferência RandomizeHoldsQueueWeight não está "
+"activa (o que acontece por omissão), o script irá assumir pedidos de "
+"preenchimento pela ordem que as bibliotecas são colocadas na preferência de "
+"sistema StaticHoldsQueueWeight."
 
 #: ../../source/circulation.rst:1074
 #, fuzzy
-msgid "For example, if your system has three libraries, of varying sizes ( small, medium and large) and you want the burden of holds fulfillment to be on larger libraries before smaller libraries, you would want StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
-msgstr "Por exemplo, se o sistema tem três bibliotecas, de tamanhos variáveis (pequeno, médio ou grande), e se deseja que o preenchimento de reservas seja das bibliotecas maiores para as mais pequenas, deseja que a preferência do sistema seja algo do tipo \"GRD,MED,PEQ\"."
+msgid ""
+"For example, if your system has three libraries, of varying sizes ( small, "
+"medium and large) and you want the burden of holds fulfillment to be on "
+"larger libraries before smaller libraries, you would want "
+"StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
+msgstr ""
+"Por exemplo, se o sistema tem três bibliotecas, de tamanhos variáveis "
+"(pequeno, médio ou grande), e se deseja que o preenchimento de reservas seja "
+"das bibliotecas maiores para as mais pequenas, deseja que a preferência do "
+"sistema seja algo do tipo \"GRD,MED,PEQ\"."
 
 #: ../../source/circulation.rst:1079
-msgid "If you want the burden of holds fulfillment to be spread out equally throughout your library system, simply enable RandomizeHoldsQueueWeight. When this system preference is enabled, the order in which libraries will be requested to fulfill an on-shelf hold will be randomized each time the list is regenerated."
-msgstr "Se desejar que o fardo do preenchimento das reservas seja repartido equitativamente pelo sistema, basta activar RandomizeHoldsQueueWeight. Quando esta preferência do sistema está activa, a ordem pela qualquer as bibliotecas serão utilizadas será aleatória cada vez que a lista é regenerada."
+msgid ""
+"If you want the burden of holds fulfillment to be spread out equally "
+"throughout your library system, simply enable RandomizeHoldsQueueWeight. "
+"When this system preference is enabled, the order in which libraries will be "
+"requested to fulfill an on-shelf hold will be randomized each time the list "
+"is regenerated."
+msgstr ""
+"Se desejar que o fardo do preenchimento das reservas seja repartido "
+"equitativamente pelo sistema, basta activar RandomizeHoldsQueueWeight. "
+"Quando esta preferência do sistema está activa, a ordem pela qualquer as "
+"bibliotecas serão utilizadas será aleatória cada vez que a lista é "
+"regenerada."
 
 #: ../../source/circulation.rst:1085
-msgid "An alternative to static and randomized is using the :ref:`Tansport cost matrix <transport-cost-matrix-label>`. It takes precedence in controlling where holds are filled from and allows you to define the 'cost' of transport between any two libraries. To use the Transport cost matrix simply set your :ref:`UseTransportCostMatrix` preference to 'Use'."
+msgid ""
+"An alternative to static and randomized is using the :ref:`Tansport cost "
+"matrix <transport-cost-matrix-label>`. It takes precedence in controlling "
+"where holds are filled from and allows you to define the 'cost' of transport "
+"between any two libraries. To use the Transport cost matrix simply set your :"
+"ref:`UseTransportCostMatrix` preference to 'Use'."
 msgstr ""
 
 #: ../../source/circulation.rst:1094
@@ -1476,11 +2219,22 @@ msgstr "Reservas a processar"
 
 #: ../../source/circulation.rst:1096
 #, fuzzy
-msgid "This report will show you all of the items that have holds on them that are available at the library for pulling. If the items are available at multiple libraries then all libraries with that item available will see the hold to pull until one library triggers the hold."
-msgstr "Este relatório irá mostrar todos os exemplares que têm reservas que estão disponíveis na biblioteca. Se os exemplares estão disponíveis em várias bibliotecas então todas a bibliotecas com o exemplar verão a reserva disponível até uma activar a reserva."
+msgid ""
+"This report will show you all of the items that have holds on them that are "
+"available at the library for pulling. If the items are available at multiple "
+"libraries then all libraries with that item available will see the hold to "
+"pull until one library triggers the hold."
+msgstr ""
+"Este relatório irá mostrar todos os exemplares que têm reservas que estão "
+"disponíveis na biblioteca. Se os exemplares estão disponíveis em várias "
+"bibliotecas então todas a bibliotecas com o exemplar verão a reserva "
+"disponível até uma activar a reserva."
 
 #: ../../source/circulation.rst:1101
-msgid "If enabled, clicking the *Mark item as lost* button will mark item as lost and notify the requesting patron depending on the value of the :ref:`CanMarkHoldsToPullAsLost` system preference."
+msgid ""
+"If enabled, clicking the *Mark item as lost* button will mark item as lost "
+"and notify the requesting patron depending on the value of the :ref:"
+"`CanMarkHoldsToPullAsLost` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1105
@@ -1488,17 +2242,26 @@ msgid "|image578|"
 msgstr "|image578|"
 
 #: ../../source/circulation.rst:1109
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-to-pull)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holds-to-pull)."
 msgstr ""
 
 #: ../../source/circulation.rst:1113
-msgid "You can choose which :ref:`LOST value<existing-values-label>` to set the item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference."
+msgid ""
+"You can choose which :ref:`LOST value<existing-values-label>` to set the "
+"item to with the :ref:`UpdateItemWhenLostFromHoldList` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1116
 #, fuzzy
-msgid "You can limit the results you see by using the Refine box on the left side of the page:"
-msgstr "Pode limitar os resultados que vê usando a caixa de refinar pesquisa no lado esquerdo da página"
+msgid ""
+"You can limit the results you see by using the Refine box on the left side "
+"of the page:"
+msgstr ""
+"Pode limitar os resultados que vê usando a caixa de refinar pesquisa no lado "
+"esquerdo da página"
 
 #: ../../source/circulation.rst:1119
 msgid "|image579|"
@@ -1509,28 +2272,46 @@ msgid "Holds awaiting pickup"
 msgstr "Reservas por levantar"
 
 #: ../../source/circulation.rst:1126
-msgid "This report will show all of the holds that are waiting for patrons to pick them up."
-msgstr "Este relatório irá mostrar todos as reservas que estão a espera de levantamento."
+msgid ""
+"This report will show all of the holds that are waiting for patrons to pick "
+"them up."
+msgstr ""
+"Este relatório irá mostrar todos as reservas que estão a espera de "
+"levantamento."
 
 #: ../../source/circulation.rst:1129
 msgid "|image580|"
 msgstr "|image580|"
 
 #: ../../source/circulation.rst:1133
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdst)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holdst)."
 msgstr ""
 
 #: ../../source/circulation.rst:1137
 #, fuzzy
-msgid "Items that have been on the hold shelf longer than you normally allow (based on the :ref:`ReservesMaxPickUpDelay` preference value) will appear on the 'Holds over' tab, they will not automatically be cancelled unless you have set the :ref:`cron job <cron-expired-holds-label>` to do that for you, but you can cancel all holds using the button at the top of the list."
-msgstr "Exemplares que estão como reservados na prateleira mais tempo que o permitido (baseado no valor da preferência ReservesMaxPickUpDelay) aparecem no separador 'Reservas terminadas', não sendo automaticamente canceladas."
+msgid ""
+"Items that have been on the hold shelf longer than you normally allow (based "
+"on the :ref:`ReservesMaxPickUpDelay` preference value) will appear on the "
+"'Holds over' tab, they will not automatically be cancelled unless you have "
+"set the :ref:`cron job <cron-expired-holds-label>` to do that for you, but "
+"you can cancel all holds using the button at the top of the list."
+msgstr ""
+"Exemplares que estão como reservados na prateleira mais tempo que o "
+"permitido (baseado no valor da preferência ReservesMaxPickUpDelay) aparecem "
+"no separador 'Reservas terminadas', não sendo automaticamente canceladas."
 
 #: ../../source/circulation.rst:1144
 msgid "|image581|"
 msgstr "|image581|"
 
 #: ../../source/circulation.rst:1148
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holdso)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holdso)."
 msgstr ""
 
 #: ../../source/circulation.rst:1155
@@ -1538,15 +2319,29 @@ msgid "Hold ratios"
 msgstr "Rácios da reserva"
 
 #: ../../source/circulation.rst:1157
-msgid "Hold ratios help with collection development. Using this report you will be able to see how many of your patrons have holds on items and whether you should buy more. By default it will be set to the library needing 3 items per hold that has been placed. The report will tell you how many additional items need to be purchased to meet this quota."
-msgstr "Rácios de reserva irá ajudar ao desenvolvimento do catálogo. O relatório irá mostrar o número de exemplares que você tem de encomendar para a sua biblioteca para atender as necessidades da mesma. Por padrão será configurado para a biblioteca necessitar de 3 exemplar por reserva colocada. O relatório vai dizer quantos exemplares adicionais precisam ser comprados para atender a essa cota."
+msgid ""
+"Hold ratios help with collection development. Using this report you will be "
+"able to see how many of your patrons have holds on items and whether you "
+"should buy more. By default it will be set to the library needing 3 items "
+"per hold that has been placed. The report will tell you how many additional "
+"items need to be purchased to meet this quota."
+msgstr ""
+"Rácios de reserva irá ajudar ao desenvolvimento do catálogo. O relatório irá "
+"mostrar o número de exemplares que você tem de encomendar para a sua "
+"biblioteca para atender as necessidades da mesma. Por padrão será "
+"configurado para a biblioteca necessitar de 3 exemplar por reserva colocada. "
+"O relatório vai dizer quantos exemplares adicionais precisam ser comprados "
+"para atender a essa cota."
 
 #: ../../source/circulation.rst:1163
 msgid "|image582|"
 msgstr "|image582|"
 
 #: ../../source/circulation.rst:1167
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: holds-ratios)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: holds-ratios)."
 msgstr ""
 
 #: ../../source/circulation.rst:1174
@@ -1554,16 +2349,24 @@ msgid "Transfers to receive"
 msgstr "Transferências a receber"
 
 #: ../../source/circulation.rst:1176
-msgid "This report will list all of the items that Koha thinks are in transit to your library."
-msgstr "Este relatório lista todos os exemplares que estão em trânsito para a biblioteca."
+msgid ""
+"This report will list all of the items that Koha thinks are in transit to "
+"your library."
+msgstr ""
+"Este relatório lista todos os exemplares que estão em trânsito para a "
+"biblioteca."
 
 #: ../../source/circulation.rst:1179
 msgid "|image583|"
 msgstr "|image583|"
 
 #: ../../source/circulation.rst:1181
-msgid "If your transfers are late in arriving at your library you will see a message stating how late your items are."
-msgstr "Se as transferências estão atrasadas verá uma mensagem identificado o quanto atrasado os exemplares estão."
+msgid ""
+"If your transfers are late in arriving at your library you will see a "
+"message stating how late your items are."
+msgstr ""
+"Se as transferências estão atrasadas verá uma mensagem identificado o quanto "
+"atrasado os exemplares estão."
 
 #: ../../source/circulation.rst:1184
 msgid "|image584|"
@@ -1571,15 +2374,24 @@ msgstr "|image584|"
 
 #: ../../source/circulation.rst:1188
 #, fuzzy
-msgid "An item is considered late based on the number of days you have entered in the :ref:`TransfersMaxDaysWarning` system preference."
-msgstr "Importante: Um exemplar é considerado atrasado baseado no número de dias inserido na preferência do sistema TransfersMaxDaysWarning."
+msgid ""
+"An item is considered late based on the number of days you have entered in "
+"the :ref:`TransfersMaxDaysWarning` system preference."
+msgstr ""
+"Importante: Um exemplar é considerado atrasado baseado no número de dias "
+"inserido na preferência do sistema TransfersMaxDaysWarning."
 
 #: ../../source/circulation.rst:1196
 msgid "Article requests"
 msgstr "Pedidos de artigo"
 
 #: ../../source/circulation.rst:1198
-msgid "Article requests are somewhat similar to holds, but are not requests for an item to check out. Instead, article requests are requests for a photocopy of a particular section of a book or an article from a serial issue. This is very common in academic libraries where researchers may request a copy of a single article found in a journal."
+msgid ""
+"Article requests are somewhat similar to holds, but are not requests for an "
+"item to check out. Instead, article requests are requests for a photocopy of "
+"a particular section of a book or an article from a serial issue. This is "
+"very common in academic libraries where researchers may request a copy of a "
+"single article found in a journal."
 msgstr ""
 
 #: ../../source/circulation.rst:1207
@@ -1598,37 +2410,58 @@ msgid "Set to 'Enable' patrons to place article requests."
 msgstr "que os leitores coloquem pedidos de artigo."
 
 #: ../../source/circulation.rst:1213
-msgid "Next you will need to decide how your patrons will make requests, either record only, item only, or both record and item level."
+msgid ""
+"Next you will need to decide how your patrons will make requests, either "
+"record only, item only, or both record and item level."
 msgstr ""
 
 #: ../../source/circulation.rst:1216
-msgid "You can set 3 different system preferences for mandatory fields to be filled in depending on how your records are requested."
+msgid ""
+"You can set 3 different system preferences for mandatory fields to be filled "
+"in depending on how your records are requested."
 msgstr ""
 
 # Circulation > Article Requests
 #: ../../source/circulation.rst:1219
 #, fuzzy
-msgid ":ref:`ArticleRequestsMandatoryFields`: make the following fields mandatory for records that are record level or item level requestable"
-msgstr "Para registos com nível de registo ou nível de exemplar requisitável, torne os seguintes campos como obrigatórios"
+msgid ""
+":ref:`ArticleRequestsMandatoryFields`: make the following fields mandatory "
+"for records that are record level or item level requestable"
+msgstr ""
+"Para registos com nível de registo ou nível de exemplar requisitável, torne "
+"os seguintes campos como obrigatórios"
 
 # Circulation > Article Requests
 #: ../../source/circulation.rst:1222
 #, fuzzy
-msgid ":ref:`ArticleRequestsMandatoryFieldsItemsOnly` make the following fields mandatory for records that are only item level requestable"
-msgstr "Para registos com nível de exemplar requisitável, torne os seguintes campos como obrigatórios"
+msgid ""
+":ref:`ArticleRequestsMandatoryFieldsItemsOnly` make the following fields "
+"mandatory for records that are only item level requestable"
+msgstr ""
+"Para registos com nível de exemplar requisitável, torne os seguintes campos "
+"como obrigatórios"
 
 # Circulation > Article Requests
 #: ../../source/circulation.rst:1225
 #, fuzzy
-msgid ":ref:`ArticleRequestsMandatoryFieldsRecordOnly` make the following fields mandatory for records that are only record level requestable"
-msgstr "Para registos com nível de registo requisitável, torne os seguintes campos como obrigatórios"
+msgid ""
+":ref:`ArticleRequestsMandatoryFieldsRecordOnly` make the following fields "
+"mandatory for records that are only record level requestable"
+msgstr ""
+"Para registos com nível de registo requisitável, torne os seguintes campos "
+"como obrigatórios"
 
 #: ../../source/circulation.rst:1229
-msgid "Next you will want to go into your :ref:`circulation and fines rules matrix <circulation-and-fines-rules-label>` and select each rule for which you want to allow requests."
+msgid ""
+"Next you will want to go into your :ref:`circulation and fines rules matrix "
+"<circulation-and-fines-rules-label>` and select each rule for which you want "
+"to allow requests."
 msgstr ""
 
 #: ../../source/circulation.rst:1233
-msgid "You can allow requests to be made at the record level, item level, yes (which means both) and no (which means no article requests may be placed)."
+msgid ""
+"You can allow requests to be made at the record level, item level, yes "
+"(which means both) and no (which means no article requests may be placed)."
 msgstr ""
 
 #: ../../source/circulation.rst:1240
@@ -1641,7 +2474,10 @@ msgid "Now you can place requests on both the staff client and OPAC."
 msgstr ""
 
 #: ../../source/circulation.rst:1244
-msgid "In the staff client, on the record details page, you will see a 'Request article' button at the top and an 'Article requests' tab to the left. The two options lead to the same page."
+msgid ""
+"In the staff client, on the record details page, you will see a 'Request "
+"article' button at the top and an 'Article requests' tab to the left. The "
+"two options lead to the same page."
 msgstr ""
 
 #: ../../source/circulation.rst:1248
@@ -1649,7 +2485,9 @@ msgid "|image1394|"
 msgstr "|image1394|"
 
 #: ../../source/circulation.rst:1250
-msgid "Just like a hold, you will be prompted to enter the patron's card number or name."
+msgid ""
+"Just like a hold, you will be prompted to enter the patron's card number or "
+"name."
 msgstr ""
 
 #: ../../source/circulation.rst:1253
@@ -1665,7 +2503,11 @@ msgid "|image1396|"
 msgstr "|image1396|"
 
 #: ../../source/circulation.rst:1261
-msgid "Remember, the mandatory fields are set through the three system preferences :ref:`ArticleRequestsMandatoryFields`, :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, and :ref:`ArticleRequestsMandatoryFieldsRecordOnly`."
+msgid ""
+"Remember, the mandatory fields are set through the three system preferences :"
+"ref:`ArticleRequestsMandatoryFields`, :ref:"
+"`ArticleRequestsMandatoryFieldsItemsOnly`, and :ref:"
+"`ArticleRequestsMandatoryFieldsRecordOnly`."
 msgstr ""
 
 #: ../../source/circulation.rst:1266
@@ -1677,7 +2519,9 @@ msgid "Then, click on 'Place request'."
 msgstr ""
 
 #: ../../source/circulation.rst:1270
-msgid "From the OPAC, patrons can place requests themselves either from the results list"
+msgid ""
+"From the OPAC, patrons can place requests themselves either from the results "
+"list"
 msgstr ""
 
 #: ../../source/circulation.rst:1273
@@ -1693,7 +2537,8 @@ msgid "|image1398|"
 msgstr "|image1398|"
 
 #: ../../source/circulation.rst:1279
-msgid "As with a hold, if the patron is not logged in, they will be asked to do so."
+msgid ""
+"As with a hold, if the patron is not logged in, they will be asked to do so."
 msgstr ""
 
 #: ../../source/circulation.rst:1282
@@ -1709,7 +2554,9 @@ msgid "If allowed, the patron can choose the specific item to request."
 msgstr ""
 
 #: ../../source/circulation.rst:1288
-msgid "From their acocunt, the patron will be able to follow the progress of their request from 'pending'"
+msgid ""
+"From their acocunt, the patron will be able to follow the progress of their "
+"request from 'pending'"
 msgstr ""
 
 #: ../../source/circulation.rst:1291
@@ -1725,11 +2572,15 @@ msgid "|image1401|"
 msgstr "|image1401|"
 
 #: ../../source/circulation.rst:1297
-msgid "The patron will also receive an email notification when the status of the request changes."
+msgid ""
+"The patron will also receive an email notification when the status of the "
+"request changes."
 msgstr ""
 
 #: ../../source/circulation.rst:1300
-msgid "Once the request is completed the patron will receive an email notification and the article request will no longer appear in their account."
+msgid ""
+"Once the request is completed the patron will receive an email notification "
+"and the article request will no longer appear in their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1304
@@ -1738,7 +2589,10 @@ msgid "Managing article requests"
 msgstr "Pedidos de artigo"
 
 #: ../../source/circulation.rst:1306
-msgid "Once the article request has been placed, staff will see new requests at the bottom of the home page on the staff client. (In the same location as tags, comments and modifications)."
+msgid ""
+"Once the article request has been placed, staff will see new requests at the "
+"bottom of the home page on the staff client. (In the same location as tags, "
+"comments and modifications)."
 msgstr ""
 
 #: ../../source/circulation.rst:1310
@@ -1748,14 +2602,21 @@ msgstr "|image1402|"
 #: ../../source/circulation.rst:1312
 #, fuzzy
 msgid "From there staff will be able to select requests to process."
-msgstr "A partir do formulário de encomenda, não poderá editar os detalhes bibliográficos."
+msgstr ""
+"A partir do formulário de encomenda, não poderá editar os detalhes "
+"bibliográficos."
 
 #: ../../source/circulation.rst:1314
 msgid "|image1403|"
 msgstr "|image1403|"
 
 #: ../../source/circulation.rst:1316
-msgid "The first step would be for a staff member to process the request, that moves the request to the processing tab and alerts other staff members that the request is in process. In the actions column, click on the dropdown menu and select 'Process request'. This will move the request to the processing tab."
+msgid ""
+"The first step would be for a staff member to process the request, that "
+"moves the request to the processing tab and alerts other staff members that "
+"the request is in process. In the actions column, click on the dropdown menu "
+"and select 'Process request'. This will move the request to the processing "
+"tab."
 msgstr ""
 
 #: ../../source/circulation.rst:1321
@@ -1763,15 +2624,23 @@ msgid "|image1404|"
 msgstr "|image1404|"
 
 #: ../../source/circulation.rst:1323
-msgid "Next staff will go to the shelf and make a copy of the requested article."
+msgid ""
+"Next staff will go to the shelf and make a copy of the requested article."
 msgstr ""
 
 #: ../../source/circulation.rst:1325
-msgid "Once that is complete, staff can print the article request slip (this can be customized in :ref:`notices and slips <notices-and-slips-label>` under AR\\_SLIP) and staple or paper clip it to the article. In the actions column, you can select the dropdown and select print slip."
+msgid ""
+"Once that is complete, staff can print the article request slip (this can be "
+"customized in :ref:`notices and slips <notices-and-slips-label>` under AR"
+"\\_SLIP) and staple or paper clip it to the article. In the actions column, "
+"you can select the dropdown and select print slip."
 msgstr ""
 
 #: ../../source/circulation.rst:1330
-msgid "Finally, staff will select the complete article request from the actions dropdown menu which will send a notice to the patron who made the request letting them know the request is ready for pickup."
+msgid ""
+"Finally, staff will select the complete article request from the actions "
+"dropdown menu which will send a notice to the patron who made the request "
+"letting them know the request is ready for pickup."
 msgstr ""
 
 #: ../../source/circulation.rst:1334
@@ -1780,7 +2649,10 @@ msgid "This removes the article request from the processing tab."
 msgstr "Não existem pedidos de artigo em processamento. "
 
 #: ../../source/circulation.rst:1338
-msgid "Actions can also be made in bulk by checking the boxes next to the requests to process or by clicking 'Select all', and choosing the new status from the actions menu on top of the table."
+msgid ""
+"Actions can also be made in bulk by checking the boxes next to the requests "
+"to process or by clicking 'Select all', and choosing the new status from the "
+"actions menu on top of the table."
 msgstr ""
 
 #: ../../source/circulation.rst:1342
@@ -1793,32 +2665,51 @@ msgstr "Atrasos"
 
 #: ../../source/circulation.rst:1351
 #, fuzzy
-msgid "For libraries with a large patron base, this report may take a significant amount of time to run."
-msgstr "Importante: Para bibliotecas com uma base enorme de leitores, o relatório pode demorar algum tempo a terminar."
+msgid ""
+"For libraries with a large patron base, this report may take a significant "
+"amount of time to run."
+msgstr ""
+"Importante: Para bibliotecas com uma base enorme de leitores, o relatório "
+"pode demorar algum tempo a terminar."
 
 #: ../../source/circulation.rst:1356
 #, fuzzy
-msgid "Large libraries can choose to filter the report before it runs by setting the :ref:`FilterBeforeOverdueReport` system preference to 'Require'."
-msgstr "Dica: Bibliotecas com um catálogo grande podem escolher filtrar o relatório antes de ser corrido definindo a preferência de sistema FilterBeforeOverdueReport para 'Necessita'."
+msgid ""
+"Large libraries can choose to filter the report before it runs by setting "
+"the :ref:`FilterBeforeOverdueReport` system preference to 'Require'."
+msgstr ""
+"Dica: Bibliotecas com um catálogo grande podem escolher filtrar o relatório "
+"antes de ser corrido definindo a preferência de sistema "
+"FilterBeforeOverdueReport para 'Necessita'."
 
 #: ../../source/circulation.rst:1361
 msgid "This report will list all items that are overdue at your library."
-msgstr "Esta relatório irá mostrar todos os exemplares em atraso na biblioteca."
+msgstr ""
+"Esta relatório irá mostrar todos os exemplares em atraso na biblioteca."
 
 #: ../../source/circulation.rst:1363
 msgid "|image585|"
 msgstr "|image585|"
 
 #: ../../source/circulation.rst:1367
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: circ-overdues)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: circ-overdues)."
 msgstr ""
 
 #: ../../source/circulation.rst:1371
-msgid "The report can be filtered using the menu options found on the left of the report."
-msgstr "O relatório pode ser filtrado com as opções do menu à esquerda do relatório"
+msgid ""
+"The report can be filtered using the menu options found on the left of the "
+"report."
+msgstr ""
+"O relatório pode ser filtrado com as opções do menu à esquerda do relatório"
 
 #: ../../source/circulation.rst:1376
-msgid "The 'Show any items currently checked out' checkbox basically switches this from a report of overdues to a report of checkouts. It will show all titles checked out regardless of due date."
+msgid ""
+"The 'Show any items currently checked out' checkbox basically switches this "
+"from a report of overdues to a report of checkouts. It will show all titles "
+"checked out regardless of due date."
 msgstr ""
 
 #: ../../source/circulation.rst:1383
@@ -1826,8 +2717,12 @@ msgid "Overdues with fines"
 msgstr "Atrasos com multas"
 
 #: ../../source/circulation.rst:1385
-msgid "This report will show you any overdues at your library that have accrued fines on them."
-msgstr "Este relatório irá mostrar qualquer atraso na sua biblioteca que tenha multas associadas."
+msgid ""
+"This report will show you any overdues at your library that have accrued "
+"fines on them."
+msgstr ""
+"Este relatório irá mostrar qualquer atraso na sua biblioteca que tenha "
+"multas associadas."
 
 #: ../../source/circulation.rst:1388
 msgid "|image586|"
@@ -1835,13 +2730,25 @@ msgstr "|image586|"
 
 #: ../../source/circulation.rst:1390
 #, fuzzy
-msgid "If you would like to limit the report you can use the pull down menu at the top to limit to a specific shelving location at your branch. To see overdues with fines at other branches you will have to :ref:`change your branch <set-library-label>` or log in at that branch."
-msgstr "Se desejar limitar o relatório pode usar o menu existente no topo para limitar a uma localização específica de prateleira na biblioteca. Para ver atrasos com multas de outras bibliotecas tem que alterar a biblioteca ou entrar noutra biblioteca."
+msgid ""
+"If you would like to limit the report you can use the pull down menu at the "
+"top to limit to a specific shelving location at your branch. To see overdues "
+"with fines at other branches you will have to :ref:`change your branch <set-"
+"library-label>` or log in at that branch."
+msgstr ""
+"Se desejar limitar o relatório pode usar o menu existente no topo para "
+"limitar a uma localização específica de prateleira na biblioteca. Para ver "
+"atrasos com multas de outras bibliotecas tem que alterar a biblioteca ou "
+"entrar noutra biblioteca."
 
 #: ../../source/circulation.rst:1397
 #, fuzzy
-msgid "If you do not charge fines and/or don't have the :ref:`fines cron job <cron-fines-label>` running you will see no data on this report."
-msgstr "Importante: Se não deseja cobrar multas ou não tem a tarefa de cálculo de multas a correr não verá nenhuns dados neste relatório."
+msgid ""
+"If you do not charge fines and/or don't have the :ref:`fines cron job <cron-"
+"fines-label>` running you will see no data on this report."
+msgstr ""
+"Importante: Se não deseja cobrar multas ou não tem a tarefa de cálculo de "
+"multas a correr não verá nenhuns dados neste relatório."
 
 #: ../../source/circulation.rst:1403
 msgid "Pending on-site checkouts"
@@ -1849,16 +2756,26 @@ msgstr "Empréstimos on-site"
 
 #: ../../source/circulation.rst:1405
 #, fuzzy
-msgid "If you are using the on site checkouts functionality (:ref:`OnSiteCheckouts`) then you'll have a report to view all items that are currently checked out on site."
-msgstr "Se estiver a usar a funcionalidade de empréstimos online (OnSiteCheckouts) haverá um relatório para ver todos os exemplares que estão emprestados online."
+msgid ""
+"If you are using the on site checkouts functionality (:ref:"
+"`OnSiteCheckouts`) then you'll have a report to view all items that are "
+"currently checked out on site."
+msgstr ""
+"Se estiver a usar a funcionalidade de empréstimos online (OnSiteCheckouts) "
+"haverá um relatório para ver todos os exemplares que estão emprestados "
+"online."
 
 #: ../../source/circulation.rst:1409
 msgid "|image1260|"
 msgstr "|image1260|"
 
 #: ../../source/circulation.rst:1411
-msgid "This will list the due date (overdues in red), who has the item, item information and what library the item is at."
-msgstr "Isto irá listar a data de término (atrasos a vermelho), quem tem o exemplar, informação do exemplar e qual a biblioteca onde o exemplar está."
+msgid ""
+"This will list the due date (overdues in red), who has the item, item "
+"information and what library the item is at."
+msgstr ""
+"Isto irá listar a data de término (atrasos a vermelho), quem tem o exemplar, "
+"informação do exemplar e qual a biblioteca onde o exemplar está."
 
 #: ../../source/circulation.rst:1417
 msgid "Tracking in-house use"
@@ -1869,11 +2786,21 @@ msgid "Many libraries track the use of items within the library."
 msgstr ""
 
 #: ../../source/circulation.rst:1423
-msgid "This is different from tracking on-site usage. In-house use is the use of items in the library by patrons without them having to check them out. On-site use is the use of items on site that must first be checked out. To learn more about on site usage please review the :ref:`OnSiteCheckouts` preference."
+msgid ""
+"This is different from tracking on-site usage. In-house use is the use of "
+"items in the library by patrons without them having to check them out. On-"
+"site use is the use of items on site that must first be checked out. To "
+"learn more about on site usage please review the :ref:`OnSiteCheckouts` "
+"preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1429
-msgid "Tracking the use of items in the library without checking them out can be done in Koha one of two ways. The first is to create one or more :ref:`Statistical Patrons <add-a-statistical-patron-label>`. When collecting items that have been used within the library, you will want to check them out to your statistical patron:"
+msgid ""
+"Tracking the use of items in the library without checking them out can be "
+"done in Koha one of two ways. The first is to create one or more :ref:"
+"`Statistical Patrons <add-a-statistical-patron-label>`. When collecting "
+"items that have been used within the library, you will want to check them "
+"out to your statistical patron:"
 msgstr ""
 
 #: ../../source/circulation.rst:1435
@@ -1881,7 +2808,9 @@ msgid "|image587|"
 msgstr "|image587|"
 
 #: ../../source/circulation.rst:1437
-msgid "Instead of marking the item as 'checked out' the system will record that the item was used in house:"
+msgid ""
+"Instead of marking the item as 'checked out' the system will record that the "
+"item was used in house:"
 msgstr ""
 
 #: ../../source/circulation.rst:1440
@@ -1889,11 +2818,16 @@ msgid "|image588|"
 msgstr "|image588|"
 
 #: ../../source/circulation.rst:1442
-msgid "Repeat these steps for all items that have been used within the library to keep accurate statistics for item use."
+msgid ""
+"Repeat these steps for all items that have been used within the library to "
+"keep accurate statistics for item use."
 msgstr ""
 
 #: ../../source/circulation.rst:1445
-msgid "The other way to record local use of items is to set your :ref:`RecordLocalUseOnReturn` preference to 'Record.' Then whenever you check an item in that is not checked out and not on hold a local use will be recorded."
+msgid ""
+"The other way to record local use of items is to set your :ref:"
+"`RecordLocalUseOnReturn` preference to 'Record.' Then whenever you check an "
+"item in that is not checked out and not on hold a local use will be recorded."
 msgstr ""
 
 #: ../../source/circulation.rst:1450
@@ -1901,7 +2835,9 @@ msgid "|image589|"
 msgstr "|image589|"
 
 #: ../../source/circulation.rst:1454
-msgid "If you have :ref:`RecordLocalUseOnReturn` set to 'Record' you can still use your statistical patrons to record local use as well."
+msgid ""
+"If you have :ref:`RecordLocalUseOnReturn` set to 'Record' you can still use "
+"your statistical patrons to record local use as well."
 msgstr ""
 
 #: ../../source/circulation.rst:1461
@@ -1910,32 +2846,49 @@ msgid "Self checkout"
 msgstr "Ajuda para auto requisição"
 
 #: ../../source/circulation.rst:1463
-msgid "Koha comes with a very basic self checkout module. To enable this module you need to set the :ref:`WebBasedSelfCheck` system preference to 'Enable.' To use this module you have to log in as a :ref:`staff member <add-a-staff-patron-label>` with :ref:`self\\_check permissions <patron-permissions-label>`."
+msgid ""
+"Koha comes with a very basic self checkout module. To enable this module you "
+"need to set the :ref:`WebBasedSelfCheck` system preference to 'Enable.' To "
+"use this module you have to log in as a :ref:`staff member <add-a-staff-"
+"patron-label>` with :ref:`self\\_check permissions <patron-permissions-"
+"label>`."
 msgstr ""
 
 #: ../../source/circulation.rst:1471
-msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day"
+msgid ""
+"Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for "
+"this action so that you don't leave a real staff client logged into a "
+"computer all day"
 msgstr ""
 
 #: ../../source/circulation.rst:1475
-msgid "There is no link to the Self checkout module, but a simple addition to the :ref:`OPACUserJS` system preference can add one."
+msgid ""
+"There is no link to the Self checkout module, but a simple addition to the :"
+"ref:`OPACUserJS` system preference can add one."
 msgstr ""
 
 #: ../../source/circulation.rst:1490
 #, fuzzy
 msgid "The link will then appear at the bottom of the log in page:"
-msgstr "As ligações para as reclamações aparecem à esquerda na página de detalhes da assinatura"
+msgstr ""
+"As ligações para as reclamações aparecem à esquerda na página de detalhes da "
+"assinatura"
 
 #: ../../source/circulation.rst:1492
 msgid "|image591|"
 msgstr "|image591|"
 
 #: ../../source/circulation.rst:1494
-msgid "You can also access this module by going to: http://YOUR\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sco/sco-main.pl"
+msgid ""
+"You can also access this module by going to: http://YOUR\\_KOHA\\_OPAC\\_URL/"
+"cgi-bin/koha/sco/sco-main.pl"
 msgstr ""
 
 #: ../../source/circulation.rst:1497
-msgid "When on the self checkout page, depending on the value in your :ref:`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference you will be asked to enter your cardnumber"
+msgid ""
+"When on the self checkout page, depending on the value in your :ref:"
+"`SelfCheckoutByLogin <selfcheckoutbylogin-label>` system preference you will "
+"be asked to enter your cardnumber"
 msgstr ""
 
 #: ../../source/circulation.rst:1501
@@ -1952,7 +2905,9 @@ msgid "|image593|"
 msgstr "|image593|"
 
 #: ../../source/circulation.rst:1507
-msgid "Once you're logged in to the self check module you will be asked to scan the items you are checking out"
+msgid ""
+"Once you're logged in to the self check module you will be asked to scan the "
+"items you are checking out"
 msgstr ""
 
 #: ../../source/circulation.rst:1510
@@ -1962,14 +2917,19 @@ msgstr "|image594|"
 #: ../../source/circulation.rst:1512
 #, fuzzy
 msgid "As you scan items they will appear below the barcode box"
-msgstr "Assim que um exemplar é emprestado irá aparecerá abaixo da informação do leitor."
+msgstr ""
+"Assim que um exemplar é emprestado irá aparecerá abaixo da informação do "
+"leitor."
 
 #: ../../source/circulation.rst:1514
 msgid "|image595|"
 msgstr "|image595|"
 
 #: ../../source/circulation.rst:1516
-msgid "When you are finished scanning items it is important to click the 'Finish' button. This will prompt you to print a receipt and log you out of the self check module."
+msgid ""
+"When you are finished scanning items it is important to click the 'Finish' "
+"button. This will prompt you to print a receipt and log you out of the self "
+"check module."
 msgstr ""
 
 #: ../../source/circulation.rst:1520
@@ -1977,7 +2937,12 @@ msgid "|image596|"
 msgstr "|image596|"
 
 #: ../../source/circulation.rst:1522
-msgid "When attempting to check items out there are some instances where error messages will appear and the patron will be directed to the librarian. This will happen even if you are allowing overrides on circulation functions. Only a librarian can override a circulation block and so patrons must go to the librarian for help in these situations."
+msgid ""
+"When attempting to check items out there are some instances where error "
+"messages will appear and the patron will be directed to the librarian. This "
+"will happen even if you are allowing overrides on circulation functions. "
+"Only a librarian can override a circulation block and so patrons must go to "
+"the librarian for help in these situations."
 msgstr ""
 
 #: ../../source/circulation.rst:1528
@@ -1990,19 +2955,30 @@ msgid "Self check-in"
 msgstr "%s Sistema de auto devolução"
 
 #: ../../source/circulation.rst:1535
-msgid "In order to use the self check-in module, you must first set the :ref: `SelfCheckInModule <selfscheckinmodule-label>` system preference to 'Enable'."
+msgid ""
+"In order to use the self check-in module, you must first set the :ref: "
+"`SelfCheckInModule <selfscheckinmodule-label>` system preference to 'Enable'."
 msgstr ""
 
 #: ../../source/circulation.rst:1539
-msgid "Then, you will have to :ref:`create a patron <add-a-staff-patron-label>` with the :ref:`self\\_checkin\\_module permission <granular-self-check-permissions-label>`."
+msgid ""
+"Then, you will have to :ref:`create a patron <add-a-staff-patron-label>` "
+"with the :ref:`self\\_checkin\\_module permission <granular-self-check-"
+"permissions-label>`."
 msgstr ""
 
 #: ../../source/circulation.rst:1544
-msgid "Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for this action so that you don't leave a real staff client logged into a computer all day. You can give this patron only the aforementionned permission so it cannot be used for anything else."
+msgid ""
+"Create a :ref:`staff patron <add-a-staff-patron-label>` specifically for "
+"this action so that you don't leave a real staff client logged into a "
+"computer all day. You can give this patron only the aforementionned "
+"permission so it cannot be used for anything else."
 msgstr ""
 
 #: ../../source/circulation.rst:1549
-msgid "Once this is done, you can head over to the self check-in page: http://YOUR\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sci/sci-main.pl"
+msgid ""
+"Once this is done, you can head over to the self check-in page: http://YOUR"
+"\\_KOHA\\_OPAC\\_URL/cgi-bin/koha/sci/sci-main.pl"
 msgstr ""
 
 #: ../../source/circulation.rst:1552
@@ -2010,7 +2986,9 @@ msgid "Log in with your staff patron with self check-in permissions"
 msgstr ""
 
 #: ../../source/circulation.rst:1554
-msgid "Once the computer or kiosk is set and the self check-in user logged in, patrons will be able to check-in their items themselves."
+msgid ""
+"Once the computer or kiosk is set and the self check-in user logged in, "
+"patrons will be able to check-in their items themselves."
 msgstr ""
 
 #: ../../source/circulation.rst:1557
@@ -2018,25 +2996,39 @@ msgid "|image1331|"
 msgstr "|image1331|"
 
 #: ../../source/circulation.rst:1559
-msgid "The patron will either scan the item's barcode, if the computer is attached to a barcode scanner, or type in their item's barcode in the box and click 'Add' or press enter."
+msgid ""
+"The patron will either scan the item's barcode, if the computer is attached "
+"to a barcode scanner, or type in their item's barcode in the box and click "
+"'Add' or press enter."
 msgstr ""
 
 #: ../../source/circulation.rst:1565
 #, fuzzy
 msgid "Most barcode scanners will automatically hit return after scanning."
-msgstr "A maior parte das multas serão cobradas se a tarefa das multas estiver a correr:"
+msgstr ""
+"A maior parte das multas serão cobradas se a tarefa das multas estiver a "
+"correr:"
 
 #: ../../source/circulation.rst:1567
 #, fuzzy
-msgid "Once they have scanned or entered all their items' barcodes, they can click on the 'Check-in' button to return all the items at once."
-msgstr "Assim que adicionar todos os exemplar carregue no butão 'Feito'. A página irá listar todos os exemplares que seleccionou."
+msgid ""
+"Once they have scanned or entered all their items' barcodes, they can click "
+"on the 'Check-in' button to return all the items at once."
+msgstr ""
+"Assim que adicionar todos os exemplar carregue no butão 'Feito'. A página "
+"irá listar todos os exemplares que seleccionou."
 
 #: ../../source/circulation.rst:1572
-msgid "If the patron doesn't click the 'Check-in' button, the items will not be returned and will stay in their account."
+msgid ""
+"If the patron doesn't click the 'Check-in' button, the items will not be "
+"returned and will stay in their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1577
-msgid "The self check-in module will not warn user if the item is late, if they have fines, if the item is on hold for someone else, or if they have messages in their account."
+msgid ""
+"The self check-in module will not warn user if the item is late, if they "
+"have fines, if the item is on hold for someone else, or if they have "
+"messages in their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1581
@@ -2052,23 +3044,37 @@ msgid "|image1333|"
 msgstr "|image1333|"
 
 #: ../../source/circulation.rst:1589
-msgid "If the patron doesn't click 'Finish', the screen will refresh after the timeout period specified in the :ref:`SelfCheckInTimeout` system preference."
+msgid ""
+"If the patron doesn't click 'Finish', the screen will refresh after the "
+"timeout period specified in the :ref:`SelfCheckInTimeout` system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1594
-msgid "Even if the patron doesn't click 'Finish' the item will still be checked in from their account."
+msgid ""
+"Even if the patron doesn't click 'Finish' the item will still be checked in "
+"from their account."
 msgstr ""
 
 #: ../../source/circulation.rst:1597
-msgid "You can cutomize the look of your self check-in screens by using the :ref:`SelfCheckInUserCSS` system preference or the :ref:`SelfCheckInUserJS` system preference."
+msgid ""
+"You can cutomize the look of your self check-in screens by using the :ref:"
+"`SelfCheckInUserCSS` system preference or the :ref:`SelfCheckInUserJS` "
+"system preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1601
-msgid "You can add content, like instructions on how to use the self check-in system for example, by using the :ref:`SelfCheckInMainUserBlock` system preference."
+msgid ""
+"You can add content, like instructions on how to use the self check-in "
+"system for example, by using the :ref:`SelfCheckInMainUserBlock` system "
+"preference."
 msgstr ""
 
 #: ../../source/circulation.rst:1604
-msgid "Statistics about the transactions made through the self check-in module are logged into the action\\_logs table in the Koha database. You can therefore :ref:`build a custom report <custom-reports-label>` to get the statistics you need."
+msgid ""
+"Statistics about the transactions made through the self check-in module are "
+"logged into the action\\_logs table in the Koha database. You can therefore :"
+"ref:`build a custom report <custom-reports-label>` to get the statistics you "
+"need."
 msgstr ""
 
 #: ../../source/circulation.rst:1612
@@ -2077,7 +3083,9 @@ msgid "Offline circulation utilities"
 msgstr "Circulação offline"
 
 #: ../../source/circulation.rst:1614
-msgid "Koha allows for you to continue circulation actions while offline by using any one of three utilities."
+msgid ""
+"Koha allows for you to continue circulation actions while offline by using "
+"any one of three utilities."
 msgstr ""
 
 #: ../../source/circulation.rst:1620
@@ -2087,11 +3095,25 @@ msgstr "Ficheiro de circulação offline"
 
 #: ../../source/circulation.rst:1622
 #, fuzzy
-msgid "If the :ref:`AllowOfflineCirculation` preference is set to 'Enable' the library staff can continue to perform circulation actions within Koha when the system is offline. You will want to visit http://your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl at least once while online and bookmark that page. That is the page you will go to when you are offline."
-msgstr "Se a preferência AllowOfflineCirculation está definida como 'Ativar' os técnicos podem continuar a efetuar ações de circulação no Koha quando o sistema está offline. "
+msgid ""
+"If the :ref:`AllowOfflineCirculation` preference is set to 'Enable' the "
+"library staff can continue to perform circulation actions within Koha when "
+"the system is offline. You will want to visit http://your-koha-staff-client-"
+"url/cgi-bin/koha/circ/offline.pl at least once while online and bookmark "
+"that page. That is the page you will go to when you are offline."
+msgstr ""
+"Se a preferência AllowOfflineCirculation está definida como 'Ativar' os "
+"técnicos podem continuar a efetuar ações de circulação no Koha quando o "
+"sistema está offline. "
 
 #: ../../source/circulation.rst:1631 ../../source/circulation.rst:1656
-msgid "The offline interface uses HTML LocalStorage, which depending on the browser and user setting, is limited to 2.5MB or 5MB per domain. This means that larger systems will not be able to synchronize their data and are recommended to use either the :ref:`Firefox <firefox-plugin-label>` or :ref:`Windows <offline-circ-tool-for-windows-label>` application for offline circulation."
+msgid ""
+"The offline interface uses HTML LocalStorage, which depending on the browser "
+"and user setting, is limited to 2.5MB or 5MB per domain. This means that "
+"larger systems will not be able to synchronize their data and are "
+"recommended to use either the :ref:`Firefox <firefox-plugin-label>` or :ref:"
+"`Windows <offline-circ-tool-for-windows-label>` application for offline "
+"circulation."
 msgstr ""
 
 #: ../../source/circulation.rst:1642
@@ -2099,40 +3121,62 @@ msgid "Setup"
 msgstr "Configuração"
 
 #: ../../source/circulation.rst:1644
-msgid "Before the first time the system goes offline go to Circulation and choose 'Built-in offline circulation interface'"
-msgstr "Antes da primeira vez que o sistema fique offline, vá á página de circulação e escolha 'Interface de circulação offline'"
+msgid ""
+"Before the first time the system goes offline go to Circulation and choose "
+"'Built-in offline circulation interface'"
+msgstr ""
+"Antes da primeira vez que o sistema fique offline, vá á página de circulação "
+"e escolha 'Interface de circulação offline'"
 
 #: ../../source/circulation.rst:1647
 msgid "|image598|"
 msgstr "|image598|"
 
 #: ../../source/circulation.rst:1649
-msgid "And synchronize your data on every circulation computer by clicking the 'Synchronize' link on the right of the screen."
-msgstr "E sincronize todos os dados em cada computador onde é feita circulação clicando na ligação 'Sincronizar' à direita do ecrã."
+msgid ""
+"And synchronize your data on every circulation computer by clicking the "
+"'Synchronize' link on the right of the screen."
+msgstr ""
+"E sincronize todos os dados em cada computador onde é feita circulação "
+"clicando na ligação 'Sincronizar' à direita do ecrã."
 
 #: ../../source/circulation.rst:1652
 msgid "|image599|"
 msgstr "|image599|"
 
 #: ../../source/circulation.rst:1664
-msgid "This will allow you download a local copy of your patrons and circulation data. Click the 'Download records' link at the top of the page to synchronize your data."
-msgstr "Isto permite o download de uma cópia local dos leitores e dados de circulação. Clique em 'Download dos registos' no topo da página para sincronizar os dados."
+msgid ""
+"This will allow you download a local copy of your patrons and circulation "
+"data. Click the 'Download records' link at the top of the page to "
+"synchronize your data."
+msgstr ""
+"Isto permite o download de uma cópia local dos leitores e dados de "
+"circulação. Clique em 'Download dos registos' no topo da página para "
+"sincronizar os dados."
 
 #: ../../source/circulation.rst:1668
 msgid "|image600|"
 msgstr "|image600|"
 
 #: ../../source/circulation.rst:1670
-msgid "Once your data is downloaded you will see the dates your data was last synced to the right of each data set."
-msgstr "Assim que os dados forem descarregados irá ver as datas que os dados foram sincronizados pela última vez junto a cada conjunto."
+msgid ""
+"Once your data is downloaded you will see the dates your data was last "
+"synced to the right of each data set."
+msgstr ""
+"Assim que os dados forem descarregados irá ver as datas que os dados foram "
+"sincronizados pela última vez junto a cada conjunto."
 
 #: ../../source/circulation.rst:1673
 msgid "|image1261|"
 msgstr "|image1261|"
 
 #: ../../source/circulation.rst:1675
-msgid "This should be done regularly in preparation for any unexpected connection losses."
-msgstr "Isto deve ser feito regularmente em preparação para qualquer perca de conexão inesperada."
+msgid ""
+"This should be done regularly in preparation for any unexpected connection "
+"losses."
+msgstr ""
+"Isto deve ser feito regularmente em preparação para qualquer perca de "
+"conexão inesperada."
 
 #: ../../source/circulation.rst:1680
 msgid "Circulating"
@@ -2140,20 +3184,35 @@ msgstr "Empréstimo"
 
 #: ../../source/circulation.rst:1682
 #, fuzzy
-msgid "When your system goes offline visit the Offline Circulation page (http://your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl) in Koha and click 'Check out' or 'Check in' to perform offline actions."
-msgstr "Quando o seu sistema estiver offline visite a página de Circulação offline do Koha e clique em 'Emprestar' ou 'Devolver'"
+msgid ""
+"When your system goes offline visit the Offline Circulation page (http://"
+"your-koha-staff-client-url/cgi-bin/koha/circ/offline.pl) in Koha and click "
+"'Check out' or 'Check in' to perform offline actions."
+msgstr ""
+"Quando o seu sistema estiver offline visite a página de Circulação offline "
+"do Koha e clique em 'Emprestar' ou 'Devolver'"
 
 #: ../../source/circulation.rst:1686
-msgid "Checking out is done by searching for the patron by barcode or name at the top of the 'Check out' screen. After selecting a patron you will be presented with the synced patron info, including fines and check outs."
-msgstr "O empréstimo é feito pesquisando pelo leitor pelo código de cartão ou nome no topo do ecrã de 'Empréstimo'. Após selecionar o leitor aparecerá a informação sincronizada do mesmo, incluindo multas e empréstimos."
+msgid ""
+"Checking out is done by searching for the patron by barcode or name at the "
+"top of the 'Check out' screen. After selecting a patron you will be "
+"presented with the synced patron info, including fines and check outs."
+msgstr ""
+"O empréstimo é feito pesquisando pelo leitor pelo código de cartão ou nome "
+"no topo do ecrã de 'Empréstimo'. Após selecionar o leitor aparecerá a "
+"informação sincronizada do mesmo, incluindo multas e empréstimos."
 
 #: ../../source/circulation.rst:1690
 msgid "|image601|"
 msgstr "|image601|"
 
 #: ../../source/circulation.rst:1692
-msgid "Scan the barcode of the item you would like to check out and enter a due date. If you don't enter a due date Koha will prompt you for one."
-msgstr "Digitalize o código de barras do exemplar que deseja emprestar e insira uma data de termino. Se não inserir um data de termino o Koha irá pedir uma."
+msgid ""
+"Scan the barcode of the item you would like to check out and enter a due "
+"date. If you don't enter a due date Koha will prompt you for one."
+msgstr ""
+"Digitalize o código de barras do exemplar que deseja emprestar e insira uma "
+"data de termino. Se não inserir um data de termino o Koha irá pedir uma."
 
 #: ../../source/circulation.rst:1695
 msgid "|image602|"
@@ -2161,7 +3220,9 @@ msgstr "|image602|"
 
 #: ../../source/circulation.rst:1697
 msgid "Once the item is checked out it will appear below the patron's info."
-msgstr "Assim que um exemplar é emprestado irá aparecerá abaixo da informação do leitor."
+msgstr ""
+"Assim que um exemplar é emprestado irá aparecerá abaixo da informação do "
+"leitor."
 
 #: ../../source/circulation.rst:1699
 msgid "|image603|"
@@ -2174,8 +3235,12 @@ msgstr "Koha circulação offline"
 
 #: ../../source/circulation.rst:1706
 #, fuzzy
-msgid "Once the system is back online visit the 'Synchronize' page on the Offline circulation module and click 'Upload transactions'"
-msgstr "Assim que o sistema estive novamente online visite a página de sincronização no módulo de circulação offline e clique em 'Carregar transações'"
+msgid ""
+"Once the system is back online visit the 'Synchronize' page on the Offline "
+"circulation module and click 'Upload transactions'"
+msgstr ""
+"Assim que o sistema estive novamente online visite a página de sincronização "
+"no módulo de circulação offline e clique em 'Carregar transações'"
 
 #: ../../source/circulation.rst:1709
 msgid "|image604|"
@@ -2183,15 +3248,22 @@ msgstr "|image604|"
 
 #: ../../source/circulation.rst:1711
 #, fuzzy
-msgid "After the files are uploaded you can click 'View pending offline circulation actions' on the right."
-msgstr "Após os ficheiros terem sido carregados pode clicar em 'Ver ações de circulação offline pendentes' à direita para processar as ações."
+msgid ""
+"After the files are uploaded you can click 'View pending offline circulation "
+"actions' on the right."
+msgstr ""
+"Após os ficheiros terem sido carregados pode clicar em 'Ver ações de "
+"circulação offline pendentes' à direita para processar as ações."
 
 #: ../../source/circulation.rst:1714
 msgid "|image605|"
 msgstr "|image605|"
 
 #: ../../source/circulation.rst:1716 ../../source/circulation.rst:1956
-msgid "After clicking 'View pending offline circulation actions' you will be brought to a summary of all of the actions you loaded in to Koha in your \\*.koc file."
+msgid ""
+"After clicking 'View pending offline circulation actions' you will be "
+"brought to a summary of all of the actions you loaded in to Koha in your \\*."
+"koc file."
 msgstr ""
 
 #: ../../source/circulation.rst:1720
@@ -2200,13 +3272,22 @@ msgstr "|image606|"
 
 #: ../../source/circulation.rst:1722 ../../source/circulation.rst:1880
 #: ../../source/circulation.rst:1962
-msgid "Once all of the logs from all of the circulation computers are loaded you will be able to check them all or select just those you want to process into Koha."
-msgstr "Assim que todos os logs de circulação são carregados poderá marcar-los todos ou apenas seleccionar os que deseja processar no Koha."
+msgid ""
+"Once all of the logs from all of the circulation computers are loaded you "
+"will be able to check them all or select just those you want to process into "
+"Koha."
+msgstr ""
+"Assim que todos os logs de circulação são carregados poderá marcar-los todos "
+"ou apenas seleccionar os que deseja processar no Koha."
 
 #: ../../source/circulation.rst:1726
 #, fuzzy
-msgid "Click on the 'Process' button and Koha will record every stored transaction one by one. For each transaction, the status will change to:"
-msgstr "Clique no botão para processar e o Koha irá registar cada transição. Para cada transição, o estado irá ser alterado para: "
+msgid ""
+"Click on the 'Process' button and Koha will record every stored transaction "
+"one by one. For each transaction, the status will change to:"
+msgstr ""
+"Clique no botão para processar e o Koha irá registar cada transição. Para "
+"cada transição, o estado irá ser alterado para: "
 
 #: ../../source/circulation.rst:1730 ../../source/circulation.rst:1888
 #: ../../source/circulation.rst:1909 ../../source/circulation.rst:1970
@@ -2216,12 +3297,15 @@ msgstr "\"Sucesso.\" se a transacção foi processada correctamente"
 #: ../../source/circulation.rst:1732 ../../source/circulation.rst:1890
 #: ../../source/circulation.rst:1911 ../../source/circulation.rst:1972
 msgid "\"Borrower not found.\" if the borrower card number is incorrect"
-msgstr "\"Leitor não encontrado.\" se o número de cartão do leitor está incorrecto"
+msgstr ""
+"\"Leitor não encontrado.\" se o número de cartão do leitor está incorrecto"
 
 #: ../../source/circulation.rst:1734 ../../source/circulation.rst:1892
 #: ../../source/circulation.rst:1913 ../../source/circulation.rst:1974
 msgid "\"Item not found.\" if the item barcode is wrong"
-msgstr "\"Exemplar não encontrado.\" se o código de barras do exemplar está incorrecto"
+msgstr ""
+"\"Exemplar não encontrado.\" se o código de barras do exemplar está "
+"incorrecto"
 
 #: ../../source/circulation.rst:1736 ../../source/circulation.rst:1894
 #: ../../source/circulation.rst:1915 ../../source/circulation.rst:1976
@@ -2243,11 +3327,18 @@ msgid "Firefox plugin"
 msgstr "Ver plugins de relatórios"
 
 #: ../../source/circulation.rst:1747
-msgid "There is an offline circulation tool that you can add to your Firefox browser as an addon. To do so, just go to https://addons.mozilla.org/en/firefox/addon/koct/ page and click on the \"install now\" button. You may have to confirm the installation, just click on \"install now\" and then restart Firefox to complete the installation."
+msgid ""
+"There is an offline circulation tool that you can add to your Firefox "
+"browser as an addon. To do so, just go to https://addons.mozilla.org/en/"
+"firefox/addon/koct/ page and click on the \"install now\" button. You may "
+"have to confirm the installation, just click on \"install now\" and then "
+"restart Firefox to complete the installation."
 msgstr ""
 
 #: ../../source/circulation.rst:1754
-msgid "Once you have installed the plugin and restarted Firefox, you will see the Koha logo in the download bar at the bottom right of Firefox."
+msgid ""
+"Once you have installed the plugin and restarted Firefox, you will see the "
+"Koha logo in the download bar at the bottom right of Firefox."
 msgstr ""
 
 #: ../../source/circulation.rst:1757
@@ -2277,7 +3368,9 @@ msgid "The 'Check in' section is where you check in items"
 msgstr "Emprestar e devolver exemplares"
 
 #: ../../source/circulation.rst:1769
-msgid "The ‘Transactions’ section is where you can track the transactions done while in offline mode"
+msgid ""
+"The ‘Transactions’ section is where you can track the transactions done "
+"while in offline mode"
 msgstr ""
 
 #: ../../source/circulation.rst:1771
@@ -2289,11 +3382,16 @@ msgid "|image610|"
 msgstr "|image610|"
 
 #: ../../source/circulation.rst:1775
-msgid "If you'd like to clear the transactions, click the 'Clear' box before hitting the 'OK' button."
+msgid ""
+"If you'd like to clear the transactions, click the 'Clear' box before "
+"hitting the 'OK' button."
 msgstr ""
 
 #: ../../source/circulation.rst:1778
-msgid "The first thing you want to do then is to set up the plugin. Proceed to the settings page, linked in the top right of the page or under ‘Configuration page’ in the Transactions section."
+msgid ""
+"The first thing you want to do then is to set up the plugin. Proceed to the "
+"settings page, linked in the top right of the page or under ‘Configuration "
+"page’ in the Transactions section."
 msgstr ""
 
 #: ../../source/circulation.rst:1780
@@ -2324,19 +3422,29 @@ msgid "Branch code = the code for the branch where you are located"
 msgstr ""
 
 #: ../../source/circulation.rst:1792
-msgid "Commit Type = If you select ‘Send data to Koha’, your account will need to be approved by an administrator. If you select ‘Apply directly to Koha’, your account will not need to be approved."
+msgid ""
+"Commit Type = If you select ‘Send data to Koha’, your account will need to "
+"be approved by an administrator. If you select ‘Apply directly to Koha’, "
+"your account will not need to be approved."
 msgstr ""
 
 #: ../../source/circulation.rst:1796
-msgid "To save the settings, you will have to close the plugin window and re-open it by clicking again on the Koha logo in the add-on bar."
+msgid ""
+"To save the settings, you will have to close the plugin window and re-open "
+"it by clicking again on the Koha logo in the add-on bar."
 msgstr ""
 
 #: ../../source/circulation.rst:1801
-msgid "You can create a staff account dedicated to the offline circulation. So that, no matter who is at the circulation desk, they can all use the same login. Along those lines, you can use a group login that you already have in place for circulation as well."
+msgid ""
+"You can create a staff account dedicated to the offline circulation. So "
+"that, no matter who is at the circulation desk, they can all use the same "
+"login. Along those lines, you can use a group login that you already have in "
+"place for circulation as well."
 msgstr ""
 
 #: ../../source/circulation.rst:1806
-msgid "Once you have everything set up you can start checking items in and out."
+msgid ""
+"Once you have everything set up you can start checking items in and out."
 msgstr ""
 
 #: ../../source/circulation.rst:1808
@@ -2388,7 +3496,10 @@ msgid "Click 'Checkin'"
 msgstr "Clicar em 'Guardar'"
 
 #: ../../source/circulation.rst:1830
-msgid "Each time, you check out or check in an item, a new transaction is recorded in the local plugin database. This is recorded in the Transactions section bellow."
+msgid ""
+"Each time, you check out or check in an item, a new transaction is recorded "
+"in the local plugin database. This is recorded in the Transactions section "
+"bellow."
 msgstr ""
 
 #: ../../source/circulation.rst:1833
@@ -2396,19 +3507,35 @@ msgid "|image615|"
 msgstr "|image615|"
 
 #: ../../source/circulation.rst:1837
-msgid "The status will be \"Local.\" as long as you are offline and don't process the transactions into Koha."
+msgid ""
+"The status will be \"Local.\" as long as you are offline and don't process "
+"the transactions into Koha."
 msgstr ""
 
 #: ../../source/circulation.rst:1840
-msgid "When your Internet connection comes back up you will want to get these transactions in to Koha. Before processing these transactions you should be aware of a few issues."
+msgid ""
+"When your Internet connection comes back up you will want to get these "
+"transactions in to Koha. Before processing these transactions you should be "
+"aware of a few issues."
 msgstr ""
 
 #: ../../source/circulation.rst:1844
-msgid "Because you are not connected to your Koha database when using this plugin holds will need additional processing. If an item you check in while offline has a hold, the hold is kept on the item. Since, you can't confirm holds found during the processing of every check in, the holds stay on the item and will need to be managed later. If you only checked in a few items you can just keep a record of them all. If you checked in a lot of items you can use the Holds queue once it rebuilds to see what holds made it to the shelf erroneously."
+msgid ""
+"Because you are not connected to your Koha database when using this plugin "
+"holds will need additional processing. If an item you check in while offline "
+"has a hold, the hold is kept on the item. Since, you can't confirm holds "
+"found during the processing of every check in, the holds stay on the item "
+"and will need to be managed later. If you only checked in a few items you "
+"can just keep a record of them all. If you checked in a lot of items you can "
+"use the Holds queue once it rebuilds to see what holds made it to the shelf "
+"erroneously."
 msgstr ""
 
 #: ../../source/circulation.rst:1853
-msgid "Similarly, if an patron card was expired, the offline circulation tool won't know about it, so the checkout will be recorded regardless of the patron's account being blocked normally."
+msgid ""
+"Similarly, if an patron card was expired, the offline circulation tool won't "
+"know about it, so the checkout will be recorded regardless of the patron's "
+"account being blocked normally."
 msgstr ""
 
 #: ../../source/circulation.rst:1857
@@ -2420,7 +3547,16 @@ msgid "Apply to Koha"
 msgstr ""
 
 #: ../../source/circulation.rst:1863
-msgid "If you checked in/out on more than one computer at the same time, what you want is to process every transaction consistently. Let's say for instance that one patron checked a book out on one computer and then checked the same book in on another computer. To be consistent, you need to record the check out first and then the check in. Not the opposite! To do so, you need to group every transaction in one place, sort them all and then, process everything. So, you need to use the \"Apply to Koha\" option from every plugin/computer you worked with. This way, the log will go to Koha and be accessible from the Offline Circulation page."
+msgid ""
+"If you checked in/out on more than one computer at the same time, what you "
+"want is to process every transaction consistently. Let's say for instance "
+"that one patron checked a book out on one computer and then checked the same "
+"book in on another computer. To be consistent, you need to record the check "
+"out first and then the check in. Not the opposite! To do so, you need to "
+"group every transaction in one place, sort them all and then, process "
+"everything. So, you need to use the \"Apply to Koha\" option from every "
+"plugin/computer you worked with. This way, the log will go to Koha and be "
+"accessible from the Offline Circulation page."
 msgstr ""
 
 #: ../../source/circulation.rst:1874
@@ -2438,8 +3574,12 @@ msgstr "|image617|"
 
 #: ../../source/circulation.rst:1884 ../../source/circulation.rst:1966
 #, fuzzy
-msgid "Click on the Process button and Koha will record every stored transaction one by one. For each transaction, the status will change to:"
-msgstr "Clique no botão para processar e o Koha irá registar cada transição. Para cada transição, o estado irá ser alterado para: "
+msgid ""
+"Click on the Process button and Koha will record every stored transaction "
+"one by one. For each transaction, the status will change to:"
+msgstr ""
+"Clique no botão para processar e o Koha irá registar cada transição. Para "
+"cada transição, o estado irá ser alterado para: "
 
 #: ../../source/circulation.rst:1898
 msgid "|image618|"
@@ -2450,11 +3590,15 @@ msgid "Apply directly"
 msgstr "Aplicar diretamente"
 
 #: ../../source/circulation.rst:1902
-msgid "If you performed all of the circulation actions on one computer then everything is sorted already so you can choose to \"Apply directly\""
+msgid ""
+"If you performed all of the circulation actions on one computer then "
+"everything is sorted already so you can choose to \"Apply directly\""
 msgstr ""
 
 #: ../../source/circulation.rst:1906
-msgid "The status column will be updated to let you know if the transactions were applied"
+msgid ""
+"The status column will be updated to let you know if the transactions were "
+"applied"
 msgstr ""
 
 #: ../../source/circulation.rst:1921
@@ -2463,11 +3607,16 @@ msgid "Offline circ tool for Windows"
 msgstr "Circulação offline"
 
 #: ../../source/circulation.rst:1923
-msgid "The Offline circulation utility can be downloaded at: https://github.com/bywatersolutions/koha-offline-circulation/releases"
+msgid ""
+"The Offline circulation utility can be downloaded at: https://github.com/"
+"bywatersolutions/koha-offline-circulation/releases"
 msgstr ""
 
 #: ../../source/circulation.rst:1926
-msgid "To generate a borrowers.db file for loading in to the Windows tool you will need to run the :ref:`file generator via a cron job <cron-generate-patron-file-for-offline-circulation-label>`."
+msgid ""
+"To generate a borrowers.db file for loading in to the Windows tool you will "
+"need to run the :ref:`file generator via a cron job <cron-generate-patron-"
+"file-for-offline-circulation-label>`."
 msgstr ""
 
 #: ../../source/circulation.rst:1933
@@ -2477,12 +3626,19 @@ msgstr "Carregar ficheiro de circulação offline (.koc)"
 
 #: ../../source/circulation.rst:1935
 #, fuzzy
-msgid "The :ref:`offline circulation tool for Windows <offline-circ-tool-for-windows-label>` will generate a KOC file that you can upload into Koha once your system comes back up."
-msgstr "A ferramenta de circulação offline do Windows gera um ficheiro KOC que pode ser carregado para o Koha assim que o sistema estiver disponível."
+msgid ""
+"The :ref:`offline circulation tool for Windows <offline-circ-tool-for-"
+"windows-label>` will generate a KOC file that you can upload into Koha once "
+"your system comes back up."
+msgstr ""
+"A ferramenta de circulação offline do Windows gera um ficheiro KOC que pode "
+"ser carregado para o Koha assim que o sistema estiver disponível."
 
 #: ../../source/circulation.rst:1939
 msgid "On the Circulation menu click 'Upload offline circulation file (.koc)'"
-msgstr "No menu de circulação clique em 'Carregar ficheiro de circulação offline (.koc)'"
+msgstr ""
+"No menu de circulação clique em 'Carregar ficheiro de circulação offline (."
+"koc)'"
 
 #: ../../source/circulation.rst:1941
 msgid "|image621|"
@@ -2506,8 +3662,12 @@ msgid "|image623|"
 msgstr "|image623|"
 
 #: ../../source/circulation.rst:1951
-msgid "When this is complete you'll be able to upload another file or tend to pending offline circulation actions."
-msgstr "Quando estiver completo poderá carregar outro ficheiro ou ver as ações de circulação offline pendentes."
+msgid ""
+"When this is complete you'll be able to upload another file or tend to "
+"pending offline circulation actions."
+msgstr ""
+"Quando estiver completo poderá carregar outro ficheiro ou ver as ações de "
+"circulação offline pendentes."
 
 #: ../../source/circulation.rst:1954
 msgid "|image624|"
@@ -2522,12 +3682,24 @@ msgid "|image626|"
 msgstr "|image626|"
 
 #, fuzzy
-#~ msgid "If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__ preference, you will also see the option to export the patron's current checkout information using a CSV profile or ISO2709 (MARC21) format."
-#~ msgstr "Se definiu a preferência ExportWithCsvProfile, pode também ver a opção de exportar a informação de empréstimo do leitor usando um perfil CSV ou no formato ISO2709 (MARC21)"
+#~ msgid ""
+#~ "If you have set your `ExportWithCsvProfile <#ExportWithCsvProfile>`__ "
+#~ "preference, you will also see the option to export the patron's current "
+#~ "checkout information using a CSV profile or ISO2709 (MARC21) format."
+#~ msgstr ""
+#~ "Se definiu a preferência ExportWithCsvProfile, pode também ver a opção de "
+#~ "exportar a informação de empréstimo do leitor usando um perfil CSV ou no "
+#~ "formato ISO2709 (MARC21)"
 
 #, fuzzy
-#~ msgid "From the holds list you can suspend or resume patrons holds using the options at the bottom of the list if you have the :ref:`SuspendHoldsIntranet` preference set to 'allow.'"
-#~ msgstr "A partir da página de reservas pode suspender ou recuperar reservas de leitores usando as opções no fundo da lista se tiver a preferência de sistema SuspendHoldsIntranet definida para permitir."
+#~ msgid ""
+#~ "From the holds list you can suspend or resume patrons holds using the "
+#~ "options at the bottom of the list if you have the :ref:"
+#~ "`SuspendHoldsIntranet` preference set to 'allow.'"
+#~ msgstr ""
+#~ "A partir da página de reservas pode suspender ou recuperar reservas de "
+#~ "leitores usando as opções no fundo da lista se tiver a preferência de "
+#~ "sistema SuspendHoldsIntranet definida para permitir."
 
 #~ msgid "|image612|"
 #~ msgstr "|image612|"
@@ -2546,6 +3718,13 @@ msgstr "|image626|"
 #~ msgstr "|image620|"
 
 #, fuzzy
-#~ msgid "Leaving StaticHoldsQueueWeight empty is contraindicated at this time. Doing so will cause the build\\_holds\\_queue script to ignore RandomizeHoldsQueueWeight, causing the script to request hold fulfillment not randomly, but by alphabetical order."
-#~ msgstr "Deixar StaticHoldsQueueWeight vazio não é indicado de momento. Fazer isso vai causar que o script build_holds_queue ignore a preferência RandomizeHoldsQueueWeight, fazendo com que o script preencha as reservas de forma alfabética, e não de forma aleatória."
-
+#~ msgid ""
+#~ "Leaving StaticHoldsQueueWeight empty is contraindicated at this time. "
+#~ "Doing so will cause the build\\_holds\\_queue script to ignore "
+#~ "RandomizeHoldsQueueWeight, causing the script to request hold fulfillment "
+#~ "not randomly, but by alphabetical order."
+#~ msgstr ""
+#~ "Deixar StaticHoldsQueueWeight vazio não é indicado de momento. Fazer isso "
+#~ "vai causar que o script build_holds_queue ignore a preferência "
+#~ "RandomizeHoldsQueueWeight, fazendo com que o script preencha as reservas "
+#~ "de forma alfabética, e não de forma aleatória."

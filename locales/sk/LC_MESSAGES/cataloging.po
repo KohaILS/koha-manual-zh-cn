@@ -1,7 +1,7 @@
 # Compendium of sk.
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-sk\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2019-03-14 21:18-0300\n"
@@ -10,6 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /sk/man20.11/cataloging.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/cataloging.rst:6
 msgid "Cataloging"
@@ -17,11 +19,27 @@ msgstr "Katalogizácia"
 
 #: ../../source/cataloging.rst:8
 #, fuzzy
-msgid "Before you start cataloging in Koha you're going to want to do some basic setup. Refer to the :ref:`Implementation checklist <implementation-checklist-label>` for a full list of these things. Most importantly you're going to want to make sure that your :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>` are all defined the way you want. Once in the cataloging module you will not be able to add or remove fields and subfields so your frameworks must be ready before you start cataloging."
-msgstr "Skôr ako sa pustíte do katalogizácie v Kohe, je potrebné spraviť si základné nastavenia. Pozrite sa do Realizačného kontrolného zoznamu, kde sú uvedené všetky potrebné kroky. Zo všetkého najdôležitejšou vecou je mať správne nastavené všetky Rámce. Keď už budete v module katalogizácie, nebudete môcť pridávať alebo odoberať polia a podpolia, takže vaše rámce musia byť prichystané skôr ako začnete katalogizovať."
+msgid ""
+"Before you start cataloging in Koha you're going to want to do some basic "
+"setup. Refer to the :ref:`Implementation checklist <implementation-checklist-"
+"label>` for a full list of these things. Most importantly you're going to "
+"want to make sure that your :ref:`MARC bibliographic frameworks <marc-"
+"bibliographic-frameworks-label>` are all defined the way you want. Once in "
+"the cataloging module you will not be able to add or remove fields and "
+"subfields so your frameworks must be ready before you start cataloging."
+msgstr ""
+"Skôr ako sa pustíte do katalogizácie v Kohe, je potrebné spraviť si základné "
+"nastavenia. Pozrite sa do Realizačného kontrolného zoznamu, kde sú uvedené "
+"všetky potrebné kroky. Zo všetkého najdôležitejšou vecou je mať správne "
+"nastavené všetky Rámce. Keď už budete v module katalogizácie, nebudete môcť "
+"pridávať alebo odoberať polia a podpolia, takže vaše rámce musia byť "
+"prichystané skôr ako začnete katalogizovať."
 
 #: ../../source/cataloging.rst:16
-msgid "You can also use OCLC Connexion to send records directly in to Koha. For more information on that please review the :ref:`OCLC Connexion Gateway` setup Appendix."
+msgid ""
+"You can also use OCLC Connexion to send records directly in to Koha. For "
+"more information on that please review the :ref:`OCLC Connexion Gateway` "
+"setup Appendix."
 msgstr ""
 
 #: ../../source/cataloging.rst:20
@@ -35,8 +53,17 @@ msgstr "Knižničný záznam"
 
 #: ../../source/cataloging.rst:27
 #, fuzzy
-msgid "In Koha the bibliographic record contains the main information related to the material. This includes things like the title, author, ISBN, etc. This information is stored in Koha in Marc (different flavors of Marc are supported in Koha). Once this information is saved, :ref:`item records <item-records-label>` can be attached."
-msgstr "V Kohe knižničný záznam obsahuje hlavné informácie o materiáli. Toto zahŕňa názov, autora, ISBN, atď. Tieto informácie sa ukladajú do Kohy v MARCu (v Kohe sú podporované viaceré odtiene MARCu). Len čo sú tieto informácie uložené, môžu byť pridané exempláre alebo kópie."
+msgid ""
+"In Koha the bibliographic record contains the main information related to "
+"the material. This includes things like the title, author, ISBN, etc. This "
+"information is stored in Koha in Marc (different flavors of Marc are "
+"supported in Koha). Once this information is saved, :ref:`item records <item-"
+"records-label>` can be attached."
+msgstr ""
+"V Kohe knižničný záznam obsahuje hlavné informácie o materiáli. Toto zahŕňa "
+"názov, autora, ISBN, atď. Tieto informácie sa ukladajú do Kohy v MARCu (v "
+"Kohe sú podporované viaceré odtiene MARCu). Len čo sú tieto informácie "
+"uložené, môžu byť pridané exempláre alebo kópie."
 
 #: ../../source/cataloging.rst:36
 #, fuzzy
@@ -45,13 +72,22 @@ msgstr "Upravujú sa záznamy"
 
 #: ../../source/cataloging.rst:38
 #, fuzzy
-msgid "Records can be added to Koha via original or copy cataloging. You can also choose to use the basic or advanced cataloging interface for all of your work."
-msgstr "Záznamy možno pridať do Kohy prostredníctvom katalogizácie originálu alebo kópie. Ak by ste chceli zapísať záznam s použitím čistej šablóny"
+msgid ""
+"Records can be added to Koha via original or copy cataloging. You can also "
+"choose to use the basic or advanced cataloging interface for all of your "
+"work."
+msgstr ""
+"Záznamy možno pridať do Kohy prostredníctvom katalogizácie originálu alebo "
+"kópie. Ak by ste chceli zapísať záznam s použitím čistej šablóny"
 
 #: ../../source/cataloging.rst:42
 #, fuzzy
-msgid "If you would like to catalog a record using a blank template in the basic editor"
-msgstr "Ak chcete katalogizovať záznam na základe existujúceho záznamu v inej knižnici"
+msgid ""
+"If you would like to catalog a record using a blank template in the basic "
+"editor"
+msgstr ""
+"Ak chcete katalogizovať záznam na základe existujúceho záznamu v inej "
+"knižnici"
 
 #: ../../source/cataloging.rst:45
 #, fuzzy
@@ -79,13 +115,21 @@ msgstr "Poznámka"
 
 #: ../../source/cataloging.rst:53
 #, fuzzy
-msgid "You can create or modify frameworks in the :ref:`Administration module <marc-bibliographic-frameworks-label>`."
-msgstr "Tip: Aby boli podpolia exemplárov povinné v knižničnom rámci, bude dobré upraviť pole 952 v editore rámcov."
+msgid ""
+"You can create or modify frameworks in the :ref:`Administration module <marc-"
+"bibliographic-frameworks-label>`."
+msgstr ""
+"Tip: Aby boli podpolia exemplárov povinné v knižničnom rámci, bude dobré "
+"upraviť pole 952 v editore rámcov."
 
 #: ../../source/cataloging.rst:56
 #, fuzzy
-msgid "If you would like to catalog a record using a blank template in the advanced editor"
-msgstr "Ak chcete katalogizovať záznam na základe existujúceho záznamu v inej knižnici"
+msgid ""
+"If you would like to catalog a record using a blank template in the advanced "
+"editor"
+msgstr ""
+"Ak chcete katalogizovať záznam na základe existujúceho záznamu v inej "
+"knižnici"
 
 # Labs > All
 #: ../../source/cataloging.rst:59
@@ -104,8 +148,12 @@ msgstr "|image1262|"
 
 #: ../../source/cataloging.rst:65
 #, fuzzy
-msgid "If you want to catalog a record based on an existing record at another library in the basic or advanced editor"
-msgstr "Ak chcete katalogizovať záznam na základe existujúceho záznamu v inej knižnici"
+msgid ""
+"If you want to catalog a record based on an existing record at another "
+"library in the basic or advanced editor"
+msgstr ""
+"Ak chcete katalogizovať záznam na základe existujúceho záznamu v inej "
+"knižnici"
 
 #: ../../source/cataloging.rst:68
 #, fuzzy
@@ -113,7 +161,9 @@ msgid "Click 'New from Z39.50/SRU'"
 msgstr "Nový zo Z39.50/SRU"
 
 #: ../../source/cataloging.rst:70
-msgid "Click on the arrow to pre-select a framework for your imported your catalog record (the Default framework is used if you do not make a selection)."
+msgid ""
+"Click on the arrow to pre-select a framework for your imported your catalog "
+"record (the Default framework is used if you do not make a selection)."
 msgstr ""
 
 #: ../../source/cataloging.rst:73
@@ -126,35 +176,56 @@ msgstr "Vyhľadajte exemplár, ktorý chcete zapísať do katalógu"
 
 #: ../../source/cataloging.rst:79
 #, fuzzy
-msgid "If no results are found, try searching for fewer fields, not all Z39.50 targets can search all of the fields above."
-msgstr "Tip: Ak sa nenachádzajú žiadne výsledky, skúste vyhľadávať v menšom počte polí, nie všetky ciele Z39.50/SRU dokážu hľadať naraz vo všetkých vyššie uvedených poliach."
+msgid ""
+"If no results are found, try searching for fewer fields, not all Z39.50 "
+"targets can search all of the fields above."
+msgstr ""
+"Tip: Ak sa nenachádzajú žiadne výsledky, skúste vyhľadávať v menšom počte "
+"polí, nie všetky ciele Z39.50/SRU dokážu hľadať naraz vo všetkých vyššie "
+"uvedených poliach."
 
 #: ../../source/cataloging.rst:82
 #, fuzzy
-msgid "Search targets can be altered by using the :ref:`Z39.50 admin <z39.50/sru-servers-label>` area."
-msgstr "Hľadanie cieľov môže byť zmenené s použitím oblasti administrácie Z39.50/SRU."
+msgid ""
+"Search targets can be altered by using the :ref:`Z39.50 admin <z39.50/sru-"
+"servers-label>` area."
+msgstr ""
+"Hľadanie cieľov môže byť zmenené s použitím oblasti administrácie Z39.50/SRU."
 
 #: ../../source/cataloging.rst:84
-msgid "The display of extra MARC fields and subfields can be configured via the :ref:`AdditionalFieldsInZ3950ResultSearch` preference."
+msgid ""
+"The display of extra MARC fields and subfields can be configured via the :"
+"ref:`AdditionalFieldsInZ3950ResultSearch` preference."
 msgstr ""
 
 #: ../../source/cataloging.rst:87
 #, fuzzy
-msgid "From the results' 'Action' button you can view the MARC or Card view for the record or choose to import it into Koha."
-msgstr "Vo výsledkoch môžete nahliadnuť do MARC alebo karty alebo môžete zvoliť ich import do Kohy "
+msgid ""
+"From the results' 'Action' button you can view the MARC or Card view for the "
+"record or choose to import it into Koha."
+msgstr ""
+"Vo výsledkoch môžete nahliadnuť do MARC alebo karty alebo môžete zvoliť ich "
+"import do Kohy "
 
 #: ../../source/cataloging.rst:90
 msgid "|image629|"
 msgstr "|image629|"
 
 #: ../../source/cataloging.rst:94
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: resultst)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: resultst)."
 msgstr ""
 
 #: ../../source/cataloging.rst:98
 #, fuzzy
-msgid "If you don't find the title you need in your Z39.50 search results you can click the 'Try Another Search' button at the bottom left of your results"
-msgstr "Ak nenájdete želaný titul vo vašom hľadaní v Z39.50/SRU, môžete kliknúť na tlačidlo 'Skúste nové hľadanie' vľavo dole od vašich výsledkov"
+msgid ""
+"If you don't find the title you need in your Z39.50 search results you can "
+"click the 'Try Another Search' button at the bottom left of your results"
+msgstr ""
+"Ak nenájdete želaný titul vo vašom hľadaní v Z39.50/SRU, môžete kliknúť na "
+"tlačidlo 'Skúste nové hľadanie' vľavo dole od vašich výsledkov"
 
 #: ../../source/cataloging.rst:102
 msgid "|image631|"
@@ -167,8 +238,12 @@ msgstr "Rýchla katalogizácia"
 
 #: ../../source/cataloging.rst:109
 #, fuzzy
-msgid "In the basic editor once you've opened a blank framework or imported a record via Z39.50 you will be presented with the form to continue cataloging"
-msgstr "Len čo ste otvorili prázdny rámec alebo naimportovali záznam cez Z39.50/SRU, predstaví sa Vám formulár na pokračovanie v katalogizácii"
+msgid ""
+"In the basic editor once you've opened a blank framework or imported a "
+"record via Z39.50 you will be presented with the form to continue cataloging"
+msgstr ""
+"Len čo ste otvorili prázdny rámec alebo naimportovali záznam cez Z39.50/SRU, "
+"predstaví sa Vám formulár na pokračovanie v katalogizácii"
 
 #: ../../source/cataloging.rst:113
 #, fuzzy
@@ -177,8 +252,14 @@ msgstr "|image1452|"
 
 #: ../../source/cataloging.rst:115
 #, fuzzy
-msgid "If you would rather not see the MARC tag numbers you can change the value in your :ref:`hide\\_marc <hide-marc-label>` system preference or each user can check the box next to 'Show tags' found under 'Settings'."
-msgstr "Ak radšej nechcete vidieť čísla značiek MARC, môžete zmeniť hodnotu vo vašom systémovom nastavení hide_marc alebo každý užívateľ môže zaškrtnúť políčko vedľa 'Zobraziť značky' navrchu editora."
+msgid ""
+"If you would rather not see the MARC tag numbers you can change the value in "
+"your :ref:`hide\\_marc <hide-marc-label>` system preference or each user can "
+"check the box next to 'Show tags' found under 'Settings'."
+msgstr ""
+"Ak radšej nechcete vidieť čísla značiek MARC, môžete zmeniť hodnotu vo vašom "
+"systémovom nastavení hide_marc alebo každý užívateľ môže zaškrtnúť políčko "
+"vedľa 'Zobraziť značky' navrchu editora."
 
 #: ../../source/cataloging.rst:119
 msgid "|image632|"
@@ -190,38 +271,66 @@ msgstr "Pre rozšírenie rozbalenej menovky, kliknite na popis menovky"
 
 #: ../../source/cataloging.rst:123
 #, fuzzy
-msgid "To get help from the Library of Congress on a MARC tag click the question mark (?) to the right of each field number"
-msgstr "Pre získanie pomoci z Kongresovej knižnice o menovke MARC, kliknite na otáznik (?) napravo od každého čísla poľa "
+msgid ""
+"To get help from the Library of Congress on a MARC tag click the question "
+"mark (?) to the right of each field number"
+msgstr ""
+"Pre získanie pomoci z Kongresovej knižnice o menovke MARC, kliknite na "
+"otáznik (?) napravo od každého čísla poľa "
 
 #: ../../source/cataloging.rst:126
-msgid "It is possible to change the source of the MARC documentation using the :ref:`MARCFieldDocURL` system preference"
+msgid ""
+"It is possible to change the source of the MARC documentation using the :ref:"
+"`MARCFieldDocURL` system preference"
 msgstr ""
 
 #: ../../source/cataloging.rst:129
 #, fuzzy
-msgid "If you feel that this clutters the screen you can hide the question marks by unchecking the box next to the 'Show MARC tag documentation links' note found under 'Settings'"
-msgstr "Ak máte pocit, že Vám to zneprehľadňuje prácu, môžete skryť otázniky odznačením políčka 'Zobraziť odkazy dokumentácie menoviek MARC' vedľa poznámky hore napravo od editora"
+msgid ""
+"If you feel that this clutters the screen you can hide the question marks by "
+"unchecking the box next to the 'Show MARC tag documentation links' note "
+"found under 'Settings'"
+msgstr ""
+"Ak máte pocit, že Vám to zneprehľadňuje prácu, môžete skryť otázniky "
+"odznačením políčka 'Zobraziť odkazy dokumentácie menoviek MARC' vedľa "
+"poznámky hore napravo od editora"
 
 #: ../../source/cataloging.rst:133
 #, fuzzy
-msgid "Sometimes fields may not be editable due to the value in your :ref:`BiblioAddsAuthorities` system preference. If you have this preference set to not allow catalogers to type in fields controlled by authorities you may see a lock symbol to the left of the field."
-msgstr "Niekedy sa polia nemusia dať upraviť kvôli hodnote vo vašom systémovom nastavení BiblioAddsAuthorities. Ak je toto nastavenie zapnuté tak, aby bránilo katalogizátorom vpisovať do políčok riadených autoritami, uvidíte symbol zámku naľavo od políčka. "
+msgid ""
+"Sometimes fields may not be editable due to the value in your :ref:"
+"`BiblioAddsAuthorities` system preference. If you have this preference set "
+"to not allow catalogers to type in fields controlled by authorities you may "
+"see a lock symbol to the left of the field."
+msgstr ""
+"Niekedy sa polia nemusia dať upraviť kvôli hodnote vo vašom systémovom "
+"nastavení BiblioAddsAuthorities. Ak je toto nastavenie zapnuté tak, aby "
+"bránilo katalogizátorom vpisovať do políčok riadených autoritami, uvidíte "
+"symbol zámku naľavo od políčka. "
 
 #: ../../source/cataloging.rst:139
 msgid "|image633|"
 msgstr "|image633|"
 
 #: ../../source/cataloging.rst:141
-msgid "If this icon appears you must click the icon to the right of the field to search for an existing authority."
-msgstr "Ak sa zobrazí táto ikona, musíte kliknúť na ikonu napravo od políčka pre hľadanie jestvujúcej autority."
+msgid ""
+"If this icon appears you must click the icon to the right of the field to "
+"search for an existing authority."
+msgstr ""
+"Ak sa zobrazí táto ikona, musíte kliknúť na ikonu napravo od políčka pre "
+"hľadanie jestvujúcej autority."
 
 #: ../../source/cataloging.rst:144
 msgid "|image634|"
 msgstr "|image634|"
 
 #: ../../source/cataloging.rst:146
-msgid "From the results list click 'Choose authority' to bring that into your catalog record"
-msgstr "V zozname výsledkov kliknite na 'Zvoliť autoritu' pre jej prenesenie do Vášho záznamu"
+msgid ""
+"From the results list click 'Choose authority' to bring that into your "
+"catalog record"
+msgstr ""
+"V zozname výsledkov kliknite na 'Zvoliť autoritu' pre jej prenesenie do "
+"Vášho záznamu"
 
 #: ../../source/cataloging.rst:149
 msgid "|image635|"
@@ -229,28 +338,44 @@ msgstr "|image635|"
 
 #: ../../source/cataloging.rst:151
 #, fuzzy
-msgid "To duplicate a field click on the 'repeat this tag' icon to the right of the tag"
-msgstr "Pre zdvojenie poľa kliknite na ikonu 'opakovať túto menovku' napravo od menovky "
+msgid ""
+"To duplicate a field click on the 'repeat this tag' icon to the right of the "
+"tag"
+msgstr ""
+"Pre zdvojenie poľa kliknite na ikonu 'opakovať túto menovku' napravo od "
+"menovky "
 
 #: ../../source/cataloging.rst:154
 msgid "|image636|"
 msgstr "|image636|"
 
 #: ../../source/cataloging.rst:156
-msgid "To move subfields in to the right order, click the up arrow to the left of the field"
-msgstr "Pre premiestnenie podpolí v správnom poradí, kliknite na šípku nahor naľavo od poľa"
+msgid ""
+"To move subfields in to the right order, click the up arrow to the left of "
+"the field"
+msgstr ""
+"Pre premiestnenie podpolí v správnom poradí, kliknite na šípku nahor naľavo "
+"od poľa"
 
 #: ../../source/cataloging.rst:159
-msgid "To duplicate a subfield click on the clone icon (to remove a copied field, click the delete clone icon) to the right of the field"
-msgstr "Pre duplikáciu podpoľa, kliknite na ikonu klonovania (pre odobratie kopírovaného poľa, kliknite na ikonu odstránenia klonovania) napravo od poľa"
+msgid ""
+"To duplicate a subfield click on the clone icon (to remove a copied field, "
+"click the delete clone icon) to the right of the field"
+msgstr ""
+"Pre duplikáciu podpoľa, kliknite na ikonu klonovania (pre odobratie "
+"kopírovaného poľa, kliknite na ikonu odstránenia klonovania) napravo od poľa"
 
 #: ../../source/cataloging.rst:163
 msgid "|image637|"
 msgstr "|image637|"
 
 #: ../../source/cataloging.rst:165
-msgid "To remove a subfield (if there is more than one of the same type), click the - (minus sign) to the right of the field"
-msgstr "Pre odobratie podpoľa (ak je tam viac než jedno rovnakého typu), kliknite na - (znamienko mínus) napravo od poľa"
+msgid ""
+"To remove a subfield (if there is more than one of the same type), click the "
+"- (minus sign) to the right of the field"
+msgstr ""
+"Pre odobratie podpoľa (ak je tam viac než jedno rovnakého typu), kliknite na "
+"- (znamienko mínus) napravo od poľa"
 
 #: ../../source/cataloging.rst:168
 #, fuzzy
@@ -262,8 +387,12 @@ msgid "|image638|"
 msgstr "|image638|"
 
 #: ../../source/cataloging.rst:172
-msgid "Some fixed fields have editors that will change based on the material type you're cataloging (for example the 006 and the 008 fields)"
-msgstr "Niektoré fixné polia majú editory, ktoré sa budú meniť podľa typu zapisovaného materiálu (napríklad polia 006 a 008)"
+msgid ""
+"Some fixed fields have editors that will change based on the material type "
+"you're cataloging (for example the 006 and the 008 fields)"
+msgstr ""
+"Niektoré fixné polia majú editory, ktoré sa budú meniť podľa typu "
+"zapisovaného materiálu (napríklad polia 006 a 008)"
 
 #: ../../source/cataloging.rst:176
 msgid "|image639|"
@@ -271,28 +400,44 @@ msgstr "|image639|"
 
 #: ../../source/cataloging.rst:178
 #, fuzzy
-msgid "Once you've finished, click the 'Save' button at the top and choose whether you want to save and view the bib record you have created or continue on to add/edit items attached to the record"
-msgstr "Hneď po skončení, kliknite na tlačidlo 'Uložiť' navrchu a zvoľte si, či chcete uložiť alebo nahliadnuť na knižničný záznam, ktorý ste vytvorili, alebo pokračovať v pridávaní/úprave exemplárov pripojených k záznamu "
+msgid ""
+"Once you've finished, click the 'Save' button at the top and choose whether "
+"you want to save and view the bib record you have created or continue on to "
+"add/edit items attached to the record"
+msgstr ""
+"Hneď po skončení, kliknite na tlačidlo 'Uložiť' navrchu a zvoľte si, či "
+"chcete uložiť alebo nahliadnuť na knižničný záznam, ktorý ste vytvorili, "
+"alebo pokračovať v pridávaní/úprave exemplárov pripojených k záznamu "
 
 #: ../../source/cataloging.rst:182
 msgid "|image640|"
 msgstr "|image640|"
 
 #: ../../source/cataloging.rst:184
-msgid "Choosing 'Save and view record' will bring you right to the record you just cataloged"
+msgid ""
+"Choosing 'Save and view record' will bring you right to the record you just "
+"cataloged"
 msgstr ""
 
 #: ../../source/cataloging.rst:187
-msgid "Choosing 'Save and edit items' will bring you to the add/edit item form after saving the bib record so that you can attach holdings"
+msgid ""
+"Choosing 'Save and edit items' will bring you to the add/edit item form "
+"after saving the bib record so that you can attach holdings"
 msgstr ""
 
 #: ../../source/cataloging.rst:190
-msgid "Choosing 'Save and continue editing' will allow you to save your work so far and keep you in the editor to continue working"
+msgid ""
+"Choosing 'Save and continue editing' will allow you to save your work so far "
+"and keep you in the editor to continue working"
 msgstr ""
 
 #: ../../source/cataloging.rst:193
-msgid "If you are about to add a duplicate record to the system you will be warned before saving"
-msgstr "Ak sa chystáte pridať duplicitný záznam, systém Vás na to pred uložením upozorní"
+msgid ""
+"If you are about to add a duplicate record to the system you will be warned "
+"before saving"
+msgstr ""
+"Ak sa chystáte pridať duplicitný záznam, systém Vás na to pred uložením "
+"upozorní"
 
 #: ../../source/cataloging.rst:196
 msgid "|image641|"
@@ -306,19 +451,27 @@ msgstr "Pokročilý editor"
 # Labs > All
 #: ../../source/cataloging.rst:203
 #, fuzzy
-msgid "In order to use the Advanced cataloging editor you need to enable the :ref:`EnableAdvancedCatalogingEditor` preference."
+msgid ""
+"In order to use the Advanced cataloging editor you need to enable the :ref:"
+"`EnableAdvancedCatalogingEditor` preference."
 msgstr "Zapnúť"
 
 # Cataloging > Interface
 #: ../../source/cataloging.rst:209
 #, fuzzy
-msgid "This feature does not currently include any support for UNIMARC or NORMARC fixed fields."
+msgid ""
+"This feature does not currently include any support for UNIMARC or NORMARC "
+"fixed fields."
 msgstr "Momentálne nezahŕňa podporu pre pevné polia v UNIMARC alebo NORMARC."
 
 #: ../../source/cataloging.rst:212
 #, fuzzy
-msgid "In the advanced editor once you've opened a blank framework or imported a record via Z39.50 you will be presented with the form to continue cataloging"
-msgstr "Len čo ste otvorili prázdny rámec alebo naimportovali záznam cez Z39.50/SRU, predstaví sa Vám formulár na pokračovanie v katalogizácii"
+msgid ""
+"In the advanced editor once you've opened a blank framework or imported a "
+"record via Z39.50 you will be presented with the form to continue cataloging"
+msgstr ""
+"Len čo ste otvorili prázdny rámec alebo naimportovali záznam cez Z39.50/SRU, "
+"predstaví sa Vám formulár na pokračovanie v katalogizácii"
 
 #: ../../source/cataloging.rst:216
 msgid "|image1263|"
@@ -335,15 +488,21 @@ msgstr "|image642|"
 
 #: ../../source/cataloging.rst:222
 #, fuzzy
-msgid "And from those Z39.50 results you can view the marc record by clicking the link to the right"
-msgstr "Kliknite na 'Nový zo Z39.50/SRU' (voliteľne, môžete si vybrať rámec, do ktorého budete importovať záznam s použitím ponuky vpravo)."
+msgid ""
+"And from those Z39.50 results you can view the marc record by clicking the "
+"link to the right"
+msgstr ""
+"Kliknite na 'Nový zo Z39.50/SRU' (voliteľne, môžete si vybrať rámec, do "
+"ktorého budete importovať záznam s použitím ponuky vpravo)."
 
 #: ../../source/cataloging.rst:225
 msgid "|image643|"
 msgstr "|image643|"
 
 #: ../../source/cataloging.rst:227
-msgid "Clicking 'Import' will bring the record in to the editor where you can perform your edits"
+msgid ""
+"Clicking 'Import' will bring the record in to the editor where you can "
+"perform your edits"
 msgstr ""
 
 #: ../../source/cataloging.rst:230
@@ -351,19 +510,29 @@ msgid "|image644|"
 msgstr "|image644|"
 
 #: ../../source/cataloging.rst:234
-msgid "When adding a new field in the Advanced Editor, you need to key underscores for a blank indicator, and surround the indicators with spaces."
+msgid ""
+"When adding a new field in the Advanced Editor, you need to key underscores "
+"for a blank indicator, and surround the indicators with spaces."
 msgstr ""
 
 #: ../../source/cataloging.rst:240
-msgid "You need to key a space before the first subfield delimiter, but not before or after other subfield delimiters in the field."
+msgid ""
+"You need to key a space before the first subfield delimiter, but not before "
+"or after other subfield delimiters in the field."
 msgstr ""
 
 #: ../../source/cataloging.rst:243
-msgid "At the bottom of the editor you will see help from the Library of Congress for the field you are on. In cases where your MARC is invalid you will see red highlighting. To edit the record using only keyboard functions the Keyboard shortcuts button will inform you of the necessary commands."
+msgid ""
+"At the bottom of the editor you will see help from the Library of Congress "
+"for the field you are on. In cases where your MARC is invalid you will see "
+"red highlighting. To edit the record using only keyboard functions the "
+"Keyboard shortcuts button will inform you of the necessary commands."
 msgstr ""
 
 #: ../../source/cataloging.rst:249
-msgid "A clipboard is available to copy and paste text between fields.  See the image and table below for the shortcuts used with the clipboard."
+msgid ""
+"A clipboard is available to copy and paste text between fields.  See the "
+"image and table below for the shortcuts used with the clipboard."
 msgstr ""
 
 #: ../../source/cataloging.rst:252
@@ -376,7 +545,9 @@ msgid "Advanced cataloging keyboard shortcuts"
 msgstr "Podporované klávesové skratky"
 
 #: ../../source/cataloging.rst:259
-msgid "The following keyboard shortcuts can be used in the advanced cataloging module to save time and clicking."
+msgid ""
+"The following keyboard shortcuts can be used in the advanced cataloging "
+"module to save time and clicking."
 msgstr ""
 
 #: ../../source/cataloging.rst:263
@@ -546,7 +717,11 @@ msgid "|image1458|"
 msgstr "|image1458|"
 
 #: ../../source/cataloging.rst:314
-msgid "A virtual keyboard is available for adding diacritics and symbols.  Use the shortcut Shift-Ctrl-K to display the keyboard.  A 'Keyboard layouts' button will display at the top of the advanced editor that allows you to set the virtual keyboard layout for different languages."
+msgid ""
+"A virtual keyboard is available for adding diacritics and symbols.  Use the "
+"shortcut Shift-Ctrl-K to display the keyboard.  A 'Keyboard layouts' button "
+"will display at the top of the advanced editor that allows you to set the "
+"virtual keyboard layout for different languages."
 msgstr ""
 
 #: ../../source/cataloging.rst:323
@@ -565,15 +740,23 @@ msgid "Select the \"Macros...\" button"
 msgstr "Kliknite na tlačidlo \"Zaplatiť\""
 
 #: ../../source/cataloging.rst:329
-msgid "A window will pop up. In this window, select \"New macro...,\" key the new macro's name in the pop-up box and select OK."
+msgid ""
+"A window will pop up. In this window, select \"New macro...,\" key the new "
+"macro's name in the pop-up box and select OK."
 msgstr ""
 
 #: ../../source/cataloging.rst:332
-msgid "Now click to the right of the little number 1, and key the first line of your macro. For a multi-line, i.e., multi-field macro, hit the return key so that a little number 2 appears, and key the second line/field, etc."
+msgid ""
+"Now click to the right of the little number 1, and key the first line of "
+"your macro. For a multi-line, i.e., multi-field macro, hit the return key so "
+"that a little number 2 appears, and key the second line/field, etc."
 msgstr ""
 
 #: ../../source/cataloging.rst:337
-msgid "Your macros will be automatically saved. When finished you can select the \"x\" to close the window, or select a macro to run on the record that you're editing, or select another macro to run."
+msgid ""
+"Your macros will be automatically saved. When finished you can select the \"x"
+"\" to close the window, or select a macro to run on the record that you're "
+"editing, or select another macro to run."
 msgstr ""
 
 #: ../../source/cataloging.rst:341
@@ -582,11 +765,16 @@ msgid "To edit an existing macro:"
 msgstr "Upraviť jestvujúce predplatné"
 
 #: ../../source/cataloging.rst:345
-msgid "A window will pop up. In this window, select the macro that you wish to edit & make your changes."
+msgid ""
+"A window will pop up. In this window, select the macro that you wish to edit "
+"& make your changes."
 msgstr ""
 
 #: ../../source/cataloging.rst:348
-msgid "Your work will automatically be saved, and when finished you can select the \"x\" to close the window, or select a macro to run on the record that you're editing, or select another macro to run."
+msgid ""
+"Your work will automatically be saved, and when finished you can select the "
+"\"x\" to close the window, or select a macro to run on the record that "
+"you're editing, or select another macro to run."
 msgstr ""
 
 #: ../../source/cataloging.rst:352
@@ -599,7 +787,8 @@ msgid "new 500=‡aEdited with Rancor"
 msgstr ""
 
 #: ../../source/cataloging.rst:356
-msgid "Creates a new 500 with a ‡a subfield and sets it to \"Edited with Rancor\"."
+msgid ""
+"Creates a new 500 with a ‡a subfield and sets it to \"Edited with Rancor\"."
 msgstr ""
 
 #: ../../source/cataloging.rst:359
@@ -607,7 +796,9 @@ msgid "245c= by J.K. Rowling."
 msgstr ""
 
 #: ../../source/cataloging.rst:361
-msgid "Sets the first ‡c subfield of the first 245 tag in the record to \" by J.K. Rowling\", creating it if necessary."
+msgid ""
+"Sets the first ‡c subfield of the first 245 tag in the record to \" by J.K. "
+"Rowling\", creating it if necessary."
 msgstr ""
 
 #: ../../source/cataloging.rst:364
@@ -615,7 +806,9 @@ msgid "082a={084a}"
 msgstr ""
 
 #: ../../source/cataloging.rst:366
-msgid "Sets the ‡a subfield of the first 082 tag (creating the subfield if necessary) to the contents of the first 084‡a."
+msgid ""
+"Sets the ‡a subfield of the first 082 tag (creating the subfield if "
+"necessary) to the contents of the first 084‡a."
 msgstr ""
 
 #: ../../source/cataloging.rst:369
@@ -624,7 +817,9 @@ msgid "indicators=\\_1"
 msgstr "Indikátor 1"
 
 #: ../../source/cataloging.rst:371
-msgid "Sets the indicators of the last mentioned tag (in this case, 082) to \"\\_\" and \"1\"."
+msgid ""
+"Sets the indicators of the last mentioned tag (in this case, 082) to \"\\_\" "
+"and \"1\"."
 msgstr ""
 
 #: ../../source/cataloging.rst:374
@@ -632,7 +827,9 @@ msgid "new 090a=Z674.75.W67"
 msgstr ""
 
 #: ../../source/cataloging.rst:376
-msgid "Creates a new ‡a subfield on the first 090 (but only if that field already exists) and sets it to Z674.75.W67."
+msgid ""
+"Creates a new ‡a subfield on the first 090 (but only if that field already "
+"exists) and sets it to Z674.75.W67."
 msgstr ""
 
 #: ../../source/cataloging.rst:379
@@ -648,7 +845,9 @@ msgid "new 245b after a= a tale of might and magic /"
 msgstr ""
 
 #: ../../source/cataloging.rst:385
-msgid "Creates a new ‡b after the first a subfield and sets it to \" a tale of might and magic /\"."
+msgid ""
+"Creates a new ‡b after the first a subfield and sets it to \" a tale of "
+"might and magic /\"."
 msgstr ""
 
 #: ../../source/cataloging.rst:388
@@ -667,13 +866,33 @@ msgstr "Pridať nový záznam"
 
 #: ../../source/cataloging.rst:397
 #, fuzzy
-msgid "Libraries sometimes make journal articles and articles within monographs and serials accessible to library patrons through analytics cataloging. Analytics cataloging creates separate bibliographic records for these articles, chapters, sections, etc. found within a larger resource such as a book, an article within a journal, newspaper or serial. In analytics cataloging, although a separate bib record is created for the title, it is not physically separated from the host item.  Learn more about Analytics in Chapter 13 of AACR2."
-msgstr "Knižnice niekedy sprístupňujú čitateľom články časopisov, monografií a periodík pomocou analytickej katalogizácie. Analytická katalogizácia vytvára oddelené knižničné záznamy pre tieto články, kapitoly, oddiely, atď., ktoré sa nachádzajú vo väčšom prameni, ako je kniha, článok v časopise, novinách alebo periodiku. V analytike pri katalogizácii, hoci sa vytvorí pre titul osobitný knižničný záznam, tento nie je fyzicky oddelený od hosťovského exemplára. O Analytike zistíte viac v Kapitole 13 v AACR2."
+msgid ""
+"Libraries sometimes make journal articles and articles within monographs and "
+"serials accessible to library patrons through analytics cataloging. "
+"Analytics cataloging creates separate bibliographic records for these "
+"articles, chapters, sections, etc. found within a larger resource such as a "
+"book, an article within a journal, newspaper or serial. In analytics "
+"cataloging, although a separate bib record is created for the title, it is "
+"not physically separated from the host item.  Learn more about Analytics in "
+"Chapter 13 of AACR2."
+msgstr ""
+"Knižnice niekedy sprístupňujú čitateľom články časopisov, monografií a "
+"periodík pomocou analytickej katalogizácie. Analytická katalogizácia vytvára "
+"oddelené knižničné záznamy pre tieto články, kapitoly, oddiely, atď., ktoré "
+"sa nachádzajú vo väčšom prameni, ako je kniha, článok v časopise, novinách "
+"alebo periodiku. V analytike pri katalogizácii, hoci sa vytvorí pre titul "
+"osobitný knižničný záznam, tento nie je fyzicky oddelený od hosťovského "
+"exemplára. O Analytike zistíte viac v Kapitole 13 v AACR2."
 
 #: ../../source/cataloging.rst:406
 #, fuzzy
-msgid "If you would like to catalog analytic records there are two options. One is to use the :ref:`Easy Analytics` funtion; the other is the :ref:`Analytics enhanced workflow <analytics-enhanced-workflow-label>`."
-msgstr "Ak chcete v Kohe katalogizovať analytické záznamy, najprv musíte aktualizovať nastavenie EasyAnalyticalRecords na 'Zobraziť.'"
+msgid ""
+"If you would like to catalog analytic records there are two options. One is "
+"to use the :ref:`Easy Analytics` funtion; the other is the :ref:`Analytics "
+"enhanced workflow <analytics-enhanced-workflow-label>`."
+msgstr ""
+"Ak chcete v Kohe katalogizovať analytické záznamy, najprv musíte "
+"aktualizovať nastavenie EasyAnalyticalRecords na 'Zobraziť.'"
 
 #: ../../source/cataloging.rst:413
 #, fuzzy
@@ -681,36 +900,56 @@ msgid "Easy analytics"
 msgstr "%s an. zázn."
 
 #: ../../source/cataloging.rst:415
-msgid "The easy analytics feature makes linking analytic records together easier. The first thing you need to do is set the :ref:`EasyAnalyticalRecords` preference to 'Display' and the :ref:`UseControlNumber` preference to 'Don't use.'"
+msgid ""
+"The easy analytics feature makes linking analytic records together easier. "
+"The first thing you need to do is set the :ref:`EasyAnalyticalRecords` "
+"preference to 'Display' and the :ref:`UseControlNumber` preference to 'Don't "
+"use.'"
 msgstr ""
 
 #: ../../source/cataloging.rst:421
 #, fuzzy
-msgid "After cataloging your analytic record (see :ref:`adding records <adding-records-label>` for more on creating records) click 'Edit' from the normal view and choose to 'Link to host item'"
-msgstr "Po katalogizácii vášho analytického záznamu (pozrite na Pridávanie záznamov pre viac informácií o tvorbe záznamov), kliknite na 'Upraviť' z jednoduchého náhľadu a zvoľte 'Prepojiť na hosťovský exemplár'"
+msgid ""
+"After cataloging your analytic record (see :ref:`adding records <adding-"
+"records-label>` for more on creating records) click 'Edit' from the normal "
+"view and choose to 'Link to host item'"
+msgstr ""
+"Po katalogizácii vášho analytického záznamu (pozrite na Pridávanie záznamov "
+"pre viac informácií o tvorbe záznamov), kliknite na 'Upraviť' z jednoduchého "
+"náhľadu a zvoľte 'Prepojiť na hosťovský exemplár'"
 
 #: ../../source/cataloging.rst:425
 msgid "|image646|"
 msgstr "|image646|"
 
 #: ../../source/cataloging.rst:427
-msgid "This will prompt you to enter the barcode for the item this record should be linked to."
-msgstr "Toto vás vyzve k zadaniu čiarového kódu pre exemplár, ku ktorému by tento záznam mal byť prepojený."
+msgid ""
+"This will prompt you to enter the barcode for the item this record should be "
+"linked to."
+msgstr ""
+"Toto vás vyzve k zadaniu čiarového kódu pre exemplár, ku ktorému by tento "
+"záznam mal byť prepojený."
 
 #: ../../source/cataloging.rst:430
 msgid "|image647|"
 msgstr "|image647|"
 
 #: ../../source/cataloging.rst:432
-msgid "After entering the item's barcode and clicking 'Select' you will receive a confirmation message."
-msgstr "Po zadaní čiarového kódu exemplára a kliknutí na 'Vybrať', zobrazí sa vám potvrdzovacie hlásenie."
+msgid ""
+"After entering the item's barcode and clicking 'Select' you will receive a "
+"confirmation message."
+msgstr ""
+"Po zadaní čiarového kódu exemplára a kliknutí na 'Vybrať', zobrazí sa vám "
+"potvrdzovacie hlásenie."
 
 #: ../../source/cataloging.rst:435
 msgid "|image648|"
 msgstr "|image648|"
 
 #: ../../source/cataloging.rst:437
-msgid "The record will now have the 773 field filled in properly to complete the link."
+msgid ""
+"The record will now have the 773 field filled in properly to complete the "
+"link."
 msgstr "Záznam bude mať teraz správne vyplnené pole 773 pre úplné prepojenie."
 
 #: ../../source/cataloging.rst:440
@@ -719,8 +958,14 @@ msgstr "|image649|"
 
 #: ../../source/cataloging.rst:442 ../../source/cataloging.rst:487
 #, fuzzy
-msgid "To view all of the items tied to the host record, do a search for the record, click the 'Analytics' tab on the left and the analytics tied to each barcode will be shown under the 'Used in' column."
-msgstr "Pre zobrazenie všetkých exemplárov naviazaných na hosťovský záznam, spustite hľadanie záznamu, kliknite na záložku Analytika vľavo a analytické záznamy spojené s každým čiarovým kódom sa zobrazia v stĺpci \"Použité v\"."
+msgid ""
+"To view all of the items tied to the host record, do a search for the "
+"record, click the 'Analytics' tab on the left and the analytics tied to each "
+"barcode will be shown under the 'Used in' column."
+msgstr ""
+"Pre zobrazenie všetkých exemplárov naviazaných na hosťovský záznam, spustite "
+"hľadanie záznamu, kliknite na záložku Analytika vľavo a analytické záznamy "
+"spojené s každým čiarovým kódom sa zobrazia v stĺpci \"Použité v\"."
 
 #: ../../source/cataloging.rst:446
 msgid "|image650|"
@@ -728,20 +973,31 @@ msgstr "|image650|"
 
 #: ../../source/cataloging.rst:450
 #, fuzzy
-msgid "It is also possible to create analytic records from this screen by clicking on 'Create analytics'"
-msgstr "Tip: Je tiež možné vytvoriť analytické záznamy z tohto zobrazenia kliknutím na \"Vytvoriť analytiku\""
+msgid ""
+"It is also possible to create analytic records from this screen by clicking "
+"on 'Create analytics'"
+msgstr ""
+"Tip: Je tiež možné vytvoriť analytické záznamy z tohto zobrazenia kliknutím "
+"na \"Vytvoriť analytiku\""
 
 #: ../../source/cataloging.rst:453 ../../source/cataloging.rst:493
 #, fuzzy
-msgid "You can also see the analytics attached to this record by clicking the 'Show analytic' link towards the top of the record in the normal view."
-msgstr "Môžete tiež vidiež analytiku pripojenú k tomuto záznamu kliknutím na odkaz 'Zobraziť analytiku' v hornej časti záznamu v normálnom náhľade."
+msgid ""
+"You can also see the analytics attached to this record by clicking the 'Show "
+"analytic' link towards the top of the record in the normal view."
+msgstr ""
+"Môžete tiež vidiež analytiku pripojenú k tomuto záznamu kliknutím na odkaz "
+"'Zobraziť analytiku' v hornej časti záznamu v normálnom náhľade."
 
 #: ../../source/cataloging.rst:456
 msgid "|image651|"
 msgstr "|image651|"
 
 #: ../../source/cataloging.rst:458 ../../source/cataloging.rst:498
-msgid "When looking at the analytic record you will also see a link to the host item under the 'Host records' column in the holdings table when viewing the 'Analytics' tab."
+msgid ""
+"When looking at the analytic record you will also see a link to the host "
+"item under the 'Host records' column in the holdings table when viewing the "
+"'Analytics' tab."
 msgstr ""
 
 #: ../../source/cataloging.rst:462
@@ -753,13 +1009,22 @@ msgid "Analytics enhanced workflow"
 msgstr ""
 
 #: ../../source/cataloging.rst:469
-msgid "To use the enhanced workflow method of adding analytics, the first thing you need to do is set the :ref:`EasyAnalyticalRecords` preference to 'Don't display' and the :ref:`UseControlNumber` preference to 'Use.'"
+msgid ""
+"To use the enhanced workflow method of adding analytics, the first thing you "
+"need to do is set the :ref:`EasyAnalyticalRecords` preference to 'Don't "
+"display' and the :ref:`UseControlNumber` preference to 'Use.'"
 msgstr ""
 
 #: ../../source/cataloging.rst:475
 #, fuzzy
-msgid "After cataloging your original record (see :ref:`adding records <adding-records-label>` for more on creating records) click 'New' from the normal view and choose to 'New child record.'"
-msgstr "Po katalogizácii vášho analytického záznamu (pozrite na Pridávanie záznamov pre viac informácií o tvorbe záznamov), kliknite na 'Upraviť' z jednoduchého náhľadu a zvoľte 'Prepojiť na hosťovský exemplár'"
+msgid ""
+"After cataloging your original record (see :ref:`adding records <adding-"
+"records-label>` for more on creating records) click 'New' from the normal "
+"view and choose to 'New child record.'"
+msgstr ""
+"Po katalogizácii vášho analytického záznamu (pozrite na Pridávanie záznamov "
+"pre viac informácií o tvorbe záznamov), kliknite na 'Upraviť' z jednoduchého "
+"náhľadu a zvoľte 'Prepojiť na hosťovský exemplár'"
 
 #: ../../source/cataloging.rst:479
 msgid "|image653|"
@@ -767,7 +1032,10 @@ msgstr "|image653|"
 
 #: ../../source/cataloging.rst:481
 #, fuzzy
-msgid "This will open a new blank record for cataloging. The blank record will only have the 773 field filled in properly to complete the link once the record is saved."
+msgid ""
+"This will open a new blank record for cataloging. The blank record will only "
+"have the 773 field filled in properly to complete the link once the record "
+"is saved."
 msgstr "Záznam bude mať teraz správne vyplnené pole 773 pre úplné prepojenie."
 
 #: ../../source/cataloging.rst:485
@@ -792,8 +1060,17 @@ msgid "Editing analytics"
 msgstr "Zobraziť analytiku"
 
 #: ../../source/cataloging.rst:509
-msgid "If you have linked an analytic record incorrectly you can remove that link by editing the item on the analytic record (not the host record). To do this, go to the analytic record and click the 'Edit' button and choose to 'Edit items'. To the left of each item you will see two options."
-msgstr "Ak ste analytický záznam prepojili nesprávne, môžete takéto prepojenie odstrániť úpravou exemplára u analytického záznamu (nie hosťovského záznamu). K tomu prejdite na analytický záznam, kliknite na tlačidlo 'Upraviť' a zvoľte 'Upraviť exempláre'. Naľavo od každého exemplára uvidíte dve možnosti."
+msgid ""
+"If you have linked an analytic record incorrectly you can remove that link "
+"by editing the item on the analytic record (not the host record). To do "
+"this, go to the analytic record and click the 'Edit' button and choose to "
+"'Edit items'. To the left of each item you will see two options."
+msgstr ""
+"Ak ste analytický záznam prepojili nesprávne, môžete takéto prepojenie "
+"odstrániť úpravou exemplára u analytického záznamu (nie hosťovského "
+"záznamu). K tomu prejdite na analytický záznam, kliknite na tlačidlo "
+"'Upraviť' a zvoľte 'Upraviť exempláre'. Naľavo od každého exemplára uvidíte "
+"dve možnosti."
 
 #: ../../source/cataloging.rst:515
 msgid "|image658|"
@@ -801,12 +1078,19 @@ msgstr "|image658|"
 
 #: ../../source/cataloging.rst:517
 #, fuzzy
-msgid "Clicking 'Edit in host' will allow you to edit the item on the host record."
-msgstr "Kliknutím na 'Upraviť hostiteľa' vám dovolí upravovať exemplár na hosťovskom zázname."
+msgid ""
+"Clicking 'Edit in host' will allow you to edit the item on the host record."
+msgstr ""
+"Kliknutím na 'Upraviť hostiteľa' vám dovolí upravovať exemplár na hosťovskom "
+"zázname."
 
 #: ../../source/cataloging.rst:520
-msgid "Clicking 'Delink' will remove the 773 field and the link between the analytic and the host."
-msgstr "Kliknutím na 'Odstrániť prepojenie' sa odoberie pole 773 a prepojenie medzi analytickým záznamom a hostiteľom."
+msgid ""
+"Clicking 'Delink' will remove the 773 field and the link between the "
+"analytic and the host."
+msgstr ""
+"Kliknutím na 'Odstrániť prepojenie' sa odoberie pole 773 a prepojenie medzi "
+"analytickým záznamom a hostiteľom."
 
 #: ../../source/cataloging.rst:526
 msgid "Editing records"
@@ -814,8 +1098,13 @@ msgstr "Upravujú sa záznamy"
 
 #: ../../source/cataloging.rst:528
 #, fuzzy
-msgid "To edit a record you can click the 'Actions' button and choose 'Edit biblio' from the search results on the cataloging search page"
-msgstr "Pre úpravu záznamu môžete kliknúť na 'Upraviť záznam' z výsledkov hľadania na stránke katalogizácie alebo kliknutím na tlačidlo Upraviť v knižničnom zázname a voľbou 'Upraviť záznam'"
+msgid ""
+"To edit a record you can click the 'Actions' button and choose 'Edit biblio' "
+"from the search results on the cataloging search page"
+msgstr ""
+"Pre úpravu záznamu môžete kliknúť na 'Upraviť záznam' z výsledkov hľadania "
+"na stránke katalogizácie alebo kliknutím na tlačidlo Upraviť v knižničnom "
+"zázname a voľbou 'Upraviť záznam'"
 
 #: ../../source/cataloging.rst:531
 msgid "|image659|"
@@ -823,8 +1112,13 @@ msgstr "|image659|"
 
 #: ../../source/cataloging.rst:533
 #, fuzzy
-msgid "or by clicking the Edit button on the Bibliographic Record and choosing 'Edit Record'"
-msgstr "Pre úpravu záznamu môžete kliknúť na 'Upraviť záznam' z výsledkov hľadania na stránke katalogizácie alebo kliknutím na tlačidlo Upraviť v knižničnom zázname a voľbou 'Upraviť záznam'"
+msgid ""
+"or by clicking the Edit button on the Bibliographic Record and choosing "
+"'Edit Record'"
+msgstr ""
+"Pre úpravu záznamu môžete kliknúť na 'Upraviť záznam' z výsledkov hľadania "
+"na stránke katalogizácie alebo kliknutím na tlačidlo Upraviť v knižničnom "
+"zázname a voľbou 'Upraviť záznam'"
 
 #: ../../source/cataloging.rst:536
 msgid "|image660|"
@@ -840,8 +1134,14 @@ msgstr "|image661|"
 
 #: ../../source/cataloging.rst:542
 #, fuzzy
-msgid "The alternative is to search via Z39.50 to overlay your record with a fuller record found at another library. You can do this by choosing 'Replace record via Z39.50/SRU' from the 'Edit' menu."
-msgstr "Alternatívne môžete hľadaním cez Z39.50/SRU prekryť Váš záznam úplnejším záznamom nachádzajúcim sa v inej knižnici. Môžete tak urobiť voľbou 'Nahradiť záznam cez Z39.50/SRU' v ponuke Upraviť."
+msgid ""
+"The alternative is to search via Z39.50 to overlay your record with a fuller "
+"record found at another library. You can do this by choosing 'Replace record "
+"via Z39.50/SRU' from the 'Edit' menu."
+msgstr ""
+"Alternatívne môžete hľadaním cez Z39.50/SRU prekryť Váš záznam úplnejším "
+"záznamom nachádzajúcim sa v inej knižnici. Môžete tak urobiť voľbou "
+"'Nahradiť záznam cez Z39.50/SRU' v ponuke Upraviť."
 
 #: ../../source/cataloging.rst:546
 msgid "|image662|"
@@ -849,15 +1149,26 @@ msgstr "|image662|"
 
 #: ../../source/cataloging.rst:548
 #, fuzzy
-msgid "Once you choose that, you will be brought to a Z39.50 search window to search other libraries for the record in question."
-msgstr "Len čo to zvolíte, prejdete do okna hľadania v Z39.50/SRU, kde môžete hľadať dotyčný záznam v iných knižniciach."
+msgid ""
+"Once you choose that, you will be brought to a Z39.50 search window to "
+"search other libraries for the record in question."
+msgstr ""
+"Len čo to zvolíte, prejdete do okna hľadania v Z39.50/SRU, kde môžete hľadať "
+"dotyčný záznam v iných knižniciach."
 
 #: ../../source/cataloging.rst:551
-msgid "Once you have made your edits (via either method) you can click 'Save' at the top left of the editor."
-msgstr "Hneď po dokončení úprav (ktorýmkoľvek spôsobom), môžete kliknúť na 'Uložiť' vľavo navrchu editora."
+msgid ""
+"Once you have made your edits (via either method) you can click 'Save' at "
+"the top left of the editor."
+msgstr ""
+"Hneď po dokončení úprav (ktorýmkoľvek spôsobom), môžete kliknúť na 'Uložiť' "
+"vľavo navrchu editora."
 
 #: ../../source/cataloging.rst:554
-msgid "You can also use the edit menu to add your own custom cover image if you have either :ref:`OPACLocalCoverImages` and/or :ref:`LocalCoverImages` set to 'Display' by choosing 'Upload image' from the menu."
+msgid ""
+"You can also use the edit menu to add your own custom cover image if you "
+"have either :ref:`OPACLocalCoverImages` and/or :ref:`LocalCoverImages` set "
+"to 'Display' by choosing 'Upload image' from the menu."
 msgstr ""
 
 #: ../../source/cataloging.rst:559
@@ -865,7 +1176,9 @@ msgid "|image663|"
 msgstr "|image663|"
 
 #: ../../source/cataloging.rst:561
-msgid "Choosing 'Upload image' will take you to the :ref:`Upload Local Cover Image Tool <upload-local-cover-image-label>`."
+msgid ""
+"Choosing 'Upload image' will take you to the :ref:`Upload Local Cover Image "
+"Tool <upload-local-cover-image-label>`."
 msgstr ""
 
 #: ../../source/cataloging.rst:567
@@ -874,16 +1187,30 @@ msgstr "Duplikovanie záznamov"
 
 #: ../../source/cataloging.rst:569
 #, fuzzy
-msgid "Sometimes a copy of the record you need to catalog can't be found via Z39.50. In these cases you can create a duplicate of similar record and edit the necessary pieces to create a new record. To duplicate an existing record click 'Edit as new (duplicate)' from the 'Edit' menu on the bibliographic record."
-msgstr "Niekedy sa kópia záznamu, ktorý potrebujete zapísať nedá nájsť cez Z39.50/SRU. V tom prípade môžete vytvoriť duplikát podobného záznamu a upraviť potrebné detaily, a tak vytvoríte nový záznam. Pre zdvojenie jestvujúceho záznamu, kliknite na 'Upraviť ako nový (duplikát)' z ponuky 'Upraviť' pri knižničnom zázname"
+msgid ""
+"Sometimes a copy of the record you need to catalog can't be found via "
+"Z39.50. In these cases you can create a duplicate of similar record and edit "
+"the necessary pieces to create a new record. To duplicate an existing record "
+"click 'Edit as new (duplicate)' from the 'Edit' menu on the bibliographic "
+"record."
+msgstr ""
+"Niekedy sa kópia záznamu, ktorý potrebujete zapísať nedá nájsť cez Z39.50/"
+"SRU. V tom prípade môžete vytvoriť duplikát podobného záznamu a upraviť "
+"potrebné detaily, a tak vytvoríte nový záznam. Pre zdvojenie jestvujúceho "
+"záznamu, kliknite na 'Upraviť ako nový (duplikát)' z ponuky 'Upraviť' pri "
+"knižničnom zázname"
 
 #: ../../source/cataloging.rst:575
 msgid "|image664|"
 msgstr "|image664|"
 
 #: ../../source/cataloging.rst:577
-msgid "This will open a new MARC record with the fields filled in with the values from the original bibliographic record."
-msgstr "Toto otvorí nový záznam MARC s poľami naplnenými hodnotami z pôvodného knižničného záznamu."
+msgid ""
+"This will open a new MARC record with the fields filled in with the values "
+"from the original bibliographic record."
+msgstr ""
+"Toto otvorí nový záznam MARC s poľami naplnenými hodnotami z pôvodného "
+"knižničného záznamu."
 
 #: ../../source/cataloging.rst:580
 msgid "|image665|"
@@ -896,15 +1223,22 @@ msgstr "Pripísať exemplár%s k "
 
 #: ../../source/cataloging.rst:587
 #, fuzzy
-msgid "If you would like to upload files to Koha you can do so with a few settings."
-msgstr "Ak chcete čitateľa vylúčiť z knižnice, môžete mu nastaviť príznak 'Obmedzený' "
+msgid ""
+"If you would like to upload files to Koha you can do so with a few settings."
+msgstr ""
+"Ak chcete čitateľa vylúčiť z knižnice, môžete mu nastaviť príznak "
+"'Obmedzený' "
 
 #: ../../source/cataloging.rst:590
-msgid "You will need to ask your system administrator to set the 'upload\\_path' config variable to point to where the files will be stored"
+msgid ""
+"You will need to ask your system administrator to set the 'upload\\_path' "
+"config variable to point to where the files will be stored"
 msgstr ""
 
 #: ../../source/cataloging.rst:594
-msgid "You can see if your upload path is set correctly by visiting About Koha > System information. If there is an error you will see it there."
+msgid ""
+"You can see if your upload path is set correctly by visiting About Koha > "
+"System information. If there is an error you will see it there."
 msgstr ""
 
 #: ../../source/cataloging.rst:598
@@ -912,15 +1246,23 @@ msgid "|image1264|"
 msgstr "|image1264|"
 
 #: ../../source/cataloging.rst:600
-msgid "You will want to be sure that your :ref:`OPACBaseURL` system preference is set appropriately"
+msgid ""
+"You will want to be sure that your :ref:`OPACBaseURL` system preference is "
+"set appropriately"
 msgstr ""
 
 #: ../../source/cataloging.rst:603
-msgid "You will want to add the upload.pl plugin to the 856$u subfield in one (or multiple) of your :ref:`frameworks <edit-framework-fields-and-subfields-label>`"
+msgid ""
+"You will want to add the upload.pl plugin to the 856$u subfield in one (or "
+"multiple) of your :ref:`frameworks <edit-framework-fields-and-subfields-"
+"label>`"
 msgstr ""
 
 #: ../../source/cataloging.rst:606
-msgid "Once you are all set up you can continue with cataloging as regular. You will see a plugin icon next to the 856$u that will open up the upload and/or search window"
+msgid ""
+"Once you are all set up you can continue with cataloging as regular. You "
+"will see a plugin icon next to the 856$u that will open up the upload and/or "
+"search window"
 msgstr ""
 
 #: ../../source/cataloging.rst:610
@@ -928,7 +1270,10 @@ msgid "|image1265|"
 msgstr "|image1265|"
 
 #: ../../source/cataloging.rst:612
-msgid "From this menu you can click browse to find a file and attach it, or you can search files you have uploaded previously using the search box. From the search results you can choose which file to attach."
+msgid ""
+"From this menu you can click browse to find a file and attach it, or you can "
+"search files you have uploaded previously using the search box. From the "
+"search results you can choose which file to attach."
 msgstr ""
 
 #: ../../source/cataloging.rst:616
@@ -936,7 +1281,9 @@ msgid "|image1266|"
 msgstr "|image1266|"
 
 #: ../../source/cataloging.rst:618
-msgid "Once the file is chosen it will appear as a link in the MARC record and on the detail display."
+msgid ""
+"Once the file is chosen it will appear as a link in the MARC record and on "
+"the detail display."
 msgstr ""
 
 #: ../../source/cataloging.rst:621
@@ -944,7 +1291,10 @@ msgid "|image1334|"
 msgstr "|image1334|"
 
 #: ../../source/cataloging.rst:625
-msgid "If the file is a PDF, it will be opened directly in the user's browser whereas if the file is an image or another type of file, the user will be prompted to download it."
+msgid ""
+"If the file is a PDF, it will be opened directly in the user's browser "
+"whereas if the file is an image or another type of file, the user will be "
+"prompted to download it."
 msgstr ""
 
 #: ../../source/cataloging.rst:632
@@ -952,18 +1302,39 @@ msgid "Merging records"
 msgstr "Zlučovanie záznamov"
 
 #: ../../source/cataloging.rst:634
-msgid "To merge bibliographic records together you will want to go to the Cataloging module and perform a search."
-msgstr "Pre zlúčenie knižničných záznamov musíte ísť do modulu Katalogizácia a spustiť hľadanie."
+msgid ""
+"To merge bibliographic records together you will want to go to the "
+"Cataloging module and perform a search."
+msgstr ""
+"Pre zlúčenie knižničných záznamov musíte ísť do modulu Katalogizácia a "
+"spustiť hľadanie."
 
 #: ../../source/cataloging.rst:637
 #, fuzzy
-msgid "If you see duplicates on that search results screen you can check the boxes next to the duplicates and click the 'Merge selected' button at the top of the results."
-msgstr "Ak vidíte na obrazovke výsledkov hľadania duplikáty, môžete zaškrtnúť políčka vedľa duplikátov a kliknúť na tlačidlo 'Zlúčiť vybrané' na vrchu výsledkov. Ak zvolíte viac alebo menej ako 2, zobrazí sa vám chyba."
+msgid ""
+"If you see duplicates on that search results screen you can check the boxes "
+"next to the duplicates and click the 'Merge selected' button at the top of "
+"the results."
+msgstr ""
+"Ak vidíte na obrazovke výsledkov hľadania duplikáty, môžete zaškrtnúť "
+"políčka vedľa duplikátov a kliknúť na tlačidlo 'Zlúčiť vybrané' na vrchu "
+"výsledkov. Ak zvolíte viac alebo menej ako 2, zobrazí sa vám chyba."
 
 #: ../../source/cataloging.rst:641
 #, fuzzy
-msgid "Once you have selected the records you want to merge, click the 'Merge selected' button at the top of the list. You will be asked which of the records you would like to keep as your primary record and which will be deleted after the merge. If the records were created using different frameworks, Koha will also ask you what Framework you would like the newly merged record to use."
-msgstr "Hneď po vybraní záznamov, ktoré chcete zlúčiť, kliknite na tlačidlo 'Zlúčiť vybrané' na vrchu zoznamu. Následne si budete musieť vybrať ktorý z dvoch záznamov chcete uchovať ako primárny záznam a ktorý chcete dať po zlúčení odstrániť. Ak boli záznamy vytvorené pomocou iných rámcov, Koha sa Vás tiež opýta, aký Rámec by ste chceli použiť pre nový zlučovaný záznam."
+msgid ""
+"Once you have selected the records you want to merge, click the 'Merge "
+"selected' button at the top of the list. You will be asked which of the "
+"records you would like to keep as your primary record and which will be "
+"deleted after the merge. If the records were created using different "
+"frameworks, Koha will also ask you what Framework you would like the newly "
+"merged record to use."
+msgstr ""
+"Hneď po vybraní záznamov, ktoré chcete zlúčiť, kliknite na tlačidlo 'Zlúčiť "
+"vybrané' na vrchu zoznamu. Následne si budete musieť vybrať ktorý z dvoch "
+"záznamov chcete uchovať ako primárny záznam a ktorý chcete dať po zlúčení "
+"odstrániť. Ak boli záznamy vytvorené pomocou iných rámcov, Koha sa Vás tiež "
+"opýta, aký Rámec by ste chceli použiť pre nový zlučovaný záznam."
 
 #: ../../source/cataloging.rst:648
 msgid "|image666|"
@@ -971,23 +1342,40 @@ msgstr "|image666|"
 
 #: ../../source/cataloging.rst:650
 #, fuzzy
-msgid "You will be presented with the MARC for all of the records (each accessible by tabs labeled with the bib numbers for those records). By default the entire first record will be selected, uncheck the fields you don't want in the final (destination) record and then move on to the second tab to choose which fields should be in the final (destination) record."
-msgstr "Predstaví sa Vám MARC pre obidva záznamy (každý prístupný pomocou záložiek označených číslami záznamov). Predvolene sa vyberie celý prvý záznam; odznačte polia, ktoré nechcete mať v cieľovom zázname a potom sa presuňte do druhej záložky, kde si zvolíte, ktoré polia by mali byť v cieľovom zázname."
+msgid ""
+"You will be presented with the MARC for all of the records (each accessible "
+"by tabs labeled with the bib numbers for those records). By default the "
+"entire first record will be selected, uncheck the fields you don't want in "
+"the final (destination) record and then move on to the second tab to choose "
+"which fields should be in the final (destination) record."
+msgstr ""
+"Predstaví sa Vám MARC pre obidva záznamy (každý prístupný pomocou záložiek "
+"označených číslami záznamov). Predvolene sa vyberie celý prvý záznam; "
+"odznačte polia, ktoré nechcete mať v cieľovom zázname a potom sa presuňte do "
+"druhej záložky, kde si zvolíte, ktoré polia by mali byť v cieľovom zázname."
 
 #: ../../source/cataloging.rst:657
 msgid "|image667|"
 msgstr "|image667|"
 
 #: ../../source/cataloging.rst:659
-msgid "Should you try to add a field that is not repeatable two times (like choosing the 245 field from both record #1 and #2) you will be presented with an error"
-msgstr "Ak sa pokúsite pridať pole, ktoré nie je opakovateľné dvakrát (napríklad zvoliť pole 245 z oboch záznamov #1 a #2), bude sa Vám hlásiť chyba"
+msgid ""
+"Should you try to add a field that is not repeatable two times (like "
+"choosing the 245 field from both record #1 and #2) you will be presented "
+"with an error"
+msgstr ""
+"Ak sa pokúsite pridať pole, ktoré nie je opakovateľné dvakrát (napríklad "
+"zvoliť pole 245 z oboch záznamov #1 a #2), bude sa Vám hlásiť chyba"
 
 #: ../../source/cataloging.rst:663
 msgid "|image668|"
 msgstr "|image668|"
 
 #: ../../source/cataloging.rst:665
-msgid "Below the records you are merging is an option to enter fields to report on. This will allow you to control what fields you see on the merge confirmation page:"
+msgid ""
+"Below the records you are merging is an option to enter fields to report on. "
+"This will allow you to control what fields you see on the merge confirmation "
+"page:"
 msgstr ""
 
 #: ../../source/cataloging.rst:669
@@ -996,7 +1384,9 @@ msgstr "|image669|"
 
 #: ../../source/cataloging.rst:671
 #, fuzzy
-msgid "If you enter nothing you will be presented with a confirmation of biblionumbers only"
+msgid ""
+"If you enter nothing you will be presented with a confirmation of "
+"biblionumbers only"
 msgstr "Po natiahnutí sa Vám zobrazí potvrdenie"
 
 #: ../../source/cataloging.rst:674
@@ -1004,7 +1394,9 @@ msgid "|image670|"
 msgstr "|image670|"
 
 #: ../../source/cataloging.rst:676
-msgid "If you enter fields you will see those on the confirmation page (you can set defaults with the :ref:`MergeReportFields` preference)"
+msgid ""
+"If you enter fields you will see those on the confirmation page (you can set "
+"defaults with the :ref:`MergeReportFields` preference)"
 msgstr ""
 
 #: ../../source/cataloging.rst:680
@@ -1012,13 +1404,25 @@ msgid "|image671|"
 msgstr "|image671|"
 
 #: ../../source/cataloging.rst:682
-msgid "Once you have completed your selections click the 'merge' button. The primary record will now CONTAIN the data you chose for it as well as all of the items/holdings from both bib records, and the second record will be deleted."
-msgstr "Po skončení výberu, kliknite na tlačidlo 'Zlúčiť'. Primárny záznam teraz bude obsahovať údaje, ktoré ste preň vybrali, ako aj všetky záznamy/exempláre u obidvoch knižničných záznamov, a druhý záznam bude odstránený."
+msgid ""
+"Once you have completed your selections click the 'merge' button. The "
+"primary record will now CONTAIN the data you chose for it as well as all of "
+"the items/holdings from both bib records, and the second record will be "
+"deleted."
+msgstr ""
+"Po skončení výberu, kliknite na tlačidlo 'Zlúčiť'. Primárny záznam teraz "
+"bude obsahovať údaje, ktoré ste preň vybrali, ako aj všetky záznamy/"
+"exempláre u obidvoch knižničných záznamov, a druhý záznam bude odstránený."
 
 #: ../../source/cataloging.rst:689
 #, fuzzy
-msgid "If you would like you can also use the :ref:`Lists <lists-opac-label>` tool for merging records together. :ref:`Learn more here <merging-bibliographic-records-via-lists-label>`."
-msgstr "Poznámka: Ak chcete, môžete pre zlučovanie záznamov použiť aj nástroj Zoznamy."
+msgid ""
+"If you would like you can also use the :ref:`Lists <lists-opac-label>` tool "
+"for merging records together. :ref:`Learn more here <merging-bibliographic-"
+"records-via-lists-label>`."
+msgstr ""
+"Poznámka: Ak chcete, môžete pre zlučovanie záznamov použiť aj nástroj "
+"Zoznamy."
 
 #: ../../source/cataloging.rst:695
 #, fuzzy
@@ -1027,15 +1431,22 @@ msgstr "Odstrániť záznam"
 
 #: ../../source/cataloging.rst:697
 #, fuzzy
-msgid "To delete a bibliographic record simply choose the 'Edit' button and select 'Delete record'"
-msgstr "Pre úpravu celého záznamu o čitateľovi, jednoducho kliknite na tlačidlo 'Upraviť' navrchu tohto záznamu."
+msgid ""
+"To delete a bibliographic record simply choose the 'Edit' button and select "
+"'Delete record'"
+msgstr ""
+"Pre úpravu celého záznamu o čitateľovi, jednoducho kliknite na tlačidlo "
+"'Upraviť' navrchu tohto záznamu."
 
 #: ../../source/cataloging.rst:700
 msgid "|image672|"
 msgstr "|image672|"
 
 #: ../../source/cataloging.rst:702
-msgid "Bibliographic records can only be deleted once all items have been deleted. If you try to delete a bibliographic record with items still attached you will see that the delete option is grayed out."
+msgid ""
+"Bibliographic records can only be deleted once all items have been deleted. "
+"If you try to delete a bibliographic record with items still attached you "
+"will see that the delete option is grayed out."
 msgstr ""
 
 #: ../../source/cataloging.rst:706
@@ -1048,7 +1459,10 @@ msgid "Item records"
 msgstr "Záznam exemplára %s"
 
 #: ../../source/cataloging.rst:713
-msgid "In Koha each bibliographic record can have one or more items attached. These items are sometimes referred to as holdings. Each item includes information to the physical copy the library has."
+msgid ""
+"In Koha each bibliographic record can have one or more items attached. These "
+"items are sometimes referred to as holdings. Each item includes information "
+"to the physical copy the library has."
 msgstr ""
 
 #: ../../source/cataloging.rst:720
@@ -1057,15 +1471,25 @@ msgstr "Pridávanie exemplárov"
 
 #: ../../source/cataloging.rst:722
 #, fuzzy
-msgid "After saving a new bibliographic record, you will be redirected to a blank item record so that you can attach an item to the bibliographic record. You can also click 'Add/Edit items' from the cataloging search results"
-msgstr "Po uložení nového knižničného záznamu budete presmerovaný/á do čistého záznamu, aby ste mohli pripísať exemplár ku knižničnému záznamu. Môžete tiež kliknúť na 'Pridať exempláre' z výsledkov hľadania v katalogizácii alebo môžete kedykoľve pridať nový exemplár kliknutím na 'Nový' v knižničnom zázname a voľbou 'Nový exemplár'"
+msgid ""
+"After saving a new bibliographic record, you will be redirected to a blank "
+"item record so that you can attach an item to the bibliographic record. You "
+"can also click 'Add/Edit items' from the cataloging search results"
+msgstr ""
+"Po uložení nového knižničného záznamu budete presmerovaný/á do čistého "
+"záznamu, aby ste mohli pripísať exemplár ku knižničnému záznamu. Môžete tiež "
+"kliknúť na 'Pridať exempláre' z výsledkov hľadania v katalogizácii alebo "
+"môžete kedykoľve pridať nový exemplár kliknutím na 'Nový' v knižničnom "
+"zázname a voľbou 'Nový exemplár'"
 
 #: ../../source/cataloging.rst:727
 msgid "|image674|"
 msgstr "|image674|"
 
 #: ../../source/cataloging.rst:729
-msgid "or you can add new item at any time by clicking 'New' on the bibliographic record and choosing 'New item'"
+msgid ""
+"or you can add new item at any time by clicking 'New' on the bibliographic "
+"record and choosing 'New item'"
 msgstr ""
 
 #: ../../source/cataloging.rst:732
@@ -1081,8 +1505,12 @@ msgid "|image676|"
 msgstr "|image676|"
 
 #: ../../source/cataloging.rst:738
-msgid "At the very least, if you plan on circulating the item, the following fields should be entered for new items:"
-msgstr "Prinajmenšom, ak plánujete obeh exemplára, mali by ste vyplniť nasledovné polia pre nové exempláre:"
+msgid ""
+"At the very least, if you plan on circulating the item, the following fields "
+"should be entered for new items:"
+msgstr ""
+"Prinajmenšom, ak plánujete obeh exemplára, mali by ste vyplniť nasledovné "
+"polia pre nové exempláre:"
 
 #: ../../source/cataloging.rst:741
 msgid "2 - Source of classification"
@@ -1102,7 +1530,12 @@ msgid "o - Full call number"
 msgstr "o - Plná signatúra"
 
 #: ../../source/cataloging.rst:749
-msgid "If you'd like you can use the `call number browser plugin <#cnbrowseplugin>`__ for this field. If it's enabled you'll see a ... to the right of the field. When clicked that will open a call number browser window if the row is highlighted in Red then the call number is in use, if there is a thin Green line instead then the call number can be used."
+msgid ""
+"If you'd like you can use the `call number browser plugin "
+"<#cnbrowseplugin>`__ for this field. If it's enabled you'll see a ... to the "
+"right of the field. When clicked that will open a call number browser window "
+"if the row is highlighted in Red then the call number is in use, if there is "
+"a thin Green line instead then the call number can be used."
 msgstr ""
 
 #: ../../source/cataloging.rst:756
@@ -1120,8 +1553,12 @@ msgstr "v - Cena, cena za náhradu "
 
 #: ../../source/cataloging.rst:762
 #, fuzzy
-msgid "This value will be charged to patrons when you mark an item they have checked out as 'Lost'"
-msgstr "Táto hodnota sa vyrúbi čitateľom, keď nimi vypožičaný exemplár označíte za 'Stratený'"
+msgid ""
+"This value will be charged to patrons when you mark an item they have "
+"checked out as 'Lost'"
+msgstr ""
+"Táto hodnota sa vyrúbi čitateľom, keď nimi vypožičaný exemplár označíte za "
+"'Stratený'"
 
 #: ../../source/cataloging.rst:765
 msgid "y - Koha item type"
@@ -1129,8 +1566,15 @@ msgstr "y - typ exemplára Koha"
 
 #: ../../source/cataloging.rst:767
 #, fuzzy
-msgid "To make sure that these values are filled in you can mark them as mandatory in the :ref:`framework <marc-bibliographic-frameworks-label>` you're using and then they will appear in red with a 'required' label. The item will not save until the required fields are filled in."
-msgstr "Aby ste sa uistili, že sú tieto hodnoty vyplnené, môžete ich označiť ako povinné v rámci, ktorý používate a potom sa zobrazia červenou farbou v etikete 'povinné'. Exemplár sa neuloží dokiaľ povinné polia nebudú vyplnené."
+msgid ""
+"To make sure that these values are filled in you can mark them as mandatory "
+"in the :ref:`framework <marc-bibliographic-frameworks-label>` you're using "
+"and then they will appear in red with a 'required' label. The item will not "
+"save until the required fields are filled in."
+msgstr ""
+"Aby ste sa uistili, že sú tieto hodnoty vyplnené, môžete ich označiť ako "
+"povinné v rámci, ktorý používate a potom sa zobrazia červenou farbou v "
+"etikete 'povinné'. Exemplár sa neuloží dokiaľ povinné polia nebudú vyplnené."
 
 #: ../../source/cataloging.rst:772
 msgid "|image677|"
@@ -1138,23 +1582,40 @@ msgstr "|image677|"
 
 #: ../../source/cataloging.rst:776
 #, fuzzy
-msgid "To make item subfields required in a framework you'll want to edit the 952 field in the :ref:`framework editor <marc-bibliographic-frameworks-label>`."
-msgstr "Tip: Aby boli podpolia exemplárov povinné v knižničnom rámci, bude dobré upraviť pole 952 v editore rámcov."
+msgid ""
+"To make item subfields required in a framework you'll want to edit the 952 "
+"field in the :ref:`framework editor <marc-bibliographic-frameworks-label>`."
+msgstr ""
+"Tip: Aby boli podpolia exemplárov povinné v knižničnom rámci, bude dobré "
+"upraviť pole 952 v editore rámcov."
 
 #: ../../source/cataloging.rst:780
-msgid "You can add a new authorized value directly from the add and edit item screen for any fields that are linked to authorized value categories such as Shelving location (subfield$c) or Collection code (subfield$8)."
+msgid ""
+"You can add a new authorized value directly from the add and edit item "
+"screen for any fields that are linked to authorized value categories such as "
+"Shelving location (subfield$c) or Collection code (subfield$8)."
 msgstr ""
 
 #: ../../source/cataloging.rst:783
-msgid "Start to type the authorised value description, if a match is not found you will see the option '(Select to create)'."
+msgid ""
+"Start to type the authorised value description, if a match is not found you "
+"will see the option '(Select to create)'."
 msgstr ""
 
 #: ../../source/cataloging.rst:785
-msgid "Click on this option to display a pop-up window where you can create you new authorized value."
+msgid ""
+"Click on this option to display a pop-up window where you can create you new "
+"authorized value."
 msgstr ""
 
 #: ../../source/cataloging.rst:787
-msgid "The authorized value category will be pre-populated from the field you are using, for example LOC for Shelving location, CCODE for Collection code.  Take care when choosing your authorized value code.  Refer to the notes on :ref:`adding new authorized values <add-new-authorized-value-label>` for the correct format of these codes.  Use the Description field for the actual value that will be displayed"
+msgid ""
+"The authorized value category will be pre-populated from the field you are "
+"using, for example LOC for Shelving location, CCODE for Collection code.  "
+"Take care when choosing your authorized value code.  Refer to the notes on :"
+"ref:`adding new authorized values <add-new-authorized-value-label>` for the "
+"correct format of these codes.  Use the Description field for the actual "
+"value that will be displayed"
 msgstr ""
 
 #: ../../source/cataloging.rst:792
@@ -1162,11 +1623,15 @@ msgid "|addauthvalue|"
 msgstr ""
 
 #: ../../source/cataloging.rst:794
-msgid "You can add authorized values in the same way from bibliographic and authority records."
+msgid ""
+"You can add authorized values in the same way from bibliographic and "
+"authority records."
 msgstr ""
 
 #: ../../source/cataloging.rst:797
-msgid "You must have the manage_auth_values administration permission to add authorized values from cataloguing."
+msgid ""
+"You must have the manage_auth_values administration permission to add "
+"authorized values from cataloguing."
 msgstr ""
 
 #: ../../source/cataloging.rst:799
@@ -1184,28 +1649,44 @@ msgstr "'Pridať exemplár' pridá len jeden exemplár"
 
 #: ../../source/cataloging.rst:805
 #, fuzzy
-msgid "'Add & duplicate' will add the item and fill in a new form with the same values for you to alter"
-msgstr "'Pridať &amp; duplikovať' pridá exemplár and naplní nový formulár s rovnakými hodnotami, ktoré môžete zmeniť"
+msgid ""
+"'Add & duplicate' will add the item and fill in a new form with the same "
+"values for you to alter"
+msgstr ""
+"'Pridať &amp; duplikovať' pridá exemplár and naplní nový formulár s "
+"rovnakými hodnotami, ktoré môžete zmeniť"
 
 #: ../../source/cataloging.rst:808
-msgid "'Add multiple items' will ask how many items and will then add that number of items adding +1 to the barcode so each barcode is unique"
-msgstr "'Pridať viacero kópií' sa opýta na ich počet a potom pridá žiadaný počet kópií, pričom navýši čiarový kód o jeden, aby každý čiarový kód bol jedinečný"
+msgid ""
+"'Add multiple items' will ask how many items and will then add that number "
+"of items adding +1 to the barcode so each barcode is unique"
+msgstr ""
+"'Pridať viacero kópií' sa opýta na ich počet a potom pridá žiadaný počet "
+"kópií, pričom navýši čiarový kód o jeden, aby každý čiarový kód bol jedinečný"
 
 #: ../../source/cataloging.rst:811
 msgid "Your added items will appear above the add form once submitted"
-msgstr "Vaše pridané exempláre sa objavia nad formulárom pridávania len čo ich odošlete"
+msgstr ""
+"Vaše pridané exempláre sa objavia nad formulárom pridávania len čo ich "
+"odošlete"
 
 #: ../../source/cataloging.rst:813
 msgid "|image679|"
 msgstr "|image679|"
 
 #: ../../source/cataloging.rst:817
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: Items Editor)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: Items Editor)."
 msgstr ""
 
 #: ../../source/cataloging.rst:821
-msgid "Your items will also appear below the bibliographic details on the bib record display."
-msgstr "Vaše exempláre sa tiež objavia pod detailmi na zobrazení knižničného záznamu."
+msgid ""
+"Your items will also appear below the bibliographic details on the bib "
+"record display."
+msgstr ""
+"Vaše exempláre sa tiež objavia pod detailmi na zobrazení knižničného záznamu."
 
 #: ../../source/cataloging.rst:824
 msgid "|image680|"
@@ -1213,15 +1694,22 @@ msgstr "|image680|"
 
 #: ../../source/cataloging.rst:826
 #, fuzzy
-msgid "If you have :ref:`SpineLabelShowPrintOnBibDetails` set to 'Display' then there will also be a link to print a quick spine label next to each item."
-msgstr "Ak máte SpineLabelShowPrintOnBibDetails nastavené na 'Zobraziť', tak sa vedľa každého exemplára zobrazí aj odkaz na tlač rýchlej chrbtovej etikety."
+msgid ""
+"If you have :ref:`SpineLabelShowPrintOnBibDetails` set to 'Display' then "
+"there will also be a link to print a quick spine label next to each item."
+msgstr ""
+"Ak máte SpineLabelShowPrintOnBibDetails nastavené na 'Zobraziť', tak sa "
+"vedľa každého exemplára zobrazí aj odkaz na tlač rýchlej chrbtovej etikety."
 
 #: ../../source/cataloging.rst:829
 msgid "|image681|"
 msgstr "|image681|"
 
 #: ../../source/cataloging.rst:831
-msgid "You can also filter the contents of your holdings table by clicking the 'Activate filters' links. This will show a row at the top where you can type in any column to filter the results in the table."
+msgid ""
+"You can also filter the contents of your holdings table by clicking the "
+"'Activate filters' links. This will show a row at the top where you can type "
+"in any column to filter the results in the table."
 msgstr ""
 
 #: ../../source/cataloging.rst:835
@@ -1247,8 +1735,12 @@ msgstr "|image683|"
 
 #: ../../source/cataloging.rst:848
 #, fuzzy
-msgid "Which will open up a list of items where you can click the 'Actions' button to the left of the specific item you would like to edit and choose 'Edit'."
-msgstr "Vtedy sa otvorí zoznam exemplárov, kde môžete kliknúť na 'Upraviť' naľavo od špecifického exemplára, ktorý si želáte upraviť."
+msgid ""
+"Which will open up a list of items where you can click the 'Actions' button "
+"to the left of the specific item you would like to edit and choose 'Edit'."
+msgstr ""
+"Vtedy sa otvorí zoznam exemplárov, kde môžete kliknúť na 'Upraviť' naľavo od "
+"špecifického exemplára, ktorý si želáte upraviť."
 
 #: ../../source/cataloging.rst:852
 msgid "|image684|"
@@ -1257,7 +1749,8 @@ msgstr "|image684|"
 #: ../../source/cataloging.rst:854
 #, fuzzy
 msgid "Clicking 'Edit items' beside the item on the 'Items' tab"
-msgstr "Kliknutím na 'Upraviť exempláre' vedľa exemplára v záložke 'Exempláre' "
+msgstr ""
+"Kliknutím na 'Upraviť exempláre' vedľa exemplára v záložke 'Exempláre' "
 
 #: ../../source/cataloging.rst:856
 msgid "|image685|"
@@ -1266,7 +1759,9 @@ msgstr "|image685|"
 #: ../../source/cataloging.rst:858
 #, fuzzy
 msgid "Which will open up the editor on the item you'd like to edit"
-msgstr "Vtedy sa otvorí zoznam exemplárov, kde môžete kliknúť na 'Upraviť' naľavo od špecifického exemplára, ktorý si želáte upraviť."
+msgstr ""
+"Vtedy sa otvorí zoznam exemplárov, kde môžete kliknúť na 'Upraviť' naľavo od "
+"špecifického exemplára, ktorý si želáte upraviť."
 
 #: ../../source/cataloging.rst:860
 msgid "|image686|"
@@ -1283,11 +1778,20 @@ msgstr "|image687|"
 
 #: ../../source/cataloging.rst:866
 #, fuzzy
-msgid "This will open up the :ref:`batch item modification tool <batch-item-modification-label>` where you can edit all of the items on this record as a batch."
-msgstr "Toto otvorí nástroj hromadnej zmeny exepmlárov, kde môžete upravovať všetky exempláre tohto záznamu v dávke."
+msgid ""
+"This will open up the :ref:`batch item modification tool <batch-item-"
+"modification-label>` where you can edit all of the items on this record as a "
+"batch."
+msgstr ""
+"Toto otvorí nástroj hromadnej zmeny exepmlárov, kde môžete upravovať všetky "
+"exempláre tohto záznamu v dávke."
 
 #: ../../source/cataloging.rst:870
-msgid "You can also enable :ref:`StaffDetailItemSelection` to have checkboxes appear to the left of each item on the detail display. You can then check off the items you would like to edit and click 'Modify selected items' at the top of the list."
+msgid ""
+"You can also enable :ref:`StaffDetailItemSelection` to have checkboxes "
+"appear to the left of each item on the detail display. You can then check "
+"off the items you would like to edit and click 'Modify selected items' at "
+"the top of the list."
 msgstr ""
 
 #: ../../source/cataloging.rst:875
@@ -1297,7 +1801,9 @@ msgstr "|image688|"
 #: ../../source/cataloging.rst:877
 #, fuzzy
 msgid "You can click 'Edit' to the right of each item in the Holdings tab"
-msgstr "Zo zoznamu podpolí môžete kliknúť na 'Odstrániť' napravo od každého pre odstránenie podpolí"
+msgstr ""
+"Zo zoznamu podpolí môžete kliknúť na 'Odstrániť' napravo od každého pre "
+"odstránenie podpolí"
 
 #: ../../source/cataloging.rst:880
 msgid "|image1268|"
@@ -1305,15 +1811,21 @@ msgstr "|image1268|"
 
 #: ../../source/cataloging.rst:882
 #, fuzzy
-msgid "There is also a link to Edit items from the search results in the staff client"
-msgstr "Odtiaľto môžete pridať vlastné vyhľadávacie polia k možnosti hľadania exemplárov v intranete."
+msgid ""
+"There is also a link to Edit items from the search results in the staff "
+"client"
+msgstr ""
+"Odtiaľto môžete pridať vlastné vyhľadávacie polia k možnosti hľadania "
+"exemplárov v intranete."
 
 #: ../../source/cataloging.rst:885
 msgid "|image1269|"
 msgstr "|image1269|"
 
 #: ../../source/cataloging.rst:887
-msgid "Finally you can use the :ref:`batch item modification <batch-item-modification-label>` tool"
+msgid ""
+"Finally you can use the :ref:`batch item modification <batch-item-"
+"modification-label>` tool"
 msgstr ""
 
 #: ../../source/cataloging.rst:893
@@ -1322,8 +1834,18 @@ msgid "Quick item status updates"
 msgstr "Aktualizácie rýchleho stavu exemplárov"
 
 #: ../../source/cataloging.rst:895
-msgid "Often circulation staff need to change the status of an item to Lost or Damaged. This doesn't require you to edit the entire item record. Instead clicking on the item barcode on the checkout summary or checkin history will bring you to an item summary. You can also get to the item summary by clicking on the Items tab to the left of the bib detail page."
-msgstr "Knihovníci často potrebujú zmeniť stav exemplára na Stratený alebo Poškodený. Kvôli tomu však nemusíte upravovať celý záznam. Namiesto toho kliknite na čiarový kód exemplára v súhrne výpožičiek alebo výpis návratov Vás zavedie k súhrnu o exemplári. Môžete sa tiež dostať k súhrnu o exemplári kliknutím na záložku Exempláre naľavo od stránky podrobností o biblio."
+msgid ""
+"Often circulation staff need to change the status of an item to Lost or "
+"Damaged. This doesn't require you to edit the entire item record. Instead "
+"clicking on the item barcode on the checkout summary or checkin history will "
+"bring you to an item summary. You can also get to the item summary by "
+"clicking on the Items tab to the left of the bib detail page."
+msgstr ""
+"Knihovníci často potrebujú zmeniť stav exemplára na Stratený alebo "
+"Poškodený. Kvôli tomu však nemusíte upravovať celý záznam. Namiesto toho "
+"kliknite na čiarový kód exemplára v súhrne výpožičiek alebo výpis návratov "
+"Vás zavedie k súhrnu o exemplári. Môžete sa tiež dostať k súhrnu o exemplári "
+"kliknutím na záložku Exempláre naľavo od stránky podrobností o biblio."
 
 #: ../../source/cataloging.rst:901
 msgid "|image689|"
@@ -1331,8 +1853,12 @@ msgstr "|image689|"
 
 #: ../../source/cataloging.rst:903
 #, fuzzy
-msgid "From this view you can mark an item lost by choosing a lost status from the pull down and clicking the 'Set status' button."
-msgstr "Z tohto náhľadu tiež môžete označiť stratený exemplár pomocou stavu straty z rozbaľovacej ponuky a kliknutím na tlačidlo 'Nastaviť stav'."
+msgid ""
+"From this view you can mark an item lost by choosing a lost status from the "
+"pull down and clicking the 'Set status' button."
+msgstr ""
+"Z tohto náhľadu tiež môžete označiť stratený exemplár pomocou stavu straty z "
+"rozbaľovacej ponuky a kliknutím na tlačidlo 'Nastaviť stav'."
 
 #: ../../source/cataloging.rst:906
 msgid "|image690|"
@@ -1340,8 +1866,12 @@ msgstr "|image690|"
 
 #: ../../source/cataloging.rst:908
 #, fuzzy
-msgid "You can also mark an item as damaged by choosing a damaged status from the pull down and clicking the 'Set status' button."
-msgstr "Môžete tiež označiť exemplár ako poškodený pomocou stavu poškodenia z rozbaľovacej ponuky a kliknutím na tlačidlo 'Nastaviť stav'."
+msgid ""
+"You can also mark an item as damaged by choosing a damaged status from the "
+"pull down and clicking the 'Set status' button."
+msgstr ""
+"Môžete tiež označiť exemplár ako poškodený pomocou stavu poškodenia z "
+"rozbaľovacej ponuky a kliknutím na tlačidlo 'Nastaviť stav'."
 
 #: ../../source/cataloging.rst:911
 msgid "|image691|"
@@ -1353,7 +1883,9 @@ msgid "Duplicating items"
 msgstr "Duplikovanie záznamov"
 
 #: ../../source/cataloging.rst:918
-msgid "You can easily duplicate each item by clicking the 'Action' button the left of each item on the edit items screen"
+msgid ""
+"You can easily duplicate each item by clicking the 'Action' button the left "
+"of each item on the edit items screen"
 msgstr ""
 
 #: ../../source/cataloging.rst:921
@@ -1361,7 +1893,9 @@ msgid "|image692|"
 msgstr "|image692|"
 
 #: ../../source/cataloging.rst:923
-msgid "From here you can choose to 'Duplicate' the item and this will populate the form with the values from the item you chose."
+msgid ""
+"From here you can choose to 'Duplicate' the item and this will populate the "
+"form with the values from the item you chose."
 msgstr ""
 
 #: ../../source/cataloging.rst:929
@@ -1369,7 +1903,8 @@ msgid "Item information"
 msgstr "Informácia o exemplári"
 
 #: ../../source/cataloging.rst:931
-msgid "To the left of every bibliographic record there is a tab to view the items."
+msgid ""
+"To the left of every bibliographic record there is a tab to view the items."
 msgstr ""
 
 #: ../../source/cataloging.rst:934
@@ -1377,7 +1912,12 @@ msgid "|image693|"
 msgstr "|image693|"
 
 #: ../../source/cataloging.rst:936
-msgid "Clicking that tab will give you basic information about the items. From here you can see basic information about the item such as the home library, item type, collection code, call number and replacement price. You can also see and edit the status information. If an item is marked lost or withdrawn you will also see the date that status was applied."
+msgid ""
+"Clicking that tab will give you basic information about the items. From here "
+"you can see basic information about the item such as the home library, item "
+"type, collection code, call number and replacement price. You can also see "
+"and edit the status information. If an item is marked lost or withdrawn you "
+"will also see the date that status was applied."
 msgstr ""
 
 #: ../../source/cataloging.rst:942
@@ -1385,7 +1925,10 @@ msgid "|image1270|"
 msgstr "|image1270|"
 
 #: ../../source/cataloging.rst:944
-msgid "In the 'History' section you will see information about the check out history of the item and if you ordered the item via the acquisitions module then this section will include information about the order."
+msgid ""
+"In the 'History' section you will see information about the check out "
+"history of the item and if you ordered the item via the acquisitions module "
+"then this section will include information about the order."
 msgstr ""
 
 #: ../../source/cataloging.rst:948
@@ -1393,7 +1936,9 @@ msgid "|image694|"
 msgstr "|image694|"
 
 #: ../../source/cataloging.rst:950
-msgid "If the Order or Accession date is linked, clicking it will bring you to the acquisitions information for that item."
+msgid ""
+"If the Order or Accession date is linked, clicking it will bring you to the "
+"acquisitions information for that item."
 msgstr ""
 
 #: ../../source/cataloging.rst:956
@@ -1401,7 +1946,11 @@ msgid "Adding cover images for items"
 msgstr ""
 
 #: ../../source/cataloging.rst:958
-msgid "If you have either OPACLocalCoverImages and/or LocalCoverImages set to ‘Display’ you can upload cover images for individual item records from the 'Upload image' option from the Edit button on the right of the Holdings table."
+msgid ""
+"If you have either OPACLocalCoverImages and/or LocalCoverImages set to "
+"‘Display’ you can upload cover images for individual item records from the "
+"'Upload image' option from the Edit button on the right of the Holdings "
+"table."
 msgstr ""
 
 #: ../../source/cataloging.rst:962
@@ -1409,11 +1958,15 @@ msgid "|uploaditemcoverimage|"
 msgstr ""
 
 #: ../../source/cataloging.rst:964
-msgid "Click Choose file to find the image file on your computer and then Upload file."
+msgid ""
+"Click Choose file to find the image file on your computer and then Upload "
+"file."
 msgstr ""
 
 #: ../../source/cataloging.rst:966
-msgid "On the next screen you are given the option to replace existing images.  You can then click on Process images."
+msgid ""
+"On the next screen you are given the option to replace existing images.  You "
+"can then click on Process images."
 msgstr ""
 
 #: ../../source/cataloging.rst:969
@@ -1425,7 +1978,9 @@ msgid "|itemcoverimagedisplay|"
 msgstr ""
 
 #: ../../source/cataloging.rst:973
-msgid "To delete an image, click on the image in the holdings display.  You will see a greyed out copy of the image with the option to delete."
+msgid ""
+"To delete an image, click on the image in the holdings display.  You will "
+"see a greyed out copy of the image with the option to delete."
 msgstr ""
 
 #: ../../source/cataloging.rst:976
@@ -1437,16 +1992,24 @@ msgid "Moving items"
 msgstr "Presúvanie exemplárov"
 
 #: ../../source/cataloging.rst:984
-msgid "Items can be moved from one bibliographic record to another using the 'Attach item' option"
-msgstr "Exempláre možno preniesť z jedného knižničného záznamu do druhého pomocou možnosti 'Pripísať exemplár'"
+msgid ""
+"Items can be moved from one bibliographic record to another using the "
+"'Attach item' option"
+msgstr ""
+"Exempláre možno preniesť z jedného knižničného záznamu do druhého pomocou "
+"možnosti 'Pripísať exemplár'"
 
 #: ../../source/cataloging.rst:987
 msgid "|image695|"
 msgstr "|image695|"
 
 #: ../../source/cataloging.rst:989
-msgid "Visit the bibliographic record you want to attach the item to and choose 'Attach item' from the 'Edit' menu."
-msgstr "Navštívte knižničný záznam, ku ktorému chcete pridať exemplár a zvoľte 'Pripísať exemplár' z ponuky 'Úprava'."
+msgid ""
+"Visit the bibliographic record you want to attach the item to and choose "
+"'Attach item' from the 'Edit' menu."
+msgstr ""
+"Navštívte knižničný záznam, ku ktorému chcete pridať exemplár a zvoľte "
+"'Pripísať exemplár' z ponuky 'Úprava'."
 
 #: ../../source/cataloging.rst:992
 msgid "|image696|"
@@ -1454,44 +2017,77 @@ msgstr "|image696|"
 
 #: ../../source/cataloging.rst:994
 #, fuzzy
-msgid "Simply enter the barcode for the item you want to move and click 'Submit'"
-msgstr "Jednoducho zadajte čiarový kód pre exemplár, ktorý chcete premiestniť a kliknite na 'Vybrať'"
+msgid ""
+"Simply enter the barcode for the item you want to move and click 'Submit'"
+msgstr ""
+"Jednoducho zadajte čiarový kód pre exemplár, ktorý chcete premiestniť a "
+"kliknite na 'Vybrať'"
 
 #: ../../source/cataloging.rst:997
-msgid "If this is the last remaining item attached to a bibliographic record you will be presented with a button to delete the original host record."
+msgid ""
+"If this is the last remaining item attached to a bibliographic record you "
+"will be presented with a button to delete the original host record."
 msgstr ""
 
 #: ../../source/cataloging.rst:1000
 #, fuzzy
-msgid "If you want to move all items to a new record creating only one bibliographic record you can use the :ref:`merge Records tool <merging-bibliographic-records-via-lists-label>` instead."
-msgstr "Ak chcete presunúť všetky záznamy do nového záznamu a vytvoriť tak len jeden knižničný záznam, môžete naopak použiť nástroj 'Zlúčiť záznamy'."
+msgid ""
+"If you want to move all items to a new record creating only one "
+"bibliographic record you can use the :ref:`merge Records tool <merging-"
+"bibliographic-records-via-lists-label>` instead."
+msgstr ""
+"Ak chcete presunúť všetky záznamy do nového záznamu a vytvoriť tak len jeden "
+"knižničný záznam, môžete naopak použiť nástroj 'Zlúčiť záznamy'."
 
 #: ../../source/cataloging.rst:1007
 msgid "Deleting items"
 msgstr "Exempláre sa odstraňujú"
 
 #: ../../source/cataloging.rst:1009
-msgid "There are many ways to delete item records. If you only need to delete one item you can do this by opening up the detail page for the bib record and clicking the 'Edit' button at the top. From there you can choose to 'Edit items'."
-msgstr "Jestvuje mnoho spôsobov ako odstrániť záznamy exemplárov. Ak potrebujete odstrániť iba jeden exemplár, môžete to dosiahnuť otvorením stránky detailov knižničného záznamu a kliknutím na tlačitlo 'Upraviť' navrchu. Tam si môžete zvoliť 'Úpravu exemplárov'."
+msgid ""
+"There are many ways to delete item records. If you only need to delete one "
+"item you can do this by opening up the detail page for the bib record and "
+"clicking the 'Edit' button at the top. From there you can choose to 'Edit "
+"items'."
+msgstr ""
+"Jestvuje mnoho spôsobov ako odstrániť záznamy exemplárov. Ak potrebujete "
+"odstrániť iba jeden exemplár, môžete to dosiahnuť otvorením stránky detailov "
+"knižničného záznamu a kliknutím na tlačitlo 'Upraviť' navrchu. Tam si môžete "
+"zvoliť 'Úpravu exemplárov'."
 
 #: ../../source/cataloging.rst:1014
 msgid "|image697|"
 msgstr "|image697|"
 
 #: ../../source/cataloging.rst:1016
-msgid "You will be presented with a list of items and next to each one will be a link labeled 'Delete'. Click that link and if the item is not checked out it will delete that item."
-msgstr "Predstaví sa Vám zoznam exemplárov a vedľa každého bude odkaz 'Odstrániť'. Kliknite naň, a ak exemplár nie je zaškrtnutý, tento exemplár sa odstráni."
+msgid ""
+"You will be presented with a list of items and next to each one will be a "
+"link labeled 'Delete'. Click that link and if the item is not checked out it "
+"will delete that item."
+msgstr ""
+"Predstaví sa Vám zoznam exemplárov a vedľa každého bude odkaz 'Odstrániť'. "
+"Kliknite naň, a ak exemplár nie je zaškrtnutý, tento exemplár sa odstráni."
 
 #: ../../source/cataloging.rst:1020
 msgid "|image698|"
 msgstr "|image698|"
 
 #: ../../source/cataloging.rst:1022
-msgid "If you know that all of the items attached to your record are not currently checked out you can use the 'Delete all items' option under the 'Edit menu' and it will remove all items from the record."
-msgstr "Ak viete, že všetky exempláre pripojené k Vašim záznamom momentálne nie sú vypožičané, môžete použiť možnosť 'Odstrániť všetky exempláre' v ponuke 'Upraviť', čím sa odoberú všetky exempláre zo záznamu."
+msgid ""
+"If you know that all of the items attached to your record are not currently "
+"checked out you can use the 'Delete all items' option under the 'Edit menu' "
+"and it will remove all items from the record."
+msgstr ""
+"Ak viete, že všetky exempláre pripojené k Vašim záznamom momentálne nie sú "
+"vypožičané, môžete použiť možnosť 'Odstrániť všetky exempláre' v ponuke "
+"'Upraviť', čím sa odoberú všetky exempláre zo záznamu."
 
 #: ../../source/cataloging.rst:1026
-msgid "You can also enable :ref:`StaffDetailItemSelection` to have checkboxes appear to the left of each item on the detail display. You can then check off the items you would like to delete and click 'Delete selected items' at the top of the list."
+msgid ""
+"You can also enable :ref:`StaffDetailItemSelection` to have checkboxes "
+"appear to the left of each item on the detail display. You can then check "
+"off the items you would like to delete and click 'Delete selected items' at "
+"the top of the list."
 msgstr ""
 
 #: ../../source/cataloging.rst:1031
@@ -1500,8 +2096,12 @@ msgstr "|image699|"
 
 #: ../../source/cataloging.rst:1033
 #, fuzzy
-msgid "Finally you can use the :ref:`batch delete tool <batch-item-deletion-label>` to delete a batch of items."
-msgstr "Nakoniec môžete použiť nástroj hromadného odstránenia dávok pre odstránenie dávky exemplárov."
+msgid ""
+"Finally you can use the :ref:`batch delete tool <batch-item-deletion-label>` "
+"to delete a batch of items."
+msgstr ""
+"Nakoniec môžete použiť nástroj hromadného odstránenia dávok pre odstránenie "
+"dávky exemplárov."
 
 #: ../../source/cataloging.rst:1039
 #, fuzzy
@@ -1509,16 +2109,30 @@ msgid "Item specific circulation history"
 msgstr "Výpis obehu špecifického exemplára"
 
 #: ../../source/cataloging.rst:1041
-msgid "Each bibliographic record keeps a circulation history (with or without the patron information depending on your settings), but each item also has its own circulation history page. To see this, click on the 'Items' tab to the left of the record you are viewing."
-msgstr "Každý knižničný záznam uchováva výpis obehov (podľa Vašich nastavení aj s informáciou o čitateľovi alebo bez nej), ale každý exemplár má tiež svoju vlastnú stránku výpisu obehov. Pre jej zobrazenie, kliknite na záložku 'Exempláre' naľavo od záznamu, na ktorý pozeráte."
+msgid ""
+"Each bibliographic record keeps a circulation history (with or without the "
+"patron information depending on your settings), but each item also has its "
+"own circulation history page. To see this, click on the 'Items' tab to the "
+"left of the record you are viewing."
+msgstr ""
+"Každý knižničný záznam uchováva výpis obehov (podľa Vašich nastavení aj s "
+"informáciou o čitateľovi alebo bez nej), ale každý exemplár má tiež svoju "
+"vlastnú stránku výpisu obehov. Pre jej zobrazenie, kliknite na záložku "
+"'Exempláre' naľavo od záznamu, na ktorý pozeráte."
 
 #: ../../source/cataloging.rst:1046
 msgid "|image700|"
 msgstr "|image700|"
 
 #: ../../source/cataloging.rst:1048
-msgid "Below the 'History' heading is a link to 'View item's checkout history,' clicking that will open up the item's history which will look slightly different from the bibliographic record's history page."
-msgstr "Pod hlavičkou 'Výpis' je odkaz na 'Prezri výpis výpožičiek'. Kliknutím naň sa objaví vyskakovacie okno výpisu exemplára, ktorý bude vypadať trochu odlišne od stránky výpisov bibliografického záznamu."
+msgid ""
+"Below the 'History' heading is a link to 'View item's checkout history,' "
+"clicking that will open up the item's history which will look slightly "
+"different from the bibliographic record's history page."
+msgstr ""
+"Pod hlavičkou 'Výpis' je odkaz na 'Prezri výpis výpožičiek'. Kliknutím naň "
+"sa objaví vyskakovacie okno výpisu exemplára, ktorý bude vypadať trochu "
+"odlišne od stránky výpisov bibliografického záznamu."
 
 #: ../../source/cataloging.rst:1052
 msgid "|image701|"
@@ -1529,8 +2143,13 @@ msgid "Authorities"
 msgstr "Autority"
 
 #: ../../source/cataloging.rst:1059
-msgid "Authority records are a way of controlling fields in your MARC records. Using authority records will provide you with control over subject headings, personal names and places."
-msgstr "Záznamy autorít majú za úlohu kontrolovať polia vo Vašich záznamoch MARC. Poskytujú Vám kontrolu hlavičiek predmetov, mien osôb a miest."
+msgid ""
+"Authority records are a way of controlling fields in your MARC records. "
+"Using authority records will provide you with control over subject headings, "
+"personal names and places."
+msgstr ""
+"Záznamy autorít majú za úlohu kontrolovať polia vo Vašich záznamoch MARC. "
+"Poskytujú Vám kontrolu hlavičiek predmetov, mien osôb a miest."
 
 #: ../../source/cataloging.rst:1066
 #, fuzzy
@@ -1539,60 +2158,103 @@ msgstr "Pridávanie autorít"
 
 #: ../../source/cataloging.rst:1068
 #, fuzzy
-msgid "To add a new authority record you can either choose the authority type from the 'New authority' button or search another library by clicking the 'New from Z39.50' button."
-msgstr "Pre pridanie nového záznamu autority, zvoľte si typ autority z tlačidla 'Nová autorita' alebo hľadajte ďalšiu knižnicu kliknutím na tlačidlo 'Nový zo Z39.50'."
+msgid ""
+"To add a new authority record you can either choose the authority type from "
+"the 'New authority' button or search another library by clicking the 'New "
+"from Z39.50' button."
+msgstr ""
+"Pre pridanie nového záznamu autority, zvoľte si typ autority z tlačidla "
+"'Nová autorita' alebo hľadajte ďalšiu knižnicu kliknutím na tlačidlo 'Nový "
+"zo Z39.50'."
 
 #: ../../source/cataloging.rst:1072
 msgid "|image702|"
 msgstr "|image702|"
 
 #: ../../source/cataloging.rst:1074
-msgid "If you choose to enter a new authority from scratch, the form that appears will allow you to enter all of the necessary details regarding your authority record."
-msgstr "Ak sa rozhodnete zapísať novú autoritu od nuly, zobrazený formulár vám umožní zadať všetky nevyhnutné detaily ohľadom vášho záznamu autorít."
+msgid ""
+"If you choose to enter a new authority from scratch, the form that appears "
+"will allow you to enter all of the necessary details regarding your "
+"authority record."
+msgstr ""
+"Ak sa rozhodnete zapísať novú autoritu od nuly, zobrazený formulár vám "
+"umožní zadať všetky nevyhnutné detaily ohľadom vášho záznamu autorít."
 
 #: ../../source/cataloging.rst:1078
 msgid "|image703|"
 msgstr "|image703|"
 
 #: ../../source/cataloging.rst:1080
-msgid "To expand collapsed values simply click on the title and the subfields will appear. To duplicate a field or subfield just click the plus sign (+) to the right of the label. To use field helper plugins simply click the ellipsis (...) to the right of the field."
-msgstr "Pre rozšírenie rozbalených hodnôt jednoducho kliknite na titul a objavia sa podpolia. Pre zdvojenie poľa alebo podpoľa jednoducho kliknite na znamienko plus (+) napravo od etikety. Pre použitie pomocného zásuvného modulu, kliknite na elipsu (...) napravo od poľa."
+msgid ""
+"To expand collapsed values simply click on the title and the subfields will "
+"appear. To duplicate a field or subfield just click the plus sign (+) to the "
+"right of the label. To use field helper plugins simply click the ellipsis "
+"(...) to the right of the field."
+msgstr ""
+"Pre rozšírenie rozbalených hodnôt jednoducho kliknite na titul a objavia sa "
+"podpolia. Pre zdvojenie poľa alebo podpoľa jednoducho kliknite na znamienko "
+"plus (+) napravo od etikety. Pre použitie pomocného zásuvného modulu, "
+"kliknite na elipsu (...) napravo od poľa."
 
 #: ../../source/cataloging.rst:1085
-msgid "When linking authorities to other headings, you can use the authority finder plugin by clicking the ellipsis (...) to the right of the field."
-msgstr "Pri prepájaní autorít na ďalšie hlavičky, môžete použiť zásuvný modul vyhľadávača autorít kliknutím na elipsu (...) napravo od poľa."
+msgid ""
+"When linking authorities to other headings, you can use the authority finder "
+"plugin by clicking the ellipsis (...) to the right of the field."
+msgstr ""
+"Pri prepájaní autorít na ďalšie hlavičky, môžete použiť zásuvný modul "
+"vyhľadávača autorít kliknutím na elipsu (...) napravo od poľa."
 
 #: ../../source/cataloging.rst:1088
 msgid "|image704|"
 msgstr "|image704|"
 
 #: ../../source/cataloging.rst:1090
-msgid "From there you can search your authority file for the authority to link. If you can't find the authority to link, you can click the 'Create new' button and add the necessary authority for the link. This plugin also allows for you to choose the link relationship between the authorities."
-msgstr "Odtiaľ môžete hľadať váš súbor autorít pre autoritu, ktorú prepájate. Ak nemôžete nájsť autoritu na prepojenie, môžete kliknúť na tlačidlo 'Vytvoriť novú' a pridať potrebnú autoritu na prepojenie. Tento zásuvný modul tiež umožňuje voľbu vzťahu prepojenia medzi autoritami."
+msgid ""
+"From there you can search your authority file for the authority to link. If "
+"you can't find the authority to link, you can click the 'Create new' button "
+"and add the necessary authority for the link. This plugin also allows for "
+"you to choose the link relationship between the authorities."
+msgstr ""
+"Odtiaľ môžete hľadať váš súbor autorít pre autoritu, ktorú prepájate. Ak "
+"nemôžete nájsť autoritu na prepojenie, môžete kliknúť na tlačidlo 'Vytvoriť "
+"novú' a pridať potrebnú autoritu na prepojenie. Tento zásuvný modul tiež "
+"umožňuje voľbu vzťahu prepojenia medzi autoritami."
 
 #: ../../source/cataloging.rst:1095
 msgid "|image705|"
 msgstr "|image705|"
 
 #: ../../source/cataloging.rst:1097
-msgid "If you choose to search another library for the authority record you will be presented with a search box"
-msgstr "Ak sa rozhodnete hľadať záznam autority v inej knižnici, zobrazí sa vám vyhľadávací riadok"
+msgid ""
+"If you choose to search another library for the authority record you will be "
+"presented with a search box"
+msgstr ""
+"Ak sa rozhodnete hľadať záznam autority v inej knižnici, zobrazí sa vám "
+"vyhľadávací riadok"
 
 #: ../../source/cataloging.rst:1100
 msgid "|image706|"
 msgstr "|image706|"
 
 #: ../../source/cataloging.rst:1102
-msgid "From the results you can choose the 'Import' link to the right of the record you would like to add to Koha"
-msgstr "Vo výsledkoch môžete zvoliť odkaz 'Importovať' napravo od záznamu, ktorý by ste chceli pridať do Kohy"
+msgid ""
+"From the results you can choose the 'Import' link to the right of the record "
+"you would like to add to Koha"
+msgstr ""
+"Vo výsledkoch môžete zvoliť odkaz 'Importovať' napravo od záznamu, ktorý by "
+"ste chceli pridať do Kohy"
 
 #: ../../source/cataloging.rst:1105
 msgid "|image707|"
 msgstr "|image707|"
 
 #: ../../source/cataloging.rst:1107
-msgid "You will then be presented with the form to edit the authority before saving it to your system"
-msgstr "Predstaví sa vám formulár, kde môžete upraviť autority pred uložením do vášho systému"
+msgid ""
+"You will then be presented with the form to edit the authority before saving "
+"it to your system"
+msgstr ""
+"Predstaví sa vám formulár, kde môžete upraviť autority pred uložením do "
+"vášho systému"
 
 #: ../../source/cataloging.rst:1110
 msgid "|image708|"
@@ -1604,8 +2266,12 @@ msgid "Searching authorities"
 msgstr "Hľadanie v autoritách"
 
 #: ../../source/cataloging.rst:1117
-msgid "From the authorities page you can search for existing terms and the bibliographic records they are attached to."
-msgstr "Na stránke autorít môžete hľadať jestvujúce pojmy a knižničné záznamy, ku ktorým sú priradené."
+msgid ""
+"From the authorities page you can search for existing terms and the "
+"bibliographic records they are attached to."
+msgstr ""
+"Na stránke autorít môžete hľadať jestvujúce pojmy a knižničné záznamy, ku "
+"ktorým sú priradené."
 
 #: ../../source/cataloging.rst:1120
 msgid "|image709|"
@@ -1613,8 +2279,16 @@ msgstr "|image709|"
 
 #: ../../source/cataloging.rst:1122
 #, fuzzy
-msgid "From the results you will see the authority record, how many bibliographic records it is attached to, an 'Actions' menu that includes the ability to :ref:`edit <editing-authorities-label>`, :ref:`merge <merging-authorities-label>` and :ref:`delete <editing-authorities-label>` (if there are no bibliographic records attached)."
-msgstr "Pri výsledkoch uvidíte záznam autorít, koľko knižničných záznamov sa na ne viaže a odkaz na odstránenie (pokiaľ naň nie sú naviazané žiadne knižničné záznamy)."
+msgid ""
+"From the results you will see the authority record, how many bibliographic "
+"records it is attached to, an 'Actions' menu that includes the ability to :"
+"ref:`edit <editing-authorities-label>`, :ref:`merge <merging-authorities-"
+"label>` and :ref:`delete <editing-authorities-label>` (if there are no "
+"bibliographic records attached)."
+msgstr ""
+"Pri výsledkoch uvidíte záznam autorít, koľko knižničných záznamov sa na ne "
+"viaže a odkaz na odstránenie (pokiaľ naň nie sú naviazané žiadne knižničné "
+"záznamy)."
 
 #: ../../source/cataloging.rst:1128
 msgid "|image710|"
@@ -1622,8 +2296,11 @@ msgstr "|image710|"
 
 #: ../../source/cataloging.rst:1130
 #, fuzzy
-msgid "Clicking on the 'Details' link to the right of the authority record summary will open the full record and the option to edit the record."
-msgstr "Kliknutie na súhrn záznamu autority otvorí plný záznam a možnosť upraviť ho."
+msgid ""
+"Clicking on the 'Details' link to the right of the authority record summary "
+"will open the full record and the option to edit the record."
+msgstr ""
+"Kliknutie na súhrn záznamu autority otvorí plný záznam a možnosť upraviť ho."
 
 #: ../../source/cataloging.rst:1133
 msgid "|image711|"
@@ -1631,8 +2308,14 @@ msgstr "|image711|"
 
 #: ../../source/cataloging.rst:1135
 #, fuzzy
-msgid "If the authority has 'See also's in it you will see those broken out on the search results, clicking the linked headings will run a search for that heading instead."
-msgstr "Ak sa vedľa autority vyskytuje fráza Pozri tiež, uvidíte tie, ktoré sú vypísané vo výsledkoch hľadania, naopak kliknutím na odkazové hlavičky sa spustí hľadanie týchto hlavičiek."
+msgid ""
+"If the authority has 'See also's in it you will see those broken out on the "
+"search results, clicking the linked headings will run a search for that "
+"heading instead."
+msgstr ""
+"Ak sa vedľa autority vyskytuje fráza Pozri tiež, uvidíte tie, ktoré sú "
+"vypísané vo výsledkoch hľadania, naopak kliknutím na odkazové hlavičky sa "
+"spustí hľadanie týchto hlavičiek."
 
 #: ../../source/cataloging.rst:1139
 msgid "|image712|"
@@ -1645,20 +2328,41 @@ msgstr "Úprava autorít"
 
 #: ../../source/cataloging.rst:1146
 #, fuzzy
-msgid "Authorities can be edited by clicking on the authority summary from the search results and then clicking the 'Edit' button above the record. Or by clicking on the 'Edit' link to the left of the authority on the search results."
-msgstr "Autority možno upraviť kliknutím na súhrn o autorite vo výsledkoch hľadania a potom kliknutím na tlačidlo 'Upraviť' nad záznamom."
+msgid ""
+"Authorities can be edited by clicking on the authority summary from the "
+"search results and then clicking the 'Edit' button above the record. Or by "
+"clicking on the 'Edit' link to the left of the authority on the search "
+"results."
+msgstr ""
+"Autority možno upraviť kliknutím na súhrn o autorite vo výsledkoch hľadania "
+"a potom kliknutím na tlačidlo 'Upraviť' nad záznamom."
 
 #: ../../source/cataloging.rst:1151
 msgid "|image713|"
 msgstr "|image713|"
 
 #: ../../source/cataloging.rst:1153
-msgid "Once you've made the necessary edits, simply click 'Save' and `dontmerge <#dontmerge>`__ is set to 'Do', Koha will immediately update all of the bib records linked to the authority with the new authority record's data. If dontmerge is set to \"Don't\" then Koha won't edit bib records when changes are made to authorities, rather, this is done later by the :ref:`merge\\_authority.pl cronjob <cron-update-authorities-label>`."
+msgid ""
+"Once you've made the necessary edits, simply click 'Save' and `dontmerge "
+"<#dontmerge>`__ is set to 'Do', Koha will immediately update all of the bib "
+"records linked to the authority with the new authority record's data. If "
+"dontmerge is set to \"Don't\" then Koha won't edit bib records when changes "
+"are made to authorities, rather, this is done later by the :ref:`merge"
+"\\_authority.pl cronjob <cron-update-authorities-label>`."
 msgstr ""
 
 #: ../../source/cataloging.rst:1160
-msgid "To delete an authority record you first must make sure it's not linked to any bibliographic records. If it is not used by any bibliographic records a 'Delete' link will appear to the right of the record on the search results and as a button that appears after clicking on the summary of the authority record."
-msgstr "Pre odstránenie záznamu autority sa musíte najprv uistiť, že nie je prepojený na žiaden knižničný záznam. Ak nie je nikde použitý, napravo od záznamu vo výsledkoch hľadania sa zobrazí odkaz 'Odstrániť' a ako tlačidlo sa objaví po kliknutí na súhrn o zázname autority."
+msgid ""
+"To delete an authority record you first must make sure it's not linked to "
+"any bibliographic records. If it is not used by any bibliographic records a "
+"'Delete' link will appear to the right of the record on the search results "
+"and as a button that appears after clicking on the summary of the authority "
+"record."
+msgstr ""
+"Pre odstránenie záznamu autority sa musíte najprv uistiť, že nie je "
+"prepojený na žiaden knižničný záznam. Ak nie je nikde použitý, napravo od "
+"záznamu vo výsledkoch hľadania sa zobrazí odkaz 'Odstrániť' a ako tlačidlo "
+"sa objaví po kliknutí na súhrn o zázname autority."
 
 #: ../../source/cataloging.rst:1169
 #, fuzzy
@@ -1666,7 +2370,10 @@ msgid "Merging authorities"
 msgstr "Zlúčiť autority"
 
 #: ../../source/cataloging.rst:1171
-msgid "If you have duplicate authority records you can merge them together by clicking the 'Merge' link, found in the actions menu, next to two results on an authority search."
+msgid ""
+"If you have duplicate authority records you can merge them together by "
+"clicking the 'Merge' link, found in the actions menu, next to two results on "
+"an authority search."
 msgstr ""
 
 #: ../../source/cataloging.rst:1175
@@ -1674,7 +2381,9 @@ msgid "|image714|"
 msgstr "|image714|"
 
 #: ../../source/cataloging.rst:1177
-msgid "After clicking 'Merge' on the first result you will see that authority listed at the top of the results."
+msgid ""
+"After clicking 'Merge' on the first result you will see that authority "
+"listed at the top of the results."
 msgstr ""
 
 #: ../../source/cataloging.rst:1180
@@ -1682,21 +2391,35 @@ msgid "|image715|"
 msgstr "|image715|"
 
 #: ../../source/cataloging.rst:1182
-msgid "Next you need to click 'Merge' next to the second result you'd like to merge."
+msgid ""
+"Next you need to click 'Merge' next to the second result you'd like to merge."
 msgstr ""
 
 #: ../../source/cataloging.rst:1185
 #, fuzzy
-msgid "You will be asked which of the two records you would like to keep as your primary record and which will be deleted after the merge."
-msgstr "Najprv si budete musieť vybrať, ktorý z dvoch záznamov chcete uchovať ako primárny záznam a ktorý chcete dať po zlúčení odstrániť."
+msgid ""
+"You will be asked which of the two records you would like to keep as your "
+"primary record and which will be deleted after the merge."
+msgstr ""
+"Najprv si budete musieť vybrať, ktorý z dvoch záznamov chcete uchovať ako "
+"primárny záznam a ktorý chcete dať po zlúčení odstrániť."
 
 #: ../../source/cataloging.rst:1188
 msgid "|image716|"
 msgstr "|image716|"
 
 #: ../../source/cataloging.rst:1190
-msgid "You will be presented with the MARC for both of the records (each accessible by tabs labeled with the authority numbers for those records). By default the entire first record will be selected, uncheck the fields you don't want in the final (destination) record and then move on to the second tab to choose which fields should be in the final (destination) record."
-msgstr "Predstaví sa Vám MARC pre obidva záznamy (každý prístupný pomocou záložiek označených číslami záznamov). Predvolene sa vyberie celý prvý záznam; odznačte polia, ktoré nechcete mať v cieľovom zázname a potom sa presuňte do druhej záložky, kde si zvolíte, ktoré polia by mali byť v cieľovom zázname."
+msgid ""
+"You will be presented with the MARC for both of the records (each accessible "
+"by tabs labeled with the authority numbers for those records). By default "
+"the entire first record will be selected, uncheck the fields you don't want "
+"in the final (destination) record and then move on to the second tab to "
+"choose which fields should be in the final (destination) record."
+msgstr ""
+"Predstaví sa Vám MARC pre obidva záznamy (každý prístupný pomocou záložiek "
+"označených číslami záznamov). Predvolene sa vyberie celý prvý záznam; "
+"odznačte polia, ktoré nechcete mať v cieľovom zázname a potom sa presuňte do "
+"druhej záložky, kde si zvolíte, ktoré polia by mali byť v cieľovom zázname."
 
 #: ../../source/cataloging.rst:1197
 msgid "|image717|"
@@ -1704,8 +2427,13 @@ msgstr "|image717|"
 
 #: ../../source/cataloging.rst:1199
 #, fuzzy
-msgid "Once you have completed your selections click the 'Merge' button. The primary record will now contain the data you chose for it and the second record will be deleted."
-msgstr "Po skončení výberu, kliknite na tlačidlo 'Zlúčiť'. Primárny záznam Vám teraz zobrazí údaje, ktoré ste preň vybrali a druhý záznam bude odstránený."
+msgid ""
+"Once you have completed your selections click the 'Merge' button. The "
+"primary record will now contain the data you chose for it and the second "
+"record will be deleted."
+msgstr ""
+"Po skončení výberu, kliknite na tlačidlo 'Zlúčiť'. Primárny záznam Vám teraz "
+"zobrazí údaje, ktoré ste preň vybrali a druhý záznam bude odstránený."
 
 #: ../../source/cataloging.rst:1203
 msgid "|image718|"
@@ -1747,11 +2475,15 @@ msgid "LEADER"
 msgstr ""
 
 #: ../../source/cataloging.rst:1218
-msgid "Describes the record(i.e. surrogate) -- is it a record for a monograph? A serial?"
+msgid ""
+"Describes the record(i.e. surrogate) -- is it a record for a monograph? A "
+"serial?"
 msgstr ""
 
 #: ../../source/cataloging.rst:1218
-msgid "Click in this field to fill it in. Then set \"Bibliographic level\" to 'a' for articles or 's' for serials. Otherwise, leave everything as is."
+msgid ""
+"Click in this field to fill it in. Then set \"Bibliographic level\" to 'a' "
+"for articles or 's' for serials. Otherwise, leave everything as is."
 msgstr ""
 
 #: ../../source/cataloging.rst:1220
@@ -1768,7 +2500,9 @@ msgid "Accession number."
 msgstr "Číslo účtu: "
 
 #: ../../source/cataloging.rst:1220
-msgid "Enter the accession number written inside the item here. For articles and items which do not have accession numbers, leave blank."
+msgid ""
+"Enter the accession number written inside the item here. For articles and "
+"items which do not have accession numbers, leave blank."
 msgstr ""
 
 #: ../../source/cataloging.rst:1222
@@ -1785,7 +2519,9 @@ msgid "Your MARC organizational code"
 msgstr "Kód organizácie v MARC"
 
 #: ../../source/cataloging.rst:1222
-msgid "Click in this field to fill it in (will auto fill if you have your :ref:`MARCOrgCode` preference set)."
+msgid ""
+"Click in this field to fill it in (will auto fill if you have your :ref:"
+"`MARCOrgCode` preference set)."
 msgstr ""
 
 #: ../../source/cataloging.rst:1224
@@ -1815,11 +2551,20 @@ msgid "FIXED-LENGTH DATA ELEMENTS"
 msgstr ""
 
 #: ../../source/cataloging.rst:1226
-msgid "Field containing computer-readable representations of a number of things."
+msgid ""
+"Field containing computer-readable representations of a number of things."
 msgstr ""
 
 #: ../../source/cataloging.rst:1226
-msgid "Generally you will only use 's' (single) or 'm' (multiple) options for position 06- use the former when the item was published in a single year, the latter when it was published over the course of several. If there is a single date, only enter a date in the first date field (positions 07-10). Enter the three-digit country code in positions 15-17, being sure to add spaces if the country code is fewer than three characters long. If there is an index, note that fact in position 31. Enter the three-letter language code in positions 35-37."
+msgid ""
+"Generally you will only use 's' (single) or 'm' (multiple) options for "
+"position 06- use the former when the item was published in a single year, "
+"the latter when it was published over the course of several. If there is a "
+"single date, only enter a date in the first date field (positions 07-10). "
+"Enter the three-digit country code in positions 15-17, being sure to add "
+"spaces if the country code is fewer than three characters long. If there is "
+"an index, note that fact in position 31. Enter the three-letter language "
+"code in positions 35-37."
 msgstr ""
 
 #: ../../source/cataloging.rst:1228
@@ -1831,11 +2576,14 @@ msgid "LCCN"
 msgstr "LCCN"
 
 #: ../../source/cataloging.rst:1228
-msgid "A number assigned by the Library of Congress to uniquely identify the work."
+msgid ""
+"A number assigned by the Library of Congress to uniquely identify the work."
 msgstr ""
 
 #: ../../source/cataloging.rst:1228
-msgid "Check on the copyright page of the book (if it was published in the US) or the LC catalog for this number. If you can't find it, don't worry about it."
+msgid ""
+"Check on the copyright page of the book (if it was published in the US) or "
+"the LC catalog for this number. If you can't find it, don't worry about it."
 msgstr ""
 
 #: ../../source/cataloging.rst:1230
@@ -1880,7 +2628,15 @@ msgid "Used for auction dates. Required for auction catalogs."
 msgstr ""
 
 #: ../../source/cataloging.rst:1234
-msgid "For auctions that took place on only one day, enter the date of the auction in the format YYYYMMDD in the subfield 'a' and a '0' in the first indicator. For auctions that took place over two consecutive days or any number of non-consecutive days, create a subfield 'a' for each day with the date in the format YYYYMMDD, and put a '1' in the first indicator. For auctions that took place over more than two consecutive days, create a subfield 'a' (in format YYYYMMDD) for the first day and a subfield 'a' (also in format YYYYMMDD) for the last day, and put a '2' in the first indicator."
+msgid ""
+"For auctions that took place on only one day, enter the date of the auction "
+"in the format YYYYMMDD in the subfield 'a' and a '0' in the first indicator. "
+"For auctions that took place over two consecutive days or any number of non-"
+"consecutive days, create a subfield 'a' for each day with the date in the "
+"format YYYYMMDD, and put a '1' in the first indicator. For auctions that "
+"took place over more than two consecutive days, create a subfield 'a' (in "
+"format YYYYMMDD) for the first day and a subfield 'a' (also in format "
+"YYYYMMDD) for the last day, and put a '2' in the first indicator."
 msgstr ""
 
 #: ../../source/cataloging.rst:1236
@@ -1897,7 +2653,10 @@ msgid "Identifies which libraries created and modified the record."
 msgstr ""
 
 #: ../../source/cataloging.rst:1236
-msgid "For imported records, add a subfield 'd' with your OCLC code as the value. For new records, make sure that the subfield 'c' with your OCLC code as the value."
+msgid ""
+"For imported records, add a subfield 'd' with your OCLC code as the value. "
+"For new records, make sure that the subfield 'c' with your OCLC code as the "
+"value."
 msgstr ""
 
 #: ../../source/cataloging.rst:1238
@@ -1909,11 +2668,17 @@ msgid "LANGUAGE CODE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1238
-msgid "Identifies all the languages used in an item, when two or more languages are present."
+msgid ""
+"Identifies all the languages used in an item, when two or more languages are "
+"present."
 msgstr ""
 
 #: ../../source/cataloging.rst:1238
-msgid "For significant portions of a text in a given language, there should be a subfield 'a' with that language code. If there are only summaries or abstracts in a specific language, create a subfield 'b' with that language code."
+msgid ""
+"For significant portions of a text in a given language, there should be a "
+"subfield 'a' with that language code. If there are only summaries or "
+"abstracts in a specific language, create a subfield 'b' with that language "
+"code."
 msgstr ""
 
 #: ../../source/cataloging.rst:1240
@@ -1930,7 +2695,10 @@ msgid "Authorized form of the main author's name"
 msgstr ""
 
 #: ../../source/cataloging.rst:1240 ../../source/cataloging.rst:1298
-msgid "See Authorized headings sheet and AACR2. The first indicator should generally be a '1', to indicate that the entry is surname first. If the name consists only of a forename, however, the first indicator should be '0'."
+msgid ""
+"See Authorized headings sheet and AACR2. The first indicator should "
+"generally be a '1', to indicate that the entry is surname first. If the name "
+"consists only of a forename, however, the first indicator should be '0'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1242
@@ -1942,11 +2710,15 @@ msgid "MAIN ENTRY--CORPORATE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1242
-msgid "Authorized form of the name of the main corporate author. Required for auction catalogs."
+msgid ""
+"Authorized form of the name of the main corporate author. Required for "
+"auction catalogs."
 msgstr ""
 
 #: ../../source/cataloging.rst:1242
-msgid "Auction catalogs should use a 110 field rather than a 100 field. See Authorized headings sheet and AACR2. Set the first indicator to '2'."
+msgid ""
+"Auction catalogs should use a 110 field rather than a 100 field. See "
+"Authorized headings sheet and AACR2. Set the first indicator to '2'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1244
@@ -1959,12 +2731,15 @@ msgid "MAIN ENTRY--MEETING"
 msgstr ""
 
 #: ../../source/cataloging.rst:1244
-msgid "Authorized form of the name of a meeting which acted as a main offer (e.g. conference proceedings)"
+msgid ""
+"Authorized form of the name of a meeting which acted as a main offer (e.g. "
+"conference proceedings)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1244 ../../source/cataloging.rst:1300
 #: ../../source/cataloging.rst:1302
-msgid "See Authorized headings sheet and AACR2. Set the first indicator to '2'."
+msgid ""
+"See Authorized headings sheet and AACR2. Set the first indicator to '2'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1246
@@ -1976,11 +2751,23 @@ msgid "TITLE STATEMENT"
 msgstr ""
 
 #: ../../source/cataloging.rst:1246
-msgid "Transcription of the title statement from the title page (or chief source of information)"
+msgid ""
+"Transcription of the title statement from the title page (or chief source of "
+"information)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1246
-msgid "Enter the title in subfield 'a', the subtitle in subfield 'b', and the statement of responsibility in subfield 'c'. If you are creating a record for a single volume or part of a multi-part item, you should put the part number in subfield 'n' and the part title in subfield 'p.' For auction catalogs, the date (in 'MM/DD/YYYY' format) should be listed in square brackets in subfield 'f'. See ISBD punctuation sheet. Set the first indicator to '0' if there is no author, otherwise set it to '1'. Set the second indicator to the number of non-filing characters (i.e. characters in an initial articles plus the space... for \"The \" set the second indicator to '4')."
+msgid ""
+"Enter the title in subfield 'a', the subtitle in subfield 'b', and the "
+"statement of responsibility in subfield 'c'. If you are creating a record "
+"for a single volume or part of a multi-part item, you should put the part "
+"number in subfield 'n' and the part title in subfield 'p.' For auction "
+"catalogs, the date (in 'MM/DD/YYYY' format) should be listed in square "
+"brackets in subfield 'f'. See ISBD punctuation sheet. Set the first "
+"indicator to '0' if there is no author, otherwise set it to '1'. Set the "
+"second indicator to the number of non-filing characters (i.e. characters in "
+"an initial articles plus the space... for \"The \" set the second indicator "
+"to '4')."
 msgstr ""
 
 #: ../../source/cataloging.rst:1248
@@ -1996,7 +2783,11 @@ msgid "Alternate form of title for searching and filing purposes"
 msgstr ""
 
 #: ../../source/cataloging.rst:1248
-msgid "If the patron might look for the work under a different title, enter it here. Do not include initial articles. The first indicator should be '3', unless the title is merely a variant spelling, in which case the first indicator should be '1'."
+msgid ""
+"If the patron might look for the work under a different title, enter it "
+"here. Do not include initial articles. The first indicator should be '3', "
+"unless the title is merely a variant spelling, in which case the first "
+"indicator should be '1'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1250
@@ -2008,11 +2799,15 @@ msgid "EDITION STATEMENT"
 msgstr ""
 
 #: ../../source/cataloging.rst:1250
-msgid "Transcription of the edition statement from the title page (or chief source of information)"
+msgid ""
+"Transcription of the edition statement from the title page (or chief source "
+"of information)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1250
-msgid "Transcribe the edition statement exactly as it appears on the title-page. You may abbreviate if the edition statement is very long."
+msgid ""
+"Transcribe the edition statement exactly as it appears on the title-page. "
+"You may abbreviate if the edition statement is very long."
 msgstr ""
 
 #: ../../source/cataloging.rst:1252
@@ -2029,7 +2824,10 @@ msgid "Publication information."
 msgstr "Informácie o akvizíciách"
 
 #: ../../source/cataloging.rst:1252
-msgid "Put the location of publication in subfield 'a', the publisher in subfield 'b', and the year (or probable year) in subfield 'c'. See ISBD punctuation sheet."
+msgid ""
+"Put the location of publication in subfield 'a', the publisher in subfield "
+"'b', and the year (or probable year) in subfield 'c'. See ISBD punctuation "
+"sheet."
 msgstr ""
 
 #: ../../source/cataloging.rst:1254
@@ -2041,11 +2839,16 @@ msgid "PRODUCTION, PUBLICATION ETC."
 msgstr ""
 
 #: ../../source/cataloging.rst:1254
-msgid "Production, Publication, Distribution, Manufacture, and Copyright Notice."
+msgid ""
+"Production, Publication, Distribution, Manufacture, and Copyright Notice."
 msgstr ""
 
 #: ../../source/cataloging.rst:1254
-msgid "Put the location of publication in subfield 'a', the publisher in subfield 'b', and the year (or probable year) in subfield 'c'. See ISBD punctuation sheet.  The label is set dynamically from the second indicator so generally this would be set to '1' for Publisher: ."
+msgid ""
+"Put the location of publication in subfield 'a', the publisher in subfield "
+"'b', and the year (or probable year) in subfield 'c'. See ISBD punctuation "
+"sheet.  The label is set dynamically from the second indicator so generally "
+"this would be set to '1' for Publisher: ."
 msgstr ""
 
 #: ../../source/cataloging.rst:1256
@@ -2063,7 +2866,10 @@ msgid "Physical description"
 msgstr "Fyzické rozmery"
 
 #: ../../source/cataloging.rst:1256
-msgid "Enter the pagination statement in subfield 'a', a brief description of \"special\" contents such as illustrations or maps in subfield 'b' (see AACR2), and the size of the item in subfield 'c'. See ISBD punctuation sheet."
+msgid ""
+"Enter the pagination statement in subfield 'a', a brief description of "
+"\"special\" contents such as illustrations or maps in subfield 'b' (see "
+"AACR2), and the size of the item in subfield 'c'. See ISBD punctuation sheet."
 msgstr ""
 
 #: ../../source/cataloging.rst:1258
@@ -2080,7 +2886,10 @@ msgid "Shows the series statement exactly as it appears on the item."
 msgstr ""
 
 #: ../../source/cataloging.rst:1258
-msgid "Transcribe the series statement into subfield 'a' with the volume number in subfield 'v'. See ISBD punctuation sheet. Set the first indicator to '1' if you are using an 830. As a general rule, you should do so."
+msgid ""
+"Transcribe the series statement into subfield 'a' with the volume number in "
+"subfield 'v'. See ISBD punctuation sheet. Set the first indicator to '1' if "
+"you are using an 830. As a general rule, you should do so."
 msgstr ""
 
 #: ../../source/cataloging.rst:1260
@@ -2096,7 +2905,9 @@ msgid "Notes that don't fit anywhere else."
 msgstr ""
 
 #: ../../source/cataloging.rst:1260
-msgid "Enter notes as full sentences, with a separate 500 field for each distinct topic."
+msgid ""
+"Enter notes as full sentences, with a separate 500 field for each distinct "
+"topic."
 msgstr ""
 
 #: ../../source/cataloging.rst:1262
@@ -2108,7 +2919,8 @@ msgid "WITH NOTE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1262
-msgid "Notes whether the work is bound with the works described by other records."
+msgid ""
+"Notes whether the work is bound with the works described by other records."
 msgstr ""
 
 #: ../../source/cataloging.rst:1262
@@ -2128,7 +2940,12 @@ msgid "Indicates whether the work includes a bibliography."
 msgstr ""
 
 #: ../../source/cataloging.rst:1264
-msgid "If the work includes a bibliography and index, put the text \"Includes bibliographical references (p. XXX-XXX) and index.\" in subfield 'a'. If the work does not include an index, remove that part of the sentence. If the references are scattered throughout the work and not gathered into a distinct sentence, remove the parenthetical statement."
+msgid ""
+"If the work includes a bibliography and index, put the text \"Includes "
+"bibliographical references (p. XXX-XXX) and index.\" in subfield 'a'. If the "
+"work does not include an index, remove that part of the sentence. If the "
+"references are scattered throughout the work and not gathered into a "
+"distinct sentence, remove the parenthetical statement."
 msgstr ""
 
 #: ../../source/cataloging.rst:1266
@@ -2141,11 +2958,16 @@ msgid "FORMATTED CONTENTS"
 msgstr ""
 
 #: ../../source/cataloging.rst:1266
-msgid "List of contents in a standard format. Unformatted contents can be listed in a 500 (General Note) field."
+msgid ""
+"List of contents in a standard format. Unformatted contents can be listed in "
+"a 500 (General Note) field."
 msgstr ""
 
 #: ../../source/cataloging.rst:1266
-msgid "See ISBD punctuation sheet. Set the first indicator to '0'. If you are separately coding authors and titles, set the second indicator to '0'. Otherwise, leave the second indicator blank."
+msgid ""
+"See ISBD punctuation sheet. Set the first indicator to '0'. If you are "
+"separately coding authors and titles, set the second indicator to '0'. "
+"Otherwise, leave the second indicator blank."
 msgstr ""
 
 #: ../../source/cataloging.rst:1268
@@ -2163,7 +2985,9 @@ msgid "Used for auction dates."
 msgstr "Dátum transakcie"
 
 #: ../../source/cataloging.rst:1268
-msgid "For auction catalogs, enter the date of the auction in the format 'January 2, 1984' in the subfield 'a'"
+msgid ""
+"For auction catalogs, enter the date of the auction in the format 'January "
+"2, 1984' in the subfield 'a'"
 msgstr ""
 
 #: ../../source/cataloging.rst:1270
@@ -2179,7 +3003,10 @@ msgid "A brief summary or abstract of the book or article."
 msgstr ""
 
 #: ../../source/cataloging.rst:1270
-msgid "In general you do not need to write a summary. A summary might be called for, however, with items that cannot be easily reviewed by a patron, such as books with highly acidic paper or CD-ROMs."
+msgid ""
+"In general you do not need to write a summary. A summary might be called "
+"for, however, with items that cannot be easily reviewed by a patron, such as "
+"books with highly acidic paper or CD-ROMs."
 msgstr ""
 
 #: ../../source/cataloging.rst:1272
@@ -2195,7 +3022,8 @@ msgid "Note describing the languages used in the work"
 msgstr ""
 
 #: ../../source/cataloging.rst:1272
-msgid "Only needed for works in multiple languages. See ISBD punctuation sheet."
+msgid ""
+"Only needed for works in multiple languages. See ISBD punctuation sheet."
 msgstr ""
 
 #: ../../source/cataloging.rst:1274
@@ -2239,7 +3067,9 @@ msgid "Local notes. Required for auction catalogs."
 msgstr ""
 
 #: ../../source/cataloging.rst:1278
-msgid "Used for auction catalogs to indicate what types of coins are sold in the auction- Roman, Greek, etc."
+msgid ""
+"Used for auction catalogs to indicate what types of coins are sold in the "
+"auction- Roman, Greek, etc."
 msgstr ""
 
 #: ../../source/cataloging.rst:1280
@@ -2255,7 +3085,12 @@ msgid "Authorized form of personal names for people discussed in the work"
 msgstr ""
 
 #: ../../source/cataloging.rst:1280
-msgid "See Authorized headings sheet and AACR2. The first indicator should generally be a '1', to indicate that the entry is surname first. If the name consists only of a forename, however, the first indicator should be '0'. If you found the name in the LC authority file, set the second indicator to '0'. Otherwise set the second indicator to '4'."
+msgid ""
+"See Authorized headings sheet and AACR2. The first indicator should "
+"generally be a '1', to indicate that the entry is surname first. If the name "
+"consists only of a forename, however, the first indicator should be '0'. If "
+"you found the name in the LC authority file, set the second indicator to "
+"'0'. Otherwise set the second indicator to '4'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1282
@@ -2267,11 +3102,15 @@ msgid "SUBJECT ADDED--CORPORATE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1282
-msgid "Authorized form of corporate names for organizations discussed in the work"
+msgid ""
+"Authorized form of corporate names for organizations discussed in the work"
 msgstr ""
 
 #: ../../source/cataloging.rst:1282 ../../source/cataloging.rst:1284
-msgid "See Authorized headings sheet and AACR2. Set the first indicator to '2'. If you found the name in the LC authority file, set the second indicator to '0'. Otherwise set the second indicator to '4'."
+msgid ""
+"See Authorized headings sheet and AACR2. Set the first indicator to '2'. If "
+"you found the name in the LC authority file, set the second indicator to "
+"'0'. Otherwise set the second indicator to '4'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1284
@@ -2300,7 +3139,12 @@ msgid "Authorized form of titles for other works discussed in the work"
 msgstr ""
 
 #: ../../source/cataloging.rst:1286
-msgid "See Authorized headings sheet and AACR2. Set the first indicator to the number of non-filing characters (i.e. characters in an initial articles plus the space... for \"The \" set the first indicator to '4'). If you found the name in the LC authority file, set the second indicator to '0'. Otherwise set the second indicator to '4'."
+msgid ""
+"See Authorized headings sheet and AACR2. Set the first indicator to the "
+"number of non-filing characters (i.e. characters in an initial articles plus "
+"the space... for \"The \" set the first indicator to '4'). If you found the "
+"name in the LC authority file, set the second indicator to '0'. Otherwise "
+"set the second indicator to '4'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1288
@@ -2313,11 +3157,15 @@ msgstr ""
 
 #: ../../source/cataloging.rst:1288
 #, fuzzy
-msgid "Library of Congress Subject Heading terms describing the subject of the work"
+msgid ""
+"Library of Congress Subject Heading terms describing the subject of the work"
 msgstr "a- Library of Congress Hlavičky predmetu"
 
 #: ../../source/cataloging.rst:1288 ../../source/cataloging.rst:1290
-msgid "See Authorized headings sheet and AACR2. If you found the name in the LC authority file, set the second indicator to '0'. Otherwise set the second indicator to '4'."
+msgid ""
+"See Authorized headings sheet and AACR2. If you found the name in the LC "
+"authority file, set the second indicator to '0'. Otherwise set the second "
+"indicator to '4'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1290
@@ -2329,7 +3177,9 @@ msgid "SUBJECT ADDED--GEOGRAPHICAL"
 msgstr ""
 
 #: ../../source/cataloging.rst:1290
-msgid "Library of Congress Subject Heading geographical terms describing the subject of the work"
+msgid ""
+"Library of Congress Subject Heading geographical terms describing the "
+"subject of the work"
 msgstr ""
 
 #: ../../source/cataloging.rst:1292
@@ -2345,7 +3195,13 @@ msgid "Describes what an item is as opposed to what the item is about."
 msgstr ""
 
 #: ../../source/cataloging.rst:1292
-msgid "Generally used only for auction catalogs, which should have the genre heading \"Auction catalogs.\" (make sure to find the authorized heading!) If you found the name in the LC authority file, set the second indicator to '0'. If you are using a term from a specific thesaurus, set the second indicator to '7' and put the code for the thesaurus in subfield '2'. Otherwise set the second indicator to '4'."
+msgid ""
+"Generally used only for auction catalogs, which should have the genre "
+"heading \"Auction catalogs.\" (make sure to find the authorized heading!) If "
+"you found the name in the LC authority file, set the second indicator to "
+"'0'. If you are using a term from a specific thesaurus, set the second "
+"indicator to '7' and put the code for the thesaurus in subfield '2'. "
+"Otherwise set the second indicator to '4'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1294
@@ -2361,7 +3217,9 @@ msgid "Used for headings from any custom subject authority file."
 msgstr ""
 
 #: ../../source/cataloging.rst:1294
-msgid "If there is no appropriate LCSH term, you can use a 690 with subject headings you find on other items in the catalog."
+msgid ""
+"If there is no appropriate LCSH term, you can use a 690 with subject "
+"headings you find on other items in the catalog."
 msgstr ""
 
 #: ../../source/cataloging.rst:1296
@@ -2373,7 +3231,9 @@ msgid "LOCAL SUBJECT ADDED--GEOGRAPHICAL"
 msgstr ""
 
 #: ../../source/cataloging.rst:1296
-msgid "If there is no appropriate LCSH term, you can use a 691 with subject headings you find on other items in the catalog."
+msgid ""
+"If there is no appropriate LCSH term, you can use a 691 with subject "
+"headings you find on other items in the catalog."
 msgstr ""
 
 #: ../../source/cataloging.rst:1298
@@ -2385,7 +3245,9 @@ msgid "ADDED ENTRY--PERSONAL"
 msgstr ""
 
 #: ../../source/cataloging.rst:1298
-msgid "Used for second authors and other persons related to the production of the work."
+msgid ""
+"Used for second authors and other persons related to the production of the "
+"work."
 msgstr ""
 
 #: ../../source/cataloging.rst:1300
@@ -2397,7 +3259,9 @@ msgid "ADDED ENTRY--CORPORATE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1300
-msgid "Used for corporate bodies related to the production of the work (e.g. publishers)."
+msgid ""
+"Used for corporate bodies related to the production of the work (e.g. "
+"publishers)."
 msgstr ""
 
 #: ../../source/cataloging.rst:1302
@@ -2410,7 +3274,9 @@ msgid "ADDED ENTRY--MEETING"
 msgstr ""
 
 #: ../../source/cataloging.rst:1302
-msgid "Used for meetings related to the production of the work (e.g. symposia that contributed to the work)."
+msgid ""
+"Used for meetings related to the production of the work (e.g. symposia that "
+"contributed to the work)."
 msgstr ""
 
 #: ../../source/cataloging.rst:1304
@@ -2422,11 +3288,16 @@ msgid "ADDED ENTRY--UNIFORM TITLE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1304
-msgid "Used for uniform titles related to the production of the work (e.g. a work that inspired the present work)"
+msgid ""
+"Used for uniform titles related to the production of the work (e.g. a work "
+"that inspired the present work)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1304
-msgid "See Authorized headings sheet and AACR2. Set the first indicator to the number of non-filing characters (i.e. characters in an initial articles plus the space... for \"The \" set the first indicator to '4')."
+msgid ""
+"See Authorized headings sheet and AACR2. Set the first indicator to the "
+"number of non-filing characters (i.e. characters in an initial articles plus "
+"the space... for \"The \" set the first indicator to '4')."
 msgstr ""
 
 #: ../../source/cataloging.rst:1306
@@ -2438,11 +3309,27 @@ msgid "HOST ITEM ENTRY"
 msgstr ""
 
 #: ../../source/cataloging.rst:1306
-msgid "Describes the larger bibliographic unit that contains the work (e.g. book or journal containing the article being described in the current record)"
+msgid ""
+"Describes the larger bibliographic unit that contains the work (e.g. book or "
+"journal containing the article being described in the current record)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1306
-msgid "If the host publication is author main entry, enter the authorized form of the author's name in subfield 'a'. Put the title in subfield 't'. If the host publication is an independent work, put publication information in subfield 'd'. When available, ISSN and ISBN should always be used in, in subfields 'x' and 'z' respectively. Relationship information (e.g. volume number, page number, etc.) goes in subfield 'g'. Subfield 'q' contains an encoded representation of the location of the item: volume, issue, and section numbers are separated by colons, and the first page is entered following a '<' at the end of the subfield. See ISBD punctuation sheet. Set the first indicator to '0'. If you want the label \"In:\" to be generated, leave the second indicator blank. If you want something else displayed before the 773 text, set the second indicator to '8' and add a subfield 'i' with the label you want at the beginning of the field (e.g. \"$iOffprint from:\")."
+msgid ""
+"If the host publication is author main entry, enter the authorized form of "
+"the author's name in subfield 'a'. Put the title in subfield 't'. If the "
+"host publication is an independent work, put publication information in "
+"subfield 'd'. When available, ISSN and ISBN should always be used in, in "
+"subfields 'x' and 'z' respectively. Relationship information (e.g. volume "
+"number, page number, etc.) goes in subfield 'g'. Subfield 'q' contains an "
+"encoded representation of the location of the item: volume, issue, and "
+"section numbers are separated by colons, and the first page is entered "
+"following a '<' at the end of the subfield. See ISBD punctuation sheet. Set "
+"the first indicator to '0'. If you want the label \"In:\" to be generated, "
+"leave the second indicator blank. If you want something else displayed "
+"before the 773 text, set the second indicator to '8' and add a subfield 'i' "
+"with the label you want at the beginning of the field (e.g. \"$iOffprint "
+"from:\")."
 msgstr ""
 
 #: ../../source/cataloging.rst:1308
@@ -2454,11 +3341,16 @@ msgid "SERIES ENTRY--UNIFORM TITLE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1308
-msgid "Authorized form of the series name transcribed in the 490 field. Often this will just be the same as the 490."
+msgid ""
+"Authorized form of the series name transcribed in the 490 field. Often this "
+"will just be the same as the 490."
 msgstr ""
 
 #: ../../source/cataloging.rst:1308
-msgid "See Authorized headings sheet and AACR2. Set the second indicator to the number of non-filing characters (i.e. characters in an initial articles plus the space... for \"The \" set the second indicator to '4')."
+msgid ""
+"See Authorized headings sheet and AACR2. Set the second indicator to the "
+"number of non-filing characters (i.e. characters in an initial articles plus "
+"the space... for \"The \" set the second indicator to '4')."
 msgstr ""
 
 #: ../../source/cataloging.rst:1310
@@ -2470,11 +3362,18 @@ msgid "LOCATION/CALL NUMBER"
 msgstr ""
 
 #: ../../source/cataloging.rst:1310
-msgid "Provides the section name for pre-barcode books, pamphlets, and some articles and serials."
+msgid ""
+"Provides the section name for pre-barcode books, pamphlets, and some "
+"articles and serials."
 msgstr ""
 
 #: ../../source/cataloging.rst:1310
-msgid "Do not put anything in this field if you are cataloging a volume which gets only one record and a barcode. If the item does not get a barcode, or you are currently creating a record for an article in a volume, put the section in subfield 'a' (see ANS cataloging documentation), and the call number in subfield 'i'. Set the first indicator to '8'."
+msgid ""
+"Do not put anything in this field if you are cataloging a volume which gets "
+"only one record and a barcode. If the item does not get a barcode, or you "
+"are currently creating a record for an article in a volume, put the section "
+"in subfield 'a' (see ANS cataloging documentation), and the call number in "
+"subfield 'i'. Set the first indicator to '8'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1312
@@ -2491,7 +3390,9 @@ msgid "Links to material available online."
 msgstr "Obmedziť na aktuálne dostupné exempláre."
 
 #: ../../source/cataloging.rst:1312
-msgid "Put the URL of any electronic copies or summaries, etc. in subfield 'u' and a link title in subfield 'y'. Set the first indicator to '4'."
+msgid ""
+"Put the URL of any electronic copies or summaries, etc. in subfield 'u' and "
+"a link title in subfield 'y'. Set the first indicator to '4'."
 msgstr ""
 
 #: ../../source/cataloging.rst:1314
@@ -2520,7 +3421,9 @@ msgid "Item/Holdings Record Cataloging Guide"
 msgstr ""
 
 #: ../../source/cataloging.rst:1324
-msgid "This table represents the default embedded holdings data in Koha. This information can be used for migration or importing data purposes"
+msgid ""
+"This table represents the default embedded holdings data in Koha. This "
+"information can be used for migration or importing data purposes"
 msgstr ""
 
 #: ../../source/cataloging.rst:1328
@@ -2563,7 +3466,9 @@ msgid "1 = Withdrawn"
 msgstr "Odstavený"
 
 #: ../../source/cataloging.rst:1330
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('WITHDRAWN' in default installation)"
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('WITHDRAWN' in default installation)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1336
@@ -2604,11 +3509,15 @@ msgid "5 = Missing in Hold Queue"
 msgstr "Chýbajúce (vypredané)"
 
 #: ../../source/cataloging.rst:1336
-msgid "It's possible to configure OPAC so that lost items don't display with the :ref:`hidelostitems` system preference."
+msgid ""
+"It's possible to configure OPAC so that lost items don't display with the :"
+"ref:`hidelostitems` system preference."
 msgstr ""
 
 #: ../../source/cataloging.rst:1338
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('LOST' in default installation)"
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('LOST' in default installation)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1350
@@ -2621,11 +3530,19 @@ msgstr "Triedenie"
 
 #: ../../source/cataloging.rst:1350
 #, fuzzy
-msgid "Classification scheme that defines filing rules used for sorting call numbers."
-msgstr "Definujte pramene triedenia (napr. schémy signatúr) používané vašou zbierkou. Podobne definujte pravidlá zápisu použité na triedenie signatúr."
+msgid ""
+"Classification scheme that defines filing rules used for sorting call "
+"numbers."
+msgstr ""
+"Definujte pramene triedenia (napr. schémy signatúr) používané vašou "
+"zbierkou. Podobne definujte pravidlá zápisu použité na triedenie signatúr."
 
 #: ../../source/cataloging.rst:1350
-msgid "A choice of :ref:`classification sources <classification-sources-label>` as they are defined in administration. If no classification scheme is entered, the system will use the value entered in the :ref:`DefaultClassificationSource` preference."
+msgid ""
+"A choice of :ref:`classification sources <classification-sources-label>` as "
+"they are defined in administration. If no classification scheme is entered, "
+"the system will use the value entered in the :ref:"
+"`DefaultClassificationSource` preference."
 msgstr ""
 
 #: ../../source/cataloging.rst:1352
@@ -2641,7 +3558,10 @@ msgid "Specific issues of serials or multi-part items."
 msgstr ""
 
 #: ../../source/cataloging.rst:1352
-msgid "Displayed when items are checked out and in to tell the staff how many pieces the item has. Copy/volume data is stored in 952$h and $t for display in Normal views."
+msgid ""
+"Displayed when items are checked out and in to tell the staff how many "
+"pieces the item has. Copy/volume data is stored in 952$h and $t for display "
+"in Normal views."
 msgstr ""
 
 #: ../../source/cataloging.rst:1354
@@ -2663,7 +3583,9 @@ msgid "1 = Damaged"
 msgstr "Poškodený"
 
 #: ../../source/cataloging.rst:1354
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('DAMAGE' in default installation)"
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('DAMAGE' in default installation)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1360
@@ -2685,7 +3607,10 @@ msgid "1 = Restricted Access"
 msgstr "Obmedziť prístup do: "
 
 #: ../../source/cataloging.rst:1360
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('RESTRICT' in default installation). This value has no effect on circulation."
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('RESTRICT' in default installation). This value has no effect on "
+"circulation."
 msgstr ""
 
 #: ../../source/cataloging.rst:1366
@@ -2717,7 +3642,10 @@ msgid "2 = Staff Collection"
 msgstr "c - Zbierka"
 
 #: ../../source/cataloging.rst:1366
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('NOT\\_LOAN' in default installation). Negative number values can still be placed on hold."
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('NOT\\_LOAN' in default installation). Negative number values can "
+"still be placed on hold."
 msgstr ""
 
 #: ../../source/cataloging.rst:1376
@@ -2734,7 +3662,9 @@ msgid "Coded value"
 msgstr "Hodnota bunky"
 
 #: ../../source/cataloging.rst:1376
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('CCODE' in default installation)"
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('CCODE' in default installation)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1378
@@ -2770,7 +3700,8 @@ msgid "Branch code"
 msgstr "Kód životopisu"
 
 #: ../../source/cataloging.rst:1380 ../../source/cataloging.rst:1382
-msgid "**Required**. Code must be defined in :ref:`Libraries <libraries-label>`"
+msgid ""
+"**Required**. Code must be defined in :ref:`Libraries <libraries-label>`"
 msgstr ""
 
 #: ../../source/cataloging.rst:1382
@@ -2791,7 +3722,9 @@ msgid "Shelving location code"
 msgstr "Lokácia v polici: "
 
 #: ../../source/cataloging.rst:1384
-msgid "Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('LOC' in default installation)"
+msgid ""
+"Coded value, matching :ref:`Authorized value <authorized-values-label>` "
+"category ('LOC' in default installation)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1386
@@ -2808,7 +3741,9 @@ msgid "YYYY-MM-DD"
 msgstr "ISO Formát (RRRR-MM-DD)"
 
 #: ../../source/cataloging.rst:1386
-msgid "Date formats in the 952 subfields are required to be in the system internal format for data loading and subsequent item editing: YYYY-MM-DD"
+msgid ""
+"Date formats in the 952 subfields are required to be in the system internal "
+"format for data loading and subsequent item editing: YYYY-MM-DD"
 msgstr ""
 
 #: ../../source/cataloging.rst:1388
@@ -2825,7 +3760,9 @@ msgid "Coded value or vendor string"
 msgstr "h- Blue or green strip"
 
 #: ../../source/cataloging.rst:1388
-msgid "Filled in automatically with the Koha assigned vendor id by Acquisitions when an item is received."
+msgid ""
+"Filled in automatically with the Koha assigned vendor id by Acquisitions "
+"when an item is received."
 msgstr ""
 
 #: ../../source/cataloging.rst:1390
@@ -2867,8 +3804,12 @@ msgstr "Plná signatúra Kohy"
 
 #: ../../source/cataloging.rst:1394
 #, fuzzy
-msgid "Can be filled in automatically based on the :ref:`itemcallnumber` system preference."
-msgstr "Pole čísla preukazu sa automaticky generuje ak tak máte urobené nastavenie systému autoMemberNum"
+msgid ""
+"Can be filled in automatically based on the :ref:`itemcallnumber` system "
+"preference."
+msgstr ""
+"Pole čísla preukazu sa automaticky generuje ak tak máte urobené nastavenie "
+"systému autoMemberNum"
 
 #: ../../source/cataloging.rst:1396
 msgid "952$p"
@@ -2911,7 +3852,10 @@ msgid "Item specific URL"
 msgstr "Konkrétny exemplár"
 
 #: ../../source/cataloging.rst:1400
-msgid "Full URL starting with http:// Only needed if your item has its own URL, not necessary if the bib record has a 856$u that applies to all items on the record."
+msgid ""
+"Full URL starting with http:// Only needed if your item has its own URL, not "
+"necessary if the bib record has a 856$u that applies to all items on the "
+"record."
 msgstr ""
 
 #: ../../source/cataloging.rst:1402
@@ -2931,7 +3875,10 @@ msgid "Price effective from"
 msgstr "Cena platná od"
 
 #: ../../source/cataloging.rst:1404
-msgid "Date formats in the 952 subfields are required to be in the system internal format for data loading and subsequent item editing: YYYY-MM-DD. Filled in automatically by Acquisitions when an item is received."
+msgid ""
+"Date formats in the 952 subfields are required to be in the system internal "
+"format for data loading and subsequent item editing: YYYY-MM-DD. Filled in "
+"automatically by Acquisitions when an item is received."
 msgstr ""
 
 #: ../../source/cataloging.rst:1406
@@ -2943,7 +3890,10 @@ msgid "Nonpublic note"
 msgstr "Neverejná poznámka"
 
 #: ../../source/cataloging.rst:1406
-msgid "This is a note field for notes that will not appear in the OPAC. Right now this note does not appear anywhere but in the item edit screen in the staff client."
+msgid ""
+"This is a note field for notes that will not appear in the OPAC. Right now "
+"this note does not appear anywhere but in the item edit screen in the staff "
+"client."
 msgstr ""
 
 #: ../../source/cataloging.rst:1408
@@ -2960,7 +3910,9 @@ msgid "Coded value, required field for circulation"
 msgstr ""
 
 #: ../../source/cataloging.rst:1408
-msgid "**Required**. Coded value, must be defined in :ref:`Item types <item-types-label>`"
+msgid ""
+"**Required**. Coded value, must be defined in :ref:`Item types <item-types-"
+"label>`"
 msgstr ""
 
 #: ../../source/cataloging.rst:1410
@@ -2989,7 +3941,12 @@ msgid "Koha XSLT material type icons"
 msgstr ""
 
 #: ../../source/cataloging.rst:1424
-msgid "When you have any of the XSLT system preferences (:ref:`OPACXSLTDetailsDisplay`, :ref:`OPACXSLTResultsDisplay`, :ref:`XSLTDetailsDisplay`, and/or :ref:`XSLTResultsDisplay`) along with the :ref:`DisplayOPACiconsXSLT` and :ref:`DisplayIconsXSLT` preferences turned on you will see material type icons on the related screen."
+msgid ""
+"When you have any of the XSLT system preferences (:ref:"
+"`OPACXSLTDetailsDisplay`, :ref:`OPACXSLTResultsDisplay`, :ref:"
+"`XSLTDetailsDisplay`, and/or :ref:`XSLTResultsDisplay`) along with the :ref:"
+"`DisplayOPACiconsXSLT` and :ref:`DisplayIconsXSLT` preferences turned on you "
+"will see material type icons on the related screen."
 msgstr ""
 
 #: ../../source/cataloging.rst:1433 ../../source/cataloging.rst:1531
@@ -2998,7 +3955,11 @@ msgid "**Important**"
 msgstr "Dôležité "
 
 #: ../../source/cataloging.rst:1435
-msgid "These images are coming from values found in your leader, if your leader is not cataloged properly it might be best to turn off the :ref:`DisplayOPACiconsXSLT` preference (which can be done while leaving the other XSLT preferences turned on)."
+msgid ""
+"These images are coming from values found in your leader, if your leader is "
+"not cataloged properly it might be best to turn off the :ref:"
+"`DisplayOPACiconsXSLT` preference (which can be done while leaving the other "
+"XSLT preferences turned on)."
 msgstr ""
 
 #: ../../source/cataloging.rst:1440
@@ -3180,19 +4141,34 @@ msgid "Handling On Order Items and Holds"
 msgstr ""
 
 #: ../../source/cataloging.rst:1519
-msgid "If you tend to import your MARC records when you have ordered the book (as opposed to when you receive the books), and allow patrons to place holds on those books, you may need to add item records to the \\*.mrc file before importing."
+msgid ""
+"If you tend to import your MARC records when you have ordered the book (as "
+"opposed to when you receive the books), and allow patrons to place holds on "
+"those books, you may need to add item records to the \\*.mrc file before "
+"importing."
 msgstr ""
 
 #: ../../source/cataloging.rst:1524
-msgid "The easiest way to import your latest order is to first run your records through `MARCEdit <http://marcedit.reeset.net/>`__. Download your MARC records, saving them to your desktop or some other location you use/will remember. If you have MARCEdit already installed you should simply have to double click on your MARC records, and they will automatically open in MARCEdit."
+msgid ""
+"The easiest way to import your latest order is to first run your records "
+"through `MARCEdit <http://marcedit.reeset.net/>`__. Download your MARC "
+"records, saving them to your desktop or some other location you use/will "
+"remember. If you have MARCEdit already installed you should simply have to "
+"double click on your MARC records, and they will automatically open in "
+"MARCEdit."
 msgstr ""
 
 #: ../../source/cataloging.rst:1533
-msgid "This tutorial was written with MARCEdit version 5.2.3769.41641 on Windows XP, instructions may be different if your version or operating system is different."
+msgid ""
+"This tutorial was written with MARCEdit version 5.2.3769.41641 on Windows "
+"XP, instructions may be different if your version or operating system is "
+"different."
 msgstr ""
 
 #: ../../source/cataloging.rst:1537
-msgid "Your original file will automatically be in the input; ensure MarcBreaker is chosen, and then click \"Execute\""
+msgid ""
+"Your original file will automatically be in the input; ensure MarcBreaker is "
+"chosen, and then click \"Execute\""
 msgstr ""
 
 #: ../../source/cataloging.rst:1540
@@ -3201,7 +4177,9 @@ msgstr "|image719|"
 
 #: ../../source/cataloging.rst:1542
 #, fuzzy
-msgid "You will be presented with a summary of the records processed at the bottom of the screen"
+msgid ""
+"You will be presented with a summary of the records processed at the bottom "
+"of the screen"
 msgstr "Predstaví sa Vám súhrn o načítaní"
 
 #: ../../source/cataloging.rst:1545
@@ -3213,7 +4191,8 @@ msgid "Click 'Edit Records' to continue on to adding item records"
 msgstr ""
 
 #: ../../source/cataloging.rst:1549
-msgid "Your screen will be replaced with a larger screen containing the MARC records"
+msgid ""
+"Your screen will be replaced with a larger screen containing the MARC records"
 msgstr ""
 
 #: ../../source/cataloging.rst:1552
@@ -3242,7 +4221,9 @@ msgid "In the Field box, type 942"
 msgstr ""
 
 #: ../../source/cataloging.rst:1564
-msgid "In the Field Data box, type \\\\\\\\$c and the item type code (\\\\\\\\$cBOOK in this example)"
+msgid ""
+"In the Field Data box, type \\\\\\\\$c and the item type code (\\\\\\\\"
+"$cBOOK in this example)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1567 ../../source/cataloging.rst:1598
@@ -3269,7 +4250,9 @@ msgid "In the Field box, type 952"
 msgstr ""
 
 #: ../../source/cataloging.rst:1577
-msgid "In the Field Data box, type $7ORDERED\\_STATUS$aPERM\\_LOC$bCURR\\_LOC$cSHELVING\\_LOCATION$eSOURCE\\_OF\\_ACQ$yITEM\\_TYPE"
+msgid ""
+"In the Field Data box, type $7ORDERED\\_STATUS$aPERM\\_LOC$bCURR\\_LOC"
+"$cSHELVING\\_LOCATION$eSOURCE\\_OF\\_ACQ$yITEM\\_TYPE"
 msgstr ""
 
 #: ../../source/cataloging.rst:1580
@@ -3281,15 +4264,25 @@ msgid "In a default install of Koha -1 is the value for the Ordered status"
 msgstr ""
 
 #: ../../source/cataloging.rst:1585
-msgid "You may want to look at other subfields you would like data in -- for example, changing the collection code to put all the items in the same collection (8), automatically fill in the acquisition date (d), or put in a public note (z)."
+msgid ""
+"You may want to look at other subfields you would like data in -- for "
+"example, changing the collection code to put all the items in the same "
+"collection (8), automatically fill in the acquisition date (d), or put in a "
+"public note (z)."
 msgstr ""
 
 #: ../../source/cataloging.rst:1590
-msgid "Be sure you use the $ to separate subfields; adding each subfield on a separate line will cause that many items to be imported with your MARC record (in the example above, four items, each with one of those subfields corrected)"
+msgid ""
+"Be sure you use the $ to separate subfields; adding each subfield on a "
+"separate line will cause that many items to be imported with your MARC "
+"record (in the example above, four items, each with one of those subfields "
+"corrected)"
 msgstr ""
 
 #: ../../source/cataloging.rst:1595
-msgid "Make sure you look at the Administration > Authorized Values in Koha to put the correct code into the field"
+msgid ""
+"Make sure you look at the Administration > Authorized Values in Koha to put "
+"the correct code into the field"
 msgstr ""
 
 #: ../../source/cataloging.rst:1602
@@ -3311,19 +4304,34 @@ msgid "Choose where to save your file"
 msgstr "Zvoľte názov, pod ktorým chcete uložiť súbor"
 
 #: ../../source/cataloging.rst:1610
-msgid "Now you want to go into your Koha system and follow the instructions for :ref:`importing MARC records <stage-marc-records-for-import-label>`."
+msgid ""
+"Now you want to go into your Koha system and follow the instructions for :"
+"ref:`importing MARC records <stage-marc-records-for-import-label>`."
 msgstr ""
 
 #: ../../source/cataloging.rst:1613
-msgid "Once the item has come in, you will need to go to the item record and individually change the item to have the correct barcode, and manually change the status from Ordered to the blank line in the Not for Loan field."
+msgid ""
+"Once the item has come in, you will need to go to the item record and "
+"individually change the item to have the correct barcode, and manually "
+"change the status from Ordered to the blank line in the Not for Loan field."
 msgstr ""
 
 #: ../../source/cataloging.rst:1620
-msgid "If you purchase your cataloged item records, you may want to request your vendor put in the information you need into the MARC records for you; that way, you could import the edited-by-the-vendor file, overwriting the current record, automatically replacing the data with what you need."
+msgid ""
+"If you purchase your cataloged item records, you may want to request your "
+"vendor put in the information you need into the MARC records for you; that "
+"way, you could import the edited-by-the-vendor file, overwriting the current "
+"record, automatically replacing the data with what you need."
 msgstr ""
 
-#~ msgid "It is important to rebuild your zebra index immediately after merging records. If a search is performed for a record which has been deleted Koha will present the patrons with an error in the OPAC."
-#~ msgstr "Dôležité: Je dôležité obnoviť Váš zebra index okamžite po zlúčení záznamov. Ak hľadáte odstránený záznam, Koha zobrazí čitateľom v OPACu chybu."
+#~ msgid ""
+#~ "It is important to rebuild your zebra index immediately after merging "
+#~ "records. If a search is performed for a record which has been deleted "
+#~ "Koha will present the patrons with an error in the OPAC."
+#~ msgstr ""
+#~ "Dôležité: Je dôležité obnoviť Váš zebra index okamžite po zlúčení "
+#~ "záznamov. Ak hľadáte odstránený záznam, Koha zobrazí čitateľom v OPACu "
+#~ "chybu."
 
 #~ msgid "Ctrl-Shift-L"
 #~ msgstr "Ctrl-Shift-L"
@@ -3333,4 +4341,3 @@ msgstr ""
 
 #~ msgid "Ctrl-Shift-X"
 #~ msgstr "Ctrl-Shift-X"
-

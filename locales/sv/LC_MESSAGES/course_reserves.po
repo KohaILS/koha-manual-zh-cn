@@ -1,7 +1,7 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: compendium-sv\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2019-03-13 15:05-0300\n"
@@ -10,6 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Pootle-Path: /sv/man20.11/course_reserves.po\n"
+"X-Pootle-Revision: 1\n"
 
 #: ../../source/course_reserves.rst:6
 #, fuzzy
@@ -17,8 +19,14 @@ msgid "Course reserves"
 msgstr "Kursreservationer"
 
 #: ../../source/course_reserves.rst:8
-msgid "The course reserves module in Koha allows you to temporarily move items to 'reserve' and assign different circulation rules to these items while they are being used for a specific course."
-msgstr "Modulen kursreservationer i Koha gör att du temporärt kan flytta exemplar till 'reservera' och tilldela olika utlåningsregler till dessa exemplar under den tid som de används för en viss kurs."
+msgid ""
+"The course reserves module in Koha allows you to temporarily move items to "
+"'reserve' and assign different circulation rules to these items while they "
+"are being used for a specific course."
+msgstr ""
+"Modulen kursreservationer i Koha gör att du temporärt kan flytta exemplar "
+"till 'reservera' och tilldela olika utlåningsregler till dessa exemplar "
+"under den tid som de används för en viss kurs."
 
 #: ../../source/course_reserves.rst:15
 #, fuzzy
@@ -32,23 +40,43 @@ msgstr "Innan kursreservationer används krävs vissa inställningar."
 
 #: ../../source/course_reserves.rst:19
 #, fuzzy
-msgid "First you will need to enable course reserves by setting the :ref:`UseCourseReserves` preference to 'Use'."
-msgstr "Först måste du aktivera kursreservationer genom att ställa in inställningen AnvändKursReservationer till 'Använd'."
+msgid ""
+"First you will need to enable course reserves by setting the :ref:"
+"`UseCourseReserves` preference to 'Use'."
+msgstr ""
+"Först måste du aktivera kursreservationer genom att ställa in inställningen "
+"AnvändKursReservationer till 'Använd'."
 
 #: ../../source/course_reserves.rst:22
 #, fuzzy
-msgid "Next you will need to have all of your course instructors :ref:`added as patrons <add-a-new-patron-label>`."
+msgid ""
+"Next you will need to have all of your course instructors :ref:`added as "
+"patrons <add-a-new-patron-label>`."
 msgstr "Sedan måste du lägga till alla kurslärare som låntagare."
 
 #: ../../source/course_reserves.rst:25
 #, fuzzy
-msgid "Next you will want to add a couple of new :ref:`authorized values <add-new-authorized-value-label>` for Departments and Terms."
-msgstr "Sedan vill du lägga till ett par nya auktoriserade värden för avdelningar och villkor."
+msgid ""
+"Next you will want to add a couple of new :ref:`authorized values <add-new-"
+"authorized-value-label>` for Departments and Terms."
+msgstr ""
+"Sedan vill du lägga till ett par nya auktoriserade värden för avdelningar "
+"och villkor."
 
 #: ../../source/course_reserves.rst:28
 #, fuzzy
-msgid "You may also want to create new :ref:`item types <adding-item-types-label>`, `collection codes <#ccode>`__ and/or `shelving locations <#shelvelocvals>`__ to make it clear that the items are on reserve to your patrons. You will also want to be sure to confirm that your :ref:`circulation and fines rules <circulation-and-fines-rules-label>` are right for your new item types (whether they be hourly or daily loans)."
-msgstr "Du kan även vilja skapa nya exemplartyper, samlingskoder och/eller hyllplatser för att göra det tydligt att exemplaren är reserverade. Du bör också bekräfta att dina utlåningsregler och bötesregler fungerar med dina nya exemplartyper (oavsett om lånen är per dag eller timme)."
+msgid ""
+"You may also want to create new :ref:`item types <adding-item-types-label>`, "
+"`collection codes <#ccode>`__ and/or `shelving locations <#shelvelocvals>`__ "
+"to make it clear that the items are on reserve to your patrons. You will "
+"also want to be sure to confirm that your :ref:`circulation and fines rules "
+"<circulation-and-fines-rules-label>` are right for your new item types "
+"(whether they be hourly or daily loans)."
+msgstr ""
+"Du kan även vilja skapa nya exemplartyper, samlingskoder och/eller "
+"hyllplatser för att göra det tydligt att exemplaren är reserverade. Du bör "
+"också bekräfta att dina utlåningsregler och bötesregler fungerar med dina "
+"nya exemplartyper (oavsett om lånen är per dag eller timme)."
 
 #: ../../source/course_reserves.rst:38
 #, fuzzy
@@ -57,16 +85,24 @@ msgstr "Lägga till exemplar"
 
 #: ../../source/course_reserves.rst:40
 #, fuzzy
-msgid "Once you have completed your set up for course reserves you can start creating courses and adding titles to the reserve list."
-msgstr "När du slutfört konfigurationen för kursreservationer kan du börja skapa kurser och lägga till titlar till reservlistan."
+msgid ""
+"Once you have completed your set up for course reserves you can start "
+"creating courses and adding titles to the reserve list."
+msgstr ""
+"När du slutfört konfigurationen för kursreservationer kan du börja skapa "
+"kurser och lägga till titlar till reservlistan."
 
 #: ../../source/course_reserves.rst:43
 msgid "|image726|"
 msgstr "|image726|"
 
 #: ../../source/course_reserves.rst:45
-msgid "From the main course reserves page you can add a new course by clicking the 'New course' button at the top left."
-msgstr "Från huvudsidan för kursreservationer kan du lägga till en ny kurs genom att klicka på knappen 'Ny kurs' längst upp till vänster."
+msgid ""
+"From the main course reserves page you can add a new course by clicking the "
+"'New course' button at the top left."
+msgstr ""
+"Från huvudsidan för kursreservationer kan du lägga till en ny kurs genom att "
+"klicka på knappen 'Ny kurs' längst upp till vänster."
 
 #: ../../source/course_reserves.rst:48
 msgid "|image727|"
@@ -74,28 +110,52 @@ msgstr "|image727|"
 
 #: ../../source/course_reserves.rst:50
 #, fuzzy
-msgid "Your new course will need a department, number and name at the bare minimum. You can also add in additional details like course section number and term. To link an instructor to this course simply start typing their name and Koha will search your patron database to find you the right person."
-msgstr "Den nya kursen behöver som minimum en avdelning, ett nummer och ett namn. Du kan även lägga till ytterligare information, som kursbeteckning och termin. För att koppla en lärare till denna kurs börjar du bara att skriva in deras namn, Koha kommer att söka i låntagardatabasen för att hitta rätt person."
+msgid ""
+"Your new course will need a department, number and name at the bare minimum. "
+"You can also add in additional details like course section number and term. "
+"To link an instructor to this course simply start typing their name and Koha "
+"will search your patron database to find you the right person."
+msgstr ""
+"Den nya kursen behöver som minimum en avdelning, ett nummer och ett namn. Du "
+"kan även lägga till ytterligare information, som kursbeteckning och termin. "
+"För att koppla en lärare till denna kurs börjar du bara att skriva in deras "
+"namn, Koha kommer att söka i låntagardatabasen för att hitta rätt person."
 
 #: ../../source/course_reserves.rst:56
 msgid "|image728|"
 msgstr "|image728|"
 
 #: ../../source/course_reserves.rst:58
-msgid "Once the instructor you want appears just click their name and they will be added. You can repeat this for all instructors on this course. Each instructor will appear above the search box and can be removed by clicking the 'Remove' link to the right of their name."
-msgstr "När läraren du vill ha visas klickar du bara på deras namn för att lägga till dem. Du kan upprepa detta för alla lärare på denna kurs. Varje lärare visas ovanför sökrutan och kan tas bort genom att klicka på länken 'Ta bort' till höger om namnet."
+msgid ""
+"Once the instructor you want appears just click their name and they will be "
+"added. You can repeat this for all instructors on this course. Each "
+"instructor will appear above the search box and can be removed by clicking "
+"the 'Remove' link to the right of their name."
+msgstr ""
+"När läraren du vill ha visas klickar du bara på deras namn för att lägga "
+"till dem. Du kan upprepa detta för alla lärare på denna kurs. Varje lärare "
+"visas ovanför sökrutan och kan tas bort genom att klicka på länken 'Ta bort' "
+"till höger om namnet."
 
 #: ../../source/course_reserves.rst:63
 msgid "|image729|"
 msgstr "|image729|"
 
 #: ../../source/course_reserves.rst:65
-msgid "If you would like your course to show publicly you'll want to be sure to check the 'Enabled?' box before saving your new course."
-msgstr "Om du vill att kursen ska visas för allmänheten måste du se till att du markerar rutan 'Aktiverad?' innan du sparar den nya kursen."
+msgid ""
+"If you would like your course to show publicly you'll want to be sure to "
+"check the 'Enabled?' box before saving your new course."
+msgstr ""
+"Om du vill att kursen ska visas för allmänheten måste du se till att du "
+"markerar rutan 'Aktiverad?' innan du sparar den nya kursen."
 
 #: ../../source/course_reserves.rst:68
-msgid "Once your course is saved it will show on the main course reserves page and be searchable by any field in the course."
-msgstr "När din kurs är sparad visas den på huvudsidan för kursreservationer och kan sökas med alla fält i kursen."
+msgid ""
+"Once your course is saved it will show on the main course reserves page and "
+"be searchable by any field in the course."
+msgstr ""
+"När din kurs är sparad visas den på huvudsidan för kursreservationer och kan "
+"sökas med alla fält i kursen."
 
 #: ../../source/course_reserves.rst:71 ../../source/course_reserves.rst:87
 msgid "|image730|"
@@ -107,7 +167,10 @@ msgid "**Note**"
 msgstr ""
 
 #: ../../source/course_reserves.rst:75
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: courses page, course_reserves_table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: courses page, course_reserves_table)."
 msgstr ""
 
 #: ../../source/course_reserves.rst:82
@@ -116,8 +179,13 @@ msgid "Adding reserve materials"
 msgstr "Mixed Materials"
 
 #: ../../source/course_reserves.rst:84
-msgid "Before adding reserve materials you will need at least one course to add them to. To add materials visit the Course Reserves module."
-msgstr "Innan du lägger till reserverade material behöver du minst en kurs där de kan läggas till. Gå till modulen för kursreservationer för att lägga till material."
+msgid ""
+"Before adding reserve materials you will need at least one course to add "
+"them to. To add materials visit the Course Reserves module."
+msgstr ""
+"Innan du lägger till reserverade material behöver du minst en kurs där de "
+"kan läggas till. Gå till modulen för kursreservationer för att lägga till "
+"material."
 
 #: ../../source/course_reserves.rst:89
 msgid "Click on the title of the course you would like to add materials to."
@@ -128,15 +196,25 @@ msgid "|image732|"
 msgstr "|image732|"
 
 #: ../../source/course_reserves.rst:93
-msgid "At the top of the course description click the 'Add reserves' button to add titles to this reserve list. You will be asked to enter the barcode for the reserve item."
-msgstr "Längst upp i kursreservationen klickar du på knappen 'Lägg till reservationer' för att lägga till titlar i denna reservationslista. Du kommer att få ange streckkoden för det reserverade exemplaret."
+msgid ""
+"At the top of the course description click the 'Add reserves' button to add "
+"titles to this reserve list. You will be asked to enter the barcode for the "
+"reserve item."
+msgstr ""
+"Längst upp i kursreservationen klickar du på knappen 'Lägg till "
+"reservationer' för att lägga till titlar i denna reservationslista. Du "
+"kommer att få ange streckkoden för det reserverade exemplaret."
 
 #: ../../source/course_reserves.rst:97
 msgid "|image733|"
 msgstr "|image733|"
 
 #: ../../source/course_reserves.rst:99
-msgid "For each item, you can change the item type, collection code, shelving location or holding library. These changes will only apply while the course is active. When you deactivate the course, the items will go back to their original settings."
+msgid ""
+"For each item, you can change the item type, collection code, shelving "
+"location or holding library. These changes will only apply while the course "
+"is active. When you deactivate the course, the items will go back to their "
+"original settings."
 msgstr ""
 
 #: ../../source/course_reserves.rst:104
@@ -145,19 +223,28 @@ msgstr "|image1357|"
 
 #: ../../source/course_reserves.rst:106
 #, fuzzy
-msgid "After you are done scanning the barcodes to add to the course you can see them on the course page"
-msgstr "När du har skannat streckkoderna som ska läggas till kursen kan du se dem på kurssidan."
+msgid ""
+"After you are done scanning the barcodes to add to the course you can see "
+"them on the course page"
+msgstr ""
+"När du har skannat streckkoderna som ska läggas till kursen kan du se dem på "
+"kurssidan."
 
 #: ../../source/course_reserves.rst:109
 msgid "|image734|"
 msgstr "|image734|"
 
 #: ../../source/course_reserves.rst:113
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: reserves page, course_reserves_table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: reserves page, course_reserves_table)."
 msgstr ""
 
 #: ../../source/course_reserves.rst:117
-msgid "You also have the possibility of adding several items at the same time. Click on 'Batch add reserves'."
+msgid ""
+"You also have the possibility of adding several items at the same time. "
+"Click on 'Batch add reserves'."
 msgstr ""
 
 #: ../../source/course_reserves.rst:120
@@ -165,7 +252,9 @@ msgid "|image1358|"
 msgstr "|image1358|"
 
 #: ../../source/course_reserves.rst:122
-msgid "Scan the barcodes of the items you want to add to the reserve and change the item type, collection code, shelving location or holding library, if needed."
+msgid ""
+"Scan the barcodes of the items you want to add to the reserve and change the "
+"item type, collection code, shelving location or holding library, if needed."
 msgstr ""
 
 #: ../../source/course_reserves.rst:128
@@ -174,7 +263,9 @@ msgid "Course reserves in the OPAC"
 msgstr "Kursreservationer"
 
 #: ../../source/course_reserves.rst:130
-msgid "Once you have enabled course reserves and added courses you will see a link to course reserves below your search box in the OPAC."
+msgid ""
+"Once you have enabled course reserves and added courses you will see a link "
+"to course reserves below your search box in the OPAC."
 msgstr ""
 
 #: ../../source/course_reserves.rst:133
@@ -182,7 +273,9 @@ msgid "|image735|"
 msgstr "|image735|"
 
 #: ../../source/course_reserves.rst:135
-msgid "Clicking that link will show you your list of enabled courses (if you have only one course you will just see the contents of that one course)."
+msgid ""
+"Clicking that link will show you your list of enabled courses (if you have "
+"only one course you will just see the contents of that one course)."
 msgstr ""
 
 #: ../../source/course_reserves.rst:138
@@ -190,11 +283,17 @@ msgid "|image736|"
 msgstr "|image736|"
 
 #: ../../source/course_reserves.rst:142
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: course_reserves_table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: course_reserves_table)."
 msgstr ""
 
 #: ../../source/course_reserves.rst:146
-msgid "You can search course reserves by any field (course number, course name, instructor name, department) that is visible in the list of courses. Clicking a course name will show you the details and reserve items."
+msgid ""
+"You can search course reserves by any field (course number, course name, "
+"instructor name, department) that is visible in the list of courses. "
+"Clicking a course name will show you the details and reserve items."
 msgstr ""
 
 #: ../../source/course_reserves.rst:150
@@ -202,9 +301,11 @@ msgid "|image737|"
 msgstr "|image737|"
 
 #: ../../source/course_reserves.rst:154
-msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: course-items-table)."
+msgid ""
+"You can customize the columns of this table in the :ref:`'Table "
+"settings'<column-settings-label>` section of the Administration module "
+"(table id: course-items-table)."
 msgstr ""
 
 #~ msgid "|image731|"
 #~ msgstr "|image731|"
-

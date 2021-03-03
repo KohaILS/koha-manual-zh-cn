@@ -1,7 +1,7 @@
 # Compendium of fr_CA.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha man18.05\n"
+"Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 06:55-0300\n"
 "PO-Revision-Date: 2021-03-01 16:26+0000\n"
@@ -27,7 +27,10 @@ msgid "Search history"
 msgstr "Recherche"
 
 #: ../../source/searching.rst:13
-msgid "If you have your :ref:`EnableSearchHistory` preference set to keep your search history then you can access this information by clicking on your username in the top right of the staff client and choosing 'Search history'."
+msgid ""
+"If you have your :ref:`EnableSearchHistory` preference set to keep your "
+"search history then you can access this information by clicking on your "
+"username in the top right of the staff client and choosing 'Search history'."
 msgstr ""
 
 #: ../../source/searching.rst:18
@@ -56,8 +59,12 @@ msgid "Advanced Search Prefixes"
 msgstr "Recherche avancée"
 
 #: ../../source/searching.rst:33
-msgid "The following prefixes can be added to search terms in the keyword search box to limit items returned"
-msgstr "Les préfixes suivants peuvent être ajoutés pour rechercher des termes dans la barre de recherche de mot-clé et ainsi limiter les résultats"
+msgid ""
+"The following prefixes can be added to search terms in the keyword search "
+"box to limit items returned"
+msgstr ""
+"Les préfixes suivants peuvent être ajoutés pour rechercher des termes dans "
+"la barre de recherche de mot-clé et ainsi limiter les résultats"
 
 #: ../../source/searching.rst:36
 msgid "ti: title search"
@@ -121,8 +128,16 @@ msgid "Guide to Searching"
 msgstr "Recherche sur les acquisitions"
 
 #: ../../source/searching.rst:69 ../../source/searching.rst:98
-msgid "This brief guide will explain a chart that shows a sample of how a MARC21 database can be configured, as well as a brief introductory searching guide. The indexing fields described in this document relate to the bibliographic data and does not address authority database indexing."
-msgstr "Ce bref guide vous expliquera comment configurer une base de données MARC21 et comment fonctionne la recherche. Les champs MARC cités concernent l'indexation des données bibliographiques et non l'indexation de la base de données d'autorités."
+msgid ""
+"This brief guide will explain a chart that shows a sample of how a MARC21 "
+"database can be configured, as well as a brief introductory searching guide. "
+"The indexing fields described in this document relate to the bibliographic "
+"data and does not address authority database indexing."
+msgstr ""
+"Ce bref guide vous expliquera comment configurer une base de données MARC21 "
+"et comment fonctionne la recherche. Les champs MARC cités concernent "
+"l'indexation des données bibliographiques et non l'indexation de la base de "
+"données d'autorités."
 
 #: ../../source/searching.rst:78
 #, fuzzy
@@ -130,15 +145,35 @@ msgid "Indexing and Searching Description"
 msgstr "Modifier un abonnement existant"
 
 #: ../../source/searching.rst:80
-msgid "Koha's databases are indexed by the Zebra open-source software. The overview to the documentation describes Zebra as:"
-msgstr "Les bases de données Koha sont indexées par le logiciel open-source Zebra. La documentation décrit Zebra comme:"
+msgid ""
+"Koha's databases are indexed by the Zebra open-source software. The overview "
+"to the documentation describes Zebra as:"
+msgstr ""
+"Les bases de données Koha sont indexées par le logiciel open-source Zebra. "
+"La documentation décrit Zebra comme:"
 
 #: ../../source/searching.rst:83
-msgid "\"...Zebra is a high-performance, general-purpose structured text indexing and retrieval engine. It reads records in a variety of input formats (eg. email, XML, MARC) and provides access to them through a powerful combination of Boolean search expressions and relevance-ranked free-text queries."
-msgstr "\"...Zebra est un moteur d'indexation et de récupération de texte structuré très performant et universel . Il lit les notices dans une variété de formats d'entrée (par ex. e-mail, XML, MARC) et leur fournit l'accès par une combinaison puissante d'expressions de recherche Booléennes et des requêtes de texte libre, et évalue la pertinence des occurrences\"."
+msgid ""
+"\"...Zebra is a high-performance, general-purpose structured text indexing "
+"and retrieval engine. It reads records in a variety of input formats (eg. "
+"email, XML, MARC) and provides access to them through a powerful combination "
+"of Boolean search expressions and relevance-ranked free-text queries."
+msgstr ""
+"\"...Zebra est un moteur d'indexation et de récupération de texte structuré "
+"très performant et universel . Il lit les notices dans une variété de "
+"formats d'entrée (par ex. e-mail, XML, MARC) et leur fournit l'accès par une "
+"combinaison puissante d'expressions de recherche Booléennes et des requêtes "
+"de texte libre, et évalue la pertinence des occurrences\"."
 
 #: ../../source/searching.rst:89
-msgid "Zebra supports large databases (tens of millions of records, tens of gigabytes of data). It allows safe, incremental database updates on live systems. Because Zebra supports the industry-standard information retrieval protocol, Z39.50, you can search Zebra databases using an enormous variety of programs and toolkits, both commercial and free, which understands this protocol...\" Zebra - User's Guide and Reference, p. 1, https://software.indexdata.com/zebra/doc/idzebra.pdf"
+msgid ""
+"Zebra supports large databases (tens of millions of records, tens of "
+"gigabytes of data). It allows safe, incremental database updates on live "
+"systems. Because Zebra supports the industry-standard information retrieval "
+"protocol, Z39.50, you can search Zebra databases using an enormous variety "
+"of programs and toolkits, both commercial and free, which understands this "
+"protocol...\" Zebra - User's Guide and Reference, p. 1, https://software."
+"indexdata.com/zebra/doc/idzebra.pdf"
 msgstr ""
 
 #: ../../source/searching.rst:104 ../../source/searching.rst:341
@@ -149,8 +184,12 @@ msgid "**Note**"
 msgstr "**Note**"
 
 #: ../../source/searching.rst:106
-msgid "The indexing described in this document is the set used by SouthEastern University. Your local indexing may vary."
-msgstr "L'indexation décrite ici est définie et utilisée par l'Université du Sud-Est des Etats-Unis. Votre indexation peut varier."
+msgid ""
+"The indexing described in this document is the set used by SouthEastern "
+"University. Your local indexing may vary."
+msgstr ""
+"L'indexation décrite ici est définie et utilisée par l'Université du Sud-Est "
+"des Etats-Unis. Votre indexation peut varier."
 
 #: ../../source/searching.rst:112
 #, fuzzy
@@ -162,48 +201,157 @@ msgid "There are three configuration files that Koha uses while indexing."
 msgstr "Koha utilise trois fichiers de configuration durant l'indexation."
 
 #: ../../source/searching.rst:116
-msgid "The first configuration file (etc/zebradb/biblios/etc/bib1.att) contains the Z39.50 bib-1 attribute list, plus the Koha local use attributes for Biblio Indexes, Items Index, and Fixed Fields and other special indexes. The Z39.50 Bib-1 profile is made up of several different types of attributes: Use, Relation, Position, Structure, Truncation, and Completeness. The bib-1 'Use' attribute is represented on the chart; the other attributes are used primarily when doing searches. While there are over 150+ use attributes that could be used to define your indexing set, it's unlikely that you will choose to use them all. The attributes you elect to use are those that become the indexing rules for your database. The other five attribute sets define the various ways that a search can be further defined, and will not specifically be addressed in this document. For a complete list of the standard Bib-1 attributes, go to http://www.loc.gov/z3950/agency/defns/bib1.html."
+msgid ""
+"The first configuration file (etc/zebradb/biblios/etc/bib1.att) contains the "
+"Z39.50 bib-1 attribute list, plus the Koha local use attributes for Biblio "
+"Indexes, Items Index, and Fixed Fields and other special indexes. The Z39.50 "
+"Bib-1 profile is made up of several different types of attributes: Use, "
+"Relation, Position, Structure, Truncation, and Completeness. The bib-1 'Use' "
+"attribute is represented on the chart; the other attributes are used "
+"primarily when doing searches. While there are over 150+ use attributes that "
+"could be used to define your indexing set, it's unlikely that you will "
+"choose to use them all. The attributes you elect to use are those that "
+"become the indexing rules for your database. The other five attribute sets "
+"define the various ways that a search can be further defined, and will not "
+"specifically be addressed in this document. For a complete list of the "
+"standard Bib-1 attributes, go to http://www.loc.gov/z3950/agency/defns/bib1."
+"html."
 msgstr ""
 
 #: ../../source/searching.rst:131
-msgid "The second file is etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/record.abs if you use grs1 indexing [the default until 3.16] or etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/biblio-koha-indexdefs.xml if you use dom indexing [the default from 3.18]. Either files contains the abstract syntax which maps the MARC21 tags to the set of Use Attributes you choose to use. To be more precise the xml file to be activate needs to be transform into biblio-zebra-indexdefs.xsl, read the head of biblio-zebra-indexdefs.xsl to know more about this topic. The rules established in this file provides a passable Bath level 0 and 1 service, which includes author, title, subject, keyword and exact services such as standard identifiers (LCCN, ISBN, ISSN, etc.)"
+msgid ""
+"The second file is etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/record."
+"abs if you use grs1 indexing [the default until 3.16] or etc/zebradb/marc"
+"\\_defs/[marc21\\|unimarc]/biblios/biblio-koha-indexdefs.xml if you use dom "
+"indexing [the default from 3.18]. Either files contains the abstract syntax "
+"which maps the MARC21 tags to the set of Use Attributes you choose to use. "
+"To be more precise the xml file to be activate needs to be transform into "
+"biblio-zebra-indexdefs.xsl, read the head of biblio-zebra-indexdefs.xsl to "
+"know more about this topic. The rules established in this file provides a "
+"passable Bath level 0 and 1 service, which includes author, title, subject, "
+"keyword and exact services such as standard identifiers (LCCN, ISBN, ISSN, "
+"etc.)"
 msgstr ""
 
 #: ../../source/searching.rst:144
-msgid "The third file (etc/zebradb/ccl.properties) is the Common Command Language (CCL) field mappings. This file combines the bib-1 attribute set file and the abstract file and adds the qualifiers, usually known as index names. The qualifiers, or indexes, for this database are: pn, cpn, cfn, ti, se, ut, nb, ns, sn, lcn, callnum, su, su-to, su-geo, su-ut, yr,pubdate, acqdate, ln, pl, ab, nt, rtype, mc-rtype, mus, au, su-na, kw, pb, ctype, and an."
-msgstr "Le troisième fichier (etc/zebradb/ccl.properties) est tout ce qui concerne les critères de champs du Common Command Language (CCL). Ce fichier combine le dossier des attributs bib-1, le résumé du dossier et ajoute des classificateurs,généralement connus sous le nom d'indexes. Les classificateurs ou indexes, pour cette base de données, sont les suivants: pn, cpn, cfn, ti, se, ut, nb, ns, sn, lcn, callnum, su, su-to, su-geo, su-ut, yr,pubdate, acqdate, ln, pl, ab, nt, rtype, mc-rtype, mus, au, su-na, kw, pb, ctype, and an."
+msgid ""
+"The third file (etc/zebradb/ccl.properties) is the Common Command Language "
+"(CCL) field mappings. This file combines the bib-1 attribute set file and "
+"the abstract file and adds the qualifiers, usually known as index names. The "
+"qualifiers, or indexes, for this database are: pn, cpn, cfn, ti, se, ut, nb, "
+"ns, sn, lcn, callnum, su, su-to, su-geo, su-ut, yr,pubdate, acqdate, ln, pl, "
+"ab, nt, rtype, mc-rtype, mus, au, su-na, kw, pb, ctype, and an."
+msgstr ""
+"Le troisième fichier (etc/zebradb/ccl.properties) est tout ce qui concerne "
+"les critères de champs du Common Command Language (CCL). Ce fichier combine "
+"le dossier des attributs bib-1, le résumé du dossier et ajoute des "
+"classificateurs,généralement connus sous le nom d'indexes. Les "
+"classificateurs ou indexes, pour cette base de données, sont les suivants: "
+"pn, cpn, cfn, ti, se, ut, nb, ns, sn, lcn, callnum, su, su-to, su-geo, su-"
+"ut, yr,pubdate, acqdate, ln, pl, ab, nt, rtype, mc-rtype, mus, au, su-na, "
+"kw, pb, ctype, and an."
 
 #: ../../source/searching.rst:152
-msgid "The :ref:`Koha Indexing Chart <koha-search-indexes-label>` summarizes the contents of all three of these files in a more readable format. The first two columns labeled Z39.50 attribute and Z39.50 name matches the Z39.50 bib-1 attributes file. The third column labeled MARC tags indexed is where you find which MARC tags are mapped to an attribute. The fourth column labeled Qualifiers identifies the search abbreviations used in the internal CCL query. The following description provides a definition for the word 'qualifiers'."
+msgid ""
+"The :ref:`Koha Indexing Chart <koha-search-indexes-label>` summarizes the "
+"contents of all three of these files in a more readable format. The first "
+"two columns labeled Z39.50 attribute and Z39.50 name matches the Z39.50 "
+"bib-1 attributes file. The third column labeled MARC tags indexed is where "
+"you find which MARC tags are mapped to an attribute. The fourth column "
+"labeled Qualifiers identifies the search abbreviations used in the internal "
+"CCL query. The following description provides a definition for the word "
+"'qualifiers'."
 msgstr ""
 
 #: ../../source/searching.rst:161
-msgid "*Qualifiers are used to direct the search to a particular searchable index, such as title (ti) and author indexes (au). The CCL standard itself doesn't specify a particular set of qualifiers, but it does suggest a few shorthand notations. You can customize the CCL parser to support a particular set of qualifiers to reflect the current target profile. Traditionally, a qualifier would map to a particular use-attribute within the BIB-1attribute set. It is also possible to set other attributes, such as the structure attribute.*"
+msgid ""
+"*Qualifiers are used to direct the search to a particular searchable index, "
+"such as title (ti) and author indexes (au). The CCL standard itself doesn't "
+"specify a particular set of qualifiers, but it does suggest a few shorthand "
+"notations. You can customize the CCL parser to support a particular set of "
+"qualifiers to reflect the current target profile. Traditionally, a qualifier "
+"would map to a particular use-attribute within the BIB-1attribute set. It is "
+"also possible to set other attributes, such as the structure attribute.*"
 msgstr ""
 
 #: ../../source/searching.rst:170
-msgid "In the MARC tags indexed column, there are some conventions used that have specific meanings. They are:"
-msgstr "Dans la colonne des 'Etiquettes MARC indexées', des conventions d'écriture sont utilisées et ont un sens précis. Ces conventions sont:"
+msgid ""
+"In the MARC tags indexed column, there are some conventions used that have "
+"specific meanings. They are:"
+msgstr ""
+"Dans la colonne des 'Etiquettes MARC indexées', des conventions d'écriture "
+"sont utilisées et ont un sens précis. Ces conventions sont:"
 
 #: ../../source/searching.rst:173
-msgid "A three digit tag (100) means that all subfields in the tag can be used in a search query. So, if you enter a search for 'Jackson' as an author, you will retrieve records where Jackson could be the last name or the first name."
-msgstr "Une étiquette de 3 chiffres (par exemple 100) signifie que tous les sous-champs de l'étiquette peuvent être utilisés dans une requête de recherche. Ainsi, si vous recherchez par exemple 'Jackson' comme auteur, vous récupérerez les notices où Jackson apparaît comme le nom ou le prénom de l'auteur."
+msgid ""
+"A three digit tag (100) means that all subfields in the tag can be used in a "
+"search query. So, if you enter a search for 'Jackson' as an author, you will "
+"retrieve records where Jackson could be the last name or the first name."
+msgstr ""
+"Une étiquette de 3 chiffres (par exemple 100) signifie que tous les sous-"
+"champs de l'étiquette peuvent être utilisés dans une requête de recherche. "
+"Ainsi, si vous recherchez par exemple 'Jackson' comme auteur, vous "
+"récupérerez les notices où Jackson apparaît comme le nom ou le prénom de "
+"l'auteur."
 
 #: ../../source/searching.rst:178
-msgid "A three digit tag that has a '$' followed by a letter (600$a) means that a search query will only search the 'a' subfield."
-msgstr "Une étiquette de 3 chiffres qui possède un '$' suivi d'une lettre (par exemple 600$a) signifie que la requête de recherche ne portera que sur le sous-champ 'a' de cette étiquette."
+msgid ""
+"A three digit tag that has a '$' followed by a letter (600$a) means that a "
+"search query will only search the 'a' subfield."
+msgstr ""
+"Une étiquette de 3 chiffres qui possède un '$' suivi d'une lettre (par "
+"exemple 600$a) signifie que la requête de recherche ne portera que sur le "
+"sous-champ 'a' de cette étiquette."
 
 #: ../../source/searching.rst:181
-msgid "A three digit tag that is followed by a ':' and a letter (240:w) means that a search query can be further qualified. The letter following the ':' identifies how to conduct the search. The most common values you'll see are 'w' (word), 'p' (phrase), 's' (sort), and 'n' (numeric)."
-msgstr "Une étiquette de 3 chiffres suivie d'un ':' et d'une lettre (par exemple 240:w) signifie que la requête de recherche peut être encore plus précise et qualifiée. La lettre qui suit les ':' identifie comment la recherche doit être réalisée. Les valeurs les plus communes sont :'w' (mot), 'p' (phrase), 's' (type), and 'n' (numerique)."
+msgid ""
+"A three digit tag that is followed by a ':' and a letter (240:w) means that "
+"a search query can be further qualified. The letter following the ':' "
+"identifies how to conduct the search. The most common values you'll see are "
+"'w' (word), 'p' (phrase), 's' (sort), and 'n' (numeric)."
+msgstr ""
+"Une étiquette de 3 chiffres suivie d'un ':' et d'une lettre (par exemple 240:"
+"w) signifie que la requête de recherche peut être encore plus précise et "
+"qualifiée. La lettre qui suit les ':' identifie comment la recherche doit "
+"être réalisée. Les valeurs les plus communes sont :'w' (mot), 'p' (phrase), "
+"'s' (type), and 'n' (numerique)."
 
 #: ../../source/searching.rst:187
-msgid "The contents of the MARC tags, subfields, and/or fixed field elements that are listed in this chart are all indexed. You'll see that every attribute line is not mapped to a specific qualifier (index)-LC card number, line 9 is one example. However, every indexed word (a string of characters preceded and succeeded by a space) can be searched using a keyword (kw) search. So, although an LC card number specific index doesn't exist, you can still search by the LCCN since tag 010 is assigned to the LC-card-number attribute. To verify this, enter 72180055 in the persistent search box. You should retrieve The gods themselves, by Isaac Asimov."
-msgstr "Le contenu des étiquettes, sous-champs MARC, et/ou des éléments fixes des champs listés dans ce tableau sont tous indexés. Vous verrez que chaque ligne d'attribut ne correspond pas toujours à un qualificatif spécifique (index). LC numéro de carte, ligne 9 est un exemple. Cependant, tous les mots indexés (une chaîne de caractères précédée ou suivie d'un espace) peuvent être recherchés en utilisant le mot clé 'kw'. Ainsi, bien que l'index spécifique 'LC numéro de carte' n'existe pas, vous pouvez toujours rechercher par le LCNN puisque l'étiquette 010 est assignée à l'attribut LC-numéro de carte. Pour le vérifier, vous pouvez entrer 72180055 dans le champ de recherche simple. Vous devriez retrouver 'The gods themselves' d'Isaac Asimov."
+msgid ""
+"The contents of the MARC tags, subfields, and/or fixed field elements that "
+"are listed in this chart are all indexed. You'll see that every attribute "
+"line is not mapped to a specific qualifier (index)-LC card number, line 9 is "
+"one example. However, every indexed word (a string of characters preceded "
+"and succeeded by a space) can be searched using a keyword (kw) search. So, "
+"although an LC card number specific index doesn't exist, you can still "
+"search by the LCCN since tag 010 is assigned to the LC-card-number "
+"attribute. To verify this, enter 72180055 in the persistent search box. You "
+"should retrieve The gods themselves, by Isaac Asimov."
+msgstr ""
+"Le contenu des étiquettes, sous-champs MARC, et/ou des éléments fixes des "
+"champs listés dans ce tableau sont tous indexés. Vous verrez que chaque "
+"ligne d'attribut ne correspond pas toujours à un qualificatif spécifique "
+"(index). LC numéro de carte, ligne 9 est un exemple. Cependant, tous les "
+"mots indexés (une chaîne de caractères précédée ou suivie d'un espace) "
+"peuvent être recherchés en utilisant le mot clé 'kw'. Ainsi, bien que "
+"l'index spécifique 'LC numéro de carte' n'existe pas, vous pouvez toujours "
+"rechercher par le LCNN puisque l'étiquette 010 est assignée à l'attribut LC-"
+"numéro de carte. Pour le vérifier, vous pouvez entrer 72180055 dans le champ "
+"de recherche simple. Vous devriez retrouver 'The gods themselves' d'Isaac "
+"Asimov."
 
 #: ../../source/searching.rst:198
-msgid "Examples of fixed field elements indexing can be seen on the chart between Attribute 8822 and Attribute 8703. These attributes are most commonly used for limiting. The fixed field attributes currently represent the BK codes. Other format codes, if needed, could be defined."
-msgstr "Exemples d'éléments de champs fixes indexés qui peuvent être vus dans le graphique entre l'Attribut 8822 et l'Attribut 8703. Ces attributs sont utilisées habituellement comme limitation. Les attributs des champs fixes représentent actuellement les codes BK. D'autres codes de format, s'ils sont nécessaires, peuvent être définis."
+msgid ""
+"Examples of fixed field elements indexing can be seen on the chart between "
+"Attribute 8822 and Attribute 8703. These attributes are most commonly used "
+"for limiting. The fixed field attributes currently represent the BK codes. "
+"Other format codes, if needed, could be defined."
+msgstr ""
+"Exemples d'éléments de champs fixes indexés qui peuvent être vus dans le "
+"graphique entre l'Attribut 8822 et l'Attribut 8703. Ces attributs sont "
+"utilisées habituellement comme limitation. Les attributs des champs fixes "
+"représentent actuellement les codes BK. D'autres codes de format, s'ils sont "
+"nécessaires, peuvent être définis."
 
 #: ../../source/searching.rst:206
 #, fuzzy
@@ -211,24 +359,57 @@ msgid "Basic Searching"
 msgstr "Recherche"
 
 #: ../../source/searching.rst:208
-msgid "The search box that library staff and library patrons will see most often is the persistent search box at the top of the page. Koha interprets the searches as keyword searches."
-msgstr "La barre de recherche que les bibliothécaires et les adhérents verront le plus souvent est la barre de recherche répétée située en haut de la page. Koha interprète les recherches à partir de ce champ comme une recherche par mot-clés."
+msgid ""
+"The search box that library staff and library patrons will see most often is "
+"the persistent search box at the top of the page. Koha interprets the "
+"searches as keyword searches."
+msgstr ""
+"La barre de recherche que les bibliothécaires et les adhérents verront le "
+"plus souvent est la barre de recherche répétée située en haut de la page. "
+"Koha interprète les recherches à partir de ce champ comme une recherche par "
+"mot-clés."
 
 #: ../../source/searching.rst:212
 msgid "|image1037|"
 msgstr "|image1037|"
 
 #: ../../source/searching.rst:214
-msgid "To start a search, you enter a word or multiple words in the search box. When a single word is entered, a keyword search is performed. You can check this out by typing one word into the form and note the number of results located. Then, repeat the search with a minor change. In front of the search word, type 'kw=' followed by the same search term. The results will be identical."
-msgstr "Pour faire une recherche, saisissez un ou plusieurs mots dans la barre de recherche. Quand un seul mot est entré, une recherche par mot-clés est lancée. Vous pouvez le constater en lançant une recherche avec un seul terme et noter le nombre de résultats trouvés. Répétez ensuite la recherche mais cette fois avec un nouvel élément. Devant le terme de recherche, ajoutez 'kw=' suivi par le terme de recherche. Les résultats seront identiques."
+msgid ""
+"To start a search, you enter a word or multiple words in the search box. "
+"When a single word is entered, a keyword search is performed. You can check "
+"this out by typing one word into the form and note the number of results "
+"located. Then, repeat the search with a minor change. In front of the search "
+"word, type 'kw=' followed by the same search term. The results will be "
+"identical."
+msgstr ""
+"Pour faire une recherche, saisissez un ou plusieurs mots dans la barre de "
+"recherche. Quand un seul mot est entré, une recherche par mot-clés est "
+"lancée. Vous pouvez le constater en lançant une recherche avec un seul terme "
+"et noter le nombre de résultats trouvés. Répétez ensuite la recherche mais "
+"cette fois avec un nouvel élément. Devant le terme de recherche, ajoutez "
+"'kw=' suivi par le terme de recherche. Les résultats seront identiques."
 
 #: ../../source/searching.rst:221
-msgid "When you have more than one word in the search box, Koha will still do a keyword search, but a bit differently. Each word will be searched on its own, then the Boolean connector 'and' will narrow your search to those items with all words contained in matching records."
-msgstr "Lorsque vous saisissez plus d'un terme dans la barre de recherche, Koha effectue toujours une recherche par mot-clés, mais celle ci est légèrement différente. Chaque terme est recherché indépendamment les uns des autres, ensuite, l'opérateur booléen 'and' limite la recherche aux notices qui contiennent tous les termes recherchés."
+msgid ""
+"When you have more than one word in the search box, Koha will still do a "
+"keyword search, but a bit differently. Each word will be searched on its "
+"own, then the Boolean connector 'and' will narrow your search to those items "
+"with all words contained in matching records."
+msgstr ""
+"Lorsque vous saisissez plus d'un terme dans la barre de recherche, Koha "
+"effectue toujours une recherche par mot-clés, mais celle ci est légèrement "
+"différente. Chaque terme est recherché indépendamment les uns des autres, "
+"ensuite, l'opérateur booléen 'and' limite la recherche aux notices qui "
+"contiennent tous les termes recherchés."
 
 #: ../../source/searching.rst:226
-msgid "Suppose you want to find material about how libraries are using mashups. You'll select the major words and enter them into the persistent search box."
-msgstr "Supposons que vous souhaitez trouver de la documentation sur la façon dont les bibliothèques utilisent des 'mashups'. Vous sélectionnerez les termes importants et les saisirez dans la barre de recherche simple."
+msgid ""
+"Suppose you want to find material about how libraries are using mashups. "
+"You'll select the major words and enter them into the persistent search box."
+msgstr ""
+"Supposons que vous souhaitez trouver de la documentation sur la façon dont "
+"les bibliothèques utilisent des 'mashups'. Vous sélectionnerez les termes "
+"importants et les saisirez dans la barre de recherche simple."
 
 #: ../../source/searching.rst:230
 msgid "|image1038|"
@@ -243,16 +424,26 @@ msgid "|image1039|"
 msgstr "|image1039|"
 
 #: ../../source/searching.rst:236
-msgid "The order of the words does not affect the retrieval results, so you could also enter the search as \"mashups library\". The response to this search is results"
-msgstr "L'ordre des mots n'affecte en pas les résultats trouvés, vous pouvez donc taper \"mashups library\". La réponse à cette recherche sont bien sûr les résultats"
+msgid ""
+"The order of the words does not affect the retrieval results, so you could "
+"also enter the search as \"mashups library\". The response to this search is "
+"results"
+msgstr ""
+"L'ordre des mots n'affecte en pas les résultats trouvés, vous pouvez donc "
+"taper \"mashups library\". La réponse à cette recherche sont bien sûr les "
+"résultats"
 
 #: ../../source/searching.rst:240
 msgid "|image1040|"
 msgstr "|image1040|"
 
 #: ../../source/searching.rst:242
-msgid "Too many words in the search box will find very few matches, as the following example illustrates:"
-msgstr "Trop de mots saisis dans la barre de recherche amène peu de résultats comme l'illustre l'exemple suivant:"
+msgid ""
+"Too many words in the search box will find very few matches, as the "
+"following example illustrates:"
+msgstr ""
+"Trop de mots saisis dans la barre de recherche amène peu de résultats comme "
+"l'illustre l'exemple suivant:"
 
 #: ../../source/searching.rst:245
 msgid "|image1041|"
@@ -264,19 +455,41 @@ msgid "Advanced Searching"
 msgstr "Recherche avancée"
 
 #: ../../source/searching.rst:252
-msgid "When you can't find the most appropriate material with a general search, you can move to the Advanced Search page by clicking on the Search option on the persistent toolbar."
-msgstr "Lorsque vous ne trouvez pas de résultats qui vous conviennent avec la recherche simple, vous pouvez utiliser le formulaire de recherche avancée en cliquant sur le lien 'Recherche avancée' sous la barre de recherche simple."
+msgid ""
+"When you can't find the most appropriate material with a general search, you "
+"can move to the Advanced Search page by clicking on the Search option on the "
+"persistent toolbar."
+msgstr ""
+"Lorsque vous ne trouvez pas de résultats qui vous conviennent avec la "
+"recherche simple, vous pouvez utiliser le formulaire de recherche avancée en "
+"cliquant sur le lien 'Recherche avancée' sous la barre de recherche simple."
 
 #: ../../source/searching.rst:256
 msgid "|image1042|"
 msgstr "|image1042|"
 
 #: ../../source/searching.rst:258
-msgid "The Advanced Search page offers many ways to limit the results of your search. You can search using the Boolean operators AND, OR, and NOT; limit by item type; limit by year and language; limit by subtypes audience, content, format, or additional content types; by location and by availability."
-msgstr "Le formulaire de recherche avancée propose plusieurs façons de limiter votre recherche. Vous pouvez utiliser les opérateurs booléens ET, OU, SAUF; limiter par type de document, limiter par année et langue, limiter par les données codées : audience, contenu, format ou type de contenu; limiter par localisation et disponibilité."
+msgid ""
+"The Advanced Search page offers many ways to limit the results of your "
+"search. You can search using the Boolean operators AND, OR, and NOT; limit "
+"by item type; limit by year and language; limit by subtypes audience, "
+"content, format, or additional content types; by location and by "
+"availability."
+msgstr ""
+"Le formulaire de recherche avancée propose plusieurs façons de limiter votre "
+"recherche. Vous pouvez utiliser les opérateurs booléens ET, OU, SAUF; "
+"limiter par type de document, limiter par année et langue, limiter par les "
+"données codées : audience, contenu, format ou type de contenu; limiter par "
+"localisation et disponibilité."
 
 #: ../../source/searching.rst:264
-msgid "The first limiting section on the Advanced Search page provides a quick and simple way to use the Boolean operators in your search. Note that this display depends on a system preference setting. This option can be found on the Administration > System Preferences > Searching page. The option called :ref:`expandedSearchOption` must be set to 'show' to see the following display."
+msgid ""
+"The first limiting section on the Advanced Search page provides a quick and "
+"simple way to use the Boolean operators in your search. Note that this "
+"display depends on a system preference setting. This option can be found on "
+"the Administration > System Preferences > Searching page. The option called :"
+"ref:`expandedSearchOption` must be set to 'show' to see the following "
+"display."
 msgstr ""
 
 #: ../../source/searching.rst:271
@@ -284,8 +497,24 @@ msgid "|image1043|"
 msgstr "|image1043|"
 
 #: ../../source/searching.rst:273
-msgid "In this section you can choose among the many indexes by clicking on the arrow in the first box. The blank box that follows is where you enter your first search term or terms. On the second line, you can choose the Boolean operator you want to use in your search. The options are 'and', 'or', and 'not'. Then, you would again choose the index to search, followed by the second term or terms. If you have more concepts you want to include in your search, you can click the [+] to add another line for your search."
-msgstr "Dans cette section, vous pouvez choisir parmi plusieurs indexes en cliquant sur les flèches dans le premier menu déroulant. Le champ vierge qui suit ce menu correspond au champ dans lequel vous allez entrer votre recherche. Sur la ligne suivante, vous pouvez choisir l'opérateur Booléen que vous souhaitez utiliser dans votre recherche. Les options sont 'et', 'ou', 'sauf'. Ensuite, vous pouvez de nouveau choisir un index, suivi d'un ou plusieurs termes de recherche. Si vous avez plusieurs concepts à saisir dans votre recherche, vous pouvez cliquer sur les [+] pour ajouter une nouvelle ligne de recherche."
+msgid ""
+"In this section you can choose among the many indexes by clicking on the "
+"arrow in the first box. The blank box that follows is where you enter your "
+"first search term or terms. On the second line, you can choose the Boolean "
+"operator you want to use in your search. The options are 'and', 'or', and "
+"'not'. Then, you would again choose the index to search, followed by the "
+"second term or terms. If you have more concepts you want to include in your "
+"search, you can click the [+] to add another line for your search."
+msgstr ""
+"Dans cette section, vous pouvez choisir parmi plusieurs indexes en cliquant "
+"sur les flèches dans le premier menu déroulant. Le champ vierge qui suit ce "
+"menu correspond au champ dans lequel vous allez entrer votre recherche. Sur "
+"la ligne suivante, vous pouvez choisir l'opérateur Booléen que vous "
+"souhaitez utiliser dans votre recherche. Les options sont 'et', 'ou', "
+"'sauf'. Ensuite, vous pouvez de nouveau choisir un index, suivi d'un ou "
+"plusieurs termes de recherche. Si vous avez plusieurs concepts à saisir dans "
+"votre recherche, vous pouvez cliquer sur les [+] pour ajouter une nouvelle "
+"ligne de recherche."
 
 #: ../../source/searching.rst:282
 msgid "A sample search is shown next, followed by its results:"
@@ -300,11 +529,26 @@ msgid "|image1045|"
 msgstr "|image1045|"
 
 #: ../../source/searching.rst:288
-msgid "When you use the Boolean operators to broaden or narrow a search, remember the action of each operator. The 'and' operator narrows the results you'll retrieve because the search will retrieve the records that include all your search terms. The 'or' operator expands the results because the search will look for occurrences of all of your search terms. The 'not' operator excludes records with the term that follows the operator."
-msgstr "Lorsque vous utilisez les opérateurs Booléens pour élargir ou limiter une recherche, souvenez-vous de la fonction de chaque opérateur. L'opérateur 'et' limite les résultats qu'il récupérera car la recherche visera les notices qui incluent tous les termes de recherche. L'opérateur 'ou' élargira les résultats car la recherche cherchera les occurrences de tous les termes de recherche. L'opérateur 'sauf' exclura les notices comprenant le terme qui suit l'opérateur."
+msgid ""
+"When you use the Boolean operators to broaden or narrow a search, remember "
+"the action of each operator. The 'and' operator narrows the results you'll "
+"retrieve because the search will retrieve the records that include all your "
+"search terms. The 'or' operator expands the results because the search will "
+"look for occurrences of all of your search terms. The 'not' operator "
+"excludes records with the term that follows the operator."
+msgstr ""
+"Lorsque vous utilisez les opérateurs Booléens pour élargir ou limiter une "
+"recherche, souvenez-vous de la fonction de chaque opérateur. L'opérateur "
+"'et' limite les résultats qu'il récupérera car la recherche visera les "
+"notices qui incluent tous les termes de recherche. L'opérateur 'ou' élargira "
+"les résultats car la recherche cherchera les occurrences de tous les termes "
+"de recherche. L'opérateur 'sauf' exclura les notices comprenant le terme qui "
+"suit l'opérateur."
 
 #: ../../source/searching.rst:296
-msgid "Note: If you leave this :ref:`expandedSearchOption` set to 'don't show', this is the display you will see:"
+msgid ""
+"Note: If you leave this :ref:`expandedSearchOption` set to 'don't show', "
+"this is the display you will see:"
 msgstr ""
 
 #: ../../source/searching.rst:299
@@ -312,7 +556,11 @@ msgid "|image1046|"
 msgstr "|image1046|"
 
 #: ../../source/searching.rst:301
-msgid "The Advanced Search page then shows the multiple kinds of limits that can be applied to your search results. Either check a box or select from the drop down menus to narrow your search. You will type the year, year range, or a 'greater than (>)' or 'less than (<)' year."
+msgid ""
+"The Advanced Search page then shows the multiple kinds of limits that can be "
+"applied to your search results. Either check a box or select from the drop "
+"down menus to narrow your search. You will type the year, year range, or a "
+"'greater than (>)' or 'less than (<)' year."
 msgstr ""
 
 #: ../../source/searching.rst:306
@@ -320,15 +568,26 @@ msgid "|image1047|"
 msgstr "|image1047|"
 
 #: ../../source/searching.rst:308
-msgid "Finally, you can choose how the results will be sorted. The pre-defined sort options are in the final area of the Advanced Search screen."
-msgstr "Pour finir, vous pouvez choisir les critères de tri de vos résultats. Les options de tri pré-définies sont situées dans la dernière partie de la page 'Recherche avancée'."
+msgid ""
+"Finally, you can choose how the results will be sorted. The pre-defined sort "
+"options are in the final area of the Advanced Search screen."
+msgstr ""
+"Pour finir, vous pouvez choisir les critères de tri de vos résultats. Les "
+"options de tri pré-définies sont situées dans la dernière partie de la page "
+"'Recherche avancée'."
 
 #: ../../source/searching.rst:311
 msgid "|image1048|"
 msgstr "|image1048|"
 
 #: ../../source/searching.rst:313
-msgid "The default sort is by relevance, although you can choose to sort by author, by title, by call number, by dates, or by popularity (which uses the information on total issues found in the items table). If you would prefer a different default sort, you can set :ref:`defaultSortField <defaultsortfield-and-defaultsortorder-label>` to one of the other choices in Administration > System Preferences > Searching."
+msgid ""
+"The default sort is by relevance, although you can choose to sort by author, "
+"by title, by call number, by dates, or by popularity (which uses the "
+"information on total issues found in the items table). If you would prefer a "
+"different default sort, you can set :ref:`defaultSortField <defaultsortfield-"
+"and-defaultsortorder-label>` to one of the other choices in Administration > "
+"System Preferences > Searching."
 msgstr ""
 
 #: ../../source/searching.rst:323
@@ -336,7 +595,9 @@ msgid "Search results"
 msgstr ""
 
 #: ../../source/searching.rst:325
-msgid "After performing a search the number of results found for your search will appear above the results."
+msgid ""
+"After performing a search the number of results found for your search will "
+"appear above the results."
 msgstr ""
 
 #: ../../source/searching.rst:328
@@ -344,7 +605,9 @@ msgid "|image1329|"
 msgstr "|image1329|"
 
 #: ../../source/searching.rst:330
-msgid "To the left, you will find filters, or facets, to refine your search. Currently available facets include:"
+msgid ""
+"To the left, you will find filters, or facets, to refine your search. "
+"Currently available facets include:"
 msgstr ""
 
 #: ../../source/searching.rst:333
@@ -366,7 +629,9 @@ msgid "Home library, holding library or both"
 msgstr ""
 
 #: ../../source/searching.rst:343
-msgid "This depends on your setting for the :ref:`DisplayLibraryFacets` system preference."
+msgid ""
+"This depends on your setting for the :ref:`DisplayLibraryFacets` system "
+"preference."
 msgstr ""
 
 #: ../../source/searching.rst:345
@@ -396,11 +661,18 @@ msgid "Titles (uniform title headings)"
 msgstr ""
 
 #: ../../source/searching.rst:357
-msgid "When there are more than five facets in a category, a 'Show more' link will appear. You can control the display of the facets using the following systempreferences: :ref:`displayFacetCount`, :ref:`DisplayLibraryFacets`, :ref:`FacetLabelTruncationLength`, :ref:`FacetMaxCount`, :ref:`maxRecordsForFacets`, and :ref:`UNIMARCAuthorsFacetsSeparator`."
+msgid ""
+"When there are more than five facets in a category, a 'Show more' link will "
+"appear. You can control the display of the facets using the following "
+"systempreferences: :ref:`displayFacetCount`, :ref:`DisplayLibraryFacets`, :"
+"ref:`FacetLabelTruncationLength`, :ref:`FacetMaxCount`, :ref:"
+"`maxRecordsForFacets`, and :ref:`UNIMARCAuthorsFacetsSeparator`."
 msgstr ""
 
 #: ../../source/searching.rst:366
-msgid "Along the top, under the number of results, there are buttons to do different actions on selected records."
+msgid ""
+"Along the top, under the number of results, there are buttons to do "
+"different actions on selected records."
 msgstr ""
 
 #: ../../source/searching.rst:369
@@ -412,7 +684,8 @@ msgid "'Clear all': unselects all the records that were selected."
 msgstr ""
 
 #: ../../source/searching.rst:373
-msgid "'Unhighlight': removes the red/yellow highlighting of the search term(s)."
+msgid ""
+"'Unhighlight': removes the red/yellow highlighting of the search term(s)."
 msgstr ""
 
 #: ../../source/searching.rst:375
@@ -420,11 +693,15 @@ msgid "'Add to cart': adds selected record(s) to the :ref:`cart <cart-label>`."
 msgstr ""
 
 #: ../../source/searching.rst:379
-msgid "The :ref:`intranetbookbag` system preference needs to be set to 'Show' in order for that button to appear."
+msgid ""
+"The :ref:`intranetbookbag` system preference needs to be set to 'Show' in "
+"order for that button to appear."
 msgstr ""
 
 #: ../../source/searching.rst:382
-msgid "'Add to list': adds selected record(s) to the chosen :ref:`list <lists-label>`."
+msgid ""
+"'Add to list': adds selected record(s) to the chosen :ref:`list <lists-"
+"label>`."
 msgstr ""
 
 #: ../../source/searching.rst:384
@@ -432,15 +709,22 @@ msgid "'Place hold': places a hold on the selected record(s)."
 msgstr ""
 
 #: ../../source/searching.rst:386
-msgid "'Browse selected records': goes to the detailed record page of the selected record(s). Clicking on 'Next' or 'Previous' from the detailed record will bring you to the next selected record."
+msgid ""
+"'Browse selected records': goes to the detailed record page of the selected "
+"record(s). Clicking on 'Next' or 'Previous' from the detailed record will "
+"bring you to the next selected record."
 msgstr ""
 
 #: ../../source/searching.rst:392
-msgid "The :ref:`BrowseResultSelection` system preference needs to be enabled in order for that button to appear."
+msgid ""
+"The :ref:`BrowseResultSelection` system preference needs to be enabled in "
+"order for that button to appear."
 msgstr ""
 
 #: ../../source/searching.rst:395
-msgid "'Z39.50/SRU search': opens the Z39.50/SRU search popup window with the fields pre-filled with the search terms."
+msgid ""
+"'Z39.50/SRU search': opens the Z39.50/SRU search popup window with the "
+"fields pre-filled with the search terms."
 msgstr ""
 
 #: ../../source/searching.rst:398
@@ -448,7 +732,10 @@ msgid "'Sort': lets you choose a sorting field and order."
 msgstr ""
 
 #: ../../source/searching.rst:402
-msgid "By default your search results will be sorted based on your :ref:`defaultSortField and defaultSortOrder <defaultsortfield-and-defaultsortorder-label>` system preferences values."
+msgid ""
+"By default your search results will be sorted based on your :ref:"
+"`defaultSortField and defaultSortOrder <defaultsortfield-and-"
+"defaultsortorder-label>` system preferences values."
 msgstr ""
 
 #: ../../source/searching.rst:404
@@ -456,7 +743,12 @@ msgid "|image1330|"
 msgstr "|image1330|"
 
 #: ../../source/searching.rst:406
-msgid "Under each title on your results list a series of values from your leader will appear. It is important to note that this has nothing to do with the item types or collection codes you have applied to your records, this data is all pulled from your fixed fields. This can be turned on or off with the :ref:`DisplayIconsXSLT` system preference."
+msgid ""
+"Under each title on your results list a series of values from your leader "
+"will appear. It is important to note that this has nothing to do with the "
+"item types or collection codes you have applied to your records, this data "
+"is all pulled from your fixed fields. This can be turned on or off with the :"
+"ref:`DisplayIconsXSLT` system preference."
 msgstr ""
 
 #: ../../source/searching.rst:412
@@ -464,11 +756,15 @@ msgid "At the bottom, under each record, there are more action links:"
 msgstr ""
 
 #: ../../source/searching.rst:414
-msgid "'Holds': brings you to that record's :ref:`'Holds' tab <placing-holds-in-staff-client-label>`."
+msgid ""
+"'Holds': brings you to that record's :ref:`'Holds' tab <placing-holds-in-"
+"staff-client-label>`."
 msgstr ""
 
 #: ../../source/searching.rst:416
-msgid "'Request article': brings you to that record's :ref:`'Article requests' tab <article-requests-label>`."
+msgid ""
+"'Request article': brings you to that record's :ref:`'Article requests' tab "
+"<article-requests-label>`."
 msgstr ""
 
 #: ../../source/searching.rst:418
@@ -484,15 +780,20 @@ msgid "'OPAC view': brings you to that record's detail page in the OPAC."
 msgstr ""
 
 #: ../../source/searching.rst:426
-msgid "'OPAC view' needs the :ref:`OPACBaseURL` system preference to be properly set."
+msgid ""
+"'OPAC view' needs the :ref:`OPACBaseURL` system preference to be properly "
+"set."
 msgstr ""
 
 #: ../../source/searching.rst:429
-msgid "To the right of each record are the holdings information and availability."
+msgid ""
+"To the right of each record are the holdings information and availability."
 msgstr ""
 
 #: ../../source/searching.rst:433
-msgid "Even if you filtered on one library location all locations that hold the item will appear on the search results."
+msgid ""
+"Even if you filtered on one library location all locations that hold the "
+"item will appear on the search results."
 msgstr ""
 
 #: ../../source/searching.rst:436
@@ -500,7 +801,11 @@ msgid "**Important**"
 msgstr ""
 
 #: ../../source/searching.rst:438
-msgid "An item’s hold status doesn’t not affect whether or not the item is 'available' until the item is in 'waiting' status. Items with on-shelf holds will show as available until a librarian has pulled them from the shelf and checked the item in make it show 'waiting'."
+msgid ""
+"An item’s hold status doesn’t not affect whether or not the item is "
+"'available' until the item is in 'waiting' status. Items with on-shelf holds "
+"will show as available until a librarian has pulled them from the shelf and "
+"checked the item in make it show 'waiting'."
 msgstr ""
 
 #: ../../source/searching.rst:446
@@ -509,8 +814,12 @@ msgid "Item search"
 msgstr "Recherche exemplaire"
 
 #: ../../source/searching.rst:448
-msgid "If you are looking for specific items you can use the item search engine in the staff client to find them."
-msgstr "Si vous recherchez des informations d'exemplaire, vous pouvez utiliser la recherche exemplaire dans l'intranet."
+msgid ""
+"If you are looking for specific items you can use the item search engine in "
+"the staff client to find them."
+msgstr ""
+"Si vous recherchez des informations d'exemplaire, vous pouvez utiliser la "
+"recherche exemplaire dans l'intranet."
 
 #: ../../source/searching.rst:451
 #, fuzzy
@@ -522,7 +831,9 @@ msgid "|image1447|"
 msgstr "|image1447|"
 
 #: ../../source/searching.rst:455
-msgid "You can also access the item search from the link 'Go to item search' at the top of the advanced search page in the staff client."
+msgid ""
+"You can also access the item search from the link 'Go to item search' at the "
+"top of the advanced search page in the staff client."
 msgstr ""
 
 #: ../../source/searching.rst:458
@@ -532,22 +843,31 @@ msgstr "|image1313|"
 #: ../../source/searching.rst:460
 #, fuzzy
 msgid "Either of those links will open up a item specific search engine."
-msgstr "Cliquer sur ce lien vous aménera sur un moteur de recherche spécifique aux exemplaires."
+msgstr ""
+"Cliquer sur ce lien vous aménera sur un moteur de recherche spécifique aux "
+"exemplaires."
 
 #: ../../source/searching.rst:462
 msgid "|image1314|"
 msgstr "|image1314|"
 
 #: ../../source/searching.rst:464
-msgid "Using the search form that is presented you can find a list of specific items that can be output to the screen, to a CSV file or to a barcode file."
+msgid ""
+"Using the search form that is presented you can find a list of specific "
+"items that can be output to the screen, to a CSV file or to a barcode file."
 msgstr ""
 
 #: ../../source/searching.rst:467
-msgid "You can add more search fields to this form by going to the :ref:`item search fields <item-search-fields-label>` section in the Administration module."
+msgid ""
+"You can add more search fields to this form by going to the :ref:`item "
+"search fields <item-search-fields-label>` section in the Administration "
+"module."
 msgstr ""
 
 #: ../../source/searching.rst:470
-msgid "If your results are printed to the screen you will have the option to narrow your search further using filters at the top."
+msgid ""
+"If your results are printed to the screen you will have the option to narrow "
+"your search further using filters at the top."
 msgstr ""
 
 #: ../../source/searching.rst:473
@@ -559,20 +879,57 @@ msgid "Common Command Language Searching"
 msgstr ""
 
 #: ../../source/searching.rst:480
-msgid "Koha uses the Common Command Language (CCL) (ISO 8777) as its internal search protocol. Searches initiated in the graphical interface use this protocol as well, although the searcher doesn't know which indexes, operators and limiters are available and being used to conduct their search. The searcher can use the Advanced Search when more precise results set are desired and where the search indexes are somewhat known. However, some library users and many library staff prefer using a command based structure. This part of the document will present and explain the use of the Koha command based structure. The indexes, operators, and limiters used are identical to those used in the graphical interface."
-msgstr "Koha utilise le Langage Commun de Commande (LCC) (ISO 8777) comme protocole de recherche interne. Les recherches lancées dans l'interface graphique utilisent ce protocole, bien que la personne qui fait une recherche ne sache pas quels indexes, opérateurs et limiteurs sont disponibles et sont utilisés pour effectuer la recherche. La personne qui fait la recherche peut utiliser la 'Recherche Avancée' et accéder à certains des indexes utilisés et ainsi obtenir des résultats plus précis. Cependant, quelques usagers de la bibliothèque et membres du personnel préfèrent utiliser une commande de langage pour effectuer une recherche. Cette partie du manuel présente et explique l'utilisation d'une commande de langage pour une faire une recherche. Les indexes, opérateurs et limiteurs utilisés sont identiques à ceux utilisés dans l'interface graphique."
+msgid ""
+"Koha uses the Common Command Language (CCL) (ISO 8777) as its internal "
+"search protocol. Searches initiated in the graphical interface use this "
+"protocol as well, although the searcher doesn't know which indexes, "
+"operators and limiters are available and being used to conduct their search. "
+"The searcher can use the Advanced Search when more precise results set are "
+"desired and where the search indexes are somewhat known. However, some "
+"library users and many library staff prefer using a command based structure. "
+"This part of the document will present and explain the use of the Koha "
+"command based structure. The indexes, operators, and limiters used are "
+"identical to those used in the graphical interface."
+msgstr ""
+"Koha utilise le Langage Commun de Commande (LCC) (ISO 8777) comme protocole "
+"de recherche interne. Les recherches lancées dans l'interface graphique "
+"utilisent ce protocole, bien que la personne qui fait une recherche ne sache "
+"pas quels indexes, opérateurs et limiteurs sont disponibles et sont utilisés "
+"pour effectuer la recherche. La personne qui fait la recherche peut utiliser "
+"la 'Recherche Avancée' et accéder à certains des indexes utilisés et ainsi "
+"obtenir des résultats plus précis. Cependant, quelques usagers de la "
+"bibliothèque et membres du personnel préfèrent utiliser une commande de "
+"langage pour effectuer une recherche. Cette partie du manuel présente et "
+"explique l'utilisation d'une commande de langage pour une faire une "
+"recherche. Les indexes, opérateurs et limiteurs utilisés sont identiques à "
+"ceux utilisés dans l'interface graphique."
 
 #: ../../source/searching.rst:495
 msgid "Indexes"
 msgstr "Index"
 
 #: ../../source/searching.rst:497
-msgid "The CCL standard itself doesn't specify a particular set of qualifiers (indexes), but it does suggest a few short-hand notations such as 'ti', 'au', and 'su'. Koha has a default set of indexes; it's possible to customize that set by adding needed indexes based on local requirements. A qualifier (index) maps to a particular use-attribute within the Z39.50 BIB-1 attribute set. The complete Z39.50 Bib-1 Attribute can be viewed at http://www.loc.gov/z3950/agency/defns/bib1.html."
+msgid ""
+"The CCL standard itself doesn't specify a particular set of qualifiers "
+"(indexes), but it does suggest a few short-hand notations such as 'ti', "
+"'au', and 'su'. Koha has a default set of indexes; it's possible to "
+"customize that set by adding needed indexes based on local requirements. A "
+"qualifier (index) maps to a particular use-attribute within the Z39.50 BIB-1 "
+"attribute set. The complete Z39.50 Bib-1 Attribute can be viewed at http://"
+"www.loc.gov/z3950/agency/defns/bib1.html."
 msgstr ""
 
 #: ../../source/searching.rst:505
-msgid "The standard Koha set of indexes is a fairly common example of MARC21 indexing rules. The indexes that are defined in Koha are indexes typically used by other integrated library systems. The defined Z39.50 Bib-1 Attribute mapped to the indexes include:"
-msgstr "L'ensemble d'indexes standard de Koha est un exemple assez commun des règles d'indexation MARC21. Les indexes définis dans Koha sont des indexes utilisés habituellement par d'autres SIGBs de bibliothèques. Les attributs définis Z39.50 Bib-1 correspondant aux indexes incluent:"
+msgid ""
+"The standard Koha set of indexes is a fairly common example of MARC21 "
+"indexing rules. The indexes that are defined in Koha are indexes typically "
+"used by other integrated library systems. The defined Z39.50 Bib-1 Attribute "
+"mapped to the indexes include:"
+msgstr ""
+"L'ensemble d'indexes standard de Koha est un exemple assez commun des règles "
+"d'indexation MARC21. Les indexes définis dans Koha sont des indexes utilisés "
+"habituellement par d'autres SIGBs de bibliothèques. Les attributs définis "
+"Z39.50 Bib-1 correspondant aux indexes incluent:"
 
 #: ../../source/searching.rst:511
 msgid "Bib-1 Attribute"
@@ -812,7 +1169,9 @@ msgid "Table: Attributes"
 msgstr "Attribut Bib-1"
 
 #: ../../source/searching.rst:568
-msgid "Refer to the :ref:`Koha Indexing Chart <koha-search-indexes-label>` for the MARC21 tags mapped to each Bib-1 Attribute and index combination."
+msgid ""
+"Refer to the :ref:`Koha Indexing Chart <koha-search-indexes-label>` for the "
+"MARC21 tags mapped to each Bib-1 Attribute and index combination."
 msgstr ""
 
 #: ../../source/searching.rst:574
@@ -883,12 +1242,43 @@ msgid "Search Syntax"
 msgstr "Rechercher"
 
 #: ../../source/searching.rst:612
-msgid "In the persistent search box, single words generally retrieve large sets. To narrow a search, you can use multiple words. Koha automatically uses the 'and' Boolean operator to create a set of records matching your input. When you want to narrow the search to an author or a title or a subject or some other specific field or use a Boolean operator, there isn't an obvious way to accomplish that specificity. The library user can, of course, go to the Advanced Search page; however, if you know how to construct a CCL search, you can achieve more specificity while using the persistent search box on any page."
-msgstr "Dans la barre de recherche, un mot seul récupère généralement des ensembles de grande taille. Pour restreindre une recherche, vous pouvez utiliser plusieurs mots. Koha utilise automatiquement l'opérateur Booléen 'et' pour  créer un ensemble de notices correspondant à vos données. Lorsque vous souhaitez restreindre la recherche à un auteur, un titre, un sujet ou d'autres champs spécifiques, ou bien utiliser un opérateur Booléen, il n'y a pas d'autre moyen pour obtenir un résultat plus précis. L'usager peut bien sûr aller sur la page 'Recherche avancée'; cependant si vous savez construire une recherche LCC, vous pouvez obtenir un résultat plus précis en utilisant la barre de recherche sur n'importe quelle page."
+msgid ""
+"In the persistent search box, single words generally retrieve large sets. To "
+"narrow a search, you can use multiple words. Koha automatically uses the "
+"'and' Boolean operator to create a set of records matching your input. When "
+"you want to narrow the search to an author or a title or a subject or some "
+"other specific field or use a Boolean operator, there isn't an obvious way "
+"to accomplish that specificity. The library user can, of course, go to the "
+"Advanced Search page; however, if you know how to construct a CCL search, "
+"you can achieve more specificity while using the persistent search box on "
+"any page."
+msgstr ""
+"Dans la barre de recherche, un mot seul récupère généralement des ensembles "
+"de grande taille. Pour restreindre une recherche, vous pouvez utiliser "
+"plusieurs mots. Koha utilise automatiquement l'opérateur Booléen 'et' pour  "
+"créer un ensemble de notices correspondant à vos données. Lorsque vous "
+"souhaitez restreindre la recherche à un auteur, un titre, un sujet ou "
+"d'autres champs spécifiques, ou bien utiliser un opérateur Booléen, il n'y a "
+"pas d'autre moyen pour obtenir un résultat plus précis. L'usager peut bien "
+"sûr aller sur la page 'Recherche avancée'; cependant si vous savez "
+"construire une recherche LCC, vous pouvez obtenir un résultat plus précis en "
+"utilisant la barre de recherche sur n'importe quelle page."
 
 #: ../../source/searching.rst:622
-msgid "There is a specific order to the CCL search syntax. Although it can be used for simple searches, it is an especially effective way to perform complex searches, as it affords you a great deal of control over your search results. To construct a CCL search, first enter a desired index code, then an equal sign, followed by your search word(s). Following are examples of simple CCL searches."
-msgstr "Il y a un ordre spécifique pour la syntaxe de recherche LCC. Bien qu'elle puisse être utilisée pour des recherches simples, c'est une manière efficace de réaliser des recherches complexes. Cela vous permet d'avoir un meilleur contrôle sur vos résultats de recherche. Pour construire une recherche LCC, saisissez d'abord le code d'index désiré, puis le signe égal, suivi du/des mots de recherche . Voir ci-dessus des exemples de recherche simple LCC."
+msgid ""
+"There is a specific order to the CCL search syntax. Although it can be used "
+"for simple searches, it is an especially effective way to perform complex "
+"searches, as it affords you a great deal of control over your search "
+"results. To construct a CCL search, first enter a desired index code, then "
+"an equal sign, followed by your search word(s). Following are examples of "
+"simple CCL searches."
+msgstr ""
+"Il y a un ordre spécifique pour la syntaxe de recherche LCC. Bien qu'elle "
+"puisse être utilisée pour des recherches simples, c'est une manière efficace "
+"de réaliser des recherches complexes. Cela vous permet d'avoir un meilleur "
+"contrôle sur vos résultats de recherche. Pour construire une recherche LCC, "
+"saisissez d'abord le code d'index désiré, puis le signe égal, suivi du/des "
+"mots de recherche . Voir ci-dessus des exemples de recherche simple LCC."
 
 #: ../../source/searching.rst:629
 msgid "ti=principles of accounting"
@@ -911,8 +1301,14 @@ msgid "kw=marlin"
 msgstr "kw=marlin"
 
 #: ../../source/searching.rst:639
-msgid "You can refine your search by combining search terms with Boolean operators 'and', 'or', or 'not'. Following are examples of searches using Boolean operators."
-msgstr "Vous pouvez affiner votre recherche en combinant les termes de recherche avec les opérateurs Booléens 'et', 'ou' ou 'sauf'. Voir les exemples de recherche suivants utilisant les opérateurs Booléens."
+msgid ""
+"You can refine your search by combining search terms with Boolean operators "
+"'and', 'or', or 'not'. Following are examples of searches using Boolean "
+"operators."
+msgstr ""
+"Vous pouvez affiner votre recherche en combinant les termes de recherche "
+"avec les opérateurs Booléens 'et', 'ou' ou 'sauf'. Voir les exemples de "
+"recherche suivants utilisant les opérateurs Booléens."
 
 #: ../../source/searching.rst:643
 msgid "ti=principles of accounting and au=brown joseph"
@@ -927,16 +1323,27 @@ msgid "kw=communication and su=debate"
 msgstr "kw=communication et su=débat"
 
 #: ../../source/searching.rst:649
-msgid "You can also choose to search for things that start with a character or series of characters"
-msgstr "Vous pouvez également choisir de rechercher des choses qui commencent par un caractère ou une série de caractères"
+msgid ""
+"You can also choose to search for things that start with a character or "
+"series of characters"
+msgstr ""
+"Vous pouvez également choisir de rechercher des choses qui commencent par un "
+"caractère ou une série de caractères"
 
 #: ../../source/searching.rst:652
-msgid "ti,first-in-subfield=C (will show you all titles that start with the letter 'C')"
-msgstr "ti,first-in-subfield=C (affichera tous les titres qui commencent par la lettre 'C')"
+msgid ""
+"ti,first-in-subfield=C (will show you all titles that start with the letter "
+"'C')"
+msgstr ""
+"ti,first-in-subfield=C (affichera tous les titres qui commencent par la "
+"lettre 'C')"
 
 #: ../../source/searching.rst:655
-msgid "Other string location searches can be performed with the following keywords:"
-msgstr "D'autres recherches de localisation de chaînes peuvent être réalisées avec les mots-clés suivants:"
+msgid ""
+"Other string location searches can be performed with the following keywords:"
+msgstr ""
+"D'autres recherches de localisation de chaînes peuvent être réalisées avec "
+"les mots-clés suivants:"
 
 #: ../../source/searching.rst:658
 msgid "rtrn : right truncation"
@@ -960,7 +1367,8 @@ msgstr "st-numeric : type de numéro (entier)"
 
 #: ../../source/searching.rst:668
 msgid "ext : exact search on whole subfield (does not work with icu)"
-msgstr "ext : recherche exacte dans tout le sous-champ (ne fonctionne pas avec icu)"
+msgstr ""
+"ext : recherche exacte dans tout le sous-champ (ne fonctionne pas avec icu)"
 
 #: ../../source/searching.rst:670
 msgid "phr : search on phrase anywhere in the subfield"
@@ -971,12 +1379,27 @@ msgid "startswithnt : subfield starts with"
 msgstr "startswithnt : sous-champ commence avec"
 
 #: ../../source/searching.rst:674
-msgid "Using specific indexes and Boolean operators are not the only way a search can be refined. You can also refine your search as a phrase when looking for a title, author, or subject. The syntax for this search is *index,phr=search words*."
+msgid ""
+"Using specific indexes and Boolean operators are not the only way a search "
+"can be refined. You can also refine your search as a phrase when looking for "
+"a title, author, or subject. The syntax for this search is *index,phr=search "
+"words*."
 msgstr ""
 
 #: ../../source/searching.rst:679
-msgid "To illustrate the results of various search types, a search was done for the words 'supreme court'. The results illustrate that the search index and the word order make a difference in search results. Only the results count and the search itself is in these examples. The search executed will always be between the single quotes."
-msgstr "Voici les résultats de plusieurs types de recherche, pour la recherche des mots 'Cour suprême'. Les résultats montrent que l'index de recherche et l'ordre des mots font une différence dans les résultats de recherche. Dans ces exemples s'affichent la quantité des résultats et la recherche elle-même. La recherche effectuée sera toujours affichée entre de simples guillemets."
+msgid ""
+"To illustrate the results of various search types, a search was done for the "
+"words 'supreme court'. The results illustrate that the search index and the "
+"word order make a difference in search results. Only the results count and "
+"the search itself is in these examples. The search executed will always be "
+"between the single quotes."
+msgstr ""
+"Voici les résultats de plusieurs types de recherche, pour la recherche des "
+"mots 'Cour suprême'. Les résultats montrent que l'index de recherche et "
+"l'ordre des mots font une différence dans les résultats de recherche. Dans "
+"ces exemples s'affichent la quantité des résultats et la recherche elle-"
+"même. La recherche effectuée sera toujours affichée entre de simples "
+"guillemets."
 
 #: ../../source/searching.rst:685
 msgid "|image1049|"
@@ -1015,8 +1438,19 @@ msgid "|image1057|"
 msgstr "|image1057|"
 
 #: ../../source/searching.rst:703
-msgid "You can also choose to use limiters in your search query. Some common limiters include dates, languages, record types, and item types. In the Advance Search, you can either click a box or key in data to limit your search. You can also apply the same limits with CCL by using the syntax in the following examples. In all"
-msgstr "Vous pouvez aussi choisir d'utiliser des limiteurs dans votre recherche. Quelques limiteurs basiques incluent les dates, langues, types de notices et types de documents. Dans la Recherche Avancée, vous pouvez cliquer sur la case ou saisir des données pour limiter la recherche. Vous pouvez aussi appliquer les mêmes limites avec LCC en utilisant la syntaxe des exemples suivants:"
+msgid ""
+"You can also choose to use limiters in your search query. Some common "
+"limiters include dates, languages, record types, and item types. In the "
+"Advance Search, you can either click a box or key in data to limit your "
+"search. You can also apply the same limits with CCL by using the syntax in "
+"the following examples. In all"
+msgstr ""
+"Vous pouvez aussi choisir d'utiliser des limiteurs dans votre recherche. "
+"Quelques limiteurs basiques incluent les dates, langues, types de notices et "
+"types de documents. Dans la Recherche Avancée, vous pouvez cliquer sur la "
+"case ou saisir des données pour limiter la recherche. Vous pouvez aussi "
+"appliquer les mêmes limites avec LCC en utilisant la syntaxe des exemples "
+"suivants:"
 
 #: ../../source/searching.rst:709
 msgid "*By Date: su=supreme court and yr,st-numeric=>2000*"
@@ -1027,7 +1461,9 @@ msgid "|image1058|"
 msgstr "|image1058|"
 
 #: ../../source/searching.rst:713
-msgid "When you limit by date, you can use the '>' (greater than), '<' (less than), '=' (equal), or 'yyyy-yyyy' (range) symbols."
+msgid ""
+"When you limit by date, you can use the '>' (greater than), '<' (less than), "
+"'=' (equal), or 'yyyy-yyyy' (range) symbols."
 msgstr ""
 
 #: ../../source/searching.rst:716
@@ -1039,8 +1475,25 @@ msgid "|image1059|"
 msgstr "|image1059|"
 
 #: ../../source/searching.rst:720
-msgid "Each library will have a different set of item types defined in their circulation configuration. When you set up item types, you define a code and a name for each one. The name will appear on the Advance Search page. The code you assigned is used as a CCL search limit, formatted as 'itype:x', where 'x' is the assigned code. The initial set of item types in Koha will usually be edited to reflect your collections, so your item type limiters may be different than the initial ones. The initial item type limiters follow."
-msgstr "Chaque bibliothèque a différents types de documents définis dans leur configuration de circulation. Lorsque vous paramétrez les types d'exemplaires, vous définissez un code et un nom pour chacun. Le nom s'affichera sur la page de la Recherche Avancée. Le code que vous avez saisi est utilisé comme une limite de recherche LCC, formaté comme 'itype:x', ou 'x' est son code assigné. L'ensemble initial de types de document de Koha sera modifié en conséquence pour refléter vos collections; ainsi les limiteurs de vos types de document peuvent être différents des initiaux. Les limiteurs initiaux de types de documents sont:"
+msgid ""
+"Each library will have a different set of item types defined in their "
+"circulation configuration. When you set up item types, you define a code and "
+"a name for each one. The name will appear on the Advance Search page. The "
+"code you assigned is used as a CCL search limit, formatted as 'itype:x', "
+"where 'x' is the assigned code. The initial set of item types in Koha will "
+"usually be edited to reflect your collections, so your item type limiters "
+"may be different than the initial ones. The initial item type limiters "
+"follow."
+msgstr ""
+"Chaque bibliothèque a différents types de documents définis dans leur "
+"configuration de circulation. Lorsque vous paramétrez les types "
+"d'exemplaires, vous définissez un code et un nom pour chacun. Le nom "
+"s'affichera sur la page de la Recherche Avancée. Le code que vous avez saisi "
+"est utilisé comme une limite de recherche LCC, formaté comme 'itype:x', ou "
+"'x' est son code assigné. L'ensemble initial de types de document de Koha "
+"sera modifié en conséquence pour refléter vos collections; ainsi les "
+"limiteurs de vos types de document peuvent être différents des initiaux. Les "
+"limiteurs initiaux de types de documents sont:"
 
 #: ../../source/searching.rst:729
 msgid "itype:BKS Books, Booklets, Workbooks"
@@ -1083,8 +1536,12 @@ msgid "|image1060|"
 msgstr "|image1060|"
 
 #: ../../source/searching.rst:749
-msgid "The format limiters are derived from a combination of LDR, 006 and 007 positions. The formats that are currently defined are the following."
-msgstr "Les limiteurs de format sont un dérivé d'une combinaison des positions LDR, 006 et 007. Les formats sont généralement définis comme ce qui suit."
+msgid ""
+"The format limiters are derived from a combination of LDR, 006 and 007 "
+"positions. The formats that are currently defined are the following."
+msgstr ""
+"Les limiteurs de format sont un dérivé d'une combinaison des positions LDR, "
+"006 et 007. Les formats sont généralement définis comme ce qui suit."
 
 #: ../../source/searching.rst:752
 msgid "l-format:ta Regular print"
@@ -1132,11 +1589,20 @@ msgstr "|image1061|"
 
 #: ../../source/searching.rst:774
 msgid "The content types are taken from the 008 MARC tag, positions 24-27."
-msgstr "Les types de contenu sont pris des étiquettes 008 MARC, positions 24-27."
+msgstr ""
+"Les types de contenu sont pris des étiquettes 008 MARC, positions 24-27."
 
 #: ../../source/searching.rst:776
-msgid "There are two other limiter types that are not described in this document. They are: Audience and Content. The only difference in the syntax of the CCL is the actual limiter. They are reproduced here just in case you would like to use these limiters."
-msgstr "Il y a deux types de limiteur qui ne sont pas décrits dans ce document. Ce sont: Public et Contenu. La seule différence dans la syntaxe du LCC est le limiteur réel. Ils sont reproduits ici au cas où vous voudriez utiliser ces limiteurs."
+msgid ""
+"There are two other limiter types that are not described in this document. "
+"They are: Audience and Content. The only difference in the syntax of the CCL "
+"is the actual limiter. They are reproduced here just in case you would like "
+"to use these limiters."
+msgstr ""
+"Il y a deux types de limiteur qui ne sont pas décrits dans ce document. Ce "
+"sont: Public et Contenu. La seule différence dans la syntaxe du LCC est le "
+"limiteur réel. Ils sont reproduits ici au cas où vous voudriez utiliser ces "
+"limiteurs."
 
 #: ../../source/searching.rst:784
 #, fuzzy
@@ -1144,8 +1610,12 @@ msgid "Koha Search Indexes"
 msgstr "Recherche index&nbsp;:"
 
 #: ../../source/searching.rst:786
-msgid "By default, not all fields are indexed in the Zebra search engine, but many are. Below are the MARC21 fields that are indexed in Zebra."
-msgstr "Les champs ne sont pas tous indexés par défaut dans le moteur de recherche Zebra. Dessous, s'affichent les champs MARC21 indexés dans Zebra."
+msgid ""
+"By default, not all fields are indexed in the Zebra search engine, but many "
+"are. Below are the MARC21 fields that are indexed in Zebra."
+msgstr ""
+"Les champs ne sont pas tous indexés par défaut dans le moteur de recherche "
+"Zebra. Dessous, s'affichent les champs MARC21 indexés dans Zebra."
 
 #: ../../source/searching.rst:790
 msgid "Field"
@@ -1203,16 +1673,34 @@ msgid "007"
 msgstr "007"
 
 #: ../../source/searching.rst:802
-msgid "Microform-generation:n:range(data,11,1), Material-type,ff7-00:w:range(data,0,1), ff7-01:w:range(data,1,1), ff7-02:w:range(data,2,1), ff7-01-02:w:range(data,0,2)"
-msgstr "Microform-generation:n:range(data,11,1), Material-type,ff7-00:w:range(data,0,1), ff7-01:w:range(data,1,1), ff7-02:w:range(data,2,1), ff7-01-02:w:range(data,0,2)"
+msgid ""
+"Microform-generation:n:range(data,11,1), Material-type,ff7-00:w:"
+"range(data,0,1), ff7-01:w:range(data,1,1), ff7-02:w:range(data,2,1), "
+"ff7-01-02:w:range(data,0,2)"
+msgstr ""
+"Microform-generation:n:range(data,11,1), Material-type,ff7-00:w:"
+"range(data,0,1), ff7-01:w:range(data,1,1), ff7-02:w:range(data,2,1), "
+"ff7-01-02:w:range(data,0,2)"
 
 #: ../../source/searching.rst:804
 msgid "008"
 msgstr "008"
 
 #: ../../source/searching.rst:804
-msgid "date-entered-on-file:n:range(data,0,5), date-entered-on-file:s:range(data,0,5), pubdate:w:range(data,7,4), pubdate:n:range(data,7,4), pubdate:y:range(data,7,4), pubdate:s:range(data,7,4), pl:w:range(data,15,3), ta:w:range(data,22,1), ff8-23:w:range(data,23,1), ff8-29:w:range(data,29,1), lf:w:range(data,33,1), bio:w:range(data,34,1), ln:n:range(data,35,3), ctype:w:range(data,24,4), Record-source:w:range(data,39,0)"
-msgstr "date-entered-on-file:n:range(data,0,5), date-entered-on-file:s:range(data,0,5), pubdate:w:range(data,7,4), pubdate:n:range(data,7,4), pubdate:y:range(data,7,4), pubdate:s:range(data,7,4), pl:w:range(data,15,3), ta:w:range(data,22,1), ff8-23:w:range(data,23,1), ff8-29:w:range(data,29,1), lf:w:range(data,33,1), bio:w:range(data,34,1), ln:n:range(data,35,3), ctype:w:range(data,24,4), Record-source:w:range(data,39,0)"
+msgid ""
+"date-entered-on-file:n:range(data,0,5), date-entered-on-file:s:"
+"range(data,0,5), pubdate:w:range(data,7,4), pubdate:n:range(data,7,4), "
+"pubdate:y:range(data,7,4), pubdate:s:range(data,7,4), pl:w:range(data,15,3), "
+"ta:w:range(data,22,1), ff8-23:w:range(data,23,1), ff8-29:w:range(data,29,1), "
+"lf:w:range(data,33,1), bio:w:range(data,34,1), ln:n:range(data,35,3), ctype:"
+"w:range(data,24,4), Record-source:w:range(data,39,0)"
+msgstr ""
+"date-entered-on-file:n:range(data,0,5), date-entered-on-file:s:"
+"range(data,0,5), pubdate:w:range(data,7,4), pubdate:n:range(data,7,4), "
+"pubdate:y:range(data,7,4), pubdate:s:range(data,7,4), pl:w:range(data,15,3), "
+"ta:w:range(data,22,1), ff8-23:w:range(data,23,1), ff8-29:w:range(data,29,1), "
+"lf:w:range(data,33,1), bio:w:range(data,34,1), ln:n:range(data,35,3), ctype:"
+"w:range(data,24,4), Record-source:w:range(data,39,0)"
 
 #: ../../source/searching.rst:806
 msgid "010"
@@ -1231,8 +1719,12 @@ msgid "015"
 msgstr "015"
 
 #: ../../source/searching.rst:810
-msgid "BNB-card-number, BGF-number, Number-db, Number-natl-biblio, Identifier-standard"
-msgstr "BNB-card-number, BGF-number, Number-db, Number-natl-biblio, Identifier-standard"
+msgid ""
+"BNB-card-number, BGF-number, Number-db, Number-natl-biblio, Identifier-"
+"standard"
+msgstr ""
+"BNB-card-number, BGF-number, Number-db, Number-natl-biblio, Identifier-"
+"standard"
 
 #: ../../source/searching.rst:812
 msgid "017"
@@ -1464,16 +1956,24 @@ msgid "100$a"
 msgstr "100$a"
 
 #: ../../source/searching.rst:874
-msgid "Author,Author:p, Author:s, Editor, Author-personal-bibliography, Author-personal-bibliography:p, Author-personal-bibliography:s"
-msgstr "Author,Author:p, Author:s, Editor, Author-personal-bibliography, Author-personal-bibliography:p, Author-personal-bibliography:s"
+msgid ""
+"Author,Author:p, Author:s, Editor, Author-personal-bibliography, Author-"
+"personal-bibliography:p, Author-personal-bibliography:s"
+msgstr ""
+"Author,Author:p, Author:s, Editor, Author-personal-bibliography, Author-"
+"personal-bibliography:p, Author-personal-bibliography:s"
 
 #: ../../source/searching.rst:876
 msgid "100"
 msgstr "100"
 
 #: ../../source/searching.rst:876
-msgid "Author, Author-title, Author-name-personal, Name, Name-and-title, Personal-name"
-msgstr "Author, Author-title, Author-name-personal, Name, Name-and-title, Personal-name"
+msgid ""
+"Author, Author-title, Author-name-personal, Name, Name-and-title, Personal-"
+"name"
+msgstr ""
+"Author, Author-title, Author-name-personal, Name, Name-and-title, Personal-"
+"name"
 
 #: ../../source/searching.rst:878
 msgid "110$9"
@@ -1484,8 +1984,12 @@ msgid "110"
 msgstr "110"
 
 #: ../../source/searching.rst:880
-msgid "Author, Author-title, Author-name-corporate, Name, Name-and-title, Corporate-name"
-msgstr "Author, Author-title, Author-name-corporate, Name, Name-and-title, Corporate-name"
+msgid ""
+"Author, Author-title, Author-name-corporate, Name, Name-and-title, Corporate-"
+"name"
+msgstr ""
+"Author, Author-title, Author-name-corporate, Name, Name-and-title, Corporate-"
+"name"
 
 #: ../../source/searching.rst:882
 msgid "111$9"
@@ -1496,8 +2000,12 @@ msgid "111"
 msgstr "111"
 
 #: ../../source/searching.rst:884
-msgid "Author, Author-title, Author-name-corporate, Name, Name-and-title, Conference-name"
-msgstr "Author, Author-title, Author-name-corporate, Name, Name-and-title, Conference-name"
+msgid ""
+"Author, Author-title, Author-name-corporate, Name, Name-and-title, "
+"Conference-name"
+msgstr ""
+"Author, Author-title, Author-name-corporate, Name, Name-and-title, "
+"Conference-name"
 
 #: ../../source/searching.rst:886
 msgid "130$n"
@@ -2081,8 +2589,12 @@ msgid "700"
 msgstr "700"
 
 #: ../../source/searching.rst:1078
-msgid "Author, Author-name-corporate, Author-name-personal, Name, Editor, Personal-name"
-msgstr "Author, Author-name-corporate, Author-name-personal, Name, Editor, Personal-name"
+msgid ""
+"Author, Author-name-corporate, Author-name-personal, Name, Editor, Personal-"
+"name"
+msgstr ""
+"Author, Author-name-corporate, Author-name-personal, Name, Editor, Personal-"
+"name"
 
 #: ../../source/searching.rst:1080 ../../source/searching.rst:1088
 msgid "710"
@@ -2607,6 +3119,9 @@ msgstr "biblioitemnumber:n, biblioitemnumber:w, biblioitemnumber:s"
 msgid "Table: Indexes"
 msgstr "Parcourir les index : "
 
-#~ msgid "At the top of the advanced search page in the staff client you will see a link to 'Go to item search'"
-#~ msgstr "En haut de la page de recherche avancée dans l'interface professionelle, vous verrez le lien 'Aller à la recherche exemplaire'"
-
+#~ msgid ""
+#~ "At the top of the advanced search page in the staff client you will see a "
+#~ "link to 'Go to item search'"
+#~ msgstr ""
+#~ "En haut de la page de recherche avancée dans l'interface professionelle, "
+#~ "vous verrez le lien 'Aller à la recherche exemplaire'"
