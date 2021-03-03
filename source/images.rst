@@ -1426,7 +1426,6 @@
 .. |image1113| image:: images/opac/SHOW_BCODEattribute.png
 .. |image1114| image:: images/opac/barcodeoncheckouts.png
 .. |image1115| image:: images/cataloging/lockedauthority.png
-.. |image1116| image:: images/reports/datepicker.png
 .. |image1118| image:: images/appendix-extending/colorccode.png
 .. |image1119| image:: images/appendix-services/accounts.png
 .. |image1120| image:: images/appendix-services/institution.png

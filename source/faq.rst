@@ -833,60 +833,7 @@ filters and date ranges, you can add runtime parameters to your query.
 Runtime parameters basically make a filter appear before the report is
 run.
 
-There is a specific syntax that Koha will understand as 'ask for values
-when running the report'. The syntax is <<Question to
-ask\[\|type]>>.
-
--  The << and >> are just delimiters. You must put << at the beginning
-   and >> at the end of your parameter
-
--  The 'Question to ask' will be displayed as a label before the form
-   field.
-
--  The type can be omitted if you want a free text input field. If it
-   contains an authorized value category, 'branches' (libraries), 'itemtype'
-   (itemtypes), 'categorycode' (patron categories), or 'biblio\_framework'
-   (MARC bibliographic frameworks), a pull down will be displayed
-   with the options from your configuration instead of a free text field.
-
--  When using 'date' as type, the date picker will be displayed to help
-   with entering dates. The date will be automatically changed to the ISO
-   date needed for the SQL query, while you can enter it according to your
-   :ref:`DateFormat` system preference setting.
-
--  Note that you can
-   have more than one parameter in one SQL query. If you need the same value
-   multiple times in your SQL query, make sure you use the same label. This
-   will make the form field only appear once.
-
--  Note that entering
-   nothing at run time won't probably work as you expect. It will be
-   considered as "value empty" not as "ignore this parameter". For
-   example entering nothing for : "title=<<Enter title>>" will display
-   results with title='' (no title). If you want to have to have
-   something not mandatory, use "title like <<Enter title>>" and enter a
-   % at run time instead of nothing
-
-Examples:
-
--  SELECT surname,firstname FROM borrowers WHERE branchcode=<<Enter
-   patrons library\|branches>> AND surname like <<Enter filter for
-   patron surname (% if none)>>
-
--  SELECT \* FROM items WHERE homebranch = <<Pick your
-   branch\|branches>> and barcode like <<Partial barcode value here, use
-   % to truncate>>
-
--  SELECT title, author FROM biblio WHERE frameworkcode=<<Enter the
-   frameworkcode\|biblio\_framework>>
-
-    |image1116|
-
-    **Note**
-
-    You have to use 'like' in your SQL query and put "%" in a text box
-    to 'leave it blank'. Otherwise, it literally looks for "" (empty string)
-    as the value for the field.
+See :ref:`report writing tips on runtime parameters <report-writing-tips-label>`.
 
 .. _faq-searching-label:
 
