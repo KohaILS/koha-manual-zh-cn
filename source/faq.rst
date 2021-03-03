@@ -45,6 +45,9 @@ OPAC and staff interface
 
 .. _faq-cookies-label:
 
+Cookies
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Question:** What cookies does Koha use?
 
 **Answer:** The cookies Koha uses on the OPAC and in the staff interface
@@ -52,8 +55,6 @@ are documented in the Koha Community wiki:
 
 https://wiki.koha-community.org/wiki/Use_of_Cookies
 
-Cookies
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _faq-custom-item-type-authorized-value-icons-label:
 
@@ -427,7 +428,7 @@ degree of control via various system preferences.
 
 For every email sent out from Koha there are three important addresses for the
 system to get correct, *From*, *Reply-to* and *Sender*. These are configurable
-at both the system and library level and should fallback in a suitable manor if
+at both the system and library level and should fall back in a suitable manner if
 any of them are not defined.
 
 * KohaAdminEmailAddress - This will act as the *From* address and should be an
@@ -477,7 +478,7 @@ field with. To allow typing in these authority fields set
 
 **Question:** Can I use Koha without creating authority records?
 
-**Answer:** If you don't want to create authorities for your reacords at all, you can
+**Answer:** If you don't want to create authorities for your records at all, you can
 remove the authority link by blanking the Thesaurus setting for the fields
 in your MARC bibliographic frameworks. See also:
 :ref:`Edit framework subfields <edit-framework-fields-and-subfields-label>`
@@ -914,7 +915,7 @@ help' in the first pages of results?
 
 **Answer**: In general, the more terms you enter, the better your results will
 be. Koha doesn't use stop words, so searching for "the" and "an" will work
-just fine. So "the help" shoudl bring better results than just a title search
+just fine. So "the help" should bring better results than just a title search
 for help. Also using "Title, phrase" would further improve the results as it
 means that these terms have to appear in this sequence and with no other
 terms in between.
