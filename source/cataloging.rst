@@ -1196,6 +1196,49 @@ record will be deleted.
 
 |image718|
 
+If you have two authority records for the same heading in different frameworks,
+you can merge them together by clicking the ‘Merge’ link, found in the actions
+menu, next to two results on an authority search.  For example, these authority
+records using different frameworks can be merged.
+
+|MergeAutsDiffFrameworksScreenshot1.png| :alt:Screenshot of authority search
+results for Ahab, Captain, the top one a Topical Term and the bottom one a Personal Name
+
+If you select the 'Merge' link, found in the action menu of the top record.
+
+|MergeAutsDiffFrameworksScreenshot2.png| :alt:Same screenshot showing the opened Edit menu with Merge selected
+
+You will see that authority record listed at the top of the results.
+
+|MergeAutsDiffFrameworksScreenshot3.png| :alt:Screenshot showing the authorized term and its authority record number, and Cancel Merge option at top of search results
+
+Next you need to select ‘Merge’ next to the second result you’d like to merge.
+
+You will be asked which of the two records you would like to keep as your
+primary record and which will be deleted after the merge.  You will also
+use the dropdown menu to pick which framework to use.
+
+|MergeAutsDiffFrameworksScreenshot4.png| :alt:Screenshot showing the top record selected as Primary with the Using Framework menu opened and Personal Name selected
+
+You will be presented with the MARC for both of the records (each accessible
+by tabs labeled with the authority numbers for those records). By default the
+entire first record will be selected, uncheck the fields you don’t want in the
+final (destination) record and then move on to the second tab to choose which
+fields should be in the final (destination) record.
+
+The "ref" record (the primary record) will be in the framework that you chose:
+
+|MergeAutsDiffFrameworksScreenshot5.png| :alt:Screenshot of the Merging Records window showing the Source Records and Destination Records in MARC
+
+Once you have completed your selections click the ‘Merge’ button. The primary
+record will now contain the data you chose for it and the second record will be deleted.
+
+|MergeAutsDiffFrameworksScreenshot6.png| :alt:Screenshot showing the new Primary Record
+
+The MARC tag of the linked headings will have been updated accordingly.
+
+|MergeAutsDiffFrameworksScreenshot7.png| :alt:Screenshot of one bibliographic record's linked subject heading for Ahab, Captain, now updated from a 650 Topic field to a 600 Personal Name field
+
 .. _cataloging-guides-label:
 
 Cataloging guides
