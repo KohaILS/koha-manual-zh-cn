@@ -1168,6 +1168,48 @@ Description:
    OverDriveClientSecret <overdriveclientkey-and-overdriveclientsecret-label>` are populated you will
    see OverDrive results on your OPAC searches.
 
+.. _recordedbooks-label:
+
+RecordedBooks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+RecordedBooks is a pay service. You must first contact RBmedia directly
+for pricing and subscription information.
+
+.. _recordedbooksclientsecret-label:
+
+RecordedBooksClientSecret
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Include RecordedBooks availability information with the client secret \_\_\_
+
+Description:
+
+-  Contact your Recorded Books representative for the library client secret code. (Visit the RBmedia
+   homepage at https://rbmediaglobal.com/ for more information.)
+
+.. _recordedbooksdomain-label:
+
+RecordedBooksDomain
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: RecordedBooks domain \_\_\_
+
+Description:
+
+-  Enter the domain that your patrons access RecordedBooks.
+
+.. _recordedbookslibraryid-label:
+
+RecordedBooksLibraryID
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Show items from the RecordedBooks catalog of library ID \_\_\_
+
+Description:
+
+-  Contact your Recorded Books representative for the catalog library id.
+
 .. _syndetics-label:
 
 Syndetics
