@@ -310,7 +310,7 @@ Description:
 -  This preference lets you decide what the patrons will see in the OPAC when 
    a record is suppressed. You can either show the patron a 404 error page or 
    an explanatory page when they try to see a suppressed record. You can change 
-   the message of the explanatory page with the the 
+   the message of the explanatory page with the 
    :ref:`OpacSuppressionMessage` system preference.
 
 OpacSuppressionMessage
