@@ -3290,6 +3290,25 @@ When creating or editing:
 
              s/^(J|K)\n/$1 /
 
+         -  Cut after 9 characters::
+
+             s/(^.{9})/$1\n/
+
+
+It is possible to mix and match RegEx splitting routines by clicking the 
+'New' link just under the RegEx input box.
+
+For example, if you want to cut after nine characters AND split on spaces, 
+you can write both and the call number '971.42805092 C669r' will be split
+
+::
+
+  971.42805
+  092
+  C669r
+
+|multipleregexsplittingrule|
+
 .. _record-matching-rules-label:
 
 Record matching rules

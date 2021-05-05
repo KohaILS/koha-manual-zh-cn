@@ -62,6 +62,12 @@
 .. |patroncatlist| image:: images/admin/patroncirc/patroncatlist.png
 				:alt: Patron categories table
 
+.. CATALOG ADMINISTRATION
+
+.. |multipleregexsplittingrule| image:: images/admin/cataloging/multipleregexsplittingrule.png
+				:alt: The example above shown in the interface
+
+
 .. SYSTEM PREFERENCES
 
 .. |856imagemarc| image:: images/admin/globalprefs/856imagemarc.png
