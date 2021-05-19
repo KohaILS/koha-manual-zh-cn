@@ -202,10 +202,14 @@ the OPAC.
 
     You need to be logged in as a staff member with the
     suggestions_manage :ref:`acquisitions permission <patron-permissions-label>`
-    in order to view and work with purchase suggestions.
+    in order to view and work with purchase suggestions.  
+    
+    If you have the suggestions_manage permission but not Acquisitions permissions
+    you can access the suggestion management tool from Suggestions under the More menu in the header bar. 
 
 When a suggestion is waiting for library review, it will
-appear on the Acquisitions home page next to the vendor search.
+appear on the Acquisitions home page next to the vendor search.  Clicking 'Manage suggestions' 
+will take you to the suggestion management tool.
 
 |image794|
 
@@ -213,8 +217,7 @@ It will also appear on the main staff dashboard under the module labels:
 
 |image795|
 
-Clicking 'Manage suggestions' will take you to the suggestion management
-tool. If there are no pending suggestions you can access the suggestion
+If there are no pending suggestions you can access the suggestion
 management tool by clicking the 'Manage suggestions' link on the menu on
 the left of the Acquisitions page.
 
