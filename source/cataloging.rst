@@ -84,7 +84,7 @@ library in the basic or advanced editor
 -  The display of extra MARC fields and subfields can be configured via
    the :ref:`AdditionalFieldsInZ3950ResultSearch` preference.
 
--  From the results' 'Action' button you can view the MARC or Card
+-  From the results' 'Actions' button you can view the MARC or Card
    view for the record or choose to import it into Koha.
 
    |image629|
@@ -905,7 +905,7 @@ the pull down and clicking the 'Set status' button.
 Duplicating items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can easily duplicate each item by clicking the 'Action' button the
+You can easily duplicate each item by clicking the 'Actions' button the
 left of each item on the edit items screen
 
 |image692|
@@ -1163,7 +1163,7 @@ Merging authorities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you have duplicate authority records you can merge them together by
-clicking the 'Merge' link, found in the actions menu, next to two
+clicking the 'Merge' link, found in the Actions menu, next to two
 results on an authority search.
 
 |image714|
