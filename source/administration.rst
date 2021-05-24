@@ -2680,82 +2680,28 @@ the description for the framework:
 
 |image185|
 
-To make edits to the fields and subfields associated with the framework you must first
-click 'MARC Structure' and then follow the instructions for :ref:`editing fields and subfields <edit-framework-fields-and-subfields-label>`
-
-.. _add-fields-to-frameworks-label:
-
-Add fields to frameworks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If a framework doesn't contain a field that you require you may need to add it.
-To add a field to a framework click the 'New tag' button at the top of
-the framework definition
-
-|image186|
-
-This will open up a blank form for entering MARC field data
-
-|image187|
-
-Enter the information about your new tag:
-
--  The 'Tag' is the MARC field number
-
--  The 'Label for lib' is the text that will appear in the staff client
-   when in the cataloging module
-
--  The 'Label for OPAC' is the text that will appear in the OPAC when
-   viewing the MARC version of the record
-
--  If this field can be repeated, check the 'Repeatable' box
-
--  If this field is mandatory, check the 'Mandatory' box
-
--  If this field is not mandatory but is important, check the 'Important' box
-
-   -  If the important field is not filled upon saving the record, there will 
-      be a warning, but the user will still be able to save the record
-
--  You can enter default values for indicators in the 'First indicator default 
-   value' and 'Second indicator default value' field
-
--  If you want this field to be a pull down with limited possible
-   answers, choose which 'Authorized value' list you want to use
-   
-   **Note**
-
-   The authorized value option at field level does not work.
-
-When you're finished, click 'Save changes' and your new tag will be displayed 
-in the framework field list.
-
-|image188|
-
-To the right of the new field is the 'Actions' button which gives you access 
-to edit the subfields. You will need to add subfields to make this tag appear 
-in your MARC editor. The process of entering the settings for the new subfield 
-is the same as those found in the :ref:`editing fields and subfields in 
-frameworks <edit-framework-fields-and-subfields-label>` section of this manual.
-
 .. _edit-framework-fields-and-subfields-label:
 
 Edit framework fields and subfields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Frameworks are made up of MARC fields (tags) and subfields. 
+Frameworks are made up of MARC fields (tags) and subfields.  To make edits to the fields and subfields 
+associated with the framework you must click on 'Actions' and then 'MARC structure'.
 
-Edit a MARC field
+.. _edit-a-marc-field-label:
+
+Edit a MARC field (tag)
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-To make edits to a MARC **field** click on Actions then 'Edit' to the right of 
-the field
+After clicking on 'MARC structure' you will be taken to a screen listing all the available tags for that framework and you can search for the tag you need. To make edits to a MARC **field** click on 'Actions' on the right of the field then 'Edit tag'.
 
 |image189|
 
+The next screen shows details of the tag.
+
 -  Each field has a tag (which is the MARC tag) that is uneditable
 
--  The 'Label for lib' is what will show in the staff client if you have 
+-  The 'Label for lib' is what will show in the staff interface if you have 
    :ref:`advancedMARCeditor` set to display labels
 
 -  The 'Label for OPAC' is what will show on the MARC view in the OPAC
@@ -2779,6 +2725,8 @@ the field
    **Note**
 
    The authorized value option at field level does not work.
+
+.. _edit-a-marc-subfield-label:
 
 Edit a MARC subfield
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -2940,6 +2888,63 @@ constraints and Other options.
             names already in the catalogue.
 
 -  To save your changes simply click the 'Save changes'.
+
+.. _add-fields-to-frameworks-label:
+
+Add fields to frameworks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If a framework doesn't contain a field that you require you may need to add it.
+To add a field to a framework click the 'New tag' button at the top of
+the framework definition
+
+|image186|
+
+This will open up a blank form for entering MARC field data
+
+|image187|
+
+Enter the information about your new tag:
+
+-  The 'Tag' is the MARC field number
+
+-  The 'Label for lib' is the text that will appear in the staff interface
+   when in the cataloging module
+
+-  The 'Label for OPAC' is the text that will appear in the OPAC when
+   viewing the MARC version of the record
+
+-  If this field can be repeated, check the 'Repeatable' box
+
+-  If this field is mandatory, check the 'Mandatory' box
+
+-  If this field is not mandatory but is important, check the 'Important' box
+
+   -  If the important field is not filled upon saving the record, there will 
+      be a warning, but the user will still be able to save the record
+
+-  You can enter default values for indicators in the 'First indicator default 
+   value' and 'Second indicator default value' field
+
+-  If you want this field to be a pull down with limited possible
+   answers, choose which 'Authorized value' list you want to use
+   
+   **Note**
+
+   The authorized value option at field level does not work.
+
+When you're finished, click 'Save changes' and your new tag will be displayed 
+in the framework field list.
+
+|image188|
+
+You will need to add at least one subfield to your new tag before it will appear 
+in your framework when you are cataloguing.
+
+Click on the 'Actions' button for your new tag and then 'Edit subfields'.  Click on the 'New' tab and enter your
+subfield code.  The process for entering the remainder of the settings for the new subfield 
+is the same as those found in the :ref:`editing fields and subfields in 
+frameworks <edit-framework-fields-and-subfields-label>` section of this manual.
 
 .. _import/export-frameworks-label:
 
