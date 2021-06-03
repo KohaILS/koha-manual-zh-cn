@@ -1254,9 +1254,6 @@ Patron permissions defined
 
 -  Koha plugins (plugins)
 
-   -  Note that the :ref:`UseKohaPlugins` system preference needs to be enabled
-      otherwise, these permissions don't have any effect.
-
    -  Configure plugins (configure)
 
       -  Gives the ability to run the 'configure' section of a plugin if it has

@@ -7617,32 +7617,6 @@ Description:
    OverDriveClientSecret <overdriveclientkey-and-overdriveclientsecret-label>` are populated you will
    see OverDrive results on your OPAC searches.
 
-.. _plugins-label:
-
-Plugins
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. _usekohaplugins-label:
-
-UseKohaPlugins
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Default: Don't enable
-
-Asks: \_\_\_ the ability to use Koha Plugins.
-
-Values:
-
--  Don't enable
-
--  Enable
-
-    **Note**
-
-    The plugin system must also be enabled in the Koha configuration
-    file to be fully enabled. Learn more in the `Plugins
-    chapter <#pluginsystem>`__.
-
 .. _syndetics-label:
 
 Syndetics
