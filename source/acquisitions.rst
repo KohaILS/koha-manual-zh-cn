@@ -413,8 +413,11 @@ with several options for adding items to the order.
 
 |image1407|
 
+Adding materials to the basket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Order from an existing record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*****************************
 
 -  If you are ordering another copy of an existing item, you can simply
    search for the record in your system.
@@ -436,7 +439,7 @@ Order from an existing record
          listed under 'Catalog details.'
 
 Order from a purchase suggestion
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+********************************
 
 -  If you allow patrons to make purchase suggestions (learn more in the
    :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` section of this manual),
@@ -474,7 +477,7 @@ Order from a purchase suggestion
 .. _order-from-a-serial-subscription-label:
 
 Order from a serial subscription
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+********************************
 
 -  If you're using the `Serials <#serials>`__ module you can link your
    subscription order information to acquisitions by choosing to order
@@ -499,7 +502,7 @@ Order from a serial subscription
 .. _order-from-a-new-empty-record-label:
 
 Order from a new (empty) record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*******************************
 
 -  To order from a record that can't be found anywhere else, choose the
    'From a new (empty) record' option.
@@ -519,7 +522,7 @@ Order from a new (empty) record
 .. _duplicate-orders-label:
 
 Duplicate orders (order from existing orders)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*********************************************
 
 -  You can duplicate an existing order line by choosing the 'From existing
    orders (copy)' option.
@@ -535,7 +538,7 @@ Duplicate orders (order from existing orders)
 .. _order-from-an-external-source-label:
 
 Order from an external source
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*****************************
 
 -  If you want to search other libraries for an item to purchase, you
    can use the 'From an external source' option that will allow you to
@@ -566,7 +569,7 @@ Order from an external source
 .. _order-from-a-new-file-label:
 
 Order from a new file
-^^^^^^^^^^^^^^^^^^^^^
+*********************
 
 -  If your vendor sent you a record file (a .mrc file for example), you can
    add orders using the records in that file. Choose the 'From a new file'
@@ -611,7 +614,7 @@ Order from a new file
 .. _order-from-a-staged-file-label:
 
 Order from a staged file
-^^^^^^^^^^^^^^^^^^^^^^^^
+************************
 
 -  This option is the same as the previous one, but in this case, your file has already
    been :ref:`staged <stage-marc-records-for-import-label>`. Whether you choose to 'order
@@ -653,7 +656,7 @@ Order from a staged file
 .. _order-from-titles-with-highest-holds-ratio-label:
 
 Order from titles with highest hold ratios
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+******************************************
 
 -  The final option for ordering is to order from a list of titles with
    the highest hold ratios
@@ -664,6 +667,9 @@ Order from titles with highest hold ratios
       order, click that and it will add the item to your basket.
 
       |image1285|
+
+Setting patron notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With any of the above ordering options you're presented with an option
 to notify patrons of the new item when it's received. The contents of
@@ -684,6 +690,9 @@ Patron notification search
 
    |image1286|
 
+Adding items to materials
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 After bringing in the record information (for all order methods except for
 the staged files), if your :ref:`AcqCreateItem` system
 preference is set to add an item when ordering you will enter the item
@@ -703,6 +712,9 @@ instead of adding them one by one. This will ask you how many items you want to 
 Simply enter that number in the box and click on 'Add'.
 
 |image1412|
+
+Adding accounting details to materials
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you have entered the info about the item, you need to enter the
 Accounting information.
@@ -774,6 +786,9 @@ you will be presented with a confirmation.
 The confirmation warning will allow you order past your fund amount if
 you so choose.
 
+Editing the basket
+~~~~~~~~~~~~~~~~~~
+
 After an item is added to the basket you will be presented with a basket
 summary.
 
@@ -837,6 +852,9 @@ the basket.
 
 |image1287|
 
+Ordering/Closing the basket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Once you're sure your basket is complete, you can click 'Close this
 basket' button to indicate that this basket is complete and has been
 sent to the vendor.
@@ -891,7 +909,7 @@ the :ref:`AcquisitionDetails` preference is set to
 .. _create-a-basket-group-label:
 
 Create a basket group
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 A basket group is simply a group of baskets. In some libraries, you have
 several staff members that create baskets, and, at the end of a period
