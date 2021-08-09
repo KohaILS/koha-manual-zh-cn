@@ -478,28 +478,15 @@ the normal view and choose to 'New child record.'
 
 |image653|
 
-This will open a new blank record for cataloging. The blank record will
-only have the 773 field filled in properly to complete the link once the
-record is saved.
+This will open a new blank record for cataloging. The blank record will have 
+the 773 field filled in properly to complete the link once the record is saved.
 
 |image654|
 
-To view all of the items tied to the host record, do a search for the
-record, click the 'Analytics' tab on the left and the analytics tied to
-each barcode will be shown under the 'Used in' column.
-
-|image655|
-
-You can also see the analytics attached to this record by clicking the
-'Show analytic' link towards the top of the record in the normal view.
-
-|image656|
-
-When looking at the analytic record you will also see a link to the host
-item under the 'Host records' column in the holdings table when viewing
-the 'Analytics' tab.
-
-|image657|
+The 'Show analytics' link from the host record will now use the hosts record 
+control number (001) to search for all records on the system of the type 
+'mongragphic component part' or 'serial component part' (Leader position 7) 
+with a 773 subfield w that contains the hosts record control number.
 
 .. _editing-analytics-label:
 
@@ -507,10 +494,13 @@ Editing analytics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you have linked an analytic record incorrectly you can remove that
-link by editing the item on the analytic record (not the host record).
-To do this, go to the analytic record and click the 'Edit' button and
-choose to 'Edit items'. To the left of each item you will see two
-options.
+link by editing the analytic record (not the host record).
+
+To do this, go to the analytic record and click the 'Edit' button. 
+For `UseControlNumber` simply edit or remove the corresponding 773.
+
+If using `EasyAnalytics` choose to 'Edit items'; To the left of each item 
+you will see two options.
 
 |image658|
 
