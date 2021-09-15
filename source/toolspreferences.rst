@@ -250,7 +250,7 @@ Default: blank
 Description: 
 
 -  This system preference lets you determine how long temporary uploaded files 
-   (files uploaded through the :ref:upload tool <upload-label>` without any 
+   (files uploaded through the :ref:`upload tool <upload-label>` without any 
    category) are kept
 
 .. Note::
