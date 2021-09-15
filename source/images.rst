@@ -351,14 +351,40 @@
 
 .. TOOLS
 
+.. |addadditionalcontent| image:: images/tools/news/addadditionalcontent.png
+				:alt: New additional content entry form
+
+.. |additionalcontent| image:: images/tools/news/additionalcontent.png
+				:alt: Additional content / HTML customizations main page
+
+.. |additionalcontentdisplaylocations| image:: images/tools/news/additionalcontentdisplaylocations.png
+				:alt: Drop-down menu of display locations for additional content
+
+.. |addnews| image:: images/tools/news/addnews.png
+				:alt: New news entry form
+
+.. |newsdisplaylocations| image:: images/tools/news/newsdisplaylocations.png
+				:alt: Drop-down menu of display locations for news
+
 .. |generateshelflist| image:: images/tools/inventory/generateshelflist.png
 				:alt: The inventory form, the sections Item location filters, Optional filters for inventory lists or comparing barcodes, and Additional options
 
 .. |importbarcodes| image:: images/tools/inventory/importbarcodes.png
 				:alt: The inventory form, the sections Use a barcode file, Or scan items one by one, and Parameters
 
+.. |news| image:: images/tools/news/news.png
+				:alt: News tool main page
+
+.. |newsrss| image:: images/tools/news/newsrss.png
+				:alt: View of a news item on the OPAC with an RSS icon next to the text 'RSS feed for system-wide library news'
+
 .. |shelflist| image:: images/tools/inventory/shelflist.png
 				:alt: A table presenting the items corresponding to the filters
+
+.. |staffnews| image:: images/tools/news/staffnews.png
+				:alt: News blocks on the staff interface's main page
+
+
 
 .. WEBSERVICES
 
@@ -741,12 +767,6 @@
 .. |image384| image:: images/tools/csvprofiles/exportlist.png
 .. |image385| image:: images/tools/logs/logviewer.png
 .. |image386| image:: images/tools/logs/logresults.png
-.. |image387| image:: images/tools/news/news.png
-				:alt: News tool main page
-.. |image388| image:: images/tools/news/addnews.png
-				:alt: New entry form
-.. |image390| image:: images/tools/news/staffnews.png
-				:alt: News blocks on the staff interface's main page
 .. |image391| image:: images/tools/news/slipnews.png
 				:alt: Issue slip with news at the bottom
 .. |image392| image:: images/tools/tasksched/taskscheduler.png
@@ -1551,10 +1571,6 @@
 .. |image1238| image:: images/tools/marcmodtemplates/proxyurl.png
 				:alt: Add a new action form with the following options: Copy and replace all fields 856 u to field 856 u RegEx s/^/http://proxy=/ Description: Add proxy URL
 .. |image1239| image:: images/tools/uploadlocalimg/multiplecovers.png
-.. |image1240| image:: images/tools/news/displaylocation.png
-				:alt: Drop-down menu of display locations
-.. |image1241| image:: images/tools/news/newsrss.png
-				:alt: View of a news item on the OPAC with an RSS icon next to the text 'RSS feed for system-wide library news'
 .. |image1242| image:: images/tools/upload/uploadtemp.png
 .. |image1243| image:: images/tools/upload/upload.png
 .. |image1244| image:: images/tools/upload/uploadresult.png

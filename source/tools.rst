@@ -3687,109 +3687,196 @@ News
 
 -  *Get there:* More > Tools > Additional tools > News
 
-Koha's news module allows librarians to post content and news to the OPAC, staff
+Koha's news module allows librarians to post news to the OPAC, staff
 interface and circulation receipts.
 
-|image387|
+|news|
 
 To add news to either the OPAC, the staff interface or a circulation
 receipt:
 
 -  Click 'New entry'
 
-   |image388|
+   |addnews|
 
-   -  Under 'Display location' choose where to put the news
+   -  Code: enter a unique code for this news item
 
-      |image1240|
+   -  Display location: choose where to put the news
 
-      -  Librarian interface: content will appear on the staff interface main
+      |newsdisplaylocations|
+
+      -  Librarian and OPAC interfaces: content will appear on the staff 
+         interface main page as well as in the news block on the OPAC
+      
+      -  Librarian interface: content will appear on the staff interface 
+         main page
+
+         |staffnews|
+
+      -  OPAC: content will appear in the top middle part of the OPAC 
          page
 
-         |image390|
+         -  Below the news in the OPAC there will be an RSS icon allowing you
+            and your users to subscribe to library news
+
+            |newsrss|
+
+         -  You can allow your users to choose to see branch-specific news 
+            with the :ref:`OpacNewsLibrarySelect` system preference
 
       -  Slip: content will appear on the circulation receipts
 
          |image391|
 
-         **Note**
+         .. Note::
 
-         This can be activated or deactivated in the 
-         :ref:`Notices & slips tool <notices-and-slips-label>`
+            This can be activated or deactivated in the 
+            :ref:`Notices & slips tool <notices-and-slips-label>`
 
-      -  For each language your OPAC is available in, you can set up news or 
-         content blocks. 
+   -  Library: choose the library for which this news item will be shown
 
-         The following image shows where each block is displayed on the OPAC's 
-         main page
-
-         |image1068|
-
-         **Note** 
-
-         :ref:`OpacNav` and :ref:`OpacNavBottom` are system preferences and the 
-         :ref:`Quote of the day <quote-of-the-day-(qotd)-editor-label>` feature 
-         is found in the tools module. The rest of the customizable blocks are 
-         managed in the news tool.
-
-         -  OPAC news: content will appear in the top middle part of the OPAC 
-            page
-
-            -  Below the news in the OPAC there will be an RSS icon allowing you
-               and your users to subscribe to library news
-
-               |image1241|
-
-            -  You can allow your users to choose to see branch-specific news 
-               with the :ref:`OpacNewsLibrarySelect` system preference
-
-         -  OpacNavRight: content will appear on the right side of the OPAC page
-
-         -  opacheader: content will appear at the top of the OPAC page
-
-         -  OpacCustomSearch: content will replace the simple search bar at the 
-            top of the page
-
-         -  OpacMainUserBlock: content will appear in the middle of the OPAC's 
-            main page
-
-         -  opaccredits: content will appear at the bottom of the page
-
-         -  OpacLoginInstructions: content will appear under the login box on 
-            the OPAC's main page
-
-   -  Choose the library this news item will show for
-
-   -  Choose a title for your entry
-
-   -  Using the publication and expiration date fields you can control
-      from which date and for how long your news item appears
+   -  Publication date: use the publication date field to control from which 
+      date your news item appears
 
       -  Examples: (these assume today's date as 7 May 2019)
 
          -  Publish on current date: set publication date as 7 May 2019
 
-         -  Schedule for publishing in future: set date later than
-            7 May 2019
+         -  Schedule for publishing in future: set date later than 7 May 2019
 
          -  Backdate the news item: set date earlier than 7 May 2019
 
-   -  'Appear in position' lets you decide what order your news items
-      appear in
+   -  Expiration date: use the expiration date field to automatically stop 
+      showing the news item when it is no longer relevant. 
 
-   -  The 'News' box is the content of your news item
+      -  If this field is empty the news item will be shown until you remove 
+         it manually
 
-      **Note**
+   -  Appear in position: you decide in what order your news items appear
+
+      -  If the field is left empty, the news will appear from newest to oldest
+
+      -  In this field, 0 is the top-most position; the larger the number, the 
+         lower in the list the news will appear
+
+   -  You can enter the news title and text for each language installed 
+
+.. Note::
 
       You can choose which type of editor to use here (either a text editor or 
       a WYSIWYG (what you see is what you get) editor) with the 
-      :ref:`NewsToolEditor` system preference.
+      :ref:`AdditionalContentsEditor` system preference.
 
 -  After filling in all of the fields, click 'Submit'
 
-Depending on your choice for the :ref:`NewsAuthorDisplay` system preference
+Depending on your choice for the :ref:`NewsAuthorDisplay` system preference,
 you will also see the person who created the news item (this uses the logged in
-person)
+person).
+
+.. _html-customizations-label:
+
+HTML customizations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  *Get there:* More > Tools > Additional tools > HTML customizations
+
+Koha's HTML customizations tool allows staff to post content to the OPAC.
+
+|additionalcontent|
+
+To add content to the OPAC:
+
+-  Click 'New entry'
+
+   |addadditionalcontent|
+
+   -  Code: enter a unique code for this additional content item
+
+   -  Display location: choose where to put the content
+
+      |additionalcontentdisplaylocations|
+
+      
+      The following image shows where each block is displayed on the OPAC's 
+      main page
+
+      |image1068|
+
+         .. Note::
+
+            :ref:`OpacNav` and :ref:`OpacNavBottom` are system preferences and the 
+            :ref:`Quote of the day <quote-of-the-day-(qotd)-editor-label>` feature 
+            is found in the tools module. The rest of the customizable blocks are 
+            managed in the HTML customizations tool.
+
+
+      -  OpacNavRight: content will appear on the right side of the OPAC page
+
+      -  opacheader: content will appear at the top of the OPAC page
+
+      -  OpacCustomSearch: content will replace the simple search bar at the 
+         top of the page
+
+      -  OpacMainUserBlock: content will appear in the middle of the OPAC's 
+         main page
+
+      -  opaccredits: content will appear at the bottom of the page
+
+      -  OpacLoginInstructions: content will appear under the login box on 
+         the OPAC's main page
+
+      -  OpacSuggestionInstructions: content will replace the text at the top 
+         of the :ref:`purchase suggestion form on the OPAC <purchase-suggestions-opac-label>`
+
+      -  ArticleRequestDisclaimerText: content will appear and patron will have
+         to accept before they can continue to the article request form; use 
+         for any copyright/disclaimer patrons need to be aware of regarding 
+         photocopies or scans of articles or chapters
+
+   -  Library: choose the library for which this content will be shown
+
+   -  Publication date: use the publication date field to control from which 
+      date your content appears
+
+      -  Examples: (these assume today's date as 7 May 2019)
+
+         -  Publish on current date: set publication date as 7 May 2019
+
+         -  Schedule for publishing in future: set date later than 7 May 2019
+
+         -  Backdate the news item: set date earlier than 7 May 2019
+
+   -  Expiration date: use the expiration date field to automatically stop 
+      showing the content when it is no longer relevant.
+
+      -  If this field is empty the content will be shown until you remove it 
+         manually
+
+   -  Appear in position: you decide in what order your content appear, when 
+      there is more than one in the same display location
+
+      -  If the field is left empty, the content will appear from oldest to newest
+
+      -  In this field, 0 is the top-most position; the larger the number, the 
+         lower in the list the content will appear
+
+   -  You can enter the content title and text for each language installed 
+
+      .. Note::
+
+         The title is not shown for additional content. It mostly serves to 
+         know at a glance what the content is about when looking at the list of 
+         additional content items. If you want a title to appear, you must add 
+         it in the text portion.
+
+.. Note::
+
+      You can choose which type of editor to use here (either a text editor or 
+      a WYSIWYG (what you see is what you get) editor) with the 
+      :ref:`AdditionalContentsEditor` system preference.
+
+-  After filling in all of the fields, click 'Submit'
+
 
 .. _task-scheduler-label:
 
