@@ -1118,7 +1118,7 @@ You will see transferred orders when viewing the basket.
 
 .. _cancelling-an-order-label:
 
-Cancelling orders
+Canceling orders
 ---------------------------------------
 
 If the item cannot be found anywhere you can cancel the order by
@@ -1127,7 +1127,7 @@ your reason and confirm cancellation.
 
 |image1289|
 
-You will also see that the item is cancelled if you view the basket.
+You will also see that the item is canceled if you view the basket.
 
 |image850|
 
@@ -1141,7 +1141,7 @@ You will also see that the item is cancelled if you view the basket.
      **Note**
 
      You cannot re-open a basket that is attached to a basket group.  The 
-     re-open basket button will be greyed out.
+     re-open basket button will be grayed out.
 
 .. Instead, follow the procedure below.
 .. Is this still valid?

@@ -172,7 +172,7 @@ Click the 'Add Group' button at the top of the screen
 
     **Note**
 
-    This can be overriden with the :ref:`user permission view_borrower_infos_
+    This can be overridden with the :ref:`user permission view_borrower_infos_
     from_any_libraries <patron-permissions-defined-label>`.
 
 - If you want the group to show up in the library pulldown menu at the
@@ -233,7 +233,7 @@ For example, if you have an adult circulation desk and a children's circulation
 desk, or if you have a different desk for each floor or each department.
 
 Make sure to enable the :ref:`UseCirculationDesks` system preference to use this 
-fuctionality.
+functionality.
 
 -  *Get there:* More > Administration > Basic parameters > Desks
 
@@ -251,7 +251,7 @@ page.
 
 -  Choose the library in which this desk is.
 
--  Click 'Sumbit'.
+-  Click 'Submit'.
 
 .. _editing-circulation-desks:
 
@@ -283,7 +283,7 @@ codes.
 
 -  *Get there:* More > Administration > Basic parameters > Item types
 
-Item types typically refer to the material type (book, cd, dvd, etc),
+Item types typically refer to the material type (Book, CD, DVD, etc),
 but can be used in any way that works for your library.
 
 |image134|
@@ -422,7 +422,7 @@ top of the Item types page.
 
    |image136|
 
-   -  The checkin message type can be a 'message' or an 'alert'. The only
+   -  The check-in message type can be a 'message' or an 'alert'. The only
       difference between these two is the styling. By default a message
       is blue
 
@@ -567,7 +567,7 @@ is likely to use or that are used by the system.
 -  CONTROL\_NUM\_SEQUENCE
 
    -  Used to generate control numbers in the 
-      :ref:`advanced cataloguing editor <advanced-editor-cataloging-label>`.
+      :ref:`advanced cataloging editor <advanced-editor-cataloging-label>`.
       Enter a string ending with a number as the authorized value and use
       the description to describe the type of number. For example: 'sprLib0001'
       'Springfield library'. In the advanced editor this will activate a
@@ -633,7 +633,7 @@ is likely to use or that are used by the system.
 
 -  HOLD\_CANCELLATION
 
-   -  Reasons why a hold might have been cancelled. These are used when 
+   -  Reasons why a hold might have been canceled. These are used when 
       :ref:`cancelling holds <managing-holds-label>`.
 
    -  If you chose to install the default values for this category, you will have 
@@ -783,7 +783,7 @@ is likely to use or that are used by the system.
 
 -  ORDER\_CANCELLATION\_REASON
 
-   -  Reasons why an order might have been cancelled, used in 
+   -  Reasons why an order might have been canceled, used in 
       :ref:`acquisitions <cancelling-an-order-label>`
 
    -  If you chose to install the default values for this category, you will have 
@@ -1179,8 +1179,8 @@ To add a new patron category click 'New category' at the top of the page
       :ref:`update\_patrons\_category.pl <cron-update-patron-categories-label>` 
       cron job to change the category of patrons who are too young.
 
--  Upperage limit: maximum age (in years) associated with the category. For 
-   example, a 'Children' patron category could have an upperage limit of 18, 
+-  Upper age limit: maximum age (in years) associated with the category. For 
+   example, a 'Children' patron category could have an upper age limit of 18, 
    meaning patrons can have children cards until they turn 18.
 
    -  When creating or updating a patron, a warning will appear if the patron 
@@ -1535,7 +1535,7 @@ item types to apply the rules to
 
 -  Enter the 'Fine charging interval' in the unit you set (ex. charge
    fines every 1 day, or every 2 hours). The :ref:`finesCalendar` system
-   preference controls wether the days the library is closed will be taken
+   preference controls whether the days the library is closed will be taken
    into account or not.
 
 -  'When to charge' is most handy in libraries that have a fine charging
@@ -2307,7 +2307,7 @@ elsewhere in Koha.
    set in the :ref:`circulation and fines rules <circulation-and-fines-rules-label>`.
 
 -  PAYOUT (Payment from library to patron): this is used when the library 
-   reimburses the patron (for an overpayment for example).
+   reimburses the patron (for an over payment for example).
 
 -  PROCESSING (Lost item processing fee): this is charged automatically 
    to the patron's account when an item in their file is declared lost. 
@@ -2456,7 +2456,7 @@ Several credit types come installed with Koha. Most of them are
 automatic credits that are added according to the policies you set up 
 elsewhere in Koha. They can not be deleted.
 
--  CANCELLATION (Cancelled charge): this is used when 
+-  CANCELLATION (Canceled charge): this is used when 
    :ref:`cancelling a charge in a patron's account <charging-fines/actions-label>`
 
 -  CREDIT (Credit): this is used for :ref:`manual credits <creating-manual-credits-label>` 
@@ -2473,9 +2473,9 @@ elsewhere in Koha. They can not be deleted.
    lost item fee refund on return policy <item-fee-refund-on-return-label>`), 
    this credit will be applied to refund the fee.
 
--  OVERPAYMENT (Overpayment refund): this is automatically applied to a 
+-  OVERPAYMENT (Over payment refund): this is automatically applied to a 
    patron's account when they paid too much for a fee. This is mostly used 
-   when backdating checkins where the patron has already paid the full fine.
+   when backdating check-ins where the patron has already paid the full fine.
 
 -  PAYMENT (Payment): as the name states, this is used to indicate 
    :ref:`fee payments <pay-and-writeoff-fines-label>`.
@@ -2717,7 +2717,7 @@ The next screen shows details of the tag.
    nonetheless
 
 -  If you add default values for indicators here these will be pre-filled to 
-   save time when cataloguing but can still be edited if required
+   save time when cataloging but can still be edited if required
 
 -  'Authorized value' is where you define an :ref:`authorized value 
    <authorized-values-label>` pull down list for your catalogers
@@ -2804,8 +2804,8 @@ constraints and Other options.
 
       **Note**
 
-      The Editor tickbox controls whether this subfield will display within
-      cataloguing editor for this framework. If you tick Collapsed the
+      The Editor checkbox controls whether this subfield will display within
+      cataloging editor for this framework. If you check Collapsed the
       subfield will be hidden in the editor but will be displayed if
       the field label is clicked to expand all subfields
 
@@ -2885,7 +2885,7 @@ constraints and Other options.
          -  If you would like to enable an autocomplete search for publishers 
             in 260b and 264b you can set the plugin to marc21_field_260b.pl.  When you start 
             typing in a publisher name you will be given search results based on publisher 
-            names already in the catalogue.
+            names already in the catalog.
 
 -  To save your changes simply click the 'Save changes'.
 
@@ -2939,7 +2939,7 @@ in the framework field list.
 |image188|
 
 You will need to add at least one subfield to your new tag before it will appear 
-in your framework when you are cataloguing.
+in your framework when you are cataloging.
 
 Click on the 'Actions' button for your new tag and then 'Edit subfields'.  Click on the 'New' tab and enter your
 subfield code.  The process for entering the remainder of the settings for the new subfield 
@@ -3181,11 +3181,11 @@ When creating or editing:
 
       -  Converts to uppercase.
 
-      -  Removes any leading or trailing whitespaces, and forward slashes (\/)
+      -  Removes any leading or trailing white spaces, and forward slashes (\/)
 
       -  Separates alphabetic prefix from the rest of the call number
 
-      -  Splits into tokens on whitespaces and periods.
+      -  Splits into tokens on white spaces and periods.
 
       -  Leaves first digit group as is.
 
@@ -3202,7 +3202,7 @@ When creating or editing:
       
       -  Concatenates classification and item parts.
 
-      -  Removes any leading or trailing whitespaces.
+      -  Removes any leading or trailing white spaces.
 
       -  Converts each whitespace to an underscore.
 
@@ -3469,7 +3469,7 @@ To create a new matching rule :
 
       - Lowercase
 
-      - Legacy default - this option was added to maintain the behaviour
+      - Legacy default - this option was added to maintain the behavior
         form before the other normalization rules became available.
 
       - ISBN - using this option will improve matching on ISBN. If your
@@ -3573,7 +3573,7 @@ record content.
    'XXX'. Fill 'Field' with 999, 'Subfield' with 9 and 'Value' with XXX.
 
 -  If you want to add another condition, click on 'Add' button and repeat
-   step 1. You can choose between 'and' or 'or' boolean operators to link 
+   step 1. You can choose between 'and' or 'or' Boolean operators to link 
    your conditions.
 
 -  Click on 'Save'
@@ -3621,7 +3621,7 @@ To add a new search term simply click the 'New search field' button
 
 -  MARC subfield is the subfield you'd like to search in
 
--  Authorised values category can be used to turn this search field in
+-  Authorized values category can be used to turn this search field in
    to a pull down instead of a free text field
 
 Once your new field is added it will be visible at the top of this page
@@ -3897,9 +3897,9 @@ The three first fields are required, the rest are optional
    that librarians know when to use this fund
 
 -  Planning categories are used for statistical purposes. If you will be
-   using the Asort1 and/or Asort2 authorised values lists to track your orders
+   using the Asort1 and/or Asort2 authorized values lists to track your orders
    you need to select them when setting up the fund.  Select the Asort1/Asort2
-   option from the dropdown lists for the Statiscal 1 done on: and
+   option from the dropdown lists for the Statistical 1 done on: and
    Statistical 2 done on: fields.
 
 -  To learn more about planning categories, check out the :ref:`Planning category FAQ <faq-planning-categories-label>`.
@@ -4136,13 +4136,13 @@ libraries (in the Americas):
 
 -  GREATER SUDBURY PUBLIC 216.223.90.51:210 INNOPAC
 
--  HALIFAX PUBLIC catalogue.halifaxpubliclibraries.ca:210 horizon
+-  HALIFAX PUBLIC catalog.halifaxpubliclibraries.ca:210 horizon
 
 -  HALTON HILLS PUBLIC cat.hhpl.on.ca:210 halton\_hills
 
 -  LIBRARY OF CONGRESS lx2.loc.gov: 210 LCDB
 
--  LONDON PUBLIC LIBRARY catalogue.londonpubliclibrary.ca:210 INNOPAC
+-  LONDON PUBLIC LIBRARY catalog.londonpubliclibrary.ca:210 INNOPAC
 
 -  MANITOBA PUBLIC library.gov.mb.ca:210 horizon
 
@@ -4476,7 +4476,7 @@ information in the selector box. For example if you enter
 
     body:contains('Check in message')
 
-Then when you visit the checkin page you will hear an alert.
+Then when you visit the check-in page you will hear an alert.
 
 Every page in Koha has a unique ID in the body tag which can be used to
 limit a sound to a specific page

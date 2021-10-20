@@ -30,7 +30,7 @@ ILL email notifications
 Email notifications can be sent to ILL staff when a patron makes a request to modify or cancel an existing request.  The notice templates are 
 ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail` system preference will be used.
 
-Notifications can also be sent to patrons for requests that are either available for pick-up or are unavailable and have been cancelled.  The notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The notifications are enabled from the :ref:`patron categories <patron-categories-label>` default patron messaging preferences.  You can customise the notice text for these notices in :ref:`Notices & slips <notices-and-slips-label>` in the Tools module.
+Notifications can also be sent to patrons for requests that are either available for pick-up or are unavailable and have been canceled.  The notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The notifications are enabled from the :ref:`patron categories <patron-categories-label>` default patron messaging preferences.  You can customize the notice text for these notices in :ref:`Notices & slips <notices-and-slips-label>` in the Tools module.
 
 
 .. _create-ILL-requests-label:
@@ -126,8 +126,8 @@ status of the request you may see some or all of the following options:
 
    -  Dependent on the backend used for the request you may be able to edit,
       add or delete some or all of the request metadata.  For example, if the
-      metdata has originated from a requestor using the FreeForm backend this
-      may need to be edited, whereas metadata from an external recognised source
+      metadata has originated from a requester using the FreeForm backend this
+      may need to be edited, whereas metadata from an external recognized source
       such as BLDSS should not.     
 -  Display supplier metadata
 
@@ -176,12 +176,12 @@ If you have a network of partner libraries which permit ILL requests you can man
 -  You will need to create a patron account with this category for each partner library.
 
 -  Each library must have an email address as this will be the mechanism for sending the inter-library loan request.  The notice 
-   template is ILL_PARTNER_REQ and the text can be customised from :ref:`Notices & slips <notices-and-slips-label>` in the Tools module.
+   template is ILL_PARTNER_REQ and the text can be customized from :ref:`Notices & slips <notices-and-slips-label>` in the Tools module.
 
 You can now use the 'Place request with partners' option when processing requests.
 
 .. Note::
-   If you have enabled the :ref:`ILLCheckAvailability` preference enabled you can use plugins to search the catalogues of your partner libraries using Z39.50 prior to confirming the request with a partner.
+   If you have enabled the :ref:`ILLCheckAvailability` preference enabled you can use plugins to search the catalogs of your partner libraries using Z39.50 prior to confirming the request with a partner.
 
 
 .. _circulating-ILL-material-label:
@@ -191,7 +191,7 @@ Circulating ILL materials
 
 If you have enabled the :ref:`CirculateILL` preference you can checkout ILL items directly from the ILL request.
 
-When you create a *Book* type request a brief catalogue record is created automatically based on the Fast Add MARC framework. 
+When you create a *Book* type request a brief catalog record is created automatically based on the Fast Add MARC framework. 
 Once a request has a suitable status, a Checkout button is displayed on the Manage request toolbar. Clicking this will enable the user to check out the item either to the user who made the request or an in-house statistical patron. 
 
 To checkout an item:

@@ -72,7 +72,7 @@ IdRef
 
 Default: Disable
 
-Asks: \_\_\_ the IdRef webservice from the opac detail page. IdRef
+Asks: \_\_\_ the IdRef webservice from the OPAC detail page. IdRef
 allows to request authorities from the Sudoc database.
 
 Values:
@@ -259,7 +259,7 @@ OAI-PMH:AutoUpdateSetsEmbedItemData
 Default: Disable
 
 Asks: \_\_\_ embedding of item data when automatically updating OAI-PMH sets.
-NOTE: This needs :ref:`OAI-PMH:AutoUpdateSets` syspref to be enabled.
+NOTE: This needs :ref:`OAI-PMH:AutoUpdateSets` system preference to be enabled.
 
 Values:
 

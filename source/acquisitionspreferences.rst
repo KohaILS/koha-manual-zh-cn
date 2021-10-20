@@ -31,9 +31,10 @@ Values:
 Description:
 
 -  This feature allows libraries to delay the importing of EDI invoices until a 
-   time of their choosing. If the syspref is set to 'Don't' the invoices are imported 
-   into the database but the invoice processing is skipped. Instead, any invoice file 
-   listed in EDIfact messages with a status of 'New' will have an 'Import' button to process the invoice manually.
+   time of their choosing. If the system preference is set to 'Don't' the invoices are 
+   imported into the database but the invoice processing is skipped. Instead, any invoice
+   file listed in EDIfact messages with a status of 'New' will have an 'Import' button to 
+   process the invoice manually.
 
 .. _acquisitions-policy-label:
 
@@ -104,7 +105,7 @@ Description:
 AcqItemSetSubfieldsWhenReceiptIsCancelled
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Upon cancelling a receipt, update the item's subfields if they
+Asks: Upon canceling a receipt, update the item's subfields if they
 were created when placing an order (e.g. o=5\|a="bar foo""). \_\_\_
 
 Description:
@@ -113,7 +114,7 @@ Description:
    :ref:`AcqItemSetSubfieldsWhenReceived`
    preference. If you have the system set to enter default values when
    you receive you will want to have those values revert back if the
-   receipt is cancelled. This preference allows you to do that.
+   receipt is canceled. This preference allows you to do that.
 
 .. _acqitemsetsubfieldswhenreceived-label:
 
