@@ -45,6 +45,7 @@ extensions = [
 # Spelling options
 spelling_lang='en_US'
 spelling_word_list_filename='koha_spelling_wordlist.txt'
+spelling_show_suggestions=True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
