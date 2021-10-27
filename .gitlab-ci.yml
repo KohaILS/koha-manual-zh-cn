@@ -30,7 +30,7 @@ production:
     - pip3 install sphinx_rtd_theme
     - make all_epub # build/LANG/epub
     - make all_html # build/LANG/html
-    - rsync -c -u -r -e "ssh" --progress build/* chrisc@www.koha-community.org:/var/www/manual/21.05/
+    - rsync -c -u -r -e "ssh" --progress build/* chrisc@www.koha-community.org:/var/www/manual/21.11/
     only:
-        - master@koha-community/koha-manual
+        - manual21.11.x@koha-community/koha-manual
     environment: production
