@@ -2178,7 +2178,7 @@ sections - Basic constraints, Advanced constraints and Other options.
              There are several values that you can use here that will
              be replaced automatically when a new record is created:
 
-             -  <<YEAR>> - the current year, 4 digits
+             -  <<YYYY>> - the current year, 4 digits
              -  <<MM>> - the current month, 2 digits
              -  <<DD>> - the current day of month, 2 digits
              -  <<USER>> - the username of the currently logged in user
