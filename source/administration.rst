@@ -2789,11 +2789,11 @@ constraints and Other options.
 
       -  <<DD>> - the current day of month, 2 digits
 
-      -  <<YEAR>> - the current year, 4 digits
+      -  <<YYYY>> - the current year, 4 digits
 
       -  <<USER>> - the username of the currently logged in user
              
-      For example: a default of "<<MM>>/<<DD>>/<<YEAR>>" 
+      For example: a default of "<<MM>>/<<DD>>/<<YYYY>>" 
       (without quotes) will print the current date in the form of
       "01/21/2021"
 
