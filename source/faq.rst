@@ -329,20 +329,11 @@ items, since there was no baseline number of holds or renewals to utilize.
 Unable to place holds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Question**: Why can't I place holds when I have all of the preferences
-turned on.
+**Question**: Why can't I place holds when I have all of the preferences turned on?
 
-**Answer**: You probably need to set a default circulation rule in your
-:ref:`Circulation and fines rules <circulation-and-fines-rules-label>`. At the
-very least you will need to set a default circulation rule. his rule should be as
-standard rule for all libraries, 'All' itemtype', and 'All' patron category.
-That will catch all instances that do not match a specific
-rule.
+**Answer**: You probably need to set a default circulation rule in your :ref:`circulation and fines rules <circulation-and-fines-rules-label>`. This should be a standard rule for all libraries, and all patron categories and item types. That will catch all instances that do not match a specific rule.
 
-The ability to place holds also depends on the 'On shelf holds allowed' setting
-in the used circulation rule. Depending on the setting, it might not be
-possible to place a hold, unless all or at least one item of the record
-is checked out.
+The ability to place holds also depends on the 'On shelf holds allowed' setting in the circulation rule that is used. Depending on the setting, it might not be possible to place a hold if any or all items for a record are checked out.
 
 .. _faq-keyboard-shortcuts-label:
 
