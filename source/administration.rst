@@ -3534,121 +3534,15 @@ Sample bibliographic record matching rule: Control number
 -  Required match checks: none (remove the blank one)
 
    |image211|
+   
+.. _record-overlay-rules-label:
 
-.. _oai-sets-configuration-label:
+Record overlay rules
+~~~~~~~~~~~~~~~~~~~~
 
-OAI sets configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-On this page you can create, modify and delete OAI-PMH sets
-
-.. _create-a-set-label:
-
-Create a set
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To create a set:
-
--  Click on the link 'Add a new set'
-
--  Fill the mandatory fields 'setSpec' and 'setName'
-
--  Then you can add descriptions for this set. To do this click on 'Add
-   description' and fill the newly created text box. You can add as many
-   descriptions as you want.
-
--  Click on 'Save' button'
-
-.. _modify/delete-a-set-label:
-
-Modify/delete a set
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To modify a set, just click on the link 'Modify' on the same line of the
-set you want to modify. A form similar to set creation form will appear
-and allow you to modify the setSpec, setName and descriptions.
-
-To delete a set, just click on the link 'Delete' on the same line of the
-set you want to delete.
-
-.. _define-mappings-label:
-
-Define mappings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Here you can define how a set will be build (what records will belong to
-this set) by defining mappings. Mappings are a list of conditions on
-record content.
-
--  Fill the fields 'Field', 'Subfield' and 'Value'. For example if you
-   want to include in this set all records that have a 999$9 equal to
-   'XXX'. Fill 'Field' with 999, 'Subfield' with 9 and 'Value' with XXX.
-
--  If you want to add another condition, click on 'Add' button and repeat
-   step 1. You can choose between 'and' or 'or' Boolean operators to link 
-   your conditions.
-
--  Click on 'Save'
-
-To delete a condition, just leave at least one of 'Field', 'Subfield' or
-'Value' empty and click on 'Save'.
-
-    **Note**
-
-    Actually, a condition is true if value in the corresponding subfield
-    is strictly equal to what is defined if 'Value'. A record having
-    999$9 = 'XXX YYY' will not belong to a set where condition is 999$9
-    = 'XXX'.
-
-And it is case sensitive : a record having 999$9 = 'xxx' will not belong
-to a set where condition is 999$9 = 'XXX'.
-
-.. _build-sets-label:
-
-Build sets
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Once you have configured all your sets, you have to build the sets. This
-is done by calling the script misc/migration\_tools/build\_oai\_sets.pl.
-
-.. _item-search-fields-label:
-
-Item search fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-From here you can add custom search fields to the :ref:`item
-search <item-searching-label>` option in the staff client.
-
-    |image1205|
-
-To add a new search term simply click the 'New search field' button
-
-    |image1206|
-
--  Name is a field for you to identify the search term
-
--  Label is what will appear on the item search page
-
--  MARC field allows you to pick which field you'd like to search in
-
--  MARC subfield is the subfield you'd like to search in
-
--  Authorized values category can be used to turn this search field in
-   to a pull down instead of a free text field
-
-Once your new field is added it will be visible at the top of this page
-and on the item search page
-
-    |image1207|
-
-.. _search-engine-configuration:
-
-MARC merge rules
-~~~~~~~~~~~~~~~~
-
-MARC merge rules allows for defining rules for defining how incoming and
-original MARC records should be merged on a field tag and context basis
-when a MARC record is updated.
+Record overlay rules allow for defining rules for how incoming and original
+MARC records should be merged on a field tag and context basis when a MARC 
+record is updated.
 
 Contexts
 ^^^^^^^^
@@ -4072,6 +3966,115 @@ Deleted
   event is applied for the fields in the incoming record. If the action is
   "Delete" the fields will be removed from the original record, if "Skip" they
   will be kept.
+
+
+.. _oai-sets-configuration-label:
+
+OAI sets configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On this page you can create, modify and delete OAI-PMH sets
+
+.. _create-a-set-label:
+
+Create a set
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To create a set:
+
+-  Click on the link 'Add a new set'
+
+-  Fill the mandatory fields 'setSpec' and 'setName'
+
+-  Then you can add descriptions for this set. To do this click on 'Add
+   description' and fill the newly created text box. You can add as many
+   descriptions as you want.
+
+-  Click on 'Save' button'
+
+.. _modify/delete-a-set-label:
+
+Modify/delete a set
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To modify a set, just click on the link 'Modify' on the same line of the
+set you want to modify. A form similar to set creation form will appear
+and allow you to modify the setSpec, setName and descriptions.
+
+To delete a set, just click on the link 'Delete' on the same line of the
+set you want to delete.
+
+.. _define-mappings-label:
+
+Define mappings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here you can define how a set will be build (what records will belong to
+this set) by defining mappings. Mappings are a list of conditions on
+record content.
+
+-  Fill the fields 'Field', 'Subfield' and 'Value'. For example if you
+   want to include in this set all records that have a 999$9 equal to
+   'XXX'. Fill 'Field' with 999, 'Subfield' with 9 and 'Value' with XXX.
+
+-  If you want to add another condition, click on 'Add' button and repeat
+   step 1. You can choose between 'and' or 'or' Boolean operators to link 
+   your conditions.
+
+-  Click on 'Save'
+
+To delete a condition, just leave at least one of 'Field', 'Subfield' or
+'Value' empty and click on 'Save'.
+
+    **Note**
+
+    Actually, a condition is true if value in the corresponding subfield
+    is strictly equal to what is defined if 'Value'. A record having
+    999$9 = 'XXX YYY' will not belong to a set where condition is 999$9
+    = 'XXX'.
+
+And it is case sensitive : a record having 999$9 = 'xxx' will not belong
+to a set where condition is 999$9 = 'XXX'.
+
+.. _build-sets-label:
+
+Build sets
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have configured all your sets, you have to build the sets. This
+is done by calling the script misc/migration\_tools/build\_oai\_sets.pl.
+
+.. _item-search-fields-label:
+
+Item search fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+From here you can add custom search fields to the :ref:`item
+search <item-searching-label>` option in the staff client.
+
+    |image1205|
+
+To add a new search term simply click the 'New search field' button
+
+    |image1206|
+
+-  Name is a field for you to identify the search term
+
+-  Label is what will appear on the item search page
+
+-  MARC field allows you to pick which field you'd like to search in
+
+-  MARC subfield is the subfield you'd like to search in
+
+-  Authorized values category can be used to turn this search field in
+   to a pull down instead of a free text field
+
+Once your new field is added it will be visible at the top of this page
+and on the item search page
+
+    |image1207|
+
+.. _search-engine-configuration:
 
 Search engine configuration
 ----------------------------
