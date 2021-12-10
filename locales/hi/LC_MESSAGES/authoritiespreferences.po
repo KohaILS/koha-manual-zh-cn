@@ -8,42 +8,44 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-04-01 10:49+0000\n"
+"Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /hi/man20.11/authoritiespreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617274141.513588\n"
 
 #: ../../source/authoritiespreferences.rst:6
 msgid "Authorities"
-msgstr ""
+msgstr "प्राधिकार"
 
 #: ../../source/authoritiespreferences.rst:8
-msgid ""
-"*Get there:* More > Administration > Global System Preferences > Authorities"
-msgstr ""
+msgid "*Get there:* More > Administration > Global System Preferences > Authorities"
+msgstr "*वहां जाएं* अधिक> प्रशासन> वैश्विक सिस्टम प्राथमिकताएँ > प्राधिकार"
 
 #: ../../source/authoritiespreferences.rst:14
 msgid "General"
-msgstr ""
+msgstr "सामान्य"
 
 #: ../../source/authoritiespreferences.rst:19
 msgid "AuthDisplayHierarchy"
-msgstr ""
+msgstr "AuthDisplayHierarchy"
 
 #: ../../source/authoritiespreferences.rst:21
 msgid "Default: Don't display"
-msgstr ""
+msgstr "डिफ़ॉल्ट: प्रदर्शित नहीं करता है"
 
 #: ../../source/authoritiespreferences.rst:23
-msgid ""
-"Asks: \\_\\_\\_ broader term/narrower term hierarchies when viewing "
-"authorities."
+msgid "Asks: \\_\\_\\_ broader term/narrower term hierarchies when viewing authorities."
 msgstr ""
+"पूछता है: \\_\\_\\_ जब अधिकारियों को देखते हुए व्यापक शब्द / संकरा शब्द "
+"पदानुक्रम."
 
 #: ../../source/authoritiespreferences.rst:26
 #: ../../source/authoritiespreferences.rst:101
@@ -55,11 +57,11 @@ msgstr ""
 #: ../../source/authoritiespreferences.rst:311
 #: ../../source/authoritiespreferences.rst:381
 msgid "Values:"
-msgstr ""
+msgstr "मानः"
 
 #: ../../source/authoritiespreferences.rst:28
 msgid "Display"
-msgstr ""
+msgstr "प्रदर्शन"
 
 #: ../../source/authoritiespreferences.rst:30
 msgid "|image14|"
@@ -67,7 +69,7 @@ msgstr "|image14|"
 
 #: ../../source/authoritiespreferences.rst:32
 msgid "Don't display"
-msgstr ""
+msgstr "प्रदर्शित मत करें"
 
 #: ../../source/authoritiespreferences.rst:34
 #: ../../source/authoritiespreferences.rst:54
@@ -82,469 +84,470 @@ msgstr ""
 #: ../../source/authoritiespreferences.rst:350
 #: ../../source/authoritiespreferences.rst:387
 msgid "Description:"
-msgstr ""
+msgstr "वर्णनः"
 
 #: ../../source/authoritiespreferences.rst:36
-msgid ""
-"If your authority records includes 5xx fields with linked references to "
-"broader and/or narrower see also references this preference will turn on a "
-"display of those authorities at the top of the record."
+msgid "If your authority records includes 5xx fields with linked references to broader and/or narrower see also references this preference will turn on a display of those authorities at the top of the record."
 msgstr ""
+"अपने अधिकार के रिकॉर्ड व्यापक और/या संकरा देखने के लिए संदर्भ के साथ जुड़े "
+"5xx क्षेत्रों में शामिल हैं भी संदर्भ इस वरीयता रिकार्ड के शीर्ष पर बैठे "
+"लोगों के अधिकारियों की एक प्रदर्शन पर बंद हो जाएगा."
 
 #: ../../source/authoritiespreferences.rst:43
 msgid "AuthorityControlledIndicators"
-msgstr ""
+msgstr "AuthorityControlledIndicators"
 
 #: ../../source/authoritiespreferences.rst:45
-msgid ""
-"Asks: Use the following text to edit how authority records control "
-"indicators of attached biblio fields (and possibly subfield $2). Lines "
-"starting with a comment symbol (#) are skipped. Each line should be of the "
-"form: (marc21|unimarc), tag, ind1:(auth1|auth2|some_value), ind2:(auth1|"
-"auth2|thesaurus|some_value). Here auth1 and auth2 refer to the indicators of "
-"the authority record, tag is a biblio field number or an asterisk (*), and "
-"some_value is a fixed value (one character). The MARC21 option thesaurus "
-"refers to indicators controlled by authority field 008/11 and 040$f."
+msgid "Asks: Use the following text to edit how authority records control indicators of attached biblio fields (and possibly subfield $2). Lines starting with a comment symbol (#) are skipped. Each line should be of the form: (marc21|unimarc), tag, ind1:(auth1|auth2|some_value), ind2:(auth1|auth2|thesaurus|some_value). Here auth1 and auth2 refer to the indicators of the authority record, tag is a biblio field number or an asterisk (*), and some_value is a fixed value (one character). The MARC21 option thesaurus refers to indicators controlled by authority field 008/11 and 040$f."
 msgstr ""
+"पूछते हैं: प्राधिकृत रिकॉर्ड संलग्न बाइबिल फ़ील्ड (और संभवतः उपफील्ड $2) के "
+"संकेतकों को नियंत्रित करने के तरीके को संपादित करने के लिए निम्न पाठ का उपयो"
+"ग करें। एक टिप्पणी प्रतीक (#) से शुरू लाइनें छोड़ दी गई हैं। प्रत्येक पंक्ति "
+"फॉर्म का होना चाहिए: (marc21|unimarc), tag, ind1:(auth1|auth2|some_value), "
+"ind2:(auth1|auth2|thesaurus|some_value). यहां auth1 और auth2 प्राधिकरण रिकॉर्"
+"ड के संकेतकों को संदर्भित करते हैं, टैग एक बाइबिल फ़ील्ड नंबर या तारांकन (*) "
+"है, और some_value एक निश्चित मान (एक वर्ण) है। मार्क21 विकल्प थिसॉरस प्राधि"
+"करण फ़ील्ड 008/11 और 040$f द्वारा नियंत्रित संकेतकों को संदर्भित करता है।"
 
 #: ../../source/authoritiespreferences.rst:56
 msgid "Used when merging authorities."
-msgstr ""
+msgstr "अधिकारियों विलय करते समय प्रयुक्त होता है।"
 
 #: ../../source/authoritiespreferences.rst:58
-msgid ""
-"Controls how the indicators of linked authority records affect the "
-"corresponding biblio indicators. Currently, the default value is fine-tuned "
-"for MARC21 and copies the authority indicators for UNIMARC."
+msgid "Controls how the indicators of linked authority records affect the corresponding biblio indicators. Currently, the default value is fine-tuned for MARC21 and copies the authority indicators for UNIMARC."
 msgstr ""
+"नियंत्रित करता है कि लिंक किए गए प्राधिकरण रिकॉर्ड के संकेतक संबंधित बाइबिल "
+"संकेतकों को कैसे प्रभावित करते हैं। वर्तमान में, मार्क21 के लिए डिफ़ॉल्ट "
+"मानदंड ठीक-ठीक है और यूनिमार्क के लिए प्राधिकरण संकेतक की प्रतिलिपि बनाता है।"
 
 #: ../../source/authoritiespreferences.rst:62
-msgid ""
-"For example, a MARC21 field 100 in a biblio record should pick its first "
-"indicator from the linked authority record. The second indicator is not "
-"controlled by the authority. This report supports such MARC conventions."
+msgid "For example, a MARC21 field 100 in a biblio record should pick its first indicator from the linked authority record. The second indicator is not controlled by the authority. This report supports such MARC conventions."
 msgstr ""
+"उदाहरण के लिए,बिब्लियों रिकॉर्ड में एक मार्क21 फ़ील्ड 100 को लिंक किए गए "
+"प्राधिकरण रिकॉर्ड से अपना पहला संकेतक चुनना चाहिए। दूसरा सूचक प्राधिकरण "
+"द्वारा नियंत्रित नहीं है। यह रिपोर्ट ऐसे एमएआरसी सम्मेलनों का समर्थन करती है।"
 
 #: ../../source/authoritiespreferences.rst:69
 msgid "AuthorityMergeLimit"
-msgstr ""
+msgstr "AuthorityMergeLimit"
 
 #: ../../source/authoritiespreferences.rst:71
-msgid ""
-"Asks: When modifying an authority record, do not update attached "
-"bibliographic records if the number exceeds \\_\\_\\_ records. (Above this "
-"limit, the :ref:`merge_authority cron job<cron-update-authorities-label>` "
-"will update them.)"
+msgid "Asks: When modifying an authority record, do not update attached bibliographic records if the number exceeds \\_\\_\\_ records. (Above this limit, the :ref:`merge_authority cron job<cron-update-authorities-label>` will update them.)"
 msgstr ""
+"पूछता है: जब एक प्राधिकरण रिकॉर्ड को संशोधित करते हैं, तो संलग्न ग्रंथ सूची "
+"रिकॉर्ड को अपडेट न करें यदि संख्या \\ _ \\ _ \\ _ रिकॉर्ड से अधिक है। (इस "
+"सीमा से ऊपर, :ref:`merge_authority क्रॉन जॉब <cron-update-authorities-label>`"
+" उन्हें अपडेट करेगा।)"
 
 #: ../../source/authoritiespreferences.rst:75
 msgid "Default: 50"
-msgstr ""
+msgstr "डिफ़ॉल्ट: 50"
 
 #: ../../source/authoritiespreferences.rst:79
-msgid ""
-"This system preference determines the maximum number of bibliographic "
-"records that can be updated when an authority record changes."
+msgid "This system preference determines the maximum number of bibliographic records that can be updated when an authority record changes."
 msgstr ""
+"यह प्रणाली वरीयता अधिकतम ग्रंथ सूची के रिकॉर्ड को निर्धारित करती है जिसे "
+"प्राधिकारी रिकॉर्ड में परिवर्तन होने पर अद्यतन किया जा सकता है।"
 
 #: ../../source/authoritiespreferences.rst:82
-msgid ""
-"This helps prevent overusing resources if an authority record is linked to "
-"many bibliographic records."
+msgid "This helps prevent overusing resources if an authority record is linked to many bibliographic records."
 msgstr ""
+"यह संसाधनों के अति प्रयोग को रोकने में मदद करता है अगर एक प्राधिकरण रिकॉर्ड "
+"कई ग्रंथ सूची के रिकॉर्ड से जुड़ा हुआ है।"
 
 #: ../../source/authoritiespreferences.rst:85
-msgid ""
-"Make sure to enable the :ref:`merge_authority cron job<cron-update-"
-"authorities-label>` to catch the updates that wouldn't otherwise be "
-"transferred to bibliographic records."
+msgid "Make sure to enable the :ref:`merge_authority cron job<cron-update-authorities-label>` to catch the updates that wouldn't otherwise be transferred to bibliographic records."
 msgstr ""
+"उन थ्योरी को सक्षम करने के लिए सुनिश्चित करें :ref:`merge_authority क्रॉनजॉब "
+"<cron-update-authorities-label>` उन अपडेट को पकड़ने के लिए जिन्हें अन्यथा "
+"ग्रंथ सूची में स्थानांतरित नहीं किया जाएगा।"
 
 #: ../../source/authoritiespreferences.rst:92
 msgid "AuthorityMergeMode"
-msgstr ""
+msgstr "AuthorityMergeMode"
 
 #: ../../source/authoritiespreferences.rst:94
 msgid "Default: loose"
-msgstr ""
+msgstr "डिफ़ॉल्ट: ढीला"
 
 #: ../../source/authoritiespreferences.rst:96
-msgid ""
-"Asks: When updating biblio records from an attached authority record "
-"(\"merging\"), handle subfields of relevant biblio record fields in \\_\\_"
-"\\_ mode. In strict mode subfields that are not found in the authority "
-"record, are deleted. Loose mode will keep them. Loose mode is the historical "
-"behavior and still the default."
+msgid "Asks: When updating biblio records from an attached authority record (\"merging\"), handle subfields of relevant biblio record fields in \\_\\_\\_ mode. In strict mode subfields that are not found in the authority record, are deleted. Loose mode will keep them. Loose mode is the historical behavior and still the default."
 msgstr ""
+"पूछता है: जब एक संलग्न प्राधिकरण रिकॉर्ड (\"मर्जिंग\") से बाइबिल रिकॉर्ड को "
+"अद्यतन करता है, तो संबंधित बाइबिल रिकॉर्ड फ़ील्ड के\\_\\_\\_ मोड में उप-फ़ील्"
+"ड को संभाल लें। सख्त मोड सबफ़ेल्ड में जो प्राधिकरण रिकॉर्ड में नहीं मिले हैं"
+", हटाए गए हैं। ढीला मोड उन्हें रखेगा। ढीला मोड ऐतिहासिक व्यवहार है और अभी भी "
+"डिफ़ॉल्ट है।"
 
 #: ../../source/authoritiespreferences.rst:103
 msgid "loose"
-msgstr ""
+msgstr "ढीला"
 
 #: ../../source/authoritiespreferences.rst:105
 msgid "strict"
-msgstr ""
+msgstr "कठोर"
 
 #: ../../source/authoritiespreferences.rst:110
 msgid "AutoCreateAuthorities"
-msgstr ""
+msgstr "AutoCreateAuthorities"
 
 #: ../../source/authoritiespreferences.rst:112
 msgid "Default: do not generate"
-msgstr ""
+msgstr "डिफ़ॉल्ट: उत्पन्न नहीं है"
 
 #: ../../source/authoritiespreferences.rst:114
-msgid ""
-"Asks: When editing records, \\_\\_\\_ authority records that are missing."
-msgstr ""
+msgid "Asks: When editing records, \\_\\_\\_ authority records that are missing."
+msgstr "पूछता है: जब अभिलेख संपादन,  \\_\\_\\_ अधिकार रिकॉर्ड है कि लापता हैं."
 
 #: ../../source/authoritiespreferences.rst:118
 msgid "do not generate"
-msgstr ""
+msgstr "उत्पन्न न करें"
 
 #: ../../source/authoritiespreferences.rst:120
 msgid "generate"
-msgstr ""
+msgstr "उत्पन्न करें"
 
 #: ../../source/authoritiespreferences.rst:122
 #: ../../source/authoritiespreferences.rst:171
 #: ../../source/authoritiespreferences.rst:192
 #: ../../source/authoritiespreferences.rst:345
 msgid "**Important**"
-msgstr ""
+msgstr "**महत्वपूर्ण**"
 
 #: ../../source/authoritiespreferences.rst:124
-msgid ""
-"`BiblioAddsAuthorities <#biblioaddsauthorities>`__ must be set to \"allow\" "
-"for this to have any effect"
+msgid "`BiblioAddsAuthorities <#biblioaddsauthorities>`__ must be set to \"allow\" for this to have any effect"
 msgstr ""
+"`BiblioAddsAuthorities <#biblioaddsauthorities>`__ इसके लिए \"अनुमति\" पर से"
+"ट होना चाहिए, इसके लिए कोई प्रभाव होना चाहिए"
 
 #: ../../source/authoritiespreferences.rst:129
-msgid ""
-"When this and `BiblioAddsAuthorities <#biblioaddsauthorities>`__ are both "
-"turned on, automatically create authority records for headings that don't "
-"have any authority link when cataloging. When BiblioAddsAuthorities is on "
-"and AutoCreateAuthorities is turned off, do not automatically generate "
-"authority records, but allow the user to enter headings that don't match an "
-"existing authority. When BiblioAddsAuthorities is off, this has no effect."
+msgid "When this and `BiblioAddsAuthorities <#biblioaddsauthorities>`__ are both turned on, automatically create authority records for headings that don't have any authority link when cataloging. When BiblioAddsAuthorities is on and AutoCreateAuthorities is turned off, do not automatically generate authority records, but allow the user to enter headings that don't match an existing authority. When BiblioAddsAuthorities is off, this has no effect."
 msgstr ""
+"जब यह और `BiblioAddsAuthorities <#biblioaddsauthorities>` __ दोनों चालू हो "
+"जाते हैं, तो उन शीर्षकों के लिए स्वचालित रूप से प्राधिकरण रिकॉर्ड बनाए जाते "
+"हैं, जिनमें सूचीबद्ध होने पर कोई प्राधिकरण लिंक नहीं होता है जब "
+"BiblioAddsAuthorities चालू है और AutoCreateAuthorities बंद है, स्वचालित रूप "
+"से प्राधिकरण रिकॉर्ड नहीं उत्पन्न करते हैं, लेकिन उपयोगकर्ता को उन शीर्षकों "
+"को दर्ज करने की अनुमति दें जो मौजूदा प्राधिकरण से मेल नहीं खाते हैं जब "
+"BiblioAddsAuthorities बंद है, इसका कोई प्रभाव नहीं है।"
 
 #: ../../source/authoritiespreferences.rst:140
 msgid "BiblioAddsAuthorities"
-msgstr ""
+msgstr "BiblioAddsAuthorities"
 
 #: ../../source/authoritiespreferences.rst:142
 msgid "Default: allow"
-msgstr ""
+msgstr "डिफ़ॉल्ट: अनुमति देते हैं"
 
 #: ../../source/authoritiespreferences.rst:144
-msgid ""
-"Asks: When editing records, \\_\\_\\_ them to automatically create new "
-"authority records if needed, rather than having to reference existing "
-"authorities."
+msgid "Asks: When editing records, \\_\\_\\_ them to automatically create new authority records if needed, rather than having to reference existing authorities."
 msgstr ""
+"पूछता है: जब रिकॉर्ड संपादन,\\_\\_\\_ उन्हें स्वचालित रूप से नए अधिकार रिकॉर्"
+"ड बनाने के लिए, अगर जरूरत है बल्कि मौजूदा प्राधिकरण संदर्भ के लिए होने से."
 
 #: ../../source/authoritiespreferences.rst:150
 msgid "allow"
-msgstr ""
+msgstr "अनुमति दें"
 
 #: ../../source/authoritiespreferences.rst:152
-msgid ""
-"This setting allows you to type values in the fields controlled by "
-"authorities and then adds a new authority if one does not exist"
+msgid "This setting allows you to type values in the fields controlled by authorities and then adds a new authority if one does not exist"
 msgstr ""
+"यह सेटिंग आपको अधिकारियों द्वारा नियंत्रित क्षेत्रों में मूल्यों टाइप करने के"
+" लिए अनुमति देता है और फिर अगर एक अस्तित्व में नहीं है एक नया प्राधिकरण कहते "
+"हैं"
 
 #: ../../source/authoritiespreferences.rst:155
 msgid "don't allow"
-msgstr ""
+msgstr "अनिमति न दे"
 
 #: ../../source/authoritiespreferences.rst:157
-msgid ""
-"This setting will lock the authority controlled fields, forcing you to "
-"search for an authority versus allowing you to type the information in "
-"yourself."
+msgid "This setting will lock the authority controlled fields, forcing you to search for an authority versus allowing you to type the information in yourself."
 msgstr ""
+"यह सेटिंग अधिकार नियंत्रित क्षेत्रों को बंद कर देगा, आप अपने आप में जानकारी "
+"टाइप करने की अनुमति बनाम एक अधिकार के लिए खोज करने के लिए मजबूर."
 
 #: ../../source/authoritiespreferences.rst:164
 msgid "MARCAuthorityControlField008"
-msgstr ""
+msgstr "MARCAuthorityControlField008"
 
 #: ../../source/authoritiespreferences.rst:166
 msgid "Default: \\|\\| aca\\|\\|aabn \\| a\\|a d"
-msgstr ""
+msgstr "डिफ़ॉल्ट: \\|\\| aca\\|\\|aabn \\| a\\|a d"
 
 #: ../../source/authoritiespreferences.rst:168
-msgid ""
-"Asks: Use the following text for the contents of MARC21 authority control "
-"field 008 position 06-39 (fixed length data elements)."
+msgid "Asks: Use the following text for the contents of MARC21 authority control field 008 position 06-39 (fixed length data elements)."
 msgstr ""
+"पूछता है: मार्क 21 प्राधिकार नियंत्रण क्षेत्र की सामग्री को 008 पदों के लिए "
+"06-39 निम्नलिखित पाठ का उपयोग करें (फिक्स्ड लंबाई डेटा तत्व)."
 
 #: ../../source/authoritiespreferences.rst:173
-msgid ""
-"Do not include the date (position 00-05) in this preference, Koha will "
-"calculate automatically and put that in before the values in this preference."
+msgid "Do not include the date (position 00-05) in this preference, Koha will calculate automatically and put that in before the values in this preference."
 msgstr ""
+"इस वरीयता में दिनांक (स्थिति 00-05) शामिल नहीं है, Koha स्वचालित रूप से गणना "
+"और उस में डाल इस वरीयता में मूल्यों से पहले होगा."
 
 #: ../../source/authoritiespreferences.rst:179
-msgid ""
-"This preference controls the default value in the 008 field on Authority "
-"records. It does not effect bibliographic records."
+msgid "This preference controls the default value in the 008 field on Authority records. It does not effect bibliographic records."
 msgstr ""
+"यह वरीयता प्राधिकरण रिकॉर्ड पर 008 क्षेत्र में मूलभूत मान नियंत्रित करता है. "
+"यह ग्रंथ सूची रिकॉर्ड प्रभाव नहीं करता है."
 
 #: ../../source/authoritiespreferences.rst:185
 msgid "UNIMARCAuthorityField100"
-msgstr ""
+msgstr "UNIMARCAuthorityField100"
 
 #: ../../source/authoritiespreferences.rst:187
 msgid "Default: afrey50 ba0"
-msgstr ""
+msgstr "डिफ़ॉल्ट: afrey50 ba0"
 
 #: ../../source/authoritiespreferences.rst:189
-msgid ""
-"Asks: Use the following text for the contents of UNIMARC authority field 100 "
-"position (fixed length data elements)."
+msgid "Asks: Use the following text for the contents of UNIMARC authority field 100 position (fixed length data elements)."
 msgstr ""
+"पूछता है: Unimarc अधिकार क्षेत्र में 100 स्थिति की सामग्री के लिए निम्नलिखित "
+"पाठ का उपयोग करें(फिक्स्ड लंबाई डेटा तत्व)."
 
 #: ../../source/authoritiespreferences.rst:194
-msgid ""
-"Do not include the date (position 00-07) in this preference, Koha will "
-"calculate automatically and put that in before the values in this preference."
+msgid "Do not include the date (position 00-07) in this preference, Koha will calculate automatically and put that in before the values in this preference."
 msgstr ""
+"इस वरीयता में दिनांक (स्थिति 00-07) शामिल नहीं है, कोहा स्वचालित रूप से गणना "
+"और उस में डाल इस वरीयता में मूल्यों से पहले होगा."
 
 #: ../../source/authoritiespreferences.rst:200
-msgid ""
-"This preference controls the default value in the 100 field on Authority "
-"records cataloged in UNIMARC. It does not effect bibliographic records."
+msgid "This preference controls the default value in the 100 field on Authority records cataloged in UNIMARC. It does not effect bibliographic records."
 msgstr ""
+"यह वरीयता UNIMARC में सूचीबद्ध प्राधिकरण रिकॉर्ड्स पर 100 फ़ील्ड में डिफ़ॉल्"
+"ट मान को नियंत्रित करती है। यह ग्रंथ सूची के रिकॉर्ड को प्रभावित नहीं करता "
+"है।"
 
 #: ../../source/authoritiespreferences.rst:207
 msgid "UseAuthoritiesForTracings"
-msgstr ""
+msgstr "UseAuthoritiesForTracings"
 
 #: ../../source/authoritiespreferences.rst:209
 msgid "Default: Don't use"
-msgstr ""
+msgstr "डिफ़ॉल्ट: प्रयोग नही करें"
 
 #: ../../source/authoritiespreferences.rst:211
-msgid ""
-"Asks: \\_\\_\\_ authority record numbers instead of text strings for "
-"searches from subject tracings."
+msgid "Asks: \\_\\_\\_ authority record numbers instead of text strings for searches from subject tracings."
 msgstr ""
+"पूछता है:\\_\\_\\_ विषय ट्रेसिंग की खोजों के लिए पाठ स्ट्रिंग्स के बजाय अधिका"
+"र रिकॉर्ड संख्या।"
 
 #: ../../source/authoritiespreferences.rst:216
 msgid "Don't use"
-msgstr ""
+msgstr "का उपयोग न करें"
 
 #: ../../source/authoritiespreferences.rst:218
-msgid ""
-"Search links look for subject/author keywords (example: opac-search.pl?q=su:"
-"Business%20networks)"
+msgid "Search links look for subject/author keywords (example: opac-search.pl?q=su:Business%20networks)"
 msgstr ""
+"खोजें लिंक विषय / लेखक खोजशब्दों के लिए देखो (उदाहरण: opac-"
+"search.pl?q=su:Business%20networks)"
 
 #: ../../source/authoritiespreferences.rst:221
 msgid "Use"
-msgstr ""
+msgstr "उपयोग"
 
 #: ../../source/authoritiespreferences.rst:223
-msgid ""
-"Search links look for an authority record (example: opac-search.pl?q=an:354)"
+msgid "Search links look for an authority record (example: opac-search.pl?q=an:354)"
 msgstr ""
+"खोजें लिंक एक अधिकारी के रिकॉर्ड (: opac-search.pl?q=an:354 उदाहरण) के लिए "
+"देखो"
 
 #: ../../source/authoritiespreferences.rst:228
-msgid ""
-"For libraries that have authority files, they may want to make it so that "
-"when a link to an authorized subject or author is clicked on the OPAC or "
-"staff client it takes the searcher only to a list of results with that "
-"authority record. Most libraries do not have complete authority files and so "
-"setting this preference to 'Don't use' will allow searchers to click on "
-"links to authors and subject headings and perform a keyword search against "
-"those fields, finding all possible relevant results instead."
+msgid "For libraries that have authority files, they may want to make it so that when a link to an authorized subject or author is clicked on the OPAC or staff client it takes the searcher only to a list of results with that authority record. Most libraries do not have complete authority files and so setting this preference to 'Don't use' will allow searchers to click on links to authors and subject headings and perform a keyword search against those fields, finding all possible relevant results instead."
 msgstr ""
+"पुस्तकालयों है कि प्राधिकरण फ़ाइलों के लिए, वे इसे बनाने के लिए इतना है कि "
+"जब एक अधिकृत विषय या लेखक के लिए एक लिंक ओपेक या स्टाफ ग्राहक यह केवल यह है "
+"कि प्राधिकरण रिकॉर्ड के साथ परिणामों की एक सूची के लिए खोजकर्ता लेता है पर "
+"क्लिक किया जाता है सकते हैं. ज्यादातर पुस्तकालयों पूरा अधिकार फाइल नहीं है "
+"और इसलिए 'का प्रयोग न करें' खोजकर्ताओं लेखकों और विषय शीर्षकों के लिए लिंक "
+"पर क्लिक करें और उन क्षेत्रों के खिलाफ एक कीवर्ड खोज करते हैं करने की अनुमति "
+"देगा, बजाय सभी संभव प्रासंगिक परिणाम पाने के लिए इस वरीयता की स्थापना."
 
 #: ../../source/authoritiespreferences.rst:240
 msgid "Linker"
-msgstr ""
+msgstr "लिंकर"
 
 #: ../../source/authoritiespreferences.rst:242
-msgid ""
-"These preferences will control how Koha links bibliographic records to "
-"authority records. All bibliographic records added to Koha after these "
-"preferences are set will link automatically to authority records, for "
-"records added before these preferences are set there is a script (misc/link"
-"\\_bibs\\_to\\_authorities.pl) that your system administrator can run to "
-"link records together."
+msgid "These preferences will control how Koha links bibliographic records to authority records. All bibliographic records added to Koha after these preferences are set will link automatically to authority records, for records added before these preferences are set there is a script (misc/link\\_bibs\\_to\\_authorities.pl) that your system administrator can run to link records together."
 msgstr ""
+"इन प्राथमिकताओं को कैसे नियंत्रित करता है कि कोहा ने ग्रंथ सूची को प्राधिकरण "
+"के रिकॉर्ड के लिए लिंक किया था इन प्राधानियों के बाद सभी संदर्भ सूची कोहा में"
+" जोड़ा जाता है, स्वचालित रूप से प्राधिकरण रिकॉर्ड में लिंक होगा, इन वरीयताओं "
+"से पहले जोड़े गए अभिलेखों के लिए एक स्क्रिप्ट (misc/link\\_bibs\\_to\\"
+"_authorities.pl) है, जो आपके सिस्टम व्यवस्थापक को लिंक रिकॉर्ड एक साथ।"
 
 #: ../../source/authoritiespreferences.rst:252
 msgid "CatalogModuleRelink"
-msgstr ""
+msgstr "CatalogModuleRelink"
 
 #: ../../source/authoritiespreferences.rst:254
 #: ../../source/authoritiespreferences.rst:284
 msgid "Default: Do not"
-msgstr ""
+msgstr "डिफ़ॉल्ट: नहीं है"
 
 #: ../../source/authoritiespreferences.rst:256
-msgid ""
-"Asks: \\_\\_\\_ automatically relink headings that have previously been "
-"linked when saving records in the cataloging module."
+msgid "Asks: \\_\\_\\_ automatically relink headings that have previously been linked when saving records in the cataloging module."
 msgstr ""
+"पूछते हैं:  \\_\\_\\_ कैटलॉग मॉड्यूल में रिकॉर्ड्स को सहेजते समय पहले से "
+"जुड़े शीर्षकों को स्वचालित रूप से लिंक करना."
 
 #: ../../source/authoritiespreferences.rst:261
 #: ../../source/authoritiespreferences.rst:291
 #: ../../source/authoritiespreferences.rst:383
 msgid "Do"
-msgstr ""
+msgstr "करें"
 
 #: ../../source/authoritiespreferences.rst:263
 #: ../../source/authoritiespreferences.rst:293
 #: ../../source/authoritiespreferences.rst:385
 msgid "Do not"
-msgstr ""
+msgstr "नही करें"
 
 #: ../../source/authoritiespreferences.rst:267
-msgid ""
-"Longtime users of Koha don't expect the authority and bib records to link "
-"consistently. This preference makes it possible to disable authority "
-"relinking in the cataloging module only (i.e. relinking is still possible if "
-"link\\_bibs\\_to\\_authorities.pl is run). Note that though the default "
-"behavior matches the previous behavior of Koha (retaining links to outdated "
-"authority records), it does not match the intended behavior (updating biblio/"
-"authority link after bibliographic record is edited). Libraries that want "
-"the intended behavior of authority control rather than the way Koha used to "
-"handle linking should set CatalogModuleRelink to 'Do'. Once setting this to "
-"'Do' the following preferences can also be set."
+msgid "Longtime users of Koha don't expect the authority and bib records to link consistently. This preference makes it possible to disable authority relinking in the cataloging module only (i.e. relinking is still possible if link\\_bibs\\_to\\_authorities.pl is run). Note that though the default behavior matches the previous behavior of Koha (retaining links to outdated authority records), it does not match the intended behavior (updating biblio/authority link after bibliographic record is edited). Libraries that want the intended behavior of authority control rather than the way Koha used to handle linking should set CatalogModuleRelink to 'Do'. Once setting this to 'Do' the following preferences can also be set."
 msgstr ""
+"कोहा के लंबे समय से उपयोगकर्ताओं को उम्मीद है कि प्राधिकरण और बिब रिकॉर्ड "
+"लगातार लिंक करने के लिए नहीं हैं इस वरीयता से केवल सूचीकरण मॉड्यूल में प्राधि"
+"करण को relinking अक्षम करना संभव होता है (यानी, लिंक अभी भी संभव है यदि "
+"link\\_bibs\\_to\\_authorities.pl चल रहा है)। ध्यान दें कि यद्यपि डिफ़ॉल्ट "
+"व्यवहार कोहा (पुरानी प्राधिकरण रिकॉर्ड के लिंक को बनाए रखना) के पिछले व्यवहा"
+"र से मेल खाता है, लेकिन यह वांछित व्यवहार से मेल नहीं खाता है (ग्रंथ सूची के "
+"संपादन के बाद बाइबल / प्राधिकरण लिंक को अपडेट किया गया है) लाइब्रेरी जो "
+"प्राधिकरण नियंत्रण का इच्छित व्यवहार चाहते हैं कि जिस तरह से कोहा को लिंक "
+"करने के लिए इस्तेमाल किया जाता है, उसके बजाय CatalogModuleRelink को 'Do' में "
+"सेट करना चाहिए। इसे 'Do' पर सेट करने के बाद निम्न प्राथमिकताओं को भी सेट किया"
+" जा सकता है।"
 
 #: ../../source/authoritiespreferences.rst:282
 msgid "LinkerKeepStale"
-msgstr ""
+msgstr "LinkerKeepStale"
 
 #: ../../source/authoritiespreferences.rst:286
-msgid ""
-"Asks: \\_\\_\\_ keep existing links to authority records for headings where "
-"the linker is unable to find a match."
+msgid "Asks: \\_\\_\\_ keep existing links to authority records for headings where the linker is unable to find a match."
 msgstr ""
+"पूछता है:  \\_\\_\\_ शीर्षकों के लिए प्राधिकरण रिकॉर्ड करने के लिए मौजूदा लिं"
+"क रखना जहां लिंकर एक मैच खोजने में असमर्थ है."
 
 #: ../../source/authoritiespreferences.rst:297
-msgid ""
-"When set to 'Do', the linker will never remove a link to an authority "
-"record, though, depending on the value of :ref:`LinkerRelink`, it may change "
-"the link."
+msgid "When set to 'Do', the linker will never remove a link to an authority record, though, depending on the value of :ref:`LinkerRelink`, it may change the link."
 msgstr ""
+"जब 'Do' पर सेट किया जाता है, तो लिंकर किसी प्राधिकारी रिकॉर्ड के लिंक को कभी "
+"नहीं हटाएगा, फिर भी, के संदर्भ के आधार पर :ref: `LinkerRelink`, यह लिंक को "
+"बदल सकता है।"
 
 #: ../../source/authoritiespreferences.rst:304
 msgid "LinkerModule"
-msgstr ""
+msgstr "LinkerModule"
 
 #: ../../source/authoritiespreferences.rst:306
 msgid "Default: Default"
-msgstr ""
+msgstr "डिफ़ॉल्ट: डिफ़ॉल्ट"
 
 #: ../../source/authoritiespreferences.rst:308
-msgid ""
-"Asks: Use the \\_\\_\\_ linker module for matching headings to authority "
-"records."
+msgid "Asks: Use the \\_\\_\\_ linker module for matching headings to authority records."
 msgstr ""
+"पूछता है: का प्रयोग करें  \\_\\_\\_प्राधिकरण के रिकॉर्ड के लिए शीर्षकों के "
+"मिलान के लिए लिंकर मॉड्यूल"
 
 #: ../../source/authoritiespreferences.rst:313
 msgid "Default"
-msgstr ""
+msgstr "डिफ़ॉल्ट"
 
 #: ../../source/authoritiespreferences.rst:315
-msgid ""
-"Retains Koha's previous behavior of only creating links when there is an "
-"exact match to one and only one authority record; if the :ref:"
-"`LinkerOptions` preference is set to 'broader\\_headings', it will try to "
-"link headings to authority records for broader headings by removing "
-"subfields from the end of the heading"
+msgid "Retains Koha's previous behavior of only creating links when there is an exact match to one and only one authority record; if the :ref:`LinkerOptions` preference is set to 'broader\\_headings', it will try to link headings to authority records for broader headings by removing subfields from the end of the heading"
 msgstr ""
+"कोहा के पिछले व्यवहार को बनाए रखने में केवल लिंक बनाते समय एक और केवल एक "
+"प्राधिकरण रिकॉर्ड का सटीक मिलान होता है; यदि the :ref: `LinkerOptions` की "
+"वरीयता 'broader\\_headings' पर सेट की गई है, यह हेडिंग को शीर्षक के अंत से "
+"सबफ़िल्ड को निकालकर व्यापक शीर्षकों के लिए प्राधिकरण रिकॉर्ड से लिंक करने का "
+"प्रयास करेगा"
 
 #: ../../source/authoritiespreferences.rst:322
 msgid "First match"
-msgstr ""
+msgstr "प्रथम मिलान"
 
 #: ../../source/authoritiespreferences.rst:324
-msgid ""
-"Creates a link to the first authority record that matches a given heading, "
-"even if there is more than one authority record that matches"
+msgid "Creates a link to the first authority record that matches a given heading, even if there is more than one authority record that matches"
 msgstr ""
+"कि किसी दिए गए शीर्षक मेल खाता है, भले ही वहाँ एक से अधिक रिकॉर्ड है कि मैच "
+"है पिछले अधिकार रिकॉर्ड करने के लिए एक लिंक बनाता है"
 
 #: ../../source/authoritiespreferences.rst:328
 msgid "Last match"
-msgstr ""
+msgstr "अंतिम मिलान"
 
 #: ../../source/authoritiespreferences.rst:330
-msgid ""
-"Creates a link to the last authority record that matches a given heading, "
-"even if there is more than one record that matches"
+msgid "Creates a link to the last authority record that matches a given heading, even if there is more than one record that matches"
 msgstr ""
+"कि किसी दिए गए शीर्षक मेल खाता है, भले ही वहाँ एक से अधिक रिकॉर्ड है कि मैच "
+"है पिछले अधिकार रिकॉर्ड करने के लिए एक लिंक बनाता है"
 
 #: ../../source/authoritiespreferences.rst:335
-msgid ""
-"This preference tells Koha which match to use when searching for authority "
-"matches when saving a record."
+msgid "This preference tells Koha which match to use when searching for authority matches when saving a record."
 msgstr ""
+"यह वरीयता कोहा बताती है कि किसी रिकॉर्ड को सहेजते समय प्राधिकरण मैचों की खोज "
+"करते समय किस मैच का उपयोग करना है"
 
 #: ../../source/authoritiespreferences.rst:341
 msgid "LinkerOptions"
-msgstr ""
+msgstr "LinkerOptions"
 
 #: ../../source/authoritiespreferences.rst:343
 msgid "Asks: Set the following options for the authority linker \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: प्राधिकरण लिंकर के लिए निम्नलिखित विकल्प सेट करें \\_\\_\\_"
 
 #: ../../source/authoritiespreferences.rst:347
-msgid ""
-"This feature is experimental and shouldn't be used in a production "
-"environment until further expanded upon."
+msgid "This feature is experimental and shouldn't be used in a production environment until further expanded upon."
 msgstr ""
+"यह सुविधा प्रायोगिक है और एक उत्पादन वातावरण में नहीं किया जाना चाहिए जब तक "
+"आगे पर विस्तार किया."
 
 #: ../../source/authoritiespreferences.rst:352
-msgid ""
-"This is a pipe separated (\\|) list of options. At the moment, the only "
-"option available is \"broader\\_headings.\" With this option set to \"broader"
-"\\_headings\", the linker will try to match the following heading as follows:"
+msgid "This is a pipe separated (\\|) list of options. At the moment, the only option available is \"broader\\_headings.\" With this option set to \"broader\\_headings\", the linker will try to match the following heading as follows:"
 msgstr ""
+"यह एक पाइप अलग (\\|) विकल्प की सूची है फिलहाल, एकमात्र विकल्प उपलब्ध है \""
+"broader\\_headings.\" इस विकल्प को\"broader\\_headings\" पर सेट किया गया है, "
+"लिंकर निम्न शीर्षकों से मेल खाने की कोशिश करेगा:"
 
 #: ../../source/authoritiespreferences.rst:361
-msgid ""
-"First: Camins-Esakov, Jared--Coin collections--Catalogs--Early works to 1800"
+msgid "First: Camins-Esakov, Jared--Coin collections--Catalogs--Early works to 1800"
 msgstr ""
+"पहली: Camins-Esakov, जारेड - सिक्का संग्रह - कैटलॉग - जल्दी 1800 के लिए काम "
+"करता है"
 
 #: ../../source/authoritiespreferences.rst:364
 msgid "Next: Camins-Esakov, Jared--Coin collections--Catalogs"
-msgstr ""
+msgstr "अगला: Camins-Esakov, जारेड - सिक्का संग्रह - कैटलॉग"
 
 #: ../../source/authoritiespreferences.rst:366
 msgid "Next: Camins-Esakov, Jared--Coin collections"
-msgstr ""
+msgstr "अगला: Camins-Esakov, जारेड - सिक्का संग्रह"
 
 #: ../../source/authoritiespreferences.rst:368
-msgid ""
-"Next: Camins-Esakov, Jared (matches! if a previous attempt had matched, it "
-"would not have tried this)"
+msgid "Next: Camins-Esakov, Jared (matches! if a previous attempt had matched, it would not have tried this)"
 msgstr ""
+"अगला: Camins-Esakov, जारेड (मेल खाता है, तो पिछले एक प्रयास का मिलान नहीं हु"
+"आ था, यह यह करने की कोशिश नहीं होता!)"
 
 #: ../../source/authoritiespreferences.rst:374
 msgid "LinkerRelink"
-msgstr ""
+msgstr "LinkerRelink"
 
 #: ../../source/authoritiespreferences.rst:376
 msgid "Default: Do"
-msgstr ""
+msgstr "डिफ़ॉल्ट: करें"
 
 #: ../../source/authoritiespreferences.rst:378
-msgid ""
-"Asks: \\_\\_\\_ relink headings that have previously been linked to "
-"authority records."
+msgid "Asks: \\_\\_\\_ relink headings that have previously been linked to authority records."
 msgstr ""
+"पूछता है: \\_\\_\\_ पुनर्लेख शीर्षकों को पहले प्राधिकरण रिकॉर्ड से जोड़ा गया "
+"है।"
 
 #: ../../source/authoritiespreferences.rst:389
-msgid ""
-"When set to 'Do', the linker will confirm the links for headings that have "
-"previously been linked to an authority record when it runs, correcting any "
-"incorrect links it may find. When set to 'Do not', any heading with an "
-"existing link will be ignored, even if the existing link is invalid or "
-"incorrect."
+msgid "When set to 'Do', the linker will confirm the links for headings that have previously been linked to an authority record when it runs, correcting any incorrect links it may find. When set to 'Do not', any heading with an existing link will be ignored, even if the existing link is invalid or incorrect."
 msgstr ""
+"'क्या' के लिए सेट करते हैं, लिंकर जब इसे चलाता शीर्षकों है कि पहले एक अधिकार "
+"के रिकॉर्ड से जोड़ा गया है के लिए लिंक की पुष्टि, किसी भी गलत लिंक मिल सकता "
+"को सही होगा. करने के लिए सेट करते हैं, भले ही मौजूदा लिंक अमान्य है या गलत है"
+", एक मौजूदा लिंक के साथ किसी भी शीर्षक नजरअंदाज कर दिया जाएगा 'मत करो'."

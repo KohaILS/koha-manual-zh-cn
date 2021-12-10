@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2020-04-05 02:33+0000\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-03-31 12:07+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1586054002.068820\n"
+"X-POOTLE-MTIME: 1617192439.331603\n"
 "X-Pootle-Path: /hi/man20.11/ILL_requests.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -26,91 +26,63 @@ msgid "ILL requests / Interlibrary loans"
 msgstr "ILL अनुरोध / इंटरलाइब्रेरी ऋण"
 
 #: ../../source/ILL_requests.rst:8
-#, fuzzy
-msgid ""
-"The ILL (Interlibrary loans) requests module adds the ability to request and "
-"manage loans or copies of material from external sources. Patrons can submit "
-"a request via the OPAC from the :ref:`your interlibrary loan requests <your-"
-"interlibrary-loan-requests-label>` tab of their account.  Library staff can "
-"then review and process those requests.  Alternatively staff can place "
-"requests themselves from the staff client."
+msgid "The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons can submit a request via the OPAC from the :ref:`your interlibrary loan requests <your-interlibrary-loan-requests-label>` tab of their account.  Library staff can then review and process those requests.  Alternatively staff can place requests themselves from the staff client."
 msgstr ""
-"ILL (इंटरलाउंट्स लोन) अनुरोध मॉड्यूल बाहरी स्रोतों से ऋण या सामग्री की प्रतियां का अनुरोध "
-"करने और प्रबंधित करने की क्षमता जोड़ता है। संरक्षक पुस्तकालय कर्मचारियों द्वारा समीक्षा और "
-"प्रसंस्करण करने के लिए ओपेक के माध्यम से एक अनुरोध फ़ॉर्म प्रस्तुत करते हैं।वैकल्पिक रूप से स्टाफ "
-"क्लाइंट से स्टाफ स्वयं अनुरोध कर सकते हैं।"
+"ILL (इंटर लाइब्रेरी लोन) अनुरोध मॉड्यूल बाहरी स्रोतों से ऋण या सामग्री की "
+"प्रतियों का अनुरोध और प्रबंधन करने की क्षमता को जोड़ता है। संरक्षक from: से "
+"रेफरी के माध्यम से एक अनुरोध प्रस्तुत कर सकते हैं: रेफरी: `अपने अंतर पुस्तका"
+"लय ऋण अनुरोध <your-interlibrary-loan-requests-label>` उनके खाते के टैब.  "
+"पुस्तकालय कर्मचारियों को तब उन अनुरोधों की समीक्षा और प्रक्रिया कर सकते हैं"
+".   वैकल्पिक रूप से स्टाफ स्टाफ क्लाइंट से स्वयं अनुरोध कर सकते हैं। "
 
 #: ../../source/ILL_requests.rst:13
 msgid "Set up"
 msgstr "सेट अप"
 
 #: ../../source/ILL_requests.rst:15
-msgid ""
-"Before using the ILL requests module you will want to make sure that you "
-"have completed all of the set up."
-msgstr ""
-"ILLअनुरोध मॉड्यूल का उपयोग करने से पहले आप यह सुनिश्चित करना चाहेंगे कि आपने सभी सेट अप "
-"पूरा कर लिया है।"
+msgid "Before using the ILL requests module you will want to make sure that you have completed all of the set up."
+msgstr "ILLअनुरोध मॉड्यूल का उपयोग करने से पहले आप यह सुनिश्चित करना चाहेंगे कि आपने सभी सेट अप पूरा कर लिया है।"
 
 #: ../../source/ILL_requests.rst:17
-msgid ""
-"The ILL requests module can be configured for different types of requests "
-"and workflows known as backends. Currently available backends are documented "
-"on the Koha community wiki at https://wiki.koha-community.org/wiki/"
-"ILL_backends. You will need to configure at least one backend."
-msgstr ""
-"ILLअनुरोध मॉड्यूल बैकेंड के रूप में ज्ञात विभिन्न प्रकार के अनुरोधों और वर्कफ़्लोज़ के लिए "
-"कॉन्फ़िगर किया जा सकता है। वर्तमान में उपलब्ध बैकएंड कोहा समुदाय wiki पर https://wiki."
-"koha-community.org/wiki/ILL_backends. पर प्रलेखित हैं। आपको कम से कम एक बैकएंड को "
-"कॉन्फ़िगर करना होगा।"
+msgid "The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend."
+msgstr "ILLअनुरोध मॉड्यूल बैकेंड के रूप में ज्ञात विभिन्न प्रकार के अनुरोधों और वर्कफ़्लोज़ के लिए कॉन्फ़िगर किया जा सकता है। वर्तमान में उपलब्ध बैकएंड कोहा समुदाय wiki पर https://wiki.koha-community.org/wiki/ILL_backends. पर प्रलेखित हैं। आपको कम से कम एक बैकएंड को कॉन्फ़िगर करना होगा।"
 
 #: ../../source/ILL_requests.rst:19
-msgid ""
-"Next, set your :ref:`system preferences for interlibrary loans <interlibrary-"
-"loans-label>`."
+msgid "Next, set your :ref:`system preferences for interlibrary loans <interlibrary-loans-label>`."
 msgstr ""
+"अगला, अपना सेट करें :ref:`इंटरलाइब्रेरी लोन के लिए सिस्टम प्राथमिकताएँ "
+"<interlibrary-loans-label>`."
 
 #: ../../source/ILL_requests.rst:21
-msgid ""
-"Library staff responsible for ILL requests need the following permission set "
-"on their account: *ill: Create and modify Interlibrary loan requests*."
-msgstr ""
-"ILL अनुरोधों के लिए जिम्मेदार लाइब्रेरी स्टाफ को अपने खाते पर निम्नलिखित अनुमति की "
-"आवश्यकता होती है: * बीमार: ऋण अनुरोधों को बनाएं और संशोधित करें *।"
+msgid "Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*."
+msgstr "ILL अनुरोधों के लिए जिम्मेदार लाइब्रेरी स्टाफ को अपने खाते पर निम्नलिखित अनुमति की आवश्यकता होती है: * बीमार: ऋण अनुरोधों को बनाएं और संशोधित करें *।"
 
 #: ../../source/ILL_requests.rst:23
-msgid ""
-"The ILL requests module uses system defined statuses. You can add custom "
-"statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values "
-"<authorized-values-label>`."
-msgstr ""
-"ILL अनुरोध मॉड्यूल सिस्टम परिभाषित स्टेटस का उपयोग करता है। आप ILLSTATUSAT के रूप में "
-"अपने ILL वर्कफ़्लो से मिलान करने के लिए कस्टम स्टेटस जोड़ सकते हैं: Ref: `अधिकृत मान "
-"<authorized-values-label>`।"
+msgid "The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`."
+msgstr "ILL अनुरोध मॉड्यूल सिस्टम परिभाषित स्टेटस का उपयोग करता है। आप ILLSTATUSAT के रूप में अपने ILL वर्कफ़्लो से मिलान करने के लिए कस्टम स्टेटस जोड़ सकते हैं: Ref: `अधिकृत मान <authorized-values-label>`।"
 
 #: ../../source/ILL_requests.rst:28
 msgid "ILL email notifications"
-msgstr ""
+msgstr "ILL ईमेल सूचनाएँ"
 
 #: ../../source/ILL_requests.rst:30
-msgid ""
-"Email notifications can be sent to ILL staff when a patron makes a request "
-"to modify or cancel an existing request.  The notice templates are "
-"ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address "
-"can be configured per library.  If this is not set the :ref:"
-"`ILLDefaultStaffEmail` system preference will be used."
+msgid "Email notifications can be sent to ILL staff when a patron makes a request to modify or cancel an existing request.  The notice templates are ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail` system preference will be used."
 msgstr ""
+"जब कोई संरक्षक किसी अनुरोध को संशोधित करने या रद्द करने के लिए अनुरोध करता है"
+", तो ईमेल सूचनाएं ILL कर्मचारियों को भेजी जा सकती हैं। नोटिस टेम्पलेट "
+"ILL_REQUEST_CANCEL और ILL_REQUEST_MODIFIED.   हैं। ILF स्टाफ ईमेल पते को "
+"प्रति लाइब्रेरी से कॉन्फ़िगर किया जा सकता है। यदि यह है सेट नहीं e "
+":ref:`ILLDefaultStaffEmail` सिस्टम वरीयता का उपयोग किया जाएगा।"
 
 #: ../../source/ILL_requests.rst:33
-msgid ""
-"Notifications can also be sent to patrons for requests that are either "
-"available for pick-up or are unavailable and have been cancelled.  The "
-"notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The "
-"notifications are enabled from the :ref:`patron categories <patron-"
-"categories-label>` default patron messaging preferences.  You can customise "
-"the notice text for these notices in :ref:`Notices & slips <notices-and-"
-"slips-label>` in the Tools module."
+msgid "Notifications can also be sent to patrons for requests that are either available for pick-up or are unavailable and have been cancelled.  The notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The notifications are enabled from the :ref:`patron categories <patron-categories-label>` default patron messaging preferences.  You can customise the notice text for these notices in :ref:`Notices & slips <notices-and-slips-label>` in the Tools module."
 msgstr ""
+"उन अनुरोधों के लिए भी सूचनाएँ संरक्षक को भेजी जा सकती हैं जो या तो पिक-अप के "
+"लिए उपलब्ध हैं या उपलब्ध नहीं हैं और रद्द कर दिए गए हैं। नोटिस टेम्पलेट "
+"ILL_PICKUP_READY और ILL_REQUEST_UNAVAIL.AIL हैं: सूचनाएँ  :ref:`संरक्षक "
+"श्रेणियों से सक्षम हैं<patron-categories-label> `डिफ़ॉल्ट संरक्षक संदेश "
+"प्राथमिकताएँ। not आप इन नोटिसों के लिए नोटिस पाठ को अनुकूलित कर सकते हैं "
+":ref:` नोटिस और स्लिप्स <notices-and-slips-label>`टूल मॉड्यूल में।"
 
 #: ../../source/ILL_requests.rst:39
 msgid "Create ILL requests"
@@ -130,7 +102,7 @@ msgstr "'नया ILL अनुरोध' चुनें और फिर फ�
 
 #: ../../source/ILL_requests.rst:48
 msgid "The images shown here are for the FreeFrom backend only."
-msgstr "यहां दिखाई गई छवियां केवल फ़्रीफ्रॉम बैकएंड के लिए हैं।"
+msgstr "यहां दिखाई गई छवियां केवल फ्रीफ्रॉम बैकएंड के लिए हैं।"
 
 #: ../../source/ILL_requests.rst:50
 msgid "|image1387|"
@@ -141,11 +113,8 @@ msgid "Enter a Type: Book, Article, Journal, Other."
 msgstr "एक प्रकार दर्ज करें: पुस्तक, लेख, जर्नल, अन्य।"
 
 #: ../../source/ILL_requests.rst:54
-msgid ""
-"In the next two sections enter as much as information as you can including "
-"chapter/article/part if applicable."
-msgstr ""
-"अगले दो खंडों में उतनी ही जानकारी दर्ज करें जितनी आप अध्याय/लेख/भाग को लागू कर सकते हैं।"
+msgid "In the next two sections enter as much as information as you can including chapter/article/part if applicable."
+msgstr "अगले दो खंडों में उतनी ही जानकारी दर्ज करें जितनी आप अध्याय/लेख/भाग को लागू कर सकते हैं।"
 
 #: ../../source/ILL_requests.rst:56
 msgid "|image1388|"
@@ -156,109 +125,88 @@ msgid "Add custom fields, for example if you wished to add a note."
 msgstr "कस्टम फ़ील्ड जोड़ें, उदाहरण के लिए यदि आप एक नोट जोड़ना चाहते हैं।"
 
 #: ../../source/ILL_requests.rst:60
-msgid ""
-"Under the borrower options enter the library branch you would like the "
-"request to be sent to."
+msgid "Under the borrower options enter the library branch you would like the request to be sent to."
 msgstr "उधारकर्ता विकल्पों के तहत पुस्तकालय की शाखा में प्रवेश करें जिसे आप भेजना चाहते हैं।"
 
 #: ../../source/ILL_requests.rst:62
-#, fuzzy
 msgid "Click on ‘Create’ and you will be shown a Request details summary page."
 msgstr ""
-"‘क्रिएट’ पर क्लिक करें और आपको एक अनुरोध विवरण सारांश पृष्ठ दिखाया जाएगा ’पुष्टि "
-"अनुरोध’ बटन पर क्लिक करें और आपको निम्नलिखित पुष्टि संदेश दिखाई देगा:"
+"'निर्मित करें' पर क्लिक करें और आप एक अनुरोध का विवरण सारांश पृष्ठ दिखाया "
+"जाएगा।"
 
 #: ../../source/ILL_requests.rst:65
-msgid ""
-"If you have enabled the :ref:`ILLCheckAvailability` system preference and "
-"installed plugins for the staff interface you will be presented with search "
-"results.  The user can click on a link to a relevant resource if found or "
-"proceed with the ILL request.  If no results are found the ILL is completed "
-"in the usual way."
+msgid "If you have enabled the :ref:`ILLCheckAvailability` system preference and installed plugins for the staff interface you will be presented with search results.  The user can click on a link to a relevant resource if found or proceed with the ILL request.  If no results are found the ILL is completed in the usual way."
 msgstr ""
+"यदि आपने you को सक्षम किया है :ref:`ILLCheckAvailability` सिस्टम वरीयता और "
+"स्थापित इंटरफ़ेस के लिए आपके द्वारा प्रस्तुत किए गए स्टाफ इंटरफ़ेस के लिए "
+"प्लगइन्स। can यदि उपयोगकर्ता ILL अनुरोध के साथ पाया या आगे बढ़े तो एक "
+"प्रासंगिक संसाधन के लिंक पर क्लिक कर सकता है ।  यदि कोई परिणाम नहीं मिले तो "
+"ILL सामान्य तरीके से पूरा हो जाता है।"
 
 #: ../../source/ILL_requests.rst:69
-msgid ""
-"You can now process your request as explained in Managing ILL requests "
-"section or return to the list of ILL requests."
+msgid "You can now process your request as explained in Managing ILL requests section or return to the list of ILL requests."
 msgstr ""
+"अब आप अपने अनुरोध को संसाधित कर सकते हैं जैसा कि ILL अनुरोध अनुभाग को प्रबंधि"
+"त करने या ILL अनुरोधों की सूची में वापस करने के लिए समझाया गया है।"
 
 #: ../../source/ILL_requests.rst:75
 msgid "Viewing ILL requests"
 msgstr "ILL के अनुरोधों को देखना"
 
 #: ../../source/ILL_requests.rst:77
-#, fuzzy
-msgid ""
-"From the main ILL requests screen you can view, filter and sort your ILL "
-"requests.  You can use the :ref:`ILLHiddenRequestStatuses` preference to "
-"hide completed statuses by default.  You can also click on the ‘List "
-"requests’ button at any time to return to this list."
+msgid "From the main ILL requests screen you can view, filter and sort your ILL requests.  You can use the :ref:`ILLHiddenRequestStatuses` preference to hide completed statuses by default.  You can also click on the ‘List requests’ button at any time to return to this list."
 msgstr ""
-"मुख्य ILL अनुरोध स्क्रीन से आप अपने सभी ILL अनुरोध देख सकते हैं। आप किसी भी समय requests "
-"दृश्य अनुरोधों ’बटन पर क्लिक कर सकते हैं।"
+"मुख्य ILL अनुरोध स्क्रीन से आप अपने ILL अनुरोध को देख, फ़िल्टर और सॉर्ट कर "
+"सकते हैं।  आप: का उपयोग कर सकते हैं :ref:`ILLHiddenRequestStatuses` वरीयता को"
+" डिफ़ॉल्ट रूप से पूरा करने की स्थिति को छिपाने के लिए।  इस सूची में वापस आने "
+"के लिए आप किसी भी समय requests सूची अनुरोधों ’बटन पर क्लिक कर सकते हैं। "
 
 #: ../../source/ILL_requests.rst:80
 msgid "|image1435|"
 msgstr "|image1435|"
 
 #: ../../source/ILL_requests.rst:82
-#, fuzzy
-msgid ""
-"There is a large amount of data available in the Requests table so it is "
-"advisable to make use of :ref:`Table settings <table-settings-label>` "
-"section of the Administration module (table id: ill-requests) to view only "
-"the information you need. The first half of the table displays data related "
-"to the ILL item itself such as title, volume, page numbers."
+msgid "There is a large amount of data available in the Requests table so it is advisable to make use of :ref:`Table settings <table-settings-label>` section of the Administration module (table id: ill-requests) to view only the information you need. The first half of the table displays data related to the ILL item itself such as title, volume, page numbers."
 msgstr ""
-"अनुरोध तालिका में बड़ी मात्रा में डेटा उपलब्ध है, इसलिए केवल आवश्यक जानकारी को देखने के लिए "
-"कॉलम दृश्यता का उपयोग करना उचित है। तालिका का पहला भाग ILL आइटम से संबंधित डेटा जैसे "
-"शीर्षक, वॉल्यूम, पृष्ठ संख्या प्रदर्शित करता है।"
+"अनुरोध तालिका में बड़ी मात्रा में डेटा उपलब्ध है, इसलिए large: Ref: `तालिका "
+"सेटिंग्स का उपयोग करना उचित है <table-settings-label> ` केवल आपकी आवश्यक "
+"जानकारी देखने के लिए प्रशासन मॉड्यूल (टेबल आईडी: ill-requests) का खंड। तालिका"
+" की पहली छमाही ILL आइटम से संबंधित डेटा जैसे शीर्षक, वॉल्यूम, पृष्ठ संख्या "
+"प्रदर्शित करती है।"
 
 #: ../../source/ILL_requests.rst:88
 msgid "|image1436|"
 msgstr "|image1436|"
 
 #: ../../source/ILL_requests.rst:90
-msgid ""
-"The second half of the table displays data related to the request such as "
-"notes and comments."
-msgstr ""
-"तालिका का दूसरा भाग अनुरोध से संबंधित डेटा प्रदर्शित करता है जैसे नोट्स और टिप्पणियां।"
+msgid "The second half of the table displays data related to the request such as notes and comments."
+msgstr "तालिका का दूसरा भाग अनुरोध से संबंधित डेटा प्रदर्शित करता है जैसे नोट्स और टिप्पणियां।"
 
 #: ../../source/ILL_requests.rst:97
 msgid "Managing ILL requests"
 msgstr "ILL अनुरोधों का प्रबंधन"
 
 #: ../../source/ILL_requests.rst:99
-msgid ""
-"Click on the ‘Manage request’ button in the final column. Depending on the "
-"current status of the request you may see some or all of the following "
-"options:"
-msgstr ""
-"अंतिम कॉलम में ‘मैनेज रिक्वेस्ट’ बटन पर क्लिक करें। अनुरोध की वर्तमान स्थिति के आधार पर आप "
-"निम्नलिखित विकल्पों में से कुछ या सभी देख सकते हैं:"
+msgid "Click on the ‘Manage request’ button in the final column. Depending on the current status of the request you may see some or all of the following options:"
+msgstr "अंतिम कॉलम में ‘मैनेज रिक्वेस्ट’ बटन पर क्लिक करें। अनुरोध की वर्तमान स्थिति के आधार पर आप निम्नलिखित विकल्पों में से कुछ या सभी देख सकते हैं:"
 
 #: ../../source/ILL_requests.rst:102
 msgid "Edit request"
 msgstr "अनुरोध संपादित करें"
 
 #: ../../source/ILL_requests.rst:104
-#, fuzzy
-msgid ""
-"you can edit the borrowernumber, biblionumber, branch and can add notes.  If "
-"you have added custom ILL statuses you can also edit these."
+msgid "you can edit the borrowernumber, biblionumber, branch and can add notes.  If you have added custom ILL statuses you can also edit these."
 msgstr ""
-"आप borrowernumber, biblionumber, शाखा संपादित कर सकते हैं और नोट्स जोड़ सकते हैं।"
+"आप उधारकर्तासंख्या, biblioनंबर, शाखा को संपादित कर सकते हैं और नोट्स जोड़ "
+"सकते हैं।  यदि आपने कस्टम ILL स्टेटस जोड़े हैं तो आप इन्हें भी संपादित कर "
+"सकते हैं।"
 
 #: ../../source/ILL_requests.rst:106
 msgid "Confirm request"
 msgstr "अनुरोध की पुष्टि करें"
 
 #: ../../source/ILL_requests.rst:108
-msgid ""
-"place the request with a document supply service using a backend such as "
-"BLDSS."
+msgid "place the request with a document supply service using a backend such as BLDSS."
 msgstr "बीएलडीएसएस जैसे बैकएंड का उपयोग करके दस्तावेज़ आपूर्ति सेवा के साथ अनुरोध रखें।"
 
 #: ../../source/ILL_requests.rst:109 ../../source/ILL_requests.rst:170
@@ -266,29 +214,25 @@ msgid "Place request with partners"
 msgstr "भागीदारों के साथ अनुरोध रखें"
 
 #: ../../source/ILL_requests.rst:111
-msgid ""
-"place the request via email with a :ref:`partner library <place-request-with-"
-"partners-label>`"
-msgstr ""
-"अनुरोध को ईमेल के माध्यम से a: Ref: `साथी लाइब्रेरी में रखें <place-request-with-"
-"partners-label>`"
+msgid "place the request via email with a :ref:`partner library <place-request-with-partners-label>`"
+msgstr "अनुरोध को ईमेल के माध्यम से a: Ref: `साथी लाइब्रेरी में रखें <place-request-with-partners-label>`"
 
 #: ../../source/ILL_requests.rst:112
 msgid "Switch provider"
-msgstr ""
+msgstr "प्रदाता को स्विच करें"
 
 #: ../../source/ILL_requests.rst:114
 msgid "this allows you to move the request to a different provider (backend)."
 msgstr ""
+"यह आपको अनुरोध को एक अलग प्रदाता (बैकएंड) में स्थानांतरित करने की अनुमति देता"
+" है।"
 
 #: ../../source/ILL_requests.rst:115
 msgid "Delete"
 msgstr "मिटाएँ"
 
 #: ../../source/ILL_requests.rst:117
-msgid ""
-"fully delete the request. Details of deleted requests are not retained in "
-"Koha."
+msgid "fully delete the request. Details of deleted requests are not retained in Koha."
 msgstr "अनुरोध को पूरी तरह से हटा दें। हटाए गए अनुरोधों का विवरण कोह में बरकरार नहीं है।"
 
 #: ../../source/ILL_requests.rst:118
@@ -296,12 +240,8 @@ msgid "Revert request"
 msgstr "अनुरोध वापस करें"
 
 #: ../../source/ILL_requests.rst:120
-msgid ""
-"following a status of ‘Requested’ or ‘Requested from partners’ library staff "
-"can cancel the request from the external source. The status reverts to ‘New’"
-msgstr ""
-"अनुरोधित ’या library भागीदारों की लाइब्रेरी कर्मचारियों से अनुरोध की स्थिति के बाद "
-"बाहरी स्रोत से अनुरोध को रद्द कर सकते हैं। स्थिति 'नई' के लिए बदल जाती है"
+msgid "following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’"
+msgstr "अनुरोधित ’या library भागीदारों की लाइब्रेरी कर्मचारियों से अनुरोध की स्थिति के बाद बाहरी स्रोत से अनुरोध को रद्द कर सकते हैं। स्थिति 'नई' के लिए बदल जाती है"
 
 #: ../../source/ILL_requests.rst:122
 msgid "Mark completed"
@@ -316,76 +256,55 @@ msgid "Edit item metadata"
 msgstr "मेटाडाटा आइटम संपादन"
 
 #: ../../source/ILL_requests.rst:127
-#, fuzzy
-msgid ""
-"Dependent on the backend used for the request you may be able to edit, add "
-"or delete some or all of the request metadata.  For example, if the metdata "
-"has originated from a requestor using the FreeForm backend this may need to "
-"be edited, whereas metadata from an external recognised source such as BLDSS "
-"should not."
+msgid "Dependent on the backend used for the request you may be able to edit, add or delete some or all of the request metadata.  For example, if the metdata has originated from a requestor using the FreeForm backend this may need to be edited, whereas metadata from an external recognised source such as BLDSS should not."
 msgstr ""
-"अनुरोध के लिए उपयोग किए जाने वाले बैकएंड के आधार पर, आप कुछ या सभी मेटाडेटा का संपादन, "
-"जोड़ या हटा सकते हैं। उदाहरण के लिए, यदि मेटाडेटा ने फ्रीफ़ॉर्म बैकएंड का उपयोग करके एक "
-"अनुरोधकर्ता से जन्म लिया है, तो इसे संपादित करने की आवश्यकता हो सकती है, जबकि बाहरी "
-"पहचान स्रोत से मेटाडेटा जैसे कि BLDSS नहीं होना चाहिए।"
+"अनुरोध के लिए उपयोग किए जाने वाले बैकएंड के आधार पर, आप कुछ या सभी मेटाडेटा "
+"का संपादन, जोड़ या हटा सकते हैं।  उदाहरण के लिए, यदि मेटाडेटा ने फ्रीफ़ॉर्म "
+"बैकएंड का उपयोग करके एक अनुरोधकर्ता से जन्म लिया है, तो इसे संपादित करने की "
+"आवश्यकता हो सकती है, जबकि बाहरी पहचान स्रोत से मेटाडेटा जैसे कि BLDSS नहीं "
+"होना चाहिए।"
 
 #: ../../source/ILL_requests.rst:132
 msgid "Display supplier metadata"
 msgstr "प्रदायक मेटाडेटा प्रदर्शित करें"
 
 #: ../../source/ILL_requests.rst:134
-msgid ""
-"Displays any extra metadata that might have been provided by your ILL "
-"supplier that has not been included in the standard request fields."
-msgstr ""
-"किसी भी अतिरिक्त मेटाडेटा को प्रदर्शित करता है जो आपके ILL आपूर्तिकर्ता द्वारा प्रदान "
-"किया गया हो सकता है जो मानक अनुरोध क्षेत्रों में शामिल नहीं किया गया है।"
+msgid "Displays any extra metadata that might have been provided by your ILL supplier that has not been included in the standard request fields."
+msgstr "किसी भी अतिरिक्त मेटाडेटा को प्रदर्शित करता है जो आपके ILL आपूर्तिकर्ता द्वारा प्रदान किया गया हो सकता है जो मानक अनुरोध क्षेत्रों में शामिल नहीं किया गया है।"
 
 #: ../../source/ILL_requests.rst:136
-#, fuzzy
 msgid "ILL request log"
-msgstr "ILL अनुरोध बनाएँ"
+msgstr "आईएलएल अनुरोध लॉग"
 
 #: ../../source/ILL_requests.rst:138
 msgid "Displays a history of changes made to the request."
-msgstr ""
+msgstr "अनुरोध में किए गए परिवर्तनों का इतिहास प्रदर्शित करता है।"
 
 #: ../../source/ILL_requests.rst:139
 msgid "Comments"
 msgstr "टिप्पणियाँ"
 
 #: ../../source/ILL_requests.rst:141
-msgid ""
-"It is possible to add comments to an ILL request and these can be used by "
-"ILL staff to keep track of work undertaken. Comments are read only and are "
-"stored in chronological order. They display the borrower details and date of "
-"the comment. If present, the number of comments is displayed in the List "
-"requests view."
-msgstr ""
-"एक ILL अनुरोध पर टिप्पणी जोड़ना संभव है और इन्हें ILL कर्मचारियों द्वारा काम के काम पर "
-"नज़र रखने के लिए उपयोग किया जा सकता है। टिप्पणियाँ केवल पढ़ी जाती हैं और कालानुक्रमिक "
-"क्रम में संग्रहीत की जाती हैं। वे उधारकर्ता विवरण और टिप्पणी की तारीख प्रदर्शित करते हैं। "
-"यदि मौजूद है, तो टिप्पणियों की संख्या सूची अनुरोधों के दृश्य में प्रदर्शित होती है।"
+msgid "It is possible to add comments to an ILL request and these can be used by ILL staff to keep track of work undertaken. Comments are read only and are stored in chronological order. They display the borrower details and date of the comment. If present, the number of comments is displayed in the List requests view."
+msgstr "एक ILL अनुरोध पर टिप्पणी जोड़ना संभव है और इन्हें ILL कर्मचारियों द्वारा काम के काम पर नज़र रखने के लिए उपयोग किया जा सकता है। टिप्पणियाँ केवल पढ़ी जाती हैं और कालानुक्रमिक क्रम में संग्रहीत की जाती हैं। वे उधारकर्ता विवरण और टिप्पणी की तारीख प्रदर्शित करते हैं। यदि मौजूद है, तो टिप्पणियों की संख्या सूची अनुरोधों के दृश्य में प्रदर्शित होती है।"
 
 #: ../../source/ILL_requests.rst:146
 msgid "Checkout"
-msgstr ""
+msgstr "चेकआउट"
 
 #: ../../source/ILL_requests.rst:148
-msgid ""
-"This option is only available if you have the :ref:`CirculateILL` preference "
-"enabled.  See the :ref:`Circulating ILL materials <circulating-ILL-material-"
-"label>` section."
+msgid "This option is only available if you have the :ref:`CirculateILL` preference enabled.  See the :ref:`Circulating ILL materials <circulating-ILL-material-label>` section."
 msgstr ""
+"यह विकल्प केवल तभी उपलब्ध है जब आपके पास :ref:`CirculateILL` वरीयता सक्षम "
+"हो।देखें : ref:` परिसंचारी ILL सामग्री <circulating-ILL-material-label>` खंड।"
 
 #: ../../source/ILL_requests.rst:153
 msgid "Request statuses"
 msgstr "अनुरोध की स्थिति"
 
 #: ../../source/ILL_requests.rst:155
-#, fuzzy
 msgid "The full list of installed ILL statuses are:"
-msgstr "ILL स्थितियों की पूरी सूची इस प्रकार है:"
+msgstr "स्थापित ILL स्थितियों की पूरी सूची इस प्रकार है:"
 
 #: ../../source/ILL_requests.rst:157
 msgid "New request"
@@ -404,8 +323,7 @@ msgid "Request reverted"
 msgstr "अनुरोध वापस लिया गया"
 
 #: ../../source/ILL_requests.rst:161
-msgid ""
-"Cancellation requested – a patron has requested cancellation from the OPAC."
+msgid "Cancellation requested – a patron has requested cancellation from the OPAC."
 msgstr "अनुरोध रद्द - एक संरक्षक ने ओपेक से रद्द करने का अनुरोध किया है."
 
 #: ../../source/ILL_requests.rst:162
@@ -414,116 +332,97 @@ msgstr "पूर्ण"
 
 #: ../../source/ILL_requests.rst:163
 msgid "Checked out"
-msgstr ""
+msgstr "चेकआउट"
 
 #: ../../source/ILL_requests.rst:164
 msgid "Returned to Library"
-msgstr ""
+msgstr "लाइब्रेरी में लौट आया"
 
 #: ../../source/ILL_requests.rst:172
-msgid ""
-"If you have a network of partner libraries which permit ILL requests you can "
-"manage this through Koha. First you need to create your partner library "
-"accounts:"
-msgstr ""
-"यदि आपके पास साझेदार पुस्तकालयों का एक नेटवर्क है जो ILL अनुरोधों की अनुमति देता है तो आप "
-"कोहा के माध्यम से इसे प्रबंधित कर सकते हैं. आपको अपने साथी पुस्तकालय खाते बनाने की आवश्यकता "
-"है:"
+msgid "If you have a network of partner libraries which permit ILL requests you can manage this through Koha. First you need to create your partner library accounts:"
+msgstr "यदि आपके पास साझेदार पुस्तकालयों का एक नेटवर्क है जो ILL अनुरोधों की अनुमति देता है तो आप कोहा के माध्यम से इसे प्रबंधित कर सकते हैं. आपको अपने साथी पुस्तकालय खाते बनाने की आवश्यकता है:"
 
 #: ../../source/ILL_requests.rst:174
-msgid ""
-"You will need to set up a :ref:`patron category <patron-categories-label>` "
-"with the code ILLLIBS."
-msgstr ""
-"आपको कोड ILLLIBS के साथ एक : Ref: `संरक्षक श्रेणी <patron-categories-label>` सेट "
-"करना होगा।"
+msgid "You will need to set up a :ref:`patron category <patron-categories-label>` with the code ILLLIBS."
+msgstr "आपको कोड ILLLIBS के साथ एक : Ref: `संरक्षक श्रेणी <patron-categories-label>` सेट करना होगा।"
 
 #: ../../source/ILL_requests.rst:176
-msgid ""
-"You will need to create a patron account with this category for each partner "
-"library."
-msgstr ""
-"आपको प्रत्येक भागीदार लाइब्रेरी के लिए इस श्रेणी के साथ एक संरक्षक खाता बनाना होगा।"
+msgid "You will need to create a patron account with this category for each partner library."
+msgstr "आपको प्रत्येक भागीदार लाइब्रेरी के लिए इस श्रेणी के साथ एक संरक्षक खाता बनाना होगा।"
 
 #: ../../source/ILL_requests.rst:178
-#, fuzzy
-msgid ""
-"Each library must have an email address as this will be the mechanism for "
-"sending the inter-library loan request.  The notice template is "
-"ILL_PARTNER_REQ and the text can be customised from :ref:`Notices & slips "
-"<notices-and-slips-label>` in the Tools module."
+msgid "Each library must have an email address as this will be the mechanism for sending the inter-library loan request.  The notice template is ILL_PARTNER_REQ and the text can be customised from :ref:`Notices & slips <notices-and-slips-label>` in the Tools module."
 msgstr ""
-"प्रत्येक पुस्तकालय में एक ईमेल पता होना चाहिए क्योंकि यह अंतर-पुस्तकालय ऋण अनुरोध भेजने के "
-"लिए तंत्र होगा।"
+"प्रत्येक पुस्तकालय में एक ईमेल पता होना चाहिए क्योंकि यह अंतर-पुस्तकालय ऋण "
+"अनुरोध भेजने के लिए एक तंत्र होगा। नोटिस नोटिस ILL_PARTNER_REQ है और पाठ को "
+"अनुकूलित किया जा सकता है: ref: `नोटिस और स्लिप्स <notices-and-slips-label>` "
+"टूल मॉड्यूल में।"
 
 #: ../../source/ILL_requests.rst:181
-msgid ""
-"You can now use the 'Place request with partners' option when processing "
-"requests."
-msgstr ""
-"प्रसंस्करण अनुरोधों के दौरान आप 'पार्टनर के साथ प्लेस अनुरोध' विकल्प का उपयोग कर सकते हैं।"
+msgid "You can now use the 'Place request with partners' option when processing requests."
+msgstr "प्रसंस्करण अनुरोधों के दौरान आप 'पार्टनर के साथ प्लेस अनुरोध' विकल्प का उपयोग कर सकते हैं।"
 
 #: ../../source/ILL_requests.rst:184
-msgid ""
-"If you have enabled the :ref:`ILLCheckAvailability` preference enabled you "
-"can use plugins to search the catalogues of your partner libraries using "
-"Z39.50 prior to confirming the request with a partner."
+msgid "If you have enabled the :ref:`ILLCheckAvailability` preference enabled you can use plugins to search the catalogues of your partner libraries using Z39.50 prior to confirming the request with a partner."
 msgstr ""
+"यदि आपने you को सक्षम किया है :ref:`ILLCheckAvailability` वरीयता को सक्षम "
+"किया है तो आप पार्टनर के साथ अनुरोध की पुष्टि करने से पहले Z39.50 का उपयोग "
+"करके अपने साथी पुस्तकालयों के कैटलॉग को खोजने के लिए प्लग इन का उपयोग कर सकते"
+" हैं।"
 
 #: ../../source/ILL_requests.rst:190
 msgid "Circulating ILL materials"
-msgstr ""
+msgstr "ILL सामग्री का प्रसार"
 
 #: ../../source/ILL_requests.rst:192
-msgid ""
-"If you have enabled the :ref:`CirculateILL` preference you can checkout ILL "
-"items directly from the ILL request."
+msgid "If you have enabled the :ref:`CirculateILL` preference you can checkout ILL items directly from the ILL request."
 msgstr ""
+"यदि आपने :ref:`CirculateILL` वरीयता को सक्षम कर दिया है, तो आप ILL अनुरोध से "
+"सीधे ILL आइटम चेकआउट कर सकते हैं।"
 
 #: ../../source/ILL_requests.rst:194
-msgid ""
-"When you create a *Book* type request a brief catalogue record is created "
-"automatically based on the Fast Add MARC framework. Once a request has a "
-"suitable status, a Checkout button is displayed on the Manage request "
-"toolbar. Clicking this will enable the user to check out the item either to "
-"the user who made the request or an in-house statistical patron."
+msgid "When you create a *Book* type request a brief catalogue record is created automatically based on the Fast Add MARC framework. Once a request has a suitable status, a Checkout button is displayed on the Manage request toolbar. Clicking this will enable the user to check out the item either to the user who made the request or an in-house statistical patron."
 msgstr ""
+"जब आप एक * पुस्तक * प्रकार का अनुरोध बनाते हैं तो एक त्वरित कैटलॉग रिकॉर्ड "
+"फास्ट ऐड मार्क फ्रेमवर्क के आधार पर स्वचालित रूप से बनाया जाता है। एक अनुरोध "
+"के उपयुक्त स्थिति होने के बाद, एक चेकआउट बटन प्रबंधित अनुरोध टूलबार पर "
+"प्रदर्शित होता है। इस पर क्लिक करने से उपयोगकर्ता अनुरोध या इन-हाउस सांख्यिकी"
+"य संरक्षक के लिए आइटम की जांच कर सकेगा।"
 
 #: ../../source/ILL_requests.rst:197
 msgid "To checkout an item:"
-msgstr ""
+msgstr "किसी आइटम की जांच करने के लिए:"
 
 #: ../../source/ILL_requests.rst:199
 msgid "Click on the Checkout button."
-msgstr ""
+msgstr "चेकआउट बटन पर क्लिक करें।"
 
 #: ../../source/ILL_requests.rst:201
-msgid ""
-"Select an item type when prompted.  An item is created automatically which "
-"is attached to the biblio record that was created for the request.  The "
-"barcode of the item is in the format ILL-requestid."
+msgid "Select an item type when prompted.  An item is created automatically which is attached to the biblio record that was created for the request.  The barcode of the item is in the format ILL-requestid."
 msgstr ""
+"जब संकेत किया जाता है तो आइटम प्रकार का चयन करें। कोई आइटम स्वचालित रूप से "
+"बनाया जाता है जो अनुरोध के लिए बनाए गए biblio रिकॉर्ड से जुड़ा होता है। आइटम "
+"का बारकोड ILL-requestid प्रारूप में होता है।"
 
 #: ../../source/ILL_requests.rst:204
-msgid ""
-"Next, at the patron checkout screen select a due date.  If you do not select "
-"a due date the relevant circulation rule will be used to calculate the due "
-"date."
+msgid "Next, at the patron checkout screen select a due date.  If you do not select a due date the relevant circulation rule will be used to calculate the due date."
 msgstr ""
+"इसके बाद, संरक्षक चेकआउट स्क्रीन पर एक नियत तारीख का चयन करें।  यदि आप नियत "
+"तारीख का चयन नहीं करते हैं तो संबंधित संचलन नियम का उपयोग नियत तारीख की गणना "
+"के लिए किया जाएगा।"
 
 #: ../../source/ILL_requests.rst:207
-msgid ""
-"Once the item is checked out the status of the request is changed to "
-"'Checked out' and after it has been checked in the status updates to "
-"'Returned to library'."
+msgid "Once the item is checked out the status of the request is changed to 'Checked out' and after it has been checked in the status updates to 'Returned to library'."
 msgstr ""
+"एक बार आइटम की जाँच करने के बाद अनुरोध की स्थिति को 'चेक आउट' में बदल दिया "
+"जाता है और उसके बाद स्थिति अद्यतन में 'लाइब्रेरी में लौटाया' गया है।"
 
 #: ../../source/ILL_requests.rst:210
-msgid ""
-"Bibliographic records created as part of an ILL request will have an extra "
-"tab in the holdings table for that allows you to link back to the request in "
-"the ILL module."
+msgid "Bibliographic records created as part of an ILL request will have an extra tab in the holdings table for that allows you to link back to the request in the ILL module."
 msgstr ""
+"ILL अनुरोध के हिस्से के रूप में बनाए गए ग्रंथ सूची रिकॉर्ड में आपके पास ILL "
+"मॉड्यूल में अनुरोध करने के लिए लिंक को जोड़ने की अनुमति देने वाली तालिका में "
+"एक अतिरिक्त टैब होगा।"
 
 #~ msgid "Next, set your system preferences."
 #~ msgstr "इसके बाद, अपनी सिस्टम प्राथमिकताएँ सेट करें।"
@@ -531,12 +430,8 @@ msgstr ""
 #~ msgid "Set the :ref:`ILLModule` preference to ‘Enable’."
 #~ msgstr "सेट करें :ref:`ILLModule` वरीयताके लिए 'सक्षम'।"
 
-#~ msgid ""
-#~ "If you wish to include a copyright declaration in your ILL workflow you "
-#~ "can this in the :ref:`ILLModuleCopyrightClearance` preference."
-#~ msgstr ""
-#~ "यदि आप अपने ILL वर्कफ़्लो में एक कॉपीराइट घोषणा को शामिल करना चाहते हैं, तो आप इसे :"
-#~ "ref:`ILLModuleCopyrightClearance` वरीयता में कर सकते हैं।"
+#~ msgid "If you wish to include a copyright declaration in your ILL workflow you can this in the :ref:`ILLModuleCopyrightClearance` preference."
+#~ msgstr "यदि आप अपने ILL वर्कफ़्लो में एक कॉपीराइट घोषणा को शामिल करना चाहते हैं, तो आप इसे :ref:`ILLModuleCopyrightClearance` वरीयता में कर सकते हैं।"
 
 #~ msgid "**Note**"
 #~ msgstr "**टिप्पणी**"

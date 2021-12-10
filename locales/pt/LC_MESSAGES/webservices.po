@@ -22,64 +22,24 @@ msgid "Web Services"
 msgstr "Serviços Web"
 
 #: ../../source/webservices.rst:8
-msgid ""
-"Koha provides a number of APIs allowing access to it's data and functions."
-msgstr ""
-"O Koha fornece um número de APIs permitindo o acesso aos seus dados e "
-"funções."
+msgid "Koha provides a number of APIs allowing access to it's data and functions."
+msgstr "O Koha fornece um número de APIs permitindo o acesso aos seus dados e funções."
 
 #: ../../source/webservices.rst:13
 msgid "OAI-PMH"
 msgstr "OAI-PMH"
 
 #: ../../source/webservices.rst:15
-msgid ""
-"For the Open Archives Initiative-Protocol for Metadata Harvesting (OAI-PMH) "
-"there are two groups of 'participants': Data Providers and Service "
-"Providers. Data Providers (open archives, repositories) provide free access "
-"to metadata, and may, but do not necessarily, offer free access to full "
-"texts or other resources. OAI-PMH provides an easy to implement, low barrier "
-"solution for Data Providers. Service Providers use the OAI interfaces of the "
-"Data Providers to harvest and store metadata. Note that this means that "
-"there are no live search requests to the Data Providers; rather, services "
-"are based on the harvested data via OAI-PMH."
-msgstr ""
-"Para o Open Archives Initiative-Protocol for Metadata Harvesting (OAI-PMH) "
-"há dois grupos de 'participantes': Provedores de dados e Provedores de "
-"serviços. Os provedores de dados (arquivos abertos, repositórios) fornecem "
-"acesso livre ao metadados, e podem, mas não necessariamente, fornecer acesso "
-"livre aos textos completos e a outros recursos. O OAI-PMH fornece uma "
-"solução simples e sem entraves para os Provedores de dados. Os Provedores de "
-"serviços utilizam a interface OAI dos Provedores de dados para agregar e "
-"armazenar os dados/metadados. Note que isto que não existe uma pesquisa "
-"direta nos provedores de dados; os serviços baseam-se nos dados agregados "
-"pelo protocolo."
+msgid "For the Open Archives Initiative-Protocol for Metadata Harvesting (OAI-PMH) there are two groups of 'participants': Data Providers and Service Providers. Data Providers (open archives, repositories) provide free access to metadata, and may, but do not necessarily, offer free access to full texts or other resources. OAI-PMH provides an easy to implement, low barrier solution for Data Providers. Service Providers use the OAI interfaces of the Data Providers to harvest and store metadata. Note that this means that there are no live search requests to the Data Providers; rather, services are based on the harvested data via OAI-PMH."
+msgstr "Para o Open Archives Initiative-Protocol for Metadata Harvesting (OAI-PMH) há dois grupos de 'participantes': Provedores de dados e Provedores de serviços. Os provedores de dados (arquivos abertos, repositórios) fornecem acesso livre ao metadados, e podem, mas não necessariamente, fornecer acesso livre aos textos completos e a outros recursos. O OAI-PMH fornece uma solução simples e sem entraves para os Provedores de dados. Os Provedores de serviços utilizam a interface OAI dos Provedores de dados para agregar e armazenar os dados/metadados. Note que isto que não existe uma pesquisa direta nos provedores de dados; os serviços baseam-se nos dados agregados pelo protocolo."
 
 #: ../../source/webservices.rst:26
-msgid ""
-"Koha at present can only act as a Data Provider. It can not harvest from "
-"other repositories. The biggest stumbling block to having Koha harvest from "
-"other repositories is that MARC is the only metadata format that Koha "
-"indexes natively. Visit http://www.oaforum.org/tutorial/english/page3.htm "
-"for diagrams of how OAI-PMH works."
-msgstr ""
-"Atualmente, o Koha apenas funciona como Provedor de dados. Não pode agregar "
-"informação de outros repositórios. O maior obstáculo para que o Koha agregue "
-"informação de outros repositórios é que o MARC é o único formato de "
-"metadados que o Koha indexa de forma nativa. Visite a página http://www."
-"oaforum.org/tutorial/english/page3.htm para consultar alguns diagramas de "
-"como o OAI-PMH funciona."
+msgid "Koha at present can only act as a Data Provider. It can not harvest from other repositories. The biggest stumbling block to having Koha harvest from other repositories is that MARC is the only metadata format that Koha indexes natively. Visit http://www.oaforum.org/tutorial/english/page3.htm for diagrams of how OAI-PMH works."
+msgstr "Atualmente, o Koha apenas funciona como Provedor de dados. Não pode agregar informação de outros repositórios. O maior obstáculo para que o Koha agregue informação de outros repositórios é que o MARC é o único formato de metadados que o Koha indexa de forma nativa. Visite a página http://www.oaforum.org/tutorial/english/page3.htm para consultar alguns diagramas de como o OAI-PMH funciona."
 
 #: ../../source/webservices.rst:33
-msgid ""
-"By default Koha won't include item information in OAI-PMH result sets, but "
-"they can be added by using the include_items option in the a configuration "
-"file linked from :ref:`OAI-PMH:ConfFile`."
-msgstr ""
-"Por omissão, o Koha não inclui as informações de exemplar nos resultados dos "
-"conjuntos OAI-PMH, mas podem ser adicionados usando a opção include_items no "
-"ficheiros de configuração definido na preferência de sistema :ref:`OAI-PMH:"
-"ConfFile`."
+msgid "By default Koha won't include item information in OAI-PMH result sets, but they can be added by using the include_items option in the a configuration file linked from :ref:`OAI-PMH:ConfFile`."
+msgstr "Por omissão, o Koha não inclui as informações de exemplar nos resultados dos conjuntos OAI-PMH, mas podem ser adicionados usando a opção include_items no ficheiros de configuração definido na preferência de sistema :ref:`OAI-PMH:ConfFile`."
 
 # Web services > OAI-PMH
 #: ../../source/webservices.rst:37
@@ -87,13 +47,8 @@ msgid "Learn more about OAI-PMH at: http://www.openarchives.org/pmh/"
 msgstr "Aprenda mais sobre o OAI-PMH em: http://www.openarchives.org/pmh/"
 
 #: ../../source/webservices.rst:39
-msgid ""
-"To enable OAI-PMH in Koha edit the :ref:`OAI-PMH` preference. Once enabled "
-"you can visit http://YOURKOHACATALOG/cgi-bin/koha/oai.pl to see your file."
-msgstr ""
-"Para ativar o OAI-PMH edite a preferência de sistema :ref:`OAI-PMH`. Assim "
-"que ativar a preferência aceda a http://YOURKOHACATALOG/cgi-bin/koha/oai.pl "
-"para ver o seu ficheiro."
+msgid "To enable OAI-PMH in Koha edit the :ref:`OAI-PMH` preference. Once enabled you can visit http://YOURKOHACATALOG/cgi-bin/koha/oai.pl to see your file."
+msgstr "Para ativar o OAI-PMH edite a preferência de sistema :ref:`OAI-PMH`. Assim que ativar a preferência aceda a http://YOURKOHACATALOG/cgi-bin/koha/oai.pl para ver o seu ficheiro."
 
 #: ../../source/webservices.rst:46
 msgid "Sample OAI Conf File"
@@ -104,226 +59,96 @@ msgid "SRU server"
 msgstr "Servidor SRU"
 
 #: ../../source/webservices.rst:72
-msgid ""
-"Koha implements the Search/Retrieve via URL (SRU) protocol. More information "
-"about the protocol itself can be found at http://www.loc.gov/standards/sru/. "
-"The version implemented is version 1.1."
-msgstr ""
-"O Koha implementa o protocolo Search/Retrieve via URL (SRU). Para mais "
-"informações sobre o protocolo consulte a página http://www.loc.gov/standards/"
-"sru/. A versão implementada é a versão 1.1."
+msgid "Koha implements the Search/Retrieve via URL (SRU) protocol. More information about the protocol itself can be found at http://www.loc.gov/standards/sru/. The version implemented is version 1.1."
+msgstr "O Koha implementa o protocolo Search/Retrieve via URL (SRU). Para mais informações sobre o protocolo consulte a página http://www.loc.gov/standards/sru/. A versão implementada é a versão 1.1."
 
 #: ../../source/webservices.rst:80
 msgid "Explain"
 msgstr "Explain"
 
 #: ../../source/webservices.rst:82
-msgid ""
-"If you want to have information about the implementation of SRU on a given "
-"server, you should have access to the Explain file using a request to the "
-"server without any parameter. Like http://myserver.com:9999/biblios/. The "
-"response from the server is an XML file that should look like the following "
-"and will give you information about the default settings of the SRU server."
-msgstr ""
-"Se deseja ter informação sobre a implementação do SRU num dado servidor, "
-"deve aceder ao ficheiro Explain efetuando um pedido ao servidor sem qualquer "
-"parâmetro. Exemplo: http://myserver.com:9999/biblios/. A resposta do "
-"servidor é um ficheiro XML parecido com o que é apresentado de seguida e que "
-"fornece informação das configurações por omissão do servidor SRU."
+msgid "If you want to have information about the implementation of SRU on a given server, you should have access to the Explain file using a request to the server without any parameter. Like http://myserver.com:9999/biblios/. The response from the server is an XML file that should look like the following and will give you information about the default settings of the SRU server."
+msgstr "Se deseja ter informação sobre a implementação do SRU num dado servidor, deve aceder ao ficheiro Explain efetuando um pedido ao servidor sem qualquer parâmetro. Exemplo: http://myserver.com:9999/biblios/. A resposta do servidor é um ficheiro XML parecido com o que é apresentado de seguida e que fornece informação das configurações por omissão do servidor SRU."
 
 #: ../../source/webservices.rst:150
 msgid "Search"
 msgstr "Pesquisar"
 
 #: ../../source/webservices.rst:152
-msgid ""
-"This url : http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=reefs is composed of the "
-"following elements:"
-msgstr ""
-"Este URL : http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=reefs é composto com os seguintes "
-"elementos:"
+msgid "This url : http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=reefs is composed of the following elements:"
+msgstr "Este URL : http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=reefs é composto com os seguintes elementos:"
 
 #: ../../source/webservices.rst:156
 msgid "base url of the SRU server : http://myserver.com:9999/biblios?"
 msgstr "URL base do servidor SRU : http://myserver.com:9999/biblios?"
 
 #: ../../source/webservices.rst:158
-msgid ""
-"search part with the 3 required parameters : version, operation and query. "
-"The parameters within the search part should be of the key=value form, and "
-"can be combined with the & character."
-msgstr ""
-"parte da pesquisa com os 3 parâmetros necessários : version, operation e "
-"query. Os parâmetros na parte da pesquisa devem estar no formato "
-"chave=valor, e devem ser combinados com o separador &."
+msgid "search part with the 3 required parameters : version, operation and query. The parameters within the search part should be of the key=value form, and can be combined with the & character."
+msgstr "parte da pesquisa com os 3 parâmetros necessários : version, operation e query. Os parâmetros na parte da pesquisa devem estar no formato chave=valor, e devem ser combinados com o separador &."
 
 #: ../../source/webservices.rst:162
-msgid ""
-"One can add optional parameters to the query, for instance maximumRecords "
-"indicating the maximum number of records to be returned by the server. So "
-"http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=reefs&maximumRecords=5 will only "
-"get the first 5 results results from the server."
-msgstr ""
-"Podem ser adicionados outros parâmetros à pesquisa, como por exemplo o "
-"maximumRecords para indicar o número máximo de registos a serem retornados "
-"pelo servidor. Ou seja, o endereço http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=reefs&maximumRecords=5 apenas vai "
-"obter os 5 primeiros resultados do servidor."
+msgid "One can add optional parameters to the query, for instance maximumRecords indicating the maximum number of records to be returned by the server. So http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=reefs&maximumRecords=5 will only get the first 5 results results from the server."
+msgstr "Podem ser adicionados outros parâmetros à pesquisa, como por exemplo o maximumRecords para indicar o número máximo de registos a serem retornados pelo servidor. Ou seja, o endereço http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=reefs&maximumRecords=5 apenas vai obter os 5 primeiros resultados do servidor."
 
 #: ../../source/webservices.rst:168
-msgid ""
-"http://www.loc.gov/standards/sru/sru1-1archive/search-retrieve-operation."
-"html gives more details about the search operations and in particular the "
-"list of optional parameters for searching."
-msgstr ""
-"O endereço http://www.loc.gov/standards/sru/sru1-1archive/search-retrieve-"
-"operation.html fornece mais detalhes sobre as operações de pesquisa e em "
-"particular a lista de parâmetros adicionais."
+msgid "http://www.loc.gov/standards/sru/sru1-1archive/search-retrieve-operation.html gives more details about the search operations and in particular the list of optional parameters for searching."
+msgstr "O endereço http://www.loc.gov/standards/sru/sru1-1archive/search-retrieve-operation.html fornece mais detalhes sobre as operações de pesquisa e em particular a lista de parâmetros adicionais."
 
 #: ../../source/webservices.rst:172
 msgid "The \"operation\" key can take two values: scan or searchRetrieve."
 msgstr "A chave \"operation\" pode ter dois valores: scan ou searchRetrieve."
 
 #: ../../source/webservices.rst:174
-msgid ""
-"If operation=searchRetrieve, then the search key should be query. As in : "
-"operation=searchRetrieve&query=reefs"
-msgstr ""
-"Se operation=searchRetrieve, então a chave de pesquisa deve ser query. "
-"Exemplo : operation=searchRetrieve&query=reefs"
+msgid "If operation=searchRetrieve, then the search key should be query. As in : operation=searchRetrieve&query=reefs"
+msgstr "Se operation=searchRetrieve, então a chave de pesquisa deve ser query. Exemplo : operation=searchRetrieve&query=reefs"
 
 #: ../../source/webservices.rst:177
-msgid ""
-"If operation=scan, then the search key should be scanClause. As in : "
-"operation=scan&scanClause=reefs"
-msgstr ""
-"Se operation=scan, então a chave de pesquisa deve ser scanClause. Exemplo : "
-"operation=scan&scanClause=reefs"
+msgid "If operation=scan, then the search key should be scanClause. As in : operation=scan&scanClause=reefs"
+msgstr "Se operation=scan, então a chave de pesquisa deve ser scanClause. Exemplo : operation=scan&scanClause=reefs"
 
 #: ../../source/webservices.rst:180
-msgid ""
-"etc/zebradb/biblios/etc/bib1.att defines Zebra/3950 indexes that exist on "
-"your system. For instance you'll see that we have indexes for Subject and "
-"for Title: att 21 Subject and att 4 Title respectively."
-msgstr ""
-"O ficheiro etc/zebradb/biblios/etc/bib1.att define os índices Zebra/3950 que "
-"existem no sistema. Por exemplo, encontraremos nesse ficheiro índices para o "
-"Assunto e para o Título: att 21 Subject e att 4 Title, respectivamente."
+msgid "etc/zebradb/biblios/etc/bib1.att defines Zebra/3950 indexes that exist on your system. For instance you'll see that we have indexes for Subject and for Title: att 21 Subject and att 4 Title respectively."
+msgstr "O ficheiro etc/zebradb/biblios/etc/bib1.att define os índices Zebra/3950 que existem no sistema. Por exemplo, encontraremos nesse ficheiro índices para o Assunto e para o Título: att 21 Subject e att 4 Title, respectivamente."
 
 #: ../../source/webservices.rst:184
-msgid ""
-"In the pqf.properties file located under etc/zebradb/pqf.properties I see "
-"that an access point already uses my Subject index (index.dc.subject = 1=21) "
-"while another uses my Title index (index.dc.title = 1=4) I know this is my "
-"Subject index because as I've seen just before in my bib1.att file, it's "
-"called with =1=21 in Z3950: so index.dc.subject = 1=21 correctly points to "
-"my Subject index. And Title was called with 1=4 so index.dc.title = 1=4 "
-"correctly points to my Title index. I can now construct my query just like I "
-"would in a search box, just preceding it with the \"query\" key: "
-"query=Subject=reefs and Title=coral searches \"reefs\" in the subject and "
-"\"coral\" in the title. The full url would be http://myserver.com:9999/"
-"biblios?version=1.1&operation=searchRetrieve&query=Subject=reefs and "
-"Title=coral If I want to limit the result set to just 5 records, I can do "
-"http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=Subject=reefs and "
-"Title=coral&maximumRecords=5"
-msgstr ""
-"No ficheiro pqf.properties, localizado na pasta etc/zebradb/, pode verificar "
-"que um ponto acesso já utiliza o índice Subject (index.dc.subject = 1=21) "
-"enquanto outro usa o índice Title (index.dc.title = 1=4). Sabemos que é o "
-"índice Subject porque como foi verificado no ficheiro bib1.att é invocado "
-"com =1=21 no Z39.50: portanto index.dc.subject = 1=21 aponta correctamente "
-"para o índice Subject. O índice Title é invocado com =1=4, então index.dc."
-"title = 1=4 aponta correctamente para o índice Title. Com estes dados "
-"podemos construir uma pesquisa tal como a que é efetuada na caixa de "
-"pesquisa, usando para tal o parâmetro \"query\": \"query=Subject=reefs and "
-"Title=coral\" pesquisa como assunto o termo \"reefs\" e como título o termo "
-"\"coral\". O endereço completo seria: http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=Subject=reefs and Title=coral. Se "
-"desejar limitar os resultados a 5 registos podemos usar o seguinte endereço: "
-"http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=Subject=reefs and "
-"Title=coral&maximumRecords=5"
+msgid "In the pqf.properties file located under etc/zebradb/pqf.properties I see that an access point already uses my Subject index (index.dc.subject = 1=21) while another uses my Title index (index.dc.title = 1=4) I know this is my Subject index because as I've seen just before in my bib1.att file, it's called with =1=21 in Z3950: so index.dc.subject = 1=21 correctly points to my Subject index. And Title was called with 1=4 so index.dc.title = 1=4 correctly points to my Title index. I can now construct my query just like I would in a search box, just preceding it with the \"query\" key: query=Subject=reefs and Title=coral searches \"reefs\" in the subject and \"coral\" in the title. The full url would be http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=Subject=reefs and Title=coral If I want to limit the result set to just 5 records, I can do http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=Subject=reefs and Title=coral&maximumRecords=5"
+msgstr "No ficheiro pqf.properties, localizado na pasta etc/zebradb/, pode verificar que um ponto acesso já utiliza o índice Subject (index.dc.subject = 1=21) enquanto outro usa o índice Title (index.dc.title = 1=4). Sabemos que é o índice Subject porque como foi verificado no ficheiro bib1.att é invocado com =1=21 no Z39.50: portanto index.dc.subject = 1=21 aponta correctamente para o índice Subject. O índice Title é invocado com =1=4, então index.dc.title = 1=4 aponta correctamente para o índice Title. Com estes dados podemos construir uma pesquisa tal como a que é efetuada na caixa de pesquisa, usando para tal o parâmetro \"query\": \"query=Subject=reefs and Title=coral\" pesquisa como assunto o termo \"reefs\" e como título o termo \"coral\". O endereço completo seria: http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=Subject=reefs and Title=coral. Se desejar limitar os resultados a 5 registos podemos usar o seguinte endereço: http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=Subject=reefs and Title=coral&maximumRecords=5"
 
 #: ../../source/webservices.rst:200
-msgid ""
-"I can also play with truncate, relations, etc. Those are also defined in my "
-"pqf.properties file. I can see for instance the position properties defined "
-"as:"
-msgstr ""
-"Também é possível truncar, usar relações, etc. Essas configurações também "
-"são feitas no ficheiro pqf.properties. Pode ver por exemplo as propriedades "
-"de posição definidas como:"
+msgid "I can also play with truncate, relations, etc. Those are also defined in my pqf.properties file. I can see for instance the position properties defined as:"
+msgstr "Também é possível truncar, usar relações, etc. Essas configurações também são feitas no ficheiro pqf.properties. Pode ver por exemplo as propriedades de posição definidas como:"
 
 #: ../../source/webservices.rst:211
-msgid ""
-"So as an example if I want \"coral\" to be at the beginning of the title, I "
-"can do this query : http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=Title=coral first"
-msgstr ""
-"Por exemplo se quiser que a palavra \"coral\" esteja no início do título, é "
-"possível usar a seguinte query : http://myserver.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=Title=coral first"
+msgid "So as an example if I want \"coral\" to be at the beginning of the title, I can do this query : http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=Title=coral first"
+msgstr "Por exemplo se quiser que a palavra \"coral\" esteja no início do título, é possível usar a seguinte query : http://myserver.com:9999/biblios?version=1.1&operation=searchRetrieve&query=Title=coral first"
 
 #: ../../source/webservices.rst:219
 msgid "Retrieve"
 msgstr "Retrieve"
 
 #: ../../source/webservices.rst:221
-msgid ""
-"My search for http://univ\\_lyon3.biblibre.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=coral reefs&maximumRecords=1 "
-"retrieves just on record. The response looks like this:"
-msgstr ""
-"A pesquisa http://univ\\_lyon3.biblibre.com:9999/biblios?"
-"version=1.1&operation=searchRetrieve&query=coral reefs&maximumRecords=1 "
-"apenas retorna um registo. A resposta é parecido com a seguinte:"
+msgid "My search for http://univ\\_lyon3.biblibre.com:9999/biblios?version=1.1&operation=searchRetrieve&query=coral reefs&maximumRecords=1 retrieves just on record. The response looks like this:"
+msgstr "A pesquisa http://univ\\_lyon3.biblibre.com:9999/biblios?version=1.1&operation=searchRetrieve&query=coral reefs&maximumRecords=1 apenas retorna um registo. A resposta é parecido com a seguinte:"
 
 #: ../../source/webservices.rst:292
 msgid "ILS-DI"
 msgstr "ILS-DI"
 
 #: ../../source/webservices.rst:294
-msgid ""
-"As of writing, the self documenting ILS-DI is the most complete interface "
-"and after it has been enabled as described in the :ref:`webservices-ils-di-"
-"system-preferences-label` system preferences section the documentation "
-"should be available at https://YOURKOHACATALOG/cgi-bin/koha/ilsdi.pl"
-msgstr ""
-"A auto-documentação do módulo ILS-DI é a interface mais completa e, após o "
-"módulo estar ativo com descrito na secção :ref:`webservices-ils-di-system-"
-"preferences-label` das preferências de sistema, a documentação estará "
-"disponível no endereço https://YOURKOHACATALOG/cgi-bin/koha/ilsdi.pl"
+msgid "As of writing, the self documenting ILS-DI is the most complete interface and after it has been enabled as described in the :ref:`webservices-ils-di-system-preferences-label` system preferences section the documentation should be available at https://YOURKOHACATALOG/cgi-bin/koha/ilsdi.pl"
+msgstr "A auto-documentação do módulo ILS-DI é a interface mais completa e, após o módulo estar ativo com descrito na secção :ref:`webservices-ils-di-system-preferences-label` das preferências de sistema, a documentação estará disponível no endereço https://YOURKOHACATALOG/cgi-bin/koha/ilsdi.pl"
 
 #: ../../source/webservices.rst:302
 msgid "JSON reports services"
 msgstr "Serviços JSON dos relatórios"
 
 #: ../../source/webservices.rst:304
-msgid ""
-"Koha implements a JSON reports service for every report saved using the :ref:"
-"`Guided Reports Wizard <guided-report-wizard-label>` or :ref:`Report from "
-"SQL <report-from-sql-label>` features."
-msgstr ""
-"O Koha implementa um serviço JSON sobre cada um dos relatórios guardados a "
-"partir das funcionalidades ref:`Assistente de relatórios <guided-report-"
-"wizard-label>` ou :ref:`Relatórios a partir do SQL <report-from-sql-label>`"
+msgid "Koha implements a JSON reports service for every report saved using the :ref:`Guided Reports Wizard <guided-report-wizard-label>` or :ref:`Report from SQL <report-from-sql-label>` features."
+msgstr "O Koha implementa um serviço JSON sobre cada um dos relatórios guardados a partir das funcionalidades ref:`Assistente de relatórios <guided-report-wizard-label>` ou :ref:`Relatórios a partir do SQL <report-from-sql-label>`"
 
 #: ../../source/webservices.rst:308
-msgid ""
-"By default reports will be non-public and only accessible by authenticated "
-"users. If a report is explicitly set to *public* it will be accessible "
-"without authentication by anyone. This feature should only be used when the "
-"data can be shared safely not containing any patron information."
-msgstr ""
-"Por omissão os relatórios são privados e apenas acessíveis a utilizadores "
-"autenticados. Se um relatórios estiver como *público* pode ser acedidos sem "
-"autenticação por qualquer pessoa. Esta funcionalidade apenas deve ser usada "
-"quando os dados podem ser partilhados de forma segura não contendo "
-"informação de qualquer leitor."
+msgid "By default reports will be non-public and only accessible by authenticated users. If a report is explicitly set to *public* it will be accessible without authentication by anyone. This feature should only be used when the data can be shared safely not containing any patron information."
+msgstr "Por omissão os relatórios são privados e apenas acessíveis a utilizadores autenticados. Se um relatórios estiver como *público* pode ser acedidos sem autenticação por qualquer pessoa. Esta funcionalidade apenas deve ser usada quando os dados podem ser partilhados de forma segura não contendo informação de qualquer leitor."
 
 #: ../../source/webservices.rst:313
 msgid "The reports can be accessed using the following URLs:"
@@ -350,25 +175,16 @@ msgid "There are also some additional parameters available:"
 msgstr "Existem também alguns parâmetros adicionais que pode utilizar:"
 
 #: ../../source/webservices.rst:325
-msgid ""
-"Instead of accessing the report by REPORTID you can also use the report's "
-"name:"
-msgstr ""
-"Em vez de aceder ao relatórios pelo REPORTID pode usar o nome do relatório:"
+msgid "Instead of accessing the report by REPORTID you can also use the report's name:"
+msgstr "Em vez de aceder ao relatórios pelo REPORTID pode usar o nome do relatório:"
 
 #: ../../source/webservices.rst:328
 msgid ".../cgi-bin/koha/svc/report?name=REPORTNAME"
 msgstr ".../cgi-bin/koha/svc/report?name=REPORTNAME"
 
 #: ../../source/webservices.rst:330
-msgid ""
-"For easier development there is also an option to generate an annotated "
-"output of the data. It will generate an array of hashes that include the "
-"field names as keys."
-msgstr ""
-"Para facilitar desenvolvimentos adicionais, existe uma opção para gerar um "
-"dados de saída anotados. Irá gerar um lista de matrizes que incluem os nomes "
-"dos campos como chaves."
+msgid "For easier development there is also an option to generate an annotated output of the data. It will generate an array of hashes that include the field names as keys."
+msgstr "Para facilitar desenvolvimentos adicionais, existe uma opção para gerar um dados de saída anotados. Irá gerar um lista de matrizes que incluem os nomes dos campos como chaves."
 
 #: ../../source/webservices.rst:334
 msgid ".../cgi-bin/koha/svc/report?name=REPORTNAME&annotated=1"
@@ -379,45 +195,24 @@ msgid "Versioned RESTful API Effort"
 msgstr "Esforço na RESTful API versionada"
 
 #: ../../source/webservices.rst:341
-msgid ""
-"There is an ongoing effort to converge the APIs above into a single "
-"versioned set of modern RESTful endpoints documented using the OpenAPI "
-"standard and available by default under https://YOURKOHACATALOG/api/v1/"
-msgstr ""
-"Há um esforço contínuo para convergir as APIs acima descritas, num único "
-"conjunto versionado de endpoints RESTful modernos e documentados usando o "
-"padrão OpenAPI e disponível por omissão no endereço https://YOURKOHACATALOG/"
-"api/v1/"
+msgid "There is an ongoing effort to converge the APIs above into a single versioned set of modern RESTful endpoints documented using the OpenAPI standard and available by default under https://YOURKOHACATALOG/api/v1/"
+msgstr "Há um esforço contínuo para convergir as APIs acima descritas, num único conjunto versionado de endpoints RESTful modernos e documentados usando o padrão OpenAPI e disponível por omissão no endereço https://YOURKOHACATALOG/api/v1/"
 
 #: ../../source/webservices.rst:348
 msgid "OAuth2 client credentials grant"
 msgstr "Concessão de credenciais do cliente OAuth2"
 
 #: ../../source/webservices.rst:350
-msgid ""
-"Koha supports the OAuth2 client credentials grant as a means to secure the "
-"API for using it from other systems to adhere to current industry standards. "
-"More information on the OAuth2 client credentials grant standard `can be "
-"found here <https://auth0.com/docs/api-auth/grant/client-credentials>`_."
-msgstr ""
-"O Koha suporta a concessão de credenciais do cliente OAuth2 como um meio de "
-"proteger a API de ser usada por outros sistema e para aderir aos padrões "
-"atuais do setor. Pode encontrar mais informações sobre o OAuth2 `aqui "
-"<https://auth0.com/docs/api-auth/grant/client-credentials>`_."
+msgid "Koha supports the OAuth2 client credentials grant as a means to secure the API for using it from other systems to adhere to current industry standards. More information on the OAuth2 client credentials grant standard `can be found here <https://auth0.com/docs/api-auth/grant/client-credentials>`_."
+msgstr "O Koha suporta a concessão de credenciais do cliente OAuth2 como um meio de proteger a API de ser usada por outros sistema e para aderir aos padrões atuais do setor. Pode encontrar mais informações sobre o OAuth2 `aqui <https://auth0.com/docs/api-auth/grant/client-credentials>`_."
 
 #: ../../source/webservices.rst:356
 msgid "API key management interface for patrons"
 msgstr "Interface de gestão de chaves API para os leitores"
 
 #: ../../source/webservices.rst:358
-msgid ""
-"In order for API keys to be create for patrons, the system preference :ref:"
-"`RESTOAuth2ClientCredentials` **must** be enabled for the option to appear "
-"in a patron record."
-msgstr ""
-"Para que as chaves API sejam criadas aos leitores, a preferência de sistema :"
-"ref:`RESTOAuth2ClientCredentials` **deve** estar ativa de forma a que a "
-"opção apareça no registo do leitor."
+msgid "In order for API keys to be create for patrons, the system preference :ref:`RESTOAuth2ClientCredentials` **must** be enabled for the option to appear in a patron record."
+msgstr "Para que as chaves API sejam criadas aos leitores, a preferência de sistema :ref:`RESTOAuth2ClientCredentials` **deve** estar ativa de forma a que a opção apareça no registo do leitor."
 
 #: ../../source/webservices.rst:362
 msgid "Navigate to a patron record and select *More > Manage API keys*"
@@ -428,12 +223,8 @@ msgid "|image1336|"
 msgstr "|image1336|"
 
 #: ../../source/webservices.rst:366
-msgid ""
-"If no API keys exist for a patron there will be a message prompting to "
-"generate a client id/secret pair"
-msgstr ""
-"Se não existirem chaves API para o leitor aparecerá uma mensagem para gerar "
-"o par identificador/segredo do cliente"
+msgid "If no API keys exist for a patron there will be a message prompting to generate a client id/secret pair"
+msgstr "Se não existirem chaves API para o leitor aparecerá uma mensagem para gerar o par identificador/segredo do cliente"
 
 #: ../../source/webservices.rst:369
 msgid "|image1337|"
@@ -448,34 +239,23 @@ msgid "|image1338|"
 msgstr "|image1338|"
 
 #: ../../source/webservices.rst:375
-msgid ""
-"Koha will generate a client id/secret pair for use to connect to Koha from "
-"other third-party systems as an authenticated client"
-msgstr ""
-"O Koha vai gerar um par identificador/segredo para ser usado na conexão ao "
-"Koha a partir de outros sistemas como cliente autenticado"
+msgid "Koha will generate a client id/secret pair for use to connect to Koha from other third-party systems as an authenticated client"
+msgstr "O Koha vai gerar um par identificador/segredo para ser usado na conexão ao Koha a partir de outros sistemas como cliente autenticado"
 
 #: ../../source/webservices.rst:378
 msgid "|image1339|"
 msgstr "|image1339|"
 
 #: ../../source/webservices.rst:380
-msgid ""
-"Clicking the Revoke button next to an API credential pair will render the "
-"specific credential pair inactive until reactivated"
-msgstr ""
-"Ao clicar no botão Revogar junto ao par da credenciais da API tornará o par "
-"de credenciais específico inativo até que seja reativado"
+msgid "Clicking the Revoke button next to an API credential pair will render the specific credential pair inactive until reactivated"
+msgstr "Ao clicar no botão Revogar junto ao par da credenciais da API tornará o par de credenciais específico inativo até que seja reativado"
 
 #: ../../source/webservices.rst:386
 msgid "Barcode image generator"
 msgstr ""
 
 #: ../../source/webservices.rst:388
-msgid ""
-"Koha provides a barcode image generator on both the staff interface and the "
-"public interface. Both require a user to be logged in to use the service, to "
-"prevent abuse by third parties."
+msgid "Koha provides a barcode image generator on both the staff interface and the public interface. Both require a user to be logged in to use the service, to prevent abuse by third parties."
 msgstr ""
 
 #: ../../source/webservices.rst:391 ../../source/webservices.rst:413
@@ -487,15 +267,11 @@ msgid "/cgi-bin/koha/svc/barcode?barcode=123456789&type=UPCE"
 msgstr ""
 
 #: ../../source/webservices.rst:393
-msgid ""
-"The URL above will generate a barcode image for the barcode \"123456789\", "
-"using the UPCE barcode format."
+msgid "The URL above will generate a barcode image for the barcode \"123456789\", using the UPCE barcode format."
 msgstr ""
 
 #: ../../source/webservices.rst:395
-msgid ""
-"The available barcode types are: * Code39 * UPCE * UPCA * QRcode * NW7 * "
-"Matrix2of5 * ITF * Industrial2of5 * IATA2of5 * EAN8 * EAN13 * COOP2of5"
+msgid "The available barcode types are: * Code39 * UPCE * UPCA * QRcode * NW7 * Matrix2of5 * ITF * Industrial2of5 * IATA2of5 * EAN8 * EAN13 * COOP2of5"
 msgstr ""
 
 #: ../../source/webservices.rst:409
@@ -503,10 +279,7 @@ msgid "If no type is specified, Code39 will be used."
 msgstr ""
 
 #: ../../source/webservices.rst:411
-msgid ""
-"By default, the barcode image will contain the text of the barcode as well. "
-"If this is not desired, the parameter \"notext\" may be passed to supress "
-"this behavior."
+msgid "By default, the barcode image will contain the text of the barcode as well. If this is not desired, the parameter \"notext\" may be passed to supress this behavior."
 msgstr ""
 
 #: ../../source/webservices.rst:414
@@ -514,14 +287,10 @@ msgid "/cgi-bin/koha/svc/barcode?barcode=123456789&notext=1"
 msgstr ""
 
 #: ../../source/webservices.rst:415
-msgid ""
-"will generate a barcode image 123456789 without the text \"123456789\" below "
-"it."
+msgid "will generate a barcode image 123456789 without the text \"123456789\" below it."
 msgstr ""
 
 #: ../../source/webservices.rst:417
-msgid ""
-"This service can be used to embed barcode images into slips and notices "
-"printed from the browser, and to embed a patron cardnumber into the OPAC, "
-"among other possibilities."
+msgid "This service can be used to embed barcode images into slips and notices printed from the browser, and to embed a patron cardnumber into the OPAC, among other possibilities."
 msgstr ""
+

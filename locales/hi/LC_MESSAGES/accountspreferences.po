@@ -8,40 +8,42 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-03-31 09:38+0000\n"
+"Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /hi/man20.11/accountspreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617183489.845117\n"
 
 #: ../../source/accountspreferences.rst:6
 msgid "Accounting"
-msgstr ""
+msgstr "लेखांकन"
 
 #: ../../source/accountspreferences.rst:8
-msgid ""
-"*Get there:* More > Administration > Global system preferences > Acquisitions"
-msgstr ""
+msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
+msgstr "वहां जाएं: * अधिक> प्रशासन> वैश्विक सिस्टम वरीयताएँ > अधिग्रहण"
 
 #: ../../source/accountspreferences.rst:14
 msgid "Features"
-msgstr ""
+msgstr "विशेषताएं"
 
 #: ../../source/accountspreferences.rst:19
 msgid "AutoCreditNumber"
-msgstr ""
+msgstr "AutoCreditNumber"
 
 #: ../../source/accountspreferences.rst:21
 msgid "Asks: \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_"
 
 #: ../../source/accountspreferences.rst:23
 msgid "Default: Do not automatically generate credit numbers"
-msgstr ""
+msgstr "डिफ़ॉल्ट: स्वचालित रूप से क्रेडिट नंबर उत्पन्न न करें"
 
 #: ../../source/accountspreferences.rst:25
 #: ../../source/accountspreferences.rst:56
@@ -50,24 +52,24 @@ msgstr ""
 #: ../../source/accountspreferences.rst:126
 #: ../../source/accountspreferences.rst:147
 msgid "Values:"
-msgstr ""
+msgstr "मानः"
 
 #: ../../source/accountspreferences.rst:27
 msgid "Do not automatically generate credit numbers"
-msgstr ""
+msgstr "स्वचालित रूप से क्रेडिट नंबर उत्पन्न न करें"
 
 #: ../../source/accountspreferences.rst:29
 msgid "Automatically generate credit numbers in the form <year>-0001"
-msgstr ""
+msgstr "फ़ॉर्म में स्वचालित रूप से क्रेडिट नंबर उत्पन्न करें <year>-0001"
 
 #: ../../source/accountspreferences.rst:31
-msgid ""
-"Automatically generate credit numbers in the form <branchcode>yyyymm0001"
+msgid "Automatically generate credit numbers in the form <branchcode>yyyymm0001"
 msgstr ""
+"फ़ॉर्म में स्वचालित रूप से क्रेडिट नंबर उत्पन्न करें <branchcode>yyyymm0001"
 
 #: ../../source/accountspreferences.rst:33
 msgid "Automatically generate credit numbers in the form 1, 2, 3"
-msgstr ""
+msgstr "फॉर्म 1, 2, 3 में स्वचालित रूप से क्रेडिट नंबर जेनरेट करें"
 
 #: ../../source/accountspreferences.rst:35
 #: ../../source/accountspreferences.rst:62
@@ -76,159 +78,160 @@ msgstr ""
 #: ../../source/accountspreferences.rst:132
 #: ../../source/accountspreferences.rst:153
 msgid "Description:"
-msgstr ""
+msgstr "विवरण: "
 
 #: ../../source/accountspreferences.rst:37
-msgid ""
-"For auditing purposes, it might be necessary to attach a unique number to "
-"each credit (payments, writeoffs, refunds, etc.). This system preference "
-"allows you to choose the format of this unique number."
+msgid "For auditing purposes, it might be necessary to attach a unique number to each credit (payments, writeoffs, refunds, etc.). This system preference allows you to choose the format of this unique number."
 msgstr ""
+"ऑडिटिंग उद्देश्यों के लिए, प्रत्येक क्रेडिट (भुगतान, राइटऑफ, रिफंड, आदि) के "
+"लिए एक अद्वितीय नंबर संलग्न करना आवश्यक हो सकता है। यह सिस्टम वरीयता आपको इस "
+"अद्वितीय संख्या के प्रारूप को चुनने की अनुमति देती है।"
 
 #: ../../source/accountspreferences.rst:41
 #: ../../source/accountspreferences.rst:66
 msgid "**Important**"
-msgstr ""
+msgstr "**महत्वपूर्ण**"
 
 #: ../../source/accountspreferences.rst:43
-msgid ""
-"Automatic generation also has to be enabled for each :ref:`credit type "
-"<credit-types-label>`."
+msgid "Automatic generation also has to be enabled for each :ref:`credit type <credit-types-label>`."
 msgstr ""
+"स्वचालित पीढ़ी को भी प्रत्येक के लिए सक्षम होना चाहिए :ref:`क्रेडिट प्रकार "
+"<credit-types-label>`."
 
 #: ../../source/accountspreferences.rst:49
 msgid "EnablePointOfSale"
-msgstr ""
+msgstr "EnablePointOfSale"
 
 #: ../../source/accountspreferences.rst:51
-msgid ""
-"Asks: \\_\\_\\_ the point of sale feature to allow anonymous transactions "
-"with the accounting system."
+msgid "Asks: \\_\\_\\_ the point of sale feature to allow anonymous transactions with the accounting system."
 msgstr ""
+"पूछता है: \\_\\_\\_ बिक्री सुविधा का बिंदु जो लेखांकन प्रणाली के साथ बेनामी "
+"लेनदेन की अनुमति देता है।"
 
 #: ../../source/accountspreferences.rst:54
 msgid "Default: Disable"
-msgstr ""
+msgstr "डिफ़ॉल्ट: अक्षम"
 
 #: ../../source/accountspreferences.rst:58
 msgid "Disable"
-msgstr ""
+msgstr "अक्षम"
 
 #: ../../source/accountspreferences.rst:60
 msgid "Enable"
-msgstr ""
+msgstr "सक्षम"
 
 #: ../../source/accountspreferences.rst:64
-msgid ""
-"This system preference controls the :ref:`point of sale module <point-of-"
-"sale-label>`."
+msgid "This system preference controls the :ref:`point of sale module <point-of-sale-label>`."
 msgstr ""
+"यह सिस्टम वरीयता को नियंत्रित करता है :ref:`पॉइंट ऑफ़ सेल मॉड्यूल <point-of-"
+"sale-label>`."
 
 #: ../../source/accountspreferences.rst:68
-msgid ""
-"If you enable this system preference, make sure to enable :ref:"
-"`UseCashRegisters` as well."
+msgid "If you enable this system preference, make sure to enable :ref:`UseCashRegisters` as well."
 msgstr ""
+"यदि आप इस सिस्टम को प्राथमिकता देते हैं, तो सक्षम: Ref "
+":ref:`UseCashRegisters` को भी सुनिश्चित करें।"
 
 #: ../../source/accountspreferences.rst:74
 msgid "UseCashRegisters"
-msgstr ""
+msgstr "UseCashRegisters"
 
 #: ../../source/accountspreferences.rst:76
-msgid ""
-"Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
+msgid "Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
 msgstr ""
+"पूछता है: \\_\\_\\_ भुगतान ट्रैक करने के लिए लेखांकन प्रणाली के साथ नकद "
+"रजिस्टर."
 
 #: ../../source/accountspreferences.rst:78
 msgid "Default: Don't use"
-msgstr ""
+msgstr "डिफ़ॉल्ट: प्रयोग नही करें"
 
 #: ../../source/accountspreferences.rst:82
 msgid "Don't use"
-msgstr ""
+msgstr "उपयोग नहीं करें"
 
 #: ../../source/accountspreferences.rst:84
 msgid "Use"
-msgstr ""
+msgstr "उपयोग"
 
 #: ../../source/accountspreferences.rst:88
-msgid ""
-"This preference enables the :ref:`cash registers <cashregisters-label>` "
-"feature in the administration module."
+msgid "This preference enables the :ref:`cash registers <cashregisters-label>` feature in the administration module."
 msgstr ""
+"यह प्राथमिकता प्रशासन मॉड्यूल में :ref:`कैश रजिस्टर <cashregisters-label>` "
+"सुविधा को सक्षम करती है।"
 
 #: ../../source/accountspreferences.rst:94
 msgid "Policy"
-msgstr ""
+msgstr "नीति"
 
 #: ../../source/accountspreferences.rst:99
 msgid "AccountAutoReconcile"
-msgstr ""
+msgstr "AccountAutoReconcile"
 
 #: ../../source/accountspreferences.rst:101
-msgid ""
-"Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction "
-"adding debits or credits."
+msgid "Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction adding debits or credits."
 msgstr ""
+"पूछता है: \\_\\_\\_ प्रत्येक लेनदेन में डेबिट या क्रेडिट जोड़ने पर स्वचालित "
+"रूप से संरक्षक संतुलन को समेट लें।"
 
 #: ../../source/accountspreferences.rst:103
 msgid "Default: Do not"
-msgstr ""
+msgstr "डिफ़ॉल्ट: नहीं है"
 
 #: ../../source/accountspreferences.rst:107
 #: ../../source/accountspreferences.rst:128
 #: ../../source/accountspreferences.rst:151
 msgid "Do"
-msgstr ""
+msgstr "करते हैं"
 
 #: ../../source/accountspreferences.rst:109
 msgid "Do not"
-msgstr ""
+msgstr "ऐसा न करें"
 
 #: ../../source/accountspreferences.rst:113
-msgid ""
-"This preference controls whether or not credits are automatically used to to "
-"reduce the owed amounts in a patron's account."
+msgid "This preference controls whether or not credits are automatically used to to reduce the owed amounts in a patron's account."
 msgstr ""
+"यह वरीयता नियंत्रित करती है कि संरक्षक के खाते में बकाया राशि को कम करने के "
+"लिए क्रेडिट स्वचालित रूप से उपयोग किया जाता है या नहीं।"
 
 #: ../../source/accountspreferences.rst:119
 msgid "FinePaymentAutoPopup"
-msgstr ""
+msgstr "FinePaymentAutoPopup"
 
 #: ../../source/accountspreferences.rst:121
-msgid ""
-"Asks: \\_\\_\\_ automatically display a print dialog for a payment receipt "
-"when making a payment."
+msgid "Asks: \\_\\_\\_ automatically display a print dialog for a payment receipt when making a payment."
 msgstr ""
+"पूछता हैं: \\_\\_\\_ भुगतान करते समय भुगतान रसीद के लिए स्वचालित रूप से एक "
+"प्रिंट संवाद प्रदर्शित करें."
 
 #: ../../source/accountspreferences.rst:124
 #: ../../source/accountspreferences.rst:145
 msgid "Default: Don't"
-msgstr ""
+msgstr "डिफ़ॉल्ट: नही करेें "
 
 #: ../../source/accountspreferences.rst:130
 #: ../../source/accountspreferences.rst:149
 msgid "Don't"
-msgstr ""
+msgstr "नही करना"
 
 #: ../../source/accountspreferences.rst:134
-msgid ""
-"If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a "
-"patron's account, a printing popup will be displayed automatically instead "
-"of having to click on the 'print' button."
+msgid "If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a patron's account, a printing popup will be displayed automatically instead of having to click on the 'print' button."
 msgstr ""
+"यदि सक्रिय किया गया है, जब :ref:`एक संरक्षक के खाते में भुगतान <pay/reverse-"
+"fines-label> कर रहा है, 'प्रिंट' बटन पर क्लिक करने के बजाय एक मुद्रण पॉपअप "
+"स्वचालित रूप से प्रदर्शित किया जाएगा।"
 
 #: ../../source/accountspreferences.rst:141
 msgid "RoundFinesAtPayment"
-msgstr ""
+msgstr "RoundFinesAtPayment"
 
 #: ../../source/accountspreferences.rst:143
-msgid ""
-"Asks: \\_\\_\\_ round fines to the nearest cent when collecting payments."
+msgid "Asks: \\_\\_\\_ round fines to the nearest cent when collecting payments."
 msgstr ""
+"पूछता है: \\_\\_\\_ दौर भुगतान इकट्ठा करते समय निकटतम प्रतिशत तक जुर्माना।"
 
 #: ../../source/accountspreferences.rst:155
-msgid ""
-"Enabling this preference allows paying fines of partial cents which may not "
-"be visible in the interface."
+msgid "Enabling this preference allows paying fines of partial cents which may not be visible in the interface."
 msgstr ""
+"इस वरीयता को सक्षम करने से आंशिक सेंट के जुर्माना का भुगतान करने की अनुमति "
+"मिलती है जो कि इंटरफ़ेस में दिखाई नहीं दे सकता है."

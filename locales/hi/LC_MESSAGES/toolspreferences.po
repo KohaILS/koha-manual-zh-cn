@@ -7,300 +7,301 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-04-01 08:13+0000\n"
+"Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /hi/man20.11/toolspreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617264794.270495\n"
 
 #: ../../source/toolspreferences.rst:6
 msgid "Tools"
-msgstr ""
+msgstr "उपकरण"
 
 #: ../../source/toolspreferences.rst:8
 msgid "*Get there:* More > Administration > Global System Preferences > Tools"
-msgstr ""
+msgstr "*वहां जाएं* अधिक> प्रशासन> वैश्विक सिस्टम प्राथमिकताएँ > उपकरण"
 
 #: ../../source/toolspreferences.rst:13
 msgid "Barcodes"
-msgstr ""
+msgstr "बारकोड"
 
 #: ../../source/toolspreferences.rst:18
 msgid "BarcodeSeparators"
-msgstr ""
+msgstr "BarcodeSeparators"
 
 #: ../../source/toolspreferences.rst:20
 msgid "Default: \\\\s\\\\r\\\\n"
-msgstr ""
+msgstr "डिफ़ॉल्ट:\\\\s\\\\r\\\\n"
 
 #: ../../source/toolspreferences.rst:22
-msgid ""
-"Asks: Split barcodes on the following separator chars \\_\\_\\_ in batch "
-"item modification and inventory."
+msgid "Asks: Split barcodes on the following separator chars \\_\\_\\_ in batch item modification and inventory."
 msgstr ""
+"पूछते हैं: बैच आइटम संशोधन और इन्वेंट्री में निम्नलिखित विभाजक वर्ण \\_\\_\\"
+"_ पर विभाजित बारकोड।"
 
 #: ../../source/toolspreferences.rst:25 ../../source/toolspreferences.rst:70
 #: ../../source/toolspreferences.rst:86 ../../source/toolspreferences.rst:102
 #: ../../source/toolspreferences.rst:147
 msgid "Description:"
-msgstr ""
+msgstr "विवरण: "
 
 #: ../../source/toolspreferences.rst:27
-msgid ""
-"When importing barcode files in the :ref:`inventory tool <inventory-tool-"
-"label>` or the :ref:`batch item modification tool <batch-item-modification-"
-"label>` you can decide which character separates each barcode."
+msgid "When importing barcode files in the :ref:`inventory tool <inventory-tool-label>` or the :ref:`batch item modification tool <batch-item-modification-label>` you can decide which character separates each barcode."
 msgstr ""
+"जब बारकोड फ़ाइलों को आयात करते समय :ref:`इन्वेंट्री टूल <inventory-tool-"
+"label>` या :ref:`बैच आइटम संशोधन उपकरण<batch-item-modification-label>` आप यह "
+"तय कर सकते हैं कि कौन सा वर्ण प्रत्येक बारकोड को अलग करता है ।"
 
 #: ../../source/toolspreferences.rst:31
 msgid "**Important**"
-msgstr ""
+msgstr "**महत्वपूर्ण**"
 
 #: ../../source/toolspreferences.rst:33
 msgid "You must use the regular expression codes for the characters."
-msgstr ""
+msgstr "आपको वर्णों के लिए नियमित अभिव्यक्ति कोड का उपयोग करना चाहिए।"
 
 #: ../../source/toolspreferences.rst:35
 msgid "\\\\s is used for a whitespace"
-msgstr ""
+msgstr "\\\\s एक खाली स्थान के लिए प्रयोग किया जाता है"
 
 #: ../../source/toolspreferences.rst:37
 msgid "\\\\r is used for a carriage return"
-msgstr ""
+msgstr "\\\\r का उपयोग गाड़ी वापसी के लिए किया जाता है"
 
 #: ../../source/toolspreferences.rst:39
 msgid "\\\\n is used for a new line"
 msgstr ""
+"\\\\n"
+" एक नई लाइन के लिए उपयोग किया जाता है"
 
 #: ../../source/toolspreferences.rst:41
 msgid "\\\t is used for a tab"
-msgstr ""
+msgstr "\\\t टैब के लिए प्रयोग होता हैं"
 
 #: ../../source/toolspreferences.rst:43
-msgid ""
-"Make sure you escape the other characters you put in there by preceding them "
-"with a backslash"
+msgid "Make sure you escape the other characters you put in there by preceding them with a backslash"
 msgstr ""
+"सुनिश्चित करें कि आप उन अन्य पात्रों से बच रहे हैं जिन्हें आप बैकस्लैश के सा"
+"थ पूर्ववर्ती में डालते हैं"
 
 #: ../../source/toolspreferences.rst:46
 msgid "\\\\. instead of a dot"
-msgstr ""
+msgstr "\\\\. एक डॉट के बजाय"
 
 #: ../../source/toolspreferences.rst:48
 msgid "\\\\\\ instead of a backslash"
-msgstr ""
+msgstr "\\\\\\ एक बैकस्लैश के बजाय"
 
 #: ../../source/toolspreferences.rst:50
 msgid "\\\\- instead of a hyphen"
-msgstr ""
+msgstr "\\\\- एक हाइफ़न के बजाय"
 
 #: ../../source/toolspreferences.rst:55
 msgid "Batch item"
-msgstr ""
+msgstr "बैंच आइटम"
 
 #: ../../source/toolspreferences.rst:57
-msgid ""
-"These preferences are in reference to the :ref:`Batch item modification "
-"<batch-item-modification-label>` and :ref:`Batch item deletion <batch-item-"
-"deletion-label>` tools."
+msgid "These preferences are in reference to the :ref:`Batch item modification <batch-item-modification-label>` and :ref:`Batch item deletion <batch-item-deletion-label>` tools."
 msgstr ""
+"ये प्राथमिकताएँ :ref:`बैच आइटम संशोधन <batch-item-modification-label>` और "
+":ref:`बैच आइटम हटाने <batch-item-deletion-label>` उपकरण के संदर्भ में हैं।"
 
 #: ../../source/toolspreferences.rst:64
 msgid "MaxItemsToDisplayForBatchDel"
-msgstr ""
+msgstr "MaxItemsToDisplayForBatchDel"
 
 #: ../../source/toolspreferences.rst:66 ../../source/toolspreferences.rst:82
 #: ../../source/toolspreferences.rst:98
 msgid "Default: 1000"
-msgstr ""
+msgstr "डिफ़ॉल्ट: 1000"
 
 #: ../../source/toolspreferences.rst:68
 msgid "Asks: Display up to \\_\\_\\_ items in a single item deletion batch."
-msgstr ""
+msgstr "पूछता है: एकल आइटम विलोपन बैच में \\_\\_\\_आइटम तक प्रदर्शित करें."
 
 #: ../../source/toolspreferences.rst:72
-msgid ""
-"In the :ref:`batch item delete tool <batch-item-deletion-label>` this will "
-"prevent the display of more than the items you entered in this preference, "
-"but you will be able to delete more than the number you enter here."
+msgid "In the :ref:`batch item delete tool <batch-item-deletion-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to delete more than the number you enter here."
 msgstr ""
+"इन :ref:` बैच आइटम हटाएं टूल <batch-item-deletion-label>' यह इस वरीयता में "
+"आपके द्वारा दर्ज की गई वस्तुओं से अधिक प्रदर्शन को रोक देगा, लेकिन आप जो नं"
+"बर दर्ज करते हैं उससे अधिक को हटाने में सक्षम होंगे यहाँ।"
 
 #: ../../source/toolspreferences.rst:80
 msgid "MaxItemsToDisplayForBatchMod"
-msgstr ""
+msgstr "MaxItemsToDisplayForBatchMod"
 
 #: ../../source/toolspreferences.rst:84
-msgid ""
-"Asks: Display up to \\_\\_\\_ items in a single item modification batch."
-msgstr ""
+msgid "Asks: Display up to \\_\\_\\_ items in a single item modification batch."
+msgstr "पूछता है: एकल आइटम संशोधन बैच में \\_\\_\\_ आइटम प्रदर्शित करें।"
 
 #: ../../source/toolspreferences.rst:88
-msgid ""
-"In the :ref:`batch item modification tool <batch-item-modification-label>` "
-"this will prevent the display of more than the items you entered in this "
-"preference, but you will be able to modify more than the number you enter "
-"here (see :ref:`MaxItemsToProcessForBatchMod`)."
+msgid "In the :ref:`batch item modification tool <batch-item-modification-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to modify more than the number you enter here (see :ref:`MaxItemsToProcessForBatchMod`)."
 msgstr ""
+"In  :ref:`बैच आइटम संशोधन उपकरण <batch-item-modification-label>` यह आपके "
+"द्वारा इस वरीयता में दर्ज किए गए आइटम से अधिक के प्रदर्शन को रोक देगा, लेकिन "
+"आप दर्ज किए गए संख्या से अधिक को संशोधित करने में सक्षम होंगे यहाँ (देखें: "
+"Ref: `MaxItemsToProcessForBatchMod`)।"
 
 #: ../../source/toolspreferences.rst:96
 msgid "MaxItemsToProcessForBatchMod"
-msgstr ""
+msgstr "MaxItemsToProcessForBatchMod"
 
 #: ../../source/toolspreferences.rst:100
 msgid "Asks: Process up to \\_\\_\\_ items in a single modification batch."
-msgstr ""
+msgstr "पूछता है: एकल संशोधन बैच में \\_\\_\\_ आइटम तक प्रक्रिया करें।"
 
 #: ../../source/toolspreferences.rst:104
-msgid ""
-"In the :ref:`batch item modification tool <batch-item-modification-label>` "
-"this preference will prevent the editing of more than the number entered "
-"here."
+msgid "In the :ref:`batch item modification tool <batch-item-modification-label>` this preference will prevent the editing of more than the number entered here."
 msgstr ""
+"इन :ref:`बैच आइटम संशोधन टूल <batch-item-modification-label>' यह वरीयता यहां "
+"दर्ज संख्या से अधिक के संपादन को रोक देगा।"
 
 #: ../../source/toolspreferences.rst:111
 msgid "News"
-msgstr ""
+msgstr "समाचार"
 
 #: ../../source/toolspreferences.rst:116
 msgid "NewsAuthorDisplay"
-msgstr ""
+msgstr "NewsAuthorDisplay"
 
 #: ../../source/toolspreferences.rst:118
 msgid "Default: not at all"
-msgstr ""
+msgstr "डिफ़ॉल्ट: बिल्कुल नहीं"
 
 #: ../../source/toolspreferences.rst:120
 msgid "Asks: Show the author for news items: \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: समाचार आइटमों के लिए लेखक को दिखाएं: \\_\\_\\_"
 
 #: ../../source/toolspreferences.rst:122 ../../source/toolspreferences.rst:141
 msgid "Values:"
-msgstr ""
+msgstr "मानः"
 
 #: ../../source/toolspreferences.rst:124
 msgid "Both OPAC and staff client"
-msgstr ""
+msgstr "ओपेक और स्टाफ ग्राहक दोनों"
 
 #: ../../source/toolspreferences.rst:126
 msgid "Not at all"
-msgstr ""
+msgstr "बिल्कुल नहीं"
 
 #: ../../source/toolspreferences.rst:128
 msgid "OPAC only"
-msgstr ""
+msgstr "केवल ओपेक"
 
 #: ../../source/toolspreferences.rst:130
 msgid "Staff client only"
-msgstr ""
+msgstr "केवल स्टाफ कलाइन्ट"
 
 #: ../../source/toolspreferences.rst:135
 msgid "NewsToolEditor"
-msgstr ""
+msgstr "NewsToolEditor"
 
 #: ../../source/toolspreferences.rst:137
 msgid "Asks: By default edit news items with"
-msgstr ""
+msgstr "पूछता है: डिफ़ॉल्ट रूप से समाचार आइटम संपादित करें"
 
 #: ../../source/toolspreferences.rst:139
 msgid "Default: a WYSIWYG editor (TinyMCE)"
-msgstr ""
+msgstr "डिफ़ॉल्ट: एक WYSIWYG संपादक (TinyMCE)"
 
 #: ../../source/toolspreferences.rst:143
 msgid "a text editor (CodeMirror)"
-msgstr ""
+msgstr "एक पाठ संपादक (CodeMirror)"
 
 #: ../../source/toolspreferences.rst:145
 msgid "a WYSIWYG editor (TinyMCE)"
-msgstr ""
+msgstr "एक WYSIWYG संपादक (TinyMCE)"
 
 #: ../../source/toolspreferences.rst:149
-msgid ""
-"This system preference allows you to choose which editor to use in the :ref:"
-"`news tool <news-label>`."
+msgid "This system preference allows you to choose which editor to use in the :ref:`news tool <news-label>`."
 msgstr ""
+"यह सिस्टम वरीयता आपको यह चुनने की अनुमति देती है कि किस संपादक का उपयोग करें "
+":ref:`समाचार उपकरण<news-label>`."
 
 #: ../../source/toolspreferences.rst:152
-msgid ""
-"A text editor will let you write HTML directly. Use this if you want more "
-"control over how your content will be displayed."
+msgid "A text editor will let you write HTML directly. Use this if you want more control over how your content will be displayed."
 msgstr ""
+"एक टेक्स्ट एडिटर आपको सीधे HTML लिखने देगा। यदि आप अपनी सामग्री का प्रदर्शन "
+"कैसे करेंगे, इस पर अधिक नियंत्रण चाहते हैं तो इसका उपयोग करें।"
 
 #: ../../source/toolspreferences.rst:155
 msgid "**Note**"
-msgstr ""
+msgstr "**नोट**"
 
 #: ../../source/toolspreferences.rst:157
-msgid ""
-"You can use CSS id's and classes in your HTML and format them with the :ref:"
-"`OPACUserCSS` system preference."
+msgid "You can use CSS id's and classes in your HTML and format them with the :ref:`OPACUserCSS` system preference."
 msgstr ""
+"आप अपने HTML में CSS आईडी की कक्षाओं और कक्षाओं का उपयोग कर सकते हैं और "
+"उन्हें :ref:`OPACUserCSS` सिस्टम वरीयता के साथ प्रारूपित कर सकते हैं।"
 
 #: ../../source/toolspreferences.rst:160
-msgid ""
-"A WYSIWYG (what you see is what you get) editor is a user-friendly editor "
-"with functions similar to word processing software. Use this if you are "
-"unfamiliar with HTML."
+msgid "A WYSIWYG (what you see is what you get) editor is a user-friendly editor with functions similar to word processing software. Use this if you are unfamiliar with HTML."
 msgstr ""
+"WYSIWYG (आप जो देखते हैं वही आपको मिलता है) संपादक वर्ड प्रोसेसिंग सॉफ्टवेयर "
+"के समान कार्यों के साथ एक उपयोगकर्ता के अनुकूल संपादक है। यदि आप HTML से "
+"अपरिचित हैं तो इसका उपयोग करें।"
 
 #: ../../source/toolspreferences.rst:167
 msgid "Patron Cards"
-msgstr ""
+msgstr "संरक्षक कार्ड"
 
 #: ../../source/toolspreferences.rst:169
-msgid ""
-"These preferences are in reference to the :ref:`Patron Card Creator <patron-"
-"card-creator-label>` tool."
+msgid "These preferences are in reference to the :ref:`Patron Card Creator <patron-card-creator-label>` tool."
 msgstr ""
+"ये प्राथमिकताएं संदर्भ में हैं :ref:`संरक्षक कार्ड निर्माता <patron-card-"
+"creator-label>' उपकरण."
 
 #: ../../source/toolspreferences.rst:175
 msgid "ImageLimit"
-msgstr ""
+msgstr "ImageLimit"
 
 #: ../../source/toolspreferences.rst:177
-msgid ""
-"Asks: Limit the number of creator images stored in the database to \\_\\_\\_ "
-"images."
+msgid "Asks: Limit the number of creator images stored in the database to \\_\\_\\_ images."
 msgstr ""
+"पूछता है: \\_\\_\\_छवियों में डेटाबेस में संग्रहीत निर्माता छवियों की संख्या "
+"सीमित करें"
 
 #: ../../source/toolspreferences.rst:183
 msgid "Reports"
-msgstr ""
+msgstr "रिपोर्ट"
 
 #: ../../source/toolspreferences.rst:185
 msgid "These preferences are in reference to the Reports module."
-msgstr ""
+msgstr "ये वरीयताएँ रिपोर्ट मॉड्यूल के संदर्भ में हैं."
 
 #: ../../source/toolspreferences.rst:190
 msgid "NumSavedReports"
-msgstr ""
+msgstr "NumSavedReports"
 
 #: ../../source/toolspreferences.rst:192
 msgid "Default: 20"
-msgstr ""
+msgstr "डिफ़ॉल्ट: 20"
 
 #: ../../source/toolspreferences.rst:194
 msgid "Asks: By default, show \\_\\_\\_ reports on the Saved Reports page."
 msgstr ""
+"पूछता है: डिफ़ॉल्ट रूप से, सहेजे गए रिपोर्ट पेज पर \\_\\_\\_ रिपोर्ट दिखाएं।"
 
 #: ../../source/toolspreferences.rst:199
 msgid "Upload"
-msgstr ""
+msgstr "अपलोड"
 
 #: ../../source/toolspreferences.rst:204
 msgid "UploadPurgeTemporaryFilesDays"
-msgstr ""
+msgstr "UploadPurgeTemporaryFilesDays"
 
 #: ../../source/toolspreferences.rst:206
 msgid "Default: blank"
-msgstr ""
+msgstr "डिफ़ॉल्ट: खाली"
 
 #: ../../source/toolspreferences.rst:208
-msgid ""
-"Asks: Automatically delete temporary uploads older than \\_\\_\\_ days in "
-"cleanup_database cron job."
+msgid "Asks: Automatically delete temporary uploads older than \\_\\_\\_ days in cleanup_database cron job."
 msgstr ""

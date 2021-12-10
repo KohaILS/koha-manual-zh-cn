@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2020-07-06 20:06+0000\n"
-"Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-03-18 21:36+0000\n"
+"Last-Translator: marieluce <marie-luce.laflamme@inLibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr_CA/man18.05/implementation_checklist.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1594065993.637227\n"
+"X-POOTLE-MTIME: 1616103393.183163\n"
 
 #: ../../source/implementation_checklist.rst:6
 #, fuzzy
@@ -23,18 +23,11 @@ msgid "Implementation checklist"
 msgstr "Liste de contrôle d'implémentation"
 
 #: ../../source/implementation_checklist.rst:8
-msgid ""
-"The following guide will walk you through the areas of Koha you need to look "
-"at in order to prepare to start using the system."
-msgstr ""
-"Le guide qui suit vous conduira à travers les parties de Koha qu'il vous "
-"faut regarder afin de vous préparer à utiliser le système."
+msgid "The following guide will walk you through the areas of Koha you need to look at in order to prepare to start using the system."
+msgstr "Le guide qui suit vous conduira à travers les parties de Koha qu'il vous faut regarder afin de vous préparer à utiliser le système."
 
 #: ../../source/implementation_checklist.rst:11
-msgid ""
-"It is not an exhaustive list of everything you need to do. Please consider "
-"your own library practices and what other checks are necessary for your own "
-"libary and context."
+msgid "It is not an exhaustive list of everything you need to do. Please consider your own library practices and what other checks are necessary for your own libary and context."
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:18
@@ -43,21 +36,11 @@ msgid "Data migration"
 msgstr "Destination"
 
 #: ../../source/implementation_checklist.rst:20
-msgid ""
-"Before you can start using Koha you'll need to have some data. This can be "
-"done by entering it all by hand, but most people already have their data in "
-"electronic format of some sort and just need to reformat it a bit for "
-"importing into Koha."
-msgstr ""
-"Avant de commencer à utiliser Koha, vous aurez besoin d'avoir quelques "
-"données. Il est possible de le faire manuellement mais la plupart des gens "
-"ont déjà leurs propres données dans un format électronique quelconque et ont "
-"simplement besoin de les reformater pour les importer dans Koha."
+msgid "Before you can start using Koha you'll need to have some data. This can be done by entering it all by hand, but most people already have their data in electronic format of some sort and just need to reformat it a bit for importing into Koha."
+msgstr "Avant de commencer à utiliser Koha, vous aurez besoin d'avoir quelques données. Il est possible de le faire manuellement mais la plupart des gens ont déjà leurs propres données dans un format électronique quelconque et ont simplement besoin de les reformater pour les importer dans Koha."
 
 #: ../../source/implementation_checklist.rst:25
-msgid ""
-"Create a list of libraries and enter their info and codes into :ref:"
-"`libraries <libraries-label>`"
+msgid "Create a list of libraries and enter their info and codes into :ref:`libraries <libraries-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:28
@@ -65,21 +48,15 @@ msgid "Define your list of :ref:`item types <item-types-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:30
-msgid ""
-"Define your patron categories and enter the categories and their codes into :"
-"ref:`patron categories <patron-categories-label>`"
+msgid "Define your patron categories and enter the categories and their codes into :ref:`patron categories <patron-categories-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:33
-msgid ""
-"Enter any additional patron information fields you use in your library in "
-"the :ref:`patron attributes <patron-attribute-types-label>`"
+msgid "Enter any additional patron information fields you use in your library in the :ref:`patron attributes <patron-attribute-types-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:36
-msgid ""
-"This requires that you first enable the :ref:`ExtendedPatronAttributes` "
-"system preference if you have custom fields"
+msgid "This requires that you first enable the :ref:`ExtendedPatronAttributes` system preference if you have custom fields"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:39
@@ -122,95 +99,55 @@ msgstr "Plus tous ceux dont votre bibliothèque a besoin"
 #: ../../source/implementation_checklist.rst:57
 #, fuzzy
 msgid "Optionally define :ref:`cities and towns <cities-and-towns-label>`"
-msgstr ""
-"Facultativement, définir des combinaisons :ref:`ville/province/code postal "
-"<cities-and-towns-label>`"
+msgstr "Facultativement, définir des combinaisons :ref:`ville/province/code postal <cities-and-towns-label>`"
 
 #: ../../source/implementation_checklist.rst:59
-msgid ""
-":ref:`Map your bibliographic data <koha-to-marc-mapping-label>` from your "
-"legacy system to Koha fields and migrate (remembering to use the collection, "
-"shelving, item type and library codes you entered in the above setting areas)"
+msgid ":ref:`Map your bibliographic data <koha-to-marc-mapping-label>` from your legacy system to Koha fields and migrate (remembering to use the collection, shelving, item type and library codes you entered in the above setting areas)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:64
-msgid ""
-":ref:`Map your patron data <patron-import-label>` from your legacy system to "
-"the Koha fields and migrate (remembering to use the patron and library codes "
-"you defined above)"
+msgid ":ref:`Map your patron data <patron-import-label>` from your legacy system to the Koha fields and migrate (remembering to use the patron and library codes you defined above)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:68
-msgid ""
-"Test your migrated data to be sure that everything is as you expect it to "
-"be, some things to test include:"
-msgstr ""
-"Testez vos données migrées pour vous assurer que tout est établi comme "
-"prévu. Le test prévoit de:"
+msgid "Test your migrated data to be sure that everything is as you expect it to be, some things to test include:"
+msgstr "Testez vos données migrées pour vous assurer que tout est établi comme prévu. Le test prévoit de:"
 
 #: ../../source/implementation_checklist.rst:71
-msgid ""
-"Check some of your titles with diacritics and make sure that they migrated "
-"properly."
-msgstr ""
-"Vérifier quelques uns de vos titres avec les signes diacritiques et "
-"s'assurer qu'ils ont correctement migré."
+msgid "Check some of your titles with diacritics and make sure that they migrated properly."
+msgstr "Vérifier quelques uns de vos titres avec les signes diacritiques et s'assurer qu'ils ont correctement migré."
 
 #: ../../source/implementation_checklist.rst:74
-msgid ""
-"Check titles in a series and make sure that series information migrated "
-"properly."
-msgstr ""
-"Vérifier les titres des collections et s'assurer que les informations des "
-"collections ont correctement migré."
+msgid "Check titles in a series and make sure that series information migrated properly."
+msgstr "Vérifier les titres des collections et s'assurer que les informations des collections ont correctement migré."
 
 #: ../../source/implementation_checklist.rst:77
-msgid ""
-"Make sure that your patrons have their contact information in the right "
-"fields."
-msgstr ""
-"S'assurer que les adhérents aient leurs coordonnées remplies dans les bons "
-"champs."
+msgid "Make sure that your patrons have their contact information in the right fields."
+msgstr "S'assurer que les adhérents aient leurs coordonnées remplies dans les bons champs."
 
 #: ../../source/implementation_checklist.rst:80
-msgid ""
-"If your serials data was migrated search for these records in the catalog "
-"and confirm that they look right."
-msgstr ""
-"Si les données de vos périodiques ont migré, recherchez ces notices dans le "
-"catalogue et confirmez qu'elles se voient bien."
+msgid "If your serials data was migrated search for these records in the catalog and confirm that they look right."
+msgstr "Si les données de vos périodiques ont migré, recherchez ces notices dans le catalogue et confirmez qu'elles se voient bien."
 
 #: ../../source/implementation_checklist.rst:83
-msgid ""
-"If your serials data was migrated search for these records in the serials "
-"module and confirm that they look right."
-msgstr ""
-"Si les données de vos périodiques ont migré, recherchez ces notices dans le "
-"module Périodiques et confirmez qu'elles se voient bien."
+msgid "If your serials data was migrated search for these records in the serials module and confirm that they look right."
+msgstr "Si les données de vos périodiques ont migré, recherchez ces notices dans le module Périodiques et confirmez qu'elles se voient bien."
 
 #: ../../source/implementation_checklist.rst:86
 msgid "Check marc records to verify a variety of items are cataloged correctly"
-msgstr ""
-"Vérifier les notices MARC et s'assurer que divers exemplaires sont "
-"catalogués correctement"
+msgstr "Vérifier les notices MARC et s'assurer que divers exemplaires sont catalogués correctement"
 
 #: ../../source/implementation_checklist.rst:89
 msgid "Check cataloging process to see if all necessary fields are available"
-msgstr ""
-"Vérifier le processus de catalogage pour voir si tous les champs nécessaires "
-"sont disponibles"
+msgstr "Vérifier le processus de catalogage pour voir si tous les champs nécessaires sont disponibles"
 
 #: ../../source/implementation_checklist.rst:92
 msgid "If fines are migrated, check to see that they are applied correctly"
 msgstr "Si les amendes ont migré, vérifier si elles s'appliquent correctement"
 
 #: ../../source/implementation_checklist.rst:95
-msgid ""
-"If holds are migrated, check to see they are accurate in catalog and patron "
-"record"
-msgstr ""
-"Si les réservations ont migré, vérifier qu'elles correspondent dans le "
-"catalogue et la fiche adhérent"
+msgid "If holds are migrated, check to see they are accurate in catalog and patron record"
+msgstr "Si les réservations ont migré, vérifier qu'elles correspondent dans le catalogue et la fiche adhérent"
 
 #: ../../source/implementation_checklist.rst:101
 #, fuzzy
@@ -218,18 +155,11 @@ msgid "Admin configuration"
 msgstr "Configuration"
 
 #: ../../source/implementation_checklist.rst:103
-msgid ""
-"Most of these preferences won't need to be changed to use your Koha system, "
-"but there are a few that you might want to customize."
-msgstr ""
-"Pour l'utilisation de votre système Koha, la plupart de ces préférences "
-"système n'auront pas besoin d'être modifiées, mais il y en a quelques unes "
-"que vous pourrez personnaliser."
+msgid "Most of these preferences won't need to be changed to use your Koha system, but there are a few that you might want to customize."
+msgstr "Pour l'utilisation de votre système Koha, la plupart de ces préférences système n'auront pas besoin d'être modifiées, mais il y en a quelques unes que vous pourrez personnaliser."
 
 #: ../../source/implementation_checklist.rst:106
-msgid ""
-"If your library uses CAS authentication, you'll want to set the various :ref:"
-"`CAS system preferences <cas-authentication-label>`"
+msgid "If your library uses CAS authentication, you'll want to set the various :ref:`CAS system preferences <cas-authentication-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:109
@@ -238,81 +168,53 @@ msgid "Administration system preferences"
 msgstr "Préférences système Administration"
 
 #: ../../source/implementation_checklist.rst:111
-msgid ""
-":ref:`KohaAdminEmailAddress` : This is the email address that will be used "
-"by the system in 'from' lines and to send errors to if there is no email set "
-"for the branch"
+msgid ":ref:`KohaAdminEmailAddress` : This is the email address that will be used by the system in 'from' lines and to send errors to if there is no email set for the branch"
 msgstr ""
 
 # Administration > Interface options
 #: ../../source/implementation_checklist.rst:115
 #, fuzzy
-msgid ""
-":ref:`noItemTypeImages` : Decide if you want to show item type icons in the "
-"staff client and opac"
+msgid ":ref:`noItemTypeImages` : Decide if you want to show item type icons in the staff client and opac"
 msgstr "Afficher les icônes des types de documents dans le catalogue: "
 
 #: ../../source/implementation_checklist.rst:118
-msgid ""
-":ref:`delimiter` : This value will be put in between fields when exporting "
-"data from Koha"
+msgid ":ref:`delimiter` : This value will be put in between fields when exporting data from Koha"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:121
-msgid ""
-":ref:`virtualshelves` : Decide if you want the staff and/or patrons to use "
-"lists in Koha"
+msgid ":ref:`virtualshelves` : Decide if you want the staff and/or patrons to use lists in Koha"
 msgstr ""
 
 # Administration > Login options
 #: ../../source/implementation_checklist.rst:124
 #, fuzzy
-msgid ""
-":ref:`AutoLocation` : Require staff to log in to the staff client from a "
-"specific IP range"
-msgstr ""
-"Obligation au personnel de se connecter à partir d'un ordinateur dont "
-"l'adresse IP fait partie d'une plage déterminée par la bibliothèque: "
+msgid ":ref:`AutoLocation` : Require staff to log in to the staff client from a specific IP range"
+msgstr "Obligation au personnel de se connecter à partir d'un ordinateur dont l'adresse IP fait partie d'une plage déterminée par la bibliothèque: "
 
 # Administration > Login options
 #: ../../source/implementation_checklist.rst:127
 #, fuzzy
-msgid ""
-":ref:`IndependentBranches` : Prevent librarians from editing content that "
-"belongs to other branches"
-msgstr ""
-"Empêcher le personnel (mais pas les \"superbibliothécaires\") d'effectuer "
-"des modifications dans les réservations, exemplaires, utilisateurs, etc. "
-"appartenant à un autre site: "
+msgid ":ref:`IndependentBranches` : Prevent librarians from editing content that belongs to other branches"
+msgstr "Empêcher le personnel (mais pas les \"superbibliothécaires\") d'effectuer des modifications dans les réservations, exemplaires, utilisateurs, etc. appartenant à un autre site: "
 
 #: ../../source/implementation_checklist.rst:130
-msgid ""
-"Go through the :ref:`log system preferences <logs-label>` and decide which "
-"actions you want to keep track of in the :ref:`logs <log-viewer-label>`"
+msgid "Go through the :ref:`log system preferences <logs-label>` and decide which actions you want to keep track of in the :ref:`logs <log-viewer-label>`"
 msgstr ""
+"Parcourez les :ref:`préférences système Registres <logs-label>` et choisir "
+"quelles actions vous souhaitez garder la trace dans l'outil :ref:`"
+"Consultation des registres <log-viewer-label>`"
 
 #: ../../source/implementation_checklist.rst:133
-msgid ""
-"Decide if you'd like to share your library's information with the Koha "
-"community by setting the :ref:`sharing system preferences <share-anonymous-"
-"usage-statistics-label>`."
+msgid "Decide if you'd like to share your library's information with the Koha community by setting the :ref:`sharing system preferences <share-anonymous-usage-statistics-label>`."
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:137
 #, fuzzy
-msgid ""
-"Decide what :ref:`cron jobs <cron-jobs-label>` you need to run and when."
-msgstr ""
-"Décidez quels `cron jobs <#cronjobsch>`__ vous avez besoin d'exécuter et "
-"quand."
+msgid "Decide what :ref:`cron jobs <cron-jobs-label>` you need to run and when."
+msgstr "Décidez quels `cron jobs <#cronjobsch>`__ vous avez besoin d'exécuter et quand."
 
 #: ../../source/implementation_checklist.rst:139
-msgid ""
-"If you're using the :ref:`long overdue cron job <cron-long-overdues-label>` "
-"be sure to set your :ref:`DefaultLongOverdueChargeValue`, :ref:"
-"`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-"
-"defaultlongoverduedays-label>` and :ref:`DefaultLongOverdueDays "
-"<defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` preferences."
+msgid "If you're using the :ref:`long overdue cron job <cron-long-overdues-label>` be sure to set your :ref:`DefaultLongOverdueChargeValue`, :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` and :ref:`DefaultLongOverdueDays <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` preferences."
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:148
@@ -321,14 +223,8 @@ msgid "Localization configuration"
 msgstr "Configuration"
 
 #: ../../source/implementation_checklist.rst:150
-msgid ""
-"Koha is used worldwide and so you need to make sure you set your "
-"localization preferences so that options throughout Koha appear properly for "
-"your location/language."
-msgstr ""
-"Koha est utilisé dans le monde entier, c'est pourquoi vous devez vérifier "
-"que vous avez paramétré vos préférences système de localisation afin que  "
-"les options de votre localisation/langue s'appliquent partout dans Koha."
+msgid "Koha is used worldwide and so you need to make sure you set your localization preferences so that options throughout Koha appear properly for your location/language."
+msgstr "Koha est utilisé dans le monde entier, c'est pourquoi vous devez vérifier que vous avez paramétré vos préférences système de localisation afin que  les options de votre localisation/langue s'appliquent partout dans Koha."
 
 #: ../../source/implementation_checklist.rst:154
 #, fuzzy
@@ -342,14 +238,11 @@ msgstr ""
 # I18N/L10N
 #: ../../source/implementation_checklist.rst:158
 #, fuzzy
-msgid ""
-":ref:`opaclanguagesdisplay` : Decide if patrons can choose what language the "
-"OPAC appears in"
+msgid ":ref:`opaclanguagesdisplay` : Decide if patrons can choose what language the OPAC appears in"
 msgstr "aux utilisateurs de changer la langue d'utilisation de Koha à l'OPAC."
 
 #: ../../source/implementation_checklist.rst:161
-msgid ""
-":ref:`opaclanguages` : Decide which languages the patrons can choose from"
+msgid ":ref:`opaclanguages` : Decide which languages the patrons can choose from"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:164
@@ -368,23 +261,15 @@ msgid "Circulation configuration"
 msgstr "Configuration"
 
 #: ../../source/implementation_checklist.rst:173
-msgid ""
-"Before you start circulating your collection you'll need to set up your "
-"rules and preferences for circulation."
-msgstr ""
-"Avant de commencer le prêt de vos collections, vous devez paramétrer vos "
-"règles et préférences système pour la circulation."
+msgid "Before you start circulating your collection you'll need to set up your rules and preferences for circulation."
+msgstr "Avant de commencer le prêt de vos collections, vous devez paramétrer vos règles et préférences système pour la circulation."
 
 #: ../../source/implementation_checklist.rst:176
-msgid ""
-"Define your :ref:`circulation and fines rules <circulation-and-fines-rules-"
-"label>`"
+msgid "Define your :ref:`circulation and fines rules <circulation-and-fines-rules-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:178
-msgid ""
-"Enter the :ref:`days your library is closed <calendar-label>` for fines and "
-"due date calculations"
+msgid "Enter the :ref:`days your library is closed <calendar-label>` for fines and due date calculations"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:181
@@ -393,9 +278,7 @@ msgid "Circulation system preferences"
 msgstr "Préférences système de Circulation"
 
 #: ../../source/implementation_checklist.rst:183
-msgid ""
-":ref:`CircControl` : Define whether circ rules are based on item's location, "
-"patron's location or transaction location"
+msgid ":ref:`CircControl` : Define whether circ rules are based on item's location, patron's location or transaction location"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:186
@@ -403,71 +286,51 @@ msgid ":ref:`useDaysMode` : Define how due dates are calculated"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:188
-msgid ""
-":ref:`finesCalendar` : Define how fines are calculated (for every late date "
-"or only for days the library is open)"
+msgid ":ref:`finesCalendar` : Define how fines are calculated (for every late date or only for days the library is open)"
 msgstr ""
 
 # Circulation > Interface
 #: ../../source/implementation_checklist.rst:191
 #, fuzzy
-msgid ""
-":ref:`SpecifyDueDate` : Decide if staff are allowed to override due dates on "
-"checkout"
+msgid ":ref:`SpecifyDueDate` : Decide if staff are allowed to override due dates on checkout"
 msgstr "de fixer manuellement une date de retour au moment d'un prêt."
 
 # Circulation > Interface
 #: ../../source/implementation_checklist.rst:194
 #, fuzzy
-msgid ""
-":ref:`SpecifyReturnDate` : Decide if you want to let the staff specify an "
-"arbitrary return date on checkin"
+msgid ":ref:`SpecifyReturnDate` : Decide if you want to let the staff specify an arbitrary return date on checkin"
 msgstr "le personnel à spécifier une date pour un retour."
 
 #: ../../source/implementation_checklist.rst:197
-msgid ""
-":ref:`itemBarcodeFallbackSearch` : Decide if you want staff to be able to "
-"checkout using a keyword search (title, call number, etc)"
+msgid ":ref:`itemBarcodeFallbackSearch` : Decide if you want staff to be able to checkout using a keyword search (title, call number, etc)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:201
-msgid ""
-":ref:`AutomaticItemReturn` : Decide if items are sent back to the owning "
-"branch when checked in"
+msgid ":ref:`AutomaticItemReturn` : Decide if items are sent back to the owning branch when checked in"
 msgstr ""
 
 # Circulation > Interface
 #: ../../source/implementation_checklist.rst:204
 #, fuzzy
-msgid ""
-":ref:`todaysIssuesDefaultSortOrder` : Decide how items checked out today "
-"display on the patron record"
+msgid ":ref:`todaysIssuesDefaultSortOrder` : Decide how items checked out today display on the patron record"
 msgstr "Trier les prêts du jour à l'écran de circulation"
 
 # Circulation > Interface
 #: ../../source/implementation_checklist.rst:207
 #, fuzzy
-msgid ""
-":ref:`previousIssuesDefaultSortOrder` : Decide how items checked out prior "
-"to today display on the patron record"
+msgid ":ref:`previousIssuesDefaultSortOrder` : Decide how items checked out prior to today display on the patron record"
 msgstr "Trier les derniers prêts à l'écran de circulation"
 
 #: ../../source/implementation_checklist.rst:210
-msgid ""
-":ref:`noissuescharge` : Define the maximum amount a patron can owe before "
-"checkouts are blocked"
+msgid ":ref:`noissuescharge` : Define the maximum amount a patron can owe before checkouts are blocked"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:213
-msgid ""
-":ref:`ReturnBeforeExpiry` : Decide if patrons need to return items before "
-"their accounts expire"
+msgid ":ref:`ReturnBeforeExpiry` : Decide if patrons need to return items before their accounts expire"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:216
-msgid ""
-":ref:`AllowHoldsOnDamagedItems` : Decide if patrons can place holds on items "
-"that are marked as damaged"
+msgid ":ref:`AllowHoldsOnDamagedItems` : Decide if patrons can place holds on items that are marked as damaged"
 msgstr ""
 
 # Circulation > Checkout Policy
@@ -475,70 +338,49 @@ msgstr ""
 #: ../../source/implementation_checklist.rst:225
 #: ../../source/implementation_checklist.rst:231
 #, fuzzy
-msgid ""
-":ref:`AllowHoldPolicyOverride` : Decide if you want the staff to be able to "
-"override this setting"
+msgid ":ref:`AllowHoldPolicyOverride` : Decide if you want the staff to be able to override this setting"
 msgstr "le prêt des exemplaires marqués comme non empruntables."
 
 #: ../../source/implementation_checklist.rst:222
-msgid ""
-":ref:`maxreserves` : Decide how many items a patron can have on hold at once"
+msgid ":ref:`maxreserves` : Decide how many items a patron can have on hold at once"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:228
-msgid ""
-":ref:`maxoutstanding` : Define the maximum amount a patron can owe before "
-"holds are blocked"
+msgid ":ref:`maxoutstanding` : Define the maximum amount a patron can owe before holds are blocked"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:234
-msgid ""
-":ref:`ReservesMaxPickUpDelay` : Define the number of days before a hold "
-"expires"
+msgid ":ref:`ReservesMaxPickUpDelay` : Define the number of days before a hold expires"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:237
-msgid ""
-":ref:`WebBasedSelfCheck` : Decide if you want to use the built in web-based "
-"self-checkout system"
+msgid ":ref:`WebBasedSelfCheck` : Decide if you want to use the built in web-based self-checkout system"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:240
-msgid ""
-":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Decide if "
-"the self-checkout system requires login"
+msgid ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Decide if the self-checkout system requires login"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:243
-msgid ""
-":ref:`ShowPatronImageInWebBasedSelfCheck`: Decide if you want patron images "
-"to show on the self checkout screen"
+msgid ":ref:`ShowPatronImageInWebBasedSelfCheck`: Decide if you want patron images to show on the self checkout screen"
 msgstr ""
 
 # Circulation > Checkout Policy
 #: ../../source/implementation_checklist.rst:246
 #, fuzzy
-msgid ""
-":ref:`AllowNotForLoanOverride` : Decide if you want the staff to be able to "
-"checkout items marked as 'not for loan'"
+msgid ":ref:`AllowNotForLoanOverride` : Decide if you want the staff to be able to checkout items marked as 'not for loan'"
 msgstr "le prêt des exemplaires marqués comme non empruntables."
 
 #: ../../source/implementation_checklist.rst:249
-msgid ""
-":ref:`AllowRenewalLimitOverride` : Decide if you want staff to override the "
-"limit put on renewals"
+msgid ":ref:`AllowRenewalLimitOverride` : Decide if you want staff to override the limit put on renewals"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:252
-msgid ""
-":ref:`AllowFineOverride` : Decide if you want staff to be able to override "
-"fine limits"
+msgid ":ref:`AllowFineOverride` : Decide if you want staff to be able to override fine limits"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:255
-msgid ""
-":ref:`AllowTooManyOverride` : Descide if you want staff to be able to check "
-"out more than the limit to a patron"
+msgid ":ref:`AllowTooManyOverride` : Descide if you want staff to be able to check out more than the limit to a patron"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:258
@@ -546,81 +388,52 @@ msgid ":ref:`RenewalPeriodBase` : Decide what date renewals are based on"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:260
-msgid ""
-":ref:`finesMode` : Switch to 'Calculate and Charge' before you go live if "
-"you charge fines"
+msgid ":ref:`finesMode` : Switch to 'Calculate and Charge' before you go live if you charge fines"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:263
 #, fuzzy
-msgid ""
-":ref:`NoticeBcc`: If you want to receive a copy of every notice, enter your "
-"email address"
-msgstr ""
-"`OverdueNoticeBcc <#OverdueNoticeBcc>`__  : Si vous souhaitez recevoir une "
-"copie pour chaque notification de retard envoyée, saisissez votre adresse "
-"mail ici"
+msgid ":ref:`NoticeBcc`: If you want to receive a copy of every notice, enter your email address"
+msgstr "`OverdueNoticeBcc <#OverdueNoticeBcc>`__  : Si vous souhaitez recevoir une copie pour chaque notification de retard envoyée, saisissez votre adresse mail ici"
 
 # Circulation > Holds Policy
 #: ../../source/implementation_checklist.rst:266
 #, fuzzy
-msgid ""
-":ref:`emailLibrarianWhenHoldIsPlaced`: Decide if you want an email every "
-"time a hold is placed"
-msgstr ""
-"un courriel à l'administrateur de Koha lorsqu'une réservation est faite par "
-"un utilisateur."
+msgid ":ref:`emailLibrarianWhenHoldIsPlaced`: Decide if you want an email every time a hold is placed"
+msgstr "un courriel à l'administrateur de Koha lorsqu'une réservation est faite par un utilisateur."
 
 #: ../../source/implementation_checklist.rst:269
-msgid ""
-":ref:`ReservesControlBranch` : Decide which branch's hold rules are "
-"considered first"
+msgid ":ref:`ReservesControlBranch` : Decide which branch's hold rules are considered first"
 msgstr ""
 
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:272
 #, fuzzy
-msgid ""
-":ref:`AudioAlerts`: Decide if you want to have sounds for circulation actions"
+msgid ":ref:`AudioAlerts`: Decide if you want to have sounds for circulation actions"
 msgstr "les utilisateurs à faire des recherches dans les notices d'autorité."
 
 #: ../../source/implementation_checklist.rst:275
-msgid ""
-"Set the sounds and actions in the :ref:`audio alerts <audio-alerts-label>` "
-"section of the administration module"
+msgid "Set the sounds and actions in the :ref:`audio alerts <audio-alerts-label>` section of the administration module"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:278
-msgid ""
-":ref:`FilterBeforeOverdueReport` : If you have a large amount of overdues, "
-"you might want to turn this preference on so as to allow you to filter "
-"before results appear"
+msgid ":ref:`FilterBeforeOverdueReport` : If you have a large amount of overdues, you might want to turn this preference on so as to allow you to filter before results appear"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:282
-msgid ""
-":ref:`DisplayClearScreenButton` : If you have a lot of staff members sharing "
-"one circulation computer you might want to enable this so that staff can "
-"clear the screen in between checkouts to protect patrons' privacy"
+msgid ":ref:`DisplayClearScreenButton` : If you have a lot of staff members sharing one circulation computer you might want to enable this so that staff can clear the screen in between checkouts to protect patrons' privacy"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:287
-msgid ""
-":ref:`CircAutoPrintQuickSlip` : Decide how you want Koha to react if you "
-"scan in a blank barcode on the checkout screen"
+msgid ":ref:`CircAutoPrintQuickSlip` : Decide how you want Koha to react if you scan in a blank barcode on the checkout screen"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:290
-msgid ""
-":ref:`SuspendHoldsIntranet` and/or :ref:`SuspendHoldsOpac` : Decide if you "
-"want patrons and/or staff to be able to suspend holds"
+msgid ":ref:`SuspendHoldsIntranet` and/or :ref:`SuspendHoldsOpac` : Decide if you want patrons and/or staff to be able to suspend holds"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:293
-msgid ""
-":ref:`AutoResumeSuspendedHolds` : If you allow holds to be suspended decide "
-"if you want them to automatically resume on the date entered by the staff "
-"and/or patron"
+msgid ":ref:`AutoResumeSuspendedHolds` : If you allow holds to be suspended decide if you want them to automatically resume on the date entered by the staff and/or patron"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:298
@@ -636,9 +449,7 @@ msgid "out for use within the library"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:300
-msgid ""
-":ref:`RecordLocalUseOnReturn` : Set this to record local use of items when "
-"you check them in"
+msgid ":ref:`RecordLocalUseOnReturn` : Set this to record local use of items when you check them in"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:303
@@ -647,9 +458,7 @@ msgid "Customize your :ref:`Notices and slips <notices-and-slips-label>`"
 msgstr "Notifications existantes"
 
 #: ../../source/implementation_checklist.rst:305
-msgid ""
-"Define your :ref:`overdue notice triggers <overdue-notice/status-triggers-"
-"label>`"
+msgid "Define your :ref:`overdue notice triggers <overdue-notice/status-triggers-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:307
@@ -675,49 +484,34 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:315
 msgid "Fines on hourly loans will calculate when you check the items in"
-msgstr ""
-"Les amendes des prêts horaire se calculeront lorsque les exemplaires seront "
-"rendus"
+msgstr "Les amendes des prêts horaire se calculeront lorsque les exemplaires seront rendus"
 
 #: ../../source/implementation_checklist.rst:318
-msgid ""
-":ref:`Mark long overdue items as lost <cron-long-overdues-label>` (daily)"
+msgid ":ref:`Mark long overdue items as lost <cron-long-overdues-label>` (daily)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:320
-msgid ""
-"Decide when the system :ref:`sends out messages <cron-message-queue-label>` "
-"(1-4 hours)"
+msgid "Decide when the system :ref:`sends out messages <cron-message-queue-label>` (1-4 hours)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:323
-msgid ""
-"Decide when the system :ref:`queues overdue notices <cron-overdue-notice-"
-"label>` (daily)"
+msgid "Decide when the system :ref:`queues overdue notices <cron-overdue-notice-label>` (daily)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:326
-msgid ""
-"Set up :ref:`hold notices that didn't send for printing <cron-print-hold-"
-"notices-label>` (daily after overdues and message queue)"
+msgid "Set up :ref:`hold notices that didn't send for printing <cron-print-hold-notices-label>` (daily after overdues and message queue)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:329
-msgid ""
-"Decide when the system :ref:`queues the advanced notice of items due <cron-"
-"advanced-notice-label>` (daily)"
+msgid "Decide when the system :ref:`queues the advanced notice of items due <cron-advanced-notice-label>` (daily)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:332
-msgid ""
-"Find holds that need to be :ref:`resumed and remove suspension <cron-"
-"unsuspend-holds-label>` (daily)"
+msgid "Find holds that need to be :ref:`resumed and remove suspension <cron-unsuspend-holds-label>` (daily)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:335
-msgid ""
-"If you're allowing automatic renewal of items :ref:`set them to renew <cron-"
-"automatic-renewal-label>` (nightly)"
+msgid "If you're allowing automatic renewal of items :ref:`set them to renew <cron-automatic-renewal-label>` (nightly)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:341
@@ -726,21 +520,15 @@ msgid "Patron configuration"
 msgstr "Information de l'usager"
 
 #: ../../source/implementation_checklist.rst:343
-msgid ""
-"You have already imported patron data from your old system, but there are "
-"plenty of options available to you regarding patrons and their accounts."
-msgstr ""
-"Vous avez déjà importé les données des adhérents depuis l'ancien système, "
-"mais il y a beaucoup d'options disponibles pour vous quant aux adhérents et "
-"leurs comptes."
+msgid "You have already imported patron data from your old system, but there are plenty of options available to you regarding patrons and their accounts."
+msgstr "Vous avez déjà importé les données des adhérents depuis l'ancien système, mais il y a beaucoup d'options disponibles pour vous quant aux adhérents et leurs comptes."
 
 #: ../../source/implementation_checklist.rst:347
 msgid "Enter your :ref:`staff members as patrons <add-a-staff-patron-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:349
-msgid ""
-"Define :ref:`staff members access permissions <patron-permissions-label>`"
+msgid "Define :ref:`staff members access permissions <patron-permissions-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:351
@@ -749,36 +537,25 @@ msgid "Patron system preferences"
 msgstr "Préférences système des adhérents"
 
 #: ../../source/implementation_checklist.rst:353
-msgid ""
-":ref:`autoMemberNum` : Decide if the patron barcodes are auto-generated or "
-"if you enter them yourself"
+msgid ":ref:`autoMemberNum` : Decide if the patron barcodes are auto-generated or if you enter them yourself"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:356
-msgid ""
-":ref:`MaxFine` : Determine the maximum amount that people can owe in fines"
+msgid ":ref:`MaxFine` : Determine the maximum amount that people can owe in fines"
 msgstr ""
 
 # Patrons > General
 #: ../../source/implementation_checklist.rst:358
 #, fuzzy
-msgid ""
-":ref:`NotifyBorrowerDeparture` : Decide when to warn staff that the patron "
-"account is about to expire"
-msgstr ""
-"Afficher une notification pour les utilisateurs dont la carte de "
-"bibliothèque est sur le point d'expirer ou a expiré"
+msgid ":ref:`NotifyBorrowerDeparture` : Decide when to warn staff that the patron account is about to expire"
+msgstr "Afficher une notification pour les utilisateurs dont la carte de bibliothèque est sur le point d'expirer ou a expiré"
 
 #: ../../source/implementation_checklist.rst:361
-msgid ""
-":ref:`intranetreadinghistory` : Decide if the staff can see the patron's "
-"reading/checkout history"
+msgid ":ref:`intranetreadinghistory` : Decide if the staff can see the patron's reading/checkout history"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:364
-msgid ""
-":ref:`BorrowerMandatoryField` : List fields that you want to appear as "
-"mandatory on the patron add/edit form"
+msgid ":ref:`BorrowerMandatoryField` : List fields that you want to appear as mandatory on the patron add/edit form"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:367
@@ -786,60 +563,41 @@ msgid ":ref:`BorrowersTitles` : Add or change the titles for your patrons"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:369
-msgid ""
-":ref:`borrowerRelationship` : Add or change borrower relationships (child to "
-"adult and professional to organization)"
+msgid ":ref:`borrowerRelationship` : Add or change borrower relationships (child to adult and professional to organization)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:372
-msgid ""
-":ref:`AutoEmailPrimaryAddress` : Determine if the patrons get an email "
-"confirming the creation of their account"
+msgid ":ref:`AutoEmailPrimaryAddress` : Determine if the patrons get an email confirming the creation of their account"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:375
-msgid ""
-":ref:`EnhancedMessagingPreferences` : Decide if staff can choose from a "
-"series of notices (other than overdues) for patrons"
+msgid ":ref:`EnhancedMessagingPreferences` : Decide if staff can choose from a series of notices (other than overdues) for patrons"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:378
-msgid ""
-":ref:`EnhancedMessagingPreferencesOPAC`: Decide if patrons can choose from a "
-"series of notices (other than ovedues) for themselves"
+msgid ":ref:`EnhancedMessagingPreferencesOPAC`: Decide if patrons can choose from a series of notices (other than ovedues) for themselves"
 msgstr ""
 
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:381
 #, fuzzy
-msgid ""
-":ref:`patronimages` : Decide if you want to save patron pictures in your "
-"system"
+msgid ":ref:`patronimages` : Decide if you want to save patron pictures in your system"
 msgstr "les utilisateurs à rédiger des commentaires sur des documents l'OPAC."
 
 #: ../../source/implementation_checklist.rst:384
-msgid ""
-":ref:`ExtendedPatronAttributes` : Decide if you want to enable custom patron "
-"fields"
+msgid ":ref:`ExtendedPatronAttributes` : Decide if you want to enable custom patron fields"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:387
-msgid ""
-":ref:`minPasswordLength` : Enter the minimum number of characters you want "
-"passwords to have"
+msgid ":ref:`minPasswordLength` : Enter the minimum number of characters you want passwords to have"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:390
-msgid ""
-":ref:`BorrowerUnwantedField` : Decide what fields your library doesn't need "
-"to see on the patron entry form"
+msgid ":ref:`BorrowerUnwantedField` : Decide what fields your library doesn't need to see on the patron entry form"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:395
-msgid ""
-"Decide if you would like children to automatically become adults by setting "
-"up the :ref:`Update patron categories <cron-update-patron-categories-label>` "
-"cron job."
+msgid "Decide if you would like children to automatically become adults by setting up the :ref:`Update patron categories <cron-update-patron-categories-label>` cron job."
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:401
@@ -848,47 +606,31 @@ msgid "Cataloging configuration"
 msgstr "Configuration"
 
 #: ../../source/implementation_checklist.rst:403
-msgid ""
-"Before you start cataloging in Koha you'll want to set up your preferences "
-"and other rules."
-msgstr ""
-"Avant de commencer à cataloguer dans Koha, il vous faudra paramétrer vos "
-"préférences système et certaines règles."
+msgid "Before you start cataloging in Koha you'll want to set up your preferences and other rules."
+msgstr "Avant de commencer à cataloguer dans Koha, il vous faudra paramétrer vos préférences système et certaines règles."
 
 #: ../../source/implementation_checklist.rst:406
-msgid ""
-"Define your cataloging templates, or :ref:`MARC bibliographic frameworks "
-"<marc-bibliographic-frameworks-label>`"
+msgid "Define your cataloging templates, or :ref:`MARC bibliographic frameworks <marc-bibliographic-frameworks-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:409
-msgid ""
-"Run the :ref:`MARC bibliographic framework test <marc-bibliographic-"
-"framework-test-label>` to be sure your changes are valid"
+msgid "Run the :ref:`MARC bibliographic framework test <marc-bibliographic-framework-test-label>` to be sure your changes are valid"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:412
-msgid ""
-"Define any :ref:`authorized values <authorized-values-label>` you might want "
-"to use in cataloging"
+msgid "Define any :ref:`authorized values <authorized-values-label>` you might want to use in cataloging"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:415
-msgid ""
-"Set up :ref:`custom classification sources <classification-sources-label>` "
-"(if you use something other than the defaults)"
+msgid "Set up :ref:`custom classification sources <classification-sources-label>` (if you use something other than the defaults)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:418
-msgid ""
-"Set up :ref:`MARC matching rules <record-matching-rules-label>` for "
-"importing records from .mrc files"
+msgid "Set up :ref:`MARC matching rules <record-matching-rules-label>` for importing records from .mrc files"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:421
-msgid ""
-"Set up the :ref:`Z39.50 targets <z39.50/sru-servers-label>` you want to "
-"search for cataloging (and acquisitions)"
+msgid "Set up the :ref:`Z39.50 targets <z39.50/sru-servers-label>` you want to search for cataloging (and acquisitions)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:424
@@ -897,35 +639,25 @@ msgid "Cataloging system preferences"
 msgstr "Préférences système de catalogage"
 
 #: ../../source/implementation_checklist.rst:426
-msgid ""
-":ref:`URLLinkText` : Enter text to display when 856 fields do not have pre-"
-"defined labels"
+msgid ":ref:`URLLinkText` : Enter text to display when 856 fields do not have pre-defined labels"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:429
-msgid ""
-":ref:`hide\\_marc <hide-marc-label>` : If you are unfamiliar with MARC you "
-"can have the MARC fields number hidden"
+msgid ":ref:`hide\\_marc <hide-marc-label>` : If you are unfamiliar with MARC you can have the MARC fields number hidden"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:432
-msgid ""
-":ref:`LabelMARCView` : Choose how you want duplicate fields to appear on the "
-"editor"
+msgid ":ref:`LabelMARCView` : Choose how you want duplicate fields to appear on the editor"
 msgstr ""
 
 # Cataloging > Interface
 #: ../../source/implementation_checklist.rst:435
 #, fuzzy
-msgid ""
-":ref:`DefaultClassificationSource` : Choose which classification source is "
-"the default in your library"
+msgid ":ref:`DefaultClassificationSource` : Choose which classification source is the default in your library"
 msgstr "comme source de classification par défaut."
 
 #: ../../source/implementation_checklist.rst:438
-msgid ""
-":ref:`advancedMARCeditor` : Decide if you want to use the advanced MARC "
-"editor"
+msgid ":ref:`advancedMARCeditor` : Decide if you want to use the advanced MARC editor"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:441
@@ -933,15 +665,11 @@ msgid ":ref:`marcflavour` : Choose your MARC format"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:443
-msgid ""
-":ref:`itemcallnumber` : Enter which field and subfields to look into for the "
-"call number"
+msgid ":ref:`itemcallnumber` : Enter which field and subfields to look into for the call number"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:446
-msgid ""
-":ref:`MARCOrgCode` : Enter your MARC organizational code (not the same as "
-"your OCLC number)"
+msgid ":ref:`MARCOrgCode` : Enter your MARC organizational code (not the same as your OCLC number)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:449
@@ -949,15 +677,11 @@ msgid ":ref:`autoBarcode` : Decide if Koha generates item barcodes for you"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:451
-msgid ""
-":ref:`OpacSuppression <opacsuppression-preferences-label>` : Decide if you "
-"want to hide records marked as suppressed from the OPAC search results"
+msgid ":ref:`OpacSuppression <opacsuppression-preferences-label>` : Decide if you want to hide records marked as suppressed from the OPAC search results"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:456
-msgid ""
-"Decide when the system :ref:`checks URLs in catalog records <cron-check-urls-"
-"label>` to see if they are still valid"
+msgid "Decide when the system :ref:`checks URLs in catalog records <cron-check-urls-label>` to see if they are still valid"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:462
@@ -966,14 +690,8 @@ msgid "Authorities configuration"
 msgstr "Exporter la configuration"
 
 #: ../../source/implementation_checklist.rst:464
-msgid ""
-"Koha has the ability to keep track of your authority records and how they're "
-"linked to your bibliographic records. Before using authorities you should "
-"configure several preferences."
-msgstr ""
-"Koha peut réaliser le suivi des notices d'autorité ainsi que leur lien avec "
-"les notices bibliographiques. Avant d'utiliser les autorités, vous devez "
-"configurer plusieurs préférences système."
+msgid "Koha has the ability to keep track of your authority records and how they're linked to your bibliographic records. Before using authorities you should configure several preferences."
+msgstr "Koha peut réaliser le suivi des notices d'autorité ainsi que leur lien avec les notices bibliographiques. Avant d'utiliser les autorités, vous devez configurer plusieurs préférences système."
 
 #: ../../source/implementation_checklist.rst:468
 msgid "Set :ref:`authority frameworks <authority-types-label>`, or templates"
@@ -985,45 +703,32 @@ msgid "Authority system preferences"
 msgstr "Préférences système des autorités"
 
 #: ../../source/implementation_checklist.rst:472
-msgid ""
-":ref:`BiblioAddsAuthorities` : Decide if Koha creates authorities when "
-"cataloging"
+msgid ":ref:`BiblioAddsAuthorities` : Decide if Koha creates authorities when cataloging"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:475
 #, fuzzy
-msgid ""
-":ref:`AuthorityMergeLimit`: Decide if updates to authorities trigger updates "
-"to the bibliographic records that link to them"
-msgstr ""
-"`dontmerge <#dontmerge>`__ : Décide s'il y a une mise à jour automatique des "
-"notices bibliographiques liées à une autorité quand on modifie celle-ci"
+msgid ":ref:`AuthorityMergeLimit`: Decide if updates to authorities trigger updates to the bibliographic records that link to them"
+msgstr "`dontmerge <#dontmerge>`__ : Décide s'il y a une mise à jour automatique des notices bibliographiques liées à une autorité quand on modifie celle-ci"
 
 #: ../../source/implementation_checklist.rst:478
 msgid ":ref:`AutoCreateAuthorities` : Decide when authorities are created"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:480
-msgid ""
-":ref:`LinkerModule` : Decide which match the authority linker should use"
+msgid ":ref:`LinkerModule` : Decide which match the authority linker should use"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:482
-msgid ""
-":ref:`LinkerOptions` : Decide if you want authority linking to be broader or "
-"more specific"
+msgid ":ref:`LinkerOptions` : Decide if you want authority linking to be broader or more specific"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:485
-msgid ""
-":ref:`CatalogModuleRelink` : Decide if you want to enable authority linking "
-"while cataloging"
+msgid ":ref:`CatalogModuleRelink` : Decide if you want to enable authority linking while cataloging"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:490
-msgid ""
-"Choose when the system looks for authorities updates to :ref:`merge changes "
-"into bibliographic records <cron-update-authorities-label>`"
+msgid "Choose when the system looks for authorities updates to :ref:`merge changes into bibliographic records <cron-update-authorities-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:496
@@ -1032,12 +737,7 @@ msgid "Searching configuration"
 msgstr "Configuration du moteur de recherche"
 
 #: ../../source/implementation_checklist.rst:498
-msgid ""
-"There are several system preferences related to searching, it is not always "
-"recommended to make too many changes to these preferences since they are set "
-"to get you the most relevant results. If you would like to change the "
-"default way that Koha handles searching, view the :ref:`searching system "
-"preferences <searchingsystem-preferences-label>` tab."
+msgid "There are several system preferences related to searching, it is not always recommended to make too many changes to these preferences since they are set to get you the most relevant results. If you would like to change the default way that Koha handles searching, view the :ref:`searching system preferences <searchingsystem-preferences-label>` tab."
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:506
@@ -1046,27 +746,19 @@ msgid "Searching system preferences"
 msgstr "Préférences système de recherche"
 
 #: ../../source/implementation_checklist.rst:508
-msgid ""
-":ref:`AdvancedSearchTypes` : Decide which authorized value fields you want "
-"patrons and staff to be able to limit their advanced searches by"
+msgid ":ref:`AdvancedSearchTypes` : Decide which authorized value fields you want patrons and staff to be able to limit their advanced searches by"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:511
-msgid ""
-":ref:`AdvancedSearchLanguages` : Decide which languages you want people to "
-"be able to limit to via the search engine"
+msgid ":ref:`AdvancedSearchLanguages` : Decide which languages you want people to be able to limit to via the search engine"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:514
-msgid ""
-":ref:`UseAuthoritiesForTracings` : Decide how you want Koha to handle "
-"subject searches in the OPAC"
+msgid ":ref:`UseAuthoritiesForTracings` : Decide how you want Koha to handle subject searches in the OPAC"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:517
-msgid ""
-":ref:`TraceCompleteSubfields` : Decide how you want Koha to handle subject "
-"searches in the OPAC"
+msgid ":ref:`TraceCompleteSubfields` : Decide how you want Koha to handle subject searches in the OPAC"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:521
@@ -1082,9 +774,7 @@ msgid "subject searches in the OPAC"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:523
-msgid ""
-":ref:`displayFacetCount` : Decide whether to show facet counts on search "
-"results"
+msgid ":ref:`displayFacetCount` : Decide whether to show facet counts on search results"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:529
@@ -1097,9 +787,7 @@ msgid "There are a lot of ways you can customize your OPAC in Koha."
 msgstr "Il y a diverses façons de personnaliser votre OPAC dans Koha."
 
 #: ../../source/implementation_checklist.rst:533
-msgid ""
-"Decide how you want your OPAC to look & what content you want on the main "
-"page"
+msgid "Decide how you want your OPAC to look & what content you want on the main page"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:536
@@ -1111,21 +799,12 @@ msgid "**Important**"
 msgstr "**Important**"
 
 #: ../../source/implementation_checklist.rst:540
-msgid ""
-"Do not edit the default CSS files, instead create a new one, that way the "
-"system can always fall back on the original CSS."
-msgstr ""
-"Ne modifiez pas les fichiers CSS par défaut, créez-en un nouveau. De cette "
-"manière, le système peut toujours recourir au CSS original."
+msgid "Do not edit the default CSS files, instead create a new one, that way the system can always fall back on the original CSS."
+msgstr "Ne modifiez pas les fichiers CSS par défaut, créez-en un nouveau. De cette manière, le système peut toujours recourir au CSS original."
 
 #: ../../source/implementation_checklist.rst:543
-msgid ""
-"Create a custom XSLT stylesheet to change the way search results and bib "
-"records appear in the OPAC"
-msgstr ""
-"Créez une feuille de style XSLT personnalisée pour changer la manière dont "
-"les résultats de recherche et les notices bibliographiques apparaissent dans "
-"l'OPAC."
+msgid "Create a custom XSLT stylesheet to change the way search results and bib records appear in the OPAC"
+msgstr "Créez une feuille de style XSLT personnalisée pour changer la manière dont les résultats de recherche et les notices bibliographiques apparaissent dans l'OPAC."
 
 #: ../../source/implementation_checklist.rst:546
 #, fuzzy
@@ -1137,10 +816,7 @@ msgid ":ref:`OPACBaseURL` : Enter your library's URL"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:550
-msgid ""
-":ref:`opacuserlogin` : Decide if you want to allow patrons to login to the "
-"OPAC to access customized functionality (searching will be allowed without "
-"logging in)"
+msgid ":ref:`opacuserlogin` : Decide if you want to allow patrons to login to the OPAC to access customized functionality (searching will be allowed without logging in)"
 msgstr ""
 
 # OPAC > Features
@@ -1152,35 +828,25 @@ msgstr "les utilisateurs à faire des réservations à l'OPAC."
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:556
 #, fuzzy
-msgid ""
-":ref:`OpacPasswordChange` : Decide if patrons can change their password "
-"(don't allow this if you're using LDAP)"
-msgstr ""
-"les utilisateurs à modifier leur mot de passe à l'OPAC. Cette fonction doit "
-"être désactivée si vous utilisez l'authentification LDAP."
+msgid ":ref:`OpacPasswordChange` : Decide if patrons can change their password (don't allow this if you're using LDAP)"
+msgstr "les utilisateurs à modifier leur mot de passe à l'OPAC. Cette fonction doit être désactivée si vous utilisez l'authentification LDAP."
 
 # OPAC > Policy
 #: ../../source/implementation_checklist.rst:559
 #, fuzzy
-msgid ""
-":ref:`OpacRenewalAllowed` : Decide if patrons can renew their checked out "
-"items via the OPAC"
+msgid ":ref:`OpacRenewalAllowed` : Decide if patrons can renew their checked out items via the OPAC"
 msgstr "les utilisateurs à renouveller eux-mêmes leurs emprunts à l'OPAC."
 
 # OPAC > Policy
 #: ../../source/implementation_checklist.rst:562
 #, fuzzy
-msgid ""
-":ref:`opacreadinghistory` : Decide if patrons can view their reading/ "
-"checkout history via the OPAC"
+msgid ":ref:`opacreadinghistory` : Decide if patrons can view their reading/ checkout history via the OPAC"
 msgstr "les utilisateurs à renouveller eux-mêmes leurs emprunts à l'OPAC."
 
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:565
 #, fuzzy
-msgid ""
-":ref:`reviewson` : Decide if you want to allow patrons to comment on "
-"bibliographic records via the OPAC"
+msgid ":ref:`reviewson` : Decide if you want to allow patrons to comment on bibliographic records via the OPAC"
 msgstr "les utilisateurs à rédiger des commentaires sur des documents l'OPAC."
 
 #: ../../source/implementation_checklist.rst:568
@@ -1190,32 +856,25 @@ msgstr ""
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:570
 #, fuzzy
-msgid ""
-":ref:`virtualshelves` : Decide if you want patrons to be able to create lists"
+msgid ":ref:`virtualshelves` : Decide if you want patrons to be able to create lists"
 msgstr "les utilisateurs à faire des suggestions d'achat à l'OPAC."
 
 # OPAC > Policy
 #: ../../source/implementation_checklist.rst:573
 #, fuzzy
-msgid ""
-":ref:`OpacAllowPublicListCreation`: If patrons can create lists then decide "
-"if they are allowed to create public lists"
+msgid ":ref:`OpacAllowPublicListCreation`: If patrons can create lists then decide if they are allowed to create public lists"
 msgstr " utilisateurs de l'OPAC pour créer des listes publiques"
 
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:576
 #, fuzzy
-msgid ""
-":ref:`suggestion` : Decide if you want patrons to be able to submit purchase "
-"suggestions"
+msgid ":ref:`suggestion` : Decide if you want patrons to be able to submit purchase suggestions"
 msgstr "les utilisateurs à faire des suggestions d'achat à l'OPAC."
 
 # OPAC > Policy
 #: ../../source/implementation_checklist.rst:579
 #, fuzzy
-msgid ""
-":ref:`OPACViewOthersSuggestions` : Decide if you want patrons to be able to "
-"see purchase suggestions made by other patrons"
+msgid ":ref:`OPACViewOthersSuggestions` : Decide if you want patrons to be able to see purchase suggestions made by other patrons"
 msgstr "les suggestions d'achat des autres utilisateurs."
 
 #: ../../source/implementation_checklist.rst:582
@@ -1223,21 +882,15 @@ msgid ":ref:`opacbookbag` : Decide if patrons can save items into their cart"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:584
-msgid ""
-":ref:`AnonSuggestions` : Decide if you want non logged in users to be able "
-"to make purchase suggestions"
+msgid ":ref:`AnonSuggestions` : Decide if you want non logged in users to be able to make purchase suggestions"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:587
-msgid ""
-":ref:`LibraryName` : Enter your library name for display in the <title> tag "
-"and on the top of the OPAC"
+msgid ":ref:`LibraryName` : Enter your library name for display in the <title> tag and on the top of the OPAC"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:590
-msgid ""
-":ref:`OpacNav` : Enter HTML that will appear to the left on the main OPAC "
-"page"
+msgid ":ref:`OpacNav` : Enter HTML that will appear to the left on the main OPAC page"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:593
@@ -1247,25 +900,17 @@ msgstr ""
 # OPAC > Appearance
 #: ../../source/implementation_checklist.rst:595
 #, fuzzy
-msgid ""
-":ref:`OPACNoResultsFound` : Enter the HTML that will appear when no results "
-"are found"
-msgstr ""
-"Afficher ce code HTML quand à l'OPAC aucun résultat n'est trouvé pour une "
-"recherche :"
+msgid ":ref:`OPACNoResultsFound` : Enter the HTML that will appear when no results are found"
+msgstr "Afficher ce code HTML quand à l'OPAC aucun résultat n'est trouvé pour une recherche :"
 
 # OPAC > Appearance
 #: ../../source/implementation_checklist.rst:598
 #, fuzzy
-msgid ""
-":ref:`OPACResultsSidebar` : Enter the HTML that will appear below the facets "
-"on your search results"
+msgid ":ref:`OPACResultsSidebar` : Enter the HTML that will appear below the facets on your search results"
 msgstr "Inclure le code HTML suivant sous les facettes à l'OPAC :"
 
 #: ../../source/implementation_checklist.rst:601
-msgid ""
-":ref:`OPACMySummaryHTML` : Enter the HTML that will appear in the far right "
-"of the circulation summary in the OPAC"
+msgid ":ref:`OPACMySummaryHTML` : Enter the HTML that will appear in the far right of the circulation summary in the OPAC"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:604
@@ -1273,9 +918,7 @@ msgid "Customize your stylesheets:"
 msgstr "Personnalisez vos feuilles de style:"
 
 #: ../../source/implementation_checklist.rst:606
-msgid ""
-":ref:`OPACUserCSS` : Enter any additional fields you want to define styles "
-"for"
+msgid ":ref:`OPACUserCSS` : Enter any additional fields you want to define styles for"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:609
@@ -1283,90 +926,61 @@ msgid ":ref:`opaclayoutstylesheet` : Point to a CSS file on your Koha server"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:611
-msgid ""
-":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-"
-"label>` : Decide if you want search terms to be highlighted on the search "
-"results"
+msgid ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>` : Decide if you want search terms to be highlighted on the search results"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:614
-msgid ""
-":ref:`hidelostitems` : Decide if you want to show patrons items you have "
-"marked as lost"
+msgid ":ref:`hidelostitems` : Decide if you want to show patrons items you have marked as lost"
 msgstr ""
 
 # OPAC > Appearance
 #: ../../source/implementation_checklist.rst:617
 #, fuzzy
-msgid ""
-":ref:`BiblioDefaultView` : Decide what view is the default for bibliographic "
-"records on the OPAC"
+msgid ":ref:`BiblioDefaultView` : Decide what view is the default for bibliographic records on the OPAC"
 msgstr "Montrer par défaut les notices bibliographiques dans la vue"
 
 #: ../../source/implementation_checklist.rst:620
-msgid ""
-":ref:`OPACShelfBrowser` : Decide if you want to enable the shelf browse "
-"functionality"
+msgid ":ref:`OPACShelfBrowser` : Decide if you want to enable the shelf browse functionality"
 msgstr ""
 
 # OPAC > Appearance
 #: ../../source/implementation_checklist.rst:623
 #, fuzzy
-msgid ""
-":ref:`OPACURLOpenInNewWindow` : Decide if URLs clicked in the OPAC are "
-"opened in a new window"
+msgid ":ref:`OPACURLOpenInNewWindow` : Decide if URLs clicked in the OPAC are opened in a new window"
 msgstr "le site web dans une nouvelle fenêtre."
 
 #: ../../source/implementation_checklist.rst:626
-msgid ""
-":ref:`SearchMyLibraryFirst` : If you have a multi-branch system decide if "
-"you want patrons to search their library first"
+msgid ":ref:`SearchMyLibraryFirst` : If you have a multi-branch system decide if you want patrons to search their library first"
 msgstr ""
 
 # OPAC > Features
 #: ../../source/implementation_checklist.rst:629
 #, fuzzy
-msgid ""
-":ref:`OpacAuthorities` : Decide if you want patrons to be able to search "
-"your authority file"
+msgid ":ref:`OpacAuthorities` : Decide if you want patrons to be able to search your authority file"
 msgstr "les utilisateurs à faire des recherches dans les notices d'autorité."
 
 #: ../../source/implementation_checklist.rst:632
-msgid ""
-":ref:`OpacBrowser` : Decide if you want patrons to browse your authority "
-"file (French libraries only)"
+msgid ":ref:`OpacBrowser` : Decide if you want patrons to browse your authority file (French libraries only)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:635
-msgid ""
-":ref:`OPACSearchForTitleIn` : Choose which libraries you want patrons to be "
-"able to re-run their search in"
+msgid ":ref:`OPACSearchForTitleIn` : Choose which libraries you want patrons to be able to re-run their search in"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:638
-msgid ""
-":ref:`OpacAddMastheadLibraryPulldown` : If you're a multi-branch system you "
-"can add a pull down to the search bar for patrons to search which library to "
-"search"
+msgid ":ref:`OpacAddMastheadLibraryPulldown` : If you're a multi-branch system you can add a pull down to the search bar for patrons to search which library to search"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:642
-msgid ""
-":ref:`EnableOpacSearchHistory` : Decide if you want the system to keep a "
-"search history"
+msgid ":ref:`EnableOpacSearchHistory` : Decide if you want the system to keep a search history"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:647
-msgid ""
-"If you have the :ref:`OpacBrowser` preference set decide :ref:`when you want "
-"the contents to rebuild <cron-authorities-browser-label>` (French libraries "
-"only)"
+msgid "If you have the :ref:`OpacBrowser` preference set decide :ref:`when you want the contents to rebuild <cron-authorities-browser-label>` (French libraries only)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:651
-msgid ""
-"If you have :ref:`custom RSS feeds <custom-rss-feeds-label>`, decide when "
-"you want the :ref:`feed to be populated <cron-rss-feeds-label>`"
+msgid "If you have :ref:`custom RSS feeds <custom-rss-feeds-label>`, decide when you want the :ref:`feed to be populated <cron-rss-feeds-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:657
@@ -1376,14 +990,8 @@ msgstr "Modifiable à l'OPAC :"
 
 #: ../../source/implementation_checklist.rst:659
 #, fuzzy
-msgid ""
-"Using the :ref:`news tool <news-label>` you can customize various blocks of "
-"the OPAC. The following graphic shows what each display location updates in "
-"the Bootstrap theme."
-msgstr ""
-"En utilisant les préférences système de l'OPAC, vous pouvez personnaliser "
-"plusieurs régions. Le graphique suivant définit quelles préférences système "
-"mettre à jour pour chaque région du thème Bootstrap."
+msgid "Using the :ref:`news tool <news-label>` you can customize various blocks of the OPAC. The following graphic shows what each display location updates in the Bootstrap theme."
+msgstr "En utilisant les préférences système de l'OPAC, vous pouvez personnaliser plusieurs régions. Le graphique suivant définit quelles préférences système mettre à jour pour chaque région du thème Bootstrap."
 
 #: ../../source/implementation_checklist.rst:663
 msgid "|image1068|"
@@ -1409,9 +1017,7 @@ msgid ":ref:`OpacNavBottom`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:673
-msgid ""
-"And 'quotes of the day' are managed in the :ref:`Quote of the day editor "
-"<quote-of-the-day-(qotd)-editor-label>`"
+msgid "And 'quotes of the day' are managed in the :ref:`Quote of the day editor <quote-of-the-day-(qotd)-editor-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:679
@@ -1421,15 +1027,8 @@ msgstr "Contenu enrichi"
 
 #: ../../source/implementation_checklist.rst:681
 #, fuzzy
-msgid ""
-"Koha allows you to pull in content from outside sources to enhance your "
-"bibliographic records. All of this content can be toggled on and off using "
-"the :ref:`enhanced content system preferences <enhanced-content-system-"
-"preferences-label>`."
-msgstr ""
-"Koha vous autorise à ajouter du contenu provenant de sources extérieures "
-"pour enrichir vos notices bibliographiques. Tout ce contenu peut être activé "
-"et désactivé en utilisant les préférences système du contenu enrichi."
+msgid "Koha allows you to pull in content from outside sources to enhance your bibliographic records. All of this content can be toggled on and off using the :ref:`enhanced content system preferences <enhanced-content-system-preferences-label>`."
+msgstr "Koha vous autorise à ajouter du contenu provenant de sources extérieures pour enrichir vos notices bibliographiques. Tout ce contenu peut être activé et désactivé en utilisant les préférences système du contenu enrichi."
 
 #: ../../source/implementation_checklist.rst:685
 msgid ":ref:`FRBR/Editions <frbrizeeditions-label>`"
@@ -1437,28 +1036,16 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:687
 #, fuzzy
-msgid ""
-"If you would like to have your OPAC and/or staff interdace show an "
-"'Editions' tab on the bibliographic record, you want to enable one or the "
-"other FRBR preferences and then the ISBN service :ref:`ThingISBN`."
-msgstr ""
-"Si vous souhaitez que votre OPAC et/ou votre interface professionnelle "
-"s'affichent dans un onglet 'Editions' dans la notice bibliographique, vous "
-"devrez activer l'un ou l'autre dans les préférences système ainsi qu'un ou "
-"les deux services ISBN (XISBN et ThingISBN)."
+msgid "If you would like to have your OPAC and/or staff interdace show an 'Editions' tab on the bibliographic record, you want to enable one or the other FRBR preferences and then the ISBN service :ref:`ThingISBN`."
+msgstr "Si vous souhaitez que votre OPAC et/ou votre interface professionnelle s'affichent dans un onglet 'Editions' dans la notice bibliographique, vous devrez activer l'un ou l'autre dans les préférences système ainsi qu'un ou les deux services ISBN (XISBN et ThingISBN)."
 
 #: ../../source/implementation_checklist.rst:691
-msgid ""
-":ref:`Amazon <amazon-system-preferences-label>` : This service is free and "
-"just requires that you visit http://aws.amazon.com to sign up"
+msgid ":ref:`Amazon <amazon-system-preferences-label>` : This service is free and just requires that you visit http://aws.amazon.com to sign up"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:694
-msgid ""
-"Using the Amazon preferences you can choose to show cover images from Amazon."
-msgstr ""
-"Si vous utilisez les préférences système Amazon, vous pouvez choisir "
-"d'afficher les images de couverture d'Amazon."
+msgid "Using the Amazon preferences you can choose to show cover images from Amazon."
+msgstr "Si vous utilisez les préférences système Amazon, vous pouvez choisir d'afficher les images de couverture d'Amazon."
 
 #: ../../source/implementation_checklist.rst:697
 msgid ":ref:`Babelthèque <babeltheque-system-preferences-label>`"
@@ -1466,12 +1053,8 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:699
 #, fuzzy
-msgid ""
-"This is a paid service. Contact Babelthèque to learn how to enable this "
-"content in the OPAC."
-msgstr ""
-"Ceci est un service payant. Contactez Babelthèque pour pouvoir activer ce "
-"contenu dans l'OPAC."
+msgid "This is a paid service. Contact Babelthèque to learn how to enable this content in the OPAC."
+msgstr "Ceci est un service payant. Contactez Babelthèque pour pouvoir activer ce contenu dans l'OPAC."
 
 #: ../../source/implementation_checklist.rst:702
 msgid ":ref:`Baker and Taylor <baker-and-taylor-label>`"
@@ -1479,12 +1062,8 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:704
 #, fuzzy
-msgid ""
-"This is a paid service from Baker & Taylor. Contact Baker & Taylor for the "
-"information to enter into these preferences."
-msgstr ""
-"Ceci est un service payant d'Ebsco. Contactez Ebsco pour l'inclure dans vos "
-"préférences système"
+msgid "This is a paid service from Baker & Taylor. Contact Baker & Taylor for the information to enter into these preferences."
+msgstr "Ceci est un service payant d'Ebsco. Contactez Ebsco pour l'inclure dans vos préférences système"
 
 #: ../../source/implementation_checklist.rst:707
 msgid ":ref:`HTML5 media <html5-media-label>`"
@@ -1492,9 +1071,7 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:709
 msgid "This allows libraries to embed streaming media in their catalog"
-msgstr ""
-"Cela autorise les bibliothèques à intégrer le média streaming dans leur "
-"catalogue"
+msgstr "Cela autorise les bibliothèques à intégrer le média streaming dans leur catalogue"
 
 #: ../../source/implementation_checklist.rst:711
 msgid ":ref:`Google <googlejackets-label>`"
@@ -1502,12 +1079,8 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:713
 #, fuzzy
-msgid ""
-"This service is free and does not require registration, simply enable :ref:"
-"`GoogleJackets` and you're set to go."
-msgstr ""
-"Ce service est gratuit et ne requiert pas d'inscription. Activez simplement "
-"GoogleJackets et cela fonctionnera."
+msgid "This service is free and does not require registration, simply enable :ref:`GoogleJackets` and you're set to go."
+msgstr "Ce service est gratuit et ne requiert pas d'inscription. Activez simplement GoogleJackets et cela fonctionnera."
 
 #: ../../source/implementation_checklist.rst:716
 msgid ":ref:`LibraryThing <librarything-label>`"
@@ -1515,21 +1088,13 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:718
 #, fuzzy
-msgid ""
-"With the exception of :ref:`ThingISBN`, you will need to contact "
-"LibraryThing for the information to enter into these preferences"
-msgstr ""
-"Avec l'exception de ThingISBN, il vous faudra contacter LibraryThing pour "
-"l'inclure dans vos préférences sytème"
+msgid "With the exception of :ref:`ThingISBN`, you will need to contact LibraryThing for the information to enter into these preferences"
+msgstr "Avec l'exception de ThingISBN, il vous faudra contacter LibraryThing pour l'inclure dans vos préférences sytème"
 
 #: ../../source/implementation_checklist.rst:721
 #, fuzzy
-msgid ""
-"Enabling :ref:`ThingISBN` will help to populate the editions tab on the "
-"bibliographic record display if you have enabled FRBR."
-msgstr ""
-"En activant ThingISBN, cela aidera à remplir l'onglet 'Editions' dans "
-"l'affichage de la notice bibliographique seulement si vous avez activé FRBR."
+msgid "Enabling :ref:`ThingISBN` will help to populate the editions tab on the bibliographic record display if you have enabled FRBR."
+msgstr "En activant ThingISBN, cela aidera à remplir l'onglet 'Editions' dans l'affichage de la notice bibliographique seulement si vous avez activé FRBR."
 
 #: ../../source/implementation_checklist.rst:724
 msgid ":ref:`Novelist Select <novelist-select-label>`"
@@ -1537,12 +1102,8 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:726
 #, fuzzy
-msgid ""
-"This is a paid service from Ebsco. Contact Ebsco for the information to "
-"enter into these preferences"
-msgstr ""
-"Ceci est un service payant d'Ebsco. Contactez Ebsco pour l'inclure dans vos "
-"préférences système"
+msgid "This is a paid service from Ebsco. Contact Ebsco for the information to enter into these preferences"
+msgstr "Ceci est un service payant d'Ebsco. Contactez Ebsco pour l'inclure dans vos préférences système"
 
 #: ../../source/implementation_checklist.rst:729
 #, fuzzy
@@ -1550,12 +1111,8 @@ msgid ":ref:`Open Library <open-library-label>`"
 msgstr "Open Library : "
 
 #: ../../source/implementation_checklist.rst:731
-msgid ""
-"Open Library project is an open system that you can pull cover images (and "
-"in the future additional content) from"
-msgstr ""
-"Le projet Open Library est un logiciel ouvert qui fourni des images de "
-"couverture (dans le futur contenu supplémentaire)"
+msgid "Open Library project is an open system that you can pull cover images (and in the future additional content) from"
+msgstr "Le projet Open Library est un logiciel ouvert qui fourni des images de couverture (dans le futur contenu supplémentaire)"
 
 #: ../../source/implementation_checklist.rst:734
 msgid ":ref:`Overdrive <overdrive-label>`"
@@ -1563,14 +1120,8 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:736
 #, fuzzy
-msgid ""
-"This is a paid service that libraries can subscribe to for ebook content. If "
-"the library subscribes to Overdrive they can integrate that content in to "
-"Koha for free."
-msgstr ""
-"C'est un service payant auquel les bibliothèques peuvent souscrire pour le "
-"contenu de livres électroniques. Si la bibliothèque s'abonne à Overdrive, "
-"elle peut intégrer le contenu dans Koha gratuitement."
+msgid "This is a paid service that libraries can subscribe to for ebook content. If the library subscribes to Overdrive they can integrate that content in to Koha for free."
+msgstr "C'est un service payant auquel les bibliothèques peuvent souscrire pour le contenu de livres électroniques. Si la bibliothèque s'abonne à Overdrive, elle peut intégrer le contenu dans Koha gratuitement."
 
 #: ../../source/implementation_checklist.rst:740
 msgid ":ref:`Syndetics <syndetics-label>`"
@@ -1578,26 +1129,16 @@ msgstr ""
 
 #: ../../source/implementation_checklist.rst:742
 #, fuzzy
-msgid ""
-"This is a paid service from Syndetics to add content for your bibliographic "
-"records. Contact Syndetics for the information to enter into these "
-"preferences."
-msgstr ""
-"C'est un service payant de Syndetics pour ajouter du contenu à vos notices "
-"bibliographiques. Contactez Syndetics pour l'inclure dans vos préférences "
-"système."
+msgid "This is a paid service from Syndetics to add content for your bibliographic records. Contact Syndetics for the information to enter into these preferences."
+msgstr "C'est un service payant de Syndetics pour ajouter du contenu à vos notices bibliographiques. Contactez Syndetics pour l'inclure dans vos préférences système."
 
 #: ../../source/implementation_checklist.rst:746
 msgid ":ref:`Tagging <tagging-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:748
-msgid ""
-"Choose whether or not you want to allow patrons to add tags to records in "
-"Koha."
-msgstr ""
-"Choisissez si vous souhaitez autoriser les adhérents à ajouter des tags aux "
-"notices."
+msgid "Choose whether or not you want to allow patrons to add tags to records in Koha."
+msgstr "Choisissez si vous souhaitez autoriser les adhérents à ajouter des tags aux notices."
 
 #: ../../source/implementation_checklist.rst:754
 #, fuzzy
@@ -1606,18 +1147,14 @@ msgstr "Informations d'acquisition"
 
 #: ../../source/implementation_checklist.rst:756
 msgid "When using acquisitions in Koha you first need to define some defaults."
-msgstr ""
-"Avant de faire des acquisitions dans Koha, vous devrez d'abord en définir "
-"certaines par défaut."
+msgstr "Avant de faire des acquisitions dans Koha, vous devrez d'abord en définir certaines par défaut."
 
 #: ../../source/implementation_checklist.rst:758
 msgid "Set up your :ref:`funds and budgets <budgets-label>`"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:760
-msgid ""
-"Choose your :ref:`default currency <currencies-and-exchange-rates-label>` "
-"and enter others if you order from multiple countries"
+msgid "Choose your :ref:`default currency <currencies-and-exchange-rates-label>` and enter others if you order from multiple countries"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:763
@@ -1625,10 +1162,7 @@ msgid "Enter in your :ref:`vendor information <vendors-label>`"
 msgstr "Saisissez les :ref:`informations sur vos fournisseurs <vendors-label>`"
 
 #: ../../source/implementation_checklist.rst:765
-msgid ""
-"Create an :ref:`framework with the code ACQ <marc-bibliographic-frameworks-"
-"label>` (if you're going to enter item records at the time of ordering or "
-"receiving)"
+msgid "Create an :ref:`framework with the code ACQ <marc-bibliographic-frameworks-label>` (if you're going to enter item records at the time of ordering or receiving)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:768
@@ -1637,8 +1171,7 @@ msgid "Acquisitions system preferences"
 msgstr "Préférences système des acquisitions"
 
 #: ../../source/implementation_checklist.rst:770
-msgid ""
-":ref:`AcqCreateItem` : Decide if an item record is created during acquisition"
+msgid ":ref:`AcqCreateItem` : Decide if an item record is created during acquisition"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:773
@@ -1650,8 +1183,7 @@ msgid ":ref:`gist` : Enter your sales tax (if you are billed for tax)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:777
-msgid ""
-":ref:`OrderPdfFormat` : Decide what format you want your print orders to use"
+msgid ":ref:`OrderPdfFormat` : Decide what format you want your print orders to use"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:783
@@ -1661,9 +1193,7 @@ msgstr "Sauvegarder la configuration"
 
 #: ../../source/implementation_checklist.rst:785
 msgid "When you use serials there are a few options you can set before hand."
-msgstr ""
-"Avant d'utiliser le module Périodiques, il y a quelques options à paramétrer "
-"d'abord."
+msgstr "Avant d'utiliser le module Périodiques, il y a quelques options à paramétrer d'abord."
 
 #: ../../source/implementation_checklist.rst:787
 #, fuzzy
@@ -1671,25 +1201,18 @@ msgid "Serials system preferences"
 msgstr "Préférences système des périodiques"
 
 #: ../../source/implementation_checklist.rst:789
-msgid ""
-":ref:`RenewSerialAddsSuggestion` : Decide if you want renewing serials to "
-"add a suggestion for easy purchasing"
+msgid ":ref:`RenewSerialAddsSuggestion` : Decide if you want renewing serials to add a suggestion for easy purchasing"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:792
-msgid ""
-":ref:`RoutingSerials` : Decide if you want to route serials around your "
-"library"
+msgid ":ref:`RoutingSerials` : Decide if you want to route serials around your library"
 msgstr ""
 
 # Serials
 #: ../../source/implementation_checklist.rst:795
 #, fuzzy
-msgid ""
-":ref:`RoutingListAddReserves` : Decide if holds are placed on serials when "
-"there is a routing list in place"
-msgstr ""
-"en réservation les périodiques qui se trouvent sur une liste de circulation."
+msgid ":ref:`RoutingListAddReserves` : Decide if holds are placed on serials when there is a routing list in place"
+msgstr "en réservation les périodiques qui se trouvent sur une liste de circulation."
 
 #: ../../source/implementation_checklist.rst:798
 #, fuzzy
@@ -1699,28 +1222,20 @@ msgstr "Préférences système de catalogage"
 # Serials
 #: ../../source/implementation_checklist.rst:800
 #, fuzzy
-msgid ""
-":ref:`StaffSerialIssueDisplayCount` : Decide how many of the most recent "
-"issues to display in the staff interface"
+msgid ":ref:`StaffSerialIssueDisplayCount` : Decide how many of the most recent issues to display in the staff interface"
 msgstr "derniers fascicules d'un périodique."
 
 # Serials
 #: ../../source/implementation_checklist.rst:803
 #, fuzzy
-msgid ""
-":ref:`OPACSerialIssueDisplayCount` : Decide how many of the most recent "
-"issues to display in the OPAC"
+msgid ":ref:`OPACSerialIssueDisplayCount` : Decide how many of the most recent issues to display in the OPAC"
 msgstr "derniers numéros d'un périodique."
 
 # Serials
 #: ../../source/implementation_checklist.rst:806
 #, fuzzy
-msgid ""
-":ref:`SubscriptionHistory` : Decide how you want the subscription "
-"information to display in the OPAC"
-msgstr ""
-"À l'affichage de l'information des abonnements pour une notice "
-"bibliographique, afficher"
+msgid ":ref:`SubscriptionHistory` : Decide how you want the subscription information to display in the OPAC"
+msgstr "À l'affichage de l'information des abonnements pour une notice bibliographique, afficher"
 
 #: ../../source/implementation_checklist.rst:812
 #, fuzzy
@@ -1728,54 +1243,31 @@ msgid "Planning for go-live"
 msgstr "Gestion de la mise en ligne"
 
 #: ../../source/implementation_checklist.rst:814
-msgid ""
-"Once you have all of your settings ready, you need to prepare for making "
-"your system live:"
-msgstr ""
-"Une fois tous vos paramétres réglés, vous devrez vous préparer à faire "
-"fonctionner votre système:"
+msgid "Once you have all of your settings ready, you need to prepare for making your system live:"
+msgstr "Une fois tous vos paramétres réglés, vous devrez vous préparer à faire fonctionner votre système:"
 
 #: ../../source/implementation_checklist.rst:817
 #, fuzzy
-msgid ""
-"Decide if you need training by an outside service provider or if your staff "
-"can do the training themselves."
-msgstr ""
-"Voyez si vous avez besoin d'une formation donnée par un prestataire "
-"extérieur, ou si le personnel peut se former lui-même."
+msgid "Decide if you need training by an outside service provider or if your staff can do the training themselves."
+msgstr "Voyez si vous avez besoin d'une formation donnée par un prestataire extérieur, ou si le personnel peut se former lui-même."
 
 #: ../../source/implementation_checklist.rst:820
-msgid ""
-"Make sure that there is time for your staff to play with your test system "
-"and get comfortable with it"
-msgstr ""
-"Assurez-vous qu'il y ait des temps mis en place pour que le personnel "
-"pratique la base de test du système et se familiarise avec"
+msgid "Make sure that there is time for your staff to play with your test system and get comfortable with it"
+msgstr "Assurez-vous qu'il y ait des temps mis en place pour que le personnel pratique la base de test du système et se familiarise avec"
 
 #: ../../source/implementation_checklist.rst:823
 #, fuzzy
-msgid ""
-"If this is a migration, work with your previous company to extract data "
-"right before you go-live"
-msgstr ""
-"S'il doit y avoir une migration, voyez avec votre ancien prestataire pour "
-"extraire les données avant d'effectuer cette migration"
+msgid "If this is a migration, work with your previous company to extract data right before you go-live"
+msgstr "S'il doit y avoir une migration, voyez avec votre ancien prestataire pour extraire les données avant d'effectuer cette migration"
 
 #: ../../source/implementation_checklist.rst:826
-msgid ""
-"Decide on URLs for your new Koha OPAC and staff interface and arrange for "
-"these to be cut-over if using existing system URLs, or created if they are "
-"new URLs"
+msgid "Decide on URLs for your new Koha OPAC and staff interface and arrange for these to be cut-over if using existing system URLs, or created if they are new URLs"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:830
 #, fuzzy
-msgid ""
-"Make sure that if you're hosting your own system you have a process in place "
-"to back-up your system data."
-msgstr ""
-"Si vous hébergez votre propre système, assurez-vous d'avoir un plan de "
-"secours de sauvegarde"
+msgid "Make sure that if you're hosting your own system you have a process in place to back-up your system data."
+msgstr "Si vous hébergez votre propre système, assurez-vous d'avoir un plan de secours de sauvegarde"
 
 #~ msgid "`Collection codes <#ccode>`__"
 #~ msgstr "`Codes de collection <#ccode>`__"
@@ -1783,32 +1275,16 @@ msgstr ""
 #~ msgid "`Shelving locations <#shelvelocvals>`__"
 #~ msgstr "`Localisation <#shelvelocvals>`__"
 
-#~ msgid ""
-#~ "Item statuses (`lost <#lost>`__, `not for loan <#notforloan>`__, `damaged "
-#~ "<#damageauth>`__, `withdrawn <#withdrawnauth>`__)"
-#~ msgstr ""
-#~ "Statuts de l'exemplaire (`perdu <#lost>`__, `pas en prêt "
-#~ "<#notforloan>`__, `endommagé <#damageauth>`__, `retiré des collections "
-#~ "<#withdrawnauth>`__)"
+#~ msgid "Item statuses (`lost <#lost>`__, `not for loan <#notforloan>`__, `damaged <#damageauth>`__, `withdrawn <#withdrawnauth>`__)"
+#~ msgstr "Statuts de l'exemplaire (`perdu <#lost>`__, `pas en prêt <#notforloan>`__, `endommagé <#damageauth>`__, `retiré des collections <#withdrawnauth>`__)"
 
 # OPAC > Appearance
 #, fuzzy
-#~ msgid ""
-#~ ":ref:`opaccredits` : Enter HTML to appear at the bottom of every page in "
-#~ "the OPAC"
+#~ msgid ":ref:`opaccredits` : Enter HTML to appear at the bottom of every page in the OPAC"
 #~ msgstr "Inclure dans le pied de page de tout l'OPAC le code HTML suivant :"
 
-#~ msgid ""
-#~ "This is a free service that compiles reviews for popular titles from many "
-#~ "different sources."
-#~ msgstr ""
-#~ "C'est un service gratuit qui compile tous les commentaires provenant de "
-#~ "différentes sources sur les titres les plus populaires."
+#~ msgid "This is a free service that compiles reviews for popular titles from many different sources."
+#~ msgstr "C'est un service gratuit qui compile tous les commentaires provenant de différentes sources sur les titres les plus populaires."
 
-#~ msgid ""
-#~ "XISBN is used to populate the editions tab on the bib record display if "
-#~ "you have enabled FRBR. This service is free for up to 999 queries a day."
-#~ msgstr ""
-#~ "XISBN est utilisé pour remplir l'onglet 'Editions' dans l'affichage de la "
-#~ "notice bibliographique si vous avez activé FRBR. Ce service est gratuit "
-#~ "mais il y a une limitation de 999 requêtes par jour."
+#~ msgid "XISBN is used to populate the editions tab on the bib record display if you have enabled FRBR. This service is free for up to 999 queries a day."
+#~ msgstr "XISBN est utilisé pour remplir l'onglet 'Editions' dans l'affichage de la notice bibliographique si vous avez activé FRBR. Ce service est gratuit mais il y a une limitation de 999 requêtes par jour."

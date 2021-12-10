@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-03 12:31+0000\n"
+"PO-Revision-Date: 2021-03-05 10:23+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614774669.385975\n"
+"X-POOTLE-MTIME: 1614939801.362108\n"
 "X-Pootle-Path: /de/man20.11/localusepreferences.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -30,25 +30,16 @@ msgid "These preferences are defined locally."
 msgstr "Diese Systemparameter sind nur lokal definiert."
 
 #: ../../source/localusepreferences.rst:10
-msgid ""
-"*Get there:* More > Administration > Global System Preferences > Local Use"
-msgstr ""
-"*Pfad in Koha:* Mehr > Administration > Globale Systemparameter > Lokale "
-"Verwendung"
+msgid "*Get there:* More > Administration > Global System Preferences > Local Use"
+msgstr "*Pfad in Koha:* Mehr > Administration > Globale Systemparameter > Lokale Verwendung"
 
 #: ../../source/localusepreferences.rst:13
 msgid "**Note**"
 msgstr "**Hinweis**"
 
 #: ../../source/localusepreferences.rst:15
-msgid ""
-"Sometimes preferences which are either new or outdated will appear in this "
-"tab, if you didn't add any preferences to this tab then it's best to ignore "
-"preferences listed here."
-msgstr ""
-"Manchmal erscheinen auch neue oder veraltete Systemparameter in diesem "
-"Reiter, wenn Sie nicht selbst Systemparameter in diesem Reiter konfiguriert "
-"haben, können Sie die hier gelisteten Systemparameter ignorieren."
+msgid "Sometimes preferences which are either new or outdated will appear in this tab, if you didn't add any preferences to this tab then it's best to ignore preferences listed here."
+msgstr "Manchmal erscheinen auch neue oder veraltete Systemparameter in diesem Reiter, wenn Sie nicht selbst Systemparameter in diesem Reiter konfiguriert haben, können Sie die hier gelisteten Systemparameter ignorieren."
 
 #: ../../source/localusepreferences.rst:22
 msgid "INTRAdidyoumean"
@@ -63,25 +54,16 @@ msgid "Default: blank"
 msgstr "Voreinstellung: Leer"
 
 #: ../../source/localusepreferences.rst:26
-msgid ""
-"Asks: Did you mean? configuration for the Intranet. Do not change, as this "
-"is controlled by /cgi-bin/koha/admin/didyoumean.pl."
-msgstr ""
-"Fragt: Meinten Sie?-Konfiguration für die Dienstoberfläche. Ändern Sie dies "
-"nicht, da es über /cgi-bin/koha/admin/didyoumean.pl konfiguriert wird."
+msgid "Asks: Did you mean? configuration for the Intranet. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl."
+msgstr "Fragt: Meinten Sie?-Konfiguration für die Dienstoberfläche. Ändern Sie dies nicht, da es über /cgi-bin/koha/admin/didyoumean.pl konfiguriert wird."
 
 #: ../../source/localusepreferences.rst:32
-#, fuzzy
 msgid "OPACdidyoumean"
 msgstr "OPACdidyoumean"
 
 #: ../../source/localusepreferences.rst:36
-msgid ""
-"Asks: Did you mean? configuration for the OPAC. Do not change, as this is "
-"controlled by /cgi-bin/koha/admin/didyoumean.pl."
-msgstr ""
-"Fragt: Meinten Sie?-Konfiguration für den OPAC. Ändern Sie dies nicht, da es "
-"über /cgi-bin/koha/admin/didyoumean.pl konfiguriert wird."
+msgid "Asks: Did you mean? configuration for the OPAC. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl."
+msgstr "Fragt: Meinten Sie?-Konfiguration für den OPAC. Ändern Sie dies nicht, da es über /cgi-bin/koha/admin/didyoumean.pl konfiguriert wird."
 
 #: ../../source/localusepreferences.rst:42
 msgid "printcirculationships"
@@ -113,33 +95,33 @@ msgstr "UsageStatsID"
 
 #: ../../source/localusepreferences.rst:61
 #: ../../source/localusepreferences.rst:71
-msgid ""
-"Asks: This preference is part of Koha but it should not be deleted or "
-"updated manually."
+msgid "Asks: This preference is part of Koha but it should not be deleted or updated manually."
 msgstr ""
+"Fragt: Dieser Parameter ist Teil von Koha und darf nicht gelöscht oder "
+"verändert werden."
 
 #: ../../source/localusepreferences.rst:67
 msgid "UsageStatsLastUpdateTime"
-msgstr ""
+msgstr "UsageStatsLastUpdateTime"
 
 #: ../../source/localusepreferences.rst:77
 msgid "UsageStatsPublicID"
-msgstr ""
+msgstr "UsageStatsPublicID"
 
 #: ../../source/localusepreferences.rst:81
 msgid "Asks: Public ID for Hea website"
-msgstr ""
+msgstr "Fragt: Öffentliche ID für die Hea-Webseite"
 
 #: ../../source/localusepreferences.rst:86
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: ../../source/localusepreferences.rst:88
 msgid "Default: automatically generated"
-msgstr ""
+msgstr "Voreinstellung: automatisch generiert"
 
 #: ../../source/localusepreferences.rst:90
-msgid ""
-"Asks: The Koha database version. WARNING: Do not change this value manually. "
-"It is maintained by the webinstaller"
+msgid "Asks: The Koha database version. WARNING: Do not change this value manually. It is maintained by the webinstaller"
 msgstr ""
+"Fragt: Die Version der Koha-Datenbank. WARNUNG: Ändern Sie diesen Wert "
+"nicht, er wird über den Web Installer gepflegt."

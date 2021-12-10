@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
 "PO-Revision-Date: 2018-10-19 15:55+0000\n"
 "Last-Translator: Josef Moravec <josef.moravec@knihovna-uo.cz>\n"
 "Language-Team: Koha Translation Team\n"
@@ -22,19 +22,11 @@ msgid "Serials"
 msgstr "Periodika"
 
 #: ../../source/serials.rst:8
-msgid ""
-"Serials actions can be accessed by going to the 'More' menu at the top of "
-"your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha "
-"staff interface page. The serials module in Koha is used for keeping track "
-"of journals, newspapers and other items that come on a regular schedule."
+msgid "Serials actions can be accessed by going to the 'More' menu at the top of your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha staff interface page. The serials module in Koha is used for keeping track of journals, newspapers and other items that come on a regular schedule."
 msgstr ""
 
 #: ../../source/serials.rst:13
-msgid ""
-"As with all modules, make sure you go through the related :ref:"
-"`implementation checklist <serials-configuration-label>` and :ref:`system "
-"preferences<serials-system-preferences-label>` before using the serials "
-"module."
+msgid "As with all modules, make sure you go through the related :ref:`implementation checklist <serials-configuration-label>` and :ref:`system preferences<serials-system-preferences-label>` before using the serials module."
 msgstr ""
 
 #: ../../source/serials.rst:18
@@ -48,11 +40,8 @@ msgid "Manage serial frequencies"
 msgstr "Správa frekvencí vydávání"
 
 #: ../../source/serials.rst:25
-msgid ""
-"Koha keeps a record of publication frequencies for easy management and "
-"duplication."
-msgstr ""
-"Koha si zaznamenává frekvence vydávání pro jednoduchou správu a duplikaci"
+msgid "Koha keeps a record of publication frequencies for easy management and duplication."
+msgstr "Koha si zaznamenává frekvence vydávání pro jednoduchou správu a duplikaci"
 
 #: ../../source/serials.rst:28
 #, fuzzy
@@ -61,11 +50,8 @@ msgstr "*Naleznete zde:* Více > Seznamy"
 
 #: ../../source/serials.rst:30
 #, fuzzy
-msgid ""
-"From this page you can view all of the existing frequencies in your system."
-msgstr ""
-"Z této stránky můžete zobrazit všechny existující frekvence ve vašem systému "
-"a vytvořit nové."
+msgid "From this page you can view all of the existing frequencies in your system."
+msgstr "Z této stránky můžete zobrazit všechny existující frekvence ve vašem systému a vytvořit nové."
 
 #: ../../source/serials.rst:32
 msgid "|frequencies|"
@@ -90,46 +76,27 @@ msgid "|newfrequency|"
 msgstr ""
 
 #: ../../source/serials.rst:45
-msgid ""
-"Description: this is the name that will appear in the drop-down menu when "
-"creating a new serial subscription; make sure it is descriptive"
+msgid "Description: this is the name that will appear in the drop-down menu when creating a new serial subscription; make sure it is descriptive"
 msgstr ""
 
 #: ../../source/serials.rst:48
-msgid ""
-"Unit: this is the unit used for counting the cycle of publication. Choose "
-"either none (for irregular frequencies), day, week, month, or year."
+msgid "Unit: this is the unit used for counting the cycle of publication. Choose either none (for irregular frequencies), day, week, month, or year."
 msgstr ""
 
 #: ../../source/serials.rst:51
-msgid ""
-"Issues per unit: this is how many issues are published during the unit "
-"chosen above (this will usually be 1)."
+msgid "Issues per unit: this is how many issues are published during the unit chosen above (this will usually be 1)."
 msgstr ""
 
 #: ../../source/serials.rst:54
-msgid ""
-"Units per issue: this is how many units must we count until the next issue "
-"is published."
+msgid "Units per issue: this is how many units must we count until the next issue is published."
 msgstr ""
 
 #: ../../source/serials.rst:57 ../../source/serials.rst:159
-msgid ""
-"Display order: this is the display order in the drop-down menu when :ref:"
-"`creating a new subscription<add-a-subscription-label>` (you may want to put "
-"the most used frequencies at the top and the less frequent at the bottom; "
-"the top-most position is 0). Several frequencies can have the same display "
-"order value. If this is the case, they will appear in the order they were "
-"created."
+msgid "Display order: this is the display order in the drop-down menu when :ref:`creating a new subscription<add-a-subscription-label>` (you may want to put the most used frequencies at the top and the less frequent at the bottom; the top-most position is 0). Several frequencies can have the same display order value. If this is the case, they will appear in the order they were created."
 msgstr ""
 
 #: ../../source/serials.rst:66
-msgid ""
-"To understand 'issues per unit' versus 'units per issue' you can read it as "
-"'<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For "
-"example, a biweekly frenquency (every two weeks) would be '1 issue every 2 "
-"weeks'. So 'issues per unit' would be 1 and 'units per issue' would be 2. "
-"See below for more examples."
+msgid "To understand 'issues per unit' versus 'units per issue' you can read it as '<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For example, a biweekly frenquency (every two weeks) would be '1 issue every 2 weeks'. So 'issues per unit' would be 1 and 'units per issue' would be 2. See below for more examples."
 msgstr ""
 
 #: ../../source/serials.rst:72 ../../source/serials.rst:151
@@ -261,14 +228,8 @@ msgstr "Správa schémat číslování periodik"
 
 #: ../../source/serials.rst:107
 #, fuzzy
-msgid ""
-"Every time you create a new numbering pattern in serials you can save it for "
-"later use. These patterns are accessible via the 'Manage numbering patterns' "
-"page."
-msgstr ""
-"Pokaždé když vytvoříte nový vzorec číslování v sériích může ho uložit pro "
-"pozdější využití. Tyto vzorce jsou dostupné přes stránku Správa číslovacích "
-"vzorců."
+msgid "Every time you create a new numbering pattern in serials you can save it for later use. These patterns are accessible via the 'Manage numbering patterns' page."
+msgstr "Pokaždé když vytvoříte nový vzorec číslování v sériích může ho uložit pro pozdější využití. Tyto vzorce jsou dostupné přes stránku Správa číslovacích vzorců."
 
 #: ../../source/serials.rst:111
 #, fuzzy
@@ -277,23 +238,15 @@ msgstr "Nejsou definována žádná schémata číslování."
 
 #: ../../source/serials.rst:113
 #, fuzzy
-msgid ""
-"This page will list for you the numbering patterns you have saved in the "
-"past as well as a few basic patterns."
-msgstr ""
-"Tato stránka vám vypíše číslovací vzorce, které jste v minulosti uložili a "
-"pár základních."
+msgid "This page will list for you the numbering patterns you have saved in the past as well as a few basic patterns."
+msgstr "Tato stránka vám vypíše číslovací vzorce, které jste v minulosti uložili a pár základních."
 
 #: ../../source/serials.rst:116
 msgid "|numpatterns|"
 msgstr ""
 
 #: ../../source/serials.rst:119
-msgid ""
-"If you have upgraded from an old version of Koha (before 3.14) you will see "
-"'Backup patterns' listed for patterns. This is how Koha saved your old "
-"numbering patterns. You can edit these to give them more meaningful names "
-"from here."
+msgid "If you have upgraded from an old version of Koha (before 3.14) you will see 'Backup patterns' listed for patterns. This is how Koha saved your old numbering patterns. You can edit these to give them more meaningful names from here."
 msgstr ""
 
 #: ../../source/serials.rst:127
@@ -310,28 +263,15 @@ msgid "|newnumpattern|"
 msgstr ""
 
 #: ../../source/serials.rst:133
-msgid ""
-"Name: this is the name that will appear in the drop-down menu when :ref:"
-"`creating a new serial subscription<add-a-subscription-label>`; make sure it "
-"is descriptive."
+msgid "Name: this is the name that will appear in the drop-down menu when :ref:`creating a new serial subscription<add-a-subscription-label>`; make sure it is descriptive."
 msgstr ""
 
 #: ../../source/serials.rst:137
-msgid ""
-"Description: this is to further describe the numbering pattern; this does "
-"not appear when creating a new subscription, it only displays in the :ref:"
-"`numbering patterns table (see above)<manage-serial-numbering-patterns-"
-"label>`."
+msgid "Description: this is to further describe the numbering pattern; this does not appear when creating a new subscription, it only displays in the :ref:`numbering patterns table (see above)<manage-serial-numbering-patterns-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:141
-msgid ""
-"Numbering formula: this is what is used to create the number for each issue. "
-"You can use up to three variables {X}, {Y}, and {Z} (see below). Along with "
-"the variables, you can enter any text you want to have appear in the issue "
-"number. You must also include any spaces you want to see in the issue "
-"numbers. The text will stay the same for each issue and the variables will "
-"vary."
+msgid "Numbering formula: this is what is used to create the number for each issue. You can use up to three variables {X}, {Y}, and {Z} (see below). Along with the variables, you can enter any text you want to have appear in the issue number. You must also include any spaces you want to see in the issue numbers. The text will stay the same for each issue and the variables will vary."
 msgstr ""
 
 #: ../../source/serials.rst:149
@@ -356,9 +296,7 @@ msgid "In the table, you need to enter the parameters for each variable."
 msgstr "Do formuláře musíte zadat alespoň datum, podle kterého lze vyhledávat."
 
 #: ../../source/serials.rst:168
-msgid ""
-"Label: this is simply a name for the variable, it is not used anywhere else, "
-"but it helps identify what the variable is supposed to be."
+msgid "Label: this is simply a name for the variable, it is not used anywhere else, but it helps identify what the variable is supposed to be."
 msgstr ""
 
 #: ../../source/serials.rst:172
@@ -366,32 +304,23 @@ msgid "Add: how many numbers or units are added to the variable."
 msgstr ""
 
 #: ../../source/serials.rst:174
-msgid ""
-"Each: the numbers or units added to the variable are added each how many "
-"issues."
+msgid "Each: the numbers or units added to the variable are added each how many issues."
 msgstr ""
 
 #: ../../source/serials.rst:177
-msgid ""
-"Set back to: this is used for cyclic numbering; enter the starting number."
+msgid "Set back to: this is used for cyclic numbering; enter the starting number."
 msgstr ""
 
 #: ../../source/serials.rst:179
-msgid ""
-"When more than: this is used for cyclic numbering; enter the last number."
+msgid "When more than: this is used for cyclic numbering; enter the last number."
 msgstr ""
 
 #: ../../source/serials.rst:183
-msgid ""
-"When filling out these four parameter ('add', 'each', 'set back to' and "
-"'when more than'), work column by column and read it as a sentence: \"Add 1 "
-"Every 1 issue, set back to 1 when greater than 10\"."
+msgid "When filling out these four parameter ('add', 'each', 'set back to' and 'when more than'), work column by column and read it as a sentence: \"Add 1 Every 1 issue, set back to 1 when greater than 10\"."
 msgstr ""
 
 #: ../../source/serials.rst:187
-msgid ""
-"Formatting: this is used if, instead of numbers, you want words to appear in "
-"your issue number. You can choose"
+msgid "Formatting: this is used if, instead of numbers, you want words to appear in your issue number. You can choose"
 msgstr ""
 
 #: ../../source/serials.rst:190
@@ -419,9 +348,7 @@ msgid "Name of season (abbreviated) (Spr, Sum, Fal, Win)"
 msgstr ""
 
 #: ../../source/serials.rst:204
-msgid ""
-"When filling out the table, you must always use numbers, even to represent "
-"names of days, months or seasons. Here are the equivalent for each"
+msgid "When filling out the table, you must always use numbers, even to represent names of days, months or seasons. Here are the equivalent for each"
 msgstr ""
 
 #: ../../source/serials.rst:208
@@ -565,9 +492,7 @@ msgid "Winter"
 msgstr ""
 
 #: ../../source/serials.rst:255
-msgid ""
-"Before you save your numbering pattern, you can test it to make sure it "
-"behaves as you intend."
+msgid "Before you save your numbering pattern, you can test it to make sure it behaves as you intend."
 msgstr ""
 
 #: ../../source/serials.rst:258
@@ -579,17 +504,11 @@ msgid "First issue publication date: choose a date where your test will start."
 msgstr ""
 
 #: ../../source/serials.rst:262
-msgid ""
-"Subscription length: enter a number of issues, weeks or months to test your "
-"numbering pattern; if the numbering pattern is cyclic, it is recommended to "
-"try at least two cycles to see the change in cycles and make sure it behaves "
-"correctly."
+msgid "Subscription length: enter a number of issues, weeks or months to test your numbering pattern; if the numbering pattern is cyclic, it is recommended to try at least two cycles to see the change in cycles and make sure it behaves correctly."
 msgstr ""
 
 #: ../../source/serials.rst:267 ../../source/serials.rst:547
-msgid ""
-"Locale: if using names of days, months or season, you can choose the "
-"language in which these names will be displayed."
+msgid "Locale: if using names of days, months or season, you can choose the language in which these names will be displayed."
 msgstr ""
 
 #: ../../source/serials.rst:272 ../../source/serials.rst:552
@@ -602,24 +521,15 @@ msgstr ""
 
 #: ../../source/serials.rst:276 ../../source/serials.rst:558
 #, fuzzy
-msgid ""
-"Begins with: enter the first value for each variable, these should be the "
-"values of the issue entered in 'First issue publication date' above."
-msgstr ""
-"Začněte s číslováním na výtisku, který máte v ruce, číslování, které "
-"odpovídá datumu, které jste zadali v poli \"První vydání publikace\""
+msgid "Begins with: enter the first value for each variable, these should be the values of the issue entered in 'First issue publication date' above."
+msgstr "Začněte s číslováním na výtisku, který máte v ruce, číslování, které odpovídá datumu, které jste zadali v poli \"První vydání publikace\""
 
 #: ../../source/serials.rst:279 ../../source/serials.rst:561
-msgid ""
-"Inner counter: enter how many issues have already passed in the cycle, so "
-"that Koha can calculate when to cycle back."
+msgid "Inner counter: enter how many issues have already passed in the cycle, so that Koha can calculate when to cycle back."
 msgstr ""
 
 #: ../../source/serials.rst:282
-msgid ""
-"Click 'Test pattern' to see the results. If the result is what you expected, "
-"you can save your numbering pattern. If the results does not match your "
-"expectations, go back and tweak the parameters and test again."
+msgid "Click 'Test pattern' to see the results. If the result is what you expected, you can save your numbering pattern. If the results does not match your expectations, go back and tweak the parameters and test again."
 msgstr ""
 
 #: ../../source/serials.rst:288
@@ -727,13 +637,8 @@ msgstr ""
 
 #: ../../source/serials.rst:371
 #, fuzzy
-msgid ""
-"`Find more numbering patterns on Koha's wiki <https://wiki.koha-community."
-"org/wiki/Serial_Pattern_Library>`__."
-msgstr ""
-"Klepněte na tlačítko 'Uložit předplatné' pro uložení informací, které jste "
-"zadali. `Viz vzorové příklady pro periodika na stránce <https://wiki.koha-"
-"community.org/wiki/Serial_Pattern_Library>`__."
+msgid "`Find more numbering patterns on Koha's wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr "Klepněte na tlačítko 'Uložit předplatné' pro uložení informací, které jste zadali. `Viz vzorové příklady pro periodika na stránce <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
 
 #: ../../source/serials.rst:377
 #, fuzzy
@@ -742,12 +647,8 @@ msgstr "Přidat předplatné"
 
 #: ../../source/serials.rst:379
 #, fuzzy
-msgid ""
-"Subscriptions can be added by clicking the 'New' button on any bibliographic "
-"record and choosing 'New subscription'"
-msgstr ""
-"Předplatné lze přidat kliknutím na \"Nový\" na jakémkoliv bibliografickém "
-"záznamu"
+msgid "Subscriptions can be added by clicking the 'New' button on any bibliographic record and choosing 'New subscription'"
+msgstr "Předplatné lze přidat kliknutím na \"Nový\" na jakémkoliv bibliografickém záznamu"
 
 #: ../../source/serials.rst:382
 msgid "|newsubfromrecord|"
@@ -763,14 +664,8 @@ msgstr ""
 
 #: ../../source/serials.rst:388
 #, fuzzy
-msgid ""
-"If you are entering a new subscription from the Serials module you will be "
-"presented with a blank form (if creating new from a bibliographic record the "
-"form will include the record number info)."
-msgstr ""
-"Pokud zadáváte nový odběr z modulu Periodika, bude vám nabídnut prázdný "
-"formulář (pokud je vytvářen nový bibliografický záznam, formulář bude "
-"zahrnovat i bibliografické údaje)."
+msgid "If you are entering a new subscription from the Serials module you will be presented with a blank form (if creating new from a bibliographic record the form will include the record number info)."
+msgstr "Pokud zadáváte nový odběr z modulu Periodika, bude vám nabídnut prázdný formulář (pokud je vytvářen nový bibliografický záznam, formulář bude zahrnovat i bibliografické údaje)."
 
 #: ../../source/serials.rst:392
 msgid "|addsub|"
@@ -778,25 +673,16 @@ msgstr ""
 
 #: ../../source/serials.rst:394
 #, fuzzy
-msgid ""
-"Vendor: can be found by either searching vendors entered via the :ref:"
-"`Acquisitions module <acquisitions-label>` or manually entering the vendor "
-"ID number"
-msgstr ""
-"\"Dodavatele\" lze nalézt buď vyhledáním dodavatelů zadaných přes modul ` "
-"Akvizice  <#acqmodule>`__ nebo zadáním identifikačního čísla dodavatele"
+msgid "Vendor: can be found by either searching vendors entered via the :ref:`Acquisitions module <acquisitions-label>` or manually entering the vendor ID number"
+msgstr "\"Dodavatele\" lze nalézt buď vyhledáním dodavatelů zadaných přes modul ` Akvizice  <#acqmodule>`__ nebo zadáním identifikačního čísla dodavatele"
 
 #: ../../source/serials.rst:398
 msgid "Vendor information is not required"
 msgstr "Dodavatelské informace nejsou nutné"
 
 #: ../../source/serials.rst:400
-msgid ""
-"In order to claim missing and late issues you need to enter vendor "
-"information"
-msgstr ""
-"Aby bylo možné žádat o chybějící nebo opožděná vydání, je třeba zadat "
-"informace o dodavateli"
+msgid "In order to claim missing and late issues you need to enter vendor information"
+msgstr "Aby bylo možné žádat o chybějící nebo opožděná vydání, je třeba zadat informace o dodavateli"
 
 #: ../../source/serials.rst:403
 msgid "|vendorwarning|"
@@ -804,53 +690,36 @@ msgstr ""
 
 #: ../../source/serials.rst:405
 #, fuzzy
-msgid ""
-"Record: the biblionumber of the MARC record you'd like to link this "
-"subscription to"
-msgstr ""
-"\"Biblio\" je záznam MARC, který chcete aby odkazoval na toto předplatné"
+msgid "Record: the biblionumber of the MARC record you'd like to link this subscription to"
+msgstr "\"Biblio\" je záznam MARC, který chcete aby odkazoval na toto předplatné"
 
 #: ../../source/serials.rst:408
-msgid ""
-"If you created a new subscription from a bibliographic record, the "
-"biblionumber and the title will already be filled in"
+msgid "If you created a new subscription from a bibliographic record, the biblionumber and the title will already be filled in"
 msgstr ""
 
 #: ../../source/serials.rst:411
-msgid ""
-"You can search for an existing record by clicking on the 'Search for record' "
-"link below the boxes"
+msgid "You can search for an existing record by clicking on the 'Search for record' link below the boxes"
 msgstr ""
 
 #: ../../source/serials.rst:414
-msgid ""
-"If there is no existing bibliographic record for this subscription, you can "
-"create one by clicking on the 'Create record' link below the boxes"
+msgid "If there is no existing bibliographic record for this subscription, you can create one by clicking on the 'Create record' link below the boxes"
 msgstr ""
 
 #: ../../source/serials.rst:417
-msgid ""
-"You can also manually enter the biblionumber for a record in the first box"
+msgid "You can also manually enter the biblionumber for a record in the first box"
 msgstr ""
 
 #: ../../source/serials.rst:420
 #, fuzzy
-msgid ""
-"Next you can choose whether a new item is created when receiving an issue"
-msgstr ""
-"Dále si můžete vybrat zda se má nová položka vytvořit při přijetí čísla"
+msgid "Next you can choose whether a new item is created when receiving an issue"
+msgstr "Dále si můžete vybrat zda se má nová položka vytvořit při přijetí čísla"
 
 #: ../../source/serials.rst:425
-msgid ""
-"If you add barcodes to issues or if your circulate them, choose to create an "
-"item upon reception"
+msgid "If you add barcodes to issues or if your circulate them, choose to create an item upon reception"
 msgstr ""
 
 #: ../../source/serials.rst:428
-msgid ""
-"When there is an irregular issue: choose how to handle irregularities in "
-"your subscription, by either skipping the issue number or keeping the issue "
-"number"
+msgid "When there is an irregular issue: choose how to handle irregularities in your subscription, by either skipping the issue number or keeping the issue number"
 msgstr ""
 
 #: ../../source/serials.rst:434
@@ -858,12 +727,7 @@ msgid "If the numbers are always sequential, choose 'Keep issue number'"
 msgstr ""
 
 #: ../../source/serials.rst:436
-msgid ""
-"Manual history: if checked, you will be able to enter serials outside the "
-"prediction pattern once the subscription is saved. For example, 'The library "
-"has issues from June 1974 to December 1996'. To do so, go to the 'Planning' "
-"tab on the subscription detail page once the subscription is saved and click "
-"'Edit history'."
+msgid "Manual history: if checked, you will be able to enter serials outside the prediction pattern once the subscription is saved. For example, 'The library has issues from June 1974 to December 1996'. To do so, go to the 'Planning' tab on the subscription detail page once the subscription is saved and click 'Edit history'."
 msgstr ""
 
 #: ../../source/serials.rst:442
@@ -873,9 +737,7 @@ msgstr "Předplatná na OPACu"
 
 #: ../../source/serials.rst:444
 #, fuzzy
-msgid ""
-"Call number: your item's call number or call number prefix, this will be "
-"copied to items if they are created upon receiving."
+msgid "Call number: your item's call number or call number prefix, this will be copied to items if they are created upon receiving."
 msgstr "'Signatura' slouží jako signatura nebo prefix signatury pro jednotku"
 
 #: ../../source/serials.rst:447
@@ -884,22 +746,13 @@ msgid "Library: the branch that owns this subscription."
 msgstr "\"Knihovna\" je pobočka, který vlastní tento odběr"
 
 #: ../../source/serials.rst:449
-msgid ""
-"If more than one library subscribes to this serial you will need to create a "
-"subscription for each library"
-msgstr ""
-"Jestli více než jedna knihovna předplácejí tato periodika budete muset "
-"vytvořit předplatné pro každou knihovnu"
+msgid "If more than one library subscribes to this serial you will need to create a subscription for each library"
+msgstr "Jestli více než jedna knihovna předplácejí tato periodika budete muset vytvořit předplatné pro každou knihovnu"
 
 #: ../../source/serials.rst:452
 #, fuzzy
-msgid ""
-"This can be done easily by using the 'Edit as new (duplicate)' option found "
-"on the subscription information page and changing only the 'Library' field"
-msgstr ""
-"Toto lze snadno provést pomocí nabídky \"Upravit jako Nový (Duplikace)\", "
-"kterou lze najít na stránce informací o odběru (předplatném) a změnou pouze "
-"pole \"Knihovna\""
+msgid "This can be done easily by using the 'Edit as new (duplicate)' option found on the subscription information page and changing only the 'Library' field"
+msgstr "Toto lze snadno provést pomocí nabídky \"Upravit jako Nový (Duplikace)\", kterou lze najít na stránce informací o odběru (předplatném) a změnou pouze pole \"Knihovna\""
 
 #: ../../source/serials.rst:456
 msgid "|newasduplicate|"
@@ -907,119 +760,65 @@ msgstr ""
 
 #: ../../source/serials.rst:458
 #, fuzzy
-msgid ""
-"Public note: any notes you would like to appear in the OPAC for the patrons"
-msgstr ""
-"Použijte \"Public Note\" pro všechny poznámky, které chcete zobrazit v OPACu "
-"pro čtenáře"
+msgid "Public note: any notes you would like to appear in the OPAC for the patrons"
+msgstr "Použijte \"Public Note\" pro všechny poznámky, které chcete zobrazit v OPACu pro čtenáře"
 
 #: ../../source/serials.rst:460
 #, fuzzy
-msgid ""
-"Nonpublic note: should be used for notes that are only visible to staff "
-"members via the staff interface"
-msgstr ""
-"'Neveřejná poznámka' by mělo být použito pro poznámky, které jsou "
-"zobrazovány pouze knihovníkům prostřednictvím intranetu"
+msgid "Nonpublic note: should be used for notes that are only visible to staff members via the staff interface"
+msgstr "'Neveřejná poznámka' by mělo být použito pro poznámky, které jsou zobrazovány pouze knihovníkům prostřednictvím intranetu"
 
 #: ../../source/serials.rst:463
-msgid ""
-"Patron notification: you can pick a notice to send to patrons who subscribe "
-"to updates on this serial via the OPAC."
+msgid "Patron notification: you can pick a notice to send to patrons who subscribe to updates on this serial via the OPAC."
 msgstr ""
 
 #: ../../source/serials.rst:466
-msgid ""
-"For this option to appear you need to make sure that you have a 'Serials "
-"(new issue)'-type notice set up in the :ref:`'Notices and slips' tool "
-"<notices-and-slips-label>`"
+msgid "For this option to appear you need to make sure that you have a 'Serials (new issue)'-type notice set up in the :ref:`'Notices and slips' tool <notices-and-slips-label>`"
 msgstr ""
 
 #: ../../source/serials.rst:470
-msgid ""
-"Location: the shelving location, this will be copied to items if they are "
-"created upon receiving."
+msgid "Location: the shelving location, this will be copied to items if they are created upon receiving."
 msgstr ""
 
 #: ../../source/serials.rst:473
-msgid ""
-"Item type: if creating items upon reception, choose the item type of the "
-"items created."
+msgid "Item type: if creating items upon reception, choose the item type of the items created."
 msgstr ""
 
 #: ../../source/serials.rst:476
-msgid ""
-"Item type for older issues: if creating items upon reception, choose the "
-"item type that will be assigned to previous issues when receiving new "
-"issues. This will only appear only if the :ref:`makePreviousSerialAvailable` "
-"is enabled."
+msgid "Item type for older issues: if creating items upon reception, choose the item type that will be assigned to previous issues when receiving new issues. This will only appear only if the :ref:`makePreviousSerialAvailable` is enabled."
 msgstr ""
 
 #: ../../source/serials.rst:481
 #, fuzzy
-msgid ""
-"Grace period: the number of days before an issue is automatically moved from "
-"'Expected' status to 'Late'. This mechanism requires that the :ref:"
-"`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run "
-"regularly."
-msgstr ""
-"\"Bezúročné období\" je počet dní než výtisk je automaticky přesunut ze "
-"statusu \"očekáván\" do stavu \"čekání\" a kolik dní před přesunem výtisku "
-"ze statusu \"čekání\" do statusu \"pozdní\""
+msgid "Grace period: the number of days before an issue is automatically moved from 'Expected' status to 'Late'. This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly."
+msgstr "\"Bezúročné období\" je počet dní než výtisk je automaticky přesunut ze statusu \"očekáván\" do stavu \"čekání\" a kolik dní před přesunem výtisku ze statusu \"čekání\" do statusu \"pozdní\""
 
 #: ../../source/serials.rst:486
 #, fuzzy
-msgid ""
-"Number of issues to display to staff: this allows you to control how many "
-"issues appear by default in the staff interface catalog, in the "
-"'Subscriptions' tab of the bibliographic record."
-msgstr ""
-"Možnosti zobrazení v OPACu a služebním intranetu vám umožní řídit, kolik "
-"jednotek se zobrazí ve výchozím nastavení  v bibliografických záznamech na "
-"OPACu a ve služebním intranetu"
+msgid "Number of issues to display to staff: this allows you to control how many issues appear by default in the staff interface catalog, in the 'Subscriptions' tab of the bibliographic record."
+msgstr "Možnosti zobrazení v OPACu a služebním intranetu vám umožní řídit, kolik jednotek se zobrazí ve výchozím nastavení  v bibliografických záznamech na OPACu a ve služebním intranetu"
 
 #: ../../source/serials.rst:490
 #, fuzzy
-msgid ""
-"If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount` "
-"system preference will be used."
-msgstr ""
-"Jestliže nejsou zadány žádné hodnoty do těchto poli, použijí se systémová "
-"nastavení parametrů OPACSerialIssueDisplayCount a "
-"StaffSerialIssueDisplayCount"
+msgid "If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount` system preference will be used."
+msgstr "Jestliže nejsou zadány žádné hodnoty do těchto poli, použijí se systémová nastavení parametrů OPACSerialIssueDisplayCount a StaffSerialIssueDisplayCount"
 
 #: ../../source/serials.rst:495 ../../source/serials.rst:508
-msgid ""
-"This does not affect the number of items shown in the 'Holdings' tab if you "
-"create items for issues. It only affects the number of issues displayed in "
-"the 'Subscriptions' tab."
+msgid "This does not affect the number of items shown in the 'Holdings' tab if you create items for issues. It only affects the number of issues displayed in the 'Subscriptions' tab."
 msgstr ""
 
 #: ../../source/serials.rst:499
 #, fuzzy
-msgid ""
-"Number of issues to display to the public: this allows you to control how "
-"many issues appear by default in the OPAC, in the 'Subscriptions' tab in "
-"bibliographic records"
-msgstr ""
-"Možnosti zobrazení v OPACu a služebním intranetu vám umožní řídit, kolik "
-"jednotek se zobrazí ve výchozím nastavení  v bibliografických záznamech na "
-"OPACu a ve služebním intranetu"
+msgid "Number of issues to display to the public: this allows you to control how many issues appear by default in the OPAC, in the 'Subscriptions' tab in bibliographic records"
+msgstr "Možnosti zobrazení v OPACu a služebním intranetu vám umožní řídit, kolik jednotek se zobrazí ve výchozím nastavení  v bibliografických záznamech na OPACu a ve služebním intranetu"
 
 #: ../../source/serials.rst:503
 #, fuzzy
-msgid ""
-"If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount` "
-"system preference will be used."
-msgstr ""
-"Jestliže nejsou zadány žádné hodnoty do těchto poli, použijí se systémová "
-"nastavení parametrů OPACSerialIssueDisplayCount a "
-"StaffSerialIssueDisplayCount"
+msgid "If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount` system preference will be used."
+msgstr "Jestliže nejsou zadány žádné hodnoty do těchto poli, použijí se systémová nastavení parametrů OPACSerialIssueDisplayCount a StaffSerialIssueDisplayCount"
 
 #: ../../source/serials.rst:512
-msgid ""
-"Once that data is filled in you can click 'Next' to enter the prediction "
-"pattern information."
+msgid "Once that data is filled in you can click 'Next' to enter the prediction pattern information."
 msgstr ""
 
 #: ../../source/serials.rst:515
@@ -1028,66 +827,35 @@ msgstr ""
 
 #: ../../source/serials.rst:517
 #, fuzzy
-msgid ""
-"First issue publication date: enter the date of the issue you have in your "
-"hand, the date from which the prediction pattern will start"
-msgstr ""
-"Do pole 'Datum vydání prvního čísla' zadejte datum z čísla, podle kterého "
-"záznam vytváříte."
+msgid "First issue publication date: enter the date of the issue you have in your hand, the date from which the prediction pattern will start"
+msgstr "Do pole 'Datum vydání prvního čísla' zadejte datum z čísla, podle kterého záznam vytváříte."
 
 #: ../../source/serials.rst:520
-msgid ""
-"Frequency: choose the frequency of your serial. There are several pre-"
-"defined options all of which are visible alongside your own custom "
-"frequencies in ':ref:`manage frequencies <manage-serial-frequencies-"
-"label>`'. If the frequency you are looking for is not there, you can :ref:"
-"`add a custom frequency<adding-serial-frequency-label>`."
+msgid "Frequency: choose the frequency of your serial. There are several pre-defined options all of which are visible alongside your own custom frequencies in ':ref:`manage frequencies <manage-serial-frequencies-label>`'. If the frequency you are looking for is not there, you can :ref:`add a custom frequency<adding-serial-frequency-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:526
 #, fuzzy
-msgid ""
-"Subscription length: enter the number of issues, weeks, or months in the "
-"subscription. This is also used for setting up renewal alerts."
-msgstr ""
-"'Délka předplatného' vyjadřuje počet jednitek nebo měsíců předplatného. Toto "
-"se používá také pro nastavení upozornění pro obnovení"
+msgid "Subscription length: enter the number of issues, weeks, or months in the subscription. This is also used for setting up renewal alerts."
+msgstr "'Délka předplatného' vyjadřuje počet jednitek nebo měsíců předplatného. Toto se používá také pro nastavení upozornění pro obnovení"
 
 #: ../../source/serials.rst:529
 #, fuzzy
-msgid ""
-"Subscription start date: this is the date at which the subscription begins. "
-"This is used for setting up renewal alerts."
-msgstr ""
-"'Datum začátku předplatného' je datum, kterým začíná předplatné. Používá se "
-"i pro nastavení upozornšní pro obnovení"
+msgid "Subscription start date: this is the date at which the subscription begins. This is used for setting up renewal alerts."
+msgstr "'Datum začátku předplatného' je datum, kterým začíná předplatné. Používá se i pro nastavení upozornšní pro obnovení"
 
 #: ../../source/serials.rst:532
 #, fuzzy
-msgid ""
-"Subscription end date: this should only be entered for subscriptions that "
-"have ended (if you're entering in a backlog of serials)."
-msgstr ""
-"'Datum konce předplatného' by měl být vložen pouze pro předplatné, které již "
-"skončilo (pokud zadáváte do nevyřízených periodik"
+msgid "Subscription end date: this should only be entered for subscriptions that have ended (if you're entering in a backlog of serials)."
+msgstr "'Datum konce předplatného' by měl být vložen pouze pro předplatné, které již skončilo (pokud zadáváte do nevyřízených periodik"
 
 #: ../../source/serials.rst:535
 #, fuzzy
-msgid ""
-"Numbering pattern: choose how issues are numbered. The options here are the "
-"ones in the :ref:`manage numbering patterns <manage-serial-numbering-"
-"patterns-label>` section."
-msgstr ""
-"'Schéma číslování' pomůže určit, jak se vytvoří čísla pro každou jednotku. "
-"Uložená schémata lze upravit na stránce ':ref:`Schémata číslování <manage-"
-"serial-numbering-patterns-label>`'"
+msgid "Numbering pattern: choose how issues are numbered. The options here are the ones in the :ref:`manage numbering patterns <manage-serial-numbering-patterns-label>` section."
+msgstr "'Schéma číslování' pomůže určit, jak se vytvoří čísla pro každou jednotku. Uložená schémata lze upravit na stránce ':ref:`Schémata číslování <manage-serial-numbering-patterns-label>`'"
 
 #: ../../source/serials.rst:539
-msgid ""
-"If the numbering pattern you need has not been created yet, you can create a "
-"new one by clicking on 'Show advanced pattern' and then 'Modify pattern'. "
-"This is be the same as :ref:`adding a numbering pattern<adding-serial-"
-"numbering-pattern-label>` (see section above)."
+msgid "If the numbering pattern you need has not been created yet, you can create a new one by clicking on 'Show advanced pattern' and then 'Modify pattern'. This is be the same as :ref:`adding a numbering pattern<adding-serial-numbering-pattern-label>` (see section above)."
 msgstr ""
 
 #: ../../source/serials.rst:545
@@ -1104,20 +872,11 @@ msgid "|numberonly|"
 msgstr ""
 
 #: ../../source/serials.rst:564
-msgid ""
-"For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", "
-"you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. "
-"797\", the inner counter should be \"1\"."
-msgstr ""
-"Např.: Pokud je očekávané vydání \"ročník 4, č. 1, vydání 796\", musíte "
-"nastavit \"aktuální hodnota=0\", ale jedná-li se o \"ročník 4, č. 2, vydání "
-"797\", pak by aktuální hodnota měla být \"1\"."
+msgid "For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. 797\", the inner counter should be \"1\"."
+msgstr "Např.: Pokud je očekávané vydání \"ročník 4, č. 1, vydání 796\", musíte nastavit \"aktuální hodnota=0\", ale jedná-li se o \"ročník 4, č. 2, vydání 797\", pak by aktuální hodnota měla být \"1\"."
 
 #: ../../source/serials.rst:568
-msgid ""
-"After filling in this data click the 'Test prediction pattern' button to see "
-"what issues the system will generate, if there are irregularities you can "
-"choose which issues don't exist from the list presented."
+msgid "After filling in this data click the 'Test prediction pattern' button to see what issues the system will generate, if there are irregularities you can choose which issues don't exist from the list presented."
 msgstr ""
 
 #: ../../source/serials.rst:573
@@ -1125,9 +884,7 @@ msgid "|predictionpattern|"
 msgstr ""
 
 #: ../../source/serials.rst:575
-msgid ""
-"If you have added :ref:`custom fields <additional-fields-label>`, they will "
-"be editable above the buttons at the bottom of the screen"
+msgid "If you have added :ref:`custom fields <additional-fields-label>`, they will be editable above the buttons at the bottom of the screen"
 msgstr ""
 
 #: ../../source/serials.rst:578
@@ -1136,13 +893,8 @@ msgstr ""
 
 #: ../../source/serials.rst:582
 #, fuzzy
-msgid ""
-"`Find sample serial examples in the serial pattern library on the wiki "
-"<https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
-msgstr ""
-"Klepněte na tlačítko 'Uložit předplatné' pro uložení informací, které jste "
-"zadali. `Viz vzorové příklady pro periodika na stránce <https://wiki.koha-"
-"community.org/wiki/Serial_Pattern_Library>`__."
+msgid "`Find sample serial examples in the serial pattern library on the wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr "Klepněte na tlačítko 'Uložit předplatné' pro uložení informací, které jste zadali. `Viz vzorové příklady pro periodika na stránce <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
 
 #: ../../source/serials.rst:587
 #, fuzzy
@@ -1150,10 +902,7 @@ msgid "Editing a subscription"
 msgstr "Přidat předplatné"
 
 #: ../../source/serials.rst:589
-msgid ""
-"To edit a subscription, click on 'Edit' and 'Edit subscription' from the "
-"subscription page. This will take you back to the same form as the one used "
-"when :ref:`creating a new subscription <add-a-subscription-label>`."
+msgid "To edit a subscription, click on 'Edit' and 'Edit subscription' from the subscription page. This will take you back to the same form as the one used when :ref:`creating a new subscription <add-a-subscription-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:593
@@ -1162,10 +911,7 @@ msgid "|editsubscription|"
 msgstr "Přidat předplatné"
 
 #: ../../source/serials.rst:595
-msgid ""
-"You can also batch edit subscriptions. To do so, search for the "
-"subscriptions you want to change. In the results, check the boxes next to "
-"the subscriptions to edit. The link 'Edit selected serials' will appear."
+msgid "You can also batch edit subscriptions. To do so, search for the subscriptions you want to change. In the results, check the boxes next to the subscriptions to edit. The link 'Edit selected serials' will appear."
 msgstr ""
 
 #: ../../source/serials.rst:599 ../../source/serials.rst:949
@@ -1228,14 +974,8 @@ msgid "Receiving issues"
 msgstr "Příjem jednotek (sešitů, čísel)"
 
 #: ../../source/serials.rst:632
-msgid ""
-"Issues can be marked as received from several locations. To find a "
-"subscription, use the search box at the top of the Serials page to search "
-"for the serial you'd like to receive issues for:"
-msgstr ""
-"Sešity mohou být označeny jako přijaté z několika míst. Chcete-li najít "
-"předplatné, použijte vyhledávací pole v horní části stránky Periodika, na "
-"časopis který jste dostali:"
+msgid "Issues can be marked as received from several locations. To find a subscription, use the search box at the top of the Serials page to search for the serial you'd like to receive issues for:"
+msgstr "Sešity mohou být označeny jako přijaté z několika míst. Chcete-li najít předplatné, použijte vyhledávací pole v horní části stránky Periodika, na časopis který jste dostali:"
 
 #: ../../source/serials.rst:636 ../../source/serials.rst:933
 msgid "|subsearch|"
@@ -1243,12 +983,8 @@ msgstr ""
 
 #: ../../source/serials.rst:638
 #, fuzzy
-msgid ""
-"From the search results you can click the 'Serial receive' buton or you can "
-"click on the subscription title and then click the 'Receive' button."
-msgstr ""
-"Ve výsledcích vyhledávání klikněte na odkaz 'Přijetí periodika', nebo "
-"klikněte na název předplatného a pak na tlačítko 'Přijmout'."
+msgid "From the search results you can click the 'Serial receive' buton or you can click on the subscription title and then click the 'Receive' button."
+msgstr "Ve výsledcích vyhledávání klikněte na odkaz 'Přijetí periodika', nebo klikněte na název předplatného a pak na tlačítko 'Přijmout'."
 
 #: ../../source/serials.rst:641 ../../source/serials.rst:692
 #: ../../source/serials.rst:719 ../../source/serials.rst:770
@@ -1259,18 +995,11 @@ msgstr "Přidat pole"
 
 #: ../../source/serials.rst:643
 #, fuzzy
-msgid ""
-"The final way to receive serials is from the 'Serial collection' page. To "
-"the left of the Subscription summary page there is a menu with a link to "
-"'Serial collection'"
-msgstr ""
-"Konečný způsob, jak získat periodika je ze stránky \"Fond periodik\". V levé "
-"části stránky Souhrn odběrů je menu s odkazem na \"Fond periodik\""
+msgid "The final way to receive serials is from the 'Serial collection' page. To the left of the Subscription summary page there is a menu with a link to 'Serial collection'"
+msgstr "Konečný způsob, jak získat periodika je ze stránky \"Fond periodik\". V levé části stránky Souhrn odběrů je menu s odkazem na \"Fond periodik\""
 
 #: ../../source/serials.rst:647
-msgid ""
-"From the page that opens up, check the issue(s) you want to receive (the "
-"expected ones should be checked by default) and click 'Edit serials'."
+msgid "From the page that opens up, check the issue(s) you want to receive (the expected ones should be checked by default) and click 'Edit serials'."
 msgstr ""
 
 #: ../../source/serials.rst:650 ../../source/serials.rst:697
@@ -1288,23 +1017,13 @@ msgstr "Příjem jednotek (sešitů, čísel)"
 
 #: ../../source/serials.rst:656
 #, fuzzy
-msgid ""
-"Choose 'Arrived' from the status drop-down menu to mark an issue as received."
-msgstr ""
-"Vyberte \"Došlo\" z rozbalovací roletky jako označení, že periodikum bylo "
-"doručeno."
+msgid "Choose 'Arrived' from the status drop-down menu to mark an issue as received."
+msgstr "Vyberte \"Došlo\" z rozbalovací roletky jako označení, že periodikum bylo doručeno."
 
 #: ../../source/serials.rst:659
 #, fuzzy
-msgid ""
-"If you have decided to have an item record created for each issue an :ref:"
-"`item add form <adding-items-label>` will appear after choosing 'Arrived'. "
-"You can add multiple copies using the 'Number of copies to be made of this "
-"item' option at the bottom of the form."
-msgstr ""
-"Pokud jste se rozhodli, že chcete mít založen záznam jednotky pro každé "
-"číslo, objeví se při přijímání čísla :ref:`formulář pro přidání jednotky "
-"<adding-items-label>` jakmile změníte status na 'Došlo'"
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear after choosing 'Arrived'. You can add multiple copies using the 'Number of copies to be made of this item' option at the bottom of the form."
+msgstr "Pokud jste se rozhodli, že chcete mít založen záznam jednotky pro každé číslo, objeví se při přijímání čísla :ref:`formulář pro přidání jednotky <adding-items-label>` jakmile změníte status na 'Došlo'"
 
 #: ../../source/serials.rst:664
 msgid "|serialitem|"
@@ -1312,35 +1031,20 @@ msgstr ""
 
 #: ../../source/serials.rst:666
 #, fuzzy
-msgid ""
-"If your issue has a supplemental issue with it, fill in the Supplemental "
-"issue information."
+msgid "If your issue has a supplemental issue with it, fill in the Supplemental issue information."
 msgstr "Pokud váš sešit má přílohu, vyplňte údaje ve formuláři Příloha."
 
 #: ../../source/serials.rst:669
-msgid ""
-"Key the entire numbering in the box after \"Supplemental issue\" no "
-"numbering will be inherited/auto-filled from the main issue, and exactly "
-"what you key in the box after \"Supplemental issue\" will be auto-filled in "
-"the item record's Serial enumeration/chronology [MARC21 952$h] (if you "
-"create item records)."
+msgid "Key the entire numbering in the box after \"Supplemental issue\" no numbering will be inherited/auto-filled from the main issue, and exactly what you key in the box after \"Supplemental issue\" will be auto-filled in the item record's Serial enumeration/chronology [MARC21 952$h] (if you create item records)."
 msgstr ""
 
 #: ../../source/serials.rst:675
-msgid ""
-"E.g., key this in its entirety if it's what you would like displayed: \"v.69 "
-"no.3 (Mar. 2015) suppl.\""
+msgid "E.g., key this in its entirety if it's what you would like displayed: \"v.69 no.3 (Mar. 2015) suppl.\""
 msgstr ""
 
 #: ../../source/serials.rst:678
-msgid ""
-"If you have decided to have an item record created for each issue an :ref:"
-"`item add form <adding-items-label>` will appear for your supplement and for "
-"the issue itself"
-msgstr ""
-"Pokud jste se rozhodli, že chcete mít založen záznam jednotky pro každé "
-"číslo, objeví se při přijímání doplňkového čísla :ref:`formulář pro přidání "
-"jednotky <adding-items-label>`"
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear for your supplement and for the issue itself"
+msgstr "Pokud jste se rozhodli, že chcete mít založen záznam jednotky pro každé číslo, objeví se při přijímání doplňkového čísla :ref:`formulář pro přidání jednotky <adding-items-label>`"
 
 #: ../../source/serials.rst:682
 msgid "Once you have entered your info you can click 'Save'"
@@ -1351,33 +1055,20 @@ msgid "Serial collection"
 msgstr ""
 
 #: ../../source/serials.rst:689
-msgid ""
-"Each subscription has a Serial collection page available from the main "
-"Serials menu."
+msgid "Each subscription has a Serial collection page available from the main Serials menu."
 msgstr ""
 
 #: ../../source/serials.rst:694
-msgid ""
-"From this page you can manage additional tasks related to subscription "
-"issues such as receiving multiple issues and editing."
+msgid "From this page you can manage additional tasks related to subscription issues such as receiving multiple issues and editing."
 msgstr ""
 
 #: ../../source/serials.rst:699
 #, fuzzy
-msgid ""
-"Clicking the Generate next button will generate the next issue for you and "
-"mark the previously expected issue as ‘Late’ automatically."
-msgstr ""
-"Kliknutím na toto tlačítko se vygeneruje další vydání a předcházející se "
-"označí jako \"Opožděné\". Později je možné zašakrtnout \"Upravit\" napravo "
-"od každého z vydání a upravit tak stav více z nich najednou."
+msgid "Clicking the Generate next button will generate the next issue for you and mark the previously expected issue as ‘Late’ automatically."
+msgstr "Kliknutím na toto tlačítko se vygeneruje další vydání a předcházející se označí jako \"Opožděné\". Později je možné zašakrtnout \"Upravit\" napravo od každého z vydání a upravit tak stav více z nich najednou."
 
 #: ../../source/serials.rst:702
-msgid ""
-"Check the box in the Edit column for one or more previous issues and then "
-"click the Edit serials button. This will bring you to the same screen as "
-"when you are :ref:`receiving issues<receive-issues-label>`. From there, you "
-"can edit the numbering, dates, status, and add notes."
+msgid "Check the box in the Edit column for one or more previous issues and then click the Edit serials button. This will bring you to the same screen as when you are :ref:`receiving issues<receive-issues-label>`. From there, you can edit the numbering, dates, status, and add notes."
 msgstr ""
 
 #: ../../source/serials.rst:710
@@ -1387,31 +1078,18 @@ msgstr "Vytvoření kolovacího seznamu"
 
 #: ../../source/serials.rst:712
 #, fuzzy
-msgid ""
-"A routing list is a list of people who receive the serial before it goes to "
-"the shelf. To enable routing lists, set your :ref:`RoutingSerials` "
-"preference to 'Use'."
-msgstr ""
-"Distribuční seznam je seznam lidí, kteří mají obdržet číslo periodika před "
-"tím, než bude uskladněn. Při sestavování předplatného na periodika se "
-"ujistěte vybráním 'Distribuční seznam' z roletky 'Oznámení čtenáři'."
+msgid "A routing list is a list of people who receive the serial before it goes to the shelf. To enable routing lists, set your :ref:`RoutingSerials` preference to 'Use'."
+msgstr "Distribuční seznam je seznam lidí, kteří mají obdržet číslo periodika před tím, než bude uskladněn. Při sestavování předplatného na periodika se ujistěte vybráním 'Distribuční seznam' z roletky 'Oznámení čtenáři'."
 
 #: ../../source/serials.rst:716
 #, fuzzy
-msgid ""
-"When on the subscription page you will see a link to the left that reads "
-"'Create routing list' or 'Edit routing list'"
-msgstr ""
-"Když budete na strance předplatného uvidíte odkaz na levé straně \"Vytvořit "
-"kolovací seznam\" nebo \"Upravit kolovací seznam\""
+msgid "When on the subscription page you will see a link to the left that reads 'Create routing list' or 'Edit routing list'"
+msgstr "Když budete na strance předplatného uvidíte odkaz na levé straně \"Vytvořit kolovací seznam\" nebo \"Upravit kolovací seznam\""
 
 #: ../../source/serials.rst:721
 #, fuzzy
-msgid ""
-"Clicking that link will bring you to the form to add a new routing list."
-msgstr ""
-"Kliknutím na tento odkaz se dostanete do nabídky přidání nového kolovacího "
-"seznamu."
+msgid "Clicking that link will bring you to the form to add a new routing list."
+msgstr "Kliknutím na tento odkaz se dostanete do nabídky přidání nového kolovacího seznamu."
 
 #: ../../source/serials.rst:723
 #, fuzzy
@@ -1420,14 +1098,8 @@ msgstr "Vytvoření kolovacího seznamu"
 
 #: ../../source/serials.rst:725
 #, fuzzy
-msgid ""
-"From here, click 'Add recipients' to add users to the routing list. In the "
-"menu that appears you can filter patrons by part of their name, their "
-"library, or their patron category."
-msgstr ""
-"Zde můžete po kliknutí na 'Přidat příjemce' přidat osoby do distribučního "
-"seznamu. V nabídce, která se objeví, můžete filtrovat čtenáře podle části "
-"jména, knihovny a/nebo kategorie."
+msgid "From here, click 'Add recipients' to add users to the routing list. In the menu that appears you can filter patrons by part of their name, their library, or their patron category."
+msgstr "Zde můžete po kliknutí na 'Přidat příjemce' přidat osoby do distribučního seznamu. V nabídce, která se objeví, můžete filtrovat čtenáře podle části jména, knihovny a/nebo kategorie."
 
 #: ../../source/serials.rst:729
 msgid "|addtorouting|"
@@ -1435,14 +1107,8 @@ msgstr ""
 
 #: ../../source/serials.rst:731
 #, fuzzy
-msgid ""
-"Click 'Add' to the right of each name to add them to the routing list. When "
-"you have chosen all of the people for the list, click the 'Close' button to "
-"be redirected to the routing list."
-msgstr ""
-"Kliknutím na 'Přidat' napravo od každého jména, přidá tato jména do "
-"kolovacího seznamu. Pokud jste si vybrali všichny lidi ke kolování, klikněte "
-"na \"Zavřít\" a budete přesměrováni na kolovací seznam."
+msgid "Click 'Add' to the right of each name to add them to the routing list. When you have chosen all of the people for the list, click the 'Close' button to be redirected to the routing list."
+msgstr "Kliknutím na 'Přidat' napravo od každého jména, přidá tato jména do kolovacího seznamu. Pokud jste si vybrali všichny lidi ke kolování, klikněte na \"Zavřít\" a budete přesměrováni na kolovací seznam."
 
 #: ../../source/serials.rst:735
 #, fuzzy
@@ -1450,10 +1116,7 @@ msgid "|editroutinglist|"
 msgstr "Vytvoření kolovacího seznamu"
 
 #: ../../source/serials.rst:737
-msgid ""
-"From this form, you can play with the order of the users and add notes. If "
-"you always add the same note, you can enter it in the :ref:`RoutingListNote` "
-"system preference."
+msgid "From this form, you can play with the order of the users and add notes. If you always add the same note, you can enter it in the :ref:`RoutingListNote` system preference."
 msgstr ""
 
 #: ../../source/serials.rst:741
@@ -1462,15 +1125,8 @@ msgstr ""
 
 #: ../../source/serials.rst:743
 #, fuzzy
-msgid ""
-"Next, you will be brought to a preview of the routing list. To print the "
-"list click 'Save and preview routing slip.' This will open a printable "
-"version of the list."
-msgstr ""
-"Jestli seznam vypadá tak, jak očekáváte, že se, klepněte na tlačítko \"Uložit"
-"\". Dále budete přepnuti na kolovací seznam. Chcete-li seznam vytisknout, "
-"klepněte na tlačítko \"Uložit a zobrazit náhled kolovacího seznamu.\" Tím se "
-"otevře verze pro tisk seznamu."
+msgid "Next, you will be brought to a preview of the routing list. To print the list click 'Save and preview routing slip.' This will open a printable version of the list."
+msgstr "Jestli seznam vypadá tak, jak očekáváte, že se, klepněte na tlačítko \"Uložit\". Dále budete přepnuti na kolovací seznam. Chcete-li seznam vytisknout, klepněte na tlačítko \"Uložit a zobrazit náhled kolovacího seznamu.\" Tím se otevře verze pro tisk seznamu."
 
 #: ../../source/serials.rst:747
 #, fuzzy
@@ -1479,23 +1135,13 @@ msgstr "Vytvoření kolovacího seznamu"
 
 #: ../../source/serials.rst:749
 #, fuzzy
-msgid ""
-"If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing "
-"list will automatically be added to the holds list for the issue."
-msgstr ""
-"Pokud je RoutingListAddReserves zapnuto, pak čtenáři uvedení v kolovacím "
-"seznamu budou automaticky přidáni do seznamu rezervací na výtisk."
+msgid "If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing list will automatically be added to the holds list for the issue."
+msgstr "Pokud je RoutingListAddReserves zapnuto, pak čtenáři uvedení v kolovacím seznamu budou automaticky přidáni do seznamu rezervací na výtisk."
 
 #: ../../source/serials.rst:752
 #, fuzzy
-msgid ""
-"To see a list of all of the routing lists for a specific patron is visit "
-"the :ref:`routing lists tab <routing-lists-label>` on their patron record. "
-"Patrons are able to see a list of their own routing lists when logged into "
-"the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
-msgstr ""
-"Chcete-li zobrazit seznam všech kolování pro konkrétního čtenáře, skočte na "
-"záložku \"Kolovací seznam\" na čtenářově záznamu."
+msgid "To see a list of all of the routing lists for a specific patron is visit the :ref:`routing lists tab <routing-lists-label>` on their patron record. Patrons are able to see a list of their own routing lists when logged into the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
+msgstr "Chcete-li zobrazit seznam všech kolování pro konkrétního čtenáře, skočte na záložku \"Kolovací seznam\" na čtenářově záznamu."
 
 #: ../../source/serials.rst:760
 #, fuzzy
@@ -1503,12 +1149,8 @@ msgid "Subscriptions in the staff interface"
 msgstr "Předplatné ve služebním intranetu"
 
 #: ../../source/serials.rst:762
-msgid ""
-"Subscription information will appear on bibliographic records under the "
-"'Subscriptions' tab"
-msgstr ""
-"Informace o předplatném se objeví v bibliografické záznamy na záložce "
-"\"Předplatné\""
+msgid "Subscription information will appear on bibliographic records under the 'Subscriptions' tab"
+msgstr "Informace o předplatném se objeví v bibliografické záznamy na záložce \"Předplatné\""
 
 #: ../../source/serials.rst:765
 msgid "|subinfoonbib|"
@@ -1516,34 +1158,20 @@ msgstr ""
 
 #: ../../source/serials.rst:767
 #, fuzzy
-msgid ""
-"Clicking the 'Subscription details' link will take you to the Subscription "
-"summary page in the staff interface."
-msgstr ""
-"Kliknutím na odkaz \"Podrobnosti o odběru\" se dostanete na stránku přehledu "
-"předplatného ve služebním intranetu."
+msgid "Clicking the 'Subscription details' link will take you to the Subscription summary page in the staff interface."
+msgstr "Kliknutím na odkaz \"Podrobnosti o odběru\" se dostanete na stránku přehledu předplatného ve služebním intranetu."
 
 #: ../../source/serials.rst:772
 #, fuzzy
-msgid ""
-"If you are using the :ref:`acquisitions <acquisitions-label>` module to keep "
-"track of :ref:`serial subscriptions <order-from-a-serial-subscription-"
-"label>` you will see an extra 'Acquisition details' tab in your subscription "
-"details."
-msgstr ""
-"Pokud používáte modul `akvizice <#acqmodule>`__, abyste udržovali ` přehled "
-"o sériových předplatných <#ordersubscription>`__, uvidíte tuto informaci "
-"před detaily o předplatném"
+msgid "If you are using the :ref:`acquisitions <acquisitions-label>` module to keep track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you will see an extra 'Acquisition details' tab in your subscription details."
+msgstr "Pokud používáte modul `akvizice <#acqmodule>`__, abyste udržovali ` přehled o sériových předplatných <#ordersubscription>`__, uvidíte tuto informaci před detaily o předplatném"
 
 #: ../../source/serials.rst:776
 msgid "|subdetails|"
 msgstr ""
 
 #: ../../source/serials.rst:780
-msgid ""
-"You can customize the columns of this table in the :ref:`'Table "
-"settings'<column-settings-label>` section of the Administration module "
-"(table id: orders)."
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: orders)."
 msgstr ""
 
 #: ../../source/serials.rst:787
@@ -1552,43 +1180,26 @@ msgid "Subscriptions in the OPAC"
 msgstr "Předplatná na OPACu"
 
 #: ../../source/serials.rst:789
-msgid ""
-"When viewing the subscription in the OPAC there will be several options. You "
-"can choose which tab appears by default with the :ref:`opacSerialDefaultTab` "
-"system preference."
+msgid "When viewing the subscription in the OPAC there will be several options. You can choose which tab appears by default with the :ref:`opacSerialDefaultTab` system preference."
 msgstr ""
 
 #: ../../source/serials.rst:793
 #, fuzzy
-msgid ""
-"Like in the staff interface, there will be a Subscriptions tab on the "
-"bibliographic record."
-msgstr ""
-"Stejně jako ve služebním intranetu, bude záložka Předplatné na "
-"bibliografickém záznamu."
+msgid "Like in the staff interface, there will be a Subscriptions tab on the bibliographic record."
+msgstr "Stejně jako ve služebním intranetu, bude záložka Předplatné na bibliografickém záznamu."
 
 #: ../../source/serials.rst:796
 msgid "|subopac|"
 msgstr ""
 
 #: ../../source/serials.rst:798
-msgid ""
-"Under this tab will appear the number of issues you chose when :ref:`setting "
-"up the subscription <add-a-subscription-label>` or in your :ref:"
-"`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' "
-"link will provide you with additional information about the serial history. "
-"You can set the default view of the serial history in the OPAC with the :ref:"
-"`SubscriptionHistory` system preference."
+msgid "Under this tab will appear the number of issues you chose when :ref:`setting up the subscription <add-a-subscription-label>` or in your :ref:`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' link will provide you with additional information about the serial history. You can set the default view of the serial history in the OPAC with the :ref:`SubscriptionHistory` system preference."
 msgstr ""
 
 #: ../../source/serials.rst:805
 #, fuzzy
-msgid ""
-"There are two views, brief and full. The brief serial subscription history "
-"will show basic information regarding the subscription."
-msgstr ""
-"Existují dva pohledy, stručný a úplný. Stručný pohled na předplatné zobrazí "
-"základní informace o předplatném"
+msgid "There are two views, brief and full. The brief serial subscription history will show basic information regarding the subscription."
+msgstr "Existují dva pohledy, stručný a úplný. Stručný pohled na předplatné zobrazí základní informace o předplatném"
 
 #: ../../source/serials.rst:808
 #, fuzzy
@@ -1596,18 +1207,11 @@ msgid "|SubscriptionHistory-brief|"
 msgstr "Předplatné ve služebním intranetu"
 
 #: ../../source/serials.rst:810
-msgid ""
-"From this brief display patrons can subscribe to be notified of new issues "
-"as they are released by clicking the 'Subscribe to email notifications of "
-"new issues' button. This link will only appear if you have chosen to notify "
-"patrons when :ref:`creating the subscription <add-a-subscription-label>`."
+msgid "From this brief display patrons can subscribe to be notified of new issues as they are released by clicking the 'Subscribe to email notifications of new issues' button. This link will only appear if you have chosen to notify patrons when :ref:`creating the subscription <add-a-subscription-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:816
-msgid ""
-"You can see those who subscribe to new issue alerts by going to the "
-"subscription page in the staff client and looking on the right of the "
-"'Information' tab."
+msgid "You can see those who subscribe to new issue alerts by going to the subscription page in the staff client and looking on the right of the 'Information' tab."
 msgstr ""
 
 #: ../../source/serials.rst:820
@@ -1616,12 +1220,8 @@ msgid "|subscriptiondetailsinfo|"
 msgstr "Předplatná na OPACu"
 
 #: ../../source/serials.rst:822
-msgid ""
-"Whereas the full view shows extensive details, broken out by year, regarding "
-"the subscription"
-msgstr ""
-"Plný pohled ukazuje rozsáhlé podrobnosti, rozdělené podle roku, pokud jde "
-"předplatné"
+msgid "Whereas the full view shows extensive details, broken out by year, regarding the subscription"
+msgstr "Plný pohled ukazuje rozsáhlé podrobnosti, rozdělené podle roku, pokud jde předplatné"
 
 #: ../../source/serials.rst:825
 #, fuzzy
@@ -1635,60 +1235,36 @@ msgstr "Reklamace opožděných periodik"
 
 #: ../../source/serials.rst:832
 #, fuzzy
-msgid ""
-"Koha can send email messages to your serial vendors if you have late issues. "
-"To the left of the main serials page there is a link to 'Claims'."
-msgstr ""
-"Koha umožňuje posílat e-maily vašim prodejcům periodik v případě opožděných "
-"čísel. Nalevo od hlavní strany se nachází odkaz 'Reklamace'"
+msgid "Koha can send email messages to your serial vendors if you have late issues. To the left of the main serials page there is a link to 'Claims'."
+msgstr "Koha umožňuje posílat e-maily vašim prodejcům periodik v případě opožděných čísel. Nalevo od hlavní strany se nachází odkaz 'Reklamace'"
 
 #: ../../source/serials.rst:837
-msgid ""
-"The links to claims also appears to the left of the subscription detail page"
-msgstr ""
-"Odkazy na reklamace se také objeví v levé části detailní stránky "
-"předplatného (odběru)"
+msgid "The links to claims also appears to the left of the subscription detail page"
+msgstr "Odkazy na reklamace se také objeví v levé části detailní stránky předplatného (odběru)"
 
 #: ../../source/serials.rst:842
 #, fuzzy
-msgid ""
-"If you don't have a claim notice defined yet you will see a warning message "
-"that you need to first define a notice in the :ref:`Notices and slips "
-"tool<notices-and-slips-label>`."
-msgstr ""
-"Pokud nemáte reklamační oznámení dosud definované, uvidíte varovnou zprávu, "
-"že je musíte nejprve předem definovat."
+msgid "If you don't have a claim notice defined yet you will see a warning message that you need to first define a notice in the :ref:`Notices and slips tool<notices-and-slips-label>`."
+msgstr "Pokud nemáte reklamační oznámení dosud definované, uvidíte varovnou zprávu, že je musíte nejprve předem definovat."
 
 #: ../../source/serials.rst:846
 msgid "|noclaimnotice|"
 msgstr ""
 
 #: ../../source/serials.rst:848
-msgid ""
-"Clicking 'Claims' will open a report that will ask you to choose from your "
-"various serial vendors to generate claims for late issues."
-msgstr ""
-"Kliknutím na 'Upomínky' se otevře výstup, který vás vyzve, abyste si vybrali "
-"z různých dodavatelů periodik pro vytvoření upomínek u opožděných čísel."
+msgid "Clicking 'Claims' will open a report that will ask you to choose from your various serial vendors to generate claims for late issues."
+msgstr "Kliknutím na 'Upomínky' se otevře výstup, který vás vyzve, abyste si vybrali z různých dodavatelů periodik pro vytvoření upomínek u opožděných čísel."
 
 #: ../../source/serials.rst:851
 msgid "|serialclaims|"
 msgstr ""
 
 #: ../../source/serials.rst:853
-msgid ""
-"From the list of late issues you can choose which ones you want to send a "
-"claim email to by clicking the checkbox to the left of late issue, choosing "
-"the notice template to use and clicking the 'Send notification' button."
-msgstr ""
-"Ze seznamu posledních vydání můžete vybrat, kam chcete odeslat pohledávkový "
-"e-mail zaškrtnutím políčka na levé straně, vybráním šablony oznámení a "
-"kliknutím na tlačítko 'Zaslat oznámení'."
+msgid "From the list of late issues you can choose which ones you want to send a claim email to by clicking the checkbox to the left of late issue, choosing the notice template to use and clicking the 'Send notification' button."
+msgstr "Ze seznamu posledních vydání můžete vybrat, kam chcete odeslat pohledávkový e-mail zaškrtnutím políčka na levé straně, vybráním šablony oznámení a kliknutím na tlačítko 'Zaslat oznámení'."
 
 #: ../../source/serials.rst:858
-msgid ""
-"You can also export the results to a CSV file by choosing a :ref:`CSV "
-"profile <csv-profiles-label>` and clicking 'Download selected claims'."
+msgid "You can also export the results to a CSV file by choosing a :ref:`CSV profile <csv-profiles-label>` and clicking 'Download selected claims'."
 msgstr ""
 
 #: ../../source/serials.rst:865
@@ -1698,15 +1274,8 @@ msgstr "Zkontrolovat konec platnosti periodika"
 
 #: ../../source/serials.rst:867
 #, fuzzy
-msgid ""
-"When adding serials you enter a subscription length, using the check "
-"expiration tool you can see when your subscriptions are about to expire. To "
-"use the tool, click the link to 'Check expiration' on the serials menu."
-msgstr ""
-"Při přidávání periodika zadáte délku odběru (předplatného). Pomocí nástroje "
-"pro kontrolu vypršení předplatného, můžete vidět, když vaše předplatné je "
-"brzy skončí. Chcete-li použít tento nástroj, klikněte na odkaz \"Kontrola "
-"vypršení\" v menu periodik."
+msgid "When adding serials you enter a subscription length, using the check expiration tool you can see when your subscriptions are about to expire. To use the tool, click the link to 'Check expiration' on the serials menu."
+msgstr "Při přidávání periodika zadáte délku odběru (předplatného). Pomocí nástroje pro kontrolu vypršení předplatného, můžete vidět, když vaše předplatné je brzy skončí. Chcete-li použít tento nástroj, klikněte na odkaz \"Kontrola vypršení\" v menu periodik."
 
 #: ../../source/serials.rst:872
 msgid "|subexpiresearch|"
@@ -1714,33 +1283,19 @@ msgstr ""
 
 #: ../../source/serials.rst:874
 #, fuzzy
-msgid ""
-"In the form that appears you need to enter at least a date to search by. You "
-"can also search by title, ISBN or library."
+msgid "In the form that appears you need to enter at least a date to search by. You can also search by title, ISBN or library."
 msgstr "Do formuláře musíte zadat alespoň datum, podle kterého lze vyhledávat."
 
 #: ../../source/serials.rst:877
-msgid ""
-"In your results you will see all subscriptions that will expire before the "
-"date you entered. From there you can choose to view the subscription further "
-"or renew it in one click."
-msgstr ""
-"Ve výsledcích se zobrazí všechna předplatná, která vyprší před zadaným "
-"datem. Lze v nich zobrazit více detailů nebo jedním kliknutím předplatné "
-"obnovit."
+msgid "In your results you will see all subscriptions that will expire before the date you entered. From there you can choose to view the subscription further or renew it in one click."
+msgstr "Ve výsledcích se zobrazí všechna předplatná, která vyprší před zadaným datem. Lze v nich zobrazit více detailů nebo jedním kliknutím předplatné obnovit."
 
 #: ../../source/serials.rst:881
 msgid "|subscriptionexpiration|"
 msgstr ""
 
 #: ../../source/serials.rst:883
-msgid ""
-"If there is more than one subscription, you can check the boxes and click on "
-"'Renew selected subscriptions' to renew all the serials. The serials will be "
-"renewed for the same amount of time as their previous subscription (i.e. if "
-"the last subscription for that serial lasted one year, the serial will be "
-"renewed for one year; if the last subscription was for 16 issues, it will be "
-"renewed for another 16 issues)."
+msgid "If there is more than one subscription, you can check the boxes and click on 'Renew selected subscriptions' to renew all the serials. The serials will be renewed for the same amount of time as their previous subscription (i.e. if the last subscription for that serial lasted one year, the serial will be renewed for one year; if the last subscription was for 16 issues, it will be renewed for another 16 issues)."
 msgstr ""
 
 #: ../../source/serials.rst:890
@@ -1753,22 +1308,13 @@ msgid "Renewing subscriptions"
 msgstr "Obnovení předplatného periodik"
 
 #: ../../source/serials.rst:897
-msgid ""
-"If your serial subscription has expired you won't be able to receive issues. "
-"To renew your subscription you can click the 'Renew' button at the top of "
-"your subscription detail page."
-msgstr ""
-"Pokud  vaše sjednaná doba předplatného vypršela, nebudete dostávat další "
-"sešity. Chcete-li obnovit předplatné můžete kliknout na tlačítko \"Prodloužit"
-"\" v horní části stránky detailů předplatného."
+msgid "If your serial subscription has expired you won't be able to receive issues. To renew your subscription you can click the 'Renew' button at the top of your subscription detail page."
+msgstr "Pokud  vaše sjednaná doba předplatného vypršela, nebudete dostávat další sešity. Chcete-li obnovit předplatné můžete kliknout na tlačítko \"Prodloužit\" v horní části stránky detailů předplatného."
 
 #: ../../source/serials.rst:903
 #, fuzzy
-msgid ""
-"Once you click the 'Renew' button you will be presented with renewal options."
-msgstr ""
-"Jakmile kliknete na tlačítko Prodloužit budou vám nabídnuty možnosti "
-"prodloužení "
+msgid "Once you click the 'Renew' button you will be presented with renewal options."
+msgstr "Jakmile kliknete na tlačítko Prodloužit budou vám nabídnuty možnosti prodloužení "
 
 #: ../../source/serials.rst:906
 #, fuzzy
@@ -1782,12 +1328,8 @@ msgstr "Počáteční datum by mělo být datum, kdy začíná období odběru."
 
 #: ../../source/serials.rst:910
 #, fuzzy
-msgid ""
-"Subscription length: enter the number of issues, weeks or months your "
-"subscription lasts"
-msgstr ""
-"'Délka předplatného' vyjadřuje počet jednitek nebo měsíců předplatného. Toto "
-"se používá také pro nastavení upozornění pro obnovení"
+msgid "Subscription length: enter the number of issues, weeks or months your subscription lasts"
+msgstr "'Délka předplatného' vyjadřuje počet jednitek nebo měsíců předplatného. Toto se používá také pro nastavení upozornění pro obnovení"
 
 #: ../../source/serials.rst:913
 #, fuzzy
@@ -1796,9 +1338,7 @@ msgstr "\"Knihovna\" je pobočka, který vlastní tento odběr"
 
 #: ../../source/serials.rst:915
 #, fuzzy
-msgid ""
-"Note for the librarian that will manage your renewal request: enter any "
-"notes you might have about this renewal."
+msgid "Note for the librarian that will manage your renewal request: enter any notes you might have about this renewal."
 msgstr "Nakonec zadejte poznámky, které byste mohli mít k tomto prodloužení."
 
 #: ../../source/serials.rst:918
@@ -1806,11 +1346,7 @@ msgid "Click 'Submit'."
 msgstr ""
 
 #: ../../source/serials.rst:920
-msgid ""
-"If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, "
-"renewing a subscription will create a purchase suggestion in the :ref:"
-"`acquisitions module<acquisitions-label>` so that your acquisitions staff "
-"can manage it."
+msgid "If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, renewing a subscription will create a purchase suggestion in the :ref:`acquisitions module<acquisitions-label>` so that your acquisitions staff can manage it."
 msgstr ""
 
 #: ../../source/serials.rst:928
@@ -1819,43 +1355,26 @@ msgid "Searching serials"
 msgstr "Vyhledávání periodik"
 
 #: ../../source/serials.rst:930
-msgid ""
-"Once in the Serials module there is basic search box at the top that you can "
-"use to find subscriptions using any part of the ISSN and/or title."
-msgstr ""
-"Jakmile jste v modulu periodik, v horní části je základní vyhledávací pole, "
-"které můžete použít k nalezení odběru pomocí libovolné části ISSN a/nebo "
-"jména titulu."
+msgid "Once in the Serials module there is basic search box at the top that you can use to find subscriptions using any part of the ISSN and/or title."
+msgstr "Jakmile jste v modulu periodik, v horní části je základní vyhledávací pole, které můžete použít k nalezení odběru pomocí libovolné části ISSN a/nebo jména titulu."
 
 #: ../../source/serials.rst:935
 #, fuzzy
-msgid ""
-"You can also click the 'Advanced search' link to the right of the 'Submit' "
-"button to do a more thorough search of your serials."
-msgstr ""
-"Můžete také kliknout na odkaz \"Rozšířené hledání\" napravo od tlačítka "
-"\"Odeslat\" a provést důkladnější vyhledání svých periodik."
+msgid "You can also click the 'Advanced search' link to the right of the 'Submit' button to do a more thorough search of your serials."
+msgstr "Můžete také kliknout na odkaz \"Rozšířené hledání\" napravo od tlačítka \"Odeslat\" a provést důkladnější vyhledání svých periodik."
 
 #: ../../source/serials.rst:938
 msgid "|advancedserialsearch|"
 msgstr ""
 
 #: ../../source/serials.rst:942
-msgid ""
-"If you have :ref:`additional fields<additional-fields-label>` that are "
-"searchable, they will appear in this form."
+msgid "If you have :ref:`additional fields<additional-fields-label>` that are searchable, they will appear in this form."
 msgstr ""
 
 #: ../../source/serials.rst:945
 #, fuzzy
-msgid ""
-"From your results you can filter by using the search boxes at the bottom of "
-"each column and adjust the number of results using the toolbar at the top of "
-"the results set."
-msgstr ""
-"Vaše výsledků můžete filtrovat pomocí vyhledávacího pole v dolní části "
-"každého sloupce a nastavit počet výsledků pomocí panelu nástrojů v horní "
-"části tabulky výsledků."
+msgid "From your results you can filter by using the search boxes at the bottom of each column and adjust the number of results using the toolbar at the top of the results set."
+msgstr "Vaše výsledků můžete filtrovat pomocí vyhledávacího pole v dolní části každého sloupce a nastavit počet výsledků pomocí panelu nástrojů v horní části tabulky výsledků."
 
 #, fuzzy
 #~ msgid "|image738|"
@@ -1872,14 +1391,8 @@ msgstr ""
 #~ msgid "**Note**"
 #~ msgstr "**Poznámka**"
 
-#~ msgid ""
-#~ "It will also allow you to create a new numbering pattern without first "
-#~ "adding a subscription. To add new new pattern click 'New numbering "
-#~ "pattern' at the top of the list of patterns."
-#~ msgstr ""
-#~ "Také vám to umožní vytvořit nový vzorec číslování bez přidávání "
-#~ "předplacení. K přidání nového vzorce klikněte na 'Nový vzorec číslování' "
-#~ "nad seznamem vzorců."
+#~ msgid "It will also allow you to create a new numbering pattern without first adding a subscription. To add new new pattern click 'New numbering pattern' at the top of the list of patterns."
+#~ msgstr "Také vám to umožní vytvořit nový vzorec číslování bez přidávání předplacení. K přidání nového vzorce klikněte na 'Nový vzorec číslování' nad seznamem vzorců."
 
 #, fuzzy
 #~ msgid "|image741|"
@@ -1891,9 +1404,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Or by visiting the Serials module and clicking 'New subscription'"
-#~ msgstr ""
-#~ "Nebo tím, že navštívíte modul Periodika a klepněte na tlačítko \"Nové "
-#~ "předplatné\""
+#~ msgstr "Nebo tím, že navštívíte modul Periodika a klepněte na tlačítko \"Nové předplatné\""
 
 #, fuzzy
 #~ msgid "|image743|"
@@ -1911,15 +1422,8 @@ msgstr ""
 #~ msgstr "|image745|"
 
 #, fuzzy
-#~ msgid ""
-#~ "This can be done by searching for an existing record by clicking on the "
-#~ "'Search for record' link below the boxes or by entering the biblionumber "
-#~ "for a record in the first box. Only if you search will the field between "
-#~ "the parenthesis be filled in."
-#~ msgstr ""
-#~ "Toto může být provedeno vyhledáním existujícího záznamu klepnutím na "
-#~ "odkaz \"Vyhledat Biblio\" pod políčky nebo zadáním čísla bibliografického "
-#~ "záznamu v prvním políčku. Platí pouze pokud hledáte pole mezi závorkami."
+#~ msgid "This can be done by searching for an existing record by clicking on the 'Search for record' link below the boxes or by entering the biblionumber for a record in the first box. Only if you search will the field between the parenthesis be filled in."
+#~ msgstr "Toto může být provedeno vyhledáním existujícího záznamu klepnutím na odkaz \"Vyhledat Biblio\" pod políčky nebo zadáním čísla bibliografického záznamu v prvním políčku. Platí pouze pokud hledáte pole mezi závorkami."
 
 #, fuzzy
 #~ msgid "|image1277|"
@@ -1936,28 +1440,14 @@ msgstr ""
 #~ msgid "|image747|"
 #~ msgstr "|image747|"
 
-#~ msgid ""
-#~ "Without periodicy: some very specific (usually high level science "
-#~ "journals) don't have a true periodicity. When you subscribe to the title, "
-#~ "you subscribe for 6 issues, which can arrive in 1 year... or 2... There "
-#~ "is no regularity or known schedule."
-#~ msgstr ""
-#~ "Bez periodicy: některé velmi specifické (většinou vědecké časopisy vysoké "
-#~ "úrovně ) nemají skutečnou periodicitu. Když si předplácíte titul, se "
-#~ "přihlásíte na 6 sešitů, které přicházejí do 1 roku ... nebo 2 ... "
-#~ "Neexistuje zde pravidelnost nebo známý program vydávání."
+#~ msgid "Without periodicy: some very specific (usually high level science journals) don't have a true periodicity. When you subscribe to the title, you subscribe for 6 issues, which can arrive in 1 year... or 2... There is no regularity or known schedule."
+#~ msgstr "Bez periodicy: některé velmi specifické (většinou vědecké časopisy vysoké úrovně ) nemají skutečnou periodicitu. Když si předplácíte titul, se přihlásíte na 6 sešitů, které přicházejí do 1 roku ... nebo 2 ... Neexistuje zde pravidelnost nebo známý program vydávání."
 
 #~ msgid "Unknown select this if none of the other choices are relevant"
 #~ msgstr "Neznámý - vyberte pokud žádná z ostatních možností není relevantní"
 
-#~ msgid ""
-#~ "Irregular: The journal is not \"regular\" but has a periodicity. You know "
-#~ "that it comes out on January, then in October and December, it is "
-#~ "irregular, but you know when it's going to arrive."
-#~ msgstr ""
-#~ "Nepravidelný: Časopis nevychází pravidelně, ale má určitou periodicitu. "
-#~ "Například vždy vychází v lednu, v říjnu a v prosinci, což je "
-#~ "nepravidelné, ale víte, kdy má přijít příští číslo."
+#~ msgid "Irregular: The journal is not \"regular\" but has a periodicity. You know that it comes out on January, then in October and December, it is irregular, but you know when it's going to arrive."
+#~ msgstr "Nepravidelný: Časopis nevychází pravidelně, ale má určitou periodicitu. Například vždy vychází v lednu, v říjnu a v prosinci, což je nepravidelné, ale víte, kdy má přijít příští číslo."
 
 #~ msgid "2/day: Twice daily"
 #~ msgstr "2x denně"
@@ -1986,12 +1476,8 @@ msgstr ""
 #~ msgid "1/ 3 months (1/quarter): Quarterly"
 #~ msgstr "1x za 3 měsice (1x za kvartál): Kvartálně"
 
-#~ msgid ""
-#~ "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, "
-#~ "Winter, Spring)"
-#~ msgstr ""
-#~ "1 x za kvartál (sezónně): Kvartály se shodují se sezónou (tj. léto, "
-#~ "podzim, zima, jaro)"
+#~ msgid "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, Winter, Spring)"
+#~ msgstr "1 x za kvartál (sezónně): Kvartály se shodují se sezónou (tj. léto, podzim, zima, jaro)"
 
 #~ msgid "2/year: Half yearly"
 #~ msgstr "2x ročně: půlročně"
@@ -2003,14 +1489,8 @@ msgstr ""
 #~ msgstr "1x za 2 roky: dvouročně"
 
 #, fuzzy
-#~ msgid ""
-#~ "You can choose to create your own numbering pattern by choosing 'None of "
-#~ "the above' and clicking the 'Show/hide advanced pattern' button at the "
-#~ "bottom of the form"
-#~ msgstr ""
-#~ "Můžete si vybrat vytvořit svoje vlastní číslování výběrem \"Nic z výše "
-#~ "uvedeného\" a klepnutím na tlačítko 'Zobrazit/Skrýt pokročilé vzory\" v "
-#~ "dolní části formuláře"
+#~ msgid "You can choose to create your own numbering pattern by choosing 'None of the above' and clicking the 'Show/hide advanced pattern' button at the bottom of the form"
+#~ msgstr "Můžete si vybrat vytvořit svoje vlastní číslování výběrem \"Nic z výše uvedeného\" a klepnutím na tlačítko 'Zobrazit/Skrýt pokročilé vzory\" v dolní části formuláře"
 
 #, fuzzy
 #~ msgid "|image748|"
@@ -2020,12 +1500,8 @@ msgstr ""
 #~ msgid "|image1278|"
 #~ msgstr "|image1278|"
 
-#~ msgid ""
-#~ "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" "
-#~ "starts"
-#~ msgstr ""
-#~ "Pole 'Aktuální hodnota' Koha využívá, aby se vědělo, kde začíná \"cyklus "
-#~ "příjmu\" periodik"
+#~ msgid "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" starts"
+#~ msgstr "Pole 'Aktuální hodnota' Koha využívá, aby se vědělo, kde začíná \"cyklus příjmu\" periodik"
 
 #, fuzzy
 #~ msgid "|image749|"
@@ -2060,12 +1536,8 @@ msgstr ""
 #~ msgstr "|image752|"
 
 #, fuzzy
-#~ msgid ""
-#~ "From the page that opens up you can click 'Edit serial' with the issue "
-#~ "you want to receive checked."
-#~ msgstr ""
-#~ "Na stránce, která se otevře, můžete kliknout na 'Upravit periodikum' se "
-#~ "zaškrtnutým vydáním, které máte obdržet."
+#~ msgid "From the page that opens up you can click 'Edit serial' with the issue you want to receive checked."
+#~ msgstr "Na stránce, která se otevře, můžete kliknout na 'Upravit periodikum' se zaškrtnutým vydáním, které máte obdržet."
 
 #, fuzzy
 #~ msgid "|image753|"
@@ -2123,8 +1595,7 @@ msgstr ""
 #~ msgid "|image764|"
 #~ msgstr "|image764|"
 
-#~ msgid ""
-#~ "When viewing the subscription in the OPAC there will be several options."
+#~ msgid "When viewing the subscription in the OPAC there will be several options."
 #~ msgstr "Pro prohlížení předplatného v OPACu máte několik možností."
 
 #, fuzzy
@@ -2180,12 +1651,8 @@ msgstr ""
 #~ msgstr "|image775|"
 
 #, fuzzy
-#~ msgid ""
-#~ "Another option is to click the 'Renew' link to the right of the "
-#~ "subscription on the Serial collection page."
-#~ msgstr ""
-#~ "Další možnost je kliknout na tlačítko Prodloužit ve sloupci vpravo od "
-#~ "předplatného na stránce Sbírka periodika "
+#~ msgid "Another option is to click the 'Renew' link to the right of the subscription on the Serial collection page."
+#~ msgstr "Další možnost je kliknout na tlačítko Prodloužit ve sloupci vpravo od předplatného na stránce Sbírka periodika "
 
 #, fuzzy
 #~ msgid "|image776|"
@@ -2196,12 +1663,8 @@ msgstr ""
 #~ msgstr "|image777|"
 
 #, fuzzy
-#~ msgid ""
-#~ "For the subscription length you'll want to fill in one of the three "
-#~ "fields presented: Number of issues, Number of months or Number of weeks."
-#~ msgstr ""
-#~ "Pro délku předplatného budete muset vyplnit v jednom ze tří uvedených "
-#~ "polí: Počet čísel (sešitů), Počet měsíců nebo počet týdnů."
+#~ msgid "For the subscription length you'll want to fill in one of the three fields presented: Number of issues, Number of months or Number of weeks."
+#~ msgstr "Pro délku předplatného budete muset vyplnit v jednom ze tří uvedených polí: Počet čísel (sešitů), Počet měsíců nebo počet týdnů."
 
 #, fuzzy
 #~ msgid "|image778|"
@@ -2216,26 +1679,16 @@ msgstr ""
 #~ msgstr "|image780|"
 
 #, fuzzy
-#~ msgid ""
-#~ "If you are receiving multiple issues at once, or have marked an issue as "
-#~ "'Late' or 'Missing' there you can click the 'Generate next' button below "
-#~ "the list of issues."
-#~ msgstr ""
-#~ "Pokud přijímáte více sešitů najednou, nebo označujete jako \"Zpožděný\" "
-#~ "nebo \"Chybějící\" můžete kliknout na tlačítko \"Generovat další\" pod "
-#~ "seznamem sešitů."
+#~ msgid "If you are receiving multiple issues at once, or have marked an issue as 'Late' or 'Missing' there you can click the 'Generate next' button below the list of issues."
+#~ msgstr "Pokud přijímáte více sešitů najednou, nebo označujete jako \"Zpožděný\" nebo \"Chybějící\" můžete kliknout na tlačítko \"Generovat další\" pod seznamem sešitů."
 
 #, fuzzy
 #~ msgid "|image756|"
 #~ msgstr "|image756|"
 
 #, fuzzy
-#~ msgid ""
-#~ "This module will allow you to add custom fields to your serial "
-#~ "subscriptions for reporting and searching."
-#~ msgstr ""
-#~ "Tento nástroj vám umožní namapovat pole MARC na sadu předdefinovaných "
-#~ "klíčových slov."
+#~ msgid "This module will allow you to add custom fields to your serial subscriptions for reporting and searching."
+#~ msgstr "Tento nástroj vám umožní namapovat pole MARC na sadu předdefinovaných klíčových slov."
 
 #, fuzzy
 #~ msgid "*Get there:* Serials > Add subscription fields"
@@ -2254,9 +1707,7 @@ msgstr ""
 #~ msgstr "|image1273|"
 
 #, fuzzy
-#~ msgid ""
-#~ "When you view the subscription, the field will appear under 'Additional "
-#~ "fields'."
+#~ msgid "When you view the subscription, the field will appear under 'Additional fields'."
 #~ msgstr "Pro prohlížení předplatného v OPACu máte několik možností."
 
 #, fuzzy
@@ -2274,3 +1725,4 @@ msgstr ""
 #, fuzzy
 #~ msgid "and when you view the subscription"
 #~ msgstr "Prodloužit toto předplatné"
+

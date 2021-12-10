@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2020-11-23 08:33+0000\n"
-"Last-Translator: Atron Chen <atron@customer-support.com.tw>\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-03-26 06:05+0000\n"
+"Last-Translator: Frank Chou <frank@sris.com.tw>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1606120415.784778\n"
+"X-POOTLE-MTIME: 1616738744.290794\n"
 "X-Pootle-Path: /zh_TW/man18.05/serials.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -23,23 +23,11 @@ msgstr "期刊"
 
 #: ../../source/serials.rst:8
 #, fuzzy
-msgid ""
-"Serials actions can be accessed by going to the 'More' menu at the top of "
-"your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha "
-"staff interface page. The serials module in Koha is used for keeping track "
-"of journals, newspapers and other items that come on a regular schedule."
-msgstr ""
-"期刊模組可以從館員介面上方的 '更多' 選單點選 '期刊' 或點選右方的 '期刊' 均可"
-"進入。Koha 的期刊模組係用於追蹤學刊、報紙及其他定期出版的館藏。如同其他的模"
-"組，使用期刊模組之前先檢視本手冊的相關章節 :ref:`應用核對清單 <serials-"
-"configuration-label>`。"
+msgid "Serials actions can be accessed by going to the 'More' menu at the top of your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha staff interface page. The serials module in Koha is used for keeping track of journals, newspapers and other items that come on a regular schedule."
+msgstr "期刊模組可以從館員介面上方的 '更多' 選單點選 '期刊' 或點選右方的 '期刊' 均可進入。Koha 的期刊模組係用於追蹤學刊、報紙及其他定期出版的館藏。如同其他的模組，使用期刊模組之前先檢視本手冊的相關章節 :ref:`應用核對清單 <serials-configuration-label>`。"
 
 #: ../../source/serials.rst:13
-msgid ""
-"As with all modules, make sure you go through the related :ref:"
-"`implementation checklist <serials-configuration-label>` and :ref:`system "
-"preferences<serials-system-preferences-label>` before using the serials "
-"module."
+msgid "As with all modules, make sure you go through the related :ref:`implementation checklist <serials-configuration-label>` and :ref:`system preferences<serials-system-preferences-label>` before using the serials module."
 msgstr ""
 
 #: ../../source/serials.rst:18
@@ -51,9 +39,7 @@ msgid "Manage serial frequencies"
 msgstr "管理期刊的刊期"
 
 #: ../../source/serials.rst:25
-msgid ""
-"Koha keeps a record of publication frequencies for easy management and "
-"duplication."
+msgid "Koha keeps a record of publication frequencies for easy management and duplication."
 msgstr "Koha保留出版刊期的記錄，供管理與複製之用。"
 
 #: ../../source/serials.rst:28
@@ -62,8 +48,7 @@ msgstr "*到那：* 其他 > 期刊 > 管理刊期"
 
 #: ../../source/serials.rst:30
 #, fuzzy
-msgid ""
-"From this page you can view all of the existing frequencies in your system."
+msgid "From this page you can view all of the existing frequencies in your system."
 msgstr "從此頁面您可以檢視系統內現有的刊期"
 
 #: ../../source/serials.rst:32
@@ -89,46 +74,27 @@ msgid "|newfrequency|"
 msgstr ""
 
 #: ../../source/serials.rst:45
-msgid ""
-"Description: this is the name that will appear in the drop-down menu when "
-"creating a new serial subscription; make sure it is descriptive"
+msgid "Description: this is the name that will appear in the drop-down menu when creating a new serial subscription; make sure it is descriptive"
 msgstr ""
 
 #: ../../source/serials.rst:48
-msgid ""
-"Unit: this is the unit used for counting the cycle of publication. Choose "
-"either none (for irregular frequencies), day, week, month, or year."
+msgid "Unit: this is the unit used for counting the cycle of publication. Choose either none (for irregular frequencies), day, week, month, or year."
 msgstr ""
 
 #: ../../source/serials.rst:51
-msgid ""
-"Issues per unit: this is how many issues are published during the unit "
-"chosen above (this will usually be 1)."
+msgid "Issues per unit: this is how many issues are published during the unit chosen above (this will usually be 1)."
 msgstr ""
 
 #: ../../source/serials.rst:54
-msgid ""
-"Units per issue: this is how many units must we count until the next issue "
-"is published."
+msgid "Units per issue: this is how many units must we count until the next issue is published."
 msgstr ""
 
 #: ../../source/serials.rst:57 ../../source/serials.rst:159
-msgid ""
-"Display order: this is the display order in the drop-down menu when :ref:"
-"`creating a new subscription<add-a-subscription-label>` (you may want to put "
-"the most used frequencies at the top and the less frequent at the bottom; "
-"the top-most position is 0). Several frequencies can have the same display "
-"order value. If this is the case, they will appear in the order they were "
-"created."
+msgid "Display order: this is the display order in the drop-down menu when :ref:`creating a new subscription<add-a-subscription-label>` (you may want to put the most used frequencies at the top and the less frequent at the bottom; the top-most position is 0). Several frequencies can have the same display order value. If this is the case, they will appear in the order they were created."
 msgstr ""
 
 #: ../../source/serials.rst:66
-msgid ""
-"To understand 'issues per unit' versus 'units per issue' you can read it as "
-"'<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For "
-"example, a biweekly frenquency (every two weeks) would be '1 issue every 2 "
-"weeks'. So 'issues per unit' would be 1 and 'units per issue' would be 2. "
-"See below for more examples."
+msgid "To understand 'issues per unit' versus 'units per issue' you can read it as '<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For example, a biweekly frenquency (every two weeks) would be '1 issue every 2 weeks'. So 'issues per unit' would be 1 and 'units per issue' would be 2. See below for more examples."
 msgstr ""
 
 #: ../../source/serials.rst:72 ../../source/serials.rst:151
@@ -259,10 +225,7 @@ msgstr "管理期刊編碼模式"
 
 #: ../../source/serials.rst:107
 #, fuzzy
-msgid ""
-"Every time you create a new numbering pattern in serials you can save it for "
-"later use. These patterns are accessible via the 'Manage numbering patterns' "
-"page."
+msgid "Every time you create a new numbering pattern in serials you can save it for later use. These patterns are accessible via the 'Manage numbering patterns' page."
 msgstr "新增的期刊編碼模式，儲存後可續用。可經由 '管理編碼模式' 頁面取用它。"
 
 #: ../../source/serials.rst:111
@@ -271,9 +234,7 @@ msgstr "*到那：* 其他 > 期刊 > 管理編碼模式"
 
 #: ../../source/serials.rst:113
 #, fuzzy
-msgid ""
-"This page will list for you the numbering patterns you have saved in the "
-"past as well as a few basic patterns."
+msgid "This page will list for you the numbering patterns you have saved in the past as well as a few basic patterns."
 msgstr "此頁面列出您製作的編碼模式，以及若干預設的模式。"
 
 #: ../../source/serials.rst:116
@@ -282,14 +243,8 @@ msgstr ""
 
 #: ../../source/serials.rst:119
 #, fuzzy
-msgid ""
-"If you have upgraded from an old version of Koha (before 3.14) you will see "
-"'Backup patterns' listed for patterns. This is how Koha saved your old "
-"numbering patterns. You can edit these to give them more meaningful names "
-"from here."
-msgstr ""
-"若您從 Koha 3.14 以前的版本昇級則可看到 '備份模式'。Koha 藉以儲存舊的編碼模"
-"式。您可編輯它們給予新的名稱。"
+msgid "If you have upgraded from an old version of Koha (before 3.14) you will see 'Backup patterns' listed for patterns. This is how Koha saved your old numbering patterns. You can edit these to give them more meaningful names from here."
+msgstr "若您從 Koha 3.14 以前的版本昇級則可看到 '備份模式'。Koha 藉以儲存舊的編碼模式。您可編輯它們給予新的名稱。"
 
 #: ../../source/serials.rst:127
 #, fuzzy
@@ -305,28 +260,15 @@ msgid "|newnumpattern|"
 msgstr ""
 
 #: ../../source/serials.rst:133
-msgid ""
-"Name: this is the name that will appear in the drop-down menu when :ref:"
-"`creating a new serial subscription<add-a-subscription-label>`; make sure it "
-"is descriptive."
+msgid "Name: this is the name that will appear in the drop-down menu when :ref:`creating a new serial subscription<add-a-subscription-label>`; make sure it is descriptive."
 msgstr ""
 
 #: ../../source/serials.rst:137
-msgid ""
-"Description: this is to further describe the numbering pattern; this does "
-"not appear when creating a new subscription, it only displays in the :ref:"
-"`numbering patterns table (see above)<manage-serial-numbering-patterns-"
-"label>`."
+msgid "Description: this is to further describe the numbering pattern; this does not appear when creating a new subscription, it only displays in the :ref:`numbering patterns table (see above)<manage-serial-numbering-patterns-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:141
-msgid ""
-"Numbering formula: this is what is used to create the number for each issue. "
-"You can use up to three variables {X}, {Y}, and {Z} (see below). Along with "
-"the variables, you can enter any text you want to have appear in the issue "
-"number. You must also include any spaces you want to see in the issue "
-"numbers. The text will stay the same for each issue and the variables will "
-"vary."
+msgid "Numbering formula: this is what is used to create the number for each issue. You can use up to three variables {X}, {Y}, and {Z} (see below). Along with the variables, you can enter any text you want to have appear in the issue number. You must also include any spaces you want to see in the issue numbers. The text will stay the same for each issue and the variables will vary."
 msgstr ""
 
 #: ../../source/serials.rst:149
@@ -351,9 +293,7 @@ msgid "In the table, you need to enter the parameters for each variable."
 msgstr "在出現的表單裡至少鍵入一個日期供搜尋。"
 
 #: ../../source/serials.rst:168
-msgid ""
-"Label: this is simply a name for the variable, it is not used anywhere else, "
-"but it helps identify what the variable is supposed to be."
+msgid "Label: this is simply a name for the variable, it is not used anywhere else, but it helps identify what the variable is supposed to be."
 msgstr ""
 
 #: ../../source/serials.rst:172
@@ -361,32 +301,23 @@ msgid "Add: how many numbers or units are added to the variable."
 msgstr ""
 
 #: ../../source/serials.rst:174
-msgid ""
-"Each: the numbers or units added to the variable are added each how many "
-"issues."
+msgid "Each: the numbers or units added to the variable are added each how many issues."
 msgstr ""
 
 #: ../../source/serials.rst:177
-msgid ""
-"Set back to: this is used for cyclic numbering; enter the starting number."
+msgid "Set back to: this is used for cyclic numbering; enter the starting number."
 msgstr ""
 
 #: ../../source/serials.rst:179
-msgid ""
-"When more than: this is used for cyclic numbering; enter the last number."
+msgid "When more than: this is used for cyclic numbering; enter the last number."
 msgstr ""
 
 #: ../../source/serials.rst:183
-msgid ""
-"When filling out these four parameter ('add', 'each', 'set back to' and "
-"'when more than'), work column by column and read it as a sentence: \"Add 1 "
-"Every 1 issue, set back to 1 when greater than 10\"."
+msgid "When filling out these four parameter ('add', 'each', 'set back to' and 'when more than'), work column by column and read it as a sentence: \"Add 1 Every 1 issue, set back to 1 when greater than 10\"."
 msgstr ""
 
 #: ../../source/serials.rst:187
-msgid ""
-"Formatting: this is used if, instead of numbers, you want words to appear in "
-"your issue number. You can choose"
+msgid "Formatting: this is used if, instead of numbers, you want words to appear in your issue number. You can choose"
 msgstr ""
 
 #: ../../source/serials.rst:190
@@ -414,9 +345,7 @@ msgid "Name of season (abbreviated) (Spr, Sum, Fal, Win)"
 msgstr ""
 
 #: ../../source/serials.rst:204
-msgid ""
-"When filling out the table, you must always use numbers, even to represent "
-"names of days, months or seasons. Here are the equivalent for each"
+msgid "When filling out the table, you must always use numbers, even to represent names of days, months or seasons. Here are the equivalent for each"
 msgstr ""
 
 #: ../../source/serials.rst:208
@@ -560,9 +489,7 @@ msgid "Winter"
 msgstr ""
 
 #: ../../source/serials.rst:255
-msgid ""
-"Before you save your numbering pattern, you can test it to make sure it "
-"behaves as you intend."
+msgid "Before you save your numbering pattern, you can test it to make sure it behaves as you intend."
 msgstr ""
 
 #: ../../source/serials.rst:258
@@ -574,17 +501,11 @@ msgid "First issue publication date: choose a date where your test will start."
 msgstr ""
 
 #: ../../source/serials.rst:262
-msgid ""
-"Subscription length: enter a number of issues, weeks or months to test your "
-"numbering pattern; if the numbering pattern is cyclic, it is recommended to "
-"try at least two cycles to see the change in cycles and make sure it behaves "
-"correctly."
+msgid "Subscription length: enter a number of issues, weeks or months to test your numbering pattern; if the numbering pattern is cyclic, it is recommended to try at least two cycles to see the change in cycles and make sure it behaves correctly."
 msgstr ""
 
 #: ../../source/serials.rst:267 ../../source/serials.rst:547
-msgid ""
-"Locale: if using names of days, months or season, you can choose the "
-"language in which these names will be displayed."
+msgid "Locale: if using names of days, months or season, you can choose the language in which these names will be displayed."
 msgstr ""
 
 #: ../../source/serials.rst:272 ../../source/serials.rst:552
@@ -597,22 +518,15 @@ msgstr ""
 
 #: ../../source/serials.rst:276 ../../source/serials.rst:558
 #, fuzzy
-msgid ""
-"Begins with: enter the first value for each variable, these should be the "
-"values of the issue entered in 'First issue publication date' above."
+msgid "Begins with: enter the first value for each variable, these should be the values of the issue entered in 'First issue publication date' above."
 msgstr "以在手邊的期刊開始編碼，以該期的日期鍵入 '首期出版' 欄位"
 
 #: ../../source/serials.rst:279 ../../source/serials.rst:561
-msgid ""
-"Inner counter: enter how many issues have already passed in the cycle, so "
-"that Koha can calculate when to cycle back."
+msgid "Inner counter: enter how many issues have already passed in the cycle, so that Koha can calculate when to cycle back."
 msgstr ""
 
 #: ../../source/serials.rst:282
-msgid ""
-"Click 'Test pattern' to see the results. If the result is what you expected, "
-"you can save your numbering pattern. If the results does not match your "
-"expectations, go back and tweak the parameters and test again."
+msgid "Click 'Test pattern' to see the results. If the result is what you expected, you can save your numbering pattern. If the results does not match your expectations, go back and tweak the parameters and test again."
 msgstr ""
 
 #: ../../source/serials.rst:288
@@ -720,12 +634,8 @@ msgstr ""
 
 #: ../../source/serials.rst:371
 #, fuzzy
-msgid ""
-"`Find more numbering patterns on Koha's wiki <https://wiki.koha-community."
-"org/wiki/Serial_Pattern_Library>`__."
-msgstr ""
-"按 '儲存訂閱' 鈕儲存剛才鍵入的資料。`在共筆 <https://wiki.koha-community.org/"
-"wiki/Serial_Pattern_Library>`__的期刊模式圖書館內尋找期刊的範例。"
+msgid "`Find more numbering patterns on Koha's wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr "按 '儲存訂閱' 鈕儲存剛才鍵入的資料。`在共筆 <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__的期刊模式圖書館內尋找期刊的範例。"
 
 #: ../../source/serials.rst:377
 #, fuzzy
@@ -734,9 +644,7 @@ msgstr "新增訂閱"
 
 #: ../../source/serials.rst:379
 #, fuzzy
-msgid ""
-"Subscriptions can be added by clicking the 'New' button on any bibliographic "
-"record and choosing 'New subscription'"
+msgid "Subscriptions can be added by clicking the 'New' button on any bibliographic record and choosing 'New subscription'"
 msgstr "點選任何書目記錄的 '新增' 鈕就能新增訂閱"
 
 #: ../../source/serials.rst:382
@@ -753,13 +661,8 @@ msgstr ""
 
 #: ../../source/serials.rst:388
 #, fuzzy
-msgid ""
-"If you are entering a new subscription from the Serials module you will be "
-"presented with a blank form (if creating new from a bibliographic record the "
-"form will include the record number info)."
-msgstr ""
-"若從期刊模組鍵入新的訂閱，將出現空白表單(若從書目紀錄新增表單，此表單將包括書"
-"目資訊)。"
+msgid "If you are entering a new subscription from the Serials module you will be presented with a blank form (if creating new from a bibliographic record the form will include the record number info)."
+msgstr "若從期刊模組鍵入新的訂閱，將出現空白表單(若從書目紀錄新增表單，此表單將包括書目資訊)。"
 
 #: ../../source/serials.rst:392
 msgid "|addsub|"
@@ -767,10 +670,7 @@ msgstr ""
 
 #: ../../source/serials.rst:394
 #, fuzzy
-msgid ""
-"Vendor: can be found by either searching vendors entered via the :ref:"
-"`Acquisitions module <acquisitions-label>` or manually entering the vendor "
-"ID number"
+msgid "Vendor: can be found by either searching vendors entered via the :ref:`Acquisitions module <acquisitions-label>` or manually entering the vendor ID number"
 msgstr "'供應商' 可經由`採訪模組 <#acqmodule>`__ 或鍵入供應商 ID 找到"
 
 #: ../../source/serials.rst:398
@@ -778,9 +678,7 @@ msgid "Vendor information is not required"
 msgstr "供應商資訊不是必備"
 
 #: ../../source/serials.rst:400
-msgid ""
-"In order to claim missing and late issues you need to enter vendor "
-"information"
+msgid "In order to claim missing and late issues you need to enter vendor information"
 msgstr "需鍵入供應商資訊，才能發出催缺資訊"
 
 #: ../../source/serials.rst:403
@@ -789,55 +687,38 @@ msgstr ""
 
 #: ../../source/serials.rst:405
 #, fuzzy
-msgid ""
-"Record: the biblionumber of the MARC record you'd like to link this "
-"subscription to"
+msgid "Record: the biblionumber of the MARC record you'd like to link this subscription to"
 msgstr "'Biblio' 是您想要連結訂閱的 MARC 記錄"
 
 #: ../../source/serials.rst:408
-msgid ""
-"If you created a new subscription from a bibliographic record, the "
-"biblionumber and the title will already be filled in"
+msgid "If you created a new subscription from a bibliographic record, the biblionumber and the title will already be filled in"
 msgstr ""
 
 #: ../../source/serials.rst:411
-msgid ""
-"You can search for an existing record by clicking on the 'Search for record' "
-"link below the boxes"
+msgid "You can search for an existing record by clicking on the 'Search for record' link below the boxes"
 msgstr ""
 
 #: ../../source/serials.rst:414
-msgid ""
-"If there is no existing bibliographic record for this subscription, you can "
-"create one by clicking on the 'Create record' link below the boxes"
+msgid "If there is no existing bibliographic record for this subscription, you can create one by clicking on the 'Create record' link below the boxes"
 msgstr ""
 
 #: ../../source/serials.rst:417
-msgid ""
-"You can also manually enter the biblionumber for a record in the first box"
+msgid "You can also manually enter the biblionumber for a record in the first box"
 msgstr ""
 
 #: ../../source/serials.rst:420
 #, fuzzy
-msgid ""
-"Next you can choose whether a new item is created when receiving an issue"
+msgid "Next you can choose whether a new item is created when receiving an issue"
 msgstr "接著選擇是否新增館藏 (新的條碼表示新的館藏)"
 
 #: ../../source/serials.rst:425
-msgid ""
-"If you add barcodes to issues or if your circulate them, choose to create an "
-"item upon reception"
+msgid "If you add barcodes to issues or if your circulate them, choose to create an item upon reception"
 msgstr ""
 
 #: ../../source/serials.rst:428
 #, fuzzy
-msgid ""
-"When there is an irregular issue: choose how to handle irregularities in "
-"your subscription, by either skipping the issue number or keeping the issue "
-"number"
-msgstr ""
-"在訂閱時回答 '出現不規則刊期時間' 有助於處理的方式，若經常連續出現您可以點選 "
-"'保持刊期編號'"
+msgid "When there is an irregular issue: choose how to handle irregularities in your subscription, by either skipping the issue number or keeping the issue number"
+msgstr "在訂閱時回答 '出現不規則刊期時間' 有助於處理的方式，若經常連續出現您可以點選 '保持刊期編號'"
 
 #: ../../source/serials.rst:434
 msgid "If the numbers are always sequential, choose 'Keep issue number'"
@@ -845,15 +726,8 @@ msgstr ""
 
 #: ../../source/serials.rst:436
 #, fuzzy
-msgid ""
-"Manual history: if checked, you will be able to enter serials outside the "
-"prediction pattern once the subscription is saved. For example, 'The library "
-"has issues from June 1974 to December 1996'. To do so, go to the 'Planning' "
-"tab on the subscription detail page once the subscription is saved and click "
-"'Edit history'."
-msgstr ""
-"從訂閱詳情頁面的 '計畫' 分頁儲存訂閱後，再勾選 '人工紀錄' 盒將允許您鍵入預期"
-"模式外的期刊。"
+msgid "Manual history: if checked, you will be able to enter serials outside the prediction pattern once the subscription is saved. For example, 'The library has issues from June 1974 to December 1996'. To do so, go to the 'Planning' tab on the subscription detail page once the subscription is saved and click 'Edit history'."
+msgstr "從訂閱詳情頁面的 '計畫' 分頁儲存訂閱後，再勾選 '人工紀錄' 盒將允許您鍵入預期模式外的期刊。"
 
 #: ../../source/serials.rst:442
 #, fuzzy
@@ -861,11 +735,8 @@ msgid "|subscriptionplanning|"
 msgstr "OPAC 的訂閱"
 
 #: ../../source/serials.rst:444
-#, fuzzy
-msgid ""
-"Call number: your item's call number or call number prefix, this will be "
-"copied to items if they are created upon receiving."
-msgstr "'索書號' 是供館藏索書號用的前置碼"
+msgid "Call number: your item's call number or call number prefix, this will be copied to items if they are created upon receiving."
+msgstr "索書號: 您館藏的索書號或索書號字首, 這會複製到館藏, 如果他們是在接收時產生的."
 
 #: ../../source/serials.rst:447
 #, fuzzy
@@ -873,17 +744,12 @@ msgid "Library: the branch that owns this subscription."
 msgstr "'圖書館' 是擁有該訂閱的分館。"
 
 #: ../../source/serials.rst:449
-msgid ""
-"If more than one library subscribes to this serial you will need to create a "
-"subscription for each library"
+msgid "If more than one library subscribes to this serial you will need to create a subscription for each library"
 msgstr "若多個圖書館訂閱此期刊，您需為每個圖書館新增訂閱"
 
 #: ../../source/serials.rst:452
-msgid ""
-"This can be done easily by using the 'Edit as new (duplicate)' option found "
-"on the subscription information page and changing only the 'Library' field"
-msgstr ""
-"使用訂閱資訊頁面的 '編輯新增(複製)' 選項，或改變 '圖書館' 欄位，都可以做到"
+msgid "This can be done easily by using the 'Edit as new (duplicate)' option found on the subscription information page and changing only the 'Library' field"
+msgstr "使用訂閱資訊頁面的 '編輯新增(複製)' 選項，或改變 '圖書館' 欄位，都可以做到"
 
 #: ../../source/serials.rst:456
 msgid "|newasduplicate|"
@@ -891,110 +757,67 @@ msgstr ""
 
 #: ../../source/serials.rst:458
 #, fuzzy
-msgid ""
-"Public note: any notes you would like to appear in the OPAC for the patrons"
+msgid "Public note: any notes you would like to appear in the OPAC for the patrons"
 msgstr "此 '公開說明' 顯示於 OPAC 供讀者使用"
 
 #: ../../source/serials.rst:460
 #, fuzzy
-msgid ""
-"Nonpublic note: should be used for notes that are only visible to staff "
-"members via the staff interface"
+msgid "Nonpublic note: should be used for notes that are only visible to staff members via the staff interface"
 msgstr "'不公開的說明' 祗供館員從館員介面檢視"
 
 #: ../../source/serials.rst:463
 #, fuzzy
-msgid ""
-"Patron notification: you can pick a notice to send to patrons who subscribe "
-"to updates on this serial via the OPAC."
+msgid "Patron notification: you can pick a notice to send to patrons who subscribe to updates on this serial via the OPAC."
 msgstr "從 '讀者通知' 選項讓您把通知發給經由 OPAC 訂閱此期刊的讀者。"
 
 #: ../../source/serials.rst:466
 #, fuzzy
-msgid ""
-"For this option to appear you need to make sure that you have a 'Serials "
-"(new issue)'-type notice set up in the :ref:`'Notices and slips' tool "
-"<notices-and-slips-label>`"
-msgstr ""
-"必須在 :ref:`通知工具 <notices-and-slips-label>` 設定傳閱清單，才能讓此選項出"
-"現"
+msgid "For this option to appear you need to make sure that you have a 'Serials (new issue)'-type notice set up in the :ref:`'Notices and slips' tool <notices-and-slips-label>`"
+msgstr "必須在 :ref:`通知工具 <notices-and-slips-label>` 設定傳閱清單，才能讓此選項出現"
 
 #: ../../source/serials.rst:470
-msgid ""
-"Location: the shelving location, this will be copied to items if they are "
-"created upon receiving."
+msgid "Location: the shelving location, this will be copied to items if they are created upon receiving."
 msgstr ""
 
 #: ../../source/serials.rst:473
-msgid ""
-"Item type: if creating items upon reception, choose the item type of the "
-"items created."
+msgid "Item type: if creating items upon reception, choose the item type of the items created."
 msgstr ""
 
 #: ../../source/serials.rst:476
-msgid ""
-"Item type for older issues: if creating items upon reception, choose the "
-"item type that will be assigned to previous issues when receiving new "
-"issues. This will only appear only if the :ref:`makePreviousSerialAvailable` "
-"is enabled."
+msgid "Item type for older issues: if creating items upon reception, choose the item type that will be assigned to previous issues when receiving new issues. This will only appear only if the :ref:`makePreviousSerialAvailable` is enabled."
 msgstr ""
 
 #: ../../source/serials.rst:481
 #, fuzzy
-msgid ""
-"Grace period: the number of days before an issue is automatically moved from "
-"'Expected' status to 'Late'. This mechanism requires that the :ref:"
-"`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run "
-"regularly."
-msgstr ""
-"此 '寬限期' 是天數，自動把期刊從 '預期' 狀態轉移為 '遲到'。需把 :ref:"
-"`SerialsUpdate.pl 工作排程 <cron-serials-update-label>` 設定為定期執行。"
+msgid "Grace period: the number of days before an issue is automatically moved from 'Expected' status to 'Late'. This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly."
+msgstr "此 '寬限期' 是天數，自動把期刊從 '預期' 狀態轉移為 '遲到'。需把 :ref:`SerialsUpdate.pl 工作排程 <cron-serials-update-label>` 設定為定期執行。"
 
 #: ../../source/serials.rst:486
 #, fuzzy
-msgid ""
-"Number of issues to display to staff: this allows you to control how many "
-"issues appear by default in the staff interface catalog, in the "
-"'Subscriptions' tab of the bibliographic record."
+msgid "Number of issues to display to staff: this allows you to control how many issues appear by default in the staff interface catalog, in the 'Subscriptions' tab of the bibliographic record."
 msgstr "館員介面與 OPAC 介面選項允許您控制預設在館員介面與 OPAC 介面顯示的期數"
 
 #: ../../source/serials.rst:490
 #, fuzzy
-msgid ""
-"If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount` "
-"system preference will be used."
-msgstr ""
-"若未在這些欄位鍵入值，將使用 :ref:`OPACSerialIssueDisplayCount` 與 :ref:"
-"`StaffSerialIssueDisplayCount`系統偏好的值"
+msgid "If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount` system preference will be used."
+msgstr "若未在這些欄位鍵入值，將使用 :ref:`OPACSerialIssueDisplayCount` 與 :ref:`StaffSerialIssueDisplayCount`系統偏好的值"
 
 #: ../../source/serials.rst:495 ../../source/serials.rst:508
-msgid ""
-"This does not affect the number of items shown in the 'Holdings' tab if you "
-"create items for issues. It only affects the number of issues displayed in "
-"the 'Subscriptions' tab."
+msgid "This does not affect the number of items shown in the 'Holdings' tab if you create items for issues. It only affects the number of issues displayed in the 'Subscriptions' tab."
 msgstr ""
 
 #: ../../source/serials.rst:499
 #, fuzzy
-msgid ""
-"Number of issues to display to the public: this allows you to control how "
-"many issues appear by default in the OPAC, in the 'Subscriptions' tab in "
-"bibliographic records"
+msgid "Number of issues to display to the public: this allows you to control how many issues appear by default in the OPAC, in the 'Subscriptions' tab in bibliographic records"
 msgstr "館員介面與 OPAC 介面選項允許您控制預設在館員介面與 OPAC 介面顯示的期數"
 
 #: ../../source/serials.rst:503
 #, fuzzy
-msgid ""
-"If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount` "
-"system preference will be used."
-msgstr ""
-"若未在這些欄位鍵入值，將使用 :ref:`OPACSerialIssueDisplayCount` 與 :ref:"
-"`StaffSerialIssueDisplayCount`系統偏好的值"
+msgid "If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount` system preference will be used."
+msgstr "若未在這些欄位鍵入值，將使用 :ref:`OPACSerialIssueDisplayCount` 與 :ref:`StaffSerialIssueDisplayCount`系統偏好的值"
 
 #: ../../source/serials.rst:512
-msgid ""
-"Once that data is filled in you can click 'Next' to enter the prediction "
-"pattern information."
+msgid "Once that data is filled in you can click 'Next' to enter the prediction pattern information."
 msgstr "填入資料後您可按 '下一步' 進入預測模式資訊。"
 
 #: ../../source/serials.rst:515
@@ -1003,60 +826,36 @@ msgstr ""
 
 #: ../../source/serials.rst:517
 #, fuzzy
-msgid ""
-"First issue publication date: enter the date of the issue you have in your "
-"hand, the date from which the prediction pattern will start"
+msgid "First issue publication date: enter the date of the issue you have in your hand, the date from which the prediction pattern will start"
 msgstr "在 '首期出版日' 裡，鍵入館藏首期的日期，預期的出版模式由此開始計算"
 
 #: ../../source/serials.rst:520
 #, fuzzy
-msgid ""
-"Frequency: choose the frequency of your serial. There are several pre-"
-"defined options all of which are visible alongside your own custom "
-"frequencies in ':ref:`manage frequencies <manage-serial-frequencies-"
-"label>`'. If the frequency you are looking for is not there, you can :ref:"
-"`add a custom frequency<adding-serial-frequency-label>`."
-msgstr ""
-"已經預設定好出版品的若干 '刊期'，進入 ':ref:`管理刊期 <manage-serial-"
-"frequencies-label>`' 就可看到客製化與預設的刊期"
+msgid "Frequency: choose the frequency of your serial. There are several pre-defined options all of which are visible alongside your own custom frequencies in ':ref:`manage frequencies <manage-serial-frequencies-label>`'. If the frequency you are looking for is not there, you can :ref:`add a custom frequency<adding-serial-frequency-label>`."
+msgstr "已經預設定好出版品的若干 '刊期'，進入 ':ref:`管理刊期 <manage-serial-frequencies-label>`' 就可看到客製化與預設的刊期"
 
 #: ../../source/serials.rst:526
 #, fuzzy
-msgid ""
-"Subscription length: enter the number of issues, weeks, or months in the "
-"subscription. This is also used for setting up renewal alerts."
+msgid "Subscription length: enter the number of issues, weeks, or months in the subscription. This is also used for setting up renewal alerts."
 msgstr "'訂閱期限' 即訂閱期數或月數。也可用於續訂警示"
 
 #: ../../source/serials.rst:529
 #, fuzzy
-msgid ""
-"Subscription start date: this is the date at which the subscription begins. "
-"This is used for setting up renewal alerts."
+msgid "Subscription start date: this is the date at which the subscription begins. This is used for setting up renewal alerts."
 msgstr "'訂閱開始日期' 是開始訂閱的日期。用於續訂警示"
 
 #: ../../source/serials.rst:532
 #, fuzzy
-msgid ""
-"Subscription end date: this should only be entered for subscriptions that "
-"have ended (if you're entering in a backlog of serials)."
+msgid "Subscription end date: this should only be entered for subscriptions that have ended (if you're entering in a backlog of serials)."
 msgstr "'訂閱到期日期'，祗供有到期日的訂閱使用(即過期期刊)"
 
 #: ../../source/serials.rst:535
 #, fuzzy
-msgid ""
-"Numbering pattern: choose how issues are numbered. The options here are the "
-"ones in the :ref:`manage numbering patterns <manage-serial-numbering-"
-"patterns-label>` section."
-msgstr ""
-"'編碼模式' 將協助您把期號印在每期上。此處鍵入的模式將儲存並經由 ':ref:`管理編"
-"碼模式 <manage-serial-numbering-patterns-label>`' 編輯它"
+msgid "Numbering pattern: choose how issues are numbered. The options here are the ones in the :ref:`manage numbering patterns <manage-serial-numbering-patterns-label>` section."
+msgstr "'編碼模式' 將協助您把期號印在每期上。此處鍵入的模式將儲存並經由 ':ref:`管理編碼模式 <manage-serial-numbering-patterns-label>`' 編輯它"
 
 #: ../../source/serials.rst:539
-msgid ""
-"If the numbering pattern you need has not been created yet, you can create a "
-"new one by clicking on 'Show advanced pattern' and then 'Modify pattern'. "
-"This is be the same as :ref:`adding a numbering pattern<adding-serial-"
-"numbering-pattern-label>` (see section above)."
+msgid "If the numbering pattern you need has not been created yet, you can create a new one by clicking on 'Show advanced pattern' and then 'Modify pattern'. This is be the same as :ref:`adding a numbering pattern<adding-serial-numbering-pattern-label>` (see section above)."
 msgstr ""
 
 #: ../../source/serials.rst:545
@@ -1073,22 +872,12 @@ msgid "|numberonly|"
 msgstr ""
 
 #: ../../source/serials.rst:564
-msgid ""
-"For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", "
-"you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. "
-"797\", the inner counter should be \"1\"."
-msgstr ""
-"例如：若收到的第一期是 \"vol. 4, no. 1, iss. 796\"，您需設定為 \"inner "
-"counter = 0\" 若是 \"vol. 4, no. 2, iss. 797\"，則內部計數器應為 \"1\"。"
+msgid "For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. 797\", the inner counter should be \"1\"."
+msgstr "例如：若收到的第一期是 \"vol. 4, no. 1, iss. 796\"，您需設定為 \"inner counter = 0\" 若是 \"vol. 4, no. 2, iss. 797\"，則內部計數器應為 \"1\"。"
 
 #: ../../source/serials.rst:568
-msgid ""
-"After filling in this data click the 'Test prediction pattern' button to see "
-"what issues the system will generate, if there are irregularities you can "
-"choose which issues don't exist from the list presented."
-msgstr ""
-"填入資料後按 '測試預期模式' 鈕檢視系統產生的卷期，若出現不規則卷期可從清單選"
-"擇不存在的卷期。"
+msgid "After filling in this data click the 'Test prediction pattern' button to see what issues the system will generate, if there are irregularities you can choose which issues don't exist from the list presented."
+msgstr "填入資料後按 '測試預期模式' 鈕檢視系統產生的卷期，若出現不規則卷期可從清單選擇不存在的卷期。"
 
 #: ../../source/serials.rst:573
 msgid "|predictionpattern|"
@@ -1096,12 +885,8 @@ msgstr ""
 
 #: ../../source/serials.rst:575
 #, fuzzy
-msgid ""
-"If you have added :ref:`custom fields <additional-fields-label>`, they will "
-"be editable above the buttons at the bottom of the screen"
-msgstr ""
-"若已新增 :ref:`客製化欄位 <additional-fields-label>`，在螢幕下方的按鈕上將顯"
-"示為可編輯"
+msgid "If you have added :ref:`custom fields <additional-fields-label>`, they will be editable above the buttons at the bottom of the screen"
+msgstr "若已新增 :ref:`客製化欄位 <additional-fields-label>`，在螢幕下方的按鈕上將顯示為可編輯"
 
 #: ../../source/serials.rst:578
 msgid "Click 'Save subscription' to save the information you have entered."
@@ -1109,12 +894,8 @@ msgstr ""
 
 #: ../../source/serials.rst:582
 #, fuzzy
-msgid ""
-"`Find sample serial examples in the serial pattern library on the wiki "
-"<https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
-msgstr ""
-"按 '儲存訂閱' 鈕儲存剛才鍵入的資料。`在共筆 <https://wiki.koha-community.org/"
-"wiki/Serial_Pattern_Library>`__的期刊模式圖書館內尋找期刊的範例。"
+msgid "`Find sample serial examples in the serial pattern library on the wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr "按 '儲存訂閱' 鈕儲存剛才鍵入的資料。`在共筆 <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__的期刊模式圖書館內尋找期刊的範例。"
 
 #: ../../source/serials.rst:587
 #, fuzzy
@@ -1122,13 +903,8 @@ msgid "Editing a subscription"
 msgstr "編輯訂閱"
 
 #: ../../source/serials.rst:589
-msgid ""
-"To edit a subscription, click on 'Edit' and 'Edit subscription' from the "
-"subscription page. This will take you back to the same form as the one used "
-"when :ref:`creating a new subscription <add-a-subscription-label>`."
-msgstr ""
-"從訂閱頁面按下 '編輯' 與 '編輯訂閱'，就能編輯訂閱的內容。此作為將回至 :ref:"
-"`creating a new subscription <add-a-subscription-label>`。"
+msgid "To edit a subscription, click on 'Edit' and 'Edit subscription' from the subscription page. This will take you back to the same form as the one used when :ref:`creating a new subscription <add-a-subscription-label>`."
+msgstr "從訂閱頁面按下 '編輯' 與 '編輯訂閱'，就能編輯訂閱的內容。此作為將回至 :ref:`creating a new subscription <add-a-subscription-label>`。"
 
 #: ../../source/serials.rst:593
 #, fuzzy
@@ -1136,13 +912,8 @@ msgid "|editsubscription|"
 msgstr "編輯訂閱"
 
 #: ../../source/serials.rst:595
-msgid ""
-"You can also batch edit subscriptions. To do so, search for the "
-"subscriptions you want to change. In the results, check the boxes next to "
-"the subscriptions to edit. The link 'Edit selected serials' will appear."
-msgstr ""
-"您也可以批次編輯訂閱。先搜尋想改變的訂閱。在結果頁面，勾選待編輯的訂閱選項。"
-"將出現 '編輯選定的期刊' 連結。"
+msgid "You can also batch edit subscriptions. To do so, search for the subscriptions you want to change. In the results, check the boxes next to the subscriptions to edit. The link 'Edit selected serials' will appear."
+msgstr "您也可以批次編輯訂閱。先搜尋想改變的訂閱。在結果頁面，勾選待編輯的訂閱選項。將出現 '編輯選定的期刊' 連結。"
 
 #: ../../source/serials.rst:599 ../../source/serials.rst:949
 msgid "|serialsearchresults|"
@@ -1202,12 +973,8 @@ msgid "Receiving issues"
 msgstr "簽收期刊"
 
 #: ../../source/serials.rst:632
-msgid ""
-"Issues can be marked as received from several locations. To find a "
-"subscription, use the search box at the top of the Serials page to search "
-"for the serial you'd like to receive issues for:"
-msgstr ""
-"可從多個地簽收期刊。找到訂閱後，使用期刊頁面上方的搜尋盒找到欲簽收的期刊："
+msgid "Issues can be marked as received from several locations. To find a subscription, use the search box at the top of the Serials page to search for the serial you'd like to receive issues for:"
+msgstr "可從多個地簽收期刊。找到訂閱後，使用期刊頁面上方的搜尋盒找到欲簽收的期刊："
 
 #: ../../source/serials.rst:636 ../../source/serials.rst:933
 msgid "|subsearch|"
@@ -1215,11 +982,8 @@ msgstr ""
 
 #: ../../source/serials.rst:638
 #, fuzzy
-msgid ""
-"From the search results you can click the 'Serial receive' buton or you can "
-"click on the subscription title and then click the 'Receive' button."
-msgstr ""
-"從搜尋結果裡，可以點選 '簽收期刊' 連結；或點選訂閱題名，再按下 '收到' 鈕。"
+msgid "From the search results you can click the 'Serial receive' buton or you can click on the subscription title and then click the 'Receive' button."
+msgstr "從搜尋結果裡，可以點選 '簽收期刊' 連結；或點選訂閱題名，再按下 '收到' 鈕。"
 
 #: ../../source/serials.rst:641 ../../source/serials.rst:692
 #: ../../source/serials.rst:719 ../../source/serials.rst:770
@@ -1229,17 +993,11 @@ msgid "|subscriptiondetails|"
 msgstr "客製化訂閱欄位"
 
 #: ../../source/serials.rst:643
-msgid ""
-"The final way to receive serials is from the 'Serial collection' page. To "
-"the left of the Subscription summary page there is a menu with a link to "
-"'Serial collection'"
-msgstr ""
-"從 '期刊館藏' 頁面簽收期刊。在訂閱摘要頁面左方有個連結至 '期刊館藏' 的選單"
+msgid "The final way to receive serials is from the 'Serial collection' page. To the left of the Subscription summary page there is a menu with a link to 'Serial collection'"
+msgstr "從 '期刊館藏' 頁面簽收期刊。在訂閱摘要頁面左方有個連結至 '期刊館藏' 的選單"
 
 #: ../../source/serials.rst:647
-msgid ""
-"From the page that opens up, check the issue(s) you want to receive (the "
-"expected ones should be checked by default) and click 'Edit serials'."
+msgid "From the page that opens up, check the issue(s) you want to receive (the expected ones should be checked by default) and click 'Edit serials'."
 msgstr ""
 
 #: ../../source/serials.rst:650 ../../source/serials.rst:697
@@ -1258,56 +1016,32 @@ msgstr "簽收期刊"
 
 #: ../../source/serials.rst:656
 #, fuzzy
-msgid ""
-"Choose 'Arrived' from the status drop-down menu to mark an issue as received."
+msgid "Choose 'Arrived' from the status drop-down menu to mark an issue as received."
 msgstr "從狀態下拉選單選取 '到館'，標記已收到該期刊。"
 
 #: ../../source/serials.rst:659
-msgid ""
-"If you have decided to have an item record created for each issue an :ref:"
-"`item add form <adding-items-label>` will appear after choosing 'Arrived'. "
-"You can add multiple copies using the 'Number of copies to be made of this "
-"item' option at the bottom of the form."
-msgstr ""
-"若打算把每期都新增為一個館藏記錄，則於選取 '到館' 之後將出現 :ref:`館藏新增表"
-"單 <adding-items-label>`。可以使用表格底部的'此館藏要複製的份數'選項添加多個"
-"副本。"
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear after choosing 'Arrived'. You can add multiple copies using the 'Number of copies to be made of this item' option at the bottom of the form."
+msgstr "若打算把每期都新增為一個館藏記錄，則於選取 '到館' 之後將出現 :ref:`館藏新增表單 <adding-items-label>`。可以使用表格底部的'此館藏要複製的份數'選項添加多個副本。"
 
 #: ../../source/serials.rst:664
 msgid "|serialitem|"
 msgstr ""
 
 #: ../../source/serials.rst:666
-msgid ""
-"If your issue has a supplemental issue with it, fill in the Supplemental "
-"issue information."
+msgid "If your issue has a supplemental issue with it, fill in the Supplemental issue information."
 msgstr "填寫補篇資訊，供補篇的刊期使用。"
 
 #: ../../source/serials.rst:669
-msgid ""
-"Key the entire numbering in the box after \"Supplemental issue\" no "
-"numbering will be inherited/auto-filled from the main issue, and exactly "
-"what you key in the box after \"Supplemental issue\" will be auto-filled in "
-"the item record's Serial enumeration/chronology [MARC21 952$h] (if you "
-"create item records)."
-msgstr ""
-"在 \"補篇\" 之後的盒內鍵入完整編碼就不會從主編號取用/自動填入編號，祗取用從 "
-"\"補篇\" 之後的盒內完整編碼置於 [MARC21 952$h] (若您新增館藏紀錄)。"
+msgid "Key the entire numbering in the box after \"Supplemental issue\" no numbering will be inherited/auto-filled from the main issue, and exactly what you key in the box after \"Supplemental issue\" will be auto-filled in the item record's Serial enumeration/chronology [MARC21 952$h] (if you create item records)."
+msgstr "在 \"補篇\" 之後的盒內鍵入完整編碼就不會從主編號取用/自動填入編號，祗取用從 \"補篇\" 之後的盒內完整編碼置於 [MARC21 952$h] (若您新增館藏紀錄)。"
 
 #: ../../source/serials.rst:675
-msgid ""
-"E.g., key this in its entirety if it's what you would like displayed: \"v.69 "
-"no.3 (Mar. 2015) suppl.\""
+msgid "E.g., key this in its entirety if it's what you would like displayed: \"v.69 no.3 (Mar. 2015) suppl.\""
 msgstr "例如，若希望顯示它則鍵入完整的內容：\"v.69 no.3 (Mar. 2015) suppl.\""
 
 #: ../../source/serials.rst:678
-msgid ""
-"If you have decided to have an item record created for each issue an :ref:"
-"`item add form <adding-items-label>` will appear for your supplement and for "
-"the issue itself"
-msgstr ""
-"若打算把每期都新增為一個館藏記錄，則 :ref:`新增館藏表單 <adding-items-"
-"lablel>` 將出現供各期使用"
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear for your supplement and for the issue itself"
+msgstr "若打算把每期都新增為一個館藏記錄，則 :ref:`新增館藏表單 <adding-items-lablel>` 將出現供各期使用"
 
 #: ../../source/serials.rst:682
 msgid "Once you have entered your info you can click 'Save'"
@@ -1318,33 +1052,22 @@ msgid "Serial collection"
 msgstr "期刊館藏"
 
 #: ../../source/serials.rst:689
-msgid ""
-"Each subscription has a Serial collection page available from the main "
-"Serials menu."
+msgid "Each subscription has a Serial collection page available from the main Serials menu."
 msgstr "從期刊選單可以看到每個訂閱期刊的管理頁面。"
 
 #: ../../source/serials.rst:694
 #, fuzzy
-msgid ""
-"From this page you can manage additional tasks related to subscription "
-"issues such as receiving multiple issues and editing."
+msgid "From this page you can manage additional tasks related to subscription issues such as receiving multiple issues and editing."
 msgstr "從這個頁面可以管理重複簽收及編輯等訂閱事宜。"
 
 #: ../../source/serials.rst:699
-msgid ""
-"Clicking the Generate next button will generate the next issue for you and "
-"mark the previously expected issue as ‘Late’ automatically."
+msgid "Clicking the Generate next button will generate the next issue for you and mark the previously expected issue as ‘Late’ automatically."
 msgstr "按下產生鈕，產生下一期供館員標記並把稍早那期自動標記為 '遲到'。"
 
 #: ../../source/serials.rst:702
 #, fuzzy
-msgid ""
-"Check the box in the Edit column for one or more previous issues and then "
-"click the Edit serials button. This will bring you to the same screen as "
-"when you are :ref:`receiving issues<receive-issues-label>`. From there, you "
-"can edit the numbering, dates, status, and add notes."
-msgstr ""
-"勾選前期期刊的編輯欄，再勾選編輯期刊鈕。就可以編輯編碼、日期、狀態與說明。"
+msgid "Check the box in the Edit column for one or more previous issues and then click the Edit serials button. This will bring you to the same screen as when you are :ref:`receiving issues<receive-issues-label>`. From there, you can edit the numbering, dates, status, and add notes."
+msgstr "勾選前期期刊的編輯欄，再勾選編輯期刊鈕。就可以編輯編碼、日期、狀態與說明。"
 
 #: ../../source/serials.rst:710
 #, fuzzy
@@ -1353,24 +1076,16 @@ msgstr "新增傳閱清單"
 
 #: ../../source/serials.rst:712
 #, fuzzy
-msgid ""
-"A routing list is a list of people who receive the serial before it goes to "
-"the shelf. To enable routing lists, set your :ref:`RoutingSerials` "
-"preference to 'Use'."
-msgstr ""
-"傳閱清單是期刊上架前先給該清單上的讀者傳閱。必須先設定 :ref:`RoutingSerials`"
-"偏好為 '新增'。"
+msgid "A routing list is a list of people who receive the serial before it goes to the shelf. To enable routing lists, set your :ref:`RoutingSerials` preference to 'Use'."
+msgstr "傳閱清單是期刊上架前先給該清單上的讀者傳閱。必須先設定 :ref:`RoutingSerials`偏好為 '新增'。"
 
 #: ../../source/serials.rst:716
-msgid ""
-"When on the subscription page you will see a link to the left that reads "
-"'Create routing list' or 'Edit routing list'"
+msgid "When on the subscription page you will see a link to the left that reads 'Create routing list' or 'Edit routing list'"
 msgstr "從訂閱頁面左方可見到 '新增傳閱清單' 或 '編輯傳閱清單' 連結"
 
 #: ../../source/serials.rst:721
 #, fuzzy
-msgid ""
-"Clicking that link will bring you to the form to add a new routing list."
+msgid "Clicking that link will bring you to the form to add a new routing list."
 msgstr "勾選連結，將進入新增傳閱清單的選項。"
 
 #: ../../source/serials.rst:723
@@ -1380,13 +1095,8 @@ msgstr "新增傳閱清單"
 
 #: ../../source/serials.rst:725
 #, fuzzy
-msgid ""
-"From here, click 'Add recipients' to add users to the routing list. In the "
-"menu that appears you can filter patrons by part of their name, their "
-"library, or their patron category."
-msgstr ""
-"從此點選 '新增收件人' 把讀者加入傳閱清單。從選單裡可以用部份讀者名稱、所屬圖"
-"書館與讀者類型篩選讀者。"
+msgid "From here, click 'Add recipients' to add users to the routing list. In the menu that appears you can filter patrons by part of their name, their library, or their patron category."
+msgstr "從此點選 '新增收件人' 把讀者加入傳閱清單。從選單裡可以用部份讀者名稱、所屬圖書館與讀者類型篩選讀者。"
 
 #: ../../source/serials.rst:729
 msgid "|addtorouting|"
@@ -1394,13 +1104,8 @@ msgstr ""
 
 #: ../../source/serials.rst:731
 #, fuzzy
-msgid ""
-"Click 'Add' to the right of each name to add them to the routing list. When "
-"you have chosen all of the people for the list, click the 'Close' button to "
-"be redirected to the routing list."
-msgstr ""
-"勾選每個名稱右方的 '新增' 將新增至傳閱清單。選定所有的人加入傳閱清單時，勾選 "
-"'關閉' 連結，就轉入傳閱清單。"
+msgid "Click 'Add' to the right of each name to add them to the routing list. When you have chosen all of the people for the list, click the 'Close' button to be redirected to the routing list."
+msgstr "勾選每個名稱右方的 '新增' 將新增至傳閱清單。選定所有的人加入傳閱清單時，勾選 '關閉' 連結，就轉入傳閱清單。"
 
 #: ../../source/serials.rst:735
 #, fuzzy
@@ -1408,10 +1113,7 @@ msgid "|editroutinglist|"
 msgstr "新增傳閱清單"
 
 #: ../../source/serials.rst:737
-msgid ""
-"From this form, you can play with the order of the users and add notes. If "
-"you always add the same note, you can enter it in the :ref:`RoutingListNote` "
-"system preference."
+msgid "From this form, you can play with the order of the users and add notes. If you always add the same note, you can enter it in the :ref:`RoutingListNote` system preference."
 msgstr ""
 
 #: ../../source/serials.rst:741
@@ -1420,13 +1122,8 @@ msgstr ""
 
 #: ../../source/serials.rst:743
 #, fuzzy
-msgid ""
-"Next, you will be brought to a preview of the routing list. To print the "
-"list click 'Save and preview routing slip.' This will open a printable "
-"version of the list."
-msgstr ""
-"若傳閱清單看起來沒問題，按下 '儲存' 鈕。然後進入預覽階段。勾選 '儲存並預覽傳"
-"閱清單'。則開啟列印版本的傳閱清單。"
+msgid "Next, you will be brought to a preview of the routing list. To print the list click 'Save and preview routing slip.' This will open a printable version of the list."
+msgstr "若傳閱清單看起來沒問題，按下 '儲存' 鈕。然後進入預覽階段。勾選 '儲存並預覽傳閱清單'。則開啟列印版本的傳閱清單。"
 
 #: ../../source/serials.rst:747
 #, fuzzy
@@ -1435,23 +1132,13 @@ msgstr "新增傳閱清單"
 
 #: ../../source/serials.rst:749
 #, fuzzy
-msgid ""
-"If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing "
-"list will automatically be added to the holds list for the issue."
-msgstr ""
-"若設定 :ref:`RoutingListAddReserves` 為開啟，將把讀者自動加入傳閱清單。"
+msgid "If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing list will automatically be added to the holds list for the issue."
+msgstr "若設定 :ref:`RoutingListAddReserves` 為開啟，將把讀者自動加入傳閱清單。"
 
 #: ../../source/serials.rst:752
 #, fuzzy
-msgid ""
-"To see a list of all of the routing lists for a specific patron is visit "
-"the :ref:`routing lists tab <routing-lists-label>` on their patron record. "
-"Patrons are able to see a list of their own routing lists when logged into "
-"the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
-msgstr ""
-"進入讀者記錄的 :ref:`傳閱清單分頁 <routing-lists-label>` 就能看到該讀者參加的"
-"傳閱清單。在 :ref:`您的傳閱清單 <your-routing-lists-label:>` 分頁登入 OPAC 就"
-"能看到自己的傳閱清單。"
+msgid "To see a list of all of the routing lists for a specific patron is visit the :ref:`routing lists tab <routing-lists-label>` on their patron record. Patrons are able to see a list of their own routing lists when logged into the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
+msgstr "進入讀者記錄的 :ref:`傳閱清單分頁 <routing-lists-label>` 就能看到該讀者參加的傳閱清單。在 :ref:`您的傳閱清單 <your-routing-lists-label:>` 分頁登入 OPAC 就能看到自己的傳閱清單。"
 
 #: ../../source/serials.rst:760
 #, fuzzy
@@ -1459,9 +1146,7 @@ msgid "Subscriptions in the staff interface"
 msgstr "館員介面的訂閱"
 
 #: ../../source/serials.rst:762
-msgid ""
-"Subscription information will appear on bibliographic records under the "
-"'Subscriptions' tab"
+msgid "Subscription information will appear on bibliographic records under the 'Subscriptions' tab"
 msgstr "訂閱資訊將顯示在書目記錄的 '訂閱' 分頁"
 
 #: ../../source/serials.rst:765
@@ -1470,31 +1155,20 @@ msgstr ""
 
 #: ../../source/serials.rst:767
 #, fuzzy
-msgid ""
-"Clicking the 'Subscription details' link will take you to the Subscription "
-"summary page in the staff interface."
+msgid "Clicking the 'Subscription details' link will take you to the Subscription summary page in the staff interface."
 msgstr "按 '訂閱詳情' 連結將進入館員介面的訂閱摘要頁面。"
 
 #: ../../source/serials.rst:772
 #, fuzzy
-msgid ""
-"If you are using the :ref:`acquisitions <acquisitions-label>` module to keep "
-"track of :ref:`serial subscriptions <order-from-a-serial-subscription-"
-"label>` you will see an extra 'Acquisition details' tab in your subscription "
-"details."
-msgstr ""
-"若您使用 `採訪 <Acquisitions>` 模組追蹤 :ref:`期刊訂閱 <order-from-a-serial-"
-"subscription-label>`，就能在訂閱詳情看到 '採訪詳情' 分頁。"
+msgid "If you are using the :ref:`acquisitions <acquisitions-label>` module to keep track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you will see an extra 'Acquisition details' tab in your subscription details."
+msgstr "若您使用 `採訪 <Acquisitions>` 模組追蹤 :ref:`期刊訂閱 <order-from-a-serial-subscription-label>`，就能在訂閱詳情看到 '採訪詳情' 分頁。"
 
 #: ../../source/serials.rst:776
 msgid "|subdetails|"
 msgstr ""
 
 #: ../../source/serials.rst:780
-msgid ""
-"You can customize the columns of this table in the :ref:`'Table "
-"settings'<column-settings-label>` section of the Administration module "
-"(table id: orders)."
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: orders)."
 msgstr ""
 
 #: ../../source/serials.rst:787
@@ -1503,17 +1177,12 @@ msgid "Subscriptions in the OPAC"
 msgstr "OPAC 的訂閱"
 
 #: ../../source/serials.rst:789
-msgid ""
-"When viewing the subscription in the OPAC there will be several options. You "
-"can choose which tab appears by default with the :ref:`opacSerialDefaultTab` "
-"system preference."
+msgid "When viewing the subscription in the OPAC there will be several options. You can choose which tab appears by default with the :ref:`opacSerialDefaultTab` system preference."
 msgstr ""
 
 #: ../../source/serials.rst:793
 #, fuzzy
-msgid ""
-"Like in the staff interface, there will be a Subscriptions tab on the "
-"bibliographic record."
+msgid "Like in the staff interface, there will be a Subscriptions tab on the bibliographic record."
 msgstr "館員介面的連結，在書目記錄將出現訂閱分頁。"
 
 #: ../../source/serials.rst:796
@@ -1522,23 +1191,12 @@ msgstr ""
 
 #: ../../source/serials.rst:798
 #, fuzzy
-msgid ""
-"Under this tab will appear the number of issues you chose when :ref:`setting "
-"up the subscription <add-a-subscription-label>` or in your :ref:"
-"`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' "
-"link will provide you with additional information about the serial history. "
-"You can set the default view of the serial history in the OPAC with the :ref:"
-"`SubscriptionHistory` system preference."
-msgstr ""
-"此分頁內將顯示於設定訂閱或在您的 :ref:`OPACSerialIssueDisplayCount` 系統偏好"
-"內選定的刊期。按下 '更多詳情' 連結將出現該期刊的其他記錄。可以從 :ref:"
-"`SubscriptionHistory` 系統偏好設定 OPAC 的期刊預設內容。"
+msgid "Under this tab will appear the number of issues you chose when :ref:`setting up the subscription <add-a-subscription-label>` or in your :ref:`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' link will provide you with additional information about the serial history. You can set the default view of the serial history in the OPAC with the :ref:`SubscriptionHistory` system preference."
+msgstr "此分頁內將顯示於設定訂閱或在您的 :ref:`OPACSerialIssueDisplayCount` 系統偏好內選定的刊期。按下 '更多詳情' 連結將出現該期刊的其他記錄。可以從 :ref:`SubscriptionHistory` 系統偏好設定 OPAC 的期刊預設內容。"
 
 #: ../../source/serials.rst:805
 #, fuzzy
-msgid ""
-"There are two views, brief and full. The brief serial subscription history "
-"will show basic information regarding the subscription."
+msgid "There are two views, brief and full. The brief serial subscription history will show basic information regarding the subscription."
 msgstr "有兩種檢視：簡略與完整。簡略期刊訂閱將顯示訂閱的基本資訊"
 
 #: ../../source/serials.rst:808
@@ -1548,22 +1206,12 @@ msgstr "館員介面的訂閱"
 
 #: ../../source/serials.rst:810
 #, fuzzy
-msgid ""
-"From this brief display patrons can subscribe to be notified of new issues "
-"as they are released by clicking the 'Subscribe to email notifications of "
-"new issues' button. This link will only appear if you have chosen to notify "
-"patrons when :ref:`creating the subscription <add-a-subscription-label>`."
-msgstr ""
-"從簡略檢視讀者按下 '訂閱新到期刊電子郵件通知' 鈕就能收取新到期刊的通知。必須"
-"選擇告知讀者 :ref:`訂閱 <add-a-subscription-label>` 此連結才會生效。"
+msgid "From this brief display patrons can subscribe to be notified of new issues as they are released by clicking the 'Subscribe to email notifications of new issues' button. This link will only appear if you have chosen to notify patrons when :ref:`creating the subscription <add-a-subscription-label>`."
+msgstr "從簡略檢視讀者按下 '訂閱新到期刊電子郵件通知' 鈕就能收取新到期刊的通知。必須選擇告知讀者 :ref:`訂閱 <add-a-subscription-label>` 此連結才會生效。"
 
 #: ../../source/serials.rst:816
-msgid ""
-"You can see those who subscribe to new issue alerts by going to the "
-"subscription page in the staff client and looking on the right of the "
-"'Information' tab."
-msgstr ""
-"從館員介面的訂閱頁面右方的 '資訊' 分頁，可以檢視訂閱期刊到館通知的內容。"
+msgid "You can see those who subscribe to new issue alerts by going to the subscription page in the staff client and looking on the right of the 'Information' tab."
+msgstr "從館員介面的訂閱頁面右方的 '資訊' 分頁，可以檢視訂閱期刊到館通知的內容。"
 
 #: ../../source/serials.rst:820
 #, fuzzy
@@ -1571,9 +1219,7 @@ msgid "|subscriptiondetailsinfo|"
 msgstr "OPAC 的訂閱"
 
 #: ../../source/serials.rst:822
-msgid ""
-"Whereas the full view shows extensive details, broken out by year, regarding "
-"the subscription"
+msgid "Whereas the full view shows extensive details, broken out by year, regarding the subscription"
 msgstr "完整檢視顯示詳情，依年分排列訂閱事宜"
 
 #: ../../source/serials.rst:825
@@ -1588,24 +1234,16 @@ msgstr "催缺遲到的期刊"
 
 #: ../../source/serials.rst:832
 #, fuzzy
-msgid ""
-"Koha can send email messages to your serial vendors if you have late issues. "
-"To the left of the main serials page there is a link to 'Claims'."
-msgstr ""
-"發生遲到期刊時，Koha 可送出電子郵件給期刊供應商。在期刊首頁左方有個 '催缺' 連"
-"結"
+msgid "Koha can send email messages to your serial vendors if you have late issues. To the left of the main serials page there is a link to 'Claims'."
+msgstr "發生遲到期刊時，Koha 可送出電子郵件給期刊供應商。在期刊首頁左方有個 '催缺' 連結"
 
 #: ../../source/serials.rst:837
-msgid ""
-"The links to claims also appears to the left of the subscription detail page"
+msgid "The links to claims also appears to the left of the subscription detail page"
 msgstr "連結至催缺也顯示在訂閱詳情頁面的左方"
 
 #: ../../source/serials.rst:842
 #, fuzzy
-msgid ""
-"If you don't have a claim notice defined yet you will see a warning message "
-"that you need to first define a notice in the :ref:`Notices and slips "
-"tool<notices-and-slips-label>`."
+msgid "If you don't have a claim notice defined yet you will see a warning message that you need to first define a notice in the :ref:`Notices and slips tool<notices-and-slips-label>`."
 msgstr "沒有設定催缺通知，將看到警示訊息，應先設定該通知。"
 
 #: ../../source/serials.rst:846
@@ -1613,9 +1251,7 @@ msgid "|noclaimnotice|"
 msgstr ""
 
 #: ../../source/serials.rst:848
-msgid ""
-"Clicking 'Claims' will open a report that will ask you to choose from your "
-"various serial vendors to generate claims for late issues."
+msgid "Clicking 'Claims' will open a report that will ask you to choose from your various serial vendors to generate claims for late issues."
 msgstr "勾選 '催缺' 將開啟表單，詢問催缺的期刊供應商。"
 
 #: ../../source/serials.rst:851
@@ -1623,18 +1259,11 @@ msgid "|serialclaims|"
 msgstr ""
 
 #: ../../source/serials.rst:853
-msgid ""
-"From the list of late issues you can choose which ones you want to send a "
-"claim email to by clicking the checkbox to the left of late issue, choosing "
-"the notice template to use and clicking the 'Send notification' button."
-msgstr ""
-"從最新到館清單裡，可以選擇勾選遲到期刊、通知模版以及勾選 '送出通知' 鈕，發送"
-"催缺電子郵件。"
+msgid "From the list of late issues you can choose which ones you want to send a claim email to by clicking the checkbox to the left of late issue, choosing the notice template to use and clicking the 'Send notification' button."
+msgstr "從最新到館清單裡，可以選擇勾選遲到期刊、通知模版以及勾選 '送出通知' 鈕，發送催缺電子郵件。"
 
 #: ../../source/serials.rst:858
-msgid ""
-"You can also export the results to a CSV file by choosing a :ref:`CSV "
-"profile <csv-profiles-label>` and clicking 'Download selected claims'."
+msgid "You can also export the results to a CSV file by choosing a :ref:`CSV profile <csv-profiles-label>` and clicking 'Download selected claims'."
 msgstr ""
 
 #: ../../source/serials.rst:865
@@ -1644,13 +1273,8 @@ msgstr "檢查期刊到期日"
 
 #: ../../source/serials.rst:867
 #, fuzzy
-msgid ""
-"When adding serials you enter a subscription length, using the check "
-"expiration tool you can see when your subscriptions are about to expire. To "
-"use the tool, click the link to 'Check expiration' on the serials menu."
-msgstr ""
-"新增期刊時鍵入訂閱期限，再使用檢查到期工具可以看到訂閱的到期日。從期刊選單裡"
-"勾選 '檢查到期日' 就能使用該工具。"
+msgid "When adding serials you enter a subscription length, using the check expiration tool you can see when your subscriptions are about to expire. To use the tool, click the link to 'Check expiration' on the serials menu."
+msgstr "新增期刊時鍵入訂閱期限，再使用檢查到期工具可以看到訂閱的到期日。從期刊選單裡勾選 '檢查到期日' 就能使用該工具。"
 
 #: ../../source/serials.rst:872
 msgid "|subexpiresearch|"
@@ -1658,36 +1282,20 @@ msgstr ""
 
 #: ../../source/serials.rst:874
 #, fuzzy
-msgid ""
-"In the form that appears you need to enter at least a date to search by. You "
-"can also search by title, ISBN or library."
+msgid "In the form that appears you need to enter at least a date to search by. You can also search by title, ISBN or library."
 msgstr "在出現的表單裡至少鍵入一個日期供搜尋。"
 
 #: ../../source/serials.rst:877
-msgid ""
-"In your results you will see all subscriptions that will expire before the "
-"date you entered. From there you can choose to view the subscription further "
-"or renew it in one click."
-msgstr ""
-"可從結果裡看到所有在鍵入日期前將終止的訂購。從此可選擇檢視訂購詳情或更新內"
-"容。"
+msgid "In your results you will see all subscriptions that will expire before the date you entered. From there you can choose to view the subscription further or renew it in one click."
+msgstr "可從結果裡看到所有在鍵入日期前將終止的訂購。從此可選擇檢視訂購詳情或更新內容。"
 
 #: ../../source/serials.rst:881
 msgid "|subscriptionexpiration|"
 msgstr ""
 
 #: ../../source/serials.rst:883
-msgid ""
-"If there is more than one subscription, you can check the boxes and click on "
-"'Renew selected subscriptions' to renew all the serials. The serials will be "
-"renewed for the same amount of time as their previous subscription (i.e. if "
-"the last subscription for that serial lasted one year, the serial will be "
-"renewed for one year; if the last subscription was for 16 issues, it will be "
-"renewed for another 16 issues)."
-msgstr ""
-"若有多個訂閱，可以勾選它們並按 '續訂勾選的訂閱' 一次全部更新。將以同樣的期程"
-"續訂 (即，最後一次訂期為一年，將續訂一年；若最後一次訂期為16期，則續訂為16"
-"期)。"
+msgid "If there is more than one subscription, you can check the boxes and click on 'Renew selected subscriptions' to renew all the serials. The serials will be renewed for the same amount of time as their previous subscription (i.e. if the last subscription for that serial lasted one year, the serial will be renewed for one year; if the last subscription was for 16 issues, it will be renewed for another 16 issues)."
+msgstr "若有多個訂閱，可以勾選它們並按 '續訂勾選的訂閱' 一次全部更新。將以同樣的期程續訂 (即，最後一次訂期為一年，將續訂一年；若最後一次訂期為16期，則續訂為16期)。"
 
 #: ../../source/serials.rst:890
 msgid "|batchrenew|"
@@ -1699,18 +1307,12 @@ msgid "Renewing subscriptions"
 msgstr "續訂期刊"
 
 #: ../../source/serials.rst:897
-msgid ""
-"If your serial subscription has expired you won't be able to receive issues. "
-"To renew your subscription you can click the 'Renew' button at the top of "
-"your subscription detail page."
-msgstr ""
-"若期刊已到期就不會收到新的期刊。可以從訂閱詳情頁面上方的 '續訂' 鈕執行續訂工"
-"作。"
+msgid "If your serial subscription has expired you won't be able to receive issues. To renew your subscription you can click the 'Renew' button at the top of your subscription detail page."
+msgstr "若期刊已到期就不會收到新的期刊。可以從訂閱詳情頁面上方的 '續訂' 鈕執行續訂工作。"
 
 #: ../../source/serials.rst:903
 #, fuzzy
-msgid ""
-"Once you click the 'Renew' button you will be presented with renewal options."
+msgid "Once you click the 'Renew' button you will be presented with renewal options."
 msgstr "點選 '續借' 連結或鈕將出現續借的選項。"
 
 #: ../../source/serials.rst:906
@@ -1725,9 +1327,7 @@ msgstr "開始日期應是訂閱期間的開始日期。"
 
 #: ../../source/serials.rst:910
 #, fuzzy
-msgid ""
-"Subscription length: enter the number of issues, weeks or months your "
-"subscription lasts"
+msgid "Subscription length: enter the number of issues, weeks or months your subscription lasts"
 msgstr "'訂閱期限' 即訂閱期數或月數。也可用於續訂警示"
 
 #: ../../source/serials.rst:913
@@ -1737,9 +1337,7 @@ msgstr "'圖書館' 是擁有該訂閱的分館。"
 
 #: ../../source/serials.rst:915
 #, fuzzy
-msgid ""
-"Note for the librarian that will manage your renewal request: enter any "
-"notes you might have about this renewal."
+msgid "Note for the librarian that will manage your renewal request: enter any notes you might have about this renewal."
 msgstr "最後鍵入與此續訂有關的說明。"
 
 #: ../../source/serials.rst:918
@@ -1747,11 +1345,7 @@ msgid "Click 'Submit'."
 msgstr ""
 
 #: ../../source/serials.rst:920
-msgid ""
-"If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, "
-"renewing a subscription will create a purchase suggestion in the :ref:"
-"`acquisitions module<acquisitions-label>` so that your acquisitions staff "
-"can manage it."
+msgid "If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, renewing a subscription will create a purchase suggestion in the :ref:`acquisitions module<acquisitions-label>` so that your acquisitions staff can manage it."
 msgstr ""
 
 #: ../../source/serials.rst:928
@@ -1759,15 +1353,11 @@ msgid "Searching serials"
 msgstr "搜尋期刊"
 
 #: ../../source/serials.rst:930
-msgid ""
-"Once in the Serials module there is basic search box at the top that you can "
-"use to find subscriptions using any part of the ISSN and/or title."
+msgid "Once in the Serials module there is basic search box at the top that you can use to find subscriptions using any part of the ISSN and/or title."
 msgstr "期刊模組上方有搜尋盒可以用 ISSN 或題名搜尋期刊的訂閱事宜。"
 
 #: ../../source/serials.rst:935
-msgid ""
-"You can also click the 'Advanced search' link to the right of the 'Submit' "
-"button to do a more thorough search of your serials."
+msgid "You can also click the 'Advanced search' link to the right of the 'Submit' button to do a more thorough search of your serials."
 msgstr "點選 '送出' 鈕右方的 '進階搜尋' 連結，即可搜尋您的期刊。"
 
 #: ../../source/serials.rst:938
@@ -1776,21 +1366,12 @@ msgstr ""
 
 #: ../../source/serials.rst:942
 #, fuzzy
-msgid ""
-"If you have :ref:`additional fields<additional-fields-label>` that are "
-"searchable, they will appear in this form."
-msgstr ""
-"若已新增 :ref:`客製化欄位 <additional-fields-label>`，在螢幕下方的按鈕上將顯"
-"示為可編輯"
+msgid "If you have :ref:`additional fields<additional-fields-label>` that are searchable, they will appear in this form."
+msgstr "若已新增 :ref:`客製化欄位 <additional-fields-label>`，在螢幕下方的按鈕上將顯示為可編輯"
 
 #: ../../source/serials.rst:945
-msgid ""
-"From your results you can filter by using the search boxes at the bottom of "
-"each column and adjust the number of results using the toolbar at the top of "
-"the results set."
-msgstr ""
-"可從結果頁面搜尋盒下方的欄位篩選結果，並且以結果上方的工具列調整顯示的結果"
-"數。"
+msgid "From your results you can filter by using the search boxes at the bottom of each column and adjust the number of results using the toolbar at the top of the results set."
+msgstr "可從結果頁面搜尋盒下方的欄位篩選結果，並且以結果上方的工具列調整顯示的結果數。"
 
 #~ msgid "|image738|"
 #~ msgstr "|image738|"
@@ -1804,13 +1385,8 @@ msgstr ""
 #~ msgid "**Note**"
 #~ msgstr "**說明**"
 
-#~ msgid ""
-#~ "It will also allow you to create a new numbering pattern without first "
-#~ "adding a subscription. To add new new pattern click 'New numbering "
-#~ "pattern' at the top of the list of patterns."
-#~ msgstr ""
-#~ "也允許您在未新增訂閱前提下新增編期模式。點選模式清單上方的 '新增編期模式' "
-#~ "就能新增編期。"
+#~ msgid "It will also allow you to create a new numbering pattern without first adding a subscription. To add new new pattern click 'New numbering pattern' at the top of the list of patterns."
+#~ msgstr "也允許您在未新增訂閱前提下新增編期模式。點選模式清單上方的 '新增編期模式' 就能新增編期。"
 
 #~ msgid "|image741|"
 #~ msgstr "|image741|"
@@ -1833,14 +1409,8 @@ msgstr ""
 #~ msgid "|image745|"
 #~ msgstr "|image745|"
 
-#~ msgid ""
-#~ "This can be done by searching for an existing record by clicking on the "
-#~ "'Search for record' link below the boxes or by entering the biblionumber "
-#~ "for a record in the first box. Only if you search will the field between "
-#~ "the parenthesis be filled in."
-#~ msgstr ""
-#~ "點選盒之下的 '搜尋書目' 連結或在第一個盒鍵入書目號，都能搜尋既有的紀錄。祗"
-#~ "有搜尋欄位才需用到括號。"
+#~ msgid "This can be done by searching for an existing record by clicking on the 'Search for record' link below the boxes or by entering the biblionumber for a record in the first box. Only if you search will the field between the parenthesis be filled in."
+#~ msgstr "點選盒之下的 '搜尋書目' 連結或在第一個盒鍵入書目號，都能搜尋既有的紀錄。祗有搜尋欄位才需用到括號。"
 
 #~ msgid "|image1277|"
 #~ msgstr "|image1277|"
@@ -1854,25 +1424,14 @@ msgstr ""
 #~ msgid "|image747|"
 #~ msgstr "|image747|"
 
-#~ msgid ""
-#~ "Without periodicy: some very specific (usually high level science "
-#~ "journals) don't have a true periodicity. When you subscribe to the title, "
-#~ "you subscribe for 6 issues, which can arrive in 1 year... or 2... There "
-#~ "is no regularity or known schedule."
-#~ msgstr ""
-#~ "無定期性：部份期刊(通常是極高階的科學期刊)沒有真的定期性。訂購它們時，指的"
-#~ "是訂購期數，不知道一年出版幾期，沒有定期。"
+#~ msgid "Without periodicy: some very specific (usually high level science journals) don't have a true periodicity. When you subscribe to the title, you subscribe for 6 issues, which can arrive in 1 year... or 2... There is no regularity or known schedule."
+#~ msgstr "無定期性：部份期刊(通常是極高階的科學期刊)沒有真的定期性。訂購它們時，指的是訂購期數，不知道一年出版幾期，沒有定期。"
 
 #~ msgid "Unknown select this if none of the other choices are relevant"
 #~ msgstr "若其他的選項都無關，選擇其他"
 
-#~ msgid ""
-#~ "Irregular: The journal is not \"regular\" but has a periodicity. You know "
-#~ "that it comes out on January, then in October and December, it is "
-#~ "irregular, but you know when it's going to arrive."
-#~ msgstr ""
-#~ "不定期：此學刊是定期性的不 \"規則\"。例如定期在 1 月、10 月與 12 月不規則"
-#~ "的出刊。"
+#~ msgid "Irregular: The journal is not \"regular\" but has a periodicity. You know that it comes out on January, then in October and December, it is irregular, but you know when it's going to arrive."
+#~ msgstr "不定期：此學刊是定期性的不 \"規則\"。例如定期在 1 月、10 月與 12 月不規則的出刊。"
 
 #~ msgid "2/day: Twice daily"
 #~ msgstr "2/天：一天兩次"
@@ -1901,9 +1460,7 @@ msgstr ""
 #~ msgid "1/ 3 months (1/quarter): Quarterly"
 #~ msgstr "1/3 月(1/季)：季刊"
 
-#~ msgid ""
-#~ "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, "
-#~ "Winter, Spring)"
+#~ msgid "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, Winter, Spring)"
 #~ msgstr "1/季(季節性)：與季節有關 (如：春、夏、秋、冬)"
 
 #~ msgid "2/year: Half yearly"
@@ -1915,36 +1472,22 @@ msgstr ""
 #~ msgid "1/ 2 years: Bi-annual"
 #~ msgstr "1/ 2 年：半年刊"
 
-#~ msgid ""
-#~ "You can choose to create your own numbering pattern by choosing 'None of "
-#~ "the above' and clicking the 'Show/hide advanced pattern' button at the "
-#~ "bottom of the form"
-#~ msgstr ""
-#~ "選擇 '以上皆非' 再點選表單下方的 '顯示/隱藏進階模式' 鈕就能新增自己的編碼"
-#~ "模式"
+#~ msgid "You can choose to create your own numbering pattern by choosing 'None of the above' and clicking the 'Show/hide advanced pattern' button at the bottom of the form"
+#~ msgstr "選擇 '以上皆非' 再點選表單下方的 '顯示/隱藏進階模式' 鈕就能新增自己的編碼模式"
 
 #~ msgid "|image748|"
 #~ msgstr "|image748|"
 
-#~ msgid ""
-#~ "The 'Locale' option is useful when you want to display days, month or "
-#~ "season. For example, if you have a German serial, you can use the German "
-#~ "locale option to display days, etc. in German."
-#~ msgstr ""
-#~ "顯示日、月或季時此 'Locale' 選項就有用。例如：館藏德國的期刊，就可以選用德"
-#~ "國的選項。"
+#~ msgid "The 'Locale' option is useful when you want to display days, month or season. For example, if you have a German serial, you can use the German locale option to display days, etc. in German."
+#~ msgstr "顯示日、月或季時此 'Locale' 選項就有用。例如：館藏德國的期刊，就可以選用德國的選項。"
 
 #~ msgid "|image1278|"
 #~ msgstr "|image1278|"
 
-#~ msgid ""
-#~ "The 'Begins with' number is the number of the issue you're holding in "
-#~ "your hand."
+#~ msgid "The 'Begins with' number is the number of the issue you're holding in your hand."
 #~ msgstr "此 '開始號碼' 是在館的期刊編號。"
 
-#~ msgid ""
-#~ "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" "
-#~ "starts"
+#~ msgid "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" starts"
 #~ msgstr "在 '內部計數' 告知 Koha \"簽收週期\" 開始的地方"
 
 #~ msgid "|image749|"
@@ -1971,9 +1514,7 @@ msgstr ""
 #~ msgid "|image752|"
 #~ msgstr "|image752|"
 
-#~ msgid ""
-#~ "From the page that opens up you can click 'Edit serial' with the issue "
-#~ "you want to receive checked."
+#~ msgid "From the page that opens up you can click 'Edit serial' with the issue you want to receive checked."
 #~ msgstr "從開啟的頁面裡可以勾選 '編輯期刊' 簽收到館期刊。"
 
 #~ msgid "|image753|"
@@ -1991,17 +1532,13 @@ msgstr ""
 #~ msgid "|image1438|"
 #~ msgstr "|image1438|"
 
-#~ msgid ""
-#~ "Click on the Multi receiving button to bulk receive future issues of a "
-#~ "subscription."
+#~ msgid "Click on the Multi receiving button to bulk receive future issues of a subscription."
 #~ msgstr "按下簽收多個鈕就能批次簽收期刊。"
 
 #~ msgid "|image1439|"
 #~ msgstr "|image1439|"
 
-#~ msgid ""
-#~ "You can choose how many issues to receive and whether to set the received "
-#~ "date to the current date."
+#~ msgid "You can choose how many issues to receive and whether to set the received date to the current date."
 #~ msgstr "您可選定簽收的期數以及簽收的日期。"
 
 #~ msgid "|image757|"
@@ -2028,8 +1565,7 @@ msgstr ""
 #~ msgid "|image764|"
 #~ msgstr "|image764|"
 
-#~ msgid ""
-#~ "When viewing the subscription in the OPAC there will be several options."
+#~ msgid "When viewing the subscription in the OPAC there will be several options."
 #~ msgstr "檢視 OPAC 的訂閱時將出現多個選項。"
 
 #~ msgid "|image765|"
@@ -2071,9 +1607,7 @@ msgstr ""
 #~ msgid "|image775|"
 #~ msgstr "|image775|"
 
-#~ msgid ""
-#~ "Another option is to click the 'Renew' link to the right of the "
-#~ "subscription on the Serial collection page."
+#~ msgid "Another option is to click the 'Renew' link to the right of the subscription on the Serial collection page."
 #~ msgstr "另個選項是按期刊館藏頁面訂閱右方的 '續訂' 連結。"
 
 #~ msgid "|image776|"
@@ -2082,9 +1616,7 @@ msgstr ""
 #~ msgid "|image777|"
 #~ msgstr "|image777|"
 
-#~ msgid ""
-#~ "For the subscription length you'll want to fill in one of the three "
-#~ "fields presented: Number of issues, Number of months or Number of weeks."
+#~ msgid "For the subscription length you'll want to fill in one of the three fields presented: Number of issues, Number of months or Number of weeks."
 #~ msgstr "有三種方式決定訂閱期：期數、月份或週數。"
 
 #~ msgid "|image778|"
@@ -2096,93 +1628,64 @@ msgstr ""
 #~ msgid "|image780|"
 #~ msgstr "|image780|"
 
-#~ msgid ""
-#~ "If you are receiving multiple issues at once, or have marked an issue as "
-#~ "'Late' or 'Missing' there you can click the 'Generate next' button below "
-#~ "the list of issues."
-#~ msgstr ""
-#~ "同時收到多筆刊期，或已標記某期為 '脫期' 或 '遺失' 可勾選 '產生下一期' 鈕。"
+#~ msgid "If you are receiving multiple issues at once, or have marked an issue as 'Late' or 'Missing' there you can click the 'Generate next' button below the list of issues."
+#~ msgstr "同時收到多筆刊期，或已標記某期為 '脫期' 或 '遺失' 可勾選 '產生下一期' 鈕。"
 
 #~ msgid "|image756|"
 #~ msgstr "|image756|"
 
-#~ msgid ""
-#~ "This module will allow you to add custom fields to your serial "
-#~ "subscriptions for reporting and searching."
+#~ msgid "This module will allow you to add custom fields to your serial subscriptions for reporting and searching."
 #~ msgstr "此模組新增客製化欄位至期刊訂閱供報表與搜尋使用。"
 
 #~ msgid "*Get there:* Serials > Add subscription fields"
 #~ msgstr "*到那：* 期刊 > 新增訂閱欄位"
 
-#~ msgid ""
-#~ "To add custom fields simply click the 'Add subscription fields' link on "
-#~ "the left of the Serial page and choose the 'New fields' button"
-#~ msgstr ""
-#~ "按期刊頁面左方的 '新增訂閱欄位' 並選擇 '新增欄位' 鈕，就能客製化欄位"
+#~ msgid "To add custom fields simply click the 'Add subscription fields' link on the left of the Serial page and choose the 'New fields' button"
+#~ msgstr "按期刊頁面左方的 '新增訂閱欄位' 並選擇 '新增欄位' 鈕，就能客製化欄位"
 
 #~ msgid "|image1271|"
 #~ msgstr "|image1271|"
 
-#~ msgid ""
-#~ "The form that appears will ask for either an authorized value or a MARC "
-#~ "field to populate the field with"
+#~ msgid "The form that appears will ask for either an authorized value or a MARC field to populate the field with"
 #~ msgstr "顯示的表單要求鍵入容許值或 MARC 欄位"
 
 #~ msgid "Name: enter the name of the field"
 #~ msgstr "名稱：鍵入欄位的名稱"
 
-#~ msgid ""
-#~ "Authorized value category: you can use :ref:`authorized values "
-#~ "<authorized-values-label>` to fill in this field."
-#~ msgstr ""
-#~ "容許值範疇：您可在此欄位使用 :ref:`容許值 <authorized-values-label>`。"
+#~ msgid "Authorized value category: you can use :ref:`authorized values <authorized-values-label>` to fill in this field."
+#~ msgstr "容許值範疇：您可在此欄位使用 :ref:`容許值 <authorized-values-label>`。"
 
-#~ msgid ""
-#~ "MARC field: enter a MARC field that will be used to fill in this new field"
+#~ msgid "MARC field: enter a MARC field that will be used to fill in this new field"
 #~ msgstr "MARC 欄位：在此新欄位鍵入 MARC 欄位"
 
 #~ msgid "You can only choose one of the two options."
 #~ msgstr "您祗能二選一。"
 
-#~ msgid ""
-#~ "If you choose the authorized value option, you will be able to fill in "
-#~ "the new field upon the :ref:`creation <add-a-subscription-label>` or :ref:"
-#~ "`modification <edit-subscription-label>` of the subscription."
-#~ msgstr ""
-#~ "若從容許值選項中挑選，可以在新欄位中填入 :ref:`新增 <add-a-subscription-"
-#~ "label>` 或 :ref:`修改 <edit-subscription-label>` 訂閱。"
+#~ msgid "If you choose the authorized value option, you will be able to fill in the new field upon the :ref:`creation <add-a-subscription-label>` or :ref:`modification <edit-subscription-label>` of the subscription."
+#~ msgstr "若從容許值選項中挑選，可以在新欄位中填入 :ref:`新增 <add-a-subscription-label>` 或 :ref:`修改 <edit-subscription-label>` 訂閱。"
 
-#~ msgid ""
-#~ "If you choose the MARC option, the field will be automatically populated "
-#~ "with the corresponding record's value for this MARC field."
+#~ msgid "If you choose the MARC option, the field will be automatically populated with the corresponding record's value for this MARC field."
 #~ msgstr "若選擇 MARC 選項，此欄位將自動填入對映紀錄的值給 MARC 欄位。"
 
 #~ msgid "**Important**"
 #~ msgstr "**重要**"
 
-#~ msgid ""
-#~ "If you choose the MARC field, make sure you enter it in this format: field"
-#~ "$subfield"
+#~ msgid "If you choose the MARC field, make sure you enter it in this format: field$subfield"
 #~ msgstr "若選擇 MARC 欄位，必須使用此格式：欄位$分欄"
 
 #~ msgid "For example: 515$a"
 #~ msgstr "如：515$5"
 
-#~ msgid ""
-#~ "Searchable: check this box if you want to be able to search your "
-#~ "subscriptions using this field"
+#~ msgid "Searchable: check this box if you want to be able to search your subscriptions using this field"
 #~ msgstr "可搜尋：勾選它就能使用此欄位搜尋您的訂閱。"
 
 #~ msgid "|image1272|"
 #~ msgstr "|image1272|"
 
-#~ msgid ""
-#~ "**Example 1:** Additional field using :ref:`authorized values <authorized-"
-#~ "values-label>`"
+#~ msgid "**Example 1:** Additional field using :ref:`authorized values <authorized-values-label>`"
 #~ msgstr "**範例1：** 其他欄位使用 :ref:`容許值 <authorized-values-label>`"
 
-#~ msgid ""
-#~ "You might want to track which department you're ordering this serial for"
+#~ msgid "You might want to track which department you're ordering this serial for"
 #~ msgstr "您可追蹤訂閱此期刊的系所"
 
 #~ msgid "In the 'Name' field, enter 'Department'"
@@ -2197,22 +1700,16 @@ msgstr ""
 #~ msgid "|image1273|"
 #~ msgstr "|image1273|"
 
-#~ msgid ""
-#~ "When you are adding a subscription, the field will be in the 'Additional "
-#~ "fields' section with its authorized values drop-down menu."
+#~ msgid "When you are adding a subscription, the field will be in the 'Additional fields' section with its authorized values drop-down menu."
 #~ msgstr "新增訂閱後，此欄位將出現在 '其他欄位' 區塊附帶下拉的容許值選單。"
 
-#~ msgid ""
-#~ "When you view the subscription, the field will appear under 'Additional "
-#~ "fields'."
+#~ msgid "When you view the subscription, the field will appear under 'Additional fields'."
 #~ msgstr "檢視訂閱時，此欄位將出現在 '其他欄位'。"
 
 #~ msgid "|image1275|"
 #~ msgstr "|image1275|"
 
-#~ msgid ""
-#~ "Because we made the field searchable, it will also be in the serials "
-#~ "subscription search."
+#~ msgid "Because we made the field searchable, it will also be in the serials subscription search."
 #~ msgstr "因為將此欄位設定為可搜尋，所以同時可以從期刊訂閱搜尋它。"
 
 #~ msgid "|image1276|"
@@ -2221,13 +1718,8 @@ msgstr ""
 #~ msgid "**Example 2:** Additional field using MARC field"
 #~ msgstr "**範例 2 ：**使用 MARC 的其他欄位"
 
-#~ msgid ""
-#~ "This is particularly useful if you want to view bibliographic information "
-#~ "in the subscription detail page. In this example, we will add the 521$a "
-#~ "field, which is, in MARC21, the target audience note."
-#~ msgstr ""
-#~ "於訂閱詳情頁面檢視書目資訊時特別有用。在此範例中，新增 MARC 21 的欄位 "
-#~ "521$a 加入適用讀者註。"
+#~ msgid "This is particularly useful if you want to view bibliographic information in the subscription detail page. In this example, we will add the 521$a field, which is, in MARC21, the target audience note."
+#~ msgstr "於訂閱詳情頁面檢視書目資訊時特別有用。在此範例中，新增 MARC 21 的欄位 521$a 加入適用讀者註。"
 
 #~ msgid "In the 'Name' field, enter 'Target audience'"
 #~ msgstr "在 '姓名' 欄位，鍵入 '適用讀者'"
@@ -2235,29 +1727,20 @@ msgstr ""
 #~ msgid "In the 'MARC field' field, enter '521$a'"
 #~ msgstr "在 'MARC 欄位'，鍵入 '521$a'"
 
-#~ msgid ""
-#~ "You will not be able to edit this field from the subscription form. If "
-#~ "you need to add or change the value in this field, you must go through "
-#~ "the :ref:`cataloging module <cataloging-label>`."
-#~ msgstr ""
-#~ "不能從訂閱表單編輯此欄位。請經由 :ref:`cataloging module <cataloging-"
-#~ "label>` 新增或變更此欄位的值。"
+#~ msgid "You will not be able to edit this field from the subscription form. If you need to add or change the value in this field, you must go through the :ref:`cataloging module <cataloging-label>`."
+#~ msgstr "不能從訂閱表單編輯此欄位。請經由 :ref:`cataloging module <cataloging-label>` 新增或變更此欄位的值。"
 
-#~ msgid ""
-#~ "When you view the subscription, the field and the information from the "
-#~ "bibliographic record will appear under 'Additional fields'."
+#~ msgid "When you view the subscription, the field and the information from the bibliographic record will appear under 'Additional fields'."
 #~ msgstr "檢視訂閱時，書目紀錄內的欄位及資訊將顯示在 '其他欄位' 下。"
 
 #~ msgid "|image1380|"
 #~ msgstr "|image1380|"
 
-#~ msgid ""
-#~ "This data will then show when you are adding a subscriptionAdd field value"
+#~ msgid "This data will then show when you are adding a subscriptionAdd field value"
 #~ msgstr "新增訂閱時顯示此資料|Add field value"
 
 #~ msgid "and when you view the subscription"
 #~ msgstr "以及檢視訂閱時"
 
-#~ msgid ""
-#~ "and when you search subscriptions (if you chose to make it 'searchable')"
+#~ msgid "and when you search subscriptions (if you chose to make it 'searchable')"
 #~ msgstr "且當您搜尋訂閱 (若您選定為 '可搜尋') 時"

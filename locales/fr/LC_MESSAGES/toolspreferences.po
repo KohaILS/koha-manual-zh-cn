@@ -7,301 +7,317 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-10-23 15:20+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man20.11/toolspreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1635002426.962631\n"
 
 #: ../../source/toolspreferences.rst:6
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #: ../../source/toolspreferences.rst:8
 msgid "*Get there:* More > Administration > Global System Preferences > Tools"
-msgstr ""
+msgstr "*Aller à :* Plus > Administration > Préférences système > Outils"
 
 #: ../../source/toolspreferences.rst:13
 msgid "Barcodes"
-msgstr ""
+msgstr "Codes à barres"
 
 #: ../../source/toolspreferences.rst:18
 msgid "BarcodeSeparators"
-msgstr ""
+msgstr "BarcodeSeparators"
 
 #: ../../source/toolspreferences.rst:20
 msgid "Default: \\\\s\\\\r\\\\n"
-msgstr ""
+msgstr "Par défaut : \\\\s\\\\r\\\\n"
 
 #: ../../source/toolspreferences.rst:22
-msgid ""
-"Asks: Split barcodes on the following separator chars \\_\\_\\_ in batch "
-"item modification and inventory."
+msgid "Asks: Split barcodes on the following separator chars \\_\\_\\_ in batch item modification and inventory."
 msgstr ""
+"Action : Séparer les codes à barres avec les caractère suivants \\_\\_\\_ "
+"lors de modification par lots d'exemplaires ou l'inventaire."
 
 #: ../../source/toolspreferences.rst:25 ../../source/toolspreferences.rst:70
 #: ../../source/toolspreferences.rst:86 ../../source/toolspreferences.rst:102
 #: ../../source/toolspreferences.rst:147
 msgid "Description:"
-msgstr ""
+msgstr "Description :"
 
 #: ../../source/toolspreferences.rst:27
-msgid ""
-"When importing barcode files in the :ref:`inventory tool <inventory-tool-"
-"label>` or the :ref:`batch item modification tool <batch-item-modification-"
-"label>` you can decide which character separates each barcode."
+msgid "When importing barcode files in the :ref:`inventory tool <inventory-tool-label>` or the :ref:`batch item modification tool <batch-item-modification-label>` you can decide which character separates each barcode."
 msgstr ""
+"Lors de l'importation de fichiers de codes à barres dans :ref:`l'outil "
+"d'inventaire <inventory-tool-label>` ou dans :ref:`l'outil de modification "
+"d'exemplaires par lot <batch-item-modification-label>`, vous pouvez décider "
+"quel caractère sépare chaque code à barres."
 
 #: ../../source/toolspreferences.rst:31
 msgid "**Important**"
-msgstr ""
+msgstr "**Important**"
 
 #: ../../source/toolspreferences.rst:33
 msgid "You must use the regular expression codes for the characters."
 msgstr ""
+"Vous devez utiliser les codes d'expression régulière pour les caractères."
 
 #: ../../source/toolspreferences.rst:35
 msgid "\\\\s is used for a whitespace"
-msgstr ""
+msgstr "\\\\s est utilisé pour un espace"
 
 #: ../../source/toolspreferences.rst:37
 msgid "\\\\r is used for a carriage return"
-msgstr ""
+msgstr "\\\\r est utilisé pour un retour chariot"
 
 #: ../../source/toolspreferences.rst:39
 msgid "\\\\n is used for a new line"
 msgstr ""
+"\\\\n"
+" est utilisé pour une nouvelle ligne"
 
 #: ../../source/toolspreferences.rst:41
 msgid "\\\t is used for a tab"
-msgstr ""
+msgstr "\\\t est utilisé pour une tabulation"
 
 #: ../../source/toolspreferences.rst:43
-msgid ""
-"Make sure you escape the other characters you put in there by preceding them "
-"with a backslash"
+msgid "Make sure you escape the other characters you put in there by preceding them with a backslash"
 msgstr ""
+"Assurez-vous d'échapper les autres caractères saisis en les faisant précéder "
+"d'un antislash"
 
 #: ../../source/toolspreferences.rst:46
 msgid "\\\\. instead of a dot"
-msgstr ""
+msgstr "\\\\. est utilisé pour un point"
 
 #: ../../source/toolspreferences.rst:48
 msgid "\\\\\\ instead of a backslash"
-msgstr ""
+msgstr "\\\\\\ est utilisé pour un antislash"
 
 #: ../../source/toolspreferences.rst:50
 msgid "\\\\- instead of a hyphen"
-msgstr ""
+msgstr "\\\\- est utilisé pour un trait d'union"
 
 #: ../../source/toolspreferences.rst:55
 msgid "Batch item"
-msgstr ""
+msgstr "Lot d'exemplaires"
 
 #: ../../source/toolspreferences.rst:57
-msgid ""
-"These preferences are in reference to the :ref:`Batch item modification "
-"<batch-item-modification-label>` and :ref:`Batch item deletion <batch-item-"
-"deletion-label>` tools."
+msgid "These preferences are in reference to the :ref:`Batch item modification <batch-item-modification-label>` and :ref:`Batch item deletion <batch-item-deletion-label>` tools."
 msgstr ""
+"Ces préférences font référence aux outils de :ref:`modification "
+"d'exemplaires par lots <batch-item-modification-label>` et de :ref:`"
+"suppression d'exemplaires par lots <batch-item-deletion-label>`."
 
 #: ../../source/toolspreferences.rst:64
 msgid "MaxItemsToDisplayForBatchDel"
-msgstr ""
+msgstr "MaxItemsToDisplayForBatchDel"
 
 #: ../../source/toolspreferences.rst:66 ../../source/toolspreferences.rst:82
 #: ../../source/toolspreferences.rst:98
 msgid "Default: 1000"
-msgstr ""
+msgstr "Valeur par défaut : 1000"
 
 #: ../../source/toolspreferences.rst:68
 msgid "Asks: Display up to \\_\\_\\_ items in a single item deletion batch."
 msgstr ""
+"Action : Afficher jusqu'à \\_\\_\\_ exemplaires dans un seul lot de "
+"suppression d'exemplaires."
 
 #: ../../source/toolspreferences.rst:72
-msgid ""
-"In the :ref:`batch item delete tool <batch-item-deletion-label>` this will "
-"prevent the display of more than the items you entered in this preference, "
-"but you will be able to delete more than the number you enter here."
+msgid "In the :ref:`batch item delete tool <batch-item-deletion-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to delete more than the number you enter here."
 msgstr ""
+"Dans :ref:'l'outil de suppression d'exemplaires par lot <batch-item-deletion-"
+"label>', cela évitera d'afficher plus d'exemplaires que le nombre défini par "
+"cette préférence, mais vous pourrez supprimer plus d'exemplaires que la "
+"valeur saisie ici."
 
 #: ../../source/toolspreferences.rst:80
 msgid "MaxItemsToDisplayForBatchMod"
-msgstr ""
+msgstr "MaxItemsToDisplayForBatchMod"
 
 #: ../../source/toolspreferences.rst:84
-msgid ""
-"Asks: Display up to \\_\\_\\_ items in a single item modification batch."
+msgid "Asks: Display up to \\_\\_\\_ items in a single item modification batch."
 msgstr ""
+"Action : Afficher jusqu'à \\_\\_\\_ exemplaires dans un seul lot de "
+"modification d'exemplaires."
 
 #: ../../source/toolspreferences.rst:88
-msgid ""
-"In the :ref:`batch item modification tool <batch-item-modification-label>` "
-"this will prevent the display of more than the items you entered in this "
-"preference, but you will be able to modify more than the number you enter "
-"here (see :ref:`MaxItemsToProcessForBatchMod`)."
+msgid "In the :ref:`batch item modification tool <batch-item-modification-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to modify more than the number you enter here (see :ref:`MaxItemsToProcessForBatchMod`)."
 msgstr ""
+"Dans :ref:'l'outil de modification d'exemplaires par lot <batch-item-"
+"modification-label>', cela évitera d'afficher plus d'exemplaires que le "
+"nombre défini par cette préférence, mais vous pourrez modifier plus "
+"d'exemplaires que la valeur saisie ici (voir "
+":ref:'MaxItemsToProcessForBatchMod`)."
 
 #: ../../source/toolspreferences.rst:96
 msgid "MaxItemsToProcessForBatchMod"
-msgstr ""
+msgstr "MaxItemsToProcessForBatchMod"
 
 #: ../../source/toolspreferences.rst:100
 msgid "Asks: Process up to \\_\\_\\_ items in a single modification batch."
 msgstr ""
+"Action : Traiter jusqu'à \\_\\_\\_ exemplaires dans un seul lot de "
+"modification d'exemplaires."
 
 #: ../../source/toolspreferences.rst:104
-msgid ""
-"In the :ref:`batch item modification tool <batch-item-modification-label>` "
-"this preference will prevent the editing of more than the number entered "
-"here."
+msgid "In the :ref:`batch item modification tool <batch-item-modification-label>` this preference will prevent the editing of more than the number entered here."
 msgstr ""
+"Dans :ref:'l'outil de modification d'exemplaires par lot <batch-item-"
+"modification-label>', cette préférence évitera la modification de plus de "
+"notices que la valeur saisie ici."
 
 #: ../../source/toolspreferences.rst:111
 msgid "News"
-msgstr ""
+msgstr "Annonces"
 
 #: ../../source/toolspreferences.rst:116
 msgid "NewsAuthorDisplay"
-msgstr ""
+msgstr "NewsAuthorDisplay"
 
 #: ../../source/toolspreferences.rst:118
 msgid "Default: not at all"
-msgstr ""
+msgstr "Par défaut : pas du tout"
 
 #: ../../source/toolspreferences.rst:120
 msgid "Asks: Show the author for news items: \\_\\_\\_"
-msgstr ""
+msgstr "Action : Afficher l'auteur des annonces : \\_\\_\\_"
 
 #: ../../source/toolspreferences.rst:122 ../../source/toolspreferences.rst:141
 msgid "Values:"
-msgstr ""
+msgstr "Valeurs :"
 
 #: ../../source/toolspreferences.rst:124
 msgid "Both OPAC and staff client"
-msgstr ""
+msgstr "A l'OPAC et dans l'interface professionnelle"
 
 #: ../../source/toolspreferences.rst:126
 msgid "Not at all"
-msgstr ""
+msgstr "Pas du tout"
 
 #: ../../source/toolspreferences.rst:128
 msgid "OPAC only"
-msgstr ""
+msgstr "uniquement à l'OPAC"
 
 #: ../../source/toolspreferences.rst:130
 msgid "Staff client only"
-msgstr ""
+msgstr "uniquement dans l'interface professionnelle"
 
 #: ../../source/toolspreferences.rst:135
 msgid "NewsToolEditor"
-msgstr ""
+msgstr "NewsToolEditor"
 
 #: ../../source/toolspreferences.rst:137
 msgid "Asks: By default edit news items with"
-msgstr ""
+msgstr "Action : Par défaut, modifier les annonces avec"
 
 #: ../../source/toolspreferences.rst:139
 msgid "Default: a WYSIWYG editor (TinyMCE)"
-msgstr ""
+msgstr "Valeur par défaut : un éditeur WYSIWYG (TinyMCE)"
 
 #: ../../source/toolspreferences.rst:143
 msgid "a text editor (CodeMirror)"
-msgstr ""
+msgstr "un éditeur de texte (CodeMirror)"
 
 #: ../../source/toolspreferences.rst:145
 msgid "a WYSIWYG editor (TinyMCE)"
-msgstr ""
+msgstr "un éditeur WYSIWYG (TinyMCE)"
 
 #: ../../source/toolspreferences.rst:149
-msgid ""
-"This system preference allows you to choose which editor to use in the :ref:"
-"`news tool <news-label>`."
+msgid "This system preference allows you to choose which editor to use in the :ref:`news tool <news-label>`."
 msgstr ""
+"Cette préférence système vous permet de choisir quel éditeur utiliser dans "
+":ref:'l'outil Annonces <news-label>'."
 
 #: ../../source/toolspreferences.rst:152
-msgid ""
-"A text editor will let you write HTML directly. Use this if you want more "
-"control over how your content will be displayed."
+msgid "A text editor will let you write HTML directly. Use this if you want more control over how your content will be displayed."
 msgstr ""
+"Un éditeur de texte vous permet de rédiger directement en HTML. Retenir "
+"cette option si vous préférez mieux définir la forme du contenu qui sera "
+"affiché."
 
 #: ../../source/toolspreferences.rst:155
 msgid "**Note**"
-msgstr ""
+msgstr "**Note**"
 
 #: ../../source/toolspreferences.rst:157
-msgid ""
-"You can use CSS id's and classes in your HTML and format them with the :ref:"
-"`OPACUserCSS` system preference."
+msgid "You can use CSS id's and classes in your HTML and format them with the :ref:`OPACUserCSS` system preference."
 msgstr ""
+"Vous pouvez utiliser les id et class CSS dans votre HTML et les formater "
+"avec la préférence système :ref:'OPACUserCSS`."
 
 #: ../../source/toolspreferences.rst:160
-msgid ""
-"A WYSIWYG (what you see is what you get) editor is a user-friendly editor "
-"with functions similar to word processing software. Use this if you are "
-"unfamiliar with HTML."
+msgid "A WYSIWYG (what you see is what you get) editor is a user-friendly editor with functions similar to word processing software. Use this if you are unfamiliar with HTML."
 msgstr ""
+"Un éditeur WYSIWYG (what you see is what you get - ce que vous voyez est ce "
+"que vous obtenez) est un éditeur convivial avec des fonctions similaires à "
+"un traitement de texte. Utilisez-le si vous n'êtes pas à l'aise avec HTML."
 
 #: ../../source/toolspreferences.rst:167
 msgid "Patron Cards"
-msgstr ""
+msgstr "Cartes d'adhérent"
 
 #: ../../source/toolspreferences.rst:169
-msgid ""
-"These preferences are in reference to the :ref:`Patron Card Creator <patron-"
-"card-creator-label>` tool."
+msgid "These preferences are in reference to the :ref:`Patron Card Creator <patron-card-creator-label>` tool."
 msgstr ""
+"Ces préférences systèmes font référence à l'outil :ref:`créateur de cartes "
+"adhérent <patron-card-creator-label>`."
 
 #: ../../source/toolspreferences.rst:175
 msgid "ImageLimit"
-msgstr ""
+msgstr "ImageLimit"
 
 #: ../../source/toolspreferences.rst:177
-msgid ""
-"Asks: Limit the number of creator images stored in the database to \\_\\_\\_ "
-"images."
+msgid "Asks: Limit the number of creator images stored in the database to \\_\\_\\_ images."
 msgstr ""
+"Action : Limiter le nombre d'images stockées dans la base de données à \\_\\"
+"_\\_ images."
 
 #: ../../source/toolspreferences.rst:183
 msgid "Reports"
-msgstr ""
+msgstr "Rapports"
 
 #: ../../source/toolspreferences.rst:185
 msgid "These preferences are in reference to the Reports module."
-msgstr ""
+msgstr "Ces préférences sont en lien avec le module Rapports."
 
 #: ../../source/toolspreferences.rst:190
 msgid "NumSavedReports"
-msgstr ""
+msgstr "NumSavedReports"
 
 #: ../../source/toolspreferences.rst:192
 msgid "Default: 20"
-msgstr ""
+msgstr "Par défaut : 20"
 
 #: ../../source/toolspreferences.rst:194
 msgid "Asks: By default, show \\_\\_\\_ reports on the Saved Reports page."
 msgstr ""
+"Action : Par défaut, afficher \\_\\_\\_ rapports sur la page des Rapports "
+"sauvegardés."
 
 #: ../../source/toolspreferences.rst:199
 msgid "Upload"
-msgstr ""
+msgstr "Téléverser"
 
 #: ../../source/toolspreferences.rst:204
 msgid "UploadPurgeTemporaryFilesDays"
-msgstr ""
+msgstr "UploadPurgeTemporaryFilesDays"
 
 #: ../../source/toolspreferences.rst:206
 msgid "Default: blank"
-msgstr ""
+msgstr "Valeur par défaut : vide"
 
 #: ../../source/toolspreferences.rst:208
-msgid ""
-"Asks: Automatically delete temporary uploads older than \\_\\_\\_ days in "
-"cleanup_database cron job."
+msgid "Asks: Automatically delete temporary uploads older than \\_\\_\\_ days in cleanup_database cron job."
 msgstr ""
+"Action : Supprime automatiquement les téléversements plus vieux que \\_\\_\\"
+"_ jours avec le cron job cleanup_database."

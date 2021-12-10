@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2021-01-20 21:24+0000\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-03-20 00:26+0000\n"
 "Last-Translator: Olga <orodriguez@duncanville.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1611177897.604574\n"
+"X-POOTLE-MTIME: 1616199963.005561\n"
 "X-Pootle-Path: /es/man20.11/ILL_requests.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -25,95 +25,50 @@ msgid "ILL requests / Interlibrary loans"
 msgstr "Solicitudes ILL / préstamos interbibliotecarios"
 
 #: ../../source/ILL_requests.rst:8
-#, fuzzy
-msgid ""
-"The ILL (Interlibrary loans) requests module adds the ability to request and "
-"manage loans or copies of material from external sources. Patrons can submit "
-"a request via the OPAC from the :ref:`your interlibrary loan requests <your-"
-"interlibrary-loan-requests-label>` tab of their account.  Library staff can "
-"then review and process those requests.  Alternatively staff can place "
-"requests themselves from the staff client."
+msgid "The ILL (Interlibrary loans) requests module adds the ability to request and manage loans or copies of material from external sources. Patrons can submit a request via the OPAC from the :ref:`your interlibrary loan requests <your-interlibrary-loan-requests-label>` tab of their account.  Library staff can then review and process those requests.  Alternatively staff can place requests themselves from the staff client."
 msgstr ""
 "El módulo de solicitudes de ILL (Préstamos interbibliotecarios) le da la "
 "posibilidad de solicitar y administrar préstamos o copias de material desde "
 "fuentes externas. Los socios envían un formulario de solicitud desde el OPAC "
-"para su revisión y procesamiento por parte del personal de la biblioteca. "
-"Así mismo, el personal de la biblioteca puede realizar dichas solicitudes "
-"desde la interfaz de la intranet."
+":ref:'su solicitud de prestamo interbibliotecario <your-interlibrary-loan-"
+"requests-label>' en el tabulador de su cuenta. El personal de la biblioteca "
+"puede entonces revisar y procesar esas solicitudes.  Altenativamente el "
+"personal puede realizar dichas solicitudes desde la interfaz de la intranet."
 
 #: ../../source/ILL_requests.rst:13
 msgid "Set up"
 msgstr "Configuración"
 
 #: ../../source/ILL_requests.rst:15
-msgid ""
-"Before using the ILL requests module you will want to make sure that you "
-"have completed all of the set up."
-msgstr ""
-"Antes de utilizar el módulo de ILL asegúrese de haber completado toda la "
-"configuración."
+msgid "Before using the ILL requests module you will want to make sure that you have completed all of the set up."
+msgstr "Antes de utilizar el módulo de ILL asegúrese de haber completado toda la configuración."
 
 #: ../../source/ILL_requests.rst:17
-msgid ""
-"The ILL requests module can be configured for different types of requests "
-"and workflows known as backends. Currently available backends are documented "
-"on the Koha community wiki at https://wiki.koha-community.org/wiki/"
-"ILL_backends. You will need to configure at least one backend."
-msgstr ""
-"El módulo de solicitudes de ILL puede ser configurado para diferentes tipos "
-"de solicitudes y flujos de trabajo conocidos como backends. Los backends "
-"actualmente disponibles están documentados en el wiki de la comunidad de "
-"Koha en https://wiki.koha-community.org/wiki/ILL_backends. Necesitará "
-"configurar al menos un backend."
+msgid "The ILL requests module can be configured for different types of requests and workflows known as backends. Currently available backends are documented on the Koha community wiki at https://wiki.koha-community.org/wiki/ILL_backends. You will need to configure at least one backend."
+msgstr "El módulo de solicitudes de ILL puede ser configurado para diferentes tipos de solicitudes y flujos de trabajo conocidos como backends. Los backends actualmente disponibles están documentados en el wiki de la comunidad de Koha en https://wiki.koha-community.org/wiki/ILL_backends. Necesitará configurar al menos un backend."
 
 #: ../../source/ILL_requests.rst:19
-msgid ""
-"Next, set your :ref:`system preferences for interlibrary loans <interlibrary-"
-"loans-label>`."
+msgid "Next, set your :ref:`system preferences for interlibrary loans <interlibrary-loans-label>`."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:21
-msgid ""
-"Library staff responsible for ILL requests need the following permission set "
-"on their account: *ill: Create and modify Interlibrary loan requests*."
-msgstr ""
-"El personal de la biblioteca responsable de las solicitudes de préstamo "
-"interbibliotecario necesita que se establezca el siguiente permiso en su "
-"cuenta: *ill: Crear y modificar solicitudes de préstamo interbibliotecario*."
+msgid "Library staff responsible for ILL requests need the following permission set on their account: *ill: Create and modify Interlibrary loan requests*."
+msgstr "El personal de la biblioteca responsable de las solicitudes de préstamo interbibliotecario necesita que se establezca el siguiente permiso en su cuenta: *ill: Crear y modificar solicitudes de préstamo interbibliotecario*."
 
 #: ../../source/ILL_requests.rst:23
-msgid ""
-"The ILL requests module uses system defined statuses. You can add custom "
-"statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values "
-"<authorized-values-label>`."
-msgstr ""
-"El módulo de solicitudes de Préstamo Interbibliotecario utiliza estados "
-"definidos por el sistema. Puede agregar estados personalizados para que "
-"coincidan con su flujo de trabajo de Préstamo Interbibliotecario como "
-"ILLSTATUS :ref:`valores autorizados <authorized-values-labels>`."
+msgid "The ILL requests module uses system defined statuses. You can add custom statuses to match your ILL workflow as ILLSTATUS :ref:`authorized values <authorized-values-label>`."
+msgstr "El módulo de solicitudes de Préstamo Interbibliotecario utiliza estados definidos por el sistema. Puede agregar estados personalizados para que coincidan con su flujo de trabajo de Préstamo Interbibliotecario como ILLSTATUS :ref:`valores autorizados <authorized-values-labels>`."
 
 #: ../../source/ILL_requests.rst:28
 msgid "ILL email notifications"
 msgstr ""
 
 #: ../../source/ILL_requests.rst:30
-msgid ""
-"Email notifications can be sent to ILL staff when a patron makes a request "
-"to modify or cancel an existing request.  The notice templates are "
-"ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address "
-"can be configured per library.  If this is not set the :ref:"
-"`ILLDefaultStaffEmail` system preference will be used."
+msgid "Email notifications can be sent to ILL staff when a patron makes a request to modify or cancel an existing request.  The notice templates are ILL_REQUEST_CANCEL and ILL_REQUEST_MODIFIED.  The ILL staff email address can be configured per library.  If this is not set the :ref:`ILLDefaultStaffEmail` system preference will be used."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:33
-msgid ""
-"Notifications can also be sent to patrons for requests that are either "
-"available for pick-up or are unavailable and have been cancelled.  The "
-"notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The "
-"notifications are enabled from the :ref:`patron categories <patron-"
-"categories-label>` default patron messaging preferences.  You can customise "
-"the notice text for these notices in :ref:`Notices & slips <notices-and-"
-"slips-label>` in the Tools module."
+msgid "Notifications can also be sent to patrons for requests that are either available for pick-up or are unavailable and have been cancelled.  The notice templates are ILL_PICKUP_READY and ILL_REQUEST_UNAVAIL.  The notifications are enabled from the :ref:`patron categories <patron-categories-label>` default patron messaging preferences.  You can customise the notice text for these notices in :ref:`Notices & slips <notices-and-slips-label>` in the Tools module."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:39
@@ -130,14 +85,11 @@ msgstr "|image1386|"
 
 #: ../../source/ILL_requests.rst:45
 msgid "Choose ‘New ILL request’ and then Freeform."
-msgstr ""
-"Elija 'Nueva solicitud de Préstamo Interbibliotecario' y luego Forma libre."
+msgstr "Elija 'Nueva solicitud de Préstamo Interbibliotecario' y luego Forma libre."
 
 #: ../../source/ILL_requests.rst:48
 msgid "The images shown here are for the FreeFrom backend only."
-msgstr ""
-"Las imágenes que se muestran aquí son para la FormaLibre de backend "
-"solamente."
+msgstr "Las imágenes que se muestran aquí son para la FormaLibre de backend solamente."
 
 #: ../../source/ILL_requests.rst:50
 msgid "|image1387|"
@@ -148,12 +100,8 @@ msgid "Enter a Type: Book, Article, Journal, Other."
 msgstr "Introduzca un Tipo: Libro, Artículo, Publicación, Otro."
 
 #: ../../source/ILL_requests.rst:54
-msgid ""
-"In the next two sections enter as much as information as you can including "
-"chapter/article/part if applicable."
-msgstr ""
-"En las dos secciones siguientes introduzca toda la información que pueda, "
-"incluyendo el capítulo/artículo/parte si es aplicable."
+msgid "In the next two sections enter as much as information as you can including chapter/article/part if applicable."
+msgstr "En las dos secciones siguientes introduzca toda la información que pueda, incluyendo el capítulo/artículo/parte si es aplicable."
 
 #: ../../source/ILL_requests.rst:56
 msgid "|image1388|"
@@ -164,34 +112,20 @@ msgid "Add custom fields, for example if you wished to add a note."
 msgstr "Añada campos personalizados, por ejemplo si desea añadir una nota."
 
 #: ../../source/ILL_requests.rst:60
-msgid ""
-"Under the borrower options enter the library branch you would like the "
-"request to be sent to."
-msgstr ""
-"Debajo de las opciones del prestatario, introduzca la sucursal de la "
-"biblioteca a la que desea que se envíe la petición."
+msgid "Under the borrower options enter the library branch you would like the request to be sent to."
+msgstr "Debajo de las opciones del prestatario, introduzca la sucursal de la biblioteca a la que desea que se envíe la petición."
 
 #: ../../source/ILL_requests.rst:62
 #, fuzzy
 msgid "Click on ‘Create’ and you will be shown a Request details summary page."
-msgstr ""
-"Haga clic en 'Create' y se le mostrará una página de resumen de los detalles "
-"de la Solicitud. Haga clic en el botón 'Confirm request' y verá el siguiente "
-"mensaje de confirmación:"
+msgstr "Haga clic en 'Create' y se le mostrará una página de resumen de los detalles de la Solicitud. Haga clic en el botón 'Confirm request' y verá el siguiente mensaje de confirmación:"
 
 #: ../../source/ILL_requests.rst:65
-msgid ""
-"If you have enabled the :ref:`ILLCheckAvailability` system preference and "
-"installed plugins for the staff interface you will be presented with search "
-"results.  The user can click on a link to a relevant resource if found or "
-"proceed with the ILL request.  If no results are found the ILL is completed "
-"in the usual way."
+msgid "If you have enabled the :ref:`ILLCheckAvailability` system preference and installed plugins for the staff interface you will be presented with search results.  The user can click on a link to a relevant resource if found or proceed with the ILL request.  If no results are found the ILL is completed in the usual way."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:69
-msgid ""
-"You can now process your request as explained in Managing ILL requests "
-"section or return to the list of ILL requests."
+msgid "You can now process your request as explained in Managing ILL requests section or return to the list of ILL requests."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:75
@@ -200,60 +134,38 @@ msgstr "Ver solicitudes de PIB"
 
 #: ../../source/ILL_requests.rst:77
 #, fuzzy
-msgid ""
-"From the main ILL requests screen you can view, filter and sort your ILL "
-"requests.  You can use the :ref:`ILLHiddenRequestStatuses` preference to "
-"hide completed statuses by default.  You can also click on the ‘List "
-"requests’ button at any time to return to this list."
-msgstr ""
-"Desde la pantalla principal de solicitudes de PIB puede ver todas las "
-"solicitudes de PIB. Tambien puede hacer clic en el boton 'View request' en "
-"cualquier momento."
+msgid "From the main ILL requests screen you can view, filter and sort your ILL requests.  You can use the :ref:`ILLHiddenRequestStatuses` preference to hide completed statuses by default.  You can also click on the ‘List requests’ button at any time to return to this list."
+msgstr "Desde la pantalla principal de solicitudes de PIB puede ver todas las solicitudes de PIB. Tambien puede hacer clic en el boton 'View request' en cualquier momento."
 
 #: ../../source/ILL_requests.rst:80
 msgid "|image1435|"
 msgstr "|image1435|"
 
 #: ../../source/ILL_requests.rst:82
-#, fuzzy
-msgid ""
-"There is a large amount of data available in the Requests table so it is "
-"advisable to make use of :ref:`Table settings <table-settings-label>` "
-"section of the Administration module (table id: ill-requests) to view only "
-"the information you need. The first half of the table displays data related "
-"to the ILL item itself such as title, volume, page numbers."
+msgid "There is a large amount of data available in the Requests table so it is advisable to make use of :ref:`Table settings <table-settings-label>` section of the Administration module (table id: ill-requests) to view only the information you need. The first half of the table displays data related to the ILL item itself such as title, volume, page numbers."
 msgstr ""
 "Hay un gran cantidad de datos disponibles en la tabla de Solicitudes se les "
-"recomienda hacer uso de la visibilidad de la columna para ver solamente la "
-"información que necesite. La primera mitad de la tabla muestra datos "
-"relacionados a los ejemplares de PIB tales como título, volumen, número de "
-"páginas."
+"recomienda hacer uso del módulo de la sección de administración (table id"
+":ill-requests) :ref:'Tabla de ajustes <table-settings-label>' para ver "
+"solamente la información que necesite. La primera mitad de la tabla muestra "
+"datos relacionados a los ejemplares de PIB tales como título, volumen, "
+"número de páginas."
 
 #: ../../source/ILL_requests.rst:88
 msgid "|image1436|"
 msgstr "|image1436|"
 
 #: ../../source/ILL_requests.rst:90
-msgid ""
-"The second half of the table displays data related to the request such as "
-"notes and comments."
-msgstr ""
-"La segunda mitad de la tabla muestra datos relacionados a la solicitud tales "
-"como notas y comentarios."
+msgid "The second half of the table displays data related to the request such as notes and comments."
+msgstr "La segunda mitad de la tabla muestra datos relacionados a la solicitud tales como notas y comentarios."
 
 #: ../../source/ILL_requests.rst:97
 msgid "Managing ILL requests"
 msgstr "Gestionando solicitudes de PIB"
 
 #: ../../source/ILL_requests.rst:99
-msgid ""
-"Click on the ‘Manage request’ button in the final column. Depending on the "
-"current status of the request you may see some or all of the following "
-"options:"
-msgstr ""
-"Haga clic en el botón 'Manage request' en la columna final. Dependiendo del "
-"estado corriente de la solicitud podrá ver algunos o todas las siguientes "
-"opciones:"
+msgid "Click on the ‘Manage request’ button in the final column. Depending on the current status of the request you may see some or all of the following options:"
+msgstr "Haga clic en el botón 'Manage request' en la columna final. Dependiendo del estado corriente de la solicitud podrá ver algunos o todas las siguientes opciones:"
 
 #: ../../source/ILL_requests.rst:102
 msgid "Edit request"
@@ -261,36 +173,24 @@ msgstr "Editar solicitud"
 
 #: ../../source/ILL_requests.rst:104
 #, fuzzy
-msgid ""
-"you can edit the borrowernumber, biblionumber, branch and can add notes.  If "
-"you have added custom ILL statuses you can also edit these."
-msgstr ""
-"Usted puede editar el númeroprestamista, biblionúmero, sucursal y agregar "
-"notas."
+msgid "you can edit the borrowernumber, biblionumber, branch and can add notes.  If you have added custom ILL statuses you can also edit these."
+msgstr "Usted puede editar el númeroprestamista, biblionúmero, sucursal y agregar notas."
 
 #: ../../source/ILL_requests.rst:106
 msgid "Confirm request"
 msgstr "Confirmar solicitud"
 
 #: ../../source/ILL_requests.rst:108
-msgid ""
-"place the request with a document supply service using a backend such as "
-"BLDSS."
-msgstr ""
-"colocar la solicitud con un servicio de suministro de documentos utilizando "
-"un backend como el BLDSS."
+msgid "place the request with a document supply service using a backend such as BLDSS."
+msgstr "colocar la solicitud con un servicio de suministro de documentos utilizando un backend como el BLDSS."
 
 #: ../../source/ILL_requests.rst:109 ../../source/ILL_requests.rst:170
 msgid "Place request with partners"
 msgstr "Ponga la petición con asociados"
 
 #: ../../source/ILL_requests.rst:111
-msgid ""
-"place the request via email with a :ref:`partner library <place-request-with-"
-"partners-label>`"
-msgstr ""
-"ponga la petición via correo electrónico con la referencia :ref:'biblioteca "
-"asociada<place-request-with-partners-label>'"
+msgid "place the request via email with a :ref:`partner library <place-request-with-partners-label>`"
+msgstr "ponga la petición via correo electrónico con la referencia :ref:'biblioteca asociada<place-request-with-partners-label>'"
 
 #: ../../source/ILL_requests.rst:112
 msgid "Switch provider"
@@ -305,25 +205,16 @@ msgid "Delete"
 msgstr "Borrar"
 
 #: ../../source/ILL_requests.rst:117
-msgid ""
-"fully delete the request. Details of deleted requests are not retained in "
-"Koha."
-msgstr ""
-"borrar completamente la petición. Detalles de la petición borrada no son "
-"retenidos en Koha."
+msgid "fully delete the request. Details of deleted requests are not retained in Koha."
+msgstr "borrar completamente la petición. Detalles de la petición borrada no son retenidos en Koha."
 
 #: ../../source/ILL_requests.rst:118
 msgid "Revert request"
 msgstr "Revertir solicitud"
 
 #: ../../source/ILL_requests.rst:120
-msgid ""
-"following a status of ‘Requested’ or ‘Requested from partners’ library staff "
-"can cancel the request from the external source. The status reverts to ‘New’"
-msgstr ""
-"siguiendo un estado de 'Petición' o 'Pedido de los asociados' el personal "
-"podra cancelar la petición de una fuente externa. El estado se revierte a "
-"'Nuevo'"
+msgid "following a status of ‘Requested’ or ‘Requested from partners’ library staff can cancel the request from the external source. The status reverts to ‘New’"
+msgstr "siguiendo un estado de 'Petición' o 'Pedido de los asociados' el personal podra cancelar la petición de una fuente externa. El estado se revierte a 'Nuevo'"
 
 #: ../../source/ILL_requests.rst:122
 msgid "Mark completed"
@@ -339,30 +230,16 @@ msgstr "Editar metadatos del ejemplar"
 
 #: ../../source/ILL_requests.rst:127
 #, fuzzy
-msgid ""
-"Dependent on the backend used for the request you may be able to edit, add "
-"or delete some or all of the request metadata.  For example, if the metdata "
-"has originated from a requestor using the FreeForm backend this may need to "
-"be edited, whereas metadata from an external recognised source such as BLDSS "
-"should not."
-msgstr ""
-"Dependiendo del backend usado para la petición usted puede editar, agregar o "
-"borrar alguna o todo los metadatos de la petición.  Por ejemplo, si el "
-"metadatos se origino de un petición usando el backend FreeForm esto puede "
-"ser editado, mientras que el metadatos de una fuente externa reconocible "
-"como BLDSS no se debe editar."
+msgid "Dependent on the backend used for the request you may be able to edit, add or delete some or all of the request metadata.  For example, if the metdata has originated from a requestor using the FreeForm backend this may need to be edited, whereas metadata from an external recognised source such as BLDSS should not."
+msgstr "Dependiendo del backend usado para la petición usted puede editar, agregar o borrar alguna o todo los metadatos de la petición.  Por ejemplo, si el metadatos se origino de un petición usando el backend FreeForm esto puede ser editado, mientras que el metadatos de una fuente externa reconocible como BLDSS no se debe editar."
 
 #: ../../source/ILL_requests.rst:132
 msgid "Display supplier metadata"
 msgstr "Mostrar metadatos del proveedor"
 
 #: ../../source/ILL_requests.rst:134
-msgid ""
-"Displays any extra metadata that might have been provided by your ILL "
-"supplier that has not been included in the standard request fields."
-msgstr ""
-"Muestra cualquier metadatos extra que pudieron ser provistos por su "
-"proveedor de PIB que no ha sido incluido en los campos estándar de petición."
+msgid "Displays any extra metadata that might have been provided by your ILL supplier that has not been included in the standard request fields."
+msgstr "Muestra cualquier metadatos extra que pudieron ser provistos por su proveedor de PIB que no ha sido incluido en los campos estándar de petición."
 
 #: ../../source/ILL_requests.rst:136
 #, fuzzy
@@ -378,29 +255,15 @@ msgid "Comments"
 msgstr "Comentarios"
 
 #: ../../source/ILL_requests.rst:141
-msgid ""
-"It is possible to add comments to an ILL request and these can be used by "
-"ILL staff to keep track of work undertaken. Comments are read only and are "
-"stored in chronological order. They display the borrower details and date of "
-"the comment. If present, the number of comments is displayed in the List "
-"requests view."
-msgstr ""
-"Es posible agregar comentarios a una petición de PIB y estas pueden ser "
-"usadas por el personal del PIB para seguir el trabajo realizado. Los "
-"comentarios son leídos solamente y se guardan en orden cronológico. Ellos "
-"muestran los detalles del prestatario y la fecha del comentario. Si esta "
-"presente, el numero de comentarios se muestra en la pantalla de lista de "
-"peticiones."
+msgid "It is possible to add comments to an ILL request and these can be used by ILL staff to keep track of work undertaken. Comments are read only and are stored in chronological order. They display the borrower details and date of the comment. If present, the number of comments is displayed in the List requests view."
+msgstr "Es posible agregar comentarios a una petición de PIB y estas pueden ser usadas por el personal del PIB para seguir el trabajo realizado. Los comentarios son leídos solamente y se guardan en orden cronológico. Ellos muestran los detalles del prestatario y la fecha del comentario. Si esta presente, el numero de comentarios se muestra en la pantalla de lista de peticiones."
 
 #: ../../source/ILL_requests.rst:146
 msgid "Checkout"
 msgstr ""
 
 #: ../../source/ILL_requests.rst:148
-msgid ""
-"This option is only available if you have the :ref:`CirculateILL` preference "
-"enabled.  See the :ref:`Circulating ILL materials <circulating-ILL-material-"
-"label>` section."
+msgid "This option is only available if you have the :ref:`CirculateILL` preference enabled.  See the :ref:`Circulating ILL materials <circulating-ILL-material-label>` section."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:153
@@ -429,10 +292,8 @@ msgid "Request reverted"
 msgstr "Solicitud revertida"
 
 #: ../../source/ILL_requests.rst:161
-msgid ""
-"Cancellation requested – a patron has requested cancellation from the OPAC."
-msgstr ""
-"Petición de cancelacion - un usuario ha pedido la cancelacion desde el OPAC"
+msgid "Cancellation requested – a patron has requested cancellation from the OPAC."
+msgstr "Petición de cancelacion - un usuario ha pedido la cancelacion desde el OPAC"
 
 #: ../../source/ILL_requests.rst:162
 msgid "Completed"
@@ -447,55 +308,32 @@ msgid "Returned to Library"
 msgstr ""
 
 #: ../../source/ILL_requests.rst:172
-msgid ""
-"If you have a network of partner libraries which permit ILL requests you can "
-"manage this through Koha. First you need to create your partner library "
-"accounts:"
-msgstr ""
-"Si usted tiene una red de bibliotecas asociadas que permiten peticiones de "
-"PIB usted puede manejar esto por medio de Koha. Primero usted necesita crear "
-"las cuentas de sus bibliotecas asociadas:"
+msgid "If you have a network of partner libraries which permit ILL requests you can manage this through Koha. First you need to create your partner library accounts:"
+msgstr "Si usted tiene una red de bibliotecas asociadas que permiten peticiones de PIB usted puede manejar esto por medio de Koha. Primero usted necesita crear las cuentas de sus bibliotecas asociadas:"
 
 #: ../../source/ILL_requests.rst:174
-msgid ""
-"You will need to set up a :ref:`patron category <patron-categories-label>` "
-"with the code ILLLIBS."
-msgstr ""
-"Necesitara configurar :ref:'categoría de usuario <patron-categories-label>' "
-"con el código ILLLIBS."
+msgid "You will need to set up a :ref:`patron category <patron-categories-label>` with the code ILLLIBS."
+msgstr "Necesitara configurar :ref:'categoría de usuario <patron-categories-label>' con el código ILLLIBS."
 
 #: ../../source/ILL_requests.rst:176
-msgid ""
-"You will need to create a patron account with this category for each partner "
-"library."
-msgstr ""
-"Usted necesitara crear una cuenta de usuario con esta categoríad oara cada "
-"biblioteca asociada."
+msgid "You will need to create a patron account with this category for each partner library."
+msgstr "Usted necesitara crear una cuenta de usuario con esta categoríad oara cada biblioteca asociada."
 
 #: ../../source/ILL_requests.rst:178
-#, fuzzy
-msgid ""
-"Each library must have an email address as this will be the mechanism for "
-"sending the inter-library loan request.  The notice template is "
-"ILL_PARTNER_REQ and the text can be customised from :ref:`Notices & slips "
-"<notices-and-slips-label>` in the Tools module."
+msgid "Each library must have an email address as this will be the mechanism for sending the inter-library loan request.  The notice template is ILL_PARTNER_REQ and the text can be customised from :ref:`Notices & slips <notices-and-slips-label>` in the Tools module."
 msgstr ""
 "Cada biblioteca debe tener una dirección de correo electrónico ya que este "
-"será el mecanismo para enviar la petición de préstamo interbibliotecario."
+"será el mecanismo para enviar la petición de préstamo interbibliotecario.  "
+"La plantilla de aviso es ILL_PARTNER_REQ y el texto puede ser personalizado "
+"desde :ref:Avisos y recibos <notices-and-slips-label> en el módulo de "
+"herramientas."
 
 #: ../../source/ILL_requests.rst:181
-msgid ""
-"You can now use the 'Place request with partners' option when processing "
-"requests."
-msgstr ""
-"Ahora puede utilizar la opción 'Poner la petición con los socios' al "
-"procesar las peticiones."
+msgid "You can now use the 'Place request with partners' option when processing requests."
+msgstr "Ahora puede utilizar la opción 'Poner la petición con los socios' al procesar las peticiones."
 
 #: ../../source/ILL_requests.rst:184
-msgid ""
-"If you have enabled the :ref:`ILLCheckAvailability` preference enabled you "
-"can use plugins to search the catalogues of your partner libraries using "
-"Z39.50 prior to confirming the request with a partner."
+msgid "If you have enabled the :ref:`ILLCheckAvailability` preference enabled you can use plugins to search the catalogues of your partner libraries using Z39.50 prior to confirming the request with a partner."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:190
@@ -503,18 +341,11 @@ msgid "Circulating ILL materials"
 msgstr ""
 
 #: ../../source/ILL_requests.rst:192
-msgid ""
-"If you have enabled the :ref:`CirculateILL` preference you can checkout ILL "
-"items directly from the ILL request."
+msgid "If you have enabled the :ref:`CirculateILL` preference you can checkout ILL items directly from the ILL request."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:194
-msgid ""
-"When you create a *Book* type request a brief catalogue record is created "
-"automatically based on the Fast Add MARC framework. Once a request has a "
-"suitable status, a Checkout button is displayed on the Manage request "
-"toolbar. Clicking this will enable the user to check out the item either to "
-"the user who made the request or an in-house statistical patron."
+msgid "When you create a *Book* type request a brief catalogue record is created automatically based on the Fast Add MARC framework. Once a request has a suitable status, a Checkout button is displayed on the Manage request toolbar. Clicking this will enable the user to check out the item either to the user who made the request or an in-house statistical patron."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:197
@@ -526,31 +357,19 @@ msgid "Click on the Checkout button."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:201
-msgid ""
-"Select an item type when prompted.  An item is created automatically which "
-"is attached to the biblio record that was created for the request.  The "
-"barcode of the item is in the format ILL-requestid."
+msgid "Select an item type when prompted.  An item is created automatically which is attached to the biblio record that was created for the request.  The barcode of the item is in the format ILL-requestid."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:204
-msgid ""
-"Next, at the patron checkout screen select a due date.  If you do not select "
-"a due date the relevant circulation rule will be used to calculate the due "
-"date."
+msgid "Next, at the patron checkout screen select a due date.  If you do not select a due date the relevant circulation rule will be used to calculate the due date."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:207
-msgid ""
-"Once the item is checked out the status of the request is changed to "
-"'Checked out' and after it has been checked in the status updates to "
-"'Returned to library'."
+msgid "Once the item is checked out the status of the request is changed to 'Checked out' and after it has been checked in the status updates to 'Returned to library'."
 msgstr ""
 
 #: ../../source/ILL_requests.rst:210
-msgid ""
-"Bibliographic records created as part of an ILL request will have an extra "
-"tab in the holdings table for that allows you to link back to the request in "
-"the ILL module."
+msgid "Bibliographic records created as part of an ILL request will have an extra tab in the holdings table for that allows you to link back to the request in the ILL module."
 msgstr ""
 
 #~ msgid "Next, set your system preferences."
@@ -559,13 +378,8 @@ msgstr ""
 #~ msgid "Set the :ref:`ILLModule` preference to ‘Enable’."
 #~ msgstr "Ponga la preferencia de :ref:`ILLModule` a 'habilitar'."
 
-#~ msgid ""
-#~ "If you wish to include a copyright declaration in your ILL workflow you "
-#~ "can this in the :ref:`ILLModuleCopyrightClearance` preference."
-#~ msgstr ""
-#~ "Si desea incluir una declaración de derechos de autor en su flujo de "
-#~ "trabajo de ILL puede hacerlo en la preferencia :ref:"
-#~ "`ILLModuleCopyrightClearance`."
+#~ msgid "If you wish to include a copyright declaration in your ILL workflow you can this in the :ref:`ILLModuleCopyrightClearance` preference."
+#~ msgstr "Si desea incluir una declaración de derechos de autor en su flujo de trabajo de ILL puede hacerlo en la preferencia :ref:`ILLModuleCopyrightClearance`."
 
 #~ msgid "**Note**"
 #~ msgstr "**Nota**"

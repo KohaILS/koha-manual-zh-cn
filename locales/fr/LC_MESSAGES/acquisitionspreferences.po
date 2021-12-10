@@ -8,41 +8,42 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-04-02 08:51+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man20.11/acquisitionspreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617353464.302247\n"
 
 #: ../../source/acquisitionspreferences.rst:6
 msgid "Acquisitions"
-msgstr ""
+msgstr "Acquisitions"
 
 #: ../../source/acquisitionspreferences.rst:8
-msgid ""
-"*Get there:* More > Administration > Global system preferences > Acquisitions"
-msgstr ""
+msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
+msgstr "*Aller à :* Plus > Administration > Préférences système > Acquisitions"
 
 #: ../../source/acquisitionspreferences.rst:14
 msgid "Policy"
-msgstr ""
+msgstr "Politique"
 
 #: ../../source/acquisitionspreferences.rst:19
 msgid "AcqCreateItem"
-msgstr ""
+msgstr "AcqCreateItem"
 
 #: ../../source/acquisitionspreferences.rst:21
 msgid "Default: placing an order"
-msgstr ""
+msgstr "Par défaut : passer une commande"
 
 #: ../../source/acquisitionspreferences.rst:23
 msgid "Asks: Create an item when \\_\\_\\_."
-msgstr ""
+msgstr "Action : Créer un exemplaire au moment de \\_\\_\\_."
 
 #: ../../source/acquisitionspreferences.rst:25
 #: ../../source/acquisitionspreferences.rst:55
@@ -53,19 +54,19 @@ msgstr ""
 #: ../../source/acquisitionspreferences.rst:196
 #: ../../source/acquisitionspreferences.rst:323
 msgid "Values:"
-msgstr ""
+msgstr "Valeurs :"
 
 #: ../../source/acquisitionspreferences.rst:27
 msgid "cataloging a record"
-msgstr ""
+msgstr "cataloguer une notice"
 
 #: ../../source/acquisitionspreferences.rst:29
 msgid "placing an order"
-msgstr ""
+msgstr "passer une commande"
 
 #: ../../source/acquisitionspreferences.rst:31
 msgid "receiving an order"
-msgstr ""
+msgstr "recevoir une commande"
 
 #: ../../source/acquisitionspreferences.rst:33
 #: ../../source/acquisitionspreferences.rst:61
@@ -80,399 +81,413 @@ msgstr ""
 #: ../../source/acquisitionspreferences.rst:307
 #: ../../source/acquisitionspreferences.rst:329
 msgid "Description:"
-msgstr ""
+msgstr "Description :"
 
 #: ../../source/acquisitionspreferences.rst:35
-msgid ""
-"This preference lets you decide when you'd like to create an item record in "
-"Koha. If you choose to add an item record when 'placing an order' then you "
-"will enter item information in as you place records in your basket. If you "
-"choose to add the item when 'receiving an order' you will be asked for item "
-"record information when you're receiving orders in acquisitions. If you "
-"choose to add the item when 'cataloging a record' then item records will not "
-"be created in acquisitions at all, you will need to go to the cataloging "
-"module to add the items."
+msgid "This preference lets you decide when you'd like to create an item record in Koha. If you choose to add an item record when 'placing an order' then you will enter item information in as you place records in your basket. If you choose to add the item when 'receiving an order' you will be asked for item record information when you're receiving orders in acquisitions. If you choose to add the item when 'cataloging a record' then item records will not be created in acquisitions at all, you will need to go to the cataloging module to add the items."
 msgstr ""
+"Cette préférence vous permet de décider quand vous souhaitez créer un "
+"exemplaire dans Koha. Si vous choisissez d'ajouter l'exemplaire à la "
+"'création de la commande', vous compléterez les informations d'exemplaires "
+"au moment où vous mettrez vos notices dans le panier de commande. Si vous "
+"choisissez d'ajouter l'exemplaire à la 'réception de la commande', le "
+"système vous demandera de compléter les informations au moment de la "
+"réception des commandes dans le module Acquisitions. Si vous choisissez "
+"d'ajouter un exemplaire lors du 'catalogage d'une notice', les notices "
+"exemplaires ne sont pas créées dans le module Acquisitions, vous devrez "
+"l'ajouter manuellement depuis le module Catalogage."
 
 #: ../../source/acquisitionspreferences.rst:48
 msgid "AcqEnableFiles"
-msgstr ""
+msgstr "AcqEnableFiles"
 
 #: ../../source/acquisitionspreferences.rst:50
 msgid "Default: Don't"
-msgstr ""
+msgstr "Par défaut : Ne pas accorder"
 
 #: ../../source/acquisitionspreferences.rst:52
-msgid ""
-"Asks: \\_\\_\\_ enable the ability to upload and attach arbitrary files to "
-"invoices."
+msgid "Asks: \\_\\_\\_ enable the ability to upload and attach arbitrary files to invoices."
 msgstr ""
+"Action : \\_\\_\\_ la faculté de téléverser des fichiers sur le serveur ni "
+"de les attacher à des factures."
 
 #: ../../source/acquisitionspreferences.rst:57
 msgid "Do"
-msgstr ""
+msgstr "Accorder"
 
 #: ../../source/acquisitionspreferences.rst:59
 msgid "Don't"
-msgstr ""
+msgstr "Ne pas accorder"
 
 #: ../../source/acquisitionspreferences.rst:63
-msgid ""
-"This preference controls whether or not you allow the uploading of invoice "
-"files via the acquisitions module."
+msgid "This preference controls whether or not you allow the uploading of invoice files via the acquisitions module."
 msgstr ""
+"Cette préférence contrôle si vous pouvez ou pas télécharger les fichiers de "
+"facture via le module Acquisitions."
 
 #: ../../source/acquisitionspreferences.rst:69
 msgid "AcqItemSetSubfieldsWhenReceiptIsCancelled"
-msgstr ""
+msgstr "AcqItemSetSubfieldsWhenReceiptIsCancelled"
 
 #: ../../source/acquisitionspreferences.rst:71
-msgid ""
-"Asks: Upon cancelling a receipt, update the item's subfields if they were "
-"created when placing an order (e.g. o=5\\|a=\"bar foo\"\"). \\_\\_\\_"
+msgid "Asks: Upon cancelling a receipt, update the item's subfields if they were created when placing an order (e.g. o=5\\|a=\"bar foo\"\"). \\_\\_\\_"
 msgstr ""
+"Action : En cas d'annulation de la réception d'un exemplaire, mettre à jour "
+"ses sous-champs s'ils ont été créés à la commande (par exemple : o=5\\|a=\""
+"foo bar\"). \\_\\_\\_"
 
 #: ../../source/acquisitionspreferences.rst:76
-msgid ""
-"This preference is used in conjunction with the :ref:"
-"`AcqItemSetSubfieldsWhenReceived` preference. If you have the system set to "
-"enter default values when you receive you will want to have those values "
-"revert back if the receipt is cancelled. This preference allows you to do "
-"that."
+msgid "This preference is used in conjunction with the :ref:`AcqItemSetSubfieldsWhenReceived` preference. If you have the system set to enter default values when you receive you will want to have those values revert back if the receipt is cancelled. This preference allows you to do that."
 msgstr ""
+"Cette préférence est utilisée en conjonction avec la préférence "
+":ref:`AcqItemSetSubfieldsWhenReceived`. Si vous avez configuré votre système "
+"pour renseigner des valeurs par défaut à la réception d'une commande, vous "
+"voudrez sans doute que ces valeurs retrouvent leur état antérieur en cas "
+"d'annulation de la réception de l'exemplaire. C'est ce que cette préférence "
+"vous permet de faire."
 
 #: ../../source/acquisitionspreferences.rst:85
 msgid "AcqItemSetSubfieldsWhenReceived"
-msgstr ""
+msgstr "AcqItemSetSubfieldsWhenReceived"
 
 #: ../../source/acquisitionspreferences.rst:87
-msgid ""
-"Asks: Upon receiving items, update their subfields if they were created when "
-"placing an order (e.g. o=5\\|a=\"foo bar\"). \\_\\_\\_"
+msgid "Asks: Upon receiving items, update their subfields if they were created when placing an order (e.g. o=5\\|a=\"foo bar\"). \\_\\_\\_"
 msgstr ""
+"Action : À la réception d'un exemplaire, mettre à jour ses sous-champs s'ils "
+"ont été créés à la commande (par exemple : o=5\\|a=\"foo bar\"). \\_\\_\\_"
 
 #: ../../source/acquisitionspreferences.rst:92
-msgid ""
-"This preference allows you to set default values for items that you receive "
-"via acquisitions. Enter the data as subfield=value and split your values "
-"with a bar ( \\| ). For example you can remove the Ordered status on the "
-"item automatically when you receive it just by entering 7=0 in this "
-"preference. That will set the Not for Loan status (subfield 7) to 0 which is "
-"available."
+msgid "This preference allows you to set default values for items that you receive via acquisitions. Enter the data as subfield=value and split your values with a bar ( \\| ). For example you can remove the Ordered status on the item automatically when you receive it just by entering 7=0 in this preference. That will set the Not for Loan status (subfield 7) to 0 which is available."
 msgstr ""
+"Cette préférence vous permet de configurer des valeurs par défaut pour les "
+"exemplaires que vous recevez via votre module Acquisition. Saisir ces "
+"données comme sous-zone = valeur et séparez vos valeurs avec une barre "
+"verticale ( \\| ). Par-exemple, vous pouvez enlever automatiquement le "
+"statut 'En commande' de votre exemplaire quand vous le recevez en entrant "
+"tout simplement 7=0 dans cette préférence. Cela fera passer l'exemplaire du "
+"statut de non disponible (sous-zone 7) à 0, qui est le code pour Disponible."
 
 #: ../../source/acquisitionspreferences.rst:102
 msgid "AcqViewBaskets"
-msgstr ""
+msgstr "AcqViewBaskets"
 
 #: ../../source/acquisitionspreferences.rst:104
 msgid "Default: created by staff member"
-msgstr ""
+msgstr "Par défaut : créés par un professionnel"
 
 #: ../../source/acquisitionspreferences.rst:106
 msgid "Asks: Show baskets \\_\\_\\_"
-msgstr ""
+msgstr "Action : Montrer les paniers \\_\\_\\_"
 
 #: ../../source/acquisitionspreferences.rst:110
 msgid "created by staff member"
-msgstr ""
+msgstr "créés par un professionnel"
 
 #: ../../source/acquisitionspreferences.rst:112
 msgid "from staff member's branch"
-msgstr ""
+msgstr "par des professionnels du site"
 
 #: ../../source/acquisitionspreferences.rst:114
 msgid "in system, regardless of owner"
-msgstr ""
+msgstr "dans le système, quelque soit le propriétaire"
 
 #: ../../source/acquisitionspreferences.rst:118
-msgid ""
-"When in acquisitions this preference allows you to control whose baskets you "
-"can see when looking at a vendor. The default value of 'created by staff "
-"member' makes it so that you only see the baskets you created. Choosing to "
-"see baskets 'from staff member's branch' will show you the baskets created "
-"by anyone at the branch you're logged in at. Finally, you can choose to set "
-"this preference to show you all baskets regardless of who created it ('in "
-"system, regardless of owner). Regardless of which value you choose for this "
-"preference, superlibrarians can see all baskets created in the system."
+msgid "When in acquisitions this preference allows you to control whose baskets you can see when looking at a vendor. The default value of 'created by staff member' makes it so that you only see the baskets you created. Choosing to see baskets 'from staff member's branch' will show you the baskets created by anyone at the branch you're logged in at. Finally, you can choose to set this preference to show you all baskets regardless of who created it ('in system, regardless of owner). Regardless of which value you choose for this preference, superlibrarians can see all baskets created in the system."
 msgstr ""
+"Dans le module acquisitions, cette préférence permet de contrôler la "
+"visualisation des paniers selon leur créateur, quand vous listez par "
+"fournisseur. La valeur par défaut 'créés par un professionnel' ne montre que "
+"les paniers que vous avez créés. En choisissant de montrer les paniers 'des "
+"professionnels du site' vous verrez les paniers créés par tous les "
+"professionnels du site sur lequel vous êtes loggés. Enfin, vous pouvez "
+"choisir de paramétrer cette préférence de façon à voir tous les paniers, qui "
+"que soient leurs créateurs ('de tout le réseau, quel que soit le "
+"propriétaire'). Quelle que soit la valeur choisie pour cette préférence, les "
+"administrateurs avec la permission superlibrarian peuvent voir tous les "
+"paniers créés."
 
 #: ../../source/acquisitionspreferences.rst:131
 msgid "AcqWarnOnDuplicateInvoice"
-msgstr ""
+msgstr "AcqWarnOnDuplicateInvoice"
 
 #: ../../source/acquisitionspreferences.rst:133
 msgid "Default: Do not warn"
-msgstr ""
+msgstr "Par défaut : Ne pas avertir"
 
 #: ../../source/acquisitionspreferences.rst:135
-msgid ""
-"Asks: \\_\\_\\_ when the librarian tries to create an invoice with a "
-"duplicate number."
+msgid "Asks: \\_\\_\\_ when the librarian tries to create an invoice with a duplicate number."
 msgstr ""
+"Action : \\_\\_\\_ lorsque le bibliothécaire tente de créer une facture avec "
+"un numéro déjà attribué."
 
 #: ../../source/acquisitionspreferences.rst:140
 msgid "Do not warn"
-msgstr ""
+msgstr "Ne pas avertir"
 
 #: ../../source/acquisitionspreferences.rst:142
 msgid "Warn"
-msgstr ""
+msgstr "Avertir"
 
 #: ../../source/acquisitionspreferences.rst:147
 msgid "BasketConfirmations"
-msgstr ""
+msgstr "BasketConfirmations"
 
 #: ../../source/acquisitionspreferences.rst:149
 msgid "Default: always ask for confirmation"
-msgstr ""
+msgstr "Par défaut : toujours demander confirmation"
 
 #: ../../source/acquisitionspreferences.rst:151
 msgid "Asks: When closing or reopening a basket, \\_\\_\\_."
 msgstr ""
+"Action : Au moment de la fermeture ou de la réouverture d'un panier, \\_\\_\\"
+"_."
 
 #: ../../source/acquisitionspreferences.rst:155
 msgid "always ask for confirmation"
-msgstr ""
+msgstr "toujours demander confirmation"
 
 #: ../../source/acquisitionspreferences.rst:157
 msgid "do not ask for confirmation"
-msgstr ""
+msgstr "ne pas demander confirmation"
 
 #: ../../source/acquisitionspreferences.rst:159
 msgid "Descriptions:"
-msgstr ""
+msgstr "Descriptions :"
 
 #: ../../source/acquisitionspreferences.rst:161
-msgid ""
-"This preference adds the option to skip confirmations on closing and "
-"reopening a basket. If you skip the confirmation, you do not create a new "
-"basket group."
+msgid "This preference adds the option to skip confirmations on closing and reopening a basket. If you skip the confirmation, you do not create a new basket group."
 msgstr ""
+"Cette préférence ajoute l'option de passer outre les confirmations lors de "
+"la fermeture et la ré-ouverture d'un panier. Si vous passez outre la "
+"confirmation, vous ne créez pas un nouveau groupe de paniers."
 
 #: ../../source/acquisitionspreferences.rst:168
 msgid "ClaimsBccCopy"
-msgstr ""
+msgstr "ClaimsBccCopy"
 
 #: ../../source/acquisitionspreferences.rst:170
 msgid "Default: Don't send"
-msgstr ""
+msgstr "Par défaut : Ne pas envoyer"
 
 #: ../../source/acquisitionspreferences.rst:172
-msgid ""
-"Asks: \\_\\_\\_ blind copy (BCC) to logged in user when sending serial or "
-"acquisitions claims notices."
+msgid "Asks: \\_\\_\\_ blind copy (BCC) to logged in user when sending serial or acquisitions claims notices."
 msgstr ""
+"Action : \\_\\_\\_ une copie cachée (BCC) à l'utilisateur connecté lors de "
+"l'envoi des réclamations pour les périodiques ou les acquisitions."
 
 #: ../../source/acquisitionspreferences.rst:177
 msgid "Don't send"
-msgstr ""
+msgstr "Ne pas envoyer"
 
 #: ../../source/acquisitionspreferences.rst:179
 msgid "Send"
-msgstr ""
+msgstr "Envoyer"
 
 #: ../../source/acquisitionspreferences.rst:183
-msgid ""
-"When filing a claim in the :ref:`Claim Late Serials` or Acquisitions module "
-"this preference will allow for the sending of a copy of the email to the "
-"librarian."
+msgid "When filing a claim in the :ref:`Claim Late Serials` or Acquisitions module this preference will allow for the sending of a copy of the email to the librarian."
 msgstr ""
+"A la création d'une réclamation dans :ref:`Réclamer les périodiques en "
+"retard` ou dans le module Acquisitions, cette préférence système permettra "
+"d'envoyer une copie du courriel au bibliothécaire."
 
 #: ../../source/acquisitionspreferences.rst:190
 msgid "CurrencyFormat"
-msgstr ""
+msgstr "CurrencyFormat"
 
 #: ../../source/acquisitionspreferences.rst:192
 msgid "Default: 360,000.00 (US)"
-msgstr ""
+msgstr "Par défaut : 360,000.00 (US)"
 
 #: ../../source/acquisitionspreferences.rst:194
 msgid "Asks: Display currencies using the following format \\_\\_\\_"
-msgstr ""
+msgstr "Action : Afficher les devises dans le format suivant \\_\\_\\_"
 
 #: ../../source/acquisitionspreferences.rst:198
 msgid "360,000.00 (US)"
-msgstr ""
+msgstr "360,000.00 (US)"
 
 #: ../../source/acquisitionspreferences.rst:200
 msgid "360 000,00 (FR)"
-msgstr ""
+msgstr "360 000,00 (FR)"
 
 #: ../../source/acquisitionspreferences.rst:205
 msgid "gist"
-msgstr ""
+msgstr "Gist"
 
 #: ../../source/acquisitionspreferences.rst:207
 msgid "Default: 0"
-msgstr ""
+msgstr "Par défaut : 0"
 
 #: ../../source/acquisitionspreferences.rst:209
 msgid "Asks: The default tax rate is \\_\\_\\_"
-msgstr ""
+msgstr "Action : Le taux de taxe par défaut est de \\_\\_\\_"
 
 #: ../../source/acquisitionspreferences.rst:213
-msgid ""
-"This preference will allow the library to define a default Goods and "
-"Services Tax rate. The default of value of 0 will disable this preference."
+msgid "This preference will allow the library to define a default Goods and Services Tax rate. The default of value of 0 will disable this preference."
 msgstr ""
+"Cette préférence permettra à la bibliothèque de définir un taux de taxes "
+"pour les biens et services par défaut. La valeur par défaut de 0 désactivera "
+"cette préférence."
 
 #: ../../source/acquisitionspreferences.rst:217
 #: ../../source/acquisitionspreferences.rst:292
 msgid "**Note**"
-msgstr ""
+msgstr "**Note**"
 
 #: ../../source/acquisitionspreferences.rst:219
 msgid "Enter this value as a number (.06) versus a percent (6%)."
-msgstr ""
+msgstr "Entrez cette valeur en chiffre (.06) et non pas en pourcentage (6%)."
 
 #: ../../source/acquisitionspreferences.rst:224
 msgid "MarcFieldsToOrder"
-msgstr ""
+msgstr "MarcFieldsToOrder"
 
 #: ../../source/acquisitionspreferences.rst:226
-msgid ""
-"Asks: Set the mapping values for a new order line created from a MARC record "
-"in a staged file."
+msgid "Asks: Set the mapping values for a new order line created from a MARC record in a staged file."
 msgstr ""
+"Action : Fixer les valeurs d'une nouvelle ligne de commande créée à partir "
+"d'une notice MARC d'un fichier téléchargé."
 
 #: ../../source/acquisitionspreferences.rst:231
-msgid ""
-"This preference includes MARC fields to check for order information to use "
-"when you are trying to :ref:`Order from a staged file` in acquisitions. You "
-"can use the following fields: price, quantity, budget\\_code, discount, "
-"sort1, sort2."
+msgid "This preference includes MARC fields to check for order information to use when you are trying to :ref:`Order from a staged file` in acquisitions. You can use the following fields: price, quantity, budget\\_code, discount, sort1, sort2."
 msgstr ""
+"Cette préférence inclut les champs MARC pour vérifier l'information de "
+"commande à utiliser quand vous essayez de :ref:`Commander à partir d'un "
+"fichier téléchargé` dans le module Acquisitions. Vous pouvez utiliser les "
+"champs suivants : price, quantity, budget\\_code, discount, sort1, sort2."
 
 #: ../../source/acquisitionspreferences.rst:236
 #: ../../source/acquisitionspreferences.rst:263
 msgid "For example:"
-msgstr ""
+msgstr "Par exemple :"
 
 #: ../../source/acquisitionspreferences.rst:244
 msgid "**Important** Requires YAML syntax to work"
-msgstr ""
+msgstr "**Important** Nécessite une syntaxe YAML pour fonctionner"
 
 #: ../../source/acquisitionspreferences.rst:250
 msgid "MarcItemFieldsToOrder"
-msgstr ""
+msgstr "MarcItemFieldsToOrder"
 
 #: ../../source/acquisitionspreferences.rst:252
-msgid ""
-"Asks: Set the mapping values for new item records created from a MARC record "
-"in a staged file."
+msgid "Asks: Set the mapping values for new item records created from a MARC record in a staged file."
 msgstr ""
+"Action : Fixe les valeurs de correspondance des nouvelles notices "
+"d'exemplaires créée à partir d'un fichier de notices MARC téléchargé."
 
 #: ../../source/acquisitionspreferences.rst:257
-msgid ""
-"This preference automatically generates items in Koha with populated "
-"information based on a 9XX field and subfield. You can use the following "
-"fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, "
-"ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. "
-"Special fields: quantity and budget_code"
+msgid "This preference automatically generates items in Koha with populated information based on a 9XX field and subfield. You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code"
 msgstr ""
+"Cette préférence crée automatiquement des exemplaires dans Koha avec les "
+"informations des les champs et sous-champs 9XX. Vous pouvez utiliser les "
+"champs suivants : homebranch, holdingbranch, itype, nonpublic_note, "
+"public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice et "
+"itemcallnumber. Champs spéciaux : quantity et budget_code"
 
 #: ../../source/acquisitionspreferences.rst:272
 msgid "**Requires YAML syntax to work**"
-msgstr ""
+msgstr "**Nécessite une syntaxe YAML pour fonctionner**"
 
 #: ../../source/acquisitionspreferences.rst:277
 msgid "PurgeSuggestionsOlderThan"
-msgstr ""
+msgstr "PurgeSuggestionsOlderThan"
 
 #: ../../source/acquisitionspreferences.rst:279
-msgid ""
-"Asks: Keep accepted or rejected purchase suggestions for a period of \\_\\_"
-"\\_ days."
+msgid "Asks: Keep accepted or rejected purchase suggestions for a period of \\_\\_\\_ days."
 msgstr ""
+"Action : Conserver les suggestions d'achat acceptées ou refusées pendant une "
+"période de \\_\\_\\_ jours."
 
 #: ../../source/acquisitionspreferences.rst:281
 msgid "**Important**"
-msgstr ""
+msgstr "**Important**"
 
 #: ../../source/acquisitionspreferences.rst:283
-msgid ""
-"WARNING - Leave this field empty if you don't want to activate this "
-"automatic feature."
+msgid "WARNING - Leave this field empty if you don't want to activate this automatic feature."
 msgstr ""
+"ATTENTION - Laissez ce champ vide si vous ne voulez pas activer cette "
+"fonctionnalité automatique."
 
 #: ../../source/acquisitionspreferences.rst:287
-msgid ""
-"Enter the number of days after which you want to automatically delete "
-"accepted or rejected purchase suggestions."
+msgid "Enter the number of days after which you want to automatically delete accepted or rejected purchase suggestions."
 msgstr ""
+"Saisissez le nombre de jours après lesquels les suggestions acceptées ou "
+"rejetées seront automatiquement supprimées."
 
 #: ../../source/acquisitionspreferences.rst:290
-msgid ""
-"For example: [30] Sets purgation of suggestions for those older than 30 days."
+msgid "For example: [30] Sets purgation of suggestions for those older than 30 days."
 msgstr ""
+"Par exemple : [30] définit la purge des suggestions de plus de 30 jours."
 
 #: ../../source/acquisitionspreferences.rst:294
-msgid ""
-"This system preference is used when the cronjob purge_suggestions.pl is "
-"active and called without a specific number of days."
+msgid "This system preference is used when the cronjob purge_suggestions.pl is active and called without a specific number of days."
 msgstr ""
+"Cette préférence est utilisée lorsque le cronjob purge_suggestions.pl est "
+"activé et appelé sans nombre de jours spécifique."
 
 #: ../../source/acquisitionspreferences.rst:300
 msgid "UniqueItemFields"
-msgstr ""
+msgstr "UniqueItemFields"
 
 #: ../../source/acquisitionspreferences.rst:302
 msgid "Default: barcode"
-msgstr ""
+msgstr "Par défaut : barcode (code à barres)"
 
 #: ../../source/acquisitionspreferences.rst:304
-msgid ""
-"Asks: The following database columns should be unique in an item: \\_\\_\\_ "
-"separate columns with pipe (|)."
+msgid "Asks: The following database columns should be unique in an item: \\_\\_\\_ separate columns with pipe (|)."
 msgstr ""
+"Action : Les colonnes suivantes doivent être uniques dans un exemplaire : \\"
+"_\\_\\_ séparez les colonnes par un pipe (|)."
 
 #: ../../source/acquisitionspreferences.rst:309
-msgid ""
-"If this preference is left blank when adding items in acquisitions there "
-"will be no check for uniqueness. This means that a duplicate barcode can be "
-"created in acquisitions which will cause errors later when checking items in "
-"and out."
+msgid "If this preference is left blank when adding items in acquisitions there will be no check for uniqueness. This means that a duplicate barcode can be created in acquisitions which will cause errors later when checking items in and out."
 msgstr ""
+"Si cette préférence est laissée vide, il n'y aura pas de contrôle d'unicité "
+"lors de l'ajout des exemplaires dans le module Acquisitions. Cela signifie "
+"qu'un code à barres déjà existant pourra être réutilisé, ce qui provoquera "
+"ensuite des erreurs lors des prêts et retours des exemplaires."
 
 #: ../../source/acquisitionspreferences.rst:317
 msgid "UseACQFrameworkForBiblioRecords"
-msgstr ""
+msgstr "UseACQFrameworkForBiblioRecords"
 
 #: ../../source/acquisitionspreferences.rst:319
 msgid "Default: Don't use"
-msgstr ""
+msgstr "Par défaut : Ne pas utiliser"
 
 #: ../../source/acquisitionspreferences.rst:321
 msgid "Asks: \\_\\_\\_ the framework 'ACQ' for bibliographic records fields"
 msgstr ""
+"Action : \\_\\_\\_ la grille de catalogage 'ACQ' pour les champs des notices "
+"bibliographiques"
 
 #: ../../source/acquisitionspreferences.rst:325
 msgid "Don't use"
-msgstr ""
+msgstr "Ne pas utiliser"
 
 #: ../../source/acquisitionspreferences.rst:327
 msgid "Use"
-msgstr ""
+msgstr "Utiliser"
 
 #: ../../source/acquisitionspreferences.rst:331
-msgid ""
-"This system preference allows you to use the ACQ framework to customize the "
-"bibliographic record fields that are shown when ordering from acquisitions"
+msgid "This system preference allows you to use the ACQ framework to customize the bibliographic record fields that are shown when ordering from acquisitions"
 msgstr ""
+"Cette préférence système vous permet d'utiliser la grille de catalogage ACQ "
+"pour personnaliser les champs de la notice bibliographique présentés lors "
+"d'une commande dans le module Acquisitions."
 
 #: ../../source/acquisitionspreferences.rst:337
 msgid "Printing"
-msgstr ""
+msgstr "Impression"
 
 #: ../../source/acquisitionspreferences.rst:342
 msgid "OrderPdfFormat"
-msgstr ""
+msgstr "OrderPdfFormat"
 
 #: ../../source/acquisitionspreferences.rst:344
 msgid "Default: pdfformat::layout2pages"
-msgstr ""
+msgstr "Par défaut : pdfformat::layout2pages"
 
 #: ../../source/acquisitionspreferences.rst:346
 msgid "Asks: Use \\_\\_\\_ when printing basket groups."
-msgstr ""
+msgstr "Action : Utiliser \\_\\_\\_ pour l'impression des groupes de paniers."

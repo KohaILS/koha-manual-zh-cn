@@ -8,97 +8,105 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-03-28 18:41+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man20.11/globalpreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1616956867.305670\n"
 
 #: ../../source/globalpreferences.rst:6
 msgid "Global system preferences"
-msgstr ""
+msgstr "Préférences système"
 
 #: ../../source/globalpreferences.rst:8
-msgid ""
-"Global system preferences control the way your Koha system works in general. "
-"Set these preferences before anything else in Koha."
+msgid "Global system preferences control the way your Koha system works in general. Set these preferences before anything else in Koha."
 msgstr ""
+"Les préférences système globales contrôlent le fonctionnement général de "
+"votre système Koha. Configurez ces préférences avant de commencer à "
+"travailler avec Koha."
 
 #: ../../source/globalpreferences.rst:11
 msgid "*Get there:* More > Administration > Global System Preferences"
-msgstr ""
+msgstr "*Aller à :* Plus > Administration > Préférences système"
 
 #: ../../source/globalpreferences.rst:13
 msgid "|image0|"
 msgstr "|image0|"
 
 #: ../../source/globalpreferences.rst:15
-msgid ""
-"System preferences can be searched (using any part of the preference name or "
-"description) using the search box on the 'Administration' page or the search "
-"box at the top of each system preferences page."
+msgid "System preferences can be searched (using any part of the preference name or description) using the search box on the 'Administration' page or the search box at the top of each system preferences page."
 msgstr ""
+"Vous pouvez faire des recherches dans vos préférences système (aussi bien "
+"sur leurs noms que sur leurs description) en utilisant la boîte de recherche "
+"qui se trouve dans la page Administration ou bien celle qui se trouve en "
+"haut de la page de gestion des préférences système."
 
 #: ../../source/globalpreferences.rst:19
 msgid "|image1|"
 msgstr "|image1|"
 
 #: ../../source/globalpreferences.rst:21
-msgid ""
-"When editing preferences a ^(modified)^ tag will appear next to items you "
-"change until you click the 'Save All' button:"
+msgid "When editing preferences a ^(modified)^ tag will appear next to items you change until you click the 'Save All' button:"
 msgstr ""
+"Lorsque vous modifiez les préférences, un tag '(modifié)' apparaîtra à côté "
+"des éléments changés jusqu'à que vous cliquiez sur le bouton 'Sauvegarder "
+"toutes les préférences' :"
 
 #: ../../source/globalpreferences.rst:24
 msgid "|image2|"
 msgstr "|image2|"
 
 #: ../../source/globalpreferences.rst:26
-msgid ""
-"After saving your preferences you'll get a confirmation message telling you "
-"what preferences were saved:"
+msgid "After saving your preferences you'll get a confirmation message telling you what preferences were saved:"
 msgstr ""
+"Après enregistrement des préférences, une confirmation s'affiche et rappelle "
+"quelles préférences ont été modifiées :"
 
 #: ../../source/globalpreferences.rst:29
 msgid "|image3|"
 msgstr "|image3|"
 
 #: ../../source/globalpreferences.rst:31
-msgid ""
-"Each section of preferences can be sorted alphabetically by clicking the "
-"small down arrow to the right of the word 'Preference' in the header column"
+msgid "Each section of preferences can be sorted alphabetically by clicking the small down arrow to the right of the word 'Preference' in the header column"
 msgstr ""
+"Chaque section des préférences peut être triée par ordre alphabétique en "
+"cliquant sur la petite flèche qui se trouve sur la droite du mot "
+"'Préférence' de l'en-tête de colonne"
 
 #: ../../source/globalpreferences.rst:35
 msgid "|image4|"
 msgstr "|image4|"
 
 #: ../../source/globalpreferences.rst:37
-msgid ""
-"If the preference refers to monetary values (like :ref:`maxoutstanding`) the "
-"currency displayed will be the default you set in your :ref:`Currencies and "
-"Exchange Rates` administration area. In the examples to follow they will all "
-"read USD for U.S. Dollars."
+msgid "If the preference refers to monetary values (like :ref:`maxoutstanding`) the currency displayed will be the default you set in your :ref:`Currencies and Exchange Rates` administration area. In the examples to follow they will all read USD for U.S. Dollars."
 msgstr ""
+"Si la préférence fait référence à des valeurs monétaires (comme "
+":ref:`maxoutstanding`), la devise affichée sera celle définie dans :ref:"
+"'Devises et Taux de change` du module Administration. Dans les exemples "
+"suivants, la devise sera toujours USD pour Dollars américains."
 
 #: ../../source/globalpreferences.rst:43
 msgid "**Important**"
-msgstr ""
+msgstr "**Important**"
 
 #: ../../source/globalpreferences.rst:45
-msgid ""
-"For libraries systems with unique URLs for each site the system preference "
-"can be overridden by editing your koha-http.conf file this has to be done by "
-"a system administrator or someone with access to your system files. For "
-"example if all libraries but one want to have search terms highlighted in "
-"results you set the OpacHighlightedWords preference to 'Highlight' then edit "
-"the koha-http.conf for the library that wants this turned off by adding "
-"'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting "
-"the web server that one library will no longer see highlighted terms. "
-"Consult with your system administrator for more information."
+msgid "For libraries systems with unique URLs for each site the system preference can be overridden by editing your koha-http.conf file this has to be done by a system administrator or someone with access to your system files. For example if all libraries but one want to have search terms highlighted in results you set the OpacHighlightedWords preference to 'Highlight' then edit the koha-http.conf for the library that wants this turned off by adding 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting the web server that one library will no longer see highlighted terms. Consult with your system administrator for more information."
 msgstr ""
+"Pour les bibliothèques ayant une URL unique pour chaque site, la préférence "
+"système peut être outrepassée en modifiant le fichier koha-http.conf. Ceci "
+"doit être fait par l'administrateur système ou une personne ayant accès aux "
+"fichiers systèmes. Par exemple, si toutes les bibliothèques sauf une, "
+"souhaitent mettre en surbrillance, dans les résultats, les termes "
+"recherchés, paramétrez la préférence OpacHighlightedWords sur 'Highlight' "
+"puis éditez le fichier koha-http.conf de la bibliothèque qui ne souhaite pas "
+"cette option en y ajoutant 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords "
+"\"0\"'. Après le redémarrage du serveur Web, cette bibliothèque ne verra "
+"plus les termes recherchés en surbrillance. Consultez votre administrateur "
+"système pour plus d'information."

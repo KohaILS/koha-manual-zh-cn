@@ -8,76 +8,76 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-04-01 10:26+0000\n"
+"Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /hi/man20.11/administrationpreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617272765.597710\n"
 
 #: ../../source/administrationpreferences.rst:6
 msgid "Administration"
-msgstr ""
+msgstr "प्रशासन"
 
 #: ../../source/administrationpreferences.rst:8
 msgid "These preferences are general settings for your system."
-msgstr ""
+msgstr "ये प्राथमिकताएं आपके सिस्टम के लिए सामान्य सेटिंग्स हैं."
 
 #: ../../source/administrationpreferences.rst:10
-msgid ""
-"*Get there:* More > Administration > Global System Preferences > "
-"Administration"
-msgstr ""
+msgid "*Get there:* More > Administration > Global System Preferences > Administration"
+msgstr "*वहां जाएं* अधिक> प्रशासन> वैश्विक सिस्टम प्राथमिकताएँ > प्रशासन"
 
 #: ../../source/administrationpreferences.rst:13
 msgid "OrderPriceRounding"
-msgstr ""
+msgstr "OrderPriceRounding"
 
 #: ../../source/administrationpreferences.rst:15
-msgid ""
-"This system preference allows you to choose between using the precise value "
-"or a rounded value when charging fees."
+msgid "This system preference allows you to choose between using the precise value or a rounded value when charging fees."
 msgstr ""
+"यह प्रणाली वरीयता आपको शुल्क चार्ज करते समय सटीक मूल्य या एक गोल मूल्य का "
+"उपयोग करने के बीच चयन करने की अनुमति देती है।"
 
 #: ../../source/administrationpreferences.rst:20
 msgid "CAS Authentication"
-msgstr ""
+msgstr "सीएएस प्रमाणीकरण"
 
 #: ../../source/administrationpreferences.rst:22
-msgid ""
-"The Central Authentication Service (CAS) is a single sign-on protocol for "
-"the web. If you don't know what this is, leave these preferences set to "
-"their defaults."
+msgid "The Central Authentication Service (CAS) is a single sign-on protocol for the web. If you don't know what this is, leave these preferences set to their defaults."
 msgstr ""
+"केंद्रीय प्रमाणन सेवा (कैस) वेब के लिए एक एकल साइन-ऑन प्रोटोकॉल है. यदि आप "
+"नहीं जानते कि यह क्या है, इन वरीयताओं को उनकी चूक के लिए सेट छोड़ दें."
 
 #: ../../source/administrationpreferences.rst:29
 msgid "casAuthentication"
-msgstr ""
+msgstr "casAuthentication"
 
 #: ../../source/administrationpreferences.rst:31
 msgid "Default: Don't use"
-msgstr ""
+msgstr "डिफ़ॉल्ट: प्रयोग नही करें"
 
 #: ../../source/administrationpreferences.rst:33
 msgid "Asks: \\_\\_\\_ CAS for login authentication."
-msgstr ""
+msgstr "पूछे: \\_\\_\\_ लॉगिन प्रमाणीकरण के लिए कैस."
 
 #: ../../source/administrationpreferences.rst:38
 msgid "casLogout"
-msgstr ""
+msgstr "casLogout"
 
 #: ../../source/administrationpreferences.rst:40
 msgid "Asks: Logout of CAS when logging out of Koha: \\_\\_\\_"
-msgstr ""
+msgstr "पूछते हैं: कोहा से लॉग आउट करते समय सीएएस का लॉगआउट:\\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:42
 #: ../../source/administrationpreferences.rst:135
 #: ../../source/administrationpreferences.rst:524
 msgid "Default: No"
-msgstr ""
+msgstr "डिफ़ॉल्ट: नही"
 
 #: ../../source/administrationpreferences.rst:44
 #: ../../source/administrationpreferences.rst:148
@@ -100,21 +100,21 @@ msgstr ""
 #: ../../source/administrationpreferences.rst:738
 #: ../../source/administrationpreferences.rst:776
 msgid "Values:"
-msgstr ""
+msgstr "मानः"
 
 #: ../../source/administrationpreferences.rst:46
 #: ../../source/administrationpreferences.rst:150
 #: ../../source/administrationpreferences.rst:359
 #: ../../source/administrationpreferences.rst:532
 msgid "No"
-msgstr ""
+msgstr "नही"
 
 #: ../../source/administrationpreferences.rst:48
 #: ../../source/administrationpreferences.rst:152
 #: ../../source/administrationpreferences.rst:357
 #: ../../source/administrationpreferences.rst:534
 msgid "Yes"
-msgstr ""
+msgstr "हाँ"
 
 #: ../../source/administrationpreferences.rst:50
 #: ../../source/administrationpreferences.rst:222
@@ -140,53 +140,54 @@ msgstr ""
 #: ../../source/administrationpreferences.rst:798
 #: ../../source/administrationpreferences.rst:818
 msgid "Description:"
-msgstr ""
+msgstr "विवरण: "
 
 #: ../../source/administrationpreferences.rst:52
-msgid ""
-"CAS single logout means that a user gets logged out not only from the CAS "
-"server but also from all visited CAS client applications when logged out in "
-"one of them or after reaching a timeout."
+msgid "CAS single logout means that a user gets logged out not only from the CAS server but also from all visited CAS client applications when logged out in one of them or after reaching a timeout."
 msgstr ""
+"सीएएस एकल लॉगआउट का अर्थ है कि उपयोगकर्ता न केवल सीएएस सर्वर से लॉग आउट हो "
+"जाता है बल्कि सभी विज़िट किए गए सीएएस क्लाइंट अनुप्रयोगों से भी लॉग आउट हो "
+"जाता है जब उनमें से एक में लॉग आउट हो जाता है या टाइमआउट तक पहुंचने के बाद।"
 
 #: ../../source/administrationpreferences.rst:56
 #: ../../source/administrationpreferences.rst:193
 msgid "**Note**"
-msgstr ""
+msgstr "**नोट**"
 
 #: ../../source/administrationpreferences.rst:58
-msgid ""
-"The CAS server has to be set up to allow single logout for this to take "
-"effect, otherwise the behavior will remain unchanged"
+msgid "The CAS server has to be set up to allow single logout for this to take effect, otherwise the behavior will remain unchanged"
 msgstr ""
+"इसके लिए एकल लॉगआउट को प्रभावी करने के लिए सीएएस सर्वर स्थापित किया जाना चाहि"
+"ए, अन्यथा व्यवहार अपरिवर्तित रहेगा"
 
 #: ../../source/administrationpreferences.rst:64
 msgid "casServerUrl"
-msgstr ""
+msgstr "casServerUrl"
 
 #: ../../source/administrationpreferences.rst:66
 msgid "Asks: The CAS Authentication Server can be found at \\_\\_\\_"
-msgstr ""
+msgstr "पूछे: कैस प्रमाणीकरण सर्वर पाया जा सकता है पर  \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:71
 msgid "Google OpenID Connect"
-msgstr ""
+msgstr "गुगल OpenID कनेक्ट"
 
 #: ../../source/administrationpreferences.rst:73
-msgid ""
-"Visit the `Google Developers Console <https://console.developers.google.com/"
-">`__ to obtain OAuth 2.0 credentials such as a client ID and client secret "
-"that are known to both Google and your application."
+msgid "Visit the `Google Developers Console <https://console.developers.google.com/>`__ to obtain OAuth 2.0 credentials such as a client ID and client secret that are known to both Google and your application."
 msgstr ""
+"गूगल डेवलपर कंसोल <https://console.developers.google.com/>`__ पर जाएं, OAuth "
+"2.0 प्रमाण-पत्र प्राप्त करने के लिए जैसे क्लाइंट आईडी और क्लाइंट रहस्य जो गू"
+"गल और आपके एप्लिकेशन दोनों के लिए जाने जाते हैं।"
 
 #: ../../source/administrationpreferences.rst:78
 msgid "|image1179|"
 msgstr "|image1179|"
 
 #: ../../source/administrationpreferences.rst:80
-msgid ""
-"Create a project, and give it some details to help you identify it later"
+msgid "Create a project, and give it some details to help you identify it later"
 msgstr ""
+"एक प्रोजेक्ट बनाएं, और इसे बाद में पहचानने में आपकी सहायता के लिए कुछ विवरण "
+"दें"
 
 #: ../../source/administrationpreferences.rst:83
 msgid "|image5|"
@@ -194,7 +195,7 @@ msgstr "|image5|"
 
 #: ../../source/administrationpreferences.rst:85
 msgid "Next search for the Google Identity and Access Management API"
-msgstr ""
+msgstr "Google पहचान और एक्सेस प्रबंधन API सक्षम करें"
 
 #: ../../source/administrationpreferences.rst:87
 msgid "|image6|"
@@ -202,7 +203,7 @@ msgstr "|image6|"
 
 #: ../../source/administrationpreferences.rst:89
 msgid "Enable the Google Identity and Access Management API"
-msgstr ""
+msgstr "Google पहचान और एक्सेस प्रबंधन API सक्षम करें"
 
 #: ../../source/administrationpreferences.rst:91
 msgid "|image7|"
@@ -210,7 +211,7 @@ msgstr "|image7|"
 
 #: ../../source/administrationpreferences.rst:93
 msgid "Go to 'Credentials' and set the OAuth cosent screen values"
-msgstr ""
+msgstr "'क्रेडेंशियल' पर जाएं और OAuth कॉसेंट स्क्रीन मान सेट करें"
 
 #: ../../source/administrationpreferences.rst:95
 msgid "|image8|"
@@ -218,17 +219,15 @@ msgstr "|image8|"
 
 #: ../../source/administrationpreferences.rst:97
 msgid "Next choose to 'Create credentials' from the 'Credentials' page"
-msgstr ""
+msgstr "इसके बाद 'क्रेडेंशियल' पेज से 'क्रेडेंशियल्स बनाएँ' चुनें"
 
 #: ../../source/administrationpreferences.rst:99
 msgid "|image9|"
 msgstr "|image9|"
 
 #: ../../source/administrationpreferences.rst:101
-msgid ""
-"Choose 'Web application' from the 'Application type' menu and fill in the "
-"form presented"
-msgstr ""
+msgid "Choose 'Web application' from the 'Application type' menu and fill in the form presented"
+msgstr "'एप्लिकेशन प्रकार' मेनू से 'वेब एप्लिकेशन' चुनें और प्रस्तुत फॉर्म भरें"
 
 #: ../../source/administrationpreferences.rst:104
 msgid "|image10|"
@@ -236,19 +235,19 @@ msgstr "|image10|"
 
 #: ../../source/administrationpreferences.rst:106
 msgid "Set 'Authorized JavaScript origins' to your OPACBaseURL"
-msgstr ""
+msgstr "अपने OPACBaseURL में 'अधिकृत जावास्क्रिप्ट उत्पत्ति' सेट करें"
 
 #: ../../source/administrationpreferences.rst:108
-msgid ""
-"Change the 'Authorized Redirect URIs' to http://YOUROPAC/cgi-bin/koha/svc/"
-"auth/googleopenidconnect"
+msgid "Change the 'Authorized Redirect URIs' to http://YOUROPAC/cgi-bin/koha/svc/auth/googleopenidconnect"
 msgstr ""
+"'अधिकृत रीडायरेक्ट यूआरआई' को बदलें http://YOUROPAC/cgi-"
+"bin/koha/svc/auth/googleopenidconnect"
 
 #: ../../source/administrationpreferences.rst:111
-msgid ""
-"You will be presented with your values for your client ID and your client "
-"secret after saving"
+msgid "You will be presented with your values for your client ID and your client secret after saving"
 msgstr ""
+"सहेजने के बाद आपको अपने क्लाइंट आईडी और आपके क्लाइंट रहस्य के लिए अपने मूल्य "
+"प्रस्तुत किए जाएंगे"
 
 #: ../../source/administrationpreferences.rst:114
 msgid "|image11|"
@@ -256,27 +255,27 @@ msgstr "|image11|"
 
 #: ../../source/administrationpreferences.rst:119
 msgid "GoogleOAuth2ClientID"
-msgstr ""
+msgstr "GoogleOAuth2ClientID"
 
 #: ../../source/administrationpreferences.rst:121
 msgid "Asks: Google OAuth2 Client ID \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: Google OAuth2 Client ID \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:126
 msgid "GoogleOAuth2ClientSecret"
-msgstr ""
+msgstr "GoogleOAuth2ClientSecret"
 
 #: ../../source/administrationpreferences.rst:128
 msgid "Asks: Google OAuth2 Client Secret \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: Google OAuth2 Client Secret \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:133
 msgid "GoogleOpenIDConnect"
-msgstr ""
+msgstr "GoogleOpenIDConnect"
 
 #: ../../source/administrationpreferences.rst:137
 msgid "Asks: Use Google OpenID Connect login: \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: गुगल ओपनआईडी कनेक्ट लॉगिन का प्रयोग करें: \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:139
 #: ../../source/administrationpreferences.rst:415
@@ -288,14 +287,14 @@ msgstr ""
 #: ../../source/administrationpreferences.rst:805
 #: ../../source/administrationpreferences.rst:825
 msgid "**Important**"
-msgstr ""
+msgstr "**महत्वपूर्ण**"
 
 #: ../../source/administrationpreferences.rst:141
-msgid ""
-"You will need to select OAuth2 when creating an app in the google cloud "
-"console, and set the web origin to your\\_opac\\_url and the redirect url to "
-"your\\_opac\\_url/cgi-bin/koha/svc/auth/googleopenidconnect ."
+msgid "You will need to select OAuth2 when creating an app in the google cloud console, and set the web origin to your\\_opac\\_url and the redirect url to your\\_opac\\_url/cgi-bin/koha/svc/auth/googleopenidconnect ."
 msgstr ""
+"Google क्लाउड कंसोल में ऐप बनाने के लिए आपको OAuth2 का चयन करना होगा, और वेब "
+"मूल को सेट करना होगा your\\_opac\\_url और रीडायरेक्ट url को your\\_opac\\_url"
+"/cgi-bin/koha/svc/auth/googleopenidconnect ."
 
 #: ../../source/administrationpreferences.rst:146
 msgid "|image12|"
@@ -303,808 +302,812 @@ msgstr "|image12|"
 
 #: ../../source/administrationpreferences.rst:157
 msgid "GoogleOpenIDConnectAutoRegister"
-msgstr ""
+msgstr "GoogleOpenIDConnectAutoRegister"
 
 #: ../../source/administrationpreferences.rst:159
 msgid "Default: Don't Allow"
-msgstr ""
+msgstr "डिफ़ॉल्ट: अनुमति न दें"
 
 #: ../../source/administrationpreferences.rst:161
-msgid ""
-"Asks: \\_\\_\\_ users logging in with Google Open ID to automatically "
-"register."
+msgid "Asks: \\_\\_\\_ users logging in with Google Open ID to automatically register."
 msgstr ""
+"पूछते हैं: \\_\\_\\_ उपयोगकर्ता स्वचालित रूप से पंजीकरण करने के लिए गुगल ओपन "
+"आईडी के साथ लॉग इन करते हैं।"
 
 #: ../../source/administrationpreferences.rst:165
 #: ../../source/administrationpreferences.rst:433
 msgid "Don't Allow"
-msgstr ""
+msgstr "अनुमति न दें"
 
 #: ../../source/administrationpreferences.rst:167
 #: ../../source/administrationpreferences.rst:431
 msgid "Allow"
-msgstr ""
+msgstr "अनुमति दें"
 
 #: ../../source/administrationpreferences.rst:172
 msgid "GoogleOpenIDConnectDefaultBranch"
-msgstr ""
+msgstr "GoogleOpenIDConnectDefaultBranch"
 
 #: ../../source/administrationpreferences.rst:174
-msgid ""
-"Asks: \\_\\_\\_ Use this branchcode when automatically registering a Google "
-"Open ID patron."
+msgid "Asks: \\_\\_\\_ Use this branchcode when automatically registering a Google Open ID patron."
 msgstr ""
+"पूछते हैं: \\_\\_\\_स्वचालित रूप से गुगल ओपन आईडी संरक्षक को पंजीकृत करते "
+"समय इस शाखा कोड का उपयोग करें।."
 
 #: ../../source/administrationpreferences.rst:180
 msgid "GoogleOpenIDConnectDefaultCategory"
-msgstr ""
+msgstr "GoogleOpenIDConnectDefaultCategory"
 
 #: ../../source/administrationpreferences.rst:182
-msgid ""
-"Asks: \\_\\_\\_ Use this category when automatically registering a Google "
-"Open ID patron."
+msgid "Asks: \\_\\_\\_ Use this category when automatically registering a Google Open ID patron."
 msgstr ""
+"पूछते हैं: \\_\\_\\_स्वचालित रूप से गुगल ओपन आईडी संरक्षक को पंजीकृत करते "
+"समय इस शाखा कोड का उपयोग करें।."
 
 #: ../../source/administrationpreferences.rst:188
 msgid "GoogleOpenIDConnectDomain"
-msgstr ""
+msgstr "GoogleOpenIDConnectDomain"
 
 #: ../../source/administrationpreferences.rst:190
-msgid ""
-"Asks: Google OpenID Connect Restrict to domain (or subdomain of this domain) "
-"\\_\\_\\_."
+msgid "Asks: Google OpenID Connect Restrict to domain (or subdomain of this domain) \\_\\_\\_."
 msgstr ""
+"पूछता है: Google OpenID कनेक्ट डोमेन (या इस डोमेन के उपडोमेन के लिए "
+"प्रतिबंधित) \\_\\_\\_."
 
 #: ../../source/administrationpreferences.rst:195
 msgid "Leave blank for all google domains"
-msgstr ""
+msgstr "सभी गूगल डोमेन के लिए खाली छोड़ दो"
 
 #: ../../source/administrationpreferences.rst:200
 msgid "Interface options"
-msgstr ""
+msgstr "इंटरफ़ेस विकल्प"
 
 #: ../../source/administrationpreferences.rst:202
 msgid "These preference are related to your Koha interface"
-msgstr ""
+msgstr "ये प्राथमिकताएं आपके कोहा इंटरफ़ेस करने के लिए संबंधित हैं"
 
 #: ../../source/administrationpreferences.rst:207
 msgid "DebugLevel"
-msgstr ""
+msgstr "DebugLevel"
 
 #: ../../source/administrationpreferences.rst:209
 msgid "Default: lots of"
-msgstr ""
+msgstr "डिफ़ॉल्ट: बहुत सारा"
 
 #: ../../source/administrationpreferences.rst:211
-msgid ""
-"Asks: Show \\_\\_\\_ debugging information in the browser when an internal "
-"error occurs."
+msgid "Asks: Show \\_\\_\\_ debugging information in the browser when an internal error occurs."
 msgstr ""
+"पूछता है: दिखाएँ \\_\\_\\_ ब्राउज़र में जानकारी डिबगिंग एक आंतरिक त्रुटि तब "
+"होती है जब."
 
 #: ../../source/administrationpreferences.rst:216
 msgid "lots of - will show as much information as possible"
-msgstr ""
+msgstr "बहुत - जितना संभव हो उतना जानकारी दिखाएगा"
 
 #: ../../source/administrationpreferences.rst:218
 msgid "no - will only show basic error messages"
-msgstr ""
+msgstr "नहीं - केवल बुनियादी त्रुटि संदेश दिखाएगा"
 
 #: ../../source/administrationpreferences.rst:220
 msgid "some - will show only some of the information available"
-msgstr ""
+msgstr "कुछ - केवल जानकारी उपलब्ध कुछ दिखाएगा"
 
 #: ../../source/administrationpreferences.rst:224
-msgid ""
-"This preference determines how much information will be sent to the user's "
-"screen when the system encounters an error. The most detail will be sent "
-"when the value level is set at 2, some detail will be sent when the value is "
-"set at 1, and only a basic error message will display when the value is set "
-"at 0. This setting is especially important when a system is new and the "
-"administration is interested in working out the bugs (errors or problems) "
-"quickly. Having detailed error messages makes quick fixes more likely in "
-"problem areas."
+msgid "This preference determines how much information will be sent to the user's screen when the system encounters an error. The most detail will be sent when the value level is set at 2, some detail will be sent when the value is set at 1, and only a basic error message will display when the value is set at 0. This setting is especially important when a system is new and the administration is interested in working out the bugs (errors or problems) quickly. Having detailed error messages makes quick fixes more likely in problem areas."
 msgstr ""
+"यह वरीयता निर्धारित करता है कितना जानकारी उपयोगकर्ता के स्क्रीन के लिए भेजा "
+"जाएगा जब सिस्टम किसी त्रुटि का सामना. सबसे अधिक विस्तार जब मूल्य स्तर 2 पर से"
+"ट किया जाता है, कुछ विस्तार से जब मान 1 पर सेट किया जाता है के लिए भेजा जाएगा"
+", और केवल एक बुनियादी त्रुटि संदेश जब मान 0 पर सेट है यह सेटिंग विशेष रूप से "
+"महत्वपूर्ण है जब प्रदर्शित करेगा भेजा जाएगा एक सिस्टम नया है और प्रशासन जल्दी"
+" से कीड़े (त्रुटियों या समस्याओं) बाहर काम करने में रुचि रखता है. विस्तृत "
+"त्रुटि संदेशों होने की समस्या क्षेत्रों में जल्दी सुधार और अधिक होने की "
+"संभावना है."
 
 #: ../../source/administrationpreferences.rst:236
 msgid "DefaultToLoggedInLibraryCircRules"
-msgstr ""
+msgstr "DefaultToLoggedInLibraryCircRules"
 
 #: ../../source/administrationpreferences.rst:238
 #: ../../source/administrationpreferences.rst:258
 #: ../../source/administrationpreferences.rst:279
 msgid "Default: all libraries"
-msgstr ""
+msgstr "डिफ़ॉल्ट: सभी पुस्तकालय"
 
 #: ../../source/administrationpreferences.rst:240
-msgid ""
-"Asks: When editing circulation rules show \\_\\_\\_ the rules by default."
+msgid "Asks: When editing circulation rules show \\_\\_\\_ the rules by default."
 msgstr ""
+"पूछते हैं: परिसंचरण नियमों को संपादित करते समय \\_\\_\\_ डिफ़ॉल्ट रूप से नि"
+"यम दिखाते हैं।"
 
 #: ../../source/administrationpreferences.rst:244
 #: ../../source/administrationpreferences.rst:265
 #: ../../source/administrationpreferences.rst:286
 msgid "all libraries"
-msgstr ""
+msgstr "सभी पुस्तकालय"
 
 #: ../../source/administrationpreferences.rst:246
 #: ../../source/administrationpreferences.rst:267
 #: ../../source/administrationpreferences.rst:288
 msgid "logged in library's"
-msgstr ""
+msgstr "पुस्तकालय में लॉग इन"
 
 #: ../../source/administrationpreferences.rst:250
-msgid ""
-"This preference controls the default value in the branch pull down found at "
-"the top of the :ref:`Circulation and fines rules`."
+msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Circulation and fines rules`."
 msgstr ""
+"यह वरीयता शाखा के डिफ़ॉल्ट मान को नियंत्रित करती है जो नीचे के शीर्ष पर पाई "
+"जाती है :ref:`परिसंचरण और जुर्माना नियम'।"
 
 #: ../../source/administrationpreferences.rst:256
 msgid "DefaultToLoggedInLibraryNoticesSlips"
-msgstr ""
+msgstr "DefaultToLoggedInLibraryNoticesSlips"
 
 #: ../../source/administrationpreferences.rst:260
-msgid ""
-"Asks: When editing notices and slips show the \\_\\_\\_ notices and slips by "
-"default."
+msgid "Asks: When editing notices and slips show the \\_\\_\\_ notices and slips by default."
 msgstr ""
+"पूछते हैं: नोटिस और पर्ची संपादित करते समय \\_\\_\\_ नोटिस और डिफ़ॉल्ट रूप से"
+" पर्ची दिखाते हैं।"
 
 #: ../../source/administrationpreferences.rst:271
-msgid ""
-"This preference controls the default value in the branch pull down found at "
-"the top of the :ref:`Notices & slips` tool."
+msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Notices & slips` tool."
 msgstr ""
+"यह वरीयता शाखा के डिफ़ॉल्ट मान को नियंत्रित करती है जो नीचे के शीर्ष पर पाई "
+"जाती है :ref:`ओवरड्यू नोटिस / स्टेटस ट्रिगर'।"
 
 #: ../../source/administrationpreferences.rst:277
 msgid "DefaultToLoggedInLibraryOverdueTriggers"
-msgstr ""
+msgstr "DefaultToLoggedInLibraryOverdueTriggers"
 
 #: ../../source/administrationpreferences.rst:281
-msgid ""
-"Asks: When editing overdue notice/status triggers show the \\_\\_\\_ rules "
-"by default."
+msgid "Asks: When editing overdue notice/status triggers show the \\_\\_\\_ rules by default."
 msgstr ""
+"पूछता है: अतिदेय नोटिस / स्थिति ट्रिगर्स संपादित करते समय डिफ़ॉल्ट रूप से \\"
+"_\\_\\_ नियम दिखाते हैं।"
 
 #: ../../source/administrationpreferences.rst:292
-msgid ""
-"This preference controls the default value in the branch pull down found at "
-"the top of the :ref:`Overdue Notice/Status Triggers`."
+msgid "This preference controls the default value in the branch pull down found at the top of the :ref:`Overdue Notice/Status Triggers`."
 msgstr ""
+"यह वरीयता शाखा के डिफ़ॉल्ट मान को नियंत्रित करती है जो नीचे के शीर्ष पर पाई "
+"जाती है :ref:`ओवरड्यू नोटिस / स्टेटस ट्रिगर'।"
 
 #: ../../source/administrationpreferences.rst:298
 msgid "delimiter"
-msgstr ""
+msgstr "डेलिमिटर"
 
 #: ../../source/administrationpreferences.rst:300
 msgid "Default: semicolons"
-msgstr ""
+msgstr "डिफाल्ट: सेमीकॉलम"
 
 #: ../../source/administrationpreferences.rst:302
-msgid ""
-"Asks: Separate columns in an exported report file with \\_\\_\\_ by default."
+msgid "Asks: Separate columns in an exported report file with \\_\\_\\_ by default."
 msgstr ""
+"पूछता है: अलग-अलग कॉलम के साथ एक निर्यात रिपोर्ट फ़ाइल में \\_\\_\\_ डिफ़ॉल्"
+"ट रूप से."
 
 #: ../../source/administrationpreferences.rst:307
 msgid "#'s"
-msgstr ""
+msgstr "#'s"
 
 #: ../../source/administrationpreferences.rst:309
 msgid "backslashes"
-msgstr ""
+msgstr "बैकस्लैश"
 
 #: ../../source/administrationpreferences.rst:311
 msgid "commas"
-msgstr ""
+msgstr "अल्प विराम"
 
 #: ../../source/administrationpreferences.rst:313
 msgid "semicolons"
-msgstr ""
+msgstr "अर्द्ध विराम"
 
 #: ../../source/administrationpreferences.rst:315
 msgid "slashes"
-msgstr ""
+msgstr "स्लैश"
 
 #: ../../source/administrationpreferences.rst:317
 msgid "tabs"
-msgstr ""
+msgstr "टैब्स"
 
 #: ../../source/administrationpreferences.rst:321
-msgid ""
-"This preference determines how reports exported from Koha will separate "
-"data. In many cases you will be able to change this option when exporting if "
-"you'd like."
+msgid "This preference determines how reports exported from Koha will separate data. In many cases you will be able to change this option when exporting if you'd like."
 msgstr ""
+"यह वरीयता निर्धारित करता है कोहा से निर्यात की रिपोर्ट के डेटा को अलग होगा "
+"कैसे. कई मामलों में आप इस विकल्प को जब अगर आप चाहें तो निर्यात बदलने में सक्"
+"षम हो जाएगा."
 
 #: ../../source/administrationpreferences.rst:328
 msgid "KohaAdminEmailAddress"
-msgstr ""
+msgstr "KohaAdminEmailAddress"
 
 #: ../../source/administrationpreferences.rst:330
-msgid ""
-"This is the default 'From' address for emails unless there is one for the "
-"particular branch, and is referred to when an internal error occurs."
+msgid "This is the default 'From' address for emails unless there is one for the particular branch, and is referred to when an internal error occurs."
 msgstr ""
+"यह डिफ़ॉल्ट से है: ईमेल के लिए संबोधित जब तक वहाँ विशेष पुस्तकालय के लिए एक "
+"है, और एक आंतरिक त्रुटि तब होती है जब कहा जाता है।"
 
 #: ../../source/administrationpreferences.rst:333
 msgid "Asks: Use \\_\\_\\_ as the email address for the administrator of Koha."
 msgstr ""
+"पूछता है: प्रयोग करें \\_\\_\\_ कोहा के व्यवस्थापक के लिए ईमेल पते के रूप "
+"में."
 
 #: ../../source/administrationpreferences.rst:337
-msgid ""
-"This preference allows one email address to be used in warning messages set "
-"to the OPAC. If no email address is set for the branch this address will "
-"receive messages from patrons regarding modification requests, purchase "
-"suggestions, and questions or information regarding overdue notices. It is "
-"recommended that a email address that can be accessed by multiple staff "
-"members be used for this purpose so that if one librarian is out the others "
-"can address these requests. This email address can be changed when needed."
+msgid "This preference allows one email address to be used in warning messages set to the OPAC. If no email address is set for the branch this address will receive messages from patrons regarding modification requests, purchase suggestions, and questions or information regarding overdue notices. It is recommended that a email address that can be accessed by multiple staff members be used for this purpose so that if one librarian is out the others can address these requests. This email address can be changed when needed."
 msgstr ""
+"यह वरीयता एक ईमेल पते ओपेक के लिए सेट चेतावनी संदेश में इस्तेमाल किया जा करने"
+" के लिए अनुमति देता है. कोई ईमेल पता शाखा के लिए सेट है, तो इस पते संशोधन "
+"अनुरोध, खरीद सुझाव, और प्रश्न या जानकारी अतिदेय नोटिस के संबंध के बारे में "
+"संरक्षक से संदेश प्राप्त होगा. यह सिफारिश की है कि एक ई-मेल पता है कि कई स्टा"
+"फ के सदस्यों द्वारा पहुँचा जा सकता है ताकि अगर एक लाइब्रेरियन बाहर है दूसरों "
+"को इन अनुरोधों को संबोधित कर सकते हैं इस उद्देश्य के लिए इस्तेमाल किया जाएगा"
+". इस ईमेल पते की जरूरत है जब बदला जा सकता है."
 
 #: ../../source/administrationpreferences.rst:349
 msgid "noItemTypeImages"
-msgstr ""
+msgstr "noItemTypeImages"
 
 #: ../../source/administrationpreferences.rst:351
 msgid "Asks: Show itemtype icons in the staff interface: \\_\\_\\_"
-msgstr ""
+msgstr "पूछते हैं: स्टाफ इंटरफ़ेस में आइटम आइकन दिखाएं: \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:353
 msgid "Default: Yes"
-msgstr ""
+msgstr "डिफ़ॉल्ट: हाँ"
 
 #: ../../source/administrationpreferences.rst:363
-msgid ""
-"This preference allows the system administrator to determine if users will "
-"be able to set and see an item type icon in the catalog in the staff "
-"interface."
+msgid "This preference allows the system administrator to determine if users will be able to set and see an item type icon in the catalog in the staff interface."
 msgstr ""
+"यह वरीयता सिस्टम व्यवस्थापक को यह निर्धारित करने की अनुमति देती है कि क्या "
+"उपयोगकर्ता स्टाफ इंटरफ़ेस में कैटलॉग में आइटम प्रकार आइकन सेट और देख पाएंगे।"
 
 #: ../../source/administrationpreferences.rst:366
-msgid ""
-"If images of item types are disabled, text labels for item types will still "
-"appear in the staff interface."
+msgid "If images of item types are disabled, text labels for item types will still appear in the staff interface."
 msgstr ""
+"यदि आइटम प्रकार की छवियां अक्षम हैं, तो आइटम प्रकार के लिए पाठ लेबल अभी भी "
+"कर्मचारी इंटरफ़ेस में दिखाई देंगे।"
 
 #: ../../source/administrationpreferences.rst:369
-msgid ""
-"The :ref:`OpacNoItemTypeImages` system preference is used to show or hide "
-"the itemtype images in the OPAC."
+msgid "The :ref:`OpacNoItemTypeImages` system preference is used to show or hide the itemtype images in the OPAC."
 msgstr ""
+"यह :ref:`OpacNoItemTypeImages` प्रणाली वरीयता ओपैक में आइटमटाइप छवियों को "
+"दिखाने या छिपाने के लिए उपयोग की जाती है।"
 
 #: ../../source/administrationpreferences.rst:375
 msgid "ReplytoDefault"
-msgstr ""
+msgstr "ReplytoDefault"
 
 #: ../../source/administrationpreferences.rst:377
-msgid ""
-"Asks: Use \\_\\_\\_ as the email address that will be set as the replyto in "
-"emails"
+msgid "Asks: Use \\_\\_\\_ as the email address that will be set as the replyto in emails"
 msgstr ""
+"पूछता है: उपयोग \\_\\_\\_ ई-मेल पते के रूप में ईमेल में उत्तर के रूप में सेट "
+"किया जाएगा"
 
 #: ../../source/administrationpreferences.rst:382
-msgid ""
-"By default replies to notice emails will go to the `library email address "
-"<#libraries-groups>`__, if you would like to specify a default email address "
-"for all replies to notices you can do that here."
+msgid "By default replies to notice emails will go to the `library email address <#libraries-groups>`__, if you would like to specify a default email address for all replies to notices you can do that here."
 msgstr ""
+"नोटिफिकेशन के सभी उत्तरों के लिए यदि आप कोई डिफ़ॉल्ट ईमेल पता निर्दिष्ट करना "
+"चाहते हैं, तो ईमेल को नोटिस करने के लिए डिफ़ॉल्ट रूप से `पुस्तकालय ई-मेल पता "
+"<<#libraries-groups>` __ पर जाएंगे, तो आप यहां ऐसा कर सकते हैं।"
 
 #: ../../source/administrationpreferences.rst:389
 msgid "ReturnpathDefault"
-msgstr ""
+msgstr "ReturnpathDefault"
 
 #: ../../source/administrationpreferences.rst:391
-msgid ""
-"Asks: Use \\_\\_\\_ as the email address set as the return path, if you "
-"leave this empty the KohaAdminEmailAddress will be used."
+msgid "Asks: Use \\_\\_\\_ as the email address set as the return path, if you leave this empty the KohaAdminEmailAddress will be used."
 msgstr ""
+"पूछता है: उपयोग \\_\\_\\_ ईमेल पता, वापसी पथ के रूप में सेट है, तो आप इसे "
+"खाली छोड़ के रूप में KohaAdminEmailAddress इस्तेमाल किया जाएगा."
 
 #: ../../source/administrationpreferences.rst:396
-msgid ""
-"The return path is the email address that bounces will be delivered to. By "
-"default bounced notices will go to the `library email address <#libraries-"
-"groups>`__, if you would like to specify a default email address for bounces "
-"to go to then fill in this preference."
+msgid "The return path is the email address that bounces will be delivered to. By default bounced notices will go to the `library email address <#libraries-groups>`__, if you would like to specify a default email address for bounces to go to then fill in this preference."
 msgstr ""
+"रिटर्न पथ वह ईमेल पता है जो बाउंस को वितरित किया जाएगा। डिफ़ॉल्ट रूप से नोटि"
+"स बाध्य होने पर 'लाइब्रेरी ईमेल पता <#libraries-groups>`__, पर जाना होगा यदि "
+"आप इस प्राथमिकता को भरने के लिए बाउंस के लिए एक डिफ़ॉल्ट ईमेल पता निर्दिष्ट "
+"करना चाहते हैं तो"
 
 #: ../../source/administrationpreferences.rst:404
 msgid "SendAllEmailsTo"
-msgstr ""
+msgstr "SendAllEmailsTo"
 
 #: ../../source/administrationpreferences.rst:406
-msgid ""
-"Asks: Email to redirect all messages to: \\_\\_\\_ (Leave this field empty "
-"to send messages to their normal recipient)"
+msgid "Asks: Email to redirect all messages to: \\_\\_\\_ (Leave this field empty to send messages to their normal recipient)"
 msgstr ""
+"पूछता है: सभी संदेशों को पुनर्निर्देशित करने के लिए ईमेल: \\_\\_\\_ (अपने "
+"सामान्य प्राप्तकर्ता को संदेश भेजने के लिए इस क्षेत्र को खाली छोड़ दें)"
 
 #: ../../source/administrationpreferences.rst:411
-msgid ""
-"This system preference is used to override any patron email address with "
-"this one when sending notices. This is meant to be used in a testing "
-"environment to test notices and to avoid spamming patrons."
+msgid "This system preference is used to override any patron email address with this one when sending notices. This is meant to be used in a testing environment to test notices and to avoid spamming patrons."
 msgstr ""
+"नोटिस भेजने पर इस एक के साथ किसी भी संरक्षक ईमेल पते को ओवरराइड करने के लिए "
+"इस सिस्टम वरीयता का उपयोग किया जाता है। इसका उपयोग नोटिस का परीक्षण करने और "
+"स्पैमिंग संरक्षक से बचने के लिए परीक्षण वातावरण में उपयोग किया जाता है।"
 
 #: ../../source/administrationpreferences.rst:417
-msgid ""
-"This is not to be used in a production environment. Otherwise, no patron "
-"will receive their intended notices."
+msgid "This is not to be used in a production environment. Otherwise, no patron will receive their intended notices."
 msgstr ""
+"उत्पादन वातावरण में इसका उपयोग नहीं किया जाना है। अन्यथा, कोई संरक्षक अपने "
+"इच्छित नोटिस प्राप्त नहीं करेगा।"
 
 #: ../../source/administrationpreferences.rst:423
 msgid "virtualshelves"
-msgstr ""
+msgstr "virtualshelves"
 
 #: ../../source/administrationpreferences.rst:425
 msgid "Default: Allow"
-msgstr ""
+msgstr "डिफ़ॉल्ट: अनुमति दें"
 
 #: ../../source/administrationpreferences.rst:427
-msgid ""
-"Asks: \\_\\_\\_ staff and patrons to create and view saved lists of books."
+msgid "Asks: \\_\\_\\_ staff and patrons to create and view saved lists of books."
 msgstr ""
+"पूछता है: \\_\\_\\_ किताबों की सहेजी सूची बनाने और देखने के लिए कर्मचारियों "
+"और संरक्षक"
 
 #: ../../source/administrationpreferences.rst:437
-msgid ""
-"This preference controls whether the lists functionality will be available "
-"in the staff client and OPAC. If this is set to \"Don't allow\" then no one "
-"will be able to save items to public or private lists."
+msgid "This preference controls whether the lists functionality will be available in the staff client and OPAC. If this is set to \"Don't allow\" then no one will be able to save items to public or private lists."
 msgstr ""
+"यह वरीयता को नियंत्रित करता है कि क्या सूचियों कार्यक्षमता कर्मचारियों ग्रा"
+"हक और ओपेक में उपलब्ध हो जाएगा. इस \"की अनुमति न दें\" करने के लिए सेट कर "
+"दिया जाता है तो कोई भी सार्वजनिक या निजी सूचियों के लिए आइटम को बचाने के लिए "
+"सक्षम हो जाएगा."
 
 #: ../../source/administrationpreferences.rst:445
 msgid "Login options"
-msgstr ""
+msgstr "लॉगिन विकल्प"
 
 #: ../../source/administrationpreferences.rst:447
 msgid "These preferences are related to logging into your Koha system"
-msgstr ""
+msgstr "ये प्राथमिकताएं आपके कोहा प्रणाली में प्रवेश करने के लिए संबंधित हैं"
 
 #: ../../source/administrationpreferences.rst:452
 msgid "AutoLocation"
-msgstr ""
+msgstr "AutoLocation"
 
 #: ../../source/administrationpreferences.rst:454
 msgid "Default: Don't require"
-msgstr ""
+msgstr "डिफ़ॉल्ट: की आवश्यकता नहीं है"
 
 #: ../../source/administrationpreferences.rst:456
-msgid ""
-"Asks: \\_\\_\\_ staff to log in from a computer in the IP address range "
-"specified by their library (if any)."
+msgid "Asks: \\_\\_\\_ staff to log in from a computer in the IP address range specified by their library (if any)."
 msgstr ""
+"पूछता है: \\_\\_\\_ स्टाफ आईपी पते रेंज उनकी पुस्तकालय द्वारा निर्दिष्ट (अगर "
+"कोई है) में एक कंप्यूटर से लॉग इन कर सकते हैं."
 
 #: ../../source/administrationpreferences.rst:459
 msgid "Set IP address range in the library administration area"
-msgstr ""
+msgstr "पुस्तकालय प्रशासन क्षेत्र में स्थापित आईपी पते रेंज"
 
 #: ../../source/administrationpreferences.rst:461
-msgid ""
-"*Get there:* More > Administration > Basic Parameters > :ref:`Libraries "
-"<libraries-label>`"
+msgid "*Get there:* More > Administration > Basic Parameters > :ref:`Libraries <libraries-label>`"
 msgstr ""
+"*वहां जाओ:*अधिक> प्रशासन> मूल पैरामीटर> :ref:`Libraries <libraries-label>`"
 
 #: ../../source/administrationpreferences.rst:465
 msgid "Don't require"
-msgstr ""
+msgstr "की आवश्यकता नहीं है"
 
 #: ../../source/administrationpreferences.rst:467
 msgid "Require"
-msgstr ""
+msgstr "आवश्यक है"
 
 #: ../../source/administrationpreferences.rst:471
-msgid ""
-"This preference protects the system by blocking unauthorized users from "
-"accessing the staff client program and settings. Authorized and unauthorized "
-"users are determined by their computer's IP addresses. When the preference "
-"is set to 'Require', IP authorization is in effect and unauthorized IP "
-"addresses will be blocked. This means that staff cannot work from home "
-"unless their IP address has been authorized. When set to 'Don't require', "
-"anyone with a staff client login will have access no matter which IP address "
-"they are using."
+msgid "This preference protects the system by blocking unauthorized users from accessing the staff client program and settings. Authorized and unauthorized users are determined by their computer's IP addresses. When the preference is set to 'Require', IP authorization is in effect and unauthorized IP addresses will be blocked. This means that staff cannot work from home unless their IP address has been authorized. When set to 'Don't require', anyone with a staff client login will have access no matter which IP address they are using."
 msgstr ""
+"यह वरीयता स्टाफ क्लाइंट प्रोग्राम और सेटिंग तक पहुँचने से अनाधिकृत "
+"उपयोगकर्ताओं को अवरुद्ध करके प्रणाली की रक्षा करता है. अधिकृत और अनाधिकृत "
+"उपयोगकर्ताओं को अपने कंप्यूटर के आईपी पतों से निर्धारित होते हैं. वरीयता "
+"'आवश्यक' पर सेट है, आईपी प्राधिकरण के प्रभाव में है और अनधिकृत आईपी पतों "
+"अवरुद्ध हो जाएगा. इसका मतलब यह है कि कर्मचारियों को घर से काम नहीं कर सकता, "
+"जब तक कि अपने आईपी पते अधिकृत किया गया है. करने के लिए 'की आवश्यकता नहीं है' "
+"सेट करते हैं, एक कर्मचारी ग्राहक लॉगिन के साथ किसी को भी कोई फर्क नहीं पड़ता "
+"जो आईपी पते वे उपयोग कर रहे हैं का उपयोग करना होगा."
 
 #: ../../source/administrationpreferences.rst:483
 msgid "IndependentBranches"
-msgstr ""
+msgstr "IndependentBranches"
 
 #: ../../source/administrationpreferences.rst:485
 msgid "Default: Don't prevent"
-msgstr ""
+msgstr "डिफ़ॉल्ट: रोक नहीं है"
 
 #: ../../source/administrationpreferences.rst:487
-msgid ""
-"Asks: \\_\\_\\_ staff (but not superlibrarians) from modifying objects "
-"(holds, items, patrons, etc.) belonging to other libraries."
+msgid "Asks: \\_\\_\\_ staff (but not superlibrarians) from modifying objects (holds, items, patrons, etc.) belonging to other libraries."
 msgstr ""
+"पूछता है: \\_\\_\\_ अन्य पुस्तकालयों से जुड़े ऑब्जेक्ट्स (रखरखाव, आइटम, संरक्"
+"षक, आदि) को संशोधित करने से स्टाफ (लेकिन सुपरलिब्रियन नहीं)"
 
 #: ../../source/administrationpreferences.rst:492
 msgid "Don't prevent"
-msgstr ""
+msgstr "डिफ़ॉल्ट: रोक नहीं है"
 
 #: ../../source/administrationpreferences.rst:494
 msgid "Prevent"
-msgstr ""
+msgstr "रोक"
 
 #: ../../source/administrationpreferences.rst:498
-msgid ""
-"This preference should only be used by library systems which are sharing a "
-"single Koha installation among multiple branches but are considered "
-"independent organizations, meaning they do not share material or patrons "
-"with other branches and do not plan to change that in the future. If set to "
-"'Prevent' it increases the security between library branches by: prohibiting "
-"staff users from logging into another branch from within the staff client, "
-"filtering out patrons from patron searches who are not a part of the login "
-"branch conducting the search, limiting the location choices to the login "
-"branch when adding or modifying an item record, preventing users from other "
-"branch locations from placing holds or checking out materials from library "
-"branches other than their own, and preventing staff from editing item "
-"records which belong to other library branches. All of these security "
-"safeguards can be overridden only by the superlibrarian, the highest level "
-"of privileges."
+msgid "This preference should only be used by library systems which are sharing a single Koha installation among multiple branches but are considered independent organizations, meaning they do not share material or patrons with other branches and do not plan to change that in the future. If set to 'Prevent' it increases the security between library branches by: prohibiting staff users from logging into another branch from within the staff client, filtering out patrons from patron searches who are not a part of the login branch conducting the search, limiting the location choices to the login branch when adding or modifying an item record, preventing users from other branch locations from placing holds or checking out materials from library branches other than their own, and preventing staff from editing item records which belong to other library branches. All of these security safeguards can be overridden only by the superlibrarian, the highest level of privileges."
 msgstr ""
+"यह वरीयता केवल पुस्तकालय प्रणाली है जो कई शाखाओं में से एक एकल Koha स्थापना "
+"साझा कर रहे हैं, लेकिन स्वतंत्र संगठनों माना जाता है, जिसका अर्थ है कि वे अन्"
+"य शाखाओं के साथ सामग्री या संरक्षक का हिस्सा नहीं है और है कि बदलने के लिए "
+"भविष्य में योजना नहीं है द्वारा इस्तेमाल किया जाना चाहिए. स्टाफ ग्राहक के भी"
+"तर से एक अन्य शाखा में प्रवेश करने, संरक्षक खोजों से संरक्षक जो खोज आयोजित "
+"लॉगिन शाखा का हिस्सा नहीं हैं को छान, सीमित करने से रोक लगाने के कर्मचारियों "
+"के उपयोगकर्ताओं: यदि 'को रोकने के लिए सेट यह द्वारा पुस्तकालय शाखाओं के बीच "
+"सुरक्षा बढ़ जाती है लॉगिन शाखा के स्थान के विकल्प जब जोड़ने या एक आइटम रिकॉर्"
+"ड को संशोधित करने, रखने से अन्य शाखा स्थानों से उपयोगकर्ताओं को रोकने रखती है"
+" या अपने स्वयं के अलावा अन्य पुस्तकालय शाखाओं से माल बाहर की जाँच, और आइटम "
+"रिकॉर्ड है जो अन्य पुस्तकालय शाखाओं के हैं संपादन से कर्मचारियों को रोकने. "
+"इन सुरक्षा उपायों का सब केवल superlibrarian, विशेषाधिकारों के उच्चतम स्तर से "
+"अधिरोहित जा सकता है."
 
 #: ../../source/administrationpreferences.rst:516
-msgid ""
-"It is important that this value be set before going live and that it NOT be "
-"changed"
+msgid "It is important that this value be set before going live and that it NOT be changed"
 msgstr ""
+"यह महत्वपूर्ण है इस मूल्य रह जाने से पहले स्थापित किया जाना है कि है और यह "
+"नहीं बदला जा सकता है कि"
 
 #: ../../source/administrationpreferences.rst:522
 msgid "IndependentBranchesPatronModifications"
-msgstr ""
+msgstr "IndependentBranchesPatronModifications"
 
 #: ../../source/administrationpreferences.rst:526
-msgid ""
-"Asks: Prevent staff (but not superlibrarians) from viewing and approving/"
-"denying patron modification requests for patrons belonging to other "
-"libraries. \\_\\_\\_"
+msgid "Asks: Prevent staff (but not superlibrarians) from viewing and approving/denying patron modification requests for patrons belonging to other libraries. \\_\\_\\_"
 msgstr ""
+"पूछें: अन्य पुस्तकालयों से संबंधित संरक्षकों के लिए संरक्षक संशोधन के "
+"अनुरोधों को देखने और उन्हें मंजूरी देने / अस्वीकार करने से स्टाफ (लेकिन "
+"अतिशयोक्ति नहीं) को रोकें. \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:539
 msgid "SessionRestrictionByIP"
-msgstr ""
+msgstr "SessionRestrictionByIP"
 
 #: ../../source/administrationpreferences.rst:541
 msgid "Default: Enable"
-msgstr ""
+msgstr "डिफ़ॉल्ट: सक्षम"
 
 #: ../../source/administrationpreferences.rst:543
-msgid ""
-"Asks: \\_\\_\\_ check for change in remote IP address for session security. "
-"Disable only when remote IP address changes frequently."
+msgid "Asks: \\_\\_\\_ check for change in remote IP address for session security. Disable only when remote IP address changes frequently."
 msgstr ""
+"पूछता है: \\_\\_\\_ सत्र सुरक्षा के लिए दूरस्थ आईपी पते में परिवर्तन की जांच "
+"करें। केवल जब दूरस्थ आईपी पते अक्सर बदलता है अक्षम करें"
 
 #: ../../source/administrationpreferences.rst:548
 msgid "Disable"
-msgstr ""
+msgstr "निष्क्रिय करें"
 
 #: ../../source/administrationpreferences.rst:550
 msgid "Enable"
-msgstr ""
+msgstr "सक्षम करें"
 
 #: ../../source/administrationpreferences.rst:554
-msgid ""
-"When this preference is set to 'Enable' Koha will log you out of the staff "
-"client if your IP address changes as a security measure. For some systems "
-"the IP address changes frequently so you'll want to set this preference to "
-"'Disable' to prevent Koha from logging you out of the staff client every "
-"time that happens."
+msgid "When this preference is set to 'Enable' Koha will log you out of the staff client if your IP address changes as a security measure. For some systems the IP address changes frequently so you'll want to set this preference to 'Disable' to prevent Koha from logging you out of the staff client every time that happens."
 msgstr ""
+"इस वरीयता पर सेट है 'सक्षम' कोहा आप कर्मचारियों ग्राहक से लॉग आउट अगर एक "
+"सुरक्षा उपाय के रूप में आपके आईपी पते बदल जाता है. कुछ प्रणालियों के लिए आईपी"
+" पते बार बदलता है ताकि आप कर्मचारियों ग्राहक से बाहर आप हर बार ऐसा होता है कि"
+" प्रवेश करने से रोकने के लिए कोहा 'अक्षम' को यह वरीयता निर्धारित करने के लिए "
+"चाहता हूँ."
 
 #: ../../source/administrationpreferences.rst:562
-msgid ""
-"This is meant to help those whose IP address changes several times during "
-"the day, setting this preference to 'Disable' is not recommended otherwise "
-"because it is removing important security features from your staff client."
+msgid "This is meant to help those whose IP address changes several times during the day, setting this preference to 'Disable' is not recommended otherwise because it is removing important security features from your staff client."
 msgstr ""
+"इसका कारण यह है कि यह अपने स्टाफ क्लाइंट से महत्वपूर्ण सुरक्षा सुविधाओं को "
+"हटाना है अन्यथा की सिफारिश नहीं है 'अक्षम' को यह वरीयता निर्धारित उन जिसका "
+"आईपी पते दिन में कई बार परिवर्तन में मदद करने के लिए है."
 
 #: ../../source/administrationpreferences.rst:570
 msgid "SessionStorage"
-msgstr ""
+msgstr "SessionStorage"
 
 #: ../../source/administrationpreferences.rst:572
 msgid "Default: in the MySQL database"
-msgstr ""
+msgstr "डिफ़ॉल्ट: माईएसक्यूएल डाटाबेस में"
 
 #: ../../source/administrationpreferences.rst:574
 msgid "Asks: Store login session information \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: स्टोर लॉगिन सत्र जानकारी \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:578
 msgid "as temporary files"
-msgstr ""
+msgstr "अस्थायी फ़ाइल के रूप में"
 
 #: ../../source/administrationpreferences.rst:580
 msgid "in the MySQL database"
-msgstr ""
+msgstr "माईएसक्यूएल डाटाबेस में"
 
 #: ../../source/administrationpreferences.rst:582
 msgid "in the PostgreSQL database"
-msgstr ""
+msgstr "पोस्टग्रेएसक्यूएल डाटाबेस में"
 
 #: ../../source/administrationpreferences.rst:586
 msgid "PostgreSQL is not yet supported"
-msgstr ""
+msgstr "पोस्टग्रेएसक्यूएल अभी तक समर्थित नहीं है"
 
 #: ../../source/administrationpreferences.rst:590
-msgid ""
-"This preference allows administrators to choose what format session data is "
-"stored in during web sessions."
+msgid "This preference allows administrators to choose what format session data is stored in during web sessions."
 msgstr ""
+"यह वरीयता प्रशासक को वेब सत्रों के दौरान प्रारूप सत्र डेटा को किस प्रकार जमा "
+"किया जाता है यह चुनने की अनुमति देता है."
 
 #: ../../source/administrationpreferences.rst:596
 msgid "timeout"
-msgstr ""
+msgstr "समय समाप्ति"
 
 #: ../../source/administrationpreferences.rst:598
 msgid "Default: 12000000"
-msgstr ""
+msgstr "डिफ़ॉल्ट : 12000000"
 
 #: ../../source/administrationpreferences.rst:600
-msgid ""
-"Asks: Automatically log out users after \\_\\_\\_ seconds of inactivity."
+msgid "Asks: Automatically log out users after \\_\\_\\_ seconds of inactivity."
 msgstr ""
+"पूछता है: स्वचालित रूप से निष्क्रियता के \\_\\_\\_ सेकंड के बाद लॉग आउट."
 
 #: ../../source/administrationpreferences.rst:604
-msgid ""
-"This preference sets the length of time the Staff Client or OPAC accounts "
-"can be left inactive before re-logging in is necessary. The value of this "
-"preference is in seconds. At this time, the amount of time before a session "
-"times out must be the same for both the Staff Client and the OPAC."
+msgid "This preference sets the length of time the Staff Client or OPAC accounts can be left inactive before re-logging in is necessary. The value of this preference is in seconds. At this time, the amount of time before a session times out must be the same for both the Staff Client and the OPAC."
 msgstr ""
+"यह वरीयता से पहले फिर से प्रवेश करने के लिए आवश्यक है समय की लंबाई स्टाफ ग्रा"
+"हक या ओपेक खातों निष्क्रिय छोड़ा जा सकता है तय करता है. इस वरीयता के मूल्य "
+"सेकंड में है. इस समय, एक सत्र से पहले कई बार समय की राशि बाहर दोनों "
+"कर्मचारियों क्लाइंट और ओपेक के लिए ही होना चाहिए."
 
 #: ../../source/administrationpreferences.rst:613
 msgid "SSL client certificate authentication"
-msgstr ""
+msgstr "एसएसएल क्लाइंट प्रमाणपत्र प्रमाणीकरण"
 
 #: ../../source/administrationpreferences.rst:618
 msgid "AllowPKIAuth"
-msgstr ""
+msgstr "AllowPKIAuth"
 
 #: ../../source/administrationpreferences.rst:620
 msgid "Default: no"
-msgstr ""
+msgstr "डिफ़ॉल्ट: नही"
 
 #: ../../source/administrationpreferences.rst:622
 msgid "Asks: Use \\_\\_\\_ field for SSL client certificate authentication"
 msgstr ""
+"पूछे: प्रयोग \\_\\_\\_ क्षेत्र के लिए एसएसएल क्लाइंट प्रमाणपत्र प्रमाणीकरण"
 
 #: ../../source/administrationpreferences.rst:626
 msgid "no"
-msgstr ""
+msgstr "नही"
 
 #: ../../source/administrationpreferences.rst:628
 msgid "the common name"
-msgstr ""
+msgstr "सामान्य नाम"
 
 #: ../../source/administrationpreferences.rst:630
 msgid "the email address"
-msgstr ""
+msgstr "ईमेल पता"
 
 #: ../../source/administrationpreferences.rst:635
 msgid "System Preferences"
-msgstr ""
+msgstr "सिस्टम वरीयताएँ"
 
 #: ../../source/administrationpreferences.rst:637
 msgid "UnsubscribeReflectionDelay, PatronAnonymizeDelay & Patron Removal Delay"
-msgstr ""
+msgstr "UnsubscribeReflectionDelay, PatronAnonymizeDelay & संरक्षक हटाना देरी"
 
 #: ../../source/administrationpreferences.rst:639
-msgid ""
-"This is a new feature that allows you to set a certain amount of days after "
-"a patron has submitted an unsubscribe request(refused consent), anonymize "
-"accounts that are locked/expired and remove anonymized patrons."
+msgid "This is a new feature that allows you to set a certain amount of days after a patron has submitted an unsubscribe request(refused consent), anonymize accounts that are locked/expired and remove anonymized patrons."
 msgstr ""
+"यह एक नई सुविधा है जो आपको संरक्षक की सदस्यता समाप्त करने (सहमति देने से इनका"
+"र करने) के बाद एक निश्चित राशि निर्धारित करने की अनुमति देती है, उन खातों को "
+"अनामांकित किया जाता है जो बंद / समाप्त हो चुके हैं और अज्ञात संरक्षकों को "
+"हटाते हैं।"
 
 #: ../../source/administrationpreferences.rst:644
 msgid "SearchEngine"
-msgstr ""
+msgstr "SearchEngine"
 
 #: ../../source/administrationpreferences.rst:646
 msgid "Default: Zebra"
-msgstr ""
+msgstr "डिफ़ॉल्ट: जेबरा"
 
 #: ../../source/administrationpreferences.rst:648
 msgid "Asks: Use following search engine: \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: निम्न खोज इंजन का उपयोग करें: \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:652
 msgid "Elasticsearch"
-msgstr ""
+msgstr "Elasticsearch"
 
 #: ../../source/administrationpreferences.rst:654
 msgid "Zebra"
-msgstr ""
+msgstr "ज़ेबरा "
 
 #: ../../source/administrationpreferences.rst:659
 msgid "Share anonymous usage statistics"
-msgstr ""
+msgstr "अनाम उपयोग आंकड़े साझा करें"
 
 #: ../../source/administrationpreferences.rst:661
-msgid ""
-"As an open source project Koha is used all over the world. These preference "
-"will help us keep more accurate statistics on where Koha is being used. If "
-"you choose to share your information, it will be published on the `Hea Koha "
-"community website <http://hea.koha-community.org>`__. You will need to "
-"enable the :ref:`Share Usage Stats` cronjob to send this information at "
-"regular intervals to the community."
+msgid "As an open source project Koha is used all over the world. These preference will help us keep more accurate statistics on where Koha is being used. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. You will need to enable the :ref:`Share Usage Stats` cronjob to send this information at regular intervals to the community."
 msgstr ""
+"एक खुला स्रोत परियोजना के रूप में कोहा दुनिया भर में उपयोग किया जाता है ये "
+"वरीयता हमें जहां पर कोहा का उपयोग किया जा रहा है, उसके बारे में अधिक सटीक "
+"आंकड़े बनाए रखने में मदद मिलेगी। यदि आप अपनी जानकारी साझा करना चुनते हैं, तो "
+"वह `हीरा कोहा समुदाय वेबसाइट पर प्रकाशित होगी।<http://hea.koha-"
+"community.org>` __. आप को सक्षम करने की आवश्यकता होगी: रेफर: साझा जानकारी "
+"आंकड़े साझा करने के लिए समुदाय को नियमित अंतराल पर यह जानकारी भेजने के लिए।"
 
 #: ../../source/administrationpreferences.rst:672
 msgid "UsageStats"
-msgstr ""
+msgstr "UsageStats"
 
 #: ../../source/administrationpreferences.rst:674
 msgid "Default: Don't share"
-msgstr ""
+msgstr "डिफ़ॉल्ट: साझा नही करें"
 
 #: ../../source/administrationpreferences.rst:676
 msgid "Asks: \\_\\_\\_ anonymous Koha usage data with the Koha community."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ कोहा समुदाय के साथ गुमनाम कोहा उपयोग डेटा."
 
 #: ../../source/administrationpreferences.rst:680
 msgid "Don't share"
-msgstr ""
+msgstr "साझा मत करें"
 
 #: ../../source/administrationpreferences.rst:682
 #: ../../source/administrationpreferences.rst:742
 msgid "Share"
-msgstr ""
+msgstr "साझा"
 
 #: ../../source/administrationpreferences.rst:686
 #: ../../source/administrationpreferences.rst:700
 #: ../../source/administrationpreferences.rst:800
 #: ../../source/administrationpreferences.rst:820
-msgid ""
-"This data is stored to help track usage of Koha around the world. If you "
-"choose to share your information, it will be published on the `Hea Koha "
-"community website <http://hea.koha-community.org>`__. This information is "
-"sent using the :ref:`Share Usage Stats` cronjob."
+msgid "This data is stored to help track usage of Koha around the world. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. This information is sent using the :ref:`Share Usage Stats` cronjob."
 msgstr ""
+"यह डेटा दुनिया भर में कोहा के उपयोग को ट्रैक करने में सहायता के लिए जमा किया "
+"जाता है यदि आप अपनी जानकारी साझा करना चुनते हैं, तो वह `हीरा कोहा समुदाय "
+"वेबसाइट पर प्रकाशित होगी। <http://hea.koha-community.org>` __। यह जानकारी इस "
+"का उपयोग करके भेजी जाती है: रेफर: `उपयोग के आंकड़े 'क्रोनजॉब साझा करें"
 
 #: ../../source/administrationpreferences.rst:694
 msgid "UsageStatsCountry"
-msgstr ""
+msgstr "UsageStatsCountry"
 
 #: ../../source/administrationpreferences.rst:696
 msgid "Asks: The country where your library is located: \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: देश है, जहां अपने पुस्तकालय स्थित है: \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:707
 #: ../../source/administrationpreferences.rst:807
 #: ../../source/administrationpreferences.rst:827
-msgid ""
-"This preference depends on the `UsageStats <#usagestats>`__ preference. Set "
-"that to 'Share' to share your information."
+msgid "This preference depends on the `UsageStats <#usagestats>`__ preference. Set that to 'Share' to share your information."
 msgstr ""
+"यह वरीयता `उपयोग की स्थिति <#usagestats>` __ प्राथमिकता पर निर्भर करती है। "
+"अपनी जानकारी साझा करने के लिए इसे 'साझा करें' पर सेट करें"
 
 #: ../../source/administrationpreferences.rst:713
 msgid "UsageStatsGeolocation"
-msgstr ""
+msgstr "UsageStatsGeolocation"
 
 #: ../../source/administrationpreferences.rst:715
 msgid "Asks: Geolocation of the main library: \\_\\_\\_"
-msgstr ""
+msgstr "पूछता है: मुख्य पुस्तकालय का जियोलोकेशन: \\_\\_\\_"
 
 #: ../../source/administrationpreferences.rst:717
 msgid "Default: blank"
-msgstr ""
+msgstr "डिफ़ॉल्ट: खाली"
 
 #: ../../source/administrationpreferences.rst:721
-msgid ""
-"Note that this value has no effect if the :ref:`UsageStats` system "
-"preference is set to 'Don't share'."
+msgid "Note that this value has no effect if the :ref:`UsageStats` system preference is set to 'Don't share'."
 msgstr ""
+"ध्यान दें कि इस मूल्य का कोई प्रभाव नहीं है यदि :ref:`UsageStats` सिस्टम "
+"वरीयता 'शेयर न करें' पर सेट हो।"
 
 #: ../../source/administrationpreferences.rst:724
-msgid ""
-"The information in this system preference is populated by the geolocation "
-"information on the :ref:`usage statistics administration page<share-your-"
-"usage-statistics-label>`."
+msgid "The information in this system preference is populated by the geolocation information on the :ref:`usage statistics administration page<share-your-usage-statistics-label>`."
 msgstr ""
+"इस प्रणाली वरीयता में जानकारी जियोलोकेशन जानकारी पर आबादी है :ref:`उपयोग "
+"सांख्यिकी प्रशासन पृष्ठ <share-your-usage-statistics-label>`."
 
 #: ../../source/administrationpreferences.rst:730
 msgid "UsageStatsLibrariesInfo"
-msgstr ""
+msgstr "UsageStatsLibrariesInfo"
 
 #: ../../source/administrationpreferences.rst:732
 msgid "Default: Do not Share"
-msgstr ""
+msgstr "डिफ़ॉल्ट: साझा न करें"
 
 #: ../../source/administrationpreferences.rst:734
-msgid ""
-"Asks: \\_\\_\\_ libraries information (name, url, country) Note that this "
-"value has no effect if the :ref:`UsageStats` system preference is set to "
-"\"Don't share\""
+msgid "Asks: \\_\\_\\_ libraries information (name, url, country) Note that this value has no effect if the :ref:`UsageStats` system preference is set to \"Don't share\""
 msgstr ""
+"पूछता है: \\_\\_\\_ पुस्तकालयों की जानकारी (नाम, यूआरएल, देश) ध्यान दें कि "
+"यदि मान रिफ: यह मान का कोई असर नहीं है: 'यूजरेजस्टैट` सिस्टम वरीयता \"साझा न "
+"करें\""
 
 #: ../../source/administrationpreferences.rst:740
 msgid "Do not Share"
-msgstr ""
+msgstr "शेयर नहीं करें"
 
 #: ../../source/administrationpreferences.rst:747
 msgid "UsageStatsLibraryName"
-msgstr ""
+msgstr "UsageStatsLibraryName"
 
 #: ../../source/administrationpreferences.rst:749
-msgid ""
-"Asks: The library name \\_\\_\\_ will be shown on the `Hea Koha community "
-"website <http://hea.koha-community.org>`__."
+msgid "Asks: The library name \\_\\_\\_ will be shown on the `Hea Koha community website <http://hea.koha-community.org>`__."
 msgstr ""
+"पूछते हैं: पुस्तकालय नाम\\_\\_\\_ `हीया कोहा समुदाय वेबसाइट पर दिखाया जाएगा "
+"<http://hea.koha-community.org>`__."
 
 #: ../../source/administrationpreferences.rst:754
-msgid ""
-"This data is stored to help track usage of Koha around the world. If you "
-"choose to share your information, it will be published on the `Hea Koha "
-"community website <http://hea.koha-community.org>`__. This information is "
-"sent using the :ref:`Share Usage Stats` cron job."
+msgid "This data is stored to help track usage of Koha around the world. If you choose to share your information, it will be published on the `Hea Koha community website <http://hea.koha-community.org>`__. This information is sent using the :ref:`Share Usage Stats` cron job."
 msgstr ""
+"यह डेटा दुनिया भर में कोहा के उपयोग को ट्रैक करने में सहायता के लिए जमा किया "
+"जाता है यदि आप अपनी जानकारी साझा करना चुनते हैं, तो वह `हीरा कोहा समुदाय "
+"वेबसाइट पर प्रकाशित होगी। <http://hea.koha-community.org>` __। यह जानकारी इस "
+"का उपयोग करके भेजी जाती है: रेफर: `उपयोग के आंकड़े 'क्रोनजॉब साझा करें"
 
 #: ../../source/administrationpreferences.rst:761
-msgid ""
-"This preference depends on the `UsageStats <#usagestats>`__ preference. Set "
-"that to 'Share' to share your information. If this field is empty data will "
-"be sent anonymously if you choose 'Share' for the `UsageStats "
-"<#usagestats>`__ preference."
+msgid "This preference depends on the `UsageStats <#usagestats>`__ preference. Set that to 'Share' to share your information. If this field is empty data will be sent anonymously if you choose 'Share' for the `UsageStats <#usagestats>`__ preference."
 msgstr ""
+"यह वरीयता `UsageStats <#usagestats>`__ वरीयता पर निर्भर करती है। अपनी जानकारी"
+" साझा करने के लिए उसे 'साझा करें' पर सेट करें। यदि यह फ़ील्ड खाली है तो आपको`"
+"UsageStats <#usagestats>`__ वरीयता के लिए' शेयर 'चुनने पर गुमनाम रूप से डेटा "
+"भेजा जाएगा।"
 
 #: ../../source/administrationpreferences.rst:769
 msgid "UsageStatsLibraryType"
-msgstr ""
+msgstr "UsageStatsLibraryType"
 
 #: ../../source/administrationpreferences.rst:771
 msgid "Default: public"
-msgstr ""
+msgstr "डिफ़ॉल्ट: सार्वजनिक"
 
 #: ../../source/administrationpreferences.rst:773
-msgid ""
-"Asks: The library type \\_\\_\\_ will be shown on the `Hea Koha community "
-"website <http://hea.koha-community.org>`__."
+msgid "Asks: The library type \\_\\_\\_ will be shown on the `Hea Koha community website <http://hea.koha-community.org>`__."
 msgstr ""
+"पूछते हैं: पुस्तकालय नाम\\_\\_\\_ `हीया कोहा समुदाय वेबसाइट पर दिखाया जाएगा "
+"<http://hea.koha-community.org>`__."
 
 #: ../../source/administrationpreferences.rst:778
 msgid "academic"
-msgstr ""
+msgstr "शैक्षणिक"
 
 #: ../../source/administrationpreferences.rst:780
 msgid "corporate"
-msgstr ""
+msgstr "कॉर्पोरेट"
 
 #: ../../source/administrationpreferences.rst:782
 msgid "government"
-msgstr ""
+msgstr "सरकार"
 
 #: ../../source/administrationpreferences.rst:784
 msgid "private"
-msgstr ""
+msgstr "निजी"
 
 #: ../../source/administrationpreferences.rst:786
 msgid "public"
-msgstr ""
+msgstr "सार्वजनिक"
 
 #: ../../source/administrationpreferences.rst:788
 msgid "religious organization"
-msgstr ""
+msgstr "धार्मिक संगठन"
 
 #: ../../source/administrationpreferences.rst:790
 msgid "research"
-msgstr ""
+msgstr "शोध"
 
 #: ../../source/administrationpreferences.rst:792
 msgid "school"
-msgstr ""
+msgstr "स्कूल"
 
 #: ../../source/administrationpreferences.rst:794
 msgid "society or association"
-msgstr ""
+msgstr "सोसायटी या एसोसिएशन"
 
 #: ../../source/administrationpreferences.rst:796
 msgid "subscription"
-msgstr ""
+msgstr "सदस्यता"
 
 #: ../../source/administrationpreferences.rst:813
 msgid "UsageStatsLibraryUrl"
-msgstr ""
+msgstr "UsageStatsLibraryUrl"
 
 #: ../../source/administrationpreferences.rst:815
-msgid ""
-"Asks: The library URL \\_\\_\\_ will be shown on the `Hea Koha community "
-"website <http://hea.koha-community.org>`__."
+msgid "Asks: The library URL \\_\\_\\_ will be shown on the `Hea Koha community website <http://hea.koha-community.org>`__."
 msgstr ""
+"पूछता है: लाइब्रेरी यूआरएल \\_\\_\\_ हे कोहा समुदाय वेबसाइट पर दिखाया "
+"जाएगा<http://hea.koha-community.org>`__."

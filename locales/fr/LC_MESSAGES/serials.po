@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 06:55-0300\n"
-"PO-Revision-Date: 2021-01-27 11:19+0000\n"
+"POT-Creation-Date: 2021-03-04 01:15-0300\n"
+"PO-Revision-Date: 2021-10-20 05:35+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -15,35 +15,24 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/serials.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1611746345.798573\n"
+"X-POOTLE-MTIME: 1634708149.459956\n"
 
 #: ../../source/serials.rst:6
 msgid "Serials"
 msgstr "Périodiques"
 
 #: ../../source/serials.rst:8
-#, fuzzy
-msgid ""
-"Serials actions can be accessed by going to the 'More' menu at the top of "
-"your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha "
-"staff interface page. The serials module in Koha is used for keeping track "
-"of journals, newspapers and other items that come on a regular schedule."
+msgid "Serials actions can be accessed by going to the 'More' menu at the top of your screen and choosing 'Serials' or by clicking 'Serials' on the main Koha staff interface page. The serials module in Koha is used for keeping track of journals, newspapers and other items that come on a regular schedule."
 msgstr ""
 "Le module de gestion des périodiques est accessible en choisissant "
-"Périodiques à partir du menu Plus en haut de l'écran. Il est également "
+"Périodiques à partir du menu 'Plus' en haut de l'écran. Il est également "
 "possible d'y accéder en cliquant sur le module Périodiques sur la page "
 "d'accueil de l'interface professionnelle de Koha. Le module Périodiques dans "
 "Koha est utilisé pour suivre la réception des magazines, journaux et tous "
-"autres documents arrivant de façon régulière. Comme pour tous les modules, "
-"assurez vous de consulter la :ref:`liste d'implémentation appropriée "
-"<serials-configuration-label>`avant d'utiliser le module Périodiques."
+"autres documents arrivant de façon régulière."
 
 #: ../../source/serials.rst:13
-msgid ""
-"As with all modules, make sure you go through the related :ref:"
-"`implementation checklist <serials-configuration-label>` and :ref:`system "
-"preferences<serials-system-preferences-label>` before using the serials "
-"module."
+msgid "As with all modules, make sure you go through the related :ref:`implementation checklist <serials-configuration-label>` and :ref:`system preferences<serials-system-preferences-label>` before using the serials module."
 msgstr ""
 
 #: ../../source/serials.rst:18
@@ -51,17 +40,12 @@ msgid "*Get there:* More > Serials"
 msgstr "*Aller à :* Plus > Périodiques"
 
 #: ../../source/serials.rst:23
-#, fuzzy
 msgid "Manage serial frequencies"
 msgstr "Gérer les périodicités des périodiques"
 
 #: ../../source/serials.rst:25
-msgid ""
-"Koha keeps a record of publication frequencies for easy management and "
-"duplication."
-msgstr ""
-"Koha conserve un enregistrement de la périodicité des publications pour "
-"faciliter leur gestion et leur duplication."
+msgid "Koha keeps a record of publication frequencies for easy management and duplication."
+msgstr "Koha conserve un enregistrement de la périodicité des publications pour faciliter leur gestion et leur duplication."
 
 #: ../../source/serials.rst:28
 msgid "*Get there:* More > Serials > Manage frequencies"
@@ -69,11 +53,8 @@ msgstr "*Aller à :* Plus > Périodiques > Gestion des périodicités"
 
 #: ../../source/serials.rst:30
 #, fuzzy
-msgid ""
-"From this page you can view all of the existing frequencies in your system."
-msgstr ""
-"Sur cette page, vous pouvez voir toutes les périodicités qui existent dans "
-"votre système"
+msgid "From this page you can view all of the existing frequencies in your system."
+msgstr "Sur cette page, vous pouvez voir toutes les périodicités qui existent dans votre système"
 
 #: ../../source/serials.rst:32
 msgid "|frequencies|"
@@ -98,46 +79,27 @@ msgid "|newfrequency|"
 msgstr ""
 
 #: ../../source/serials.rst:45
-msgid ""
-"Description: this is the name that will appear in the drop-down menu when "
-"creating a new serial subscription; make sure it is descriptive"
+msgid "Description: this is the name that will appear in the drop-down menu when creating a new serial subscription; make sure it is descriptive"
 msgstr ""
 
 #: ../../source/serials.rst:48
-msgid ""
-"Unit: this is the unit used for counting the cycle of publication. Choose "
-"either none (for irregular frequencies), day, week, month, or year."
+msgid "Unit: this is the unit used for counting the cycle of publication. Choose either none (for irregular frequencies), day, week, month, or year."
 msgstr ""
 
 #: ../../source/serials.rst:51
-msgid ""
-"Issues per unit: this is how many issues are published during the unit "
-"chosen above (this will usually be 1)."
+msgid "Issues per unit: this is how many issues are published during the unit chosen above (this will usually be 1)."
 msgstr ""
 
 #: ../../source/serials.rst:54
-msgid ""
-"Units per issue: this is how many units must we count until the next issue "
-"is published."
+msgid "Units per issue: this is how many units must we count until the next issue is published."
 msgstr ""
 
 #: ../../source/serials.rst:57 ../../source/serials.rst:159
-msgid ""
-"Display order: this is the display order in the drop-down menu when :ref:"
-"`creating a new subscription<add-a-subscription-label>` (you may want to put "
-"the most used frequencies at the top and the less frequent at the bottom; "
-"the top-most position is 0). Several frequencies can have the same display "
-"order value. If this is the case, they will appear in the order they were "
-"created."
+msgid "Display order: this is the display order in the drop-down menu when :ref:`creating a new subscription<add-a-subscription-label>` (you may want to put the most used frequencies at the top and the less frequent at the bottom; the top-most position is 0). Several frequencies can have the same display order value. If this is the case, they will appear in the order they were created."
 msgstr ""
 
 #: ../../source/serials.rst:66
-msgid ""
-"To understand 'issues per unit' versus 'units per issue' you can read it as "
-"'<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For "
-"example, a biweekly frenquency (every two weeks) would be '1 issue every 2 "
-"weeks'. So 'issues per unit' would be 1 and 'units per issue' would be 2. "
-"See below for more examples."
+msgid "To understand 'issues per unit' versus 'units per issue' you can read it as '<*issues* per unit> issue(s) every <*units* per issues> <unit>'. For example, a biweekly frenquency (every two weeks) would be '1 issue every 2 weeks'. So 'issues per unit' would be 1 and 'units per issue' would be 2. See below for more examples."
 msgstr ""
 
 #: ../../source/serials.rst:72 ../../source/serials.rst:151
@@ -263,56 +225,39 @@ msgid "Biennal (\"1 issue every 2 years\")"
 msgstr ""
 
 #: ../../source/serials.rst:105
-#, fuzzy
 msgid "Manage serial numbering patterns"
 msgstr "Gestion des modèles de numérotation des périodiques"
 
 #: ../../source/serials.rst:107
-#, fuzzy
-msgid ""
-"Every time you create a new numbering pattern in serials you can save it for "
-"later use. These patterns are accessible via the 'Manage numbering patterns' "
-"page."
-msgstr ""
-"Chaque fois que vous créez un nouveau modèle de numérotation pour les "
-"périodiques vous pouvez les sauvegarder pour une utilisation ultérieure. Ces "
-"modèles sont accessibles sur la page de Gestion des modèles de numérotation."
+msgid "Every time you create a new numbering pattern in serials you can save it for later use. These patterns are accessible via the 'Manage numbering patterns' page."
+msgstr "Chaque fois que vous créez un nouveau modèle de numérotation pour les périodiques vous pouvez les sauvegarder pour une utilisation ultérieure. Ces modèles sont accessibles sur la page de Gestion des modèles de numérotation."
 
 #: ../../source/serials.rst:111
 msgid "*Get there:* More > Serials > Manage numbering patterns"
 msgstr "*Aller à :* Plus > Périodiques > Gestion des modèles de numérotation"
 
 #: ../../source/serials.rst:113
-#, fuzzy
-msgid ""
-"This page will list for you the numbering patterns you have saved in the "
-"past as well as a few basic patterns."
+msgid "This page will list for you the numbering patterns you have saved in the past as well as a few basic patterns."
 msgstr ""
 "Cette page vous affichera les modèles de numérotation que vous avez "
-"enregistrés dans le passé, ainsi que quelques modèles en réserve."
+"enregistrés dans le passé, ainsi que quelques modèles de base."
 
 #: ../../source/serials.rst:116
 msgid "|numpatterns|"
 msgstr ""
 
 #: ../../source/serials.rst:119
-#, fuzzy
-msgid ""
-"If you have upgraded from an old version of Koha (before 3.14) you will see "
-"'Backup patterns' listed for patterns. This is how Koha saved your old "
-"numbering patterns. You can edit these to give them more meaningful names "
-"from here."
+msgid "If you have upgraded from an old version of Koha (before 3.14) you will see 'Backup patterns' listed for patterns. This is how Koha saved your old numbering patterns. You can edit these to give them more meaningful names from here."
 msgstr ""
 "Si vous avez effectué une migration d'une ancienne version de Koha à une "
-"récente, vous verrez \"Modèles sauvegardés\" qui concerne les modèles "
+"récente, vous verrez \"Modèles sauvegardés\" qui concernent les modèles "
 "utilisés dans les versions antérieures à 3.14. C'est là où Koha a sauvegardé "
 "tous les anciens modèles de numérotation. Vous pouvez les modifier ici en "
 "leur donnant des noms plus significatifs."
 
 #: ../../source/serials.rst:127
-#, fuzzy
 msgid "Adding a numbering pattern"
-msgstr "Gestion des modèles de numérotation des périodiques"
+msgstr "Ajouter un modèle de numérotation"
 
 #: ../../source/serials.rst:129
 msgid "To add new new pattern click the 'New numbering pattern' button."
@@ -323,28 +268,15 @@ msgid "|newnumpattern|"
 msgstr ""
 
 #: ../../source/serials.rst:133
-msgid ""
-"Name: this is the name that will appear in the drop-down menu when :ref:"
-"`creating a new serial subscription<add-a-subscription-label>`; make sure it "
-"is descriptive."
+msgid "Name: this is the name that will appear in the drop-down menu when :ref:`creating a new serial subscription<add-a-subscription-label>`; make sure it is descriptive."
 msgstr ""
 
 #: ../../source/serials.rst:137
-msgid ""
-"Description: this is to further describe the numbering pattern; this does "
-"not appear when creating a new subscription, it only displays in the :ref:"
-"`numbering patterns table (see above)<manage-serial-numbering-patterns-"
-"label>`."
+msgid "Description: this is to further describe the numbering pattern; this does not appear when creating a new subscription, it only displays in the :ref:`numbering patterns table (see above)<manage-serial-numbering-patterns-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:141
-msgid ""
-"Numbering formula: this is what is used to create the number for each issue. "
-"You can use up to three variables {X}, {Y}, and {Z} (see below). Along with "
-"the variables, you can enter any text you want to have appear in the issue "
-"number. You must also include any spaces you want to see in the issue "
-"numbers. The text will stay the same for each issue and the variables will "
-"vary."
+msgid "Numbering formula: this is what is used to create the number for each issue. You can use up to three variables {X}, {Y}, and {Z} (see below). Along with the variables, you can enter any text you want to have appear in the issue number. You must also include any spaces you want to see in the issue numbers. The text will stay the same for each issue and the variables will vary."
 msgstr ""
 
 #: ../../source/serials.rst:149
@@ -366,14 +298,10 @@ msgstr ""
 #: ../../source/serials.rst:166
 #, fuzzy
 msgid "In the table, you need to enter the parameters for each variable."
-msgstr ""
-"Dans le formulaire qui s'affiche, entrez au moins une date sur laquelle "
-"faire la recherche."
+msgstr "Dans le formulaire qui s'affiche, entrez au moins une date sur laquelle faire la recherche."
 
 #: ../../source/serials.rst:168
-msgid ""
-"Label: this is simply a name for the variable, it is not used anywhere else, "
-"but it helps identify what the variable is supposed to be."
+msgid "Label: this is simply a name for the variable, it is not used anywhere else, but it helps identify what the variable is supposed to be."
 msgstr ""
 
 #: ../../source/serials.rst:172
@@ -381,32 +309,23 @@ msgid "Add: how many numbers or units are added to the variable."
 msgstr ""
 
 #: ../../source/serials.rst:174
-msgid ""
-"Each: the numbers or units added to the variable are added each how many "
-"issues."
+msgid "Each: the numbers or units added to the variable are added each how many issues."
 msgstr ""
 
 #: ../../source/serials.rst:177
-msgid ""
-"Set back to: this is used for cyclic numbering; enter the starting number."
+msgid "Set back to: this is used for cyclic numbering; enter the starting number."
 msgstr ""
 
 #: ../../source/serials.rst:179
-msgid ""
-"When more than: this is used for cyclic numbering; enter the last number."
+msgid "When more than: this is used for cyclic numbering; enter the last number."
 msgstr ""
 
 #: ../../source/serials.rst:183
-msgid ""
-"When filling out these four parameter ('add', 'each', 'set back to' and "
-"'when more than'), work column by column and read it as a sentence: \"Add 1 "
-"Every 1 issue, set back to 1 when greater than 10\"."
+msgid "When filling out these four parameter ('add', 'each', 'set back to' and 'when more than'), work column by column and read it as a sentence: \"Add 1 Every 1 issue, set back to 1 when greater than 10\"."
 msgstr ""
 
 #: ../../source/serials.rst:187
-msgid ""
-"Formatting: this is used if, instead of numbers, you want words to appear in "
-"your issue number. You can choose"
+msgid "Formatting: this is used if, instead of numbers, you want words to appear in your issue number. You can choose"
 msgstr ""
 
 #: ../../source/serials.rst:190
@@ -419,11 +338,11 @@ msgstr ""
 
 #: ../../source/serials.rst:194
 msgid "Name of month (January, February, March, etc.)"
-msgstr ""
+msgstr "Nom du mois (Janvier, Février, Mars, etc.)"
 
 #: ../../source/serials.rst:196
 msgid "Name of month (abbreviated) (Jan, Feb, Mar, etc.)"
-msgstr ""
+msgstr "Nom du mois (abrégé) (Janvier, Février, Mars, etc.)"
 
 #: ../../source/serials.rst:198
 msgid "Name of season (Spring, Summer, Fall, Winter)"
@@ -434,9 +353,7 @@ msgid "Name of season (abbreviated) (Spr, Sum, Fal, Win)"
 msgstr ""
 
 #: ../../source/serials.rst:204
-msgid ""
-"When filling out the table, you must always use numbers, even to represent "
-"names of days, months or seasons. Here are the equivalent for each"
+msgid "When filling out the table, you must always use numbers, even to represent names of days, months or seasons. Here are the equivalent for each"
 msgstr ""
 
 #: ../../source/serials.rst:208
@@ -493,15 +410,15 @@ msgstr ""
 
 #: ../../source/serials.rst:222
 msgid "January"
-msgstr ""
+msgstr "Janvier"
 
 #: ../../source/serials.rst:224
 msgid "February"
-msgstr ""
+msgstr "Février"
 
 #: ../../source/serials.rst:226
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: ../../source/serials.rst:228
 msgid "April"
@@ -509,19 +426,19 @@ msgstr ""
 
 #: ../../source/serials.rst:230
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: ../../source/serials.rst:232
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: ../../source/serials.rst:234
 msgid "July"
-msgstr ""
+msgstr "Juillet"
 
 #: ../../source/serials.rst:236
 msgid "August"
-msgstr ""
+msgstr "Août"
 
 #: ../../source/serials.rst:236
 msgid "7"
@@ -529,7 +446,7 @@ msgstr ""
 
 #: ../../source/serials.rst:238
 msgid "September"
-msgstr ""
+msgstr "Septembre"
 
 #: ../../source/serials.rst:238
 msgid "8"
@@ -537,7 +454,7 @@ msgstr ""
 
 #: ../../source/serials.rst:240
 msgid "October"
-msgstr ""
+msgstr "Octobre"
 
 #: ../../source/serials.rst:240
 msgid "9"
@@ -545,7 +462,7 @@ msgstr ""
 
 #: ../../source/serials.rst:242
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: ../../source/serials.rst:242
 msgid "10"
@@ -580,9 +497,7 @@ msgid "Winter"
 msgstr ""
 
 #: ../../source/serials.rst:255
-msgid ""
-"Before you save your numbering pattern, you can test it to make sure it "
-"behaves as you intend."
+msgid "Before you save your numbering pattern, you can test it to make sure it behaves as you intend."
 msgstr ""
 
 #: ../../source/serials.rst:258
@@ -594,17 +509,11 @@ msgid "First issue publication date: choose a date where your test will start."
 msgstr ""
 
 #: ../../source/serials.rst:262
-msgid ""
-"Subscription length: enter a number of issues, weeks or months to test your "
-"numbering pattern; if the numbering pattern is cyclic, it is recommended to "
-"try at least two cycles to see the change in cycles and make sure it behaves "
-"correctly."
+msgid "Subscription length: enter a number of issues, weeks or months to test your numbering pattern; if the numbering pattern is cyclic, it is recommended to try at least two cycles to see the change in cycles and make sure it behaves correctly."
 msgstr ""
 
 #: ../../source/serials.rst:267 ../../source/serials.rst:547
-msgid ""
-"Locale: if using names of days, months or season, you can choose the "
-"language in which these names will be displayed."
+msgid "Locale: if using names of days, months or season, you can choose the language in which these names will be displayed."
 msgstr ""
 
 #: ../../source/serials.rst:272 ../../source/serials.rst:552
@@ -617,25 +526,20 @@ msgstr ""
 
 #: ../../source/serials.rst:276 ../../source/serials.rst:558
 #, fuzzy
-msgid ""
-"Begins with: enter the first value for each variable, these should be the "
-"values of the issue entered in 'First issue publication date' above."
-msgstr ""
-"Commencez par le numéro du fascicule que vous avez en main, dont vous avez "
-"entré la date dans le champ 'Date de parution du premier fascicule'."
+msgid "Begins with: enter the first value for each variable, these should be the values of the issue entered in 'First issue publication date' above."
+msgstr "Commencez par le numéro du fascicule que vous avez en main, dont vous avez entré la date dans le champ 'Date de parution du premier fascicule'."
 
 #: ../../source/serials.rst:279 ../../source/serials.rst:561
-msgid ""
-"Inner counter: enter how many issues have already passed in the cycle, so "
-"that Koha can calculate when to cycle back."
+msgid "Inner counter: enter how many issues have already passed in the cycle, so that Koha can calculate when to cycle back."
 msgstr ""
 
 #: ../../source/serials.rst:282
-msgid ""
-"Click 'Test pattern' to see the results. If the result is what you expected, "
-"you can save your numbering pattern. If the results does not match your "
-"expectations, go back and tweak the parameters and test again."
+msgid "Click 'Test pattern' to see the results. If the result is what you expected, you can save your numbering pattern. If the results does not match your expectations, go back and tweak the parameters and test again."
 msgstr ""
+"Cliquez sur 'Tester le modèle' pour voir les résultats. S'ils correspondent "
+"à votre attente, vous pouvez sauvegarder votre modèle de numérotation. Si "
+"les résultats ne correspondent pas aux attentes, revenez en arrière et "
+"modifiez vos paramètres avant d'essayer à nouveau."
 
 #: ../../source/serials.rst:288
 msgid "Month and year for monthly serials"
@@ -742,28 +646,17 @@ msgstr ""
 
 #: ../../source/serials.rst:371
 #, fuzzy
-msgid ""
-"`Find more numbering patterns on Koha's wiki <https://wiki.koha-community."
-"org/wiki/Serial_Pattern_Library>`__."
-msgstr ""
-"Cliquez sur \"Enregistrer abonnement\" pour sauvegarder les informations "
-"saisies. `Voir des exemples de périodiques dans la Bibliothèque de Modèle de "
-"Périodiques sur le wiki <https://wiki.koha-community.org/wiki/"
-"Serial_Pattern_Library>`__."
+msgid "`Find more numbering patterns on Koha's wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr "Cliquez sur \"Enregistrer abonnement\" pour sauvegarder les informations saisies. `Voir des exemples de périodiques dans la Bibliothèque de Modèle de Périodiques sur le wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
 
 #: ../../source/serials.rst:377
-#, fuzzy
 msgid "Adding a subscription"
 msgstr "Ajouter un abonnement"
 
 #: ../../source/serials.rst:379
 #, fuzzy
-msgid ""
-"Subscriptions can be added by clicking the 'New' button on any bibliographic "
-"record and choosing 'New subscription'"
-msgstr ""
-"Vous pouvez ajouter des abonnements en cliquant sur le bouton \"Nouveau\" "
-"depuis n'importe quelle notice bibliographique"
+msgid "Subscriptions can be added by clicking the 'New' button on any bibliographic record and choosing 'New subscription'"
+msgstr "Vous pouvez ajouter des abonnements en cliquant sur le bouton \"Nouveau\" depuis n'importe quelle notice bibliographique"
 
 #: ../../source/serials.rst:382
 msgid "|newsubfromrecord|"
@@ -779,41 +672,27 @@ msgstr ""
 
 #: ../../source/serials.rst:388
 #, fuzzy
-msgid ""
-"If you are entering a new subscription from the Serials module you will be "
-"presented with a blank form (if creating new from a bibliographic record the "
-"form will include the record number info)."
-msgstr ""
-"Si vous ajoutez un abonnement à partir du module Périodiques, vous arriverez "
-"sur un formulaire vide (prérempli en cas d'abonnement créé à partir d'une "
-"notice bibliographique existante)."
+msgid "If you are entering a new subscription from the Serials module you will be presented with a blank form (if creating new from a bibliographic record the form will include the record number info)."
+msgstr "Si vous ajoutez un abonnement à partir du module Périodiques, vous arriverez sur un formulaire vide (prérempli en cas d'abonnement créé à partir d'une notice bibliographique existante)."
 
 #: ../../source/serials.rst:392
 msgid "|addsub|"
 msgstr ""
 
 #: ../../source/serials.rst:394
-#, fuzzy
-msgid ""
-"Vendor: can be found by either searching vendors entered via the :ref:"
-"`Acquisitions module <acquisitions-label>` or manually entering the vendor "
-"ID number"
+msgid "Vendor: can be found by either searching vendors entered via the :ref:`Acquisitions module <acquisitions-label>` or manually entering the vendor ID number"
 msgstr ""
-"\"Fournisseur\" peut être trouvé soit en cherchant les fournisseurs saisis "
-"via le `module Acquisitions <#acqmodule>`__soit en entrant directement "
-"l'identifiant du fournisseur"
+"Fournisseur : peut être trouvé soit en cherchant les fournisseurs saisis via "
+"le :ref:`module Acquisitions <acquisitions-label>` soit en entrant "
+"directement l'identifiant du fournisseur"
 
 #: ../../source/serials.rst:398
 msgid "Vendor information is not required"
 msgstr "L'information sur le fournisseur n'est pas requise."
 
 #: ../../source/serials.rst:400
-msgid ""
-"In order to claim missing and late issues you need to enter vendor "
-"information"
-msgstr ""
-"Pour réclamer les fascicules manquants ou en retard, vous devez entrer les "
-"informations sur le fournisseur."
+msgid "In order to claim missing and late issues you need to enter vendor information"
+msgstr "Pour réclamer les fascicules manquants ou en retard, vous devez entrer les informations sur le fournisseur."
 
 #: ../../source/serials.rst:403
 msgid "|vendorwarning|"
@@ -821,61 +700,38 @@ msgstr ""
 
 #: ../../source/serials.rst:405
 #, fuzzy
-msgid ""
-"Record: the biblionumber of the MARC record you'd like to link this "
-"subscription to"
-msgstr ""
-"'Biblio' est la notice MARC à laquelle vous souhaitez lier cet abonnement"
+msgid "Record: the biblionumber of the MARC record you'd like to link this subscription to"
+msgstr "'Biblio' est la notice MARC à laquelle vous souhaitez lier cet abonnement"
 
 #: ../../source/serials.rst:408
-msgid ""
-"If you created a new subscription from a bibliographic record, the "
-"biblionumber and the title will already be filled in"
+msgid "If you created a new subscription from a bibliographic record, the biblionumber and the title will already be filled in"
 msgstr ""
 
 #: ../../source/serials.rst:411
-msgid ""
-"You can search for an existing record by clicking on the 'Search for record' "
-"link below the boxes"
+msgid "You can search for an existing record by clicking on the 'Search for record' link below the boxes"
 msgstr ""
 
 #: ../../source/serials.rst:414
-msgid ""
-"If there is no existing bibliographic record for this subscription, you can "
-"create one by clicking on the 'Create record' link below the boxes"
+msgid "If there is no existing bibliographic record for this subscription, you can create one by clicking on the 'Create record' link below the boxes"
 msgstr ""
 
 #: ../../source/serials.rst:417
-msgid ""
-"You can also manually enter the biblionumber for a record in the first box"
+msgid "You can also manually enter the biblionumber for a record in the first box"
 msgstr ""
 
 #: ../../source/serials.rst:420
 #, fuzzy
-msgid ""
-"Next you can choose whether a new item is created when receiving an issue"
-msgstr ""
-"Vous pouvez ensuite choisir si un nouvel exemplaire est créé lorsque vous "
-"bulletinez un fascicule (si vous scannez le code à barres des fascicules, "
-"vous créerez un exemplaire cette fois)"
+msgid "Next you can choose whether a new item is created when receiving an issue"
+msgstr "Vous pouvez ensuite choisir si un nouvel exemplaire est créé lorsque vous bulletinez un fascicule (si vous scannez le code à barres des fascicules, vous créerez un exemplaire cette fois)"
 
 #: ../../source/serials.rst:425
-msgid ""
-"If you add barcodes to issues or if your circulate them, choose to create an "
-"item upon reception"
+msgid "If you add barcodes to issues or if your circulate them, choose to create an item upon reception"
 msgstr ""
 
 #: ../../source/serials.rst:428
 #, fuzzy
-msgid ""
-"When there is an irregular issue: choose how to handle irregularities in "
-"your subscription, by either skipping the issue number or keeping the issue "
-"number"
-msgstr ""
-"Pour déterminer comment traiter des irrégularités dans votre abonnement "
-"répondez \"Lors d'une publication irrégulière\", si les numéros sont "
-"toujours séquentiels vous voudrez choisir '\"Garder le numéro de publication"
-"\""
+msgid "When there is an irregular issue: choose how to handle irregularities in your subscription, by either skipping the issue number or keeping the issue number"
+msgstr "Pour déterminer comment traiter des irrégularités dans votre abonnement répondez \"Lors d'une publication irrégulière\", si les numéros sont toujours séquentiels vous voudrez choisir '\"Garder le numéro de publication\""
 
 #: ../../source/serials.rst:434
 msgid "If the numbers are always sequential, choose 'Keep issue number'"
@@ -883,17 +739,8 @@ msgstr ""
 
 #: ../../source/serials.rst:436
 #, fuzzy
-msgid ""
-"Manual history: if checked, you will be able to enter serials outside the "
-"prediction pattern once the subscription is saved. For example, 'The library "
-"has issues from June 1974 to December 1996'. To do so, go to the 'Planning' "
-"tab on the subscription detail page once the subscription is saved and click "
-"'Edit history'."
-msgstr ""
-"En cochant la case 'Historique manuel', vous pourrez saisir les périodiques "
-"ne se conformant pas au prévisionnel de bulletinage, ceci une fois que "
-"l'abonnement est enregistré en allant sur l'onglet 'Calendrier' de la page "
-"de détails de l'abonnement."
+msgid "Manual history: if checked, you will be able to enter serials outside the prediction pattern once the subscription is saved. For example, 'The library has issues from June 1974 to December 1996'. To do so, go to the 'Planning' tab on the subscription detail page once the subscription is saved and click 'Edit history'."
+msgstr "En cochant la case 'Historique manuel', vous pourrez saisir les périodiques ne se conformant pas au prévisionnel de bulletinage, ceci une fois que l'abonnement est enregistré en allant sur l'onglet 'Calendrier' de la page de détails de l'abonnement."
 
 #: ../../source/serials.rst:442
 #, fuzzy
@@ -902,12 +749,8 @@ msgstr "Les abonnements dans l'OPAC"
 
 #: ../../source/serials.rst:444
 #, fuzzy
-msgid ""
-"Call number: your item's call number or call number prefix, this will be "
-"copied to items if they are created upon receiving."
-msgstr ""
-"'Numéro de cote' fait référence au numéro de cote de l'exemplaire ou au "
-"préfixe de la cote"
+msgid "Call number: your item's call number or call number prefix, this will be copied to items if they are created upon receiving."
+msgstr "'Numéro de cote' fait référence au numéro de cote de l'exemplaire ou au préfixe de la cote"
 
 #: ../../source/serials.rst:447
 #, fuzzy
@@ -915,22 +758,13 @@ msgid "Library: the branch that owns this subscription."
 msgstr "\"Site\" est le site qui possède cet abonnement."
 
 #: ../../source/serials.rst:449
-msgid ""
-"If more than one library subscribes to this serial you will need to create a "
-"subscription for each library"
-msgstr ""
-"Si plus d'un site à un abonnement à ce périodique, il faut créer un "
-"abonnement par site."
+msgid "If more than one library subscribes to this serial you will need to create a subscription for each library"
+msgstr "Si plus d'un site à un abonnement à ce périodique, il faut créer un abonnement par site."
 
 #: ../../source/serials.rst:452
 #, fuzzy
-msgid ""
-"This can be done easily by using the 'Edit as new (duplicate)' option found "
-"on the subscription information page and changing only the 'Library' field"
-msgstr ""
-"Cela peut être réalisé facilement en utilisant l'option 'Modifier' > "
-"'Dupliquer' sur la page d'information de l'abonnement, puis en ne changeant "
-"que le contenu du champ 'Site'."
+msgid "This can be done easily by using the 'Edit as new (duplicate)' option found on the subscription information page and changing only the 'Library' field"
+msgstr "Cela peut être réalisé facilement en utilisant l'option 'Modifier' > 'Dupliquer' sur la page d'information de l'abonnement, puis en ne changeant que le contenu du champ 'Site'."
 
 #: ../../source/serials.rst:456
 msgid "|newasduplicate|"
@@ -938,131 +772,77 @@ msgstr ""
 
 #: ../../source/serials.rst:458
 #, fuzzy
-msgid ""
-"Public note: any notes you would like to appear in the OPAC for the patrons"
-msgstr ""
-"Utilisez Note OPAC pour toute information que vous voulez montrer au public "
-"à l'OPAC."
+msgid "Public note: any notes you would like to appear in the OPAC for the patrons"
+msgstr "Utilisez Note OPAC pour toute information que vous voulez montrer au public à l'OPAC."
 
 #: ../../source/serials.rst:460
 #, fuzzy
-msgid ""
-"Nonpublic note: should be used for notes that are only visible to staff "
-"members via the staff interface"
-msgstr ""
-"'Note privée' est utilisée pour les notes qui sont montrées uniquement aux "
-"bibliothécaires dans l'interface professionnelle."
+msgid "Nonpublic note: should be used for notes that are only visible to staff members via the staff interface"
+msgstr "'Note privée' est utilisée pour les notes qui sont montrées uniquement aux bibliothécaires dans l'interface professionnelle."
 
 #: ../../source/serials.rst:463
 #, fuzzy
-msgid ""
-"Patron notification: you can pick a notice to send to patrons who subscribe "
-"to updates on this serial via the OPAC."
-msgstr ""
-"L'option \"Notifications de l'adhérent\" vous permet de définir une "
-"notification à envoyer aux adhérents qui y ont souscrit via l'OPAC, pour les "
-"avertir de la parution des nouveaux fascicules de périodiques."
+msgid "Patron notification: you can pick a notice to send to patrons who subscribe to updates on this serial via the OPAC."
+msgstr "L'option \"Notifications de l'adhérent\" vous permet de définir une notification à envoyer aux adhérents qui y ont souscrit via l'OPAC, pour les avertir de la parution des nouveaux fascicules de périodiques."
 
 #: ../../source/serials.rst:466
 #, fuzzy
-msgid ""
-"For this option to appear you need to make sure that you have a 'Serials "
-"(new issue)'-type notice set up in the :ref:`'Notices and slips' tool "
-"<notices-and-slips-label>`"
-msgstr ""
-"Pour que cette option apparaisse, vous devez vous assurer d'avoir défini une "
-"notification \"Liste de routage\" dans :ref:`l'outil de gestion des "
-"notifications <notices-&-slips-label>`"
+msgid "For this option to appear you need to make sure that you have a 'Serials (new issue)'-type notice set up in the :ref:`'Notices and slips' tool <notices-and-slips-label>`"
+msgstr "Pour que cette option apparaisse, vous devez vous assurer d'avoir défini une notification \"Liste de routage\" dans :ref:`l'outil de gestion des notifications <notices-&-slips-label>`"
 
 #: ../../source/serials.rst:470
-msgid ""
-"Location: the shelving location, this will be copied to items if they are "
-"created upon receiving."
+msgid "Location: the shelving location, this will be copied to items if they are created upon receiving."
 msgstr ""
 
 #: ../../source/serials.rst:473
-msgid ""
-"Item type: if creating items upon reception, choose the item type of the "
-"items created."
+msgid "Item type: if creating items upon reception, choose the item type of the items created."
 msgstr ""
 
 #: ../../source/serials.rst:476
-msgid ""
-"Item type for older issues: if creating items upon reception, choose the "
-"item type that will be assigned to previous issues when receiving new "
-"issues. This will only appear only if the :ref:`makePreviousSerialAvailable` "
-"is enabled."
+msgid "Item type for older issues: if creating items upon reception, choose the item type that will be assigned to previous issues when receiving new issues. This will only appear only if the :ref:`makePreviousSerialAvailable` is enabled."
 msgstr ""
+"Type de document des anciens numéros : s'il y a création d'exemplaires à la "
+"réception, choisissez le type de document qui sera affecté aux numéros "
+"précédents lors de la réception de nouveaux numéros. Ceci ne s'affichera que "
+"si :ref:`makePreviousSerialAvailable` est activée."
 
 #: ../../source/serials.rst:481
-#, fuzzy
-msgid ""
-"Grace period: the number of days before an issue is automatically moved from "
-"'Expected' status to 'Late'. This mechanism requires that the :ref:"
-"`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run "
-"regularly."
+msgid "Grace period: the number of days before an issue is automatically moved from 'Expected' status to 'Late'. This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly."
 msgstr ""
-"La \"Période de grâce\" définit le nombre de jours au bout desquels le "
-"statut d'un fascicule passe automatiquement de \"Attendu\" à \"En attente\". "
-"Ce fonctionnement suppose que le cron job :ref:`SerialsUpdate.pl <serials-"
+"Période de grâce : définit le nombre de jours au bout desquels le statut "
+"d'un fascicule passe automatiquement de \"Attendu\" à \"En retard\". Ce "
+"fonctionnement suppose que le cron job :ref:`SerialsUpdate.pl <cron-serials-"
 "update-label>` soit paramétré pour s'exécuter régulièrement."
 
 #: ../../source/serials.rst:486
 #, fuzzy
-msgid ""
-"Number of issues to display to staff: this allows you to control how many "
-"issues appear by default in the staff interface catalog, in the "
-"'Subscriptions' tab of the bibliographic record."
-msgstr ""
-"Les options d'affichage OPAC et Bibliothécaires permettent de contrôler "
-"combien de fascicules apparaissent par défaut avec les notices "
-"bibliographiques à l'OPAC et dans l'interface professionnelle"
+msgid "Number of issues to display to staff: this allows you to control how many issues appear by default in the staff interface catalog, in the 'Subscriptions' tab of the bibliographic record."
+msgstr "Les options d'affichage OPAC et Bibliothécaires permettent de contrôler combien de fascicules apparaissent par défaut avec les notices bibliographiques à l'OPAC et dans l'interface professionnelle"
 
 #: ../../source/serials.rst:490
-#, fuzzy
-msgid ""
-"If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount` "
-"system preference will be used."
+msgid "If this is left empty, the value of the :ref:`StaffSerialIssueDisplayCount` system preference will be used."
 msgstr ""
-"S'il n'y a aucune valeur dans ces champs, les valeurs définies dans les "
-"préférences systèmes :ref:`OPACSerialIssueDisplayCount` et :ref:"
-"`StaffSerialIssueDisplayCount` seront utilisées"
+"S'il n'y a aucune valeur dans ces champs, la valeur définie dans la "
+"préférence système :ref:`StaffSerialIssueDisplayCount` sera utilisée."
 
 #: ../../source/serials.rst:495 ../../source/serials.rst:508
-msgid ""
-"This does not affect the number of items shown in the 'Holdings' tab if you "
-"create items for issues. It only affects the number of issues displayed in "
-"the 'Subscriptions' tab."
+msgid "This does not affect the number of items shown in the 'Holdings' tab if you create items for issues. It only affects the number of issues displayed in the 'Subscriptions' tab."
 msgstr ""
 
 #: ../../source/serials.rst:499
 #, fuzzy
-msgid ""
-"Number of issues to display to the public: this allows you to control how "
-"many issues appear by default in the OPAC, in the 'Subscriptions' tab in "
-"bibliographic records"
-msgstr ""
-"Les options d'affichage OPAC et Bibliothécaires permettent de contrôler "
-"combien de fascicules apparaissent par défaut avec les notices "
-"bibliographiques à l'OPAC et dans l'interface professionnelle"
+msgid "Number of issues to display to the public: this allows you to control how many issues appear by default in the OPAC, in the 'Subscriptions' tab in bibliographic records"
+msgstr "Les options d'affichage OPAC et Bibliothécaires permettent de contrôler combien de fascicules apparaissent par défaut avec les notices bibliographiques à l'OPAC et dans l'interface professionnelle"
 
 #: ../../source/serials.rst:503
-#, fuzzy
-msgid ""
-"If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount` "
-"system preference will be used."
+msgid "If this is left empty, the value of the :ref:`OPACSerialIssueDisplayCount` system preference will be used."
 msgstr ""
-"S'il n'y a aucune valeur dans ces champs, les valeurs définies dans les "
-"préférences systèmes :ref:`OPACSerialIssueDisplayCount` et :ref:"
-"`StaffSerialIssueDisplayCount` seront utilisées"
+"S'il n'y a aucune valeur dans ces champs, la valeur définie dans la "
+"préférence système :ref:`OPACSerialIssueDisplayCount` sera utilisée."
 
 #: ../../source/serials.rst:512
-msgid ""
-"Once that data is filled in you can click 'Next' to enter the prediction "
-"pattern information."
-msgstr ""
-"Une fois les données remplies, vous pouvez cliquez sur \"Suivant\" pour "
-"saisir les informations du Prévisionnel de bulletinage."
+msgid "Once that data is filled in you can click 'Next' to enter the prediction pattern information."
+msgstr "Une fois les données remplies, vous pouvez cliquez sur \"Suivant\" pour saisir les informations du Prévisionnel de bulletinage."
 
 #: ../../source/serials.rst:515
 msgid "|addsub2|"
@@ -1070,73 +850,41 @@ msgstr ""
 
 #: ../../source/serials.rst:517
 #, fuzzy
-msgid ""
-"First issue publication date: enter the date of the issue you have in your "
-"hand, the date from which the prediction pattern will start"
-msgstr ""
-"Dans 'Date de parution du premier fascicule', entrez la date du fascicule "
-"que vous avez en main, qui servira de point de départ au prévisionnel de "
-"bulletinage."
+msgid "First issue publication date: enter the date of the issue you have in your hand, the date from which the prediction pattern will start"
+msgstr "Dans 'Date de parution du premier fascicule', entrez la date du fascicule que vous avez en main, qui servira de point de départ au prévisionnel de bulletinage."
 
 #: ../../source/serials.rst:520
-#, fuzzy
-msgid ""
-"Frequency: choose the frequency of your serial. There are several pre-"
-"defined options all of which are visible alongside your own custom "
-"frequencies in ':ref:`manage frequencies <manage-serial-frequencies-"
-"label>`'. If the frequency you are looking for is not there, you can :ref:"
-"`add a custom frequency<adding-serial-frequency-label>`."
+msgid "Frequency: choose the frequency of your serial. There are several pre-defined options all of which are visible alongside your own custom frequencies in ':ref:`manage frequencies <manage-serial-frequencies-label>`'. If the frequency you are looking for is not there, you can :ref:`add a custom frequency<adding-serial-frequency-label>`."
 msgstr ""
-"Il y a plusieurs options pré-définies de \"Périodicité\" de publication qui "
-"sont toutes visibles parmi vos propres périodicités si vous allez dans ':ref:"
-"`Gestion des périodicités <manage-serial-frequencies-label>`'"
+"Périodicité : choisissez la périodicité de votre périodique. Il y a "
+"plusieurs options pré-définies et toutes sont visibles parmi vos propres "
+"périodicités si vous allez dans ':ref:`Gestion des périodicités <manage-"
+"serial-frequencies-label>`'. Si la périodicité que vous cherchez n'y est "
+"pas, vous pouvez :ref:'ajouter une périodicité personnalisée <adding-serial-"
+"frequency-label>'."
 
 #: ../../source/serials.rst:526
 #, fuzzy
-msgid ""
-"Subscription length: enter the number of issues, weeks, or months in the "
-"subscription. This is also used for setting up renewal alerts."
-msgstr ""
-"'Durée d'abonnement' indique le nombre de fascicules ou de mois de "
-"l'abonnement. On l'utilise également pour paramétrer les alertes de "
-"renouvellement."
+msgid "Subscription length: enter the number of issues, weeks, or months in the subscription. This is also used for setting up renewal alerts."
+msgstr "'Durée d'abonnement' indique le nombre de fascicules ou de mois de l'abonnement. On l'utilise également pour paramétrer les alertes de renouvellement."
 
 #: ../../source/serials.rst:529
 #, fuzzy
-msgid ""
-"Subscription start date: this is the date at which the subscription begins. "
-"This is used for setting up renewal alerts."
-msgstr ""
-"'Date de début de l'abonnement' est la date laquelle l'abonnement commence. "
-"On l'utilise pour paramétrer les alertes de renouvellement."
+msgid "Subscription start date: this is the date at which the subscription begins. This is used for setting up renewal alerts."
+msgstr "'Date de début de l'abonnement' est la date laquelle l'abonnement commence. On l'utilise pour paramétrer les alertes de renouvellement."
 
 #: ../../source/serials.rst:532
 #, fuzzy
-msgid ""
-"Subscription end date: this should only be entered for subscriptions that "
-"have ended (if you're entering in a backlog of serials)."
-msgstr ""
-"'Date de fin de l'abonnement' ne doit être saisie que pour les abonnements "
-"qui sont terminés (si vous entrez rétrospectivement vos périodiques)."
+msgid "Subscription end date: this should only be entered for subscriptions that have ended (if you're entering in a backlog of serials)."
+msgstr "'Date de fin de l'abonnement' ne doit être saisie que pour les abonnements qui sont terminés (si vous entrez rétrospectivement vos périodiques)."
 
 #: ../../source/serials.rst:535
 #, fuzzy
-msgid ""
-"Numbering pattern: choose how issues are numbered. The options here are the "
-"ones in the :ref:`manage numbering patterns <manage-serial-numbering-"
-"patterns-label>` section."
-msgstr ""
-"\"Modèle de numérotation\" vous aidera à déterminer comment les numéros sont "
-"générés pour chaque fascicule. Les modèles saisis ici sont enregistrés et "
-"modifiables à tout moment en consultant ':ref:`Gestion des modèles de "
-"numérotation <manage-serial-numbering-patterns-label>`'"
+msgid "Numbering pattern: choose how issues are numbered. The options here are the ones in the :ref:`manage numbering patterns <manage-serial-numbering-patterns-label>` section."
+msgstr "\"Modèle de numérotation\" vous aidera à déterminer comment les numéros sont générés pour chaque fascicule. Les modèles saisis ici sont enregistrés et modifiables à tout moment en consultant ':ref:`Gestion des modèles de numérotation <manage-serial-numbering-patterns-label>`'"
 
 #: ../../source/serials.rst:539
-msgid ""
-"If the numbering pattern you need has not been created yet, you can create a "
-"new one by clicking on 'Show advanced pattern' and then 'Modify pattern'. "
-"This is be the same as :ref:`adding a numbering pattern<adding-serial-"
-"numbering-pattern-label>` (see section above)."
+msgid "If the numbering pattern you need has not been created yet, you can create a new one by clicking on 'Show advanced pattern' and then 'Modify pattern'. This is be the same as :ref:`adding a numbering pattern<adding-serial-numbering-pattern-label>` (see section above)."
 msgstr ""
 
 #: ../../source/serials.rst:545
@@ -1146,49 +894,30 @@ msgstr ""
 #: ../../source/serials.rst:554
 #, fuzzy
 msgid "Once a 'Numbering pattern' is chosen the numbering table will appear."
-msgstr ""
-"Une fois qu'un \"Modèle de numérotation\" est choisi, la formule de "
-"numérotation apparaîtra."
+msgstr "Une fois qu'un \"Modèle de numérotation\" est choisi, la formule de numérotation apparaîtra."
 
 #: ../../source/serials.rst:556
 msgid "|numberonly|"
 msgstr ""
 
 #: ../../source/serials.rst:564
-msgid ""
-"For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", "
-"you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. "
-"797\", the inner counter should be \"1\"."
-msgstr ""
-"Par exemple: Si le premier fascicule à bulletiner est \"vol. 4, no. 1, fasc. "
-"796\", vous devrez paramétrer \"Compteur interne = 0\" Mais si c'est \"vol. "
-"4, no. 2, iss. 797\", le Compteur interne devra être \"1\"."
+msgid "For example: If the first issue to receive is \"vol. 4, no. 1, iss. 796\", you need to set up \"inner counter = 0\" But if it's \"vol. 4, no. 2, iss. 797\", the inner counter should be \"1\"."
+msgstr "Par exemple: Si le premier fascicule à bulletiner est \"vol. 4, no. 1, fasc. 796\", vous devrez paramétrer \"Compteur interne = 0\" Mais si c'est \"vol. 4, no. 2, iss. 797\", le Compteur interne devra être \"1\"."
 
 # do not change simple or double quotes it may break JavaScript
 #: ../../source/serials.rst:568
-msgid ""
-"After filling in this data click the 'Test prediction pattern' button to see "
-"what issues the system will generate, if there are irregularities you can "
-"choose which issues don't exist from the list presented."
-msgstr ""
-"Après avoir saisi toutes les données, cliquez sur le bouton 'Tester le "
-"prévisionnel de bulletinage' pour voir quels fascicules le système va "
-"générer. S'il y a des irrégularités, vous pouvez choisir quels fascicules "
-"n'existent pas dans la liste affichée."
+msgid "After filling in this data click the 'Test prediction pattern' button to see what issues the system will generate, if there are irregularities you can choose which issues don't exist from the list presented."
+msgstr "Après avoir saisi toutes les données, cliquez sur le bouton 'Tester le prévisionnel de bulletinage' pour voir quels fascicules le système va générer. S'il y a des irrégularités, vous pouvez choisir quels fascicules n'existent pas dans la liste affichée."
 
 #: ../../source/serials.rst:573
 msgid "|predictionpattern|"
 msgstr ""
 
 #: ../../source/serials.rst:575
-#, fuzzy
-msgid ""
-"If you have added :ref:`custom fields <additional-fields-label>`, they will "
-"be editable above the buttons at the bottom of the screen"
+msgid "If you have added :ref:`custom fields <additional-fields-label>`, they will be editable above the buttons at the bottom of the screen"
 msgstr ""
-"Si vous avez ajouté une :ref:`zone personnalisée d'abonnement <custom-"
-"subscription-fields-label>`, elle sera maintenant modifiable au-dessus des "
-"boutons au bas de l'écran"
+"Si vous avez ajouté un :ref:`champ personnalisé <additional-fields-label>`, "
+"il sera modifiable au-dessus des boutons au bas de l'écran"
 
 #: ../../source/serials.rst:578
 msgid "Click 'Save subscription' to save the information you have entered."
@@ -1196,25 +925,15 @@ msgstr ""
 
 #: ../../source/serials.rst:582
 #, fuzzy
-msgid ""
-"`Find sample serial examples in the serial pattern library on the wiki "
-"<https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
-msgstr ""
-"Cliquez sur \"Enregistrer abonnement\" pour sauvegarder les informations "
-"saisies. `Voir des exemples de périodiques dans la Bibliothèque de Modèle de "
-"Périodiques sur le wiki <https://wiki.koha-community.org/wiki/"
-"Serial_Pattern_Library>`__."
+msgid "`Find sample serial examples in the serial pattern library on the wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
+msgstr "Cliquez sur \"Enregistrer abonnement\" pour sauvegarder les informations saisies. `Voir des exemples de périodiques dans la Bibliothèque de Modèle de Périodiques sur le wiki <https://wiki.koha-community.org/wiki/Serial_Pattern_Library>`__."
 
 #: ../../source/serials.rst:587
-#, fuzzy
 msgid "Editing a subscription"
-msgstr "Ajouter un abonnement"
+msgstr "Modifier un abonnement"
 
 #: ../../source/serials.rst:589
-msgid ""
-"To edit a subscription, click on 'Edit' and 'Edit subscription' from the "
-"subscription page. This will take you back to the same form as the one used "
-"when :ref:`creating a new subscription <add-a-subscription-label>`."
+msgid "To edit a subscription, click on 'Edit' and 'Edit subscription' from the subscription page. This will take you back to the same form as the one used when :ref:`creating a new subscription <add-a-subscription-label>`."
 msgstr ""
 
 #: ../../source/serials.rst:593
@@ -1223,10 +942,7 @@ msgid "|editsubscription|"
 msgstr "Ajouter un abonnement"
 
 #: ../../source/serials.rst:595
-msgid ""
-"You can also batch edit subscriptions. To do so, search for the "
-"subscriptions you want to change. In the results, check the boxes next to "
-"the subscriptions to edit. The link 'Edit selected serials' will appear."
+msgid "You can also batch edit subscriptions. To do so, search for the subscriptions you want to change. In the results, check the boxes next to the subscriptions to edit. The link 'Edit selected serials' will appear."
 msgstr ""
 
 #: ../../source/serials.rst:599 ../../source/serials.rst:949
@@ -1284,20 +1000,12 @@ msgid "Leave the field unchanged to keep the original values."
 msgstr ""
 
 #: ../../source/serials.rst:630
-#, fuzzy
 msgid "Receiving issues"
 msgstr "Bulletiner les fascicules"
 
 #: ../../source/serials.rst:632
-msgid ""
-"Issues can be marked as received from several locations. To find a "
-"subscription, use the search box at the top of the Serials page to search "
-"for the serial you'd like to receive issues for:"
-msgstr ""
-"Les fascicules peuvent être bulletinés depuis plusieurs endroits. Pour "
-"trouver un abonnement, utilisez la boîte de recherche située en haut de la "
-"page Périodiques pour rechercher le périodique que vous souhaitez "
-"bulletiner :"
+msgid "Issues can be marked as received from several locations. To find a subscription, use the search box at the top of the Serials page to search for the serial you'd like to receive issues for:"
+msgstr "Les fascicules peuvent être bulletinés depuis plusieurs endroits. Pour trouver un abonnement, utilisez la boîte de recherche située en haut de la page Périodiques pour rechercher le périodique que vous souhaitez bulletiner :"
 
 #: ../../source/serials.rst:636 ../../source/serials.rst:933
 msgid "|subsearch|"
@@ -1305,12 +1013,8 @@ msgstr ""
 
 #: ../../source/serials.rst:638
 #, fuzzy
-msgid ""
-"From the search results you can click the 'Serial receive' buton or you can "
-"click on the subscription title and then click the 'Receive' button."
-msgstr ""
-"Dans la page de résultat, vous pouvez cliquer sur Bulletiner ou bien sur le "
-"titre du périodique puis sur le bouton Bulletiner dans la page suivante."
+msgid "From the search results you can click the 'Serial receive' buton or you can click on the subscription title and then click the 'Receive' button."
+msgstr "Dans la page de résultat, vous pouvez cliquer sur Bulletiner ou bien sur le titre du périodique puis sur le bouton Bulletiner dans la page suivante."
 
 #: ../../source/serials.rst:641 ../../source/serials.rst:692
 #: ../../source/serials.rst:719 ../../source/serials.rst:770
@@ -1320,20 +1024,11 @@ msgid "|subscriptiondetails|"
 msgstr "Zone personnalisée d'abonnement"
 
 #: ../../source/serials.rst:643
-#, fuzzy
-msgid ""
-"The final way to receive serials is from the 'Serial collection' page. To "
-"the left of the Subscription summary page there is a menu with a link to "
-"'Serial collection'"
-msgstr ""
-"La dernière possibilité pour réceptionner les fascicules est d'utiliser la "
-"page 'État de collection'. Sur la gauche de la page avec les Informations "
-"d'abonnement vous trouvez un menu avec un lien vers 'État de collection'"
+msgid "The final way to receive serials is from the 'Serial collection' page. To the left of the Subscription summary page there is a menu with a link to 'Serial collection'"
+msgstr "La dernière possibilité pour réceptionner les fascicules est d'utiliser la page 'État de collection'. Sur la gauche de la page avec les Informations d'abonnement vous trouvez un menu avec un lien vers 'État de collection'"
 
 #: ../../source/serials.rst:647
-msgid ""
-"From the page that opens up, check the issue(s) you want to receive (the "
-"expected ones should be checked by default) and click 'Edit serials'."
+msgid "From the page that opens up, check the issue(s) you want to receive (the expected ones should be checked by default) and click 'Edit serials'."
 msgstr ""
 
 #: ../../source/serials.rst:650 ../../source/serials.rst:697
@@ -1342,9 +1037,7 @@ msgstr ""
 
 #: ../../source/serials.rst:652
 msgid "All three of these options will open up the issue receive form:"
-msgstr ""
-"Ces trois possibilités vont ouvrir le formulaire de réception d'un "
-"fascicule :"
+msgstr "Ces trois possibilités vont ouvrir le formulaire de réception d'un fascicule :"
 
 #: ../../source/serials.rst:654
 #, fuzzy
@@ -1353,22 +1046,13 @@ msgstr "Bulletiner les fascicules"
 
 #: ../../source/serials.rst:656
 #, fuzzy
-msgid ""
-"Choose 'Arrived' from the status drop-down menu to mark an issue as received."
-msgstr ""
-"Choisissez 'Arrivé' dans le liste Statut pour marquer le fascicule comme reçu"
+msgid "Choose 'Arrived' from the status drop-down menu to mark an issue as received."
+msgstr "Choisissez 'Arrivé' dans le liste Statut pour marquer le fascicule comme reçu"
 
 #: ../../source/serials.rst:659
 #, fuzzy
-msgid ""
-"If you have decided to have an item record created for each issue an :ref:"
-"`item add form <adding-items-label>` will appear after choosing 'Arrived'. "
-"You can add multiple copies using the 'Number of copies to be made of this "
-"item' option at the bottom of the form."
-msgstr ""
-"Si vous avez décidé de créer un exemplaire pour chaque fascicule, un :ref:"
-"`formulaire d'ajout d'exemplaire <adding-items-label>` s'affichera après "
-"avoir sélectionné \"Arrivé\""
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear after choosing 'Arrived'. You can add multiple copies using the 'Number of copies to be made of this item' option at the bottom of the form."
+msgstr "Si vous avez décidé de créer un exemplaire pour chaque fascicule, un :ref:`formulaire d'ajout d'exemplaire <adding-items-label>` s'affichera après avoir sélectionné \"Arrivé\""
 
 #: ../../source/serials.rst:664
 msgid "|serialitem|"
@@ -1376,45 +1060,20 @@ msgstr ""
 
 #: ../../source/serials.rst:666
 #, fuzzy
-msgid ""
-"If your issue has a supplemental issue with it, fill in the Supplemental "
-"issue information."
-msgstr ""
-"Si votre fascicule a un supplément, remplissez la zone Fascicule "
-"supplémentaire."
+msgid "If your issue has a supplemental issue with it, fill in the Supplemental issue information."
+msgstr "Si votre fascicule a un supplément, remplissez la zone Fascicule supplémentaire."
 
 #: ../../source/serials.rst:669
-msgid ""
-"Key the entire numbering in the box after \"Supplemental issue\" no "
-"numbering will be inherited/auto-filled from the main issue, and exactly "
-"what you key in the box after \"Supplemental issue\" will be auto-filled in "
-"the item record's Serial enumeration/chronology [MARC21 952$h] (if you "
-"create item records)."
-msgstr ""
-"Saisissez la numérotation complète dans la barre après \"Numéro "
-"supplémentaire\". La numérotation ne sera pas pré-remplie à partir du modèle "
-"des numéros réguliers, ce que vous saisirez dans la boîte après \"Numéro "
-"supplémentaire\" sera inscrit tel quel dans la chronologie/énumération du "
-"périodique de la notice d'exemplaire [MARC21 952$h] (si vous créez des "
-"notices d'exemplaire)."
+msgid "Key the entire numbering in the box after \"Supplemental issue\" no numbering will be inherited/auto-filled from the main issue, and exactly what you key in the box after \"Supplemental issue\" will be auto-filled in the item record's Serial enumeration/chronology [MARC21 952$h] (if you create item records)."
+msgstr "Saisissez la numérotation complète dans la barre après \"Numéro supplémentaire\". La numérotation ne sera pas pré-remplie à partir du modèle des numéros réguliers, ce que vous saisirez dans la boîte après \"Numéro supplémentaire\" sera inscrit tel quel dans la chronologie/énumération du périodique de la notice d'exemplaire [MARC21 952$h] (si vous créez des notices d'exemplaire)."
 
 #: ../../source/serials.rst:675
-msgid ""
-"E.g., key this in its entirety if it's what you would like displayed: \"v.69 "
-"no.3 (Mar. 2015) suppl.\""
-msgstr ""
-"Par exemple, saisissez ceci dans son intégralité si c'est que vous souhaitez "
-"afficher: \"v.69 no.3 (Mar. 2015) suppl.\""
+msgid "E.g., key this in its entirety if it's what you would like displayed: \"v.69 no.3 (Mar. 2015) suppl.\""
+msgstr "Par exemple, saisissez ceci dans son intégralité si c'est que vous souhaitez afficher: \"v.69 no.3 (Mar. 2015) suppl.\""
 
 #: ../../source/serials.rst:678
-msgid ""
-"If you have decided to have an item record created for each issue an :ref:"
-"`item add form <adding-items-label>` will appear for your supplement and for "
-"the issue itself"
-msgstr ""
-"Si vous avez décidé de créer un exemplaire pour chaque fascicule, un :ref:"
-"`formulaire d'ajout d'exemplaire <adding-items-label>` s'affichera pour le "
-"hors-série et le fascicule lui-même"
+msgid "If you have decided to have an item record created for each issue an :ref:`item add form <adding-items-label>` will appear for your supplement and for the issue itself"
+msgstr "Si vous avez décidé de créer un exemplaire pour chaque fascicule, un :ref:`formulaire d'ajout d'exemplaire <adding-items-label>` s'affichera pour le hors-série et le fascicule lui-même"
 
 #: ../../source/serials.rst:682
 msgid "Once you have entered your info you can click 'Save'"
@@ -1422,72 +1081,45 @@ msgstr "Quand vous avez saisi les données utiles, cliquez 'Sauvegarder'"
 
 #: ../../source/serials.rst:687
 msgid "Serial collection"
-msgstr ""
+msgstr "État de collection"
 
 #: ../../source/serials.rst:689
-msgid ""
-"Each subscription has a Serial collection page available from the main "
-"Serials menu."
+msgid "Each subscription has a Serial collection page available from the main Serials menu."
 msgstr ""
+"Chaque abonnement a une page Etat de collection disponible à partir du menu "
+"Périodiques."
 
 #: ../../source/serials.rst:694
-msgid ""
-"From this page you can manage additional tasks related to subscription "
-"issues such as receiving multiple issues and editing."
+msgid "From this page you can manage additional tasks related to subscription issues such as receiving multiple issues and editing."
 msgstr ""
 
 #: ../../source/serials.rst:699
 #, fuzzy
-msgid ""
-"Clicking the Generate next button will generate the next issue for you and "
-"mark the previously expected issue as ‘Late’ automatically."
-msgstr ""
-"En cliquant sur ce bouton, vous générez le prochain fascicule et vous "
-"marquez comme En retard le fascicule précédent. Vous pouvez cocher les "
-"boîtes dans la colonne Modifier afin d'appliquer un changement de statut à "
-"plusieurs fascicules à la fois."
+msgid "Clicking the Generate next button will generate the next issue for you and mark the previously expected issue as ‘Late’ automatically."
+msgstr "En cliquant sur ce bouton, vous générez le prochain fascicule et vous marquez comme En retard le fascicule précédent. Vous pouvez cocher les boîtes dans la colonne Modifier afin d'appliquer un changement de statut à plusieurs fascicules à la fois."
 
 #: ../../source/serials.rst:702
-msgid ""
-"Check the box in the Edit column for one or more previous issues and then "
-"click the Edit serials button. This will bring you to the same screen as "
-"when you are :ref:`receiving issues<receive-issues-label>`. From there, you "
-"can edit the numbering, dates, status, and add notes."
+msgid "Check the box in the Edit column for one or more previous issues and then click the Edit serials button. This will bring you to the same screen as when you are :ref:`receiving issues<receive-issues-label>`. From there, you can edit the numbering, dates, status, and add notes."
 msgstr ""
 
 #: ../../source/serials.rst:710
-#, fuzzy
 msgid "Creating a routing list"
-msgstr "Créer une Liste de routage"
+msgstr "Créer une liste de routage"
 
 #: ../../source/serials.rst:712
 #, fuzzy
-msgid ""
-"A routing list is a list of people who receive the serial before it goes to "
-"the shelf. To enable routing lists, set your :ref:`RoutingSerials` "
-"preference to 'Use'."
-msgstr ""
-"Une liste de routage contient la liste des personnes qui vont recevoir le "
-"périodique avant qu'il ne soit placé en rayon. Pour activer cette liste de "
-"routage, vous devez paramétrer votre préférence système :ref:`RoutingSerials "
-"sur « Utiliser »."
+msgid "A routing list is a list of people who receive the serial before it goes to the shelf. To enable routing lists, set your :ref:`RoutingSerials` preference to 'Use'."
+msgstr "Une liste de routage contient la liste des personnes qui vont recevoir le périodique avant qu'il ne soit placé en rayon. Pour activer cette liste de routage, vous devez paramétrer votre préférence système :ref:`RoutingSerials sur « Utiliser »."
 
 #: ../../source/serials.rst:716
 #, fuzzy
-msgid ""
-"When on the subscription page you will see a link to the left that reads "
-"'Create routing list' or 'Edit routing list'"
-msgstr ""
-"Sur la page de l'abonnement, vous verrez un lien sur la gauche \"Créer une "
-"liste de routage\" ou \"Modifier la liste de routage\""
+msgid "When on the subscription page you will see a link to the left that reads 'Create routing list' or 'Edit routing list'"
+msgstr "Sur la page de l'abonnement, vous verrez un lien sur la gauche \"Créer une liste de routage\" ou \"Modifier la liste de routage\""
 
 #: ../../source/serials.rst:721
 #, fuzzy
-msgid ""
-"Clicking that link will bring you to the form to add a new routing list."
-msgstr ""
-"En cliquant sur ce lien, vous obtenez le menu pour ajouter une nouvelle "
-"liste de routage."
+msgid "Clicking that link will bring you to the form to add a new routing list."
+msgstr "En cliquant sur ce lien, vous obtenez le menu pour ajouter une nouvelle liste de routage."
 
 #: ../../source/serials.rst:723
 #, fuzzy
@@ -1496,15 +1128,8 @@ msgstr "Créer une Liste de routage"
 
 #: ../../source/serials.rst:725
 #, fuzzy
-msgid ""
-"From here, click 'Add recipients' to add users to the routing list. In the "
-"menu that appears you can filter patrons by part of their name, their "
-"library, or their patron category."
-msgstr ""
-"À partir de là, vous cliquez sur Ajouter des destinataires afin d'ajouter "
-"des personnes à la liste de routage. Dans le menu qui s'affiche, vous pouvez "
-"filtrer les adhérents sur une partie de leur nom, leur site de rattachement "
-"et leur catégorie."
+msgid "From here, click 'Add recipients' to add users to the routing list. In the menu that appears you can filter patrons by part of their name, their library, or their patron category."
+msgstr "À partir de là, vous cliquez sur Ajouter des destinataires afin d'ajouter des personnes à la liste de routage. Dans le menu qui s'affiche, vous pouvez filtrer les adhérents sur une partie de leur nom, leur site de rattachement et leur catégorie."
 
 #: ../../source/serials.rst:729
 msgid "|addtorouting|"
@@ -1512,15 +1137,8 @@ msgstr ""
 
 #: ../../source/serials.rst:731
 #, fuzzy
-msgid ""
-"Click 'Add' to the right of each name to add them to the routing list. When "
-"you have chosen all of the people for the list, click the 'Close' button to "
-"be redirected to the routing list."
-msgstr ""
-"Cliquez sur 'Ajouter' à droite du nom des personnes que vous souhaitez "
-"ajouter à la liste de routage. Quand vous avez choisi toutes les personnes "
-"que vous voulez, cliquez sur le lien 'Fermer'. Vous serez redirigé sur la "
-"liste de routage."
+msgid "Click 'Add' to the right of each name to add them to the routing list. When you have chosen all of the people for the list, click the 'Close' button to be redirected to the routing list."
+msgstr "Cliquez sur 'Ajouter' à droite du nom des personnes que vous souhaitez ajouter à la liste de routage. Quand vous avez choisi toutes les personnes que vous voulez, cliquez sur le lien 'Fermer'. Vous serez redirigé sur la liste de routage."
 
 #: ../../source/serials.rst:735
 #, fuzzy
@@ -1528,11 +1146,11 @@ msgid "|editroutinglist|"
 msgstr "Créer une Liste de routage"
 
 #: ../../source/serials.rst:737
-msgid ""
-"From this form, you can play with the order of the users and add notes. If "
-"you always add the same note, you can enter it in the :ref:`RoutingListNote` "
-"system preference."
+msgid "From this form, you can play with the order of the users and add notes. If you always add the same note, you can enter it in the :ref:`RoutingListNote` system preference."
 msgstr ""
+"A partir de ce formulaire, vous pouvez modifier l'ordre des utilisateurs et "
+"ajouter des notes. Si vous ajoutez toujours la même note, vous pouvez la "
+"saisir dans la préférence système :ref:`RoutingListNote`."
 
 #: ../../source/serials.rst:741
 msgid "If the list looks the way you expect it to, click 'Save'."
@@ -1540,15 +1158,8 @@ msgstr ""
 
 #: ../../source/serials.rst:743
 #, fuzzy
-msgid ""
-"Next, you will be brought to a preview of the routing list. To print the "
-"list click 'Save and preview routing slip.' This will open a printable "
-"version of the list."
-msgstr ""
-"Si la liste vous convient, cliquez sur Enregistrer. Vous êtes amené sur une "
-"page d'aperçu de la liste de routage. Pour imprimez la liste, cliquez "
-"Enregistrer et aperçu de la liste. Une version imprimable de la liste "
-"s'affichera."
+msgid "Next, you will be brought to a preview of the routing list. To print the list click 'Save and preview routing slip.' This will open a printable version of the list."
+msgstr "Si la liste vous convient, cliquez sur Enregistrer. Vous êtes amené sur une page d'aperçu de la liste de routage. Pour imprimez la liste, cliquez Enregistrer et aperçu de la liste. Une version imprimable de la liste s'affichera."
 
 #: ../../source/serials.rst:747
 #, fuzzy
@@ -1557,40 +1168,20 @@ msgstr "Créer une Liste de routage"
 
 #: ../../source/serials.rst:749
 #, fuzzy
-msgid ""
-"If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing "
-"list will automatically be added to the holds list for the issue."
-msgstr ""
-"Si la préférence système :ref:`RoutingListAddReserves` est activée, les "
-"membres de la liste de routage seront ajoutés automatiquement à la liste de "
-"réservation du fascicule."
+msgid "If :ref:`RoutingListAddReserves` is enabled, patrons listed in the routing list will automatically be added to the holds list for the issue."
+msgstr "Si la préférence système :ref:`RoutingListAddReserves` est activée, les membres de la liste de routage seront ajoutés automatiquement à la liste de réservation du fascicule."
 
 #: ../../source/serials.rst:752
-#, fuzzy
-msgid ""
-"To see a list of all of the routing lists for a specific patron is visit "
-"the :ref:`routing lists tab <routing-lists-label>` on their patron record. "
-"Patrons are able to see a list of their own routing lists when logged into "
-"the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
-msgstr ""
-"Pour voir toutes les listes de routage d'un adhérent en particulier, cliquer "
-"sur :ref:`l'onglet Listes de routage <routing-lists-label>` depuis sa fiche "
-"d'adhérent. Les adhérents peuvent voir leurs listes de routages, quand ils "
-"sont identifiés à l'OPAC, sur l'onglet :ref:`Vos listes de routage <your-"
-"routing-lists-label>`."
+msgid "To see a list of all of the routing lists for a specific patron is visit the :ref:`routing lists tab <routing-lists-label>` on their patron record. Patrons are able to see a list of their own routing lists when logged into the OPAC in the :ref:`your routing lists <your-routing-lists-label>` tab."
+msgstr "Pour voir toutes les listes de routage d'un adhérent en particulier, cliquer sur :ref:`l'onglet Listes de routage <routing-lists-label>` depuis sa fiche d'adhérent. Les adhérents peuvent voir leurs listes de routages, quand ils sont identifiés à l'OPAC, sur l'onglet :ref:`Vos listes de routage <your-routing-lists-label>`."
 
 #: ../../source/serials.rst:760
-#, fuzzy
 msgid "Subscriptions in the staff interface"
-msgstr "Abonnements dans l'Interface professionnelle"
+msgstr "Les abonnements dans l'interface professionnelle"
 
 #: ../../source/serials.rst:762
-msgid ""
-"Subscription information will appear on bibliographic records under the "
-"'Subscriptions' tab"
-msgstr ""
-"Toutes les informations de l'abonnement seront affichées dans les notices "
-"bibliographiques dans l'onglet \"Abonnements\""
+msgid "Subscription information will appear on bibliographic records under the 'Subscriptions' tab"
+msgstr "Toutes les informations de l'abonnement seront affichées dans les notices bibliographiques dans l'onglet \"Abonnements\""
 
 #: ../../source/serials.rst:765
 msgid "|subinfoonbib|"
@@ -1598,88 +1189,60 @@ msgstr ""
 
 #: ../../source/serials.rst:767
 #, fuzzy
-msgid ""
-"Clicking the 'Subscription details' link will take you to the Subscription "
-"summary page in the staff interface."
-msgstr ""
-"Si vous cliquez sur le lien \"Détails de l'abonnement\", vous serez dirigé "
-"vers la page du résumé de l'abonnement dans l'interface professionnelle."
+msgid "Clicking the 'Subscription details' link will take you to the Subscription summary page in the staff interface."
+msgstr "Si vous cliquez sur le lien \"Détails de l'abonnement\", vous serez dirigé vers la page du résumé de l'abonnement dans l'interface professionnelle."
 
 #: ../../source/serials.rst:772
-#, fuzzy
-msgid ""
-"If you are using the :ref:`acquisitions <acquisitions-label>` module to keep "
-"track of :ref:`serial subscriptions <order-from-a-serial-subscription-"
-"label>` you will see an extra 'Acquisition details' tab in your subscription "
-"details."
+msgid "If you are using the :ref:`acquisitions <acquisitions-label>` module to keep track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you will see an extra 'Acquisition details' tab in your subscription details."
 msgstr ""
-"Si vous utilisez le module `Acquisitions <#acqmodule>`__ pour avoir un "
-"`suivi des abonnements périodiques <#ordersubscription>`__, vous verrez ces "
-"informations en premier."
+"Si vous utilisez le module :ref:'Acquisitions <acquisitions-label>' pour "
+"avoir un suivi des :ref:'abonnements de périodiques <order-from-a-serial-"
+"subscription-label>' vous verrez un onglet supplémentaire 'Détails de "
+"l'acquisition' dans les détails de votre abonnement."
 
 #: ../../source/serials.rst:776
 msgid "|subdetails|"
 msgstr ""
 
 #: ../../source/serials.rst:780
-msgid ""
-"You can customize the columns of this table in the :ref:`'Table "
-"settings'<column-settings-label>` section of the Administration module "
-"(table id: orders)."
+msgid "You can customize the columns of this table in the :ref:`'Table settings'<column-settings-label>` section of the Administration module (table id: orders)."
 msgstr ""
+"Vous pouvez personnaliser les colonnes de ce tableau dans la section :ref:"
+"'Configurer les colonnes <column-settings-label>' du module Administration ("
+"référence du tableau : orders)."
 
 #: ../../source/serials.rst:787
-#, fuzzy
 msgid "Subscriptions in the OPAC"
-msgstr "Les abonnements dans l'OPAC"
+msgstr "Les abonnements à l'OPAC"
 
 #: ../../source/serials.rst:789
-msgid ""
-"When viewing the subscription in the OPAC there will be several options. You "
-"can choose which tab appears by default with the :ref:`opacSerialDefaultTab` "
-"system preference."
+msgid "When viewing the subscription in the OPAC there will be several options. You can choose which tab appears by default with the :ref:`opacSerialDefaultTab` system preference."
 msgstr ""
 
 #: ../../source/serials.rst:793
 #, fuzzy
-msgid ""
-"Like in the staff interface, there will be a Subscriptions tab on the "
-"bibliographic record."
-msgstr ""
-"Comme dans l'interface professionnelle, il y a un onglet Abonnement dans la "
-"notice bibliographique."
+msgid "Like in the staff interface, there will be a Subscriptions tab on the bibliographic record."
+msgstr "Comme dans l'interface professionnelle, il y a un onglet Abonnement dans la notice bibliographique."
 
 #: ../../source/serials.rst:796
 msgid "|subopac|"
 msgstr ""
 
 #: ../../source/serials.rst:798
-#, fuzzy
-msgid ""
-"Under this tab will appear the number of issues you chose when :ref:`setting "
-"up the subscription <add-a-subscription-label>` or in your :ref:"
-"`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' "
-"link will provide you with additional information about the serial history. "
-"You can set the default view of the serial history in the OPAC with the :ref:"
-"`SubscriptionHistory` system preference."
+msgid "Under this tab will appear the number of issues you chose when :ref:`setting up the subscription <add-a-subscription-label>` or in your :ref:`OPACSerialIssueDisplayCount` system preference. Clicking the 'More details' link will provide you with additional information about the serial history. You can set the default view of the serial history in the OPAC with the :ref:`SubscriptionHistory` system preference."
 msgstr ""
-"Dans cet onglet apparaîtra le nombre de fascicules choisi lors du "
-"paramétrage de l'abonnement ou du nombre défini dans votre préférence "
-"système :ref:'OPACSerialIssueDisplayCount'. Si vous cliquez sur le lien « "
-"Plus de détails », vous aurez des informations complémentaires concernant "
-"l'historique de l'abonnement. Vous pouvez définir l'affichage par défaut "
-"d'un périodique dans l'OPAC avec la préférence système :"
-"ref:'SubscriptionHistory'."
+"Dans cet onglet apparaîtra le nombre de fascicules choisi lors du :ref:"
+"'paramétrage de l'abonnement <add-a-subscription-label>' ou dans la "
+"préférence système :ref:'OPACSerialIssueDisplayCount'. Si vous cliquez sur "
+"le lien 'Plus de détails', vous aurez des informations complémentaires "
+"concernant l'historique de l'abonnement. Vous pouvez définir l'affichage par "
+"défaut de l'historique d'un abonnement à l'OPAC avec la préférence système "
+":ref:'SubscriptionHistory'."
 
 #: ../../source/serials.rst:805
 #, fuzzy
-msgid ""
-"There are two views, brief and full. The brief serial subscription history "
-"will show basic information regarding the subscription."
-msgstr ""
-"Il y a deux modes de présentation : la présentation synthétique et la "
-"présentation complète. La présentation partielle affiche les informations "
-"basiques de l'abonnement du périodique"
+msgid "There are two views, brief and full. The brief serial subscription history will show basic information regarding the subscription."
+msgstr "Il y a deux modes de présentation : la présentation synthétique et la présentation complète. La présentation partielle affiche les informations basiques de l'abonnement du périodique"
 
 #: ../../source/serials.rst:808
 #, fuzzy
@@ -1688,28 +1251,12 @@ msgstr "Abonnements dans l'Interface professionnelle"
 
 #: ../../source/serials.rst:810
 #, fuzzy
-msgid ""
-"From this brief display patrons can subscribe to be notified of new issues "
-"as they are released by clicking the 'Subscribe to email notifications of "
-"new issues' button. This link will only appear if you have chosen to notify "
-"patrons when :ref:`creating the subscription <add-a-subscription-label>`."
-msgstr ""
-"A partir de cet affichage partiel, les adhérents peuvent s'abonner pour "
-"recevoir les notifications avertissant de la parution des nouveaux "
-"fascicules en cliquant sur le bouton 'S'abonner à une alerte par courriel "
-"pour les nouveaux numéros'. Pour que ce lien apparaisse, il faut que vous "
-"ayez choisi de notifier les adhérents `sur l'abonnement <add-a-subscription-"
-"label>` lui-même."
+msgid "From this brief display patrons can subscribe to be notified of new issues as they are released by clicking the 'Subscribe to email notifications of new issues' button. This link will only appear if you have chosen to notify patrons when :ref:`creating the subscription <add-a-subscription-label>`."
+msgstr "A partir de cet affichage partiel, les adhérents peuvent s'abonner pour recevoir les notifications avertissant de la parution des nouveaux fascicules en cliquant sur le bouton 'S'abonner à une alerte par courriel pour les nouveaux numéros'. Pour que ce lien apparaisse, il faut que vous ayez choisi de notifier les adhérents `sur l'abonnement <add-a-subscription-label>` lui-même."
 
 #: ../../source/serials.rst:816
-msgid ""
-"You can see those who subscribe to new issue alerts by going to the "
-"subscription page in the staff client and looking on the right of the "
-"'Information' tab."
-msgstr ""
-"Vous pouvez voir les abonnés aux alertes de parution de nouveaux fascicules "
-"en vous rendant sur la page de l'abonnement dans l'interface professionnelle "
-"et en regardant dans la colonne de droite de l'onglet \"Information\"."
+msgid "You can see those who subscribe to new issue alerts by going to the subscription page in the staff client and looking on the right of the 'Information' tab."
+msgstr "Vous pouvez voir les abonnés aux alertes de parution de nouveaux fascicules en vous rendant sur la page de l'abonnement dans l'interface professionnelle et en regardant dans la colonne de droite de l'onglet \"Information\"."
 
 #: ../../source/serials.rst:820
 #, fuzzy
@@ -1717,12 +1264,8 @@ msgid "|subscriptiondetailsinfo|"
 msgstr "Les abonnements dans l'OPAC"
 
 #: ../../source/serials.rst:822
-msgid ""
-"Whereas the full view shows extensive details, broken out by year, regarding "
-"the subscription"
-msgstr ""
-"Alors que la présentation complète vous montre plus de détails sur "
-"l'abonnement, ventilés par année"
+msgid "Whereas the full view shows extensive details, broken out by year, regarding the subscription"
+msgstr "Alors que la présentation complète vous montre plus de détails sur l'abonnement, ventilés par année"
 
 #: ../../source/serials.rst:825
 #, fuzzy
@@ -1730,86 +1273,52 @@ msgid "|SubscriptionHistory-full|"
 msgstr "Abonnements dans l'Interface professionnelle"
 
 #: ../../source/serials.rst:830
-#, fuzzy
 msgid "Claiming late issues"
-msgstr "Réclamation des fascicules en retard"
+msgstr "Réclamer des fascicules en retard"
 
 #: ../../source/serials.rst:832
 #, fuzzy
-msgid ""
-"Koha can send email messages to your serial vendors if you have late issues. "
-"To the left of the main serials page there is a link to 'Claims'."
-msgstr ""
-"Koha peut envoyer des courriels à vos fournisseurs de périodiques quand vous "
-"avez des fascicules en retard. Il y a à cet effet sur la gauche de la page "
-"principale du module Périodiques un lien Réclamations."
+msgid "Koha can send email messages to your serial vendors if you have late issues. To the left of the main serials page there is a link to 'Claims'."
+msgstr "Koha peut envoyer des courriels à vos fournisseurs de périodiques quand vous avez des fascicules en retard. Il y a à cet effet sur la gauche de la page principale du module Périodiques un lien Réclamations."
 
 #: ../../source/serials.rst:837
-msgid ""
-"The links to claims also appears to the left of the subscription detail page"
-msgstr ""
-"Les liens pour les réclamations apparaissent sur la gauche de la page de "
-"détail de l'abonnement"
+msgid "The links to claims also appears to the left of the subscription detail page"
+msgstr "Les liens pour les réclamations apparaissent sur la gauche de la page de détail de l'abonnement"
 
 #: ../../source/serials.rst:842
-#, fuzzy
-msgid ""
-"If you don't have a claim notice defined yet you will see a warning message "
-"that you need to first define a notice in the :ref:`Notices and slips "
-"tool<notices-and-slips-label>`."
+msgid "If you don't have a claim notice defined yet you will see a warning message that you need to first define a notice in the :ref:`Notices and slips tool<notices-and-slips-label>`."
 msgstr ""
-"Un message d'avertissement s'affiche si vous n'avez pas encore défini de "
-"notification de réclamation."
+"Si vous n'avez pas encore défini de notification de réclamation, un message "
+"vous informera que vous devez le faire dans l'outil :ref:'Notifications et "
+"Tickets <notices-and-slips-label>'."
 
 #: ../../source/serials.rst:846
 msgid "|noclaimnotice|"
 msgstr ""
 
 #: ../../source/serials.rst:848
-msgid ""
-"Clicking 'Claims' will open a report that will ask you to choose from your "
-"various serial vendors to generate claims for late issues."
-msgstr ""
-"En cliquant sur Réclamation, vous serez amené sur un rapport vous demandant "
-"de choisir un fournisseur pour qui générer des réclamations."
+msgid "Clicking 'Claims' will open a report that will ask you to choose from your various serial vendors to generate claims for late issues."
+msgstr "En cliquant sur Réclamation, vous serez amené sur un rapport vous demandant de choisir un fournisseur pour qui générer des réclamations."
 
 #: ../../source/serials.rst:851
 msgid "|serialclaims|"
 msgstr ""
 
 #: ../../source/serials.rst:853
-msgid ""
-"From the list of late issues you can choose which ones you want to send a "
-"claim email to by clicking the checkbox to the left of late issue, choosing "
-"the notice template to use and clicking the 'Send notification' button."
-msgstr ""
-"Dans la liste des fascicules en retard, vous sélectionnez en utilisant les "
-"boîtes à cocher les fascicules pour lesquels vous voulez émettre un courriel "
-"de réclamation. Vous choisissez le modèle de notification à utiliser. Puis "
-"vous cliquez sur le bouton Envoyer une notification."
+msgid "From the list of late issues you can choose which ones you want to send a claim email to by clicking the checkbox to the left of late issue, choosing the notice template to use and clicking the 'Send notification' button."
+msgstr "Dans la liste des fascicules en retard, vous sélectionnez en utilisant les boîtes à cocher les fascicules pour lesquels vous voulez émettre un courriel de réclamation. Vous choisissez le modèle de notification à utiliser. Puis vous cliquez sur le bouton Envoyer une notification."
 
 #: ../../source/serials.rst:858
-msgid ""
-"You can also export the results to a CSV file by choosing a :ref:`CSV "
-"profile <csv-profiles-label>` and clicking 'Download selected claims'."
+msgid "You can also export the results to a CSV file by choosing a :ref:`CSV profile <csv-profiles-label>` and clicking 'Download selected claims'."
 msgstr ""
 
 #: ../../source/serials.rst:865
-#, fuzzy
 msgid "Checking serial expiration"
-msgstr "Vérifier dates d'expiration"
+msgstr "Vérifier l'expiration d'un périodique"
 
 #: ../../source/serials.rst:867
-#, fuzzy
-msgid ""
-"When adding serials you enter a subscription length, using the check "
-"expiration tool you can see when your subscriptions are about to expire. To "
-"use the tool, click the link to 'Check expiration' on the serials menu."
-msgstr ""
-"Dans la fiche d'un périodique, vous définissez une durée d'abonnement. Avec "
-"l'outil d'expiration, vous pouvez voir quels abonnements sont sur le point "
-"d'expirer. Pour utiliser cet outil, cliquez sur Vérifier les dates "
-"d'expiration dans le menu des Périodiques."
+msgid "When adding serials you enter a subscription length, using the check expiration tool you can see when your subscriptions are about to expire. To use the tool, click the link to 'Check expiration' on the serials menu."
+msgstr "Dans la fiche d'un périodique, vous définissez une durée d'abonnement. Avec l'outil d'expiration, vous pouvez voir quels abonnements sont sur le point d'expirer. Pour utiliser cet outil, cliquez sur Vérifier les dates d'expiration dans le menu des Périodiques."
 
 #: ../../source/serials.rst:872
 msgid "|subexpiresearch|"
@@ -1817,35 +1326,19 @@ msgstr ""
 
 #: ../../source/serials.rst:874
 #, fuzzy
-msgid ""
-"In the form that appears you need to enter at least a date to search by. You "
-"can also search by title, ISBN or library."
-msgstr ""
-"Dans le formulaire qui s'affiche, entrez au moins une date sur laquelle "
-"faire la recherche."
+msgid "In the form that appears you need to enter at least a date to search by. You can also search by title, ISBN or library."
+msgstr "Dans le formulaire qui s'affiche, entrez au moins une date sur laquelle faire la recherche."
 
 #: ../../source/serials.rst:877
-msgid ""
-"In your results you will see all subscriptions that will expire before the "
-"date you entered. From there you can choose to view the subscription further "
-"or renew it in one click."
-msgstr ""
-"Le résultat présente tous les abonnements qui expirent avant la date saisie. "
-"A partir de là, vous pouvez voir le détail d'un abonnement ou bien le "
-"renouveler en un clic."
+msgid "In your results you will see all subscriptions that will expire before the date you entered. From there you can choose to view the subscription further or renew it in one click."
+msgstr "Le résultat présente tous les abonnements qui expirent avant la date saisie. A partir de là, vous pouvez voir le détail d'un abonnement ou bien le renouveler en un clic."
 
 #: ../../source/serials.rst:881
 msgid "|subscriptionexpiration|"
 msgstr ""
 
 #: ../../source/serials.rst:883
-msgid ""
-"If there is more than one subscription, you can check the boxes and click on "
-"'Renew selected subscriptions' to renew all the serials. The serials will be "
-"renewed for the same amount of time as their previous subscription (i.e. if "
-"the last subscription for that serial lasted one year, the serial will be "
-"renewed for one year; if the last subscription was for 16 issues, it will be "
-"renewed for another 16 issues)."
+msgid "If there is more than one subscription, you can check the boxes and click on 'Renew selected subscriptions' to renew all the serials. The serials will be renewed for the same amount of time as their previous subscription (i.e. if the last subscription for that serial lasted one year, the serial will be renewed for one year; if the last subscription was for 16 issues, it will be renewed for another 16 issues)."
 msgstr ""
 
 #: ../../source/serials.rst:890
@@ -1853,27 +1346,17 @@ msgid "|batchrenew|"
 msgstr ""
 
 #: ../../source/serials.rst:895
-#, fuzzy
 msgid "Renewing subscriptions"
-msgstr "Renouvellement des abonnements des périodiques"
+msgstr "Renouveler des abonnements de périodiques"
 
 #: ../../source/serials.rst:897
-msgid ""
-"If your serial subscription has expired you won't be able to receive issues. "
-"To renew your subscription you can click the 'Renew' button at the top of "
-"your subscription detail page."
-msgstr ""
-"Si l'abonnement de votre périodique a expiré, vous ne recevrez plus de "
-"fascicules. Pour renouveler votre abonnement, vous pouvez cliquer sur le "
-"bouton 'Renouveler' en haut de la page de détails de l'abonnement."
+msgid "If your serial subscription has expired you won't be able to receive issues. To renew your subscription you can click the 'Renew' button at the top of your subscription detail page."
+msgstr "Si l'abonnement de votre périodique a expiré, vous ne recevrez plus de fascicules. Pour renouveler votre abonnement, vous pouvez cliquer sur le bouton 'Renouveler' en haut de la page de détails de l'abonnement."
 
 #: ../../source/serials.rst:903
 #, fuzzy
-msgid ""
-"Once you click the 'Renew' button you will be presented with renewal options."
-msgstr ""
-"Une fois que vous avez cliqué sur le lien ou le bouton « Renouveler », les "
-"options de renouvellement s'afficheront."
+msgid "Once you click the 'Renew' button you will be presented with renewal options."
+msgstr "Une fois que vous avez cliqué sur le lien ou le bouton « Renouveler », les options de renouvellement s'afficheront."
 
 #: ../../source/serials.rst:906
 #, fuzzy
@@ -1883,19 +1366,12 @@ msgstr "Ajouter un abonnement"
 #: ../../source/serials.rst:908
 #, fuzzy
 msgid "Start date: enter the date your subscription period starts."
-msgstr ""
-"La date de début sera la date à laquelle la période de votre abonnement "
-"commence."
+msgstr "La date de début sera la date à laquelle la période de votre abonnement commence."
 
 #: ../../source/serials.rst:910
 #, fuzzy
-msgid ""
-"Subscription length: enter the number of issues, weeks or months your "
-"subscription lasts"
-msgstr ""
-"'Durée d'abonnement' indique le nombre de fascicules ou de mois de "
-"l'abonnement. On l'utilise également pour paramétrer les alertes de "
-"renouvellement."
+msgid "Subscription length: enter the number of issues, weeks or months your subscription lasts"
+msgstr "'Durée d'abonnement' indique le nombre de fascicules ou de mois de l'abonnement. On l'utilise également pour paramétrer les alertes de renouvellement."
 
 #: ../../source/serials.rst:913
 #, fuzzy
@@ -1904,71 +1380,43 @@ msgstr "\"Site\" est le site qui possède cet abonnement."
 
 #: ../../source/serials.rst:915
 #, fuzzy
-msgid ""
-"Note for the librarian that will manage your renewal request: enter any "
-"notes you might have about this renewal."
-msgstr ""
-"Pour finir, vous pouvez rédiger des notes concernant ce renouvellement."
+msgid "Note for the librarian that will manage your renewal request: enter any notes you might have about this renewal."
+msgstr "Pour finir, vous pouvez rédiger des notes concernant ce renouvellement."
 
 #: ../../source/serials.rst:918
 msgid "Click 'Submit'."
 msgstr ""
 
 #: ../../source/serials.rst:920
-msgid ""
-"If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, "
-"renewing a subscription will create a purchase suggestion in the :ref:"
-"`acquisitions module<acquisitions-label>` so that your acquisitions staff "
-"can manage it."
+msgid "If your :ref:`RenewSerialAddsSuggestion` system preference is enabled, renewing a subscription will create a purchase suggestion in the :ref:`acquisitions module<acquisitions-label>` so that your acquisitions staff can manage it."
 msgstr ""
 
 #: ../../source/serials.rst:928
-#, fuzzy
 msgid "Searching serials"
 msgstr "Recherche de périodiques"
 
 #: ../../source/serials.rst:930
-msgid ""
-"Once in the Serials module there is basic search box at the top that you can "
-"use to find subscriptions using any part of the ISSN and/or title."
-msgstr ""
-"En haut du module Périodiques, se trouve une barre de recherche que vous "
-"pouvez utiliser pour rechercher des abonnements en utilisant une partie de "
-"l'ISSN et/ou du titre."
+msgid "Once in the Serials module there is basic search box at the top that you can use to find subscriptions using any part of the ISSN and/or title."
+msgstr "En haut du module Périodiques, se trouve une barre de recherche que vous pouvez utiliser pour rechercher des abonnements en utilisant une partie de l'ISSN et/ou du titre."
 
 #: ../../source/serials.rst:935
 #, fuzzy
-msgid ""
-"You can also click the 'Advanced search' link to the right of the 'Submit' "
-"button to do a more thorough search of your serials."
-msgstr ""
-"Vous pouvez également cliquer sur le lien \"Recherche avancée\" à droite du "
-"bouton \"Valider\" pour effectuer une recherche plus approfondie des "
-"abonnements."
+msgid "You can also click the 'Advanced search' link to the right of the 'Submit' button to do a more thorough search of your serials."
+msgstr "Vous pouvez également cliquer sur le lien \"Recherche avancée\" à droite du bouton \"Valider\" pour effectuer une recherche plus approfondie des abonnements."
 
 #: ../../source/serials.rst:938
 msgid "|advancedserialsearch|"
 msgstr ""
 
 #: ../../source/serials.rst:942
-#, fuzzy
-msgid ""
-"If you have :ref:`additional fields<additional-fields-label>` that are "
-"searchable, they will appear in this form."
+msgid "If you have :ref:`additional fields<additional-fields-label>` that are searchable, they will appear in this form."
 msgstr ""
-"Si vous avez ajouté une :ref:`zone personnalisée d'abonnement <custom-"
-"subscription-fields-label>`, elle sera maintenant modifiable au-dessus des "
-"boutons au bas de l'écran"
+"Si vous avez :ref:'ajouté des champs <additional-fields-label>`"
+"interrogeables, ils apparaîtront dans ce formulaire."
 
 #: ../../source/serials.rst:945
-msgid ""
-"From your results you can filter by using the search boxes at the bottom of "
-"each column and adjust the number of results using the toolbar at the top of "
-"the results set."
-msgstr ""
-"Vous pouvez filtrer ces résultats en utilisant les barres de recherche "
-"situées en bas de chaque colonne, et ajuster le nombre de résultats en "
-"utilisant la barre d'outil en haut des résultats."
+msgid "From your results you can filter by using the search boxes at the bottom of each column and adjust the number of results using the toolbar at the top of the results set."
+msgstr "Vous pouvez filtrer ces résultats en utilisant les barres de recherche situées en bas de chaque colonne, et ajuster le nombre de résultats en utilisant la barre d'outil en haut des résultats."
 
 #~ msgid "|image738|"
 #~ msgstr "|image738|"
@@ -1982,14 +1430,8 @@ msgstr ""
 #~ msgid "**Note**"
 #~ msgstr "**Note**"
 
-#~ msgid ""
-#~ "It will also allow you to create a new numbering pattern without first "
-#~ "adding a subscription. To add new new pattern click 'New numbering "
-#~ "pattern' at the top of the list of patterns."
-#~ msgstr ""
-#~ "Cela vous permet aussi de créer un nouveau modèle de numérotation sans "
-#~ "avoir à ajouter un abonnement. Pour ajouter de nouveaux modèles, cliquez "
-#~ "sur \"Nouveau modèle de numérotation\" en haut de la liste."
+#~ msgid "It will also allow you to create a new numbering pattern without first adding a subscription. To add new new pattern click 'New numbering pattern' at the top of the list of patterns."
+#~ msgstr "Cela vous permet aussi de créer un nouveau modèle de numérotation sans avoir à ajouter un abonnement. Pour ajouter de nouveaux modèles, cliquez sur \"Nouveau modèle de numérotation\" en haut de la liste."
 
 #~ msgid "|image741|"
 #~ msgstr "|image741|"
@@ -1999,9 +1441,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Or by visiting the Serials module and clicking 'New subscription'"
-#~ msgstr ""
-#~ "Ou en allant sur le module Périodiques et en cliquant sur \"Nouvel "
-#~ "abonnement\""
+#~ msgstr "Ou en allant sur le module Périodiques et en cliquant sur \"Nouvel abonnement\""
 
 #~ msgid "|image743|"
 #~ msgstr "|image743|"
@@ -2016,16 +1456,8 @@ msgstr ""
 #~ msgstr "|image745|"
 
 #, fuzzy
-#~ msgid ""
-#~ "This can be done by searching for an existing record by clicking on the "
-#~ "'Search for record' link below the boxes or by entering the biblionumber "
-#~ "for a record in the first box. Only if you search will the field between "
-#~ "the parenthesis be filled in."
-#~ msgstr ""
-#~ "Pour faire cela, cherchez une notice existante en cliquant sur le lien « "
-#~ "Rechercher la notice » sous la boîte de saisie ou en saisissant le numéro "
-#~ "de notice dans la première boîte. La boîte entre parenthèses ne se "
-#~ "remplira que si vous effectuez une recherche."
+#~ msgid "This can be done by searching for an existing record by clicking on the 'Search for record' link below the boxes or by entering the biblionumber for a record in the first box. Only if you search will the field between the parenthesis be filled in."
+#~ msgstr "Pour faire cela, cherchez une notice existante en cliquant sur le lien « Rechercher la notice » sous la boîte de saisie ou en saisissant le numéro de notice dans la première boîte. La boîte entre parenthèses ne se remplira que si vous effectuez une recherche."
 
 #~ msgid "|image1277|"
 #~ msgstr "|image1277|"
@@ -2039,32 +1471,14 @@ msgstr ""
 #~ msgid "|image747|"
 #~ msgstr "|image747|"
 
-#~ msgid ""
-#~ "Without periodicy: some very specific (usually high level science "
-#~ "journals) don't have a true periodicity. When you subscribe to the title, "
-#~ "you subscribe for 6 issues, which can arrive in 1 year... or 2... There "
-#~ "is no regularity or known schedule."
-#~ msgstr ""
-#~ "Sans périodicité : certains abonnements (souvent des revues scientifiques "
-#~ "de haut niveau) n'ont pas de périodicité. Quand vous vous abonnez à ce "
-#~ "type de revue, vous demandez à recevoir six fascicules par exemple, qui "
-#~ "peuvent aussi bien arriver dans un an, deux ans, ou plus encore. Il n'y a "
-#~ "pas de régularité ni de calendrier de parution."
+#~ msgid "Without periodicy: some very specific (usually high level science journals) don't have a true periodicity. When you subscribe to the title, you subscribe for 6 issues, which can arrive in 1 year... or 2... There is no regularity or known schedule."
+#~ msgstr "Sans périodicité : certains abonnements (souvent des revues scientifiques de haut niveau) n'ont pas de périodicité. Quand vous vous abonnez à ce type de revue, vous demandez à recevoir six fascicules par exemple, qui peuvent aussi bien arriver dans un an, deux ans, ou plus encore. Il n'y a pas de régularité ni de calendrier de parution."
 
 #~ msgid "Unknown select this if none of the other choices are relevant"
-#~ msgstr ""
-#~ "Inconnu : à sélectionner si aucun des autres choix proposés n'est "
-#~ "pertinent."
+#~ msgstr "Inconnu : à sélectionner si aucun des autres choix proposés n'est pertinent."
 
-#~ msgid ""
-#~ "Irregular: The journal is not \"regular\" but has a periodicity. You know "
-#~ "that it comes out on January, then in October and December, it is "
-#~ "irregular, but you know when it's going to arrive."
-#~ msgstr ""
-#~ "Irrégulier : Le périodique ne paraît pas régulièrement mais a une "
-#~ "périodicité. Vous savez qu'il y a un numéro de janvier, octobre et "
-#~ "décembre, par exemple, mais les fascicules arrivent ensuite "
-#~ "irrégulièrement."
+#~ msgid "Irregular: The journal is not \"regular\" but has a periodicity. You know that it comes out on January, then in October and December, it is irregular, but you know when it's going to arrive."
+#~ msgstr "Irrégulier : Le périodique ne paraît pas régulièrement mais a une périodicité. Vous savez qu'il y a un numéro de janvier, octobre et décembre, par exemple, mais les fascicules arrivent ensuite irrégulièrement."
 
 #~ msgid "2/day: Twice daily"
 #~ msgstr "2 par jour : Biquotidien"
@@ -2093,12 +1507,8 @@ msgstr ""
 #~ msgid "1/ 3 months (1/quarter): Quarterly"
 #~ msgstr "1 tous les 3 mois (4 par an) : Trimestriel"
 
-#~ msgid ""
-#~ "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, "
-#~ "Winter, Spring)"
-#~ msgstr ""
-#~ "1 par trimestre (4 saisons) : Trimestriel paraissant chaque saison (été, "
-#~ "automne, hiver, printemps)"
+#~ msgid "1/quarter (seasonal) : Quarterly related to seasons (ie. Summer, Autumn, Winter, Spring)"
+#~ msgstr "1 par trimestre (4 saisons) : Trimestriel paraissant chaque saison (été, automne, hiver, printemps)"
 
 #~ msgid "2/year: Half yearly"
 #~ msgstr "2 par an : Biannuel, semestriel"
@@ -2110,44 +1520,23 @@ msgstr ""
 #~ msgstr "1 tous les 2 ans : Bisannuel"
 
 #, fuzzy
-#~ msgid ""
-#~ "You can choose to create your own numbering pattern by choosing 'None of "
-#~ "the above' and clicking the 'Show/hide advanced pattern' button at the "
-#~ "bottom of the form"
-#~ msgstr ""
-#~ "Vous pouvez créer votre propre modèle de numérotation en choisissant "
-#~ "Aucun de ci-dessus et en cliquant sur  le bouton Afficher/masquer le "
-#~ "prévisionnel avancé en bas du formulaire."
+#~ msgid "You can choose to create your own numbering pattern by choosing 'None of the above' and clicking the 'Show/hide advanced pattern' button at the bottom of the form"
+#~ msgstr "Vous pouvez créer votre propre modèle de numérotation en choisissant Aucun de ci-dessus et en cliquant sur  le bouton Afficher/masquer le prévisionnel avancé en bas du formulaire."
 
 #~ msgid "|image748|"
 #~ msgstr "|image748|"
 
-#~ msgid ""
-#~ "The 'Locale' option is useful when you want to display days, month or "
-#~ "season. For example, if you have a German serial, you can use the German "
-#~ "locale option to display days, etc. in German."
-#~ msgstr ""
-#~ "L'option 'Paramètres régionaux' est utile lorsque vous voulez afficher "
-#~ "les jours, mois ou saison dans la langue du fascicule. Par exemple, si "
-#~ "vous avez un périodique allemand, vous pouvez utiliser l'option "
-#~ "'Paramètres régionaux' pour afficher les jours etc. en allemand."
+#~ msgid "The 'Locale' option is useful when you want to display days, month or season. For example, if you have a German serial, you can use the German locale option to display days, etc. in German."
+#~ msgstr "L'option 'Paramètres régionaux' est utile lorsque vous voulez afficher les jours, mois ou saison dans la langue du fascicule. Par exemple, si vous avez un périodique allemand, vous pouvez utiliser l'option 'Paramètres régionaux' pour afficher les jours etc. en allemand."
 
 #~ msgid "|image1278|"
 #~ msgstr "|image1278|"
 
-#~ msgid ""
-#~ "The 'Begins with' number is the number of the issue you're holding in "
-#~ "your hand."
-#~ msgstr ""
-#~ "Le numéro 'Commence avec' est le numéro du fascicule que vous avez en "
-#~ "main."
+#~ msgid "The 'Begins with' number is the number of the issue you're holding in your hand."
+#~ msgstr "Le numéro 'Commence avec' est le numéro du fascicule que vous avez en main."
 
-#~ msgid ""
-#~ "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" "
-#~ "starts"
-#~ msgstr ""
-#~ "Le \"Compteur interne\" est utilisé dans Koha pour dire quand \"le cycle "
-#~ "de bulletinage\" commence"
+#~ msgid "The 'Inner counter' is used to tell Koha where the \"receiving cycle\" starts"
+#~ msgstr "Le \"Compteur interne\" est utilisé dans Koha pour dire quand \"le cycle de bulletinage\" commence"
 
 #~ msgid "|image749|"
 #~ msgstr "|image749|"
@@ -2174,12 +1563,8 @@ msgstr ""
 #~ msgstr "|image752|"
 
 #, fuzzy
-#~ msgid ""
-#~ "From the page that opens up you can click 'Edit serial' with the issue "
-#~ "you want to receive checked."
-#~ msgstr ""
-#~ "Dans la page qui s'ouvre vous pouvez cliquer sur Modifier périodique avec "
-#~ "le fascicule que vous voulez bulletiner."
+#~ msgid "From the page that opens up you can click 'Edit serial' with the issue you want to receive checked."
+#~ msgstr "Dans la page qui s'ouvre vous pouvez cliquer sur Modifier périodique avec le fascicule que vous voulez bulletiner."
 
 #~ msgid "|image753|"
 #~ msgstr "|image753|"
@@ -2223,11 +1608,8 @@ msgstr ""
 #~ msgid "|image764|"
 #~ msgstr "|image764|"
 
-#~ msgid ""
-#~ "When viewing the subscription in the OPAC there will be several options."
-#~ msgstr ""
-#~ "Lorsque vous consultez un abonnement dans l'OPAC, plusieurs options "
-#~ "s'offrent à vous."
+#~ msgid "When viewing the subscription in the OPAC there will be several options."
+#~ msgstr "Lorsque vous consultez un abonnement dans l'OPAC, plusieurs options s'offrent à vous."
 
 #~ msgid "|image765|"
 #~ msgstr "|image765|"
@@ -2269,12 +1651,8 @@ msgstr ""
 #~ msgstr "|image775|"
 
 #, fuzzy
-#~ msgid ""
-#~ "Another option is to click the 'Renew' link to the right of the "
-#~ "subscription on the Serial collection page."
-#~ msgstr ""
-#~ "L'autre option est de cliquer sur le lien \"Renouveler\" à droite de "
-#~ "l'abonnement sur la page État de Collection."
+#~ msgid "Another option is to click the 'Renew' link to the right of the subscription on the Serial collection page."
+#~ msgstr "L'autre option est de cliquer sur le lien \"Renouveler\" à droite de l'abonnement sur la page État de Collection."
 
 #~ msgid "|image776|"
 #~ msgstr "|image776|"
@@ -2283,13 +1661,8 @@ msgstr ""
 #~ msgstr "|image777|"
 
 #, fuzzy
-#~ msgid ""
-#~ "For the subscription length you'll want to fill in one of the three "
-#~ "fields presented: Number of issues, Number of months or Number of weeks."
-#~ msgstr ""
-#~ "Pour la durée de votre abonnement, vous devrez remplir un des trois "
-#~ "champs affichés: Nombre de numéros (de fascicules), Nombre de mois ou "
-#~ "Nombre de semaines."
+#~ msgid "For the subscription length you'll want to fill in one of the three fields presented: Number of issues, Number of months or Number of weeks."
+#~ msgstr "Pour la durée de votre abonnement, vous devrez remplir un des trois champs affichés: Nombre de numéros (de fascicules), Nombre de mois ou Nombre de semaines."
 
 #~ msgid "|image778|"
 #~ msgstr "|image778|"
@@ -2301,68 +1674,42 @@ msgstr ""
 #~ msgstr "|image780|"
 
 #, fuzzy
-#~ msgid ""
-#~ "If you are receiving multiple issues at once, or have marked an issue as "
-#~ "'Late' or 'Missing' there you can click the 'Generate next' button below "
-#~ "the list of issues."
-#~ msgstr ""
-#~ "Si vous bulletinez plusieurs fascicules à la fois ou si le dernier "
-#~ "fascicule attendu a du retard, vous pouvez cliquer sur Générer le suivant "
-#~ "afin de créer le fascicule suivant."
+#~ msgid "If you are receiving multiple issues at once, or have marked an issue as 'Late' or 'Missing' there you can click the 'Generate next' button below the list of issues."
+#~ msgstr "Si vous bulletinez plusieurs fascicules à la fois ou si le dernier fascicule attendu a du retard, vous pouvez cliquer sur Générer le suivant afin de créer le fascicule suivant."
 
 #~ msgid "|image756|"
 #~ msgstr "|image756|"
 
-#~ msgid ""
-#~ "This module will allow you to add custom fields to your serial "
-#~ "subscriptions for reporting and searching."
-#~ msgstr ""
-#~ "Ce module vous permet d'ajouter des zones personnalisées á vos "
-#~ "abonnements de périodique pour la recherche et les rapports."
+#~ msgid "This module will allow you to add custom fields to your serial subscriptions for reporting and searching."
+#~ msgstr "Ce module vous permet d'ajouter des zones personnalisées á vos abonnements de périodique pour la recherche et les rapports."
 
 #~ msgid "*Get there:* Serials > Add subscription fields"
 #~ msgstr "*Aller à :* Périodiques > Ajouter des champs dans les abonnements"
 
 #, fuzzy
-#~ msgid ""
-#~ "To add custom fields simply click the 'Add subscription fields' link on "
-#~ "the left of the Serial page and choose the 'New fields' button"
-#~ msgstr ""
-#~ "Pour ajouter des champs personnalisés, cliquez sur le lien \"Ajouter des "
-#~ "champs dans les abonnements\" qui se trouve dans le menu de gauche de la "
-#~ "page des Périodiques, puis choisissez le bouton \"Nouveaux champs\""
+#~ msgid "To add custom fields simply click the 'Add subscription fields' link on the left of the Serial page and choose the 'New fields' button"
+#~ msgstr "Pour ajouter des champs personnalisés, cliquez sur le lien \"Ajouter des champs dans les abonnements\" qui se trouve dans le menu de gauche de la page des Périodiques, puis choisissez le bouton \"Nouveaux champs\""
 
 #~ msgid "|image1271|"
 #~ msgstr "|image1271|"
 
 #, fuzzy
-#~ msgid ""
-#~ "The form that appears will ask for either an authorized value or a MARC "
-#~ "field to populate the field with"
-#~ msgstr ""
-#~ "Dans le formulaire qui apparait, il faudra saisir soit une valeur "
-#~ "autorisée soit une zone MARC pour remplir le champ"
+#~ msgid "The form that appears will ask for either an authorized value or a MARC field to populate the field with"
+#~ msgstr "Dans le formulaire qui apparait, il faudra saisir soit une valeur autorisée soit une zone MARC pour remplir le champ"
 
 #~ msgid "|image1272|"
 #~ msgstr "|image1272|"
 
 #, fuzzy
-#~ msgid ""
-#~ "You might want to track which department you're ordering this serial for"
-#~ msgstr ""
-#~ "Par exemple vous pouvez vouloir suivre pour quelle entité vous passez une "
-#~ "commande ou le code collection du périodique"
+#~ msgid "You might want to track which department you're ordering this serial for"
+#~ msgstr "Par exemple vous pouvez vouloir suivre pour quelle entité vous passez une commande ou le code collection du périodique"
 
 #~ msgid "|image1273|"
 #~ msgstr "|image1273|"
 
 #, fuzzy
-#~ msgid ""
-#~ "When you view the subscription, the field will appear under 'Additional "
-#~ "fields'."
-#~ msgstr ""
-#~ "Lorsque vous consultez un abonnement dans l'OPAC, plusieurs options "
-#~ "s'offrent à vous."
+#~ msgid "When you view the subscription, the field will appear under 'Additional fields'."
+#~ msgstr "Lorsque vous consultez un abonnement dans l'OPAC, plusieurs options s'offrent à vous."
 
 #~ msgid "|image1275|"
 #~ msgstr "|image1275|"
@@ -2374,16 +1721,11 @@ msgstr ""
 #~ msgid "|image1380|"
 #~ msgstr "|image1380|"
 
-#~ msgid ""
-#~ "This data will then show when you are adding a subscriptionAdd field value"
-#~ msgstr ""
-#~ "Ces données seront maintenant visibles quand vous ajouterez un abonnement"
+#~ msgid "This data will then show when you are adding a subscriptionAdd field value"
+#~ msgstr "Ces données seront maintenant visibles quand vous ajouterez un abonnement"
 
 #~ msgid "and when you view the subscription"
 #~ msgstr "et quand vous consultez l'abonnement"
 
-#~ msgid ""
-#~ "and when you search subscriptions (if you chose to make it 'searchable')"
-#~ msgstr ""
-#~ "et lorsque vous recherchez des abonnements (si vous décidez de les rendre "
-#~ "\"interrogeables\")"
+#~ msgid "and when you search subscriptions (if you chose to make it 'searchable')"
+#~ msgstr "et lorsque vous recherchez des abonnements (si vous décidez de les rendre \"interrogeables\")"

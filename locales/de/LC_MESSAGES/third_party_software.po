@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-03 12:26+0000\n"
+"PO-Revision-Date: 2021-03-04 22:46+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614774377.330134\n"
+"X-POOTLE-MTIME: 1614898004.586252\n"
 "X-Pootle-Path: /de/man20.11/third_party_software.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -30,42 +30,24 @@ msgid "MarcEdit"
 msgstr "MarcEdit"
 
 #: ../../source/third_party_software.rst:13
-msgid ""
-"Many libraries like to use MarcEdit for modifications or data cleanup. If "
-"you'd like to do this you will need to download it at: http://marcedit."
-"reeset.net/"
-msgstr ""
-"Viele Bibliotheken verwenden gerne MarcEdit für Änderungen und "
-"Datenbereinigungen. Wenn Sie MarcEdit verwenden möchten, können Sie es unter "
-"http://marcedit.reeset.net/ herunterladen"
+msgid "Many libraries like to use MarcEdit for modifications or data cleanup. If you'd like to do this you will need to download it at: http://marcedit.reeset.net/"
+msgstr "Viele Bibliotheken verwenden gerne MarcEdit für Änderungen und Datenbereinigungen. Wenn Sie MarcEdit verwenden möchten, können Sie es unter http://marcedit.reeset.net/ herunterladen"
 
 #: ../../source/third_party_software.rst:17
 msgid "**Important**"
 msgstr "**Wichtig**"
 
 #: ../../source/third_party_software.rst:19
-msgid ""
-"Many of the actions described in this chapter can be done in Koha using :ref:"
-"`Marc Modification Templates <marc-modification-templates-label>`, but this "
-"section is here for those who are used to MarcEdit."
-msgstr ""
-"Viele der in diesem Kapitel beschriebenen Aktionen können auch direkt in "
-"Koha über :ref:`Templates für MARC-Modifikationen <marc-modification-"
-"templates-label>` durchgeführt werden, aber dieses Kapitel ist für "
-"diejenigen, die an MarcEdit gewöhnt sind."
+msgid "Many of the actions described in this chapter can be done in Koha using :ref:`Marc Modification Templates <marc-modification-templates-label>`, but this section is here for those who are used to MarcEdit."
+msgstr "Viele der in diesem Kapitel beschriebenen Aktionen können auch direkt in Koha über :ref:`Templates für MARC-Modifikationen <marc-modification-templates-label>` durchgeführt werden, aber dieses Kapitel ist für diejenigen, die an MarcEdit gewöhnt sind."
 
 #: ../../source/third_party_software.rst:26
 msgid "Adding a prefix to call numbers"
 msgstr "Präfix bei Signaturen ergänzen"
 
 #: ../../source/third_party_software.rst:28
-msgid ""
-"When bringing data into Koha, you may want to first clean it up. One common "
-"action among Koha users is to add a prefix to the call number."
-msgstr ""
-"Wenn Sie Daten in Koha übernehmen, möchten Sie diese vielleicht vorher "
-"bereinigen. Eine oft ausgeführte Aktion von Koha-Anwendern ist es, die "
-"Signatur um ein Präfix zu ergänzen."
+msgid "When bringing data into Koha, you may want to first clean it up. One common action among Koha users is to add a prefix to the call number."
+msgstr "Wenn Sie Daten in Koha übernehmen, möchten Sie diese vielleicht vorher bereinigen. Eine oft ausgeführte Aktion von Koha-Anwendern ist es, die Signatur um ein Präfix zu ergänzen."
 
 #: ../../source/third_party_software.rst:31
 msgid "Open MarcEdit"
@@ -88,71 +70,40 @@ msgid "|image1090|"
 msgstr "|image1090|"
 
 #: ../../source/third_party_software.rst:41
-msgid ""
-"To prepend data the special character is: ^b  To simply prepend data to the "
-"beginning of a subfield, add ^b to the Field Data: textbox and the data to "
-"be appended in the Replace"
-msgstr ""
-"Die Zeichenfolge um Daten voranzustellen ist: ^b  Um Daten am Anfang eines "
-"Unterfelds zu ergänzen, geben Sie ^b in der Textbox Field Data an und danach "
-"die Zeichenfolge, die ergänzt werden soll, in Replace"
+msgid "To prepend data the special character is: ^b  To simply prepend data to the beginning of a subfield, add ^b to the Field Data: textbox and the data to be appended in the Replace"
+msgstr "Die Zeichenfolge um Daten voranzustellen ist: ^b  Um Daten am Anfang eines Unterfelds zu ergänzen, geben Sie ^b in der Textbox Field Data an und danach die Zeichenfolge, die ergänzt werden soll, in Replace"
 
 #: ../../source/third_party_software.rst:45
 msgid "|image1091|"
 msgstr "|image1091|"
 
 #: ../../source/third_party_software.rst:47
-msgid ""
-"To prepend data to the beginning of the subfield while replacing a text "
-"string, add ^b[string to replace] to the Field Data textbox and the data to "
-"be appended in the Replace With textbox."
-msgstr ""
-"Um eine Zeichenfolge am Anfang des Unterfelds zu ergänzen und gleichzeitig "
-"eine Zeichenfolge zu ersetzen, geben Sie ^b[Zu ersetzende Zeichenfolge] im "
-"Textfeld Field Data ein und den einzufügenden Text in Replace."
+msgid "To prepend data to the beginning of the subfield while replacing a text string, add ^b[string to replace] to the Field Data textbox and the data to be appended in the Replace With textbox."
+msgstr "Um eine Zeichenfolge am Anfang des Unterfelds zu ergänzen und gleichzeitig eine Zeichenfolge zu ersetzen, geben Sie ^b[Zu ersetzende Zeichenfolge] im Textfeld Field Data ein und den einzufügenden Text in Replace."
 
 #: ../../source/third_party_software.rst:54
 msgid "Importing Excel data into Koha"
 msgstr "Excel-Daten nach Koha importieren"
 
 #: ../../source/third_party_software.rst:56
-msgid ""
-"Suppose you have records of your library in excel data sheet format and want "
-"them to import into Koha. But how will you do this? Koha will not let you "
-"import excel records directly. Well here is a very simple solution for you "
-"which will let you import your excel records in Koha easily. First, we will "
-"convert excel file into Marc file and then will import it into Koha."
-msgstr ""
-"Stellen Sie sich vor, Sie haben Daten für Ihre Bibliothek im Excel-"
-"Tabellenformat, die Sie nach Koha importieren möchten. Aber wie gehen Sie "
-"nun vor? In Koha ist es nicht möglich, Exceldaten direkt zu importieren. "
-"Dies ist eine einfache Lösung hierfür. Dafür werden wir zunächst die "
-"Exceldatei in eine MARC-Datei konvertieren und diese dann nach Koha "
-"importieren."
+msgid "Suppose you have records of your library in excel data sheet format and want them to import into Koha. But how will you do this? Koha will not let you import excel records directly. Well here is a very simple solution for you which will let you import your excel records in Koha easily. First, we will convert excel file into Marc file and then will import it into Koha."
+msgstr "Stellen Sie sich vor, Sie haben Daten für Ihre Bibliothek im Excel-Tabellenformat, die Sie nach Koha importieren möchten. Aber wie gehen Sie nun vor? In Koha ist es nicht möglich, Exceldaten direkt zu importieren. Dies ist eine einfache Lösung hierfür. Dafür werden wir zunächst die Exceldatei in eine MARC-Datei konvertieren und diese dann nach Koha importieren."
 
 #: ../../source/third_party_software.rst:63
 msgid "Follow the given steps to import your excel records into Koha"
-msgstr ""
-"Folgen Sie den folgenden Schritten um die Exceldaten in Koha zu importieren:"
+msgstr "Folgen Sie den folgenden Schritten um die Exceldaten in Koha zu importieren:"
 
 #: ../../source/third_party_software.rst:68
 msgid "Converting from Excel format into .mrk format"
 msgstr "Excel nach .mrk konvertieren"
 
 #: ../../source/third_party_software.rst:70
-msgid ""
-"First, we will convert excel format into .mrk format. For this we will use "
-"MarcEdit. You can download it from http://marcedit.reeset.net/"
-msgstr ""
-"Zuerst werden wir das Excelformat in ein .mrk-Format konvertieren. Hierfür "
-"verwenden wir MarcEdit. Sie können die Software unter http://marcedit.reeset."
-"net/ herunterladen."
+msgid "First, we will convert excel format into .mrk format. For this we will use MarcEdit. You can download it from http://marcedit.reeset.net/"
+msgstr "Zuerst werden wir das Excelformat in ein .mrk-Format konvertieren. Hierfür verwenden wir MarcEdit. Sie können die Software unter http://marcedit.reeset.net/ herunterladen."
 
 #: ../../source/third_party_software.rst:73
 msgid "Now open it and select Add-ins-->Delimited Text Translator."
-msgstr ""
-"Öffnen Sie das Programm und Wählen Sie aus den Add-ins den Delimited Text "
-"Translator."
+msgstr "Öffnen Sie das Programm und Wählen Sie aus den Add-ins den Delimited Text Translator."
 
 #: ../../source/third_party_software.rst:75
 msgid "|image1092|"
@@ -176,41 +127,27 @@ msgstr "|image1094|"
 
 #: ../../source/third_party_software.rst:85
 msgid "Locate your excel file by choosing the format Excel File(\\*.xls)."
-msgstr ""
-"Lokalisieren Sie Ihre Exceldatei, indem Sie als Format Excel (\\*.xls) "
-"auswählen."
+msgstr "Lokalisieren Sie Ihre Exceldatei, indem Sie als Format Excel (\\*.xls) auswählen."
 
 #: ../../source/third_party_software.rst:87
 msgid "|image1095|"
 msgstr "|image1095|"
 
 #: ../../source/third_party_software.rst:89
-msgid ""
-"Similarly, fill all the other entries such as Output File, Excel Sheet Name "
-"and check UTF-8 Encoded (if required) and Click Next."
-msgstr ""
-"Füllen Sie die anderen Eingabefelder, wie Ausgabedatei, Name der Exceldatei "
-"und UTF-8-Zeichensatz (wenn erforderlich) und klicken Sie auf Next."
+msgid "Similarly, fill all the other entries such as Output File, Excel Sheet Name and check UTF-8 Encoded (if required) and Click Next."
+msgstr "Füllen Sie die anderen Eingabefelder, wie Ausgabedatei, Name der Exceldatei und UTF-8-Zeichensatz (wenn erforderlich) und klicken Sie auf Next."
 
 #: ../../source/third_party_software.rst:92
 msgid "|image1096|"
 msgstr "|image1096|"
 
 #: ../../source/third_party_software.rst:94
-msgid ""
-"Now you will be prompted for mapping the fields to recognise the fields by "
-"standard marc format."
-msgstr ""
-"Jetzt werden Sie aufgefordert die Spalten auf Felder im Standard-MARC-Format "
-"zu mappen."
+msgid "Now you will be prompted for mapping the fields to recognise the fields by standard marc format."
+msgstr "Jetzt werden Sie aufgefordert die Spalten auf Felder im Standard-MARC-Format zu mappen."
 
 #: ../../source/third_party_software.rst:97
-msgid ""
-"Suppose for Field 0 that is first column I entered Map to: 022$a( Valid ISSN "
-"for the continuing resource) and then click on Apply."
-msgstr ""
-"Nehmen wir an, Field 0, die erste Spalte, wird auf 022$a gemappt (gültige "
-"ISSN für eine Zeitschrift oder Reihe) und klicken dann auf Apply."
+msgid "Suppose for Field 0 that is first column I entered Map to: 022$a( Valid ISSN for the continuing resource) and then click on Apply."
+msgstr "Nehmen wir an, Field 0, die erste Spalte, wird auf 022$a gemappt (gültige ISSN für eine Zeitschrift oder Reihe) und klicken dann auf Apply."
 
 #: ../../source/third_party_software.rst:100
 msgid "|image1097|"
@@ -222,57 +159,36 @@ msgid "**Note**"
 msgstr "**Hinweis**"
 
 #: ../../source/third_party_software.rst:104
-msgid ""
-"You can customize Indicators and all other things, for more information on "
-"marc21 format visit the `official library of congress site <http://www.loc."
-"gov/marc/bibliographic/>`__."
-msgstr ""
-"Sie können auch die Indikatoren und anderen Felder anpassen, weitere "
-"Informationen über das MARC21-Format finden Sie auf den Seiten der `Library "
-"of Congress <http://www.loc.gov/marc/bibliographic/>`__."
+msgid "You can customize Indicators and all other things, for more information on marc21 format visit the `official library of congress site <http://www.loc.gov/marc/bibliographic/>`__."
+msgstr "Sie können auch die Indikatoren und anderen Felder anpassen, weitere Informationen über das MARC21-Format finden Sie auf den Seiten der `Library of Congress <http://www.loc.gov/marc/bibliographic/>`__."
 
 #: ../../source/third_party_software.rst:108
 msgid "Similarly map all other fields and then Click on Finish."
-msgstr ""
-"Mappen Sie alle anderen Felder auf ähnliche Weise und klicken Sie dann auf "
-"Finish."
+msgstr "Mappen Sie alle anderen Felder auf ähnliche Weise und klicken Sie dann auf Finish."
 
 #: ../../source/third_party_software.rst:110
 msgid "|image1098|"
 msgstr "|image1098|"
 
 #: ../../source/third_party_software.rst:112
-msgid ""
-"And then a window will appear indicating that your Marc Text File(\\*.mrk) "
-"has been created."
-msgstr ""
-"Es wird ein Fenster mit der Meldung, dass eine MARC-Textdatei (\\*.mrk) "
-"angelegt wurde, angezeigt."
+msgid "And then a window will appear indicating that your Marc Text File(\\*.mrk) has been created."
+msgstr "Es wird ein Fenster mit der Meldung, dass eine MARC-Textdatei (\\*.mrk) angelegt wurde, angezeigt."
 
 #: ../../source/third_party_software.rst:115
 msgid "|image1099|"
 msgstr "|image1099|"
 
 #: ../../source/third_party_software.rst:117
-msgid ""
-"Click Close and we have created a .mrk file from .xls file in this step. You "
-"can view the file by double clicking on it."
-msgstr ""
-"Klicken Sie auf Close, damit haben wir den ersten Schritt eine .mrk-Datei "
-"aus der .xls-Datei zu erzeugen abgeschlossen. Sie können die Datei anzeigen, "
-"indem Sie sie mit einem Doppelklick öffnen."
+msgid "Click Close and we have created a .mrk file from .xls file in this step. You can view the file by double clicking on it."
+msgstr "Klicken Sie auf Close, damit haben wir den ersten Schritt eine .mrk-Datei aus der .xls-Datei zu erzeugen abgeschlossen. Sie können die Datei anzeigen, indem Sie sie mit einem Doppelklick öffnen."
 
 #: ../../source/third_party_software.rst:123
 msgid "Convert .mrk file to .mrc"
 msgstr ".mrk zu .mrc konvertieren"
 
 #: ../../source/third_party_software.rst:125
-msgid ""
-"We will convert .mrk file that we have created in the above step into raw "
-"Marc format that can be directly imported into Koha."
-msgstr ""
-"Nun werden wir die zuvor erzeugte .mrk-Datei in das MARC-Bandformat "
-"konvertieren, dass direkt nach Koha importiert werden kann."
+msgid "We will convert .mrk file that we have created in the above step into raw Marc format that can be directly imported into Koha."
+msgstr "Nun werden wir die zuvor erzeugte .mrk-Datei in das MARC-Bandformat konvertieren, dass direkt nach Koha importiert werden kann."
 
 #: ../../source/third_party_software.rst:128
 msgid "For this again open MarcEdit and Select MARC Tools."
@@ -284,9 +200,7 @@ msgstr "|image1100|"
 
 #: ../../source/third_party_software.rst:132
 msgid "Next Select MarcMaker to convert .mrk file into .mrc format."
-msgstr ""
-"Wählen Sie als nächstes MarcMaker um die .mrk in eine .mrc-Datei zu "
-"konvertieren."
+msgstr "Wählen Sie als nächstes MarcMaker um die .mrk in eine .mrc-Datei zu konvertieren."
 
 #: ../../source/third_party_software.rst:134
 msgid "|image1101|"
@@ -294,9 +208,7 @@ msgstr "|image1101|"
 
 #: ../../source/third_party_software.rst:136
 msgid "Locate your input file and name your output file. Then Click Execute."
-msgstr ""
-"Wählen Sie Ihre Eingabedatei und benennen Sie Ihre Ausgabedatei. Dann "
-"klicken Sie auf Execute."
+msgstr "Wählen Sie Ihre Eingabedatei und benennen Sie Ihre Ausgabedatei. Dann klicken Sie auf Execute."
 
 #: ../../source/third_party_software.rst:138
 msgid "|image1102|"
@@ -312,20 +224,17 @@ msgstr "|image1103|"
 
 #: ../../source/third_party_software.rst:144
 msgid "Click Close and now we have raw Marc records with us (.mrc file)."
-msgstr ""
-"Klicken Sie auf Close und nun haben wir rohe MARC-Datensätze (.mrc-Datei)."
+msgstr "Klicken Sie auf Close und nun haben wir rohe MARC-Datensätze (.mrc-Datei)."
 
 #: ../../source/third_party_software.rst:149
 msgid "Import .mrc into Koha"
 msgstr ".mrc in Koha importieren"
 
 #: ../../source/third_party_software.rst:151
-msgid ""
-"More information on importing records into Koha can be found in the ':ref:"
-"`Stage MARC Records for Import`' section of this manual."
+msgid "More information on importing records into Koha can be found in the ':ref:`Stage MARC Records for Import`' section of this manual."
 msgstr ""
 "Weitere Informationen zum Import von Datensätzen in Koha finden Sie im "
-"Kapitel ':ref:`MARC-Datensätze für Import bereitstellen <stage-marc-records-"
+"Kapitel :ref:`MARC-Datensätze für Import bereitstellen <stage-marc-records-"
 "for-import-label>`' in diesem Handbuch."
 
 #: ../../source/third_party_software.rst:154
@@ -349,21 +258,16 @@ msgid "|image1105|"
 msgstr "|image1105|"
 
 #: ../../source/third_party_software.rst:164
-msgid ""
-"After this, choose your previously created .mrc file and click on Upload."
-msgstr ""
-"Nun wählen Sie die zuvor erzeugte .mrc-Datei aus und klicken Sie auf Upload."
+msgid "After this, choose your previously created .mrc file and click on Upload."
+msgstr "Nun wählen Sie die zuvor erzeugte .mrc-Datei aus und klicken Sie auf Upload."
 
 #: ../../source/third_party_software.rst:167
 msgid "|image1106|"
 msgstr "|image1106|"
 
 #: ../../source/third_party_software.rst:169
-msgid ""
-"You can also add comment about file and finally click on Stage For Import."
-msgstr ""
-"Sie können einen Kommentar zur Datei angeben und dann auf \"Für Import "
-"bereitstellen\" klicken."
+msgid "You can also add comment about file and finally click on Stage For Import."
+msgstr "Sie können einen Kommentar zur Datei angeben und dann auf \"Für Import bereitstellen\" klicken."
 
 #: ../../source/third_party_software.rst:172
 msgid "|image1107|"
@@ -371,9 +275,7 @@ msgstr "|image1107|"
 
 #: ../../source/third_party_software.rst:174
 msgid "When the import is done, you will get a result something like this"
-msgstr ""
-"Wenn der Import erfolgt ist, werden Ihnen die Ergebnisse ungefähr so "
-"dargestellt:"
+msgstr "Wenn der Import erfolgt ist, werden Ihnen die Ergebnisse ungefähr so dargestellt:"
 
 #: ../../source/third_party_software.rst:176
 msgid "|image1108|"
@@ -381,8 +283,7 @@ msgstr "|image1108|"
 
 #: ../../source/third_party_software.rst:178
 msgid "Next, click on Manage staged records."
-msgstr ""
-"Klicken Sie als nächstes auf \"Bereitgestellte MARC-Datensätze verwalten\"."
+msgstr "Klicken Sie als nächstes auf \"Bereitgestellte MARC-Datensätze verwalten\"."
 
 #: ../../source/third_party_software.rst:180
 msgid "Here you can even change matching rules."
@@ -394,16 +295,11 @@ msgstr "|image1109|"
 
 #: ../../source/third_party_software.rst:184
 msgid "Click on Import this batch into catalog when you are done."
-msgstr ""
-"Klicken Sie auf \"Stapel in Katalog importieren\", wenn alles korrekt ist."
+msgstr "Klicken Sie auf \"Stapel in Katalog importieren\", wenn alles korrekt ist."
 
 #: ../../source/third_party_software.rst:186
-msgid ""
-"Thats it. After all the records get imported, check Status and it should "
-"read \"imported\""
-msgstr ""
-"Das wars. Nachdem alle Datensätze importiert wurden, prüfen Sie den Status. "
-"Er sollte nun \"importiert\" sein"
+msgid "Thats it. After all the records get imported, check Status and it should read \"imported\""
+msgstr "Das wars. Nachdem alle Datensätze importiert wurden, prüfen Sie den Status. Er sollte nun \"importiert\" sein"
 
 #: ../../source/third_party_software.rst:189
 msgid "|image1110|"
@@ -415,47 +311,27 @@ msgstr "Sie können den Import auch jederzeit wieder rückgängig machen."
 
 #: ../../source/third_party_software.rst:193
 msgid "And within few minutes, we have imported around 10,000 records in Koha"
-msgstr ""
-"Und innerhalb weniger Minuten haben wir ungefährt 10.000 Datensätze in Koha "
-"eingespielt"
+msgstr "Und innerhalb weniger Minuten haben wir ungefährt 10.000 Datensätze in Koha eingespielt"
 
 #: ../../source/third_party_software.rst:196
 msgid "OCLC Connexion Gateway"
 msgstr "OCLC Connexion Gateway"
 
 #: ../../source/third_party_software.rst:198
-msgid ""
-"Koha can be set to work with the OCLC Connexion Gateway. This allows "
-"libraries to use OCLC Connexion as their cataloging tool and simply send "
-"those records to Koha with a single click. The following instructions will "
-"help you set up the OCLC Connexion Gateway, if you have a system "
-"administrator you will want to consult with them on this process."
-msgstr ""
-"Koha kann für die Arbeit mit dem OCLC Connexion Gateway eingerichtet werden. "
-"Dies erlaubt es den Bibliotheken OCLC Connexion als Katalogisierungswerkzeug "
-"zu verwenden und die Datensätze daraus mit einem einzelnen Klick an Koha zu "
-"senden. Die folgenden Instruktionen helfen Ihnen dabei das OCLC Connexion "
-"Gateway einzurichten. Wenn Sie einen Systemadministrator haben, sollten Sie "
-"ihn hierbei hinzuziehen."
+msgid "Koha can be set to work with the OCLC Connexion Gateway. This allows libraries to use OCLC Connexion as their cataloging tool and simply send those records to Koha with a single click. The following instructions will help you set up the OCLC Connexion Gateway, if you have a system administrator you will want to consult with them on this process."
+msgstr "Koha kann für die Arbeit mit dem OCLC Connexion Gateway eingerichtet werden. Dies erlaubt es den Bibliotheken OCLC Connexion als Katalogisierungswerkzeug zu verwenden und die Datensätze daraus mit einem einzelnen Klick an Koha zu senden. Die folgenden Instruktionen helfen Ihnen dabei das OCLC Connexion Gateway einzurichten. Wenn Sie einen Systemadministrator haben, sollten Sie ihn hierbei hinzuziehen."
 
 #: ../../source/third_party_software.rst:207
 msgid "Setting up OCLC service on Koha"
 msgstr "OCLC-Service in Koha einrichten"
 
 #: ../../source/third_party_software.rst:209
-msgid ""
-"First, you'll need to create a file somewhere on your system with "
-"configuration information.  You could put this anywhere that is visible to "
-"the account that will be running the service."
-msgstr ""
-"Im ersten Schritt müssen Sie eine Konfigurationsdatei in Ihrem System "
-"anlege. Sie können die Datei an einer beliebigen Stelle ablegen, die später "
-"für das Konto zugänglich ist, dass den Service betreiben wird."
+msgid "First, you'll need to create a file somewhere on your system with configuration information.  You could put this anywhere that is visible to the account that will be running the service."
+msgstr "Im ersten Schritt müssen Sie eine Konfigurationsdatei in Ihrem System anlege. Sie können die Datei an einer beliebigen Stelle ablegen, die später für das Konto zugänglich ist, dass den Service betreiben wird."
 
 #: ../../source/third_party_software.rst:213
 msgid "The file contains 11 lines. The first 6 will be about your Koha system:"
-msgstr ""
-"Diese Datei enthält 11 Zeilen. Die ersten 6 betreffen Ihre Koha-Installation:"
+msgstr "Diese Datei enthält 11 Zeilen. Die ersten 6 betreffen Ihre Koha-Installation:"
 
 #: ../../source/third_party_software.rst:224
 msgid "The remaining lines describe how to do the staging:"
@@ -466,32 +342,16 @@ msgid "A sample file would look like this:"
 msgstr "Eine Beispieldatei könnte so aussehen:"
 
 #: ../../source/third_party_software.rst:250
-msgid ""
-"When choosing an 'import\\_mode' if you use \"direct\" then the staged "
-"record will be immediately imported into Koha, and should be searchable "
-"after your indexes catch up.  If you choose \"stage\", then the record will "
-"be placed in a staged batch for you to later go the :ref:`Manage Staged MARC "
-"Records <staged-marc-record-management-label>` tool to finish the import."
-msgstr ""
-"Wenn Sie beim \"import\\_mode\" \"direct\" auswählen, wird der "
-"zwischengespeicherte Datensatz direkt nach Koha importiert und ist, sobald "
-"er indexiert wurde, suchbar. Wenn Sie \"stage\" wählen, dann wird der "
-"Datensatz zwischengespeichert und Sie können diesen später über das "
-"Werkzeug :ref:`Bereitgestellte MARC-Datensätze verwalten <staged-marc-record-"
-"management-label>` in den Katalog importieren."
+msgid "When choosing an 'import\\_mode' if you use \"direct\" then the staged record will be immediately imported into Koha, and should be searchable after your indexes catch up.  If you choose \"stage\", then the record will be placed in a staged batch for you to later go the :ref:`Manage Staged MARC Records <staged-marc-record-management-label>` tool to finish the import."
+msgstr "Wenn Sie beim \"import\\_mode\" \"direct\" auswählen, wird der zwischengespeicherte Datensatz direkt nach Koha importiert und ist, sobald er indexiert wurde, suchbar. Wenn Sie \"stage\" wählen, dann wird der Datensatz zwischengespeichert und Sie können diesen später über das Werkzeug :ref:`Bereitgestellte MARC-Datensätze verwalten <staged-marc-record-management-label>` in den Katalog importieren."
 
 #: ../../source/third_party_software.rst:256
-msgid ""
-"If you import multiple records, they'll be in the same batch, until that "
-"batch is imported, then a new batch will be created."
-msgstr ""
-"Wenn Sie mehrere Datensätze übernehmen, werden diese dem gleichen Improt "
-"zugeordnet bis dieser importiert wird. Dann wird ein neuer Import angelegt."
+msgid "If you import multiple records, they'll be in the same batch, until that batch is imported, then a new batch will be created."
+msgstr "Wenn Sie mehrere Datensätze übernehmen, werden diese dem gleichen Improt zugeordnet bis dieser importiert wird. Dann wird ein neuer Import angelegt."
 
 #: ../../source/third_party_software.rst:259
 msgid "In \"direct\" mode, each record will be in its' own batch."
-msgstr ""
-"Im \"direct\"-Modus ist jeder Datensatz einem eigenen Import zugeordnet."
+msgstr "Im \"direct\"-Modus ist jeder Datensatz einem eigenen Import zugeordnet."
 
 #: ../../source/third_party_software.rst:261
 msgid "To start the service, run the script:"
@@ -503,50 +363,31 @@ msgstr "OCLC Desktop Client einrichten"
 
 #: ../../source/third_party_software.rst:274
 msgid "Screenshots are OCLC Connexion Client v.2.50, Koha v.3.12"
-msgstr ""
-"Die Screenshots beziehen sich auf den OCLC Connexion Client v.2.50 und Koha "
-"v.3.12"
+msgstr "Die Screenshots beziehen sich auf den OCLC Connexion Client v.2.50 und Koha v.3.12"
 
 #: ../../source/third_party_software.rst:276
-msgid ""
-"To set up the OCLC Connexion desktop client to connect to Koha, go to Tools "
-"> Options, then choose the Export tab."
-msgstr ""
-"Um die Verbindung zu Koha im OCLC Connexion Desktop Client einzurichten, "
-"gehen Sie auf Tools > Options und wählen dort den Reiter Export."
+msgid "To set up the OCLC Connexion desktop client to connect to Koha, go to Tools > Options, then choose the Export tab."
+msgstr "Um die Verbindung zu Koha im OCLC Connexion Desktop Client einzurichten, gehen Sie auf Tools > Options und wählen dort den Reiter Export."
 
 #: ../../source/third_party_software.rst:279
 msgid "|image1317|"
 msgstr "|image1317|"
 
 #: ../../source/third_party_software.rst:281
-msgid ""
-"Click the \"Create...\" button to set up a new destination, then choose "
-"\"OCLC Gateway Export\" and click OK."
-msgstr ""
-"Klicken Sie auf die Schaltfläche \"Create...\" um eine neue Destination "
-"einzurichten und wählen Sie dann \"OCLC Gateway Export\" und klicken Sie auf "
-"OK."
+msgid "Click the \"Create...\" button to set up a new destination, then choose \"OCLC Gateway Export\" and click OK."
+msgstr "Klicken Sie auf die Schaltfläche \"Create...\" um eine neue Destination einzurichten und wählen Sie dann \"OCLC Gateway Export\" und klicken Sie auf OK."
 
 #: ../../source/third_party_software.rst:284
 msgid "Enter the following information:"
 msgstr "Geben Sie die folgenden Informationen ein:"
 
 #: ../../source/third_party_software.rst:286
-msgid ""
-"\"Host Name:\" Your catalog’s appropriate IP address (from your :ref:`config "
-"file above <setting-up-oclc-service-on-koha-label>`)"
-msgstr ""
-"\"Host Name:\" Die IP-Adresse Ihres Katalogs (aus Ihrer erstellten :ref:"
-"`Konfigurationsdatei <setting-up-oclc-service-on-koha-label>`)"
+msgid "\"Host Name:\" Your catalog’s appropriate IP address (from your :ref:`config file above <setting-up-oclc-service-on-koha-label>`)"
+msgstr "\"Host Name:\" Die IP-Adresse Ihres Katalogs (aus Ihrer erstellten :ref:`Konfigurationsdatei <setting-up-oclc-service-on-koha-label>`)"
 
 #: ../../source/third_party_software.rst:289
-msgid ""
-"\"Port:\" Your catalog's appropriate port number (from your :ref:`config "
-"file above <setting-up-oclc-service-on-koha-label>`)"
-msgstr ""
-"\"Port:\" Die Portnummer für Ihren Katalog (aus Ihrer erstellten :ref:"
-"`Konfigurationsdatei <setting-up-oclc-service-on-koha-label>`)"
+msgid "\"Port:\" Your catalog's appropriate port number (from your :ref:`config file above <setting-up-oclc-service-on-koha-label>`)"
+msgstr "\"Port:\" Die Portnummer für Ihren Katalog (aus Ihrer erstellten :ref:`Konfigurationsdatei <setting-up-oclc-service-on-koha-label>`)"
 
 #: ../../source/third_party_software.rst:292
 msgid "\"Login ID:\" The cataloger's Koha login"
@@ -573,48 +414,24 @@ msgid "|image1111|"
 msgstr "|image1111|"
 
 #: ../../source/third_party_software.rst:304
-msgid ""
-"Select \"OK\" when finished, and you should see your new \"Gateway Export\" "
-"option listed (The catalog's IP address and port are blacked out in the "
-"following screenshot)"
-msgstr ""
-"Gehen Sie auf \"OK\", wenn Sie alles eingetragen haben und Sie sollten einen "
-"neuen Eintrag für \"Gateway Export\" sehen (Die IP-Adresse und der Port "
-"wurden im folgenden Screenshot geschwärzt)"
+msgid "Select \"OK\" when finished, and you should see your new \"Gateway Export\" option listed (The catalog's IP address and port are blacked out in the following screenshot)"
+msgstr "Gehen Sie auf \"OK\", wenn Sie alles eingetragen haben und Sie sollten einen neuen Eintrag für \"Gateway Export\" sehen (Die IP-Adresse und der Port wurden im folgenden Screenshot geschwärzt)"
 
 #: ../../source/third_party_software.rst:308
 msgid "Gateway Export Added"
 msgstr "Gateway Export hinzugefügt"
 
 #: ../../source/third_party_software.rst:310
-msgid ""
-"Click on \"Record Characteristics\" and make sure that the bibliographic "
-"records are using MARC21, UTF-8 Unicode, and click OK to save."
-msgstr ""
-"Klicken Sie auf \"Record Characteristics\" und stellen Sie sicher dass die "
-"bibliographischen Datensätze MARC21, UTF8 Unicode verwenden und klicken Sie "
-"dann auf OK um zu speichern."
+msgid "Click on \"Record Characteristics\" and make sure that the bibliographic records are using MARC21, UTF-8 Unicode, and click OK to save."
+msgstr "Klicken Sie auf \"Record Characteristics\" und stellen Sie sicher dass die bibliographischen Datensätze MARC21, UTF8 Unicode verwenden und klicken Sie dann auf OK um zu speichern."
 
 #: ../../source/third_party_software.rst:314
 msgid "Record Characteristics"
 msgstr "Record Characteristics"
 
 #: ../../source/third_party_software.rst:316
-msgid ""
-"You should be ready to go!  To export a record from OCLC Connexion Client to "
-"Koha, just press F5 while the record is on-screen.  The export dialog will "
-"pop up, and you'll see Connexion attempting to talk to Koha.  You should get "
-"a message that the record was added or overlaid, including its biblio "
-"number, and a URL that you can copy into your web browser to jump straight "
-"to the record."
-msgstr ""
-"Damit sollte alles fertig sein! Um einen Datensatz aus dem OCLC Connexion "
-"Client nach Koha zu exportieren, drücken Sie F5 während der Datensatz "
-"angezeigt wird. Der Exportdialog öffnet sich und Sie sehen, wie Connexion "
-"die Verbindung zu Koha aufbaut. Sie sollten eine Nachricht erhalten, dass "
-"der Datensatz neu angelegt oder überschrieben wurde, sowie seine "
-"biblionumber und eine URL, die Sie verwenden können, um direkt zum Datensatz "
-"in Koha zu springen."
+msgid "You should be ready to go!  To export a record from OCLC Connexion Client to Koha, just press F5 while the record is on-screen.  The export dialog will pop up, and you'll see Connexion attempting to talk to Koha.  You should get a message that the record was added or overlaid, including its biblio number, and a URL that you can copy into your web browser to jump straight to the record."
+msgstr "Damit sollte alles fertig sein! Um einen Datensatz aus dem OCLC Connexion Client nach Koha zu exportieren, drücken Sie F5 während der Datensatz angezeigt wird. Der Exportdialog öffnet sich und Sie sehen, wie Connexion die Verbindung zu Koha aufbaut. Sie sollten eine Nachricht erhalten, dass der Datensatz neu angelegt oder überschrieben wurde, sowie seine biblionumber und eine URL, die Sie verwenden können, um direkt zum Datensatz in Koha zu springen."
 
 #: ../../source/third_party_software.rst:326
 msgid "Using the OCLC Connexion Gateway"
@@ -622,43 +439,23 @@ msgstr "Verwendung des OCLC Connexion Gateway"
 
 #: ../../source/third_party_software.rst:328
 msgid "Records can be exported from Connexion either in a batch or one by one."
-msgstr ""
-"Datensätze können von Connexion entweder im Stapel oder einzeln nacheinander "
-"exportiert werden."
+msgstr "Datensätze können von Connexion entweder im Stapel oder einzeln nacheinander exportiert werden."
 
 #: ../../source/third_party_software.rst:333
 msgid "Exporting records one by one"
 msgstr "Datensätze einzeln nacheinander exportieren"
 
 #: ../../source/third_party_software.rst:335
-msgid ""
-"To export bibliographic records one by one, be sure your \"Batch\" options "
-"are correct: from the \"Tools\" menu, select \"Options\", and select the "
-"\"Batch\" tab. In the \"Perform local actions in batch\" area, "
-"\"Bibliographic Record Export\" should be unchecked"
-msgstr ""
-"Um Titeldatensätze nacheinander zu exportieren, müssen Sie sicherstellen, "
-"dass die \"Batch\"-Optionen korrekt konfiguriert sind: unter \"Tools\" "
-"wählen Sie \"Options\" und dann den Reiter \"Batch\". Im Abschnitt \"Perform "
-"local actions in batch\", sollte \"Bibliographic Record Export\" nicht "
-"angehakt sein."
+msgid "To export bibliographic records one by one, be sure your \"Batch\" options are correct: from the \"Tools\" menu, select \"Options\", and select the \"Batch\" tab. In the \"Perform local actions in batch\" area, \"Bibliographic Record Export\" should be unchecked"
+msgstr "Um Titeldatensätze nacheinander zu exportieren, müssen Sie sicherstellen, dass die \"Batch\"-Optionen korrekt konfiguriert sind: unter \"Tools\" wählen Sie \"Options\" und dann den Reiter \"Batch\". Im Abschnitt \"Perform local actions in batch\", sollte \"Bibliographic Record Export\" nicht angehakt sein."
 
 #: ../../source/third_party_software.rst:340
 msgid "|image1318|"
 msgstr "|image1318|"
 
 #: ../../source/third_party_software.rst:342
-msgid ""
-"When ready to export, from the \"Action\" menu, select \"Export\" or use the "
-"F5 key. You will see a screen similar to the following if the import is "
-"successful and if the record is new to the Catalog; you may copy & paste the "
-"resulting URL into your Koha catalog to see the new record."
-msgstr ""
-"Wählen Sie \"Export\" aus dem Menüpunkt \"Action\" oder verwenden Sie F5, "
-"wenn Sie bereit für den Export sind. Sie erhalten eine Meldung ähnlich zur "
-"nachfolgenden, wenn der Import erfolgreich war und der Datensatz neu "
-"angelegt wurde; Sie können die URL kopieren und in Ihrem Browser einfügen, "
-"um den Datensatz in Koha aufzurufen."
+msgid "When ready to export, from the \"Action\" menu, select \"Export\" or use the F5 key. You will see a screen similar to the following if the import is successful and if the record is new to the Catalog; you may copy & paste the resulting URL into your Koha catalog to see the new record."
+msgstr "Wählen Sie \"Export\" aus dem Menüpunkt \"Action\" oder verwenden Sie F5, wenn Sie bereit für den Export sind. Sie erhalten eine Meldung ähnlich zur nachfolgenden, wenn der Import erfolgreich war und der Datensatz neu angelegt wurde; Sie können die URL kopieren und in Ihrem Browser einfügen, um den Datensatz in Koha aufzurufen."
 
 #: ../../source/third_party_software.rst:347
 #: ../../source/third_party_software.rst:352
@@ -666,283 +463,137 @@ msgid "|image1319|"
 msgstr "|image1319|"
 
 #: ../../source/third_party_software.rst:349
-msgid ""
-"If the record was overlaid, you will see a message to that effect in the "
-"\"OCLC Gateway Export Status\" window"
-msgstr ""
-"Wenn der Datensatz überschrieben wurde, erhalten Sie eine entsprechende "
-"Meldung im Fenster \"OCLC Gateway Export Status\""
+msgid "If the record was overlaid, you will see a message to that effect in the \"OCLC Gateway Export Status\" window"
+msgstr "Wenn der Datensatz überschrieben wurde, erhalten Sie eine entsprechende Meldung im Fenster \"OCLC Gateway Export Status\""
 
 #: ../../source/third_party_software.rst:357
 msgid "Exporting records in a batch"
 msgstr "Datensätze im Stapel exportieren"
 
 #: ../../source/third_party_software.rst:359
-msgid ""
-"To export bibliographic records in a batch, be sure your \"Batch\" options "
-"are correct: from the \"Tools\" menu, select \"Options\", and select the "
-"\"Batch\" tab. In the \"Perform local actions in batch\" area, "
-"\"Bibliographic Record Export\" should be checked"
-msgstr ""
-"Um Titeldatensätze im Stapel zu exportieren, müssen Sie sicherstellen, dass "
-"die \"Batch\"-Optionen korrekt konfiguriert sind: unter \"Tools\" wählen Sie "
-"\"Options\" und dann den Reiter \"Batch\". Im Abschnitt \"Perform local "
-"actions in batch\" sollte \"Bibliographic Record Export\" angehakt sein"
+msgid "To export bibliographic records in a batch, be sure your \"Batch\" options are correct: from the \"Tools\" menu, select \"Options\", and select the \"Batch\" tab. In the \"Perform local actions in batch\" area, \"Bibliographic Record Export\" should be checked"
+msgstr "Um Titeldatensätze im Stapel zu exportieren, müssen Sie sicherstellen, dass die \"Batch\"-Optionen korrekt konfiguriert sind: unter \"Tools\" wählen Sie \"Options\" und dann den Reiter \"Batch\". Im Abschnitt \"Perform local actions in batch\" sollte \"Bibliographic Record Export\" angehakt sein"
 
 #: ../../source/third_party_software.rst:364
 msgid "|image1320|"
 msgstr "|image1320|"
 
 #: ../../source/third_party_software.rst:366
-msgid ""
-"When a record is ready to export, from the \"Action\" menu, select \"Export"
-"\" or use the F5 key, and it’s export status will be \"ready.\""
-msgstr ""
-"Wenn ein Datensatz fertig für den Export ist, klicken Sie im Menü \"Action\" "
-"auf \"Export\" oder verwenden Sie die F5-Taste, der Exportstatus ist dann "
-"\"ready\"."
+msgid "When a record is ready to export, from the \"Action\" menu, select \"Export\" or use the F5 key, and it’s export status will be \"ready.\""
+msgstr "Wenn ein Datensatz fertig für den Export ist, klicken Sie im Menü \"Action\" auf \"Export\" oder verwenden Sie die F5-Taste, der Exportstatus ist dann \"ready\"."
 
 #: ../../source/third_party_software.rst:369
-msgid ""
-"When ready to export the batch, from the \"Batch\" menu, select \"Process "
-"batch\" and check the appropriate \"Path\" and \"Export\" boxes"
-msgstr ""
-"Wenn Sie dann den Stapel exportieren möchten, klicken Sie im Menü \"Batch\" "
-"auf \"Process batch\" und haken Sie die entsprechenden Checkboxen für \"Path"
-"\" und \"Export\" an"
+msgid "When ready to export the batch, from the \"Batch\" menu, select \"Process batch\" and check the appropriate \"Path\" and \"Export\" boxes"
+msgstr "Wenn Sie dann den Stapel exportieren möchten, klicken Sie im Menü \"Batch\" auf \"Process batch\" und haken Sie die entsprechenden Checkboxen für \"Path\" und \"Export\" an"
 
 #: ../../source/third_party_software.rst:372
 msgid "|image1321|"
 msgstr "|image1321|"
 
 #: ../../source/third_party_software.rst:374
-msgid ""
-"The export will begin, and the bib records will be exported & imported into "
-"Koha one by one; you will see \"OCLC Gateway Export Status\" windows, as "
-"above, showing you the results of each export. That window will stay there "
-"until you select \"Close,\" and then the next record’s export/import will "
-"begin. The process will continue until all records in the batch are "
-"completed. Then you may or may not see the Connexion Client export report "
-"(depending on your Client options for that)."
-msgstr ""
-"Der Export beginnt und die Titeldatensätze werden exportiert und einer nach "
-"dem anderen in Koha importiert; Sie bekommen Fenster für den \"OCLC Gateway "
-"Export Status\" für jeden Export angezeigt. Dieses Fenster bleibt offen, bis "
-"Sie \"Close\" klicken, was den nächsten Export/Import anstößt. Dieser "
-"Prozess geht so lange, bis alle Datensätze im Stapel bearbeitet wurden. Dann "
-"wird ggf. der Connexion Client Export Report angezeigt (abhängig von Ihren "
-"gewählten Einstellungen im Client)."
+msgid "The export will begin, and the bib records will be exported & imported into Koha one by one; you will see \"OCLC Gateway Export Status\" windows, as above, showing you the results of each export. That window will stay there until you select \"Close,\" and then the next record’s export/import will begin. The process will continue until all records in the batch are completed. Then you may or may not see the Connexion Client export report (depending on your Client options for that)."
+msgstr "Der Export beginnt und die Titeldatensätze werden exportiert und einer nach dem anderen in Koha importiert; Sie bekommen Fenster für den \"OCLC Gateway Export Status\" für jeden Export angezeigt. Dieses Fenster bleibt offen, bis Sie \"Close\" klicken, was den nächsten Export/Import anstößt. Dieser Prozess geht so lange, bis alle Datensätze im Stapel bearbeitet wurden. Dann wird ggf. der Connexion Client Export Report angezeigt (abhängig von Ihren gewählten Einstellungen im Client)."
 
 #: ../../source/third_party_software.rst:385
 msgid "Items in OCLC"
 msgstr "Exemplare in OCLC"
 
 #: ../../source/third_party_software.rst:387
-msgid ""
-"If you'd like to create your item records in OCLC you can do so by addding a "
-"952 for each item to the bib record you're cataloging. The :ref:`Item/"
-"Holdings Cataloging Guide <item/holdings-record-cataloging-guide-label>` "
-"will break down what subfields you can use in the 952, but at the minimum "
-"you want to have subfield 2, a, b, and y on your items."
-msgstr ""
-"Wenn Sie Ihre Exemplardatensätze in OCLC anlegen möchten, können sie dies "
-"tun, indem Sie ein 952-Feld für jedes Exemplare zum Titeldatensatz "
-"hinzufügen. Der :ref:`Katalogisierungsleitfaden für Exemplar- und "
-"Bestandsdaten <item/holdings-record-cataloging-guide-label>` erklärt genau, "
-"welche Felder in 952 verwendet werden können, aber es sollten mindestens die "
-"Unterfelder 2, a, b und y belegt werden."
+msgid "If you'd like to create your item records in OCLC you can do so by addding a 952 for each item to the bib record you're cataloging. The :ref:`Item/Holdings Cataloging Guide <item/holdings-record-cataloging-guide-label>` will break down what subfields you can use in the 952, but at the minimum you want to have subfield 2, a, b, and y on your items."
+msgstr "Wenn Sie Ihre Exemplardatensätze in OCLC anlegen möchten, können sie dies tun, indem Sie ein 952-Feld für jedes Exemplare zum Titeldatensatz hinzufügen. Der :ref:`Katalogisierungsleitfaden für Exemplar- und Bestandsdaten <item/holdings-record-cataloging-guide-label>` erklärt genau, welche Felder in 952 verwendet werden können, aber es sollten mindestens die Unterfelder 2, a, b und y belegt werden."
 
 #: ../../source/third_party_software.rst:393
-msgid ""
-"952 \\\\\\\\$2CLASSIFICATION$aHOMEBRANCHCODE$bHOLDINGBRANCHCODE$yITEMTYPECODE"
-msgstr ""
-"952 \\\\\\\\$2KLASSIFIKATION$aHEIMATBIBLIOTHEK$bAKTUELLEBIBLIOTHEK"
-"$yMEDIENTYPCODE"
+msgid "952 \\\\\\\\$2CLASSIFICATION$aHOMEBRANCHCODE$bHOLDINGBRANCHCODE$yITEMTYPECODE"
+msgstr "952 \\\\\\\\$2KLASSIFIKATION$aHEIMATBIBLIOTHEK$bAKTUELLEBIBLIOTHEK$yMEDIENTYPCODE"
 
 #: ../../source/third_party_software.rst:396
-msgid ""
-"The subfield 2 holds the classification code. This can be ddc for Dewey or "
-"lcc for Library of Congress or z for Custom. Other classification sources "
-"can be found in the :ref:`Classification Sources <classification-sources-"
-"label>` area in administration"
-msgstr ""
-"Das Unterfeld 2 enthält den Code für das verwendete Klassifikationsschema. "
-"Dies kann z.B. ddc für Dewey oder lcc für Library of Congress oder z für ein "
-"Generisches Schema sein. Andere Klassifikationen finden sie unter :ref:"
-"`Klassifikationsquellen <classification-sources-label>` im "
-"Administrationsmodul."
+msgid "The subfield 2 holds the classification code. This can be ddc for Dewey or lcc for Library of Congress or z for Custom. Other classification sources can be found in the :ref:`Classification Sources <classification-sources-label>` area in administration"
+msgstr "Das Unterfeld 2 enthält den Code für das verwendete Klassifikationsschema. Dies kann z.B. ddc für Dewey oder lcc für Library of Congress oder z für ein Generisches Schema sein. Andere Klassifikationen finden sie unter :ref:`Klassifikationsquellen <classification-sources-label>` im Administrationsmodul."
 
 #: ../../source/third_party_software.rst:401
-msgid ""
-"Subfield a is your home library and needs to be the code for your home "
-"library, not the library name. You can find these codes in the :ref:"
-"`Libraries <libraries-label>` administration area."
-msgstr ""
-"Unterfeld a ist für Ihre Heimatbibliothek und muss das Bibliothekskürzel der "
-"Bibliothek enthalten, nicht den Bibliotheksnamen. Sie finden diese Kürzel "
-"unter :ref:`Bibliotheken <libraries-label>` im Administrationsmodul."
+msgid "Subfield a is your home library and needs to be the code for your home library, not the library name. You can find these codes in the :ref:`Libraries <libraries-label>` administration area."
+msgstr "Unterfeld a ist für Ihre Heimatbibliothek und muss das Bibliothekskürzel der Bibliothek enthalten, nicht den Bibliotheksnamen. Sie finden diese Kürzel unter :ref:`Bibliotheken <libraries-label>` im Administrationsmodul."
 
 #: ../../source/third_party_software.rst:405
-msgid ""
-"Subfield b is your holding library and needs to be the code for your holding "
-"library, not the library name. You can find these codes in the :ref:"
-"`Libraries <libraries-label>` administration area."
-msgstr ""
-"Unterfeld a ist für die aktuelle Bibliothek und muss das Bibliothekskürzel "
-"der Bibliothek enthalten, nicht den Bibliotheksnamen. Sie finden diese "
-"Kürzel unter :ref:`Bibliotheken <libraries-label>` im Administrationsmodul."
+msgid "Subfield b is your holding library and needs to be the code for your holding library, not the library name. You can find these codes in the :ref:`Libraries <libraries-label>` administration area."
+msgstr "Unterfeld a ist für die aktuelle Bibliothek und muss das Bibliothekskürzel der Bibliothek enthalten, nicht den Bibliotheksnamen. Sie finden diese Kürzel unter :ref:`Bibliotheken <libraries-label>` im Administrationsmodul."
 
 #: ../../source/third_party_software.rst:409
-msgid ""
-"Subfield y is your item type code. It needs to be the code, not the item "
-"type name. You can find these codes in the :ref:`Item Types <item-types-"
-"label>` administration area."
-msgstr ""
-"Das Unterfeld y enthält den Medientypcode. Dies ist das Kürzel, nicht die "
-"Medientypbezeichnung. Sie finden diese Kürzel unter :ref:`Medientypen <item-"
-"types-label>` im Administrationsmodul."
+msgid "Subfield y is your item type code. It needs to be the code, not the item type name. You can find these codes in the :ref:`Item Types <item-types-label>` administration area."
+msgstr "Das Unterfeld y enthält den Medientypcode. Dies ist das Kürzel, nicht die Medientypbezeichnung. Sie finden diese Kürzel unter :ref:`Medientypen <item-types-label>` im Administrationsmodul."
 
 #: ../../source/third_party_software.rst:413
 msgid "952 \\\\\\\\$2ddc$aMAIN$bMAIN$yBOOK"
 msgstr "952 \\\\\\\\$2ddc$aZB$bZB$yBUCH"
 
 #: ../../source/third_party_software.rst:415
-msgid ""
-"In addition to these required fields you can enter any other subfield you'd "
-"like. Most libraries will enter a call number in subfield o and a barcode in "
-"subfield p as well. Review the :ref:`Item/Holdings Cataloging Guide <item/"
-"holdings-record-cataloging-guide-label>` for a full list of subfields and "
-"values."
-msgstr ""
-"Zusätzlich zu diesen Pflichtfeldern können Sie auch jedes weitere Unterfeld "
-"angeben, dass Sie möchten. Die meisten Bibliotheken geben eine Signatur in "
-"Unterfeld o und einen Barcode in Unterfeld p an. Im :ref:"
-"`Katalogisierungsleitfaden für Exemplar- und Bestandsdaten <item/holdings-"
-"record-cataloging-guide-label>` finden Sie eine vollständige Liste aller "
-"Unterfelder und ihrem jeweiligen Inhalt."
+msgid "In addition to these required fields you can enter any other subfield you'd like. Most libraries will enter a call number in subfield o and a barcode in subfield p as well. Review the :ref:`Item/Holdings Cataloging Guide <item/holdings-record-cataloging-guide-label>` for a full list of subfields and values."
+msgstr "Zusätzlich zu diesen Pflichtfeldern können Sie auch jedes weitere Unterfeld angeben, dass Sie möchten. Die meisten Bibliotheken geben eine Signatur in Unterfeld o und einen Barcode in Unterfeld p an. Im :ref:`Katalogisierungsleitfaden für Exemplar- und Bestandsdaten <item/holdings-record-cataloging-guide-label>` finden Sie eine vollständige Liste aller Unterfelder und ihrem jeweiligen Inhalt."
 
 #: ../../source/third_party_software.rst:423
 msgid "Talking Tech"
 msgstr "Talking Tech"
 
 #: ../../source/third_party_software.rst:425
-msgid ""
-"Talking Tech I-tiva is a third party, proprietary, product that libraries "
-"can subscribe to. Learn more here: http://www.talkingtech.com/solutions/"
-"library."
-msgstr ""
-"Talking Tech I-tive ist ein separates, proprietäres Produkt, dass "
-"Bibliotheken abonnieren können. Erfahren Sie mehr unter: http://www."
-"talkingtech.com/solutions/library."
+msgid "Talking Tech I-tiva is a third party, proprietary, product that libraries can subscribe to. Learn more here: http://www.talkingtech.com/solutions/library."
+msgstr "Talking Tech I-tive ist ein separates, proprietäres Produkt, dass Bibliotheken abonnieren können. Erfahren Sie mehr unter: http://www.talkingtech.com/solutions/library."
 
 #: ../../source/third_party_software.rst:432
 msgid "Installation and Setup Instructions"
 msgstr "Anleitung für Installation und Konfiguration"
 
 #: ../../source/third_party_software.rst:434
-msgid ""
-"Be sure you've run installer/data/mysql/atomicupdate/Bug-4246-Talking-Tech-"
-"itiva-phone-notifications.pl to install the required data pack (new syspref, "
-"notice placeholders and messaging transport preferences)"
-msgstr ""
-"Stellen Sie sicher, dass Sie das Skript installer/data/mysql/atomicupdate/"
-"Bug-4246-Talking-Tech-itiva-phone-notifications.pl ausgeführt haben, um "
-"zusätzliche benötigte Daten (neuer Systemparameter, Benachrichtigungen und "
-"Benachrichtigungstransportarten) zu installieren"
+msgid "Be sure you've run installer/data/mysql/atomicupdate/Bug-4246-Talking-Tech-itiva-phone-notifications.pl to install the required data pack (new syspref, notice placeholders and messaging transport preferences)"
+msgstr "Stellen Sie sicher, dass Sie das Skript installer/data/mysql/atomicupdate/Bug-4246-Talking-Tech-itiva-phone-notifications.pl ausgeführt haben, um zusätzliche benötigte Daten (neuer Systemparameter, Benachrichtigungen und Benachrichtigungstransportarten) zu installieren"
 
 #: ../../source/third_party_software.rst:439
-msgid ""
-"To use, :ref:`TalkingTechItivaPhoneNotification` syspref must be turned on."
-msgstr ""
-"Um die Funktion zu verwenden, muss der Systemparameter :ref:"
-"`TalkingTechItivaPhoneNotification` aktiviert sein."
+msgid "To use, :ref:`TalkingTechItivaPhoneNotification` syspref must be turned on."
+msgstr "Um die Funktion zu verwenden, muss der Systemparameter :ref:`TalkingTechItivaPhoneNotification` aktiviert sein."
 
 #: ../../source/third_party_software.rst:443
-msgid ""
-"If you wish to process PREOVERDUE or RESERVES messages, you'll need the :ref:"
-"`EnhancedMessagingPreferences` system preference turned on, and patrons to "
-"have filled in a preference for receiving these notices by phone."
-msgstr ""
-"Wenn Sie die Benachrichtigungen PREOVERDUE oder RESERVES bearbeiten möchten, "
-"müssen Sie außerdem den Systemparameter :ref:`EnhancedMessagingPreferences` "
-"aktivieren und die Benutzer müssen angegeben haben, dass Sie diese "
-"Benachrichtigungen erhalten möchten."
+msgid "If you wish to process PREOVERDUE or RESERVES messages, you'll need the :ref:`EnhancedMessagingPreferences` system preference turned on, and patrons to have filled in a preference for receiving these notices by phone."
+msgstr "Wenn Sie die Benachrichtigungen PREOVERDUE oder RESERVES bearbeiten möchten, müssen Sie außerdem den Systemparameter :ref:`EnhancedMessagingPreferences` aktivieren und die Benutzer müssen angegeben haben, dass Sie diese Benachrichtigungen erhalten möchten."
 
 #: ../../source/third_party_software.rst:448
-msgid ""
-"For OVERDUE messages, overdue notice triggers must be configured under More "
-"> Tools > :ref:`Overdue notice/status triggers <overdue-notice/status-"
-"triggers-label>`. Either branch-specific triggers or the default level "
-"triggers may be used (script will select whichever is appropriate)."
-msgstr ""
-"Für OVERDUE-Benachrichtigungen müssen die Mahntrigger unter Mehr > Werkzeuge "
-"> :ref:`Mahntrigger <overdue-notice/status-triggers-label>` konfiguriert "
-"sein. Sie können sowhl bibliotheksspezifische als auch Standardtrigger "
-"verwenden (das Skript wird die jeweils passenden Einstellungen verwenden)."
+msgid "For OVERDUE messages, overdue notice triggers must be configured under More > Tools > :ref:`Overdue notice/status triggers <overdue-notice/status-triggers-label>`. Either branch-specific triggers or the default level triggers may be used (script will select whichever is appropriate)."
+msgstr "Für OVERDUE-Benachrichtigungen müssen die Mahntrigger unter Mehr > Werkzeuge > :ref:`Mahntrigger <overdue-notice/status-triggers-label>` konfiguriert sein. Sie können sowhl bibliotheksspezifische als auch Standardtrigger verwenden (das Skript wird die jeweils passenden Einstellungen verwenden)."
 
 #: ../../source/third_party_software.rst:456
 msgid "Sending Notices File"
 msgstr "Versand der Benachrichtigungsdatei"
 
 #: ../../source/third_party_software.rst:458
-msgid ""
-"Add the :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-notices-file-"
-"label>` script to your crontab"
-msgstr ""
-"Fügen Sie den Cronjob :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-"
-"notices-file-label>` zu Crontab hinzu"
+msgid "Add the :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-notices-file-label>` script to your crontab"
+msgstr "Fügen Sie den Cronjob :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-notices-file-label>` zu Crontab hinzu"
 
 #: ../../source/third_party_software.rst:461
-msgid ""
-"Add an FTP/SFTP or other transport method to send the output file to the I-"
-"tiva server"
-msgstr ""
-"Konfigurieren Sie FTP/SFTP oder eine andere Methode um die ausgegebene Datei "
-"an den I-tiva-Server zu übertragen."
+msgid "Add an FTP/SFTP or other transport method to send the output file to the I-tiva server"
+msgstr "Konfigurieren Sie FTP/SFTP oder eine andere Methode um die ausgegebene Datei an den I-tiva-Server zu übertragen."
 
 #: ../../source/third_party_software.rst:464
-msgid ""
-"If you wish, archive the sent notices file in another directory after sending"
-msgstr ""
-"Wenn Sie möchten, können Sie die verschickten Benachrichtigungen nach dem "
-"Versand in einem anderen Ordner archivieren."
+msgid "If you wish, archive the sent notices file in another directory after sending"
+msgstr "Wenn Sie möchten, können Sie die verschickten Benachrichtigungen nach dem Versand in einem anderen Ordner archivieren."
 
 #: ../../source/third_party_software.rst:467
 msgid "Run TalkingTech\\_itiva\\_outbound.pl --help for more information"
-msgstr ""
-"Führen Sie TalkingTech\\_itiva\\_outbound.pl --help aus um weitere "
-"Informationen zu erhalten"
+msgstr "Führen Sie TalkingTech\\_itiva\\_outbound.pl --help aus um weitere Informationen zu erhalten"
 
 #: ../../source/third_party_software.rst:472
 msgid "Receiving Results File"
 msgstr "Ergebnisdatei erhalten"
 
 #: ../../source/third_party_software.rst:474
-msgid ""
-"Add an FTP/SFTP or other transport method to send the Results file to a "
-"known directory on your Koha server"
-msgstr ""
-"Richten Sie FTP/SFTP oder eine andere Übertragungsmethode ein, um die Datei "
-"mit den Ergebnissen in einem bekannten Verzeichnis auf Ihrem Koha-Server zu "
-"speichern"
+msgid "Add an FTP/SFTP or other transport method to send the Results file to a known directory on your Koha server"
+msgstr "Richten Sie FTP/SFTP oder eine andere Übertragungsmethode ein, um die Datei mit den Ergebnissen in einem bekannten Verzeichnis auf Ihrem Koha-Server zu speichern"
 
 #: ../../source/third_party_software.rst:477
-msgid ""
-"Add the :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-receiving-notices-file-"
-"label>` script to your crontab, aimed at that directory"
-msgstr ""
-"Fügen Sie den Cronjob :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-sending-"
-"notices-file-label>` für dieses Verzeichnis hinzu"
+msgid "Add the :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-receiving-notices-file-label>` script to your crontab, aimed at that directory"
+msgstr "Fügen Sie den Cronjob :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-sending-notices-file-label>` für dieses Verzeichnis hinzu"
 
 #: ../../source/third_party_software.rst:480
-msgid ""
-"If you wish, archive the results file in another directory after processing"
-msgstr ""
-"Wenn Sie möchten, können Sie die Ergebnisdatei nach Bearbeitung in einem "
-"anderen Verzeichnis archivieren."
+msgid "If you wish, archive the results file in another directory after processing"
+msgstr "Wenn Sie möchten, können Sie die Ergebnisdatei nach Bearbeitung in einem anderen Verzeichnis archivieren."
 
 #: ../../source/third_party_software.rst:483
 msgid "Run TalkingTech\\_itiva\\_inbound.pl --help for more information"
-msgstr ""
-"Führen Sie TalkingTech\\_itiva\\_inbound.pl --help aus um weitere "
-"Informationen zu erhalten"
+msgstr "Führen Sie TalkingTech\\_itiva\\_inbound.pl --help aus um weitere Informationen zu erhalten"

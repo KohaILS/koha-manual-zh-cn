@@ -8,41 +8,42 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-04-02 08:33+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man20.11/accountspreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617352422.356329\n"
 
 #: ../../source/accountspreferences.rst:6
 msgid "Accounting"
-msgstr ""
+msgstr "Comptabilité"
 
 #: ../../source/accountspreferences.rst:8
-msgid ""
-"*Get there:* More > Administration > Global system preferences > Acquisitions"
-msgstr ""
+msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
+msgstr "*Aller à :* Plus > Administration > Préférences système > Acquisitions"
 
 #: ../../source/accountspreferences.rst:14
 msgid "Features"
-msgstr ""
+msgstr "Fonctionnalités"
 
 #: ../../source/accountspreferences.rst:19
 msgid "AutoCreditNumber"
-msgstr ""
+msgstr "AutoCreditNumber"
 
 #: ../../source/accountspreferences.rst:21
 msgid "Asks: \\_\\_\\_"
-msgstr ""
+msgstr "Action : \\_\\_\\_"
 
 #: ../../source/accountspreferences.rst:23
 msgid "Default: Do not automatically generate credit numbers"
-msgstr ""
+msgstr "Par défaut : Ne pas générer automatiquement de numéros de crédit"
 
 #: ../../source/accountspreferences.rst:25
 #: ../../source/accountspreferences.rst:56
@@ -51,24 +52,25 @@ msgstr ""
 #: ../../source/accountspreferences.rst:126
 #: ../../source/accountspreferences.rst:147
 msgid "Values:"
-msgstr ""
+msgstr "Valeurs :"
 
 #: ../../source/accountspreferences.rst:27
 msgid "Do not automatically generate credit numbers"
-msgstr ""
+msgstr "Ne pas générer automatiquement de numéros de crédit"
 
 #: ../../source/accountspreferences.rst:29
 msgid "Automatically generate credit numbers in the form <year>-0001"
-msgstr ""
+msgstr "Générer automatiquement des numéros de crédit sous la forme <year>-0001"
 
 #: ../../source/accountspreferences.rst:31
-msgid ""
-"Automatically generate credit numbers in the form <branchcode>yyyymm0001"
+msgid "Automatically generate credit numbers in the form <branchcode>yyyymm0001"
 msgstr ""
+"Générer automatiquement des numéros de crédit sous la forme "
+"<branchcode>aaaamm0001"
 
 #: ../../source/accountspreferences.rst:33
 msgid "Automatically generate credit numbers in the form 1, 2, 3"
-msgstr ""
+msgstr "Générer automatiquement des numéros de crédit sous la forme 1, 2, 3"
 
 #: ../../source/accountspreferences.rst:35
 #: ../../source/accountspreferences.rst:62
@@ -77,159 +79,162 @@ msgstr ""
 #: ../../source/accountspreferences.rst:132
 #: ../../source/accountspreferences.rst:153
 msgid "Description:"
-msgstr ""
+msgstr "Description :"
 
 #: ../../source/accountspreferences.rst:37
-msgid ""
-"For auditing purposes, it might be necessary to attach a unique number to "
-"each credit (payments, writeoffs, refunds, etc.). This system preference "
-"allows you to choose the format of this unique number."
+msgid "For auditing purposes, it might be necessary to attach a unique number to each credit (payments, writeoffs, refunds, etc.). This system preference allows you to choose the format of this unique number."
 msgstr ""
+"A des fins de vérification, il pourrait être nécessaire de lier un numéro "
+"unique à chaque crédit (paiements, pertes et profits, remboursements, etc.). "
+"Cette préférence système vous permet de choisir le format de ce numéro "
+"unique."
 
 #: ../../source/accountspreferences.rst:41
 #: ../../source/accountspreferences.rst:66
 msgid "**Important**"
-msgstr ""
+msgstr "**Important**"
 
 #: ../../source/accountspreferences.rst:43
-msgid ""
-"Automatic generation also has to be enabled for each :ref:`credit type "
-"<credit-types-label>`."
+msgid "Automatic generation also has to be enabled for each :ref:`credit type <credit-types-label>`."
 msgstr ""
+"La génération automatique doit aussi être activée pour chaque :ref:'type de "
+"crédit <credit-types-label>'."
 
 #: ../../source/accountspreferences.rst:49
 msgid "EnablePointOfSale"
-msgstr ""
+msgstr "EnablePointOfSale"
 
 #: ../../source/accountspreferences.rst:51
-msgid ""
-"Asks: \\_\\_\\_ the point of sale feature to allow anonymous transactions "
-"with the accounting system."
+msgid "Asks: \\_\\_\\_ the point of sale feature to allow anonymous transactions with the accounting system."
 msgstr ""
+"Action : \\_\\_\\_ la fonctionnalité Point de vente à autoriser les "
+"transactions anonymes dans la comptabilité."
 
 #: ../../source/accountspreferences.rst:54
 msgid "Default: Disable"
-msgstr ""
+msgstr "Par défaut : Désactiver"
 
 #: ../../source/accountspreferences.rst:58
 msgid "Disable"
-msgstr ""
+msgstr "Désactiver"
 
 #: ../../source/accountspreferences.rst:60
 msgid "Enable"
-msgstr ""
+msgstr "Activer"
 
 #: ../../source/accountspreferences.rst:64
-msgid ""
-"This system preference controls the :ref:`point of sale module <point-of-"
-"sale-label>`."
+msgid "This system preference controls the :ref:`point of sale module <point-of-sale-label>`."
 msgstr ""
+"Cette préférence système contrôle le :ref:' module Point de vente <point-of-"
+"sale-label>'."
 
 #: ../../source/accountspreferences.rst:68
-msgid ""
-"If you enable this system preference, make sure to enable :ref:"
-"`UseCashRegisters` as well."
+msgid "If you enable this system preference, make sure to enable :ref:`UseCashRegisters` as well."
 msgstr ""
+"Si vous activez cette préférence système, assurez-vous d'activer aussi "
+":ref:'UseCashRegisters'."
 
 #: ../../source/accountspreferences.rst:74
 msgid "UseCashRegisters"
-msgstr ""
+msgstr "UseCashRegisters"
 
 #: ../../source/accountspreferences.rst:76
-msgid ""
-"Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
+msgid "Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
 msgstr ""
+"Action : \\_\\_\\_ les caisses avec le système comptable pour suivre les "
+"paiements."
 
 #: ../../source/accountspreferences.rst:78
 msgid "Default: Don't use"
-msgstr ""
+msgstr "Par défaut : Ne pas utiliser"
 
 #: ../../source/accountspreferences.rst:82
 msgid "Don't use"
-msgstr ""
+msgstr "Ne pas utiliser"
 
 #: ../../source/accountspreferences.rst:84
 msgid "Use"
-msgstr ""
+msgstr "Utiliser"
 
 #: ../../source/accountspreferences.rst:88
-msgid ""
-"This preference enables the :ref:`cash registers <cashregisters-label>` "
-"feature in the administration module."
+msgid "This preference enables the :ref:`cash registers <cashregisters-label>` feature in the administration module."
 msgstr ""
+"Cette préférence active la fonctionnalité :ref:`caisses <cashregisters-"
+"label>` dans le module Administration."
 
 #: ../../source/accountspreferences.rst:94
 msgid "Policy"
-msgstr ""
+msgstr "Politique"
 
 #: ../../source/accountspreferences.rst:99
 msgid "AccountAutoReconcile"
-msgstr ""
+msgstr "AccountAutoReconcile"
 
 #: ../../source/accountspreferences.rst:101
-msgid ""
-"Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction "
-"adding debits or credits."
+msgid "Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction adding debits or credits."
 msgstr ""
+"Action : \\_\\_\\_ rapprocher automatiquement le solde de l'adhérent à "
+"chaque transaction de débits ou crédits."
 
 #: ../../source/accountspreferences.rst:103
 msgid "Default: Do not"
-msgstr ""
+msgstr "Par défaut : Ne pas"
 
 #: ../../source/accountspreferences.rst:107
 #: ../../source/accountspreferences.rst:128
 #: ../../source/accountspreferences.rst:151
 msgid "Do"
-msgstr ""
+msgstr "Oui,"
 
 #: ../../source/accountspreferences.rst:109
 msgid "Do not"
-msgstr ""
+msgstr "Ne pas"
 
 #: ../../source/accountspreferences.rst:113
-msgid ""
-"This preference controls whether or not credits are automatically used to to "
-"reduce the owed amounts in a patron's account."
+msgid "This preference controls whether or not credits are automatically used to to reduce the owed amounts in a patron's account."
 msgstr ""
+"Cette préférence contrôle si les crédits sont automatiquement utilisés ou "
+"non pour réduire les montants dûs par l'adhérent."
 
 #: ../../source/accountspreferences.rst:119
 msgid "FinePaymentAutoPopup"
-msgstr ""
+msgstr "FinePaymentAutoPopup"
 
 #: ../../source/accountspreferences.rst:121
-msgid ""
-"Asks: \\_\\_\\_ automatically display a print dialog for a payment receipt "
-"when making a payment."
+msgid "Asks: \\_\\_\\_ automatically display a print dialog for a payment receipt when making a payment."
 msgstr ""
+"Action : \\_\\_\\_ afficher automatiquement une fenêtre pour imprimer un "
+"reçu de paiement lors d'un encaissement."
 
 #: ../../source/accountspreferences.rst:124
 #: ../../source/accountspreferences.rst:145
 msgid "Default: Don't"
-msgstr ""
+msgstr "Par défaut : Ne pas"
 
 #: ../../source/accountspreferences.rst:130
 #: ../../source/accountspreferences.rst:149
 msgid "Don't"
-msgstr ""
+msgstr "Ne pas"
 
 #: ../../source/accountspreferences.rst:134
-msgid ""
-"If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a "
-"patron's account, a printing popup will be displayed automatically instead "
-"of having to click on the 'print' button."
+msgid "If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a patron's account, a printing popup will be displayed automatically instead of having to click on the 'print' button."
 msgstr ""
+"Si activée, lors d'un :ref:'paiement <pay/reverse-fines-label>' dans le "
+"compte d'un adhérent, une fenêtre pour imprimer s'ouvrira automatiquement, "
+"au lieu d'avoir à cliquer sur le bouton 'Imprimer'."
 
 #: ../../source/accountspreferences.rst:141
 msgid "RoundFinesAtPayment"
-msgstr ""
+msgstr "RoundFinesAtPayment"
 
 #: ../../source/accountspreferences.rst:143
-msgid ""
-"Asks: \\_\\_\\_ round fines to the nearest cent when collecting payments."
+msgid "Asks: \\_\\_\\_ round fines to the nearest cent when collecting payments."
 msgstr ""
+"Action : \\_\\_\\_ arrondir les amendes au cent le plus proche lors de "
+"l'encaissement des paiements."
 
 #: ../../source/accountspreferences.rst:155
-msgid ""
-"Enabling this preference allows paying fines of partial cents which may not "
-"be visible in the interface."
+msgid "Enabling this preference allows paying fines of partial cents which may not be visible in the interface."
 msgstr ""
+"Activer cette préférence permet de régler des amendes dont le montant exact "
+"n'apparaît pas dans l'interface."

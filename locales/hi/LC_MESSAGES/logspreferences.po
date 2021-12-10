@@ -8,122 +8,126 @@ msgstr ""
 "Project-Id-Version: Koha Manual 20.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 20:19-0300\n"
-"PO-Revision-Date: 2021-03-01 20:19-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-04-01 09:15+0000\n"
+"Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /hi/man20.11/logspreferences.po\n"
 "X-Pootle-Revision: 1\n"
+"X-POOTLE-MTIME: 1617268542.867307\n"
 
 #: ../../source/logspreferences.rst:6
 msgid "Logs"
-msgstr ""
+msgstr "लॉग"
 
 #: ../../source/logspreferences.rst:8
-msgid ""
-"Logs keep track of transaction on the system. You can decide which actions "
-"you want to log and which you don't using these preferences. Logs can then "
-"be viewed in the :ref:`Log Viewer` under Tools."
+msgid "Logs keep track of transaction on the system. You can decide which actions you want to log and which you don't using these preferences. Logs can then be viewed in the :ref:`Log Viewer` under Tools."
 msgstr ""
+"लॉग सिस्टम पर लेनदेन का ट्रैक रखें। आप तय कर सकते हैं कि आप कौन से कार्यों को"
+" लॉग करना चाहते हैं और आप इन प्राथमिकताओं का उपयोग नहीं कर रहे हैं। लॉग को "
+"तब में देखा जा सकता है: ref: 'लॉग व्यूअर' टूल्स के तहत।"
 
 #: ../../source/logspreferences.rst:12
 msgid "*Get there:* More > Administration > Global System Preferences > Logs"
-msgstr ""
+msgstr "*वहां जाएं* अधिक> प्रशासन> वैश्विक सिस्टम प्राथमिकताएँ > लॉग"
 
 #: ../../source/logspreferences.rst:17
 msgid "Debugging"
-msgstr ""
+msgstr "डिबगिंग"
 
 #: ../../source/logspreferences.rst:22
 msgid "DumpSearchQueryTemplate"
-msgstr ""
+msgstr "DumpSearchQueryTemplate"
 
 #: ../../source/logspreferences.rst:24
 msgid "Asks: \\_\\_\\_ dump search query as a template parameter."
 msgstr ""
+"पूछते हैं: \\_\\_\\_ टेम्पलेट पैरामीटर के रूप में खोज क्वेरी को डंप करें।"
 
 #: ../../source/logspreferences.rst:26 ../../source/logspreferences.rst:50
 #: ../../source/logspreferences.rst:66
 msgid "Default: Don't"
-msgstr ""
+msgstr "डिफ़ॉल्ट: नही करेें "
 
 #: ../../source/logspreferences.rst:28 ../../source/logspreferences.rst:55
 #: ../../source/logspreferences.rst:71
 msgid "Value:"
-msgstr ""
+msgstr "मूल्यः"
 
 #: ../../source/logspreferences.rst:30 ../../source/logspreferences.rst:57
 #: ../../source/logspreferences.rst:73
 msgid "Don't"
-msgstr ""
+msgstr "नही करना"
 
 #: ../../source/logspreferences.rst:32 ../../source/logspreferences.rst:59
 #: ../../source/logspreferences.rst:75
 msgid "Do"
-msgstr ""
+msgstr "करें"
 
 #: ../../source/logspreferences.rst:34 ../../source/logspreferences.rst:97
 #: ../../source/logspreferences.rst:133
 msgid "Description:"
-msgstr ""
+msgstr "विवरण: "
 
 #: ../../source/logspreferences.rst:36
-msgid ""
-"This enhancement allows you to view the search query used by Zebra or "
-"Elasticsearch, to help with troubleshooting."
+msgid "This enhancement allows you to view the search query used by Zebra or Elasticsearch, to help with troubleshooting."
 msgstr ""
+"यह एन्हांसमेंट आपको समस्या निवारण में मदद करने के लिए ज़ेबरा या इलास्टिक्स खो"
+"ज द्वारा उपयोग की गई खोज क्वेरी को देखने की अनुमति देता है।"
 
 #: ../../source/logspreferences.rst:39
-msgid ""
-"Make sure to enable :ref:`DumpTemplateVarsIntranet` and/or :ref:"
-"`DumpTemplateVarsOpac` otherwise this system preference will have no effect."
+msgid "Make sure to enable :ref:`DumpTemplateVarsIntranet` and/or :ref:`DumpTemplateVarsOpac` otherwise this system preference will have no effect."
 msgstr ""
+"Enableplate को सुनिश्चित करें :ref:`DumpTemplateVarsIntranet`और / या "
+":ref:`DumpTemplateVarsOpac` अन्यथा इस सिस्टम वरीयता का कोई प्रभाव नहीं होगा।"
 
 #: ../../source/logspreferences.rst:43
 msgid "The dumped query will be in the page source under 'search_query'."
-msgstr ""
+msgstr "डंप की गई क्वेरी 'search_query' के तहत पेज सोर्स में होगी।"
 
 #: ../../source/logspreferences.rst:48
 msgid "DumpTemplateVarsIntranet"
-msgstr ""
+msgstr "DumpTemplateVarsIntranet"
 
 #: ../../source/logspreferences.rst:52
-msgid ""
-"Asks: \\_\\_\\_ dump all Template Toolkit variable to a comment in the HTML "
-"source for the staff intranet."
+msgid "Asks: \\_\\_\\_ dump all Template Toolkit variable to a comment in the HTML source for the staff intranet."
 msgstr ""
+"पूछता है: \\_\\_\\_स्टाफ इंट्रानेट के लिए HTML स्रोत में एक टिप्पणी के लिए "
+"सभी टेम्पलेट टूलकिट वैरिएबल को डंप करें."
 
 #: ../../source/logspreferences.rst:64
 msgid "DumpTemplateVarsOpac"
-msgstr ""
+msgstr "DumpTemplateVarsOpac"
 
 #: ../../source/logspreferences.rst:68
-msgid ""
-"Asks: \\_\\_\\_ dump all Template Toolkit variable to a comment in the HTML "
-"source for the OPAC."
+msgid "Asks: \\_\\_\\_ dump all Template Toolkit variable to a comment in the HTML source for the OPAC."
 msgstr ""
+"पूछता है: \\_\\_\\_ओपेक के लिए एचटीएमएल स्रोत में एक टिप्पणी के लिए सभी "
+"टेम्पलेट टूलकिट वैरिएबल डंप करें."
 
 #: ../../source/logspreferences.rst:80
 msgid "Logging"
-msgstr ""
+msgstr "लोगिगं"
 
 #: ../../source/logspreferences.rst:85
 msgid "AuthFailureLog"
-msgstr ""
+msgstr "AuthFailureLog"
 
 #: ../../source/logspreferences.rst:87
 msgid "Asks: \\_\\_\\_ authentication failures"
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ प्रमाणीकरण विफल"
 
 #: ../../source/logspreferences.rst:89 ../../source/logspreferences.rst:108
 #: ../../source/logspreferences.rst:125 ../../source/logspreferences.rst:163
 #: ../../source/logspreferences.rst:184 ../../source/logspreferences.rst:214
 #: ../../source/logspreferences.rst:279
 msgid "Default: Don't log"
-msgstr ""
+msgstr "डिफ़ॉल्ट: लॉग इन नहीं करें"
 
 #: ../../source/logspreferences.rst:91 ../../source/logspreferences.rst:112
 #: ../../source/logspreferences.rst:127 ../../source/logspreferences.rst:148
@@ -133,7 +137,7 @@ msgstr ""
 #: ../../source/logspreferences.rst:268 ../../source/logspreferences.rst:283
 #: ../../source/logspreferences.rst:298 ../../source/logspreferences.rst:313
 msgid "Values:"
-msgstr ""
+msgstr "मानः"
 
 #: ../../source/logspreferences.rst:93 ../../source/logspreferences.rst:114
 #: ../../source/logspreferences.rst:129 ../../source/logspreferences.rst:150
@@ -143,7 +147,7 @@ msgstr ""
 #: ../../source/logspreferences.rst:270 ../../source/logspreferences.rst:285
 #: ../../source/logspreferences.rst:300 ../../source/logspreferences.rst:315
 msgid "Don't log"
-msgstr ""
+msgstr "लॉग इन नहीं करें"
 
 #: ../../source/logspreferences.rst:95 ../../source/logspreferences.rst:116
 #: ../../source/logspreferences.rst:131 ../../source/logspreferences.rst:152
@@ -153,159 +157,164 @@ msgstr ""
 #: ../../source/logspreferences.rst:272 ../../source/logspreferences.rst:287
 #: ../../source/logspreferences.rst:302 ../../source/logspreferences.rst:317
 msgid "Log"
-msgstr ""
+msgstr "लॉग"
 
 #: ../../source/logspreferences.rst:99
-msgid ""
-"This system preference controls whether or not Koha should log when a patron "
-"fails to successfully authenticate on the OPAC (or a staff member in the "
-"staff interface)."
+msgid "This system preference controls whether or not Koha should log when a patron fails to successfully authenticate on the OPAC (or a staff member in the staff interface)."
 msgstr ""
+"यह प्रणाली वरीयता नियंत्रित करती है कि कोहा को लॉग इन करना चाहिए या नहीं जब "
+"ओपेक (या स्टाफ इंटरफ़ेस में स्टाफ सदस्य) को सफलतापूर्वक प्रमाणित करने में एक "
+"संरक्षक विफल हो जाए।"
 
 #: ../../source/logspreferences.rst:106
 msgid "AuthoritiesLog"
-msgstr ""
+msgstr "AuthoritiesLog"
 
 #: ../../source/logspreferences.rst:110
 msgid "Asks: \\_\\_\\_ changes to authority records."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ प्राधिकरण रिकॉर्ड में बदलाव."
 
 #: ../../source/logspreferences.rst:121
 msgid "AuthSuccessLog"
-msgstr ""
+msgstr "AuthSuccessLog"
 
 #: ../../source/logspreferences.rst:123
 msgid "Asks: \\_\\_\\_ successful authentications"
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ सफल प्रमाणीकरण"
 
 #: ../../source/logspreferences.rst:135
-msgid ""
-"This system preference controls whether or not Koha should log when a patron "
-"successfully authenticates on the OPAC (or a staff member in the staff "
-"interface)"
+msgid "This system preference controls whether or not Koha should log when a patron successfully authenticates on the OPAC (or a staff member in the staff interface)"
 msgstr ""
+"यह प्रणाली वरीयता नियंत्रित करती है कि कोहा को लॉग इन करना चाहिए या नहीं, जब "
+"संरक्षक ओपीएसी (या स्टाफ इंटरफ़ेस में कर्मचारी सदस्य) पर सफलतापूर्वक प्रमाणि"
+"त होता है"
 
 #: ../../source/logspreferences.rst:142
 msgid "BorrowersLog"
-msgstr ""
+msgstr "BorrowersLog"
 
 #: ../../source/logspreferences.rst:144 ../../source/logspreferences.rst:199
 #: ../../source/logspreferences.rst:229 ../../source/logspreferences.rst:244
 #: ../../source/logspreferences.rst:294 ../../source/logspreferences.rst:309
 msgid "Default: Log"
-msgstr ""
+msgstr "डिफ़ॉल्ट: लॉग "
 
 #: ../../source/logspreferences.rst:146
 msgid "Asks: \\_\\_\\_ changes to patron records."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ संरक्षक रिकॉर्ड में बदलाव."
 
 #: ../../source/logspreferences.rst:154 ../../source/logspreferences.rst:254
 msgid "**Note**"
-msgstr ""
+msgstr "**नोट**"
 
 #: ../../source/logspreferences.rst:156
-msgid ""
-"Enabling this preference allows the tracking of cardnumber changes for "
-"patrons"
+msgid "Enabling this preference allows the tracking of cardnumber changes for patrons"
 msgstr ""
+"इस वरीयता को सक्षम करने से संरक्षक के लिए कार्डनंबर परिवर्तनों की ट्रैकिंग की"
+" अनुमति मिलती है"
 
 #: ../../source/logspreferences.rst:161
 msgid "CataloguingLog"
-msgstr ""
+msgstr "CataloguingLog"
 
 #: ../../source/logspreferences.rst:165
 msgid "Asks: \\_\\_\\_ any changes to bibliographic or item records."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ ग्रंथ सूची या आइटम रिकॉर्ड्स में कोई परिवर्तन."
 
 #: ../../source/logspreferences.rst:173
 msgid "**Important**"
-msgstr ""
+msgstr "**महत्वपूर्ण**"
 
 #: ../../source/logspreferences.rst:175
-msgid ""
-"Since this occurs whenever a book is cataloged, edited, or checked in or out "
-"it can be very resource intensive - slowing down your system."
+msgid "Since this occurs whenever a book is cataloged, edited, or checked in or out it can be very resource intensive - slowing down your system."
 msgstr ""
+"चूंकि यह तब होता है जब एक किताब, सूचीबद्ध संपादित, या में या बाहर यह बहुत ही "
+"गहन स्रोत हो सकता है की जाँच की है - अपने सिस्टम को धीमा."
 
 #: ../../source/logspreferences.rst:182
 msgid "CronjobLog"
-msgstr ""
+msgstr "CronjobLog"
 
 #: ../../source/logspreferences.rst:186
 msgid "Asks: \\_\\_\\_ information from cron jobs."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ क्रॉन जाब्स से जानकारी."
 
 #: ../../source/logspreferences.rst:197
 msgid "FinesLog"
-msgstr ""
+msgstr "FinesLog"
 
 #: ../../source/logspreferences.rst:201
-msgid ""
-"Asks: \\_\\_\\_ when overdue fines are charged or automatically forgiven."
+msgid "Asks: \\_\\_\\_ when overdue fines are charged or automatically forgiven."
 msgstr ""
+"पूछता है: \\_\\_\\_ जब अतिदेय जुर्माना आरोप लगाया है या स्वचालित रूप से माफ "
+"कर रहे हैं."
 
 #: ../../source/logspreferences.rst:212
 msgid "HoldsLog"
-msgstr ""
+msgstr "HoldsLog"
 
 #: ../../source/logspreferences.rst:216
-msgid ""
-"Asks: \\_\\_\\_ any actions on holds (create, cancel, suspend, resume, etc.)."
+msgid "Asks: \\_\\_\\_ any actions on holds (create, cancel, suspend, resume, etc.)."
 msgstr ""
+"पूछता है:\\_\\_\\_ होल्ड पर कोई भी क्रिया (बनाना, रद्द करना, निलंबित करना, फि"
+"र से शुरू करना आदि)"
 
 #: ../../source/logspreferences.rst:227
 msgid "IssueLog"
-msgstr ""
+msgstr "IssueLog"
 
 #: ../../source/logspreferences.rst:231
 msgid "Asks: \\_\\_\\_ when items are checked out."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_जब आइटम चैक आउट है."
 
 #: ../../source/logspreferences.rst:242
 msgid "LetterLog"
-msgstr ""
+msgstr "LetterLog"
 
 #: ../../source/logspreferences.rst:246
 msgid "Asks: \\_\\_\\_ when an automatic claim notice is sent."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_जब एक स्वचालित दावा नोटिस भेजा जाता है."
 
 #: ../../source/logspreferences.rst:256
-msgid ""
-"This log tracks all notices that go to patrons including the overdue notices."
-msgstr ""
+msgid "This log tracks all notices that go to patrons including the overdue notices."
+msgstr "यह लॉग सभी सूचनाएं कि अतिदेय नोटिस सहित संरक्षक के लिए जाना पटरियों."
 
 #: ../../source/logspreferences.rst:262
 msgid "RenewalLog"
-msgstr ""
+msgstr "RenewalLog"
 
 #: ../../source/logspreferences.rst:264
 msgid "Default:  Don't log"
-msgstr ""
+msgstr "डिफ़ॉल्ट: लॉग इन नहीं करें"
 
 #: ../../source/logspreferences.rst:266
 msgid "Asks: \\_\\_\\_ when items are renewed."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ जब आइटम नवीनीकृत होते हैं."
 
 #: ../../source/logspreferences.rst:277
 msgid "ReportsLog"
-msgstr ""
+msgstr "ReportsLog"
 
 #: ../../source/logspreferences.rst:281
 msgid "Asks: \\_\\_\\_ when reports are added, deleted or changed."
 msgstr ""
+"पूछता है:\\_\\_\\_ जब रिपोर्टें जोड़ दी जाती हैं, हटाई जाती हैं या बदल जाती "
+"हैं."
 
 #: ../../source/logspreferences.rst:292
 msgid "ReturnLog"
-msgstr ""
+msgstr "ReturnLog"
 
 #: ../../source/logspreferences.rst:296
 msgid "Asks: \\_\\_\\_ when items are returned."
-msgstr ""
+msgstr "पूछता है: \\_\\_\\_ जब आइटम लौटाए जाते हैं ."
 
 #: ../../source/logspreferences.rst:307
 msgid "SubscriptionLog"
-msgstr ""
+msgstr "SubscriptionLog"
 
 #: ../../source/logspreferences.rst:311
 msgid "Asks: \\_\\_\\_ when serials are added, deleted or changed."
 msgstr ""
+"पूछता है: \\_\\_\\_जब सीरियल जोड़े जाते हैं, हटाए जाते हैं या परिवर्तित होते "
+"हैं"

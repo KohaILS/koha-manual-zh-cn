@@ -24,8 +24,7 @@ msgid "Staff client"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:8
-msgid ""
-"*Get there:* More > Administration > Global system preferences > Staff client"
+msgid "*Get there:* More > Administration > Global system preferences > Staff client"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:14
@@ -85,9 +84,7 @@ msgid "**Important**"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:31
-msgid ""
-"Both :ref:`XSLTDetailsDisplay` and :ref:`XSLTResultsDisplay` need to have "
-"values in order for this preference to work."
+msgid "Both :ref:`XSLTDetailsDisplay` and :ref:`XSLTResultsDisplay` need to have values in order for this preference to work."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:37
@@ -99,9 +96,7 @@ msgid "Detail page only"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:43
-msgid ""
-":ref:`XSLTDetailsDisplay` needs to have a value in it for this preference to "
-"work."
+msgid ":ref:`XSLTDetailsDisplay` needs to have a value in it for this preference to work."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:48
@@ -121,9 +116,7 @@ msgid "Results page only"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:58
-msgid ""
-":ref:`XSLTResultsDisplay` needs to have a value in it for this preference to "
-"work."
+msgid ":ref:`XSLTResultsDisplay` needs to have a value in it for this preference to work."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:63
@@ -147,15 +140,7 @@ msgid "Description:"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:67
-msgid ""
-"In addition to this option being set, the corresponding XSLT option must be "
-"turned on. Also, the corresponding 856q field must have a valid MIME image "
-"extension (e.g., \"jpg\") or MIME image type (i.e. starting with \"image/"
-"\"), or the generic indicator \"img\" entered in the field. When all of the "
-"requirements are met, an image file will be displayed instead of the "
-"standard link text. Clicking on the image will open it in the same way as "
-"clicking on the link text. When you click on the image it should open to "
-"full size, in the current window."
+msgid "In addition to this option being set, the corresponding XSLT option must be turned on. Also, the corresponding 856q field must have a valid MIME image extension (e.g., \"jpg\") or MIME image type (i.e. starting with \"image/\"), or the generic indicator \"img\" entered in the field. When all of the requirements are met, an image file will be displayed instead of the standard link text. Clicking on the image will open it in the same way as clicking on the link text. When you click on the image it should open to full size, in the current window."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:76
@@ -167,9 +152,7 @@ msgid "DisplayIconsXSLT"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:83
-msgid ""
-"Asks: \\_\\_\\_ the format, audience, and material type icons and "
-"descriptions in XSLT MARC21 results and detail pages in the staff client."
+msgid "Asks: \\_\\_\\_ the format, audience, and material type icons and descriptions in XSLT MARC21 results and detail pages in the staff client."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:86
@@ -207,16 +190,11 @@ msgid "**Note**"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:98
-msgid ""
-"See the :ref:`XSLT material type icons <material-type-cataloging-guide-"
-"label>` for more information on these icons."
+msgid "See the :ref:`XSLT material type icons <material-type-cataloging-guide-label>` for more information on these icons."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:103
-msgid ""
-"This is only used in XSLT displays, so :ref:`XSLTResultsDisplay` and/or :ref:"
-"`XSLTDetailsDisplay` must be set to use an XSLT stylesheet for this to show "
-"(default or custom)"
+msgid "This is only used in XSLT displays, so :ref:`XSLTResultsDisplay` and/or :ref:`XSLTDetailsDisplay` must be set to use an XSLT stylesheet for this to show (default or custom)"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:110
@@ -228,9 +206,7 @@ msgid "Default: includes"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:114
-msgid ""
-"Asks: Use include files from the \\_\\_\\_ directory in the template "
-"directory, instead of includes/. (Leave blank to disable)"
+msgid "Asks: Use include files from the \\_\\_\\_ directory in the template directory, instead of includes/. (Leave blank to disable)"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:120
@@ -238,9 +214,7 @@ msgid "IntranetCirculationHomeHTML"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:122
-msgid ""
-"Asks: Show the following HTML in its own div on the bottom of the home page "
-"of the circulation module:"
+msgid "Asks: Show the following HTML in its own div on the bottom of the home page of the circulation module:"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:125
@@ -252,21 +226,11 @@ msgid "intranetcolorstylesheet"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:132
-msgid ""
-"Asks: Include the additional CSS stylesheet \\_\\_\\_ to override specified "
-"settings from the default stylesheet"
+msgid "Asks: Include the additional CSS stylesheet \\_\\_\\_ to override specified settings from the default stylesheet"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:137
-msgid ""
-"This preference is used to set the background color and style of the staff "
-"client. The value is a .css file. The system administrator should determine "
-"which file is appropriate. Enter just a filename, a full local path or a "
-"complete URL starting with http:// (if the file lives on a remote server). "
-"Please note that if you just enter a filename, the file should be in the css "
-"subdirectory for each active theme and language within the Koha templates "
-"directory. A full local path is expected to start from your HTTP document "
-"root."
+msgid "This preference is used to set the background color and style of the staff client. The value is a .css file. The system administrator should determine which file is appropriate. Enter just a filename, a full local path or a complete URL starting with http:// (if the file lives on a remote server). Please note that if you just enter a filename, the file should be in the css subdirectory for each active theme and language within the Koha templates directory. A full local path is expected to start from your HTTP document root."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:148
@@ -287,16 +251,11 @@ msgid "This should be a complete URL, starting with http://"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:163
-msgid ""
-"Turn your logo into a favicon with the `Favicon Generator <http://"
-"antifavicon.com/>`__."
+msgid "Turn your logo into a favicon with the `Favicon Generator <http://antifavicon.com/>`__."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:168
-msgid ""
-"The favicon is the little icon that appears next to the URL in the address "
-"bar in most browsers. The default value for this field (if left blank) is "
-"the small 'K' in the Koha logo."
+msgid "The favicon is the little icon that appears next to the URL in the address bar in most browsers. The default value for this field (if left blank) is the small 'K' in the Koha logo."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:172
@@ -308,9 +267,7 @@ msgid "IntranetmainUserblock"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:179
-msgid ""
-"Asks: Show the following HTML in its own column on the main page of the "
-"staff client"
+msgid "Asks: Show the following HTML in its own column on the main page of the staff client"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:182
@@ -326,9 +283,7 @@ msgid "IntranetNav"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:191
-msgid ""
-"Asks: Show the following HTML in the More menu at the top of each page on "
-"the staff client (should be a list of links or blank)"
+msgid "Asks: Show the following HTML in the More menu at the top of each page on the staff client (should be a list of links or blank)"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:197
@@ -336,9 +291,7 @@ msgid "IntranetReportsHomeHTML"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:199
-msgid ""
-"Asks: Show the following HTML in its own div on the bottom of the home page "
-"of the reports module:"
+msgid "Asks: Show the following HTML in its own div on the bottom of the home page of the reports module:"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:202
@@ -354,11 +307,7 @@ msgid "Asks: Use the following JavaScript for printing slips."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:213
-msgid ""
-"The most logical use of this preference is in conjunction with the "
-"`jsPrintSetup <http://jsprintsetup.mozdev.org/>`__ Firefox add-on. Learn "
-"more about this preference and the add-on setup on the Koha wiki at http://"
-"wiki.koha-community.org/wiki/Setting_up_slip_printer_to_print_silently."
+msgid "The most logical use of this preference is in conjunction with the `jsPrintSetup <http://jsprintsetup.mozdev.org/>`__ Firefox add-on. Learn more about this preference and the add-on setup on the Koha wiki at http://wiki.koha-community.org/wiki/Setting_up_slip_printer_to_print_silently."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:222
@@ -366,21 +315,11 @@ msgid "intranetstylesheet"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:224
-msgid ""
-"Asks: Use the CSS stylesheet \\_\\_\\_ on all pages in the staff interface, "
-"instead of the default css (used when leaving this field blank)."
+msgid "Asks: Use the CSS stylesheet \\_\\_\\_ on all pages in the staff interface, instead of the default css (used when leaving this field blank)."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:229
-msgid ""
-"The Intranetstylesheet preference is a layout and design feature for the "
-"intranet or staff client. This preference allows a library to customize the "
-"appearance of the Staff Client. Enter just a filename, a full local path or "
-"a complete URL starting with http:// (if the file lives on a remote server). "
-"Please note that if you just enter a filename, the file should be in the css "
-"subdirectory for each active theme and language within the Koha templates "
-"directory. A full local path is expected to start from your HTTP document "
-"root."
+msgid "The Intranetstylesheet preference is a layout and design feature for the intranet or staff client. This preference allows a library to customize the appearance of the Staff Client. Enter just a filename, a full local path or a complete URL starting with http:// (if the file lives on a remote server). Please note that if you just enter a filename, the file should be in the css subdirectory for each active theme and language within the Koha templates directory. A full local path is expected to start from your HTTP document root."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:241
@@ -396,18 +335,11 @@ msgid "IntranetUserJS"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:250
-msgid ""
-"Asks: Include the following JavaScript on all pages in the staff interface"
+msgid "Asks: Include the following JavaScript on all pages in the staff interface"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:255
-msgid ""
-"This preference allows the administrator to enter JavaScript or JQuery that "
-"will be embedded across all pages of the staff client. Administrators may "
-"use this preference to customize some of the interactive sections of Koha, "
-"customizing the text for the login prompts, for example. Sample JQuery "
-"scripts used by Koha libraries can be found on the wiki: http://wiki.koha-"
-"community.org/wiki/JQuery_Library."
+msgid "This preference allows the administrator to enter JavaScript or JQuery that will be embedded across all pages of the staff client. Administrators may use this preference to customize some of the interactive sections of Koha, customizing the text for the login prompts, for example. Sample JQuery scripts used by Koha libraries can be found on the wiki: http://wiki.koha-community.org/wiki/JQuery_Library."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:266
@@ -419,10 +351,7 @@ msgid "Asks: Include the stylesheet at \\_\\_\\_ on Issue and Reserve Slips."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:276
-msgid ""
-"If you would like to style your receipts or slips with a consistent set of "
-"fonts and colors you can use this preference to point Koha to a stylesheet "
-"specifically for your slips."
+msgid "If you would like to style your receipts or slips with a consistent set of fonts and colors you can use this preference to point Koha to a stylesheet specifically for your slips."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:283
@@ -434,14 +363,11 @@ msgid "Asks: The staff client is located at \\_\\_\\_"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:289
-msgid ""
-"This should be a complete URL, starting with http:// or https://. Do not "
-"include a trailing slash in the URL."
+msgid "This should be a complete URL, starting with http:// or https://. Do not include a trailing slash in the URL."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:294
-msgid ""
-"This must be filled in correctly for CAS, svc, and load_testing to work."
+msgid "This must be filled in correctly for CAS, svc, and load_testing to work."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:299
@@ -477,9 +403,7 @@ msgid "Asks: Show the following HTML on the staff client login page"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:322
-msgid ""
-"HTML entered in this field will appear above the login form of your staff "
-"client"
+msgid "HTML entered in this field will appear above the login form of your staff client"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:325
@@ -503,9 +427,7 @@ msgid "prog"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:342
-msgid ""
-"Do not include a trailing slash in the URL this will break links created "
-"using this URL. (example: www.google.com not www.google.com/)"
+msgid "Do not include a trailing slash in the URL this will break links created using this URL. (example: www.google.com not www.google.com/)"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:349
@@ -519,8 +441,7 @@ msgid "Default: default"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:353
-msgid ""
-"Asks: Display details in the staff client using XSLT stylesheet at \\_\\_\\_"
+msgid "Asks: Display details in the staff client using XSLT stylesheet at \\_\\_\\_"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:358
@@ -564,17 +485,13 @@ msgstr ""
 #: ../../source/staffclientpreferences.rst:373
 #: ../../source/staffclientpreferences.rst:415
 #: ../../source/staffclientpreferences.rst:457
-msgid ""
-"If in a multi-language system you can enter {langcode} in the path to tell "
-"Koha to look in the right language folder"
+msgid "If in a multi-language system you can enter {langcode} in the path to tell Koha to look in the right language folder"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:376
 #: ../../source/staffclientpreferences.rst:418
 #: ../../source/staffclientpreferences.rst:460
-msgid ""
-"ex: /home/koha/src/koha-tmpl/intranet-tmpl/prog/{langcode}/xslt/"
-"intranetDetail.xsl"
+msgid "ex: /home/koha/src/koha-tmpl/intranet-tmpl/prog/{langcode}/xslt/intranetDetail.xsl"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:379
@@ -596,10 +513,7 @@ msgid "ex: http://mykoha.org/stylesheet.xsl"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:387
-msgid ""
-"XSLT stylesheets allow for the customization of the details shown on the "
-"screen when viewing a bib record. This preference will allow you either use "
-"the default look that comes with Koha or design your own stylesheet."
+msgid "XSLT stylesheets allow for the customization of the details shown on the screen when viewing a bib record. This preference will allow you either use the default look that comes with Koha or design your own stylesheet."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:395
@@ -607,15 +521,11 @@ msgid "XSLTListsDisplay"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:399
-msgid ""
-"Asks: Display lists in the staff client using XSLT stylesheet at \\_\\_\\_"
+msgid "Asks: Display lists in the staff client using XSLT stylesheet at \\_\\_\\_"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:429
-msgid ""
-"XSLT stylesheets allow for the customization of the details shown on the "
-"screen when viewing a list. This preference will allow you either use the "
-"default look that comes with Koha or design your own stylesheet."
+msgid "XSLT stylesheets allow for the customization of the details shown on the screen when viewing a list. This preference will allow you either use the default look that comes with Koha or design your own stylesheet."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:437
@@ -623,16 +533,11 @@ msgid "XSLTResultsDisplay"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:441
-msgid ""
-"Asks: Display results in the staff client using XSLT stylesheet at \\_\\_\\_"
+msgid "Asks: Display results in the staff client using XSLT stylesheet at \\_\\_\\_"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:471
-msgid ""
-"XSLT stylesheets allow for the customization of the details shown on the "
-"screen when viewing the search results. This preference will allow you "
-"either use the default look that comes with Koha or design your own "
-"stylesheet."
+msgid "XSLT stylesheets allow for the customization of the details shown on the screen when viewing the search results. This preference will allow you either use the default look that comes with Koha or design your own stylesheet."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:479
@@ -648,9 +553,7 @@ msgid "Default: Don't enable"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:488
-msgid ""
-"Asks: \\_\\_\\_ audio alerts for events defined in the audio alerts section "
-"of administration."
+msgid "Asks: \\_\\_\\_ audio alerts for events defined in the audio alerts section of administration."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:493
@@ -663,9 +566,7 @@ msgid "Enable"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:499
-msgid ""
-"This feature is not supported by all browsers. Requires an HTML5 compliant "
-"browser."
+msgid "This feature is not supported by all browsers. Requires an HTML5 compliant browser."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:505
@@ -673,9 +574,7 @@ msgid "HidePatronName"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:509
-msgid ""
-"Asks: \\_\\_\\_ the names of patrons that have items checked out or on hold "
-"on detail pages or the \"Place Hold\" screen."
+msgid "Asks: \\_\\_\\_ the names of patrons that have items checked out or on hold on detail pages or the \"Place Hold\" screen."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:521
@@ -716,10 +615,7 @@ msgid "Description"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:565
-msgid ""
-"If this preference is set to 'Show' then a link to the last patron account "
-"you consulted will appear in the right hand corner of the Koha staff client. "
-"This link will be cleared when you log out."
+msgid "If this preference is set to 'Show' then a link to the last patron account you consulted will appear in the right hand corner of the Koha staff client. This link will be cleared when you log out."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:569
@@ -743,11 +639,7 @@ msgid "Disable"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:588
-msgid ""
-"This preference lets you choose to show (or not show) checkboxes to the left "
-"of every item in the holdings tab on the detail display of a record in the "
-"staff client. Showing these checkboxes allows the staff members to select "
-"multiple items to edit or delete at once."
+msgid "This preference lets you choose to show (or not show) checkboxes to the left of every item in the holdings tab on the detail display of a record in the staff client. Showing these checkboxes allows the staff members to select multiple items to edit or delete at once."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:593
@@ -759,8 +651,7 @@ msgid "UseWYSIWYGinSystemPreferences"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:600
-msgid ""
-"Asks: \\_\\_\\_ WYSIWYG editor when editing certain HTML system preferences."
+msgid "Asks: \\_\\_\\_ WYSIWYG editor when editing certain HTML system preferences."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:611
@@ -768,9 +659,7 @@ msgid "|image1200|"
 msgstr "|image1200|"
 
 #: ../../source/staffclientpreferences.rst:615
-msgid ""
-"This preference allows you to change system preferences with HTML in them to "
-"WYSIWYG editors instead of plain text boxes."
+msgid "This preference allows you to change system preferences with HTML in them to WYSIWYG editors instead of plain text boxes."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:621
@@ -804,9 +693,7 @@ msgid "viewLabeledMARC"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:640
-msgid ""
-"Asks: \\_\\_\\_ staff to view records in labeled MARC form on the staff "
-"client."
+msgid "Asks: \\_\\_\\_ staff to view records in labeled MARC form on the staff client."
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:652
@@ -814,6 +701,6 @@ msgid "viewMARC"
 msgstr ""
 
 #: ../../source/staffclientpreferences.rst:656
-msgid ""
-"Asks: \\_\\_\\_ staff to view records in plain MARC form on the staff client."
+msgid "Asks: \\_\\_\\_ staff to view records in plain MARC form on the staff client."
 msgstr ""
+
