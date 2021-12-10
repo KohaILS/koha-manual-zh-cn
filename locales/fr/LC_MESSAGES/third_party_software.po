@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-02 01:15-0300\n"
-"PO-Revision-Date: 2020-04-06 15:30+0000\n"
-"Last-Translator: LBarbey <luce.barbey@cirad.fr>\n"
+"PO-Revision-Date: 2021-10-23 15:46+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/third_party_software.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1586187056.988777\n"
+"X-POOTLE-MTIME: 1635003977.278717\n"
 
 #: ../../source/third_party_software.rst:6
 msgid "Using third party software with Koha"
-msgstr ""
+msgstr "Utilisation de logiciel tiers avec Koha"
 
 #: ../../source/third_party_software.rst:11
 msgid "MarcEdit"
@@ -506,11 +506,17 @@ msgstr "La sous-zone 2 contient le code de classification. Celui-ci peut être d
 
 #: ../../source/third_party_software.rst:401
 msgid "Subfield a is your home library and needs to be the code for your home library, not the library name. You can find these codes in the :ref:`Libraries <libraries-label>` administration area."
-msgstr "Le sous-champ a est le site propriétaire et il convient d'indiquer le code du site et non son nom. Vous pouvez trouver ces codes dans d'administration de :ref:`Tous les sites<libraries-label>`."
+msgstr ""
+"Le sous-champ a est le site propriétaire et il convient d'indiquer le code "
+"du site et non son nom. Vous pouvez trouver ces codes dans :ref:`Tous les "
+"sites <libraries-label>` du module Administration."
 
 #: ../../source/third_party_software.rst:405
 msgid "Subfield b is your holding library and needs to be the code for your holding library, not the library name. You can find these codes in the :ref:`Libraries <libraries-label>` administration area."
-msgstr "Le sous-champ b est le site propriétaire et il convient d'indiquer le code du site et non son nom. Vous pouvez trouver ces codes dans d'administration de :ref:`Tous les sites<libraries-label>`."
+msgstr ""
+"Le sous-champ b est le site dépositaire et il convient d'indiquer le code du "
+"site et non son nom. Vous pouvez trouver ces codes dans :ref:`Tous les sites "
+"<libraries-label>` du module Administration."
 
 #: ../../source/third_party_software.rst:409
 msgid "Subfield y is your item type code. It needs to be the code, not the item type name. You can find these codes in the :ref:`Item Types <item-types-label>` administration area."
@@ -558,9 +564,10 @@ msgid "Sending Notices File"
 msgstr "Envoyer un fichier de notices"
 
 #: ../../source/third_party_software.rst:458
-#, fuzzy
 msgid "Add the :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-notices-file-label>` script to your crontab"
-msgstr "Ajouter le script :ref:`TalkingTech\\_itiva\\_outbound.pl <sending-notices-file-label>` à votre crontab"
+msgstr ""
+"Ajouter le script :ref:`TalkingTech\\_itiva\\_outbound.pl <cron-sending-"
+"notices-file-label>` à votre crontab"
 
 #: ../../source/third_party_software.rst:461
 msgid "Add an FTP/SFTP or other transport method to send the output file to the I-tiva server"
@@ -583,9 +590,10 @@ msgid "Add an FTP/SFTP or other transport method to send the Results file to a k
 msgstr "Ajoutez un FTP/SFTP ou une autre méthode de transport pour envoyer le fichier des résultats dans un répertoire précis dans votre serveur Koha"
 
 #: ../../source/third_party_software.rst:477
-#, fuzzy
 msgid "Add the :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-receiving-notices-file-label>` script to your crontab, aimed at that directory"
-msgstr "Ajoutez le script :ref:`TalkingTech\\_itiva\\_inbound.pl <receiving-notices-file-label>` à votre crontab, pointant ce répertoire"
+msgstr ""
+"Ajoutez le script :ref:`TalkingTech\\_itiva\\_inbound.pl <cron-receiving-"
+"notices-file-label>` à votre crontab, pointant ce répertoire"
 
 #: ../../source/third_party_software.rst:480
 msgid "If you wish, archive the results file in another directory after processing"
@@ -594,4 +602,3 @@ msgstr "Si vous le souhaitez, archivez le fichier des résultats dans un autre r
 #: ../../source/third_party_software.rst:483
 msgid "Run TalkingTech\\_itiva\\_inbound.pl --help for more information"
 msgstr "Exécutez TalkingTech\\_itiva\\_inbound.pl --help pour plus d'informations"
-

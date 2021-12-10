@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2020-05-06 17:58+0000\n"
+"PO-Revision-Date: 2021-10-23 15:45+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/implementation_checklist.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1588787917.512234\n"
+"X-POOTLE-MTIME: 1635003924.939141\n"
 
 #: ../../source/implementation_checklist.rst:6
 msgid "Implementation Checklist"
@@ -35,7 +35,9 @@ msgstr "Avant de commencer à utiliser Koha, vous aurez besoin d'avoir quelques 
 
 #: ../../source/implementation_checklist.rst:21
 msgid "Create a list of libraries and enter their info and codes into :ref:`Libraries <libraries-label>`"
-msgstr "Créer une liste des sites et saisissez leurs informations et leurs codes dans :ref:`Tous les sites <libraries-label>`"
+msgstr ""
+"Créer une liste des sites et saisir leurs informations et leurs codes dans "
+":ref:`Tous les sites <libraries-label>`"
 
 #: ../../source/implementation_checklist.rst:24
 msgid "Define your list of :ref:`Item Types`"
@@ -215,9 +217,8 @@ msgid ":ref:`CalendarFirstDayOfWeek` : Define your first day of the week"
 msgstr "ref:`CalendarFirstDayOfWeek` : Permet de définir le premier jour de la semaine"
 
 #: ../../source/implementation_checklist.rst:164
-#, fuzzy
 msgid "Circulation configuration"
-msgstr "Configuration de la Circulation"
+msgstr "Configuration de la circulation"
 
 #: ../../source/implementation_checklist.rst:166
 msgid "Before you start circulating your collection you'll need to set up your rules and preferences for circulation."
@@ -270,7 +271,9 @@ msgstr ":ref:`todaysIssuesDefaultSortOrder` : Permet de décider comment les ret
 
 #: ../../source/implementation_checklist.rst:203
 msgid ":ref:`previousIssuesDefaultSortOrder` : Decide how items checked out prior to today display on the patron record"
-msgstr ":ref:`previousIssuesDefaultSortOrder` : Permet de décider comment les documents retournés les jours précédents s'affichent dans la fiche adhérent"
+msgstr ""
+":ref:`previousIssuesDefaultSortOrder` : Permet de décider comment les "
+"documents empruntés les jours précédents s'affichent dans la fiche adhérent"
 
 #: ../../source/implementation_checklist.rst:207
 msgid ":ref:`noissuescharge` : Define the maximum amount a patron can owe before checkouts are blocked"
@@ -307,9 +310,10 @@ msgid ":ref:`WebBasedSelfCheck` : Decide if you want to use the built in web-bas
 msgstr ":ref:`WebBasedSelfCheck` : Permet de décider si vous voulez utiliser le système de prêt en self-service en ligne"
 
 #: ../../source/implementation_checklist.rst:240
-#, fuzzy
 msgid ":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Decide if the self-checkout system requires login"
-msgstr ":ref:`AutoSelfCheckAllowed <autoselfcheckallowed,-autoselfcheckid-&-autoselfcheckpass-label>` : Permet de décider si le système de prêt en self-service nécessite de s'authentifier"
+msgstr ""
+":ref:`AutoSelfCheckAllowed <autoselfcheck-preferences-label>` : Permet de "
+"décider si le système de prêt en self-service nécessite de s'authentifier"
 
 #: ../../source/implementation_checklist.rst:243
 msgid ":ref:`ShowPatronImageInWebBasedSelfCheck` : Decide if you want patron images to show on the self checkout screen"
@@ -369,7 +373,10 @@ msgstr ":ref:`CircAutoPrintQuickSlip` : Permet de décider de la réaction de Ko
 
 #: ../../source/implementation_checklist.rst:292
 msgid ":ref:`SuspendHoldsIntranet` and/or :ref:`SuspendHoldsOpac` : Decide if you want patrons and/or staff to be able to suspend holds"
-msgstr ":ref:`SuspendHoldsIntranet` and/or :ref:`SuspendHoldsOpac` : Permet de décider si vous autorisez les adhérents et/ou le personnel à suspendre les réservations"
+msgstr ""
+":ref:`SuspendHoldsIntranet` et/ou :ref:`SuspendHoldsOpac` : Permettent de "
+"décider si vous autorisez les adhérents et/ou le personnel à suspendre les "
+"réservations"
 
 #: ../../source/implementation_checklist.rst:296
 msgid ":ref:`AutoResumeSuspendedHolds` : If you allow holds to be suspended decide if you want them to automatically resume on the date entered by the staff and/or patron"
@@ -406,52 +413,60 @@ msgid "Populate :ref:`your holds queue <holds-queue-label>` (every 1-4 hours)"
 msgstr "Peuplez votre :ref:`your holds queue <holds-queue-label>` (toutes les 1-4 heures)"
 
 #: ../../source/implementation_checklist.rst:315
-#, fuzzy
 msgid "Decide :ref:`when holds expire <cron-expired-holds-label>` (daily)"
-msgstr "Décidez :ref:`when holds expire <expired-holds-label>` (quotidiennement)"
+msgstr ""
+"Permet de décider :ref:`quand les réservations expirent <cron-expired-holds-"
+"label>` (quotidiennement)"
 
 #: ../../source/implementation_checklist.rst:317
-#, fuzzy
 msgid ":ref:`Calculate fines due <cron-fines-label>` (daily)"
-msgstr ":ref:`Calculate fines due <fines-label>` (quotidiennement)"
+msgstr ":ref:`Calcul des amendes dues <cron-fines-label>` (quotidiennement)"
 
 #: ../../source/implementation_checklist.rst:319
 msgid "Fines on hourly loans will calculate when you check the items in"
 msgstr "Les amendes des prêts horaires seront calculées au retour des exemplaires"
 
 #: ../../source/implementation_checklist.rst:322
-#, fuzzy
 msgid ":ref:`Mark long overdue items as lost <cron-long-overdues-label>` (daily)"
-msgstr ":ref:`Mark long overdue items as lost <long-overdues-label>` (quotidiennement)"
+msgstr ""
+":ref:`Marquer les exemplaires en long retard comme Perdus <cron-long-"
+"overdues-label>` (quotidiennement)"
 
 #: ../../source/implementation_checklist.rst:324
-#, fuzzy
 msgid "Decide when the system :ref:`sends out messages <cron-message-queue-label>` (1-4 hours)"
-msgstr "Décidez quand le système :ref:`sends out messages <message-queue-label>` (toutes les 1-4 heures)"
+msgstr ""
+"Permet de décider quand le système :ref:`envoie des messages <cron-message-"
+"queue-label>` (toutes les 1-4 heures)"
 
 #: ../../source/implementation_checklist.rst:327
-#, fuzzy
 msgid "Decide when the system :ref:`queues overdue notices <cron-overdue-notice-label>` (daily)"
-msgstr "Décidez quand le système  :ref:`queues overdue notices <overdue-notice-label>` (quotidiennement)"
+msgstr ""
+"Permet de décider quand le système :ref:`met en file d'attente les "
+"notifications de retard <cron-overdue-notice-label>` (quotidiennement)"
 
 #: ../../source/implementation_checklist.rst:330
-#, fuzzy
 msgid "Set up :ref:`hold notices that didn't send for printing <cron-print-hold-notices-label>` (daily after overdues and message queue)"
-msgstr "Paramétrez les :ref:`hold notices that didn't send for printing <print-hold-notices-label> (quotidiennement après la mise en file d'attente des retards et message)"
+msgstr ""
+"Paramétrez les :ref:`notifications de réservations non imprimées <cron-print-"
+"hold-notices-label>' (quotidiennement après la mise en file d'attente des "
+"retards et message)"
 
 #: ../../source/implementation_checklist.rst:332
-#, fuzzy
 msgid "Decide when the system :ref:`queues the advanced notice of items due <cron-advanced-notice-label>` (daily)"
-msgstr "Décidez quand le système :ref:`queues the advanced notice of items due <advanced-notice-label>` (quotidiennement)"
+msgstr ""
+"Permet de décider quand le système :ref:`met en file d'attente les messages "
+"de courtoisie pour des documents à rendre <cron-advanced-notice-label>` "
+"(quotidiennement)"
 
 #: ../../source/implementation_checklist.rst:335
 msgid "Find holds that need to be :ref:`resumed and remove suspension <cron-unsuspend-holds-label>` (daily)"
 msgstr ""
 
 #: ../../source/implementation_checklist.rst:338
-#, fuzzy
 msgid "If you're allowing automatic renewal of items :ref:`set them to renew <cron-automatic-renewal-label>` (nightly)"
-msgstr "Si vous autorisez le renouvellement automatique des documents  :ref:`set them to renew <automatic-renewal-label>` (toutes les nuits)"
+msgstr ""
+"Si vous autorisez le renouvellement automatique des documents :ref"
+":`paramétrez-les pour <cron-automatic-renewal-label>` (toutes les nuits)"
 
 #: ../../source/implementation_checklist.rst:344
 msgid "Patron Configuration"
@@ -530,9 +545,10 @@ msgid ":ref:`BorrowerUnwantedField` : Decide what fields your library doesn't ne
 msgstr ":ref:`BorrowerUnwantedField` : Permet de décider quels champs votre bibliothèque sont inutiles dans le formulaire de création d'un adhérent"
 
 #: ../../source/implementation_checklist.rst:404
-#, fuzzy
 msgid "Decide if you would like :ref:`children to automatically be come adults <cron-update-child-to-adult-patron-type-label>`"
-msgstr "Décidez si vous souhaitez que :ref:`children to automatically be come adults <update-child-to-adult-patron-type-label>`"
+msgstr ""
+"Permet de décider si vous souhaitez que :ref:`les Enfants deviennent "
+"automatiquement Adultes <cron-update-child-to-adult-patron-type-label>`"
 
 #: ../../source/implementation_checklist.rst:410
 msgid "Cataloging Configuration"
@@ -576,9 +592,10 @@ msgid ":ref:`URLLinkText` : Enter text to display when 856 fields do not have pr
 msgstr ":ref:`URLLinkText` : Saisissez le texte à afficher lorsque les champs 856 n'ont pas d'étiquettes pré-définies"
 
 #: ../../source/implementation_checklist.rst:438
-#, fuzzy
 msgid ":ref:`hide\\_marc <hide-marc-label>` : If you are unfamiliar with MARC you can have the MARC fields number hidden"
-msgstr ":ref:`hide\\_marc <hide\\_marc-label>` : Si vous n'êtes pas familier avec le langage MARC, vous pouvez masquer le numéro des champs MARC"
+msgstr ""
+":ref:`hide\\_marc <hide-marc-label>` : Si vous n'êtes pas familier avec le "
+"langage MARC, vous pouvez masquer le numéro des champs MARC"
 
 #: ../../source/implementation_checklist.rst:441
 msgid ":ref:`LabelMARCView` : Choose how you want duplicate fields to appear on the editor"
@@ -614,9 +631,10 @@ msgid ":ref:`OpacSuppression <opacsuppression-preferences-label>` : Decide if yo
 msgstr ":ref:`OpacSuppression <opacsuppression,-opacsuppressionbyiprange,-opacsuppressionredirect,-and-opacsuppressionmessage-label>` : Permet de décider si vous voulez cacher les documents marqués comme supprimés dans les résultats de recherche à l'OPAC."
 
 #: ../../source/implementation_checklist.rst:466
-#, fuzzy
 msgid "Decide when the system :ref:`checks URLs in catalog records <cron-check-urls-label>` to see if they are still valid"
-msgstr "Permet de décider quand le système :ref:`checks URLs in catalog records <check-urls-label>` pour voir si elles sont toujours valides"
+msgstr ""
+"Permet de décider quand le système :ref:`vérifie les URL dans les notices du "
+"catalogue <cron-check-urls-label>` pour voir si elles sont toujours valides"
 
 #: ../../source/implementation_checklist.rst:472
 msgid "Authorities Configuration"
@@ -659,23 +677,31 @@ msgid ":ref:`CatalogModuleRelink` : Decide if you want to enable authority linki
 msgstr ":ref:`CatalogModuleRelink` : Permet de décider si vous autorisez les liens vers les autorités pendant le catalogage"
 
 #: ../../source/implementation_checklist.rst:502
-#, fuzzy
 msgid "Choose when the system looks for authorities updates to :ref:`merge changes into bibliographic records <cron-update-authorities-label>`"
-msgstr "Choisissez quand le système doit rechercher les mises à jour des autorités pour :ref:`merge changes into bibliographic records <update-authorities-label>`"
+msgstr ""
+"Choisissez quand le système doit rechercher les mises à jour des autorités "
+"pour :ref:` effectuer les modifications des notices bibliographiques <cron-"
+"update-authorities-label>`"
 
 #: ../../source/implementation_checklist.rst:508
 msgid "Searching Configuration"
 msgstr "Configuration de le recherche"
 
 #: ../../source/implementation_checklist.rst:510
-#, fuzzy
 msgid "There are several system preferences related to searching, it is not always recommended to make too many changes to these preferences since they are set to get you the most relevant results. If you would like to change the default way that Koha handles searching, view the :ref:`Searching system preferences <searchingsystem-preferences-label>` tab."
-msgstr "Il y a plusieurs préférences système liées à la recherche. Il est recommandé de ne pas effectuer trop de changements sur ces préférences système puisque elles sont paramétrées pour vous permettre d'obtenir les résultats les plus pertinents possibles. Si vous souhaitez changer la manière dont Koha gère la recherche par défaut, consultez l'onglet :ref:`Searching system preferences <searching-label>` tab."
+msgstr ""
+"Il y a plusieurs préférences système liées à la recherche. Il est recommandé "
+"de ne pas effectuer trop de changements sur ces préférences système puisque "
+"elles sont paramétrées pour vous permettre d'obtenir les résultats les plus "
+"pertinents possibles. Si vous souhaitez changer la manière dont Koha gère la "
+"recherche par défaut, consultez l'onglet :ref:`préférences système Recherche "
+"<searchingsystem-preferences-label>'."
 
 #: ../../source/implementation_checklist.rst:518
-#, fuzzy
 msgid "Decide how often your :ref:`system rebuilds the search index <cron-rebuild-index-label>` (4-10 min)"
-msgstr "Permet de décider la fréquence à laquelle votre :ref:`system rebuilds the search index <rebuild-index-label>` (toutes les 4-10 min)"
+msgstr ""
+"Permet de décider la fréquence à laquelle votre :ref:`système reconstruit "
+"les index de recherche <cron-rebuild-index-label>` (toutes les 4-10 min)"
 
 #: ../../source/implementation_checklist.rst:521
 msgid "Searching System Preferences"
@@ -851,9 +877,11 @@ msgid ":ref:`opaclayoutstylesheet` : Point to a CSS file on your Koha server"
 msgstr ":ref:`opaclayoutstylesheet` : Permet de pointer vers un fichier CSS sur votre serveur Koha"
 
 #: ../../source/implementation_checklist.rst:649
-#, fuzzy
 msgid ":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-label>` : Decide if you want search terms to be highlighted on the search results"
-msgstr ":ref:`OpacHighlightedWords <opachighlightedwords-&-nothighlightedwords-label>` : Permet de décider si vous voulez que les termes recherchés soient surlignés dans la page des résultats"
+msgstr ""
+":ref:`OpacHighlightedWords <opachighlightedwords-and-nothighlightedwords-"
+"label>` : Permet de décider si vous voulez que les termes recherchés soient "
+"surlignés dans la page des résultats"
 
 #: ../../source/implementation_checklist.rst:652
 msgid ":ref:`hidelostitems` : Decide if you want to show patrons items you have marked as lost"
@@ -899,14 +927,18 @@ msgid ":ref:`EnableOpacSearchHistory` : Decide if you want the system to keep a 
 msgstr ":ref:`EnableOpacSearchHistory` : Permet de décider si le système conserve un historique des recherches"
 
 #: ../../source/implementation_checklist.rst:686
-#, fuzzy
 msgid "If you have the :ref:`OpacBrowser` preference set decide :ref:`when you want the contents to rebuild <cron-authorities-browser-label>` (French libraries only)"
-msgstr "Si votre préférence système :ref:`OpacBrowser` est paramétrée, décidez :ref:`quand vous souhaitez que les contenus se reconstruisent <authorities-browser-label>` (bibliothèques françaises seulement)"
+msgstr ""
+"Si votre préférence système :ref:`OpacBrowser` est paramétrée, décidez :ref:`"
+"quand vous souhaitez que les contenus se reconstruisent <cron-authorities-"
+"browser-label>` (bibliothèques françaises seulement)"
 
 #: ../../source/implementation_checklist.rst:690
-#, fuzzy
 msgid "If you have :ref:`custom RSS feeds <custom-rss-feeds-label>`, decide when you want the :ref:`feed to be populated <cron-rss-feeds-label>`"
-msgstr "Si vous avez des :ref:`flux RSS personnalisés <custom-rss-feeds-label>`, décidez quand vous souhaitez que le ref:`flux soit rempli <rss-feeds-label>`"
+msgstr ""
+"Si vous avez des :ref:`flux RSS personnalisés <custom-rss-feeds-label>`, "
+"décidez quand vous souhaitez que le ref:`flux soit rempli <cron-rss-feeds-"
+"label>`"
 
 #: ../../source/implementation_checklist.rst:695
 msgid "Editable OPAC Regions"
@@ -994,7 +1026,9 @@ msgstr "LibraryThing"
 
 #: ../../source/implementation_checklist.rst:751
 msgid "With the exception of ThingISBN, you will need to contact LibraryThing for the information to enter into these preferences"
-msgstr "Avec l'exception de ThingISBN, il vous faudra contacter LibraryThing pour l'inclure dans vos préférences sytème"
+msgstr ""
+"Avec l'exception de ThingISBN, il vous faudra contacter LibraryThing pour "
+"l'inclure dans vos préférences système"
 
 #: ../../source/implementation_checklist.rst:754
 msgid "Enabling ThingISBN will help to populate the editions tab on the bib record display if you have enabled FRBR."
@@ -1002,7 +1036,7 @@ msgstr "En activant ThingISBN, cela aidera à remplir l'onglet 'Editions' dans l
 
 #: ../../source/implementation_checklist.rst:757
 msgid ":ref:`Novelist Select`"
-msgstr ""
+msgstr ":ref:`Novelist Select`"
 
 #: ../../source/implementation_checklist.rst:759
 msgid "This is a pay service from Ebsco. Contact Ebsco for the information to enter into these preferences"
@@ -1157,4 +1191,3 @@ msgstr "Si vous hébergez votre propre système, assurez-vous d'avoir un plan de
 
 #~ msgid "XISBN is used to populate the editions tab on the bib record display if you have enabled FRBR. This service is free for up to 999 queries a day."
 #~ msgstr "XISBN est utilisé pour remplir l'onglet 'Editions' dans l'affichage de la notice bibliographique si vous avez activé FRBR. Ce service est gratuit mais il y a une limitation de 999 requêtes par jour."
-

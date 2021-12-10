@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-01-27 10:21+0000\n"
+"PO-Revision-Date: 2021-07-06 16:29+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1611742914.707057\n"
+"X-POOTLE-MTIME: 1625588951.457877\n"
 "X-Pootle-Path: /fr/man18.05/acquisitions.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -82,9 +82,10 @@ msgid "|image782|"
 msgstr "|image782|"
 
 #: ../../source/acquisitions.rst:49
-#, fuzzy
 msgid "Learn more in the :ref:`Budget/fund tracking` section of this manual."
-msgstr "Pour en savoir plus, consultez la partie :ref:`Suivi du budget/poste budgétaire` de ce manuel"
+msgstr ""
+"Pour en savoir plus, consultez la partie :ref:`Suivi du budget/poste "
+"budgétaire` de ce manuel."
 
 #: ../../source/acquisitions.rst:55
 msgid "Vendors"
@@ -431,9 +432,14 @@ msgid "|image1280|"
 msgstr "|image1280|"
 
 #: ../../source/acquisitions.rst:296
-#, fuzzy
 msgid "This edit can trigger a notice (defined in the :ref:`Notices & slips <notices-and-slips-label>` tool with the `TO\\_PROCESS <#toprocessnotice>`__ notice) to the fund owner that there is a suggestion ready for them to manage if you have turned on the :ref:`cron job to generate these notices <cron-email-suggestions-to-process-label>`."
-msgstr "Cette modification peut envoyer une notification (définie dans l'outil :ref:`Notifications et tickets <notices-&-slips-label>` avec le modèle :ref:`TO\\_PROCESS <#toprocessnotice>`) au responsable du poste budgétaire pour l'avertir qu'une suggestion doit être gérée, si vous avez activé le cronjob :ref:`pour générer ces notifications <email-suggestions-to-process-label>`."
+msgstr ""
+"Cette modification peut envoyer une notification (définie dans l'outil :ref:`"
+"Notifications et tickets <notices-and-slips-label>` avec le modèle :ref:`TO\\"
+"_PROCESS <#toprocessnotice>'__) au responsable du poste budgétaire pour "
+"l'avertir qu'une suggestion doit être gérée, si vous avez activé le cronjob "
+":ref:`pour générer ces notifications <cron-email-suggestions-to-process-"
+"label>`."
 
 #: ../../source/acquisitions.rst:302
 #, fuzzy
@@ -445,9 +451,8 @@ msgid "|image804|"
 msgstr "|image804|"
 
 #: ../../source/acquisitions.rst:312
-#, fuzzy
 msgid "Placing orders"
-msgstr "Faire des commandes"
+msgstr "Passer des commandes"
 
 #: ../../source/acquisitions.rst:314
 msgid "To place an order you must first search for the vendor or bookseller you want to send the order to."
@@ -629,9 +634,14 @@ msgid "|image813|"
 msgstr "|image813|"
 
 #: ../../source/acquisitions.rst:441
-#, fuzzy
 msgid "Orders added to the basket in this way will notify the patron via email that their suggestion has been ordered (with the 'ORDERED' notice in Tools > :ref:`Notices & slips <existing-notices-and-slips-label>`) and will update the patron's ':ref:`your purchase suggestions <your-purchase-suggestions-label>`' page in the OPAC."
-msgstr "Les commandes ajoutées au panier de cette façon seront notifiées à l'adhérent par email lui disant que ses suggestions ont bien été commandées et mettront à jour la page ':ref:`Mes suggestions d'achat <your-purchase-suggestions-label>`' de l'adhérent dans l'OPAC."
+msgstr ""
+"Les commandes ajoutées au panier de cette façon généreront l'envoi, à "
+"l'adhérent, d'un courriel lui précisant que ses suggestions ont bien été "
+"commandées (avec la notification 'ORDERED' dans Outils > :ref:' "
+"Notifications & tickets <existing-notices-and-slips-label>') et mettront à "
+"jour la page ':ref:'mes suggestions d'achat <your-purchase-suggestions-label>"
+"' de l'adhérent dans l'OPAC."
 
 #: ../../source/acquisitions.rst:451
 #, fuzzy
@@ -924,9 +934,11 @@ msgid "If the item is created upon orderinf, you will not be able to edit the qu
 msgstr "Vous ne pouvez pas modifier la quantité manuellement. Vous devez cliquer sur le bouton 'Ajouter' situé en bas du formulaire pour ajouter autant de documents que vous souhaitez commander."
 
 #: ../../source/acquisitions.rst:695
-#, fuzzy
 msgid "The list of funds is populated by the :ref:`funds <funds-label>` you have assigned in the :ref:`Acquisitions administration <acquisitions-module-label>` area."
-msgstr "La liste des postes budgétaires est construite avec :ref:`les postes budgétaires <funds-label>` que vous avez définis dans la rubrique Administration du module Acquisitions."
+msgstr ""
+"La liste des postes budgétaires est alimentée par :ref:`les postes "
+"budgétaires <funds-label>` que vous avez définis dans la rubrique :ref:"
+"'Administration du module Acquisitions <acquisitions-module-label>'."
 
 #: ../../source/acquisitions.rst:698
 #, fuzzy
@@ -960,6 +972,10 @@ msgstr ""
 #: ../../source/acquisitions.rst:721
 msgid "Replacement cost is the price it will cost to replace the item. This is the price charged to the user when an item is declared lost (if the :ref:`WhenLostChargeReplacementFee` system preference is set to 'Charge')."
 msgstr ""
+"Le coût de remplacement est le prix qu'il en coûtera de faire remplacer "
+"l'exemplaire. C'est le prix à faire payer à l'adhérent quand un exemplaire "
+"est déclaré perdu (si la préférence système "
+":ref:`WhenLostChargeReplacementFee` est paramétrée sur 'Faire payer')."
 
 #: ../../source/acquisitions.rst:725
 msgid "Budgeted cost is the amount that will be removed from the 'spent' budget. Whether this number includes or excludes taxes will depend on the 'List price' setting for your :ref:`vendor <vendors-label>`."
@@ -1172,6 +1188,8 @@ msgstr ""
 #: ../../source/acquisitions.rst:887
 msgid "Delivery comment: this comment will appear on the basket group order"
 msgstr ""
+"Commentaire pour la livraison : ce commentaire apparaîtra sur le bordereau "
+"de commande"
 
 #: ../../source/acquisitions.rst:888
 msgid "Close basket group: if you know that once you're done with this basket group, you will not be modifying it anymore, you can close it right away"
@@ -1199,9 +1217,8 @@ msgid "|image838|"
 msgstr "|image838|"
 
 #: ../../source/acquisitions.rst:905
-#, fuzzy
 msgid "Receiving orders"
-msgstr "Réception des commandes"
+msgstr "Réceptionner des commandes"
 
 #: ../../source/acquisitions.rst:913
 msgid "Orders can be received from the vendor information page"
@@ -1362,9 +1379,8 @@ msgid "|image1422|"
 msgstr "|image1422|"
 
 #: ../../source/acquisitions.rst:1039
-#, fuzzy
 msgid "Transferring orders"
-msgstr "Faire des commandes"
+msgstr "Transférer des commandes"
 
 #: ../../source/acquisitions.rst:1041
 msgid "If the item is no longer available from this vendor you can transfer the order to another vendor's basket by clicking the 'Transfer' link to the right of the title. This will pop up a vendor search box."
@@ -1403,9 +1419,8 @@ msgid "You will see transferred orders when viewing the basket."
 msgstr ""
 
 #: ../../source/acquisitions.rst:1069
-#, fuzzy
 msgid "Cancelling orders"
-msgstr "Faire des commandes"
+msgstr "Annuler des commandes"
 
 #: ../../source/acquisitions.rst:1071
 msgid "If the item cannot be found anywhere you can cancel the order by clicking 'Delete order' to the far right. This will prompt you to enter your reason and confirm cancellation."
@@ -1546,9 +1561,8 @@ msgid "Click on the row of the invoice number you would like to keep and it will
 msgstr "Cliquez sur le numéro de la facture que vous souhaitez conserver, celle-ci se surlignera en jaune. Saisissez les différentes données de facturation dans les zones prévues à cet effet et cliquez sur \"Fusionner\". Les deux factures se fusionneront alors en une seule."
 
 #: ../../source/acquisitions.rst:1187
-#, fuzzy
 msgid "Claims and late orders"
-msgstr "Commandes en retard"
+msgstr "Réclamations et commandes en retard"
 
 #: ../../source/acquisitions.rst:1189
 msgid "If you have entered in an email address for the vendors in your system you can send them claim emails when an order is late. Before you can send claims you will need to set up an `acquisitions claim notice <#ACQCLAIM>`__."
@@ -1595,9 +1609,8 @@ msgid "|image859|"
 msgstr "|image859|"
 
 #: ../../source/acquisitions.rst:1229
-#, fuzzy
 msgid "Acquisition searches"
-msgstr "Recherches d'acquisitions"
+msgstr "Recherches dans les acquisitions"
 
 #: ../../source/acquisitions.rst:1231
 #, fuzzy
@@ -1652,7 +1665,6 @@ msgid "|image865|"
 msgstr "|image865|"
 
 #: ../../source/acquisitions.rst:1264
-#, fuzzy
 msgid "Budget/fund tracking"
 msgstr "Suivi du budget/poste budgétaire"
 
@@ -1673,7 +1685,6 @@ msgid "|image867|"
 msgstr "|image867|"
 
 #: ../../source/acquisitions.rst:1280
-#, fuzzy
 msgid "EDI process"
 msgstr "Traitement EDI"
 
@@ -1720,7 +1731,7 @@ msgstr "**Nom :** L'identifiant pour le serveur ci-dessus"
 
 #: ../../source/acquisitions.rst:1315
 msgid "**Password:** The password for the above server"
-msgstr "**Mot de passe:** Le mot de passe pour le serveur mentionné ci-dessus"
+msgstr "**Mot de passe :** Le mot de passe pour le serveur mentionné ci-dessus"
 
 #: ../../source/acquisitions.rst:1317
 msgid "**Download directory:** The path on the server that contains files for Koha to download and process"
@@ -1900,9 +1911,10 @@ msgid "Enter your :ref:`Library EANs`"
 msgstr "Saisissez vos comptes EDI"
 
 #: ../../source/acquisitions.rst:1451
-#, fuzzy
 msgid "Turn on the :ref:`EDI Cron <cron-edi-message-processing-label>` so that it can process files"
-msgstr "Activez le :ref:`EDI Cron <edi-message-processing-label>` pour qu'il puisse traiter des fichiers"
+msgstr ""
+"Activez le :ref:'EDI Cron <cron-edi-message-processing-label>' pour qu'il "
+"puisse traiter des fichiers"
 
 #: ../../source/acquisitions.rst:1456
 #, fuzzy
@@ -1935,9 +1947,12 @@ msgid "EDIFACT order"
 msgstr "Commande EDIFACT"
 
 #: ../../source/acquisitions.rst:1484
-#, fuzzy
 msgid "This will generate a pending file in the :ref:`EDIFACT messages <edifact-messages-label>` in Koha. The pending files will be processed by the :ref:`EDI cron job <cron-edi-message-processing-label>` and sent to your vendor."
-msgstr "Ceci génèrera une fichier en attente dans :ref:'Messages EDIFACT <edifact-messages-label>` dans Koha. Les fichiers en attente seront traités par le cron job :ref:'EDI <edi-message-processing-label>' et envoyés à votre fournisseur."
+msgstr ""
+"Ceci génèrera une fichier en attente dans :ref:'Messages EDIFACT <edifact-"
+"messages-label>` dans Koha. Les fichiers en attente seront traités par le "
+"cron job :ref:'EDI <cron-edi-message-processing-label>' et envoyés à votre "
+"fournisseur."
 
 #: ../../source/acquisitions.rst:1491
 #, fuzzy
@@ -1945,17 +1960,19 @@ msgid "EDI invoicing"
 msgstr "Facture d'achat EDI"
 
 #: ../../source/acquisitions.rst:1493
-#, fuzzy
 msgid "When the book vendor is done processing your files they will send an invoice via EDI as well. The :ref:`EDI cron job <cron-edi-message-processing-label>` will grab invoices and mark items found in the invoice as received and update your funds without any need for manual intervention."
-msgstr "Quand votre fournisseur de livres aura complété le traitement de vos fichiers, il vous enverra aussi une facture par EDI. Le cron job :ref:`EDI <edi-message-processing-label>` récupérera ces factures d'achat et notera les exemplaires facturés comme reçus et mettra à jour votre budget sans besoin d'intervention manuelle."
+msgstr ""
+"Quand votre fournisseur de livres aura complété le traitement de vos "
+"fichiers, il vous enverra aussi une facture par EDI. Le cron job :ref:`EDI "
+"<cron-edi-message-processing-label>` récupérera ces factures d'achat et "
+"notera les exemplaires facturés comme reçus et mettra à jour votre budget "
+"sans besoin d'intervention manuelle."
 
 #: ../../source/acquisitions.rst:1501
-#, fuzzy
 msgid "EDIFACT messages"
 msgstr "Messages EDIFACT"
 
 #: ../../source/acquisitions.rst:1503
-#, fuzzy
 msgid "A log of all messages sent and received via EDIFACT can be found under EDIFACT messages."
 msgstr "Un journal de tous les messages envoyés et reçus via EDIFACT est disponible dans Messages EDIFACT."
 

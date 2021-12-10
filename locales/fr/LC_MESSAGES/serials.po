@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-01-27 11:19+0000\n"
+"PO-Revision-Date: 2021-07-09 08:36+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/serials.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1611746345.798573\n"
+"X-POOTLE-MTIME: 1625819779.224544\n"
 
 #: ../../source/serials.rst:6
 msgid "Serials"
@@ -31,7 +31,6 @@ msgid "*Get there:* More > Serials"
 msgstr "*Aller à :* Plus > Périodiques"
 
 #: ../../source/serials.rst:21
-#, fuzzy
 msgid "Manage serial frequencies"
 msgstr "Gérer les périodicités des périodiques"
 
@@ -60,12 +59,10 @@ msgid "|image739|"
 msgstr "|image739|"
 
 #: ../../source/serials.rst:40
-#, fuzzy
 msgid "Manage serial numbering patterns"
 msgstr "Gestion des modèles de numérotation des périodiques"
 
 #: ../../source/serials.rst:42
-#, fuzzy
 msgid "Everytime you create a new numbering pattern in serials you can save it for later use. These patterns are accessible via the 'Manage numbering patterns' page."
 msgstr "Chaque fois que vous créez un nouveau modèle de numérotation pour les périodiques vous pouvez les sauvegarder pour une utilisation ultérieure. Ces modèles sont accessibles sur la page de Gestion des modèles de numérotation."
 
@@ -217,9 +214,12 @@ msgid "'Location' is for the shelving location"
 msgstr "'Localisation', valeur de la localisation à la bibliothèque"
 
 #: ../../source/serials.rst:146
-#, fuzzy
 msgid "The 'Grace period' is the number of days before an issue is automatically moved from 'Expected' status to 'Late'. This mechanism requires that the :ref:`SerialsUpdate.pl cron job <cron-serials-update-label>` is set up to run regularly."
-msgstr "La \"Période de grâce\" définit le nombre de jours au bout desquels le statut d'un fascicule passe automatiquement de \"Attendu\" à \"En attente\". Ce fonctionnement suppose que le cron job :ref:`SerialsUpdate.pl <serials-update-label>` soit paramétré pour s'exécuter régulièrement."
+msgstr ""
+"La 'Période de grâce' est le nombre de jours au bout desquels le statut d'un "
+"fascicule passe automatiquement de 'Attendu' à 'En retard'. Ce "
+"fonctionnement suppose que le cron job :ref:`SerialsUpdate.pl <cron-serials-"
+"update-label>` soit paramétré pour s'exécuter régulièrement."
 
 #: ../../source/serials.rst:150
 #, fuzzy
@@ -373,9 +373,10 @@ msgid "|image749|"
 msgstr "|image749|"
 
 #: ../../source/serials.rst:260
-#, fuzzy
 msgid "If you have added a :ref:`custom field <additional-fields-label>`, it will be editable above the buttons at the bottom of the screen"
-msgstr "Si vous avez ajouté une :ref:`zone personnalisée d'abonnement <custom-subscription-fields-label>`, elle sera maintenant modifiable au-dessus des boutons au bas de l'écran"
+msgstr ""
+"Si vous avez ajouté un :ref:`champ personnalisé <additional-fields-label>`, "
+"il sera modifiable au-dessus des boutons au bas de l'écran"
 
 #: ../../source/serials.rst:263
 msgid "|image1274|"
@@ -476,7 +477,6 @@ msgid "|image751|"
 msgstr "|image751|"
 
 #: ../../source/serials.rst:325
-#, fuzzy
 msgid "The final way to receive serials is from the 'Serial collection' page. To the left of the Subscription summary page there is a menu with a link to 'Serial collection'"
 msgstr "La dernière possibilité pour réceptionner les fascicules est d'utiliser la page 'État de collection'. Sur la gauche de la page avec les Informations d'abonnement vous trouvez un menu avec un lien vers 'État de collection'"
 
@@ -537,11 +537,13 @@ msgstr "Quand vous avez saisi les données utiles, cliquez 'Sauvegarder'"
 
 #: ../../source/serials.rst:371
 msgid "Serial collection"
-msgstr ""
+msgstr "État de collection"
 
 #: ../../source/serials.rst:373
 msgid "Each subscription has a Serial collection page available from the main Serials menu."
 msgstr ""
+"Chaque abonnement a une page Etat de collection disponible à partir du menu "
+"Périodiques."
 
 #: ../../source/serials.rst:376
 msgid "|image1437|"
@@ -657,9 +659,12 @@ msgid "|image763|"
 msgstr "|image763|"
 
 #: ../../source/serials.rst:459
-#, fuzzy
 msgid "If you are using the :ref:`Acquisitions <Acquisitions>` module to keep track of :ref:`serial subscriptions <order-from-a-serial-subscription-label>` you will see an extra 'Acquisition details' tab in your subscription details."
-msgstr "Si vous utilisez le module `Acquisitions <#acqmodule>`__ pour avoir un `suivi des abonnements périodiques <#ordersubscription>`__, vous verrez ces informations en premier."
+msgstr ""
+"Si vous utilisez le module :ref:'Acquisitions <Acquisitions>' pour avoir un "
+"suivi des :ref:'abonnements de périodiques <order-from-a-serial-subscription-"
+"label>' vous verrez un onglet supplémentaire 'Détails de l'acquisition' dans "
+"les détails de votre abonnement."
 
 #: ../../source/serials.rst:463
 msgid "|image764|"
@@ -759,9 +764,8 @@ msgid "From the list of late issues you can choose which ones you want to send a
 msgstr "Dans la liste des fascicules en retard, vous sélectionnez en utilisant les boîtes à cocher les fascicules pour lesquels vous voulez émettre un courriel de réclamation. Vous choisissez le modèle de notification à utiliser. Puis vous cliquez sur le bouton Envoyer une notification."
 
 #: ../../source/serials.rst:542
-#, fuzzy
 msgid "Check serial expiration"
-msgstr "Vérifier dates d'expiration"
+msgstr "Vérifier l'expiration d'un périodique"
 
 #: ../../source/serials.rst:544
 msgid "When adding serials you enter a subscription length, using the check expiration tool you can see when your subscriptions are about to expire. To use the tool click the link to 'Check expiration' on the serials menu."
@@ -805,9 +809,10 @@ msgid "|image775|"
 msgstr "|image775|"
 
 #: ../../source/serials.rst:579
-#, fuzzy
 msgid "Another option is to click the 'Renew' link to the right of the subscription on the Serial collection page."
-msgstr "L'autre option est de cliquer sur le lien \"Renouveler\" à droite de l'abonnement sur la page État de Collection."
+msgstr ""
+"L'autre option est de cliquer sur le lien 'Renouveler' à droite de "
+"l'abonnement sur la page État de Collection."
 
 #: ../../source/serials.rst:582
 msgid "|image776|"
@@ -835,7 +840,6 @@ msgid "Finally enter any notes you might have about this renewal."
 msgstr "Pour finir, vous pouvez rédiger des notes concernant ce renouvellement."
 
 #: ../../source/serials.rst:600
-#, fuzzy
 msgid "Searching serials"
 msgstr "Recherche de périodiques"
 

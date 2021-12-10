@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-02-16 17:30+0000\n"
-"Last-Translator: SevQ <severine.queune@bulac.fr>\n"
+"PO-Revision-Date: 2021-11-06 15:19+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/systempreferences.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1613496657.796254\n"
+"X-POOTLE-MTIME: 1636211947.343416\n"
 
 #: ../../source/systempreferences.rst:6
 msgid "Global system preferences"
@@ -27,7 +27,7 @@ msgstr "Les préférences système globales contrôlent le fonctionnement géné
 
 #: ../../source/systempreferences.rst:11
 msgid "*Get there:* More > Administration > Global System Preferences"
-msgstr "Aller à : Plus > Administration > Préférences système"
+msgstr "*Aller à :* Plus > Administration > Préférences système"
 
 #: ../../source/systempreferences.rst:13
 msgid "|image0|"
@@ -1144,6 +1144,9 @@ msgstr "Ne pas faire"
 #: ../../source/systempreferences.rst:108
 msgid "If activated, when :ref:`making a payment <pay/reverse-fines-label>` in a patron's account, a printing popup will be displayed automatically instead of having to click on the 'print' button."
 msgstr ""
+"Si activée, lors d'un :ref:'paiement <pay/reverse-fines-label>' dans le "
+"compte d'un adhérent, une fenêtre pour imprimer s'ouvrira automatiquement, "
+"au lieu d'avoir à cliquer sur le bouton 'Imprimer'."
 
 #: ../../source/systempreferences.rst:115
 msgid "UseCashRegisters"
@@ -1152,6 +1155,8 @@ msgstr "UseCashRegisters"
 #: ../../source/systempreferences.rst:117
 msgid "Asks: \\_\\_\\_ cash registers with the accounting system to track payments."
 msgstr ""
+"Action : \\_\\_\\_ les caisses avec le système comptable pour suivre les "
+"paiements."
 
 #: ../../source/systempreferences.rst:119
 #: ../../source/systempreferences.rst:443
@@ -2283,7 +2288,9 @@ msgstr "Renseignez la classe d'adresse IP dans la partie administration de la bi
 
 #: ../../source/systempreferences.rst:924
 msgid "*Get there:* More > Administration > Basic Parameters > :ref:`Libraries <libraries-label>`"
-msgstr "*Aller à :* Plus > Administration > Paramètres de base > :ref:`Sites & groupes <libraries-label>`"
+msgstr ""
+"*Aller à :* Plus > Administration > Paramètres de base > :ref:`Tous les "
+"sites <libraries-label>`"
 
 #: ../../source/systempreferences.rst:928
 #: ../../source/systempreferences.rst:3179
@@ -3331,9 +3338,24 @@ msgid "the 404 error page ('Not found')."
 msgstr "la page d'erreur 404 (Page introuvable)"
 
 #: ../../source/systempreferences.rst:1888
-#, fuzzy
 msgid "These preferences control hiding of bibliographic records from display in the OPAC. Each bibliographic record you want to hide from the OPAC simply needs to have the value \"1\" in the field mapped with Suppress index (942$n field in MARC21, no official field in UNIMARC). The indexer then hides it from display in OPAC but will still display it in the Staff Client. If you want to further control suppression you can set an IP address range to still show suppressed items to. Define a range like 192.168.. If you don't want to limit suppression in this way, leave the IP field blank. You can also decide what the patrons will see in the OPAC when a title is suppressed by setting the OpacSuppressionRedirect and OpacSuppressionMessage preferences. You can either show the patron a 404 page if they try to see a suppressed record or you can create a custom page by entering the HTML in the OpacSuppressionMessage part of this preference."
-msgstr "Ces préférences contrôlent le fait de masquer les notices bibliographiques de l'affichage de l'OPAC. Chaque notice bibliographique que vous voulez masquer de l'OPAC doit seulement avoir la valeur \" 11 \" saisies dans le champ Suppress index (642$n en MARC21, aucun champ officiel pour UNIMARC). L'indexeur peut alors le cacher de l'affichage dans l'OPAC mais elle sera toujours affichée dans l'interface professionnelle. Si vous voulez avoir plus de contrôle sur le masquage, vous pouvez préparer une plage d'adresses IP par lesquelles vous pourrez voir les notices masquées. Définissez une plage telle que 192.168... si vous ne voulez pas limiter le masquage de cette manière, laissez simplement le champ IP vide. Vous pouvez aussi décider ce que les usagers voient dans l'OPAC quand un titre est masqué en configurant les préférences \"OpacSuppressionRedirect'\" et 'OpacSuppressionMessage'\". Vous pouvez soit afficher une page 404 s'ils essaient de voir une notice masquée ou vous pouvez créer une page personnalisée en saisissant votre HTML dans la partie appropriée de la préférence \"OpacSuppressionMessage''."
+msgstr ""
+"Ces préférences contrôlent le fait de masquer les notices bibliographiques "
+"de l'affichage de l'OPAC. Chaque notice bibliographique que vous voulez "
+"masquer de l'OPAC doit seulement avoir la valeur \"11\" saisie dans le champ "
+"Suppress index (942$n en MARC21, aucun champ officiel pour UNIMARC). "
+"L'indexeur peut alors la masquer dans l'affichage de l'OPAC mais elle sera "
+"toujours affichée dans l'interface professionnelle. Si vous voulez avoir "
+"plus de contrôle sur le masquage, vous pouvez préparer une plage d'adresses "
+"IP par lesquelles vous pourrez voir les notices masquées. Définissez une "
+"plage telle que 192.168... Si vous ne voulez pas limiter le masquage de "
+"cette manière, laissez simplement le champ IP vide. Vous pouvez aussi "
+"décider ce que les usagers voient dans l'OPAC quand un titre est masqué en "
+"configurant les préférences OpacSuppressionRedirect et "
+"OpacSuppressionMessage. Vous pouvez soit afficher une page 404 aux adhérents "
+"souhaitant visualiser une notice supprimée soit créer une page personnalisée "
+"en saisissant votre HTML dans la partie appropriée de la préférence "
+"OpacSuppressionMessage."
 
 #: ../../source/systempreferences.rst:1905
 msgid "An :ref:`authorized value <authorized-values-label>` for the MARC21 942$n field (or the equivalent UNIMARC field) should be set to eliminate errors. One example would be to create an authorized value titled SUPPRESS with a value of 0 for don't suppress and 1 for suppress."
@@ -3360,14 +3382,13 @@ msgid "|image1182|"
 msgstr "|image1182|"
 
 #: ../../source/systempreferences.rst:1933
-#, fuzzy
 msgid "SeparateHoldings and SeparateHoldingsBranch"
 msgstr "SeparateHoldings et SeparateHoldingsBranch"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:1935
 msgid "SeparateHoldings default: Don't separate"
-msgstr "SeparateHoldings pas défaut : Ne pas séparer"
+msgstr "SeparateHoldings par défaut : Ne pas séparer"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:1937
@@ -3714,7 +3735,6 @@ msgid "Record Structure"
 msgstr "Structre des notices"
 
 #: ../../source/systempreferences.rst:2262
-#, fuzzy
 msgid "AlternateHoldingsField and AlternateHoldingsSeparator"
 msgstr "AlternateHoldingsField et AlternateHoldingsSeparator"
 
@@ -3889,6 +3909,8 @@ msgstr "Dewey : 082ab ou 092ab ; LOC : 050ab ou 090ab ; OCLC : 852hi ; Sudoc : 9
 #: ../../source/systempreferences.rst:2434
 msgid "MarcFieldForCreatorId, MarcFieldForCreatorName, MarcFieldForModifierId, MarcFieldForModifierName"
 msgstr ""
+"MarcFieldForCreatorId, MarcFieldForCreatorName, MarcFieldForModifierId, "
+"MarcFieldForModifierName"
 
 #: ../../source/systempreferences.rst:2436
 msgid "Asks: Store record's creator borrowernumber in MARC subfield \\_\\_\\_ and record's creator name in MARC subfield \\_\\_\\_ Store record's last modifier borrowernumber in MARC subfield \\_\\_\\_ and record's last modifier name in MARC subfield \\_\\_\\_ NOTE: Use a dollar sign between field and subfield like 123$a."
@@ -4597,9 +4619,8 @@ msgid ":ref:`HoldsAutoFill` must be set to 'do' for this preference to have any 
 msgstr ":ref:`HoldsAutoFill` doit être paramétré sur « Faire » pour que cette préférence système soit effective"
 
 #: ../../source/systempreferences.rst:3048
-#, fuzzy
 msgid "UpdateItemLocationOnCheckin"
-msgstr "UpdateNotForLoanStatusOnCheckin"
+msgstr "UpdateItemLocationOnCheckin"
 
 #: ../../source/systempreferences.rst:3050
 msgid "Asks: This is a list of value pairs. The first value is followed immediately by colon, space, then the second value."
@@ -5034,9 +5055,13 @@ msgid "Don't consider"
 msgstr "Ne pas prendre en compte"
 
 #: ../../source/systempreferences.rst:3562
-#, fuzzy
 msgid "This preference allows you to decide if checkouts that are :ref:`OnSiteCheckouts` are counted toward the total checkouts a patron can have. You can also set your :ref:`circulation and fines rules <circulation-and-fines-rules-label>` to allow only a certain number of normal and OnSite checkouts."
-msgstr "Cette préférence détermine si les prêts sur site (préférence :ref:ÒnSiteCheckouts`) sont comptabilisés dans le total des prêts d'un adhérent. Vous pouvez également définir la façon dont les prêts sont comptés dans les :ref:`règles de circulation <circulation-and-fine-rules-label>` de façon à autoriser distinctement un nombre de prêts normaux et un nombre de prêts sur place."
+msgstr ""
+"Cette préférence détermine si les prêts sur place (:ref:'OnSiteCheckouts`) "
+"sont comptabilisés dans le total des prêts qu'un adhérent peut effectuer. "
+"Vous pouvez également définir vos :ref:`règles de circulation <circulation-"
+"and-fines-rules-label>` pour autoriser distinctement un nombre de prêts "
+"classiques et un nombre de prêts sur place."
 
 #: ../../source/systempreferences.rst:3571
 msgid "DefaultLongOverdueChargeValue"
@@ -5382,9 +5407,8 @@ msgid "If you'd like more than one person to receive the blind copy you can simp
 msgstr "Si vous souhaitez qu'il y ait plus d'un destinataire de ces copies, saisissez leurs adresses séparées par des virgules."
 
 #: ../../source/systempreferences.rst:3885
-#, fuzzy
 msgid "OnSiteCheckoutAutoCheck"
-msgstr "OnSiteCheckoutsForce"
+msgstr "OnSiteCheckoutAutoCheck"
 
 #: ../../source/systempreferences.rst:3889
 #, fuzzy
@@ -5969,9 +5993,8 @@ msgid "item home branch."
 msgstr "site de rattachement de l'exemplaire."
 
 #: ../../source/systempreferences.rst:4508
-#, fuzzy
 msgid "SuspensionsCalendar"
-msgstr "finesCalendar"
+msgstr "SuspensionsCalendar"
 
 #: ../../source/systempreferences.rst:4512
 #, fuzzy
@@ -5983,9 +6006,8 @@ msgid "This system preference determines whether the :ref:`calendar <calendar-la
 msgstr ""
 
 #: ../../source/systempreferences.rst:4533
-#, fuzzy
 msgid "useDefaultReplacementCost"
-msgstr "Coût de remplacement par défaut"
+msgstr "useDefaultReplacementCost"
 
 #: ../../source/systempreferences.rst:4537
 msgid "Asks: \\_\\_\\_ the default replacement cost defined in item type."
@@ -6131,7 +6153,7 @@ msgstr "Les réservations deviendront non-suspendues après la date saisie par l
 
 #: ../../source/systempreferences.rst:4757
 msgid "CanMarkHoldsToPullAsLost"
-msgstr ""
+msgstr "CanMarkHoldsToPullAsLost"
 
 #: ../../source/systempreferences.rst:4759
 msgid "Default: Do not allow to mark items as lost"
@@ -6159,7 +6181,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:4780
 msgid "canreservefromotherbranches"
-msgstr "CanReserveFromOtherBranches"
+msgstr "canreservefromotherbranches"
 
 #: ../../source/systempreferences.rst:4784
 msgid "Asks: \\_\\_\\_ a user from one library to place a hold on an item from another library"
@@ -6205,22 +6227,21 @@ msgstr "Action : \\_\\_\\_ la réduction de la période de prêt à \\_\\_\\_ jo
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:4843
 msgid "decreaseLoanHighHolds default: Don't enable"
-msgstr "Désactiver"
+msgstr "Valeur par défaut de decreaseLoanHighHolds : Désactiver"
 
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:4845
-#, fuzzy
 msgid "decreaseLoanHighHoldsControl default: on the record"
-msgstr "Désactiver"
+msgstr "Valeur par défaut de decreaseLoanHighHoldsControl : sur la notice"
 
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:4847
 msgid "decreaseLoanHighHolds values:"
-msgstr "Activer"
+msgstr "Valeurs de decreaseLoanHighHolds :"
 
 #: ../../source/systempreferences.rst:4851
 msgid "decreaseLoanHighHoldsControl values:"
-msgstr "Valeurs de DecreaseLoanHighHoldsControl :"
+msgstr "Valeurs de decreaseLoanHighHoldsControl :"
 
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:4853
@@ -6234,7 +6255,7 @@ msgstr "Notices hôtes"
 
 #: ../../source/systempreferences.rst:4857
 msgid "decreaseLoanHighHoldsIgnoreStatuses values:"
-msgstr "Valeurs de DecreaseLoanHighHoldsIgnoreStatuses :"
+msgstr "Valeurs de decreaseLoanHighHoldsIgnoreStatuses :"
 
 #: ../../source/systempreferences.rst:4861
 #, fuzzy
@@ -6256,6 +6277,11 @@ msgstr "Retiré des collections"
 #: ../../source/systempreferences.rst:4871
 msgid "These preferences let you change the loan length for items that have many holds on them. This will not effect items that are already checked out, but items that are checked out after the decreaseLoanHighHoldsValue is met will only be checked out for the number of days entered in the decreaseLoanHighHoldsDuration preference."
 msgstr ""
+"Ces préférences vous permettent de changer la durée de prêt des exemplaires "
+"très réservés. Elles n'affecteront pas les exemplaires déjà prêtés mais ceux "
+"empruntés après que la valeur de decreaseLoanHighHoldsValue soit atteinte ne "
+"seront prêtés que pour la durée définie par la préférence "
+"decreaseLoanHighHoldsDuration."
 
 #: ../../source/systempreferences.rst:4878
 msgid "|image32|"
@@ -6477,6 +6503,8 @@ msgstr "Changer cette préférence n'empêchera pas le personnel de transférer 
 #: ../../source/systempreferences.rst:5144
 msgid "The list of available pickup locations will include all libraries that have 'Pickup location' set to 'Yes' on the library configuration page."
 msgstr ""
+"La liste des sites possibles inclura tous les sites ayant paramétré 'Site de "
+"retrait' sur 'Oui' dans la page de configuration de la bibliothèque."
 
 #: ../../source/systempreferences.rst:5150
 msgid "OPACHoldsIfAvailableAtPickup"
@@ -6566,9 +6594,9 @@ msgid "This preference refers to 'item specific' holds where the item is current
 msgstr "Cette préférence réfère aux réservations d'exemplaires spécifique, qui sont présentement dans les rayons de la bibliothèque. Cette préférence permet à une bibliothèque de décider si une réservation d'un exemplaire spécifique doit avoir le status 'En attente' au moment où la réservation est faite, ou si le status 'En attente' doit être mis une fois que l'exemplaire est retourné. Cette préférence dira à l'usager que son exemplaire est 'En attente' et qu'il est disponible pour le prêt à la bibliothèque."
 
 #: ../../source/systempreferences.rst:5248
-#, fuzzy
 msgid "StaticHoldsQueueWeight, HoldsQueueSkipClosed and RandomizeHoldsQueueWeight"
-msgstr "StaticHoldsQueueWeight, HoldsQueueSkipClosed & RandomizeHoldsQueueWeight"
+msgstr ""
+"StaticHoldsQueueWeight, HoldsQueueSkipClosed et RandomizeHoldsQueueWeight"
 
 #: ../../source/systempreferences.rst:5250
 msgid "StaticHoldsQueueWeight Default: 0"
@@ -6642,6 +6670,11 @@ msgstr "Si vous souhaitez répartir de manière équitable la réponse aux deman
 #: ../../source/systempreferences.rst:5316
 msgid "The :ref:`Transport Cost Matrix <transport-cost-matrix-label>` takes precedence in controlling where holds are filled from, if the matrix is not used then Koha checks the StaticHoldsQueueWeight. To use the Transport Cost Matrix simply set your :ref:`UseTransportCostMatrix` preference to 'Use'"
 msgstr ""
+"La :ref:'Matrice des coûts de transport <transport-cost-matrix-label>' a la "
+"priorité pour définir d'où viennent les réservations; si la matrice n'est "
+"pas utilisée, Koha vérifie StaticHoldsQueueWeight. Pour utiliser la matrice "
+"des coûts de transport, configurez simplement la préférence :ref:"
+"'UseTransportCostMatrix' sur 'Utiliser'"
 
 #: ../../source/systempreferences.rst:5326
 msgid "SuspendHoldsIntranet"
@@ -6654,10 +6687,14 @@ msgstr "Action : \\_\\_\\_ la suspension de réservation depuis l'interface prof
 #: ../../source/systempreferences.rst:5340
 msgid "The holds suspension feature can be turned on and off in the staff client by altering this system preference. If this is set to 'allow' you will want to set the :ref:`AutoResumeSuspendedHolds` system preference."
 msgstr ""
+"La fonctionnalité de suspension des réservations peut être activée ou "
+"désactivée dans l'interface professionnelle en modifiant cette préférence "
+"système. Si elle est définie sur 'Permettre', vous devrez paramétrer la "
+"préférence système :ref:`AutoResumeSuspendedHolds`."
 
 #: ../../source/systempreferences.rst:5349
 msgid "SuspendHoldsOpac"
-msgstr "SuspendHoldsIntranet"
+msgstr "SuspendHoldsOpac"
 
 #: ../../source/systempreferences.rst:5353
 msgid "Asks: \\_\\_\\_ holds to be suspended from the OPAC."
@@ -6666,6 +6703,10 @@ msgstr "Action : \\_\\_\\_ la suspension des réservations depuis l'OPAC."
 #: ../../source/systempreferences.rst:5363
 msgid "The holds suspension feature can be turned on and off in the OPAC by altering this system preference. If this is set to 'allow' you will want to set the :ref:`AutoResumeSuspendedHolds` system preference."
 msgstr ""
+"La fonctionnalité de suspension des réservations peut être activée ou "
+"désactivée à l'OPAC en modifiant cette préférence système. Si elle est "
+"définie sur 'Permettre', vous devrez paramétrer la préférence système "
+":ref:`AutoResumeSuspendedHolds`."
 
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:5372
@@ -6694,7 +6735,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:5397
 msgid "UpdateItemWhenLostFromHoldList"
-msgstr ""
+msgstr "UpdateItemWhenLostFromHoldList"
 
 #: ../../source/systempreferences.rst:5399
 msgid "Asks: Update item's values when marked as lost from the hold to pull screen."
@@ -7672,9 +7713,8 @@ msgid "HTML entered in this field will appear in the center of the main page of 
 msgstr ":ref:`OpacMainUserBlock` : Permet de saisir le code HTML qui apparaîtra au centre de la page principale de l'OPAC"
 
 #: ../../source/systempreferences.rst:6302
-#, fuzzy
 msgid "SelfCheckInModule"
-msgstr "Borne automatique de prêt"
+msgstr "SelfCheckInModule"
 
 #: ../../source/systempreferences.rst:6306
 msgid "Asks: \\_\\_\\_ the standalone self check-in module (available at: /cgi-bin/koha/sci/sci-main.pl"
@@ -7752,14 +7792,13 @@ msgid "If set to 'Enable' then the stock rotation module will appear under Tools
 msgstr ""
 
 #: ../../source/systempreferences.rst:6386
-#, fuzzy
 msgid "Enhanced content"
 msgstr "Contenu enrichi"
 
 #: ../../source/systempreferences.rst:6388
-#, fuzzy
 msgid "*Get there:* More > Administration > Global system preferences > Enhanced content"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Adhérents"
+msgstr ""
+"*Aller à :* Plus > Administration > Préférences système > Contenu enrichi"
 
 #: ../../source/systempreferences.rst:6393
 msgid "Always read the terms of service associated with external data sources to be sure that you are using the products within the allowed limits."
@@ -7785,7 +7824,7 @@ msgstr "Action : \\_\\_\\_ les images de couverture locales sur les pages de ré
 
 #: ../../source/systempreferences.rst:6428
 msgid "AdlibrisCoversURL"
-msgstr ""
+msgstr "AdlibrisCoversURL"
 
 #: ../../source/systempreferences.rst:6430
 msgid "Default: http://www.adlibris.com/se/organisationer/showimagesafe.aspx"
@@ -7817,6 +7856,23 @@ msgstr "|image46|"
 #: ../../source/systempreferences.rst:6458
 msgid "Using the rules set forth in the Functional Requirements for Bibliographic records, this option, when enabled, pulls all editions of the same title available in your collection regardless of material type. Items will appear under an 'Editions' tab on the detail page for the title in question.. According to *Libraries Unlimited's Online Dictionary for Library and Information Science* (http://lu.com/odlis/), FRBRizing the catalog involves collating MARC records of similar materials. FRBRization brings together entities (sets of Works, Expressions, or Manifestations), rather than just sets of Items. It can aid patrons in selecting related items, expressions, and manifestations that will serve their needs. When it is set to \"Show\", the OPAC will query one or more ISBN web services for associated ISBNs and display an Editions tab on the details pages. Once this preference is enabled, the library must select one of the ISBN options (such as :ref:`ThingISBN`). This option is only for the Staff Client - the :ref:`OPACFRBRizeEditions` option must be enabled to have the Editions tab appear on the OPAC."
 msgstr ""
+"Utilisant les règles établies dans le Functional Requirements for "
+"Bibliographic records, cette option, quand elle est activée, rassemble "
+"toutes les éditions d'un même titre disponible dans votre catalogue, quel "
+"que soit le support. Les exemplaires apparaîtront sous un onglet 'Editions' "
+"dans la page de détails du titre concerné. Selon *Libraries Unlimited's "
+"Online Dictionary for Library and Information Science* (http://lu.com/odlis/)"
+", FRBRiser le catalogue implique de lier les notices MARC d'oeuvres "
+"identiques. La FRBRisation rassemble des entités (ensembles d'Oeuvres, "
+"Expressions ou Manifestations) plutôt que uniquement des ensembles d'Items. "
+"Cela peut aider les adhérents dans leur sélection d'items, expressions et "
+"manifestations liés, pour répondre à leurs besoins. Si la préférence système "
+"est paramétrée sur \"Montrer\", l'OPAC va chercher, dans un ou plusieurs web "
+"services ISBN, les ISBN associés et afficher un onglet Editions sur la page "
+"de détails. Une fois cette préférence activée, la bibliothèque doit choisir "
+"une des options ISBN (telle que :ref:`ThingISBN`). Cette option n'est "
+"disponible que pour l'OPAC - l'option :ref:`OPACFRBRizeEditions` doit être "
+"activée pour obtenir l'onglet Editions à l'OPAC."
 
 #: ../../source/systempreferences.rst:6478
 #: ../../source/systempreferences.rst:6524
@@ -7825,7 +7881,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:6484
 msgid "OPACFRBRizeEditions"
-msgstr "Régions de l'OPAC modifiables"
+msgstr "OPACFRBRizeEditions"
 
 # Cataloging > Interface
 #: ../../source/systempreferences.rst:6488
@@ -7835,6 +7891,23 @@ msgstr "Action : \\_\\_\\_ les autres éditions d\"un document à l'OPAC."
 #: ../../source/systempreferences.rst:6492
 msgid "Using the rules set forth in the Functional Requirements for Bibliographic records, this option, when enabled, pulls all editions of the same title available in your collection regardless of material type. Items will appear under an 'Editions' tab on the detail page for the title in question.. According to *Libraries Unlimited's Online Dictionary for Library and Information Science* (http://lu.com/odlis/), FRBRizing the catalog involves collating MARC records of similar materials. FRBRization brings together entities (sets of Works, Expressions, or Manifestations), rather than just sets of Items. It can aid patrons in selecting related items, expressions, and manifestations that will serve their needs. When it is set to \"Show\", the OPAC will query one or more ISBN web services for associated ISBNs and display an Editions tab on the details pages. Once this preference is enabled, the library must select one of the ISBN options (such as :ref:`ThingISBN`). This option is only for the OPAC - the :ref:`FRBRizeEditions` option must be turned \"On\" to have the Editions tab appear on the Staff Client."
 msgstr ""
+"Utilisant les règles établies dans le Functional Requirements for "
+"Bibliographic records, cette option, quand elle est activée, rassemble "
+"toutes les éditions d'un même titre disponible dans votre catalogue, quel "
+"que soit le support. Les exemplaires apparaîtront sous un onglet 'Editions' "
+"dans la page de détails du titre concerné. Selon *Libraries Unlimited's "
+"Online Dictionary for Library and Information Science* (http://lu.com/odlis/)"
+", FRBRiser le catalogue implique de lier les notices MARC d'oeuvres "
+"identiques. La FRBRisation rassemble des entités (ensembles d'Oeuvres, "
+"Expressions ou Manifestations) plutôt que uniquement des ensembles d'Items. "
+"Cela peut aider les adhérents dans leur sélection d'items, expressions et "
+"manifestations liés, pour répondre à leurs besoins. Si la préférence système "
+"est paramétrée sur \"Montrer\", l'OPAC va chercher, dans un ou plusieurs web "
+"services ISBN, les ISBN associés et afficher un onglet Editions sur la page "
+"de détails. Une fois cette préférence activée, la bibliothèque doit choisir "
+"une des options ISBN (telle que :ref:`ThingISBN`). Cette option n'est "
+"disponible que pour l'OPAC - l'option :ref:`OPACFRBRizeEditions` doit être "
+"activée pour obtenir l'onglet Editions à l'OPAC."
 
 #: ../../source/systempreferences.rst:6516
 msgid "|image47|"
@@ -7943,9 +8016,8 @@ msgstr "Cette préférence rends possible d'autoriser ou de prévenir les images
 
 #: ../../source/systempreferences.rst:6644
 #: ../../source/systempreferences.rst:6649
-#, fuzzy
 msgid "Babelthèque"
-msgstr "Babeltheque"
+msgstr "Babelthèque"
 
 # Enhanced Content > Babelthèque
 #: ../../source/systempreferences.rst:6653
@@ -7955,6 +8027,17 @@ msgstr "Action : \\_\\_\\_ ajoute les informations de Babelthèque (telles que c
 #: ../../source/systempreferences.rst:6658
 msgid "This preference makes it possible to display a Babelthèque tab in the OPAC, allowing patrons to access tags, reviews, and additional title information provided by Babelthèque. The information which Babelthèque supplies is drawn from the French language-based `Babelio.com <http://www.babelio.com/>`__, a French service similar to LibraryThing for Libraries. More information about Babelthèque is available through its website, `http://www.babeltheque.com <http://www.babeltheque.com/>`__. Libraries that wish to allow access to this information must first register for the service at http://www.babeltheque.com. Please note that this information is only provided in French."
 msgstr ""
+"Cette préférence rend possible l'affichage d'un onglet Babelthèque dans "
+"l'OPAC, permettant aux adhérents l'accès aux tags, aux critiques, et à de "
+"l'information de supplémentaire sur le titre offerts par Babelthèque. "
+"L'information offerte par Babeltheque est tirée du site francophone `"
+"Babelio.com <http://www.babelio.com/>`__, un service francophone similaire à "
+"'LibraryThing for Libraries'. Plus d'information est disponible sur le site "
+"web de Babelthèque :`http://www.babeltheque.com "
+"<http://www.babeltheque.com/>`__. Les bibliothèques qui veulent avoir accès "
+"à cette information doivent premièrement s'inscrire au service sur http://"
+"www.babeltheque.com. Veuillez noter que cette information est seulement "
+"disponible en français."
 
 #: ../../source/systempreferences.rst:6674
 msgid "|image48|"
@@ -8016,7 +8099,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:6747
 msgid "BakerTaylorEnabled"
-msgstr "Voir Baker & Taylor"
+msgstr "BakerTaylorEnabled"
 
 #: ../../source/systempreferences.rst:6749
 #: ../../source/systempreferences.rst:6894
@@ -8084,15 +8167,27 @@ msgstr ""
 #: ../../source/systempreferences.rst:6785
 msgid "This setting in only applicable if the library has a paid subscription to the external Content CafÃ© service from Baker & Taylor. Use the box provided to enter in the library's Content CafÃ© username and password. Also, ensure that the :ref:`BakerTaylorBookstoreURL` and :ref:`BakerTaylorEnabled` settings are properly set. The Content CafÃ© service is a feed of enhanced content such as cover art, professional reviews, and summaries that is displayed along with Staff Client/OPAC search results. For more information on this service please see the Baker & Taylor website: https://www.baker-taylor.com/"
 msgstr ""
+"Cette préférence est seulement applicable si la bibliothèque possède un "
+"abonnement au service externe 'Content Café' de Baker & Taylor. Utilisez la "
+"boîte disponible pour saisir le nom d'utilisateur et le mot de passe Content "
+"Café de la bibliothèque. Assurez-vous aussi que les paramètres de :ref:'`"
+"BakerTaylorBookstoreURL et :ref:`BakerTaylorEnabled ' sont bien configurés. "
+"Le 'Content Café' est un service de contenu augmenté tel que des "
+"couvertures, des critiques professionnelles et des résumés qui sont affichés "
+"avec les résultats de recherche dans l'OPAC et dans l'interface "
+"profesionnelle. Pour plus d'informations sur ce service, consultez le site "
+"web de Baker & Taylor : https://www.baker-taylor.com/"
 
 #: ../../source/systempreferences.rst:6805
-#, fuzzy
 msgid "Coce Cover images cache"
-msgstr "Local Cover Images"
+msgstr "Cache des images de couverture Coce"
 
 #: ../../source/systempreferences.rst:6807
 msgid "Coce is a remote image URL cache. With this option, cover images are not fetched directly from Amazon, Google, and so on. Their URLs are requested via a web service to Coce which manages a cache of URLs."
 msgstr ""
+"Coce est un cache d'URL d'images distant. Avec cette option, les images de "
+"couverture ne sont pas récupérées directement chez Amazon, Google etc. Leurs "
+"URLs sont interrogées via un web service vers Coce, qui gère un cache d'URLs."
 
 #: ../../source/systempreferences.rst:6814
 msgid "Coce"
@@ -8101,11 +8196,13 @@ msgstr "Coce"
 # Circulation > Checkout Policy
 #: ../../source/systempreferences.rst:6818
 msgid "Asks: \\_\\_\\_ a Coce image cache service."
-msgstr "Action : \\_\\_\\_ un serveur d'images de couverture locales."
+msgstr "Action : \\_\\_\\_ un serveur d'images de couverture Coce."
 
 #: ../../source/systempreferences.rst:6828
 msgid "Coce has many benefits when it comes to choosing and displaying cover images in Koha:"
 msgstr ""
+"Coce a beaucoup d'intérêts lorsqu'il s'agit de choisir et d'afficher des "
+"images de couvertures dans Koha :"
 
 #: ../../source/systempreferences.rst:6831
 msgid "If a book cover is not available from a provider, but is available from another one, Koha will be able to display a book cover, which isn't the case now"
@@ -8122,20 +8219,23 @@ msgstr ""
 #: ../../source/systempreferences.rst:6844
 msgid "Coce does not come bundled with Koha. Your Koha install will not already have a Coce server set up. Before enabling this functionality you will want to be sure to have a Coce server set up. Instructions on installing and setting up Coce can be found on the official github page at https://github.com/fredericd/coce."
 msgstr ""
+"Coce n'est pas fourni avec Koha. Votre installation Koha n'aura pas de "
+"serveur Coce paramétré. Avant de pouvoir activer cette fonctionnalité, vous "
+"devrez vous assurer d'avoir un serveur Coce configuré. Les instructions sur "
+"l'installation et la configuration de Coce peuvent être trouvées sur la page "
+"github officielle https://github.com/fredericd/coce."
 
 #: ../../source/systempreferences.rst:6853
 msgid "CoceHost"
 msgstr "CoceHost"
 
 #: ../../source/systempreferences.rst:6855
-#, fuzzy
 msgid "Asks: Coce server URL \\_\\_\\_"
-msgstr "Action : Les codes à barres sont générés automatiquement sous la forme \\_\\_\\_"
+msgstr "Action : URL du serveur Coce \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:6859
-#, fuzzy
 msgid "This will be the full URL (starting with http://) to your Coce server."
-msgstr "Ce doit être une URL complète, commençant par http://"
+msgstr "Ce sera l'URL complète (commençant par http://) de votre serveur Coce."
 
 #: ../../source/systempreferences.rst:6865
 msgid "CoceProviders"
@@ -8183,7 +8283,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:6915
 msgid "HTML5 Media"
-msgstr "HTML5 Media"
+msgstr "Contenu HTML5"
 
 #: ../../source/systempreferences.rst:6920
 msgid "HTML5MediaEnabled"
@@ -8201,7 +8301,7 @@ msgstr "Action : Afficher un onglet avec un lecteur média en HTML5 pour les fic
 
 #: ../../source/systempreferences.rst:6929
 msgid "in OPAC and staff client"
-msgstr "Koha poste bibliothécaire"
+msgstr "à l'OPAC et dans l'interface professionnelle"
 
 #: ../../source/systempreferences.rst:6931
 msgid "in the OPAC"
@@ -8213,7 +8313,7 @@ msgstr "|image49|"
 
 #: ../../source/systempreferences.rst:6935
 msgid "in the staff client"
-msgstr "Koha poste bibliothécaire"
+msgstr "dans l'interface professionnelle"
 
 #: ../../source/systempreferences.rst:6937
 msgid "|image50|"
@@ -8244,9 +8344,8 @@ msgid "Enter in file extensions separated with bar (\\|)"
 msgstr ""
 
 #: ../../source/systempreferences.rst:6963
-#, fuzzy
 msgid "HTML5MediaYouTube"
-msgstr "HTML5 Media"
+msgstr "HTML5MediaYouTube"
 
 #: ../../source/systempreferences.rst:6965
 #, fuzzy
@@ -8255,7 +8354,7 @@ msgstr "Par défaut : ne pas permettre"
 
 #: ../../source/systempreferences.rst:6969
 msgid "To turn this on first enable :ref:`HTML5MediaEnabled`"
-msgstr ""
+msgstr "Pour activer ceci, activez tout d'abord :ref:'HTML5MediaEnabled'"
 
 #: ../../source/systempreferences.rst:6972
 msgid "Asks: \\_\\_\\_ YouTube links as videos."
@@ -8272,6 +8371,9 @@ msgstr "Incorporer"
 #: ../../source/systempreferences.rst:6982
 msgid "This preference will allow MARC21 856$u that points to YouTube to appear as a playable video on the pages defined in :ref:`HTML5MediaEnabled`."
 msgstr ""
+"Cette préférence permettra au champ MARC21 856$u qui cible un lien YouTube "
+"d'être affiché en tant que vidéo exécutable dans les pages qui ont été "
+"définies dans `HTML5MediaEnabled'."
 
 #: ../../source/systempreferences.rst:6989
 msgid "IDreamLibraries"
@@ -8404,7 +8506,9 @@ msgstr "Définir à 'Utiliser' pour activer un onglet 'Éditions' dans la page d
 
 #: ../../source/systempreferences.rst:7165
 msgid "Requires :ref:`FRBRizeEditions` and/or :ref:`OPACFRBRizeEditions` set to 'show'"
-msgstr "Nécessite que :ref:`FRBRizeEditions` et/ou :ref:`OPACFRBRizeEditions' soient paramétrés sur « Montrer »"
+msgstr ""
+"Nécessite que :ref:`FRBRizeEditions` et/ou :ref:`OPACFRBRizeEditions' soient "
+"paramétrées sur 'Montrer'"
 
 #: ../../source/systempreferences.rst:7170
 msgid "This is separate from Library Thing for Libraries and does not have a cost associated with it."
@@ -8427,15 +8531,19 @@ msgstr "Action : \\_\\_\\_ de rattacher plusieurs images à chaque notice biblio
 #: ../../source/systempreferences.rst:7196
 msgid "If this preference is set to 'Allow' then you can upload multiple images that will appear in the images tab on the bib record in the OPAC and the staff client. This preference requires that either one or both :ref:`LocalCoverImages` and :ref:`OPACLocalCoverImages` are set to 'Display.^"
 msgstr ""
+"Si cette préférence est configurée sur 'Permettre' alors vous pourrez "
+"téléverser de multiples images qui apparaîtront dans l'onglet 'images' de la "
+"notice bibliographique, à l'OPAC et dans l'interface professionnelle. Cette "
+"préférence nécessite que :ref:`LocalCoverImages` et/ou "
+":ref:`OPACLocalCoverImages`soient configurées sur 'Afficher'."
 
 #: ../../source/systempreferences.rst:7203
 msgid "|image54|"
 msgstr "|image54|"
 
 #: ../../source/systempreferences.rst:7209
-#, fuzzy
 msgid "CustomCoverImages"
-msgstr "LocalCoverImages"
+msgstr "CustomCoverImages"
 
 #: ../../source/systempreferences.rst:7213
 #, fuzzy
@@ -8445,16 +8553,19 @@ msgstr "Action : \\_\\_\\_ l'option panier dans l'interface professionnelle."
 #: ../../source/systempreferences.rst:7223
 msgid "If you use :ref:`CustomCoverImagesURL`, this preference indicates if you want these cover images to appear in the staff interface."
 msgstr ""
+"Si vous utilisez :ref:`CustomCoverImagesURL`, cette préférence indique si "
+"vous voulez que ces couvertures soient affichées dans l'interface "
+"professionnelle."
 
 #: ../../source/systempreferences.rst:7226
-#, fuzzy
 msgid "Use :ref:`OPACCustomCoverImages` if you want those images to appear in the OPAC."
-msgstr "Ces préférences systèmes peuvent être modifiées par l'adhérent via l'OPAC"
+msgstr ""
+"Utilisez :ref:`OPACCustomCoverImages` si vous voulez que ces images "
+"apparaissent à l'OPAC."
 
 #: ../../source/systempreferences.rst:7232
-#, fuzzy
 msgid "OPACCustomCoverImages"
-msgstr "OPACLocalCoverImages"
+msgstr "OPACCustomCoverImages"
 
 #: ../../source/systempreferences.rst:7236
 #, fuzzy
@@ -8464,15 +8575,18 @@ msgstr "Action : \\_\\_\\_ des adhérents à l'OPAC."
 #: ../../source/systempreferences.rst:7246
 msgid "If you use :ref:`CustomCoverImagesURL`, this preference indicates if you want these cover images to appear in the OPAC."
 msgstr ""
+"Si vous utilisez :ref:`CustomCoverImagesURL`, cette préférence indique si "
+"vous voulez que ces couvertures soient affichées à l'OPAC."
 
 #: ../../source/systempreferences.rst:7249
 msgid "Use :ref:`CustomCoverImages` if you want those images to appear in the staff interface."
 msgstr ""
+"Utilisez :ref:`CustomCoverImages` si vous voulez que ces images apparaissent "
+"dans l'interface professionnelle."
 
 #: ../../source/systempreferences.rst:7255
-#, fuzzy
 msgid "CustomCoverImagesURL"
-msgstr "LocalCoverImages"
+msgstr "CustomCoverImagesURL"
 
 # Administration > Search Engine
 #: ../../source/systempreferences.rst:7257
@@ -8499,6 +8613,9 @@ msgstr ""
 #: ../../source/systempreferences.rst:7273
 msgid "Make sure to enable :ref:`CustomCoverImages` if you want those images to appear in the staff interface and :ref:`OPACCustomCoverImages` if you want those images to appear in the OPAC."
 msgstr ""
+"Assurez-vous d'activer :ref:`CustomCoverImages` si vous souhaitez que ces "
+"images apparaissent dans l'interface professionnelle et "
+":ref:`OPACCustomCoverImages` si vous souhaitez qu'elles s'affichent à l'OPAC."
 
 #: ../../source/systempreferences.rst:7280
 msgid "LocalCoverImages"
@@ -8553,6 +8670,8 @@ msgstr ""
 #: ../../source/systempreferences.rst:7344
 msgid "If the URL starts with '/', the value of :ref:`staffClientBaseURL` will be used as a prefix."
 msgstr ""
+"Si vous saisissez une URL commençant par '/', la valeur de :ref:"
+"'staffClientBaseURL' sera utilisée comme préfixe."
 
 #: ../../source/systempreferences.rst:7347
 msgid "Note that it will be suffixed by the version / the language / the format (/17.11/en/html)"
@@ -8582,13 +8701,19 @@ msgid "Novelist Select"
 msgstr "Sélection Novelist"
 
 #: ../../source/systempreferences.rst:7371
-#, fuzzy
 msgid "Novelist Select is not a free service. Contact your Ebsco representative to get your log in information to embed this content in the OPAC."
-msgstr "Ceci est un service payant. Contactez Babelthèque pour pouvoir activer ce contenu dans l'OPAC."
+msgstr ""
+"Novelist Select n'est pas un service gratuit. Contactez votre représentant "
+"Ebsco pour savoir comment vous connecter et activer ce contenu dans l'OPAC."
 
 #: ../../source/systempreferences.rst:7376
 msgid "Novelist Select does not include cover images for the search results and bibliographic detail pages. You can choose any other cover image service for this content or you can contract with Ebsco to get access to the :ref:`Baker & Taylor Content Cafe <baker-and-taylor-label>` for an added fee."
 msgstr ""
+"Novelist Select n'inclut pas d'images de couverture dans les résultats de "
+"recherche ni dans les détails des notices bibliographiques. Vous pouvez "
+"choisir n'importe quel autre service d'images pour ce contenu ou vous pouvez "
+"vous abonner à Ebsco pour avoir accès au `Baker & Taylor Content Cafe <baker-"
+"and-taylor-label>` pour un coût supplémentaire."
 
 #: ../../source/systempreferences.rst:7385
 msgid "NovelistSelectEnabled"
@@ -8601,20 +8726,26 @@ msgstr "Action : \\_\\_\\_Contenu Novelist select à l'OPAC."
 #: ../../source/systempreferences.rst:7399
 msgid "Enabling this requires that you have entered in a user profile and password in the :ref:`NovelistSelectProfile and NovelistSelectPassword` preferences"
 msgstr ""
+"Activer ceci nécessite que vous avez saisi un profil d'utilisateur et un mot "
+"de passe dans les préférences :ref:`NovelistSelectProfile et "
+"NovelistSelectPassword`"
 
 #: ../../source/systempreferences.rst:7404
 #: ../../source/systempreferences.rst:7422
 msgid "Novelist Select from Ebsco is a subscription service that can provide additional content in the OPAC."
 msgstr ""
+"Novelist Select de Ebsco est un service par abonnement pouvant fournir du "
+"contenu additionnel dans l'OPAC."
 
 #: ../../source/systempreferences.rst:7410
-#, fuzzy
 msgid "NovelistSelectProfile and NovelistSelectPassword"
-msgstr "NovelistSelectProfile & NovelistSelectPassword"
+msgstr "NovelistSelectProfile et NovelistSelectPassword"
 
 #: ../../source/systempreferences.rst:7412
 msgid "Asks: Access Novelist Select using user profile \\_\\_\\_ and password \\_\\_\\_."
 msgstr ""
+"Action : Accéder à Novelist Select en utilisant le nom d'utilisateur \\_\\_\\"
+"_ et le mot de passe \\_\\_\\_ ."
 
 #: ../../source/systempreferences.rst:7417
 msgid "This information will be visible if someone views the source code on your OPAC."
@@ -8636,6 +8767,8 @@ msgstr "NovelistSelectStaffProfile"
 #: ../../source/systempreferences.rst:7447
 msgid "Asks: Access Novelist Select using user profile \\_\\_\\_ on the staff client"
 msgstr ""
+"Action : Accéder à Novelist Select en utilisant le nom d'utilisateur \\_\\_\\"
+"_ sur l'interface professionnelle ."
 
 #: ../../source/systempreferences.rst:7451
 msgid "Without this value being set, Novelist features will be disabled on the staff client until a correct profile is obtained from Novelist and entered into the field."
@@ -8904,9 +9037,8 @@ msgid "When enabled this option shows information on other editions of a title f
 msgstr "Lorsque cette option est activée, elle affiche des informations sur d'autres éditions d'un titre de Syndetics sur les pages de détail du document à l'OPAC. Syndetics est un service d'abonnement payant. Le Code :ref:`SyndeticsClientCode` doit être entré et l'option :ref:`SyndeticsEnabled` doit être activée pour que ce service puisse être utilisé."
 
 #: ../../source/systempreferences.rst:7804
-#, fuzzy
 msgid "Requires :ref:`OPACFRBRizeEditions` set to 'show'"
-msgstr ":ref:`OPACFRBRizeEditions` = Montrer"
+msgstr "Nécessite que :ref:`OPACFRBRizeEditions` soit paramétrée sur 'Montrer'"
 
 #: ../../source/systempreferences.rst:7810
 msgid "SyndeticsEnabled"
@@ -9109,9 +9241,8 @@ msgid "These preferences control your Internationalization and Localization sett
 msgstr "Ces préférences paramètrent l'internationalisation et la localisation, telles que les formats de date ou les langues."
 
 #: ../../source/systempreferences.rst:8116
-#, fuzzy
 msgid "*Get there:* More > Administration > Global System Preferences > I18N/L10N"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Labs"
+msgstr "*Aller à :* Plus > Administration > Préférences système > I18N/L10N"
 
 #: ../../source/systempreferences.rst:8122
 msgid "AddressFormat"
@@ -9356,6 +9487,9 @@ msgstr "INTRAdidyoumean"
 #: ../../source/systempreferences.rst:8348
 msgid "Asks: Did you mean? configuration for the Intranet. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl."
 msgstr ""
+"Action : Configuration de la fonctionnalité Vouliez-vous dire ? pour "
+"l'interface professionnelle. Ne pas la modifier, car elle est gérée par /cgi-"
+"bin/koha/admin/didyoumean.pl."
 
 #: ../../source/systempreferences.rst:8354
 msgid "OPACdidyoumean"
@@ -9364,6 +9498,8 @@ msgstr "OPACdidyoumean"
 #: ../../source/systempreferences.rst:8358
 msgid "Asks: Did you mean? configuration for the OPAC. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl."
 msgstr ""
+"Action : Configuration de la fonctionnalité Vouliez-vous dire ? pour l'OPAC. "
+"Ne pas la modifier, car elle est gérée par /cgi-bin/koha/admin/didyoumean.pl."
 
 #: ../../source/systempreferences.rst:8364
 msgid "printcirculationships"
@@ -9406,20 +9542,21 @@ msgstr "UsageStatsID"
 
 #: ../../source/systempreferences.rst:8403
 msgid "Asks: Public ID for Hea website"
-msgstr ""
+msgstr "Action : Identification publique sur le site Hea"
 
 #: ../../source/systempreferences.rst:8408
 msgid "Version"
 msgstr "Version"
 
 #: ../../source/systempreferences.rst:8410
-#, fuzzy
 msgid "Default: automatically generated"
-msgstr "Défaut"
+msgstr "Par défaut : générée automatiquement"
 
 #: ../../source/systempreferences.rst:8412
 msgid "Asks: The Koha database version. WARNING: Do not change this value manually. It is maintained by the webinstaller"
 msgstr ""
+"Action : La version de la base de données Koha. AVERTISSEMENT : Ne pas "
+"changer cette valeur manuellement. Elle est mise à jour par le webinstaller"
 
 #: ../../source/systempreferences.rst:8418
 msgid "Logs"
@@ -9637,7 +9774,6 @@ msgid "OPAC"
 msgstr "OPAC"
 
 #: ../../source/systempreferences.rst:8668
-#, fuzzy
 msgid "*Get there:* More > Administration > Global system preferences > OPAC"
 msgstr "*Aller à :* Plus > Administration > Préférences système > OPAC"
 
@@ -9731,7 +9867,6 @@ msgid "Asks: \\_\\_\\_ images for authorized values (such as lost statuses and l
 msgstr ""
 
 #: ../../source/systempreferences.rst:8761
-#, fuzzy
 msgid "*Get there:* More > Administration > :ref:`Authorized values <authorized-values-label>`"
 msgstr "*Aller à :* Plus > Administration > :ref:`Valeurs autorisées <authorized-values-label>`"
 
@@ -10213,15 +10348,13 @@ msgid "Edit :ref:`LibraryName` if you'd like to edit the contents of the <title>
 msgstr ""
 
 #: ../../source/systempreferences.rst:9230
-#, fuzzy
 msgid "OpacHighlightedWords and NotHighlightedWords"
-msgstr "OpacHighlightedWords & NotHighlightedWords"
+msgstr "OpacHighlightedWords et NotHighlightedWords"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:9232
-#, fuzzy
 msgid "OpacHighlightedWords Default: Don't highlight"
-msgstr "Ne pas surligner"
+msgstr "Par défaut : Ne pas surligner"
 
 #: ../../source/systempreferences.rst:9234
 msgid "NotHighlightedWords Default: and\\|or\\|not"
@@ -10505,9 +10638,11 @@ msgstr "OPACMySummaryHTML"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:9490
-#, fuzzy
 msgid "Asks: Include a \"Links\" column on the \"your summary\" tab when a user is logged in to the OPAC, with the following HTML (leave blank to disable)."
-msgstr "Inclure une colonne Liens à l'onglet Mon compte quand un adhérent est connecté à l'OPAC, contenant le code HTML suivant (vide si on ne veut rien) :"
+msgstr ""
+"Action : Inclure une colonne 'Liens' à l'onglet 'mon compte' quand un "
+"adhérent est connecté à l'OPAC, contenant le code HTML suivant (laisser vide "
+"pour désactiver)."
 
 #: ../../source/systempreferences.rst:9495
 msgid "In this preference you can enter HTML that will appear on the 'Checked Out' tab on the 'your summary' section when logged in to the OPAC. The placeholders {BIBLIONUMBER}, {TITLE}, {ISBN} and {AUTHOR} will be replaced with information from the displayed record. This can be used to enter in 'share' links for social networks or generate searches against other library catalogs."
@@ -10694,9 +10829,8 @@ msgid "The placeholders {BIBLIONUMBER}, {CONTROLNUMBER}, {TITLE}, {ISBN}, {ISSN}
 msgstr "Les variables {BIBLIONUMBER}, {CONTROLNUMBER}, {TITLE}, {ISBN}, {ISSN} et {AUTHOR} seront remplacées par les informations du résultat affiché."
 
 #: ../../source/systempreferences.rst:9686
-#, fuzzy
 msgid "OpacSeparateHoldings and OpacSeparateHoldingsBranch"
-msgstr "OpacSeparateHoldings & OpacSeparateHoldingsBranch"
+msgstr "OpacSeparateHoldings et OpacSeparateHoldingsBranch"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:9688
@@ -10817,9 +10951,10 @@ msgid "Asks: \\_\\_\\_ unused authorities in the OPAC authority browser."
 msgstr "Action : \\_\\_\\_ les autorités non utilisées dans le navigateur d'autorités de l'OPAC."
 
 #: ../../source/systempreferences.rst:9830
-#, fuzzy
 msgid "Requires that the :ref:`OpacAuthorities` preference is set to 'Allow'"
-msgstr "Nécessite que vous régliez OpacAllowSharingPrivateLists sur \"Permettre\""
+msgstr ""
+"Nécessite que la préférence :ref:`OpacAuthorities` soit configurée sur "
+"'Autoriser'"
 
 #: ../../source/systempreferences.rst:9835
 msgid "When patrons search your authority file via the OPAC they will see all authorities in your system even if you don't have them linked to any bibliographic records. This preference lets you determine what the default behavior is when searching authorities via the OPAC. If you choose 'Do not show' it will only show patrons authority records that are linked to bib records in the search results. Otherwise the system will show all authority records even if they aren't linked to records."
@@ -10868,6 +11003,11 @@ msgstr "Action : \\_\\_\\_ à l'OPAC le nom de la personne qui gère une suggest
 #: ../../source/systempreferences.rst:9891
 msgid "If you're :ref:`allowing patrons to make purchase suggestions <suggestion-label>` then they will see the 'your purchase suggestions' tab when logged in. This tab shows the patron the librarian who approved or rejected the purchase suggestion. This preference controls if the patron sees the librarian's name or not."
 msgstr ""
+"Si vous :ref:'permettez aux adhérents de faire des suggestions d'achat "
+"<suggestion-label>' alors ils verront l'onglet 'mes suggestions d'achat' une "
+"fois connectés. Cet onglet montre, à l'adhérent, le bibliothécaire qui a "
+"accepté ou rejeté la suggestion d'achat. Cette préférence décide si "
+"l'adhérent voit ou non le nom du bibliothécaire."
 
 #: ../../source/systempreferences.rst:9900
 msgid "opacthemes"
@@ -11219,9 +11359,8 @@ msgid "Asks: \\_\\_\\_ a subject cloud on OPAC"
 msgstr ""
 
 #: ../../source/systempreferences.rst:10282
-#, fuzzy
 msgid "OPACDetailQRCode"
-msgstr "OPACPatronDetails"
+msgstr "OPACDetailQRCode"
 
 #: ../../source/systempreferences.rst:10286
 #, fuzzy
@@ -11242,9 +11381,10 @@ msgstr "OPACFinesTab"
 
 # OPAC > Features
 #: ../../source/systempreferences.rst:10311
-#, fuzzy
 msgid "Asks: \\_\\_\\_ patrons to access the Fines tab on the 'your summary' page on the OPAC."
-msgstr "Action : \\_\\_\\_ les adhérents à avoir accès à l'onglet Amendes sur leur page Mon compte à l'OPAC."
+msgstr ""
+"Action : \\_\\_\\_ les adhérents à avoir accès à l'onglet Amendes sur leur "
+"page 'mon compte' à l'OPAC."
 
 # OPAC > Features
 #: ../../source/systempreferences.rst:10318
@@ -11380,6 +11520,10 @@ msgstr "Action : \\_\\_\\_ les photos des adhérents sur la page d'information a
 #: ../../source/systempreferences.rst:10476
 msgid "If :ref:`patronimages` is set to allow the upload of patron images via the staff client, then setting this preference to 'show' will show the patron what image you have on file for them when they view their personal information on their account in the OPAC."
 msgstr ""
+"Si :ref:`patronimages` est configurée sur 'Autoriser' le téléversement "
+"d'images des adhérents dans l'interface professionnelle, alors paramétrer "
+"cette préférence sur 'Afficher' permettra à l'adhérent de voir quelle image "
+"vous avez de lui quand il consultera son compte à l'OPAC."
 
 # OPAC > Features
 #: ../../source/systempreferences.rst:10484
@@ -11734,9 +11878,8 @@ msgid "Asks: The password for the PayPal account to receive payments is \\_\\_\\
 msgstr "Action : Le mot de passe du compte PayPal pour recevoir des paiements est \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:10848
-#, fuzzy
 msgid "PayPalReturnURL"
-msgstr "PayPalUser"
+msgstr "PayPalReturnURL"
 
 #: ../../source/systempreferences.rst:10850
 msgid "Asks: After payment or cancellation, PayPal should return to the \\_\\_\\_"
@@ -11868,7 +12011,12 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:11021
 msgid "Generally you would set this system preference to align with the :ref:`AccountAutoReconcile` system preference.  If you have AccountAutoReconcile set to ‘Do’ you should leave this system preference as ‘Include’.  If you have AccountAutoReconcile set to ‘Do not’ it would make sense to have this set as ‘Don’t include’."
-msgstr "Vous devriez paramétrer cette préférence système en concordance avec la préférence sytème :ref:`AccountAutoReconcile`. Si AccountAutoReconcile est paramétrée sur 'Rapprocher', vous devriez laisser cette préférence sur 'Inclure'. Si AccountAutoReconcile est paramétrée sur 'Ne pas rapprocher', vous devriez laisser cette préférence sur 'Ne pas inclure'."
+msgstr ""
+"Vous devriez paramétrer cette préférence système en concordance avec la "
+"préférence système :ref:`AccountAutoReconcile`. Si AccountAutoReconcile est "
+"paramétrée sur 'Rapprocher', vous devriez laisser cette préférence sur "
+"'Inclure'. Si AccountAutoReconcile est paramétrée sur 'Ne pas rapprocher', "
+"vous devriez laisser cette préférence sur 'Ne pas inclure'."
 
 #: ../../source/systempreferences.rst:11030
 msgid "OpacHiddenItems"
@@ -11896,9 +12044,8 @@ msgid "In items my items.itype 07 is defined in Item Types Administration as Sta
 msgstr ""
 
 #: ../../source/systempreferences.rst:11063
-#, fuzzy
 msgid "OpacHiddenItemsExceptions"
-msgstr "OpacHiddenItems"
+msgstr "OpacHiddenItemsExceptions"
 
 #: ../../source/systempreferences.rst:11067
 msgid "Asks: List of borrower categories, separated by (pipe) \\|, that can see items otherwise hidden by OpacHiddenItems"
@@ -11987,9 +12134,8 @@ msgid "Copyright or publication date"
 msgstr "Copyright ou année de publication, par exemple : 2016"
 
 #: ../../source/systempreferences.rst:11150
-#, fuzzy
 msgid "ISBN, ISSN or other standard number"
-msgstr "ISBN, ISSN ou autre numéro :"
+msgstr "ISBN, ISSN ou autre numéro normalisé"
 
 #: ../../source/systempreferences.rst:11152
 msgid "Item type"
@@ -12077,7 +12223,6 @@ msgid "Asks: \\_\\_\\_ patrons to choose their own privacy settings for showing 
 msgstr "Action : \\_\\_\\_ adhérents de choisir leurs propres paramètres de confidentialité : montrer ou non leurs prêts à leur garant."
 
 #: ../../source/systempreferences.rst:11231
-#, fuzzy
 msgid "By default staff can see checkouts to family members via the staff client. This preference will allow guarantees (children) to grant permission to guarantors (guardians) to view their current checkouts via the public catalog. This preference requires that you allow patrons to choose their own privacy with the :ref:`OPACPrivacy` preference."
 msgstr "Par défaut, les professionnels peuvent voir les prêts en cours des membres de la famille via l'interface professionnelle. Cette préférence permettra aux personnes cautionnées (enfants) d’autoriser leurs garants (tuteurs) à consulter leurs prêts en cours via l'OPAC. Cette préférence nécessite d'autoriser les adhérents à choisir leurs propres paramètres de confidentialité avec la préférence : ref: `OPACPrivacy`."
 
@@ -12159,6 +12304,9 @@ msgstr ""
 #: ../../source/systempreferences.rst:11329
 msgid "If patron has chosen to have their reading history anonymized and you have :ref:`StoreLastBorrower` set to \"Don't store\" then as soon as the item is checked in the last borrower will be anonymized."
 msgstr ""
+"Si l'adhérent a choisi d'anonymiser son historique de prêt et que vous avez "
+"paramétré :ref:'StoreLastBorrower' sur 'Ne pas stocker', l'anonymisation du "
+"dernier emprunteur se fait dès le retour du document."
 
 #: ../../source/systempreferences.rst:11337
 msgid "opacreadinghistory"
@@ -12172,6 +12320,8 @@ msgstr "Action : \\_\\_\\_ aux adhérents de voir l'historique de leurs prêts."
 #: ../../source/systempreferences.rst:11346
 msgid "Enabling this will make it so that patrons can view their circulation history in the OPAC unless you have :ref:`OPACPrivacy` set to 'Allow'."
 msgstr ""
+"Activer ceci permettra aux adhérents de consulter leur historique de prêt à "
+"l'OPAC, sauf si vous avez paramétré :ref:`OPACPrivacy` sur 'Autoriser'."
 
 #: ../../source/systempreferences.rst:11352
 msgid "This data is stored in the system regardless of your choice, unless your patrons have chosen to never have their reading history kept."
@@ -12207,9 +12357,10 @@ msgstr ""
 
 # OPAC > Privacy
 #: ../../source/systempreferences.rst:11378
-#, fuzzy
 msgid "This setting is independent of :ref:`opacreadinghistory` and/or :ref:`AnonymousPatron`."
-msgstr "opac.pref#StoreLastBorrower#l le dernier adhérent rendre un document. Ce paramétrage est indépendant de opacreadinghistory/AnonymousPatron."
+msgstr ""
+"Ce paramétrage est indépendant de :ref:`opacreadinghistory` et/ou "
+":ref:`AnonymousPatron`."
 
 #: ../../source/systempreferences.rst:11385
 msgid "TrackClicks"
@@ -12229,9 +12380,8 @@ msgid "Don't track"
 msgstr "Ne pas bloquer"
 
 #: ../../source/systempreferences.rst:11395
-#, fuzzy
 msgid "Track"
-msgstr "TrackClicks"
+msgstr "Piste"
 
 #: ../../source/systempreferences.rst:11397
 msgid "Track anonymously"
@@ -12500,6 +12650,13 @@ msgstr "Action : \\_\\_\\_ qu'un adhérent auto-enregistré valide son inscripti
 #: ../../source/systempreferences.rst:11703
 msgid "If you require patrons to verify their accounts via email they will not be able to log in to the OPAC until they acknowledge the email sent by Koha. If you don't require this then patrons will be able to log in as soon as they fill in the registration form. You can set the :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` preference to delete the un-verified self registrations after a certain number of days."
 msgstr ""
+"Si vous exigez des adhérents de vérifier leur compte par courriel, ils ne "
+"pourront se connecter à l'OPAC avant d'accuser réception du courriel envoyé "
+"par Koha. Si vous ne l'exigez pas, les adhérents pourront se connecter "
+"aussitôt le formulaire d'inscription renseigné. Vous pouvez paramétrer la "
+"préférence :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` pour "
+"supprimer les auto-inscriptions non-vérifiées après un certain nombre de "
+"jours."
 
 #: ../../source/systempreferences.rst:11713
 msgid "If you're going to require that patrons verify their accounts via email then the email field will automatically be marked as required."
@@ -12676,7 +12833,7 @@ msgstr "Si :ref:`PatronQuickAddFields` ou bien :ref:`BorrowerMandatoryField` est
 
 #: ../../source/systempreferences.rst:11965
 msgid "borrowerRelationship"
-msgstr "BorrowerRelationship"
+msgstr "borrowerRelationship"
 
 #: ../../source/systempreferences.rst:11967
 msgid "Default: father\\|mother"
@@ -12933,7 +13090,7 @@ msgstr "Action : \\_\\_\\_ Facturez des frais quand un adhérent passe à une ca
 
 #: ../../source/systempreferences.rst:12289
 msgid "intranetreadinghistory"
-msgstr "IntranetReadingHistory"
+msgstr "intranetreadinghistory"
 
 #: ../../source/systempreferences.rst:12293
 #, fuzzy
@@ -12941,9 +13098,11 @@ msgid "Asks: \\_\\_\\_ staff to access a patron's checkout and hold history."
 msgstr "Action : \\_\\_\\_ les bibliothécaires à accéder à l'historique de prêts et de réservations des adhérents"
 
 #: ../../source/systempreferences.rst:12297
-#, fuzzy
 msgid "If you have the :ref:`OPACPrivacy` preference set to 'Allow' and the patron has decided to not have their history kept staff will only see currently checked out items."
-msgstr "L'onglet d'historique des prêts est affiché si vous avez activé la préférence système intranetreadinghistory. Si vous avez activé la préférence système OPACPrivacy, et si l'adhérent a décidé que la bibliothèque ne peut pas garder l'historique de ses prêts, cet onglet n'affichera que les exemplaires qui sont actuellement empruntés."
+msgstr ""
+"Si la préférence :ref:'OPACPrivacy' est configurée sur 'Autoriser' mais que "
+"l'adhérent a décidé de ne pas conserver son historique de prêt, les "
+"professionnels pourront seulement voir les exemplaires présentement prêtés."
 
 #: ../../source/systempreferences.rst:12309
 msgid "Reading history is still stored, regardless of staff being allowed access or not unless the patron has chosen to have their history anonymized via their :ref:`privacy page <your-privacy-label>`."
@@ -13030,6 +13189,14 @@ msgstr "Action : \\_\\_\\_ le chargement d'images pouvant être liées à la fic
 #: ../../source/systempreferences.rst:12402
 msgid "If this preference is set to 'Allow' the staff will be able to upload images of patrons either :ref:`one by one <add-patron-images-label>` or :ref:`in bulk <upload-patron-images-label>`. Patrons images will show on the detail page to the left of the patron information. They can also show in the OPAC if you set the :ref:`OPACpatronimages` preference or in the self check out module if you set the :ref:`ShowPatronImageInWebBasedSelfCheck` preference."
 msgstr ""
+"Si cette préférence est configurée sur 'Autoriser' les professionnels "
+"pourront téléverser les images des adhérents soit une par une <add-patron-"
+"images-label> ou :ref:'par lot <upload-patron-images-label>`. Les images des "
+"adhérents apparaîtront sur la page de détail à la gauche des informations "
+"sur l'adhérent. Elles peuvent aussi être affichées dans l'OPAC si la "
+"préférence `OPACpatronimage' est activée, ainsi que dans le module de prêt "
+"en libre service si vous avez configuré la préférence "
+":ref:'ShowPatronImageInWebBasedSelfCheck'."
 
 #: ../../source/systempreferences.rst:12414
 msgid "PatronQuickAddFields"
@@ -13093,9 +13260,8 @@ msgstr ""
 
 # Patrons > General
 #: ../../source/systempreferences.rst:12473
-#, fuzzy
 msgid "RequireStrongPassword"
-msgstr "Exiger"
+msgstr "RequireStrongPassword"
 
 # Patrons > General
 #: ../../source/systempreferences.rst:12477
@@ -13167,7 +13333,7 @@ msgstr "Vous devez autoriser :ref:`EnhancedMessagingPreferences` pour que cela f
 
 #: ../../source/systempreferences.rst:12543
 msgid "SMSSendUsername, SMSSendPassword and EmailSMSSendDriverFromAddress"
-msgstr ""
+msgstr "SMSSendUsername, SMSSendPassword et EmailSMSSendDriverFromAddress"
 
 #: ../../source/systempreferences.rst:12545
 msgid "Asks: Define a username/login \\_\\_\\_ and a password \\_\\_\\_.  Override from address with \\_\\_\\_ for emails sent using \"Email\" send driver."
@@ -13179,7 +13345,7 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:12558
 msgid "StatisticsFields"
-msgstr "Statistiques"
+msgstr "StatisticsFields"
 
 #: ../../source/systempreferences.rst:12560
 msgid "Default: location\\|itype\\|ccode"
@@ -13205,7 +13371,7 @@ msgstr "Cette préférence vous permet de configurer quels champs seront affich�
 # Patrons > General
 #: ../../source/systempreferences.rst:12579
 msgid "TalkingTechItivaPhoneNotification"
-msgstr "Activer"
+msgstr "TalkingTechItivaPhoneNotification"
 
 # Patrons > General
 #: ../../source/systempreferences.rst:12583
@@ -13242,7 +13408,7 @@ msgstr "Action : \\_\\_\\_ les noms des adhérents en majuscules."
 
 #: ../../source/systempreferences.rst:12637
 msgid "UseEmailReceipts"
-msgstr ""
+msgstr "UseEmailReceipts"
 
 # Circulation > Checkout Policy
 #: ../../source/systempreferences.rst:12641
@@ -13383,9 +13549,8 @@ msgid "Searching"
 msgstr "Recherche"
 
 #: ../../source/systempreferences.rst:12806
-#, fuzzy
 msgid "*Get there:* More > Administration > Global System Preferences > Searching"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Adhérents"
+msgstr "*Aller à :* Plus > Administration > Préférences système > Recherche"
 
 #: ../../source/systempreferences.rst:12817
 msgid "BrowseResultSelection"
@@ -13423,7 +13588,7 @@ msgstr "Cette préférence contrôle le fait que les employés conservent l'hist
 # Searching > Features
 #: ../../source/systempreferences.rst:12860
 msgid "IncludeSeeFromInSearches"
-msgstr "Inclure"
+msgstr "IncludeSeeFromInSearches"
 
 #: ../../source/systempreferences.rst:12864
 msgid "Asks: \\_\\_\\_ *see from* (non-preferred form) headings in bibliographic searches."
@@ -13547,6 +13712,11 @@ msgstr "Recherches pour les sujets complets (par exemple : opac-search.pl?q=su,c
 #: ../../source/systempreferences.rst:13026
 msgid "When TraceCompleteSubfields is set to \"force,\" clicking on links in non-authority controlled subject tracings will only find other records where the entire subfields match. Leaving it at \"don't force\" does a keyword search of the subject indexes."
 msgstr ""
+"Si TraceCompleteSubfields est paramétrée sur 'Forcer', cliquer sur le lien "
+"d'un sujet qui n'est pas géré par une autorité sujet trouvera les autres "
+"notices dans lesquelles tous les sous-champs correspondent. Laisser le "
+"paramétrage sur 'Ne pas forcer', opèrera une recherche par mot-clef dans les "
+"index sujet."
 
 #: ../../source/systempreferences.rst:13033
 #: ../../source/systempreferences.rst:13068
@@ -13600,6 +13770,11 @@ msgstr "publication autonome"
 #: ../../source/systempreferences.rst:13088
 msgid "ICU is a set of code libraries providing Unicode and Globalization support for software applications. What this means is ICU Zebra indexing is only necessary if you use non-roman characters in your cataloging. If using ICU Zebra indexing you will want to not use :ref:`QueryFuzzy`."
 msgstr ""
+"ICU est un ensemble de bibliothèques de codes fournissant un support pour "
+"Unicode et Globalization pour des logiciels.Ce qui signifie que l'indexation "
+"ICU Zebra n'est nécessaire que si votre catalogue contient des caractères "
+"non-romains. Si vous utilisez l'indexation ICU Zebra, vous souhaiterez ne "
+"pas utiliser :ref:`QueryFuzzy`."
 
 # Searching > Features
 #: ../../source/systempreferences.rst:13096
@@ -14068,9 +14243,8 @@ msgid "Serials"
 msgstr "Périodiques"
 
 #: ../../source/systempreferences.rst:13570
-#, fuzzy
 msgid "*Get there:* More > Administration > Global System Preferences > Serials"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Labs"
+msgstr "*Aller à :* Plus > Administration > Préférences système > Périodiques"
 
 # Serials
 #: ../../source/systempreferences.rst:13575
@@ -14277,9 +14451,10 @@ msgid "Staff client"
 msgstr "Interface bibliothécaire"
 
 #: ../../source/systempreferences.rst:13776
-#, fuzzy
 msgid "*Get there:* More > Administration > Global system preferences > Staff client"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Catalogage"
+msgstr ""
+"*Aller à :* Plus > Administration > Préférences système > Interface "
+"professionnelle"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:13787
@@ -14350,9 +14525,8 @@ msgid "Asks: Use include files from the \\_\\_\\_ directory in the template dire
 msgstr "Action : Utiliser les fichiers du répertoire \\_\\_\\_ du répertoire des templates, à la place de includes/. Laisser vide pour désactiver."
 
 #: ../../source/systempreferences.rst:13888
-#, fuzzy
 msgid "IntranetCirculationHomeHTML"
-msgstr "Circulation"
+msgstr "IntranetCirculationHomeHTML"
 
 # concerne staff_client.pref#IntranetCirculationHomeHTML#
 #: ../../source/systempreferences.rst:13890
@@ -14515,9 +14689,8 @@ msgid "This must be filled in correctly for CAS, svc, and load_testing to work."
 msgstr ". Doit être renseigné correctement pour les flux RSS, l'unAPI et les extensions de recherche."
 
 #: ../../source/systempreferences.rst:14067
-#, fuzzy
 msgid "StaffLangSelectorMode"
-msgstr "OpacLangSelectorMode"
+msgstr "StaffLangSelectorMode"
 
 #: ../../source/systempreferences.rst:14071
 #, fuzzy
@@ -14525,9 +14698,8 @@ msgid "Asks: Display language selector on \\_\\_\\_"
 msgstr "Action : Par défaut, afficher les notices biblio en \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:14084
-#, fuzzy
 msgid "StaffLoginInstructions"
-msgstr "instructions"
+msgstr "StaffLoginInstructions"
 
 #: ../../source/systempreferences.rst:14086
 #, fuzzy
@@ -14619,9 +14791,8 @@ msgstr ""
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:14205
-#, fuzzy
 msgid "XSLTResultsDisplay"
-msgstr "OPACXSLTResultsDisplay"
+msgstr "XSLTResultsDisplay"
 
 # Staff Client > Appearance
 #: ../../source/systempreferences.rst:14209
@@ -14677,9 +14848,8 @@ msgid "Asks: \\_\\_\\_ a search field pulldown for 'Search the catalog' boxes."
 msgstr "Action : \\_\\_\\_ un champ de recherche déroulant pour les boîtes \"Recherche dans le catalogue\"."
 
 #: ../../source/systempreferences.rst:14319
-#, fuzzy
 msgid "showLastPatron"
-msgstr "AuthenticatePatron"
+msgstr "showLastPatron"
 
 #: ../../source/systempreferences.rst:14321
 #, fuzzy
@@ -14765,9 +14935,8 @@ msgid "Tools"
 msgstr "Outils"
 
 #: ../../source/systempreferences.rst:14438
-#, fuzzy
 msgid "*Get there:* More > Administration > Global System Preferences > Tools"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Logs"
+msgstr "*Aller à :* Plus > Administration > Préférences système > Outils"
 
 #: ../../source/systempreferences.rst:14443
 #, fuzzy
@@ -14900,9 +15069,8 @@ msgid "Asks: Show the author for news items: \\_\\_\\_"
 msgstr "Action : Quand un exemplaire est ajouté, \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:14554
-#, fuzzy
 msgid "Both OPAC and staff client"
-msgstr "Koha poste bibliothécaire"
+msgstr "A l'OPAC et dans l'interface professionnelle"
 
 #: ../../source/systempreferences.rst:14556
 #, fuzzy
@@ -14972,9 +15140,8 @@ msgid "Web services"
 msgstr "Services Web"
 
 #: ../../source/systempreferences.rst:14614
-#, fuzzy
 msgid "*Get there:* More > Administration > Global system preferences > Web services"
-msgstr "*Aller à :* Plus > Administration > Préférences système > Labs"
+msgstr "*Aller à :* Plus > Administration > Préférences système > Services Web"
 
 #: ../../source/systempreferences.rst:14620
 #: ../../source/systempreferences.rst:14625
@@ -15045,9 +15212,8 @@ msgid "Mana KB"
 msgstr ""
 
 #: ../../source/systempreferences.rst:14712
-#, fuzzy
 msgid "AutoShareWithMana"
-msgstr "AuthenticatePatron"
+msgstr "AutoShareWithMana"
 
 #: ../../source/systempreferences.rst:14714
 msgid "Asks: Fields automatically shared with Mana KB \\_\\_\\_"

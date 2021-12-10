@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2020-10-02 09:33+0000\n"
+"PO-Revision-Date: 2021-11-03 10:41+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -15,24 +15,24 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/cron_jobs.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1601631195.630335\n"
+"X-POOTLE-MTIME: 1635936119.961322\n"
 
 #: ../../source/cron_jobs.rst:6
-#, fuzzy
 msgid "Cron jobs and daemons"
 msgstr "Cron jobs et Démons"
 
 #: ../../source/cron_jobs.rst:8
-#, fuzzy
 msgid "Koha is supported by a number of background tasks.  These tasks can either be periodically executed tasks (cron jobs) or continuously running tasks called daemons."
-msgstr "Koha est géré par un certain nombre de tâches en arrière-plan. Ces tâches peuvent être exécutées périodiquement (cron jobs) ou exécutées en permanence, appelées démons."
+msgstr ""
+"Koha est géré par un certain nombre de tâches de fond. Ces tâches peuvent "
+"être exécutées périodiquement (cron jobs) ou tourner en permanence, appelées "
+"démons."
 
 #: ../../source/cron_jobs.rst:12
 msgid "A cron job is a Linux command for scheduling a command or script on your server to complete repetitive tasks automatically. Scripts executed as a cron job are typically used to modify files or databases; however, they can perform other tasks that do not modify data on the server, like sending out email notifications."
 msgstr "Un cron job est une commande Linux permettant de planifier le lancement d'une commande ou d'un script sur votre serveur afin d'exécuter automatiquement des tâches à répéter. Les scripts exécutés en tant que cron job sont généralement utilisés pour effectuer des modifications sur des fichiers ou bases de données ; ils peuvent cependant effectuer d'autres tâches qui ne modifient pas les données sur le serveur, comme expédier des notifications par courriel. Vous pouvez activer plusieurs cron jobs sur Koha (lancement de l'indexation du moteur de recherche, génération d'avertissement pour retard, nettoyage des données, etc...), qui seront détaillées dans ce chapitre."
 
 #: ../../source/cron_jobs.rst:18
-#, fuzzy
 msgid "A daemon is a Linux command that is typically started when the system is booted and runs in the background doing some function. The database used by Koha (either MySQL or MariaDB) is a daemon as is the web server (typically Apache)."
 msgstr "Un démon est une commande Linux généralement lancée au démarrage du système et exécutée en tâche de fond. La base de données utilisée par Koha (mysql ou mariadb) est un démon, de même que le serveur Web (généralement Apache)."
 
@@ -49,7 +49,6 @@ msgid "An example of a Koha crontab can be found in misc/cronjobs/crontab.exampl
 msgstr "Un exemple de crontab Koha se trouve dans misc/cronjobs/crontab.example."
 
 #: ../../source/cron_jobs.rst:32
-#, fuzzy
 msgid "The example includes sample boilerplate cron job entries for the most commonly-used cron jobs."
 msgstr "Cet exemple contient quelques propositions de paramétrages de cron pour les cronjobs les plus utilisés."
 
@@ -120,20 +119,26 @@ msgstr "Chemin du script : misc/migration\\_tools/rebuild\\_zebra.pl"
 
 #: ../../source/cron_jobs.rst:95
 msgid "Does: updates Zebra indexes with recently changed data."
-msgstr "Tâche effectuée : mise à jour des index Zebra avec les données récemment modifiées"
+msgstr ""
+"Tâche effectuée : mise à jour des index Zebra avec les données récemment "
+"modifiées."
 
 #: ../../source/cron_jobs.rst:97
 msgid "Required by: Zebra"
-msgstr "Requiert : Zebra"
+msgstr "Requis par : Zebra"
 
 #: ../../source/cron_jobs.rst:99
 msgid "Frequency suggestion: every x minutes, (between 5-15 minutes) depending on performance needs"
-msgstr "Périodicité préconisée : tous les n minutes (plutôt entre 5 et 15 mn), selon le niveau de performance recherché"
+msgstr ""
+"Périodicité préconisée : toutes les x minutes (plutôt entre 5 et 15 minutes)"
+", selon le niveau de performance recherché"
 
 #: ../../source/cron_jobs.rst:102
-#, fuzzy
 msgid "**Note** On newer Koha installations, this cron job has been replaced by  the :ref:`koha-indexer daemon <cron-koha-indexer-label>` which indexes new and modified Koha data every 30 seconds."
-msgstr "** Note ** Sur les nouvelles installations Koha, ce cron job a été remplacé par :ref:'koha-indexer daemon <_koha-indexer-label>', qui indexe les données Koha, nouvelles et modifiées, toutes les 30 secondes."
+msgstr ""
+"** Note ** Sur les plus récentes installations Koha, ce cron job a été "
+"remplacé par :ref:'koha-indexer daemon <cron-koha-indexer-label>', qui "
+"indexe les données Koha, nouvelles et modifiées, toutes les 30 secondes."
 
 #: ../../source/cron_jobs.rst:110
 msgid "Circulation"
@@ -153,7 +158,9 @@ msgstr "Tâche effectuée : mise à jour de la file de réservations"
 
 #: ../../source/cron_jobs.rst:121
 msgid "Required by: :ref:`Holds queue report <holds-queue-label>`"
-msgstr "Requiert : :ref:`Mise à jour de la file de réservations <holds-queue-label>`"
+msgstr ""
+"Requis par : :ref:`Mise à jour de la file de réservations <holds-queue-"
+"label>`"
 
 #: ../../source/cron_jobs.rst:123
 msgid "Frequency suggestion: every 1-4 hours"
@@ -168,9 +175,11 @@ msgid "A script that should be run periodically if your library system allows bo
 msgstr "Ce script devrait être exécuté régulièrement si vos adhérents sont autorisés à placer des réservations sur des documents en rayon. Le script établit quelle bibliothèque doit prendre en charge la demande de réservation."
 
 #: ../../source/cron_jobs.rst:131
-#, fuzzy
 msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>`."
-msgstr "Ce processus est contrôlé par les préférences système ref:`StaticHoldsQueueWeight <staticholdsqueueweight,-holdsqueueskipclosed-&-randomizeholdsqueueweight-label>` and :ref:`RandomizeHoldsQueueWeight <staticholdsqueueweight,-holdsqueueskipclosed-&-randomizeholdsqueueweight-label>`."
+msgstr ""
+"Ce processus est contrôlé par les préférences système ref:`"
+"StaticHoldsQueueWeight <holds-queue-system-preferences-label>` et :ref:`"
+"RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>`."
 
 #: ../../source/cron_jobs.rst:135
 msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
@@ -227,10 +236,15 @@ msgstr "Chemin du script : misc/cronjobs/fines.pl"
 #: ../../source/cron_jobs.rst:206
 msgid "Does: calculates and charges (or increments) overdue fines per item to patron accounts. The fine calculation is done using the grace period, fine interval, fine amount and other parameters from the :ref:`circulation and fines rules <circulation-and-fines-rules-label>`."
 msgstr ""
+"Tâche effectuée : calcule et affecte (ou augmente) les amendes pour retard "
+"sur le compte adhérent. Le calcul des amendes se fait selon la période de "
+"grâce, l'intervalle de facturation, le montant des amendes et d'autres "
+"paramètres des :ref:'règles de circulation <circulation-and-fines-rules-"
+"label>'."
 
 #: ../../source/cron_jobs.rst:210
 msgid "Required by: :ref:`finesMode` system preference"
-msgstr "Requiert : la préférence système :ref:`finesMode`"
+msgstr "Requis par : la préférence système :ref:`finesMode`"
 
 #: ../../source/cron_jobs.rst:212 ../../source/cron_jobs.rst:257
 #: ../../source/cron_jobs.rst:278 ../../source/cron_jobs.rst:298
@@ -248,7 +262,6 @@ msgid "**Note** If the Koha system preference 'finesMode' is set to 'production'
 msgstr "**Note** Si la préférence système 'finesMode' a la valeur 'production', les amendes sont ajoutées dans les comptes des adhérents. Si la valeur de cette préférence système est 'test', les amendes sont calculées mais pas appliquées."
 
 #: ../../source/cron_jobs.rst:219
-#, fuzzy
 msgid "**Note** Fines will not be applied on a holiday."
 msgstr "**Note** Les amendes ne sont pas appliquées pour un jour déclaré fermé."
 
@@ -280,7 +293,6 @@ msgid "-m|--maxdays how many days back of overdues to process this can improve p
 msgstr ""
 
 #: ../../source/cron_jobs.rst:246
-#, fuzzy
 msgid "Static fines"
 msgstr "Amendes fixes"
 
@@ -317,9 +329,12 @@ msgid "**Note**"
 msgstr "**Note**"
 
 #: ../../source/cron_jobs.rst:282
-#, fuzzy
 msgid "Staff can control some of the parameters for the longoverdue cron job with the :ref:`DefaultLongOverdueLostValue <defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` and :ref:`DefaultLongOverdueChargeValue` preferences."
-msgstr "Le personnel peut contrôler une partie des paramètres du cron job long retard (longoverdue) avec les préférences systèmes :ref:`DefaultLongOverdueLostValue` <defaultlongoverduelostvalue-&-defaultlongoverduedays-label>` et :ref:`DefaultLongOverdueChargeValue`."
+msgstr ""
+"Le personnel peut contrôler une partie des paramètres du cron job "
+"longoverdue avec les préférences systèmes :ref:`DefaultLongOverdueLostValue` "
+"<defaultlongoverduelostvalue-and-defaultlongoverduedays-label>` et "
+":ref:`DefaultLongOverdueChargeValue`."
 
 #: ../../source/cron_jobs.rst:291
 msgid "Track total checkouts"
@@ -339,7 +354,10 @@ msgstr "**Attention**"
 
 #: ../../source/cron_jobs.rst:302
 msgid "If the time on your database server does not match the time on your Koha server you will need to take that into account, and probably use the --since argument instead of the --interval argument for incremental updating."
-msgstr "Si le temps dans votre base de données ne concorde pas avec le temps sur votre serveur Koha, vous devrez prendre cela en compte, et probablement utiliser --since plutôt que --interval pour la mise a jour incrémentielle"
+msgstr ""
+"Si le temps dans votre base de données ne concorde pas avec le temps sur "
+"votre serveur Koha, vous devrez prendre cela en compte, et probablement "
+"utiliser --since plutôt que --interval pour la mise a jour incrémentielle."
 
 #: ../../source/cron_jobs.rst:309
 msgid "This cronjob can be used if there is a performance concern. Otherwise, use the UpdateTotalIssuesOnCirc System Preference."
@@ -370,13 +388,17 @@ msgid "Script path: misc/cronjobs/automatic\\_renewals.pl"
 msgstr "Chemin du script : misc/cronjobs/automatic\\_renewals.pl"
 
 #: ../../source/cron_jobs.rst:331
-#, fuzzy
 msgid "Does: renews items if you're allowing automatic renewal with your :ref:`circulation and fines rules <circulation-and-fines-rules-label>`."
-msgstr "Tâche effectuée : renouvelle automatiquement les prêts si vous utilisez les renouvellements automatiques dans vos :ref:`règles de circulation et d'amendes <circulation-and-fine-rules-label>`."
+msgstr ""
+"Tâche effectuée : renouvelle automatiquement les prêts si vous utilisez les "
+"renouvellements automatiques dans vos :ref:`règles de circulation et "
+"d'amendes <circulation-and-fines-rules-label>`."
 
 #: ../../source/cron_jobs.rst:336
 msgid "**Important** To run this properly, you must use the --confirm parameter, otherwise it will only run in test mode"
 msgstr ""
+"**Important** Pour le lancer correctement, vous devez utilisez le paramètre "
+"--confirm, sinon, il ne se lancera qu'en mode test"
 
 #: ../../source/cron_jobs.rst:344
 msgid "--send-notices sends the AUTO_RENEWALS notice to patrons if the automatic renewal has been done"
@@ -459,7 +481,10 @@ msgstr "Chemin du script : misc/cronjobs/delete\\_expired\\_opac\\_registrations
 
 #: ../../source/cron_jobs.rst:416
 msgid "Does: deletes patron registrations that were submitted via the OPAC but not reviewed by the library within the number of days entered in the :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` preference."
-msgstr "Tâche effectuée : supprime les inscriptions faites via l'Opac et qui n'ont pas été validées par la bibliothèque dans le nombre de jour entrés dans la préférence :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` ."
+msgstr ""
+"Tâche effectuée : supprime les inscriptions faites via l'Opac et qui n'ont "
+"pas été validées par la bibliothèque dans le nombre de jours entré dans la "
+"préférence :ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay`."
 
 #: ../../source/cron_jobs.rst:426
 msgid "Unconfirmed registrations"
@@ -547,9 +572,10 @@ msgid "Frequency suggestion: 1-4 hours"
 msgstr "Périodicité préconisée : toutes les 15 mn"
 
 #: ../../source/cron_jobs.rst:504
-#, fuzzy
 msgid "Item due and Advanced due notices are controlled by the :ref:`advance\\_notices cron <cron-advanced-notice-label>`."
-msgstr "Les notifications A rendre et A rendre bientôt sont contrôlées par le cron job  :ref:`advance\\_notices cron <advanced-notice-label>`."
+msgstr ""
+"Les notifications A rendre et A rendre bientôt sont contrôlées par le cron "
+"job :ref:`advance\\_notices <cron-advanced-notice-label>`."
 
 #: ../../source/cron_jobs.rst:510
 msgid "Advanced notice"
@@ -564,9 +590,10 @@ msgid "Does: prepares \"pre-due\" notices and \"item due\" notices for patrons w
 msgstr "Tâche effectuée : prépare les notifications \"pre due\" (PREDUE) et \"item due\" (DUE) pour les adhérents qui en ont fait la demande. Nécessite d'activer :ref:`EnhancedMessagingPreferences` "
 
 #: ../../source/cron_jobs.rst:524
-#, fuzzy
 msgid "This script does not actually send the notices. It queues them in the :ref:`message queue <cron-message-queue-label>` for later"
-msgstr "Ce script n'envoie pas de notifications. Il les place dans la file des messages à envoyer :ref:`message queue <message-queue-label>` "
+msgstr ""
+"Ce script n'envoie pas de notifications. Il les place dans la :ref:'file des "
+"messages <cron-message-queue-label>' pour plus tard"
 
 #: ../../source/cron_jobs.rst:530
 msgid "Overdue notice"
@@ -581,9 +608,11 @@ msgid "Does: prepares messages to alert patrons of overdue messages (both via em
 msgstr "Tâche effectuée : prépare les messages de retard pour les usagers (à la fois en version email et imprimée)"
 
 #: ../../source/cron_jobs.rst:541
-#, fuzzy
 msgid "This script does not actually send the notices. It queues them in the :ref:`message queue <cron-message-queue-label>` for later or generates the HTML for later printing"
-msgstr "Ce script n'envoie pas de notifications. Il les place dans la file :ref:`message queue <message-queue-label>` ou génère le code HTML pour la version papier"
+msgstr ""
+"Ce script n'envoie pas de notifications. Il les place dans la :ref:`file "
+"d'attente <cron-message-queue-label>` pour plus tard ou génère le code HTML "
+"pour la version papier"
 
 #: ../../source/cron_jobs.rst:545
 msgid "**See also**"
@@ -639,7 +668,7 @@ msgstr "Tâche effectuée : génère le fichier de sortie Spec C contenant les n
 
 #: ../../source/cron_jobs.rst:591 ../../source/cron_jobs.rst:606
 msgid "Required by: :ref:`TalkingTechItivaPhoneNotification`"
-msgstr "Requiert : :ref:`TalkingTechItivaPhoneNotification`"
+msgstr "Requis par : :ref:`TalkingTechItivaPhoneNotification`"
 
 #: ../../source/cron_jobs.rst:599
 msgid "Receiving notices file"
@@ -662,9 +691,11 @@ msgid "Script path: misc/cronjobs/membership\\_expiry.pl"
 msgstr "Chemin du script : misc/cronjobs/membership\\_expiry.pl"
 
 #: ../../source/cron_jobs.rst:618
-#, fuzzy
 msgid "Does: sends messages to warn patrons of their card expiration to the :ref:`message queue <cron-message-queue-label>` cron."
-msgstr "Tâche effectuée : génère un message pour aviser les adhérents de l'expiration de leur carte via le cron :ref:`message queue <message-queue-label>`."
+msgstr ""
+"Tâche effectuée : envoie des messages pour aviser les adhérents de "
+"l'expiration de leur carte vers le cron :ref:`file d'attente <cron-message-"
+"queue-label>`."
 
 #: ../../source/cron_jobs.rst:621
 msgid "Requires: :ref:`MembershipExpiryDaysNotice`"
@@ -688,7 +719,9 @@ msgstr "Tâche effectuée : met à jour tous les exemplaires ayant la localisati
 
 #: ../../source/cron_jobs.rst:635
 msgid "Required by: :ref:`NewItemsDefaultLocation`, :ref:`InProcessingToShelvingCart`, and :ref:`ReturnToShelvingCart` system preferences"
-msgstr "Requis par les préférences sytème&nbsp;: :ref:`NewItemsDefaultLocation`, :ref:`InProcessingToShelvingCart`, et :ref:`ReturnToShelvingCart`"
+msgstr ""
+"Requis par les préférences système :ref:`NewItemsDefaultLocation`, "
+":ref:`InProcessingToShelvingCart`, et :ref:`ReturnToShelvingCart`"
 
 #: ../../source/cron_jobs.rst:644
 msgid "Catalog"
@@ -875,9 +908,8 @@ msgid "The name of this script is misleading. This script does not merge authori
 msgstr "Le nom du script est trompeur. Ce script ne fusionne pas les autorités entre elles, mais à la place met à jour les données d'autorité dans les données bibliographiques liées. Les modifications faites dans une notice d'autorité seront appliquées dans les notices bibliographiques qui utilisent cette autorité lorsque ce script est lancé."
 
 #: ../../source/cron_jobs.rst:814
-#, fuzzy
 msgid "Required by: :ref:`AuthorityMergeLimit` system preference"
-msgstr "Requiert : la préférence système :ref:`AuthorityMergeLimit <authoritymergelimit-label>`"
+msgstr "Requis par : la préférence système :ref:`AuthorityMergeLimit `"
 
 #: ../../source/cron_jobs.rst:822
 msgid "Serials update"
@@ -901,11 +933,15 @@ msgstr "Chemin du script : misc/cronjobs/automatic\\_item\\_modification\\_by\\_
 
 #: ../../source/cron_jobs.rst:839
 msgid "Does: updates items based on the list of rules set forth in the :ref:`Automatic item modifications by age` tool"
-msgstr "Tâche effectuée : met à jour les exemplaires sur la base d'une liste de règles définies préalablement dans l'outil :ref:`Automatic item modifications by age`"
+msgstr ""
+"Tâche effectuée : met à jour les exemplaires sur la base d'une liste de "
+"règles définies préalablement dans l'outil :ref:`Modifications automatiques "
+"d'exemplaires par ancienneté`"
 
 #: ../../source/cron_jobs.rst:842
 msgid "Required by: :ref:`Automatic item modifications by age`"
-msgstr "Requiert :ref:`Automatic item modifications by age`"
+msgstr ""
+"Requis par : :ref:`Modifications automatiques d'exemplaires par ancienneté`"
 
 #: ../../source/cron_jobs.rst:844
 msgid "Frequency suggestions: nightly"
@@ -941,7 +977,7 @@ msgstr "Tâche effectuée : génère du contenu pour les autorités dans l'OPAC"
 
 #: ../../source/cron_jobs.rst:872
 msgid "Required by: :ref:`OpacBrowser` system preference"
-msgstr "Requiert : la préférence système :ref:`OpacBrowser`"
+msgstr "Requis par : la préférence système :ref:`OpacBrowser`"
 
 #: ../../source/cron_jobs.rst:876
 msgid "This preference and cron job should only be used on French systems."
@@ -1002,6 +1038,12 @@ msgstr ""
 #: ../../source/cron_jobs.rst:922
 msgid "Delete expired self registration accounts (accounts that haven't been upgraded from the 'temporary' category) from the borrowers table. The number of days for expiry is set in the ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay` system preference. The temporary patron category is set in the ref:`PatronSelfRegistrationDefaultCategory` system preference."
 msgstr ""
+"Supprime les comptes auto-enregistrés expirés (comptes dont la catégorie "
+"'temporaire' n'a pas été modifiée) de la table borrowers. Le nombre de jours "
+"pour l'expiration est défini par la préférence système "
+"ref:`PatronSelfRegistrationExpireTemporaryAccountsDelay`. La catégorie "
+"d'adhérent temporaire est définie par la préférence système "
+"ref:`PatronSelfRegistrationDefaultCategory`."
 
 #: ../../source/cron_jobs.rst:929
 msgid "--del-unv-selfreg DAYS Delete all unverified self registrations in borrower_modifications older than DAYS."
@@ -1348,9 +1390,15 @@ msgid "Script path: /usr/sbin/koha-indexer (invoked from /etc/init.d/koha-common
 msgstr "Chemin du script : /usr/sbin/koha-indexer (appelé depuis /etc/init.d/koha-common)"
 
 #: ../../source/cron_jobs.rst:1223
-#, fuzzy
 msgid "The koha-indexer script invokes rebuild_zebra.pl in daemon mode. In this mode, the script will run continuously and check the database for new or modified data every 30 seconds.  New or modified records are then sent to Zebra for indexing, which only takes a second or so. The advantage of this approach is a search system which is much more responsive to changes, compared to the :ref:`cron job approach <cron-rebuild-index-label>`."
-msgstr "Le script koha-indexer appelle rebuild_zebra.pl en mode démon. Dans ce mode, le script s'exécutera en continu et vérifiera la base de données toutes les 30 secondes pour voir s'il y a de nouvelles données ou des données modifiées. Les nouvelles notices ou celles modifiées sont ensuite envoyées à Zebra pour être indexées, ce qui ne prend qu'une seconde environ. L'avantage de cette approche est un système de recherche qui est beaucoup plus réactif aux changements comparé au :ref:'cron job approach <_rebuild-index-label>'."
+msgstr ""
+"Le script koha-indexer appelle rebuild_zebra.pl en mode Démon. Dans ce mode, "
+"le script s'exécutera en continu et vérifiera la base de données toutes les "
+"30 secondes pour voir s'il y a des données créées ou modifiées. Les "
+"nouvelles notices ou celles modifiées sont ensuite envoyées à Zebra pour "
+"être indexées, ce qui ne prend qu'une seconde environ. L'avantage de cette "
+"approche est un système de recherche qui est beaucoup plus réactif aux "
+"changements comparé à :ref:'l'approche cron job <cron-rebuild-index-label>'."
 
 #: ../../source/cron_jobs.rst:1232
 msgid "Deprecated scripts"
@@ -1391,4 +1439,3 @@ msgstr "Chemin du script : misc/cronjobs/zebraqueue\\_start.pl"
 
 #~ msgid "Does: If you're sharing information via the :ref:`UsageStats` feature this will send your info to the `Hea website <http://hea.koha-community.org/>`__."
 #~ msgstr "Tâche effectuée : si vous partagez de l'information via la fonctionnalité :ref:`UsageStats`, ceci enverra vos informations au `site Hea <http://hea.koha-community.org/>`__."
-

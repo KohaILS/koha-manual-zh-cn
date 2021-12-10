@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Koha Manual 18.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-24 01:15-0300\n"
-"PO-Revision-Date: 2020-05-30 14:29+0000\n"
-"Last-Translator: Bernardo Gonzalez Kriegel <bgkriegel@gmail.com>\n"
+"PO-Revision-Date: 2021-03-09 16:05+0000\n"
+"Last-Translator: Héctor Castro <hector.hecaxmmx@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1590848985.639719\n"
+"X-POOTLE-MTIME: 1615305946.806446\n"
 
 #: ../../source/cron_jobs.rst:6
 #, fuzzy
@@ -148,20 +148,19 @@ msgstr "Circulación"
 
 #: ../../source/cron_jobs.rst:115
 msgid "Holds queue"
-msgstr "Cola de reservas"
+msgstr "Fila de reservas"
 
 #: ../../source/cron_jobs.rst:117
 msgid "Script path: misc/cronjobs/holds/build\\_holds\\_queue.pl"
 msgstr "Ruta del script: misc/cronjobs/holds/build\\_holds\\_queue.pl"
 
 #: ../../source/cron_jobs.rst:119
-#, fuzzy
 msgid "Does: updates holds queue report"
-msgstr "Qué hace: Actualiza el informe de cola de reservas"
+msgstr "Qué hace: actualiza el informe de fila de reservas"
 
 #: ../../source/cron_jobs.rst:121
 msgid "Required by: :ref:`Holds queue report <holds-queue-label>`"
-msgstr ""
+msgstr "Requerido por: :ref:`Informe de fila de reservas <holds-queue-label>`"
 
 #: ../../source/cron_jobs.rst:123
 msgid "Frequency suggestion: every 1-4 hours"
@@ -185,7 +184,15 @@ msgstr "Si no desea que todas las bibliotecas participen en el proceso de satisf
 
 #: ../../source/cron_jobs.rst:141
 msgid "By default, the holds queue will be generated such that the system will first attempt to hold fulfillment using items already at the pickup library if possible. If there are no items available at the pickup library to fill a hold, build\\_holds\\_queue.pl will then use the list of libraries defined in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled ( which it is by default ), the script will assign fulfillment requests in the order the branches are placed in the StaticHoldsQueueWeight system preference."
-msgstr "Por defecto, la cola de reservas será generada de forma que el sistema intentará primero cubrir las reservas utilizando ejemplares disponibles en la biblioteca de retiro de ser posible. Si no hay ejemplares disponibles para cubrir la reserva, build\\_holds\\_queue.pl utilizará la lista de bibliotecas definida en StaticHoldsQueueWieght. Si está deshabilitada RamdomizeHoldsQueueWeight ( comportamiento por defecto ), el script asignará pedidos de cobertura en el orden de ubicación de las sedes en la preferencia del sistema StaticHoldsQueueWeight."
+msgstr ""
+"Por defecto, la fila de reservas será generada de forma que el sistema "
+"intentará primero cubrir las reservas utilizando ejemplares disponibles en "
+"la biblioteca de retiro de ser posible. Si no hay ejemplares disponibles "
+"para cubrir la reserva, build\\_holds\\_queue.pl utilizará la lista de "
+"bibliotecas definida en StaticHoldsQueueWeight. Si RamdomizeHoldsQueueWeight "
+"está deshabilitada (comportamiento por defecto), el script asignara los "
+"pedidos de cobertura en el orden de ubicación de las sucursales en la "
+"preferencia del sistema StaticHoldsQueueWeight."
 
 #: ../../source/cron_jobs.rst:150
 msgid "For example, if your system has three libraries, of varying sizes ( small, medium and large ) and you want the burden of holds fulfillment to be on larger libraries before smaller libraries, you would want StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
@@ -1458,4 +1465,3 @@ msgstr "Ruta del script: misc/cronjobs/reservefix.pl"
 #: ../../source/cron_jobs.rst:1244
 msgid "Script path:misc/cronjobs/zebraqueue\\_start.pl"
 msgstr "Ruta del script:misc/cronjobs/zebraqueue\\_start.pl"
-

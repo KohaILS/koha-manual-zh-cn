@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-03 01:16-0300\n"
-"PO-Revision-Date: 2021-02-26 12:45+0000\n"
+"PO-Revision-Date: 2021-08-10 22:35+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614343517.625060\n"
+"X-POOTLE-MTIME: 1628634944.786151\n"
 
 #: ../../source/faq.rst:6
 msgid "FAQs"
@@ -881,7 +881,7 @@ msgstr "**Frage**: Welche Codes enthält das Feld message\\_type in der Tabelle 
 
 #: ../../source/faq.rst:728
 msgid "L = For Librarians"
-msgstr "L = Text für Bibliothekare"
+msgstr "L = Für Bibliothekspersonal"
 
 #: ../../source/faq.rst:730
 msgid "B = For Patrons/Borrowers"
@@ -1114,11 +1114,19 @@ msgstr "Index durchsuchen"
 
 #: ../../source/faq.rst:906
 msgid "**Question**: What does 'scan indexes' on the advanced search page mean?"
-msgstr "**Frage**: Was besagt \"Indexe durchsuchen' auf der Seite der Erweiterten Suche?"
+msgstr ""
+"**Frage**: Was bedeuet \"Indizes durchsuchen\" in der Erweiterten Suche?"
 
 #: ../../source/faq.rst:908
 msgid "**Answer**: When you choose an index, enter a term, click 'scan indexes' and do the search, Koha displays the searched term and the following terms found in this index with the number of corresponding records. That search is not made directly in the catalog, but first in the indexes. It works only for one index at once, and only with no limit on library or library group (All libraries needed)."
-msgstr "**Antwort**: Wenn Sie einen Index wählen, geben Sie einen Begriff ein, klicken Sie auf 'Indexe durchsuchen' und starten Sie die Suche. Koha zeigt den gesuchten Begriff und die folgende Begriffe, die in diesem Index gefunden werden an mit der Anzahl der dazugehörigen Datensätze. Die Suche wird nicht direkt im Katalog gemacht, sondern zuerst in den Indexen. Dies funktioniert nur für einen Index auf einmal und nur ohne Einschränkung auf Bibliothek oder Bibliotheksgruppen."
+msgstr ""
+"**Antwort**: Wenn Sie einen Index wählen, geben Sie einen Begriff ein, "
+"klicken Sie auf \"Indizes durchsuchen\" und starten Sie die Suche. Koha "
+"zeigt den gesuchten Begriff und die folgende Begriffe, die in diesem Index "
+"gefunden werden an mit der Anzahl der dazugehörigen Datensätze. Die Suche "
+"wird nicht direkt im Katalog gemacht, sondern zuerst in den Indexen. Dies "
+"funktioniert nur für einen Index auf einmal und nur ohne Einschränkung auf "
+"Bibliothek oder Bibliotheksgruppen."
 
 #: ../../source/faq.rst:918
 msgid "Searching for terms that start with a character"
@@ -1228,7 +1236,7 @@ msgstr "Amazon erfordert ebenfalls eine ISBN um Cover anzeigen zu können. - Ste
 
 #: ../../source/faq.rst:1043
 msgid "Server administration"
-msgstr "Server Administration"
+msgstr "Serveradministration"
 
 #: ../../source/faq.rst:1048
 msgid "Making Z39.50 target public"

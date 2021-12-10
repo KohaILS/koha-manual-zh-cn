@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-01-27 11:17+0000\n"
+"PO-Revision-Date: 2021-10-23 12:53+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/searching.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1611746227.621060\n"
+"X-POOTLE-MTIME: 1634993617.905676\n"
 
 #: ../../source/searching.rst:6
 msgid "Searching"
@@ -28,7 +28,11 @@ msgstr "Résultats de la recherche"
 
 #: ../../source/searching.rst:13
 msgid "If you have your :ref:`EnableSearchHistory` preference set to keep your search history then you can access this information by clicking on your username in the top right of the staff client and choosing 'Search history'."
-msgstr "Si vous avez paramétré la préférence système « EnableSearchHistory » pour conserver votre historique de recherche, alors vous pouvez accéder à cette information en cliquant sur votre nom d'utilisateur situé en haut à droite de l'interface professionnelle et choisissant « Historique de recherche »."
+msgstr ""
+"Si vous avez paramétré la préférence système :ref:'EnableSearchHistory' pour "
+"conserver votre historique de recherche, alors vous pouvez accéder à cette "
+"information en cliquant sur votre nom d'utilisateur situé en haut à droite "
+"de l'interface professionnelle et choisissant 'Historique de recherche'."
 
 #: ../../source/searching.rst:18
 msgid "|image1062|"
@@ -165,6 +169,18 @@ msgstr ""
 #: ../../source/searching.rst:131
 msgid "The second file is etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/record.abs if you use grs1 indexing [the default until 3.16] or etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/biblio-koha-indexdefs.xml if you use dom indexing [the default from 3.18]. Either files contains the abstract syntax which maps the MARC21 tags to the set of Use Attributes you choose to use. To be more precise the xml file to be activate needs to be transform into biblio-zebra-indexdefs.xsl, read the head of biblio-zebra-indexdefs.xsl to know more about this topic. The rules established in this file provides a passable Bath level 0 and 1 service, which includes author, title, subject, keyword and exact services such as standard identifiers (LCCN, ISBN, ISSN, etc.)"
 msgstr ""
+"Le second fichier est etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/"
+"record.abs, si vous utilisez l'indexation grs1 [par défaut jusqu'à la 3.16] "
+"ou etc/zebradb/marc\\_defs/[marc21\\|unimarc]/biblios/biblio-koha-"
+"indexdefs.xml si vous utilisez l'indexation dom [par défaut depuis la 3.18]. "
+"Chaque fichier contient la syntaxe abstraite qui fait correspondre les "
+"champs MARC21 à l'ensemble des Attributs d'utilisation que vous avez choisi "
+"d'utiliser. Pour être plus précis, le fichier xml à activer doit être "
+"transformé en biblio-zebra-indexdefs.xsl. Lisez le début de biblio-zebra-"
+"indexdefs.xsl pour en savoir plus sur le sujet. Les règles définies dans ce "
+"fichier fournissent un service Bath de niveau 0 et 1 acceptable , qui inclut "
+"auteur, sujet, mot-clé et services exacts tels que les identificateurs ("
+"LCCN, ISBN, ISSN, etc.)"
 
 #: ../../source/searching.rst:144
 msgid "The third file (etc/zebradb/ccl.properties) is the Common Command Language (CCL) field mappings. This file combines the bib-1 attribute set file and the abstract file and adds the qualifiers, usually known as index names. The qualifiers, or indexes, for this database are: pn, cpn, cfn, ti, se, ut, nb, ns, sn, lcn, callnum, su, su-to, su-geo, su-ut, yr,pubdate, acqdate, ln, pl, ab, nt, rtype, mc-rtype, mus, au, su-na, kw, pb, ctype, and an."
@@ -272,7 +288,14 @@ msgstr "Le formulaire de recherche avancée propose plusieurs façons de limiter
 
 #: ../../source/searching.rst:264
 msgid "The first limiting section on the Advanced Search page provides a quick and simple way to use the Boolean operators in your search. Note that this display depends on a system preference setting. This option can be found on the Administration > System Preferences > Searching page. The option called :ref:`expandedSearchOption` must be set to 'show' to see the following display."
-msgstr "La première section du formulaire de recherche avancée permet une utilisation rapide et simple des opérateurs booléens dans votre recherche. Veuillez noter que cet affichage dépend du paramétrage des vos préférences système. Cette option se trouve dans Administration > Préférences système > Recherche > Formulaire de recherche. L'option appelée :ref:`expandedSearchOption' doit être paramétrée sur « afficher » pour avoir l'affichage suivant."
+msgstr ""
+"La première section du formulaire de recherche avancée permet une "
+"utilisation rapide et simple des opérateurs booléens dans votre recherche. "
+"Veuillez noter que cet affichage dépend du paramétrage des vos préférences "
+"système. Cette option se trouve dans Administration > Préférences système > "
+"Recherche > Formulaire de recherche. L'option appelée :ref:`"
+"expandedSearchOption' doit être paramétrée sur 'afficher' pour avoir "
+"l'affichage suivant."
 
 #: ../../source/searching.rst:271
 msgid "|image1043|"
@@ -300,7 +323,9 @@ msgstr "Lorsque vous utilisez les opérateurs Booléens pour élargir ou limiter
 
 #: ../../source/searching.rst:296
 msgid "Note: If you leave this :ref:`expandedSearchOption` set to 'don't show', this is the display you will see:"
-msgstr "Note : Si vous avez laissé :ref:`expandedSearchOption` paramétré sur « Ne pas afficher », voici l'affichage que vous verrez :"
+msgstr ""
+"Note : Si vous avez laissé :ref:`expandedSearchOption` paramétré sur 'Ne pas "
+"afficher', voici l'affichage que vous verrez :"
 
 #: ../../source/searching.rst:299
 msgid "|image1046|"
@@ -323,9 +348,15 @@ msgid "|image1048|"
 msgstr "|image1048|"
 
 #: ../../source/searching.rst:313
-#, fuzzy
 msgid "The default sort is by relevance, although you can choose to sort by author, by title, by call number, by dates, or by popularity (which uses the information on total issues found in the items table). If you would prefer a different default sort, you can set :ref:`defaultSortField <defaultsortfield-and-defaultsortorder-label>` to one of the other choices in Administration > System Preferences > Searching."
-msgstr "Le critère de tri par défaut est celui de la pertinence, bien que vous puissiez choisir de trier vos résultats par auteur, par titre, par numéro de téléphone, par dates, ou par popularité (qui utilise l'information sur le nombre total de prêts issus de la table des exemplaires). Si vous préférerez un autre critère de tri par défaut, vous pouvez paramétrer :ref:`defaultSortField <defaultsortfield-&-defaultsortorder-label>` sur une autre valeur dans Administration > Préférences Système > Recherche."
+msgstr ""
+"Le critère de tri par défaut est celui de la pertinence, bien que vous "
+"puissiez choisir de trier vos résultats par auteur, par titre, par cote, par "
+"dates, ou par popularité (qui utilise l'information sur le nombre total de "
+"prêts issu de la table des exemplaires). Si vous préférerez un autre critère "
+"de tri par défaut, vous pouvez paramétrer :ref:`defaultSortField "
+"<defaultsortfield-and-defaultsortorder-label>` avec une autre valeur dans "
+"Administration > Préférences Système > Recherche."
 
 #: ../../source/searching.rst:323
 msgid "Search results"
@@ -361,9 +392,10 @@ msgid "Home library, holding library or both"
 msgstr "Site de rattachement, site dépositaire ou les deux"
 
 #: ../../source/searching.rst:343
-#, fuzzy
 msgid "This depends on your setting for the :ref:`DisplayLibraryFacets` system preference."
-msgstr "Cela dépend du paramétrage de la préférence système :ref:'DisplayLibraryFacets <displaylibraryfacets-label>`."
+msgstr ""
+"Cela dépend du paramétrage de la préférence système "
+":ref:'DisplayLibraryFacets'."
 
 #: ../../source/searching.rst:345
 #, fuzzy
@@ -392,9 +424,14 @@ msgid "Titles (uniform title headings)"
 msgstr "Sujets (vedettes sujet)"
 
 #: ../../source/searching.rst:357
-#, fuzzy
 msgid "When there are more than five facets in a category, a 'Show more' link will appear. You can control the display of the facets using the following systempreferences: :ref:`displayFacetCount`, :ref:`DisplayLibraryFacets`, :ref:`FacetLabelTruncationLength`, :ref:`FacetMaxCount`, :ref:`maxRecordsForFacets`, and :ref:`UNIMARCAuthorsFacetsSeparator`."
-msgstr "S'il y a plus de cinq facettes dans une catégorie, un lien 'Afficher plus' apparaît. Vous pouvez contrôler l'affichage des facettes grâce aux préférences système suivantes : :ref:`displayFacetCount <displayfacetcount-label>`, :ref: `displayLibraryFacets <displaylibraryfacets-label>`, :ref:`FacetLabelTruncationLength"
+msgstr ""
+"S'il y a plus de cinq facettes dans une catégorie, un lien 'Afficher plus' "
+"apparaît. Vous pouvez contrôler l'affichage des facettes grâce aux "
+"préférences système suivantes : :ref:`displayFacetCount`, "
+":ref:`DisplayLibraryFacets`, :ref:`FacetLabelTruncationLength`, "
+":ref:`FacetMaxCount`, :ref:`maxRecordsForFacets`, et "
+":ref:`UNIMARCAuthorsFacetsSeparator`."
 
 #: ../../source/searching.rst:366
 msgid "Along the top, under the number of results, there are buttons to do different actions on selected records."
@@ -417,9 +454,10 @@ msgid "'Add to cart': adds selected record(s) to the :ref:`cart <cart-label>`."
 msgstr "« Ajouter au panier » : ajoute la(les) notice(s) sélectionnée(s) au :ref:'panier <cart-label>'."
 
 #: ../../source/searching.rst:379
-#, fuzzy
 msgid "The :ref:`intranetbookbag` system preference needs to be set to 'Show' in order for that button to appear."
-msgstr "La préference-système :ref:`intranetbookbag <intranetbookbag-label>`doit être paramétrée sur « Afficher » pour que ce bouton apparaisse."
+msgstr ""
+"La préférence système :ref:`intranetbookbag `doit être paramétrée sur "
+"'Afficher' pour que ce bouton apparaisse."
 
 #: ../../source/searching.rst:382
 msgid "'Add to list': adds selected record(s) to the chosen :ref:`list <lists-label>`."
@@ -434,9 +472,10 @@ msgid "'Browse selected records': goes to the detailed record page of the select
 msgstr ""
 
 #: ../../source/searching.rst:392
-#, fuzzy
 msgid "The :ref:`BrowseResultSelection` system preference needs to be enabled in order for that button to appear."
-msgstr "La préférence système :ref:`BrowseResultSelection <browseresultselection-label>` doit être activée pour que ce bouton apparaisse."
+msgstr ""
+"La préférence système :ref:`BrowseResultSelection' doit être activée pour "
+"que ce bouton apparaisse."
 
 #: ../../source/searching.rst:395
 msgid "'Z39.50/SRU search': opens the Z39.50/SRU search popup window with the fields pre-filled with the search terms."
@@ -513,9 +552,8 @@ msgid "If you are looking for specific items you can use the item search engine 
 msgstr "Si vous cherchez des exemplaires spécifiques, vous pouvez utilisez le moteur de recherche d'exemplaires situé dans l'interface professionnelle pour les trouver."
 
 #: ../../source/searching.rst:451
-#, fuzzy
 msgid "*Get there:* Search > Item search"
-msgstr "*Aller à :*Rechercher > Recherche d'exemplaires"
+msgstr "*Aller à :* Rechercher > Recherche d'exemplaires"
 
 #: ../../source/searching.rst:453
 msgid "|image1447|"

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2019-03-06 18:14+0000\n"
-"Last-Translator: Tiago Murakami <trmurakami@gmail.com>\n"
+"PO-Revision-Date: 2021-04-22 15:15+0000\n"
+"Last-Translator: Ricardo Quaglio <ricardoquaglio@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /pt_BR/man18.05/systempreferences.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1551896089.165991\n"
+"X-POOTLE-MTIME: 1619104516.984843\n"
 
 #: ../../source/systempreferences.rst:6
 msgid "Global system preferences"
@@ -5744,15 +5744,19 @@ msgstr ""
 
 #: ../../source/systempreferences.rst:3831
 msgid "NoIssuesChargeGuarantees"
-msgstr ""
+msgstr "NoIssuesChargeGuarantees"
 
 #: ../../source/systempreferences.rst:3833
 msgid "Asks: Prevent a patron from checking out if the patron has guarantees owing in total more than \\_\\_\\_ USD in fines."
 msgstr ""
+"Pergunta: Impedir que um usuário verifique se o usuário assistido deve no "
+"total mais de \\_\\_\\_ USD em multas."
 
 #: ../../source/systempreferences.rst:3838
 msgid "Allows a library to prevent patrons from checking out items if his or her guarantees owe too much in fines."
 msgstr ""
+"Permite que uma biblioteca impeça que os usuários emprestem exemplares se "
+"seus assistidos tiverem multas excessivas."
 
 #: ../../source/systempreferences.rst:3844
 #, fuzzy
@@ -13082,6 +13086,12 @@ msgstr ""
 #: ../../source/systempreferences.rst:11231
 msgid "By default staff can see checkouts to family members via the staff client. This preference will allow guarantees (children) to grant permission to guarantors (guardians) to view their current checkouts via the public catalog. This preference requires that you allow patrons to choose their own privacy with the :ref:`OPACPrivacy` preference."
 msgstr ""
+"Por padrão, a equipe pode ver os empréstimos para os membros da família por "
+"meio do usuário administrador. Essa preferência permitirá que os assistidos "
+"(crianças) concedam permissão aos responsáveis (tutores) para visualizar "
+"seus empréstimos atuais por meio do catálogo público. Esta preferência "
+"requer que você permita que os usuários tenham sua própria privacidade com a "
+"preferência :ref:`OPACPrivacy`. "
 
 #: ../../source/systempreferences.rst:11241
 #, fuzzy
@@ -13740,13 +13750,21 @@ msgstr "Modelo geral"
 
 # Patrons > General
 #: ../../source/systempreferences.rst:11969
-#, fuzzy
 msgid "Asks: Guarantors can be the following of those they guarantee \\_\\_\\_"
-msgstr "Os responsáveis podem ter os seguintes relacionamentos com as crianças:"
+msgstr ""
+"Pergunta: Os responsáveis podem ter os seguintes relacionamentos com os "
+"assistidos \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:11973
 msgid "This preference enables the system administrator to define valid relationships between a guarantor (usually a parent) and a guarantee (usually a child). Defining values for this field does not make the guarantor field required when adding a guarantee type patron. This preference creates a drop down list identifying the relationship of the guarantor to the guarantee. To disable the ability to add children types in Koha you can leave this field blank."
 msgstr ""
+"Essa preferência permite que o administrador do sistema defina "
+"relacionamentos válidos entre um responsável (geralmente um pai) e um "
+"assistido (geralmente um filho). Definir valores para este campo não torna o "
+"campo assistido obrigatório ao adicionar um usuário do tipo de responsável. "
+"Essa preferência cria uma lista suspensa que identifica a relação do "
+"assistido com a responsável. Para desativar a capacidade de adicionar tipos "
+"filhos no Koha, você pode deixar este campo em branco."
 
 #: ../../source/systempreferences.rst:11983
 #: ../../source/systempreferences.rst:12026
@@ -16623,4 +16641,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "Asks: \\_\\_\\_ check and construct borrower card numbers in the Katipo style."
 #~ msgstr "números de carteirinha no estilo Katipo style. Esta opção desconsidera a opção <code>autoMemberNum</code> no caso dela estar ativa."
-

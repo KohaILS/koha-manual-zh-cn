@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-02-26 12:42+0000\n"
+"PO-Revision-Date: 2021-11-05 11:46+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614343357.875123\n"
+"X-POOTLE-MTIME: 1636112812.073288\n"
 
 #: ../../source/systempreferences.rst:6
 msgid "Global system preferences"
@@ -251,9 +251,10 @@ msgstr "Verbrauche"
 
 # Accounting > Policy
 #: ../../source/systempreferences.rst:75
-#, fuzzy
 msgid "Asks: \\_\\_\\_ reconcile patron balances automatically on each transaction adding debits or credits."
-msgstr "ein Guthaben auf dem Benutzerkonto, wenn neue Gebühren eingetragen werden."
+msgstr ""
+"Fragt: \\_\\_\\_ das Guthaben auf einem Bibliothekskonto, wenn neue Gebühren "
+"eingetragen werden."
 
 #: ../../source/systempreferences.rst:77
 #: ../../source/systempreferences.rst:1521
@@ -3832,9 +3833,10 @@ msgstr "Erweiterter Editor"
 
 # Cataloging > Interface
 #: ../../source/systempreferences.rst:2156
-#, fuzzy
 msgid "Asks: \\_\\_\\_ descriptions of fields and subfields in the MARC editor."
-msgstr "die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor."
+msgstr ""
+"Fragt: \\_\\_\\_ die Beschreibungen für Felder und Unterfelder im MARC-"
+"Editor."
 
 #: ../../source/systempreferences.rst:2160
 msgid "This preference determines whether or not MARC field names will be present when editing or creating MARC records."
@@ -5416,9 +5418,8 @@ msgstr "Die Berechtigung auf die :ref:`Ausleihkonditionen <circulation-and-fine-
 
 # Circulation > Checkout Policy
 #: ../../source/systempreferences.rst:3538
-#, fuzzy
 msgid "the library you are logged in at"
-msgstr "der Bibliothek, in der das Exemplar entliehen wurde."
+msgstr "die Bibliothek, unter der Sie angemeldet sind"
 
 #: ../../source/systempreferences.rst:3540
 #, fuzzy
@@ -6625,9 +6626,8 @@ msgid "This preference allows the library to decide if fines are charged in addi
 msgstr ""
 
 #: ../../source/systempreferences.rst:4596
-#, fuzzy
 msgid "Holds Policy"
-msgstr "Vormerkregel:"
+msgstr "Vormerkregel"
 
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:4601
@@ -10075,9 +10075,8 @@ msgstr "Adresse"
 
 # I18N/L10N
 #: ../../source/systempreferences.rst:8124
-#, fuzzy
 msgid "Default: US style ([Street number], [Address] - [City], [Zip/Postal Code], [Country])"
-msgstr "US-Stil ([Hausnummer], [Straße] - [Stadt], [PLZ], [Land])"
+msgstr "US-Format ([Hausnummer], [Straße] - [Stadt], [PLZ], [Land])"
 
 # I18N/L10N
 #: ../../source/systempreferences.rst:8127
@@ -10099,9 +10098,8 @@ msgstr "Französischer Stil ([Hausnummer] [Straße] - [PLZ] [Stadt] - [Land])"
 
 # I18N/L10N
 #: ../../source/systempreferences.rst:8137
-#, fuzzy
 msgid "US style ([Street number], [Address] - [City], [Zip/Postal Code], [Country])"
-msgstr "US-Stil ([Hausnummer], [Straße] - [Stadt], [PLZ], [Land])"
+msgstr "US-Format ([Hausnummer], [Straße] - [Stadt], [PLZ], [Land])"
 
 #: ../../source/systempreferences.rst:8142
 msgid "This preference will let you control how Koha displays patron addresses given the information entered in the various fields on their record."
@@ -11356,9 +11354,8 @@ msgstr "Erste Tabellenspalte"
 
 # OPAC > Appearance
 #: ../../source/systempreferences.rst:9253
-#, fuzzy
 msgid "Asks: \\_\\_\\_ is the default sort field for the holdings table"
-msgstr "ist Standardsortierung für die Tabelle der Vormerkungen"
+msgstr "Fragt: \\_\\_\\_ ist die Standardsortierung für die Exemplartabelle."
 
 #: ../../source/systempreferences.rst:9257
 #, fuzzy
@@ -16517,9 +16514,9 @@ msgstr "Standardwert: 0"
 
 # Tools > Batch item
 #: ../../source/systempreferences.rst:14498
-#, fuzzy
 msgid "Asks: Display up to \\_\\_\\_ items in a single item deletion batch."
-msgstr "Exemplaren in einem einzelnen Stapel zur Löschung von Exemplaren."
+msgstr ""
+"Fragt: Zeige bis zu \\_\\_\\_ Exemplare in einer einzelnen Stapellöschung."
 
 #: ../../source/systempreferences.rst:14502
 msgid "In the :ref:`batch item delete tool <batch-item-deletion-label>` this will prevent the display of more than the items you entered in this preference, but you will be able to delete more than the number you enter here."

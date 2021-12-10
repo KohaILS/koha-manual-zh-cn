@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Koha Manual 18.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-01 21:22-0300\n"
-"PO-Revision-Date: 2020-06-02 10:47+0000\n"
-"Last-Translator: Bernardo Gonzalez Kriegel <bgkriegel@gmail.com>\n"
+"PO-Revision-Date: 2021-03-09 16:05+0000\n"
+"Last-Translator: Héctor Castro <hector.hecaxmmx@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1591094849.729083\n"
+"X-POOTLE-MTIME: 1615305918.606363\n"
 
 #: ../../source/circulation.rst:6
 msgid "Circulation"
@@ -1433,7 +1433,7 @@ msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Alertas de ci
 
 #: ../../source/circulation.rst:996
 msgid "Holds queue"
-msgstr "Cola de reservas"
+msgstr "Fila de reservas"
 
 #: ../../source/circulation.rst:998
 #, fuzzy
@@ -1447,7 +1447,13 @@ msgstr "|image577|"
 
 #: ../../source/circulation.rst:1002
 msgid "To generate this report, you must have the :ref:`Build holds queue cron job <cron-holds-queue-report-label>` running. This cron job is a script that should be run periodically if your library system allows borrowers to place on-shelf holds. This script decides which library should be responsible for fulfilling a given hold request."
-msgstr "Para generar este informe, deberá tener la :ref:`tarea programada (cron job) Build holds queue <cron-holds-queue-report-label>` ejecutándose. Esta tarea programada es un script que debe ejecutarse periódicamente si su biblioteca permite a sus usuarios hacer reservas de ejemplares que están en el estante. Este script decide qué biblioteca será responsable de cubrir un requerimiento de reserva."
+msgstr ""
+"Para generar este informe, deberá tener la :ref:`Build holds queue cron job "
+"<cron-holds-queue-report-label>` ejecutándose. Esta tarea programada es un "
+"script que debe ejecutarse periódicamente si su sistema de la biblioteca "
+"permite a sus usuarios hacer reservas de ejemplares que están en el estante. "
+"Este script decide qué biblioteca será responsable de cubrir un "
+"requerimiento de reserva."
 
 #: ../../source/circulation.rst:1008
 msgid "It's behavior is controlled by the system preferences :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`, :ref:`RandomizeHoldsQueueWeight <holds-queue-system-preferences-label>` and :ref:`UseTransportCostMatrix`."
@@ -1459,7 +1465,15 @@ msgstr "Si no se desea que todas las bibliotecas participen en el proceso de sat
 
 #: ../../source/circulation.rst:1019
 msgid "By default, the holds queue will be generated such that the system will first attempt to hold fulfillment using items already at the pickup library if possible. If there are no items available at the pickup library to fill a hold, build\\_holds\\_queue.pl will then use the list of libraries defined in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled (which it is by default), the script will assign fulfillment requests in the order the branches are placed in the StaticHoldsQueueWeight system preference."
-msgstr "Por defecto, la cola de reservas será generada de forma que el sistema intentará primero cubrir las reservas utilizando ejemplares disponibles en la biblioteca de retiro de ser posible. Si no hay ejemplares disponibles para cubrir la reserva, build\\_holds\\_queue.pl utilizará la lista de bibliotecas definida en StaticHoldsQueueWieght. Si está deshabilitada RamdomizeHoldsQueueWeight (comportamiento por defecto), el script requerirá pedidos de cobertura en el orden de ubicación de las sedes en la preferencia del sistema StaticHoldsQueueWeight."
+msgstr ""
+"Por defecto, la fila de reservas será generada de forma que el sistema "
+"intentará primero cubrir las reservas utilizando ejemplares disponibles en "
+"la biblioteca de retiro de ser posible. Si no hay ejemplares disponibles "
+"para cubrir la reserva, build\\_holds\\_queue.pl utilizará la lista de "
+"bibliotecas definida en StaticHoldsQueueWeight. Si RamdomizeHoldsQueueWeight "
+"está deshabilitada (comportamiento por defecto), el script asignara los "
+"pedidos de cobertura en el orden de ubicación de las sucursales en la "
+"preferencia del sistema StaticHoldsQueueWeight."
 
 #: ../../source/circulation.rst:1028
 #, fuzzy
@@ -1476,7 +1490,7 @@ msgstr ""
 
 #: ../../source/circulation.rst:1048
 msgid "Holds to pull"
-msgstr "Reservas a preparar"
+msgstr "Reservas a retirar"
 
 #: ../../source/circulation.rst:1050
 msgid "This report will show you all of the items that have holds on them that are available at the library for pulling. If the items are available at multiple libraries then all libraries with that item available will see the hold to pull until one library triggers the hold."
@@ -1502,7 +1516,7 @@ msgstr "|image579|"
 
 #: ../../source/circulation.rst:1069
 msgid "Holds awaiting pickup"
-msgstr "Reservas a retirar"
+msgstr "Reservas esperando ser recogidas"
 
 #: ../../source/circulation.rst:1071
 msgid "This report will show all of the holds that are waiting for patrons to pick them up."
@@ -2435,9 +2449,18 @@ msgid "When your Internet connection comes back up you will want to get these tr
 msgstr "Cuando su conexión a internet se restaure, querrá tener esas transacciones en Koha. Antes de procesar estas transacciones, debe tener en cuenta algunos cuestiones."
 
 #: ../../source/circulation.rst:1778
-#, fuzzy
 msgid "Because you are not connected to your Koha database when using this plugin holds will need additional processing. If an item you check in while offline has a hold, the hold is kept on the item. Since, you can't confirm holds found during the processing of every check in, the holds stay on the item and will need to be managed later. If you only checked in a few items you can just keep a record of them all. If you checked in a lot of items you can use the Holds queue once it rebuilds to see what holds made it to the shelf erroneously."
-msgstr "Dado que no está conectado a la base de datos de Koha al usar este plugin necesitará un tratamiento adicional. Si un ítem que usted devuelve mientras está fuera de línea tiene una reserva, la reserva se mantiene sobre el ítem. Dado que, usted no puede confirmar las reservas encontradas durante el procesamiento de todas las devoluciones, las reservas del ítem se mantienen y se necesitará gestionarlas más tarde. Si usted devuelve solo unos pocos ítems puede mantener un registro de todos ellos. Si está devolviendo gran cantidad de ítems puedeutilizar la cola de reservas una vez que se reconstruya y ver que reservas se han efectuado erróneamente."
+msgstr ""
+"Dado que no está conectado a la base de datos de Koha al usar este plugin, "
+"las reservas necesitarán un tratamiento adicional. Si un ítem que usted "
+"devuelve mientras está fuera de línea tiene una reserva, la reserva se "
+"mantiene sobre el ítem. Dado que, usted no puede confirmar las reservas "
+"encontradas durante el procesamiento de todas las devoluciones, las reservas "
+"del ítem se mantienen y se necesitará gestionarlas más tarde. Si usted "
+"devuelve solo unos pocos ítems puede mantener un registro de todos ellos. Si "
+"está devolviendo gran cantidad de ítems puede utilizar la fila de reservas "
+"una vez que se reconstruya y ver qué reservas se han enviado erróneamente a "
+"la estantería."
 
 #: ../../source/circulation.rst:1787
 msgid "Similarly, if an patron card was expired, the offline circulation tool won't know about it, so the checkout will be recorded regardless of the patron's account being blocked normally."
@@ -2578,4 +2601,3 @@ msgstr "|image625|"
 #, fuzzy
 msgid "|image626|"
 msgstr "|image626|"
-

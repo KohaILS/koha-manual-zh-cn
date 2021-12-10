@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-01-27 11:29+0000\n"
+"PO-Revision-Date: 2021-11-06 15:19+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1611746968.036830\n"
+"X-POOTLE-MTIME: 1636211964.610216\n"
 "X-Pootle-Path: /fr/man18.05/tools.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -482,9 +482,11 @@ msgid "Next you can choose default values to apply to all patrons you are import
 msgstr "Ensuite vous pouvez choisir les valeurs par défaut à appliquer à tous les adhérents que vous importez"
 
 #: ../../source/tools.rst:329
-#, fuzzy
 msgid "For example, if you're importing patrons specific to one branch you can use the field on the import form to apply the branch code to all those you are importing."
-msgstr "ex. Si vous importez des adhérents spécifiques à un site vous pouvez utiliser le champ du formulaire d'importation pour appliquer le code du site à tous ceux que vous importez."
+msgstr ""
+"Par exemple, si vous importez des adhérents spécifiques à un site vous "
+"pouvez utiliser le champ du formulaire d'importation pour appliquer le code "
+"du site à tous ceux que vous importez."
 
 #: ../../source/tools.rst:333
 #, fuzzy
@@ -508,12 +510,10 @@ msgid "|image1355|"
 msgstr "|image1355|"
 
 #: ../../source/tools.rst:352
-#, fuzzy
 msgid "Notices & slips"
-msgstr "Notifications & Tickets"
+msgstr "Notifications & tickets"
 
 #: ../../source/tools.rst:354
-#, fuzzy
 msgid "*Get there:* More > Tools > Patrons and circulation > Notices & slips"
 msgstr "*Aller à :* Plus > Outils > Adhérents et Circulation > Notifications & tickets"
 
@@ -532,7 +532,11 @@ msgstr "Chaque notification peut être modifiée, mais très peu peuvent être s
 
 #: ../../source/tools.rst:367
 msgid "If you have a style you'd like applied to all slips you can point the :ref:`SlipCSS` preference to a stylesheet. The same is true for notices, using the :ref:`NoticeCSS` preference to define a stylesheet."
-msgstr "Si vous souhaitez appliquer un style à tous vos tickets, indiquez le nom de la feuille de style dans la préférence système :ref:'SlipCSS'. La même chose est valable pour les notifications avec la préférence système ref:''NoticeCSS'."
+msgstr ""
+"Si vous souhaitez appliquer un style à tous vos tickets, indiquez le nom de "
+"la feuille de style dans la préférence système :ref:'SlipCSS'. La même chose "
+"est valable pour les notifications avec la préférence système "
+":ref:'NoticeCSS'."
 
 #: ../../source/tools.rst:372
 #, fuzzy
@@ -656,9 +660,11 @@ msgid "The other option, only for overdue notices, is to use the <item></item> t
 msgstr "L'autre option, seulement pour les notifications de retard, est d'utiliser les balises <item></item> pour encadrer la ligne, ainsi plusieurs lignes seront imprimées. Un exemple pour les balises <item></item> est :"
 
 #: ../../source/tools.rst:464
-#, fuzzy
 msgid "<item>\"<<biblio.title>>\" by <<biblio.author>>, <<items.itemcallnumber>>, Barcode: <<items.barcode>> , Checkout date: <<issues.issuedate>>, Due date: <<issues.date\\_due>> Fine: <<items.fine>> </item>"
-msgstr "<item>\"<<biblio.title>>\" par <<biblio.author>>, <<items.itemcallnumber>>, code à barres : <<items.barcode>> , Date d'emprunt : <<issues.issuedate>>, Date de retour : <<issues.date\\_due>> Amende : <<items.fine>> Date de retour : <<issues.date\\_due>> </item>"
+msgstr ""
+"<item>\"<<biblio.title>>\" par <<biblio.author>>, <<items.itemcallnumber>>, "
+"Code à barres : <<items.barcode>> , Date d'emprunt : <<issues.issuedate>>, "
+"Date de retour : <<issues.date\\_due>> Amende : <<items.fine>> </item>"
 
 #: ../../source/tools.rst:471
 msgid "Only the overdue notices take advantage of the <item></item> tags, all other notices referencing items need to use <<items.content>>"
@@ -755,6 +761,8 @@ msgstr ""
 #: ../../source/tools.rst:567
 msgid "This notice is sent for each payment transaction in a patron's account if the :ref:`UseEmailReceipts` system preference is set to 'Send'."
 msgstr ""
+"Ce message est envoyé pour chaque paiement dans le compte d'un adhérent si "
+"la préférence système :ref:'UseEmailReceipts` est paramétrée sur 'Envoyer'."
 
 #: ../../source/tools.rst:571
 msgid "ACCOUNT\\_WRITEOFF"
@@ -763,6 +771,9 @@ msgstr ""
 #: ../../source/tools.rst:573
 msgid "This notice is sent for each writeoff transaction in a patron's account if the :ref:`UseEmailReceipts` system preference is set to 'Send'."
 msgstr ""
+"Ce message est envoyé pour chaque abandon de créance dans le compte d'un "
+"adhérent si la préférence système :ref:'UseEmailReceipts` est paramétrée sur "
+"'Envoyer'."
 
 #: ../../source/tools.rst:577
 msgid "ACCTDETAILS"
@@ -905,17 +916,16 @@ msgstr "L'adhérent a demandé à recevoir cette notification"
 #: ../../source/tools.rst:712 ../../source/tools.rst:729
 #: ../../source/tools.rst:744 ../../source/tools.rst:809
 #: ../../source/tools.rst:827 ../../source/tools.rst:854
-#, fuzzy
 msgid "*Get there:*\\ OPAC > Login > your messaging"
-msgstr "*Aller à :*\\ OPAC > Mon compte > Mes messages"
+msgstr "*Aller à :*\\ OPAC > Connexion > Mes messages"
 
 #: ../../source/tools.rst:668 ../../source/tools.rst:686
 #: ../../source/tools.rst:714 ../../source/tools.rst:731
 #: ../../source/tools.rst:746 ../../source/tools.rst:811
 #: ../../source/tools.rst:829 ../../source/tools.rst:856
-#, fuzzy
 msgid "*Get there:*\\ Staff client > Patron record > :ref:`Notices`"
-msgstr "*Aller à :*\\ Interface professionnelle > Adhérents > :ref:`Notices`"
+msgstr ""
+"*Aller à:*\\ Interface professionnelle > Dossier Adhérent > :ref:`Messages`"
 
 #: ../../source/tools.rst:671
 msgid "CHECKOUT"
@@ -939,7 +949,9 @@ msgstr ""
 
 #: ../../source/tools.rst:697
 msgid "The discharge feature is controlled by the :ref:`useDischarge` system preference."
-msgstr "La fonctionnalité Quitus est gérée par la préférence système :ref:'useDischarge`"
+msgstr ""
+"La fonctionnalité Quitus est gérée par la préférence système "
+":ref:'useDischarge`."
 
 #: ../../source/tools.rst:700
 msgid "DUE"
@@ -1085,7 +1097,6 @@ msgid "Notice used in the serials module to notify patrons/staff of new issues o
 msgstr ""
 
 #: ../../source/tools.rst:867
-#, fuzzy
 msgid "*Get there:* More > Serials > :ref:`New subscription <add-a-subscription-label>`"
 msgstr "*Aller à :* Plus > Périodiques > :ref:`Nouvel abonnement <add-a-subscription-label>`"
 
@@ -1112,7 +1123,9 @@ msgstr "Utilisé pour avertir un adhérent qu'un autre adhérent a accepté sa l
 
 #: ../../source/tools.rst:889 ../../source/tools.rst:898
 msgid "Requires that you set :ref:`OpacAllowSharingPrivateLists` to 'Allow'"
-msgstr "Nécessite que vous régliez :ref:'OpacAllowSharingPrivateLists' sur « Permettre »"
+msgstr ""
+"Nécessite que vous régliez :ref:'OpacAllowSharingPrivateLists' sur "
+"'Permettre'"
 
 #: ../../source/tools.rst:893
 msgid "SHARE\\_INVITE"
@@ -1135,9 +1148,13 @@ msgid "Requires the :ref:`notice\\_unprocessed\\_suggestions <cron-email-suggest
 msgstr ""
 
 #: ../../source/tools.rst:910
-#, fuzzy
 msgid "There are also a set of predefined slips (or receipts) listed on this page. All of these slips can be customized by altering their text via the Notices & slips tool and their style using the :ref:`SlipCSS` preference to define a stylesheet. Here is what those slips are used for:"
-msgstr "Il y a aussi un jeu de tickets (ou reçus) pré-définis sur cette page. Tous ces tickets peuvent être personnalisés en modifiant leur contenu via l'outil « Notifications et Tickets » ainsi que leur apparence grâce à la préférence système :ref:'SlipCSS' pour définir une feuille de style. Voici à quoi servent ces tickets :"
+msgstr ""
+"Il y a aussi un jeu de tickets (ou reçus) pré-définis sur cette page. Tous "
+"ces tickets peuvent être personnalisés en modifiant leur contenu via l'outil "
+"'Notifications et Tickets' ainsi que leur apparence grâce à la préférence "
+"système :ref:'SlipCSS' pour définir une feuille de style. Voici à quoi "
+"servent ces tickets :"
 
 #: ../../source/tools.rst:916
 msgid "AR\\_SLIP"
@@ -1222,9 +1239,10 @@ msgid "Overdue notice/status triggers"
 msgstr "Paramétrage des relances"
 
 #: ../../source/tools.rst:964
-#, fuzzy
 msgid "*Get there:* More > Tools > Patrons and circulation > Overdue notice/status triggers"
-msgstr "*Aller à :* Plus > Outils > Adhérents et circulation > Paramétrage des relances"
+msgstr ""
+"*Aller à :* Plus > Outils > Adhérents et Circulation > Paramétrage des "
+"relances"
 
 #: ../../source/tools.rst:967
 #, fuzzy
@@ -1278,7 +1296,6 @@ msgid "Patron card creator"
 msgstr "Créateur de cartes adhérent"
 
 #: ../../source/tools.rst:1021
-#, fuzzy
 msgid "*Get there:* More > Tools > Patron card creator"
 msgstr "*Aller à :* Plus > Outils > Créateur de cartes adhérent"
 
@@ -1312,9 +1329,10 @@ msgid "Layouts"
 msgstr "Formats"
 
 #: ../../source/tools.rst:1044
-#, fuzzy
 msgid "*Get there:* More > Tools > Patron card creator > Manage > Layouts"
-msgstr "*Aller à  :* Plus > Outils > Créateur de cartes adhérent > Gestion > Mise en page"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur de cartes adhérent > Gestion > Mise en "
+"page"
 
 #: ../../source/tools.rst:1046
 msgid "A layout defines the text and images that will be printed on to the card and where it will appear."
@@ -1419,9 +1437,10 @@ msgid "Templates"
 msgstr "Modèles"
 
 #: ../../source/tools.rst:1136
-#, fuzzy
 msgid "*Get there:* More > Tools > Patron card creator > Manage > Card templates"
-msgstr "*Aller à  :* Plus > Outils > Créateur de cartes adhérent > Gérer > Gabarits de carte"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur de cartes adhérent > Gestion > Modèles "
+"de carte"
 
 #: ../../source/tools.rst:1139
 msgid "A template describes the arrangement of labels on the label sheet/card stock you are using. This might be Avery 5160 for address labels, Gaylord 47-284 for spine labels or Avery 28371 for your patron cards, just to give a couple of examples. All of the information you will need for setting up a template may be on the packaging, and if not it can usually be found on the vendor's website or can be measured from a sample sheet."
@@ -1460,7 +1479,9 @@ msgstr "Le Code du modèle devrait être le nom de ce modèle afin de l'identifi
 
 #: ../../source/tools.rst:1170
 msgid "You can use the template description to add additional information about the template"
-msgstr "Vous utilisez la description du modèle afin d'ajouter des informations sur le modèle"
+msgstr ""
+"Vous pouvez utiliser la description du modèle afin d'ajouter des "
+"informations sur le modèle"
 
 #: ../../source/tools.rst:1173
 msgid "The Units pull down is used to define what measurement scale you're going to be using for the template."
@@ -1507,9 +1528,9 @@ msgid "Profiles"
 msgstr "Profils"
 
 #: ../../source/tools.rst:1220
-#, fuzzy
 msgid "*Get there:* More > Tools > Patron card creator > Manage > Profiles"
-msgstr "*Aller à  :* Plus > Outils > Créateur de cartes adhérent > Gérer > Profils"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur de cartes adhérent > Gestion > Profils"
 
 #: ../../source/tools.rst:1222
 msgid "A profile is a set of \"adjustments\" applied to a given :ref:`template <patron-templates-label>` just prior to printing which compensates for anomalies unique and peculiar to a given printer. This means if you set a template up and then print a sample set of data and find that the items are not all aligned the same on each card, you need to set up a profile for each printer (or even different tray selections on the same printer) to make up for the differences in printing styles, such as the shifting of text to the left, right, top or bottom."
@@ -1575,7 +1596,6 @@ msgid "Example: the text is printed 0 .25\" from the left edge of the first labe
 msgstr "Exemple: le texte est imprimé à 0.25\" du côté gauche sur la première étiquette, à 0.28\" du côté gauche sur la deuxième étiquette, et à 0.31\" du côté gauche sur la troisième étiquette. Ceci signifie que le décalage horizontal devrait être configuré à (négatif) -0.03\" pour combler cette différence."
 
 #: ../../source/tools.rst:1290
-#, fuzzy
 msgid "After saving, your profiles will appear on the 'Manage printer profiles' page."
 msgstr "Après enregistrement, vos profils seront visibles sur la page 'Gérer les profils'."
 
@@ -1592,9 +1612,10 @@ msgid "Batches"
 msgstr "Lots"
 
 #: ../../source/tools.rst:1303
-#, fuzzy
 msgid "*Get there:* More > Tools > Patron card creator > Manage > Card batches"
-msgstr "*Aller à  :* Plus > Outils > Créateur de cartes adhérent > Gérer > Lots de cartes"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur de cartes adhérent > Gestion > Lots de "
+"cartes"
 
 #: ../../source/tools.rst:1306
 msgid "A batch is a collection of patrons for whom you want to generate cards."
@@ -1623,9 +1644,10 @@ msgstr "|image1225|"
 
 # il me semble qu'on est sur une modification d'adhérents et non d'exemplaires
 #: ../../source/tools.rst:1325
-#, fuzzy
 msgid "After choosing the 'Add patron(s)' button the Patron Search window pops up."
-msgstr "Après avoir sélectionné le bouton « Ajouter des adhérents », le popup de Recherche d'adhérent s'affiche."
+msgstr ""
+"Après avoir sélectionné le bouton 'Ajouter des adhérents', le popup de "
+"Recherche d'adhérent s'affiche."
 
 #: ../../source/tools.rst:1328
 msgid "|image1226|"
@@ -1689,9 +1711,9 @@ msgid "Manage images"
 msgstr "Gérer les images"
 
 #: ../../source/tools.rst:1387
-#, fuzzy
 msgid "*Get there:* More > Tools > Patron card creator > Manage > Images"
-msgstr "*Aller à  :* Plus > Outils > Créateur de cartes adhérent > Gérer > Images"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur de cartes adhérent > Gestion > Images"
 
 #: ../../source/tools.rst:1389
 msgid "Images uploaded using this tool will appear on the menu when creating :ref:`patron card layouts <patron-card-layouts-label>`. You are limited in how many images you can upload (not counting patron images) by the :ref:`ImageLimit` system preference."
@@ -1820,9 +1842,10 @@ msgid "Batch patron modification"
 msgstr "Modification d'adhérents par lots"
 
 #: ../../source/tools.rst:1487
-#, fuzzy
 msgid "*Get there:* More > Tools > Patrons and circulation > Batch patron modification"
-msgstr "*Aller à :* Plus > Outils > Adhérents et circulation > Modification d'adhérents par lot"
+msgstr ""
+"*Aller à :* Plus > Outils > Adhérents et Circulation > Modification "
+"d'adhérents par lot"
 
 #: ../../source/tools.rst:1490
 msgid "With this tool you can make edits to a batch of patron records. Simply load in a file of cardnumbers (one per line), choose from a :ref:`list of patrons <patron-lists-label>` or scan patron card numbers in to the box provided."
@@ -1866,9 +1889,8 @@ msgid "Tag moderation"
 msgstr "Modération des tags"
 
 #: ../../source/tools.rst:1525
-#, fuzzy
 msgid "*Get there:* More > Tools > Patrons and circulation > Tags"
-msgstr "*Aller à :* Plus > Outils > Adhérents et circulation > Tags"
+msgstr "*Aller à :* Plus > Outils > Adhérents et Circulation > Tags"
 
 #: ../../source/tools.rst:1527
 #, fuzzy
@@ -1942,9 +1964,10 @@ msgid "Upload patron images"
 msgstr "Télécharger des photos d'adhérents"
 
 #: ../../source/tools.rst:1586
-#, fuzzy
 msgid "*Get there:* More > Tools > Patrons and circulation > Upload patron images"
-msgstr "*Aller à :* Plus > Outils > Adhérents et circulation > Télécharger des photos d'adhérents"
+msgstr ""
+"*Aller à :* Plus > Outils > Adhérents et Circulation > Télécharger des "
+"photos d'adhérents"
 
 #: ../../source/tools.rst:1589
 msgid "Patron images can be uploaded in bulk if you are :ref:`allowing patron images <patronimages-label>` to be attached to patron records. These images can also be used when creating :ref:`patron cards <patron-card-creator-label>`."
@@ -2264,11 +2287,13 @@ msgstr "Lorsque vous êtes sûrs que tout est comme vous le souhaitez vous pouve
 
 #: ../../source/tools.rst:1811
 msgid "Automatic item modifications by age"
-msgstr "Modification automatique d'exemplaires par ancienneté"
+msgstr "Modifications automatiques d'exemplaires par ancienneté"
 
 #: ../../source/tools.rst:1813
 msgid "*Get there:* More > Tools > Catalog > Automatic item modifications by age"
-msgstr "*Aller à :* Plus > Outils > Catalogue > Modification automatique d'exemplaires par ancienneté"
+msgstr ""
+"*Aller à :* Plus > Outils > Catalogue > Modifications automatiques "
+"d'exemplaires par ancienneté"
 
 #: ../../source/tools.rst:1816
 msgid "This tool allows librarians to update item specific fields when an item reaches a certain age."
@@ -2340,7 +2365,6 @@ msgid "Export data"
 msgstr ""
 
 #: ../../source/tools.rst:1865
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Export data"
 msgstr "*Aller à :* Plus > Outils > Catalogue > Exporter les données"
 
@@ -2575,6 +2599,8 @@ msgstr "Une fois que vous avez retrouvé les exemplaires dans les rayonnages, vo
 #: ../../source/tools.rst:2046
 msgid "Mark seen and quit: updates the 'last seen' date of the checked items to today and returns to the previous screen."
 msgstr ""
+"Marquer comme vu et terminer : met à la date du jour le 'Vu en dernier' des "
+"exemplaires prêtés et retourne à l'écran précédent."
 
 #: ../../source/tools.rst:2049
 msgid "Mark seen and continue: updates the 'last seen' date of the checked items to today and shows the next page of the list."
@@ -2635,7 +2661,6 @@ msgid "Label creator"
 msgstr "Créateur d'étiquette"
 
 #: ../../source/tools.rst:2106
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Label creator"
 msgstr "*Aller à :* Plus > Outils > Catalogue > Créateur d'étiquettes"
 
@@ -2681,9 +2706,10 @@ msgid "XML - Included as an alternate export format"
 msgstr "XML - inclus comme format d'export alternatif"
 
 #: ../../source/tools.rst:2137
-#, fuzzy
 msgid "*Get there:* More > Tools > Label creator > Manage > Label templates"
-msgstr "*Aller à  :* Plus > Outils > Créateur d'étiquettes > Gérer > Modèles d'étiquettes"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur d'étiquettes > Gestion > Modèles "
+"d'étiquettes"
 
 #: ../../source/tools.rst:2139
 msgid "A template is based on the label/card stock you are using. This might be Avery 5160 for address labels, Gaylord 47-284 for spine labels or Avery 28371 for your patron cards, just to give a couple of examples. These labels will include all of the information you will need for setting up a Koha, this information may be on the packaging, and if not it can usually be found on the vendor's website."
@@ -2716,7 +2742,9 @@ msgstr "Le code du modèle doit être choisi pour vous aider à identifier facil
 
 #: ../../source/tools.rst:2167
 msgid "You can use the template Description to add additional information about the template"
-msgstr "Vous utilisez la description du modèle afin d'ajouter des informations sur le modèle"
+msgstr ""
+"Vous pouvez utiliser la description du modèle afin d'ajouter des "
+"informations sur le modèle"
 
 #: ../../source/tools.rst:2170
 msgid "The Units pull down is used to define what measurement scale you're going to be using for the template. This should probably match the unit of measurement used on the template description provided by the product vendor."
@@ -2751,9 +2779,10 @@ msgid "|image321|"
 msgstr "|image321|"
 
 #: ../../source/tools.rst:2206
-#, fuzzy
 msgid "*Get there:* More > Tools > Label creator > Manage > Printer profiles"
-msgstr "*Aller à  :* Plus > Outils > Créateur d'étiquettes > Gérer > Profils d'impression"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur d'étiquettes > Gestion > Profils "
+"d'impression"
 
 #: ../../source/tools.rst:2208
 msgid "A profile is a set of \"adjustments\" applied to a given :ref:`template <label-add-a-template-label>` just prior to printing which compensates for anomalies unique and peculiar to a given printer (to which the profile is assigned). This means if you set a template up and then print a sample set of data and find that the items are not all aligned the same on each label, you need to set up a profile for each printer to make up for the differences in printing styles, such as the shifting of text to the left, right, top or bottom."
@@ -2813,9 +2842,9 @@ msgid "|image325|"
 msgstr "|image325|"
 
 #: ../../source/tools.rst:2275
-#, fuzzy
 msgid "*Get there:* More > Tools > Label creator > Manage > Layouts"
-msgstr "*Aller à  :* Plus > Outils > Créateur d'étiquettes > Gérer > Mise en page"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur d'étiquettes > Gestion > Mise en page"
 
 #: ../../source/tools.rst:2277
 msgid "A layout is used to define the fields you want to appear on your labels."
@@ -2923,9 +2952,10 @@ msgid "Choose your text settings such as alignment, font type and size. You can 
 msgstr "Finalement, choisissez vos configurations de textes, par-exemple l'alignement, la taille des caractères, etc"
 
 #: ../../source/tools.rst:2363
-#, fuzzy
 msgid "*Get there:* More > Tools > Label creator > Manage > Label batches"
-msgstr "*Aller à  :* Plus > Outils > Créateur d'étiquettes > Gérer > Lots d'étiquettes"
+msgstr ""
+"*Aller à :* Plus > Outils > Créateur d'étiquettes > Gestion > Lots "
+"d'étiquettes"
 
 #: ../../source/tools.rst:2365
 msgid "Batches are made up of the barcodes you would like to print. Once in this tool you can search for the item records you would like to print out labels for."
@@ -3006,9 +3036,8 @@ msgid "Quick spine label creator"
 msgstr "Création d'étiquettes - rapide"
 
 #: ../../source/tools.rst:2428
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Quick spine label creator"
-msgstr "*Aller à :* Plus > Outils > Catalogue > Créateur d'étiquettes - rapide"
+msgstr "*Aller à :* Plus > Outils > Catalogue > Créateur d'étiquettes rapide"
 
 #: ../../source/tools.rst:2432
 msgid "This tool does not use the label layouts or templates, it simply prints a spine label in the first spot on the label sheet."
@@ -3037,7 +3066,6 @@ msgid "Rotating collections"
 msgstr "Rotation des collections"
 
 #: ../../source/tools.rst:2451
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Rotating collections"
 msgstr "*Aller à :* Plus > Outils > Catalogue > Collections tournantes"
 
@@ -3052,7 +3080,6 @@ msgid "The :ref:`AutomaticItemReturn` system preference must be set to \"Don't a
 msgstr "La préférence système :ref:`AutomaticItemReturn` doit être positionnée sur « Ne pas transférer automatiquement les exemplaires vers leur site de rattachement à leur retour » pour que les collections tournantes fonctionnent correctement."
 
 #: ../../source/tools.rst:2469
-#, fuzzy
 msgid "To create a new rotating collection, click the \"New collection\" button, fill in the title and description, and click \"Submit\". Once submitted you'll see \"Collection name added successfully\"; click \"Return to rotating collections home\" to return to the main Rotating collections management page (or click Rotating collections in the sidebar)."
 msgstr "Pour créer une nouvelle collection tournante, cliquez sur le bouton \"Nouvelle collection\", remplissez le titre et la description et validez. Une fois validée, vous verrez \"Collection ajoutée avec succès\" ; cliquez sur \"Retourner à l'accueil des collections tournantes\" (ou sur Collections tournantes dans la barre latérale)."
 
@@ -3062,9 +3089,16 @@ msgid "To add items to a collection, click \"Actions\" and choose \"Add or remov
 msgstr "Pour ajouter des exemplaires à une collection, cliquez sur \"Ajouter ou retirer des exemplaires\" à côté du nom de la collection dans la liste. Sous \"Ajouter ou retirer des exemplaires\", scannez ou tapez le code à barres de l'exemplaire que vous souhaitez ajouter à la collection, appuyez sur Entrée ou cliquez sur Valider si nécessaire."
 
 #: ../../source/tools.rst:2482
-#, fuzzy
 msgid "To remove an item from a collection, either click 'Remove' next to the item's barcode in the list of items within the collection or check the \"Remove item from collection\" box next to the Barcode text box under \"Add or remove items\", and scan or type in the barcode, clicking \"Submit\" or hitting Enter if necessary. Note: The \"Remove item from collection\" checkbox will remain checked as long as you are on the \"Add or remove items\" page, unless you uncheck it, to facilitate quickly removing a number of items at a time by scanning their barcodes."
-msgstr "Pour enlever un exemplaire d'une collection, vous devez cliquer sur \"Enlever\" qui est à droite du numéro de code à barres de l'exemplaire, ou cochez la boîte \"Enlever l'exemplaire de la collection\" et inscrivez ou scannez le numéro de code à barres dans la boîte appropriée puis cliquez sur valider. Note: la case à cocher \"Enlever l'exemplaire de la collection\" restera cochée tant et aussi longtemps que vous restez sur la même page ou jusqu'à ce que vous la décochiez. Ceci rend plus efficace de retirer beaucoup de documents de la collection."
+msgstr ""
+"Pour retirer un exemplaire d'une collection, vous devez cliquer sur \""
+"Enlever\" qui est à droite du numéro de code à barres de l'exemplaire, ou "
+"cocher la boîte \"Enlever l'exemplaire de la collection\" et inscrire ou "
+"scanner le numéro de code à barres dans la boîte appropriée puis cliquer sur "
+"valider. Note : la case à cocher \"Enlever l'exemplaire de la collection\" "
+"restera cochée tant que vous restez sur la même page ou jusqu'à ce que vous "
+"la décochiez; ceci permet de retirer plus rapidement beaucoup de documents "
+"de la collection."
 
 #: ../../source/tools.rst:2495
 #, fuzzy
@@ -3541,9 +3575,13 @@ msgid "|image350|"
 msgstr "|image350|"
 
 #: ../../source/tools.rst:2870
-#, fuzzy
 msgid "When using the ISBN matching rule Koha will find only exact matches. If you find that the ISBN match is not working to your satisfaction you can change the :ref:`AggressiveMatchOnISBN` preference to 'Do' and then run your import again."
-msgstr "En utilisant la règle de correspondance ISBN Koha trouvera seulement des correspondances exactes. Si vous constatez que la correspondance d'ISBN ne fonctionne pas comme vous le souhaitez, vous pouvez changer la préférence AggressiveMatchOnISBN pour \"Faire\" et ensuite lancer votre importation de nouveau."
+msgstr ""
+"En utilisant la règle de correspondance ISBN Koha ne trouvera que des "
+"correspondances exactes. Si vous constatez que la correspondance d'ISBN ne "
+"fonctionne pas comme vous le souhaitez, vous pouvez paramétrer la préférence "
+"système :ref:`AggressiveMatchOnISBN' avec 'essayer' et ensuite relancer "
+"votre importation."
 
 #: ../../source/tools.rst:2876
 msgid "Next choose what to do with matching records if they are found"
@@ -3588,7 +3626,6 @@ msgid "Staged MARC record management"
 msgstr "Aller à Gérer les Notices MARC préparées"
 
 #: ../../source/tools.rst:2908
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Staged MARC record management"
 msgstr "*Aller à :* Plus > Outils > Catalogue > Gestion des notices téléchargées"
 
@@ -3715,7 +3752,6 @@ msgid "Upload local cover image"
 msgstr "Charger l'image de couverture locale"
 
 #: ../../source/tools.rst:2989
-#, fuzzy
 msgid "*Get there:* More > Tools > Catalog > Upload local cover image"
 msgstr "*Allez à :* Plus > Outils > Catalogue > Télécharger des images de couverture locales"
 
@@ -3731,6 +3767,9 @@ msgstr ""
 #: ../../source/tools.rst:2997
 msgid "For images to show in the staff client and OPAC you need to set :ref:`LocalCoverImages` and :ref:`OPACLocalCoverImages` preferences to 'Display'."
 msgstr ""
+"Pour les images à afficher dans l'interface professionnelle et à l'OPAC, "
+"vous devez paramétrer les préférences :ref:`LocalCoverImages` et "
+":ref:`OPACLocalCoverImages` sur 'Afficher'."
 
 #: ../../source/tools.rst:3001
 msgid "Images can be uploaded in batches or individually."
@@ -4053,7 +4092,6 @@ msgid "CSV profiles"
 msgstr "Aller à CSV Profiles"
 
 #: ../../source/tools.rst:3237
-#, fuzzy
 msgid "*Get there:* More > Tools > Additional tools > CSV profiles"
 msgstr "*Aller à :* Plus > Outils > Outils supplémentaires > Profils CSV"
 
@@ -4240,7 +4278,6 @@ msgid "News"
 msgstr "Annonces"
 
 #: ../../source/tools.rst:3372
-#, fuzzy
 msgid "*Get there:* More > Tools > Additional tools > News"
 msgstr "*Aller à :* Plus > Outils > Outils supplémentaires > Annonces"
 
@@ -4297,7 +4334,7 @@ msgstr ""
 #: ../../source/tools.rst:3401
 #, fuzzy
 msgid "<notices-and-slips-label>`"
-msgstr "Ajouter des notifications"
+msgstr "<notices-and-slips-label>`"
 
 #: ../../source/tools.rst:3403
 #, fuzzy
@@ -4372,6 +4409,8 @@ msgstr "Après avoir rempli tous les champs, cliquer sur 'Valider'"
 #: ../../source/tools.rst:3440
 msgid "Depending on your choice for the :ref:`NewsAuthorDisplay` system preference you will also see the person who created the news item (this uses the logged in person)"
 msgstr ""
+"Selon le choix retenu pour la préférence système :ref:`NewsAuthorDisplay`, "
+"vous pourrez aussi voir qui a créé l'annonce (utilise l'utilisateur connecté)"
 
 #: ../../source/tools.rst:3447
 msgid "Task Scheduler"
@@ -4523,7 +4562,7 @@ msgstr "La liste sera mise à jour, les modifications sauvegardées et visibles.
 
 #: ../../source/tools.rst:3559
 msgid "If you'd like you can also delete quote(s)."
-msgstr "Êtes vous sûr de vouloir supprimer cette citation ? "
+msgstr "Si vous le souhaitez, vous pouvez également supprimer les citations. "
 
 #: ../../source/tools.rst:3561 ../../source/tools.rst:3609
 msgid "Select the quote(s) you desire to delete by clicking on the corresponding quote id."

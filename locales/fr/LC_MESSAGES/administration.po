@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-01-27 10:27+0000\n"
+"PO-Revision-Date: 2021-10-28 09:31+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1611743229.145453\n"
+"X-POOTLE-MTIME: 1635413512.970866\n"
 "X-Pootle-Path: /fr/man18.05/administration.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -203,6 +203,8 @@ msgstr "Enfin, si vous avez n'importe quelles notes vous pouvez les mettre ici. 
 #: ../../source/administration.rst:113
 msgid "Finally, you can choose whether the library will display as an available pickup location for holds"
 msgstr ""
+"Enfin, vous pouvez choisir si la bibliothèque s'affichera comme lieu de "
+"retrait disponible pour les réservations"
 
 #: ../../source/administration.rst:117
 msgid "Of the fields listed, only 'Library code' and 'Name' are required"
@@ -370,9 +372,13 @@ msgid "The description is the plain text definition of the item type (for those 
 msgstr "La description est une définition en texte libre du type de document (si vous avez un environnement multilingue, vous pouvez cliquer sur le lien \"Traduire dans d'autres langues\" pour ajouter la description du type de document dans une autre langue)"
 
 #: ../../source/administration.rst:254
-#, fuzzy
 msgid "Item types can be grouped together for searching at the same time. For example you can put DVDs and Bluray in to a group called Movie and then they can be searched together. These groups are defined in the ITEMTYPECAT :ref:`authorized value category <existing-values-label>`."
-msgstr "Les types de documents peuvent être regroupés pour la recherche. Par exemple, vous pouvez mettre DVD et Bluray dans un groupe appelés Film et ces deux types de documents seront recherchés en même temps. Ces groupes sont définis dans les valeurs autorisées ITEMTYPECAT."
+msgstr ""
+"Les types de documents peuvent être regroupés pour la recherche. Par "
+"exemple, vous pouvez mettre DVD et Bluray dans un groupe appelé Film et ces "
+"deux types de documents seront recherchés en même temps. Ces groupes sont "
+"définis dans la :ref:'catégorie de valeurs autorisées ITEMTYPECAT <existing-"
+"values-label>'."
 
 #: ../../source/administration.rst:259
 msgid "You can choose to have an image associated with your item type"
@@ -395,9 +401,10 @@ msgid "To have your item type images appear in the OPAC you need to set :ref:`no
 msgstr "Vous devez activer la préférence système :ref:`noItemTypeImages` afin de faire apparaître les images à l'OPAC"
 
 #: ../../source/administration.rst:272
-#, fuzzy
 msgid "*Get there:* More > Administration > Global system preferences > :ref:`Administration <administration-system-preferences-label>`"
-msgstr "*Allez à :*\\ Plus > Administration > Préférences système > :ref:`Administration <administration-label>`"
+msgstr ""
+"*Allez à :* Plus > Administration > Préférences système > :ref:`"
+"Administration <administration-system-preferences-label>'"
 
 #: ../../source/administration.rst:275
 msgid "For items that you are suppressing from the OPAC you can hide their item type from being searched in the OPAC"
@@ -1088,9 +1095,10 @@ msgstr "Pour ajouter une nouvelle catégorie d'adhérent, cliquer sur 'Ajouter u
 msgid "|image149|"
 msgstr "|image149|"
 
+# pour votre nouvelle catégorie ?
 #: ../../source/administration.rst:816
 msgid "The 'Category code' is an identifier for your new code."
-msgstr "Le 'Code catégorie' est l'identifiant pour votre nouveau code. "
+msgstr "Le 'Code de catégorie' est l'identifiant pour votre nouvelle catégorie."
 
 #: ../../source/administration.rst:820
 #, fuzzy
@@ -1136,9 +1144,12 @@ msgid "Depending on your value for the :ref:`FeeOnChangePatronCategory` preferen
 msgstr "Selon le paramétrage de la valeur pour la préférence :ref:`FeeOnChangePatronCategory`, ce montant sera ajouté comme frais sur le compte de l'usager lors du renouvellement de son abonnement comme lors de sa première inscription."
 
 #: ../../source/administration.rst:872
-#, fuzzy
 msgid "If you want your patron to receive overdue notices, set the 'Overdue notice required' to 'Yes'. This will enable you to set the :ref:`overdue notice triggers <overdue-notice/status-triggers-label>` in the Tools module."
-msgstr "Si vous voulez envoyer des lettres de réclamation à cette catégorie d'adhérent, mettez à Oui le champ Message de retard requis."
+msgstr ""
+"Si vous voulez envoyer des lettres de réclamation aux adhérents, configurez "
+"'Notification de retard requise' sur 'Oui'. Ceci vous permettra de :ref:"
+"'paramétrer les relances <overdue-notice/status-triggers-label>' dans le "
+"module Outils."
 
 #: ../../source/administration.rst:877
 msgid "You can decide on a patron category basis if lost items are shown in the staff client by making a choice from the 'Lost items in staff client' pull down"
@@ -1381,9 +1392,12 @@ msgid "Enter only numbers and decimal points (no currency symbols)."
 msgstr "Saisissez uniquement des chiffres et le séparateur décimal.\""
 
 #: ../../source/administration.rst:1089
-#, fuzzy
 msgid "Enter the 'Fine charging interval' in the unit you set (ex. charge fines every 1 day, or every 2 hours). The :ref:`finesCalendar` system preference controls wether the days the library is closed will be taken into account or not."
-msgstr "Entrez la périodicité des amendes en jours (par exemple, facturez les amendes tous les 1 jours, tous les 2 jours)"
+msgstr ""
+"Entrez la 'Périodicité de l'amende' dans l'unité que vous avez choisie (par "
+"exemple, facturer les amendes tous les 1 jours ou toutes les 2 heures). La "
+"préférence système :ref:' finesCalendar' contrôle si les jours de fermeture "
+"de la bibliothèque sont pris en compte ou non."
 
 #: ../../source/administration.rst:1094
 msgid "'When to charge' is most handy in libraries that have a fine charging interval of more than 1 day."
@@ -1468,9 +1482,10 @@ msgid "You can enable automatic renewals for certain items/patrons if you'd like
 msgstr "Si vous le souhaitez vous pouvez permettre des renouvellements automatiques pour certains exemplaires/lecteurs. Cela permettra le renouvellement automatique d'après vos règles de circulation à moins qu'une réservation ne soit placée sur l'exemplaire."
 
 #: ../../source/administration.rst:1171
-#, fuzzy
 msgid "You will need to enable the :ref:`automatic renewal cron job <cron-automatic-renewal-label>` for this to work."
-msgstr "Vous devrez activer :ref:`le cron job (ou tâche planifiée) de renouvellement automatique <automatic-renewal-label>` pour que cela fonctionne."
+msgstr ""
+"Vous devrez activer :ref:`le cron job de renouvellement automatique <cron-"
+"automatic-renewal-label>` pour que cela fonctionne."
 
 #: ../../source/administration.rst:1176
 #, fuzzy
@@ -1706,9 +1721,11 @@ msgid "Default lost item fee refund on return policy"
 msgstr "Par défaut, remboursement des frais d'exemplaire perdu en fonction des règles de retour"
 
 #: ../../source/administration.rst:1353
-#, fuzzy
 msgid "Here, you can specify the default policy for lost item fees on return. This policy will apply to this library. This rule is to be used with the :ref:`RefundLostOnReturnControl` system preference."
-msgstr "Ici vous pouvez spécifier la politique d'amendes par défaut au retour des exemplaires perdus. Cette politique s'appliquera à ce site. Cette règle doit être utilisée avec la préférence système :ref:`RefundLostOnReturnControl <refundlostonreturncontrol-label>`."
+msgstr ""
+"Ici vous pouvez spécifier la politique d'amendes par défaut au retour des "
+"exemplaires perdus. Cette politique s'appliquera à ce site. Cette règle doit "
+"être utilisée avec la préférence système :ref:`RefundLostOnReturnControl`."
 
 #: ../../source/administration.rst:1360
 msgid "Default holds policy by item type"
@@ -1731,9 +1748,10 @@ msgid "From any library: Patrons from any library may put this item on hold. (de
 msgstr "Tout site : Les adhérents de tous les sites peuvent réserver cet exemplaire. (valeur par défaut si aucune autre n'est sélectionnée)."
 
 #: ../../source/administration.rst:1372
-#, fuzzy
 msgid "From local hold group: Only patrons from libraries in the same item's home library hold groups may put this book on hold."
-msgstr "Site de rattachement : Seuls les adhérents du site de l'exemplaire peuvent réserver ce document."
+msgstr ""
+"Du groupe de réservation local : seuls les adhérents des bibliothèques du "
+"même groupe de réservation de l'exemplaire peuvent réserver ce document."
 
 #: ../../source/administration.rst:1375
 msgid "From home library: Only patrons from the item's home library may put this book on hold."
@@ -2007,12 +2025,19 @@ msgstr "Matrice des coûts de transports"
 
 #: ../../source/administration.rst:1624
 msgid "The transport cost matrix lets a library system define relative costs to transport books to one another. In order for the system to use this matrix you must first set the :ref:`UseTransportCostMatrix` preference to 'Use'."
-msgstr "La matrice Coût de Transport permet à un réseau de définir les coûts de transport entre les sites. Pour permettre l'utilisation de cette matrice vous devez au préalable définir la préférence :ref:`UseTransportCostMatrix` à 'Utiliser'."
+msgstr ""
+"La matrice Coût de Transport permet à un réseau de définir les coûts de "
+"transport entre les sites. Pour permettre l'utilisation de cette matrice "
+"vous devez au préalable paramétrer la préférence "
+":ref:`UseTransportCostMatrix` sur 'Utiliser'."
 
 #: ../../source/administration.rst:1632
-#, fuzzy
 msgid "The transport cost matrix takes precedence in controlling where holds are filled from, if the matrix is not used then Koha checks the :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`."
-msgstr "La matrice de coûts de transport a la priorité sur la provenance des réservations, si la matrice n'est pas utilisée alors Koha vérifie la préférence système ref:`StaticHoldsQueueWeight <staticholdsqueueweight,-holdsqueueskipclosed-&-randomizeholdsqueueweight-label>`."
+msgstr ""
+"La matrice de coûts de transport a la priorité sur la provenance des "
+"réservations; si la matrice n'est pas utilisée alors Koha vérifie la "
+"préférence système :ref:`StaticHoldsQueueWeight <holds-queue-system-"
+"preferences-label>`."
 
 #: ../../source/administration.rst:1636
 msgid "Costs are decimal values between some arbitrary maximum value (e.g. 1 or 100) and 0 which is the minimum (no) cost. For example, you could just use the distance between each library in miles as your 'cost', if that would accurately reflect the cost of transferring them. Perhaps post offices would be a better measure. Libraries sharing a post office would have a cost of 1, adjacent post offices would have a cost of 2, etc."
@@ -2140,7 +2165,7 @@ msgstr "Comptabilité"
 
 #: ../../source/administration.rst:1746
 msgid "*Get there:* More > Administration > Accounting"
-msgstr "*Aller à : * Plus > Administration > Comptabilité"
+msgstr "*Aller à :* Plus > Administration > Comptabilité"
 
 #: ../../source/administration.rst:1748
 msgid "This section deals with the parameters used in managing the patron accounts."
@@ -2344,7 +2369,7 @@ msgstr ""
 
 #: ../../source/administration.rst:1934
 msgid "Cash registers"
-msgstr "Budgets"
+msgstr "Caisses"
 
 #: ../../source/administration.rst:1936
 msgid "*Get there:* More > Administration > Accounting > Cash registers"
@@ -2360,7 +2385,7 @@ msgstr "Si vous n'avez pas défini de caisse au préalable, vous serez invité �
 
 #: ../../source/administration.rst:1943
 msgid "Otherwise, you will see the list of all your cash registers."
-msgstr ""
+msgstr "Sinon, vous verrez la liste de toutes vos caisses."
 
 #: ../../source/administration.rst:1945
 msgid "|image1450|"
@@ -2369,6 +2394,9 @@ msgstr "|image1450|"
 #: ../../source/administration.rst:1947
 msgid "In the 'Actions' columns, you can choose to edit your cash registers, make one of them default or remove the default status, and archive or restore an archived register."
 msgstr ""
+"Dans la colonne 'Actions, vous pourrez choisir de modifier vos caisses, en "
+"définir une par défaut ou retirer ce statut, et archiver ou réactiver une "
+"caisse archivée."
 
 #: ../../source/administration.rst:1951
 msgid "The default status is only useful in libraries that have more than one register per branch. The default register will be pre-selected when :ref:`entering a payment <pay/reverse-fines-label>`. If there is only one cash register per branch, the branch's cash register will be selected when paying."
@@ -3116,7 +3144,7 @@ msgstr "Les règles de concordance sont utilisées au moment de l'import de noti
 
 #: ../../source/administration.rst:2499
 msgid "*Get there:* More > Administration > Catalog > Record matching rules"
-msgstr "Aller à : Plus > Administration > Catalogue > Règles de concordance"
+msgstr "*Aller à :* Plus > Administration > Catalogue > Règles de concordance"
 
 #: ../../source/administration.rst:2501
 msgid "The rules that you set up here will be referenced with you :ref:`Stage MARC records for import <stage-marc-records-for-import-label>`."
@@ -3523,13 +3551,17 @@ msgid "|image1207|"
 msgstr "|image1207|"
 
 #: ../../source/administration.rst:2793
-#, fuzzy
 msgid "Search engine configuration"
-msgstr "Configuration des Sets OAI-PMH"
+msgstr "Configuration du moteur de recherche"
 
 #: ../../source/administration.rst:2794
 msgid "Once you have switched to Elastic Search in your SearchEngine system preference, you’ll see a new link for Search engine configuration in the Catalog section of Administration. Here you will manage indexes, facets, and their mappings to MARC fields and subfields."
 msgstr ""
+"Une fois que vous aurez choisi Elasticsearch dans votre préférence système "
+"SearchEngine, vous verrez un nouveau lien pour la configuration du moteur de "
+"recherche, dans la section Catalogue du module Administration. Vous pourrez "
+"alors gérer les indexes, les facettes et leurs correspondances avec les "
+"champs et sous-champs MARC."
 
 #: ../../source/administration.rst:2802 ../../source/administration.rst:3515
 msgid "Acquisitions"
@@ -3836,9 +3868,10 @@ msgid "Planning categories are used for statistical purposes. If you will be usi
 msgstr "Les catégories de planification sont utilisées à des fins statistiques. Si vous comptez utiliser les listes de valeurs autorisées Asort1 et / ou Asort2 pour suivre vos ordres, vous devez les sélectionner lors de la configuration du budget. Sélectionnez l'option Asort1 / Asort2 dans les listes déroulantes pour les champs Statiscal 1 effectué sur : et Statistiques 2 réalisés sur : champs."
 
 #: ../../source/administration.rst:3057
-#, fuzzy
 msgid "To learn more about planning categories, check out the :ref:`Planning category FAQ <faq-planning-categories-label>`."
-msgstr "Pour en apprendre plus sur les catégories de planification, consultez la :ref:`FAQ <planning-categories-label>`."
+msgstr ""
+"Pour en apprendre plus sur les catégories de planification, consultez la "
+":ref:`FAQ <faq-planning-categories-label>`."
 
 #: ../../source/administration.rst:3059
 msgid "When complete, click 'Submit' and you will be brought to a list of all of the funds for the budget."
@@ -4509,7 +4542,7 @@ msgstr ""
 
 #: ../../source/administration.rst:3534
 msgid "Holds queue"
-msgstr ""
+msgstr "File des réservations"
 
 #: ../../source/administration.rst:3535
 msgid "Hold ratios"
@@ -4526,7 +4559,7 @@ msgstr ""
 
 #: ../../source/administration.rst:3539
 msgid "Course reserves"
-msgstr ""
+msgstr "Réserves de cours"
 
 #: ../../source/administration.rst:3539
 msgid "Courses"
@@ -4592,9 +4625,8 @@ msgid "Stock rotation items"
 msgstr ""
 
 #: ../../source/administration.rst:3556
-#, fuzzy
 msgid "OPAC"
-msgstr "OPAC\\_SUG"
+msgstr "OPAC"
 
 #: ../../source/administration.rst:3556
 msgid "Holdings/items"
@@ -4679,9 +4711,10 @@ msgid "SMS cellular providers"
 msgstr "Fournisseurs de SMS"
 
 #: ../../source/administration.rst:3619
-#, fuzzy
 msgid "This option will only appear if the :ref:`smssenddriver-label` preference is set to 'Email'"
-msgstr "Cette option n'apparaîtra que si vous avez défini la préférence système :ref:`SMSSendDriver <smssenddriver,-smssendusername,-and-smssendpassword-label>` sur \"Courriel\""
+msgstr ""
+"Cette option n'apparaîtra que si vous avez défini la préférence système :ref"
+":`smssenddriver-label' sur 'Courriel'"
 
 #: ../../source/administration.rst:3622
 msgid "From here you can enter as many cellular providers as you need to send SMS notices to your patrons using the email protocol."
@@ -4812,9 +4845,10 @@ msgid "Mana KB is a worldwide knowledge base used to share content specific to l
 msgstr ""
 
 #: ../../source/administration.rst:3677
-#, fuzzy
 msgid "*Get there:* More > Administration > Additional parameters > Share content with Mana KB"
-msgstr "*Aller à :* Plus > Administration > Paramètres divers > Vouliez-vous dire ?"
+msgstr ""
+"*Aller à :* Plus > Administration > Paramètres divers > Partager du contenu "
+"avec Mana KB"
 
 #: ../../source/administration.rst:3680
 msgid "|image1426|"
@@ -4934,15 +4968,19 @@ msgstr ""
 #: ../../source/administration.rst:3766
 msgid "Subscription searchable additional fields will be available in the :ref:`subscription advanced search <searching-serials-label>` form"
 msgstr ""
+"Les champs supplémentaires de recherche d'abonnements de périodiques seront "
+"disponibles dans le formulaire :ref:`recherche avancée d'abonnement "
+"<searching-serials-label>`"
 
 #: ../../source/administration.rst:3772
 msgid "Examples of additional fields"
 msgstr ""
 
 #: ../../source/administration.rst:3774
-#, fuzzy
 msgid "**Example 1:** Additional subscription field using :ref:`authorized values <authorized-values-label>`"
-msgstr "*Aller à :*\\ Plus > Administration > Paramètres de base > :ref:`Valeurs autorisées <authorized-values-label>`"
+msgstr ""
+"**Exemple 1 :** Champ supplémentaire de l'abonnement utilisant les :ref:`"
+"valeurs autorisées <authorized-values-label>'"
 
 #: ../../source/administration.rst:3777
 msgid "You might want to track which department you're ordering this serial for"
@@ -5015,6 +5053,8 @@ msgstr ""
 #: ../../source/administration.rst:3821
 msgid "When you view the subscription, the field and the information from the bibliographic record will appear under 'Additional fields'."
 msgstr ""
+"Quand vous visualisez l'abonnement, le champ et l'information issus de la "
+"notice bibliographique s'afficheront sous 'Champs supplémentaires'."
 
 #: ../../source/administration.rst:3824
 msgid "|image1380|"

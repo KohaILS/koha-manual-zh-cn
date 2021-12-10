@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Koha Manual 18.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-02-11 23:52+0000\n"
-"Last-Translator: Olga <orodriguez@duncanville.com>\n"
+"PO-Revision-Date: 2021-05-22 22:24+0000\n"
+"Last-Translator: Bernardo Gonzalez Kriegel <bgkriegel@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1613087557.292884\n"
+"X-POOTLE-MTIME: 1621722263.634126\n"
 
 #: ../../source/administration.rst:6 ../../source/administration.rst:3520
 msgid "Administration"
@@ -461,6 +461,7 @@ msgstr ""
 "avanzada."
 
 #: ../../source/administration.rst:282
+#, fuzzy
 msgid "If you want to completely hide items from a certain item type, let's say that you have a professional library with books reserved for staff and you don't want those to appear in the OPAC, use the :ref:`OpacHiddenItems` system preference."
 msgstr ""
 "Si desea ocultar completamente los ejemplares de ciertos tipos de "
@@ -1306,6 +1307,7 @@ msgstr ""
 "desea que cualquier biblioteca utilice esta categoría."
 
 #: ../../source/administration.rst:910
+#, fuzzy
 msgid "You can decide whether patrons of this category are allowed to reset their password through the OPAC's 'Forgotten password' function. By default, it will follow the rule set in the :ref:`OpacResetPassword` system preference."
 msgstr ""
 "Usted puede decidir si esta categoría de usuario se le permite o no resetear "
@@ -1314,6 +1316,7 @@ msgstr ""
 ":ref:'ResetearContraseñaOpac'."
 
 #: ../../source/administration.rst:915
+#, fuzzy
 msgid "You can decide whether patrons of this category are allowed to change their password through the OPAC. By default, it will follow the rule set in the :ref:`OpacPasswordChange` system preference."
 msgstr ""
 "Usted puede decidir si esta categoría de usuarios se les permite cambiar sus "
@@ -1610,6 +1613,7 @@ msgstr ""
 "vencimiento."
 
 #: ../../source/administration.rst:1106
+#, fuzzy
 msgid "The 'Fine grace period' is the period of time an item can be overdue before you start charging fines. The :ref:`FinesIncludeGracePeriod` system preference controls if the grace period will be included when calculating the fine or not."
 msgstr ""
 "El 'Período de gracia de multas' es el período de tiempo que un ejemplar "
@@ -1996,6 +2000,7 @@ msgid "Default lost item fee refund on return policy"
 msgstr "Política predeterminada de reembolso de costo por ítem perdido y devolución"
 
 #: ../../source/administration.rst:1353
+#, fuzzy
 msgid "Here, you can specify the default policy for lost item fees on return. This policy will apply to this library. This rule is to be used with the :ref:`RefundLostOnReturnControl` system preference."
 msgstr ""
 "Aqui, usted puede especifica la poliza por defecto para multas de ejemplares "
@@ -2020,51 +2025,59 @@ msgid "The various hold policies have the following effects:"
 msgstr "Las diferentes pólizas de reserva tienen los siguientes efectos:"
 
 #: ../../source/administration.rst:1369
-#, fuzzy
 msgid "From any library: Patrons from any library may put this item on hold. (default if none is defined)"
-msgstr "Desde Cualquier Biblioteca: Usuarios de cualquier sede pueden reservar este ítem. (predeterminado si no se define)"
+msgstr ""
+"Desde cualquier biblioteca: Usuarios de cualquier biblioteca pueden reservar "
+"este ejemplar. (predeterminado si no se define)"
 
 #: ../../source/administration.rst:1372
-#, fuzzy
 msgid "From local hold group: Only patrons from libraries in the same item's home library hold groups may put this book on hold."
-msgstr "Desde sede principal: Solo usuarios de la misma sede que el ítem pueden reservar este libro."
+msgstr ""
+"Desde grupo local de reservas: Sólo los usuarios de bibliotecas del grupo de "
+"espera local de la biblioteca de origen pueden poner este libro en espera."
 
 #: ../../source/administration.rst:1375
-#, fuzzy
 msgid "From home library: Only patrons from the item's home library may put this book on hold."
-msgstr "Desde sede principal: Solo usuarios de la misma sede que el ítem pueden reservar este libro."
+msgstr ""
+"Desde la biblioteca de origen: Solo usuarios de la misma biblioteca de "
+"origen que el ejemplar pueden reservar este libro."
 
 #: ../../source/administration.rst:1378
-#, fuzzy
 msgid "No holds allowed: No patron may put this book on hold."
-msgstr "No se permiten reservas: ningún usuario puede reservar este libro."
+msgstr "No se permiten reservas: Ningún usuario puede reservar este libro."
 
 #: ../../source/administration.rst:1382
-#, fuzzy
 msgid "Note that if the system preference :ref:`AllowHoldPolicyOverride` set to 'allow', these policies can be overridden by your circulation staff."
-msgstr "Importante: Note que si la preferencia del sistema AllowHoldPolicyOverride está configurada en 'permitir', estas políticas pueden ser ignoradas por el personal de circulación."
+msgstr ""
+"Note que si la preferencia del sistema :ref:'AllowHoldPolicyOverride' está "
+"configurada en 'permitir', estas pólizas pueden ser anuladas por su personal "
+"de circulación."
 
 #: ../../source/administration.rst:1388
+#, fuzzy
 msgid "These policies are applied based on the ReservesControlBranch system preference."
 msgstr ""
+"Estas polizas son aplicadas basadas en el sistema de preferencia "
+"ReservesControlBranch."
 
 #: ../../source/administration.rst:1398
 msgid "patron' hold group"
-msgstr ""
+msgstr "grupo de reserva de usuario"
 
 #: ../../source/administration.rst:1404
-#, fuzzy
 msgid "The various return policies have the following effects:"
-msgstr "Las diferentes Políticas de devolución tienen los siguientes efectos:"
+msgstr "Las diferentes pólizas de devolución tienen los siguientes efectos:"
 
 #: ../../source/administration.rst:1406
 msgid "Item returns home: The item will prompt the librarian to transfer the item to its home library"
 msgstr "El ítem retorna a la sede de origen: El ítem requerirá del bibliotecario que transfiera el ítem a su biblioteca de origen"
 
 #: ../../source/administration.rst:1411 ../../source/administration.rst:1420
-#, fuzzy
 msgid "If the :ref:`AutomaticItemReturn` preference is set to automatically transfer the items home, then a prompt will not appear"
-msgstr "Importante: Si se configura la preferencia AutomaticItemReturn para transferir automáticamente ejemplares a su sede, entonces no aparecerá la consulta"
+msgstr ""
+"Si la preferencia :ref:'AutomaticItemReturn' se configura para transferir "
+"automáticamente ejemplares a su sede de origen, entonces no aparecerá un "
+"mensaje"
 
 #: ../../source/administration.rst:1415
 msgid "Item returns to issuing branch: The item will prompt the librarian to transfer the item back to the library where it was checked out"
@@ -2083,14 +2096,18 @@ msgid "Patron attribute types"
 msgstr "Tipos de atributo de usuario"
 
 #: ../../source/administration.rst:1441
-#, fuzzy
 msgid "Patron attributes can be used to define custom fields to associate with your patron records. In order to enable the use of custom fields you need to set the :ref:`ExtendedPatronAttributes` system preference."
-msgstr "Los atributos de los usuarios se pueden utilizar para definir los campos personalizados asociados con los registros de sus usuarios. Para poder definir campos personalizados es necesario establecer la preferencia del sistema ExtendedPatronAttributes."
+msgstr ""
+"Los atributos de los usuarios se pueden utilizar para definir los campos "
+"personalizados asociados con los registros de sus usuarios. Para poder "
+"definir campos personalizados es necesario establecer la preferencia del "
+"sistema :ref:'ExtendedPatronAttributes'."
 
 #: ../../source/administration.rst:1446
-#, fuzzy
 msgid "*Get there:* More > Administration > Patrons and circulation > Patron attribute types"
-msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Tipos de atributos de usuario"
+msgstr ""
+"*Llegar allí:* Más > Administración > Usuarios y circulación > categorías de "
+"Usuario"
 
 #: ../../source/administration.rst:1449
 msgid "A common use for this field would be for a student ID number or a Driver's license number."
@@ -2101,14 +2118,14 @@ msgid "|image164|"
 msgstr "|image164|"
 
 #: ../../source/administration.rst:1457
-#, fuzzy
 msgid "Adding patron attributes"
-msgstr "Agregando Atributos de Usuario"
+msgstr "Agregando atributos de usuario"
 
 #: ../../source/administration.rst:1459
-#, fuzzy
 msgid "To add a new patron attribute type, click the 'New patron attribute type' button at the top of the page"
-msgstr "Para agregar un nuevo 'Tipo de Atributo de Usuario', haga clic en 'Nuevo Tipo de Atributo de Usuario' en el tope de la página"
+msgstr ""
+"Para agregar un nuevo tipo de categoría de usuario, haga clic en el boton "
+"'Nuevo Tipo de Categoría de Usuario' en la parte superior de la página"
 
 #: ../../source/administration.rst:1462
 msgid "|image165|"
@@ -2186,6 +2203,11 @@ msgstr "Si desea que este atributo solo sea utilizado por ramas específicas pue
 #: ../../source/administration.rst:1533
 msgid "Note that items with locations already set on them will not be altered. The branch limitation only limits the choosing of an authorized value based on the home branch of the current staff login. All authorized values for item records (LOC, LOST, CCODE, etc) will show in the OPAC for all patrons."
 msgstr ""
+"Note que los ejemplares con localidades ya establecidas en ellos no serán "
+"alterados. La limitación de la rama sólo límita el valor autorizado elejido "
+"basado en la rama de origen del personal corriente que accedio. Todos los "
+"valores autorizados para los registros de ejemplares (lOC, LOST, CCODE, etc) "
+"se mostrarán en el OPAC a todos los usuarios."
 
 #: ../../source/administration.rst:1539
 msgid "If you'd like to only show this attribute on patrons of one type choose that patron type from the 'Category' pull down"
@@ -2220,9 +2242,8 @@ msgid "|image169|"
 msgstr "|image169|"
 
 #: ../../source/administration.rst:1565
-#, fuzzy
 msgid "Editing/deleting patron attributes"
-msgstr "Editando/Eliminando Atributos de Usuarios"
+msgstr "Editando/eliminando atributos de usuarios"
 
 #: ../../source/administration.rst:1567
 msgid "Each patron attribute has an edit and a delete link beside it on the list of attributes."
@@ -2261,9 +2282,10 @@ msgid "Limit the ability to transfer items between libraries based on the librar
 msgstr "Limitar la capacidad de transferir ítems entre bibliotecas basado en la biblioteca de origen, la biblioteca receptora y código de colección en cuestión."
 
 #: ../../source/administration.rst:1591
-#, fuzzy
 msgid "*Get there:* More > Administration > Patrons and circulation > Library transfer limits"
-msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Transferencias de biblioteca"
+msgstr ""
+"*Llegar allí:* Más > Administración > Usuarios y circulación > Limitación de "
+"transferencias de la biblioteca"
 
 #: ../../source/administration.rst:1594
 msgid "These rules only go into effect if the preference :ref:`UseBranchTransferLimits <usebranchtransferlimits-and-branchtransferlimitstype-label>` is set to 'enforce'."
@@ -2310,13 +2332,19 @@ msgid "Transport cost matrix"
 msgstr "Matriz de costo de transporte"
 
 #: ../../source/administration.rst:1624
-#, fuzzy
 msgid "The transport cost matrix lets a library system define relative costs to transport books to one another. In order for the system to use this matrix you must first set the :ref:`UseTransportCostMatrix` preference to 'Use'."
-msgstr "La Matriz de costo de transporte permite a su biblioteca definir costos relativos de transporte de libros a otra. Para que el sistema utilice esta matriz deberá configurar la preferencia UseTransportCostMatrix a 'Usar'."
+msgstr ""
+"La matriz de costo de transporte permite al sistema de la biblioteca definir "
+"costos relativos de transporte de libros de una a otra. Para que el sistema "
+"utilice esta matriz deberá configurar primeramente la :ref: "
+"'UseTransportCostMatrix' preferencia a 'Usar'."
 
 #: ../../source/administration.rst:1632
 msgid "The transport cost matrix takes precedence in controlling where holds are filled from, if the matrix is not used then Koha checks the :ref:`StaticHoldsQueueWeight <holds-queue-system-preferences-label>`."
 msgstr ""
+"La matriz de costo de transporte toma precedencia en controlar de donde las "
+"reservas van a ser llenas, si la matriz no es usada entonces Koha chequea la "
+":ref:'StaticHoldsQueueWeight <holds-queue-system-preferences-label>'."
 
 #: ../../source/administration.rst:1636
 msgid "Costs are decimal values between some arbitrary maximum value (e.g. 1 or 100) and 0 which is the minimum (no) cost. For example, you could just use the distance between each library in miles as your 'cost', if that would accurately reflect the cost of transferring them. Perhaps post offices would be a better measure. Libraries sharing a post office would have a cost of 1, adjacent post offices would have a cost of 2, etc."
@@ -2347,9 +2375,10 @@ msgid "Libraries can decide if they want to have patrons automatically notified 
 msgstr "Las bibliotecas pueden decidir si quieren tener a los usuarios automáticamente notificados de eventos de circulación (préstamos y devoluciones)."
 
 #: ../../source/administration.rst:1669
-#, fuzzy
 msgid "*Get there:* More > Administration > Patrons and circulation > Item circulation alerts"
-msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Alertas de circulación de ítem"
+msgstr ""
+"*Llegar alli:* Más > Administración > Usuarios y circulación > Alertas de "
+"circulación de ejemplar"
 
 #: ../../source/administration.rst:1672
 msgid "These preferences are set based on patron types and item types."
@@ -2396,28 +2425,32 @@ msgid "To standardize patron input you can define cities or towns within your re
 msgstr "Para estandarizar el ingreso de usuarios, puede definir ciudades o pueblos dentro de su región, para que cuando los nuevos usuarios sean agregados, los bibliotecarios simplemente seleccionarán la ciudad de una lista en lugar de tener que tipear la ciudad y el código postal."
 
 #: ../../source/administration.rst:1707
-#, fuzzy
 msgid "*Get there:* More > Administration > Patrons and circulation > Cities and towns"
-msgstr "*Ir a:* Más > Administración > Usuarios y circulación > Ciudades y pueblos"
+msgstr ""
+"*Llegar allí:* Más > Administración > Usuarios y circulación > Ciudades y "
+"pueblos"
 
 #: ../../source/administration.rst:1713
-#, fuzzy
 msgid "Adding a city"
-msgstr "Agregando una ciudad"
+msgstr "Agregando una ciudad "
 
 #: ../../source/administration.rst:1715
-#, fuzzy
 msgid "To add a new city, click the 'New city' button at the top of the page and enter the city name, state, zip/postal code and country."
-msgstr "Para añadir una nueva ciudad, haga clic en el botón 'Nueva ciudad', situado en la parte superior de la página y escriba el nombre de la ciudad, estado, zip/código postal y el país."
+msgstr ""
+"Para añadir una nueva ciudad, haga clic en el botón 'Nueva ciudad', situado "
+"en la parte superior de la página y escriba el nombre de la ciudad, estado, "
+"código postal y el país."
 
 #: ../../source/administration.rst:1718
 msgid "|image178|"
 msgstr "|image178|"
 
+# Once, instead of One
 #: ../../source/administration.rst:1720
-#, fuzzy
 msgid "One you click Submit, your city will be saved and will be listed on the Cities and towns page"
-msgstr "Una vez que se hace clic en 'Enviar', su ciudad se guardará y se incluirá en la página de ciudades y pueblos"
+msgstr ""
+"Una vez que haga clic en Someter, su ciudad será guardada y será listada en "
+"la página de Ciudades y pueblos"
 
 #: ../../source/administration.rst:1723
 msgid "|image179|"
@@ -2428,14 +2461,15 @@ msgid "Cities can be edited or deleted at any time."
 msgstr "Las ciudades pueden ser modificadas o eliminadas en cualquier momento."
 
 #: ../../source/administration.rst:1730
-#, fuzzy
 msgid "Viewing cities on patron add form"
-msgstr "Viendo Ciudades en el Formulario de Agregar Usuarios"
+msgstr "Viendo ciudades en el formulario de agregar usuarios"
 
 #: ../../source/administration.rst:1732
-#, fuzzy
 msgid "If you have defined local cities using the 'New city' form, then when adding or editing a patron record you will see those cities in a pull down menu to make city selection easy."
-msgstr "Si ha definido ciudades locales utilizando el formulario Nueva Ciudad, entonces cuando agregue o edite un registro de usuario verá las ciudades en un menú desplegable para seleccionarlas fácilmente."
+msgstr ""
+"Si ha definido ciudades locales utilizando el formulario ´Nueva Ciudad´, "
+"entonces cuando agregue o edite un registro de usuario verá las ciudades en "
+"un menú desplegable para hacer la selección de ciudades fácil."
 
 #: ../../source/administration.rst:1736
 msgid "|image180|"
@@ -2450,766 +2484,962 @@ msgid "Accounting"
 msgstr "Contabilidad"
 
 #: ../../source/administration.rst:1746
-#, fuzzy
 msgid "*Get there:* More > Administration > Accounting"
-msgstr "*Ir a:* Más > Administración > Adquisiciones"
+msgstr "*Llegar allí:* Más > Administración > Contabilidad"
 
 #: ../../source/administration.rst:1748
 msgid "This section deals with the parameters used in managing the patron accounts."
 msgstr ""
+"Esta sección trata con los parametros usados en manejar las cuentas de los "
+"usuarios."
 
 #: ../../source/administration.rst:1754
 msgid "Debit types"
 msgstr "Tipos de débito"
 
 #: ../../source/administration.rst:1756
-#, fuzzy
 msgid "*Get there:* More > Administration > Accounting > Debit types"
-msgstr "*Ir a:* Más > Administración > Adquisiciones > Presupuestos"
+msgstr "*Llegar allí:* Más > Administración > Contabilidad > tipos de débito"
 
 #: ../../source/administration.rst:1758
 msgid "This is where you define the manual fees you can charge patrons."
 msgstr ""
+"Aqui es donde usted define las multas manuales, que usted puede cobrar a los "
+"usuarios."
 
 #: ../../source/administration.rst:1760
-#, fuzzy
 msgid "|image1444|"
-msgstr "|image1444|"
+msgstr "|imagen1444|"
 
 #: ../../source/administration.rst:1762
-#, fuzzy
 msgid "When you first get to the page, you will only see the manual fees that are already defined in your system."
-msgstr "Al visitar esta página se presenta una lista de las bibliotecas que ya han sido añadidas al sistema."
+msgstr ""
+"Cuando llegue por primera vez a la página, verá solamente las multas "
+"manuales que ya han sido definidas en su sistema."
 
 #: ../../source/administration.rst:1765
 msgid "You can see the default system fees by clicking \"Show all debit types\"."
 msgstr ""
+"Puede ver el sistema predeterminado de multas haciendo clic en \"Mostrar "
+"todos los tipos de debito\"."
 
 #: ../../source/administration.rst:1767
-#, fuzzy
 msgid "|image1445|"
-msgstr "|image1445|"
+msgstr "|imagen1445|"
 
 #: ../../source/administration.rst:1769
 msgid "You can go back to seeing only the manual fees by clicking \"Filter system debit types\"."
 msgstr ""
+"Puede devolverse para ver solamente las multas manuales haciendo clic en \""
+"Filtrar el sistema de tipos de debito\"."
 
 #: ../../source/administration.rst:1775
-#, fuzzy
 msgid "System debit types"
-msgstr "Filtrar tipos de débito del sistema"
+msgstr "Tipos de débito del sistema"
 
 #: ../../source/administration.rst:1777
 msgid "Several debit types come installed with Koha. Most of them are automatic fees that are added according to the policies you set up elsewhere in Koha."
 msgstr ""
+"Varios tipos de débito vienen instalados con Koha. La mayoría de ellos son "
+"multas automáticas que se agregan de acuerdo a las pólizas que usted "
+"configure en otra parte en Koha."
 
 #: ../../source/administration.rst:1781
 msgid "ACCOUNT (Account creation fee): this is charged to the patron's account upon registration. The fee can be changed in the :ref:`patron category settings <adding-a-patron-category-label>` under 'Enrollment fee'."
 msgstr ""
+"CUENTA (Tarifa de creación de cuenta): esto es cargado a la cuenta del "
+"usuario cuando se registra. La tarifa puede ser cambiada en el :ref:`patron "
+"category settings <adding-a-patron-category-label>` debajo 'Tarifa de "
+"inscripción'."
 
 #: ../../source/administration.rst:1786
 msgid "ACCOUNT\\_RENEW (Account renewal fee): this is charged to the patron's account when their account is renewed. Like the ACCOUNT debit type above, this can be changed in the :ref:`patron category settings <adding-a-patron-category-label>` under 'Enrollment fee'."
 msgstr ""
+"CUENTA\\_RENOVAR (Tarifa de renovación de cuenta): esto es cargado a la "
+"cuenta del usuario cuando sus cuentas son renovadas. Como la CUENTA del tipo "
+"de debito arriba, esto puede ser cambiado en el :ref:`patron category "
+"settings <adding-a-patron-category-label>` debajo de 'Tarifa de Inscripción'."
 
 #: ../../source/administration.rst:1792
 msgid "LOST (Lost item): this is charged to the patron's account when an item in their file is declared lost. The amount depends on the :ref:`item's 'replacement cost' field <adding-items-label>` or on the :ref:`item type's default replacement cost <adding-item-types-label>`. It can also be added manually in the :ref:`manual invoices <creating-manual-invoices-label>` tab."
 msgstr ""
+"Perdido (Ejemplar perdido): esto es cargado a la cuenta del usuario cuando "
+"un ejemplar en su archivo se declara perdido. La cantidad depende en el :ref:"
+"'campo del ejemplar 'costo de reemplazo' <adding-items-label>'o en el :ref:"
+"'tipo de ejemplar costo de tarifa predeterminada <adding-item-types-label>"
+"'.También puede ser agregada manualmente en la pestaña :ref: 'factura manual "
+"<creating-manual-invoices-label>'."
 
 #: ../../source/administration.rst:1799
 msgid "MANUAL (Manual fee): this is the default manual fee installed with Koha. This is not charged automatically by Koha, but can be added to a patron's account manually in the :ref:`manual invoices <creating-manual-invoices-label>` tab."
 msgstr ""
+"Manual (Tarifa manual): esta es la tarifa manual predeterminada instalada "
+"con Koha. Esta no es cargada automaticamente por Koha, pero puede ser "
+"agregada a la cuenta del usuario manualmente en el tabulador :ref:'facturas "
+"manuales <creating-manual-invoices-label>'."
 
 #: ../../source/administration.rst:1804
 msgid "NEW\\_CARD (New card fee): this is another default manual fee installed with Koha. This will not be charged automatically by Koha, but can be added to a patron's account manually in the :ref:`manual invoices <creating-manual-invoices-label>` tab."
 msgstr ""
+"Nueva\\_Tarjeta (Tarifa de nueva tarjeta): esta es otra tarifa manual "
+"predeterminada instalada con Koha. Esto no sera cargado automaticamente por "
+"Koha, pero puede ser agregado a la cuenta del usuario manualmente en el "
+"tabulador :ref:'factura manual <creating-manual-invoices-label>'."
 
 #: ../../source/administration.rst:1809
 msgid "OVERDUE (Overdue fine): this is charged automatically to the patron's account when they have overdue items. The amount for overdue fines are set in the :ref:`circulation and fines rules <circulation-and-fines-rules-label>`."
 msgstr ""
+"RETRASO (Multa por retraso): esto es cargado automáticamente a la cuenta del "
+"usuario cuando ellos tienen ejemplares retrasados. La cantidad por multas "
+"retrasadas son determinadas en el :ref:'reglas de multas y circulación "
+"<circulation-and-fines-rules-label>'."
 
 #: ../../source/administration.rst:1813
 msgid "PROCESSING (Lost item processing fee): this is charged automatically to the patron's account when an item in their file is declared lost. The amount is set by :ref:`item type <adding-item-types-label>` under 'Processing fee (when lost)'."
 msgstr ""
+"PROCESAMIENTO (Tarifa de procesamiento por ejemplar perdido): esto es "
+"cargado automaticamente a la cuenta del usuario cuando un ejemplar en su "
+"archivo se declara perdido. La cantidad es determinada por :ref:`item type "
+"<adding-item-types-label>` debajo de 'Multa de procesamiento (cuando se "
+"pierde)'."
 
 #: ../../source/administration.rst:1818
 msgid "RENT (Rental fee): this is charged automatically to the patron's account upon checkout if the :ref:`item type <adding-item-types-label>` has a rental charge."
 msgstr ""
+"RENTA (Tarifa de Renta): esto es cargado automaticamente a la cuenta del "
+"usuario cuando este hace un prestamo que tiene una tarifa de renta :ref:`"
+"item type <adding-item-types-label>`."
 
 #: ../../source/administration.rst:1822
 msgid "RENT\\_DAILY (Daily rental fee): this is charged automatically to the patron's account upon checkout if the :ref:`item type <adding-item-types-label>` has a daily rental charge."
 msgstr ""
+"RENTA\\_DIARIA (Tarifa de renta diaria): esto es cargado automáticamente a "
+"la cuenta del usuario cuando este hace un préstamo si el :ref:`item type "
+"<adding-item-types-label>` tiene un cargo diario de renta."
 
 #: ../../source/administration.rst:1826
 msgid "RENT\\_DAILY\\_RENEW (Renewal of daily rental item): this is charged automatically to the patron's account upon renewal if the :ref:`item type <adding-item-types-label>` has a daily rental charge."
 msgstr ""
+"RENTA\\_DIARIA\\_RENOVAR (Renovación diaria de ejemplares de renta): esto es "
+"cargado automáticamentte a la cuenta del usuario cuando se renueva si el "
+":ref:`item type <adding-item-types-label>` tiene un cargo diario de renta."
 
 #: ../../source/administration.rst:1830
 msgid "RENT\\_RENEW (Renewal of rental item): this is charged automatically to the patron's account upon renewal if the :ref:`item type <adding-item-types-label>` has a rental charge."
 msgstr ""
+"RENTA\\_RENOVAR (Renovación de ejemplar de renta): esto es cargado "
+"automáticamente a la cuenta del usuario cuando se renueva si el :ref:`item "
+"type <adding-item-types-label>` tiene un cargo de renta."
 
 #: ../../source/administration.rst:1834
 msgid "RESERVE (Hold fee): this is charged automatically to the patron's account upon placing a hold. The amount depends on the 'Hold fee' amount in the :ref:`patron's category <adding-a-patron-category-label>` settings."
 msgstr ""
+"RESERVA (Tarifa de reserva): esto es cargado automáticamente a la cuenta del "
+"usuario cuando se pone una reserva. La cantidad depende en la 'Tarifa de "
+"reserva' en la configuración :ref:`patron's category <adding-a-patron-"
+"category-label>`."
 
 #: ../../source/administration.rst:1839
+#, fuzzy
 msgid "RESERVE\\_EXPIRED (Hold waiting too long): this is charged automatically to the patron's account if they haven't picked up their hold after the number of days defined in the :ref:`ExpireReservesMaxPickUpDelay` system preference. The amount is set in the :ref:`ExpireReservesMaxPickUpDelayCharge` system preference."
 msgstr ""
+"RESERVA\\_VENCIDA (Reserva en espera por mucho): esto es cargado "
+"automáticamente a la cuenta del usuario si no han recogido sus reservas "
+"después de ciertos números de días definidos en el sistema de preferencia "
+":ref:`ExpireReservesMaxPickUpDelay` . La cantidad es establecida en el "
+"sistema de preferencia :ref:`ExpireReservesMaxPickUpDelayCharge`."
 
 #: ../../source/administration.rst:1848
-#, fuzzy
 msgid "Adding a new debit type"
-msgstr "Agregando nuevo presupuesto"
+msgstr "Agregando un nuevo tipo de débito"
 
 #: ../../source/administration.rst:1850
-#, fuzzy
 msgid "To add a new debit type:"
-msgstr "Para agregar una nueva alerta:"
+msgstr "Para agregar un nuevo tipo de débito:"
 
 #: ../../source/administration.rst:1852
-#, fuzzy
 msgid "Click 'New debit type'"
-msgstr "Nuevo tipo de débito"
+msgstr "Clic en 'Nuevo tipo de débito'"
 
 #: ../../source/administration.rst:1854
-#, fuzzy
 msgid "|image1446|"
-msgstr "|image1446|"
+msgstr "|imagen1446|"
 
 #: ../../source/administration.rst:1856
-#, fuzzy
 msgid "Enter a code (limited to 64 letters)"
-msgstr "El código se limita a 20 caracteres"
+msgstr "Entrar un código (limita do a 64 letras)"
 
 #: ../../source/administration.rst:1858
-#, fuzzy
 msgid "Enter the default amount"
-msgstr "Ingrese los valores predeterminados"
+msgstr "Ingrese las cantidades predeterminadas"
 
 #: ../../source/administration.rst:1862
 msgid "Staff will be able to change this amount when adding the charge to the patron's account, if necessary"
 msgstr ""
+"El personal podrá cambiar esta cantidad cuando se agregue el cargo a la "
+"cuenta del usuario, si es necesario"
 
 #: ../../source/administration.rst:1867
 msgid "Do not enter currency symbols. Only write the amount with a decimal point (for example, 5 or 5.00 instead of $5)"
 msgstr ""
+"No entre símbolos de moneda. Sólo escriba la cantidad con un punto decimal ("
+"por ejemplo, 5 o 5.00 en vez de $5)"
 
 #: ../../source/administration.rst:1870
-#, fuzzy
 msgid "Write a description"
-msgstr "Descripción de rotación"
+msgstr "Escriba una descripción "
 
 #: ../../source/administration.rst:1872
 msgid "This description will be used in the drop-down menu when adding a new charge to a patron's account as well as in their transaction history"
 msgstr ""
+"Esta descripción será usada en el menú desplegable cuando se agregue un "
+"nuevo cargo a la cuenta del usuario como también en el historial de sus "
+"transacciones"
 
 #: ../../source/administration.rst:1876
 msgid "If this debit type can be added manually by staff to a patron's account via the :ref:`manual invoices <creating-manual-invoices-label>`, check the 'Can be added manually?' check box"
 msgstr ""
+"Si este tipo de débito puede ser agregado manualmente por el personal a la "
+"cuenta de un usuario vía :ref:`manual invoices <creating-manual-invoices-"
+"label>` marcar la casilla '¿puede ser agregado manualmente? "
 
 #: ../../source/administration.rst:1880
 msgid "If this debit type is only to be used in specific branches, you can select the libraries in 'Libraries limitation'"
 msgstr ""
+"Si este tipo de débito solamente se usará en ramas específicas, usted puede "
+"seleccionar las bibliotecas en 'Limitación de bibliotecas'"
 
 #: ../../source/administration.rst:1885
 msgid "You can select more than one library by pressing the 'Ctrl' key while selecting."
 msgstr ""
+"Usted puede seleccionar más de una biblioteca presionando la tecla 'Ctrl' "
+"mientras selecciona."
 
 #: ../../source/administration.rst:1893
-#, fuzzy
 msgid "Editing an existing debit type"
-msgstr "Editar una suscripción existente "
+msgstr "Editar un tipo de débito existente "
 
 #: ../../source/administration.rst:1895
 msgid "You can only modify the debit types you have added, as well as the 'Manual fee'."
 msgstr ""
+"Usted solamente puede modificar el tipo de débito que usted ha agregado, "
+"como también la 'Tarifa manual'."
 
 #: ../../source/administration.rst:1898
-#, fuzzy
 msgid "To edit a debit type:"
-msgstr "Modificar tipo de débito"
+msgstr "Editar tipo de débito:"
 
 #: ../../source/administration.rst:1900
-#, fuzzy
 msgid "Click the 'Edit' button to the right of the debit type"
-msgstr "Haga clic en el botón *Enviar* para crear el tipo de ítem"
+msgstr "Haga clic en el botón 'Editar' a la derecha del tipo de débito"
 
 #: ../../source/administration.rst:1902
-#, fuzzy
 msgid "Modify any field"
-msgstr "Modificar campo"
+msgstr "Modificar cualquier campo"
 
 #: ../../source/administration.rst:1909
-#, fuzzy
 msgid "Archiving a debit type"
-msgstr "Modificar tipo de débito"
+msgstr "Archivar un tipo de débito"
 
 #: ../../source/administration.rst:1911
 msgid "If there is a debit type you don't need anymore, you can archive it."
 msgstr ""
+"Si hay un tipo de débito que no se necesita más, usted puede archivarlo."
 
 #: ../../source/administration.rst:1915
 msgid "There is no way to delete a debit type since they are used in the patron's accounting section."
 msgstr ""
+"No hay forma de borrar un tipo de débito ya que se usán en la sección de la "
+"cuenta del usuario."
 
 #: ../../source/administration.rst:1918
-#, fuzzy
 msgid "To archive a debit type, simply click the 'Archive' button to the right of the debit type."
-msgstr "Para recibir un ítem específico, haga clic en el enlace 'Recibir' a la derecha del ítem."
+msgstr ""
+"Para archivar un tipo de débito, simplemente haga clic en el botón "
+"'Archivar' a la derecha del tipo de débito."
 
 #: ../../source/administration.rst:1924
-#, fuzzy
 msgid "Restoring an archived debit type"
-msgstr "Crear una nuevo tipo de débito"
+msgstr "Restaurar un tipo de débito archivado"
 
 #: ../../source/administration.rst:1926
-#, fuzzy
 msgid "If you need to use an archived debit type again, simply click on the 'Restore' button to the right of the debit type."
-msgstr "Para remover una etiqueta de un título específica, simplemente haga clic en el botón 'Remover etiqueta' a la derecha del título."
+msgstr ""
+"Si necesita usar un tipo de débito archivado otra vez, simplemente haga clic "
+"en el botón 'Restaurar' a la derecha del tipo de débito."
 
 #: ../../source/administration.rst:1929
-#, fuzzy
 msgid "This will make it available again."
-msgstr "Enlaces a materiales disponibles online."
+msgstr "Esto lo podrá hacer disponible de nuevo."
 
 #: ../../source/administration.rst:1934
 msgid "Cash registers"
 msgstr "Cajas registradoras"
 
 #: ../../source/administration.rst:1936
-#, fuzzy
 msgid "*Get there:* More > Administration > Accounting > Cash registers"
-msgstr "*Ir a:* Más > Administración > Parámetros adicionales"
+msgstr ""
+"*Llegar alli:* Más > Administración > Contabilidad > Registradoras de dinero"
 
 #: ../../source/administration.rst:1938
+#, fuzzy
 msgid "This feature is enabled through the :ref:`UseCashRegisters` system preference."
 msgstr ""
+"Esta característica se habilita por medio del sistema de preferencia "
+":ref:`UseCashRegisters`."
 
 #: ../../source/administration.rst:1940
 msgid "If you have no cash registers already defined, you will be invited to create one."
 msgstr ""
+"Si todavía no tiene definidas las registradoras de dinero, usted será "
+"invitado a crear una."
 
 #: ../../source/administration.rst:1943
 msgid "Otherwise, you will see the list of all your cash registers."
 msgstr ""
+"De lo contrario, usted verá la lista de todas sus registradoras de dinero."
 
 #: ../../source/administration.rst:1945
-#, fuzzy
 msgid "|image1450|"
-msgstr "|image1450|"
+msgstr "|imagen1450|"
 
 #: ../../source/administration.rst:1947
 msgid "In the 'Actions' columns, you can choose to edit your cash registers, make one of them default or remove the default status, and archive or restore an archived register."
 msgstr ""
+"En la columna 'Acciones', usted puede elegir el editar sus registradoras de "
+"dinero, predetermine una de ellas o elimine el estado predeterminado, y "
+"archive o restaure una registradora archivada."
 
 #: ../../source/administration.rst:1951
 msgid "The default status is only useful in libraries that have more than one register per branch. The default register will be pre-selected when :ref:`entering a payment <pay/reverse-fines-label>`. If there is only one cash register per branch, the branch's cash register will be selected when paying."
 msgstr ""
+"El estado predeterminado sólo es útil en bibliotecas que tienen más de una "
+"registradora por rama. La registradora predeterminada será pre-seleccionada "
+"cuando :ref:'entran un pago <pay/reverse-fines-label>`. Si solamente hay una "
+"registradora de dinero por rama, la registradora de dinero de la rama será "
+"seleccionada cuando se pague."
 
 #: ../../source/administration.rst:1959
-#, fuzzy
 msgid "Adding a new cash register"
-msgstr "Nueva caja registradora"
+msgstr "Agregar una nueva registradora de dinero "
 
 #: ../../source/administration.rst:1961
-#, fuzzy
 msgid "Click on 'New cash register'"
-msgstr "Nueva caja registradora"
+msgstr "Haga clic en 'Nueva registradora de dinero'"
 
 #: ../../source/administration.rst:1963
-#, fuzzy
 msgid "|image1449|"
-msgstr "|image1449|"
+msgstr "|imagen1449|"
 
 #: ../../source/administration.rst:1965
-#, fuzzy
 msgid "Give your cash register a name"
-msgstr "Nueva caja registradora"
+msgstr "Dele un nombre a su registradora de dinero"
 
 #: ../../source/administration.rst:1967
-#, fuzzy
 msgid "Optionally you can also add a description"
-msgstr "Ingrese un código y una descripción"
+msgstr "Opcionalmente usted tambien puede agregar una descripción"
 
 #: ../../source/administration.rst:1969
-#, fuzzy
 msgid "Choose in which library this cash register is located"
-msgstr "Seleccione que biblioteca usará este aviso o recibo"
+msgstr ""
+"Seleccione en cual biblioteca esta registradora de dinero está localizada"
 
 #: ../../source/administration.rst:1971
 msgid "And finally, enter the initial float, i.e. the amount in the cash register"
 msgstr ""
+"Y por último, introduzca el flotador inicial, es decir, el importe de la "
+"registradora"
 
 #: ../../source/administration.rst:1973
-#, fuzzy
 msgid "Click 'Add'"
-msgstr "Haga clic en 'Añadir Campo' (Add Field)"
+msgstr "Haga clic en 'agregar'"
 
 #: ../../source/administration.rst:1978
-#, fuzzy
 msgid "Catalog administration"
-msgstr "Administración del catálogo"
+msgstr "Administración del catálogo "
 
 #: ../../source/administration.rst:1980
 msgid "Set these controls before you start cataloging on your Koha system."
-msgstr "Establecer estos controles antes de empezar a catalogar en su sistema Koha."
+msgstr ""
+"Establecer estos controles antes de empezar a catalogar en su sistema Koha. "
 
 #: ../../source/administration.rst:1982
 msgid "*Get there:* More > Administration > Catalog"
-msgstr "*Ir a:* Más > Administración > Catalogo"
+msgstr "*Llegar allí:* Más > Administración > Catalogo"
 
 #: ../../source/administration.rst:1987
-#, fuzzy
 msgid "MARC bibliographic frameworks"
-msgstr "Hoja de trabajo bibliográfico MARC"
+msgstr "Hoja de trabajo bibliográfico MARC "
 
 #: ../../source/administration.rst:1989
-#, fuzzy
 msgid "Think of frameworks as templates for creating new bibliographic records. Koha comes with some predefined frameworks that can be edited or deleted, and librarians can create their own frameworks for content specific to their libraries."
-msgstr "Piense en las hojas de trabajo como plantillas para crear nuevos registros bibliográficos. Koha viene con algunas hojas de trabajo predefinidas que pueden ser editadas o eliminadas, y los bibliotecarios pueden crear sus propias hojas de trabajo para contenido específico de sus bibliotecas."
+msgstr ""
+"Piense en las hojas de trabajo como plantillas para crear nuevos registros "
+"bibliográficos. Koha viene con algunas hojas de trabajo predefinidas que "
+"pueden ser editadas o eliminadas, y los bibliotecarios pueden crear sus "
+"propias hojas de trabajo para contenido específico de sus bibliotecas. "
 
 #: ../../source/administration.rst:1994
-#, fuzzy
 msgid "*Get there:* More > Administration > Catalog > MARC bibliographic frameworks"
-msgstr "*Ir a:* Más > Administración > Catálogo > Hojas de trabajo bibliográficas MARC"
+msgstr ""
+"*Llegar allí:* Más > Administración > Catálogo > Hojas de trabajo "
+"bibliográficas MARC"
 
 #: ../../source/administration.rst:1997
 msgid "|image181|"
-msgstr "|image181|"
+msgstr "|imagen181|"
 
 #: ../../source/administration.rst:2001
-#, fuzzy
 msgid "Do not delete or edit the Default framework since this will cause problems with your cataloging records - always create a new template based on the Default framework, or alter the other frameworks."
-msgstr "No edite o elimine la hoja de trabajo predeterminada ya que le causará problemas con sus registros catalogados - siempre cree una nueva hoja basada en la predeterminada, o altere alguna existente."
+msgstr ""
+"No edite o elimine la hoja de trabajo predeterminada ya que le causará "
+"problemas con sus registros catalogados - siempre crea una nueva plantilla "
+"basada en la hoja de trabajo predeterminada, o altere las otras hojas de "
+"trabajo."
 
 #: ../../source/administration.rst:2009
-#, fuzzy
 msgid "Add new framework"
-msgstr "Agregar nueva hoja de trabajo"
+msgstr "Agregar nueva hoja de trabajo "
 
 #: ../../source/administration.rst:2011
 msgid "To add a new framework"
-msgstr "Para agregar una nueva hoja de trabajo"
+msgstr "Para agregar una nueva hoja de trabajo "
 
 #: ../../source/administration.rst:2013
-#, fuzzy
 msgid "Click 'New framework'"
-msgstr "Haga clic en 'Nueva plantilla'"
+msgstr "Haga clic en 'Nueva hoja de trabajo' "
 
 #: ../../source/administration.rst:2015
 msgid "|image183|"
-msgstr "|image183|"
+msgstr "|imagen183|"
 
 #: ../../source/administration.rst:2017
 msgid "Enter a code of 4 or fewer characters"
-msgstr "Ingrese un código de 4 o menos caracteres"
+msgstr "Ingrese un código de 4 o menos caracteres "
 
 #: ../../source/administration.rst:2019
 msgid "Use the Description field to enter a more detailed definition of your framework"
-msgstr "Utilizar el campo Descripción para introducir una definición más detallada de su hoja de trabajo"
+msgstr ""
+"Utilizar el campo Descripción para introducir una definición más detallada "
+"de su hoja de trabajo "
 
 #: ../../source/administration.rst:2022
 msgid "Click 'Submit'"
-msgstr "Haga clic en 'Enviar''"
+msgstr "Haga clic en 'Enviar'"
 
 #: ../../source/administration.rst:2024
-#, fuzzy
 msgid "Once your framework is added click Actions then 'MARC structure' to the right of it on the list of frameworks"
-msgstr "Una vez que su plantilla se añada haga clic a la derecha de ella en 'Estructura MARC' en la lista de plantillas"
+msgstr ""
+"Una vez que su hoja de trabajo es agregada haga clic en Acciones entonces a "
+"la derecha de ella en 'Estructura MARC' en la lista de hojas de trabajo"
 
 #: ../../source/administration.rst:2027
 msgid "|image184|"
-msgstr "|image184|"
+msgstr "|imagen184|"
 
 #: ../../source/administration.rst:2029
-#, fuzzy
 msgid "You will be asked to choose a framework to base your new framework on, this will make it easier than starting from scratch"
-msgstr "Se le pedirá elegir una hoja de trabajo como base de su nueva hoja de trabajo, esto lo hará más fácil que comenzar desde cero"
+msgstr ""
+"Se le pedirá elegir una hoja de trabajo como base de su nueva hoja de "
+"trabajo, esto lo hará más fácil que comenzar desde cero "
 
 #: ../../source/administration.rst:2032
 msgid "Once your framework appears on the screen you can edit or delete each field by following the instructions for :ref:`editing fields and subfields <edit-framework-fields-and-subfields-label>`"
-msgstr "Una vez que su hoja de trabajo aparezca en la pantalla puede editar o eliminar cada campo siguiendo las instrucciones para :ref:`editar campos y subcampos <edit-framework-fields-and-subfields-label>`"
+msgstr ""
+"Una vez que su hoja de trabajo aparezca en la pantalla puede editar o "
+"eliminar cada campo siguiendo las instrucciones para :ref:`editar campos y "
+"subcampos <edit-framework-fields-and-subfields-label>` "
 
 #: ../../source/administration.rst:2039
-#, fuzzy
 msgid "Edit existing frameworks"
-msgstr "Editar hojas de trabajo existentes"
+msgstr "Editar hojas de trabajo existentes "
 
 #: ../../source/administration.rst:2041
-#, fuzzy
 msgid "Clicking Actions and then 'Edit' to the right of a framework will only allow you to edit the description for the framework:"
-msgstr "Al hacer clic en 'Editar' a la derecha de una plantilla, sólo se puede editar la descripción de la plantilla:"
+msgstr ""
+"Al hacer clic en Acciones y en 'Editar' a la derecha de la hoja de trabajo "
+"sólo le permitira editar la descripción de la hoja de trabajo:"
 
 #: ../../source/administration.rst:2044
 msgid "|image185|"
-msgstr "|image185|"
+msgstr "|imagen185|"
 
 #: ../../source/administration.rst:2046
 msgid "To make edits to the fields and subfields associated with the framework you must first click 'MARC Structure' and then follow the instructions for :ref:`editing fields and subfields <edit-framework-fields-and-subfields-label>`"
-msgstr "Para editar los campos y subcampos asociados con la Hoja de trabajo primero debe hacer click en 'Estructura MARC' y luego seguir las instrucciones para :ref:`editar campos y subcampos <edit-framework-fields-and-subfields-label>`"
+msgstr ""
+"Para editar los campos y subcampos asociados con la hoja de trabajo primero "
+"debe hacer clic en 'Estructura MARC' y luego seguir las instrucciones para "
+":ref:`editar campos y subcampos <edit-framework-fields-and-subfields-label>`"
 
 #: ../../source/administration.rst:2052
-#, fuzzy
 msgid "Add fields to frameworks"
-msgstr "Agregar subcampos a la hoja de trabajo"
+msgstr "Agregar campos a la hoja de trabajo"
 
 #: ../../source/administration.rst:2054
-#, fuzzy
 msgid "If a framework doesn't contain a field that you require you may need to add it. To add a field to a framework click the 'New tag' button at the top of the framework definition"
-msgstr "Para agregar un campo a una hoja de trabajo haga clic en el botón 'Nuevo campo' en el tope de la definición de la hoja de trabajo"
+msgstr ""
+"Si una hoja de trabajo no contiene el campo que usted necesita tendra que "
+"agregarla. Para agregar un campo a una hoja de trabajo haga clic en el botón "
+"'Nueva etiqueta' en la parte superior de la definición de la hoja de trabajo"
 
 #: ../../source/administration.rst:2058
 msgid "|image186|"
-msgstr "|image186|"
+msgstr "|imagen186|"
 
 #: ../../source/administration.rst:2060
 msgid "This will open up a blank form for entering MARC field data"
-msgstr "Esto abrirá un formulario en blanco para introducir los datos de campos MARC"
+msgstr ""
+"Esto abrirá un formulario en blanco para introducir los datos de campos MARC "
 
 #: ../../source/administration.rst:2062
 msgid "|image187|"
-msgstr "|image187|"
+msgstr "|imagen187|"
 
 #: ../../source/administration.rst:2064
 msgid "Enter the information about your new tag:"
-msgstr "Ingrese la información correspondiente a su nueva etiqueta:"
+msgstr "Ingrese la información correspondiente a su nueva etiqueta: "
 
 #: ../../source/administration.rst:2066
 msgid "The 'Tag' is the MARC field number"
-msgstr "El 'Campo' es el número de campo MARC"
+msgstr "La 'Etiqueta' es el número de campo MARC"
 
 #: ../../source/administration.rst:2068
 msgid "The 'Label for lib' is the text that will appear in the staff client when in the cataloging module"
-msgstr "La 'Etiqueta para biblioteca' es el texto que aparecerá en la interfaz del personal en el módulo de catalogación"
+msgstr ""
+"La 'Etiqueta para biblioteca' es el texto que aparecerá en la interfaz del "
+"personal en el módulo de catalogación "
 
 #: ../../source/administration.rst:2071
 msgid "The 'Label for OPAC' is the text that will appear in the OPAC when viewing the MARC version of the record"
-msgstr "La 'Etiqueta para el OPAC' es el texto que aparecerá en el OPAC al ver la versión del registro MARC"
+msgstr ""
+"La 'Etiqueta para el OPAC' es el texto que aparecerá en el OPAC al ver la "
+"versión del registro MARC "
 
 #: ../../source/administration.rst:2074
 msgid "If this field can be repeated, check the 'Repeatable' box"
-msgstr "Si este campo se puede repetir, marcar la caja 'Repetible'"
+msgstr "Si este campo se puede repetir, marcar la caja 'Repetible' "
 
 #: ../../source/administration.rst:2076
 msgid "If this field is mandatory, check the 'Mandatory' box"
-msgstr "Si este campo es obligatorio, marcar la caja 'Obligatorio'"
+msgstr "Si este campo es obligatorio, marcar la caja 'Obligatorio' "
 
 #: ../../source/administration.rst:2078
 msgid "If you want this field to be a pull down with limited possible answers, choose which 'Authorized value' list you want to use"
-msgstr "Si desea que este campo sea un desplegable con un número limitado de respuestas posibles, elija que 'Valor autorizado' desea utilizar"
+msgstr ""
+"Si desea que este campo sea un desplegable con un número limitado de "
+"respuestas posibles, elija cual lista de 'Valor autorizado' desea utilizar"
 
 #: ../../source/administration.rst:2081
-#, fuzzy
 msgid "When you're finished, click 'Save changes' and your new tag will be displayed in the framework field list"
-msgstr "Cuando haya finalizado, haga clic en 'Guardar cambios' y se le presentará un nuevo campo"
+msgstr ""
+"Cuando haya finalizado, haga clic en 'Guardar cambios' y se le presentará "
+"una nueva etiqueta en la lista de campo en la hoja de trabajo"
 
 #: ../../source/administration.rst:2084
 msgid "|image188|"
-msgstr "|image188|"
+msgstr "|imagen188|"
 
 #: ../../source/administration.rst:2086
 msgid "To the right of the new field is a link to Actions and then 'Subfields', you will need to add subfields before this tag will appear in your MARC editor. The process of entering the settings for the new subfield is the same as those found in the :ref:`editing fields and subfields in frameworks <edit-framework-fields-and-subfields-label>` section of this manual"
-msgstr "A la derecha de un nuevo campo hay un enlace a Acciones y de ahí a 'Subcampos', usted necesitará agregar subcampos para que esta etiqueta aparezca en su editor de MARC. El proceso de introducción de los ajustes para el nuevo subcampo es el mismo que se encuentra en la sección :ref:`editando campos y subcampos en hojas de trabajo <edit-framework-fields-and-subfields-label>` de este manual"
+msgstr ""
+"A la derecha del nuevo campo hay un enlace a Acciones y de ahí a "
+"'Subcampos', usted necesitará agregar subcampos antes de que esta etiqueta "
+"aparezca en su editor de MARC. El proceso de introduccir los ajustes para el "
+"nuevo subcampo es el mismo que se encuentra en la sección de este manual en "
+":ref:`editando campos y subcampos en las hojas de trabajo <edit-framework-"
+"fields-and-subfields-label>` "
 
 #: ../../source/administration.rst:2095
-#, fuzzy
 msgid "Edit framework fields and subfields"
-msgstr "Editar subcampos en hojas de trabajo"
+msgstr "Editar campos y subcampos en hojas de trabajo"
 
 #: ../../source/administration.rst:2097
-#, fuzzy
 msgid "Frameworks are made up of MARC fields (tags) and subfields. To make edits to a MARC **field** click on Actions then 'Edit' to the right of the field"
-msgstr "Las 'Hojas de trabajo' están hechas de campos y subcampos MARC. Para editar hojas de trabajo, debe editar los campos y subcampos. Haciendo clic en 'Editar' a la derecha de cada subcampo le permitirá hacer cambios al texto asociado con el campo."
+msgstr ""
+"Las Hojas de trabajo están hechas de campos (etiquetas) y subcampos MARC. "
+"Para editar el **campo** MARC haga clic en Acciones a la derecha de cada "
+"campo y luego 'Editar'"
 
 #: ../../source/administration.rst:2100
 msgid "|image189|"
-msgstr "|image189|"
+msgstr "|imagen189|"
 
 #: ../../source/administration.rst:2102
 msgid "Each field has a tag (which is the MARC tag) that is uneditable"
-msgstr "Cada campo tiene una etiqueta (la cual es la etiqueta MARC), esta no se puede editar "
+msgstr ""
+"Cada campo tiene una etiqueta (la cual es la etiqueta MARC), esta no se "
+"puede editar"
 
 #: ../../source/administration.rst:2104
 msgid "The 'Label for lib' is what will show in the staff client if you have :ref:`advancedMARCeditor` set to display labels"
-msgstr "La 'Etiqueta para biblioteca' es lo que mostrará en la interfaz del personal si tiene :ref:'advancedMARCeditor' configurado para mostrar las etiquetas"
+msgstr ""
+"La 'Etiqueta para biblioteca' es lo que se mostrará en la interfaz del "
+"personal si tiene :ref:'advancedMARCeditor' configurado para mostrar las "
+"etiquetas"
 
 #: ../../source/administration.rst:2108
 msgid "The 'Label for OPAC' is what will show on the MARC view in the OPAC"
-msgstr "La 'Etiqueta de OPAC' es lo que se mostrará en la vista MARC en el OPAC"
+msgstr ""
+"La 'Etiqueta de OPAC' es lo que se mostrará en la vista MARC en el OPAC "
 
 #: ../../source/administration.rst:2111
-#, fuzzy
 msgid "If you check 'Repeatable' then the field will have an icon next to it allowing you to add multiples of that tag"
-msgstr "Si usted marca 'Repetible' el campo tendrá un signo + al costado que al presionarlo le permitirá agregar múltiples valores de ese campo"
+msgstr ""
+"Si usted marca 'Repetible' luego el campo tendrá un icono al lado que le "
+"permitirá agregar múltiples de esa etiqueta"
 
 #: ../../source/administration.rst:2114
-#, fuzzy
 msgid "If you check 'Mandatory' the record cannot be saved unless you have a value assigned to tag.  A 'Required' flag will display as a prompt"
-msgstr "Si se marca 'Obligatorio' no se podrá guardar el registro hasta que no se asigne un valor a ese campo"
+msgstr ""
+"Si se marca 'Obligatorio' no se podrá guardar el registro hasta que no se "
+"asigne un valor a esa etiqueta.  Una bandera 'Requerida' se mostrara como "
+"aviso "
 
 #: ../../source/administration.rst:2117
 msgid "If you add default values for indicators here these will be pre-filled to save time when cataloguing but can still be edited if required"
 msgstr ""
+"Si usted agrega valores predeterminados como indicadores aqui, estos seran "
+"pre-cargados para ahorrar tiempo cuando se catalogue pero todavia se puede "
+"editar si se requiere"
 
 #: ../../source/administration.rst:2120
 msgid "'Authorized value' is where you define an :ref:`authorized value <authorized-values-label>` pull down list for your catalogers"
-msgstr "'Valores autorizados' es donde se define una lista desplegable de :ref:`valores autorizados <authorized-values-label>` para sus catalogadores"
+msgstr ""
+"'Valores autorizados' es donde se define :ref:`valores autorizados "
+"<authorized-values-label>` una lista desplegable para sus catalogadores"
 
 #: ../../source/administration.rst:2123
 msgid "To edit the **subfields** associated with the tag, click Actions then 'Subfields' to the right of the tag on the framework field list.  Each subfield has its own tab which contains three sections - Basic constraints, Advanced constraints and Other options."
 msgstr ""
+"Para editar los **subcampos** asociados con la etiqueta, haga clic en "
+"Acciones luego 'Subcampos' a la derecha de la etiqueta en la lista de la "
+"hoja de trabajo.  Cada subcampo tiene su propio tabulador el cuál contiene "
+"tres secciones - restricciones Básicas, restricciones Avanzadas y Otras "
+"opciones."
 
 #: ../../source/administration.rst:2127
-#, fuzzy
 msgid "For each subfield you can set the following basic constraint values"
-msgstr "Para cada subcampo puede establecer los siguientes valores de restricciones básicas"
+msgstr ""
+"Para cada subcampo puede establecer los siguientes valores de restricciones "
+"básicas "
 
 #: ../../source/administration.rst:2129
 msgid "|image190|"
-msgstr "|image190|"
+msgstr "|imagen190|"
 
 #: ../../source/administration.rst:2131
 msgid "Subfield code (this wouldn't usually be changed)"
-msgstr ""
+msgstr "Código de subcampo (esto normalmente no se cambiaría) "
 
 #: ../../source/administration.rst:2133
-#, fuzzy
 msgid "The MARC subfield code"
-msgstr "Subcampo MARC: "
+msgstr "El código del Subcampo MARC "
 
 #: ../../source/administration.rst:2135
 msgid "Text for librarian"
-msgstr "Texto para el bibliotecario"
+msgstr "Texto para el bibliotecario "
 
 #: ../../source/administration.rst:2137
-#, fuzzy
 msgid "what appears before the subfield in the staff interface"
-msgstr "lo que aparece antes del subcampo en el interfaz de bibliotecario"
+msgstr "lo que aparece antes del subcampo en el interfaz administrativo"
 
 #: ../../source/administration.rst:2139
 msgid "Text for OPAC"
-msgstr "Texto para el OPAC"
+msgstr "Texto para el OPAC "
 
 #: ../../source/administration.rst:2141
-#, fuzzy
 msgid "what appears before the field in the OPAC"
-msgstr "lo que aparece antes del campo en el OPAC."
+msgstr "lo que aparece antes del campo en el OPAC"
 
 #: ../../source/administration.rst:2143
 msgid "If left empty, the text for librarian is used instead"
-msgstr "Si queda vacío, el texto para el bibliotecario es usado en su lugar"
+msgstr "Si se deja vacío, se usara el texto para el bibliotecario en su lugar"
 
 #: ../../source/administration.rst:2147
-#, fuzzy
 msgid "the field will have an icon next to it allowing you to add multiples of the subfield"
-msgstr "el campo tendrá un signo más junto a él lo que le permite repetir ese campo"
+msgstr ""
+"el campo tendrá un icono junto a él, lo que le permite agregar multiples en "
+"el subcampo"
 
 #: ../../source/administration.rst:2150
 msgid "Mandatory"
-msgstr "Obligatorio"
+msgstr "Obligatorio "
 
 #: ../../source/administration.rst:2152
-#, fuzzy
 msgid "the record cannot be saved unless you have a value assigned to this subfield.  A 'Required' flag will display as a prompt"
-msgstr "no se permitirá guardar el registro a menos que haya asignado un valor asignado a este campo"
+msgstr ""
+"el registro no podrá ser guardado a menos que haya asignado un valor a este "
+"subcampo.  Se mostrará una bandera 'requerida' como aviso"
 
 #: ../../source/administration.rst:2155
-#, fuzzy
 msgid "Important"
-msgstr "**Importante**"
+msgstr "Importante"
 
 #: ../../source/administration.rst:2157
 msgid "this indicates that a field is not mandatory, but important. If you try to save a record where an important field is empty, you will get a warning, but the record will still be saved."
 msgstr ""
+"esto indica que el campo no es mandatorio pero, importante. Si trata de "
+"guardar un registro donde un campo importante esta vacío, obtendra una "
+"advertencia, pero el registro todavia puede ser guardado."
 
 #: ../../source/administration.rst:2161
 msgid "Managed in tab"
-msgstr "Administrado en pestaña"
+msgstr "Administrado en la pestaña"
 
 #: ../../source/administration.rst:2163
 msgid "defines the tab where the subfield is shown. All subfields of a given field must be in the same tab or ignored. Ignore means that the subfield is not managed."
-msgstr "define la pestaña donde se muestra el subcampo. Todos los subcampos de un campo determinado debe estar en la misma pestaña o ignoradas. No haga caso significa que el subcampo no se gestiona."
+msgstr ""
+"define la pestaña donde se muestra el subcampo. Todos los subcampos de un "
+"campo dado debe de estar en la misma pestaña o ignoradas. Ignorar significa "
+"que el subcampo no es administrado."
 
 #: ../../source/administration.rst:2167
-#, fuzzy
 msgid "For each subfield you can set the following advanced constraint values"
-msgstr "Para cada subcampo puede establecer los siguientes valores de restricciones avanzadas"
+msgstr ""
+"Para cada subcampo puede establecer los siguientes valores de restricciones "
+"avanzadas "
 
 #: ../../source/administration.rst:2170
 msgid "Default value"
-msgstr "Valor predeterminado"
+msgstr "Valor predeterminado "
 
 #: ../../source/administration.rst:2172
 msgid "defines what you want to appear in the field by default, this will be editable, but it saves time if you use the same note over and over or the same value in a field often."
-msgstr "define lo que desea que aparezca en el campo de forma predeterminada, esto se puede editar, pero ahorra tiempo si usa la misma nota una y otra vez o el mismo valor en un campo a menudo."
+msgstr ""
+"define lo que desea que aparezca en el campo por predeterminación, esto se "
+"puede editar, pero se ahorra tiempo si se usa la misma nota una y otra vez o "
+"el mismo valor a menudo en un campo."
 
 #: ../../source/administration.rst:2178
 msgid "There are several values that you can use here that will be replaced automatically when a new record is created:"
 msgstr ""
+"Hay varios valores que usted puede usar aquí que serán sustituidos "
+"automáticamente cuando un nuevo registro es creado:"
 
 #: ../../source/administration.rst:2181
 msgid "<<YEAR>> - the current year, 4 digits"
-msgstr ""
+msgstr "<<YEAR>> - el año actual, 4 dígitos "
 
 #: ../../source/administration.rst:2182
 msgid "<<MM>> - the current month, 2 digits"
-msgstr ""
+msgstr "<<MM>> - el mes actual, 2 dígitos "
 
 #: ../../source/administration.rst:2183
 msgid "<<DD>> - the current day of month, 2 digits"
-msgstr ""
+msgstr "<<DD>> - el día actual del mes, 2 dígitos"
 
 #: ../../source/administration.rst:2184
 msgid "<<USER>> - the username of the currently logged in user"
-msgstr ""
+msgstr "<<USER>> - el nombre de usuario del actualmente conectado usuario"
 
 #: ../../source/administration.rst:2186
 msgid "For example: a default of \"Year:<<YYYY>> Month:<<MM>> Day:<<DD>>\" (without quotes) will print the current date in the form of \"Year:2020 Month:08 Day:30\""
 msgstr ""
+"Por ejemplo: una predeterminación de \"Año:<<YYYY>> Mes:<<MM>> Día:<<DD>>\" ("
+"sin comillas) imprimirá la fecha actual en la forma de \"Año:2020 Mes:08 Día:"
+"30\""
 
 #: ../../source/administration.rst:2190
 msgid "Visibility"
-msgstr "Visibilidad"
+msgstr "Visibilidad "
 
 #: ../../source/administration.rst:2192
 msgid "allows you to select from where this subfield is visible/hidden, simply check the boxes where you would like the field to show and uncheck the boxes where you would like it hidden."
-msgstr "le permite seleccionar desde donde este subcampo es visible/oculto, simplemente seleccione las casillas donde le gustaría que el campo sea mostrado y desactive las casillas donde le gustaría que sea oculto."
+msgstr ""
+"le permite seleccionar desde donde este subcampo es visible/oculto, "
+"simplemente seleccione las casillas donde le gustaría que el campo sea "
+"mostrado y desactive las casillas donde le gustaría que se ocultara."
 
+# "tick" misspell could it be click?
 #: ../../source/administration.rst:2199
 msgid "The Editor tickbox controls whether this subfield will display within cataloguing editor for this framework.  If you tick Collapsed the subfield will be hidden in the editor but will be displayed if the field label is clicked to expand all subfields"
 msgstr ""
+"El Editor tickbox controla este subcampo ya sea que mostrara la pantalla "
+"dentro del editor de catalogacion para esta hoja de trabajo.  Si hace clic "
+"en Colapsar el subcampo sera oculto en el editor pero sera desplegada si se "
+"hace clic en la etiqueta del campo para expandir todos los subcampos"
 
 #: ../../source/administration.rst:2204
 msgid "|image192|"
-msgstr "|image192|"
+msgstr "|imagen192|"
 
 #: ../../source/administration.rst:2206
 msgid "Is a URL"
-msgstr "Es una URL"
+msgstr "Es un URL"
 
 #: ../../source/administration.rst:2208
 msgid "if checked, it means that the subfield is a URL and can be clicked"
-msgstr "si está seleccionado, significa que el subcampo es una URL y puede hacer clic sobre ella"
+msgstr ""
+"si está seleccionado, significa que el subcampo es un URL y puede hacer clic "
+"sobre ella"
 
 #: ../../source/administration.rst:2211
 msgid "Link"
-msgstr "Enlazar"
+msgstr "Enlace"
 
 #: ../../source/administration.rst:2213
 msgid "If you enter a field/subfield here (200b), a link appears after the subfield in the MARC Detail view. This view is present only in the staff client, not the OPAC. If the librarian clicks on the link, a search is done on the database for the field/subfield with the same value. This can be used for 2 main topics :"
-msgstr "Si usted introduce un campo/subcampo aquí (200b), un enlace aparece después del subcampo en la vista Detallada MARC. Esta vista está presente sólo en la interfaz del personal, no en el OPAC. Si el bibliotecario hace clic en el enlace, se realiza una búsqueda en la base de datos para el campo/subcampo con el mismo valor. Esto se puede utilizar principalmente por dos razones:"
+msgstr ""
+"Si usted introduce un campo/subcampo aquí (200b), un enlace aparece después "
+"del subcampo en la vista Detallada de MARC. Esta vista está presente sólo en "
+"la interfaz administrativa, no en el OPAC. Si el bibliotecario hace clic en "
+"el enlace, se realiza una búsqueda en la base de datos para el campo/"
+"subcampo con el mismo valor. Esto se puede utilizar para dos temas "
+"principales :"
 
 #: ../../source/administration.rst:2220
 msgid "on a field like author (200f in UNIMARC), put 200f here, you will be able to see all bib records with the same author."
-msgstr "en un campo como el de autor (200f en UNIMARC), poner 200f aquí, será capaz de ver todos los libros del mismo autor."
+msgstr ""
+"en un campo como el de autor (200f en UNIMARC), poner 200f aquí, será capaz "
+"de ver todos los registros bibliográficos con el mismo autor."
 
 #: ../../source/administration.rst:2223
 msgid "on a field that is a link (4xx) to reach another bib record. For example, put 011a in 464$x, will find the serials that are with this ISSN."
-msgstr "en un campo que es un enlace (4xx) para alcanzar otro registro bibliográfico. Por ejemplo, poniendo 011a en 464$x, encontrará la serie que tiene este ISSN."
+msgstr ""
+"en un campo que es un enlace (4xx) para alcanzar otro registro "
+"bibliográfico. Por ejemplo, poniendo 011a en 464$x, encontrará las series "
+"que estan con este ISSN."
 
 #: ../../source/administration.rst:2227
 msgid "**Warning**"
-msgstr "**Advertencia**"
+msgstr "**Advertencia** "
 
 #: ../../source/administration.rst:2229
 msgid "This value should not change after data has been added to your catalog. If you need to change this value you must ask your system administrator to run misc/batchRebuildBiblioTables.pl."
-msgstr "Este valor no debe cambiar después de que los datos han sido agregados a su catálogo. Si necesita cambiar este valor debe solicitar al administrador del sistema que ejecute misc/batchRebuildBiblioTables.pl."
+msgstr ""
+"Este valor no debe cambiar después de que los datos han sido agregados a su "
+"catálogo. Si necesita cambiar este valor debe solicitar al administrador del "
+"sistema que ejecute misc/batchRebuildBiblioTables.pl. "
 
 #: ../../source/administration.rst:2234
 msgid "Koha link"
-msgstr "Enlace Koha"
+msgstr "Koha enlace"
 
 #: ../../source/administration.rst:2236
-#, fuzzy
 msgid "Koha is multi-MARC compliant. So, it does not know what the 245$a means, neither what 200$f (those 2 fields being both the title in MARC21 and UNIMARC). So, in this list you can \"map\" a MARC subfield to its meaning. Koha constantly maintains consistency between a subfield and its meaning. When the user wants to search on \"title\", this link is used to find what is searched (245 if you're MARC21, 200 if you're UNIMARC)."
-msgstr "Koha es múlti-MARC. Entonces, no sabe lo que significa el campo 245$a, ni tampoco 200$f (esos 2 campos son el título en MARC21 y UNIMARC). Por lo tanto, en esta lista se puede \"conectar\" un subcampo MARC con su significando. Koha mantiene constantemente la consistencia entre un subcampo y su significando. Cuando el usuario desea buscar en \"título\", este enlace se utiliza para encontrar lo que se busca (245 si es MARC21, 200 si es UNIMARC)."
+msgstr ""
+"Koha es múlti-MARC obediente. Entonces, no sabe lo que significa 245$a, ni "
+"tampoco 200$f (esos 2 campos son el título en MARC21 y UNIMARC). Por lo "
+"tanto, en esta lista se puede \"conectar\" un subcampo MARC con su "
+"significando. Koha mantiene constantemente la consistencia entre un subcampo "
+"y su significando. Cuando el usuario desea buscar en \"título\", este enlace "
+"se utiliza para encontrar lo que se busca (245 si es MARC21, 200 si es "
+"UNIMARC)."
 
 #: ../../source/administration.rst:2244
 msgid "For each subfield you can set the following Other option values"
-msgstr "Para cada subcampo puede establecer los siguientes valores de Otras opciones"
+msgstr ""
+"Para cada subcampo puede establecer los siguientes valores de Otras opciones "
 
 #: ../../source/administration.rst:2246
 msgid "Authorized value"
-msgstr "Valor autorizado"
+msgstr "Valor autorizado "
 
 #: ../../source/administration.rst:2248
 msgid "means the value cannot by typed, but must be chosen from a pull down generated by the :ref:`authorized value <authorized-values-label>` list"
-msgstr "significa que el valor no se ingresa manualmente, sino que debe ser seleccionado de una lista de valores generados a partir de una lista de ref:`valore autorizados <authorized-values-label>`"
+msgstr ""
+"significa que el valor no se ingresa manualmente, sino que debe ser "
+"seleccionado de una lista de valores generados a partir de una lista de ref:`"
+"valores autorizados <authorized-values-label>`"
 
 #: ../../source/administration.rst:2252
-#, fuzzy
 msgid "In the example above, the 504a field will show the MARC504 authorized values when cataloging"
-msgstr "En el ejemplo anterior, el campo 504a mostrará al catalogar los valores MARC504 autorizados"
+msgstr ""
+"En el ejemplo arriba, el campo 504a mostrará al catalogar los valores "
+"autorizados MARC504 "
 
 #: ../../source/administration.rst:2255
 msgid "|image194|"
-msgstr "|image194|"
+msgstr "|imagen194|"
 
 #: ../../source/administration.rst:2257
 msgid "Thesaurus"
-msgstr "Tesauro"
+msgstr "Tesauro "
 
 #: ../../source/administration.rst:2259
 msgid "means that the value is not free text, but must be searched in the authority/thesaurus of the selected category"
-msgstr "significa que el valor no es libre, pero puede ser buscado en la autoridad/tesauro de la categoría seleccionada"
+msgstr ""
+"significa que el valor no es texto libre, pero puede ser buscado en la "
+"autoridad/tesauro de la categoría seleccionada"
 
 #: ../../source/administration.rst:2262
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "Complemento: "
 
 #: ../../source/administration.rst:2264
 msgid "means the value is calculated or managed by a plugin. Plugins can do almost anything."
-msgstr "significa que el valor se calcula o gestiona por un plugin. Los plugins puede hacer casi cualquier cosa."
+msgstr ""
+"significa que el valor se calcula o se administra por un complemento. Los "
+"complementos puede hacer casi cualquier cosa."
 
 #: ../../source/administration.rst:2267
 msgid "Examples:"
-msgstr "Ejemplos:"
+msgstr "Ejemplos: "
 
 #: ../../source/administration.rst:2269
 msgid "For call numbers there is an option to add a call number browser next to the the call number subfield so that you can identify which call numbers are in use and which are not. Simply choose the cn\\_browser.pl plugin. Learn more in the :ref:`cataloging section <adding-items-label>` of this manual."
-msgstr "Para las signaturas topográfica existe una opción para agregar un navegador de signaturas al lado del subcampo de la signatura topográfica, de manera que pued identificar cuáles están en uso y cuáles no. Simplemente elija el plugin cn\\_browser.pl. Obtenga más información en la :ref:`sección de catalogación <adding-items-label>` de este manual."
+msgstr ""
+"Para las signaturas topográfica existe una opción para agregar un navegador "
+"de signaturas al lado del subcampo para que usted pueda identificar cuales "
+"de las signaturas estan en uso y cuales no. Simplemente elija el complemento "
+"cn\\_browser.pl. Obtenga más información en la :ref:`sección de catalogación "
+"<adding-items-label>` de este manual."
 
 #: ../../source/administration.rst:2275
 msgid "If you'd like to let file uploads via cataloging you can choose the upload.pl plugin and this will allow you to :ref:`upload files to Koha to link to your records <attaching-files-to-records-label>`."
 msgstr ""
+"Si desea que los archivos subidos via catalogacion usted puede escoger el "
+"complemento upload.pl y esto le permitira :ref:`subir archivos a Koha para "
+"enlasar a sus archivos <attaching-files-to-records-label>`."
 
 #: ../../source/administration.rst:2280
 msgid "In UNIMARC there are plugins for every 1xx fields that are coded fields. The plugin is a huge help for cataloger! There are also two plugins (unimarc\\_plugin\\_210c and unimarc\\_plugin\\_225a that can \"magically\" find the editor from an ISBN, and the collection list for the editor)"
-msgstr "En UNIMARC hay plugins para cada campo 1xx codificado. El plugin es una ayuda enorme para el catalogador. También existen dos plugins (unimarc\\_plugin\\_210c y unimarc\\_plugin\\_225a) que pueden \"mágicamente\" encontrar el editor a partir del ISBN y la lista de la colección para el editor"
+msgstr ""
+"En UNIMARC hay complementos para cada campo 1xx codificado. El complemento "
+"es una ayuda enorme para el catalogador. También existen dos complementos ("
+"unimarc\\_plugin\\_210c y unimarc\\_plugin\\_225a que pueden \"mágicamente\" "
+"encontrar el editor a partir del ISBN y la lista de la colección para el "
+"editor)"
 
 #: ../../source/administration.rst:2286
-#, fuzzy
 msgid "To save your changes simply click the 'Save changes'."
-msgstr "Para guardar sus cambios haga clic en el botón 'Guardar cambios' en el tope de la pantalla"
+msgstr ""
+"Para guardar sus cambios simplemente haga clic en el botón 'Guardar "
+"cambios'. "
 
 #: ../../source/administration.rst:2291
-#, fuzzy
 msgid "Import/export frameworks"
-msgstr "Importar/Exportar hojas de trabajo"
+msgstr "Importar/exportar hojas de trabajo"
 
 #: ../../source/administration.rst:2293
 msgid "Next to each framework is a link to either import or export the framework."
-msgstr "Al lado de cada hoja de trabajo hay un enlace tanto para importar o exportar la hoja."
+msgstr ""
+"Al lado de cada hoja de trabajo hay un enlace tanto para importar o exportar "
+"la hoja de trabajo."
 
 #: ../../source/administration.rst:2299
-#, fuzzy
 msgid "Export framework"
-msgstr "Exportar hojas de trabajo"
+msgstr "Exportar hoja de trabajo"
 
 #: ../../source/administration.rst:2301
 msgid "To export a framework simply click the 'Export' link to the right of framework title."
-msgstr "Para exportar una hoja de trabajo simplemente haga clic en el enlace 'Exportar' a la derecha del título de la hoja de trabajo."
+msgstr ""
+"Para exportar una hoja de trabajo simplemente haga clic en el enlace "
+"'Exportar' a la derecha del título de la hoja de trabajo. "
 
 #: ../../source/administration.rst:2304
 msgid "|image195|"
-msgstr "|image195|"
+msgstr "|imagen195|"
 
 #: ../../source/administration.rst:2306
 msgid "When you click 'Export' you will be prompted to choose what format to export the file in."
-msgstr "Al hacer clic en 'Exportar' se le pedirá que elija el formato para exportar el archivo."
+msgstr ""
+"Al hacer clic en 'Exportar' se le pedirá que elija un formato para exportar "
+"el archivo."
 
 #: ../../source/administration.rst:2309
 msgid "|image196|"
-msgstr "|image196|"
+msgstr "|imagen196|"
 
 #: ../../source/administration.rst:2311
 msgid "A framework exported this way can be imported into any other Koha installation using the import framework option."
@@ -4935,11 +5165,11 @@ msgstr "Préstamos"
 
 #: ../../source/administration.rst:3533
 msgid "Holds to pull"
-msgstr "Reservas a preparar"
+msgstr "Reservas a retirar"
 
 #: ../../source/administration.rst:3534
 msgid "Holds queue"
-msgstr "Cola de reservas"
+msgstr "Fila de reservas"
 
 #: ../../source/administration.rst:3535
 msgid "Hold ratios"

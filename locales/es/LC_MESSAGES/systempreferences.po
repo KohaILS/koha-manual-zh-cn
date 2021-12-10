@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Koha Manual 18.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2020-11-13 20:22+0000\n"
-"Last-Translator: Olga <orodriguez@duncanville.com>\n"
+"PO-Revision-Date: 2021-03-09 16:08+0000\n"
+"Last-Translator: Héctor Castro <hector.hecaxmmx@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1605298935.723048\n"
+"X-POOTLE-MTIME: 1615306082.061693\n"
 
 #: ../../source/systempreferences.rst:6
 msgid "Global system preferences"
@@ -6232,7 +6232,7 @@ msgstr "No permitir marcar ítems como perdidos"
 
 #: ../../source/systempreferences.rst:4761
 msgid "Asks: \\_\\_\\_ from the 'Holds to pull' screen"
-msgstr ""
+msgstr "Pregunta: \\_\\_\\_ desde la pantalla de 'Reservas a retirar'"
 
 #: ../../source/systempreferences.rst:4765
 #, fuzzy
@@ -6254,6 +6254,9 @@ msgstr "No permitir marcar ítems como perdidos"
 #: ../../source/systempreferences.rst:4773
 msgid "This preference lets you choose whether the staff can mark items as lost directly from the 'Holds to pull' list if they can't find the item on the shelf."
 msgstr ""
+"Esta preferencia permite escoger si el personal puede marcar ítems como "
+"perdidos directamente desde la lista 'Reservas a retirar' si ellos no pueden "
+"encontrar el ítem en la estantería."
 
 #: ../../source/systempreferences.rst:4780
 msgid "canreservefromotherbranches"
@@ -6288,7 +6291,10 @@ msgstr "Al confirmar una reserva al momento de la devolución, el número de dí
 
 #: ../../source/systempreferences.rst:4824
 msgid "This number of days will be used too in calculating the default end date for the Holds to pull-report. But it does not interfere with issuing, renewing or transferring books."
-msgstr "Esta cantidad de días será utilizada también para calcular la fecha final para el reporte Reservas a preparar. Pero no interfiere con préstamos, renovaciones o transferencia de libros."
+msgstr ""
+"Esta cantidad de días será utilizada también para calcular la fecha final "
+"para el informe Reservas a retirar. Pero no interfiere con préstamos, "
+"renovaciones o transferencia de libros."
 
 #: ../../source/systempreferences.rst:4830
 msgid "This preference is only looked at if you're allowing hold dates in the future with :ref:`AllowHoldDateInFuture` or :ref:`OPACAllowHoldDateInFuture`"
@@ -6448,7 +6454,9 @@ msgstr "Orden predeterminado"
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:5018
 msgid "Asks: In the staff client, split the holds queue into separate tables by \\_\\_\\_"
-msgstr "Pregunta: En el cliente administrativo, divide la cola de reservas en tablas separadas por \\_\\_\\_"
+msgstr ""
+"Pregunta: En el cliente administrativo, divide la fila de reservas en tablas "
+"separadas por \\_\\_\\_"
 
 #: ../../source/systempreferences.rst:5022
 #: ../../source/systempreferences.rst:5080
@@ -6473,6 +6481,9 @@ msgstr "Nada"
 #: ../../source/systempreferences.rst:5032
 msgid "This feature allows you to separate holds by pickup library or itemtype in the holds page of a record (not in the global holds queue found on the circulation page)."
 msgstr ""
+"Esta característica permite separar las reservas por biblioteca de recogida "
+"o por itemtype en la página de reservas de un registro (no en la lista "
+"global de fila de reservas que se encuentra en la página de circulación)."
 
 #: ../../source/systempreferences.rst:5036
 msgid "When using the up and down arrows the priorities will be changed only in the group the holds belongs to."
@@ -6491,7 +6502,9 @@ msgstr "la prioridad actual, que puede estar fuera de orden"
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:5046
 msgid "Asks: If the holds queue is split, show librarians \\_\\_\\_"
-msgstr "Pregunta: Si la cola de reservas está dividida, mostrar a los bibliotecarios \\_\\_\\_"
+msgstr ""
+"Pregunta: Si la fila de reservas está dividida, mostrar a los bibliotecarios "
+"\\_\\_\\_"
 
 # Circulation > Holds Policy
 #: ../../source/systempreferences.rst:5050
@@ -6512,6 +6525,9 @@ msgstr ""
 #: ../../source/systempreferences.rst:5059
 msgid "This system preference controls the priority numbering on the holds page of a record (not in the global holds queue found on the circulation page)."
 msgstr ""
+"Esta preferencia de sistema controla la prioridad en la numeración en la "
+"página de reservas de un registro (no en la lista global de fila de reservas "
+"que se encuentra en la página de circulación)."
 
 #: ../../source/systempreferences.rst:5065
 msgid "LocalHoldsPriority, LocalHoldsPriorityPatronControl, LocalHoldsPriorityItemControl"
@@ -6650,6 +6666,14 @@ msgstr "Pregunta: Marcar una reserva como problemática si ha estado en espera p
 #: ../../source/systempreferences.rst:5210
 msgid "This preference (based on calendar days, not the :ref:`Koha holiday calendar <calendar-label>`) puts an expiration date on an item a patron has on hold. After this expiration date the staff will have the option to release the unclaimed hold which then may be returned to the library shelf or issued to the next patron on the item's hold list. Items that are 'expired' by this preference are moved to the 'Holds Over' tab on the :ref:`Holds Awaiting Pickup <holds-awaiting-pickup-label>` report."
 msgstr ""
+"Esta preferencia (a partir de los días del calendario, no del :ref:`"
+"calendario de vacaciones de Koha <calendar-label>`) establece una fecha de "
+"expiración de un ítem reservado. Después de esta fecha el personal tendrá la "
+"opción de liberar la reserva no reclamada que entonces puede volver a los "
+"estantes de la biblioteca o entregado al siguiente usuario de la lista de "
+"reservas del ítem. Los ítems que han 'expirado' por esta preferencia se "
+"mueven a la pestaña 'Reservas canceladas' en el informe :ref:`Reservas "
+"esperando ser recogidas <holds-awaiting-pickup-label>`."
 
 #: ../../source/systempreferences.rst:5222
 msgid "ReservesNeedReturns"
@@ -6735,6 +6759,9 @@ msgstr "Si StaticHoldsQueueWeight se deja en el valor por defecto entonces utili
 #: ../../source/systempreferences.rst:5283
 msgid "These preferences control how the :ref:`Holds Queue report <holds-queue-label>` is generated using :ref:`a cron job <cron-holds-queue-report-label>`."
 msgstr ""
+"Estas preferencias controlan como el :ref:`Informe fila de reservas <holds-"
+"queue-label>` es generado utilizando :ref:`un cron job <cron-holds-queue-"
+"report-label>`."
 
 #: ../../source/systempreferences.rst:5287
 msgid "If you do not want all of your libraries to participate in the on-shelf holds fulfillment process, you should list the the libraries that \\*do\\* participate in the process here by inputting all the participating library's branchcodes, separated by commas ( e.g. \"MPL,CPL,SPL,BML\" etc. )."
@@ -6742,7 +6769,15 @@ msgstr "Si no desea que todas las bibliotecas participen en el proceso de satisf
 
 #: ../../source/systempreferences.rst:5293
 msgid "By default, the holds queue will be generated such that the system will first attempt to hold fulfillment using items already at the pickup library if possible. If there are no items available at the pickup library to fill a hold, build\\_holds\\_queue.pl will then use the list of libraries defined in StaticHoldsQueueWeight. If RandomizeHoldsQueueWeight is disabled ( which it is by default ), the script will assign fulfillment requests in the order the branches are placed in the StaticHoldsQueueWeight system preference."
-msgstr "Por defecto, la cola de reservas será generada de forma que el sistema intentará primero cubrir las reservas utilizando ejemplares disponibles en la biblioteca de retiro de ser posible. Si no hay ejemplares disponibles para cubrir la reserva, build\\_holds\\_queue.pl utilizará la lista de bibliotecas definida en StaticHoldsQueueWieght. Si está deshabilitada RamdomizeHoldsQueueWeight ( comportamiento por defecto ), el script asignará pedidos de cobertura en el orden de ubicación de las sedes en la preferencia del sistema StaticHoldsQueueWeight."
+msgstr ""
+"Por defecto, la fila de reservas será generada de forma que el sistema "
+"intentará primero cubrir las reservas utilizando ejemplares disponibles en "
+"la biblioteca de retiro de ser posible. Si no hay ejemplares disponibles "
+"para cubrir la reserva, build\\_holds\\_queue.pl utilizará la lista de "
+"bibliotecas definida en StaticHoldsQueueWeight. Si RamdomizeHoldsQueueWeight "
+"está deshabilitada (comportamiento por defecto), el script asignara los "
+"pedidos de cobertura en el orden de ubicación de las sucursales en la "
+"preferencia del sistema StaticHoldsQueueWeight."
 
 #: ../../source/systempreferences.rst:5302
 msgid "For example, if your system has three libraries, of varying sizes ( small, medium and large ) and you want the burden of holds fulfillment to be on larger libraries before smaller libraries, you would want StaticHoldsQueueWeight to look something like \"LRG,MED,SML\"."
@@ -6819,6 +6854,11 @@ msgstr "Actualizar valores del ítem cuando se marque como perdido desde la pant
 #: ../../source/systempreferences.rst:5403
 msgid "This is a list of values to update an item when it is marked as lost from the holds to pull screen. For example, write \"itemlost: 1\" to set the items. itemlost value to 1 when the item is marked as lost. This will use the authorized value 1 from the LOST authorized value list."
 msgstr ""
+"Esta es una lista de valores para actualizar de un ítem cuando es marcado "
+"como perdido desde la pantalla reservas a retirar. Por ejemplo, escribe \""
+"itemlost: 1\" para establecer los ítems. El valor de itemlost a 1 cuando el "
+"ítem es marcado como perdido. Esto usará el valor autorizado 1 de la lista "
+"de valor autorizado LOST."
 
 #: ../../source/systempreferences.rst:5411
 #, fuzzy
@@ -7173,11 +7213,16 @@ msgstr "Predeterminado: 2"
 # Circulation > Interface
 #: ../../source/systempreferences.rst:5702
 msgid "Asks: Set the default start date for the Holds to pull list to \\_\\_\\_ day(s) ago."
-msgstr "Preguntas: Configurar la fecha de inicio predeterminada para la lista de Reservas para retirar hace dia(s) \\_\\_\\_"
+msgstr ""
+"Preguntas: Configurar la fecha de inicio predeterminada para la lista de "
+"Reservas a retirar en \\_\\_\\_ día(s) atrás."
 
 #: ../../source/systempreferences.rst:5707
 msgid "The :ref:`Holds to Pull <holds-to-pull-label>` report in circulation defaults to filtering holds placed 2 days ago. This preference allows you to set this default filter to any number of days."
 msgstr ""
+"El informe de circulación :ref:`Reservas a retirar <holds-to-pull-label>` "
+"filtra por defecto reservas realizadas 2 días antes. Esta preferencia "
+"permite establecer este filtro predeterminado en cualquier número de días."
 
 #: ../../source/systempreferences.rst:5714
 msgid "itemBarcodeFallbackSearch"
@@ -15392,4 +15437,3 @@ msgstr "Pregunta: Solo retorne \\_\\_\\_ filas del reporte solicitado a través 
 #: ../../source/systempreferences.rst:14945
 msgid "This value will be used to limit the number of results returned by `public reports <#publicreport>`__."
 msgstr "Este valor se empleará para limitar el número de resultados devueltos por `los informes públicos <#publicreport>`__."
-

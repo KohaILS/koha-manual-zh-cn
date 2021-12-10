@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-02 01:15-0300\n"
-"PO-Revision-Date: 2019-10-25 14:14+0000\n"
-"Last-Translator: LBarbey <luce.barbey@cirad.fr>\n"
+"PO-Revision-Date: 2021-07-07 09:22+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/extending_koha.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1572012878.738562\n"
+"X-POOTLE-MTIME: 1625649735.753202\n"
 
 #: ../../source/extending_koha.rst:6
 msgid "Extending Koha"
@@ -75,9 +75,11 @@ msgid "In addition to the traditional tag cloud available in Koha, there is a wa
 msgstr "En plus du nuage de tags traditionnel disponible dans Koha, il existe un moyen de générer des nuages pour des sujets populaires dans Koha."
 
 #: ../../source/extending_koha.rst:50
-#, fuzzy
 msgid "The :ref:`Author/Subject Cloud cron job <cron-subject/author-clouds-label>` is used to help with this process. This cron job sends its output to files."
-msgstr "Le :ref:`cron job du nuage Auteur/Sujet <subject/author-clouds-label>` est utilisé pour aider avec ce processus. Cette tâche programmée ou cron job envoit ses sorties aux fichiers."
+msgstr ""
+"Le :ref:`cron job du nuage Auteur/Sujet <cron-subject/author-clouds-label>` "
+"est utilisé pour aider avec ce processus. Ce cron job envoie ses résultats "
+"aux fichiers."
 
 #: ../../source/extending_koha.rst:52
 msgid "/home/koha/mylibrary/koharoot/koha-tmpl/cloud-author.html"
@@ -88,9 +90,15 @@ msgid "/home/koha/yourlibrary/koharoot/koha-tmpl/cloud-subject.html"
 msgstr "/home/koha/yourlibrary/koharoot/koha-tmpl/cloud-subject.html"
 
 #: ../../source/extending_koha.rst:56
-#, fuzzy
 msgid "This means that you can produce clouds for authors, collective author, all kind of subjects, classifications, etc. And since it works on zebra indexes, it is quick, even on large DBs. Tags clouds are sent to files. It's up to library webmaster to deal with those files in order to include them in :ref:`OPACMainUserBlock`, or include them into their library CMS."
-msgstr "Cela signifie que vous pouvez produire des nuages pour auteurs, auteurs collectifs, tous types de sujets, classifications etc. Et puisque cela fonctionne avec les index Zebra, c'est rapide, même sur des base de données de taille importante. Les nuages de mots-clés sont envoyés aux fichiers. C'est à l'administrateur informatique de la bibliothèque de s'occuper d'inclure ces fichiers dans :ref:`OPACMainUserBlock <opacmainuserblock-label>`, ou de les inclure dans le CMS de la bibliothèque."
+msgstr ""
+"Cela signifie que vous pouvez produire des nuages pour auteurs, auteurs "
+"collectifs, tous types de sujets, classifications etc. Et puisque cela "
+"fonctionne avec les index Zebra, c'est rapide, même sur des base de données "
+"de taille importante. Les nuages de mots-clés sont envoyés aux fichiers. "
+"C'est à l'administrateur informatique de la bibliothèque de s'occuper "
+"d'inclure ces fichiers dans :ref:`OPACMainUserBlock', ou de les inclure dans "
+"le CMS de la bibliothèque."
 
 #: ../../source/extending_koha.rst:63
 msgid "Some libraries even send the file into a Samba shared folder where webmaster take them, eventually clean them a little bit before integrating them into navigation widgets or pages."
@@ -472,4 +480,3 @@ msgstr "Recherche Koha dans votre site"
 #: ../../source/extending_koha.rst:580
 msgid "Often you'll want to add a Koha search box to your library website. To do so, just copy and paste the following code in to your library website and update the YOURCATALOG bit with your catalog's URL and you're set to go."
 msgstr "Souvent, vous devrez ajouter une barre de recherche Koha au site web de votre bibliothèque. Pour cela, copiez-collez le code suivant dans le site web de votre bibliothèque et mettez à jour la partie YOURCATALOG avec l'URL de votre catalogue."
-

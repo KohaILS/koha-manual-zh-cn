@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-02-10 12:47+0000\n"
-"Last-Translator: SevQ <severine.queune@bulac.fr>\n"
+"PO-Revision-Date: 2021-11-06 15:19+0000\n"
+"Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-Pootle-Path: /fr/man18.05/patrons.po\n"
 "X-Pootle-Revision: 1\n"
-"X-POOTLE-MTIME: 1612961246.549063\n"
+"X-POOTLE-MTIME: 1636211943.879201\n"
 
 #: ../../source/patrons.rst:6
 msgid "Patrons"
@@ -35,7 +35,7 @@ msgstr "Les adhérents sont ajoutés dans le module 'Adhérents'."
 
 #: ../../source/patrons.rst:18 ../../source/patrons.rst:243
 msgid "*Get there:* Patrons"
-msgstr "Allez dans le module « Adhérents »"
+msgstr "*Aller à :* Adhérents"
 
 #: ../../source/patrons.rst:20
 msgid "Once there you can add a new patron."
@@ -219,7 +219,10 @@ msgstr "|image415|"
 
 #: ../../source/patrons.rst:154
 msgid "The Staff/OPAC asks for the username and password to be used by the patron (and/or staff member) to log into their account in the OPAC and for staff to log in to the staff client."
-msgstr "Les idenfiants et mots de passe sont utilisés par les adhérents pour se connecter à leur compte à l'OPAC. Ils sont également utilisés par les bibliothécaires pour se connecter à l'interface professionnelle de Koha."
+msgstr ""
+"Les identifiants et mots de passe sont utilisés par les adhérents pour se "
+"connecter à leur compte à l'OPAC. Ils sont également utilisés par les "
+"bibliothécaires pour se connecter à l'interface professionnelle de Koha."
 
 #: ../../source/patrons.rst:158
 msgid "Staff will only be able to use this log in info to log in to the staff client if they have the :ref:`necessary permissions <patron-permissions-label>`."
@@ -356,7 +359,6 @@ msgid "If you need to access the full form, you can click on 'Show full form' ab
 msgstr ""
 
 #: ../../source/patrons.rst:261
-#, fuzzy
 msgid "Add a staff patron"
 msgstr "Ajout d'un adhérent Bibliothécaire"
 
@@ -369,9 +371,8 @@ msgid "Remember to assign your staff secure usernames and passwords since these 
 msgstr "Pensez bien à donner aux professionnels un identifiant et un mot de passe sûrs."
 
 #: ../../source/patrons.rst:276
-#, fuzzy
 msgid "Add a statistical patron"
-msgstr "Ajouter un adhérent de type statistique"
+msgstr "Ajout d'un adhérent de type statistique"
 
 #: ../../source/patrons.rst:278
 msgid "One way to track use of in house items is to \"check out\" the materials to a statistical patron. The \"check out\" process doesn’t check the book out, but instead tracks an in house use of the item. To use this method for tracking in house use you first will need a :ref:`patron category <patron-categories-label>` set up for your statistical patron."
@@ -400,9 +401,8 @@ msgid "To learn about other methods of tracking in house use visit the :ref:`tra
 msgstr "Pour en savoir plus sur les autres méthodes de suivi des consultations sur place, référez-vous à la section de ce manuel :ref:`Suivi des consultation sur place <tracking-in-house-use-label>` "
 
 #: ../../source/patrons.rst:301
-#, fuzzy
 msgid "Duplicate a patron"
-msgstr "Dupliquer des adhérents"
+msgstr "Dupliquer un adhérent"
 
 #: ../../source/patrons.rst:303
 msgid "Sometimes when you're adding a new family to your system you don't want to type the contact information over and over. Koha allows for you to duplicate a patron and change only the parts you want to (or need to) change."
@@ -441,13 +441,15 @@ msgid "|image424|"
 msgstr "|image424|"
 
 #: ../../source/patrons.rst:334
-#, fuzzy
 msgid "Add patron images"
-msgstr "Ajouter des Photos de l'Adhérent"
+msgstr "Ajouter des photos de l'adhérent"
 
 #: ../../source/patrons.rst:336
 msgid "If you would like you can add patron images to help identify patrons. To enable this feature you must first set the :ref:`patronimages` preference to 'Allow'."
-msgstr "Vous pouvez ajouter des photos des adhérents pour mieux les identifier. Pour cela, vous devez aller sur la préférence système :ref:`patronimages` et la positionner sur \"Permettre\" (ou \"Autoriser\")."
+msgstr ""
+"Vous pouvez ajouter des photos des adhérents pour mieux les identifier. Pour "
+"cela, vous devez aller sur la préférence système :ref:`patronimages` et la "
+"positionner sur 'Autoriser'."
 
 #: ../../source/patrons.rst:340
 msgid "If the preference is set to 'Allow' you will see a placeholder image under the patron's name and box to upload a patron image below the basic contact information."
@@ -573,9 +575,13 @@ msgid "|image435|"
 msgstr "|image435|"
 
 #: ../../source/patrons.rst:433
-#, fuzzy
 msgid "Children patrons do not become adults automatically in Koha unless you have :ref:`Juvenile to adult cron job <cron-update-child-to-adult-patron-type-label>` running. To upgrade a child patron to and adult patron category manually go to the 'More' menu and choose 'Update child to adult patron'"
-msgstr "Les adhérents enfants ne deviennent pas automatiquement adultes dans Koha, tant que le cron job (ou tâche planifiée) :ref:`'Transformer adhérent Enfant en Adulte <update-child-to-adult-patron-type-label>` n'est pas exécuté. Pour transférer manuellement un adhérent Enfant à la catégorie adulte, allez dans l'onglet 'Plus' et sélectionnez 'Transférer adhérent Enfant en Adulte'"
+msgstr ""
+"Les adhérents Enfant ne deviennent pas automatiquement Adulte dans Koha, "
+"tant que le cron job :ref:`'Transformer un adhérent Enfant en Adulte <cron-"
+"update-child-to-adult-patron-type-label>` n'est pas lancé. Pour passer "
+"manuellement un adhérent Enfant à la catégorie Adulte, allez dans l'onglet "
+"'Plus' et sélectionnez 'Transformer adhérent Enfant en Adulte'"
 
 #: ../../source/patrons.rst:438
 msgid "|image436|"
@@ -590,9 +596,8 @@ msgid "|image437|"
 msgstr "|image437|"
 
 #: ../../source/patrons.rst:448
-#, fuzzy
 msgid "Renew patron account"
-msgstr "Modérer les commentaires des adhérents"
+msgstr "Renouveler le compte d'un adhérent"
 
 #: ../../source/patrons.rst:450
 msgid "When renewing a patron account you can either edit the the expiry date manually in the patron record or use the 'Renew patron' option from the More menu in the toolbar at the top."
@@ -768,9 +773,8 @@ msgid "This permission grants all circulation rights except those covered by per
 msgstr "Tous les droits d'accès sauf les permissions listées ci-dessous"
 
 #: ../../source/patrons.rst:600
-#, fuzzy
 msgid "Force checkout if a limitation exists (force\\_checkout)"
-msgstr "Forcer le prêt malgré une limitation déjà fixée"
+msgstr "Forcer le prêt malgré une limitation fixée (force\\_checkout)"
 
 #: ../../source/patrons.rst:602
 #, fuzzy
@@ -808,6 +812,7 @@ msgstr "le document est réservé"
 #: ../../source/patrons.rst:619
 msgid "Mark checkout notes as seen\\/not seen (manage\\_checkout\\_notes)"
 msgstr ""
+"Marquer les notes de prêt comme Vue\\/Non vues (manage\\_checkout\\_notes)"
 
 #: ../../source/patrons.rst:622
 msgid "The permission to manage the checkout notes written by users"
@@ -818,27 +823,24 @@ msgid "through the OPAC"
 msgstr ""
 
 #: ../../source/patrons.rst:624
-#, fuzzy
 msgid "Manage restrictions for accounts (manage\\_restrictions)"
-msgstr "Gérer les comptes suspendus"
+msgstr "Gérer les suspensions des comptes (manage\\_restrictions)"
 
 #: ../../source/patrons.rst:626
 msgid "Grants permission to the staff member to lift a restriction that might be on the patron's record"
 msgstr "Le personnel a la permission d'enlever une suspension sur la fiche d'un adhérent"
 
 #: ../../source/patrons.rst:629
-#, fuzzy
 msgid "Execute overdue items report (overdues\\_report)"
-msgstr "Générer un rapport des documents en retard"
+msgstr "Générer un rapport des documents en retard (overdues\\_report)"
 
 #: ../../source/patrons.rst:631
 msgid "The permission to run the overdues reports found under Circulation"
 msgstr "L'autorisation de lancer les rapports de retards se trouve dans le module Circualtion"
 
 #: ../../source/patrons.rst:633
-#, fuzzy
 msgid "Override blocked renewals (override\\_renewals)"
-msgstr "Outrepasser le blocage de renouvellement"
+msgstr "Outrepasser le blocage de renouvellement (override\\_renewals)"
 
 #: ../../source/patrons.rst:635
 msgid "With this permission, a staff member can override renewals if there is a restriction"
@@ -876,9 +878,10 @@ msgid "Manage additional fields for baskets or subscriptions (manage\\_additiona
 msgstr ""
 
 #: ../../source/patrons.rst:658
-#, fuzzy
 msgid "This gives access to the :ref:`additional fields section <additional- fields-label>`"
-msgstr "Aller à l':ref:`outil d'import des adhérents <patron-import-label>`"
+msgstr ""
+"Permet d'accéder à :ref:'la section des champs supplémentaires <additional- "
+"fields-label>'"
 
 #: ../../source/patrons.rst:663
 msgid "This permission requires that the staff member also have the 'Edit an existing subscription' permission from the 'Manage serial subscriptions' section and the 'Manage basket and order lines' permission from the 'Acquisition and\\/or suggestion management' section"
@@ -897,6 +900,8 @@ msgstr "L'autorisation d'accéder à la configuration des :ref:`Alertes audio <a
 #: ../../source/patrons.rst:673
 msgid "Manage authorized value categories and authorised values (manage\\_auth\\_ values)"
 msgstr ""
+"Gestion des valeurs autorisées et de leurs catégories (manage\\_auth\\_ "
+"values)"
 
 #: ../../source/patrons.rst:676
 #, fuzzy
@@ -904,9 +909,8 @@ msgid "The ability to access the :ref:`auhorized values <authorized-values-label
 msgstr "L'autorisation d'accéder à la configuration des :ref:`Valeurs autorisées <authorized-values-label>` dans la partie administration."
 
 #: ../../source/patrons.rst:679
-#, fuzzy
 msgid "Manage circulation rules (manage\\_circ\\_rules)"
-msgstr "Gérer les règles de circulation"
+msgstr "Gérer les règles de circulation (manage\\_circ\\_rules)"
 
 #: ../../source/patrons.rst:681
 #, fuzzy
@@ -927,9 +931,8 @@ msgid "The staff member still has to have the 'Manage circulation rules' permiss
 msgstr ""
 
 #: ../../source/patrons.rst:694
-#, fuzzy
 msgid "Manage cities and towns (manage\\_cities)"
-msgstr "Gestion des commandes et des paniers"
+msgstr "Gérer les villes et communes (manage\\_cities)"
 
 #: ../../source/patrons.rst:696
 #, fuzzy
@@ -937,9 +940,10 @@ msgid "The ability to access the :ref:`cities and towns <cities-and-towns-label>
 msgstr "L'autorisation d'accéder à la configuration des :ref:`Villes et cités <cities-and-towns-label>` dans la partie administration."
 
 #: ../../source/patrons.rst:699
-#, fuzzy
 msgid "Manage classification sources and filing rules (manage\\_classifications)"
-msgstr "Gérer les règles de circulation"
+msgstr ""
+"Gérer les sources de classification et leurs règles de remplissage (manage\\"
+"_classifications)"
 
 #: ../../source/patrons.rst:701
 #, fuzzy
@@ -947,9 +951,8 @@ msgid "The ability to access the :ref:`classification sources <classification-so
 msgstr "L'autorisation d'accéder à la configuration des :ref:`Sources de classification <classification-sources-label>` dans la partie administration."
 
 #: ../../source/patrons.rst:705
-#, fuzzy
 msgid "Manage column configuration (manage\\_column\\_config)"
-msgstr "Permission de gérer les contrats"
+msgstr "Gérer la configuration des colonnes (manage\\_column\\_config)"
 
 #: ../../source/patrons.rst:707
 #, fuzzy
@@ -957,18 +960,16 @@ msgid "The ability the access the :ref:`configure columns <column-settings-label
 msgstr "L'autorisation d'accéder à la page :ref:`Configurer des colonnes <column-settings-label>` dans la partie administration."
 
 #: ../../source/patrons.rst:710
-#, fuzzy
 msgid "Manage Did you mean? configuration (manage\\_didyoumean)"
-msgstr "Permission de gérer les contrats"
+msgstr "Gérer la configuration du Vouliez-vous dire ? (manage\\_didyoumean)"
 
 #: ../../source/patrons.rst:712
 msgid "The ability to access the :ref:`Did you mean? <did-you-mean?-label>` configuration in the administration module."
 msgstr "L'autorisation d'accéder à la configuration des :ref:`Vouliez-vous dire? <did-you-mean?-label>` dans la partie administration."
 
 #: ../../source/patrons.rst:715
-#, fuzzy
 msgid "Manage item circulation alerts (manage\\_item\\_circ\\_alerts)"
-msgstr "Gérer les règles de circulation"
+msgstr "Gérer les alertes de circulation (manage\\_item\\_circ\\_alerts)"
 
 #: ../../source/patrons.rst:717
 #, fuzzy
@@ -1000,14 +1001,15 @@ msgid "Manage keyboard shortcuts for the advanced cataloging editor (manage\\_ k
 msgstr ""
 
 #: ../../source/patrons.rst:733
-#, fuzzy
 msgid "The ability to access the keyboard shortcuts configuration in the administration module"
-msgstr "L'autorisation d'accéder à la configuration des :ref:`Alertes audio <audio-alerts-label>` dans la partie administration."
+msgstr ""
+"L'autorisation d'accéder à la configuration des raccourcis clavier dans le "
+"module Administration"
 
 #: ../../source/patrons.rst:736
-#, fuzzy
 msgid "Manage libraries and library groups (manage\\_libraries)"
-msgstr "Gestion des commandes et des groupes de paniers"
+msgstr ""
+"Gérer les bibliothèques et les groupes de bibliothèque (manage\\_libraries)"
 
 #: ../../source/patrons.rst:738
 #, fuzzy
@@ -1019,22 +1021,24 @@ msgid "Manage Mana KB content sharing (manage\\_mana)"
 msgstr ""
 
 #: ../../source/patrons.rst:744
-#, fuzzy
 msgid "The ability to access the :ref:`share content with Mana KB <share-with-mana-kb-label>` in the administration module"
-msgstr "L'autorisation d'accéder à la configuration des :ref:`Vouliez-vous dire? <did-you-mean?-label>` dans la partie administration."
+msgstr ""
+"L'autorisation d'accéder au :ref:'partage de contenu avec Mana KB <share-"
+"with-mana-kb-label>' dans le module Administration"
 
 #: ../../source/patrons.rst:747
 msgid "Manage MARC bibliographic and authority frameworks and test them (manage\\_marc\\_frameworks)"
 msgstr ""
+"Gérer les grilles MARC de catalogage et d'autorités et les tester (manage\\"
+"_marc\\_frameworks)"
 
 #: ../../source/patrons.rst:750
 msgid "The ability to access the :ref:`MARC bibliographic framework <marc-bibliographic-frameworks-label>`, :ref:`authority types <authority-types-label>`, :ref:`Koha to MARC mapping <koha-to-marc-mapping-label>`, and :ref:`MARC Bibliographic framework test <marc-bibliographic-framework-test-label>` configuration areas in the administration module."
 msgstr ""
 
 #: ../../source/patrons.rst:757
-#, fuzzy
 msgid "Manage record matching rules (manage\\_matching\\_rules)"
-msgstr "Gérer les règles de circulation"
+msgstr "Gérer les règles de concordance (manage\\_matching\\_rules)"
 
 #: ../../source/patrons.rst:759
 #, fuzzy
@@ -1080,15 +1084,15 @@ msgstr ""
 #: ../../source/patrons.rst:783
 msgid "Manage Z39.50 and SRU server configuration (manage\\_search\\_targets)"
 msgstr ""
+"Gérer la configuration Z39.50 et des serveurs SRU (manage\\_search\\_targets)"
 
 #: ../../source/patrons.rst:785
 msgid "The ability to access the :ref:`Z39.50/SRU servers <z39.50/sru-servers-label>` configuration in the administration module."
 msgstr "L'autorisation d'accéder à la configuration des :ref:`serveurs Z39.50/SRU <z39.50/sru-servers-label>` dans la partie administration."
 
 #: ../../source/patrons.rst:788
-#, fuzzy
 msgid "Manage SMS cellular providers (manage\\_sms_providers)"
-msgstr "Gestion des profils d'export CSV"
+msgstr "Gérer les fournisseurs de SMS (manage\\_sms_providers)"
 
 #: ../../source/patrons.rst:790
 msgid "The ability to access the :ref:`SMS cellular providers <sms-cellular-providers-label>` configuration in the administration module. Note: This area will only be visible when the :ref:`SMSSendDriver` system preference is set to 'Email'."
@@ -1108,23 +1112,28 @@ msgid "Manage library transfer limits and transport cost matrix (manage\\_transf
 msgstr ""
 
 #: ../../source/patrons.rst:802
-#, fuzzy
 msgid "The ability to access the :ref:`library transfer limits <library-transfer-limits-label>` and :ref:`transport cost matrix <transport-cost-matrix-label>` configuration pages in the administration module."
-msgstr "L'autorisation d'accéder à la configuration des :ref:`Sites <libraries-label>` et des :ref:`Groupes de sites <library-groups-label>`dans la partie administration."
+msgstr ""
+"L'autorisation d'accéder aux pages de configuration :ref:'des règles de "
+"transferts <library-transfer-limits-label>' et :ref:'de la matrice des coûts "
+"de transport <transport-cost-matrix-label>' dans le module Administration."
 
 #: ../../source/patrons.rst:806
 msgid "Manage usage statistics settings (manage\\_usage\\_stats)"
 msgstr ""
 
 #: ../../source/patrons.rst:808
-#, fuzzy
 msgid "The ability to access the :ref:`share your usage statistics <share-anonymous-usage-statistics-label>` configuration in the administration module."
-msgstr "L'autorisation d'accéder à la configuration des :ref:`Vouliez-vous dire? <did-you-mean?-label>` dans la partie administration."
+msgstr ""
+"L'autorisation d'accéder à la configuration :ref:`du partage des "
+"statistiques d'usage <share-anonymous-usage-statistics-label>` dans le "
+"module Administration."
 
 #: ../../source/patrons.rst:811
-#, fuzzy
 msgid "Remaining system parameters permissions (parameters\\_remaining\\_permissions)"
-msgstr "Autres autorisations de paramétrage"
+msgstr ""
+"Autres permissions de paramétrage du système (parameters\\_remaining\\"
+"_permissions)"
 
 #: ../../source/patrons.rst:813
 #, fuzzy
@@ -1137,9 +1146,10 @@ msgid "Add, modify and view patron information (borrowers)"
 msgstr "Ajouter, modifier et afficher les informations de l'adhérent"
 
 #: ../../source/patrons.rst:817
-#, fuzzy
 msgid "Add, modify and view patron information (edit\\_borrowers)"
-msgstr "Ajouter, modifier et afficher les informations de l'adhérent"
+msgstr ""
+"Ajouter, modifier et afficher les informations de l'adhérent (edit\\"
+"_borrowers)"
 
 #: ../../source/patrons.rst:819
 msgid "The ability to access the Patrons module to view patron files, as well as adding new patrons and editing patron files"
@@ -1179,9 +1189,8 @@ msgid "Allows staff members to alter the holds priority (moving patrons up and d
 msgstr "Permission de modifier l'ordre des réservations (monter/descendre une réservation)"
 
 #: ../../source/patrons.rst:838
-#, fuzzy
 msgid "Place holds for patrons (place\\_holds)"
-msgstr "Faire des réservations pour les usagers"
+msgstr "Faire des réservations pour les usagers (place\\_holds)"
 
 #: ../../source/patrons.rst:840
 #, fuzzy
@@ -1206,18 +1215,18 @@ msgid "Staff members with this permission need to also have the 'Edit catalog (M
 msgstr ""
 
 #: ../../source/patrons.rst:854
-#, fuzzy
 msgid "Delete all items at once (delete\\_all\\_items)"
-msgstr "Supprimer tous les exemplaires à la fois"
+msgstr "Supprimer tous les exemplaires à la fois (delete\\_all\\_items)"
 
 #: ../../source/patrons.rst:856
 msgid "Ability to use the 'Delete all items' option found under the 'Edit' menu in cataloging"
 msgstr "Droit d'utiliser l'option 'Supprimer tous les exemplaires' trouvée sous le menu 'Modifier' dans le module Catalogage"
 
 #: ../../source/patrons.rst:859
-#, fuzzy
 msgid "Edit catalog (Modify bibliographic/holdings data) (edit\\_catalogue)"
-msgstr "Editer le catalogue (Modifier les données bibliographiques/d'exemplaires)"
+msgstr ""
+"Editer le catalogue (Modifier les données bibliographiques / d'exemplaires) ("
+"edit\\_catalogue)"
 
 #: ../../source/patrons.rst:861
 msgid "Ability to access all cataloging functions via the `Cataloging <#cataloging>`__ page"
@@ -1233,18 +1242,21 @@ msgid "Ability to make :ref:`edits to item/holdings records <editing-items-label
 msgstr "Droit de faire des :ref:`modifications d'exemplaires <editing-items-label>`, mais pas de notices bibliographiques"
 
 #: ../../source/patrons.rst:869
-#, fuzzy
 msgid "Limit item modification to subfields defined in the :ref:`SubfieldsToAllowForRestrictedEditing` system preference (edit\\_items\\_restricted)"
-msgstr "Limiter la modification exemplaires aux sous-champs définis dans la préférence système :ref:`SubfieldsToAllowForRestrictedEditing`"
+msgstr ""
+"Limiter la modification exemplaires aux sous-champs définis dans la "
+"préférence système :ref:`SubfieldsToAllowForRestrictedEditing` (edit\\"
+"_items\\_restricted)"
 
 #: ../../source/patrons.rst:873
 msgid "If checked, the staff member will only be able to modify some item subfields"
 msgstr ""
 
 #: ../../source/patrons.rst:878
-#, fuzzy
 msgid "Please note that the 'Edit items' permission is still required"
-msgstr "Veuillez noter que l'autorisation edit\\_items est toujours obligatoire"
+msgstr ""
+"Veuillez noter que l'autorisation 'Modifier les exemplaires' est toujours "
+"nécessaire"
 
 #: ../../source/patrons.rst:880
 #, fuzzy
@@ -1271,9 +1283,10 @@ msgid "Grants the ability to reimburse credits to patrons"
 msgstr "Possibilité d'utiliser les plugins rapport"
 
 #: ../../source/patrons.rst:892
-#, fuzzy
 msgid "Remaining permissions for managing fines and fees (remaining\\_permissions)"
-msgstr "Autres permissions permettant de gérer les amendes et frais autre que celles d'annuler les pénalités financières"
+msgstr ""
+"Autres permissions permettant de gérer les amendes et frais (remaining\\"
+"_permissions)"
 
 #: ../../source/patrons.rst:894
 msgid "Grant the ability to manage fines and fees other than the actions described in the other subpermissions (paying out credits and writing off fees)"
@@ -1298,9 +1311,10 @@ msgid "All the acquisitions sub-permissions give access to the acquisitions home
 msgstr ""
 
 #: ../../source/patrons.rst:912
-#, fuzzy
 msgid "Add and delete funds (but can't modify funds) (budget\\_add\\_del)"
-msgstr "Ajouter et supprimer les budgets (sans possibilité de modification)"
+msgstr ""
+"Ajouter et supprimer les budgets (sans possibilité de modification) (budget\\"
+"_add\\_del)"
 
 #: ../../source/patrons.rst:914
 msgid "Grants the ability to add and delete funds within a budget"
@@ -1338,9 +1352,10 @@ msgid "Note that the budget\\_manage permission is required"
 msgstr "Veuillez noter que l'autorisation edit\\_items est toujours obligatoire"
 
 #: ../../source/patrons.rst:934
-#, fuzzy
 msgid "Modify funds (can't create lines, but can modify existing ones) (budget\\_modify)"
-msgstr "Modifier un budget (modifier les lignes existantes, sans pouvoir en créer de nouvelles)"
+msgstr ""
+"Modifier les budgets (modifier les lignes existantes, sans pouvoir en créer "
+"de nouvelles) (budget\\_modify)"
 
 #: ../../source/patrons.rst:936
 msgid "Grants the ability to edit fund information and amounts"
@@ -1360,9 +1375,8 @@ msgid "Grants the ability to add, edit and delete contracts with vendors"
 msgstr ""
 
 #: ../../source/patrons.rst:945
-#, fuzzy
 msgid "Manage currencies and exchange rates (currencies\\_manage)"
-msgstr "Gestion des commandes et des paniers"
+msgstr "Gérer les devises et taux de change (currencies\\_manage)"
 
 #: ../../source/patrons.rst:947
 msgid "The ability to access the :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` configuration page."
@@ -1381,27 +1395,26 @@ msgid "In order to be able to send orders via EDI, your staff member also needs 
 msgstr ""
 
 #: ../../source/patrons.rst:959
-#, fuzzy
 msgid "Manage basket groups (group\\_manage)"
-msgstr "Gestion des commandes et des groupes de paniers"
+msgstr "Gérer les bordereaux de commande (group\\_manage)"
 
 #: ../../source/patrons.rst:961
 msgid "Grants the ability to :ref:`create, edit, close and delete basket groups <create-a-basket-group-label>`"
 msgstr ""
 
 #: ../../source/patrons.rst:964
-#, fuzzy
 msgid "Manage baskets and order lines (order\\_manage)"
-msgstr "Gérer les amendes et les charges des adhérents"
+msgstr "Gérer les paniers et lignes de commande (order\\_manage)"
 
 #: ../../source/patrons.rst:966
 msgid "Grants the ability to :ref:`place orders <placing-orders-label>`, including creating baskets, adding order lines, closing baskets, etc."
 msgstr ""
 
 #: ../../source/patrons.rst:969
-#, fuzzy
 msgid "Manage all baskets and order lines, regardless of restrictions on them (order\\_manage\\_all)"
-msgstr "Gestion de toutes les commandes et paniers, quelques soient les restrictions fixées dessus"
+msgstr ""
+"Gérer tous les paniers et lignes de commande, quelques soient les "
+"restrictions qui leur sont attribuées (order\\_manage\\_all)"
 
 #: ../../source/patrons.rst:972
 msgid "Grants the ability to manage all baskets and orders even if they are restricted to the owner, users or library"
@@ -1413,18 +1426,16 @@ msgid "Note that the order\\_manage permission is required"
 msgstr "Veuillez noter que l'autorisation edit\\_items est toujours obligatoire"
 
 #: ../../source/patrons.rst:977
-#, fuzzy
 msgid "Receive orders and manage shipments (order\\_receive)"
-msgstr "Gestion des commandes et des paniers"
+msgstr "Réceptionner les commandes et gérer les colis (order\\_receive)"
 
 #: ../../source/patrons.rst:979
 msgid "Grants the ability to create invoices, receive items and claim late orders"
 msgstr ""
 
 #: ../../source/patrons.rst:982
-#, fuzzy
 msgid "Manage budgets (period\\_manage)"
-msgstr "Permission de gérer les prévisions budgétaires"
+msgstr "Gérer les budgets (period\\_manage)"
 
 #: ../../source/patrons.rst:984
 msgid "Grants access to the :ref:`budget administration page <budgets-label>` and the ability to create, edit and delete budgets"
@@ -1436,9 +1447,8 @@ msgid "This permission does not give the ability to edit budget funds."
 msgstr "Cette autorisation ne comprend pas la capacité à supprimer ou à créer un abonnement"
 
 #: ../../source/patrons.rst:989
-#, fuzzy
 msgid "Manage budget plannings (planning\\_manage)"
-msgstr "Permission de gérer les prévisions budgétaires"
+msgstr "Gérer les prévisions budgétaires (planning\\_manage)"
 
 #: ../../source/patrons.rst:991
 msgid "Grants the ability to view :ref:`budget planning <budget-planning-label>`"
@@ -1449,9 +1459,8 @@ msgid "Note that the budget\\_manage and the period\\_manage permissions are req
 msgstr ""
 
 #: ../../source/patrons.rst:996
-#, fuzzy
 msgid "Manage purchase suggestions (suggestions\\_manage)"
-msgstr "Suggestions d'achat"
+msgstr "Gérer les suggestions d'achat (suggestions\\_manage)"
 
 #: ../../source/patrons.rst:998
 msgid "Grants the ability to :ref:`create and manage purchase suggestions <managing-purchase-suggestions-label>`, including creating new suggestions and changing the suggestions' statuses"
@@ -1485,9 +1494,10 @@ msgid "Access to the :ref:`Upload tool <upload-label>`"
 msgstr "Aller à l':ref:`outil de téléchargement des photos <upload-patron-images-label>`"
 
 #: ../../source/patrons.rst:1014
-#, fuzzy
 msgid "Upload patron images in batch or one at a time (batch\\_upload\\_patron\\_images)"
-msgstr "Téléchargement des photos des adhérents par lots ou une à une"
+msgstr ""
+"Télécharger les photos des adhérents par lots ou une à une (batch\\_upload\\"
+"_patron\\_images)"
 
 #: ../../source/patrons.rst:1016
 #, fuzzy
@@ -1495,18 +1505,19 @@ msgid "Access to the :ref:`Image upload tool <upload-patron-images-label>`"
 msgstr "Aller à l':ref:`outil de téléchargement des photos <upload-patron-images-label>`"
 
 #: ../../source/patrons.rst:1018
-#, fuzzy
 msgid "Delete old borrowers and anonymize circulation/reading history (deletes borrower reading history) (delete\\_anonymize\\_patrons)"
-msgstr "Supprimer les anciens adhérents et rendre anonyme l'historique de prêts/lectures (supprime l'historique de lectures des adhérents)"
+msgstr ""
+"Supprimer les anciens adhérents et rendre anonyme l'historique de prêts/"
+"lectures (supprime l'historique de lectures des adhérents) (delete\\"
+"_anonymize\\_patrons)"
 
 #: ../../source/patrons.rst:1021
 msgid "Access to the :ref:`Anonymize patron tool <patrons-anonymize-bulk-delete-label>`"
 msgstr "Aller à l' :ref:`outil d'anonymisation des adhérents <patrons-anonymize-bulk-delete-label>`"
 
 #: ../../source/patrons.rst:1023
-#, fuzzy
 msgid "Define days when the library is closed (edit\\_calendar)"
-msgstr "Définir les jours de fermeture de la bibliothèque"
+msgstr "Définir les jours de fermeture de la bibliothèque (edit\\_calendar)"
 
 #: ../../source/patrons.rst:1025
 #, fuzzy
@@ -1514,9 +1525,9 @@ msgid "Access to the :ref:`Calendar/holidays tool <calendar-label>`"
 msgstr "Aller à l':ref:`outil calendrier <calendar-label>`"
 
 #: ../../source/patrons.rst:1027
-#, fuzzy
 msgid "Write news for the OPAC and staff interfaces (edit\\_news)"
-msgstr "Rédiger des annonces pour l'OPAC et l'interface professionnelle"
+msgstr ""
+"Rédiger des annonces pour l'OPAC et l'interface professionnelle (edit\\_news)"
 
 #: ../../source/patrons.rst:1029
 #, fuzzy
@@ -1524,9 +1535,10 @@ msgid "Access to the :ref:`News tool <news-label>`"
 msgstr "Aller à l':ref:`outil de gestion des annonces <news-label>`"
 
 #: ../../source/patrons.rst:1031
-#, fuzzy
 msgid "Set notice/status triggers for overdue items (edit\\_notice\\_status\\_triggers)"
-msgstr "Paramétrage des relances pour les documents en retard"
+msgstr ""
+"Paramétrer les relances pour les documents en retard (edit\\_notice\\"
+"_status\\_triggers)"
 
 #: ../../source/patrons.rst:1033
 #, fuzzy
@@ -1534,9 +1546,8 @@ msgid "Access to the :ref:`Overdue notice status/triggers tool <overdue-notice/s
 msgstr "Aller à l':ref:`outil de paramétrages des relances <overdue-notice/status-triggers-label>`"
 
 #: ../../source/patrons.rst:1036
-#, fuzzy
 msgid "Define notices (edit\\_notices)"
-msgstr "Définir des notifications"
+msgstr "Définir les notifications (edit\\_notices)"
 
 #: ../../source/patrons.rst:1038
 #, fuzzy
@@ -1544,9 +1555,8 @@ msgid "Access to the :ref:`Notices and slips tool <notices-and-slips-label>`"
 msgstr "Aller à l':ref:`outil de gestion des notifications <notices-&-slips-label>`"
 
 #: ../../source/patrons.rst:1040
-#, fuzzy
 msgid "Perform batch modification of patrons (edit\\_patrons)"
-msgstr "Lancer la modification par lot des exemplaires"
+msgstr "Lancer la modification par lot des adhérents (edit\\_patrons)"
 
 #: ../../source/patrons.rst:1042
 #, fuzzy
@@ -1562,9 +1572,9 @@ msgid "Access to the :ref:`Quote of the Day (QOTD) Editor <quote-of-the-day-(qot
 msgstr ""
 
 #: ../../source/patrons.rst:1048
-#, fuzzy
 msgid "Export bibliographic and holdings data (export\\_catalog)"
-msgstr "Exporter des données bibliographiques, d'autorités et d'exemplaires"
+msgstr ""
+"Exporter des données bibliographiques et d'exemplaires (export\\_catalog)"
 
 #: ../../source/patrons.rst:1050
 #, fuzzy
@@ -1572,9 +1582,8 @@ msgid "Access to the :ref:`Export data tool <export-data-(marc-and-authorities)-
 msgstr "Aller à l' :ref:`outil d'export de données <export-data-(marc-&-authorities)-label>`"
 
 #: ../../source/patrons.rst:1052
-#, fuzzy
 msgid "Import patron data (import\\_patrons)"
-msgstr "Import des données sur les adhérents."
+msgstr "Importer des données sur les adhérents (import\\_patrons)"
 
 #: ../../source/patrons.rst:1054
 #, fuzzy
@@ -1591,9 +1600,8 @@ msgid "Access to the :ref:`Inventory tool <inventory-tool-label>`"
 msgstr "Aller à l' :ref:`outil d'inventaire <inventory-tool-label>`"
 
 #: ../../source/patrons.rst:1060
-#, fuzzy
 msgid "Perform batch deletion of items (items\\_batchdel)"
-msgstr "Lancer la suppression par lot des exemplaires"
+msgstr "Lancer la suppression par lot d'exemplaires (items\\_batchdel)"
 
 #: ../../source/patrons.rst:1062
 #, fuzzy
@@ -1601,9 +1609,8 @@ msgid "Access to the :ref:`Batch item deletion tool <batch-item-deletion-label>`
 msgstr "Aller à l':ref:`'outil de suppression d'exemplaires par lots <batch-item-deletion-label>`"
 
 #: ../../source/patrons.rst:1064
-#, fuzzy
 msgid "Perform batch modification of items (items\\_batchmod)"
-msgstr "Lancer la modification par lot des exemplaires"
+msgstr "Lancer la modification par lot d'exemplaires (items\\_batchmod)"
 
 #: ../../source/patrons.rst:1066
 #, fuzzy
@@ -1611,9 +1618,11 @@ msgid "Access to the :ref:`Batch item modification tool <batch-item-modification
 msgstr "Aller à l':ref:`outil de modification d'exemplaires par lots <batch-item-modification-label>`"
 
 #: ../../source/patrons.rst:1068
-#, fuzzy
 msgid "Limit batch item modification to subfields defined in the SubfieldsToAllowForRestrictedBatchmod preference (items\\_batchmod\\_restricted)"
-msgstr "Limiter la modification exemplaires aux sous-champs définis dans la préférence système :ref:`SubfieldsToAllowForRestrictedEditing`"
+msgstr ""
+"Limiter la modification par lot d'exemplaires aux sous-champs définis dans "
+"la préférence système SubfieldsToAllowForRestrictedBatchmod (items\\"
+"_batchmod\\_restricted)"
 
 #: ../../source/patrons.rst:1071
 #, fuzzy
@@ -1625,19 +1634,21 @@ msgid "Please note that items\\_batchmod permission is still required"
 msgstr "Veuillez noter que l'autorisation items\\_batchmod est toujours obligatoire"
 
 #: ../../source/patrons.rst:1077
-#, fuzzy
 msgid "Create printable labels and barcodes from catalog and patron data (label\\_creator)"
-msgstr "Créer des étiquettes et des codes à barres imprimables à partir des données du catalogue et des adhérents"
+msgstr ""
+"Créer des étiquettes et des codes à barres imprimables à partir des données "
+"du catalogue et des adhérents (label\\_creator)"
 
 #: ../../source/patrons.rst:1080
-#, fuzzy
 msgid "Access to the :ref:`Patron card creator <patron-card-creator-label>`, the :ref:`Label creator <label-creator-label>` and the :ref:`Quick label creator <quick-spine-label-creator-label>` tools"
-msgstr "Aller aux outils de :ref:`Création d'étiquettes <label-creator-label>` et :ref:` Création d'étiquettes rapide <quick-spine-label-creator-label>`"
+msgstr ""
+"Aller aux outils :ref:'Créateur de cartes d'adhérent <patron-card-creator-"
+"label>', :ref:`Création d'étiquettes <label-creator-label>` et :ref:` "
+"Créateur d'étiquettes rapide <quick-spine-label-creator-label>`"
 
 #: ../../source/patrons.rst:1084
-#, fuzzy
 msgid "Manage CSV export profiles (manage\\_csv\\_profiles)"
-msgstr "Gestion des profils d'export CSV"
+msgstr "Gérer les profils d'export CSV (manage\\_csv\\_profiles)"
 
 #: ../../source/patrons.rst:1086
 #, fuzzy
@@ -1653,9 +1664,10 @@ msgid "Access to the :ref:`Patron lists tool <patron-lists-label>`"
 msgstr "Aller à l':ref:`outil listes d'adhérents <patron-lists-label>`"
 
 #: ../../source/patrons.rst:1092
-#, fuzzy
 msgid "Manage staged MARC records, including completing and reversing imports (manage\\_staged\\_marc)"
-msgstr "Gestion des notices MARC préparées, inclus l'importation dans le catalogue ou l'annulation de l'importation"
+msgstr ""
+"Gérer les notices MARC téléchargées, incluant l'importation dans le "
+"catalogue et l'annulation de l'importation (manage\\_staged\\_marc)"
 
 #: ../../source/patrons.rst:1095
 #, fuzzy
@@ -1663,18 +1675,17 @@ msgid "Access to the :ref:`Manage staged MARC records tool <staged-marc-record-m
 msgstr "Aller à l':ref:`outil de gestion des notices téléchargées <staged-marc-record-management-label>`"
 
 #: ../../source/patrons.rst:1097
-#, fuzzy
 msgid "Manage MARC modification templates (marc\\_modification\\_templates)"
-msgstr "Aller à l'outil de :ref:`modèles de transformation MARC <marc-modification-templates-label>`"
+msgstr ""
+"Gérer les modèles de transformation MARC (marc\\_modification\\_templates)"
 
 #: ../../source/patrons.rst:1099
 msgid "Access to the :ref:`MARC modification templates tool <marc-modification-templates-label>`"
 msgstr "Aller à l'outil de :ref:`modèles de transformation MARC <marc-modification-templates-label>`"
 
 #: ../../source/patrons.rst:1101
-#, fuzzy
 msgid "Moderate patron comments (moderate\\_comments)"
-msgstr "Modérer les commentaires des adhérents"
+msgstr "Modérer les commentaires des adhérents (moderate\\_comments)"
 
 #: ../../source/patrons.rst:1103
 #, fuzzy
@@ -1682,18 +1693,18 @@ msgid "Access to the :ref:`Comments tool <comments-label>`"
 msgstr "Aller à :ref:`l'outil Commentaires <comments-label>`"
 
 #: ../../source/patrons.rst:1105
-#, fuzzy
 msgid "Moderate patron tags (moderate\\_tags)"
-msgstr "Modération des tags des adhérents"
+msgstr "Modérer les tags des adhérents (moderate\\_tags)"
 
 #: ../../source/patrons.rst:1107
 msgid "Access to the :ref:`Tags tool <tag-moderation-label>`"
 msgstr "Aller à l'outil de gestion des :ref:`Tags <tag-moderation-label>`"
 
 #: ../../source/patrons.rst:1109
-#, fuzzy
 msgid "Perform batch deletion of records (bibliographic or authority) (records\\_batchdel)"
-msgstr "Effectuez la suppression de notices par lot (bibliographique ou d'autorité)"
+msgstr ""
+"Effectuer la suppression de notices (bibliographiques ou autorités) par lot ("
+"records\\_batchdel)"
 
 #: ../../source/patrons.rst:1112
 #, fuzzy
@@ -1701,9 +1712,10 @@ msgid "Access to the :ref:`Batch record deletion tool <batch-record-deletion-lab
 msgstr "Aller à l':ref:`'outil de suppression d'exemplaires par lots <batch-item-deletion-label>`"
 
 #: ../../source/patrons.rst:1114
-#, fuzzy
 msgid "Perform batch modification of records (bibliographic or authorities) (records\\_batchmod)"
-msgstr "Effectuez la suppression de notices par lot (bibliographique ou d'autorité)"
+msgstr ""
+"Effectuer la modification de notices (bibliographiques ou autorités) par lot "
+"(records\\_batchmod)"
 
 #: ../../source/patrons.rst:1117
 #, fuzzy
@@ -1711,27 +1723,24 @@ msgid "Access to the :ref:`Batch record modification tool <batch-record-modifica
 msgstr "Aller à l':ref:`outil de modification d'exemplaires par lots <batch-item-modification-label>`"
 
 #: ../../source/patrons.rst:1119
-#, fuzzy
 msgid "Manage rotating collections (rotating\\_collections)"
-msgstr "Gestion des collections tournantes"
+msgstr "Gérer les collections tournantes (rotating\\_collections)"
 
 #: ../../source/patrons.rst:1121
 msgid "Access to the :ref:`Rotating collections tool <rotating-collections-label>`"
 msgstr "Aller à l'outil de ref:`Collections tournantes <rotating-collections-label>`"
 
 #: ../../source/patrons.rst:1123
-#, fuzzy
 msgid "Schedule tasks to run (schedule\\_tasks)"
-msgstr "Planification de tâches à exécuter"
+msgstr "Planifier les tâches à exécuter (schedule\\_tasks)"
 
 #: ../../source/patrons.rst:1125
 msgid "Access to the :ref:`Task scheduler tool <task-scheduler-label>`"
 msgstr "Aller à l'outil :ref:`Planificateur de tâches <task-scheduler-label>`"
 
 #: ../../source/patrons.rst:1127
-#, fuzzy
 msgid "Stage MARC records into the reservoir (stage\\_marc\\_import)"
-msgstr "Préparer les notices MARC dans le réservoir"
+msgstr "Télécharger des notices MARC dans le réservoir (stage\\_marc\\_import)"
 
 #: ../../source/patrons.rst:1129
 msgid "Access to the :ref:`Stage MARC records tool <stage-marc-records-for-import-label>`"
@@ -1757,9 +1766,8 @@ msgid "Access to the :ref:`Upload local cover image tool <upload-local-cover-ima
 msgstr ""
 
 #: ../../source/patrons.rst:1141
-#, fuzzy
 msgid "Manage uploaded files (upload\\_manage)"
-msgstr "Gérer les fichiers téléversés"
+msgstr "Gérer les fichiers téléversés (upload\\_manage)"
 
 #: ../../source/patrons.rst:1143
 #, fuzzy
@@ -1771,9 +1779,8 @@ msgid "Note that the upload\\_general\\_files permission is required for this pe
 msgstr ""
 
 #: ../../source/patrons.rst:1148
-#, fuzzy
 msgid "Browse the system logs (view\\_system\\_logs)"
-msgstr "Consultation des logs du système"
+msgstr "Consulter les logs du système (view\\_system\\_logs)"
 
 #: ../../source/patrons.rst:1150
 msgid "Access to the :ref:`Log viewer tool <log-viewer-label>`"
@@ -1799,14 +1806,14 @@ msgid "Manage serial subscriptions (serials)"
 msgstr "Gérer les abonnements aux périodiques"
 
 #: ../../source/patrons.rst:1161
-#, fuzzy
 msgid "Check the expiration of a serial (check\\_expiration)"
-msgstr "Vérifiez l':ref:`expiration d'un périodique <check-serial-expiration-label>`"
+msgstr "Vérifier l'expiration d'un périodique (check\\_expiration)"
 
 #: ../../source/patrons.rst:1163
-#, fuzzy
 msgid "Gives ability to check the :ref:`expiration date of serials <check-serial-expiration-label>`"
-msgstr "Vérifiez l':ref:`expiration d'un périodique <check-serial-expiration-label>`"
+msgstr ""
+"Donne la permission de vérifier :ref:`l'expiration d'un périodique <check-"
+"serial-expiration-label>`"
 
 #: ../../source/patrons.rst:1166
 msgid "Claim missing serials (claim\\_serials)"
@@ -1818,9 +1825,8 @@ msgid "Gives the ability to :ref:`claim missing issues <claim-late-serials-label
 msgstr "Réclamer les périodiques manquants via :ref:`la partie réclamations <claim-late-serials-label>`"
 
 #: ../../source/patrons.rst:1170
-#, fuzzy
 msgid "Create a new subscription (create\\_subscription)"
-msgstr "Saisissez les :ref:`staff members as patrons <add-a-staff-patron-label>`"
+msgstr "Créer un nouvel abonnement (create\\_subscription)"
 
 #: ../../source/patrons.rst:1172
 #, fuzzy
@@ -1828,9 +1834,8 @@ msgid "Gives the ability to :ref:`add new subscriptions <add-a-subscription-labe
 msgstr "Saisissez les :ref:`staff members as patrons <add-a-staff-patron-label>`"
 
 #: ../../source/patrons.rst:1174
-#, fuzzy
 msgid "Delete an existing subscription (delete\\_subscription)"
-msgstr "Supprimer une inscription"
+msgstr "Supprimer un abonnement existant (delete\\_subscription)"
 
 #: ../../source/patrons.rst:1176
 #, fuzzy
@@ -1838,36 +1843,36 @@ msgid "Gives the ability to delete serial subscriptions"
 msgstr "Cette autorisation ne comprend pas la capacité à supprimer ou à créer un abonnement"
 
 #: ../../source/patrons.rst:1178
-#, fuzzy
 msgid "Edit an existing subscription (edit\\_subscription)"
-msgstr "Modifier un abonnement existant"
+msgstr "Modifier un abonnement existant (edit\\_subscription)"
 
 #: ../../source/patrons.rst:1180
-#, fuzzy
 msgid "Gives the ability to :ref:`edit existing serial subscriptions <edit-subscription-label>`"
-msgstr "Saisissez les :ref:`staff members as patrons <add-a-staff-patron-label>`"
+msgstr ""
+"Donne la possibilité de :ref:`modifier un abonnement de périodique existant "
+"<edit-subscription-label>`"
 
 #: ../../source/patrons.rst:1183
 msgid "This permission does not include the ability to delete or create a subscription"
 msgstr "Cette autorisation ne comprend pas la capacité à supprimer ou à créer un abonnement"
 
 #: ../../source/patrons.rst:1186
-#, fuzzy
 msgid "Serials receiving (receive\\_serials)"
-msgstr "Réception des périodiques"
+msgstr "Réception des périodiques (receive\\_serials)"
 
 #: ../../source/patrons.rst:1188
 msgid "Gives the ability to :ref:`receive issues <receive-issues-label>` of existing subscriptions"
 msgstr ""
 
 #: ../../source/patrons.rst:1191
-#, fuzzy
 msgid "Renew a subscription (renew\\_subscription)"
-msgstr "Renouveler un abonnement"
+msgstr "Renouveler un abonnement (renew\\_subscription)"
 
 #: ../../source/patrons.rst:1193
 msgid "Gives the ability to :ref:`renew serial subscriptions <renewing-serials-label>`"
 msgstr ""
+"Donne la permission de :ref:`renouveler les abonnements de périodiques "
+"<renewing-serials-label>`"
 
 #: ../../source/patrons.rst:1195
 #, fuzzy
@@ -1875,14 +1880,14 @@ msgid "Routing (routing)"
 msgstr "Listes de routage"
 
 #: ../../source/patrons.rst:1197
-#, fuzzy
 msgid "Gives the ability to manage :ref:`routing lists <create-a-routing-list-label>`"
-msgstr "Aller à l':ref:`outil d'import des adhérents <patron-import-label>`"
+msgstr ""
+"Donne la possibilité de gérer les :ref:'listes de routage <create-a-routing-"
+"list-label>'"
 
 #: ../../source/patrons.rst:1199
-#, fuzzy
 msgid "Manage subscriptions from any branch (superserials)"
-msgstr "Gérer les abonnements de tous les sites (s'applique seulement lorsque :ref:`IndependantBranches <independentbranches-label>` est utilisé)"
+msgstr "Gérer les abonnements de tous les sites (superserials)"
 
 #: ../../source/patrons.rst:1201
 msgid "This permission is only useful if the :ref:`IndependentBranches` system preference is used"
@@ -1902,18 +1907,16 @@ msgid "Reports in the :ref:`Statistics wizard <statistics-reports-label>` sectio
 msgstr ""
 
 #: ../../source/patrons.rst:1214
-#, fuzzy
 msgid "Create SQL reports (create\\_reports)"
-msgstr "Créer des rapports SQL"
+msgstr "Créer des rapports SQL (create\\_reports)"
 
 #: ../../source/patrons.rst:1216
 msgid "The ability to create :ref:`guided reports <guided-report-wizard-label>` or :ref:`SQL reports <report-from-sql-label>`, but not run saved ones"
 msgstr ""
 
 #: ../../source/patrons.rst:1219
-#, fuzzy
 msgid "Delete SQL reports (delete\\_reports)"
-msgstr "Créer des rapports SQL"
+msgstr "Supprimer des rapports SQL (delete\\_reports)"
 
 #: ../../source/patrons.rst:1221
 msgid "The ability to delete saved :ref:`SQL reports <report-from-sql-label>`"
@@ -1924,9 +1927,8 @@ msgid "Note that you need execute\\_reports in order to be able to delete them"
 msgstr ""
 
 #: ../../source/patrons.rst:1225
-#, fuzzy
 msgid "Execute SQL reports (execute\\_reports)"
-msgstr "Exécuter des requêtes SQL"
+msgstr "Exécuter des rapports SQL (execute\\_reports)"
 
 #: ../../source/patrons.rst:1227
 msgid "The ability to :ref:`run custom SQL reports <running-custom-reports-label>, but not create or edit them"
@@ -1944,7 +1946,7 @@ msgstr "Demande la permission des adhérents au-dessus"
 
 #: ../../source/patrons.rst:1234
 msgid "Course reserves (coursereserves)"
-msgstr ""
+msgstr "Réserves de cours (coursereserves)"
 
 #: ../../source/patrons.rst:1236
 msgid "Allow access to the :ref:`course reserves module <course-reserves-label>`"
@@ -1953,6 +1955,8 @@ msgstr "Autoriser l'accès au :ref:`module de réserve de cours <course-reserves
 #: ../../source/patrons.rst:1238
 msgid "Note that if the :ref:`UseCourseReserves` system preference is not enabled, these permissions will not have any effect"
 msgstr ""
+"Notez que si la préférence système :ref:`UseCourseReserves`n'est pas "
+"activée, ces permissions n'auront aucun effet"
 
 #: ../../source/patrons.rst:1241
 msgid "Add course reserves (add\\_reserves)"
@@ -2020,9 +2024,8 @@ msgid "The ability to use report plugins"
 msgstr "Possibilité d'utiliser les plugins rapport"
 
 #: ../../source/patrons.rst:1279
-#, fuzzy
 msgid "Use tool plugins (tool)"
-msgstr "Utiliser les plugins outils"
+msgstr "Utiliser les plugins outils (tool)"
 
 #: ../../source/patrons.rst:1281
 msgid "The ability to use tool plugins"
@@ -2051,24 +2054,24 @@ msgid "Patron clubs (clubs)"
 msgstr "Adhérents"
 
 #: ../../source/patrons.rst:1298
-#, fuzzy
 msgid "Create and edit clubs (edit\\_clubs)"
-msgstr "Créer des Crédits Manuels"
+msgstr "Créer et modifier des clubs (edit\\_clubs)"
 
 #: ../../source/patrons.rst:1300
-#, fuzzy
 msgid "Create and edit patron clubs using the :ref:`Patron clubs tool <patron-clubs-label>`"
-msgstr "Autorise l'accès à la :ref:`fonctionnalité de clubs d'adhérents <Patron-clubs-label>`"
+msgstr ""
+"Créer et modifier les clubs d'adhérents avec :ref:' l'outil Club d'adhérents "
+"<patron-clubs-label>`"
 
 #: ../../source/patrons.rst:1302
-#, fuzzy
 msgid "Create and edit club templates (edit\\_templates)"
-msgstr "Créer des Crédits Manuels"
+msgstr "Créer et modifier des modèles de clubs (edit\\_templates)"
 
 #: ../../source/patrons.rst:1304
-#, fuzzy
 msgid "Create and edit club templates using the :ref:`Patron clubs tool <patron-clubs-label>`"
-msgstr "Autorise l'accès à la :ref:`fonctionnalité de clubs d'adhérents <Patron-clubs-label>`"
+msgstr ""
+"Créer et modifier les modèles de club avec :ref:'l'outil Club d'adhérents "
+"<patron-clubs-label>'"
 
 #: ../../source/patrons.rst:1306
 msgid "Enroll patrons in clubs (enroll)"
@@ -2087,9 +2090,10 @@ msgid "Create and modify interlibrary loan requests (ill)"
 msgstr ""
 
 #: ../../source/patrons.rst:1315
-#, fuzzy
 msgid "Gives access to the :ref:`Interlibrary loan (ILL) module <ill-requests-label>`"
-msgstr "Autoriser l'accès au :ref:`module de réserve de cours <course-reserves-label>`"
+msgstr ""
+"Donner l'accès au :ref:'module de Prêt Entre Bibliothèques (PEB) <ill-"
+"requests-label>'"
 
 #: ../../source/patrons.rst:1317
 msgid "Self check modules (self\\_check)"
@@ -2098,6 +2102,7 @@ msgstr ""
 #: ../../source/patrons.rst:1319
 msgid "Log into the self check-in module (self\\_checkin\\_module)"
 msgstr ""
+"Se connecter au module de retour en libre service (self\\_checkin\\_module)"
 
 #: ../../source/patrons.rst:1321
 #, fuzzy
@@ -2138,11 +2143,11 @@ msgstr ""
 
 #: ../../source/patrons.rst:1346
 msgid "Cash management (cash_management)"
-msgstr ""
+msgstr "Gestion de la trésorerie (cash_management)"
 
 #: ../../source/patrons.rst:1348
 msgid "Add, edit and archive cash registers (manage_cash_registers)"
-msgstr ""
+msgstr "Ajouter, modifier et archiver les caisses (manage_cash_registers)"
 
 #: ../../source/patrons.rst:1350
 msgid "Staff with this permissions will be able to manage the :ref:`cash registers in the administration module <cashregisters-label>`"
@@ -2179,9 +2184,11 @@ msgid "For instruction on checking items out, view the :ref:`Checking out <check
 msgstr "Pour des informations sur le prêt de documents, cliquez sur la section :ref:`Prêt <check-out-(issuing)-label>` de ce manuel."
 
 #: ../../source/patrons.rst:1376
-#, fuzzy
 msgid "Staff members can access their own check out screen by clicking their username in the top right of the staff client and choosing 'My checkouts'"
-msgstr "Les membres du personnel peuvent accéder aux détails de leur compte en cliquant sur leur nom d'utilisateur situé en haut à droite de l'interface professionnelle et en choisissant 'Mon compte'"
+msgstr ""
+"Les membres du personnel peuvent accéder à l'écran de leurs propres emprunts "
+"en cliquant sur leur nom d'utilisateur situé en haut à droite de l'interface "
+"professionnelle et en choisissant 'Mes prêts'"
 
 #: ../../source/patrons.rst:1380
 msgid "|image1178|"
@@ -2193,7 +2200,10 @@ msgstr "Details"
 
 #: ../../source/patrons.rst:1389
 msgid "Staff members can access their own account details by clicking their username in the top right of the staff client and choosing 'My account'"
-msgstr "Les membres du personnel peuvent accéder aux détails de leur compte en cliquant sur leur nom d'utilisateur situé en haut à droite de l'interface professionnelle et en choisissant 'Mon compte'"
+msgstr ""
+"Les membres du personnel peuvent accéder aux détails de leur propre compte "
+"en cliquant sur leur nom d'utilisateur situé en haut à droite de l'interface "
+"professionnelle et en choisissant 'Mon compte'"
 
 #: ../../source/patrons.rst:1392
 msgid "|image442|"
@@ -2313,10 +2323,17 @@ msgstr ""
 #: ../../source/patrons.rst:1471
 msgid "You will only be able to suspend holds if the :ref:`SuspendHoldsIntranet` system preference is set to \"Allow\"."
 msgstr ""
+"Vous serez autorisés à suspendre les réservations seulement si la préférence "
+"système :ref:`SuspendHoldsIntranet` est paramétrée sur \"Permettre\"."
 
 #: ../../source/patrons.rst:1476
 msgid "If, when suspending a hold, you want to be able to set a date at which to automatically resume the hold, set the :ref:`AutoResumeSuspendedHolds` system preference to \"Allow\" and make sure the :ref:`unsuspend_holds cron job <cron-unsuspend-holds-label>` is activated."
 msgstr ""
+"Si, lors de la suspension d'une réservation, vous souhaitez pouvoir définir "
+"une date de ré-activation automatique de la réservation, paramétrez la "
+"préférence système :ref:'AutoResumeSuspendedHolds` sur 'Permettre' et "
+"assurez-vous d'activer le cron job :ref:'unsuspend_holds <cron-unsuspend-"
+"holds-label>'."
 
 #: ../../source/patrons.rst:1484
 msgid "Article requests"
@@ -2539,9 +2556,10 @@ msgid "Charging fines/fees"
 msgstr "Facturation des frais et des amendes"
 
 #: ../../source/patrons.rst:1632
-#, fuzzy
 msgid "Most fees and fines will be charged automatically if the :ref:`fines cron job <cron-fines-label>` is running:"
-msgstr "La plupart des frais et des amendes seront imputés automatiquement si le :ref:`cron job lié aux amendes <fines-label>` tourne :"
+msgstr ""
+"La plupart des frais et des amendes seront imputés automatiquement si le "
+":ref:`cron job lié aux amendes <cron-fines-label>` tourne :"
 
 #: ../../source/patrons.rst:1635
 #, fuzzy
@@ -2757,6 +2775,8 @@ msgstr "|image458|"
 #: ../../source/patrons.rst:1772
 msgid "You can enable email receipts for payment and writeoff transactions with the :ref:`UseEmailReceipts` system preference."
 msgstr ""
+"Vous pouvez activer l'envoi par mail des reçus de paiements et d'abandons de "
+"créances avec la préférence système :ref:'UseEmailReceipts`."
 
 #: ../../source/patrons.rst:1778
 #, fuzzy
@@ -2938,9 +2958,10 @@ msgid "Statistics"
 msgstr "Statistiques"
 
 #: ../../source/patrons.rst:1921
-#, fuzzy
 msgid "Depending on what you set for the values of your :ref:`StatisticsFields` system preference, you can see statistics for one patron's circulation actions."
-msgstr "Selon la valeur de votre préférence système StatisticsFields, vous pouvez voir les statistiques de circulation par adhérent."
+msgstr ""
+"Selon la valeur de votre préférence système :ref:'StatisticsFields', vous "
+"pouvez voir les statistiques de circulation par adhérent."
 
 #: ../../source/patrons.rst:1925
 msgid "|image470|"
@@ -3000,9 +3021,12 @@ msgid "Patron discharges"
 msgstr "Quitus adhérent"
 
 #: ../../source/patrons.rst:1968
-#, fuzzy
 msgid "A discharge is a certificate that says the patron has no current checkouts, no holds and owe no money. To enable this opti`on on the patron record you need to set the :ref:`useDischarge` system preference to 'Allow'."
-msgstr "Un quitus est un document certifiant que l'adhérent n'a plus de prêts en cours, ni de réservations, ni de dettes.Pour activer cette option sur la fiche de l'adhérent vous devez régler la préférence système \"useDischarge\" sur \"Autoriser\"."
+msgstr ""
+"Un quitus est un document certifiant que l'adhérent n'a plus de prêt en "
+"cours, ni de réservation, ni de dette. Pour activer cette option sur la "
+"fiche de l'adhérent vous devez régler la préférence système :ref:"
+"'useDischarge' sur 'Permettre'."
 
 #: ../../source/patrons.rst:1975
 #, fuzzy
@@ -3202,6 +3226,8 @@ msgstr ""
 #: ../../source/patrons.rst:2121
 msgid "Click the 'Save changes' button to save the housebound profile."
 msgstr ""
+"Cliquer sur le bouton 'Enregistrer les modifications' pour sauvegarder le "
+"profil de public empêché."
 
 #: ../../source/patrons.rst:2126
 #, fuzzy

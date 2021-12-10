@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha man18.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-01-27 10:28+0000\n"
+"PO-Revision-Date: 2021-10-23 15:48+0000\n"
 "Last-Translator: ManuB. <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1611743314.123259\n"
+"X-POOTLE-MTIME: 1635004130.244899\n"
 "X-Pootle-Path: /fr/man18.05/cataloging.po\n"
 "X-Pootle-Revision: 1\n"
 
@@ -159,9 +159,12 @@ msgid "|image1452|"
 msgstr "|image1452|"
 
 #: ../../source/cataloging.rst:109
-#, fuzzy
 msgid "If you would rather not see the MARC tag numbers you can change the value in your :ref:`hide\\_marc <hide-marc-label>` system preference or each user can check the box next to 'Show tags' found under 'Settings'."
-msgstr "Si vous préférez ne pas voir les champs MARC, vous pouvez changer cela dans votre préférence système :ref:`hide\\_marc <hide\\_marc-label>` ou chaque utilisateur peut cocher la case \"Afficher les champs\" sous le bouton \"Paramétrages\"."
+msgstr ""
+"Si vous préférez ne pas voir les numéros des champs MARC, vous pouvez "
+"changer cela dans votre préférence système :ref:`hide\\_marc <hide-marc-"
+"label>` ou chaque utilisateur peut cocher la case 'Afficher les champs' sous "
+"le bouton 'Paramétrages'."
 
 #: ../../source/cataloging.rst:113
 msgid "|image632|"
@@ -176,9 +179,10 @@ msgid "To get help from the Library of Congress on a MARC tag click the question
 msgstr "Pour obtenir de l'aide à propos d'un champ MARC, cliquez sur le point d'interrogation (?) à droite de chaque numéro de champ, cela vous amènera à des explications de la Bibliothèque du Congrès"
 
 #: ../../source/cataloging.rst:120
-#, fuzzy
 msgid "It is possible to change the source of the MARC documentation using the :ref:`MARCFieldDocURL` system preference"
-msgstr "Il est possible de modifier la source de la documentation MARC en utilisant la préférence système :ref:`MARCFieldDocURL <marcfielddocurl-label>`"
+msgstr ""
+"Il est possible de modifier la source de la documentation MARC en utilisant "
+"la préférence système :ref:`MARCFieldDocURL`"
 
 #: ../../source/cataloging.rst:123
 msgid "If you feel that this clutters the screen you can hide the question marks by unchecking the box next to the 'Show MARC tag documentation links' note found under 'Settings'"
@@ -281,9 +285,10 @@ msgid "Advanced editor cataloging"
 msgstr "Interface de catalogage avancé"
 
 #: ../../source/cataloging.rst:197
-#, fuzzy
 msgid "In order to use the Advanced cataloging editor you need to enable the :ref:`EnableAdvancedCatalogingEditor` preference."
-msgstr "Pour pouvoir utiliser l'interface de catalogage avancée vous devez activer la préférence système :ref:`EnableAdvancedCatalogingEditor <enableadvancedcatalogingeditor-label>`."
+msgstr ""
+"Pour pouvoir utiliser l'interface de catalogage avancé vous devez activer la "
+"préférence système :ref:`EnableAdvancedCatalogingEditor`."
 
 #: ../../source/cataloging.rst:203
 msgid "This feature does not currently include any support for UNIMARC or NORMARC fixed fields."
@@ -472,7 +477,7 @@ msgstr "Ctrl+D"
 
 #: ../../source/cataloging.rst:287
 msgid "Paste selection from 'clipboard'"
-msgstr ""
+msgstr "Coller la sélection à partir du presse-papiers"
 
 #: ../../source/cataloging.rst:290
 msgid "Shift-Tab"
@@ -771,7 +776,10 @@ msgstr "Modifier une notice"
 
 #: ../../source/cataloging.rst:522
 msgid "To edit a record you can click the 'Actions' button and choose 'Edit biblio' from the search results on the cataloging search page"
-msgstr "Pour modifier une notice, vous pouvez cliquer sur le bouton << Modifier >> et choisir << Modifier la notice >> à partir des résultats d'une recherche dans le module Catalogage"
+msgstr ""
+"Pour modifier une notice, vous pouvez cliquer sur le bouton 'Actions' et "
+"choisir 'Modifier la notice' à partir des résultats d'une recherche dans le "
+"module Catalogage"
 
 #: ../../source/cataloging.rst:525
 msgid "|image659|"
@@ -811,7 +819,11 @@ msgstr "Quand vous avez saisi vos modifications (quelle que soit la méthode), c
 
 #: ../../source/cataloging.rst:548
 msgid "You can also use the edit menu to add your own custom cover image if you have either :ref:`OPACLocalCoverImages` and/or :ref:`LocalCoverImages` set to 'Display' by choosing 'Upload image' from the menu."
-msgstr "Vous pouvez aussi cliquer sur le bouton « Modifier » puis sur « Télécharger une image » pour ajouter une image de couverture personnalisée. Vous devez d'abord avoir paramétré la préférence système :ref:`OPACLocalCoverImages` et/ou :ref:`LocalCoverImages` sur « Afficher »."
+msgstr ""
+"Vous pouvez aussi cliquer sur le bouton 'Modifier' puis sur 'Télécharger une "
+"image' pour ajouter une image de couverture personnalisée. Vous devez "
+"d'abord avoir paramétré la préférence système :ref:`OPACLocalCoverImages` et/"
+"ou :ref:`LocalCoverImages` sur 'Afficher'."
 
 #: ../../source/cataloging.rst:553
 msgid "|image663|"
@@ -1197,7 +1209,12 @@ msgstr "Ceci permettra d'ouvrir :ref:`l'outil de modification d'exemplaires par 
 
 #: ../../source/cataloging.rst:846
 msgid "You can also enable :ref:`StaffDetailItemSelection` to have checkboxes appear to the left of each item on the detail display. You can then check off the items you would like to edit and click 'Modify selected items' at the top of the list."
-msgstr "Vous pouvez aussi activer la préférence système :ref:`StaffDetailItemSelection' pour afficher des cases à cocher à gauche de chaque exemplaire sur la page d'affichage détaillée. Vous pouvez ensuite cocher les exemplaires que vous souhaitez modifier et cliquer sur « Modifier les exemplaires sélectionnés » en haut de la liste."
+msgstr ""
+"Vous pouvez aussi activer la préférence système :ref:`"
+"StaffDetailItemSelection' pour afficher des cases à cocher à gauche de "
+"chaque exemplaire sur la page d'affichage détaillée. Vous pouvez ensuite "
+"cocher les exemplaires que vous souhaitez modifier et cliquer sur 'Modifier "
+"les exemplaires sélectionnés' en haut de la liste."
 
 #: ../../source/cataloging.rst:851
 msgid "|image688|"
@@ -1213,9 +1230,10 @@ msgid "|image1268|"
 msgstr "|image1268|"
 
 #: ../../source/cataloging.rst:858
-#, fuzzy
 msgid "There is also a link to Edit items from the search results in the staff client"
-msgstr "Après avoir lancé une recherche, cliquez sur 'Modifier la notice' depuis la page de résultats"
+msgstr ""
+"Il existe aussi un lien pour Modifier les exemplaires à partir des résultats "
+"de recherche dans l'interface professionnelle"
 
 #: ../../source/cataloging.rst:861
 msgid "|image1269|"
@@ -1371,7 +1389,12 @@ msgstr "Si vous êtes sûr que tous les exemplaires attachés à votre notice ne
 
 #: ../../source/cataloging.rst:976
 msgid "You can also enable :ref:`StaffDetailItemSelection` to have checkboxes appear to the left of each item on the detail display. You can then check off the items you would like to delete and click 'Delete selected items' at the top of the list."
-msgstr "Vous pouvez aussi activer la préférence système :ref:`StaffDetailItemSelection' pour afficher des cases à cocher à gauche de chaque exemplaire sur la page d'affichage détaillée. Vous pouvez ensuite cocher les exemplaires que vous souhaitez supprimer et cliquer sur « Supprimer les exemplaires sélectionnés » en haut de la liste."
+msgstr ""
+"Vous pouvez aussi activer la préférence système :ref:`"
+"StaffDetailItemSelection' pour afficher des cases à cocher à gauche de "
+"chaque exemplaire sur la page d'affichage détaillée. Vous pouvez ensuite "
+"cocher les exemplaires que vous souhaitez supprimer et cliquer sur "
+"'Supprimer les exemplaires sélectionnés' en haut de la liste."
 
 #: ../../source/cataloging.rst:981
 msgid "|image699|"
@@ -1529,9 +1552,16 @@ msgid "|image713|"
 msgstr "|image713|"
 
 #: ../../source/cataloging.rst:1103
-#, fuzzy
 msgid "Once you've made the necessary edits, simply click 'Save' and `dontmerge <#dontmerge>`__ is set to 'Do', Koha will immediately update all of the bib records linked to the authority with the new authority record's data. If dontmerge is set to \"Don't\" then Koha won't edit bib records when changes are made to authorities, rather, this is done later by the :ref:`merge\\_authority.pl cronjob <cron-update-authorities-label>`."
-msgstr "Une fois les modifications effectuées, cliquez simplement sur 'Enregistrer' et `dontmerge <#dontmerge>`__ est paramétrée sur 'Mettre à jour automatiquement', Koha mettra à jour immédiatement toutes les notices bibliographiques liée à l'autorité avec les données de la nouvelle notice d'autorité. Si dontmerge est paramétrée sur 'Ne pas mettre à jour automatiquement', Koha ne modifiera pas les notices bibliographiques concernant les autorités, ce sera effectué plus tard par le script :ref:`merge\\_authority.pl cronjob <update-authorities-label>`."
+msgstr ""
+"Une fois les modifications effectuées, cliquez simplement sur 'Enregistrer' "
+"et si `dontmerge <#dontmerge>`__ est paramétrée sur 'Mettre à jour "
+"automatiquement', Koha mettra à jour immédiatement toutes les notices "
+"bibliographiques liée à l'autorité avec les données de la nouvelle notice "
+"d'autorité. Si dontmerge est paramétrée sur \"Ne pas mettre à jour "
+"automatiquement\", Koha ne modifiera pas les notices bibliographiques "
+"concernant les autorités, ce sera effectué plus tard par le script :ref:`"
+"merge\\_authority.pl <cron-update-authorities-label>`."
 
 #: ../../source/cataloging.rst:1110
 msgid "To delete an authority record you first must make sure it's not linked to any bibliographic records. If it is not used by any bibliographic records a 'Delete' link will appear to the right of the record on the search results and as a button that appears after clicking on the summary of the authority record."
@@ -1587,7 +1617,6 @@ msgid "|image718|"
 msgstr "|image718|"
 
 #: ../../source/cataloging.rst:1158
-#, fuzzy
 msgid "Cataloging guides"
 msgstr "Guides de catalogage"
 
@@ -2613,6 +2642,8 @@ msgstr "Site"
 #: ../../source/cataloging.rst:1330 ../../source/cataloging.rst:1332
 msgid "**Required**. Code must be defined in :ref:`Libraries <libraries-label>`"
 msgstr ""
+"**Obligatoire**. Le code doit être défini dans :ref:'Tous les sites "
+"<libraries-label>'"
 
 #: ../../source/cataloging.rst:1332
 msgid "952$b"
@@ -3046,6 +3077,8 @@ msgstr "Dans la barre du champ, tapez 942"
 #: ../../source/cataloging.rst:1514
 msgid "In the Field Data box, type \\\\\\\\$c and the item type code (\\\\\\\\$cBOOK in this example)"
 msgstr ""
+"Dans la barre de données du champ, tapez \\\\\\\\$c et le code du type "
+"d'exemplaire (\\\\\\\\$cBOOK dans cet exemple)"
 
 #: ../../source/cataloging.rst:1517 ../../source/cataloging.rst:1548
 msgid "Check the 'Insert last' option"

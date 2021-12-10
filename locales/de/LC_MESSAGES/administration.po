@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Koha Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 01:15-0300\n"
-"PO-Revision-Date: 2021-02-24 08:19+0000\n"
+"PO-Revision-Date: 2021-08-10 22:35+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1614154792.569549\n"
+"X-POOTLE-MTIME: 1628634939.028141\n"
 
 #: ../../source/administration.rst:6 ../../source/administration.rst:3520
 msgid "Administration"
@@ -1229,7 +1229,10 @@ msgstr "*Pfad in Koha:* Mehr > Administration > Benutzer und Ausleihe > Ausleihk
 
 #: ../../source/administration.rst:974
 msgid "The rules are applied from most specific to less specific, using the first found in this order:"
-msgstr "Die Regeln werden vom am meisten zutreffend bis zum am wenigsten zutreffend angewandt, die erste, die eingegeben ist:"
+msgstr ""
+"Es wird immer die spezifischste Regel angewendet, dies entspricht der ersten "
+"Regel, welche die nachfolgenden Bedingungen in der angegebenen Reihenfolge "
+"erfüllt:"
 
 #: ../../source/administration.rst:977
 msgid "same library, same patron category, same item type"
@@ -1658,7 +1661,7 @@ msgstr "Wenn Sie zum Beispiel eine Regel definiert haben, die besagt, dass Benut
 
 #: ../../source/administration.rst:1351
 msgid "Default lost item fee refund on return policy"
-msgstr "Regeln für Standard-Rückerstattung bei Medienverlust"
+msgstr "Standardregeln für die Rückerstattung bei Medienverlust"
 
 #: ../../source/administration.rst:1353
 msgid "Here, you can specify the default policy for lost item fees on return. This policy will apply to this library. This rule is to be used with the :ref:`RefundLostOnReturnControl` system preference."
@@ -2605,7 +2608,7 @@ msgstr "Der Code des MARC-Unterfelds"
 
 #: ../../source/administration.rst:2135
 msgid "Text for librarian"
-msgstr "Text für Bibliothekare "
+msgstr "Text für Dienstoberfläche"
 
 #: ../../source/administration.rst:2137
 msgid "what appears before the subfield in the staff interface"
