@@ -3643,6 +3643,436 @@ and on the item search page
 
 .. _search-engine-configuration:
 
+MARC merge rules
+~~~~~~~~~~~~~~~~
+
+MARC merge rules allows for defining rules for defining how incoming and
+original MARC records should be merged on a field tag and context basis
+when a MARC record is updated.
+
+Contexts
+^^^^^^^^
+
+Let's first focus on understanding the concept of contexts.
+
+Contexts are defined by "module" and "filter" enabling separate rule sets for
+different contexts.
+
+By setting different filter values for these modules, rules are applied only
+when the filter value matches for a particular module. A wildcard; "*", can
+be used to match all possible filter values.
+
+There are three different context modules:
+
+borrower
+  Allows for defining rules that will be applied if the currently logged
+  in user's borrower number matches the filter condition.
+
+categorycode
+  Allows for defining rules that will be applied if the currently
+  logged in users's category code matches the filter condition.
+
+source
+  Allows for defining rules that will be applied if the record is updated
+  in a particular part of Koha. The following update methods are supported:
+
+    - batchimport
+
+    - zv39.50
+
+    - intranet
+
+    - bulkmarcimport
+
+    - import_lexile
+
+    - batchmod
+
+A context is really nothing but a module and filter combination. Every time
+a record is updated i Koha, a context is set an filter values populated with
+context dependent values.
+
+Examples of two different contexts are saving record in the staff client or the
+currently logged in user having a particular borrower number, for example "12".
+
+These two contexts are define as:
+
+::
+
+  Module: source, filter: intranet
+  Module: borrower, filter: 12
+
+Only the rules of one context, that is a module and filter combination,
+are applied. If multiple contexts matches they are *not* merged together.
+
+If we have the following rules:
+
+::
+
+  Module: source, filter: *, tag: 650, preset: Protect
+  Module: source, filter: *, tag: 500, preset: Protect
+  Module: borrower, filter: 12, tag: *, preset: Overwrite
+
+And the context of the update where the rules are applied is:
+
+::
+
+  source => "intranet" (wildcard match)
+  borrower => 1 (no match)
+
+Only the first two rules will be applied.
+
+If instead the context of rule evaluation was:
+
+::
+
+  source => "intranet" (wildcard match)
+  borrower => 12 (an exact match, which is considered more specific than a wildcard match)
+
+Only the second rule would be applied, even though the first two rules also
+matches they will be discarded since the context match of that rule set is of
+lower specificity because of the wildcard.
+
+Context specificity is ranked in the following way:
+
+  - First all the rules are grouped into rule sets identified by a unique filter
+    and module combination.
+
+  - If one or more contexts have a non wildcard filter condition match, the rule
+    set of the context with the module of highest specificity is selected. (The
+    modules are listed in order of specificity above).
+
+  - If no exact context match is found, but one or more wildcard matches are,
+    the rule set of the context with the module of highest specificity is
+    selected.
+
+  - If no context matches the default behavior is to overwrite, the original
+    record with the incoming record.
+
+Rules
+^^^^^
+
+A rule consists of a three different parts:
+
+Context
+  A module and filter to match against as described above.
+
+Tag
+  A field tag expression for defining which tag(s) the rule should be applied on.
+  Three different tag expressions are supported:
+
+    - An exact tag, for example "650".
+    - A regular expression, for example "6.." matching all 6XX tags.
+    - A wildcard, "*", matching all tags
+
+When rules for a specific context are evaluated, the most specific match is selected.
+The tag expressions above are listed in order of speficicity.
+
+Actions
+  Each rule defines a set of actions to take depending on the type of update.
+  There are four types of update events: Added, Appended, Removed and Deleted.
+  For each event an action is specified, whether to perform the update, or to
+  skip it.
+
+By enabling/disabling updates for these different events 16 different update
+behaviours can be defined. There are presets available for the most
+common/useful combinations:
+
+
+=====================  ========  ========  ========  ========
+        Preset         Added     Appended  Removed   Deleted
+=====================  ========  ========  ========  ========
+Protect                Skip      Skip      Skip      Skip
+Overwrite              Add       Append    Remove    Delete
+Add new                Add       Skip      Skip      Skip
+Add and append         Add       Append    Skip      Skip
+Protect from deletion  Add       Append    Remove    Delete
+=====================  ========  ========  ========  ========
+
+
+Protect
+^^^^^^^
+
+::
+
+  Added: Skip, Appended: Skip, Removed: Skip, Deleted: Skip
+
+The "Protect" preset will prevent all updates on matching fields, protecting
+them from being overwritten.
+
+Given this rule:
+
+::
+
+  Module: source, filter: *, Tag: 650, Preset: Protect
+
+And the following original and incoming records:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+
+The 650 field of the original record will retain its original value after the
+update (but since the default behaviour if no rule matches is to overwrite, the
+500 field will be added):
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+Overwrite
+^^^^^^^^^
+
+::
+
+  Added: Add, Appended: Append, Removed: Remove, Deleted: Delete
+
+The "Overwrite" preset will allow all updates on matching fields.
+
+Since the default behavior is to overwrite if no rule matches, adding a rule
+with the overwrite preset only makes sense if there is some other rule with a
+lower tag specificity with a different behavior, for example a wildcard tag
+rule.
+
+So given these two rules:
+
+::
+
+  Module: source, filter: *, Tag: *, Preset: Protect
+  Module: source, filter: *, Tag: 650, Preset: Overwrite
+
+And the following original and incoming records:
+
+::
+
+  500 ##$aIncludes index.
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+Incoming record:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+All fields but 650 will be protected on the original record, and the resulting
+record will be:
+
+::
+
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+Add new
+^^^^^^^
+
+::
+
+  Added: Add, Appended: Skip, Removed: Skip, Deleted: Skip
+
+The "Add new" allow updates only if the incoming field is new, that is there
+exists no fields with this tag in the original record.
+
+Given this rule:
+
+::
+
+  Module: source, filter: *, Tag: 650, Preset: Add
+
+And the following original and incomiung records:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+The 650 in the incoming record will not overwrite the 650 field in the original
+record since the original record contains one or more 650 fields. The 500 field
+will be added since the default rule is to overwrite. The resulting record will
+be:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+On the other hand, if the original record was:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+
+The resulting record will be:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+This is because there were no 650 fields in the original record, so adding new
+ones is permitted.
+
+Add and append
+^^^^^^^^^^^^^^
+
+::
+
+  Added: Add, Appended: Append, Removed: Skip, Deleted: Skip
+
+In the "Add and append" preset, appending is also permitted, but not removing or
+deleting.
+
+So if we have the following rule:
+
+::
+
+  Module: source, filter: *, Tag: 650, Preset: Add and append
+
+And the following original and incoming records:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+The resulting record will be:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+Note that the "old" 650 field from the original record was not removed since we
+only allow adding or appending new values.
+
+If we insead used the "Overwrite" preset the resulting record would instead be:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+with the 650 field of the original record removed.
+
+Protect from deletion
+^^^^^^^^^^^^^^^^^^^^^
+
+::
+
+  Added: Add, Appended: Append, Removed: Remove, Deleted: Skip
+
+The preset "Protect from deletion" will allow all update operations except
+deletion. Deletion is defined as when there are no fields of the matching tag
+in the incoming record so that all of the fields with this tag would be removed
+on the original record.
+
+So given the following rule:
+
+::
+
+  Module: source, filter: *, Tag: 650, Preset: Protect from deletion
+
+And the following original and incoming records:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+The resulting record will be:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision pilot programs$zUnited States$vCatalogs.
+
+On the other hand, if the incoming record was:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+
+In this case the deletion of 650 would not be permitted and the value of the
+field on the original record would be protected. The resulting record would
+instead be:
+
+::
+
+  100 1#$aTerrace, Vincent,$d1948-
+  500 ##$aIncludes index.
+  650 #0$aTelevision serials$zUnited States$vCatalogs.
+
+Custom presets
+^^^^^^^^^^^^^^
+
+To work with custom presets, a more complete understanding of the update events
+is required:
+
+Added
+  For a mathing rule with a tag, the action configured for the "Added" event is
+  applied for new fields in the incoming record if the original record has no
+  fields with that tag.  If the action is "Add" they will be added to the
+  original record, if "Skip" they will be thrown away.
+
+Appended
+  If the two record have common fields with the rule tag, that is one or more
+  fields with identical subfield and identifier values, th action configured
+  for th for the "Appended" event is applied for fields found in incoming
+  record but not in original record. If the action is "Append" they will be
+  added to the original record, if "Skip" they will be thrown away.
+
+Removed
+  If the two records have common fields with the rule tag, the action
+  configured for the "Removed" action is applied for fields found in original
+  record but not in incoming record.  If the action is "Remove" they will
+  removed from the original record, if "Skip" they will be kept.
+
+Deleted
+  If the original record have fields with the rule tag, but no fields with this
+  tag is found in the incoming record, the action configured for the "Deleted"
+  event is applied for the fields in the incoming record. If the action is
+  "Delete" the fields will be removed from the original record, if "Skip" they
+  will be kept.
+
 Search engine configuration
 ----------------------------
 Once you have switched to Elasticsearch in your SearchEngine system preference,
