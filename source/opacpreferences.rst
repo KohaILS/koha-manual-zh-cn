@@ -1892,9 +1892,9 @@ Description:
    :ref:`quote of the day editor <quote-of-the-day-(qotd)-editor-label>` tool 
    will appear.
 
-.. _requestonopac-label:
+.. _opacholdrequests-label:
 
-RequestOnOpac
+OPACHoldRequests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Default: Allow
