@@ -488,7 +488,7 @@ Placing holds
 ----------------------------------
 
 Patrons can place holds on items via the OPAC if they're logged in and
-you have the :ref:`RequestOnOpac` preference set to
+you have the :ref:`OPACHoldRequests` preference set to
 'Allow'. If the item can be placed on hold the option to place it on
 hold will appear in several different places.
 

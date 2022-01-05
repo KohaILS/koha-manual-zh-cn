@@ -551,7 +551,7 @@ There are a lot of ways you can customize your OPAC in Koha.
       the OPAC to access customized functionality (searching will be allowed 
       without logging in)
 
-      -  :ref:`RequestOnOpac` : Decide if patrons can place holds via the OPAC
+      -  :ref:`OPACHoldRequests` : Decide if patrons can place holds via the OPAC
 
       -  :ref:`OpacPasswordChange` : Decide if patrons can change their 
          password (don't allow this if you're using LDAP)
