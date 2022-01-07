@@ -2603,8 +2603,8 @@ ExpireReservesOnHolidays
 
 Default: Allow
 
-Asks: \_\_\_ expired holds to be cancelled on days the library is
-closed.
+Asks: If using :ref:`ExpireReservesMaxPickUpDelay`, \_\_\_ expired holds to be canceled on 
+days the library is closed per the calendar.
 
 Values:
 
