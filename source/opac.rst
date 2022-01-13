@@ -840,7 +840,7 @@ exceeding the value set in the :ref:`maxoutstanding` system preference.
 
 If :ref:`AllowPatronToControlAutoRenewal` is set to 'Allow patrons', patrons 
 will be able to choose whether or not they want their checkouts to be 
-renewed automatically.
+renewed automatically. If they choose ‘Yes’, items for which automatic renewal is enabled in the circulation rules will renew as expected. If they choose ‘No’, the automatic renewals that would have applied to this patron’s checkouts will not take place.
 
 |allowautorenewal|
 
