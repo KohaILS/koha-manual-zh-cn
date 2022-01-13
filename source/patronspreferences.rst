@@ -18,7 +18,7 @@ AllowPatronToControlAutoRenewal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks : \_\_\_ to allow/disallow auto-renewal for account. If allowed a patron 
-will be able to update their own account to allow/disallow auto-renewal 
+will be able to update their own account to allow/disallow auto-renewal.
 
 Default: Allow only staff
 
@@ -31,7 +31,7 @@ Values:
 Description:
 
 -  If set to 'Allow patrons', patrons will be able to enable or disable 
-   automatic renewals from :ref:`their online account on the OPAC <your-summary-label>`.
+   automatic renewals from :ref:`their online account on the OPAC <your-summary-label>`. Only items for which automatic renewal is enabled in the circulation rules will be affected.
 
 -  In all cases, staff is able to change this in the :ref:`patron's account <add-a-new-patron-label>`.
 
