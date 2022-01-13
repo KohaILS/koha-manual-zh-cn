@@ -147,10 +147,9 @@ Once there you can add a new patron.
       -  You can create drop-down menus for these fields by adding values 
          in the Bsort1 and Bsort2 :ref:`authorized values categories <existing-values-label>`
 
-   -  'Allow auto-renewal of items' is used to control whether this patron 
-      wants to automatically renew their checkouts. This requires the 
+   -  'Allow auto-renewal of items' is used to control whether this patron’s checkouts will be renewed according to the circulation rules. If set to ‘Yes’, items for which automatic renewal is enabled in the circulation rules will be automatically renewed. This requires the 
       :ref:`automatic_renewal cronjob <cron-automatic-renewal-label>` to run 
-      daily. 
+      daily. If set to ‘No’, items for which automatic renewal is enabled in the circulation rules will not be automatically renewed.
 
    -  'Check for previous checkouts' is used to set the patron's personal 
       preference regarding checking their circulation history to see if they 
