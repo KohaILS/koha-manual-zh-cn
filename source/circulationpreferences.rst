@@ -1325,6 +1325,22 @@ Description:
 -  Allows a library to prevent patrons from checking out items if his or
    her guarantees owe too much in fines.
 
+
+.. _noissueschargeguarantorswithguarantees-label:
+
+NoIssuesChargeGuarantorsWithGuarantees
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Prevent a patron from checking out if the patron has guarantors and those
+guarantor's guarantees owing in total more than \_\_\_ (currency) in fines.
+
+Description:
+
+-  Allows a library to prevent patrons from checking out items if their
+   guarantees or their guarantees' other guarantors owe too much in fines.
+
+-  This effectively blocks the entire family.
+
 .. _norenewalbeforeprecision-label:
 
 NoRenewalBeforePrecision
