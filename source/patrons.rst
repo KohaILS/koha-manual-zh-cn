@@ -2524,6 +2524,16 @@ online account.
    -  Customize this notice by editing the CHECKOUT notice in the 
       :ref:`Notices & slips tool <notices-and-slips-label>`
 
+-  Auto renewal: A notice that notifies the patron that their checkouts have 
+   been automatically renewed, or if there was a problem with their automatic 
+   renewal.
+
+   -  Customize this notice by editing the AUTO\_RENEWAL or AUTO\_RENEWAL\_DGST 
+      notice in the :ref:`Notices & slips tool <notices-and-slips-label>`
+
+   -  This option will only appear if the :ref:`AutoRenewalNotices` is set to 
+      "according to patrons messaging preferences"
+
 Patrons can choose to receive their notices as a digest by checking the 
 'Digest only' box along with the delivery method. A digest is a combination of 
 all the messages of that type (so all items due in 3 days in one email) in to 

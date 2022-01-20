@@ -472,6 +472,27 @@ Description:
    then alternate. Otherwise the system will use the email address you
    specify.
 
+.. _autorenewalnotices-label:
+
+AutoRenewalNotices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Send automatic renewal notices: \_\_\_
+
+Default: (Deprecated) according to --send-notices cron switch
+
+Values:
+
+-  (Deprecated) according to --send-notices cron switch
+
+-  never
+
+-  according to patron messaging preferences
+
+Description:
+
+-  This system preference determines whether automatic renewal notices
+
 .. _enhancedmessagingpreferences-label:
 
 EnhancedMessagingPreferences

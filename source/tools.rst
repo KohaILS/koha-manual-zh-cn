@@ -658,6 +658,30 @@ information in these notices. Here are some of what those notices do:
    -  This notice is sent to the patron when an article request is marked
       as being processed by staff.
 
+-  AUTO\_RENEWALS
+
+   -  This notice is sent to the patron if automatic renewals are enabled 
+      and the patron has chosen to receive it in their 
+      :ref:`messaging preferences <advance-notices-and-hold-notices-label>`.
+
+   -  In order to send this notice, you must set the :ref:`AutoRenewalNotices` 
+      system preference to "according to patron messaging preferences".
+
+   -  This notice is set so that, depending on the result of the renewal, 
+      whether is was successful or not, the message will be different.
+
+-  AUTO\_RENEWALS\_DGST
+
+   -  This notice is sent to the patron if automatic renewals are enabled 
+      and the patron has chosen to receive the digest in their 
+      :ref:`messaging preferences <advance-notices-and-hold-notices-label>`.
+
+   -  In order to send this notice, you must set the :ref:`AutoRenewalNotices` 
+      system preference to "according to patron messaging preferences".
+
+   -  This notice is set so that, depending on the result of the renewal, 
+      whether is was successful or not, the message will be different.
+
 -  AVAILABLE
 
    -  This notice is sent to the patron who made a suggestion, when the
