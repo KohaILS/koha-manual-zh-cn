@@ -1791,6 +1791,31 @@ Description:
    has not been received. The warning will appear in the :ref:`Transfers to
    Receive <transfers-to-receive-label>` report.
 
+.. _unseenrenewals-label:
+
+UnseenRenewals
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ renewals to be recorded as "unseen" by the library, and count 
+against the patrons unseen renewals limit. 
+
+Default: Don't allow
+
+Values:
+
+-  Don't allow
+
+-  Allow
+
+Description:
+
+-  This system preference enables the unseen renewals functionality. It allows 
+   staff to mark renewals as "unseen", i.e. the staff didn't actually see the 
+   item.
+
+-  If you activate this preference, make sure to add a value in the 'Unseen 
+   renewals allowed (count)' column of the 
+
 .. _usebranchtransferlimits-and-branchtransferlimitstype-label:
 
 UseBranchTransferLimits and BranchTransferLimitsType

@@ -163,10 +163,22 @@
 
 .. CIRCULATION
 
+.. |circsummary| image:: images/circ/circsummary.png
+				:alt: Issues table (circulation summary) in the patron file
+
 .. |holdwaitingcheckinwarn| image:: images/circ/holdwaitingcheckinwarn.png
 				:alt: Hold found item is already waiting checkin message
 
-		
+.. |overriderenew| image:: images/circ/overriderenew.png
+				:alt: Bottom of the circulation summary table, there are two checkboxes 'Override renewal restrictions' and 'Renew as unseen if appropriate', followed by two buttons 'Renew or check in selected items' and 'Renew all'. The checkbox 'Override renewal restrictions' is checked.
+
+.. |unseenrenewalcheckbox| image:: images/circ/unseenrenewalcheckbox.png
+				:alt: Bottom of the circulation summary table, there are two checkboxes 'Override renewal restrictions' and 'Renew as unseen if appropriate', followed by two buttons 'Renew or check in selected items' and 'Renew all'. The checkbox 'Renew as unseen if appropriate' is checked.
+
+.. |renewbutton| image:: images/circ/renewbutton.png
+				:alt: Two buttons 'Renew or check in selected items' and 'Renew all'
+
+
 .. COURSE RESERVES
 
 .. ILL
@@ -919,9 +931,6 @@
 .. |image515| image:: images/circ/lostitemconfirm.png
 .. |image516| image:: images/circ/warnings/agewarning.png
 .. |image517| image:: images/circ/warnings/decreaseLoanHighHoldsDuration.png
-.. |image518| image:: images/circ/circsummary.png
-.. |image519| image:: images/circ/renewbutton.png
-.. |image520| image:: images/circ/overriderenew.png
 .. |image521| image:: images/circ/renewcirc.png
 .. |image522| image:: images/circ/renewbarcode.png
 .. |image523| image:: images/circ/renewed.png

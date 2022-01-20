@@ -435,15 +435,15 @@ To renew items checked out to a patron, you can do one of two things.
 The first is to visit their details page or checkout page and review
 their checkout summary at the bottom.
 
-|image518|
+|circsummary|
 
 In the Renew column you will see how many times each item has been
-renewed and a checkbox to renew the item for the patron. Check the boxed
+renewed and a checkbox to renew the item for the patron. Check the box
 of the items you would like to renew and click the 'Renew or return
 checked items' button, or to renew all items checked out to the patron
 simply click the 'Renew all' button.
 
-|image519|
+|renewbutton|
 
 Sometimes renewals will be blocked based on your circulation rules, to
 override this block you must have your
@@ -452,10 +452,20 @@ set to 'Allow'. If you allow renewal limit overrides, you will see a
 checkbox at the bottom left of the circulation summary. Check that box
 and then choose the items you would like to renew.
 
-|image520|
+|overriderenew|
 
 Checking that box will add checkboxes in the renew column above where
 before the item was not renewable.
+
+You can also mark a renewal as 'unseen', to differenciate between renewals 
+where staff has actually seen the item, versus renewals where they didn't see 
+it (over the phone, for example). To do this, you must first enable 
+the :ref:`UnseenRenewals` system preference. Once enabled, a checkbox will 
+appear at the bottom left of the circulation summary. Check that box to mark 
+the renewals as 'unseen'. Then click either 'Renew or check in selected items' 
+or 'Renew all'.
+
+|unseenrenewalcheckbox|
 
 The second option is to visit the 'Renew' page found under the
 Circulation menu.

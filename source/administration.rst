@@ -1596,6 +1596,11 @@ item types to apply the rules to
 -  Next decide if the patron can renew this item type and if so, enter
    how many times they can renew it in the 'Renewals allowed' box.
 
+-  If you allow unseen renewals (see :ref:`UnseenRenewals`), enter how many
+   'unseen' renewals patrons can make. This is *not* in addition to the regular 
+   renewals, but rather how many 'unseen' renewals can be made *among* the 
+   total number of renewals.
+
 -  If you're allowing renewals you can control how long the renewal loan
    period will be (in the units you have chosen) in the 'Renewal period'
    box.
