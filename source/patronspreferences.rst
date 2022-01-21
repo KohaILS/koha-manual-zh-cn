@@ -83,6 +83,27 @@ Description:
 This system preference will not work for patrons that have chosen to anonymize
 their reading history.
 
+.. _checkprevcheckoutdelay-label:
+
+CheckPrevCheckoutDelay
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Trigger a warning if the current item has been checked out no longer than 
+\_\_\_ days ago. 
+
+Default: 0
+
+Description:
+
+-  This system preference limits the behavior of :ref:`CheckPrevCheckout` to 
+   a number of days. If an item has been borrowed by a patron longer than the 
+   number of days, there will be no warning, as if the patron had never 
+   borrowed it.
+
+-  Requires :ref:`CheckPrevCheckout` to be enabled.
+
+-  There is no time limit if this is set to 0 or is empty. 
+
 .. _defaultpatronsearchfields-label:
 
 DefaultPatronSearchFields
