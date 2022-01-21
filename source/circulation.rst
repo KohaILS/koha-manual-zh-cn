@@ -512,6 +512,9 @@ Checking in items can be performed from various different locations
 
    |image529|
 
+- Koha also offers an automatic checkin feature, which can be set in 
+  :ref:`item types <item-types-label>`.
+
 .. _checking-items-in-label:
 
 Checking items in

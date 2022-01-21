@@ -368,6 +368,13 @@ top of the Item types page.
    -  Items marked 'Not for loan' will appear in the catalog, but cannot
       be checked out to patrons
 
+-  For items that are not physical, but for which you still have circulation rules, 
+   such as museum passes or ebooks, you can set up automatic checkins. 
+
+   -  Check the 'Automatic checkin' box
+
+   -  Schedule the :ref:`cronjob misc/cronjobs/automatic_checkin.pl <cron-automatic-checkin-label>`.
+
 -  For items that you charge a rental fee for, there are several ways that rental
    fees can be charged to a patron by item type. A flat rental charge
    (process fee) or a daily/hourly rental charge.

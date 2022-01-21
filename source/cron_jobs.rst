@@ -364,6 +364,18 @@ Frequency suggestion: nightly
 
        -  without this parameter, the script will default to verbose mode as well
 
+.. _cron-automatic-checkin-label:
+
+Automatic checkin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Script path: misc/cronjobs/automatic\_checkin.pl
+
+Does: automatically checks in items after the loan period. This is set at the 
+:ref:`item type level <item-types-label>`.
+
+Frequency suggestion: nightly
+
 .. _cron-patrons-label:
 
 Patrons
