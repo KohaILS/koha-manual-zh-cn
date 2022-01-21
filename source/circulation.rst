@@ -235,6 +235,9 @@ out today.
 circulation information and 'Print overdues' will print out a slip that
 lists all items that are overdue.
 
+'Print checkin slip' will print out a slip that lists items that were 
+checked in today.
+
 What prints on the slips can be customized by altering the slip
 templates under the :ref:`Notices & slips` tool.
 

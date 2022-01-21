@@ -707,6 +707,15 @@ information in these notices. Here are some of what those notices do:
          -  *Get there:*\ Staff client > Patron record >
             :ref:`Notices`
 
+-  CHECKINSLIP
+
+   -  This slip lists all items that were checked in today for this patron
+
+   -  To print this slip, click Print > 
+      :ref:`Print checkin slip <printing-receipts-label>` from the patron file
+
+   -  You can also print this slip from the :ref:`Check in page <check-in-(returning)-label>`
+
 -  CHECKOUT
 
    -  This notice is sent as the 'Check out' notice for all items that
