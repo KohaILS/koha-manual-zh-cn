@@ -179,6 +179,10 @@ preferences then this script will also cancel holds that have been
 sitting on the hold shelf for too long and will (if the library does)
 charge the patron for not picking up the hold.
 
+It is possible to add a cancellation reason with the --reason parameter.
+Use the cancellation code from the 
+:ref:`HOLD\_CANCELLATION authorized value category <existing-values-label>`
+
 Frequency suggestion: daily
 
 .. _cron-unsuspend-holds-label:
