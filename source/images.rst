@@ -953,7 +953,6 @@
 .. |image531| image:: images/circ/checkintransfer.png
 .. |image532| image:: images/circ/transferstatus.png
 .. |image533| image:: images/circ/transfercheckin.png
-.. |image534| image:: images/circ/materialspecified.png
 .. |image535| image:: images/circ/holdfound.png
 .. |image536| image:: images/circ/waitingstatus.png
 .. |image537| image:: images/circ/holdconfirmtransfer.png

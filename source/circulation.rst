@@ -420,6 +420,15 @@ acknowledged before you will be able to continue checking items out.
 
    |image517|
 
+-  Item has accompanying material (field 952$3, 'Materials specified', is filled)
+
+   |CircConfirmItemParts-dontrequire|
+
+   -  If :ref:`CircConfirmItemParts` is set to 'Require', the staff member will have to 
+      confirm the checkout
+
+      |CircConfirmItemParts-require-checkout|
+
 .. _renewing-label:
 
 Renewing
@@ -582,7 +591,12 @@ There are several messages that can appear when checking items in:
    pieces a message will appear warning you about the number of pieces
    you should have in your hand
 
-   |image534|
+   |CircConfirmItemParts-dontrequire|
+
+   -  If :ref:`CircConfirmItemParts` is set to 'Require', the staff member will have to 
+      confirm the checkin
+
+      |CircConfirmItemParts-require-checkin|
 
 -  If you're checking an item in that has a hold on it, you will be
    prompted to confirm the hold
