@@ -237,6 +237,9 @@
 .. |patronagelimit| image:: images/patrons/patronagelimit.png
 				:alt: Warning 'The following fields are wrong. Please fix them. Patron's age is incorrect for their category. Ages allowed are 5-17.'
 
+.. |mergepatrons-compare| image:: images/patrons/mergepatrons-compare.png
+				:alt: The compare screen shows both patron files next to each other with differences highlighted
+
 .. POINT OF SALE
 
 .. REPORTS

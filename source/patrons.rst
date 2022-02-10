@@ -573,10 +573,17 @@ or holds.
 
     It is possible to merge more than two records at a time.
 
--  Select the patron record you want to keep and click on the 'Merge
-   patrons' button.
+-  Select the patron record you want to keep
 
-|image1327|
+   |image1327|
+
+
+-  If necessary, click the 'Compare patrons' button to see the differences 
+   between the different accounts.
+
+   |mergepatrons-compare|
+
+-  Click the 'Merge patrons' button.
 
 The checkouts and statistics will be transferred to the right record and
 the other one will be deleted.
