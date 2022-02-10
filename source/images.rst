@@ -79,6 +79,15 @@
 .. |DisplayIconsXSLT| image:: images/admin/globalprefs/DisplayIconsXSLT.png
 				:alt: Screenshot of the XSLT icons
 
+.. |CircConfirmItemParts-dontrequire| image:: images/admin/globalprefs/CircConfirmItemParts-dontrequire.png
+				:alt: Message in a blue box 'Note about the accompanying materials: 2 DVD'
+
+.. |CircConfirmItemParts-require-checkout| image:: images/admin/globalprefs/CircConfirmItemParts-require-checkout.png
+				:alt: Alert in a yellow box asking to confirm checkout 'Please confirm checkout Please confirm that the accompanying materials are present: 2 DVD Yes, check out (Y) No, don't check out (N)'
+
+.. |CircConfirmItemParts-require-checkin| image:: images/admin/globalprefs/CircConfirmItemParts-require-checkin.png
+				:alt: Alert modal asking to confirm checkin 'Please confirm checkin Please confirm that the accompanying materials are present: 2 DVD Yes, check in (Y) No, don't check in (N)'
+
 .. |IntranetCatalogSearchPulldown-hide| image:: images/admin/globalprefs/IntranetCatalogSearchPulldown-hide.png
 				:alt: The default look of the Search the catalog tab, without the index drop-down list
 

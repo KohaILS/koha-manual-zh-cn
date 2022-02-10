@@ -3224,6 +3224,47 @@ Description:
    barcode will clear the screen of the patron you were last working
    with.
 
+.. _circconfirmitemparts-label:
+
+CircConfirmItemParts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ staff to confirm that all parts of an item are present at 
+checkin/checkout.
+
+Default: Don't require
+
+Values:
+
+-  Don't require
+
+-  Require
+
+Description:
+
+-  This system preference controls whether a message or an alert asking for
+   confirmation is shown when checking out or checking in an item with 
+   accompanying materials.
+
+-  The message/alert will appear if the item has a value in the 
+   "3 - Materials specified (bound volume or other part)" item field (952$3)
+
+-  If the value is set to "Don't require", a simple message will appear at 
+   checkin and checkout
+
+   |CircConfirmItemParts-dontrequire|
+
+-  If the value is set to "Require", there will be an alert asking staff to 
+   confirm that they checked that all parts are present
+
+   At checkout
+
+   |CircConfirmItemParts-require-checkout|
+
+   At checkin
+
+   |CircConfirmItemParts-require-checkin|
+
 .. _circsidebar-label:
 
 CircSidebar
