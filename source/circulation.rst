@@ -798,6 +798,11 @@ place a hold on.
    a specific item by clicking the radio button next to an individual
    item.
 
+-  If you are placing a hold for internal purposes, such as checking for 
+   missing pages or needing to add a sticker, you can place a 
+   'non-priority' hold. This type of hold will not prevent the patron who 
+   currently has the item to renew their checkout.
+
 If you're placing a hold on multiple items you will be presented with
 the next available option for all titles. If no items are available for
 hold it will say so on the confirmation screen.
