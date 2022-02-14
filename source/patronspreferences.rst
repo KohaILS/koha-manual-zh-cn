@@ -224,6 +224,30 @@ Values:
     access or not unless the patron has chosen to have their history
     anonymized via their :ref:`privacy page <your-privacy-label>`.
 
+
+.. _lockexpireddelay-label:
+
+LockExpiredDelay
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Lock expired patrons after \_\_\_ days. Leave empty to disable this 
+behavior. 
+
+Default: empty
+
+Description:
+
+-  This system preference determines after how many days expired patrons are 
+   'administratively locked'. 
+
+-  Administrative lock prevents patrons from logging into the OPAC.
+
+.. Note ::
+
+   This system preference requires the 
+   :ref:`misc/cronjobs/cleanup_database.pl<cron-clean-up-database-label>` 
+   cronjob (no parameter necessary other than --confirm)
+
 .. _maxfine-label:
 
 MaxFine
