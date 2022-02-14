@@ -1200,9 +1200,14 @@ characters long.
 
 Default: 8
 
-    **Important**
+.. Warning ::
 
     This applies to both the staff login and the patron OPAC login.
+
+.. Note ::
+
+   Password length can also be set by 
+   :ref:`patron category<patron-categories-label>`.
 
 .. _requirestrongpassword-label:
 
@@ -1221,6 +1226,10 @@ Values:
 
 Description:
 
--  If set to 'require' this system preference will require patron and staff passwords to contain at least one digit, one lowercase and one uppercase.
+-  If set to 'require' this system preference will require patron and staff 
+   passwords to contain at least one digit, one lowercase and one uppercase.
 
+.. Note ::
 
+   Password strength can also be set by 
+   :ref:`patron category<patron-categories-label>`.
