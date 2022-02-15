@@ -234,6 +234,12 @@
 
 .. PATRONS
 
+.. |cancelcharge| image:: images/patrons/cancelcharge.png
+				:alt: A line in the patron's accounts for a manual fee, still unpaid. At the end of the line, there are buttons 'Print', 'Detail', 'Pay', 'Cancel charge', and 'Apply discount'
+
+.. |cancelledcharge| image:: images/patrons/cancelledcharge.png
+				:alt: Two lines in the patron's account. The first is for a 'Cancelled charge', the amount is -5. The second is for a 'Manual fee (Cancelled)', the amount is 5 and the outstanding amount is 0.
+
 .. |patronagelimit| image:: images/patrons/patronagelimit.png
 				:alt: Warning 'The following fields are wrong. Please fix them. Patron's age is incorrect for their category. Ages allowed are 5-17.'
 

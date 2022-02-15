@@ -1909,6 +1909,25 @@ the top of this tab if you are part way through a transaction.
 
    -  All fines will be removed from outstanding fines, and displayed as written off.
 
+.. _cancel-charges-label:
+
+Cancel fines or fees
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If a user was charged for something and it's an error, you can cancel the fee 
+by clicking the 'Cancel charge' button in the Actions column.
+
+|cancelcharge|
+
+Once clicked a new line will be added to the account for a 'Cancelled charge' 
+of the same amount as the cancelled charge. The charge that was cancelled will 
+now have the 'Cancelled' status and the amount outstanding will be 0.
+
+|cancelledcharge|
+
+If you cancelled a charge by mistake, you can void the cancellation (see
+:ref:`Void payments <void-payments-label>` below).
+
 .. _void-payments-label:
 
 Void payments
