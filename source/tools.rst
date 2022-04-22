@@ -3167,7 +3167,7 @@ steps. The first is to stage records for import.
          are not already in your catalog (for example, for new titles)
 
       -  Ignore incoming record: choose this if you don't want to import 
-         records that are not alreay in your catalogue (for example, if you're 
+         records that are not already in your catalogue (for example, if you're 
          only replacing existing records and don't want to add anything)
 
    -  'Check for embedded item record data?': choose whether or not to import 
