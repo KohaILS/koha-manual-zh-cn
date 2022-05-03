@@ -3059,7 +3059,7 @@ steps. The first is to stage records for import.
       |image349|
 
       -  'Record matching rule': choose which rules to use to check your 
-         catalog if these records already exsit.
+         catalog if these records already exist.
 
             **Note**
 
