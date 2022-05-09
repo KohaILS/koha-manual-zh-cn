@@ -1353,6 +1353,260 @@ Bibliographic record cataloging cheat sheet
 
 Table: Cataloging Guide
 
+.. _Koha-specific-fields-label:
+
+Koha-specific fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Koha uses three fields to store information specific to it.
+
+At the record level, :ref:`942<942-added-entry-elements-label>` is used to 
+store information such as record-level item type, record-level call number and 
+classification scheme.
+
+The item (holding) information is stored in 952 in MARC21 and 995 in UNIMARC.
+
+System control numbers for Koha are stored in 
+:ref:`999<999-system-control-numbers-label>` in MARC21 and 090 in UNIMARC.
+
+.. _942-added-entry-elements-label:
+
+Added entry elements (942)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _9420-totalissues-label:
+
+942$0 - Koha issues (borrowed), all copies
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains the total number of issues/checkouts of all items of this 
+record. It is populated using the 
+:ref:`update\_totalissues.pl<cron-track-total-checkouts-label>` cronjob.
+
+Mapped to: biblioitems.totalissues
+
+Indexed in: totalissues
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+.. _9422-classification-source-label:
+
+942$2 - Source of classification or shelving scheme
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains the source of classification used by the record's call 
+number (:ref:`942$h<942h-call-number-classification-part-label>` and 
+:ref:`942$i<942i-call-number-item-part-label>`).
+
+There is a choice of :ref:`classification sources <classification-sources-label>` 
+as they are defined in administration. If no classification scheme is entered, 
+the system will use the value entered in the :ref:`DefaultClassificationSource` 
+preference.
+
+The source of classification will be used, along with the call number itself 
+(:ref:`942$h<942h-call-number-classification-part-label>` and 
+:ref:`942$i<942i-call-number-item-part-label>`) to create the normalized call 
+number used when sorting by call number.
+
+Mapped to: biblioitems.cn\_source
+
+Indexed in: cn-bib-source
+
+.. _9426-normalized-classification-label:
+
+942$6 - Koha normalized classification for sorting 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains the normalized call number used for sorting, based on the 
+record-level call number 
+(:ref:`942$h<942h-call-number-classification-part-label>` and 
+:ref:`942$i<942i-call-number-item-part-label>`) and the classification source 
+(:ref:`942$2 <9422-classification-source-label>`).
+
+Mapped to: biblioitems.cn\_sort
+
+Indexed in: cn-bib-sort
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+.. _942c-record-level-item-type-label:
+
+942$c - Koha item type
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains the record-level item type.
+
+The record-level item type is used in various places in Koha.
+
+-  The value from 942$c is copied to 952$y as the default value when adding a 
+   new item to that record
+  
+-  The record-level item type can be used for the circulation rules if the
+   :ref:`item-level\_itypes<item-level_itypes-label>` system preference allows 
+   it (this system preference lets you choose between using the record-level or 
+   item-level item type for the circulation rules, among other things)
+
+-  The record-level item type is :ref:`indexed<koha-search-indexes-label>` and 
+   used in the :ref:`search<advanced-searching-label>` (see also the 
+   :ref:`AdvancedSearchTypes` system preference) as well as the 
+   :ref:`facets<search-results-label>` (this is useful to find records that 
+   don't have items, like records for online resources, ebooks, pdf files, etc.)
+
+-  The record-level item type is used for record-level/"next available" 
+   :ref:`holds<holds-circulation-label>`
+   
+-  The record-level item type is used for record-level 
+   :ref:`article requests<article-requests-circulation-label>` 
+   
+-  The record-level item type is displayed in various tables in the staff 
+   interface, in the circulation module among other places (it is possible to 
+   hide unwanted columns in the :ref:`'Table settings'<column-settings-label>` 
+   section of the Administration module)
+
+Mapped to: biblioitems.itemtype
+
+Indexed in: itemtype (mc-itemtype), itype (mc-itype)
+
+.. _942e-edition-label:
+
+942$e - Edition
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains the edition information.
+
+.. _942h-call-number-classification-part-label:
+
+942$h - Classification part
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains classification part of the call number. It is used, along 
+with :ref:`942$2<9422-classification-source-label>` and 
+:ref:`942$i<942i-call-number-item-part-label>` to create the normalized call 
+number (:ref:`942$6<9426-normalized-classification-label>`) used when sorting by 
+call number.
+
+Mapped to: biblioitems.cn\_class
+
+Indexed in: cn-class
+
+.. _942i-call-number-item-part-label:
+
+942$i - Item part
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains item part of the call number. It is used, along 
+with :ref:`942$2<9422-classification-source-label>` and 
+:ref:`942$h<942h-call-number-classification-part-label>` to create the 
+normalized call number (:ref:`942$6<9426-normalized-classification-label>`) used 
+when sorting by call number.
+
+Mapped to: biblioitems.cn\_item
+
+Indexed in: cn-item
+
+.. _942k-call-number-prefix-part-label:
+
+942$k - Call number prefix
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains prefix to the call number.
+
+Mapped to: biblioitems.cn\_prefix
+
+Indexed in: cn-prefix
+
+.. _942m-call-number-suffix-part-label:
+
+942$m - Call number suffix
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field contains suffix to the call number.
+
+Mapped to: biblioitems.cn\_suffix
+
+Indexed in: cn-suffix
+
+.. _942n-suppress-in-opac-label:
+
+942$n - Suppress in OPAC
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+If the :ref:`OpacSuppression` system preference is set to 'hide', this field 
+indicates if the record should be hidden from the OPAC.
+
+In this field, '1' means the record will be hidden in the OPAC, and '0' (or 
+empty) means the record will be visible in the OPAC.
+
+You can use the :ref:`YES\_NO authorized value list<existing-values-label>` in 
+this field if you don't want to remember the numerical values.
+
+Indexed in: suppress
+
+.. _942s-serial-flag-label:
+
+942$s - Serial record flag
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+This field is used by the serials module to indicate whether or not the record 
+is associated with a serial subscription.
+
+Mapped to: biblio.serial
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+   
+.. _999-system-control-numbers-label:
+
+System control numbers (999)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Koha stores its system control numbers in the 999 field in MARC21 and in the 090
+field in UNIMARC.
+
+.. _999c-biblionumber-label:
+
+999$c - Biblionumber
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+The biblionumber is the internal number assigned to each record by Koha. It is 
+unique and cannot be reattributed even when the record is deleted.
+
+Mapped to: biblio.biblionumber
+
+Indexed in: local-number (sn, biblionumber)
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+   
+.. Note::
+  
+   In UNIMARC, the biblionumber is stored in the 090$9 subfield.
+   
+.. _999d-biblioitemnumber-label:
+
+999$d - Biblioitemnumber
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+The biblioitemnumber is the internal number assigned to each record by Koha. It 
+is unique and cannot be reattributed even when the record is deleted.
+
+Mapped to: biblioitems.biblioitemnumber
+
+Indexed in: biblioitemnumber
+
+.. Warning::
+      
+   This field should not be editable nor edited manually.
+  
+.. Note::
+  
+   In UNIMARC, the biblioitemnumber is stored in the 090$a subfield.
+
 .. _item/holdings-record-cataloging-guide-label:
 
 Item/Holdings Record Cataloging Guide
