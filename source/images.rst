@@ -179,6 +179,9 @@
 
 .. CIRCULATION
 
+.. |accompanyingmaterials| image:: images/circ/accompanyingmaterials.png
+				:alt: Message in circulation, the message says "Note about the accompanying materials: + 1 folded map"
+
 .. |circsummary| image:: images/circ/circsummary.png
 				:alt: Issues table (circulation summary) in the patron file
 

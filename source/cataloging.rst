@@ -1558,7 +1558,1699 @@ Mapped to: biblio.serial
 .. Warning::
    
    This field should not be editable nor edited manually. 
+
+.. _952-location-item-information-label:
+
+Location and item information (952)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Koha uses field 952 to store item (holding) information.
+
+.. _9520-withdrawn-status-label:
+
+952$0 - Withdrawn status
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses
+
+-  This field is used to set the withdrawn (weeded) status of the item. 
+
+-  You can use the withdrawn status to weed items without deleting the items.
+
+-  In the :ref:`search results<search-results-label>`, the withdrawn item will 
+   be marked as unavailable.
+
+Effects on circulation
+
+-  A withdrawn item will not be able to be checked out.
+
+-  A withdrawn item will not be able to be checked in unless the 
+   :ref:`BlockReturnOfWithdrawnItems` system preference allows it.
+
+Values 
+
+-  The withdrawn status is numerical, '0' (or empty) means 'not withdrawn' and any 
+   other number means 'withdrawn'.
+
+-  By default, the field is associated with the WITHDRAWN 
+   :ref:`authorized value category <existing-values-label>` so you don't have to 
+   remember the numerical values. The default values in the WITHDRAWN authorized 
+   value category are:
+
+   -  1: Withdrawn
+
+Display
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>` (withdrawn items will be 
+      marked as unavailable)
    
+   -  Holdings table in the record's detail page
+   
+   -  'Items' tab of the bibliographic record, 'Withdrawn status' under 
+      'Statuses' 
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (withdrawn items will be 
+      marked as unavailable)
+
+   -  Holdings table in the record's detail page
+
+   -  To hide withdrawn items from the OPAC, use the :ref:`OpacHiddenItems` system 
+      preference.   
+
+Mapped to: items.withdrawn
+
+Indexed in: withdrawn
+
+.. _9521-lost-status-label:
+
+952$1 - Lost status
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses
+
+-  This field is used to set the lost status of the item. 
+
+-  You can use the lost status to mark items as lost or missing
+
+-  In the :ref:`search results<search-results-label>`, the lost item will be 
+   marked as unavailable.
+
+-  Marking an item lost while it is checked out can charge the replacement cost 
+   (:ref:`952$v<952v-replacement-cost-label>`) to the patron (see 
+   :ref:`WhenLostChargeReplacementFee`), as well as a processing fee (the 
+   processing fee is set at the :ref:`item type<item-types-label>` level)
+   
+-  The lost status can be changed automatically after a number of days overdue 
+   with the :ref:`longoverdue.pl cronjob<cron-long-overdues-label>` 
+
+Effects on circulation 
+
+-  The ability to check out a lost item depends on the :ref:`IssueLostItem` 
+   system preference.
+
+-  The ability to check in a lost item depends on the :ref:`BlockReturnOfLostItems` 
+   system preference.
+
+Values 
+
+-  The lost status is numerical, '0' (or empty) means 'not lost' and any 
+   other number means 'lost'.
+
+-  By default, the field is associated with the LOST 
+   :ref:`authorized value category <existing-values-label>` so you don't have to 
+   remember the numerical values. The default values in the LOST authorized 
+   value category are:
+
+   -  1: Lost
+
+   -  2: Long Overdue (Lost)
+
+   -  3: Lost and Paid For
+
+   -  4: Missing
+
+Display
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>` (lost items will be marked 
+      as unavailable)
+  
+   -  Holdings table in the record's detail page
+  
+   -  'Items' tab of the bibliographic record, 'Lost status' under 
+     'Statuses' 
+  
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (lost items will be marked 
+      as unavailable)
+
+   -  Holdings table in the record's detail page
+
+   -  It's possible to configure Koha so that lost items don't display in the 
+      OPAC with the :ref:`hidelostitems` system preference. 
+
+Mapped to: items.itemlost
+
+Indexed in: lost
+
+.. _9522-classification-source-label:
+
+952$2 - Source of classification or shelving scheme
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field contains the source of classification used by the record's call 
+   number (:ref:`952$o<952o-callnumber-label>`).
+   
+-  The source of classification will be used, along with the call number itself 
+   (:ref:`952$o<952o-callnumber-label>`) to create the normalized call number 
+   (:ref:`952$6<9526-normalized-classification-label>`) used when sorting by 
+   call number.
+
+Values
+
+-  There is a choice of :ref:`classification sources <classification-sources-label>` 
+   as they are defined in administration. 
+   
+-  If no classification scheme is entered, the system will use the value 
+   entered in the :ref:`DefaultClassificationSource` preference.
+
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface. The 
+   information is only available in the item's editing form.
+
+Mapped to: items.cn\_source
+
+Indexed in: classification-source
+
+.. _9523-materials-specified-label:
+
+952$3 - Materials specified
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to add information about accompanying materials or to specify 
+   how many pieces the item has.
+
+Effects on circulation 
+
+-  This information will be displayed when circulation the item so that the 
+   circulation staff knows to make sure all the accompanying material is there when 
+   checkout out and it's still there when checking the item back in.
+
+   |accompanyingmaterials|
+
+Values
+
+-  This is a free text field, but it is possible to associate it to an authorized 
+   value category in the :ref:`MARC framework<edit-a-marc-subfield-label>` to make 
+   it into a drop-down menu.
+
+Display 
+
+-  Staff interface 
+
+   -  This information will appear when checking out or checking in an item
+   
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and\/or otherholdings\_table
+         -  Column: holdings\_materials or otherholdings\_materials
+
+   -  'Items' tab of the bibliographic record, 'Materials specified' under 
+      'Item information'
+
+-  OPAC 
+
+   -  Holdings table in the record's detail page (it is hidden by default)
+   
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to show 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_materials
+   
+Mapped to: items.materials
+
+Indexed in: materials-specified
+
+.. _9524-damaged-status-label:
+
+952$4 - Damaged status
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to set the damaged status of the item. 
+
+-  In the :ref:`search results<search-results-label>`, the damaged item will be 
+   marked as unavailable.
+
+Effects on circulation 
+
+-  The damaged status does not affect the ability to check out or check in an item.
+
+-  The :ref:`AllowHoldsOnDamagedItems` system preference indicates whether or not 
+   damaged items can be put on hold.
+
+Values 
+
+-  The damaged status is numerical, '0' (or empty) means 'not damaged' and any 
+   other number means 'damaged'.
+
+-  By default, the field is associated with the DAMAGED 
+   :ref:`authorized value category <existing-values-label>` so you don't have to 
+   remember the numerical values. The default values in the DAMAGED authorized 
+   value category are:
+
+   -  1: Damaged
+
+Display
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>` (damaged items will be 
+      marked as unavailable)
+ 
+   -  Holdings table in the record's detail page
+ 
+   -  'Items' tab of the bibliographic record, 'Damaged status' under 
+      'Statuses' 
+ 
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (damaged items will be 
+      marked as unavailable)
+
+   -  Holdings table in the record's detail page
+
+   -  To hide damaged items from the OPAC, use the :ref:`OpacHiddenItems` system 
+      preference.
+
+Mapped to: items.damaged
+
+Indexed in: damaged
+
+.. _9525-use-restrictions-label:
+
+952$5 - Use restrictions
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to set the restricted status of the item.
+
+-  In the :ref:`search results<search-results-label>`, the restricted item will 
+   be marked as available.
+
+
+Effects on circulation 
+
+-  A restricted item will not be able to be checked out.
+
+Values 
+
+-  The restricted status is numerical, '1' means restricted and '0' (or empty) means 
+   unrestricted.
+
+.. Note::
+   
+   Unlike other statuses, the restricted status can only be 0 (not restricted) 
+   or 1 (restricted).
+
+-  By default, the field is associated with the RESTRICTED 
+   :ref:`authorized value category <existing-values-label>` so you don't have to 
+   remember the numerical values. The default values in the RESTRICTED authorized 
+   value category are:
+
+   -  1: Access Restricted
+
+Display
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>` (restricted items will be 
+      marked as available)
+
+   -  Holdings table in the record's detail page
+
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (restricted items will be 
+      marked as available)
+
+   -  Holdings table in the record's detail page
+  
+Mapped to: items.restricted
+
+Indexed in: restricted
+
+.. _9526-normalized-classification-label:
+
+952$6 - Koha normalized classification for sorting 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  This field contains the normalized call number used for sorting, based on the 
+   item-level call number 
+   (:ref:`952$o<952o-callnumber-label>`) and the classification source 
+   (:ref:`952$2 <9522-classification-source-label>`).
+
+Display 
+
+-  This information is not displayed anywhere in the OPAC or in the staff 
+   interface, it is for Koha's internal use only.
+   
+Mapped to: items.cn\_sort
+
+Indexed in: cn-sort
+
+.. _9527-notforloan-status-label:
+
+952$7 - Not for loan status
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to set the not for loan status of the item.
+
+-  In the :ref:`search results<search-results-label>`, the not for loan item 
+   will be marked as unavailable or for reference use only (see 
+   :ref:`Reference_NFL_Statuses`)
+
+Effects on circulation 
+
+-  Items with a not for loan status cannot be checked out 
+   (unless :ref:`AllowNotForLoanOverride` allows it)
+
+-  Depending on the value, items may or may not be put on hold (see below)
+
+-  Depending on :ref:`TrapHoldsOnOrder` and :ref:`SkipHoldTrapOnNotForLoanValue` 
+   not for loan items may be used to fill holds
+   
+-  The :ref:`UpdateNotForLoanStatusOnCheckin` system preference can be used to 
+   automatically change not for loan values upon checkin
+
+Values
+
+-  The not for loan status is numerical, '0' (or empty) means available. 
+
+-  Negative values (< 0) mean that the item cannot be checked out, but can be 
+   put on hold. 
+   
+-  Positive values (> 0) mean that the item cannot be checked out nor be put on 
+   hold.
+
+-  By default, the field is associated with the NOT\_LOAN 
+   :ref:`authorized value category <existing-values-label>` so you don't have to 
+   remember the numerical values. The default values in the NOT\_LOAN authorized 
+   value category are:
+
+   -  -1: Ordered
+
+   -  1: Not For Loan 
+
+   -  2: Staff Collection
+
+Display
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>` (not for loan item will be 
+      marked as unavailable or for reference use only (see 
+      :ref:`Reference_NFL_Statuses`))
+   
+   -  Holdings table in the record's detail page
+   
+   -  'Items' tab of the bibliographic record, 'Withdrawn status' under 
+      'Statuses' 
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (not for loan item will be 
+      marked as unavailable or for reference use only (see 
+      :ref:`Reference_NFL_Statuses`))
+
+   -  Holdings table in the record's detail page
+
+   -  To hide not for loan items from the OPAC, use the :ref:`OpacHiddenItems` 
+      system preference. 
+
+Mapped to: items.notforloan
+
+Indexed in: notforloan
+
+.. _9528-collection-code-label:
+
+952$8 - Collection
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to set the collection of the item.
+
+-  Collections in Koha are used to group items in ways other than physically 
+   (the physical location can be stored in :ref:`952$c<952c-location-label>`). 
+   An example of a collection could be 'Local authors'.
+   
+-  Collections can also be used to limit transfers in multi-branch systems (see 
+   the :ref:`Library transfer limits<library-transfer-limits-label>` section of 
+   the administration) if :ref:`BranchTransferLimitsType` is set to 'collection 
+   code'
+
+-  The collection of an item is used in the :ref:`search<advanced-searching-label>` 
+   (see the :ref:`AdvancedSearchTypes` system preference) as well as the 
+   :ref:`facets<search-results-label>`.
+   
+Values 
+
+-  By default, the field is associated with the CCODE 
+   :ref:`authorized value category <existing-values-label>`. The default values 
+   in the CCODE authorized value category are:
+
+   -  FIC: Fiction
+
+   -  NFIC: Non-fiction 
+
+   -  REF: Reference
+
+Display 
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>`
+   
+   -  The collections will be part of the 
+      :ref:`facets in the search results <search-results-label>`
+   
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column 
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_ccode or otherholdings\_ccode
+         
+   -  Checkouts table in the patron's file
+   
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Circulation and Patrons
+         -  Table id: issues-table
+         -  Column: collection
+      
+   -  Many other places all throughout Koha
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>`, if :ref:`OpacItemLocation` 
+      allows it
+   
+   -  The collections will be part of the 
+      :ref:`facets in the search results <search-results-label>`
+
+   -  Holdings table in the record's detail page
+      
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_ccode
+      
+   -  Many other places throughout the OPAC
+
+Mapped to: items.ccode
+
+Indexed in: collection-code
+
+.. _9529-itemnumber-label:
+
+952$9 - Itemnumber
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  The itemnumber is the internal number assigned to each item by Koha. It is 
+   unique and cannot be reattributed even when the item is deleted.
+
+Display 
+
+-  This information is not displayed anywhere in the OPAC or in the staff 
+   interface, it is for Koha's internal use only.
+
+Mapped to: items.itemnumber
+
+Indexed in: itemnumber
+
+.. _952a-homebranch-label:
+
+952$a - Home library
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+**Required**
+
+Uses
+
+-  This field indicates the home library of the item.
+
+-  The home library is important for many things in Koha, including, but not 
+   limited to 
+   
+   -  :ref:`circulation rules <circulation-and-fines-rules-label>`, 
+   
+   -  :ref:`transfer limits <library-transfer-limits-label>`
+   
+-  The home library of an item is used in the :ref:`search<advanced-searching-label>` 
+   as well as the :ref:`facets<search-results-label>` (see the 
+   :ref:`DisplayLibraryFacets` system preference)
+
+Effects on circulation 
+
+-  As previously stated, the 
+   :ref:`circulation rules <circulation-and-fines-rules-label>` are based on 
+   the item's library (see the :ref:`HomeOrHoldingBranch` system preference)
+
+Values 
+
+-  Libraries are defined in the :ref:`libraries <libraries-label>` section of the 
+   administration page.
+
+Display 
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>`
+   
+   -  Depending on the :ref:`DisplayLibraryFacets` system preference, the home 
+      library may be part of the 
+      :ref:`facets in the search results <search-results-label>`
+   
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_homebranch or otherholdings\_homebranch
+      
+   -  This information is displayed in the staff interface, in the 'Items' tab 
+      of the bibliographic record, 'Home library' under 'Item information' 
+         
+   -  Checkouts table in the patron's file
+   
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Circulation and Patrons
+         -  Table id: issues-table
+         -  Column: homebranch
+      
+   -  Many other places all throughout Koha
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (if :ref:`OpacItemLocation` 
+      allows it)
+   
+   -  Depending on the :ref:`DisplayLibraryFacets` system preference, the home 
+      library may be part of the 
+      :ref:`facets in the search results <search-results-label>`
+
+   -  Holdings table in the record's detail page, if 
+      :ref:`OpacLocationBranchToDisplay` allows it
+      
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_home\_location
+      
+   -  Many other places throughout the OPAC
+
+Mapped to: items.homebranch
+
+Indexed in: homelibrary
+
+.. _952b-holdingbranch-label:
+
+952$b - Current library
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+**Required**
+
+Uses
+
+-  This field indicates the current library (holding library) of the item.
+
+-  The current library is important for many things in Koha, including 
+   
+   -  :ref:`circulation rules <circulation-and-fines-rules-label>`, 
+   
+   -  :ref:`transfer limits <library-transfer-limits-label>`
+   
+-  The current library of an item is used in the :ref:`search<advanced-searching-label>` 
+   as well as the :ref:`facets<search-results-label>` (see the 
+   :ref:`DisplayLibraryFacets` system preference)
+
+Effects on circulation 
+
+-  As previously stated, the 
+   :ref:`circulation rules <circulation-and-fines-rules-label>` are based on 
+   the item's library (see the :ref:`HomeOrHoldingBranch` system preference)
+
+Values 
+
+-  Libraries are defined in the :ref:`libraries <libraries-label>` section of the 
+   administration page.
+
+Display 
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>`
+   
+   -  Depending on the :ref:`DisplayLibraryFacets` system preference, the holding 
+      library may be part of the 
+      :ref:`facets in the search results <search-results-label>`
+   
+   -  Holdings table in the record's detail page
+   
+      .. Note:: 
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_holdingbranch or otherholdings\_holdingbranch
+      
+   -  This information is displayed in the staff interface, in the 'Items' tab 
+      of the bibliographic record, 'Current library' under 'Item information' 
+      
+   -  Many other places all throughout Koha
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (if :ref:`OpacItemLocation` 
+      allows it)
+   
+   -  Depending on the :ref:`DisplayLibraryFacets` system preference, the holding 
+      library may be part of the 
+      :ref:`facets in the search results <search-results-label>`
+
+   -  Holdings table in the record's detail page, if 
+      :ref:`OpacLocationBranchToDisplay` allows it
+      
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_current\_location
+      
+   -  Many other places throughout the OPAC
+
+Mapped to: items.holdingbranch
+
+Indexed in: holdinglibrary
+
+.. _952c-location-label:
+
+952$c - Shelving location
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses
+
+-  This field indicates the location of the item (physical place in the library).
+
+-  Shelving locations in Koha are used to group items physically. An example of 
+   a shelving location could be 'Children's section'.
+
+-  The location of an item is used in the :ref:`search<advanced-searching-label>` 
+   (see the :ref:`AdvancedSearchTypes` system preference) as well as the 
+   :ref:`facets<search-results-label>`.
+
+-  The :ref:`UpdateItemLocationOnCheckin` system preference can be used to 
+   automatically change location values upon checkin
+   
+Values 
+
+-  By default, the field is associated with the LOC 
+   :ref:`authorized value category <existing-values-label>`. The default values 
+   in the LOC authorized value category are:
+
+   -  FIC: Fiction
+
+   -  CHLID: Children's Area 
+
+   -  DISPLAY: On Display 
+   
+   -  NEW: New Materials Shelf 
+   
+   -  STAFF: Staff Office 
+   
+   -  GEN: General Stacks 
+   
+   -  AV: Audio Visual 
+   
+   -  REF: Reference 
+   
+   -  CART: Book Cart 
+   
+   -  PROC: Processing Center 
+   
+-  The default value for new items can be set using the 
+   :ref:`NewItemsDefaultLocation` system preference 
+
+Display 
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>`
+   
+   -  The locations will be part of the 
+      :ref:`facets in the search results <search-results-label>`
+   
+   -  Holdings table in the record's detail page (under the home library)
+      
+   -  This information is displayed in the staff interface, in the 'Items' tab 
+      of the bibliographic record, 'Home library' under 'Item information' 
+         
+   -  Checkouts table in the patron's file
+   
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Circulation and Patrons 
+         -  Table id: issues-table
+         -  Column: location 
+      
+   -  Many other places all throughout Koha
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>` (if :ref:`OpacItemLocation` 
+      allows it)
+   
+   -  The locations will be part of the 
+      :ref:`facets in the search results <search-results-label>`
+
+   -  Holdings table in the record's detail page, the 
+      :ref:`OpacLocationOnDetail` system preference indicates in which column 
+      this information is located
+      
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item_shelving_location (if :ref:`OpacLocationOnDetail` is 
+            set to 'separate column')
+      
+   -  Many other places throughout the OPAC
+   
+Mapped to: items.location
+
+Indexed in: location   
+
+.. _952d-date-acquired-label:
+
+952$d - Date acquired
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the date of acquisition of the item.
+
+-  The acquisition date can be used in the search and the sort function in the 
+   search results
+   
+-  When using the Acquisitions module, this should be filled automatically with 
+   the acquisition date
+
+Values
+
+-  This should be a date in the YYYY-MM-DD format (there is a handy date picker 
+   to ensure the date is in the correct format)
+
+Display 
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_dateaccessioned or otherholdings\_dateaccessioned
+         
+   -  'Items' tab of the bibliographic record, 'Accession date' under 'History'
+
+Mapped to: items.dateaccessioned
+
+Indexed in: date-of-acquisition
+
+.. _952e-source-acquisition-label:
+
+952$e - Source of acquisition
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the vendor where the item was acquired
+
+-  When using the Acquisitions module, this should be filled automatically with 
+   the vendor upon receiving
+
+Values
+
+-  This is a free text field
+
+-  If using the Acquisitions field, the value in this field will be the vendor 
+   id rather than the vendor's name 
+
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface. The 
+   information is only available in the item's editing form.
+
+Mapped to: items.booksellerid
+
+Indexed in: acqsource
+
+.. _952f-coded-location-qualifier-label:
+
+952$f - Coded location qualifier
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter a three-character code that identifies the 
+   specific issues of the item that are located apart from the main holdings 
+   of the same item (same as MARC21 852$f).
+
+Values
+
+-  This is a free text field
+
+-  The field in the database is limited to 10 characters
+
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface. The 
+   information is only available in the item's editing form.
+
+Mapped to: items.coded_location_qualifier
+
+Indexed in: coded-location-qualifier
+
+.. _952g-purchase-price-label:
+
+952$g - Cost, normal purchase price
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the purchase price of the item
+
+-  When using the Acquisitions module, this should be filled automatically with 
+   the purchase price upon receiving
+   
+Values
+
+-  This is a free text field
+
+-  The price must be digits, with a period as the decimal, with no currency 
+   symbols (e.g. 24.95)
+   
+-  The field in the database limits to two decimal points (e.g. 24.95 is ok but 
+   24.94875 is not)
+
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface. The 
+   information is only available in the item's editing form.
+
+Mapped to: items.price
+
+Indexed in: price
+
+.. _952h-serial-enumeration-label:
+
+952$h - Serial enumeration / chronology
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the issue number of serials or the volume number 
+   of series 
+
+-  When using the Serials module, this should be filled automatically with 
+   the issue number
+   
+Values
+
+-  This is a free text field
+
+Display 
+
+-  Staff interface 
+
+   -  Holdings table in the record's detail page
+      
+      .. Note:: 
+            
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_enumchron or otherholdings\_enumchron
+
+   -  'Items' tab of the bibliographic record, 'Serial enumeration' under 
+      'History' 
+
+-  OPAC 
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_enumchron
+
+Mapped to: items.enumchron
+
+.. _952i-inventory-number-label:
+
+952$i - Inventory number
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter an inventory number for the item
+
+.. Note::
+  
+   The inventory number is not Koha's internal itemnumber (which is stored in 
+   :ref:`952$9<9529-itemnumber-label>`)
+   
+Values
+
+-  This is a free text field
+
+-  The field in the database is limited to 32 characters
+
+Display 
+
+-  Staff interface 
+
+   -  Holdings table in the record's detail page
+      
+      .. Note:: 
+            
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_stocknumber or otherholdings\_stocknumber
+
+Mapped to: items.stocknumber
+
+Indexed in: number-local-acquisition
+
+.. _952j-shelving-control-number-label:
+
+952$j - Shelving control number
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter a shelf number where the item is located
+   
+Values
+
+-  The stack number should be numerical
+
+-  By default, the field is associated with the STACK
+   :ref:`authorized value category <existing-values-label>` so you don't have to 
+   remember the numerical values. There are no default values.
+   
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface. The 
+   information is only available in the item's editing form.
+
+Mapped to: items.stack
+
+Indexed in: stack
+
+.. _952l-checkouts-label:
+
+952$l - Total checkouts
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  This field contains the total number of past and present issues/checkouts of 
+   this item
+
+-  The number of issues is used to sort search results by popularity
+
+-  The number of issues for each item is used to update the total number of 
+   issues for the record (:ref:`942$0<9420-totalissues-label>`)
+   
+Display 
+
+-  Staff interface 
+
+   -  'Items' tab of the bibliographic record, 'Total checkouts' under 'History'   
+
+Mapped to: items.issues
+
+Indexed in: issues
+
+.. _952m-renewals-label:
+
+952$m - Total renewals
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  This field contains the total number of past renewals of this item 
+   
+Display 
+
+-  Staff interface
+
+   -  'Items' tab of the bibliographic record, 'Current renewals' under 
+      'Statuses'   
+
+Mapped to: items.renewals
+
+Indexed in: renewals
+
+.. _952n-holds-label:
+
+952$n - Total holds
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  This field contains the total number of past and present holds on this item 
+
+-  The number of holds is used to 
+   :ref:`create a RSS feed<custom-rss-feeds-label>` for most reserved items
+   
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface.
+
+Mapped to: items.renewals
+
+Indexed in: renewals
+
+.. _952o-callnumber-label:
+
+952$o - Full call number
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses
+
+-  This field is used to store the item's call number
+
+-  The call number of an item can used in the :ref:`search<advanced-searching-label>` 
+   
+Values 
+
+-  The records call number can be copied into the item's call number, the 
+   :ref:`itemcallnumber` system preference indicates which record field to use 
+   as the source
+
+Display 
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>`
+   
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_itemcallnumber or otherholdings\_itemcallnumber     
+          
+   -  'Items' tab of the bibliographic record, 'Item callnumber' under 
+      'Item information'
+         
+   -  Checkouts table in the patron's file
+   
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Circulation and Patrons 
+         -  Table id: issues-table
+         -  Column: callno 
+      
+   -  Many other places all throughout Koha
+   
+-  OPAC 
+
+   -  :ref:`Search results<search-results-label>`, if :ref:`OpacItemLocation` 
+      allows it
+
+   -  Holdings table in the record's detail page
+      
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item_callnumber 
+   
+   -  Checkouts table in the patron's online account 
+   
+   -  Many other places throughout the OPAC
+   
+Mapped to: items.itemcallnumber
+
+Indexed in: local-classification 
+
+.. _952p-barcode-label:
+
+952$p - Barcode
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+**Required for circulation**
+
+Uses
+
+-  This field is used to store the item's barcode
+
+-  The barcode of an item can used in the :ref:`search<advanced-searching-label>` 
+
+Effects on circulation 
+
+-  The barcode is essential for circulating items
+   
+Values
+
+-  This should be a date in the YYYY-MM-DD format (there is a handy date picker 
+   to ensure the date is in the correct format)
+-  This is a free text field
+
+-  The field in the database is limited to 20 characters
+
+Display 
+ 
+-  Staff interface 
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_barcode or otherholdings\_barcode 
+
+   -  'Items' tab of the bibliographic record
+   
+   -  Checkouts table in the patron's file (in the title column)
+
+   
+Mapped to: items.barcode
+
+Indexed in: barcode
+
+.. _952q-datedue-label:
+
+952$q - Date due
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  When the item is checked out, the due date is stored in this field 
+   (YYYY-MM-DD)
+   
+-  This field is used in the 'Limit to currently available items' in the facets
+   
+Display 
+
+-  The due date appears in a lot of pages in the circulation module, but it is 
+   the due date that comes from the issues, not the item
+   
+Mapped to: items.onloan
+
+Indexed in: onloan
+
+.. _952r-date-last-seen-label:
+
+952$r - Date last seen
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  When the item is checked out or in, edited, inventoried, or during any other 
+   transaction that affects the item, the date is stored in this field 
+   (YYYY-MM-DD)
+   
+Display 
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_lastseen or otherholdings\_lastseen 
+
+   -  'Items' tab of the bibliographic record, 'Last seen' under 'History' 
+   
+Mapped to: items.datelastseen
+
+Indexed in: datelastseen
+
+.. _952s-date-last-checked-out-label:
+
+952$s - Date last checked out
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. Warning::
+   
+   This field should not be editable nor edited manually. 
+
+Uses 
+
+-  When the item is checked out, the date is stored in this field (YYYY-MM-DD)
+   
+Display 
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_datelastborrowed or otherholdings\_datelastborrowed 
+
+   -  'Items' tab of the bibliographic record, 'Last borrowed' under 'History' 
+
+Mapped to: items.datelastborrowed
+
+Indexed in: datelastborrowed
+
+.. _952t-copy-number-label:
+
+952$t - Copy number
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the copy number of the item
+
+Values
+
+-  This is a free text field
+
+-  The field in the database is limited to 32 characters
+   
+Display 
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_copynumber or otherholdings\_copynumber 
+
+   -  'Items' tab of the bibliographic record, 'Copy number' under 'History' 
+
+-  OPAC 
+
+   -  Holdings table in the record's detail page
+      
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_copy 
+
+Mapped to: items.copynumber
+
+Indexed in: copynumber
+
+.. _952u-uri-label:
+
+952$u - URI
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter a URL or URN specific to the item
+
+-  It is not necessary to enter a URL here if there is already a URL in 856$u 
+   at the record-level, unless the URL for the specific item differs from the 
+   one in 856$u (for example, if you have an online periodical, you can put the 
+   URL to the periodical in 856$u and the URL to the specific issue in 952$u)
+
+Values 
+
+-  It should be a full URL starting with http:// or https://
+   
+Display  
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_uri or otherholdings\_uri 
+
+-  OPAC 
+
+   -  Holdings table in the record's detail page
+      
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_url 
+
+Mapped to: items.uri
+
+Indexed in: uri
+
+.. _952v-replacement-cost-label:
+
+952$v - Cost, replacement price
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the replacement cost that will be charged to the 
+   patron who loses the item
+
+-  When using the Acquisitions module, this should be filled automatically with 
+   the replacement price upon receiving
+  
+Values
+
+-  This is a free text field
+
+-  The price must be digits, with a period as the decimal, with no currency 
+   symbols (e.g. 24.95)
+  
+-  The field in the database limits to two decimal points (e.g. 24.95 is ok but 
+   24.94875 is not)
+
+Display 
+
+-  Staff interface
+
+   -  Checkouts table in the patron's file (in the price column)
+   
+      .. Note::
+        
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Circulation and Patrons 
+         -  Table id: issues-table
+         -  Column: price 
+
+   -  'Items' tab of the bibliographic record, 'Replacement price' under 
+      'Item information'
+
+Mapped to: items.replacementprice
+
+Indexed in: replacementprice
+
+.. _952w-replacement-price-date-label:
+
+952$w - Price effective from
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter the date of the replacement price of the item
+
+-  When using the Acquisitions module, this should be filled automatically with 
+   the acquisition date upon receiving
+   
+-  If left empty, it will default to the acquisition date 
+   (:ref:`952$d<952d-date-acquired-label>`)
+   
+Values
+
+-  This should be a date in the YYYY-MM-DD format
+
+Display 
+
+-  This is not displayed either in the OPAC or in the staff interface. The 
+   information is only available in the item's editing form.
+
+Mapped to: items.replacementpricedate
+
+Indexed in: replacementpricedate
+
+.. _952x-non-public-note-label:
+
+952$x - Non-public note
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter internal notes about the item
+
+Values
+
+-  This is a free text field
+   
+Display 
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_itemnotes\_nonpublic or 
+            otherholdings\_itemnotes\_nonpublic 
+
+   -  'Items' tab of the bibliographic record, 'Non-public note' under 'History'
+
+Mapped to: items.itemnotes\_nonpublic
+
+.. _952y-item-type-label:
+
+952$y - Koha item type
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+**Required**
+
+Uses 
+
+-  This field contains the item-level item type.
+
+-  The item-level item type is used in various places in Koha.
+  
+   -  The item-level item type is generally used for the circulation rules 
+      unless the :ref:`item-level\_itypes<item-level_itypes-label>` system 
+      preference is set to use the record-level item type (this system 
+      preference lets you choose between using the record-level or 
+      item-level item type for the circulation rules, among other things)
+
+   -  The item-level item type is :ref:`indexed<koha-search-indexes-label>` and 
+      used in the :ref:`search<advanced-searching-label>` (see also the 
+      :ref:`AdvancedSearchTypes` system preference) as well as the 
+      :ref:`facets<search-results-label>` 
+
+Effects on circulation
+
+-  The item type is used as the basis for circulation rules, it will affect 
+   the number of items a patron can take out at the same time, number of holds,
+   etc.)
+   
+Values 
+
+-  The values are managed in :ref:`item types<item-types-label>`
+
+Display 
+
+-  Staff interface 
+
+   -  :ref:`Search results<search-results-label>`
+   
+   -  The itemtypes will be part of the 
+      :ref:`facets in the search results <search-results-label>`
+   
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column 
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_itype or otherholdings\_itype
+         
+   -  'Items' tab of the bibliographic record, 'Item type' under 
+      'Item information'
+         
+   -  Checkouts table in the patron's file
+   
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Circulation and Patrons
+         -  Table id: issues-table
+         -  Column: item\_type
+      
+   -  Many other places all throughout Koha
+   
+-  OPAC 
+ 
+   -  The item types will be part of the 
+      :ref:`facets in the search results <search-results-label>`
+
+   -  Holdings table in the record's detail page
+      
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_itemtype
+      
+   -  Many other places throughout the OPAC
+
+Mapped to: items.itype
+
+Indexed in: itemtype (mc-itemtype), itype (mc-itype)
+
+.. _952z-public-note-label:
+
+952$z - Public note
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Uses 
+
+-  This field is used to enter notes about the item
+
+Values
+
+-  This is a free text field
+   
+Display 
+
+-  Staff interface
+
+   -  Holdings table in the record's detail page
+   
+      .. Note::
+     
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: Catalogue
+         -  Table id: holdings\_table and/or otherholdings\_table
+         -  Column: holdings\_itemnotes or otherholdings\_itemnotes\ 
+
+   -  'Items' tab of the bibliographic record, 'Public note' under 'History'
+
+-  OPAC
+
+   -  Holdings table in the record's detail page
+      
+      .. Note::
+         
+         Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
+         that column
+         -  Module: OPAC
+         -  Table id: holdingst
+         -  Column: item\_notes
+
+
+Mapped to: items.itemnotes
+
+Indexed in: note
+
 .. _999-system-control-numbers-label:
 
 System control numbers (999)
@@ -1566,6 +3258,10 @@ System control numbers (999)
 
 Koha stores its system control numbers in the 999 field in MARC21 and in the 090
 field in UNIMARC.
+
+.. Note::
+  
+   The itemnumber is stored in :ref:`952$9<9529-itemnumber-label>` (see above).
 
 .. _999c-biblionumber-label:
 
@@ -1607,105 +3303,6 @@ Indexed in: biblioitemnumber
   
    In UNIMARC, the biblioitemnumber is stored in the 090$a subfield.
 
-.. _item/holdings-record-cataloging-guide-label:
-
-Item/Holdings Record Cataloging Guide
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This table represents the default embedded holdings data in Koha. This
-information can be used for migration or importing data purposes
-
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| MARC21 Tag/subfield   | Data Element                                        | Description                                                                      | Notes                                                                                                                                                                                                                                                                    |
-+=======================+=====================================================+==================================================================================+==========================================================================================================================================================================================================================================================================+
-| 952$0                 | Withdrawn status                                    | Default values:                                                                  | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('WITHDRAWN' in default installation)                                                                                                                                                   |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  0 = Not withdrawn                                                             |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  1 = Withdrawn                                                                 |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$1                 | Lost status                                         | Default values:                                                                  | It's possible to configure OPAC so that lost items don't display with the :ref:`hidelostitems` system preference.                                                                                                                                                        |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  0 = Available                                                                 | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('LOST' in default installation)                                                                                                                                                        |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  1 = Lost                                                                      |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  2 = Long Overdue (Lost)                                                       |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  3 = Lost and Paid For                                                         |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  4 = Missing in Inventory                                                      |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  5 = Missing in Hold Queue                                                     |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$2                 | Classification                                      | Classification scheme that defines filing rules used for sorting call numbers.   | A choice of :ref:`classification sources <classification-sources-label>` as they are defined in administration. If no classification scheme is entered, the system will use the value entered in the :ref:`DefaultClassificationSource` preference.                      |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$3                 | Materials specified                                 | Specific issues of serials or multi-part items.                                  | Displayed when items are checked out and in to tell the staff how many pieces the item has. Copy/volume data is stored in 952$h and $t for display in Normal views.                                                                                                      |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$4                 | Damaged status                                      | Default values:                                                                  | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('DAMAGED' in default installation)                                                                                                                                                     |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  0 = Not damaged                                                               |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  1 = Damaged                                                                   |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$5                 | Use restrictions                                    | Default values:                                                                  | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('RESTRICT' in default installation). This value has no effect on circulation.                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  0 = No use restrictions                                                       |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  1 = Restricted Access                                                         |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$7                 | Not for loan                                        | Default values:                                                                  | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('NOT\_LOAN' in default installation). Negative number values can still be placed on hold.                                                                                              |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  -1 = Ordered                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  0 = Available for loans                                                       |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  1 = Not for Loan                                                              |                                                                                                                                                                                                                                                                          |
-|                       |                                                     |                                                                                  |                                                                                                                                                                                                                                                                          |
-|                       |                                                     | -  2 = Staff Collection                                                          |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$8                 | Collection code                                     | Coded value                                                                      | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('CCODE' in default installation)                                                                                                                                                       |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$9                 | Item number                                         | System-generated item number.                                                    | Does not display in the item record.                                                                                                                                                                                                                                     |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$a                 | Owning Library \*\*                                 | Branch code                                                                      | **Required**. Code must be defined in :ref:`Libraries <libraries-label>`                                                                                                                                                                                                 |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$b                 | Holding library \*\* (usually the same as 952$a )   | Branch code                                                                      | **Required**. Code must be defined in :ref:`Libraries <libraries-label>`                                                                                                                                                                                                 |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$c                 | Shelving location code                              |                                                                                  | Coded value, matching :ref:`Authorized value <authorized-values-label>` category ('LOC' in default installation)                                                                                                                                                         |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$d                 | Date acquired                                       | YYYY-MM-DD                                                                       | Date formats in the 952 subfields are required to be in the system internal format for data loading and subsequent item editing: YYYY-MM-DD                                                                                                                              |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$e                 | Source of acquisition                               | Coded value or vendor string                                                     | Filled in automatically with the Koha assigned vendor id by Acquisitions when an item is received.                                                                                                                                                                       |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$g                 | Purchase price                                      | Decimal number, no currency symbol (ex. 10.00)                                   | Filled in automatically by Acquisitions when an item is received.                                                                                                                                                                                                        |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$h                 | Serial enumeration                                  |                                                                                  | Filled in automatically by Serials if the issue is received there.                                                                                                                                                                                                       |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$o                 | Koha full call number                               |                                                                                  | Can be filled in automatically based on the :ref:`itemcallnumber` system preference.                                                                                                                                                                                     |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$p                 | Barcode \*                                          | Max 20 characters                                                                |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$t                 | Copy number                                         | Max 32 characters                                                                |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$u                 | Uniform Resource Identifier                         | Item specific URL                                                                | Full URL starting with http:// Only needed if your item has its own URL, not necessary if the bib record has a 856$u that applies to all items on the record.                                                                                                            |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$v                 | Replacement price                                   | Decimal number, no currency symbol (ex. 10.00)                                   | Filled in automatically by Acquisitions when an item is received.                                                                                                                                                                                                        |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$w                 | Price effective from                                | YYYY-MM-DD                                                                       | Date formats in the 952 subfields are required to be in the system internal format for data loading and subsequent item editing: YYYY-MM-DD. Filled in automatically by Acquisitions when an item is received.                                                           |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$x                 | Nonpublic note                                      |                                                                                  | This is a note field for notes that will not appear in the OPAC. Right now this note does not appear anywhere but in the item edit screen in the staff client.                                                                                                           |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$y                 | Koha item type \*\*                                 | Coded value, required field for circulation                                      | **Required**. Coded value, must be defined in :ref:`Item types <item-types-label>`                                                                                                                                                                                       |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 952$z                 | Public note                                         |                                                                                  |                                                                                                                                                                                                                                                                          |
-+-----------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-Table: Koha Embedded Holdings Data
-
-\* - required for circulation
-
-\*\* - required by Koha
 
 .. _material-type-cataloging-guide-label:
 
