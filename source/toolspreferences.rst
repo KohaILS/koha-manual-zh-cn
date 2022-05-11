@@ -142,7 +142,7 @@ Description:
 
 -  This system preference allows you to choose which editor to use in the 
    :ref:`news tool <news-label>` and the 
-   :ref:`additional contents tool <additional-contents-label>`.
+   :ref:`HTML customizations tool <html-customizations-label>`.
 
 -  A text editor will let you write HTML directly. Use this if you want more 
    control over how your content will be displayed. 
