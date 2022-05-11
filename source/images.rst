@@ -115,6 +115,9 @@
 .. |lastpatron| image:: images/admin/globalprefs/lastpatron.png
 				:alt: A small 'Last patron' button appears on the right side of the screen
 
+.. |OpacFavicon| image:: images/admin/globalprefs/OpacFavicon.png
+				:alt: A browser tab opened to the OPAC's main page, there is the little 'K' favicon followed by the page title 'Koha online catalog'
+
 .. |opacSerialDefaultTab-colltab| image:: images/admin/globalprefs/opacSerialDefaultTab-colltab.png
 				:alt: Example of a Serial collection tab in the OPAC
 
@@ -217,7 +220,7 @@
 				:alt: Under the login fields, there is a 'Forgot your password' link
 
 .. |maxoutstanding| image:: images/opac/maxoutstanding.png
-				:alt: Warning message saying Please note Your account has outstanding fees & charges of 2.00. Holds are blocked because your fine balance is over the limit.
+				:alt: Warning message saying Please note Your account has outstanding fees & charges of 12.50. Holds are blocked because your fine balance is over the limit.
 
 
 .. |OPACFineNoRenewals| image:: images/opac/OPACFineNoRenewals.png
@@ -523,7 +526,6 @@
 .. |image67| image:: images/admin/globalprefs/OPACBaseURL.png
 .. |image70| image:: images/admin/globalprefs/OPACDisplay856uAsImage.png
 .. |image71| image:: images/admin/globalprefs/856imagemarc.png
-.. |image72| image:: images/admin/globalprefs/favicon.png
 .. |image75| image:: images/admin/globalprefs/OpacKohaUrl.png
 .. |image76| image:: images/admin/globalprefs/opacmaintenance.png
 .. |image78| image:: images/admin/globalprefs/OPACMySummaryHTML.png
@@ -531,8 +533,6 @@
 .. |image80| image:: images/admin/globalprefs/OpacNavBottom.png
 .. |image82| image:: images/admin/globalprefs/OPACNoResultsFound.png
 .. |image83| image:: images/admin/globalprefs/OpacSeparateHoldings.png
-.. |image84| image:: images/admin/globalprefs/OPACShowBarcode-noshow.png
-.. |image85| image:: images/admin/globalprefs/OPACShowBarcode-show.png
 .. |image88| image:: images/admin/globalprefs/OpacShowRecentComments.png
 .. |image89| image:: images/admin/globalprefs/OpacStarRatings-details.png
 .. |image90| image:: images/admin/globalprefs/OpacStarRatings-results.png
@@ -584,10 +584,6 @@
 .. |image145| image:: images/admin/basicparams/authvallist.png
 .. |image146| image:: images/admin/basicparams/addauthvalue.png
 .. |image147| image:: images/admin/basicparams/authvals.png
-.. |image150| image:: images/admin/patroncirc/patcaterror.png
-.. |image151| image:: images/admin/patroncirc/patcaterror.png
-.. |image152| image:: images/admin/patroncirc/patcaterror.png
-.. |image155| image:: images/admin/patroncirc/patcaterror.png
 .. |image156| image:: images/admin/patroncirc/selectissuinglibrary.png
 				:alt: 'Select a library' drop down menu
 .. |image157| image:: images/admin/patroncirc/addcircrule.png
@@ -1687,7 +1683,6 @@
 .. |image1319| image:: images/appendix-oclc/oclcstatus.png
 .. |image1320| image:: images/appendix-oclc/oclcexportbatch.png
 .. |image1321| image:: images/appendix-oclc/oclcprocessbatch.png
-.. |image1322| image:: images/opac/allowcheckoutnotes.png
 .. |image1323| image:: images/admin/basicparams/addsubgroup.png
 .. |image1324| image:: images/admin/basicparams/deletegroup.png
 .. |image1325| image:: images/admin/basicparams/deletegroupconfirm.png
@@ -1738,7 +1733,6 @@
 .. |image1373| image:: images/opac/MyILLrequests.png
 .. |image1374| image:: images/opac/ILLformpicker.png
 .. |image1375| image:: images/opac/ILLform.png
-.. |image1380| image:: images/serials/showfieldsmarc.png
 .. |image1381| image:: images/tools/stockrotation/sr_summary.png
 .. |image1382| image:: images/tools/stockrotation/sr_edit_rota.png
 .. |image1383| image:: images/tools/stockrotation/sr_manage_stages.png

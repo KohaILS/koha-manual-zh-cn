@@ -467,26 +467,24 @@ Description:
 .. _opacfavicon-label:
 
 OpacFavicon
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Asks: Use the image at \_\_\_ for the OPAC's favicon.
 
-    **Important**
-
-    This should be a complete URL, starting with http://
-
-    **Note**
-
-    Turn your logo into a favicon with the `Favicon
-    Generator <http://antifavicon.com/>`__.
-
 Description:
 
--  The favicon is the little icon that appears next to the URL in the
-   address bar in most browsers. The default value for this field (if
-   left blank) is the small 'K' in the Koha logo.
+-  The favicon is the little icon that appears next to the page title in the
+   tab in most browsers. The default value for this field (if
+   left blank) is the small 'K' of the Koha logo on a white background.
+   
+   |OpacFavicon|   
+   
+-  Enter a complete URL (starting with http:// or https://) to your image
+ 
+.. Note::
 
-   |image72|
+   Turn your logo into a favicon with the 
+   `Favicon Generator <http://antifavicon.com/>`__.
 
 .. _opachighlightedwords-and-nothighlightedwords-label:
 
