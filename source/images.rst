@@ -180,6 +180,28 @@
 .. |itemcoverimagedelete| image:: images/cataloging/itemcoverimagedelete.png
 				:alt: Deleting a cover image for an item
 
+.. |MergeAutsDiffFrameworksScreenshot1| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot1.png 
+				:alt: Screenshot of authority search	results for Ahab, Captain, the top one a Topical Term and the bottom one a Personal Name
+				
+.. |MergeAutsDiffFrameworksScreenshot2| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot2.png 
+				:alt: Same screenshot showing the opened Edit menu with Merge selected
+
+.. |MergeAutsDiffFrameworksScreenshot3| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot3.png 
+				:alt: Screenshot showing the authorized term and its authority record number, and Cancel Merge option at top of search results
+
+.. |MergeAutsDiffFrameworksScreenshot4| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot4.png 
+				:alt: Screenshot showing the top record selected as Primary with the Using Framework menu opened and Personal Name selected
+
+.. |MergeAutsDiffFrameworksScreenshot5| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot5.png 
+				:alt: Screenshot of the Merging Records window showing the Source Records and Destination Records in MARC
+
+.. |MergeAutsDiffFrameworksScreenshot6| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot6.png 
+				:alt: Screenshot showing the new Primary Record
+
+.. |MergeAutsDiffFrameworksScreenshot7| image:: images/cataloging/MergeAutsDiffFrameworksScreenshot7.png 
+				:alt: Screenshot of one bibliographic record's linked subject heading for Ahab, Captain, now updated from a 650 Topic field to a 600 Personal Name field
+
+
 .. CIRCULATION
 
 .. |accompanyingmaterials| image:: images/circ/accompanyingmaterials.png
