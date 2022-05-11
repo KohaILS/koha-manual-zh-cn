@@ -121,6 +121,13 @@
 .. |opacSerialDefaultTab-subtab| image:: images/admin/globalprefs/opacSerialDefaultTab-subtab.png
 				:alt: Example of a Subscription tab in the OPAC
 
+.. |Reference_NFL_Statuses-Available-for-reference| image:: images/admin/globalprefs/Reference_NFL_Statuses-Available-for-reference.png
+				:alt: When the not for loan status is in the Reference_NFL_Statuses list, it will appear as 'Available for reference' in the OPAC. The image shows a search result in the OPAC with one item 'Available for reference' (in green text)
+				
+.. |Reference_NFL_Statuses-Not-available| image:: images/admin/globalprefs/Reference_NFL_Statuses-Not-available.png
+				:alt: When the not for loan status is NOT in the Reference_NFL_Statuses list, it will appear as 'Not available' in the OPAC. The image shows a search result in the OPAC with one item 'Not available' (in red text)
+	
+
 .. |StaffDetailItemSelection| image:: images/admin/globalprefs/StaffDetailItemSelection.png
 				:alt: Checkboxes are displayed next to every item in the holdings tab of a detailed bibliographic record
 

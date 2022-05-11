@@ -1399,6 +1399,38 @@ Description:
    allow you either use the default look that comes with Koha or design
    your own stylesheet.
 
+.. _reference_nfl_statuses-label:
+
+Reference_NFL_Statuses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: List the following not for loan statuses as available for reference in 
+OPAC search results: \_\_\_ 
+
+Default: 1|2
+
+Description:
+
+-  This system preference is used to specify which not for loan statuses should 
+   appear as 'Available for reference'
+   
+   |Reference_NFL_Statuses-Available-for-reference|
+   
+   When the not for loan status is in the Reference\_NFL\_Statuses list, it will 
+   appear as 'Available for reference' in green text in the OPAC.
+   
+   -  The other not for loan statuses will appear as 'Not available'
+   
+      |Reference_NFL_Statuses-Not-available|
+      
+      When the not for loan status is NOT in the Reference\_NFL\_Statuses list, 
+      it will appear as 'Not available' in red text in the OPAC.
+
+-  The values for the not for loan statuses are found in the NOT\_LOAN 
+   :ref:`authorized value category<existing-values-label>`.
+   
+-  Values must be separated by a pipe (|)
+
 .. _opacfeatures-label:
 
 Features
