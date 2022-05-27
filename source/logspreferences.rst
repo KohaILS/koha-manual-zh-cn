@@ -79,6 +79,63 @@ Value:
 Logging
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _acquisitionlog-label:
+
+AcquisitionLog
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ when acquisition actions take place.
+
+Default: Don't log
+
+Values:
+
+-  Don't log
+
+-  Log
+
+Description:
+
+-  This system preference controls whether or not Koha will log various actions
+   done in the :ref:`acquisitions module<acquisitions-label>`. These actions
+   include:
+
+   -  Adding new baskets
+
+   -  Re-opening closed baskets
+
+   -  Modifying baskets
+
+   -  Modifying basket headers
+
+   -  Modifying basket users
+
+   -  Closing baskets
+
+   -  Approving baskets
+
+   -  Creating a new order line
+
+   -  Cancelling an order line
+
+   -  Adding an invoice adjustment
+
+   -  Editing an invoice adjustment
+
+   -  Deleting an invoice adjustment
+
+   -  Receiving an order line against an invoice
+
+   -  Editing a budget
+
+   -  Editing a fund
+
+   -  Order release date (EDIFACT)
+
+-  These logs are searchable through the :ref:`log viewer tool <log-viewer-label>`.
+
+-  These logs are kept in the action\_logs table in the database.
+
 .. _authfailurelog-label:
 
 AuthFailureLog
