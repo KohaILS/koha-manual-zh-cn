@@ -706,6 +706,49 @@ Description:
 -  Use :ref:`numSearchResultsDropdown` to define if the dropdown appears in 
    the staff interface.
 
+.. _passitemmarctoxslt-label:
+
+PassItemMarcToXSLT
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ make item MARC tags available to XSLT stylesheets.
+
+Default: Don't
+
+Values:
+
+-  Don't
+
+-  Do
+
+Description:
+
+-  This system preference determines whether or not the item fields are passed
+   to the XSLT stylesheets for display.
+
+-  Enable only if using custom XSLT stylesheets that display the items.
+
+   -  If using default XSLT stylesheets, items are not displayed using these
+      stylesheets but through different methods (holdings table), so it is not
+      necessary to make these fields available to the XSLT stylesheets.
+
+   -  Use the following system preferences for custom stylesheets:
+
+      -  :ref:`OPACXSLTDetailsDisplay`
+
+      -  :ref:`OPACXSLTListsDisplay`
+
+      -  :ref:`OPACXSLTResultsDisplay`
+
+      -  :ref:`XSLTDetailsDisplay`
+
+      -  :ref:`XSLTListsDisplay`
+
+      -  :ref:`XSLTResultsDisplay`
+
+-  If this system preference is disabled, records are displayed faster when
+   using the default XSLT stylesheets.
+
 .. _searchwithisbnvariations-label:
 
 SearchWithISBNVariations

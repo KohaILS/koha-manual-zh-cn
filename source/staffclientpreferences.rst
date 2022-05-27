@@ -572,23 +572,23 @@ Asks: Display details in the staff client using XSLT stylesheet at
 
 Values:
 
--  enter "default" for the default one
+-  Enter "default" to use the default stylesheet
 
--  put a path to define a XSLT file
+-  Enter a path to an XSLT file
 
-   -  ex: /path/to/koha/and/your/stylesheet.xsl
+   -  For example, /path/to/koha/and/your/stylesheet.xsl
 
-   -  If in a multi-language system you can enter {langcode} in the path
+   -  In a multi-language system you can enter {langcode} in the path
       to tell Koha to look in the right language folder
 
-      -  ex:
+      -  For example,
          /home/koha/src/koha-tmpl/intranet-tmpl/prog/{langcode}/xslt/intranetDetail.xsl
 
-      -  ex. http://mykoha.org/{langcode}/stylesheet.xsl
+      -  For example, http://mykohaopac.org/{langcode}/stylesheet.xsl
 
--  put an URL for an external specific stylesheet
+-  Enter an URL to an external stylesheet
 
-   -  ex: http://mykoha.org/stylesheet.xsl
+   -  For example, http://mykohaopac.org/stylesheet.xsl
 
 Default: default
 
@@ -600,7 +600,11 @@ Description:
    stylesheet.
 
 -  This system preference controls the display of the detailed bibliographic
-   record
+   record in the staff interface.
+
+-  If using a custom stylesheet that uses item MARC fields, enable the
+   :ref:`PassItemMarcToXSLT` system preference. Otherwise, item fields are
+   not available for use in XSLT stylesheets.
 
 See also:
 
@@ -612,34 +616,34 @@ See also:
 
 -  :ref:`DisplayIconsXSLT`
 
+-  :ref:`PassItemMarcToXSLT`
+
 .. _xsltlistsdisplay-label:
 
 XSLTListsDisplay
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Display lists in the staff interface using XSLT stylesheet at \_\_\_
+Asks: Display lists in the staff interface using XSLT stylesheet at: \_\_\_
 
 Values:
 
--  leave empty to not use the XSLT stylesheet
+-  Enter "default" to use the default stylesheet
 
--  enter "default" for the default one
+-  Enter a path to an XSLT file
 
--  put a path to define a XSLT file
+   -  For example, /path/to/koha/and/your/stylesheet.xsl
 
-   -  ex: /path/to/koha/and/your/stylesheet.xsl
-
-   -  If in a multi-language system you can enter {langcode} in the path
+   -  In a multi-language system you can enter {langcode} in the path
       to tell Koha to look in the right language folder
 
-      -  ex:
+      -  For example,
          /home/koha/src/koha-tmpl/intranet-tmpl/prog/{langcode}/xslt/intranetDetail.xsl
 
-      -  ex. http://mykoha.org/{langcode}/stylesheet.xsl
+      -  For example, http://mykohaopac.org/{langcode}/stylesheet.xsl
 
--  put an URL for an external specific stylesheet
+-  Enter an URL to an external stylesheet
 
-   -  ex: http://mykoha.org/stylesheet.xsl
+   -  For example, http://mykohaopac.org/stylesheet.xsl
 
 Default: default
 
@@ -651,7 +655,11 @@ Description:
    stylesheet.
 
 -  This system preference controls the display of the records in a 
-   :ref:`list <lists-label>`
+   :ref:`list <lists-label>` in the staff interface.
+
+-  If using a custom stylesheet that uses item MARC fields, enable the
+   :ref:`PassItemMarcToXSLT` system preference. Otherwise, item fields are
+   not available for use in XSLT stylesheets.
 
 See also:
 
@@ -660,6 +668,8 @@ See also:
 -  :ref:`XSLTDetailsDisplay`
 
 -  :ref:`XSLTResultsDisplay`
+
+-  :ref:`PassItemMarcToXSLT`
 
 .. _xsltresultsdisplay-label:
 
@@ -670,23 +680,23 @@ Asks: Display results in the staff interface using XSLT stylesheet at \_\_\_
 
 Values:
 
--  enter "default" for the default one
+-  Enter "default" to use the default stylesheet
 
--  put a path to define a XSLT file
+-  Enter a path to an XSLT file
 
-   -  ex: /path/to/koha/and/your/stylesheet.xsl
+   -  For example, /path/to/koha/and/your/stylesheet.xsl
 
-   -  If in a multi-language system you can enter {langcode} in the path
+   -  In a multi-language system you can enter {langcode} in the path
       to tell Koha to look in the right language folder
 
-      -  ex:
+      -  For example,
          /home/koha/src/koha-tmpl/intranet-tmpl/prog/{langcode}/xslt/intranetDetail.xsl
 
-      -  ex. http://mykoha.org/{langcode}/stylesheet.xsl
+      -  For example, http://mykohaopac.org/{langcode}/stylesheet.xsl
 
--  put an URL for an external specific stylesheet
+-  Enter an URL to an external stylesheet
 
-   -  ex: http://mykoha.org/stylesheet.xsl
+   -  For example, http://mykohaopac.org/stylesheet.xsl
 
 Default: default
 
@@ -698,7 +708,11 @@ Description:
    your own stylesheet.
 
 -  This system preference controls the display of the records in the 
-   :ref:`search results <search-results-label>`
+   :ref:`search results <search-results-label>` in the staff interface.
+
+-  If using a custom stylesheet that uses item MARC fields, enable the
+   :ref:`PassItemMarcToXSLT` system preference. Otherwise, item fields are
+   not available for use in XSLT stylesheets.
 
 See also:
 
@@ -709,6 +723,8 @@ See also:
 -  :ref:`XSLTListsDisplay`
 
 -  :ref:`DisplayIconsXSLT`
+
+-  :ref:`PassItemMarcToXSLT`
 
 .. _staff-client-authentication-preferences-label:
 

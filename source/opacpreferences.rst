@@ -1277,77 +1277,86 @@ Description:
 .. _opacxsltdetailsdisplay-label:
 
 OPACXSLTDetailsDisplay
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Display OPAC details using XSLT stylesheet at: \_\_\_
 
 Default: default
 
-Asks: Display OPAC details using XSLT stylesheet at \_\_\_
-
 Values:
 
--  leave empty to not use the XSLT stylesheet
+-  Enter "default" to use the default stylesheet
 
-   -  In previous versions of Koha this was the setting that read
-      'normally'
+-  Enter a path to an XSLT file
 
--  enter "default" for the default one
+   -  For example, /path/to/koha/and/your/stylesheet.xsl
 
--  put a path to define a XSLT file
-
-   -  ex: /path/to/koha/and/your/stylesheet.xsl
-
-   -  If in a multi-language system you can enter {langcode} in the path
+   -  In a multi-language system you can enter {langcode} in the path
       to tell Koha to look in the right language folder
 
-      -  ex:
+      -  For example,
          /home/koha/src/koha-tmpl/opac-tmpl/bootstrap/{langcode}/xslt/MARC21slim2OPACDetail.xsl
 
-      -  ex. http://mykohaopac.org/{langcode}/stylesheet.xsl
+      -  For example, http://mykohaopac.org/{langcode}/stylesheet.xsl
 
--  put an URL for an external specific stylesheet
+-  Enter an URL to an external stylesheet
 
-   -  ex: http://mykohaopac.org/stylesheet.xsl
+   -  For example, http://mykohaopac.org/stylesheet.xsl
 
 Description:
 
 -  XSLT stylesheets allow for the customization of the details shows on
-   the screen when viewing a bib record. This preference will allow you
+   the screen when viewing a bibliographic record. This preference will allow you
    either use the default look that comes with Koha or design your own
    stylesheet.
+
+-  This system preference controls the display of the detailed bibliographic
+   record in the OPAC.
+
+-  If using a custom stylesheet that uses item MARC fields, enable the
+   :ref:`PassItemMarcToXSLT` system preference. Otherwise, item fields are
+   not available for use in XSLT stylesheets.
+
+See also:
+
+-  :ref:`OPACXSLTListsDisplay`
+
+-  :ref:`OPACXSLTResultsDisplay`
+
+-  :ref:`XSLTDetailsDisplay`
+
+-  :ref:`DisplayOPACiconsXSLT`
+
+-  :ref:`PassItemMarcToXSLT`
 
 .. _opacxsltlistsdisplay-label:
 
 OPACXSLTListsDisplay
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Display lists in the OPAC using XSLT stylesheet at: \_\_\_
 
 Default: default
 
-Asks: Display lists in the OPAC using XSLT stylesheet at \_\_\_
-
 Values:
 
--  leave empty to not use the XSLT stylesheet
+-  Enter "default" to use the default stylesheet
 
-   -  In previous versions of Koha this was the setting that read
-      'normally'
+-  Enter a path to an XSLT file
 
--  enter "default" for the default one
+   -  For example, /path/to/koha/and/your/stylesheet.xsl
 
--  put a path to define a XSLT file
-
-   -  ex: /path/to/koha/and/your/stylesheet.xsl
-
-   -  If in a multi-language system you can enter {langcode} in the path
+   -  In a multi-language system you can enter {langcode} in the path
       to tell Koha to look in the right language folder
 
-      -  ex:
+      -  For example,
          /home/koha/src/koha-tmpl/opac-tmpl/bootstrap/{langcode}/xslt/MARC21slim2OPACResults.xsl
 
-      -  ex. http://mykohaopac.org/{langcode}/stylesheet.xsl
+      -  For example, http://mykohaopac.org/{langcode}/stylesheet.xsl
 
--  put an URL for an external specific stylesheet
+-  Enter an URL to an external stylesheet
 
-   -  ex: http://mykohaopac.org/stylesheet.xsl
+   -  For example, http://mykohaopac.org/stylesheet.xsl
 
 Description:
 
@@ -1356,39 +1365,51 @@ Description:
    allow you either use the default look that comes with Koha or design
    your own stylesheet.
 
+-  This system preference controls the display of the records in a
+   :ref:`list <lists-label>` in the OPAC.
+
+-  If using a custom stylesheet that uses item MARC fields, enable the
+   :ref:`PassItemMarcToXSLT` system preference. Otherwise, item fields are
+   not available for use in XSLT stylesheets.
+
+See also:
+
+-  :ref:`OPACXSLTDetailsDisplay`
+
+-  :ref:`OPACXSLTResultsDisplay`
+
+-  :ref:`XSLTListsDisplay`
+
+-  :ref:`PassItemMarcToXSLT`
+
 .. _opacxsltresultsdisplay-label:
 
 OPACXSLTResultsDisplay
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default: default
-
 Asks: Display OPAC results using XSLT stylesheet at \_\_\_
+
+Default: default
 
 Values:
 
--  leave empty to not use the XSLT stylesheet
+-  Enter "default" to use the default stylesheet
 
-   -  In previous versions of Koha this was the setting that read
-      'normally'
+-  Enter a path to an XSLT file
 
--  enter "default" for the default one
+   -  For example, /path/to/koha/and/your/stylesheet.xsl
 
--  put a path to define a XSLT file
-
-   -  ex: /path/to/koha/and/your/stylesheet.xsl
-
-   -  If in a multi-language system you can enter {langcode} in the path
+   -  In a multi-language system you can enter {langcode} in the path
       to tell Koha to look in the right language folder
 
-      -  ex:
+      -  For example,
          /home/koha/src/koha-tmpl/opac-tmpl/bootstrap/{langcode}/xslt/MARC21slim2OPACResults.xsl
 
-      -  ex. http://mykohaopac.org/{langcode}/stylesheet.xsl
+      -  For example, http://mykohaopac.org/{langcode}/stylesheet.xsl
 
--  put an URL for an external specific stylesheet
+-  Enter an URL to an external stylesheet
 
-   -  ex: http://mykohaopac.org/stylesheet.xsl
+   -  For example, http://mykohaopac.org/stylesheet.xsl
 
 Description:
 
@@ -1396,6 +1417,25 @@ Description:
    the screen when viewing the search results. This preference will
    allow you either use the default look that comes with Koha or design
    your own stylesheet.
+
+-  This system preference controls the display of the records in the
+   :ref:`search results <search-results-label>` in the OPAC.
+
+-  If using a custom stylesheet that uses item MARC fields, enable the
+   :ref:`PassItemMarcToXSLT` system preference. Otherwise, item fields are
+   not available for use in XSLT stylesheets.
+
+See also:
+
+-  :ref:`OPACXSLTDetailsDisplay`
+
+-  :ref:`OPACXSLTListsDisplay`
+
+-  :ref:`XSLTResultsDisplay`
+
+-  :ref:`DisplayOPACiconsXSLT`
+
+-  :ref:`PassItemMarcToXSLT`
 
 .. _reference_nfl_statuses-label:
 
@@ -1427,7 +1467,7 @@ Description:
 -  The values for the not for loan statuses are found in the NOT\_LOAN 
    :ref:`authorized value category<existing-values-label>`.
    
--  Values must be separated by a pipe (|)
+-  Values must be separated by a pipe (|).
 
 .. _opacfeatures-label:
 
