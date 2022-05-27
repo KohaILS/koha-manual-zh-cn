@@ -1342,6 +1342,9 @@ Clicking any one of these links will open the purchase suggestion form.
    an :ref:`authorized value <authorized-values-label>` category titled
    'OPAC\_SUG' and include reasons as values in that list.
 
+-  You can change the text at the top of the form using the
+   :ref:`HTML customizations tool <html-customizations-label>`
+
 Once the form is submitted the data will be saved to the
 :ref:`Acquisitions <managing-purchase-suggestions-label>` module for the librarians to manage.
 
