@@ -1277,6 +1277,11 @@ You can allow requests to be made at the record level, item level,
 yes (which means both) and no (which means no article requests may
 be placed).
 
+You can also limit the number of open article requests a patron can have at one
+time by patron category in the
+:ref:`Default open article requests limit <default-open-article-requests-limit-label>`
+section of the circulation rules page.
+
 .. _placing-article-requests-label:
 
 Placing article requests
