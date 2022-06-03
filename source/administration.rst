@@ -1850,6 +1850,28 @@ patrons only have a total of 12 things checked out at once. If you enter
 12 here and the patron has 10 books out already they will only be
 allowed 2 DVDs to equal the 12 total they're allowed.
 
+.. _default-open-article-requests-limit-label:
+
+Default open article requests limit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If :ref:`ArticleRequests` is enabled, you can set a maximum number of open
+article requests a patron of a category can have at one time.
+
+|defaultopenarticlerequestslimit|
+
+.. Note::
+
+   This will only appear if the :ref:`ArticleRequests` system preference is
+   enabled.
+
+-  Choose the patron category you want to limit.
+
+-  Enter the number of open article requests a patron of this category can have
+   at one given time
+
+-  Click 'Add'
+
 .. _item-fee-refund-on-return-label:
 
 Default lost item fee refund on return policy

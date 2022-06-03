@@ -55,6 +55,9 @@
 
 .. PATRONS AND CIRCULATION
 
+.. |defaultopenarticlerequestslimit| image:: images/admin/patroncirc/defaultopenarticlerequestslimit.png
+				:alt: Default open article requests limit by patron category form in the circulation and fines rules page
+
 .. |newpatroncategory| image:: images/admin/patroncirc/newpatroncategory.png
 				:alt: New patron category form
 
