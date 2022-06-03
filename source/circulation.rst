@@ -1315,13 +1315,9 @@ Fill in the form.
        :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, and
        :ref:`ArticleRequestsMandatoryFieldsRecordOnly`.
 
-If there is a fee, a message will appear to inform the staff member or the patron.
+If there is a fee, a message will appear to inform the staff member.
 
-Warning message in the staff interface
 |articlerequestfeewarningstaff|
-
-Warning message in the OPAC
-|articlerequestfeewarningopac|
 
 If allowed, choose the specific item to request.
 
@@ -1342,6 +1338,11 @@ asked to do so.
 The form is the same as the one in the staff interface.
 
 |image1399|
+
+If there is a fee, a message will appear to inform the patron.
+
+|articlerequestfeewarningopac|
+
 
 If allowed, the patron can choose the specific item to request.
 
