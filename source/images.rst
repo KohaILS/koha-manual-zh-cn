@@ -213,6 +213,9 @@
 .. |accompanyingmaterials| image:: images/circ/accompanyingmaterials.png
 				:alt: Message in circulation, the message says "Note about the accompanying materials: + 1 folded map"
 
+.. |actionsmenu| image:: images/circ/articlerequests/actionsmenu.png
+				:alt: The actions menu next to a new article request has the following options, 'Set request as pending', 'Process request', 'Complete request', 'Cancel request', and 'Print slip'
+
 .. |articlerequestfeewarningopac| image:: images/circ/articlerequests/articlerequestfeewarningopac.png
 				:alt: Warning message in the OPAC indicating the patron will be charged 3.00 for every article request
 
@@ -225,8 +228,20 @@
 .. |holdwaitingcheckinwarn| image:: images/circ/holdwaitingcheckinwarn.png
 				:alt: Hold found item is already waiting checkin message
 
+.. |opacarticlerequestnew| image:: images/circ/articlerequests/opacarticlerequestnew.png
+				:alt: The view of an article request in the patron's account in the OPAC, the status is set to new
+
+.. |opacarticlerequestpending| image:: images/circ/articlerequests/opacarticlerequestpending.png
+				:alt: The view of an article request in the patron's account in the OPAC, the status is set to pending
+
+.. |opacarticlerequestprocessing| image:: images/circ/articlerequests/opacarticlerequestprocessing.png
+				:alt: The view of an article request in the patron's account in the OPAC, the status is set to processing
+
 .. |overriderenew| image:: images/circ/overriderenew.png
 				:alt: Bottom of the circulation summary table, there are two checkboxes 'Override renewal restrictions' and 'Renew as unseen if appropriate', followed by two buttons 'Renew or check in selected items' and 'Renew all'. The checkbox 'Override renewal restrictions' is checked.
+
+.. |requestmanagement| image:: images/circ/articlerequests/requestmanagement.png
+				:alt: Article requests table
 
 .. |unseenrenewalcheckbox| image:: images/circ/unseenrenewalcheckbox.png
 				:alt: Bottom of the circulation summary table, there are two checkboxes 'Override renewal restrictions' and 'Renew as unseen if appropriate', followed by two buttons 'Renew or check in selected items' and 'Renew all'. The checkbox 'Renew as unseen if appropriate' is checked.
@@ -1786,11 +1801,7 @@
 .. |image1397| image:: images/circ/articlerequests/opacresults.png
 .. |image1398| image:: images/circ/articlerequests/opacdetails.png
 .. |image1399| image:: images/circ/articlerequests/opacform.png
-.. |image1400| image:: images/circ/articlerequests/opacarticlerequestpending.png
-.. |image1401| image:: images/circ/articlerequests/opacarticlerequestprocessing.png
 .. |image1402| image:: images/circ/articlerequests/staffinterfacenotification.png
-.. |image1403| image:: images/circ/articlerequests/requestmanagement.png
-.. |image1404| image:: images/circ/articlerequests/actionsmenu.png
 .. |image1405| image:: images/circ/articlerequests/batchprocess.png
 .. |image1406| image:: images/acquisitions/addtobasket.png
 .. |image1407| image:: images/acquisitions/addtobasketoptions.png

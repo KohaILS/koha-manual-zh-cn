@@ -650,13 +650,18 @@ information in these notices. Here are some of what those notices do:
 
 -  AR\_PENDING
 
-   -  This notice is sent to the patron when an article request has been
-      made in order to confirm the request.
+   -  This notice is sent to the patron when an article request is changed to
+      'pending' status
 
 -  AR\_PROCESSING
 
    -  This notice is sent to the patron when an article request is marked
       as being processed by staff.
+
+-  AR\_REQUESTED
+
+   -  This notice is sent to the patron when an article request has been
+      made in order to confirm the request.
 
 -  AUTO\_RENEWALS
 

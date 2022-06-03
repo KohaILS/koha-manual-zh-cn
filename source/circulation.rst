@@ -1343,23 +1343,28 @@ If there is a fee, a message will appear to inform the patron.
 
 |articlerequestfeewarningopac|
 
-
 If allowed, the patron can choose the specific item to request.
 
 From their account, the patron will be able to follow the progress
-of their request from 'pending'
+of their request from 'new'
 
-|image1400|
+|opacarticlerequestnew|
+
+to 'pending', if necessary,
+
+|opacarticlerequestpending|
 
 to 'processing'.
 
-|image1401|
+|opacarticlerequestprocessing|
 
 The patron will also receive an email notification when the status of
 the request changes.
 
 Once the request is completed the patron will receive an email notification
 and the article request will no longer appear in their account.
+
+Email notifications can be customized in :ref:`notices and slips <notices-and-slips-label>`.
 
 Managing article requests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1372,14 +1377,21 @@ as tags, comments and modifications).
 
 From there staff will be able to select requests to process.
 
-|image1403|
+|requestmanagement|
+
+New requests are in the 'New' tab.
 
 The first step would be for a staff member to process the request, that moves
 the request to the processing tab and alerts other staff members that the
 request is in process. In the actions column, click on the dropdown menu and
 select 'Process request'. This will move the request to the processing tab.
 
-|image1404|
+|actionsmenu|
+
+If for any reason, a request cannot be processed right away (for example, if
+the title is currently checked out), the status can be changed to 'Pending'.
+This will send a notice to the patron indicating the request has been received
+and seen, but has yet to be processed.
 
 Next staff will go to the shelf and make a copy of the requested article.
 
