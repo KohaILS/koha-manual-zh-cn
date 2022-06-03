@@ -1782,6 +1782,10 @@ in if the :ref:`CalculateFinesOnReturn` system preference is enabled.
 -  Renewing a patron account in a :ref:`category <patron-categories-label>` 
    with an enrollment fee.
 
+-  Article request fees will be charged based on the
+   :ref:`article request fees <default-article-request-fees-labe>` section of
+   the circulation rules page.
+
 .. _pay-and-writeoff-fines-label:
 
 Pay and Writeoff fines

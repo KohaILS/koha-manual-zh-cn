@@ -1282,6 +1282,10 @@ time by patron category in the
 :ref:`Default open article requests limit <default-open-article-requests-limit-label>`
 section of the circulation rules page.
 
+You can set up a fee for each article request in the
+:ref:`Default article request fees<default-article-request-fees-label>` section
+of the circulation rules page.
+
 .. _placing-article-requests-label:
 
 Placing article requests
@@ -1310,6 +1314,14 @@ Fill in the form.
        preferences :ref:`ArticleRequestsMandatoryFields`,
        :ref:`ArticleRequestsMandatoryFieldsItemsOnly`, and
        :ref:`ArticleRequestsMandatoryFieldsRecordOnly`.
+
+If there is a fee, a message will appear to inform the staff member or the patron.
+
+Warning message in the staff interface
+|articlerequestfeewarningstaff|
+
+Warning message in the OPAC
+|articlerequestfeewarningopac|
 
 If allowed, choose the specific item to request.
 

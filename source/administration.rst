@@ -1872,6 +1872,44 @@ article requests a patron of a category can have at one time.
 
 -  Click 'Add'
 
+.. _default-article-request-fees-label:
+
+Default article request fees
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If :ref:`ArticleRequests` is enabled, you can set the fee a patron from a given
+category (or any category) needs to pay in order to request the article.
+
+|defaultarticlerequestfee|
+
+.. Note::
+
+   This will only appear if the :ref:`ArticleRequests` system preference is
+   enabled.
+
+-  Choose the patron category for which you want to add a fee, or choose 'All'
+   to set an overall fee for all patrons
+
+   .. Note::
+
+      The fee specific to a patron category will supercede the fee for all
+      categories.
+
+      For example, if you set a fee for all categories to 2$ and a fee for
+      Faculty to 3$, Faculty members will be charged 3$ and any other patron
+      will be charged 2$.
+
+-  Enter the fee amount (use a period as the decimal and don't enter any symbols,
+   e.g. enter 5.00 for 5$)
+
+-  Click 'Add'
+
+The fee is charged to the patron :ref:`when the request is placed<placing-article-requests-label>`.
+
+When placing the request, either through the staff interface or the OPAC, a
+message appears to inform the staff member or the patron that the patron will
+be charged for every request and the amount of the fee.
+
 .. _item-fee-refund-on-return-label:
 
 Default lost item fee refund on return policy

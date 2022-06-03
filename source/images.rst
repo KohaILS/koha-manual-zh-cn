@@ -55,6 +55,9 @@
 
 .. PATRONS AND CIRCULATION
 
+.. |defaultarticlerequestfee| image:: images/admin/patroncirc/defaultarticlerequestfee.png
+				:alt: Default article request fee by patron category form in the circulation and fines rules page
+
 .. |defaultopenarticlerequestslimit| image:: images/admin/patroncirc/defaultopenarticlerequestslimit.png
 				:alt: Default open article requests limit by patron category form in the circulation and fines rules page
 
@@ -209,6 +212,12 @@
 
 .. |accompanyingmaterials| image:: images/circ/accompanyingmaterials.png
 				:alt: Message in circulation, the message says "Note about the accompanying materials: + 1 folded map"
+
+.. |articlerequestfeewarningopac| image:: images/circ/articlerequests/articlerequestfeewarningopac.png
+				:alt: Warning message in the OPAC indicating the patron will be charged 3.00 for every article request
+
+.. |articlerequestfeewarningstaff| image:: images/circ/articlerequests/articlerequestfeewarningstaff.png
+				:alt: Warning message in the staff interface indicating the patron will be charged 2.00 for every article request
 
 .. |circsummary| image:: images/circ/circsummary.png
 				:alt: Issues table (circulation summary) in the patron file
