@@ -116,32 +116,48 @@ Google and your application.
 .. _googleoauth2clientid-label:
 
 GoogleOAuth2ClientID
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Google OAuth2 Client ID \_\_\_
+Asks: Google OAuth2 Client ID: \_\_\_
+
+Description:
+
+-  Enter the client ID provided when setting up the Google API (see 
+   :ref:`Google OpenID Connect<google-openid-connect-label>` above)
+   
+-  You will also need to enter the client secret in :ref:`GoogleOAuth2ClientSecret` 
+   and enable :ref:`GoogleOpenIDConnect` to use Google Open ID in the OPAC.
 
 .. _googleoauth2clientsecret-label:
 
 GoogleOAuth2ClientSecret
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Google OAuth2 Client Secret \_\_\_
+Asks: Google OAuth2 Client Secret: \_\_\_
+
+Description:
+
+-  Enter the client ID provided when setting up the Google API (see 
+   :ref:`Google OpenID Connect<google-openid-connect-label>` above)
+   
+-  You will also need to enter the client secret in :ref:`GoogleOAuth2ClientID` 
+   and enable :ref:`GoogleOpenIDConnect` to use Google Open ID in the OPAC.
 
 .. _googleopenidconnect-label:
 
 GoogleOpenIDConnect
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Use Google OpenID Connect login in the OPAC: \_\_\_
 
 Default: No
 
-Asks: Use Google OpenID Connect login: \_\_\_
+.. Note::
 
-    **Important**
-
-    You will need to select OAuth2 when creating an app in the google
-    cloud console, and set the web origin to your\_opac\_url and the
-    redirect url to
-    your\_opac\_url/cgi-bin/koha/svc/auth/googleopenidconnect .
+   You will need to select OAuth2 when creating an app in the google
+   cloud console, and set the web origin to your\_opac\_url and the
+   redirect url to
+   your\_opac\_url/cgi-bin/koha/svc/auth/googleopenidconnect .
 
     |image12|
 
@@ -151,14 +167,22 @@ Values:
 
 -  Yes
 
+Description:
+
+-  This system preference enables the ability to connect to the OPAC using 
+   Google OpenID Connect.
+   
+-  Make sure to also configure :ref:`GoogleOAuth2ClientID` and 
+   :ref:`GoogleOAuth2ClientSecret`
+
 .. _googleopenidconnectautoregister-label:
 
 GoogleOpenIDConnectAutoRegister
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ patrons logging in with Google Open ID to automatically register.
 
 Default: Don't Allow
-
-Asks: \_\_\_ users logging in with Google Open ID to automatically register.
 
 Values:
 
@@ -166,33 +190,70 @@ Values:
 
 -  Allow
 
+Description:
+
+-  When :ref:`GoogleOpenIDConnect` is enabled, this system preference enables 
+   the automatic creation of patrons in Koha when they log in using Google 
+   OpenID Connect.
+   
+-  Make sure to fill out :ref:`GoogleOpenIDConnectDefaultBranch` and 
+   :ref:`GoogleOpenIDConnectDefaultCategory` to set the default branch and 
+   category code for those patrons created automatically.
+
 .. _googleopenidconnectdefaultbranch-label:
 
 GoogleOpenIDConnectDefaultBranch
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: \_\_\_ Use this branchcode when automatically registering a Google
-Open ID patron.
+Asks: Use this branchcode when automatically registering a Google OpenID 
+patron: \_\_\_ 
+
+Description:
+
+-  When :ref:`GoogleOpenIDConnect` and :ref:`GoogleOpenIDConnectAutoRegister` 
+   are enabled, this system preference determines the default home branch for 
+   those patrons created automatically.
+
+-  Enter a branchcode. Branchcodes can be found in the :ref:`libraries<libraries-label>` 
+   section of the administration module.
+   
+-  Make sure to fill out :ref:`GoogleOpenIDConnectDefaultCategory` also.
 
 .. _googleopenidconnectdefaultcategory-label:
 
 GoogleOpenIDConnectDefaultCategory
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: \_\_\_ Use this category when automatically registering a Google
-Open ID patron.
+Asks: Use this category code when automatically registering a Google OpenID 
+patron: \_\_\_
+
+Description:
+
+-  When :ref:`GoogleOpenIDConnect` and :ref:`GoogleOpenIDConnectAutoRegister` 
+   are enabled, this system preference determines the default patron category for 
+   those patrons created automatically.
+
+-  Enter a category code. Cateogry codes can be found in the 
+   :ref:`patron categories<patron-categories-label>` section of the 
+   administration module.
+   
+-  Make sure to fill out :ref:`GoogleOpenIDConnectDefaultBranch` also.
 
 .. _googleopenidconnectdomain-label:
 
 GoogleOpenIDConnectDomain
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Asks: Google OpenID Connect Restrict to domain (or subdomain of this
-domain) \_\_\_.
+Asks: Restrict Google OpenID Connect to this domain (or subdomain of this
+domain): \_\_\_
 
-    **Note**
+.. Note::
 
-    Leave blank for all google domains
+   Leave blank for all google domains
+   
+Description:
+
+-  This system preference limits the log in of patrons to certain domains.
 
 .. _interface-options-label:
 
