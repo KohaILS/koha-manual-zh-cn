@@ -1345,7 +1345,7 @@ The form is the same as the one in the staff interface.
 
 If allowed, the patron can choose the specific item to request.
 
-From their acocunt, the patron will be able to follow the progress
+From their account, the patron will be able to follow the progress
 of their request from 'pending'
 
 |image1400|
