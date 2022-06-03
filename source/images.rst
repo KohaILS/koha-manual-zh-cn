@@ -400,6 +400,12 @@
 .. |addnews| image:: images/tools/news/addnews.png
 				:alt: New news entry form
 
+.. |deletequote| image:: images/tools/qotd/deletequote.png 
+				:alt: Quote deletion confirmation modal
+
+.. |editimportquote| image:: images/tools/qotd/editimportquote.png 	
+				:alt: Clicking in the table on the source or the text of a quote will open a editable field
+
 .. |newsdisplaylocations| image:: images/tools/news/newsdisplaylocations.png
 				:alt: Drop-down menu of display locations for news
 
@@ -408,6 +414,18 @@
 
 .. |importbarcodes| image:: images/tools/inventory/importbarcodes.png
 				:alt: The inventory form, the sections Use a barcode file, Or scan items one by one, and Parameters
+
+.. |importedsummary| image:: images/tools/qotd/importedsummary.png 
+				:alt: A list of imported quotes in a table
+
+.. |importquotebuttons| image:: images/tools/qotd/importquotebuttons.png
+				:alt: Save quotes and cancel import buttons
+
+.. |importquotes| image:: images/tools/qotd/importquotes.png
+				:alt: Quote uploader screen
+
+.. |newquote| image:: images/tools/qotd/newquote.png 
+				:alt: New quote form
 
 .. |news| image:: images/tools/news/news.png
 				:alt: News tool main page
@@ -421,6 +439,11 @@
 .. |staffnews| image:: images/tools/news/staffnews.png
 				:alt: News blocks on the staff interface's main page
 
+.. |qotdeditor| image:: images/tools/qotd/qotdeditor.png
+				:alt: Main page of the quote of the day editor
+
+.. |quotebuttons| image:: images/tools/qotd/quotebuttons.png
+				:alt: New quote and import quotes buttons
 
 
 .. WEBSERVICES
@@ -809,21 +832,7 @@
 .. |image392| image:: images/tools/tasksched/taskscheduler.png
 .. |image393| image:: images/tools/tasksched/scheduledreports.png
 .. |image394| image:: images/tools/tasksched/savedreports.png
-.. |image396| image:: images/tools/qotd/quotebuttons.png
-				:alt: Add quote, delete quote(s), and import quotes buttons
-.. |image397| image:: images/tools/qotd/addquote.png
-				:alt: New line at the bottom of the quotes table to add a new quote
-.. |image398| image:: images/tools/qotd/editquote.png
-				:alt: Clicking on the source will make it into an editable text field
-.. |image400| image:: images/tools/qotd/importquotes.png
-				:alt: Quote uploader screen
-.. |image401| image:: images/tools/qotd/importedsummary.png
-				:alt: Preview of the imported quotes
-.. |image403| image:: images/tools/qotd/selectfordelete.png
-				:alt: Save quotes, delete quote(s), and cancel import buttons
-.. |image405| image:: images/tools/qotd/confirmdelete.png
-				:alt: Pop up modal with the text 'Are you sure you wish to delete quote(s) 2, 4, 6?'
-.. |image406| image:: images/tools/qotd/importquotebuttons.png
+
 .. |image407| image:: images/patrons/newpatron.png
 				:alt: Drop down of patron categories when adding a new patron
 .. |image408| image:: images/patrons/addpatronform.png
@@ -1871,8 +1880,6 @@
 				:alt: Circulation rules table with a rule for DVDs for which the maximum is 5 checkouts and a rule for Blu-ray (child of DVD) for which the maximum is 2 checkouts
 .. |image1513| image:: images/tools/qotd/quotesinstaff.png
 				:alt: A quote of the day block under the news blocks on the main page of the staff interface
-.. |image1514| image:: images/tools/qotd/qotdeditor.png
-				:alt: Main page of the quote of the day editor
 .. |image1515| image:: images/cash-management/cashup_summary.png
 				:alt: A cashup summary view modal
 .. |image1516| image:: images/circ/koctcheckout.png

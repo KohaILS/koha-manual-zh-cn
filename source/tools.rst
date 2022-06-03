@@ -3971,7 +3971,7 @@ Edit quotes for QOTD feature
 This tool will allow you to add and edit quotes to show on the OPAC or the 
 staff interface.
 
-|image1514|
+|qotdeditor|
 
 To turn this feature on set the :ref:`QuoteOfTheDay` system preference to 
 either 'OPAC', 'staff interface', or both, and add at least one quote using this 
@@ -3993,28 +3993,27 @@ Add a quote
 
 To add a quote:
 
--  Click the 'Add quote' button in the toolbar and an empty quote entry
-   will be added to the end of the current quote list.
+-  Click the 'New quote' button in the toolbar.
 
-   |image396|
+   |quotebuttons|
+   
+-  Fill out the form.
 
-   **Important**
+   |newquote|
 
-   Both the 'Source' and the 'Text' fields must be filled in in
-   order to save the new quote.
+   -  Source: enter the source of the quote, e.g. the name of the person who 
+      said the quote
+      
+   -  Text: enter the text of the quote
 
-   |image397|
+   .. Warning::
 
--  When finished filling in both fields, press the <Enter> key on your
-   keyboard to save the new quote.
+      Both the 'Source' and the 'Text' fields must be filled in in
+      order to save the new quote.
 
--  The list will update and the new quote should now be visible in the
-   list.
+-  Click 'Submit' to save the new quote.
 
-    **Note**
-
-    You may cancel the addition of a new quote any time prior to saving
-    it simply by pressing the <Esc> key on your keyboard.
+-  The new quote should now be visible in the list.
 
 .. _import-quotes-label:
 
@@ -4024,82 +4023,62 @@ Import quotes
 You can import a batch of quotes as a CSV file. Your file must contain two 
 columns in the form: "source","text" with no header row.
 
-    **Note**
+.. Note::
 
-    You will be prompted to confirm upload of files larger than 512KB.
+   You will be prompted to confirm upload of files larger than 512KB.
 
 -  To start the import process click the 'Import quotes' button at the
    top of the screen
 
-   |image396|
+   |quotebuttons|
 
 -  Once on the import quotes screen you can browse your computer for the
    file you would like to import
 
-   |image400|
+   |importquotes|
 
 -  After selecting the CSV file, click the 'Open' button and the file
    will be uploaded into a temporary editing table.
 
-   |image401|
+   |importedsummary|
 
 -  From the listing you can edit either the 'Source' or 'Text' fields by
    clicking on the desired field. When you are finished editing a field,
    press the <Enter> key on your keyboard to save the changes.
 
-   |image398|
-
--  You can also delete quotes from this listing before completing the
-   import.
-
-   -  Select the quote(s) you desire to delete by clicking on the
-      corresponding quote id.
-
-      |image403|
-
-   -  Once quote selection is finished, simply click the 'Delete
-      quote(s)' key.
-
-   -  You will be prompted to confirm the deletion.
-
-      |image405|
-
-   -  After confirming the deletion, the list will update and the
-      quote(s) will no longer appear.
+   |editimportquote|
 
 -  Once you are satisfied with the quotes, click the 'Save quotes'
    button in the toolbar at the top and the quotes will be saved.
+   
+   |importquotebuttons|
 
-.. _edit/delete-a-quote-label:
+.. _edit-quote-label:
 
-Edit or delete a quote
+Edit a quote
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once the current quote pool has been loaded into the editing table, you
-may edit the quote source and text.
+To edit a quote, click on the 'Edit' button to the right of the quote.
 
--  Edit either the 'Source' or 'Text' fields by clicking on the desired
-   field.
+|qotdeditor|
 
-   |image398|
+Edit either the 'Source' or 'Text' fields.
 
--  When you are finished editing a field, press the <Enter> key on your
-   keyboard to save the changes.
+Click 'Submit' to save the quote.
 
-The list will be updated, the edits saved, and visible.
+.. _delete-quote-label:
 
-If you'd like you can also delete quote(s).
+Delete a quote
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  Select the quote(s) you desire to delete by clicking on the
-   corresponding quote id.
+To delete a quote, click on the 'Delete' button to the right of the quote.
 
--  Once quote selection is finished, simply click the 'Delete quote(s)'
-   button.
+|qotdeditor|
 
--  You will be prompted to confirm the deletion.
+Confirm the deletion by clicking 'Delete'.
 
--  After confirming the deletion, the list will update and the quote(s)
-   will no longer appear.
+|deletequote|
+
 
 .. _upload-label:
 
