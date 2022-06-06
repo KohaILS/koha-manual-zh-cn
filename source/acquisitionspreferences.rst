@@ -443,7 +443,7 @@ PurgeSuggestionsOlderThan
 Asks: Keep accepted or rejected purchase suggestions for a period of \_\_\_ 
 days.
 
-.. Warning ::
+.. Warning::
 
     Leave this field empty if you don't want to activate this automatic 
     feature.
@@ -455,11 +455,13 @@ Description:
 
 -  For example: [30] Sets purgation of suggestions for those older than 30 days.
 
-.. Note ::
+.. Note::
 
-    This system preference is used when the cronjob 
-    :ref:`purge_suggestions.pl <cron-clean-up-old-suggestions-label>` is
-    active and called without a specific number of days.
+   The number of days is based on the 'managed on' date.
+
+-  This system preference requires the cronjob
+   :ref:`purge_suggestions.pl <cron-clean-up-old-suggestions-label>` to be
+   active and called without a specific number of days ('--days' parameter).
 
 .. _taxrates-label:
 

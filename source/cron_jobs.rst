@@ -1124,17 +1124,35 @@ Acquisitions
 .. _cron-clean-up-old-suggestions-label:
 
 Clean up old suggestions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Script path: misc/cronjobs/purge\_suggestions.pl
 
-Does: removes old (defined by you) suggestions from the suggestion
-management area.
+Does: removes old suggestions from the suggestion management area.
 
-       **Note**
+**PARAMETERS**
 
-       The system preference :ref:`PurgeSuggestionsOlderThan` defines the number
-       of days used in the script
+-  help|?
+
+   Show help message
+
+-  days
+
+   Define the age of suggestions to be deleted, based on 'managed on' date
+
+   .. Note::
+
+      The system preference :ref:`PurgeSuggestionsOlderThan` can also be used to
+      define the number of days used in the script. If using the system preference,
+      don't use the 'days' parameter.
+
+   .. Note::
+
+      The number of days is based on the 'managed on' date of the suggestion.
+
+-  confirm
+
+   This parameter is mandatory for the script to run.
 
 .. _cron-email-suggestions-to-process-label:
 
