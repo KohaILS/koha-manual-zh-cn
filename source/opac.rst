@@ -223,9 +223,13 @@ Below the search buttons you'll find the links to place a hold, print
 the record, save the record to your lists, add it to your cart or send to a 
 device (using a QR code).
 
-Another option that will appear on this right hand side bar (if a library is allowing purchase suggestions) is the ability to 'Suggest for Purchase'.  Clicking this link will bring the user to the Purchase Suggestion form to fill out.
+Another option that will appear on this right hand side bar, if a library is
+allowing purchase suggestions (see the :ref:`suggestions` system preference),
+is the ability to 'Suggest for Purchase'. Clicking this link will bring the
+user to the :ref:`purchase suggestion form<purchase-suggestions-opac-label>` to
+fill out.
 
-|image961|
+|biboptions|
 
 Clicking 'More searches' will show the list of libraries you entered in
 your :ref:`OPACSearchForTitleIn` preference
@@ -1306,46 +1310,62 @@ can then be removed by library staff.
 .. _purchase-suggestions-opac-label:
 
 Purchase suggestions
--------------------------------------------
+-------------------------------------------------------------------------------
 
-If your library has the :ref:`suggestion` preference set
-to 'Allow' then patrons will have the option to make purchase
-suggestions in several areas in the OPAC.
+If your library has the :ref:`suggestion` preference set to 'Allow', patrons
+will have the option to make purchase suggestions in several areas in the OPAC.
 
 If you are allowing everyone to see the purchase suggestions made by
-others with the
-:ref:`OPACViewOthersSuggestions` preference,
-then there will be a link at the top of your OPAC under the search box.
+others with the :ref:`OPACViewOthersSuggestions` preference, there will be a
+link at the top of your OPAC under the search box.
 
-|image1033|
+|suggestfromsearch|
 
 There will be a link when the patron finds nothing for their search.
 
-|image1034|
+|suggestfromnoresults|
 
-And there will be a link on the patron's :ref:`Your purchase
-suggestions <your-purchase-suggestions-label>` tab.
+There will be a 'Suggest for purchase' option in the detailed view of a
+bibliographic record.
 
-|image1035|
+|biboptions|
+
+And there will be a link in the
+:ref:`Your purchase suggestions <your-purchase-suggestions-label>` tab in the
+patron's account.
+
+|suggestfrommyaccount|
 
 Clicking any one of these links will open the purchase suggestion form.
 
-|image1036|
+|newsuggestion|
 
--  From the form only the 'Title' is required by the library.
+-  The informational text at the top of the form can be replaced using the
+   :ref:`HTML customizations tool<html-customizations-label>`, display location
+   OpacSuggestionInstructions.
+
+-  From the form only the 'Title' is required by default.
+
+   -  Mandatory fields can be set using the :ref:`OPACSuggestionMandatoryFields`
+      system preference.
+
+-  The :ref:`OPACSuggestionUnwantedFields` system preference can be used to
+   hide unnecessary fields.
 
 -  The item type list can be edited by editing the SUGGEST\_FORMAT
-   :ref:`authorized value <authorized-values-label>`.
+   :ref:`authorized value list<authorized-values-label>`.
 
--  If you would like the 'Reason for suggestion' menu shown in the
-   screenshot above to appear on your suggestions list you need to add
-   an :ref:`authorized value <authorized-values-label>` category titled
-   'OPAC\_SUG' and include reasons as values in that list.
+-  The 'Reason for suggestion' list can be edited by editing the OPAC\_SUG
+   :ref:`authorized value list<authorized-values-label>`.
 
 -  You can change the text at the top of the form using the
    :ref:`HTML customizations tool <html-customizations-label>`
 
-Once the form is submitted the data will be saved to the
-:ref:`Acquisitions <managing-purchase-suggestions-label>` module for the librarians to manage.
+Once the form is submitted the purchase suggestion will appear in the
+:ref:`acquisitions module<managing-purchase-suggestions-label>` for the
+librarians to manage.
 
-If a purchase suggestion has been ordered through the Acquisitions Module, the patron's purchase suggestion title will be clickable and bring the patron directly to the ordered record in the OPAC.
+If a purchase suggestion has been ordered through the
+:ref:`acquisitions module<managing-purchase-suggestions-label>`, the patron's
+purchase suggestion title will be clickable and bring the patron directly to
+the ordered record in the OPAC.

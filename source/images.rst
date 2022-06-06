@@ -268,12 +268,17 @@
 .. |allowautorenewal| image:: images/opac/allowautorenewal.png
 				:alt: An option to update auto-renewal preferences
 
+.. |biboptions| image:: images/opac/bibdetail/biboptions.png
+				:alt: List of options: Place hold, Print, Request article, Save to your lists, Add to your cart, Suggest for purchase, Highlight, Save record, More searches
+
 .. |forgotpwlink| image:: images/opac/forgotpwlink.png
 				:alt: Under the login fields, there is a 'Forgot your password' link
 
 .. |maxoutstanding| image:: images/opac/maxoutstanding.png
 				:alt: Warning message saying Please note Your account has outstanding fees & charges of 12.50. Holds are blocked because your fine balance is over the limit.
 
+.. |newsuggestion| image:: images/opac/newsuggestion.png
+				:alt: New purchase suggestion form
 
 .. |OPACFineNoRenewals| image:: images/opac/OPACFineNoRenewals.png
 				:alt: Warning message saying Please note You cannot renew your books online. Reason: Your fines exceed 1.00. 
@@ -292,6 +297,15 @@
 
 .. |resetpw| image:: images/opac/resetpw.png
 				:alt: The reset password form
+
+.. |suggestfrommyaccount| image:: images/opac/suggestfrommyaccount.png
+				:alt: There is a link 'New purchase suggestion' under the title of the page
+
+.. |suggestfromnoresults| image:: images/opac/suggestfromnoresults.png
+				:alt: A message reading 'Not finding what you're looking for? Make a purchase suggestion', there is a link under the words 'purchase suggestion'
+
+.. |suggestfromsearch| image:: images/opac/suggestfromsearch.png
+				:alt: A link labeled 'Purchase suggestions' appears under the search bar on the main page of the OPAC
 
 .. |yoursummary| image:: images/opac/yoursummary.png
 				:alt: View of the account summary on the OPAC
@@ -1402,7 +1416,6 @@
 .. |image958| image:: images/opac/bibdetail/bibeditions.png
 .. |image959| image:: images/opac/bibdetail/bibsearch.png
 .. |image960| image:: images/opac/bibdetail/bibbrowseresults.png
-.. |image961| image:: images/opac/bibdetail/biboptions.png
 .. |image962| image:: images/opac/bibdetail/bibmoresearch.png
 .. |image963| image:: images/opac/bibdetail/bibsave.png
 .. |image964| image:: images/opac/bibdetail/bibviews.png
@@ -1471,10 +1484,6 @@
 .. |image1030| image:: images/opac/mylists.png
 .. |image1031| image:: images/opac/dischargeopac.png
 .. |image1032| image:: images/opac/dischargeopac-confirm.png
-.. |image1033| image:: images/opac/suggestfromsearch.png
-.. |image1034| image:: images/opac/suggestfromnoresults.png
-.. |image1035| image:: images/opac/suggestfrommyaccount.png
-.. |image1036| image:: images/opac/newsuggestion.png
 .. |image1037| image:: images/searching/searchbox.png
 .. |image1038| image:: images/searching/searchterms.png
 .. |image1039| image:: images/searching/resultssummary.png
