@@ -224,7 +224,7 @@ the record, save the record to your lists, add it to your cart or send to a
 device (using a QR code).
 
 Another option that will appear on this right hand side bar, if a library is
-allowing purchase suggestions (see the :ref:`suggestions` system preference),
+allowing purchase suggestions (see the :ref:`suggestion` system preference),
 is the ability to 'Suggest for Purchase'. Clicking this link will bring the
 user to the :ref:`purchase suggestion form<purchase-suggestions-opac-label>` to
 fill out.
