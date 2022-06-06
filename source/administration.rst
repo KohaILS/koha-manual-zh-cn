@@ -4906,7 +4906,7 @@ page. It will not affect any other user.
 |                     | - :ref:`Holds awaiting pickup (holds waiting over X days) <holds-awaiting-pickup-label>` (holdso)|
 |                     | - :ref:`Holds awaiting pickup (holds waiting) <holds-awaiting-pickup-label>` (holdst)            |
 |                     | - :ref:`Hold ratios <hold-ratios-label>` (holds-ratios)                                          |
-|                     | - :ref:`Overdues report <overdues-label>` (circ-overdues)                                        |
+|                     | - :ref:`Overdues report <overdues-report-label>` (circ-overdues)                                        |
 |                     | - :ref:`Checkins <checking-items-in-label>` (checkedintable)                                     |
 |                     | - :ref:`Holds queue <holds-queue-label>` (holds-table)                                           |
 +---------------------+--------------------------------------------------------------------------------------------------+

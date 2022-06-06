@@ -237,6 +237,9 @@
 .. |opacarticlerequestprocessing| image:: images/circ/articlerequests/opacarticlerequestprocessing.png
 				:alt: The view of an article request in the patron's account in the OPAC, the status is set to processing
 
+.. |overdues| image:: images/circ/overdues.png
+				:alt: View of the overdues report
+
 .. |overriderenew| image:: images/circ/overriderenew.png
 				:alt: Bottom of the circulation summary table, there are two checkboxes 'Override renewal restrictions' and 'Renew as unseen if appropriate', followed by two buttons 'Renew or check in selected items' and 'Renew all'. The checkbox 'Override renewal restrictions' is checked.
 
@@ -1075,7 +1078,6 @@
 .. |image582| image:: images/circ/holdratio.png
 .. |image583| image:: images/circ/transitreceive.png
 .. |image584| image:: images/circ/transferlate.png
-.. |image585| image:: images/circ/overdues.png
 .. |image586| image:: images/circ/overduewfines.png
 .. |image587| image:: images/circ/checkoutinhouse.png
 .. |image588| image:: images/circ/localuserecorded.png

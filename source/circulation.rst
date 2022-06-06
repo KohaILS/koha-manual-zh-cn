@@ -1414,41 +1414,40 @@ This removes the article request from the processing tab.
 
      |image1405|
 
-.. _overdues-label:
+.. _overdues-report-label:
 
 Overdues
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    **Important**
-
-    For libraries with a large patron base, this report may take a
-    significant amount of time to run.
-
-    **Note**
-
-    Large libraries can choose to filter the report before it runs by
-    setting the
-    :ref:`FilterBeforeOverdueReport` system
-    preference to 'Require'.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This report will list all items that are overdue at your library.
 
-|image585|
+.. Warning::
 
-     **Note**
+   For libraries with a large patron base, this report may take a
+   significant amount of time to run.
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: circ-overdues).
+   Large libraries can choose to filter the report before it runs by
+   setting the :ref:`FilterBeforeOverdueReport` system preference to 'Require'.
+
+|overdues|
+
+.. Note::
+
+   You can customize the columns of this table in the
+   :ref:`'Table settings'<column-settings-label>` section of the
+   Administration module (table id: circ-overdues).
 
 The report can be filtered using the menu options found on the left of
 the report.
 
-    **Note**
+.. Note::
 
-    The 'Show any items currently checked out' checkbox basically
-    switches this from a report of overdues to a report of checkouts. It
-    will show all titles checked out regardless of due date.
+   The 'Show any items currently checked out' checkbox basically
+   switches this from a report of overdues to a report of checkouts. It
+   will show all titles checked out regardless of due date.
+
+The report result can be downloaded via the 'Download file of displayed overdues'
+link or the 'Export' button at the top of the table.
 
 .. _overdues-with-fines-label:
 
