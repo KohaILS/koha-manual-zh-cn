@@ -4882,6 +4882,7 @@ page. It will not affect any other user.
 |                     | - :ref:`Order search results <acquisition-searches-label>` (histsearcht)                         |
 |                     | - :ref:`Late orders <claims-and-late-orders-label>` (late\_orders)                               |
 |                     | - :ref:`Suggestions <managing-purchase-suggestions-label>` (suggestions)                         |
+|                     | - :ref:`Funds table on the main acquisition page<acquisitions-label>` (accounts)
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Administration      | - :ref:`Patron categories <patron-categories-label>` (patron\_categories)                        |
 |                     | - :ref:`Currencies <currencies-and-exchange-rates-label>` (currency)                             |

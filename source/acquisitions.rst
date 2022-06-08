@@ -13,41 +13,23 @@ orders placed with vendors and manage purchase budgets.
 .. _setup-acquisitions-label:
 
 Setup
----------------------
+-------------------------------------------------------------------------------
 
 Before using the Acquisitions module you will want to make sure that you
 have completed all of the set up.
 
-First, set your :ref:`acquisitions system preferences <acquisitions-system-preferences-label>` and
-:ref:`acquisitions administration <acquisitions-module-label>` to match your library's workflow. Before setting your :ref:`EDI accounts` and
-:ref:`library EANs` you will need to have :ref:`entered your
-vendors <add-a-vendor-label>`.
+First, set your :ref:`acquisitions system preferences <acquisitions-system-preferences-label>` 
+and :ref:`acquisitions administration <acquisitions-module-label>` to match 
+your library's workflow. Before setting your 
+:ref:`EDI accounts<edi-accounts-label>` and :ref:`library EANs<library-eans-label>`, 
+you will need to have :ref:`entered your vendors <add-a-vendor-label>`.
 
 On the main acquisitions page you will see your library's funds listed.
 
-|image781|
+|acqfunds|
 
-    **Note**
-
-    If the total line is confusing for the funds you have set up you can
-    hide it by adding
-
-    ::
-
-        #funds_total {display:none;}
-
-    to the :ref:`IntranetUserCSS` preference.
-
-To see all active funds you can click the checkbox next to 'Show active
-and inactive' above the funds table.
-
-To see a history of all orders in a fund you can click on the linked
-amount and it will run a search for you.
-
-|image782|
-
-Learn more in the :ref:`Budget/fund tracking` section of
-this manual.
+Learn more in the :ref:`Budget/fund tracking<budget-fund-tracking-label>` 
+section.
 
 .. _vendors-label:
 
@@ -1333,18 +1315,48 @@ all of the order search options available.
 .. _budget-fund-tracking-label:
 
 Budget/fund tracking
-----------------------------------------
+--------------------------------------------------------------------------------
 
 On the main acquisitions page there will be a table showing you all of
 your active funds and a breakdown of what has been ordered or spent
 against them.
 
-|image866|
+|acqfunds|
 
-Clicking on the linked amounts under spent or ordered will show you a
-summary of the titles ordered/received on that budget.
+.. Note::
 
-|image867|
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: accounts).
+
+.. Note::
+
+   If the total line is confusing for the funds you have set up you can
+   hide it by adding this code to the :ref:`IntranetUserCSS` preference.
+
+    ::
+
+        #funds_total {display:none;}
+
+   
+The 'Expand all' link will show all funds and sub-funds.
+
+The 'Collapse all' link will show only first level funds.
+
+The 'Hide inactive budgets' will hide budgets that are not currently active 
+(such as previous years' budgets).
+
+The 'Show inactive budgets' will show budgets that are not currently active 
+(such as previous years' budgets).
+
+If you have several libraries in your system and have funds assigned to 
+different libraries, you can filter the table to show only the funds for a 
+specific library.
+
+To see a history of all orders in a fund you can click on the linked
+amount and it will run a search for you.
+
+|fundbreakdown|
 
 .. _edi-process-label:
 

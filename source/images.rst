@@ -8,6 +8,12 @@
 
 .. ACQUISITIONS
 
+.. |acqfunds| image:: images/acquisitions/acqfunds.png
+				:alt: Funds table on the acquisitions module's main page
+
+.. |fundbreakdown| image:: images/acquisitions/fundbreakdown.png
+				:alt: A table with all the ordered items in a fund
+
 .. |subdetails| image:: images/acquisitions/subdetails.png
 				:alt: Acquisitions details tab in a bibliographic record attached to a serial subscription
 
@@ -1242,8 +1248,6 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image781| image:: images/acquisitions/acqfunds.png
-.. |image782| image:: images/acquisitions/fundbreakdown.png
 .. |image783| image:: images/acquisitions/newvendbutton.png
 .. |image784| image:: images/acquisitions/newvendor1.png
 .. |image785| image:: images/acquisitions/newvendor2.png
@@ -1323,8 +1327,6 @@
 .. |image863| image:: images/acquisitions/ordersearchresults.png
 .. |image864| image:: images/acquisitions/ordersearchexpand.png
 .. |image865| image:: images/acquisitions/ordersearchfull.png
-.. |image866| image:: images/acquisitions/acqfunds.png
-.. |image867| image:: images/acquisitions/spent.png
 .. |image868| image:: images/lists/newlistbutton.png
 .. |image869| image:: images/lists/newlistform.png
 .. |image870| image:: images/lists/newlistsearch.png
