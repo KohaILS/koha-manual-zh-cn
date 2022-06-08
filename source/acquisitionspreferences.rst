@@ -57,6 +57,31 @@ Description:
    file listed in EDIfact messages with a status of 'New' will have an 'Import' button to 
    process the invoice manually.
 
+.. _edifactlsq-label:
+
+EdifactLSQ
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: Map sequence code (GIR:LSQ) field to \_\_\_ in items.
+
+Default: location 
+
+Values:
+
+-  collection 
+
+-  location 
+
+Description:
+
+-  EDItEUR describes the LSQ segment as "A code or other designation which 
+   identifies stock which is to be shelved in a specified sequence or 
+   collection." In Koha, this could be interpreted as either the item's location
+   or collection (ccode).
+   
+-  This system preference is used to indicate to Koha to which field this 
+   should be mapped.
+
 .. _acquisitions-policy-label:
 
 Policy
