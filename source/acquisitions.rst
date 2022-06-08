@@ -328,7 +328,7 @@ want to send the order to.
     **Important**
 
     If you are planning on using EDIFACT to submit your order you will
-    need to first set up your library's :ref:`EDI accounts`
+    need to first set up your library's :ref:`EDI accounts<edi-accounts-label>`
     and :ref:`EANs <library-eans-label>`.
 
 .. _create-a-basket-label:
@@ -658,7 +658,7 @@ Setting patron notifications
 
 With any of the above ordering options you're presented with an option
 to notify patrons of the new item when it's received. The contents of
-that notification can be edited in the :ref:`Notices & slips`
+that notification can be edited in the :ref:`Notices & slips<notices-and-slips-label>`
 tool and will have the code of ACQ\_NOTIF\_ON\_RECEIV. In the 'Patrons'
 section you will see an option to 'Add user'. Click that button to add
 patrons who will be notified of the new issue.
@@ -1386,7 +1386,7 @@ You will want to gather the following information from your vendors
 before beginning the set up process in Koha.
 
 **EDI accounts:** *This is the basic connection information for your
-vendor. This will be used to fill in the :ref:`EDI accounts`
+vendor. This will be used to fill in the :ref:`EDI accounts<edi-accounts-label>`
 section.*
 
 -  **Vendor:** The name of the vendor
@@ -1542,9 +1542,9 @@ steps:
    -  Be sure to fill in the :ref:`MarcFieldsToOrder`
       preference with values for order files
 
--  Enter your :ref:`EDI Accounts`
+-  Enter your :ref:`EDI Accounts<edi-accounts-label>`
 
--  Enter your :ref:`Library EANs`
+-  Enter your :ref:`Library EANs<library-eans-label>`
 
 -  Turn on the :ref:`EDI Cron <cron-edi-message-processing-label>` so that it can process files
 
@@ -1560,7 +1560,7 @@ Some language that you might see included "basket", "order", "cart",
 and/or "MARC order." Once you have this MARC file downloaded to your
 computer you will want to log in to Koha and continue the process there.
 
-Visit the :ref:`Stage MARC records for import` tool and upload
+Visit the :ref:`Stage MARC records for import<stage-marc-records-for-import-label>` tool and upload
 your file. Once presented with the confirmation screen proceed to
 Acquisitions.
 
