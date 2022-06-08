@@ -12,6 +12,27 @@ Acquisitions
 EDIFACT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _edifact-syspref-label:
+
+EDIFACT 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Asks: \_\_\_ EDIFACT message exchange for acquisitions
+
+Default: Enable 
+
+Values:
+
+-  Disable 
+
+-  Enable 
+
+Description:
+
+-  This system preference is the main switch to turn on or turn off the 
+   EDIFACT feature in Koha.
+
+
 .. _edifactinvoiceimport-label:
 
 EdifactInvoiceImport 

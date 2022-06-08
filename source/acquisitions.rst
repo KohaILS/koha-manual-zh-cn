@@ -1367,10 +1367,15 @@ Previous sections explain all ordering options, this section pulls out
 the parts related to EDI or EDIFACT ordering to help those who are only
 using EDI for ordering.
 
-    **Important**
+.. Note::
+  
+   In order to use EDIFACT in Koha, the 
+   :ref:`EDIFACT system preference<edifact-syspref-label>` must be enabled.
 
-    Koha uses the EDIFACT standard not the X12 standard for electronic
-    ordering.
+.. Warning::
+
+   Koha uses the EDIFACT standard not the X12 standard for electronic
+   ordering.
 
 .. _edi-questions-for-vendors-label:
 
