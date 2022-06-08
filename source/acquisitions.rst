@@ -1374,8 +1374,8 @@ using EDI for ordering.
 
 .. Warning::
 
-   Koha uses the EDIFACT standard not the X12 standard for electronic
-   ordering.
+   Koha uses the EDIFACT standard (EDItEUR and BiC) not the X12 standard for 
+   electronic ordering.
 
 .. _edi-questions-for-vendors-label:
 
@@ -1425,6 +1425,15 @@ section.*
 
    *Buyer qualifier and SAN are optional. Some vendors require a second
    buyer identifier in addition to the account EAN*.
+   
+-  **Standard:** Which standard is used by the vendor, this will change how the 
+   EDI messages are interpreted
+
+  -  Choose one of the following:
+
+     BiC
+
+     EDItEUR
 
 -  **Buyer qualifier:** Who assigned the SAN below?
 
