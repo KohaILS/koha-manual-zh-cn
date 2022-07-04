@@ -297,7 +297,7 @@ that information in subfield 3 of the item record (in MARC21) a message
 will pop up when you check out that item telling you how many pieces
 should be there.
 
-|image498|
+|accompanyingmaterials|
 
 There are times when Koha will prevent the librarian from being able to
 check out items to a patron. When this happens a warning will appear

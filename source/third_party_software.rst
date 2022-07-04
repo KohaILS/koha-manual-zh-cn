@@ -386,7 +386,7 @@ Items in OCLC
 
 If you'd like to create your item records in OCLC you can do so by
 addding a 952 for each item to the bib record you're cataloging. The
-:ref:`Item/Holdings Cataloging Guide <item/holdings-record-cataloging-guide-label>` will break down what
+:ref:`location and item information <952-location-item-information-label>` cataloging guide will break down what
 subfields you can use in the 952, but at the minimum you want to have
 subfield 2, a, b, and y on your items.
 
@@ -414,8 +414,7 @@ subfield 2, a, b, and y on your items.
 
 In addition to these required fields you can enter any other subfield
 you'd like. Most libraries will enter a call number in subfield o and a
-barcode in subfield p as well. Review the :ref:`Item/Holdings Cataloging
-Guide <item/holdings-record-cataloging-guide-label>` for a full list of subfields and values.
+barcode in subfield p as well. Review the :ref:`Location and item information <952-location-item-information-label>` cataloging guide for a full list of subfields and values.
 
 .. _talking-tech-label:
 

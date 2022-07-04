@@ -1681,9 +1681,8 @@ Display
   
    -  Holdings table in the record's detail page
   
-   -  'Items' tab of the bibliographic record, 'Lost status' under 
-     'Statuses' 
-  
+   -  'Items' tab of the bibliographic record, 'Lost status' under 'Statuses' 
+
 -  OPAC 
 
    -  :ref:`Search results<search-results-label>` (lost items will be marked 
@@ -2015,7 +2014,7 @@ Uses
    
 -  Collections can also be used to limit transfers in multi-branch systems (see 
    the :ref:`Library transfer limits<library-transfer-limits-label>` section of 
-   the administration) if :ref:`BranchTransferLimitsType` is set to 'collection 
+   the administration) if :ref:`BranchTransferLimitsType<usebranchtransferlimits-and-branchtransferlimitstype-label>` is set to 'collection 
    code'
 
 -  The collection of an item is used in the :ref:`search<advanced-searching-label>` 
@@ -2380,12 +2379,14 @@ Display
          Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
          that column
          -  Module: OPAC
+         
          -  Table id: holdingst
-         -  Column: item_shelving_location (if :ref:`OpacLocationOnDetail` is 
+         
+         -  Column: item\_shelving\_location (if :ref:`OpacLocationOnDetail` is 
             set to 'separate column')
-      
+
    -  Many other places throughout the OPAC
-   
+
 Mapped to: items.location
 
 Indexed in: location   
@@ -3107,7 +3108,9 @@ Display
          Use :ref:`'Table settings'<column-settings-label>` if you want to hide 
          that column
          -  Module: Catalogue
+         
          -  Table id: holdings\_table and/or otherholdings\_table
+         
          -  Column: holdings\_itemnotes\_nonpublic or 
             otherholdings\_itemnotes\_nonpublic 
 

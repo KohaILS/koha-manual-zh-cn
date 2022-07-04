@@ -3,16 +3,16 @@
 .. _acquisitions-label:
 
 Acquisitions
-============
+===============================================================================
 
-The Koha Acquisitions module provides a way for the library to record
+Koha' Acquisitions module provides a way for the library to record
 orders placed with vendors and manage purchase budgets.
 
--  *Get there:* More > Acquisitions
+*Get there:* More > Acquisitions
 
 .. _setup-acquisitions-label:
 
-Setup
+Setting up the Acquisitions module
 -------------------------------------------------------------------------------
 
 Before using the Acquisitions module you will want to make sure that you
@@ -34,106 +34,175 @@ section.
 .. _vendors-label:
 
 Vendors
--------------------------
+-------------------------------------------------------------------------------
 
-Before any orders can be placed you must first enter at least one
-vendor.
+Before any orders can be placed you must first enter at least one vendor.
 
 .. _add-a-vendor-label:
 
-Add a vendor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding a vendor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To add a vendor click the 'New vendor' button on the Acquisitions page
+To add a vendor click the 'New vendor' button on the acquisitions module main 
+page.
 
-|image783|
+|newvendorbutton|
 
-The vendor add form is broken into three pieces
+The new vendor form is broken into three sections: company information, 
+contacts and ordering information.
 
--  The first section is for basic information about the vendor
+-  Company information: basic information about the vendor
 
-   |image784|
+   |newvendor1|
 
    -  Of these fields, only the vendor name is required, the rest of the
       information should be added to help with generating claim letters
       and invoices
 
--  The second section is for information regarding your contact at the
-   vendor's office
+-  Contacts: information regarding your contact(s) at the vendor's office
 
-   |image785|
+   |newvendor2|
 
    -  None of these fields are required, they should only be entered if
       you want to keep track of your contact's information within Koha
 
-        -  Primary acquisitions contact: check this box if this person is your primary contact regarding acquisitions from this vendor
+        -  Primary acquisitions contact: check this box if this person is your 
+           primary contact regarding acquisitions from this vendor
 
-        -  Primary serials contact: check this box if this person is your primary contact regarding serial acquisitions from this vendor
+        -  Primary serials contact: check this box if this person is your 
+           primary contact regarding serial acquisitions from this vendor
 
-        -  Contact when ordering? check this box if you want to be able to send your orders by email directly to this person
+        -  Contact when ordering? check this box if you want to be able to 
+           send your orders by email directly to this person (see the 
+           :ref:`editing baskets section below<edit-basket-label>`)
 
-        -  Contact about late orders? check this box if you want to be able to send your acquisitions claims by email directly to this person
+        -  Contact about late orders? check this box if you want to be able to 
+           send your :ref:`acquisitions claims<claims-and-late-orders-label>` 
+           by email directly to this person
 
-        -  Contact about late issues? check this box if you want to be able to send your serials claims by email directly to this person
+        -  Contact about late issues? check this box if you want to be able to 
+           send your :ref:`serials claims<claim-late-serials-label>` by email 
+           directly to this person
 
-   -  You can add more than one contact per vendor by clicking on the 'Add another contact' button
+   -  You can add more than one contact per vendor by clicking on the 
+      'Add another contact' button
 
--  The final section is for billing information
+-  Ordering information: general billing information
 
-   |image786|
+   |newvendor3|
 
    -  To be able to order from a vendor you must make them 'Active'
 
-   -  For list prices and invoice prices choose the currency
+   -  Choose the currency for list prices and invoice prices 
 
-      -  Currencies are assigned in the :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` admin area
+      .. Note::
+        
+         Currencies are set up in the 
+         :ref:`Currencies and exchange rates <currencies-and-exchange-rates-label>` 
+         administration section
 
-   -  If your library is charged tax mark your tax number as registered
+   -  If your library is charged tax, mark your tax number as registered
 
-   -  Note if you list prices and/or invoice prices include tax
+   -  Note if your list prices and invoice prices include tax
+   
+   -  Enter your tax rate if your library is charged taxes on orders
+   
+      .. Note::
+        
+         Tax rates are set in the :ref:`TaxRates` system preferences
 
    -  If the vendor offers a consistent blank discount, enter that in
       the 'Discount' field
 
-      -  You can enter item specific discounts when placing an order
+      .. Note::
+        
+         You can enter item specific discounts when 
+         :ref:`placing an order<accounting-details-orders-label>`
 
-   -  Enter your tax rate if your library is charged taxes on orders
-
-   -  If you know about how long it usually takes orders to arrive from
+   -  If you know how long it usually takes orders to arrive from
       this vendor you can enter a delivery time. This will allow Koha to
-      estimate when orders will arrive at your library on the late
-      orders report.
+      estimate when orders will arrive at your library on the 
+      :ref:`late orders report<claims-and-late-orders-label>`.
 
    -  Notes are for internal use
 
-.. _view-edit-a-vendor-label:
+.. _vendor-search-label:
 
-View/edit a vendor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Searching for vendors 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To view a vendor's information page you must search for the vendor from
-the Acquisitions home page. Your search can be for any part of the
-vendor's name:
+Search for vendors either from the search bar at the top of the page
 
-|image787|
+|vendorsearchbar|
 
-From the results, click on the name of the vendor you want to view or
-edit
+Or in the 'Manage orders' box on the main acquisitions page.
 
-|image788|
+|manageorders|
 
-To make changes to the vendor, simply click the 'Edit vendor' button.
+You can search for any part of the vendor's name.
 
-If the vendor has no baskets attached to it then a 'Delete vendor'
-button will also be visible and the vendor can be deleted. Otherwise you
-will see a 'Receive shipment' button.
+|vendorsearch|
 
-|image789|
+.. Note::
+  
+   An empty search will return all vendors.
+   
+If you have a lot of vendors, you can use the dropdown menu to jump directly 
+to a result.
+
+By default, all vendors appear in the results, with inactive vendors in gray 
+font and an '(inactive)' note next to their name. You can click on 'Show active 
+vendors only' to hide inactive vendors.
+
+In the results, you can see all the currently open baskets. You can click on 
+'Show all baskets' to show closed baskets as well.
+
+There are action buttons under each vendor:
+
+-  'New' can be used to :ref:`create a new basket<create-a-basket-label>`, or 
+   :ref:`add a new contract<add-a-contract-label>` to that vendor.
+   
+-  'Edit vendor' is used to :ref:`edit the vendor information<edit-vendor-label>`.
+
+-  'Receive shipments' will appear when a vendor has baskets with orders.
+
+-  'Delete vendor' will appear when a vendor has no baskets.
+
+.. _view-vendor-label:
+
+Viewing a vendor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To view a vendor's information page, 
+:ref:`search for the vendor<vendor-search-label>` from the acquisitions home 
+page. 
+
+|vendorsearch|
+
+From the results, click on the name of the vendor you want to view.
+
+|vendorpage|
+
+.. _edit-vendor-label:
+
+Editing vendor information 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To make changes to a vendor :ref:`search for the vendor<vendor-search-label>` 
+from the acquisitions home page. 
+
+Click the 'Edit vendor' button on the results page 
+
+|vendorsearch|
+
+or on the vendor information page.
+
+|vendorpage|
 
 .. _vendor-contracts-label:
 
 Vendor contracts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can define contracts (with a start and end date) and attach them to
 a vendor. This is used so that at the end of the year you can see how
@@ -142,227 +211,391 @@ contracts are set up with a minimum and maximum yearly amount.
 
 .. _add-a-contract-label:
 
-Add a contract
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding a contract
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-At the top of a vendor information Page, you will see a 'New contract'
-button.
+You can add a contract to a vendor by 
+:ref:`searching for the vendor<vendor-search-label>`, clicking the 'New' button 
+and choosing the 'Contract' option.
 
-|image790|
+|newcontractfromvendorresults|
+
+Alternatively, you can :ref:`access the vendor page<view-vendor-label>` and 
+click 'New' and choose 'Contract' from there.
+
+|newcontractfromvendorpage|
 
 The contract form will ask for some very basic information about the
 contract
 
-|image791|
+|newcontractform|
 
-    **Important**
+.. Warning::
 
-    You cannot enter a contract retrospectively. The end date must not
-    be before today's date.
+   You cannot enter a contract retrospectively. The end date must not
+   be before today's date.
 
-Once the contract is saved it will appear below the vendor information.
+Once the contract is saved it will appear on the 
+:ref:`vendor page<view-vendor-label>`.
 
-|image792|
+|vendorpage|
 
-It will also be an option when creating a basket
+It will also be an option when :ref:`creating a basket<create-a-basket-label>`.
 
-|image793|
+|addbasket|
 
 .. _managing-purchase-suggestions-label:
 
 Managing purchase suggestions
------------------------------------------
+-------------------------------------------------------------------------------
 
-Purchase suggestions can be generated in one of two ways. You can create
-suggestions via the staff client either for the library or :ref:`on the
-patron's behalf <purchase-suggestions-label>` from their record. Depending on
-your settings in the :ref:`suggestion` system
-preference, patrons may also be able to make purchase suggestions via
-the OPAC.
+You can create purchase suggestions via the staff interface either for the 
+library or :ref:`on the patron's behalf <purchase-suggestions-label>` from 
+their record. Depending on your settings in the :ref:`suggestion` system 
+preference, patrons may also be able to 
+:ref:`make purchase suggestions via the OPAC<purchase-suggestions-opac-label>`.
 
-    **Note**
+.. Note::
 
-    You need to be logged in as a staff member with the
-    suggestions_manage :ref:`acquisitions permission <patron-permissions-label>`
-    in order to view and work with purchase suggestions.  
+   You need to be logged in as a staff member with the suggestions\_manage 
+   :ref:`acquisitions permission <patron-permissions-label>` in order to view 
+   and work with purchase suggestions.  
     
-    If you have the suggestions_manage permission but not Acquisitions permissions
-    you can access the suggestion management tool from Suggestions under the More menu in the header bar. 
+   If you have the suggestions\_manage permission but not Acquisitions permissions
+   you can access the suggestion management tool from Suggestions under the 
+   More menu in the header bar. 
 
 When a suggestion is waiting for library review, it will
-appear on the Acquisitions home page next to the vendor search.  Clicking 'Manage suggestions' 
-will take you to the suggestion management tool.
+appear on the Acquisitions home page next to the vendor search. The suggestions 
+for the branch where you are logged in will be separated from the rest of 
+the suggestions. Clicking the library name will take you to the suggestion 
+management tool.
 
-|image794|
+|suggestionspendingacqhome|
 
-It will also appear on the main staff dashboard under the module labels:
+It will also appear on the main staff dashboard under the module labels.
 
-|image795|
+|suggestionspendingstaffhome|
 
 If there are no pending suggestions you can access the suggestion
-management tool by clicking the 'Manage suggestions' link on the menu on
-the left of the Acquisitions page.
+management tool by going to the 'More' menu and choosing 'Suggestions' or by 
+clicking the 'Manage suggestions' link on the menu on the left of the 
+Acquisitions module home page.
 
-|image796|
+|suggestionmanagement|
 
-     **Note**
+.. Note::
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: suggestions).
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: suggestions).
 
-Your suggestions will be sorted into several tabs: Accepted, Pending,
-Checked, Ordered and/or Rejected. Each accepted or rejected suggestion
-will show the name of the librarian who managed the suggestion and the
-reason they gave for accepting or rejecting it (found under 'Status').
+Your suggestions will be sorted into several tabs: Pending, Accepted, Checked, 
+Ordered and Rejected. 
 
-An 'Accepted' suggestion is one that you have marked as 'Accepted' using
-the form below the suggestions. A 'Pending' suggestion is one that is
-awaiting action from the library. A 'Checked' suggestion is one that has
-been marked as 'Checked' using the form before the suggestions. An
-'Ordered' suggestion is on that has been ordered using the '`From a
-purchase suggestion <#orderfromsuggestion>`__' link in your basket. A
-'Rejected' suggestion is one that you have marked at 'Rejected' using
-the form below the list of suggestions.
+-  Pending: A 'Pending' suggestion is one that is awaiting action from the 
+   library. 
 
-For libraries with lots of suggestions, there are filters on the left
+-  Accepted: An 'Accepted' suggestion is one that you have marked as 'Accepted' 
+   using the form below the suggestions. 
+
+-  Checked: A 'Checked' suggestion is one that has been marked as 'Checked' 
+   using the form below the suggestions. 
+
+-  Ordered: An 'Ordered' suggestion is one that has been ordered using the 
+   :ref:`From a purchase suggestion <order-from-purchase-suggestion-label>` link 
+   in an order basket. 
+
+-  Rejected: A 'Rejected' suggestion is one that you have marked as 'Rejected' 
+   using the form below the list of suggestions.
+   
+.. Note::
+  
+   If your workflow requires more statuses for suggestion management, you can 
+   add more using the SUGGEST\_STATUS 
+   :ref:`authorized values category <existing-values-label>`.
+
+Each suggestion will show the name of the staff member who managed the 
+suggestion as well as the date when it was managed.
+
+Accepted and rejected suggestions will show the reason for accepting or 
+rejecting it under 'Status'.
+
+For libraries with a lot of suggestions, there are filters on the left
 hand side of the Manage Suggestions page to assist in limiting the
 number of titles displayed on the screen.
 
-|image797|
+|suggestionsfilters|
 
 Clicking on the blue headings will expand the filtering options and
 clicking '[clear]' will clear all filters and show all suggestions.
 
-    **Note**
+.. Note::
 
-    The suggestions page will automatically be limited to suggestions
-    for your library. To see information for all (or any other)
-    libraries click on the 'Acquisition information' filter and change
-    the library.
+   The suggestions page will automatically be limited to suggestions
+   for your library. To see information for all (or any other)
+   libraries change the library in the 'Viewing suggestions for library'
+   dropdown menu.
 
-    |image798|
+   |suggestbranchfilter|
 
-When reviewing 'Pending' suggestions you can choose to check the box
-next to the item(s) you want to approve/reject and then choose the
-status and reason for your selection.
+.. _approve-reject-suggestions-label:
 
-|image799|
+Approving or rejecting purchase suggestions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When changing the status of a purchase suggestion (pending, accepted, rejected, 
+checked, or ordered), the suggestion will be moved to the matching tab. The 
+status will also be updated on the 
+:ref:`patron's account in the OPAC<your-purchase-suggestions-label>` and an 
+:ref:`email notice <notices-and-slips-label>` will be sent to the patron
+using the template that matches the status you have chosen.
+
+When reviewing 'Pending' suggestions check the boxes next to the purchase 
+suggestions you want to approve or reject and then choose the status and reason 
+for your selection in the 'Change selected suggestions' section below.
+
+|suggestionschangestatus|
+
+.. Note::
+  
+   If your workflow requires more statuses for suggestion management, you can 
+   add more using the SUGGEST\_STATUS 
+   :ref:`authorized values category <existing-values-label>`.
 
 Reasons for accepting and rejecting suggestions are defined by the
-`SUGGEST <#suggestauthorized>`__ authorized value.
+SUGGEST :ref:`authorized value category <existing-values-label>`.
 
-|image802|
+|suggestionsreasons|
 
-If you choose 'Others...' as your reason you will be prompted to enter
+If you choose 'Others...' as your reason, you will be prompted to enter
 your reason in a text box. Clicking 'Cancel' to the right of the box
 will bring back the pull down menu with authorized reasons.
 
-|image803|
+|suggestionsreasonsother|
 
-You can also change the item type of the suggestions by selecting them 
+It is also possible to approve or reject suggestions one by one by clicking on 
+the title of the suggestion to open a summary of the suggestion.
+
+|suggestiondetails|
+
+Click 'edit' at the top of the suggestion detail page to open the suggestion 
+editing page.
+
+|suggestiondetailsedit|
+
+From there, change the status in the 'Suggestion management' section and click 
+'Save'.
+
+A suggestion's status change will trigger a notice to be sent to the patron who 
+made the suggestion. The notices can be edited in the 
+:ref:`Notices & slips tool <notices-and-slips-label>`.
+
+-  The 'Accepted' status will trigger the ACCEPTED notice
+
+-  The 'Rejected' status will trigger the REJECTED notice
+
+-  The 'Ordered' status will trigger the ORDERED notice
+
+   .. Note::
+     
+      The 'Ordered' status will automatically be set when 
+      :ref:`ordering from a suggestion<order-from-purchase-suggestion-label>` 
+      and the corresponding notice will also be sent at that time.
+      
+      Change to this status manually only if you don't use the acquisitions 
+      module to enter your orders.
+
+.. Note::
+  
+   If you add custom statuses in the SUGGEST\_STATUS 
+   :ref:`authorized values<existing-values-label>`, you can 
+   :ref:`add corresponding notices<adding-notices-and-slips-label>` with the same 
+   names, taking care to choose the 'Suggestions' module when creating the new 
+   notices.
+
+.. _editing-suggestions-label:
+
+Editing purchase suggestions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Other than changing the status to accept or reject the purchase suggestions, 
+you can also change various attributes while managing the suggestions.
+
+Edits can be done in a batch by selecting the suggestions and choosing the 
+new values in the 'Change selected suggestions' section at the bottom of the 
+page.
+
+You can change the item type of the suggestions by selecting them 
 and choosing the new item type in the 'Update item types with' drop down menu.
 
-|image1473|
+|suggestionschangeitype|
+
+.. Note::
+
+   The item types in this list are populated by the SUGGEST\_FORMAT 
+   :ref:`authorized value category<existing-values-label>`.
 
 You can also change the manager of the selected suggestions by clicking the 
-'Select manager' link and searching your user database. Note that only users 
-who have the 'superlibrarian' or the 'suggestions\_manage' permission will show 
-in the results. The new manager will receive the :ref:`NOTIFY\_MANAGER notice<existing-notices-and-slips-label>`.
+'Select manager' link and searching your user database. The new manager will 
+receive the :ref:`NOTIFY\_MANAGER notice<existing-notices-and-slips-label>`.
 
-You can also choose to completely delete the selected suggestions by clicking 
-the 'Delete' button in the the 'Delete selected' box.
+.. Note::
+  
+   Only users who have the 'superlibrarian' or the 'suggestions\_manage' 
+   permission will show in the results. 
 
-Another option for libraries with long lists of suggestions is to
-approve or reject suggestions one by one by clicking on the title of the
-suggestion to open a summary of the suggestion, including information if
-the item was purchased.
+It is also possible to edit suggestions one by one by clicking on the 'Edit' 
+button to the right of the suggestion or by clicking on the title of the 
+suggestion.
 
-|image800|
+|suggestiondetails|
 
-Clicking 'edit' to the right of the suggested title or at the top of the
-suggestion detail page will open a suggestion editing page.
+Clicking 'edit' at the top of the suggestion detail page will open a suggestion 
+editing page.
 
-|image801|
+|suggestiondetailsedit|
 
 From this form you can make edits to the suggestion (adding more details
 or updating incorrect information provided by the patron). You can also
 choose to accept or reject the suggestion on an individual basis.
 
--  Choosing to mark a request as 'Pending' will move the request back to
-   the 'Pending' tab.
+-  In the 'Bibliographic information' section, you can add missing information, 
+   such as the ISBN, publisher, etc. or correct wrong information provided by 
+   the patron.
 
-You can also assign this suggestion to a fund.
+   -  This information will be used to create a bibliographic record should you 
+      :ref:`order this title from the suggestion<order-from-purchase-suggestion-label>`.
 
-|image1280|
+-  In the 'Suggestion management' section, you can edit the status, add a 
+   reason for accepting or rejecting the suggestion, or adjust the dates if 
+   needed.
 
-This edit can trigger a notice (defined in the :ref:`Notices &
-slips <notices-and-slips-label>` tool with the `TO\_PROCESS <#toprocessnotice>`__
-notice) to the fund owner that there is a suggestion ready for them to
-manage if you have turned on the :ref:`cron job to generate these
-notices <cron-email-suggestions-to-process-label>`.
+   -  Choosing to mark a suggestion as 'Pending' will move it back to
+      the 'Pending' tab.
 
-Once you have clicked 'Submit' the suggestion will be moved to the
-matching tab. The status will also be updated on the patron's account in
-the OPAC and an :ref:`email notice <notices-and-slips-label>` will be sent to the patron
-using the template that matches the status you have chosen.
+-  The 'Notify manager' checkbox can be used to send a notice to the staff 
+   member who previously managed the suggestion to inform them the suggestion 
+   was modified. The notice sent is 
+   :ref:`NOTIFY\_MANAGER notice<existing-notices-and-slips-label>`.
 
-|image804|
+-  In the 'Acquisitions information' section, you can edit the fund, price, 
+   currency, etc.
 
-Once the suggestion has completed the acquisitions process, it is possible to 
-archive it by clicking the small arrow next to the 'Edit' button and choosing 
-'Archive'. This will remove it from the search results. If you have a lot of 
-suggestions, and the page takes a long time to load, archiving old suggestions 
-will improve the performance.
+   -  Assigning the suggestion to a fund will trigger a notice to be sent to 
+      the fund owner to inform them that there is a suggestion ready for them 
+      to manage. 
 
-|image474|
+      -  The :ref:`notice\_unprocessed\_suggestions.pl cronjob<cron-email-suggestions-to-process-label>` 
+         is necessary to generate these notices.
+
+      -  The notice used is :ref:`TO\_PROCESS<existing-notices-and-slips-label>`, 
+         it can be edited in the :ref:`Notices & slips tool<notices-and-slips-label>`.
+
+.. _archiving-suggestions-label:
+
+Archiving purchase suggestions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once the suggestion has completed the acquisitions process, it is possible to
+archive them. If you have a lot of suggestions, and the page takes a long time 
+to load, archiving old suggestions will improve the performance.
+
+Select the suggestions you want to archive and click the 'Archive' button in 
+the 'Archive selected' box.
+
+|suggestionsarchiveselected|
+
+You can also archive the purchase suggestion by clicking the small arrow next 
+to the 'Edit' button and choosing 'Archive'. 
+
+|suggestionsarchive|
+
+Archived suggestions will disappear from the list, but they can be viewed by 
+checking the 'Include archived' checkbox in the 'Suggestion information' 
+filters.
+
+|suggestionsfiltersinformation|
+
+Archived suggestions will have a the mention 'Archived' under the title 
+information when they are viewed.
+
+|suggestionsarchived|
+
+.. Note::
+  
+   Archived suggestions will disappear from the
+   :ref:`'Your purchase suggestions' section of the patron's file on the OPAC<your-purchase-suggestions-label>`.
+
+.. _deleting-suggestions-label:
+
+Deleting purchase suggestions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once you no longer need the purchase suggestions, you can completely delete 
+them from the system.
+
+To delete purchase suggestions in batch, select the suggestions you want to 
+delete completely and click the 'Delete' button in the the 'Delete selected' box.
+
+|suggestionsdeleteselected|
+
+You can also delete a purchase suggestion by clicking the small arrow next 
+to the 'Edit' button and choosing 'Delete'. 
+
+|suggestionsdelete|
+
+It is also possible to delete purchase suggestions by clicking on the title of 
+the suggestion to access the suggestion detail page and clicking the 'Delete' 
+button from there.
+
+|suggestiondetails|
+
+Old purchase suggestions can be automatically deleted using the 
+:ref:`purge\_suggestions.pl cronjob<cron-clean-up-old-suggestions-label>`.
 
 .. _placing-orders-label:
 
 Placing orders
--------------------------------------
+-------------------------------------------------------------------------------
 
-To place an order you must first search for the vendor or bookseller you
-want to send the order to.
+To place an order you must first 
+:ref:`search for the vendor or bookseller <vendor-search-label>` and 
+:ref:`create a basket<create-a-basket-label>`.
 
-    **Important**
+.. Warning::
 
-    If you are planning on using EDIFACT to submit your order you will
-    need to first set up your library's :ref:`EDI accounts<edi-accounts-label>`
-    and :ref:`EANs <library-eans-label>`.
+   If you are planning on using EDIFACT to submit your order you will
+   need to first set up your library's :ref:`EDI accounts<edi-accounts-label>`
+   and :ref:`EANs <library-eans-label>`.
 
 .. _create-a-basket-label:
 
-Create a basket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating a basket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    **Note**
+.. Note::
 
-    If you're using EDI for ordering you will want to download your
-    order record from your vendor before starting the process in Koha.
+   If you're using EDI for ordering you will want to download your
+   order record from your vendor before starting the process in Koha.
 
-To create a basket you must first search for the vendor you're ordering
-from:
+To create a basket you must first 
+:ref:`search for the vendor<vendor-search-label>` you're ordering from. From 
+the vendor search results, click the 'New' button and choose 'Basket'.
 
-|image805|
+|newbasketfromvendorresults|
 
-And click the 'New basket' button to the right of the vendor name.
+Alternatively, you can click on the vendor's name to access the vendor page and 
+click 'New' and choose 'Basket' from there.
 
-    **Note**
+|newbasketfromvendorpage|
 
-    You can also add to an existing basket by clicking the arrow next to
-    the 'View' button at the far right of each basket's information in
-    the results table, and choosing 'Add to basket'.
+After clicking 'New' and 'Basket' you will be asked to enter some information
+about the order basket:
 
-    |image1406|
+|addbasket|
 
-After clicking 'New basket' you will be asked to enter some information
-about the order:
-
-|image806|
-
--  When adding a basket you want to give it a name that will help you
-   identify it later
+-  Give the basket a name that will help you identify it later
 
 -  Enter in the billing place and delivery place (this will default the
    library you're logged in at)
@@ -372,10 +605,14 @@ about the order:
 
 -  The notes fields are optional and can contain any type of information
 
--  If you're ordering standing items (items which arrive regularly) then
-   you will want to check the 'Orders are standing' box for this basket.
+- If you have :ref:`added contracts <add-a-contract-label>` to the vendor
+  you're ordering from, you will have an option to choose which contract 
+  you're ordering these items under.
 
-   -  Note that any one basket cannot contain both firm and standing orders.
+-  If you're ordering standing items (items which arrive regularly), check the 
+   'Orders are standing' box for this basket.
+
+   -  Note that one basket cannot contain both firm and standing orders.
 
 -  You can choose to create items either upon placing the order, upon
    receiving the order, or upon cataloging the item. If you choose an
@@ -383,123 +620,135 @@ about the order:
    The default is set by the :ref:`AcqCreateItem <acqcreateitem-label>`
    system preference.
 
-If you have :ref:`added contracts <add-a-contract-label>` to the vendor
-you're ordering from, you will also have an option to choose which
-contract you're ordering these items under.
-
-|image807|
-
 When finished, click 'Save'.
 
-|image808|
+|basketempty|
 
-Once your basket is created, click on 'Add to basket' you are presented
-with several options for adding items to the order.
-
-|image1407|
+.. _add-to-basket-label:
 
 Adding materials to the basket
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once your basket is created, click on 'Add to basket' from the basket page.
+
+|basketempty|
+
+To add to an existing basket click 'Add to basket' to the right of an existing 
+basket.
+
+|showactivebaskets|
+
+Several options for adding items to the order will be presented.
+
+|addtobasketoptions|
+
+.. _order-from-existing-record-label:
 
 Order from an existing record
-*****************************
+*******************************************************************************
 
--  If you are ordering another copy of an existing item, you can simply
-   search for the record in your system.
+If you are ordering another copy of an existing item, you can simply search 
+for the record in your system.
 
-   -  From the results, you can click 'Add order' to be brought to the order
-      form.
+-  From the results, you can click 'Add order' to be brought to the order
+   form.
 
-      |image809|
+   |orderfromexistingresults|
 
-   -  From the record's detailed view, you can click on the 'Add order' button.
+-  From the record's detailed view, you can click on the 'Add order' button.
 
-      |image1451|
+   |orderfromexistingrecord|
 
 -  You will be brought to the order form
 
-      |image810|
+   |existingitemorder|
 
-      -  All of the details associated with the item will already be
-         listed under 'Catalog details.'
+   -  All of the details associated with the item will already be
+      listed under 'Catalog details.'
+
+-  Fill out the rest of the order form, including 
+   :ref:`patron notifications<order-patron-notifications-label>`, 
+   :ref:`items <add-item-orders-label>`, and 
+   :ref:`accounting details <accounting-details-orders-label>`.
+
+.. _order-from-purchase-suggestion-label:
 
 Order from a purchase suggestion
-********************************
+*******************************************************************************
 
--  If you allow patrons to make purchase suggestions (learn more in the
-   :ref:`managing purchase suggestions <managing-purchase-suggestions-label>` section of this manual),
-   then you can place orders from those suggestions. In order to keep
-   track of suggestions that have been ordered and received you must
-   place the order using this link.
+If you allow patrons to make purchase suggestions (learn more in the
+:ref:`managing purchase suggestions <managing-purchase-suggestions-label>` 
+section of this manual), you can place orders from those suggestions. In order 
+to keep track of suggestions that have been ordered and received you must place 
+the order using this link.
 
-     **Important**
+.. Warning::
 
-     Suggestions must be accepted before you can order them.
+   Suggestions must be accepted before you can order them.
 
-   |image811|
+|orderfromsuggest|
 
-   -  From the results, click 'Order' next to the item you want to order
-      and you will be presented with the order form including a link to
-      the suggestion
+-  From the results, click 'Order' next to the item you want to order
+   and you will be presented with the order form including a link to
+   the suggestion
 
-      |image812|
+   |orderfromsuggestform|
 
-      -  From this form you can make changes to the catalog details if
-         necessary.
+-  From this form you can make changes to the catalog details if necessary.
 
-      -  When the item appears in your basket it will include a link to
-         the suggestion.
+-  When the item appears in your basket it will include a link to the 
+   suggestion.
 
-         |image813|
+   |ordersuggestlink|
 
-   -  Orders added to the basket in this way will notify the patron via
-      email that their suggestion has been ordered (with the 'ORDERED' notice
-      in Tools > :ref:`Notices & slips <existing-notices-and-slips-label>`) and will
-      update the patron's
-      ':ref:`your purchase suggestions <your-purchase-suggestions-label>`'
-      page in the OPAC.
+-  Orders added to the basket in this way will notify the patron via email that 
+   their suggestion has been ordered (with the 'ORDERED' notice in Tools > 
+   :ref:`Notices & slips <existing-notices-and-slips-label>`) and will update 
+   the patron's 
+   ':ref:`your purchase suggestions <your-purchase-suggestions-label>`' page in 
+   the OPAC.
 
 .. _order-from-a-serial-subscription-label:
 
 Order from a serial subscription
-********************************
+*******************************************************************************
 
--  If you're using the `Serials <#serials>`__ module you can link your
-   subscription order information to acquisitions by choosing to order
-   'From a subscription'
+If you are using the :ref:`Serials module <serials-label>` you can link your
+subscription order information to acquisitions by choosing to order
+'From a subscription'.
 
-   -  After clicking the order link you will be brought to a search page
-      that will help you find your subscription
+-  After clicking the order link you will be brought to a search page that will 
+   help you find your subscription
 
-      |image814|
+   |subordersearch|
 
-   -  Your results will appear to the right of the form and each
-      subscription will have an 'Order' link to the right
+-  Your results will appear to the right of the form and each subscription will 
+   have an 'Order' link to the right
 
-      |image815|
+   |suborderresults|
 
-   -  Clicking 'Order' will bring the subscription info in to the order
-      form without an 'Add item' section since you are just ordering a
-      subscription and an item isn't needed
+-  Clicking 'Order' will bring the subscription info in to the order form 
+   without an 'Add item' section since you are just ordering a subscription and 
+   an item is not needed
 
-      |image816|
+   |suborder|
 
 .. _order-from-a-new-empty-record-label:
 
 Order from a new (empty) record
-*******************************
+*******************************************************************************
 
--  To order from a record that can't be found anywhere else, choose the
-   'From a new (empty) record' option.
+To order from a record that can't be found anywhere else, choose the 'From a 
+new (empty) record' option.
 
-   |image817|
+|orderfromnewemptyrecord|
 
-   -  You will be presented with an empty form to fill in all of the
-      necessary details about the item you are ordering.
+-  You will be presented with an empty form to fill in all of the necessary 
+   details about the item you are ordering.
 
-      **Note**
+   .. Note::
 
-      If the default form does not have catalog details fields necessary to
+      If the default form does not have the necessary bibliographic fields to
       place an order, enable the :ref:`UseACQFrameworkForBiblioRecords` preference
       which will allow the ACQ :ref:`MARC framework <marc-bibliographic-frameworks-label>`
       to customize the display of fields when ordering.
@@ -507,154 +756,167 @@ Order from a new (empty) record
 .. _duplicate-orders-label:
 
 Duplicate orders (order from existing orders)
-*********************************************
+*******************************************************************************
 
--  You can duplicate an existing order line by choosing the 'From existing
-   orders (copy)' option.
+You can duplicate an existing order line by choosing the 'From existing orders 
+(copy)' option.
 
-   -  You will be presented with a search form to search your existing orders.
+-  You will be presented with a search form to search your existing orders.
 
-      |image1408|
+  |duplicateorder|
 
-   -  Check the boxes next to the order(s) you want to duplicate.
+-  Check the boxes next to the order(s) you want to duplicate.
 
-      |image1409|
+  |duplicateorder2|
+  
+-  Click 'Next'
+
+-  Check the boxes next to the values to copy from the original order or 
+   choose new values.
+
+  |duplicateorder3|
+
+-  Click 'Duplicate orders'
+
+  |duplicateorder4|
+  
+-  Click 'Return to the basket'
 
 .. _order-from-an-external-source-label:
 
 Order from an external source
-*****************************
+*******************************************************************************
 
--  If you want to search other libraries for an item to purchase, you
-   can use the 'From an external source' option that will allow you to
-   order from a MARC record found via a Z39.50 search.
+You can search other library catalogs for the record of an item to purchase 
+using the 'From an external source' option. This will allow you to order from 
+a MARC record found via a Z39.50 search.
 
-   |image818|
+|orderfromz3950|
 
-   -  From the results, click the 'Order' button next to the item you want
-      to purchase.
+-  From the results, click anywhere in the row of the title you want to add to 
+   your basket and choose the 'Order' option.
 
-      |image819|
+   |orderfromz3950results|
 
-   -  If the item you're ordering from an external source looks like it
-      might be a duplicate, Koha will warn you and give you options on
-      how to proceed.
+-  If the item you're ordering from an external source looks like it might be a 
+   duplicate, Koha will warn you and give you options on how to proceed.
 
-      |image820|
+   |duplicatewarning|
 
-      -  From the warning, you can choose to order another copy on the
-         existing bibliographic record, create a new bibliographic
-         record, or cancel your order of this item.
-
-   -  In the order form that pops up, you will not be able to edit the
-      catalog details.
-
-      |image821|
+   -  Use existing record: order another copy on the existing bibliographic 
+      record
+      
+   -  Cancel and return to order: cancel the order 
+   
+   -  Create new record: create a new bibliographic record, while keeping the 
+      existing one also
 
 .. _order-from-a-new-file-label:
 
 Order from a new file
-*********************
+*******************************************************************************
 
--  If your vendor sent you a record file (a .mrc file for example), you can
-   add orders using the records in that file. Choose the 'From a new file'
-   option.
+If your vendor sent you a record file (a .mrc file for example), you can add 
+orders using the records in that file. Choose the 'From a new file' option.
 
-     **Note**
+.. Note::
 
-     Note that you need the stage_marc_import :ref:`tool permission <patron-permissions-label>`
-     in order to be able order from a new file.
+   Note that you need the 
+   :ref:`stage_marc_import tool permission <patron-permissions-label>` in order 
+   to be able order from a new file.
 
-    - You will be taken to the
-      :ref:`Stage MARC records for import <stage-marc-records-for-import-label>`
-      tool. Stage your file as described in that section.
+-  You will be taken to the
+   :ref:`Stage MARC records for import <stage-marc-records-for-import-label>`
+   tool. Stage your file as described in that section.
 
-    - Once the files are staged, you can click on the 'Add staged files to basket'
-      button.
+-  Once the files are staged, you can click on the 'Add staged files to basket'
+   button.
 
-      |image1410|
+  |stagedfilestobasket|
 
-   -  Next to each title is a checkbox, check the items you would like
-      to order, or choose 'Select all' at the top. Depending on your
-      settings in the :ref:`MarcFieldsToOrder`
-      preference, Koha will populate the next screen with with the
-      relevant Quantity, Price, Fund, Statistic 1, and Statistic 2 found
-      within the staged file.
+-  Next to each title is a checkbox, check the items you would like to order, 
+   or choose 'Select all' at the top. Depending on your settings in the 
+   :ref:`MarcFieldsToOrder` system preference, Koha will populate the next 
+   screen with with the relevant quantity, price, fund, statistic 1, and 
+   statistic 2 found within the staged file.
 
-      |image1282|
+   |selecttoimport|
 
-   -  In the 'Item information' tab you can enter information that will
-      be added to every ordered item such as item type, collection code
-      and not for loan status.
+-  In the 'Item information' tab you can enter information that will be added 
+   to every ordered item such as item type, collection code and not for loan 
+   status.
 
-      |image1283|
+   |itemfromstaged|
 
-   -  If no information is imported in the fund information from the MARC
-      with the :ref:`MarcFieldsToOrder` preference,
-      the 'Default accounting details' tab can be used to
-      apply values related to the accounting.
+-  If no information is imported in the fund information from the MARC with the 
+   :ref:`MarcFieldsToOrder` system preference, the 'Default accounting details' 
+   tab can be used to apply values related to the accounting.
 
-      |image1284|
+   |stagedaccounting|
+
+-  Click 'Save' to add to the basket
 
 .. _order-from-a-staged-file-label:
 
 Order from a staged file
-************************
+*******************************************************************************
 
--  This option is the same as the previous one, but in this case, your file has already
-   been :ref:`staged <stage-marc-records-for-import-label>`. Whether you choose to 'order
-   from a new file' or 'order from a staged file' will depend on your acquisitions
-   workflow or your :ref:`permissions <patron-permissions-label>`.
+This option is the same as the previous one, but in this case, your file has 
+already been :ref:`staged <stage-marc-records-for-import-label>`. Whether you 
+choose to 'order from a new file' or 'order from a staged file' will depend on 
+your acquisitions workflow or your :ref:`permissions <patron-permissions-label>`.
 
-   -  Once you click on 'From a staged file', you will get a list of all the
-      staged files in your system.
+-  Once you click on 'From a staged file', you will get a list of all the
+   staged files in your system.
 
-      |image822|
+   |stagedfiles|
 
-   -  From the list of files you are presented with, click on the 'Add
-      orders' button to add the records in the staged file to your order.
+-  From the list of files you are presented with, click on the 'Add orders' 
+   button to add the records in the staged file to your order.
 
-      |image1281|
+   |importallstaged|
 
-   -  Next to each title is a checkbox, check the items you would like
-      to order, or choose 'Select all' at the top. Depending on your
-      settings in the :ref:`MarcFieldsToOrder`
-      preference, Koha will populate the next screen with with the
-      relevant Quantity, Price, Fund, Statistic 1, and Statistic 2 found
-      within the staged file.
+-  Next to each title is a checkbox, check the items you would like to order, 
+   or choose 'Select all' at the top. Depending on your settings in the 
+   :ref:`MarcFieldsToOrder` system preference, Koha will populate the next 
+   screen with with the relevant quantity, price, fund, statistic 1, and 
+   statistic 2 found within the staged file.
 
-      |image1282|
+   |selecttoimport|
 
-   -  In the 'Item information' tab you can enter information that will
-      be added to every ordered item such as item type, collection code
-      and not for loan status.
+-  In the 'Item information' tab you can enter information that will be added 
+   to every ordered item such as item type, collection code and not for loan 
+   status.
 
-      |image1283|
+   |itemfromstaged|
 
-   -  If no information is imported in the fund information from the MARC
-      with the :ref:`MarcFieldsToOrder` preference,
-      the 'Default accounting details' tab can be used to
-      apply values related to the accounting.
+-  If no information is imported in the fund information from the MARC with the 
+   :ref:`MarcFieldsToOrder` system preference, the 'Default accounting details' 
+   tab can be used to apply values related to the accounting.
 
-      |image1284|
+   |stagedaccounting|
+
+-  Click 'Save' to add to the basket
 
 .. _order-from-titles-with-highest-holds-ratio-label:
 
 Order from titles with highest hold ratios
-******************************************
+*******************************************************************************
 
--  The final option for ordering is to order from a list of titles with
-   the highest hold ratios
+The final option for ordering is to order from a list of titles with the 
+highest hold ratios.
 
-   -  This option will take you to the holds ratio report where you can
-      find items with a high hold ratio and order additional copies.
-      Next to each title will be a button with the number of items to
-      order, click that and it will add the item to your basket.
+-  This option will take you to the holds ratio report where you can find items 
+   with a high hold ratio and order additional copies. Next to each title will 
+   be a button with the number of items to order, click that and it will add 
+   the item to your basket.
 
-      |image1285|
+   |highestholdratio|
 
-Setting patron notifications
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _order-patron-notifications-label:
+
+Setting up patron notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With any of the above ordering options you're presented with an option
 to notify patrons of the new item when it's received. The contents of
@@ -668,15 +930,17 @@ Patron notification search
 -  In the window that pops up search for the patrons you'd like to
    notify and click 'Add'
 
-   |image1411|
+   |patronsearchpopup|
 
 -  Once you're done you can close the window and you'll see the list of
    patrons under the 'Patrons' section
 
-   |image1286|
+   |patronstonotify|
 
-Adding items to materials
-^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _add-item-orders-label:
+
+Adding items to orders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After bringing in the record information (for all order methods except for
 the staged files), if your :ref:`AcqCreateItem` system
@@ -684,66 +948,77 @@ preference is set to add an item when ordering you will enter the item
 information next. You need to fill out at least one item record and then click
 the 'Add item' button at the bottom left of the item form.
 
-|image823|
+|itemonorder|
 
 After clicking the 'Add item' button below the item record the item will
 appear above the form and then you can enter your next item the same way
 (if ordering more than one item).
 
-|image824|
+|itemonorderadded|
 
 If you are ordering several items, you can click on the 'Add multiple items'
 instead of adding them one by one. This will ask you how many items you want to add.
 Simply enter that number in the box and click on 'Add'.
 
-|image1412|
+|addmultipleitems|
 
-Adding accounting details to materials
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _accounting-details-orders-label:
+
+Adding accounting details to orders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you have entered the info about the item, you need to enter the
 Accounting information.
 
-|image825|
+|accounting|
 
--  Quantity is populated by the number of items you've added to the
-   order above.
+-  Quantity: enter the quantity of copies you want to order.
 
-   -  **Important**
+   .. Warning::
 
-          If the item is created upon ordering, you will not be able to
-          edit the quantity manually, you must click 'Add item' below
-          the item form to add as many items as you're ordering.
+      If the item is created upon ordering, you will not be able to edit the 
+      quantity manually, you must 
+      :ref:`add items to the order<add-item-orders-label>` by clicking 'Add 
+      item' below the item form to add as many items as you're ordering.
 
--  The list of funds is populated by the :ref:`funds <funds-label>` you have
-   assigned in the :ref:`Acquisitions administration <acquisitions-module-label>` area.
+-  Fund: choose the fund that will be used to buy this title.
 
--  The currency pull down will have the
-   :ref:`currencies <currencies-and-exchange-rates-label>` you set
-   up in the :ref:`Acquisitions administration <acquisitions-module-label>` area.
+   -  The list of funds is populated by the :ref:`funds <funds-label>` you have
+      created in the :ref:`Acquisitions administration <acquisitions-module-label>` 
+      area.
 
--  The vendor price is the price before any taxes or discounts are
-   applied.
+-  Currency: choose the currency of the price.
 
--  If the price is uncertain, check the uncertain price box.
+   -  The currency pull down will have the
+      :ref:`currencies <currencies-and-exchange-rates-label>` you set
+      up in the :ref:`Acquisitions administration <acquisitions-module-label>` area.
 
-   **Note**
+-  Vendor price: enter the price before any taxes or discounts are applied.
 
-   A basket with at least one uncertain price can't be closed.
+-  Uncertain price: if the price is uncertain, check the uncertain price box.
+   You will be able to go back later to enter the right price.
 
--  If you are charged sales tax, choose that from the 'Tax rate' field.
-   This field is populated by the :ref:`TaxRates` system preference.
+   .. Note::
 
--  Enter the percentage discount you're receiving on this order, once
+      A basket with at least one uncertain price cannot be closed.
+      
+      See the section :ref:`Dealing with uncertain prices <uncertain-prices-label>` 
+      below to learn how to manage uncertain prices.
+
+-  Tax rate: ff you are charged sales tax, choose the rate.
+   
+   -  This field is populated by the :ref:`TaxRates` system preference.
+
+-  Discount: enter the percentage discount you're receiving on this order. Once
    you enter this, hit tab and Koha will populate the rest of the cost
    fields below.
 
--  Retail price is the recommended retail price (RRP), the price set
+-  Retail price: enter the recommended retail price (RRP), the price set
    by the publisher or the manufacturer as a recommendation to booksellers.
 
--  Replacement cost is the price it will cost to replace the item. This is the
-   price charged to the user when an item is declared lost (if the :ref:`WhenLostChargeReplacementFee`
-   system preference is set to 'Charge').
+-  Replacement cost: enter the cost to replace the item. This is the
+   price charged to the user when an item is declared lost (if the 
+   :ref:`WhenLostChargeReplacementFee` system preference is set to 'Charge').
 
 -  Budgeted cost is the amount that will be removed from the 'spent' budget.
    Whether this number includes or excludes taxes will depend on the 'List price'
@@ -751,41 +1026,61 @@ Accounting information.
 
 -  Total is the budgeted cost multiplied by the quantity of items ordered.
 
--  You can add an internal note. This will only appear in the acquisitions module
+-  Actual cost: this field is usually left empty until receiving, when you can 
+   confirm the actual cost against the vendor's packing slip or invoice.
+
+-  Internal note: this will only appear in the acquisitions module
    and in the staff interface catalog, under the 'Acquisitions details' tab
    in the detailed record.
 
--  You can also add a vendor note. This will appear in the acquisitions module
+-  Vendor note: this will appear in the acquisitions module
    as well as on the order when exported as CSV.
 
 -  If you added statistical categories when :ref:`creating the
-   Fund <add-a-fund-label>`, those values will appear in the two
+   fund <add-a-fund-label>`, those values will appear in the two
    statistics fields.
 
 Once you have filled in all of the fields click 'Save' to add the item
 to your basket. If your price goes over the amount available in the fund
 you will be presented with a confirmation.
 
-|image826|
+|fundconfirmation|
 
 The confirmation warning will allow you order past your fund amount if
 you so choose.
 
+Once your order is entered you can search for it through acquisitions or
+view the information on the bibliographic record detail page in the staff 
+interface, if the :ref:`AcquisitionDetails` system preference is set to 
+'Display', or view the information on the bibliographic record detail page in 
+the OPAC, if the :ref:`OPACAcquisitionDetails` system preference is set to 
+'Display'.
+
+|AcquisitionDetails|
+
+.. Note::
+
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: acquisitiondetails-table).
+
+.. _edit-basket-label:
+
 Editing the basket
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After an item is added to the basket you will be presented with a basket
 summary.
 
-|image827|
+|finalbasket|
 
-     **Note**
+.. Note::
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: orders).
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: orders).
 
-From here, you can edit or remove the items that you have added.
+From the basket, you can edit or remove the items that you have added.
 
 -  Choosing to 'Cancel the order' will delete the order line but leave
    the record in the catalog.
@@ -796,122 +1091,135 @@ From here, you can edit or remove the items that you have added.
    -  The catalog record cannot always be deleted. You might see notes
       explaining why.
 
-      |image829|
+      |cantdeleteorderline|
 
 On the summary page, you also have the several option through the buttons
 at the top of the basket header.
 
-|image830|
+|basketbuttons|
 
-  - Edit basket: edit the basket information, such as the name or the billing
-    place.
+  -  Add to basket: :ref:`add orders to the basket<add-to-basket-label>`
+  
+  -  Edit basket: edit the basket information, such as the name or the billing
+     place.
 
-  - Delete this basket: if the basket is empty, you will get a simple
-    confirmation message before deleting the basket. If the basket contains orders,
-    you will get a confirmation message with several options.
+  -  Delete basket: if the basket is empty, you will get a simple confirmation 
+     message before deleting the basket. If the basket contains orders, you 
+     will get a confirmation message with several options.
 
-    |image1413|
+     |deletebasketconfirmation|
 
-    - Delete basket and orders: this will delete the basket, cancel the orders,
-      refund the used funds, and delete the items (ordered or received).
+     -  Delete basket and orders: this will delete the basket, cancel the orders,
+        refund the used funds, and delete the items (ordered or received).
 
-    - Delete basket, orders, and records: this will delete all of the above
-      plus the bibliographic records associated with the orders (except the
-      ones which can't be deleted because they have remaining items, orders
-      or subscriptions attached).
+     -  Delete basket, orders, and records: this will delete all of the above
+        plus the bibliographic records associated with the orders (except the
+        ones which can't be deleted because they have remaining items, orders
+        or subscriptions attached).
 
-  - Close this basket: closing the basket will enable you to add it to a basket
-    group (this is optional) and receive its items.
+  -  Close basket: :ref:`closing the basket<ordering-closing-basket-label>` will 
+     enable you to :ref:`add it to a basket group<create-a-basket-group-label>` 
+     (this is optional) and :ref:`receive its items<receiving-orders-label>`.
 
-  - Export as CSV: this will create a CSV file with all your orders from this basket.
-    You can add several CSV profiles options by going to the :ref:`CSV profiles
-    tool <csv-profiles-label>`.
+  -  Export as CSV: this will create a CSV file with all your orders from this 
+     basket. You can add several CSV profiles options by going to the 
+     :ref:`CSV profiles tool <csv-profiles-label>`.
+    
+  -  Create EDIFACT order: if you're using EDI for your order you can click 
+     the 'Create EDIFACT order' button when you're done to send the file to the 
+     vendor and close the basket.
 
-  - E-mail order: this will send the order information to your contact for this
-    vendor. Make sure your contact has a email address in the :ref:`vendor
-    profile <vendors-label>`.
+  -  E-mail order: this will send the order information to your contact for this
+     vendor. Make sure your contact has a email address in the 
+     :ref:`vendor profile <vendors-label>`.
 
-If you're using EDI for your order you can click the 'Create EDIFACT
-order' button when you're done to send the file to the vendor and close
-the basket.
+.. _ordering-closing-basket-label:
 
-|image1287|
-
-Ordering/Closing the basket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ordering (closing the basket)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once you're sure your basket is complete, you can click 'Close this
 basket' button to indicate that this basket is complete and has been
 sent to the vendor.
 
-|image835|
+|basketbuttons|
 
-    **Important**
+.. Warning::
 
-    You must close the basket to be able to :ref:`receive
-    items <receiving-orders-label>` when they arrive. Only items in closed
-    baskets will show as ready to receive.
+   You must close the basket to be able to 
+   :ref:`receive items <receiving-orders-label>` when they arrive. Only items 
+   in closed baskets will show as ready to receive.
 
-If you have your :ref:`BasketConfirmations`
-preference set to show a confirmation, you will be asked if you are sure
-about closing the basket.
+If you have your :ref:`BasketConfirmations` system preference set to show a 
+confirmation, you will be asked if you are sure about closing the basket.
 
-|image836|
+|closebasket|
 
 When closing the basket you can choose to add the basket to a group for
-easy printing and retrieval. If you check the box to 'Attach this basket
-to a new basket group' you will be brought to the group list where you
-can export a PDF of the order.
+easy printing and retrieval. If you check the box to 'Attach this basket to a 
+new basket group with the same name' you will be brought to the group list 
+where you can export a PDF of the order.
 
-|image832|
+|basketgroup|
 
-    **Important**
+.. Warning::
 
-    A basket with at least one item marked as 'uncertain price' will not
-    be allowed to be closed.
+   A basket with at least one item marked as 'uncertain price' will not
+   be allowed to be closed.
+   
+   See the section :ref:`Dealing with uncertain prices <uncertain-prices-label>` 
+   below to learn how to manage uncertain prices.
 
-    |image833|
+.. _uncertain-prices-label:
+
+Dealing with uncertain prices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Warning::
+
+   A basket with at least one item marked as 'uncertain price' will not
+   be allowed to be closed.
+
+|basketuncertain|
 
 Clicking the 'Uncertain prices' button will call up a list of items with
 uncertain prices to quick editing. From that list, you can quickly edit
 the items by entering new prices and quantities.
 
-|image834|
+|uncertainprices|
 
-    **Important**
+.. Note::
 
-    The Uncertain prices page is independent of the basket. It is linked
-    to the vendor so you will see all items on order with uncertain
-    prices for that vendor.
-
-Once your order is entered you can search for it through acquisitions or
-view the information on the biblio detail page in the staff client (if
-the :ref:`AcquisitionDetails` preference is set to
-'Display).
-
-|image1288|
+   The Uncertain prices page is independent of the basket. It is linked to the 
+   vendor so you will see all items on order with uncertain prices for that 
+   vendor.   
 
 .. _create-a-basket-group-label:
 
-Create a basket group
-~~~~~~~~~~~~~~~~~~~~~
+Creating a basket group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A basket group is simply a group of baskets. In some libraries, you have
-several staff members that create baskets, and, at the end of a period
-of time, someone then groups them together to send to the vendor in
-bulk. That said, it is possible to have one basket in a basket group,
-or no basket groups at all if that's the workflow used in your library.
+A basket group is simply a group of baskets. In some libraries, several staff 
+members create baskets, and, at the end of a period of time, someone groups 
+them together to send to the vendor in bulk. Note that it is possible to have 
+one basket in a basket group, or no basket groups at all if that's the workflow 
+used in your library.
+
+.. Note::
+
+   You cannot re-open a basket that is attached to a basket group. The 
+   re-open basket button will be grayed out.
 
 To create a basket group, go to the vendor detail page and click on the
 'Basket groups' tab on the left side.
 
-|image788|
+|vendorpage|
 
-|image1414|
+|basketgroupopen|
 
 Click on the 'New basket group' button.
 
-|image1415|
+|newbasketgroup|
 
   -  Basket group name: this is the name the basket group will go by in Koha
   -  Billing place: this is the billing address that will appear on the
@@ -921,69 +1229,111 @@ Click on the 'New basket group' button.
      You can also enter a different address
   -  Delivery comment: this comment will appear on the basket group order
   -  Close basket group: if you know that once you're done with this basket
-     group, you will not be modifying it anymore, you can close it right away
+     group, you will not be modifying it anymore, you can check this box and 
+     the group will be closed upon saving
 
-Drag the ungrouped baskets to the 'Baskets in this group' box to add baskets
-to the basket group.
-
-|image1416|
+Add baskets to the group by clicking the 'Add to group' button on the right.
 
 Click on 'Save' to finish creating your basket.
 
 From there, you can export your order as a PDF file to send to your vendor.
 
-|image838|
+.. Note::
+   
+   The content of the PDF file is not editable, but it is possible to change its 
+   language and formatting with the :ref:`OrderPdfFormat` system preference.
+
+.. _searching-orders-label:
+
+Searching for orders
+-------------------------------------------------------------------------------
+
+At the top of the various Acquisition pages there is a quick search box
+where you can perform either a :ref:`Vendor search <vendor-search-label>` or an 
+Order search.
+
+|vendorsearchbar|
+
+Using the Orders search you can search for items that have been ordered
+with the title or the vendor.
+
+|ordersearchbar|
+
+You can enter info in one or both fields and you can enter any part of
+the title or vendor name.
+
+|ordersearchresults|
+
+.. Note::
+
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: histsearcht).
+
+Clicking the plus sign to the right of the vendor search box will expand
+the search and allow you to search for additional fields. In the basket search, 
+you can enter any part of the basket name or its number. In the invoice number 
+search, you can enter a part of the invoice number.
+
+|ordersearchbarexpanded|
+
+Clicking Advanced search to the right of the search button will give you
+all of the order search options available.
+
+|ordersearchadvanced|
 
 .. _receiving-orders-label:
 
 Receiving orders
----------------------------------------
+-------------------------------------------------------------------------------
 
-    **Important**
+.. Warning::
 
-    You must close the basket to be able to :ref:`receive
-    items <receiving-orders-label>` when they arrive. Only items in closed
-    baskets will show as ready to receive.
+   You must :ref:`close the basket<ordering-closing-basket-label>` to be able 
+   to receive items when they arrive. Only items in closed baskets will show 
+   as ready to receive.
 
 Orders can be received from the vendor information page
 
-|image839|
+|vendorpage|
 
 or the vendor search results page
 
-|image840|
+|vendorsearch|
 
-After clicking 'Receive shipment' you will be asked to enter a vendor
+After clicking 'Receive shipments' you will be asked to enter a vendor
 invoice number, a shipment received date, a shipping cost and a fund
 to subtract that shipping amount from.
 
-|image841|
+|receive|
 
 The receive page will list all items still on order with the vendor
 regardless of the basket the item is from.
 
-|image842|
+|receivependingorders|
 
-     **Note**
+.. Warning::
+   
+   Only items from closed baskets will appear in the pending orders list.
 
-     If you have a lot of orders, you can filter the orders using the 'Filter'
-     box on the left, the 'Search' box just above the table, of the filter
-     boxes at the top of each table column.
+.. Note::
 
-     |image1417|
+   If you have a lot of orders, you can filter the orders using the 'Search' 
+   box just above the table, or the filter boxes at the top of each table 
+   column.
 
-     |image1418|
+   |filterorders|
 
-     You could, for example, scan the ISBN of the book you are receiving in the
-     filter box and the table will only show the corresponding orders.
+   You could, for example, scan the ISBN of the book you are receiving in the
+   filter box and the table will only show the corresponding orders.
 
-     Just make sure to clear the filter boxes when you're done, otherwise,
-     the other items won't appear.
+   Just make sure to clear the filter boxes when you're done, otherwise,
+   the other items won't appear.
 
 To receive a specific item, click the 'Receive' link to the right of the
 item.
 
-|image843|
+|receiveitem|
 
 Depending on when you chose to create the item (either in the
 :ref:`AcqCreateItem <acqcreateitem-label>` system preference, or upon
@@ -993,16 +1343,17 @@ slightly different.
 If you chose to create your item when placing the order, you will have your
 item information on the left side and financial information on the right side.
 
-|image1419|
+|receiveitem1|
 
 You can check the box next to the item to receive it, or fill out the
 'Quantity received' field on the left side.
 
-     **Note**
-     You can choose to mark only part of the order as received if he vendor
-     didn't send your entire order by checking only the boxes next to the
-     items on the left that you want to receive or by entering the right
-     amount in the 'Quantity received' field.
+.. Note::
+  
+   You can choose to mark only part of the order as received if the vendor
+   did not send your entire order by checking only the boxes next to the
+   items on the left that you want to receive or by entering the right
+   amount in the 'Quantity received' field.
 
 You can edit the item if needed by clicking on the 'Edit' link. This will
 allow you to enter in accurate call numbers and barcodes if you'd like to
@@ -1017,9 +1368,10 @@ If you chose to create your item when receiving the order, you will see
 the item creation form on the left side and the financial information on
 the right side.
 
-|image1420|
+|receiveitem2|
 
-  **Important**
+.. Warning::
+  
   You must fill out the item form and click on 'Add item' or 'Add multiple items'
   in order to receive the order. You will not be able to simply change the
   'Quantity received' amount.
@@ -1032,285 +1384,337 @@ normal purchase price) on the item record after saving.
 Finally, if you chose to create your item when cataloging the record, you
 will only see the financial information on the right.
 
-|image843|
+|receiveitem|
 
 You can alter the cost information (replacement cost and actual cost).
 
-     **Note**
-     The financial information will not be transferred to the item if the
-     item is created when cataloging.
+.. Note::
+  
+  The financial information will not be transferred to the item if the
+  item is created when cataloging.
 
 Once you have made any changes necessary (to the order and/or items, click
 'Save' to mark the item(s) as received.
 
-|image845|
+|receiveditems|
 
-    **Note**
+.. Note::
 
-    If you have your
-    `AcqItemSetSubfieldsWhenReceived <#AcqItemSetSubfieldsWhenReceived>`__
-    preference set to add or change values on received items those
-    changes will take place after you hit 'Save'.
+   If you have your :ref:`AcqItemSetSubfieldsWhenReceived` system 
+   preference set to add or change values on received items those
+   changes will take place after you hit 'Save'.
 
 When you're finished receiving items you can navigate away from this
 page or click the 'Finish receiving' button at the bottom of the screen.
 
 Received orders will have '(received)' before the title in the basket view.
 
-|image850|
+|basketwithreceived|
 
-     **Note**
-     When all the orders in a basket have been received, the basket will be removed
-     from the list of baskets for that vendor. You can click 'Show all baskets'
-     to view the inactive baskets.
+.. Note::
+  
+   When all the orders in a basket have been received, the basket will be removed
+   from the list of baskets for that vendor. You can click 'Show all baskets'
+   to view the inactive baskets.
 
-     |image1421|
+   |showactivebaskets|
 
-     |image1422|
+   |showallbaskets|
 
 .. _transferring-orders-label:
 
 Transferring orders
----------------------------------------
+-------------------------------------------------------------------------------
 
 If the item is no longer available from this vendor you can transfer the
 order to another vendor's basket by clicking the 'Transfer' link to the
-right of the title. This will pop up a vendor search box.
+right of the title on the :ref:`basket page<edit-basket-label>` or the 
+:ref:`receiving page<receiving-orders-label>`. This will pop up a vendor search 
+box.
 
-|image846|
+|transfersearch|
 
 From the results you can click 'Choose' to the right of the vendor you
 would like to reorder this item from.
 
-|image847|
+|transfervendor|
 
 You will then be presented with the open baskets for that vendor to
 choose from. To move the item simply click 'Choose' to the right of the
 basket you would like to add the item to.
 
-|image848|
+|transferbasket|
 
 Once you have chosen you will be presented with a confirmation message.
 
-|image849|
+You will see transferred orders with the canceled orders when viewing the 
+basket.
 
-You will see transferred orders when viewing the basket.
+|cancelledorders|
 
-|image850|
+.. Note::
+
+   Whilst it is possible to re-open your basket (unless it is part of a 
+   :ref:`basket group<create-a-basket-group-label>`, in which case the basket 
+   cannot be reopened), transfer one or more orders and re-close the basket, 
+   this is not recommended. This procedure will update the 'basket closed' date, 
+   which in turn will cause your 
+   :ref:`'late order' calculations<claims-and-late-orders-label>` to be 
+   incorrect.
+   
+   It is preferable to transfer an order from the 
+   :ref:`receiving page<receiving-orders-label>`.
 
 .. _cancelling-an-order-label:
 
-Canceling orders
----------------------------------------
+Cancelling orders
+-------------------------------------------------------------------------------
 
-If the item cannot be found anywhere you can cancel the order by
-clicking 'Delete order' to the far right. This will prompt you to enter
-your reason and confirm cancellation.
+If the item cannot be found anywhere you can cancel the order by clicking 
+'Cancel order' or 'Cancel order and delete catalog record' to the far right on 
+the :ref:`basket page<edit-basket-label>` or the 
+:ref:`receiving page<receiving-orders-label>`.
 
-|image1289|
+|finalbasket|
 
-You will also see that the item is canceled if you view the basket.
+This will prompt you to enter your reason and confirm cancellation.
 
-|image850|
+|cancelorder|
 
-     **Note**
+.. Note::
+  
+   The cancellation reasons drop-down menu are populated by the 
+   ORDER\_CANCELLATION\_REASON :ref:`authorized values category<existing-values-label>`.
+   If there aren't any authorized values in that category, it will be a free 
+   text field instead of a drop-down menu.
 
-     Whilst it is possible to re-open your basket, cancel one or more orders
-     and re-close the basket, this is not recommended. This procedure will
-     update the 'basket closed' date, which in turn will cause your 'late
-     order' calculations to be incorrect.
+You will also see that the item is cancelled if you view the basket.
 
-     **Note**
+|cancelledorders|
 
-     You cannot re-open a basket that is attached to a basket group.  The 
-     re-open basket button will be grayed out.
+.. Note::
 
-.. Instead, follow the procedure below.
-.. Is this still valid?
-.. To cancel an order:
-
-.. #. locate the vendor and click on 'Receive shipment';
-.. #. on the next page, use a false invoice number (such as 54321. Whatever number you choose will persist in your system as a blank invoice - re-use it for future cancellations to avoid accumulating numerous false, empty invoices);
-.. #. so on the next page you'll get a warning box in which you click on 'Receive';
-.. #. on the next page (at right) you can click on 'Cancel order'.
+   Whilst it is possible to re-open your basket (unless it is part of a 
+   :ref:`basket group<create-a-basket-group-label>`, in which case the basket 
+   cannot be reopened), cancel one or more orders and re-close the basket, this 
+   is not recommended. This procedure will update the 'basket closed' date, 
+   which in turn will cause your 
+   :ref:`'late order' calculations<claims-and-late-orders-label>` to be 
+   incorrect.
+   
+   It is preferable to cancel an order from the 
+   :ref:`receiving page<receiving-orders-label>`.
 
 .. _invoices-label:
 
 Invoices
----------------------------
+-------------------------------------------------------------------------------
 
-When orders are received invoices are generated. Invoices can be
-searched by clicking on 'Invoices' in the left of the Acquisitions page.
+When :ref:`orders are received<receiving-orders-label>` invoices are generated. 
+Invoices can be searched by clicking on 'Invoices' in the left of the 
+Acquisitions page.
 
-|image851|
+|invoicesearch|
 
-After searching, your results will appear to the right of the search
-options.
+After a search, the results will appear to the right of the search options.
 
-|image852|
+|invoices|
 
-From the 'Actions' button, you can click the 'Details' link to see the full
-invoice or 'Close' to note that the invoice is closed/paid for.
+At the bottom of the table, there is a button to 
+:ref:`merge selected invoices<merging-invoices-label>` and a button to close 
+selected invoices.
 
-|image853|
+The 'Actions' button on the right allows various actions on a single invoice:
 
-In the Adjustments section, you can add adjustments to your invoices.
+-  Details: show the full invoice
+
+-  Close: close the invoice to indicate that the invoice is paid for
+
+-  Delete: delete the invoice; this option is only available for invoices that 
+   have no items received on them
+
+The detailed invoice page presents all the information about the invoice.
+
+|invoice|
+
+-  Invoice number: the invoice number entered upon 
+   :ref:`receiving<receiving-orders-label>` is editable here
+
+-  Shipment date: date entered upon :ref:`receiving<receiving-orders-label>` is 
+   editable here
+
+-  Billing date: enter the billing date of the invoice
+
+-  Shipping cost: the shipping cost entered upon 
+   :ref:`receiving<receiving-orders-label>` is editable here
+
+-  Shipping fund: the fund from which to subtract the shipping cost chosen 
+   upon :ref:`receiving<receiving-orders-label>` is editable here 
+
+-  Status: the status of the invoice, either open or closed; if closed, the 
+   closing date will also appear
+
+-  Close: if the invoice is still open, it can be closed by checking this box
+
+-  Reopen: if the invoice is closed, it can be reopened by checking this box
+
+In the Adjustments section, you can add adjustments to your invoices by 
+clicking 'Add an adjustment'.
+
 These adjustments can be for adjusting the price that is offset by rounding
 or adding a credit to the invoice, for example.
 
-|image1371|
+|adjustments|
 
--  Click on 'Add an adjustment'
+-  Amount: enter the amount of the adjustment (can be positive or negative)
 
--  Enter the amount of the adjustment
+-  Reason: choose a reason, if needed
 
--  Choose a reason, if needed
+   .. Note::
 
-       **Note**
+      The reasons are populated by the ADJ\_REASON 
+      :ref:`authorized values category<authorized-values-label>`.
 
-       The reasons are :ref:`authorized values<authorized-values-label>`.
-       Use the category ADJ\_REASON to add custom reasons for adjustments.
+-  Note: enter a note, if needed
 
--  Enter a note, if needed
+-  Fund: choose the fund from which the adjustment amount should be taken
 
--  Choose the fund from which the adjustment amount should be taken
-
--  If 'Encumber while invoice open' is checked, the amount of the adjustment
-   will be taken out of the fund immediately. If it isn't checked, the amount
+-  Encumber while invoice open: if this is checked, the amount of the adjustment
+   will be taken out of the fund immediately. If it is not checked, the amount
    will be subtracted only when the invoice is closed.
 
--  Click on 'Update adjustments' to save your adjustments
+Click on 'Update adjustments' to save your adjustments.
 
 If you need to change the adjustment afterwards, you can do so in the table
 and click on 'Update adjustments'.
 
-|image1372|
+|adjustments2|
 
 .. _attaching-files-to-invoices-label:
 
 Attaching files to invoices
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you're allowing the uploading of acquisitions files with the
-:ref:`AcqEnableFiles` preference you will see the option
+:ref:`AcqEnableFiles` system preference you will see the option
 to manage invoice files next to the link to 'Go to receipt
 page'
 
-|image1290|
+|AcqEnableFiles|
 
 To see or attach new files click the 'Manage invoice files' link
 
-|image854|
+|noinvoicefiles|
 
-From here you can find a file to upload and/or see the files you have
+From here you can find a file to upload and see the files you have
 already attached.
 
-|image855|
+|invoicefiles|
 
-Merging two invoices
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _merging-invoices-label:
 
-From the invoice search results you can also merge together two invoices
-should you need to. Simply click the checkbox to the left of the
-invoices you would like to merge and click the 'Merge selected invoices'
-button at the bottom of the page. You will be presented with a
-confirmation screen:
+Merging invoices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image856|
+From the invoice search results you can also merge together two invoices or 
+more, should you need to. 
+
+|invoices|
+
+Simply click the checkbox to the left of the invoices you would like to merge 
+and click the 'Merge selected invoices' button at the bottom of the page. 
+You will be presented with a form to confirm the merge:
+
+|mergeinvoices|
 
 Click on the row of the invoice number you would like to keep and it
 will be highlighted in yellow. Enter any different billing information
-in the fields provided and click 'Merge'. The two invoices will become
+in the fields provided and click 'Merge'. The invoices will become
 one.
 
 .. _claims-and-late-orders-label:
 
 Claims and late orders
--------------------------------------
+-------------------------------------------------------------------------------
 
-If you have entered in an email address for the vendors in your system
-you can send them claim emails when an order is late. Before you can
-send claims you will need to set up an `acquisitions claim
-notice <#ACQCLAIM>`__.
+The 'Late orders' link on the acquisitions main page leads to a report where 
+all orders can be filtered to find the late orders.
 
 Upon clicking on the link to 'Late orders' from the Acquisitions page
 you will be presented with a series of filter options on the left hand
 side. These filters will be applied only closed baskets.
 
-|image857|
+|acqclaimfilter|
 
-    **Note**
+-  Order date: this filter limits the results to orders from baskets closed 
+   more than this number of days ago. This defaults to 0, meaning all orders 
+   from closed baskets are shown in the list.
+   
+   .. Note::
+     
+      The order date is the date the 
+      :ref:`basket was closed<ordering-closing-basket-label>`.
 
-    The vendor pull down only shows vendors with closed baskets that are
-    late.
+-  Estimated delivery date from ... to ...: this filter limits the results to 
+   orders estimated to be delivered between two dates. The estimated delivery 
+   date is calculated as follows: order date (date the basket was closed) + 
+   delivery time entered when :ref:`creating the vendor<add-a-vendor-label>`.
+
+-  Vendor: this filter limits the results to orders to a specific vendor.
+
+   .. Note::
+
+      The vendor drop-down menu only shows vendors with closed baskets.
 
 Once you filter your orders to show you the things you consider to be
 late you will be presented with a list of these items.
 
-|image858|
+|lateorders|
 
-     **Note**
+.. Note::
 
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: late_orders).
+   You can customize the columns of this table in the 
+   :ref:`'Table settings'<column-settings-label>` section of the 
+   Administration module (table id: late_orders).
 
-To the right of each late title you will be see a checkbox. Check off
-the ones you want a claim letter sent to and click 'Claim order' at the
-bottom right of the list. This will automatically send an email to the
-vendor at the email address you have on file.
+There are several options for claiming late orders.
 
-    **Note**
+-  If you have entered in an email address for a 
+   :ref:`contact at the vendor's<add-a-vendor-label>` in your system you can 
+   send them claim emails when an order is late.
 
-    The estimated delivery date is based on the delivery time value
-    entered on the vendor record.
+   -  Choose the notice to be sent in the 'Claim using notice' drop down menu
+   
+      |claimletter|
+      
+      .. Note::
+        
+         The default notice is 
+         :ref:`'Acquisition claim' (code ACQCLAIM)<existing-notices-and-slips-label>`. 
+         It can be modified in the :ref:`Notices & slips tool<notices-and-slips-label>`.
+         
+         You can :ref:`add different notices<adding-notices-and-slips-label>`. 
+         When creating a new notice, choose 'Claim acquisition'.
+  
+    
+   -  Check the box to the right of the late titles to claim
 
-If you would rather use a different acquisition claim letter (other than
-the default) you can :ref:`create that in the notices module <adding-notices-and-slips-label>`
-and choose it from the menu above the list of late items.
+   -  Click 'Claim order' at the bottom right of the list.
 
-|image859|
-
-.. _acquisition-searches-label:
-
-Acquisition searches
--------------------------------------
-
-At the top of the various Acquisition pages there is a quick search box
-where you can perform either a Vendor search or an Order search.
-
-|image860|
-
-In the Vendor search you can enter any part of the vendor name to get
-results.
-
-|image861|
-
-Using the Orders search you can search for items that have been ordered
-with or without the vendor.
-
-|image862|
-
-You can enter info in one or both fields and you can enter any part of
-the title and/or vendor name.
-
-|image863|
-
-     **Note**
-
-     -  You can customize the columns of this table in the 
-        :ref:`'Table settings'<column-settings-label>` section of the 
-        Administration module (table id: histsearcht).
-
-Clicking the plus sign to the right of the Vendor search box will expand
-the search and allow you to search for additional fields.
-
-|image864|
-
-Clicking Advanced search to the right of the search button will give you
-all of the order search options available.
-
-|image865|
+-  If the vendor does not have a contact with an email address, you can 
+   download the list of title to claim as a CSV file
+   
+   -  Check the box to the right of the late titles to claim
+   
+   -  Click 'Export as CSV' at the bottom right of the list
+   
+      .. Note::
+        
+         The default CSV profile used is 'Late orders'. You can modify it or 
+         add new ones in the :ref:`CSV profiles tool <csv-profiles-label>`.
+         
+         If adding a new one, choose profile type: SQL and usage: Export late
+         orders.
 
 .. _budget-fund-tracking-label:
 
@@ -1361,7 +1765,7 @@ amount and it will run a search for you.
 .. _edi-process-label:
 
 EDI process
------------------------------
+-------------------------------------------------------------------------------
 
 Previous sections explain all ordering options, this section pulls out
 the parts related to EDI or EDIFACT ordering to help those who are only
@@ -1377,155 +1781,24 @@ using EDI for ordering.
    Koha uses the EDIFACT standard (EDItEUR and BiC) not the X12 standard for 
    electronic ordering.
 
-.. _edi-questions-for-vendors-label:
-
-EDI questions for vendors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You will want to gather the following information from your vendors
-before beginning the set up process in Koha.
-
-**EDI accounts:** *This is the basic connection information for your
-vendor. This will be used to fill in the :ref:`EDI accounts<edi-accounts-label>`
-section.*
-
--  **Vendor:** The name of the vendor
-
--  **Description:** A short description if additional explanation is
-   needed ( especially if you have multiple accounts for one vendor ).
-
--  **Transport:** Does the vendor transmit EDI files via FTP, SFTP, or
-   something else the requires special processing?
-
--  **Remote host:** The URL or IP address of the FTP/SFTP server
-
--  **Username:** The username for the above server
-
--  **Password:** The password for the above server
-
--  **Download directory:** The path on the server that contains files
-   for Koha to download and process
-
--  **Upload directory:** The path on the server that Koha will upload
-   files to for your vendor to process
-
--  **Qualifier:** Who assigned the SAN below?
-
-   -  Choose one of the following:
-
-      (14) EAN International
-
-      (31B) US SAN Agency
-
-      (91) Assigned by supplier
-
-      (92) Assigned by buyer
-
--  **SAN:** The identifier for the vendor
-
-   *Buyer qualifier and SAN are optional. Some vendors require a second
-   buyer identifier in addition to the account EAN*.
-   
--  **Standard:** Which standard is used by the vendor, this will change how the 
-   EDI messages are interpreted
-
-  -  Choose one of the following:
-
-     BiC
-
-     EDItEUR
-
--  **Buyer qualifier:** Who assigned the SAN below?
-
-   -  Choose one of the following:
-
-      (14) EAN International
-
-      (31B) US SAN Agency
-
-      (91) Assigned by supplier
-
-      (92) Assigned by buyer
-
--  **Buyer SAN:** The identifier for the library
-
--  **Quotes enabled:** [y/n] Does this vendor support sending and
-   receiving quotes via EDIFACT and do you want to send and receive
-   quotes via EDIFACT?
-
--  **Orders enabled:** [y/n] Does this vendor support sending and
-   receiving orders via EDIFACT and do you want to send and receive
-   orders via EDIFACT?
-
--  **Invoices enabled:**\ [y/n] Does this vendor support sending and
-   receiving invoices via EDIFACT and do you want to send and receive
-   invoices via EDIFACT?
-
--  **Order file suffix:** The file suffix for order files
-
--  **Quote file suffix:** The file suffix for quote files
-
--  **Invoice file suffix:** The file suffix for invoice files
-
--  **Account number(s):** (list them all)
-
--  **Account description(s):** (the summary of what this number is for)
-
-**EANs:** *Each library using EDIFACT needs to specify a buyer
-identifier know as a SAN or EAN. This will fill in the :ref:`Library
-EANs <library-eans-label>` setting.*
-
--  **Library**
-
--  **EAN**
-
-   -  Choose one of the following:
-
-      (14) EAN International
-
-      (31B) US SAN Agency
-
-      (91) Assigned by supplier
-
-      (92) Assigned by buyer
-
-**MARC order fields or grid ordering:** *These values will fill in the
-:ref:`MarcFieldsToOrder` preference.*
-
--  **price:** MARC21 field that contains the item price
-
--  **quantity:** MARC21 field that contains the number of items for the
-   given record
-
--  **budget\_code:** MARC21 field that contains the Koha budget code to
-   be debited
-
--  **discount:** MARC21 field the contains the discount as a percentage
-   the the price will be discounted by
-
--  **sort1:** MARC21 field that will populate custom field sort1
-
--  **sort2:** MARC21 field that will populate custom field sort2
-
 .. _edi-setup-label:
 
-EDI setup
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Setting up EDI in Koha
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Before you begin ordering using EDI you will want to take the following
-steps:
+Before you begin ordering using EDI you will need to take the following steps:
 
--  Ask your vendor/bookseller/jobber for :ref:`connection
-   information <edi-questions-for-vendors-label>`
+-  Ask your vendor/bookseller/jobber for their 
+   :ref:`connection information <edi-questions-for-vendors-label>`
 
    -  It might also be beneficial to ask for a few sample EDIFACT files
       from the vendor
 
--  Share with your vendor/bookseller/jobber your :ref:`library
-   codes <libraries-label>`, :ref:`item type codes <item-types-label>`, :ref:`fund
-   codes <funds-label>`, and any other codes or :ref:`authorized
-   values <authorized-values-label>` they might need for creating your MARC
-   order records
+-  Share with your vendor/bookseller/jobber your 
+   :ref:`library codes <libraries-label>`, 
+   :ref:`item type codes <item-types-label>`, :ref:`fund codes <funds-label>`, 
+   and any other codes or :ref:`authorized values <authorized-values-label>` 
+   they might need for creating your MARC order records
 
 -  Communicate with your support provider or the community about whether
    you will need a plugin based on your vendor's answers
@@ -1537,21 +1810,157 @@ steps:
 -  :ref:`Enter the vendor/bookseller/jobber <add-a-vendor-label>` in
    Acquisitions
 
--  Review your :ref:`Acquisitions system preferences <acquisitions-system-preferences-label>`
+-  Review your 
+   :ref:`Acquisitions system preferences <acquisitions-system-preferences-label>`
 
-   -  Be sure to fill in the :ref:`MarcFieldsToOrder`
-      preference with values for order files
+   -  Be sure to fill in the :ref:`MarcFieldsToOrder` system preference with 
+      values for order files (see the 
+      :ref:`MARC order fields<marc-order-fields-edi-label>` section below)
 
 -  Enter your :ref:`EDI Accounts<edi-accounts-label>`
 
 -  Enter your :ref:`Library EANs<library-eans-label>`
 
--  Turn on the :ref:`EDI Cron <cron-edi-message-processing-label>` so that it can process files
+-  Turn on the :ref:`EDI cron <cron-edi-message-processing-label>` so that it 
+   can process files
+
+.. _edi-questions-for-vendors-label:
+
+EDI questions for vendors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You will need to gather the following information from your vendors
+before beginning the set up process in Koha.
+
+.. _edi-accounts-for-vendors-label:
+
+EDI accounts
+*******************************************************************************
+
+EDI accounts: This is the basic connection information for your
+vendor. It will be used to fill in the :ref:`EDI accounts<edi-accounts-label>`
+section.
+
+-  Vendor: The name of the vendor
+
+-  Description: A short description if additional explanation is
+   needed (especially if you have multiple accounts for one vendor).
+
+-  Transport: Does the vendor transmit EDI files via FTP, SFTP, or
+   something else that requires special processing?
+   
+   -  Options:
+   
+      -  FTP
+      
+      -  SFTP
+      
+      -  FILE
+
+-  Remote host: The URL or IP address of the FTP/SFTP server
+
+-  Username: The username for the above server
+
+-  Password: The password for the above server
+
+-  Download directory: The path on the server that contains files
+   for Koha to download and process
+
+-  Upload directory: The path on the server that Koha will upload
+   files to for your vendor to process
+
+-  Qualifier: Who assigned the SAN below?
+
+   -  Options:
+
+      -  EAN International (14)
+
+      -  US SAN Agency (31B)
+
+      -  Assigned by supplier (91)
+
+      -  Assigned by buyer (92)
+
+-  SAN: The identifier for the vendor
+   
+-  Standard: Which standard is used by the vendor, this will change how the 
+   EDI messages are interpreted
+
+  -  Options:
+
+     -  BiC
+
+     -  EDItEUR
+
+-  Quotes enabled: (yes or no) Does this vendor support sending and
+   receiving quotes via EDIFACT and do you want to send and receive
+   quotes via EDIFACT?
+
+-  Orders enabled: (yes or no) Does this vendor support sending and
+   receiving orders via EDIFACT and do you want to send and receive
+   orders via EDIFACT?
+
+-  Invoices enabled: (yes or no) Does this vendor support sending and
+   receiving invoices via EDIFACT and do you want to send and receive
+   invoices via EDIFACT?
+
+-  Responses enabled: (yes or no) Does this vendor support sending and
+   receiving responses via EDIFACT and do you want to send and receive
+   invoices via EDIFACT?
+   
+-  Automatic ordering: (yes or no) Check this box if you want quotes to 
+   automatically generate orders.
+
+.. _library-ean-buyer-identifier-label:
+
+EAN
+*******************************************************************************
+
+Each library using EDIFACT needs to specify a buyer identifier know as a SAN or 
+EAN. This will fill in the :ref:`Library EANs <library-eans-label>` setting.
+
+-  Library: Choose the library this EAN represents
+
+-  Description: Add a description to this EAN, if needed
+
+-  EAN: Enter the EAN
+
+-  Qualifier: Choose who assigned the EAN above
+
+   -  Options:
+
+      -  EAN International (14)
+
+      -  US SAN Agency (31B)
+
+      -  Assigned by supplier (91)
+
+      -  Assigned by buyer (92)
+
+.. _marc-order-fields-edi-label:
+
+MARC order fields or grid ordering
+*******************************************************************************
+
+These values will fill in the :ref:`MarcFieldsToOrder` system preference.
+
+-  price: MARC21 field that contains the item price
+
+-  quantity: MARC21 field that contains the number of items for the given record
+
+-  budget\_code: MARC21 field that contains the Koha budget code to be debited
+
+-  discount: MARC21 field the contains the discount as a percentage the the 
+   price will be discounted by
+
+-  sort1: MARC21 field that will populate custom field sort1
+
+-  sort2: MARC21 field that will populate custom field sort2
 
 .. _edi-ordering-label:
 
-EDI ordering
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ordering via EDI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The first step in ordering using EDI happens on the book vendor's
 website. Each seller will use different language, but you will need to
@@ -1560,14 +1969,9 @@ Some language that you might see included "basket", "order", "cart",
 and/or "MARC order." Once you have this MARC file downloaded to your
 computer you will want to log in to Koha and continue the process there.
 
-Visit the :ref:`Stage MARC records for import<stage-marc-records-for-import-label>` tool and upload
-your file. Once presented with the confirmation screen proceed to
-Acquisitions.
-
 In Acquisitions :ref:`create a basket <create-a-basket-label>` for the vendor
-you ordered from. From the basket, choose to `order from a staged
-file <#orderfromstagedfile>`__ and click 'Order' next to the file you
-downloaded from your vendor and staged in Koha.
+you ordered from. Add your file to the basket by :ref:`ordering from a new
+file <order-from-a-new-file-label>`.
 
 From the confirmation screen you will see all of the data in the MARC
 file related to your order. If you are not seeing fields such as fund
@@ -1580,43 +1984,49 @@ Once you have added all of the items to the basket you can click the
 .. _sending-the_edifact-order-label:
 
 Sending the EDIFACT order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This will generate a pending file in the :ref:`EDIFACT
-messages <edifact-messages-label>` in Koha. The pending files will be processed
-by the :ref:`EDI cron job <cron-edi-message-processing-label>` and sent to your vendor.
+This will generate a pending file in the 
+:ref:`EDIFACT messages <edifact-messages-label>` in Koha.
+
+The pending files will be processed by the 
+:ref:`EDI cron job <cron-edi-message-processing-label>` and sent to your vendor.
 
 .. _edi-ordering-with-quote-files-label:
 
-EDI ordering with Quote files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ordering via EDI with quote files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you have Quote files enabled you can place the order on the bookseller's website and
-a Quote file will be automatically generated and made available to be collected and loaded   
-to Koha.  You will see the file listed in the :ref:`EDIFACT
-messages <edifact-messages-label>` in Koha with a status of 'Received'.  The basket will have 
-been created and records and items added to the basket.  Once you have checked that the basket is  
-correct you can click the 'Create EDIFACT order' button.  The process then completes as 
+If you have Quote files enabled you can place the order on the bookseller's 
+website and a Quote file will be automatically generated and made available to 
+be collected and loaded to Koha. You will see the file listed in the 
+:ref:`EDIFACT messages <edifact-messages-label>` in Koha with a status of 
+'Received'. The basket will have been created and records and items added to 
+the basket. 
+
+Once you have checked that the basket is correct you can click the 
+'Create EDIFACT order' button.  The process then completes as 
 for :ref:`Sending the EDIFACT order <sending-the_edifact-order-label>` above.
 
 .. _edi-invoicing-label:
 
 EDI invoicing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When the book vendor is done processing your files they will send an
 invoice via EDI as well. The :ref:`EDI cron job <cron-edi-message-processing-label>` will grab
 invoices and mark items found in the invoice as received and update your
 funds without any need for manual intervention.
 
-If you set the :ref:`EdifactInvoiceImport` preference to 'Don't' you can load invoice files manually.
+If you set the :ref:`EdifactInvoiceImport` preference to 'Don't' you can load 
+invoice files manually.
 
 .. _edifact-messages-label:
 
 EDIFACT messages
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A log of all messages sent and received via EDIFACT can be found under
 EDIFACT messages.
 
-|image1291|
+|edifactmsg|

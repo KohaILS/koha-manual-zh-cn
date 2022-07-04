@@ -8,14 +8,332 @@
 
 .. ACQUISITIONS
 
+.. |accounting| image:: images/acquisitions/accounting.png
+				:alt: Accounting details section of the order form
+
+.. |acqclaimfilter| image:: images/acquisitions/acqclaimfilter.png
+				:alt: Late orders filters
+
+.. |AcqEnableFiles| image:: images/acquisitions/AcqEnableFiles.png
+				:alt: Detailed invoice page when AcqEnableFiles is enabled
+
 .. |acqfunds| image:: images/acquisitions/acqfunds.png
 				:alt: Funds table on the acquisitions module's main page
+
+.. |AcquisitionDetails| image:: images/acquisitions/AcquisitionDetails.png
+				:alt: Acquisition details tab in the detailed record
+
+.. |addbasket| image:: images/acquisitions/addbasket.png
+				:alt: New basket form
+
+.. |addmultipleitems| image:: images/acquisitions/addmultipleitems.png
+				:alt: Buttons at the bottom of the new item form, 'Add item', 'Clear', 'Add multiple items', next to Add multiple items, a text field says 'Number of items to add' Followed by 'Add' button. A message underneath says 'NOTE: Fields listed in the UniqueItemsFields system preference will not be copied'
+
+.. |addtobasketoptions| image:: images/acquisitions/addtobasketoptions.png
+				:alt: The different options for adding materials to the basket
+
+.. |adjustments| image:: images/acquisitions/adjustments.png
+				:alt: Add adjustment form
+
+.. |adjustments2| image:: images/acquisitions/adjustments2.png
+				:alt: List of adjustments on an invoice
+
+.. |basketbuttons| image:: images/acquisitions/basketbuttons.png
+				:alt: Buttons at the top of the basket page: Add to basket, Edit basket, Delete basket, Export as CSV, E-mail order
+
+.. |basketempty| image:: images/acquisitions/basketempty.png
+				:alt: Basket page
+
+.. |basketgroup| image:: images/acquisitions/basketgroup.png
+				:alt: List of closed basket groups
+
+.. |basketgroupopen| image:: images/acquisitions/basketgroupopen.png
+				:alt: List of open basket groups
+
+.. |basketuncertain| image:: images/acquisitions/basketuncertain.png
+				:alt: Basket with an order with an uncertain price
+
+.. |basketwithreceived| image:: images/acquisitions/basketwithreceived.png
+				:alt: A received order in a basket
+
+.. |cancelledorders| image:: images/acquisitions/cancelledorders.png
+				:alt: A list of canceled or transferred orders in a basket
+
+.. |cancelorder| image:: images/acquisitions/cancelorder.png
+				:alt: Warning message that says 'Are you sure you want to cancel this order, Bibliographic record will not be deleted' followed by a drop down menu for cancelation reasons and the options are 'Yes, cancel (Y)' or 'No, don't cancel (N)'
+
+.. |cantdeleteorderline| image:: images/acquisitions/cantdeleteorderline.png
+				:alt: Cancel order link followed by a message Can't cancel order and delete catalog record 1 item(s) left
+
+.. |claimletter| image:: images/acquisitions/claimletter.png
+				:alt: Claim using notice drop down menu
+
+.. |closebasket| image:: images/acquisitions/closebasket.png
+				:alt: Close basket confirmation message 
+
+.. |deletebasketconfirmation| image:: images/acquisitions/deletebasketconfirmation.png
+				:alt: Delete basket confirmation message with options to delete basket and orders or delete basket, orders and records
+
+.. |duplicateorder| image:: images/acquisitions/duplicateorder.png
+				:alt: Order search for duplicating orders
+
+.. |duplicateorder2| image:: images/acquisitions/duplicateorder2.png
+				:alt: Order search results for duplicating orders
+
+.. |duplicateorder3| image:: images/acquisitions/duplicateorder3.png
+				:alt: Form to copy or modify values from the original order
+
+.. |duplicateorder4| image:: images/acquisitions/duplicateorder4.png
+				:alt: A table with the duplicated order information
+
+.. |duplicatewarning| image:: images/acquisitions/duplicatewarning.png
+				:alt: Warning message 'Duplicate warning You selected a record from an external source that matches an existing record in your catalog' the options are 'Use existing record', 'Cancel and return to order' or 'Create new record'
+
+.. |edifactmsg| image:: images/acquisitions/edifactmsg.png
+				:alt: List of EDIFACT messages sent and received
+
+.. |existingitemorder| image:: images/acquisitions/existingitemorder.png
+				:alt: When ordering from an existing record, the record part of the order form will be automatically filled in
+
+.. |filterorders| image:: images/acquisitions/filterorders.png
+				:alt: At the top of the pending orders table, there are search fields 
+
+.. |finalbasket| image:: images/acquisitions/finalbasket.png
+				:alt: A basket with orders 
 
 .. |fundbreakdown| image:: images/acquisitions/fundbreakdown.png
 				:alt: A table with all the ordered items in a fund
 
+.. |fundconfirmation| image:: images/acquisitions/fundconfirmation.png
+				:alt: Warning message that says 'Warning! Order total amount exceeds allowed budget. Do you want to confirm this order'
+
+.. |highestholdratio| image:: images/acquisitions/highestholdratio.png
+				:alt: Report of high hold ratios, in the last column, there is a button to order the suggested quantity
+
+.. |importallstaged| image:: images/acquisitions/importallstaged.png
+				:alt: List of titles in the staged file, with checkboxes
+
+.. |invoice| image:: images/acquisitions/invoice.png
+				:alt: Detailed invoice page
+
+.. |invoicefiles| image:: images/acquisitions/invoicefiles.png
+				:alt: List of attached files to an invoice above the form to upload files
+
+.. |invoices| image:: images/acquisitions/invoices.png
+				:alt: List of invoices, separated in tabs for open and closed invoices
+
+.. |invoicesearch| image:: images/acquisitions/invoicesearch.png
+				:alt: Invoice search form
+
+.. |itemfromstaged| image:: images/acquisitions/itemfromstaged.png
+				:alt: Item form in the Item information tab 
+
+.. |itemonorder| image:: images/acquisitions/itemonorder.png
+				:alt: New item form within the order form
+
+.. |itemonorderadded| image:: images/acquisitions/itemonorderadded.png
+				:alt: Table with added item information above an empty new item form
+
+.. |lateorders| image:: images/acquisitions/lateorders.png
+				:alt: List of late orders
+
+.. |manageorders| image:: images/acquisitions/manageorders.png
+				:alt: The manage orders box on the acquisitions main page has a vendor search box
+
+.. |mergeinvoices| image:: images/acquisitions/mergeinvoices.png
+				:alt: Merge invoices form
+
+.. |newbasketfromvendorpage| image:: images/acquisitions/newbasketfromvendorpage.png 
+				:alt: The 'Basket' option in the 'New' button on the vendor's page
+
+.. |newbasketfromvendorresults| image:: images/acquisitions/newbasketfromvendorresults.png
+				:alt: The 'Basket' option in the 'New' button under the vendor's name in the vendor search results
+
+.. |newbasketgroup| image:: images/acquisitions/newbasketgroup.png
+				:alt: New basket group form
+
+.. |newcontractform| image:: images/acquisitions/newcontractform.png
+				:alt: New contract form
+
+.. |newcontractfromvendorpage| image:: images/acquisitions/newcontractfromvendorpage.png 
+				:alt: The 'Contract' option in the 'New' button on the vendor's page
+
+.. |newcontractfromvendorresults| image:: images/acquisitions/newcontractfromvendorresults.png
+				:alt: The 'Contract' option in the 'New' button under the vendor's name in the vendor search results
+
+.. |newvendor1| image:: images/acquisitions/newvendor1.png
+				:alt: Company details section of the new vendor form
+
+.. |newvendor2| image:: images/acquisitions/newvendor2.png
+				:alt: Contacts section of the new vendor form
+
+.. |newvendor3| image:: images/acquisitions/newvendor3.png
+				:alt: Ordering information section of the new vendor form
+				
+.. |newvendorbutton| image:: images/acquisitions/newvendorbutton.png
+				:alt: New vendor button on the main page of the acquisitions module 
+
+.. |noinvoicefiles| image:: images/acquisitions/noinvoicefiles.png
+				:alt: A message says 'This invoice has no files attached.' above a form to upload files
+
+.. |orderfromexistingrecord| image:: images/acquisitions/orderfromexistingrecord.png
+				:alt: Detailed view of a bibliographic record, there is an extra button in the top bar called 'Add order'
+
+.. |orderfromexistingresults| image:: images/acquisitions/orderfromexistingresults.png
+				:alt: Search results from the catalog, there is an extra option 'Add order' at the bottom of each result
+
+.. |orderfromnewemptyrecord| image:: images/acquisitions/orderfromnewemptyrecord.png
+				:alt: Order form with empty record fields
+
+.. |orderfromsuggest| image:: images/acquisitions/orderfromsuggest.png
+				:alt: List of all accepted purchase suggestions not yet ordered
+
+.. |orderfromsuggestform| image:: images/acquisitions/orderfromsuggestform.png
+				:alt: Order form with the patron's information in the suggestion section
+
+.. |orderfromz3950| image:: images/acquisitions/orderfromz3950.png
+				:alt: Z39.50 search form to order from an external source
+
+.. |orderfromz3950results| image:: images/acquisitions/orderfromz3950results.png
+				:alt: Z39.50 search results 
+
+.. |ordersearchadvanced| image:: images/acquisitions/ordersearchadvanced.png
+				:alt: The advanced order search form
+
+.. |ordersearchbar| image:: images/acquisitions/ordersearchbar.png
+				:alt: The search bar at the top of the page has two options in the acquisitions module, Vendor search and Orders search, this show the order search option
+
+.. |ordersearchbarexpanded| image:: images/acquisitions/ordersearchbarexpanded.png
+				:alt: The search bar at the top of the page has two options in the acquisitions module, Vendor search and Orders search, this show the order search option, expanded
+
+.. |ordersearchresults| image:: images/acquisitions/ordersearchresults.png
+				:alt: Search results for orders
+
+.. |ordersuggestlink| image:: images/acquisitions/ordersuggestlink.png
+				:alt: Order in a basket with suggestion information 
+
+.. |patronstonotify| image:: images/acquisitions/patronstonotify.png 
+				:alt: List of patrons to notify in order form
+
+.. |receive| image:: images/acquisitions/receive.png
+				:alt: Receive a new shipment form
+
+.. |receiveditems| image:: images/acquisitions/receiveditems.png
+				:alt: Already received table in the receiving page 
+
+.. |receiveitem| image:: images/acquisitions/receiveitem.png
+				:alt: Item receive page (the item is created at cataloging)
+
+.. |receiveitem1| image:: images/acquisitions/receiveitem1.png
+				:alt: Item receive page (the item is created when placing the order)
+
+.. |receiveitem2| image:: images/acquisitions/receiveitem2.png
+				:alt: Item receive page (the item is created when receiving the order)
+
+.. |receivependingorders| image:: images/acquisitions/receivependingorders.png
+				:alt: List of all pending orders (not yet received)
+
+.. |selecttoimport| image:: images/acquisitions/selecttoimport.png
+				:alt: List of titles in staged file, the first title is selected and a form for entering the quantity, price, replacement price, discount, fund and statistics is underneath
+
+.. |showactivebaskets| image:: images/acquisitions/showactivebaskets.png
+				:alt: Active baskets from a vendor
+
+.. |showallbaskets| image:: images/acquisitions/showallbaskets.png
+				:alt: All baskets from a vendor, including inactive baskets
+
+.. |stagedaccounting| image:: images/acquisitions/stagedaccounting.png
+				:alt: Accounting details form in the Default accounting details tab
+
+.. |stagedfiles| image:: images/acquisitions/stagedfiles.png
+				:alt: List of staged files that have not yet been imported
+
+.. |stagedfilestobasket| image:: images/acquisitions/stagedfilestobasket.png
+				:alt: Staged file summary with an added button to add staged records to basket
+
 .. |subdetails| image:: images/acquisitions/subdetails.png
 				:alt: Acquisitions details tab in a bibliographic record attached to a serial subscription
+
+.. |suborder| image:: images/acquisitions/suborder.png
+				:alt: Serial subscription order form
+
+.. |suborderresults| image:: images/acquisitions/suborderresults.png
+				:alt: Table of results of serials subscription search, the last column contains an Order button
+
+.. |subordersearch| image:: images/acquisitions/subordersearch.png
+				:alt: Search form of serials subscriptions
+
+.. |suggestbranchfilter| image:: images/acquisitions/suggestbranchfilter.png
+				:alt: Branch filter for suggestions
+
+.. |suggestiondetails| image:: images/acquisitions/suggestiondetails.png
+				:alt: Details page of a purchase suggestion
+
+.. |suggestiondetailsedit| image:: images/acquisitions/suggestiondetailsedit.png
+				:alt: Editable details page of a purchase suggestion
+
+.. |suggestionmanagement| image:: images/acquisitions/suggestionmanagement.png
+				:alt: Suggestion management tool page
+
+.. |suggestionsarchive| image:: images/acquisitions/suggestionsarchive.png
+				:alt: The arrow next to the Edit button gives access to a Delete and an Archive option
+
+.. |suggestionsarchived| image:: images/acquisitions/suggestionsarchived.png
+				:alt: Archived suggestion
+
+.. |suggestionsarchiveselected| image:: images/acquisitions/suggestionsarchiveselected.png
+				:alt: Archive selected box and button from the suggestion management tool
+
+.. |suggestionschangeitype| image:: images/acquisitions/suggestionschangeitype.png
+				:alt: Dropdown list of available item types for suggestions
+
+.. |suggestionschangestatus| image:: images/acquisitions/suggestionschangestatus.png
+				:alt: Pending suggestions page, one suggestion is checked and the cursor is choosing a new status in the Change selected suggestions section below
+
+.. |suggestionsdelete| image:: images/acquisitions/suggestionsdelete.png
+				:alt: The arrow next to the Edit button gives access to a Delete and an Archive option
+
+.. |suggestionsdeleteselected| image:: images/acquisitions/suggestionsdeleteselected.png
+				:alt: Delete selected box and button from the suggestion management tool
+
+.. |suggestionsfilters| image:: images/acquisitions/suggestionsfilters.png
+				:alt: Filters on bibliographic, suggestion or acquisition information for suggestions
+
+.. |suggestionsfiltersinformation| image:: images/acquisitions/suggestionsfiltersinformation.png
+				:alt: Filters on suggestion information, including archived suggestions, statuses, patrons, dates, etc.
+
+.. |suggestionspendingacqhome| image:: images/acquisitions/suggestionspendingacqhome.png
+				:alt: Pending suggestions section on the acquisitions module home page
+
+.. |suggestionspendingstaffhome| image:: images/acquisitions/suggestionspendingstaffhome.png
+				:alt: Pending suggestions section on the staff interface home page
+
+.. |suggestionsreasons| image:: images/acquisitions/suggestionsreasons.png
+				:alt: Dropdown menu for reasons of accepting or rejecting a purchase suggestion
+
+.. |suggestionsreasonsother| image:: images/acquisitions/suggestionsreasonsother.png
+				:alt: Text field to enter a reason for accepting or rejecting a purchase suggestion
+
+.. |transferbasket| image:: images/acquisitions/transferbasket.png
+				:alt: List of baskets to transfer an order to
+
+.. |transfersearch| image:: images/acquisitions/transfersearch.png
+				:alt: Vendor search box for transferring orders
+
+.. |transfervendor| image:: images/acquisitions/transfervendor.png
+				:alt: List of vendors to transfer an order to
+
+.. |uncertainprices| image:: images/acquisitions/uncertainprices.png
+				:alt: Uncertain prices page
+
+.. |vendorpage| image:: images/acquisitions/vendorpage.png
+				:alt: Vendor information page
+
+.. |vendorsearch| image:: images/acquisitions/vendorsearch.png
+				:alt: A vendor search for book returned two vendors, ABC Bookstore, KLMNOP Bookstore and XYZ Bookstore
+
+.. |vendorsearchbar| image:: images/acquisitions/vendorsearchbar.png
+				:alt: The search bar at the top of the page has two options in the acquisitions module, Vendor search and Orders search, this show the vendor search option
 
 .. ADMINISTRATION
 
@@ -328,6 +646,9 @@
 .. |patronagelimit| image:: images/patrons/patronagelimit.png
 				:alt: Warning 'The following fields are wrong. Please fix them. Patron's age is incorrect for their category. Ages allowed are 5-17.'
 
+.. |patronsearchpopup| image:: images/patrons/patronsearchpopup.png
+				:alt: Pop up window for patron search
+
 .. |mergepatrons-compare| image:: images/patrons/mergepatrons-compare.png
 				:alt: The compare screen shows both patron files next to each other with differences highlighted
 
@@ -478,11 +799,23 @@
 .. |addnews| image:: images/tools/news/addnews.png
 				:alt: New news entry form
 
+.. |cleanbatch| image:: images/tools/marcimport/cleanbatch.png
+				:alt: Dialog message saying 'Clear all reservoir records staged in this batch? This cannot be undone.'
+
+.. |checkitems| image:: images/tools/marcimport/checkitems.png
+				:alt: Dropdown list of available options for importing items
+
 .. |deletequote| image:: images/tools/qotd/deletequote.png 
 				:alt: Quote deletion confirmation modal
 
 .. |editimportquote| image:: images/tools/qotd/editimportquote.png 	
 				:alt: Clicking in the table on the source or the text of a quote will open a editable field
+
+.. |encoding| image:: images/tools/marcimport/encoding.png
+				:alt: Dropdown list of available encoding schemes: UTF-8 is the default, MARC8, ISO 5426, ISO 6937, ISO 8859-1, or EUC-KR
+
+.. |format| image:: images/tools/marcimport/format.png
+				:alt: Dropdown list of available formats: MARC or MARCXML
 
 .. |newsdisplaylocations| image:: images/tools/news/newsdisplaylocations.png
 				:alt: Drop-down menu of display locations for news
@@ -493,14 +826,35 @@
 .. |importbarcodes| image:: images/tools/inventory/importbarcodes.png
 				:alt: The inventory form, the sections Use a barcode file, Or scan items one by one, and Parameters
 
+.. |importedrecords| image:: images/tools/marcimport/importedrecords.png
+				:alt: A summary of records added, records updated, records ignored, items added, items updated and items ignored because of duplicate barcodes 
+
 .. |importedsummary| image:: images/tools/qotd/importedsummary.png 
 				:alt: A list of imported quotes in a table
+
+.. |importframework| image:: images/tools/marcimport/importframework.png
+				:alt: Dropdown list of MARC bibliographic frameworks
 
 .. |importquotebuttons| image:: images/tools/qotd/importquotebuttons.png
 				:alt: Save quotes and cancel import buttons
 
 .. |importquotes| image:: images/tools/qotd/importquotes.png
 				:alt: Quote uploader screen
+
+.. |managestaged| image:: images/tools/marcimport/managestaged.png
+				:alt: Table of staged files
+
+.. |managestagedrecords| image:: images/tools/marcimport/managestagedrecords.png
+				:alt: Options selected when staging the file
+
+.. |matchfound| image:: images/tools/marcimport/matchfound.png
+				:alt: The matching record is linked under match details and a comparison of the two records is available under diff 
+
+.. |matchrule| image:: images/tools/marcimport/matchrule.png
+				:alt: Dropdown list of available matching rules
+
+.. |matches| image:: images/tools/marcimport/matches.png
+				:alt: The 'Look for existing records in catalog' section of the record staging form
 
 .. |newquote| image:: images/tools/qotd/newquote.png 
 				:alt: New quote form
@@ -511,11 +865,35 @@
 .. |newsrss| image:: images/tools/news/newsrss.png
 				:alt: View of a news item on the OPAC with an RSS icon next to the text 'RSS feed for system-wide library news'
 
+.. |recordtype| image:: images/tools/marcimport/recordtype.png
+				:alt: Record type dropdown list: Bibliographic or Authority
+
+.. |reservoirresults| image:: images/tools/marcimport/reservoirresults.png
+				:alt: List of catalog records, followed by list of records in reservoir
+
 .. |shelflist| image:: images/tools/inventory/shelflist.png
 				:alt: A table presenting the items corresponding to the filters
 
 .. |staffnews| image:: images/tools/news/staffnews.png
 				:alt: News blocks on the staff interface's main page
+
+.. |stagediff| image:: images/tools/marcimport/stagediff.png
+				:alt: A comparison of matching records
+
+.. |stagedrecords| image:: images/tools/marcimport/stagedrecords.png
+				:alt: List of staged records
+
+.. |stagemarc-pt1| image:: images/tools/marcimport/stagemarc-pt1.png
+				:alt: The first section of the record staging tool, upload a file to stage
+
+.. |stagemarc-pt2| image:: images/tools/marcimport/stagemarc-pt2.png
+				:alt: The various settings of the record staging tool
+
+.. |stagemarc-results| image:: images/tools/marcimport/stagemarc-results.png
+				:alt: Result of the record staging step, details number of records in file, number of records with MARC error, number of records staged, number of records matching existing catalog, number of items staged
+
+.. |templatechoice| image:: images/tools/marcimport/templatechoice.png
+				:alt: Dropdown list of available MARC modification templates
 
 .. |qotdeditor| image:: images/tools/qotd/qotdeditor.png
 				:alt: Main page of the quote of the day editor
@@ -841,27 +1219,6 @@
 				:alt: Add a new action form with the following options: Copy and replace every field 020 c to field 020 c RegEx s/\$// if field 020 c matches m/^\$// RegEx Description: Remove $ (dollar sign) from 020$c fields
 .. |image341| image:: images/tools/marcmodtemplates/viewactions.png
 				:alt: List of all actions in a template
-.. |image343| image:: images/tools/marcmodtemplates/templatechoice.png
-				:alt: Modify the record using the following template drop-down menu where the option Add Ebook item is being selected
-.. |image344| image:: images/tools/marcimport/stagemarc-pt1.png
-.. |image345| image:: images/tools/marcimport/stagemarc-pt2.png
-.. |image346| image:: images/tools/marcimport/recordtype.png
-.. |image347| image:: images/tools/marcimport/encoding.png
-.. |image348| image:: images/tools/marcimport/templatechoice.png
-.. |image349| image:: images/tools/marcimport/matches.png
-.. |image350| image:: images/tools/marcimport/matchrule.png
-.. |image351| image:: images/tools/marcimport/checkitems.png
-.. |image352| image:: images/tools/marcimport/stagemarc-results.png
-.. |image353| image:: images/tools/marcimport/managestaged.png
-.. |image354| image:: images/tools/marcimport/managestagedrecords.png
-.. |image355| image:: images/tools/marcimport/importframework.png
-.. |image356| image:: images/tools/marcimport/stagedrecords.png
-.. |image357| image:: images/tools/marcimport/matchfound.png
-.. |image358| image:: images/tools/marcimport/stagediff.png
-.. |image359| image:: images/tools/marcimport/importedrecords.png
-.. |image360| image:: images/tools/marcimport/reservoirresults.png
-.. |image361| image:: images/tools/marcimport/managestaged.png
-.. |image362| image:: images/tools/marcimport/cleanbatch.png
 .. |image363| image:: images/tools/uploadlocalimg/uploadsingle.png
 .. |image364| image:: images/tools/uploadlocalimg/bibnumurl.png
 .. |image365| image:: images/tools/uploadlocalimg/bibnummarc.png
@@ -1016,7 +1373,6 @@
 .. |image495| image:: images/admin/globalprefs/DisplayClearScreenButton.png
 .. |image496| image:: images/circ/batchcheckoutwarn.png
 .. |image497| image:: images/circ/batchlocaluse.png
-.. |image498| image:: images/circ/materialspecified.png
 .. |image499| image:: images/circ/fineswarning.png
 .. |image500| image:: images/circ/debarwarning.png
 .. |image501| image:: images/circ/overridetemporarily.png
@@ -1248,85 +1604,6 @@
 .. |image735| image:: images/coursereserves/courselinkopac.png
 .. |image736| image:: images/coursereserves/coursesopac.png
 .. |image737| image:: images/coursereserves/courseopac.png
-.. |image783| image:: images/acquisitions/newvendbutton.png
-.. |image784| image:: images/acquisitions/newvendor1.png
-.. |image785| image:: images/acquisitions/newvendor2.png
-.. |image786| image:: images/acquisitions/newvendor3.png
-.. |image787| image:: images/acquisitions/vendorsearch.png
-.. |image788| image:: images/acquisitions/vendorpage.png
-.. |image789| image:: images/acquisitions/receivebutton.png
-.. |image790| image:: images/acquisitions/newcontract.png
-.. |image791| image:: images/acquisitions/newcontractform.png
-.. |image792| image:: images/acquisitions/contractdisplay.png
-.. |image793| image:: images/acquisitions/contractonbasket.png
-.. |image794| image:: images/acquisitions/suggestonacq.png
-.. |image795| image:: images/acquisitions/pendingsuggestions.png
-.. |image796| image:: images/acquisitions/suggestmanage.png
-.. |image797| image:: images/acquisitions/suggestionsfilters.png
-.. |image798| image:: images/acquisitions/suggestbranchfilter.png
-.. |image799| image:: images/acquisitions/suggestpending.png
-.. |image800| image:: images/acquisitions/suggestiondetails.png
-.. |image801| image:: images/acquisitions/editsuggestion.png
-.. |image802| image:: images/acquisitions/suggestreasons.png
-.. |image803| image:: images/acquisitions/suggestothers.png
-.. |image804| image:: images/acquisitions/mysuggestions.png
-.. |image805| image:: images/acquisitions/addbasketbutton.png
-.. |image806| image:: images/acquisitions/addbasket.png
-.. |image807| image:: images/acquisitions/basketwithcontracts.png
-.. |image808| image:: images/acquisitions/basket.png
-.. |image809| image:: images/acquisitions/orderfromexistingresults.png
-.. |image810| image:: images/acquisitions/existingitemorder.png
-.. |image811| image:: images/acquisitions/orderfromsuggest.png
-.. |image812| image:: images/acquisitions/orderfromsuggestform.png
-.. |image813| image:: images/acquisitions/ordersuggestlink.png
-.. |image814| image:: images/acquisitions/subordersearch.png
-.. |image815| image:: images/acquisitions/suborderresults.png
-.. |image816| image:: images/acquisitions/suborder.png
-.. |image817| image:: images/acquisitions/fromnewemptyrecord.png
-.. |image818| image:: images/acquisitions/orderz39.png
-.. |image819| image:: images/acquisitions/orderz39results.png
-.. |image820| image:: images/acquisitions/dupwarning.png
-.. |image821| image:: images/acquisitions/orderz39form.png
-.. |image822| image:: images/acquisitions/stagedfiles.png
-.. |image823| image:: images/acquisitions/itemonorder.png
-.. |image824| image:: images/acquisitions/itemonorderadded.png
-.. |image825| image:: images/acquisitions/accounting.png
-.. |image826| image:: images/acquisitions/fundconfirmation.png
-.. |image827| image:: images/acquisitions/finalbasket.png
-.. |image829| image:: images/acquisitions/cantdeleteorderline.png
-.. |image830| image:: images/acquisitions/basketbuttons.png
-.. |image832| image:: images/acquisitions/basketgroup.png
-.. |image833| image:: images/acquisitions/basketuncertain.png
-.. |image834| image:: images/acquisitions/uncertainprices.png
-.. |image835| image:: images/acquisitions/closebasket.png
-.. |image836| image:: images/acquisitions/createpurchaseorder.png
-.. |image838| image:: images/acquisitions/pdforder.png
-.. |image839| image:: images/acquisitions/receivebutton.png
-.. |image840| image:: images/acquisitions/receivefromsearch.png
-.. |image841| image:: images/acquisitions/receive.png
-.. |image842| image:: images/acquisitions/receiptsummary.png
-.. |image843| image:: images/acquisitions/receiveitem.png
-.. |image845| image:: images/acquisitions/received.png
-.. |image846| image:: images/acquisitions/transfersearch.png
-.. |image847| image:: images/acquisitions/transfervendor.png
-.. |image848| image:: images/acquisitions/transferbasket.png
-.. |image849| image:: images/acquisitions/transferconfirm.png
-.. |image850| image:: images/acquisitions/basketwithreceived.png
-.. |image851| image:: images/acquisitions/invoicesearch.png
-.. |image852| image:: images/acquisitions/invoices.png
-.. |image853| image:: images/acquisitions/invoice.png
-.. |image854| image:: images/acquisitions/noinvoicefiles.png
-.. |image855| image:: images/acquisitions/invoicefiles.png
-.. |image856| image:: images/acquisitions/mergeinvoices.png
-.. |image857| image:: images/acquisitions/acqclaimfilter.png
-.. |image858| image:: images/acquisitions/lateorders.png
-.. |image859| image:: images/acquisitions/claimletter.png
-.. |image860| image:: images/acquisitions/acqsearches.png
-.. |image861| image:: images/acquisitions/vendorquicksearch.png
-.. |image862| image:: images/acquisitions/ordersearch.png
-.. |image863| image:: images/acquisitions/ordersearchresults.png
-.. |image864| image:: images/acquisitions/ordersearchexpand.png
-.. |image865| image:: images/acquisitions/ordersearchfull.png
 .. |image868| image:: images/lists/newlistbutton.png
 .. |image869| image:: images/lists/newlistform.png
 .. |image870| image:: images/lists/newlistsearch.png
@@ -1658,7 +1935,6 @@
 .. |image1223| image:: images/tools/notices/newsms.png
 .. |image1224| image:: images/tools/patroncards/newlayout.png
 .. |image1225| image:: images/tools/patroncards/noitemsbatch.png
-.. |image1226| image:: images/tools/patroncards/patronsearch.png
 .. |image1227| image:: images/tools/patroncards/addpatrons.png
 .. |image1228| image:: images/tools/patroncards/batchsummary.png
 .. |image1229| image:: images/tools/patroncards/export.png
@@ -1705,18 +1981,6 @@
 .. |image1268| image:: images/cataloging/editindividual.png
 .. |image1269| image:: images/cataloging/edititemssearch.png
 .. |image1270| image:: images/cataloging/itemstatuses.png
-.. |image1280| image:: images/acquisitions/suggestfund.png
-.. |image1281| image:: images/acquisitions/importallstaged.png
-.. |image1282| image:: images/acquisitions/selecttoimport.png
-.. |image1283| image:: images/acquisitions/itemfromstaged.png
-.. |image1284| image:: images/acquisitions/stagedaccounting.png
-.. |image1285| image:: images/acquisitions/highestholdratio.png
-.. |image1286| image:: images/acquisitions/patronslist.png
-.. |image1287| image:: images/acquisitions/edifactorder.png
-.. |image1288| image:: images/acquisitions/AcquisitionDetails.png
-.. |image1289| image:: images/acquisitions/cancelorder.png
-.. |image1290| image:: images/acquisitions/AcqEnableFiles.png
-.. |image1291| image:: images/acquisitions/edifactmsg.png
 .. |image1292| image:: images/reports/cacheexiprywizard.png
 .. |image1293| image:: images/reports/reportgroup.png
 .. |image1294| image:: images/reports/cacheexpiry.png
@@ -1790,8 +2054,6 @@
 .. |image1368| image:: images/tools/patronclubs/enrollpatronstaff.png
 .. |image1369| image:: images/tools/patronclubs/enrollpatronopac.png
 .. |image1370| image:: images/tools/patronclubs/clubenrollments.png
-.. |image1371| image:: images/acquisitions/adjustments.png
-.. |image1372| image:: images/acquisitions/adjustments2.png
 .. |image1373| image:: images/opac/MyILLrequests.png
 .. |image1374| image:: images/opac/ILLformpicker.png
 .. |image1375| image:: images/opac/ILLform.png
@@ -1816,23 +2078,6 @@
 .. |image1399| image:: images/circ/articlerequests/opacform.png
 .. |image1402| image:: images/circ/articlerequests/staffinterfacenotification.png
 .. |image1405| image:: images/circ/articlerequests/batchprocess.png
-.. |image1406| image:: images/acquisitions/addtobasket.png
-.. |image1407| image:: images/acquisitions/addtobasketoptions.png
-.. |image1408| image:: images/acquisitions/duplicateorder.png
-.. |image1409| image:: images/acquisitions/duplicateorder2.png
-.. |image1410| image:: images/acquisitions/stagedfilestobasket.png
-.. |image1411| image:: images/acquisitions/patronsearch.png
-.. |image1412| image:: images/acquisitions/addmultipleitems.png
-.. |image1413| image:: images/acquisitions/deletebasketconfirmation.png
-.. |image1414| image:: images/acquisitions/basketgroupopen.png
-.. |image1415| image:: images/acquisitions/newbasketgroup.png
-.. |image1416| image:: images/acquisitions/addbaskettobasketgroup.png
-.. |image1417| image:: images/acquisitions/filterorders.png
-.. |image1418| image:: images/acquisitions/filterorders2.png
-.. |image1419| image:: images/acquisitions/receiveitem1.png
-.. |image1420| image:: images/acquisitions/receiveitem2.png
-.. |image1421| image:: images/acquisitions/showactivebaskets.png
-.. |image1422| image:: images/acquisitions/showallbaskets.png
 .. |image1426| image:: images/admin/additional/manaconfiguration.png
 .. |image1427| image:: images/admin/additional/manatoken.png
 .. |image1428| image:: images/reports/sqlfrommana.png
@@ -1854,7 +2099,6 @@
 .. |image1447| image:: images/searching/itemsearchinmenu.png
 .. |image1449| image:: images/admin/accounting/addcashregister.png
 .. |image1450| image:: images/admin/accounting/cashregisters.png
-.. |image1451| image:: images/acquisitions/orderfromexistingrecord.png
 .. |image1452| image:: images/cataloging/catalogingform.png
 .. |image1453| image:: images/tools/labelcreator/layoutalt.png
 .. |image1454| image:: images/tools/labelcreator/layoutbar.png
@@ -1879,8 +2123,6 @@
 .. |image1470| image:: images/patrons/deletepatroncheckout.png
 .. |image1471| image:: images/patrons/deletepatroncredit.png
 .. |image1472| image:: images/admin/globalprefs/allowstafftosetvisibilityforguarantor.png
-.. |image1473| image:: images/acquisitions/suggestchangeitype.png
-.. |image1474| image:: images/acquisitions/suggestarchive.png
 .. |image1475| image:: images/admin/accounting/credittypes.png
 .. |image1476| image:: images/admin/accounting/newcredittype.png
 				:alt: New credit type form
@@ -1900,7 +2142,6 @@
 .. |image1490| image:: images/tools/labelcreator/layouts.png
 .. |image1491| image:: images/tools/labelcreator/newbarcoderange.png
 .. |image1492| image:: images/tools/labelcreator/barcoderange.png
-.. |image1493| image:: images/tools/marcimport/format.png
 .. |image1494| image:: images/circ/patronsearchcirc.png
 .. |image1495| image:: images/patrons/patronsearchresults.png
 .. |image1496| image:: images/patrons/holdshistory.png

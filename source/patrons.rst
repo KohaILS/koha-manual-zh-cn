@@ -956,25 +956,26 @@ Patron permissions defined
       -  Grants the ability to write off patron fees
 
 
--  Acquisition and/or suggestion management (acquisition)
+-  Acquisition management (acquisition)
 
-   **Note**
+   .. Warning::
 
-   All the acquisitions sub-permissions give access to the acquisitions home
-   page. That means that staff who have one or more of the following permissions
-   will be able to view the budgets, search and view vendor information, and
-   view invoices.
+      All the acquisitions sub-permissions give access to the acquisitions home
+      page. That means that staff who have one or more of the following permissions
+      will be able to view the budgets, search and view vendor information, and
+      view invoices.
 
    -  Add and delete funds (but can't modify funds) (budget\_add\_del)
 
-      -  Grants the ability to add and delete funds within a budget
+      -  Grants the ability to :ref:`add funds<add-a-fund-label>` and delete 
+         funds within a budget
 
       -  Note that the budget\_manage and budget\_modify permissions are
          required for this one to work correctly
 
    -  Manage funds (budget\_manage)
 
-      -  Grants the ability to acces the :ref:`fund administration page <funds-label>`
+      -  Grants the ability to access the :ref:`fund administration page <funds-label>`
 
       -  Note that this only gives viewing access to the page, you will need
          to give your staff budget\_add\_del and budget\_modify if you want
@@ -996,26 +997,51 @@ Patron permissions defined
 
    -  Manage contracts (contracts\_manage)
 
-      -  Grants the ability to add, edit and delete contracts with vendors
+      -  Grants the ability to add, edit and delete 
+         :ref:`contracts with vendors<vendor-contracts-label>`
 
    -  Manage currencies and exchange rates (currencies\_manage)
 
       -  The ability to access the :ref:`Currencies and exchange rates
          <currencies-and-exchange-rates-label>` configuration page.
 
+   -  Delete baskets (delete\_baskets)
+
+      -  Grants the ability to delete baskets
+
+      -  The staff member must also have the order\_manage permission to be 
+         able to view the baskets in order to delete them.
+
+   -  Delete invoices (delete\_invoices)
+
+      -  Grants the ability to delete invoices
+
    -  Manage EDIFACT transmissions (edi\_manage)
 
       -  Grants the ability to access the :ref:`EDI account <edi-accounts-label>`
          administration page, the :ref:`library EANs <library-eans-label>`
          administration page and access sent :ref:`EDI messages <edifact-messages-label>`
+      ..
+       This sentence was left unfinished, but I'm not sure what other permission
+       is needed (CCLR 2022-06-20)
+       In order to be able to send orders via EDI, your staff member also needs the 
 
-      -  In order to be able to send orders via EDI, your staff member also
-         needs the
+   -  Edit invoices (edit\_invoices)
+
+      -  Grants the ability to edit invoices (modify invoice information such 
+         as the invoice number, billing or shipping date, add adjustments, etc.)
+
+      -  The staff member will not be able to receive orders against an invoice 
+         unless they have the order\_receive permission as well
 
    -  Manage basket groups (group\_manage)
 
       -  Grants the ability to :ref:`create, edit, close and delete basket
          groups <create-a-basket-group-label>`
+
+   -  Merge invoices (merge\_invoices)
+
+      -  Grants the ability to :ref:`merge invoices <merging-invoices-label>`
 
    -  Manage baskets and order lines (order\_manage)
 
@@ -1049,17 +1075,24 @@ Patron permissions defined
       -  Note that the budget\_manage and the period\_manage permissions are
          required for this one to work
 
-   -  Manage purchase suggestions (suggestions\_manage)
+   -  Reopen closed invoices (reopen\_closed\_invoices)
 
-      -  Grants the ability to :ref:`create and manage purchase suggestions
-         <managing-purchase-suggestions-label>`, including creating new
-         suggestions and changing the suggestions' statuses
+      -  Grants the ability to reopen closed invoices
 
    -  Manage vendors (vendors\_manage)
 
       -  Grants the ability to :ref:`add, edit and delete vendors <vendors-label>`
 
       -  Note that vendors are used in the acquisition and the serials module.
+
+-  Suggestions management
+
+   -  Manage purchase suggestions (suggestions\_manage)
+
+      -  Grants the ability to 
+         :ref:`create and manage purchase suggestions  <managing-purchase-suggestions-label>`, 
+         including creating new suggestions and changing the suggestions' 
+         statuses
 
 -  Use all tools (tools)
 
@@ -1783,7 +1816,7 @@ in if the :ref:`CalculateFinesOnReturn` system preference is enabled.
    with an enrollment fee.
 
 -  Article request fees will be charged based on the
-   :ref:`article request fees <default-article-request-fees-labe>` section of
+   :ref:`article request fees <default-article-request-fees-label>` section of
    the circulation rules page.
 
 .. _pay-and-writeoff-fines-label:

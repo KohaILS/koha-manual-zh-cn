@@ -599,7 +599,7 @@ is likely to use or that are used by the system.
       You can change those to suit your organization's needs, but the values must 
       be numerical.
 
-.. Warning ::
+.. Warning::
 
    The authorized values for DAMAGED must be numerical.
 
@@ -742,7 +742,7 @@ is likely to use or that are used by the system.
       You can change those to suit your organization's needs, but the values must 
       be numerical.
 
-.. Warning ::
+.. Warning::
 
    The authorized values for LOST must be numerical.
 
@@ -777,7 +777,7 @@ is likely to use or that are used by the system.
       You can change those to suit your organization's needs, but the values must 
       be numerical.
 
-.. Warning ::
+.. Warning::
 
    The authorized values for NOT\_LOAN must be numerical.
 
@@ -877,7 +877,7 @@ is likely to use or that are used by the system.
       You can change those to suit your organization's needs, but the values must 
       be numerical.
 
-.. Warning ::
+.. Warning::
 
    The authorized values for this category must be numerical.
 
@@ -911,7 +911,7 @@ is likely to use or that are used by the system.
 
    -  This is normally mapped to items.stack in the Koha database.
 
-.. Warning ::
+.. Warning::
 
    The authorized values for this category must be numerical.
 
@@ -983,7 +983,7 @@ is likely to use or that are used by the system.
       You can change those to suit your organization's needs, but the values must 
       be numerical.
 
-.. Warning ::
+.. Warning::
 
    The authorized values for this category must be numerical.
 
@@ -1127,7 +1127,7 @@ roles, age groups, and patron types.
 
 |patroncatlist|
 
-.. Note :: 
+.. Note:: 
 
    You can customize the columns of this table in the 
    :ref:`'Table settings'<column-settings-label>` section of the 
@@ -1167,7 +1167,7 @@ To add a new patron category click 'New category' at the top of the page
    -  This field is required in order to save your patron category. If left 
       blank you will be presented with an error.
 
-.. Warning ::
+.. Warning::
 
    You cannot enter both a month limit and a date until for one category. 
    Choose to enter either one or the other.
@@ -1202,11 +1202,11 @@ To add a new patron category click 'New category' at the top of the page
 -  Enrollment fee: enter the amount if you charge a membership fee for your 
    patrons (such as those who live in another region).
 
-.. Warning ::
+.. Warning::
 
    Only enter numbers and decimals in this field.
 
-.. Note ::
+.. Note::
 
    Depending on your value for the :ref:`FeeOnChangePatronCategory` system 
    preference, this fee will be charged on patron renewal as well as when they 
@@ -1225,7 +1225,7 @@ To add a new patron category click 'New category' at the top of the page
    -  Hidden by default: lost items are hidden, but staff members can click 
       'Show all items' to see them.
 
-.. Note ::
+.. Note::
 
    This is only applicable in the staff interface, so changing this value on 
    patron categories who do not have access to the staff interface won't make 
@@ -1234,7 +1234,7 @@ To add a new patron category click 'New category' at the top of the page
 -  Hold fee: enter the fee amount if you charge patrons from this category a 
    fee for placing holds on items.
 
-.. Warning ::
+.. Warning::
 
    Only enter numbers and decimals in this field.
 
@@ -1360,12 +1360,12 @@ To add a new patron category click 'New category' at the top of the page
       each patron. This setting is just a default to make it easier to set up 
       messages when creating new patrons. 
 
-.. Note ::
+.. Note::
 
    This requires that you have :ref:`EnhancedMessagingPreferences` system 
    preference set to 'Allow'.
 
-.. Warning ::
+.. Warning::
 
    These defaults will only be applied to new patrons that are added to the 
    system. They will not edit the preferences of the existing patrons.
@@ -4504,7 +4504,9 @@ To add account information click the 'New account' button.
 
 In the form that appears you will want to enter your vendor information.
 
-New account information
+See the :ref:`EDI questions for vendors<edi-accounts-for-vendors-label>` section 
+of the :ref:`acquisitions module chapter<acquisitions-label>` for a description 
+of each field.
 
 Each vendor will have one account.
 
@@ -4519,11 +4521,11 @@ account can have multiple EANs.
 
 To add an EAN click the 'New EAN' button.
 
-New EAN
-
 In the form that appears enter the information provided by your vendor.
 
-New EAN form
+See the :ref:`EDI questions for vendors<library-ean-buyer-identifier-label>` 
+section of the :ref:`acquisitions module chapter<acquisitions-label>` for a 
+description of each field.
 
 .. _additional-parameters-label:
 
@@ -4879,10 +4881,10 @@ page. It will not affect any other user.
 | Module              | Tables                                                                                           |
 +=====================+==================================================================================================+
 | Acquisitions        | - :ref:`Basket summary <create-a-basket-label>` (orders)                                         |
-|                     | - :ref:`Order search results <acquisition-searches-label>` (histsearcht)                         |
+|                     | - :ref:`Order search results <searching-orders-label>` (histsearcht)                             |
 |                     | - :ref:`Late orders <claims-and-late-orders-label>` (late\_orders)                               |
 |                     | - :ref:`Suggestions <managing-purchase-suggestions-label>` (suggestions)                         |
-|                     | - :ref:`Funds table on the main acquisition page<acquisitions-label>` (accounts)
+|                     | - :ref:`Funds table on the main acquisition page<acquisitions-label>` (accounts)                 |
 +---------------------+--------------------------------------------------------------------------------------------------+
 | Administration      | - :ref:`Patron categories <patron-categories-label>` (patron\_categories)                        |
 |                     | - :ref:`Currencies <currencies-and-exchange-rates-label>` (currency)                             |
@@ -4907,7 +4909,7 @@ page. It will not affect any other user.
 |                     | - :ref:`Holds awaiting pickup (holds waiting over X days) <holds-awaiting-pickup-label>` (holdso)|
 |                     | - :ref:`Holds awaiting pickup (holds waiting) <holds-awaiting-pickup-label>` (holdst)            |
 |                     | - :ref:`Hold ratios <hold-ratios-label>` (holds-ratios)                                          |
-|                     | - :ref:`Overdues report <overdues-report-label>` (circ-overdues)                                        |
+|                     | - :ref:`Overdues report <overdues-report-label>` (circ-overdues)                                 |
 |                     | - :ref:`Checkins <checking-items-in-label>` (checkedintable)                                     |
 |                     | - :ref:`Holds queue <holds-queue-label>` (holds-table)                                           |
 +---------------------+--------------------------------------------------------------------------------------------------+
@@ -4943,12 +4945,12 @@ page. It will not affect any other user.
 | Serials             | - :ref:`Acquisition details <subscriptions-in-staff-client-label>` (orders)                      |
 +---------------------+--------------------------------------------------------------------------------------------------+
 
-.. Note ::
+.. Note::
 
   Patrons in the OPAC can't toggle column visibility. For OPAC tables
   this feature only allows to control the visibility of columns.
 
-.. Note ::
+.. Note::
 
   Any tables with columns listed here also have the option to export to Excel, export to CSV,
   copy, or print within the table header.
@@ -5190,7 +5192,7 @@ Fill out the form
   subscriptions based on this field
 
   - Order basket searchable additional fields will be available in the
-    :ref:`orders advanced search <acquisition-searches-label>` form
+    :ref:`orders advanced search <searching-orders-label>` form
 
   - Subscription searchable additional fields will be available in the
     :ref:`subscription advanced search <searching-serials-label>` form

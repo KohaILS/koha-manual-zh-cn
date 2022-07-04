@@ -1384,7 +1384,7 @@ be processed in this batch.
 After choosing the 'Add patron(s)' button the Patron Search window pops
 up.
 
-|image1226|
+|patronsearchpopup|
 
 From here you can search for patrons to add to your batch by any part of
 their name, their category and/or library. Entering \* in the search box
@@ -3088,7 +3088,7 @@ Once your template is saved you will be able to pick it when using the
 or when using the :ref:`batch record modification <batch-record-modification-label>` 
 tool.
 
-|image343|
+|templatechoice|
 
 .. _stage-marc-records-for-import-label:
 
@@ -3103,48 +3103,57 @@ steps. The first is to stage records for import.
 
 -  First find the MARC file on your computer
 
-   |image344|
+   |stagemarc-pt1|
 
 -  Next you will be presented with options for record matching and item
    imports
 
-   |image345|
+   |stagemarc-pt2|
 
-   -  'Comments about this file': enter comments to identify your upload when
+   -  Pre-fill values with profile: if you already have staging profiles set up, 
+      you can choose the appropriate profile from the dropdown list
+      
+      -  Profiles are used to pre-fill the rest of the staging settings form.
+      
+      -  You can create a profile by choosing the various settings in the 
+         sections below and enter a profile name at the end of the form. 
+         Next time you stage records, the profile will be available. 
+   
+   -  Comments about this file: enter comments to identify your upload when
       going to the ':ref:`Manage staged MARC records <staged-marc-record-management-label>`' tool
 
-   -  'Record type': tell Koha which type of file this is, bibliographic or 
-      authority
+   -  Record type: choose which type of records are in this file, bibliographic 
+      or authority
 
-      |image346|
+      |recordtype|
 
-   -  'Character encoding': choose the character encoding of your file
+   -  Character encoding: choose the character encoding of your file
 
-      |image347|
+      |encoding|
 
-   -  'Format': choose the MARC format of your file 
+   -  Format: choose the MARC format of your file 
 
-      |image1493|
+      |format|
 
-   -  'Modify record using the following template': choose if you would like 
+   -  Modify record using a MARC modification template: choose if you would like 
       to use a :ref:`MARC modification template <marc-modification-templates-label>` 
       to alter the data you're about to import
 
-      |image348|
+      |templatechoice|
 
    -  Choose whether or not you want to look for matching records
 
-      |image349|
+      |matches|
 
-      -  'Record matching rule': choose which rules to use to check your 
+      -  Record matching rule: choose which rules to use to check your 
          catalog if these records already exist.
 
-            **Note**
+         .. Note::
 
             You can set up :ref:`record matching rules <record-matching-rules-label>` 
             in the administration area
 
-         |image350|
+         |matchrule|
 
          -  When using the ISBN matching rule Koha will find only exact
             matches. If you find that the ISBN match is not working to
@@ -3152,34 +3161,34 @@ steps. The first is to stage records for import.
             :ref:`AggressiveMatchOnISBN`
             preference to 'Do' and then run your import again.
 
-   -  'Action if matching record found': choose what to do with matching 
-      records if they are found
+      -  Action if matching record found: choose what to do with matching 
+         records if they are found
 
-      -  Replace existing record with incoming record: choose this if you are 
-         importing more complete records than the ones you currently have, or 
-         if you made some changes using an external tool (MarcEdit for example)
+         -  Replace existing record with incoming record: choose this if you are 
+            importing more complete records than the ones you currently have, or 
+            if you made some changes using an external tool (MarcEdit for example)
 
-      -  Add incoming record: this will keep the existing record and add the 
-         incoming record, so you may end up with duplicates
+         -  Add incoming record: this will keep the existing record and add the 
+            incoming record, so you may end up with duplicates
 
-      -  Ignore incoming record (its items may still be processed): choose this 
-         if you do not want to replace existing records
+         -  Ignore incoming record (its items may still be processed): choose this 
+            if you do not want to replace existing records
 
-   -  'Action if no match is found': choose what to do with records that are 
-      unique
+      -  Action if no match is found: choose what to do with records that are 
+         unique
 
-      -  Add incoming record: choose this if you wish to import records that 
-         are not already in your catalog (for example, for new titles)
+         -  Add incoming record: choose this if you wish to import records that 
+            are not already in your catalog (new titles for example)
 
-      -  Ignore incoming record: choose this if you don't want to import 
-         records that are not already in your catalogue (for example, if you're 
-         only replacing existing records and don't want to add anything)
+         -  Ignore incoming record: choose this if you don't want to import 
+            records that are not already in your catalogue (for example, if you're 
+            only replacing existing records and don't want to add anything)
 
-   -  'Check for embedded item record data?': choose whether or not to import 
+   -  Check for embedded item record data?: choose whether or not to import 
       the item data (field 952) found in the MARC records (if the file you're 
       loading is a bibliographic file)
 
-      |image351|
+      |checkitems|
 
       -  Always add items: always add items regardless of matching status
 
@@ -3193,21 +3202,38 @@ steps. The first is to stage records for import.
          itemnumbers and barcodes to match on for items and will only replace 
          existing items.
 
-           **Note**
+         .. Note::
 
-           Itemnumbers take precendence over barcodes
+            Itemnumbers take precendence over barcodes
 
       -  Ignore items: this will not add any items
+      
+   -  Save profile: you can choose to save the chosen settings under a profile 
+      to use again later
 
 -  Click 'Stage for import'
 
 -  You will be presented with a confirmation of your MARC import
 
-   |image352|
+   |stagemarc-results|
+   
+   -  Number of records in file 
+   
+   -  Number of records with MARC errors 
+   
+   -  Number of records staged 
+   
+   -  Number of records matching existing records in the catalog
+   
+   -  Number of items staged 
 
 -  To complete the process continue to the :ref:`Manage staged MARC records
    tool <staged-marc-record-management-label>` by clicking on the 'Manage 
    staged records' button.
+   
+   -  If these records are to be used in acquisitions, you can stop here 
+      and add these records to a basket by 
+      :ref:`ordering from a staged file<order-from-a-staged-file-label>`
 
 .. _staged-marc-record-management-label:
 
@@ -3216,35 +3242,41 @@ Staged MARC record management
 
 -  *Get there:* More > Tools > Catalog > Staged MARC record management
 
-Once you have :ref:`staged <stage-marc-records-for-import-label>` your records 
-for import you can complete the import using this tool.
+Once you have :ref:`staged your records for import<stage-marc-records-for-import-label>` 
+you can complete the import using this tool.
 
-|image353|
+|managestaged|
 
 -  From the list of staged records, click on the file name that you want
    to finish importing
 
-   -  You will note that records that have already been imported will
+   -  Note that records that have already been imported will
       say so under 'Status'
 
--  A summary of your import will appear along with the option to change
+   .. Note::
+     
+      If you're coming directly from the 
+      :ref:`Stage MARC records for import tool<stage-marc-records-for-import-label>`
+      you will not see this list of staged files, you will be taken automatically 
+      to the right file summary
+
+-  A summary of your staged file will appear along with the option to change
    your matching rules
 
-   |image354|
+   |managestagedrecords|
 
 -  Below the summary is the option to import the batch of records
    using a specific framework
 
-   |image355|
+   |importframework|
 
    -  Choosing a framework other than 'Default' isn't necessary, but
-      it's helpful for running reports and having the right bibliographic level
-      item type selected on import.
+      it's helpful for running reports.
 
 -  Below the framework selection there will be a list of the records
    that will be imported
 
-   |image356|
+   |stagedrecords|
 
    -  Review your summary before completing your import to make sure
       that your matching rule worked and that the records appear as you
@@ -3252,40 +3284,58 @@ for import you can complete the import using this tool.
 
    -  Matches will appear with info under the 'Match details column'
 
-      |image357|
+      |matchfound|
 
       and when clicking the 'View' link under 'Diff' you can see the
       difference between versions.
 
-      |image358|
+      |stagediff|
 
--  Click 'Import into catalog' to complete the import
+-  Click 'Import this batch into the catalog' to complete the import
 
-   |image359|
+   |importedrecords|
+   
+   -  Number of records added: new records added
+   
+   -  Number of records updated: existing records replaced with the incoming 
+      ones
+   
+   -  Number of records ignored: records that were ignored due to the matching 
+      rule 
+      
+   -  Number of items added: new items added 
+   
+   -  Number of items replaced: existing items updated with the incoming ones 
+   
+   -  Number of items ignored because of duplicate barcode: items that were 
+      ignored because the barcode already exists in the database
 
 -  Once your import is complete a link to the new records will
    appear to the right of each title that was imported
 
--  You can also undo your import by clicking the 'Undo import into
+-  You can undo your import by clicking the 'Undo import into
    catalog' button
 
 Records imported using this tool remain in the 'reservoir' until they
-are cleaned. These items will appear when searching the catalog from the
-`Cataloging <#cataloging>`__ tool:
+are cleaned either through the 'Clean' button in the Staged MARC record 
+management home page (see below) or through the 
+:ref:`cleanup\_database cronjob<cron-clean-up-database-label>`. Reservoir records 
+will appear when searching the catalog from the 
+:ref:`cataloging module<cataloging-label>`
 
-|image360|
+|reservoirresults|
 
-To clean items out of the 'reservoir':
+To manually clean items out of the 'reservoir':
 
 -  Visit the main screen of the manage staged MARC records tool
 
-   |image361|
+   |managestaged|
 
 -  To clean a batch, click the 'Clean' button to the right
 
 -  You will be presented with a confirmation message
 
-   |image362|
+   |cleanbatch|
 
    -  Accept the deletion and the records will be removed from the
       reservoir and the status will be changed to 'cleaned'
