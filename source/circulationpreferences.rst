@@ -1709,18 +1709,20 @@ RestrictionBlockRenewing
 
 Default: Allow
 
-Asks: If patron is restricted, \_\_\_ renewing of items.
+Asks: If patron is restricted, \_\_\_ renewing of items from the staff
+interface and via the 
+:ref:`misc/cronjobs/automatic_renewals.pl <cron-automatic-renewal-label>`
+cronjob.
 
 Values:
 
--  Allow
-
--  Block
+- Allow
+- Block
 
 Description:
 
-- This preference will affect all forms of renewal, staff client, 
-  auto-renewal and opac renewals.
+- This preference affects all forms of renewals made from the staff 
+  interface and the automatic renewals cron job. 
 
 .. _returnbeforeexpiry-label:
 
