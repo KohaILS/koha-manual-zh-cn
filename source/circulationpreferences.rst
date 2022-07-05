@@ -1701,6 +1701,11 @@ Values:
 
 -  Block
 
+Description:
+
+- This preference will affect all forms of renewal, staff client, 
+  auto-renewal and opac renewals.
+
 .. _returnbeforeexpiry-label:
 
 ReturnBeforeExpiry
