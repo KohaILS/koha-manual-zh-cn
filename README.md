@@ -61,3 +61,6 @@ And it will list all the available options. Some useful ones are
 
 ### Generate .po files for translation
 > make gettext
+
+### 生成中文文档
+> sphinx-build -b html -d build/doctrees  -q -D language='zh_CN' -d build/doctrees source docs/
