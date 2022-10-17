@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Introduction to the Koha installation process &mdash; Koha Manual 22.05 (development) 文档</title>
+  <title>Koha 安装过程介绍 &mdash; Koha 手册 22.05（开发版本） 文档</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -22,7 +22,7 @@
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="Global system preferences" href="globalpreferences.html" />
-    <link rel="prev" title="Introduction" href="intro.html" /> 
+    <link rel="prev" title="介绍" href="intro.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,10 +30,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search"  style="background: #4a9b32" >
-            <a href="index.html" class="icon icon-home"> Koha Manual
+            <a href="index.html" class="icon icon-home"> Koha 手册
           </a>
               <div class="version">
-                22.05 (development)
+                22.05（开发版本）
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -44,14 +44,14 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction to the Koha installation process</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#what-is-the-koha-web-installer">What is the Koha web installer?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#what-is-the-koha-onboarding-tool">What is the Koha onboarding tool?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">介绍</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Koha 安装过程介绍</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-the-koha-web-installer">Koha 网页安装器是什么？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-the-koha-onboarding-tool">Koha 在线工具是什么？</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#web-installer">Web installer</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#web-installer-login">Web installer login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#web-installer">网页安装器</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#web-installer-login">网页安装器登录</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#language-picker">Language picker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#installer-perl-modules-installed">Installer perl modules installed</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#database-settings">Database settings</a></li>
@@ -66,15 +66,15 @@
 <li class="toctree-l2"><a class="reference internal" href="#redirect-to-onboarding-tool">Redirect to onboarding tool</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#onboarding-tool">Onboarding tool</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#create-a-library">Create a library</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#create-a-patron-category">Create a patron category</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#create-a-patron">Create a patron</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#onboarding-tool">在线工具</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-a-library">创建一个图书馆</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-a-patron-category">创建读者类型</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-a-patron">创建读者</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#create-an-item-type">Create an item type</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#create-a-circulation-rule">Create a circulation rule</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#onboarding-tool-complete">Onboarding tool complete</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#login-to-access-staff-interface">Login to access staff interface</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#staff-interface">Staff interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#onboarding-tool-complete">在线工具完成</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#login-to-access-staff-interface">登录进入馆员界面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#staff-interface">馆员界面</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="globalpreferences.html">Global system preferences</a></li>
@@ -112,7 +112,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #4a9b32" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Koha Manual</a>
+          <a href="index.html">Koha 手册</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -120,12 +120,12 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Introduction to the Koha installation process</li>
+      <li>Koha 安装过程介绍</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/installation.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
   </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
-        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="intro.html" class="btn btn-neutral float-left" title="介绍" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="globalpreferences.html" class="btn btn-neutral float-right" title="Global system preferences" accesskey="n">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
   </div>
   <hr/>
@@ -134,36 +134,36 @@
            <div itemprop="articleBody">
              
   <section id="introduction-to-the-koha-installation-process">
-<span id="koha-installation-process-label"></span><h1>Introduction to the Koha installation process<a class="headerlink" href="#introduction-to-the-koha-installation-process" title="永久链接至标题"></a></h1>
-<p>This is the Koha installation manual.</p>
-<p>The Koha installation process uses 2 tools:</p>
+<span id="koha-installation-process-label"></span><h1>Koha 安装过程介绍<a class="headerlink" href="#introduction-to-the-koha-installation-process" title="永久链接至标题"></a></h1>
+<p>这是 Koha 安装手册。</p>
+<p>Koha 安装过程使用 2 个工具：</p>
 <ul class="simple">
-<li><p>Web installer</p></li>
-<li><p>Onboarding tool</p></li>
+<li><p>网页安装器</p></li>
+<li><p>在线工具</p></li>
 </ul>
-<p>This documentation will outline both of these tools.</p>
+<p>本手册将概述两种工具。</p>
 <section id="what-is-the-koha-web-installer">
-<h2>What is the Koha web installer?<a class="headerlink" href="#what-is-the-koha-web-installer" title="永久链接至标题"></a></h2>
+<h2>Koha 网页安装器是什么？<a class="headerlink" href="#what-is-the-koha-web-installer" title="永久链接至标题"></a></h2>
 <p>The web installer sets up the database tables that store the all the data you work with in Koha, for example the library branches, patrons and items.</p>
 <p>The web installer starts with a login screen for you to enter the database administrator account credentials.</p>
 <p>The installer will then create the tables and fill the tables with data. The next step in the process is to set up a few mandatory first use settings, via the onboarding tool.</p>
 </section>
 <section id="what-is-the-koha-onboarding-tool">
-<h2>What is the Koha onboarding tool?<a class="headerlink" href="#what-is-the-koha-onboarding-tool" title="永久链接至标题"></a></h2>
+<h2>Koha 在线工具是什么？<a class="headerlink" href="#what-is-the-koha-onboarding-tool" title="永久链接至标题"></a></h2>
 <p>The onboarding tool makes sure you have at least one library, patron category, patron, item type and circulation rule before you start using Koha.</p>
 <p>If you installed sample data for library, patron category, and/or item type then the screens to create these will be skipped.</p>
 <p>You will, however, always have to create a patron (to log into the staff interface at the end of the onboarding tool) and a circulation rule.</p>
 </section>
 </section>
 <section id="web-installer">
-<h1>Web installer<a class="headerlink" href="#web-installer" title="永久链接至标题"></a></h1>
+<h1>网页安装器<a class="headerlink" href="#web-installer" title="永久链接至标题"></a></h1>
 <section id="web-installer-login">
-<h2>Web installer login<a class="headerlink" href="#web-installer-login" title="永久链接至标题"></a></h2>
+<h2>网页安装器登录<a class="headerlink" href="#web-installer-login" title="永久链接至标题"></a></h2>
 <p><strong>Web installer login</strong></p>
 <p>This login screen is the first screen that appears when installing Koha.</p>
 <blockquote>
 <div><p><img alt="image1152" src="_images/installer_login.png" /></p>
-<p>Web installer login</p>
+<p>网页安装器登录</p>
 </div></blockquote>
 <ol class="arabic simple">
 <li><p><strong>Koha version name</strong>: This will display whatever Koha version number you are installing.</p></li>
@@ -362,14 +362,14 @@
 </section>
 </section>
 <section id="onboarding-tool">
-<h1>Onboarding tool<a class="headerlink" href="#onboarding-tool" title="永久链接至标题"></a></h1>
+<h1>在线工具<a class="headerlink" href="#onboarding-tool" title="永久链接至标题"></a></h1>
 <section id="create-a-library">
-<h2>Create a library<a class="headerlink" href="#create-a-library" title="永久链接至标题"></a></h2>
+<h2>创建一个图书馆<a class="headerlink" href="#create-a-library" title="永久链接至标题"></a></h2>
 <p>The installer will prompt to create the first library or branch if the sample libraries were not installed.</p>
 <p>A library in Koha is the digital representation of a “physical” place. More libraries can be added later by going to Administration -&gt; Libraries and groups.</p>
 <blockquote>
 <div><p><img alt="image1153" src="_images/create_library_screen_1.png" /></p>
-<p>Create library</p>
+<p>创建图书馆</p>
 </div></blockquote>
 <ol class="arabic simple">
 <li><p><strong>Library code:</strong> code consisting of up to 10 letters.</p></li>
@@ -385,7 +385,7 @@
 <p><strong>Library code:</strong> The regular expression that filters the acceptable inputs for library code only accepts up to 10 letters.</p>
 </section>
 <section id="create-a-patron-category">
-<h2>Create a patron category<a class="headerlink" href="#create-a-patron-category" title="永久链接至标题"></a></h2>
+<h2>创建读者类型<a class="headerlink" href="#create-a-patron-category" title="永久链接至标题"></a></h2>
 <p>All patrons in Koha must have a patron category. The patron category is like a jelly mold; multiple individual patron accounts can share common characteristics, such as circulation rules, notice frequency, holds allowed, and much more. Koha requires at least one patron category in order to add patrons.</p>
 <p>A patron category requires:</p>
 <blockquote>
@@ -398,7 +398,7 @@
 <li><p>Enrolment period: In months OR Until date</p></li>
 </ul>
 <p><img alt="image1155" src="_images/create_patron_categories_1.png" /></p>
-<p>Create a patron category</p>
+<p>创建读者类型</p>
 </div></blockquote>
 <ol class="arabic simple">
 <li><p><strong>Library creation message:</strong> Indicates whether the library was created successfully.</p></li>
@@ -418,7 +418,7 @@
 </div></blockquote>
 </section>
 <section id="create-a-patron">
-<h2>Create a patron<a class="headerlink" href="#create-a-patron" title="永久链接至标题"></a></h2>
+<h2>创建读者<a class="headerlink" href="#create-a-patron" title="永久链接至标题"></a></h2>
 <p>A superlibrarian patron user is required to log into the Koha staff interface, once the onboarding process has been completed.</p>
 <div class="admonition note">
 <p class="admonition-title">注解</p>
@@ -434,7 +434,7 @@
 <li><p>Username</p></li>
 <li><p>Password</p>
 <p><img alt="image1157" src="_images/create_patron_1.png" /></p>
-<p>Create a patron</p>
+<p>创建读者</p>
 </li>
 </ul>
 <ol class="arabic simple">
@@ -467,7 +467,7 @@
 <li><p>Item type code</p></li>
 <li><p>Description</p>
 <p><img alt="image1159" src="_images/create_item_type_1.png" /></p>
-<p>Create item type</p>
+<p>创建馆藏类型</p>
 </li>
 </ul>
 <ol class="arabic simple">
@@ -493,7 +493,7 @@
 <p>Here you are creating a rule which applies the pre-defined organisational decisions of your library as to what restrictions you place on patrons borrowing items.</p>
 <blockquote>
 <div><p><img alt="image1161" src="_images/create_circulation_rule_1.png" /></p>
-<p>Create circulation rule</p>
+<p>创建流通规则</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">注解</p>
@@ -515,7 +515,7 @@
 </ol>
 </section>
 <section id="onboarding-tool-complete">
-<h2>Onboarding tool complete<a class="headerlink" href="#onboarding-tool-complete" title="永久链接至标题"></a></h2>
+<h2>在线工具完成<a class="headerlink" href="#onboarding-tool-complete" title="永久链接至标题"></a></h2>
 <p>This page tells you if the circulation rule was created successfully, and that the Koha installation is complete</p>
 <blockquote>
 <div><p><img alt="image1162" src="_images/onboarding_tool_complete.png" /></p>
@@ -527,11 +527,11 @@
 </ol>
 </section>
 <section id="login-to-access-staff-interface">
-<h2>Login to access staff interface<a class="headerlink" href="#login-to-access-staff-interface" title="永久链接至标题"></a></h2>
-<p>You have now finished using the onboarding tool and can log into the staff interface using the patron account credentials you created in the onboarding tool</p>
+<h2>登录进入馆员界面<a class="headerlink" href="#login-to-access-staff-interface" title="永久链接至标题"></a></h2>
+<p>现在您已经完成使用在线工具，可以通过使用在线工具生成的读者账号登录馆员界面</p>
 <blockquote>
 <div><p><img alt="image1163" src="_images/login.png" /></p>
-<p>Login screen</p>
+<p>登录画面</p>
 </div></blockquote>
 <ol class="arabic simple">
 <li><p><strong>Username:</strong> Enter the username you created for the patron</p></li>
@@ -542,19 +542,19 @@
 <p>For example:</p>
 <blockquote>
 <div><p><img alt="image1164" src="_images/login_example.png" /></p>
-<p>Login example</p>
+<p>登录示范</p>
 </div></blockquote>
 </section>
 <section id="staff-interface">
-<h2>Staff interface<a class="headerlink" href="#staff-interface" title="永久链接至标题"></a></h2>
-<p>The staff interface should now appear</p>
+<h2>馆员界面<a class="headerlink" href="#staff-interface" title="永久链接至标题"></a></h2>
+<p>馆员界面现在将出现</p>
 <blockquote>
 <div><p><img alt="image1165" src="_images/staff_interface.png" /></p>
-<p>Staff interface</p>
+<p>馆员界面</p>
 </div></blockquote>
 <div class="admonition seealso">
 <p class="admonition-title">参见</p>
-<p>For more information about how to use the staff interface, please visit <a class="reference external" href="https://koha-community.org/documentation/">https://koha-community.org/documentation/</a></p>
+<p>关于如何使用馆员界面的更多信息，参阅 <a class="reference external" href="https://koha-community.org/documentation/">https://koha-community.org/documentation/</a></p>
 </div>
 </section>
 </section>
@@ -563,15 +563,15 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="intro.html" class="btn btn-neutral float-left" title="介绍" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="globalpreferences.html" class="btn btn-neutral float-right" title="Global system preferences" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; 版权所有 2021-22, Koha Community.
-      <span class="lastupdated">最后更新于 2022-09-02 16:54:31.
+    <p>&#169; 版权所有 2021-22, Koha 社区.
+      <span class="lastupdated">最后更新于 2022-10-06 11:42:31.
       </span></p>
   </div>
 

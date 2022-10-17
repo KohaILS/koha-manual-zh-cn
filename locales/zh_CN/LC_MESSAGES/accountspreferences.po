@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the Koha Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 22.05 (development)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-02 09:11+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-10-06 18:19+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../../source/images.rst:11
 msgid "Accounting details section of the order form"
@@ -372,8 +373,7 @@ msgstr ""
 msgid "Suggestion management tool page"
 msgstr ""
 
-#: ../../source/images.rst:278
-#: ../../source/images.rst:293
+#: ../../source/images.rst:278 ../../source/images.rst:293
 msgid "The arrow next to the Edit button gives access to a Delete and an Archive option"
 msgstr ""
 
@@ -5903,15 +5903,15 @@ msgstr ""
 
 #: ../../source/accountspreferences.rst:6
 msgid "Accounting"
-msgstr ""
+msgstr "出纳"
 
 #: ../../source/accountspreferences.rst:8
 msgid "*Get there:* More > Administration > Global system preferences > Acquisitions"
-msgstr ""
+msgstr "*在这里：* 更多 > 管理 > 全局系统参数 > 采访"
 
 #: ../../source/accountspreferences.rst:14
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: ../../source/accountspreferences.rst:19
 msgid "AutoCreditNumber"
@@ -5923,7 +5923,7 @@ msgstr ""
 
 #: ../../source/accountspreferences.rst:23
 msgid "Default: Do not automatically generate credit numbers"
-msgstr ""
+msgstr "默认值：不自动生成信贷号码"
 
 #: ../../source/accountspreferences.rst:25
 #: ../../source/accountspreferences.rst:56
@@ -5932,23 +5932,23 @@ msgstr ""
 #: ../../source/accountspreferences.rst:126
 #: ../../source/accountspreferences.rst:147
 msgid "Values:"
-msgstr ""
+msgstr "值："
 
 #: ../../source/accountspreferences.rst:27
 msgid "Do not automatically generate credit numbers"
-msgstr ""
+msgstr "不自动生成信贷号码"
 
 #: ../../source/accountspreferences.rst:29
 msgid "Automatically generate credit numbers in the form <year>-0001"
-msgstr ""
+msgstr "自动生成形如 <年>0001 的信贷号码"
 
 #: ../../source/accountspreferences.rst:31
 msgid "Automatically generate credit numbers in the form <branchcode>yyyymm0001"
-msgstr ""
+msgstr "自动生成形如 <branchcode>yyyymm0001 的信贷号码"
 
 #: ../../source/accountspreferences.rst:33
 msgid "Automatically generate credit numbers in the form 1, 2, 3"
-msgstr ""
+msgstr "自动生成形如 1，2，3 的信贷号码"
 
 #: ../../source/accountspreferences.rst:35
 #: ../../source/accountspreferences.rst:62
@@ -5957,20 +5957,20 @@ msgstr ""
 #: ../../source/accountspreferences.rst:132
 #: ../../source/accountspreferences.rst:153
 msgid "Description:"
-msgstr ""
+msgstr "解释："
 
 #: ../../source/accountspreferences.rst:37
 msgid "For auditing purposes, it might be necessary to attach a unique number to each credit (payments, writeoffs, refunds, etc.). This system preference allows you to choose the format of this unique number."
-msgstr ""
+msgstr "基于审计目的，对于每一笔账单（支付、销帐、退款等）都需要有一个唯一的账号。本设置允许您指定唯一账号的格式。"
 
 #: ../../source/accountspreferences.rst:41
 #: ../../source/accountspreferences.rst:66
 msgid "**Important**"
-msgstr ""
+msgstr "**重要**"
 
 #: ../../source/accountspreferences.rst:43
 msgid "Automatic generation also has to be enabled for each :ref:`credit type <credit-types-label>`."
-msgstr ""
+msgstr "对于每种 :ref:`账号类型 <credit-types-label>`，都默认启用了自动生成功能。"
 
 #: ../../source/accountspreferences.rst:49
 msgid "EnablePointOfSale"
@@ -6026,7 +6026,7 @@ msgstr ""
 
 #: ../../source/accountspreferences.rst:94
 msgid "Policy"
-msgstr ""
+msgstr "策略"
 
 #: ../../source/accountspreferences.rst:99
 msgid "AccountAutoReconcile"

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Patrons &mdash; Koha Manual 22.05 (development) 文档</title>
+  <title>读者 &mdash; Koha 手册 22.05（开发版本） 文档</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -22,7 +22,7 @@
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="Cash management" href="cash_management.html" />
-    <link rel="prev" title="Tools" href="tools.html" /> 
+    <link rel="prev" title="工具" href="tools.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,10 +30,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search"  style="background: #4a9b32" >
-            <a href="index.html" class="icon icon-home"> Koha Manual
+            <a href="index.html" class="icon icon-home"> Koha 手册
           </a>
               <div class="version">
-                22.05 (development)
+                22.05（开发版本）
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -44,15 +44,15 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Introduction to the Koha installation process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html#web-installer">Web installer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html#onboarding-tool">Onboarding tool</a></li>
-<li class="toctree-l1"><a class="reference internal" href="globalpreferences.html">Global system preferences</a></li>
-<li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tools.html">Tools</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Patrons</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#add-a-new-patron">Add a new patron</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Koha 安装过程介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#web-installer">网页安装器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#onboarding-tool">在线工具</a></li>
+<li class="toctree-l1"><a class="reference internal" href="globalpreferences.html">全局系统参数设置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="administration.html">管理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tools.html">工具</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">读者</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#add-a-new-patron">添加一个新读者</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#quick-add-a-patron">Quick add a patron</a></li>
 </ul>
 </li>
@@ -117,17 +117,17 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="cash_management.html">Cash management</a></li>
-<li class="toctree-l1"><a class="reference internal" href="circulation.html">Circulation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cataloging.html">Cataloging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="circulation.html">流通</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cataloging.html">编目</a></li>
 <li class="toctree-l1"><a class="reference internal" href="course_reserves.html">Course reserves</a></li>
 <li class="toctree-l1"><a class="reference internal" href="serials.html">Serials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="acquisitions.html">Acquisitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acquisitions.html">采访</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lists.html">Lists and cart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
 <li class="toctree-l1"><a class="reference internal" href="opac.html">OPAC</a></li>
 <li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugin System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="about.html">About Koha</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">关于 Koha</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ILL_requests.html">ILL requests / Interlibrary loans</a></li>
 <li class="toctree-l1"><a class="reference internal" href="implementation_checklist.html">Implementation checklist</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cron_jobs.html">Cron jobs and daemons</a></li>
@@ -147,7 +147,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #4a9b32" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Koha Manual</a>
+          <a href="index.html">Koha 手册</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -155,12 +155,12 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Patrons</li>
+      <li>读者</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/patrons.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
   </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
-        <a href="tools.html" class="btn btn-neutral float-left" title="Tools" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="tools.html" class="btn btn-neutral float-left" title="工具" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="cash_management.html" class="btn btn-neutral float-right" title="Cash management" accesskey="n">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
   </div>
   <hr/>
@@ -169,11 +169,11 @@
            <div itemprop="articleBody">
              
   <section id="patrons">
-<span id="patrons-label"></span><h1>Patrons<a class="headerlink" href="#patrons" title="永久链接至标题"></a></h1>
+<span id="patrons-label"></span><h1>读者<a class="headerlink" href="#patrons" title="永久链接至标题"></a></h1>
 <p>Before importing or adding patrons be sure to set up your
 <a class="reference internal" href="administration.html#patron-categories-label"><span class="std std-ref">patron categories</span></a>.</p>
 <section id="add-a-new-patron">
-<span id="add-a-new-patron-label"></span><h2>Add a new patron<a class="headerlink" href="#add-a-new-patron" title="永久链接至标题"></a></h2>
+<span id="add-a-new-patron-label"></span><h2>添加一个新读者<a class="headerlink" href="#add-a-new-patron" title="永久链接至标题"></a></h2>
 <p>Patrons are added by going to the ‘Patrons’ module.</p>
 <ul class="simple">
 <li><p><em>Get there:</em> Patrons</p></li>
@@ -2594,15 +2594,15 @@ will gather them in a nice file you can print out and send out via regular mail.
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="tools.html" class="btn btn-neutral float-left" title="Tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="tools.html" class="btn btn-neutral float-left" title="工具" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="cash_management.html" class="btn btn-neutral float-right" title="Cash management" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; 版权所有 2021-22, Koha Community.
-      <span class="lastupdated">最后更新于 2022-09-02 16:54:31.
+    <p>&#169; 版权所有 2021-22, Koha 社区.
+      <span class="lastupdated">最后更新于 2022-10-13 08:03:17.
       </span></p>
   </div>
 

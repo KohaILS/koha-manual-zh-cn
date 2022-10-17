@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Administration &mdash; Koha Manual 22.05 (development) 文档</title>
+  <title>管理 &mdash; Koha 手册 22.05（开发版本） 文档</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -30,10 +30,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search"  style="background: #4a9b32" >
-            <a href="index.html" class="icon icon-home"> Koha Manual
+            <a href="index.html" class="icon icon-home"> Koha 手册
           </a>
               <div class="version">
-                22.05 (development)
+                22.05（开发版本）
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -44,20 +44,20 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Introduction to the Koha installation process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html#web-installer">Web installer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html#onboarding-tool">Onboarding tool</a></li>
-<li class="toctree-l1"><a class="reference internal" href="globalpreferences.html">Global system preferences</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Administration</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#basic-parameters">Basic parameters</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#libraries">Libraries</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#adding-a-library">Adding a library</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#editing-deleting-a-library">Editing/deleting a library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Koha 安装过程介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#web-installer">网页安装器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#onboarding-tool">在线工具</a></li>
+<li class="toctree-l1"><a class="reference internal" href="globalpreferences.html">全局系统参数设置</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">管理</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#basic-parameters">基本参数</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#libraries">图书馆群</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#adding-a-library">添加一个图书馆</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#editing-deleting-a-library">编辑/删除一个图书馆</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#library-groups">Library groups</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#adding-a-group">Adding a group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#library-groups">图书馆群组</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#adding-a-group">添加一个群组</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#adding-a-library-to-a-group">Adding a library to a group</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#adding-a-sub-group">Adding a sub-group</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#deleting-a-group">Deleting a group</a></li>
@@ -252,7 +252,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #4a9b32" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Koha Manual</a>
+          <a href="index.html">Koha 手册</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -260,7 +260,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Administration</li>
+      <li>管理</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/administration.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
@@ -274,156 +274,126 @@
            <div itemprop="articleBody">
              
   <section id="administration">
-<span id="administration-label"></span><h1>Administration<a class="headerlink" href="#administration" title="永久链接至标题"></a></h1>
+<span id="administration-label"></span><h1>管理<a class="headerlink" href="#administration" title="永久链接至标题"></a></h1>
 <section id="basic-parameters">
-<span id="basic-parameters-label"></span><h2>Basic parameters<a class="headerlink" href="#basic-parameters" title="永久链接至标题"></a></h2>
-<p><em>Get there:</em> More &gt; Administration</p>
+<span id="basic-parameters-label"></span><h2>基本参数<a class="headerlink" href="#basic-parameters" title="永久链接至标题"></a></h2>
+<p><em>在这里：</em> 更多 &gt; 管理</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
-<p>Configure all ‘parameters’ in the order they appear.</p>
+<div><p><strong>重要</strong></p>
+<p>依出现顺序配置所有 ‘参数’。</p>
 </div></blockquote>
 <section id="libraries">
-<span id="libraries-label"></span><h3>Libraries<a class="headerlink" href="#libraries" title="永久链接至标题"></a></h3>
-<p>When setting up your Koha system you will want to add information for
-every library that will be sharing your system. This data is used in
-several areas of Koha.</p>
+<span id="libraries-label"></span><h3>图书馆群<a class="headerlink" href="#libraries" title="永久链接至标题"></a></h3>
+<p>当 Koha 系统构建成功后，您需要为系统共享的图书馆添加一些信息。此数据会在 Koha 的其他几个地方用到。</p>
 <ul class="simple">
-<li><p><em>Get there:</em> More &gt; Administration &gt; Basic Parameters &gt; Libraries</p></li>
+<li><p><em>在这里：</em> 更多 &gt; 管理 &gt; 基本参数 &gt; 图书馆群</p></li>
 </ul>
-<p>When visiting this page you are presented with a list of the libraries that have already been added to the system.</p>
+<p>访问该页面时会显示系统已经添加的图书馆列表。</p>
 <p><img alt="image122" src="_images/librarylist.png" /></p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <ul class="simple">
-<li><p>You can customize the columns of this table in the
-<a class="reference internal" href="#column-settings-label"><span class="std std-ref">‘Table settings’</span></a> section of the
-Administration module (table id: libraries).</p></li>
+<li><p>您可以在管理模块的 <a class="reference internal" href="#column-settings-label"><span class="std std-ref">‘表格设置’</span></a> 中定制栏位（表格 Id: libraries）。</p></li>
 </ul>
 </div></blockquote>
 <section id="adding-a-library">
-<span id="adding-a-library-label"></span><h4>Adding a library<a class="headerlink" href="#adding-a-library" title="永久链接至标题"></a></h4>
-<p>To add a new library:</p>
+<span id="adding-a-library-label"></span><h4>添加一个图书馆<a class="headerlink" href="#adding-a-library" title="永久链接至标题"></a></h4>
+<p>添加一个新图书馆：</p>
 <ul>
-<li><p>Click ‘New library’</p></li>
-<li><p>The top of the form asks for some basics about the library</p>
+<li><p>点击 ‘新图书馆’</p></li>
+<li><p>表单会问一些关于图书馆的基本信息</p>
 <p><img alt="image124" src="_images/newlibrary.png" /></p>
 <ul class="simple">
-<li><p>The library code should not contain any spaces and be 10 or fewer
-characters. This code will be used as a unique identifier in the
-database.</p></li>
-<li><p>The name will be displayed on the OPAC wherever the library name
-displays to the public and should be a name that makes sense to
-your patrons.</p></li>
+<li><p>图书馆代码不能包含空格且不能多于10个字符。此代码会被数据用于图书馆的唯一标识符。</p></li>
+<li><p>图书馆名会在 OPAC 显示，所以该名字应当为读者所熟知。</p></li>
 </ul>
 </li>
-<li><p>Next you can enter basic contact info about the branch</p>
+<li><p>接下来您可以输入该图书馆的一些基本联系信息</p>
 <p><img alt="image125" src="_images/librarycontact.png" /></p>
 <ul>
-<li><p>The address and contact fields can be used to make notices custom
-for each library</p></li>
-<li><p>The email address field is not required, but it should be filled
-for every library in your system</p>
+<li><p>地址和联系信息字段用于定制每个图书馆的通知等</p></li>
+<li><p>电子邮件地址为非必填项，但是每个图书馆应该填写</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
-<div><p>Be sure to enter a library email address to make sure that
-notices are sent to and from the right address</p>
+<div><p>图书馆的邮件地址虽然不是必填项，但是对于有发送和接受邮件需求时也是非常必要的</p>
 </div></blockquote>
 </li>
 </ul>
 </li>
-<li><p>If you’d like you can enter a different ‘Reply-To’ email address.
-This is the email address that all replies will go to.</p>
+<li><p>您也可以填写一个不同的用于 ‘恢复’ 的电子邮件地址。此地址用于收取所有回复的电子邮件。</p>
 <ul>
-<li><p><strong>Note</strong></p>
+<li><p><strong>注释</strong></p>
 <blockquote>
-<div><p>If you do not fill in this value Koha will use the address
-in the <a class="reference internal" href="administrationpreferences.html#replytodefault"><span class="std std-ref">ReplytoDefault</span></a> preference</p>
+<div><p>如果没有填写此值，Koha 将使用地址中的  <a class="reference internal" href="administrationpreferences.html#replytodefault"><span class="std std-ref">ReplytoDefault</span></a> 参数值</p>
 </div></blockquote>
 </li>
 </ul>
 </li>
-<li><p>If you’d like you can also enter a different ‘Return-Path’ email
-address. This is the email address that all bounced messages will
-go to.</p>
+<li><p>如果您不想使用该设置，也可以使用不同的 ‘Return-Path’ 电子邮件地址。该邮件地址会收集所有弹出消息。</p>
 <ul>
-<li><p><strong>Note</strong></p>
+<li><p><strong>注释</strong></p>
 <blockquote>
-<div><p>If you do not fill in this value Koha will use the address
-in the <a class="reference internal" href="administrationpreferences.html#returnpathdefault"><span class="std std-ref">ReturnpathDefault</span></a>
-preference</p>
+<div><p>如果您没有填写该值，Koha 将使用参数 <a class="reference internal" href="administrationpreferences.html#returnpathdefault"><span class="std std-ref">ReturnpathDefault</span></a> 的地址</p>
 </div></blockquote>
 </li>
 </ul>
 </li>
-<li><p>If the URL field is populated then the library name will be linked
-in the holdings table on the OPAC</p>
+<li><p>如果填写 URL 字段，则 OPAC 的馆藏字段会链接到该图书馆</p>
 <p><img alt="image126" src="_images/librarylink.png" /></p>
 </li>
-<li><p>The OPAC info box is for you to put information about the library
-that will appear in the OPAC when the library name is moused over
-in the holdings table</p>
+<li><p>OPAC 信息框用于在 OPAC 查询时当鼠标悬停于馆藏项时显示图书馆相关信息</p>
 <p><img alt="image127" src="_images/opacinfo.png" /></p>
 </li>
-<li><p>IP does not have be filled in unless you plan on limiting
-access to your staff client to a specific IP Address</p>
+<li><p>IP 非必填项，除非想要限制图书馆员访问特定 IP 地址</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
-<div><p>An IP address is required if you have enabled
-<a class="reference internal" href="administrationpreferences.html#autolocation"><span class="std std-ref">AutoLocation</span></a></p>
+<div><p>如果您已启用 <a class="reference internal" href="administrationpreferences.html#autolocation"><span class="std std-ref">AutoLocation</span></a>，则需要填写 IP 地址</p>
 </div></blockquote>
 </li>
 </ul>
 </li>
-<li><p>If this library has a specific <a class="reference external" href="http://www.loc.gov/marc/organizations/orgshome.html">MARC organization code</a>, you can enter it   here. If left blank, the code entered in the <a class="reference internal" href="catalogingpreferences.html#marcorgcode"><span class="std std-ref">MARCOrgCode</span></a> preference will be used for this library.</p></li>
-<li><p>If you have any notes you can put them here. These will
-not show in the OPAC</p></li>
-<li><p>Finally, you can choose whether the library will display as an available pickup location for holds</p></li>
+<li><p>如果该图书馆有特定的 <a class="reference external" href="http://www.loc.gov/marc/organizations/orgshome.html">MARC 机构代码</a>，您可以填写。如果留空，则该代码使用预置的 <a class="reference internal" href="catalogingpreferences.html#marcorgcode"><span class="std std-ref">MARCOrgCode</span></a>。</p></li>
+<li><p>任何备注您都可以在这里填写。该信息不会在 OPAC 显示</p></li>
+<li><p>最后，您可以选择是否显示馆藏的领取地点</p></li>
 </ul>
 <blockquote>
-<div><p><strong>Note</strong></p>
-<p>Of the fields listed, only ‘Library code’ and ‘Name’ are required</p>
+<div><p><strong>注释</strong></p>
+<p>以上所列字段，只有’图书馆代码’和’图书馆名’为必填项</p>
 </div></blockquote>
 </li>
 </ul>
 </section>
 <section id="editing-deleting-a-library">
-<span id="editing-deleting-a-library-label"></span><h4>Editing/deleting a library<a class="headerlink" href="#editing-deleting-a-library" title="永久链接至标题"></a></h4>
-<p>You will be unable to delete any library that has patrons or items
-attached to it.</p>
+<span id="editing-deleting-a-library-label"></span><h4>编辑/删除一个图书馆<a class="headerlink" href="#editing-deleting-a-library" title="永久链接至标题"></a></h4>
+<p>您不能删除拥有读者和馆藏的任何图书馆。</p>
 <p><img alt="image128" src="_images/cannotdeletelibrary.png" /></p>
-<p>Each library will have an ‘Edit’ link to the right of it. Click this
-link to edit/alter details associated with the library in question.</p>
+<p>每个图书馆的右侧都有一个“编辑”链接。点击链接编辑/修改有问题的图书馆细节。</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
-<p>You will be unable to edit the ‘Library code’</p>
+<div><p><strong>重要</strong></p>
+<p>您不能编辑“图书馆代码”</p>
 </div></blockquote>
 </section>
 </section>
 <section id="library-groups">
-<span id="library-groups-label"></span><h3>Library groups<a class="headerlink" href="#library-groups" title="永久链接至标题"></a></h3>
-<p>Library groups can serve four purposes: to limit access to patron data,
-to limit OPAC searches, to limit staff searches, and/or to define holds
-behavior.</p>
+<span id="library-groups-label"></span><h3>图书馆群组<a class="headerlink" href="#library-groups" title="永久链接至标题"></a></h3>
+<p>图书馆群组有四个宗旨：限制访问读者数据、限制 OPAC 检索、限制馆员检索和/或定义馆藏行为。</p>
 <ul class="simple">
-<li><p><em>Get there:</em> More &gt; Administration &gt; Basic Parameters &gt; Library groups</p></li>
+<li><p><em>在这里：</em> 更多 &gt; 管理 &gt; 基本参数 &gt;图书馆群组</p></li>
 </ul>
-<p>When visiting this page you are presented with a list of the groups
-that have already been added to the system.</p>
+<p>当访问此页面时您会看到已经加入系统群组的图书馆列表。</p>
 <p><img alt="image123" src="_images/grouplists.png" /></p>
 <section id="adding-a-group">
-<span id="adding-a-group-label"></span><h4>Adding a group<a class="headerlink" href="#adding-a-group" title="永久链接至标题"></a></h4>
-<p>Click the ‘Add Group’ button at the top of the screen</p>
+<span id="adding-a-group-label"></span><h4>添加一个群组<a class="headerlink" href="#adding-a-group" title="永久链接至标题"></a></h4>
+<p>点击屏幕顶部的’添加群组’按钮</p>
 <p><img alt="image129" src="_images/addlibgroup.png" /></p>
 <ul>
-<li><p>Give the group a title and a description. Only the title is mandatory
-as it will show up in the staff client and in the OPAC. The description
-is only used in this page to give an idea of what the group is used for.</p></li>
+<li><p>给群组设定一个标题和简介。标题为必填项，标题会在馆员端和 OPAC 中显示。描述仅用于此页显示相关群组信息等。</p></li>
 <li><p>You can limit staff from seeing other groups’ patrons by checking the
 box next to the ‘Limit patron data access by group’ option.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>This can be overridden with the <a class="reference internal" href="patrons.html#patron-permissions-defined-label"><span class="std std-ref">user permission view_borrower_infos_
 from_any_libraries</span></a>.</p>
 </div></blockquote>
@@ -509,7 +479,7 @@ codes.</p>
 but can be used in any way that works for your library.</p>
 <p><img alt="Item types table" src="_images/itemtypes.png" /></p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <ul class="simple">
 <li><p>You can customize the columns of this table in the
 <a class="reference internal" href="#column-settings-label"><span class="std std-ref">‘Table settings’</span></a> section of the
@@ -551,7 +521,7 @@ the ITEMTYPECAT <a class="reference internal" href="#existing-values-label"><spa
 <li><p>You can choose from a series of image collections</p></li>
 <li><p>You can link to a remote image</p></li>
 <li><p>Or you can just have no image associated with the item type</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>If this option is not enabled, you can change the setting of the
 <a class="reference internal" href="administrationpreferences.html#noitemtypeimages"><span class="std std-ref">noItemTypeImages</span></a> or <a class="reference internal" href="opacpreferences.html#opacnoitemtypeimages"><span class="std std-ref">OpacNoItemTypeImages</span></a>.</p>
 <p>To have your item type images appear in the OPAC you need to
@@ -616,7 +586,7 @@ the the rental fee calculation.</p></li>
 </ul>
 </li>
 <li><p>Each amount will charge the patron on checkout.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>Do not enter symbols in this field, only numbers and decimal
 points (ex. $5.00 should be entered as 5 or 5.00)</p>
 </li>
@@ -628,13 +598,13 @@ amount that will be charged to the patron when lost if the item doesn’t have
 a replacement cost. If the item has a replacement cost, that is the amount
 that will be charged to the patron.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>Do not enter symbols in this field, only numbers and decimal
 points (ex. $5.00 should be entered as 5 or 5.00)</p>
 </div></blockquote>
 </li>
 <li><p>You can also add a processing fee that will be added to the replacement cost.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>Do not enter symbols in this field, only numbers and decimal
 points (ex. $5.00 should be entered as 5 or 5.00)</p>
 </li>
@@ -658,16 +628,16 @@ type.</p></li>
 <li><p>If this item type is only to be used in certain libraries, you can select
 them here. Select ‘All libraries’ if this item type is used across the library
 system.</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>If this is left blank, ‘All libraries’ is assumed.</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>To select more than one library, hold the ‘Ctrl’ key while selecting the
 libraries.</p>
 </li>
 </ul>
 <ul>
 <li><p>When finished, click ‘Save changes’</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>All fields, with the exception of the ‘Item type’ will be
 editable from the item types list</p>
 </li>
@@ -681,7 +651,7 @@ editable from the item types list</p>
 <p>Each item type has an Edit button beside it. To edit an item simply
 click the ‘Edit’ button.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>You will not be able to edit the code you assigned as the ‘Item
 type’ but you will be able to edit the description for the item.</p>
 </div></blockquote>
@@ -691,7 +661,7 @@ type’ but you will be able to edit the description for the item.</p>
 <p>Each item has a Delete button beside it. To delete an item type, simply click
 the ‘Delete’ button.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>You will not be able to delete item types that are being used by
 items within your system.</p>
 </div></blockquote>
@@ -1218,7 +1188,7 @@ that is entered into the system. To add a new category:</p>
 <li><p>Limit your Category to 10 characters (something short to make it
 clear what the category is for)</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>Category cannot have spaces or special characters other than
 underscores and hyphens in it.</p>
@@ -1232,7 +1202,7 @@ authorized value</p>
 <li><p>Enter a code for your Authorized value into the ‘Authorized value’
 field</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>Authorized value is limited to 80 characters and cannot
 have spaces or special characters other than underscores
@@ -1273,7 +1243,7 @@ add a value:</p>
 <li><p>Enter a code for your authorized value into the ‘Authorized value’
 field</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>Authorized value is limited to 80 characters and cannot have
 spaces or special characters other than underscores and
@@ -1602,7 +1572,7 @@ item can be checked out. If the item’s home library does not match
 the logged in library, the item cannot be checked out unless you are
 a <a class="reference internal" href="patrons.html#patron-permissions-defined-label"><span class="std std-ref">superlibrarian</span></a>.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>At the very least you will need to set a default circulation rule.
 This rule should be set for all item types, all libraries and all
 patron categories. That will catch all instances that do not match a
@@ -1654,7 +1624,7 @@ allowed’ field.</p></li>
 may also want to set a limit on the number of items of this type patrons of
 this category can have on-site.</p>
 <ul>
-<li><p><strong>Note</strong></p>
+<li><p><strong>注释</strong></p>
 <blockquote>
 <div><p>This setting also depends on the
 <a class="reference internal" href="circulationpreferences.html#consideronsitecheckoutsasnormalcheckouts"><span class="std std-ref">ConsiderOnSiteCheckoutsAsNormalCheckouts</span></a>
@@ -1700,7 +1670,7 @@ be used instead.</p></li>
 </li>
 <li><p>‘Fine amount’ should have the amount you would like to charge for
 overdue items.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>Enter only numbers and decimal points (no currency symbols).</p>
 </li>
 <li><p>Enter the ‘Fine charging interval’ in the unit you set (ex. charge
@@ -1722,12 +1692,12 @@ second fine 7 days after the due date.</p></li>
 before you start charging fines. The <a class="reference internal" href="circulationpreferences.html#finesincludegraceperiod"><span class="std std-ref">FinesIncludeGracePeriod</span></a>
 system preference controls if the grace period will be included when
 calculating the fine or not.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>This can only be set for the ‘Day’ unit, not in ‘Hours’</p>
 </li>
 <li><p>The ‘Overdue fines cap’ is the maximum fine per item for this patron
 and item type combination.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>If this field is left blank then Koha will not put a limit on the fines
 this item will accrue. A maximum fine amount for all overdues can be
 set using the <a class="reference internal" href="patronspreferences.html#maxfine"><span class="std std-ref">MaxFine</span></a> system preference.</p>
@@ -1736,7 +1706,7 @@ set using the <a class="reference internal" href="patronspreferences.html#maxfin
 you can check the box under ‘Cap fine at replacement price.’ This
 will prevent the patron’s fines from going above the replacement
 price on the item.</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>If the ‘Overdue fines cap’ is also set, the fine will be the
 lesser of the two, if both apply to the given overdue
 checkout.</p>
@@ -1744,7 +1714,7 @@ checkout.</p>
 <li><p>If your library ‘fines’ patrons by suspending their account you can
 enter the number of days their fine should be suspended in the
 ‘Suspension in days’ field.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>This can only be set for the ‘Day’ unit, not in ‘Hours’</p>
 </li>
 <li><p>You can also define the maximum number of days a patron will be
@@ -1775,11 +1745,11 @@ number in units (days/hours) entered in this box.</p></li>
 <li><p>You can enable automatic renewals for certain items/patrons if you’d
 like. This will renew automatically following your circulation rules
 unless there is a hold on the item.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>You will need to enable the
 <a class="reference internal" href="cron_jobs.html#cron-automatic-renewal-label"><span class="std std-ref">automatic renewal cron job</span></a> for this to
 work.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>This feature needs to have the “no renewal before” column
 filled in or it will auto renew every day after the due date.</p>
 </li>
@@ -1852,7 +1822,7 @@ requests on records of this type, but not on specific items</p></li>
 <li><p>Item only: patrons of this category will be able to place article
 requests on items of this type, but not on entire records</p></li>
 </ul>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>If you want to use the article request functionality you need to enable it
 using the <a class="reference internal" href="circulationpreferences.html#articlerequests"><span class="std std-ref">ArticleRequests</span></a> system preference and configure the form
 using the other related preferences.</p>
@@ -1869,7 +1839,7 @@ will appear filled in at the bottom of the table. Edit the values at the bottom
 and click save.</p>
 <p><img alt="Circulation rules table where the rule being edited is highlighted and it is repeated at the bottom for editing" src="_images/editcircfine.png" /></p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>If, while editing a rule, you change either the patron category or the item
 type, it will create a new rule. You can do this to duplicate rules instead of
 creating new ones if the values are similar.</p>
@@ -1948,7 +1918,7 @@ on-site checkouts and holds that a patron of a given category can have,
 regardless of the item type.</p>
 <p><img alt="image162" src="_images/checkoutsperpatron.png" /></p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>If the total amount of checkouts, on-site checkout and holds
 for a given patron category is left blank, no limit applies,
 except possibly for a limit you define in the circulation rules above.</p>
@@ -2030,11 +2000,11 @@ home library hold groups may put this book on hold.</p></li>
 this book on hold.</p></li>
 <li><p>No holds allowed: No patron may put this book on hold.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>Note that if the system preference
 <a class="reference internal" href="circulationpreferences.html#allowholdpolicyoverride"><span class="std std-ref">AllowHoldPolicyOverride</span></a> set to
 ‘allow’, these policies can be overridden by your circulation staff.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>These policies are applied based on the ReservesControlBranch
 system preference.</p>
 </div></blockquote>
@@ -2054,7 +2024,7 @@ menu</p>
 <li><p>Item returns home: The item will prompt the librarian to transfer the
 item to its home library</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>If the <a class="reference internal" href="circulationpreferences.html#automaticitemreturn"><span class="std std-ref">AutomaticItemReturn</span></a>
 preference is set to automatically transfer the items home,
@@ -2066,7 +2036,7 @@ then a prompt will not appear</p>
 <li><p>Item returns to issuing branch: The item will prompt the librarian to
 transfer the item back to the library where it was checked out</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>If the <a class="reference internal" href="circulationpreferences.html#automaticitemreturn"><span class="std std-ref">AutomaticItemReturn</span></a>
 preference is set to automatically transfer the items home,
@@ -2110,13 +2080,13 @@ type’ button at the top of the page</p>
 <li><p>In the ‘Patron attribute type code’, enter a short code to identify
 this field</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>This field is limited to 10 characters (numbers and letters
 only)</p>
 </div></blockquote>
 </li>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>This setting cannot be changed after an attribute is defined</p>
 </div></blockquote>
@@ -2128,7 +2098,7 @@ of what this field will contain</p></li>
 <li><p>Check the box next to ‘Repeatable’ to let a patron record have
 multiple values of this attribute.</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>This setting cannot be changed after an attribute is defined</p>
 </div></blockquote>
@@ -2141,7 +2111,7 @@ same value cannot be given to a different record.</p>
 <ul>
 <li><p>Unique attributes can be used as match points on the <a class="reference internal" href="tools.html#patron-import-label"><span class="std std-ref">patron
 import tool</span></a></p></li>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>This setting cannot be changed after an attribute is defined</p>
 </div></blockquote>
@@ -2170,7 +2140,7 @@ appear in this menu</p>
 <a class="reference internal" href="#authorized-values-label"><span class="std std-ref">Authorized values</span></a></p></li>
 </ul>
 </li>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>an authorized value list is not enforced during batch patron
 import.</p>
@@ -2182,7 +2152,7 @@ import.</p>
 you can choose those branches from the ‘Branches limitation’ list.
 Choose ‘All branches’ to show it for all libraries.</p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>Note that items with locations already set on them will not be
 altered. The branch limitation only limits the choosing of an
@@ -2258,7 +2228,7 @@ matrix you must first set the
 <a class="reference internal" href="circulationpreferences.html#usetransportcostmatrix"><span class="std std-ref">UseTransportCostMatrix</span></a> preference to
 ‘Use’.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>The transport cost matrix takes precedence in controlling where
 holds are filled from, if the matrix is not used then Koha checks
 the <a class="reference internal" href="circulationpreferences.html#holds-queue-system-preferences-label"><span class="std std-ref">StaticHoldsQueueWeight</span></a>.</p>
@@ -2275,7 +2245,7 @@ alter, uncheck the ‘Disable’ box and enter your ‘cost’</p>
 <p>After entering in your cost, hit ‘Enter’ on your keyboard or click the
 ‘Save’ button at the bottom of the matrix to save your changes.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>A NULL value will make no difference where the From and To libraries
 are the same library. However, as a best practice, you should put a
 0 in there. For all other To/From combinations, a NULL value will
@@ -2295,7 +2265,7 @@ circulation alerts</p></li>
 </ul>
 <p>These preferences are set based on patron types and item types.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>These preference can be overridden by changes in the individual
 patron’s messaging preferences.</p>
 </div></blockquote>
@@ -2436,10 +2406,10 @@ system preference.</p></li>
 <ul>
 <li><p>Enter a code (limited to 64 letters)</p></li>
 <li><p>Enter the default amount</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>Staff will be able to change this amount when adding the charge
 to the patron’s account, if necessary</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>Do not enter currency symbols. Only write the amount with a decimal
 point (for example, 5 or 5.00 instead of $5)</p>
 </li>
@@ -2453,7 +2423,7 @@ account via the <a class="reference internal" href="patrons.html#creating-manual
 check the ‘Can be added manually?’ check box</p></li>
 <li><p>If this debit type is only to be used in specific branches, you can
 select the libraries in ‘Libraries limitation’</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>You can select more than one library by pressing the ‘Ctrl’ key
 while selecting.</p>
 </li>
@@ -2477,7 +2447,7 @@ while selecting.</p>
 <span id="archive-debit-type-label"></span><h4>Archiving a debit type<a class="headerlink" href="#archiving-a-debit-type" title="永久链接至标题"></a></h4>
 <p>If there is a debit type you don’t need anymore, you can archive it.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>There is no way to delete a debit type since they are used in the
 patron’s accounting section.</p>
 </div></blockquote>
@@ -2554,7 +2524,7 @@ check the ‘Can be added manually?’ check box</p></li>
 <a class="reference internal" href="accountspreferences.html#autocreditnumber"><span class="std std-ref">AutoCreditNumber</span></a> system preference.</p></li>
 <li><p>If this credit type is only to be used in specific branches, you can
 select the libraries in ‘Libraries limitation’</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>You can select more than one library by pressing the ‘Ctrl’ key
 while selecting.</p>
 </li>
@@ -2577,7 +2547,7 @@ while selecting.</p>
 <span id="archive-credit-type-label"></span><h4>Archiving a credit type<a class="headerlink" href="#archiving-a-credit-type" title="永久链接至标题"></a></h4>
 <p>If there is a credit type you don’t need anymore, you can archive it.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>There is no way to delete a credit type since they are used in the
 patron’s accounting section.</p>
 </div></blockquote>
@@ -2641,7 +2611,7 @@ frameworks</p></li>
 </ul>
 <p><img alt="image181" src="_images/frameworks.png" /></p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>Do not delete or edit the Default framework since this will cause
 problems with your cataloging records - always create a new template
 based on the Default framework, or alter the other frameworks.</p>
@@ -2702,7 +2672,7 @@ nonetheless</p></li>
 <li><p>If you add default values for indicators here these will be pre-filled to
 save time when cataloging but can still be edited if required</p></li>
 <li><p>‘Authorized value’ is where you define an <a class="reference internal" href="#authorized-values-label"><span class="std std-ref">authorized value</span></a> pull down list for your catalogers</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>The authorized value option at field level does not work.</p>
 </li>
 </ul>
@@ -2737,10 +2707,10 @@ If you try to save a record where an important field is empty, you will
 get a warning, but the record will still be saved.</p></li>
 <li><p>Managed in tab: defines the tab where the subfield is shown.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>All subfields of a given field must be in the same tab or ignored.
 Ignore means that the subfield is not managed.</p>
-<p><strong>Important</strong></p>
+<p><strong>重要</strong></p>
 <p>When <a class="reference internal" href="tools.html#stage-marc-records-for-import-label"><span class="std std-ref">importing records</span></a>,
 subfields that are managed in tab ‘ignore’ will be deleted. If you
 still wish to keep the subfields, but hide them, use the ‘Visibility’
@@ -2754,7 +2724,7 @@ options below.</p>
 <li><p>Default value: defines what you want to appear in the field by default,
 this will be editable, but it saves time if you use the same text over
 and over or the same value in a field often.</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>There are several values that you can use here that will be replaced
 automatically when a new record is created:</p>
 <ul class="simple">
@@ -2771,7 +2741,7 @@ automatically when a new record is created:</p>
 visible/hidden, simply check the boxes where you would like the
 field to show and uncheck the boxes where you would like it
 hidden.</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>The Editor checkbox controls whether this subfield will display within
 cataloging editor for this framework. If you check Collapsed the
 subfield will be hidden in the editor but will be displayed if
@@ -2880,7 +2850,7 @@ be a warning, but the user will still be able to save the record</p></li>
 value’ and ‘Second indicator default value’ field</p></li>
 <li><p>If you want this field to be a pull down with limited possible
 answers, choose which ‘Authorized value’ list you want to use</p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>The authorized value option at field level does not work.</p>
 </li>
 </ul>
@@ -2952,7 +2922,7 @@ appropriate field.</p>
 <p>Write in the MARC field and subfield you would like to map, separated
 by a comma, to this Koha field and click the ‘OK’ button.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>It is possible to link more than one MARC field to a database field.
 For example, you could link both 260$a and 264$a to the biblioitems.place
 field.</p>
@@ -2960,7 +2930,7 @@ field.</p>
 <p>If you would like to clear the mapping for a database field, click
 the ‘Remove’ button.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>All changes are immediate.</p>
 </div></blockquote>
 </section>
@@ -3346,7 +3316,7 @@ to them to confirm true matches.</p></li>
 <li><p>Match threshold: 100</p></li>
 <li><p>Record type: Bibliographic</p>
 <ul>
-<li><p><strong>Note</strong></p>
+<li><p><strong>注释</strong></p>
 <blockquote>
 <div><p>If you’d like a rule to match on the 001 in authority records
 you will need the repeat all of these values and change just
@@ -3360,7 +3330,7 @@ the record type to ‘Authority record’</p>
 <li><p>Score: 100</p></li>
 <li><p>Tag: 001</p>
 <ul>
-<li><p><strong>Note</strong></p>
+<li><p><strong>注释</strong></p>
 <blockquote>
 <div><p>this field is for the control number assigned by the
 organization creating, using, or distributing the record</p>
@@ -3797,7 +3767,7 @@ your conditions.</p></li>
 <p>To delete a condition, just leave at least one of ‘Field’, ‘Subfield’ or
 ‘Value’ empty and click on ‘Save’.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>Actually, a condition is true if value in the corresponding subfield
 is strictly equal to what is defined if ‘Value’. A record having
 999$9 = ‘XXX YYY’ will not belong to a set where condition is 999$9
@@ -3865,11 +3835,11 @@ exchange rates</p></li>
 </ul>
 <p><img alt="image212" src="_images/currencies.png" /></p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>This data is not automatically updated, so be sure to keep it up to
 date so that your accounting is kept correct.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <ul class="simple">
 <li><p>You can customize the columns of this table in the
 <a class="reference internal" href="#column-settings-label"><span class="std std-ref">‘Table settings’</span></a> section of the
@@ -3962,7 +3932,7 @@ unreceived orders to roll to.</p>
 the Inactive budgets tab and select ‘Close’ under ‘Actions’.</p>
 <blockquote>
 <div><p><img alt="image1209" src="_images/closebudget.png" /></p>
-<p><strong>Note</strong></p>
+<p><strong>注释</strong></p>
 <p>In order for the unreceived orders to be automatically moved to the
 new budget, the fund structures in the previous budget must exist in
 the new budget. Budgets without unreceived orders cannot be closed.</p>
@@ -4005,7 +3975,7 @@ moved.</p>
 <span id="add-a-fund-label"></span><h4>Add a Fund<a class="headerlink" href="#add-a-fund" title="永久链接至标题"></a></h4>
 <p>A fund is added to a budget.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>A <a class="reference internal" href="#adding-budgets-label"><span class="std std-ref">budget</span></a> must be defined before a fund can be
 created.</p>
 </div></blockquote>
@@ -4031,7 +4001,7 @@ it so that only that librarian can make changes to the fund</p></li>
 ‘Restrict access to’ menu</p>
 <p><img alt="image223" src="_images/restrictfund.png" /></p>
 <ul>
-<li><p><strong>Important</strong></p>
+<li><p><strong>重要</strong></p>
 <blockquote>
 <div><p>Without an owner, the access restriction will be ignored, be
 sure to enter an owner as well as choose a restriction</p>
@@ -4106,7 +4076,7 @@ in the ‘Output to a file named’ field and clicking the ‘Output’ button.<
 <p>From here you can set up the information needed to connect to your
 acquisitions vendors.</p>
 <blockquote>
-<div><p><strong>Note</strong></p>
+<div><p><strong>注释</strong></p>
 <p>Before you begin you will need at least one <a class="reference internal" href="acquisitions.html#add-a-vendor-label"><span class="std std-ref">Vendor set up in
 Acquisitions</span></a>.</p>
 </div></blockquote>
@@ -4354,7 +4324,7 @@ mean?</p>
 <p>Koha can offer ‘Did you mean?’ options on searches based on values in
 your <a class="reference internal" href="cataloging.html#authorities-label"><span class="std std-ref">authorities</span></a>.</p>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>Did you mean? only works in the OPAC at this time. The intranet
 options are here for future development.</p>
 </div></blockquote>
@@ -4437,7 +4407,7 @@ page. It will not affect any other user.</p>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td><p>Administration</p></td>
+<tr class="row-odd"><td><p>管理</p></td>
 <td><ul class="simple">
 <li><p><a class="reference internal" href="#patron-categories-label"><span class="std std-ref">Patron categories</span></a> (patron_categories)</p></li>
 <li><p><a class="reference internal" href="#currencies-and-exchange-rates-label"><span class="std std-ref">Currencies</span></a> (currency)</p></li>
@@ -4590,7 +4560,7 @@ a trigger as: #name_of_selector</p>
 <section id="sms-cellular-providers">
 <span id="sms-cellular-providers-label"></span><h3>SMS cellular providers<a class="headerlink" href="#sms-cellular-providers" title="永久链接至标题"></a></h3>
 <blockquote>
-<div><p><strong>Important</strong></p>
+<div><p><strong>重要</strong></p>
 <p>This option will only appear if the
 <a class="reference internal" href="patronspreferences.html#smssenddriver-label"><span class="std std-ref">SMSSendDriver</span></a> preference is set to ‘Email’</p>
 </div></blockquote>
@@ -4826,8 +4796,8 @@ bibliographic record will appear under ‘Additional fields’.</p>
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; 版权所有 2021-22, Koha Community.
-      <span class="lastupdated">最后更新于 2022-09-02 16:54:31.
+    <p>&#169; 版权所有 2021-22, Koha 社区.
+      <span class="lastupdated">最后更新于 2022-10-10 09:23:10.
       </span></p>
   </div>
 

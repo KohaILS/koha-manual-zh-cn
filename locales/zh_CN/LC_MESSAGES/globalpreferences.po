@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the Koha Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha Manual 22.05 (development)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-02 09:11+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-10-14 16:59+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../../source/images.rst:11
 msgid "Accounting details section of the order form"
@@ -372,8 +373,7 @@ msgstr ""
 msgid "Suggestion management tool page"
 msgstr ""
 
-#: ../../source/images.rst:278
-#: ../../source/images.rst:293
+#: ../../source/images.rst:278 ../../source/images.rst:293
 msgid "The arrow next to the Edit button gives access to a Delete and an Archive option"
 msgstr ""
 
@@ -1138,26 +1138,21 @@ msgid "New quote and import quotes buttons"
 msgstr ""
 
 #: ../../source/images.rst:913
-#: ../../source/images.rst:913
 msgid "image0"
 msgstr ""
 
-#: ../../source/images.rst:914
 #: ../../source/images.rst:914
 msgid "image1"
 msgstr ""
 
 #: ../../source/images.rst:915
-#: ../../source/images.rst:915
 msgid "image2"
 msgstr ""
 
 #: ../../source/images.rst:916
-#: ../../source/images.rst:916
 msgid "image3"
 msgstr ""
 
-#: ../../source/images.rst:917
 #: ../../source/images.rst:917
 msgid "image4"
 msgstr ""
@@ -5908,15 +5903,15 @@ msgstr ""
 
 #: ../../source/globalpreferences.rst:6
 msgid "Global system preferences"
-msgstr ""
+msgstr "全局系统参数"
 
 #: ../../source/globalpreferences.rst:8
 msgid "Global system preferences control the way your Koha system works in general. Set these preferences before anything else in Koha."
-msgstr ""
+msgstr "全局系统参数控制您的 Koha 系统工作的方式。在 Koha 工作之前需要设置这些系统参数。"
 
 #: ../../source/globalpreferences.rst:11
 msgid "*Get there:* More > Administration > Global System Preferences"
-msgstr ""
+msgstr "*在这里：* 更多 > 管理 > 全局系统参数"
 
 #: ../../source/globalpreferences.rst:13
 msgid "|image0|"
@@ -5924,7 +5919,7 @@ msgstr ""
 
 #: ../../source/globalpreferences.rst:15
 msgid "System preferences can be searched (using any part of the preference name or description) using the search box on the 'Administration' page or the search box at the top of each system preferences page."
-msgstr ""
+msgstr "系统参数可以通过管理页面顶端的检索框检索（可以通过参数名字或者描述中的任意部分进行检索）也可以通过每个系统参数设置页面顶端的检索框检索。"
 
 #: ../../source/globalpreferences.rst:19
 msgid "|image1|"
@@ -5932,7 +5927,7 @@ msgstr ""
 
 #: ../../source/globalpreferences.rst:21
 msgid "When editing preferences a ^(modified)^ tag will appear next to items you change until you click the 'Save All' button:"
-msgstr ""
+msgstr "当编辑参数时，在您修改过的项目后面会有 ^(修改过)^ 标记，直到您点击“保存所有”按钮："
 
 #: ../../source/globalpreferences.rst:24
 msgid "|image2|"
@@ -5940,7 +5935,7 @@ msgstr ""
 
 #: ../../source/globalpreferences.rst:26
 msgid "After saving your preferences you'll get a confirmation message telling you what preferences were saved:"
-msgstr ""
+msgstr "当您保存参数时您会受到哪些参数您已经保存的确认信息："
 
 #: ../../source/globalpreferences.rst:29
 msgid "|image3|"
@@ -5948,7 +5943,7 @@ msgstr ""
 
 #: ../../source/globalpreferences.rst:31
 msgid "Each section of preferences can be sorted alphabetically by clicking the small down arrow to the right of the word 'Preference' in the header column"
-msgstr ""
+msgstr "每部分参数都可以通过点击“参数”标题栏右侧的小箭头来按照字母顺序排序"
 
 #: ../../source/globalpreferences.rst:35
 msgid "|image4|"
@@ -5956,11 +5951,11 @@ msgstr ""
 
 #: ../../source/globalpreferences.rst:37
 msgid "If the preference refers to monetary values (like :ref:`maxoutstanding`) the currency displayed will be the default you set in your :ref:`Currencies and Exchange Rates` administration area. In the examples to follow they will all read USD for U.S. Dollars."
-msgstr ""
+msgstr "如果首选项涉及货币值（如 :ref:`maxoutstanding`），则显示的货币将是您在管理区域的 :ref:`Currencies and Exchange Rates` 中设置的默认值。在后面的示例中，它们都将读作 USD，也就是 U.S.Dollars。"
 
 #: ../../source/globalpreferences.rst:43
 msgid "**Important**"
-msgstr ""
+msgstr "**重要**"
 
 #: ../../source/globalpreferences.rst:45
 msgid "For libraries systems with unique URLs for each site the system preference can be overridden by editing your koha-http.conf file this has to be done by a system administrator or someone with access to your system files. For example if all libraries but one want to have search terms highlighted in results you set the OpacHighlightedWords preference to 'Highlight' then edit the koha-http.conf for the library that wants this turned off by adding 'SetEnv OVERRIDE\\_SYSPREF\\_OpacHighlightedWords \"0\"'. After restarting the web server that one library will no longer see highlighted terms. Consult with your system administrator for more information."

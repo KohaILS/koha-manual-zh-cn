@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Acquisitions &mdash; Koha Manual 22.05 (development) 文档</title>
+  <title>采访 &mdash; Koha 手册 22.05（开发版本） 文档</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -22,7 +22,7 @@
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="Administration" href="administrationpreferences.html" />
-    <link rel="prev" title="Accounting" href="accountspreferences.html" /> 
+    <link rel="prev" title="出纳" href="accountspreferences.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,10 +30,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search"  style="background: #4a9b32" >
-            <a href="index.html" class="icon icon-home"> Koha Manual
+            <a href="index.html" class="icon icon-home"> Koha 手册
           </a>
               <div class="version">
-                22.05 (development)
+                22.05（开发版本）
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -44,20 +44,20 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Introduction to the Koha installation process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html#web-installer">Web installer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html#onboarding-tool">Onboarding tool</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="globalpreferences.html">Global system preferences</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="accountspreferences.html">Accounting</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Acquisitions</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Koha 安装过程介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#web-installer">网页安装器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#onboarding-tool">在线工具</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="globalpreferences.html">全局系统参数设置</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="accountspreferences.html">出纳</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">采访</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#edifact">EDIFACT</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#edifact-syspref-label">EDIFACT</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#edifactinvoiceimport">EdifactInvoiceImport</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#edifactlsq">EdifactLSQ</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#policy">Policy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#policy">策略</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#acqcreateitem">AcqCreateItem</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#acqenablefiles">AcqEnableFiles</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#acqitemsetsubfieldswhenreceiptiscancelled">AcqItemSetSubfieldsWhenReceiptIsCancelled</a></li>
@@ -134,7 +134,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #4a9b32" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Koha Manual</a>
+          <a href="index.html">Koha 手册</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -142,13 +142,13 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="globalpreferences.html">Global system preferences</a> &raquo;</li>
-      <li>Acquisitions</li>
+          <li><a href="globalpreferences.html">全局系统参数设置</a> &raquo;</li>
+      <li>采访</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/acquisitionspreferences.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
   </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
-        <a href="accountspreferences.html" class="btn btn-neutral float-left" title="Accounting" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="accountspreferences.html" class="btn btn-neutral float-left" title="出纳" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="administrationpreferences.html" class="btn btn-neutral float-right" title="Administration" accesskey="n">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
   </div>
   <hr/>
@@ -157,8 +157,8 @@
            <div itemprop="articleBody">
              
   <section id="acquisitions">
-<span id="acquisitions-system-preferences-label"></span><h1>Acquisitions<a class="headerlink" href="#acquisitions" title="永久链接至标题"></a></h1>
-<p><em>Get there:</em> More &gt; Administration &gt; Global system preferences &gt; Acquisitions</p>
+<span id="acquisitions-system-preferences-label"></span><h1>采访<a class="headerlink" href="#acquisitions" title="永久链接至标题"></a></h1>
+<p><em>在这里：</em> 更多 &gt; 管理 &gt; 全局系统参数 &gt; 采访</p>
 <section id="edifact">
 <span id="acquisitions-edifact-system-preferences-label"></span><h2>EDIFACT<a class="headerlink" href="#edifact" title="永久链接至标题"></a></h2>
 <section id="edifact-syspref-label">
@@ -216,7 +216,7 @@ should be mapped.</p></li>
 </section>
 </section>
 <section id="policy">
-<span id="acquisitions-policy-label"></span><h2>Policy<a class="headerlink" href="#policy" title="永久链接至标题"></a></h2>
+<span id="acquisitions-policy-label"></span><h2>策略<a class="headerlink" href="#policy" title="永久链接至标题"></a></h2>
 <section id="acqcreateitem">
 <span id="acqcreateitem-label"></span><h3>AcqCreateItem<a class="headerlink" href="#acqcreateitem" title="永久链接至标题"></a></h3>
 <p>Asks: Create an item when ___.</p>
@@ -628,15 +628,15 @@ titles on the second page</p></li>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="accountspreferences.html" class="btn btn-neutral float-left" title="Accounting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="accountspreferences.html" class="btn btn-neutral float-left" title="出纳" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="administrationpreferences.html" class="btn btn-neutral float-right" title="Administration" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; 版权所有 2021-22, Koha Community.
-      <span class="lastupdated">最后更新于 2022-09-02 16:54:31.
+    <p>&#169; 版权所有 2021-22, Koha 社区.
+      <span class="lastupdated">最后更新于 2022-10-07 08:24:18.
       </span></p>
   </div>
 
